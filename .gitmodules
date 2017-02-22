@@ -1,0 +1,3 @@
+[submodule "storage/app/public/broadway-tei"]
+	path = storage/app/public/broadway-tei
+	url = https://github.com/lsulibraries/broadway-tei
