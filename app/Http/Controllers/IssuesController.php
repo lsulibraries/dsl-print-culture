@@ -18,7 +18,10 @@ class IssuesController extends Controller
 
     function show($year, $month, $day){
         $id = $year . $month . $day;
-        return response()->download($this->getFilePathForID($id));
+
+	$url = 'app/public/broadway-tei/tei/' . $this->getFilenameForID($id);
+	$xml = Storage::get($this->getFilePathForID($id));
+	return response()->file(storage_path($url));
     }
 
     private function getFilenameForID($id){
