@@ -1,0 +1,37 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+  return view('welcome');
+});
+
+Route::get('/broadwayjournal/issues/{month}/{day}/{year}', function($month, $day, $year){
+  return Storage::get("public/broadway-tei/tei/BroadwayJournal_$year$month$day.xml");
+});
+
+Route::get('/broadwayjournal/issues', function(){
+  $issues = Storage::files('public/broadway-tei/tei/');
+  $out = '<ul>';
+  foreach($issues as $issue) {
+    $issue_number = explode('.', explode('_', $issue)[1])[0];
+    $year = substr($issue_number, 0, 4);
+    $mont = substr($issue_number, 4, 2);
+    $day  = substr($issue_number, 6, 2);
+    $date = mktime(0, 0, 0, $mont, $day, $year);
+
+    $path = "/broadwayjournal/issues/$mont/$day/$year";
+    $out .= sprintf('<li><a href="%s">%s</a></ul>', $path, strftime('%B %e, %Y', $date));
+  }
+  $out .= "</ul>";
+  return $out;
+});
