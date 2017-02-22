@@ -24,6 +24,19 @@ class IssuesController extends Controller
 	return response()->file(storage_path($url));
     }
 
+    function toc($year, $month, $day){
+        $id  = $year . $month . $day;
+        $xml = new \SimpleXMLElement(
+            Storage::get($this->getFilePathForID($id))
+        );
+        $toc = [];
+//        foreach($xml->xpath("//bibl[@type='section']") as $section){
+        foreach($xml->teiHeader->fileDesc->sourceDesc->listBibl->bibl as $bibl){
+            $toc[] = (string)$bibl->title;
+        }
+        return response()->json($toc);
+    }
+    
     private function getFilenameForID($id){
       return $this->file_prefix . $id . '.xml';
     }
