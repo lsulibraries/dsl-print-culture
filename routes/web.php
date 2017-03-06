@@ -44,3 +44,7 @@ Route::get('/broadwayjournal/', function () {
 
 </script></body></html>";
 });
+
+Route::get('skills', function(){
+	return ['Laravel', 'Vue', 'PHP', 'JavaScrip', 'Tooling'];
+});
