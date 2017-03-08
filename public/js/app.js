@@ -16,14 +16,14 @@ Vue.component('issues',{
 
 Vue.component('issue',{
 	data() {
-		return {href:'' };
+		return { xmlLink:'',
+		issueXML:''};
 	},
 	mounted() {
-		this.href = this.$el.baseURI.replace(/\/#issues/g, this.$el.innerHTML);
+			this.xmlLink = this.$el.origin + this.$el.innerHTML;
+			axios.get(this.xmlLink).then(response => this.issueXML = response.data);
 	},
-	template: `
-		<a :href="this.href"></a>
-        `
+	template: `<a :href="this.xmlLink"></a>`
 });
 
 Vue.component('tabs', {
