@@ -78,13 +78,33 @@ Vue.component('tab',{
 		}
 });
 
+/*
+new Vue.component('path-dict', {
+	data() {
+		return { journals: []};
+	},
+	mounted() {
+		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
+	},
+	template: `<div><script>
+		uriDict = {'1845':{'01':{},'02':{},'03':{},'04':{},'05':{},'06':{},'07':{},'08':{},'09':{},'10':{},'11':{},'12':{},  },'1846':{'01':{}}};
+            for(journal in journals){
+                split = journals[journal]['uri'].split('/');
+                year = split[3];
+                month = split[4];
+                day = split[5];
+                uriDict[year][month][day] =  journals[journal]['uri'];
+            }
+            console.log(uriDict['1845']['01']['04']);
+		</script></div>`
+});
+*/
 new Vue({
 	el:'#app',
 	data: {
-		journals: [],
+		journals: []
 	},
 	mounted() {
 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
 	}
-
-})
+});
