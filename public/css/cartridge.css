@@ -1,0 +1,360 @@
+body {
+	background: #c9c9c9;
+	font-family: Roboto;
+}
+
+.container{
+	margin: 0 auto;
+	width: 80vw;
+	margin-top:50px;
+	position: relative;
+}
+
+body > .container div:not(.topMenu){
+	background: #333133;
+}
+
+.container a:not(.topMenu a){
+	text-decoration: none;
+	color: #c9c9c9;
+}
+
+.titleBar{
+	border-bottom: 1px solid #c9c9c9;
+	display: flex;
+	align-items: center;
+	display: -ms-flex;
+	height: 29px;
+}
+
+.sizeToggle{
+	height:15px;
+	width:16px;
+	background:#c9c9c9;
+	margin-left:8px;
+}
+
+.topMenu a{
+	background: none;
+	color: #333133;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	margin-left: 20px;
+	font-weight: 600;
+}
+
+.topMenu{
+	background: none;
+	color: #333133;
+	text-decoration: none;
+	text-align: right;
+	margin-bottom: 2px;
+}
+
+.issueBar {
+	width: 120px;
+	height: 80vh;
+	float: left;
+	border-right: 1px solid #c9c9c9;
+	position: relative;
+}
+
+.mainColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.controlBar{
+	border-bottom: 1px solid #c9c9c9;
+}
+
+.documentToggle{
+    display: inline-flex;
+    width: 150px;
+    margin: 10px 0px 10px 2px;
+    height: 58px;
+    position: relative;
+}
+
+.documentToggle:hover .indicatorToggle{
+	background: white!important;
+	-webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+.labelToggle {
+    position: absolute;
+    bottom: 0px;
+    padding: 3px 10px 0px 1px;
+    color: #c9c9c9;
+    font-size: 12px;
+}
+
+.indicatorToggle{
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	background: white;
+	height: 7px;
+	width: 7px;
+	   	-webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.teiToggle{
+	background: #00b7eb!important;
+	margin-left: 10px;
+}
+
+.pdfToggle{
+	background: #ff0090!important;
+}
+
+.txtToggle{
+	background: #ffff6a!important;
+}
+
+.titleText {
+    color: #c9c9c9;
+    margin-left: 10px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.issueMask{
+	width: 40px;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	left: 66px;
+}
+
+.singleIndex {
+    color: grey;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    top: 80px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px; 
+}
+
+.childIndex {
+    color: grey;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top: 80px;
+    padding-left: 0px;
+    border-top: 1px solid #c9c9c9;
+    font-size: 12px;
+    margin-bottom: 10px;
+    background: #c9c9c9!important;
+}
+
+.issueIndex {
+    position: relative;
+    left: -27px;
+    background: none!important;
+}
+
+.indicatorYear{
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	background: grey!important;
+	height: 3px;
+	width: 3px;
+	 -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.indicatorIndex{
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	background: grey!important;
+	height: 3px;
+	width: 3px;
+	 -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.childIndicator{
+    position: absolute;
+    left: 27px;
+    bottom: 2px;
+    background: #c9c9c9!important;
+    height: 3px;
+    width: 3px;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.singleIndex:hover .indicatorIndex{
+	background: white!important;
+ 	-webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+.childIndex:hover .childIndicator{
+	background: #00b7eb!important;
+ 	-webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+.childIndex:hover .childText{
+	background: #ececec!important;
+ 	-webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+.singleIndex:hover .singleText{
+	color: white;
+ 	-webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+.singleText{
+	-webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.childText {
+    margin-left: 26px;
+    padding: 5px;
+    color: #676767;
+    font-weight: 900;
+    background: #ffffff!important;
+}
+
+.centerHome {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logoSubtitle {
+	font-family: Roboto;
+	margin: 10px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: white;
+}
+
+.mainWindow {
+	font-family: Courier New;
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    font-size: 12px;
+    color: #999999;
+	min-height: calc(80vh - 79px);
+}
+
+.footerBar{
+    border-top: 1px solid #c9c9c9;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.ccLogo{
+    margin: 20px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.ccText {
+    color: #999;
+    font-size: 12px;
+}
+
+.ccText a {
+    color: #999;
+	text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+
+.container {
+    margin: 0px;
+    margin-left: 20px;
+        margin-right: 0px;
+
+    margin-top: 50px;
+    position: relative;
+    width: auto;
+}
+
+.documentToggle {
+width: 100px;
+}	
+
+.issueIndex {
+    position: relative;
+    left: -23px;
+    background: none !important;
+}
+
+.issueMask {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 46px;
+}
+
+.issueBar {
+    width: 91px;
+    height: 80vh;
+    float: left;
+    border-right: 1px solid #c9c9c9;
+    position: relative;
+        min-height: 782px;
+}
+
+}
+
+@media (max-width: 700px) {
+
+.documentToggle {
+width: 80px;
+}	
+
+.issueIndex {
+    position: relative;
+    left: -23px;
+    background: none !important;
+}
+
+.issueMask {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 46px;
+}
+
+.titleText, .topMenu a{
+	font-size:8px;
+}
+
+}
