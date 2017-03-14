@@ -13,18 +13,16 @@ Vue.component('top-menu',{
 		selectCred: function()  {this.$root.windowthis= topMenuText['creditstext'];}
 	},
 	template: `
-			<div>
 				<div class='topMenu'>
 					<a @click="selectAbout()">About</a>
 					<a @click="selectTech()">Technical</a>
 					<a @click="selectCred()">Credits</a>
-				</div> 
-			</div>
-			` 
+				</div>
+			`
 });
 
 Vue.component('title-bar',{
-	data(){ 
+	data(){
 		return { selectedIssueTitle:'' }
 	},
 	mounted() {
@@ -59,7 +57,7 @@ Vue.component('index-child',{
 
 Vue.component('issue-bar',{
 	data(){
-		return { 
+		return {
 			childrenJan45: ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
 			Jan45days: ['04','11','18','25'],
 			childrenFeb45: ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
@@ -91,6 +89,7 @@ Vue.component('issue-bar',{
 	template: `
 		<div class="issueBar">
 			<div class="issueIndex">
+				<div class="issueMask">
 					<div class="singleIndex">
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
@@ -98,7 +97,7 @@ Vue.component('issue-bar',{
 					<div class="singleIndex">
 						<div class="singleText">JAN</div>
 						<div class="indicatorIndex"></div>
-					</div>	
+					</div>
 					<index-child :href="each" v-for="(each, index) in childrenJan45" v-text="Jan45days[index]" ></index-child>
 					<div class="singleIndex">
 						<div class="singleText">FEB</div>
@@ -139,7 +138,7 @@ Vue.component('issue-bar',{
 					<div class="singleIndex">
 						<div class="singleText">SEP</div>
 						<div class="indicatorIndex"></div>
-					</div>	
+					</div>
 					<index-child :href="each" v-for="(each, index) in childrenSep45" v-text="Sep45days[index]"></index-child>
 					<div class="singleIndex">
 						<div class="singleText">OCT</div>
@@ -159,12 +158,14 @@ Vue.component('issue-bar',{
 					<div class="singleIndex">
 						<div class="yearText">1846</div>
 						<div class="indicatorYear"></div>
-					</div>	
+					</div>
 					<div class="singleIndex">
 						<div class="singleText">JAN</div>
 						<div class="indicatorIndex"></div>
 					</div>
 					<index-child :href="each" v-for="(each, index) in childrenJan46" v-text="Jan46days[index]"></index-child>
+				</div>
+				<div class="issueFooter"></div>
 			</div>
 			<div class="footerBar">
 			<img src="images/cc_logo.png" class="ccLogo"></img> 
@@ -177,15 +178,15 @@ Vue.component('issue-bar',{
 
 var view = ['TEI','PDF','TXT']
 
-Vue.component('controll-bar',{
+Vue.component('control-bar',{
 	data() {return {whichview:''}},
-	methods: {	
+	methods: {
 		selectTEI: function() {this.whichview= view[0];console.log(this.whichview)},
 		selectPDF: function()  {this.whichview= view[1];console.log(this.whichview)},
 		selectTXT: function()  {this.whichview= view[2];console.log(this.whichview)}
 	},
 	template: `
-				<div class='controllBar'>
+				<div class='controlBar'>
 					<div @click="selectTEI()" class="teiToggle documentToggle">
 						<div class="lableToggle">TEI</div>
 						<div class=indicatorToggle></div>
@@ -208,17 +209,15 @@ Vue.component('main-window',{
         iframe:  function() {this.source=this.$root.iframethis ;return this.source;}
      },
 	template: `
-	 	<div>
 	 		<div class="mainWindow">
 	 			<img src="images/logo.png"></img>
 						<div class="logoSubtitle">The Broadway Journal</div>
 					The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.<br><br>
 
 					In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.
+		 		<div @click='iframe()' class="mainWindow">{{this.$root.windowthis}}\n{{this.$root.iframethis}}</div>
+				<iframe :src=this.$root.iframethis></iframe>
 			</div>
-	 		<div @click='iframe()' class="mainWindow">{{this.$root.windowthis}}\n{{this.$root.iframethis}}</div>
-			<iframe :src=this.$root.iframethis></iframe>
-	 	</div>
 			`
 });
 

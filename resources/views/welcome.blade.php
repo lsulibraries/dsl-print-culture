@@ -6,16 +6,14 @@
         <title>The Broadway Journal</title>
     </head>
     <body>
-        <div id="container">
-            <div>
-                <top-menu></top-menu>  
+        <div id="container" class="container" >
+                <top-menu></top-menu>
                 <title-bar></title-bar>
                 <issue-bar></issue-bar>
                 <div class="mainColumn">
-                    <controll-bar></controll-bar>
-                    <main-window ></main-window> 
-                </div>
-            </div>
+                    <control-bar></control-bar>
+                    <main-window></main-window>
+		</div>
         </div>
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
