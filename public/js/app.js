@@ -188,15 +188,15 @@ Vue.component('control-bar',{
 	template: `
 				<div class='controlBar'>
 					<div @click="selectTEI()" class="teiToggle documentToggle">
-						<div class="lableToggle">TEI</div>
+						<div class="labelToggle">TEI</div>
 						<div class=indicatorToggle></div>
 					</div>
 					<div @click="selectPDF()" class="pdfToggle documentToggle">
-						<div class="lableToggle">PDF</div>
+						<div class="labelToggle">PDF</div>
 						<div class=indicatorToggle></div>
 					</div>
 					<div @click="selectTXT()" class="txtToggle documentToggle">
-						<div class="lableToggle">TXT</div>
+						<div class="labelToggle">TXT</div>
 						<div class=indicatorToggle></div>
 					</div>
 				</div>
