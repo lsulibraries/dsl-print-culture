@@ -92,26 +92,37 @@ Vue.component('issue-month',{
 			issues: this.$parent.$root.paths[this.list]	
 			}
 	},
-	props: ['month','list'],
+	props: {month: '',
+			list: '',
+		},
 	methods: { 
 		showChildren: function(){
 			if(this.toggled==false){
+			//turn on my children
 				for (each in this.$children){
 					this.$children[each].meSeen=true;
 					this.toggled=true;
-					} 
+				}
+			//turn of everyone else's children
+				for(one in this.$parent.$children){
+							if (this.$parent.$children[one].list != this.list){
+								for(two in this.$parent.$children[one].$children){
+								this.$parent.$children[one].$children[two].meSeen =false;
+								 }
+							}
+					}
 			}
 			else{
+				//turn off my children
 				for (each in this.$children){
-				this.$children[each].meSeen=false;
-				this.toggled=false;
-				}
+					this.$children[each].meSeen=false;
+					this.toggled=false;
+					}
 			}
 		}
-
-	}, 
+	},
 	template: `
-				<div class="singleIndex">
+				<div>
 					<div class="singleText" @click="showChildren()">{{this.month}}</div>
 					<div class="indicatorIndex"></div>
 					<index-child :href="each" v-for="each in this.issues" ></index-child>
@@ -128,7 +139,6 @@ Vue.component('index-child',{
 	props: ['href'],
 	methods: {
 		fillIframe: function(){
-		
 		this.$root.iframethis=this.href;
 		}
 	},
@@ -147,9 +157,17 @@ Vue.component('issue-bar',{
 	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
 		 }
 	 },
-	methods: {
-		//jan45Expand: function() {this.$children[0].meSeen=true; console.log(this)} //@click="jan45Expand()"
-	},
+	// created(){
+	// 	this.monthIndicies=this.$children
+	// },
+	// methods: {
+	// 	selectMonth(listPassed) {
+	// 		console.log(this)
+	// 		this.monthIndicies.forEach(indexMonth => {
+	// 			indexMonth.toggled = (indexMonth.list==listPassed);
+	// 		});
+	// 	}
+	// },
 	template: `
 		<div class="issueBar">
 			<div class="issueMask"></div>
@@ -158,18 +176,18 @@ Vue.component('issue-bar',{
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
-					<issue-month :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
-					<issue-month :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
-					<issue-month :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
-					<issue-month :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
-					<issue-month :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
-					<issue-month :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
-					<issue-month :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
-					<issue-month :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
-					<issue-month :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
-					<issue-month :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
-					<issue-month :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
-					<issue-month :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
+					<issue-month  :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
 				</div>
 		<div class="issueIndex">
 				<div class="singleIndex" href="">
