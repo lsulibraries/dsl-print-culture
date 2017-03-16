@@ -4,7 +4,12 @@ var topMenuText = { abouttext: "It's what I'm all about",
 				}
 
 Vue.component('top-menu',{
-	data() {return {currenttxt:topMenuText['abouttext']}},
+	data() {return {currenttxt:topMenuText['abouttext'],
+				aboutActive: false,
+				techActive: false,
+				credActive: false
+		}
+	},
 	methods: {	
 		selectAbout: function() {this.$root.windowthis= topMenuText['abouttext'];},
 		selectTech: function()  {this.$root.windowthis= topMenuText['techtext'];},
@@ -12,43 +17,45 @@ Vue.component('top-menu',{
 	},
 	template: `
 				<div class='topMenu'>
-					<a @click="selectAbout()">About</a>
-					<a @click="selectTech()">Technical</a>
-					<a @click="selectCred()">Credits</a>
+					<a v-bind:class="{viewTop: aboutActive}" @click="selectAbout()">About</a>
+					<a v-bind:class="{viewTop: techActive}" @click="selectTech()">Technical</a>
+					<a v-bind:class="{viewTop: credActive}" @click="selectCred()">Credits</a>
 				</div> 
 			` 
 });
 
-var view = ['TEI','PDF','TXT']
-Vue.component('control-bar',{
-	data() {return {
-				whichview: '',
-				isActive: [true,false,false]
-					}
+Vue.component('control-button',{
+	data(){
+		return {
+			isActive: false
+		}
 	},
 	methods: {	
-		selectMe: function(which) {
-					this.whichview= view[which];
-					console.log(this.whichview);
-						for(each in this.isActive){
-							this.isActive[each] = (each == which);
+		selectMe: function() {
+					this.$parent.whichview = this.$el.innerText;
+					this.isActive = true;
+					for(each in this.$parent.$children){
+						this.$parent.$children[each].isActive = (this.$parent.$children[each].$el.innerText == this.$el.innerText)
 						}
 					}
 	},
 	template: `
+		<div  class="documentToggle" @click="selectMe()">
+				<div class="labelToggle"><slot></slot></div>
+				<div v-bind:class="{viewing: isActive}" class="indicatorToggle"></div>
+		</div>
+	`
+});
+Vue.component('control-bar',{
+	data() {return {
+				whichview:'',
+					}
+	},
+	template: `
 				<div class='controlBar'>
-					<div @click="selectMe(0)" class="teiToggle documentToggle">
-						<div class="labelToggle">TEI</div>
-						<div vbind:class="{viewing: this.isActive[0]}" class="indicatorToggle"></div>
-					</div>
-					<div @click="selectMe(1)" class="pdfToggle documentToggle">
-						<div class="labelToggle">PDF</div>
-						<div v-bind:class="{viewing: this.isActive[1]}" class="indicatorToggle"></div>
-					</div>
-					<div @click="selectMe(2)" class="txtToggle documentToggle">
-						<div class="labelToggle">TXT</div>
-						<div v-bind:class="{viewing: this.isActive[2]}" class="indicatorToggle"></div>
-					</div>
+					<control-button class="teiToggle">TEI</control-button>
+					<control-button class="pdfToggle">PDF</control-button>
+					<control-button class="txtToggle">TXT</control-button>
 				</div>
 			`
 });
@@ -84,6 +91,7 @@ Vue.component('main-window',{
 					The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.<br><br>
 
 					In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.
+			
 	 			<div @click='iframe()' class="mainInner">{{this.$root.windowthis}}\n{{this.$root.iframethis}}</div>
 				<iframe :src=this.$root.iframethis></iframe>
 			</div>
@@ -93,13 +101,13 @@ Vue.component('main-window',{
 Vue.component('issue-month',{
 	data(){
 		return { toggled: false,
-			issues: this.$parent.$root.paths[this.list]
+			issues: this.$parent.$root.paths[this.list]	
 			}
 	},
 	props: {month: '',
 			list: '',
 		},
-	methods: {
+	methods: { 
 		showChildren: function(){
 			if(this.toggled==false){
 			//turn on this.$children
@@ -111,7 +119,8 @@ Vue.component('issue-month',{
 				for(one in this.$parent.$children){
 							if (this.$parent.$children[one].list != this.list){
 								for(two in this.$parent.$children[one].$children){
-								this.$parent.$children[one].$children[two].meSeen =false;
+								this.$parent.$children[one].$children[two].meSeen=false;
+								this.$parent.$children[one].toggled=false;
 								 }
 							}
 					}
@@ -126,14 +135,14 @@ Vue.component('issue-month',{
 		}
 	},
 	template: `
-			<div v-bind:class="{activeMonth: toggled}">
-				<div @click="showChildren()">
-					<div v-bind:class="{activeMonth: toggled}" class="singleText" >{{this.month}}</div>
-					<div class="indicatorIndex"></div>
+				<div v-bind:class="{activeMonth: toggled}">
+					<div @click="showChildren()">
+						<div class="singleText" >{{this.month}}</div>
+						<div class="indicatorIndex"></div>
+					</div>
+					<index-child :href="each" v-for="each in this.issues" ></index-child>
 				</div>
-				<index-child :href="each" v-for="each in this.issues" ></index-child>
-			</div>
-				`
+			`
 });
 
 Vue.component('index-child',{
@@ -163,17 +172,6 @@ Vue.component('issue-bar',{
 	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
 		 }
 	 },
-	// created(){
-	// 	this.monthIndicies=this.$children
-	// },
-	// methods: {
-	// 	selectMonth(listPassed) {
-	// 		console.log(this)
-	// 		this.monthIndicies.forEach(indexMonth => {
-	// 			indexMonth.toggled = (indexMonth.list==listPassed);
-	// 		});
-	// 	}
-	// },
 	template: `
 		<div class="issueBar">
 			<div class="issueMask"></div>
@@ -195,10 +193,10 @@ Vue.component('issue-bar',{
 					<issue-month  :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
 					<issue-month  :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
 				</div>
-		<div class="issueIndex">
-				<div class="singleIndex" href="">
-					<div class="yearText">1845</div>
-					<div class="indicatorYear"></div>
+				<div class="issueIndex">
+					<div class="singleIndex" href="">
+						<div class="yearText">1845</div>
+						<div class="indicatorYear"></div>
 				</div>
 				<issue-month :month='months[0]' :list='lists[12]' class="singleIndex"></issue-month>
 			</div>
