@@ -15,6 +15,7 @@
                     <control-bar></control-bar>
                     <main-window ></main-window> 
                 </div>
+		<footer-bar></footer-bar>
         </div>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>

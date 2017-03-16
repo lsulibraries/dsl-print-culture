@@ -1,64 +1,66 @@
 body {
-	background: #c9c9c9;
-	font-family: Roboto;
+    background: #c9c9c9;
+    font-family: Roboto;
 }
 
-.container{
-	margin: 0 auto;
-	width: 80vw;
-	margin-top:50px;
-	position: relative;
+#container{
+    margin: 0 auto;
+    width: 80vw;
+    margin-top:50px;
+    position: relative;
 }
 
-body > .container div:not(.topMenu){
-	background: #333133;
+body > #container div:not(.topMenu){
+    background: #333133;
 }
 
-.container a:not(.topMenu a){
-	text-decoration: none;
-	color: #c9c9c9;
+#container a:not(.topMenu a){
+    text-decoration: none;
+    color: #c9c9c9;
 }
 
 .titleBar{
-	border-bottom: 1px solid #c9c9c9;
-	display: flex;
-	align-items: center;
-	display: -ms-flex;
-	height: 29px;
+    border-bottom: 1px solid #c9c9c9;
+    display: flex;
+    align-items: center;
+    display: -ms-flex;
+    height: 29px;
+        background: #333133;
 }
 
 .sizeToggle{
-	height:15px;
-	width:16px;
-	background:#c9c9c9;
-	margin-left:8px;
+    height:15px;
+    width:16px;
+    background:#c9c9c9;
+    margin-left:8px;
 }
 
 .topMenu a{
-	background: none;
-	color: #333133;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 12px;
-	margin-left: 20px;
-	font-weight: 600;
+    background: none;
+    color: #333133;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 600;
 }
 
 .topMenu{
-	background: none;
-	color: #333133;
-	text-decoration: none;
-	text-align: right;
-	margin-bottom: 2px;
+    background: none;
+    color: #333133;
+    text-decoration: none;
+    text-align: right;
+    margin-bottom: 2px;
 }
 
 .issueBar {
-	width: 120px;
-	height: 80vh;
-	float: left;
-	border-right: 1px solid #c9c9c9;
-	position: relative;
+    width: 120px;
+    height: 80vh;
+    float: left;
+    border-right: 1px solid #c9c9c9;
+    position: relative;
+        background: #333133;
 }
 
 .mainColumn{
@@ -67,7 +69,8 @@ body > .container div:not(.topMenu){
 }
 
 .controlBar{
-	border-bottom: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    background: #333133;
 }
 
 .documentToggle{
@@ -79,8 +82,8 @@ body > .container div:not(.topMenu){
 }
 
 .documentToggle:hover .indicatorToggle{
-	background: white!important;
-	-webkit-transition-duration: 0s;
+    background: white!important;
+    -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
 
@@ -90,30 +93,31 @@ body > .container div:not(.topMenu){
     padding: 3px 10px 0px 1px;
     color: #c9c9c9;
     font-size: 12px;
+    background: #333133;
 }
 
 .indicatorToggle{
-	position: absolute;
-	left: 2px;
-	top: 2px;
-	background: white;
-	height: 7px;
-	width: 7px;
-	   	-webkit-transition-duration: .2s;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background: white;
+    height: 7px;
+    width: 7px;
+    -webkit-transition-duration: .2s;
     transition-duration: .2s;
 }
 
 .teiToggle{
-	background: #00b7eb!important;
-	margin-left: 10px;
+    background: #00b7eb!important;
+    margin-left: 10px;
 }
 
 .pdfToggle{
-	background: #ff0090!important;
+    background: #ff0090!important;
 }
 
 .txtToggle{
-	background: #ffff6a!important;
+    background: #ffff6a!important;
 }
 
 .titleText {
@@ -124,11 +128,12 @@ body > .container div:not(.topMenu){
 }
 
 .issueMask{
-	width: 40px;
-	height: 100%;
-	position: absolute;
-	z-index: 2;
-	left: 66px;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 66px;
+        background: #333133;
 }
 
 .singleIndex {
@@ -145,19 +150,17 @@ body > .container div:not(.topMenu){
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 10px; 
+    background: #333133;
+
+
 }
 
 .childIndex {
     color: grey;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
     position: relative;
-    top: 80px;
     padding-left: 0px;
     border-top: 1px solid #c9c9c9;
     font-size: 12px;
-    margin-bottom: 10px;
     background: #c9c9c9!important;
 }
 
@@ -168,24 +171,24 @@ body > .container div:not(.topMenu){
 }
 
 .indicatorYear{
-	position: absolute;
-	left: 2px;
-	bottom: 2px;
-	background: grey!important;
-	height: 3px;
-	width: 3px;
-	 -webkit-transition-duration: .2s;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    background: grey!important;
+    height: 3px;
+    width: 3px;
+     -webkit-transition-duration: .2s;
     transition-duration: .2s;
 }
 
 .indicatorIndex{
-	position: absolute;
-	left: 2px;
-	bottom: 2px;
-	background: grey!important;
-	height: 3px;
-	width: 3px;
-	 -webkit-transition-duration: .2s;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    background: grey!important;
+    height: 3px;
+    width: 3px;
+     -webkit-transition-duration: .2s;
     transition-duration: .2s;
 }
 
@@ -201,31 +204,31 @@ body > .container div:not(.topMenu){
 }
 
 .singleIndex:hover .indicatorIndex{
-	background: white!important;
- 	-webkit-transition-duration: 0s;
+    background: white!important;
+    -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
 
 .childIndex:hover .childIndicator{
-	background: #00b7eb!important;
- 	-webkit-transition-duration: 0s;
+    background: #00b7eb!important;
+    -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
 
 .childIndex:hover .childText{
-	background: #ececec!important;
- 	-webkit-transition-duration: 0s;
+    background: #ececec!important;
+    -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
 
 .singleIndex:hover .singleText{
-	color: white;
- 	-webkit-transition-duration: 0s;
+    color: white;
+    -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
 
 .singleText{
-	-webkit-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
     transition-duration: .2s;
 }
 
@@ -248,25 +251,29 @@ body > .container div:not(.topMenu){
 }
 
 .logoSubtitle {
-	font-family: Roboto;
-	margin: 10px;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 10px;
-	color: white;
+    font-family: Roboto;
+    margin: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: white;
 }
 
 .mainWindow {
-	font-family: Courier New;
+    font-family: Courier New;
     display: flex;
     display: -ms-flexbox;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 80%;
     font-size: 12px;
     color: #999999;
-	min-height: calc(80vh - 79px);
+    min-height: calc(80vh - 79px);
+    background: #333133;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .footerBar{
@@ -289,12 +296,12 @@ body > .container div:not(.topMenu){
 
 .ccText a {
     color: #999;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 @media (max-width: 1100px) {
 
-.container {
+#container {
     margin: 0px;
     margin-left: 20px;
         margin-right: 0px;
@@ -306,7 +313,7 @@ body > .container div:not(.topMenu){
 
 .documentToggle {
 width: 100px;
-}	
+}   
 
 .issueIndex {
     position: relative;
@@ -329,6 +336,7 @@ width: 100px;
     border-right: 1px solid #c9c9c9;
     position: relative;
         min-height: 782px;
+    background: #333133;        
 }
 
 }
@@ -337,7 +345,7 @@ width: 100px;
 
 .documentToggle {
 width: 80px;
-}	
+}   
 
 .issueIndex {
     position: relative;
@@ -354,7 +362,9 @@ width: 80px;
 }
 
 .titleText, .topMenu a{
-	font-size:8px;
+    font-size:8px;
 }
 
 }
+
+

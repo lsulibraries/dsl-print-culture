@@ -19,30 +19,35 @@ Vue.component('top-menu',{
 			` 
 });
 
-
-
 var view = ['TEI','PDF','TXT']
-
 Vue.component('control-bar',{
-	data() {return {whichview:''}},
+	data() {return {
+				whichview: '',
+				isActive: [true,false,false]
+					}
+	},
 	methods: {	
-		selectTEI: function() {this.whichview= view[0];console.log(this.whichview)},
-		selectPDF: function()  {this.whichview= view[1];console.log(this.whichview)},
-		selectTXT: function()  {this.whichview= view[2];console.log(this.whichview)}
+		selectMe: function(which) {
+					this.whichview= view[which];
+					console.log(this.whichview);
+						for(each in this.isActive){
+							this.isActive[each] = (each == which);
+						}
+					}
 	},
 	template: `
 				<div class='controlBar'>
-					<div @click="selectTEI()" class="teiToggle documentToggle">
+					<div @click="selectMe(0)" class="teiToggle documentToggle">
 						<div class="labelToggle">TEI</div>
-						<div class=indicatorToggle></div>
+						<div vbind:class="{viewing: this.isActive[0]}" class="indicatorToggle"></div>
 					</div>
-					<div @click="selectPDF()" class="pdfToggle documentToggle">
+					<div @click="selectMe(1)" class="pdfToggle documentToggle">
 						<div class="labelToggle">PDF</div>
-						<div class=indicatorToggle></div>
+						<div v-bind:class="{viewing: this.isActive[1]}" class="indicatorToggle"></div>
 					</div>
-					<div @click="selectTXT()" class="txtToggle documentToggle">
+					<div @click="selectMe(2)" class="txtToggle documentToggle">
 						<div class="labelToggle">TXT</div>
-						<div class=indicatorToggle></div>
+						<div v-bind:class="{viewing: this.isActive[2]}" class="indicatorToggle"></div>
 					</div>
 				</div>
 			`
@@ -79,7 +84,6 @@ Vue.component('main-window',{
 					The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.<br><br>
 
 					In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.
-			
 	 			<div @click='iframe()' class="mainInner">{{this.$root.windowthis}}\n{{this.$root.iframethis}}</div>
 				<iframe :src=this.$root.iframethis></iframe>
 			</div>
@@ -89,21 +93,21 @@ Vue.component('main-window',{
 Vue.component('issue-month',{
 	data(){
 		return { toggled: false,
-			issues: this.$parent.$root.paths[this.list]	
+			issues: this.$parent.$root.paths[this.list]
 			}
 	},
 	props: {month: '',
 			list: '',
 		},
-	methods: { 
+	methods: {
 		showChildren: function(){
 			if(this.toggled==false){
-			//turn on my children
+			//turn on this.$children
 				for (each in this.$children){
 					this.$children[each].meSeen=true;
 					this.toggled=true;
 				}
-			//turn of everyone else's children
+			//turn off everyone else's children
 				for(one in this.$parent.$children){
 							if (this.$parent.$children[one].list != this.list){
 								for(two in this.$parent.$children[one].$children){
@@ -122,12 +126,14 @@ Vue.component('issue-month',{
 		}
 	},
 	template: `
-				<div>
-					<div class="singleText" @click="showChildren()">{{this.month}}</div>
+			<div v-bind:class="{activeMonth: toggled}">
+				<div @click="showChildren()">
+					<div v-bind:class="{activeMonth: toggled}" class="singleText" >{{this.month}}</div>
 					<div class="indicatorIndex"></div>
-					<index-child :href="each" v-for="each in this.issues" ></index-child>
 				</div>
-			`
+				<index-child :href="each" v-for="each in this.issues" ></index-child>
+			</div>
+				`
 });
 
 Vue.component('index-child',{
@@ -196,12 +202,17 @@ Vue.component('issue-bar',{
 				</div>
 				<issue-month :month='months[0]' :list='lists[12]' class="singleIndex"></issue-month>
 			</div>
-			<div class="issueFooter"></div>
-						<div class="footerBar">
-						<img src="images/cc_logo.png" class="ccLogo"></img> 
-						<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
 		</div>
 		`
+});
+
+Vue.component('footer-bar',{
+	template: `			<div>
+							<div class="issueFooter"></div>
+							<div class="footerBar">
+							<img src="images/cc_logo.png" class="ccLogo"></img> 
+							<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
+						</div>`
 });
 
 new Vue({
@@ -224,8 +235,5 @@ new Vue({
 			'childrenJan46': ['http://52.40.88.89/broadwayjournal/issue/1846/01/03']
 		}
 	},
-	methods: {
-		shown: function(){this.janSeen =true}
-	}
 });
 						
