@@ -2,6 +2,8 @@ var topMenuText = { abouttext: "It's what I'm all about",
 					techtext: "let's get technical",
 					creditstext: "ain't no credit like my credentials"
 				}
+var title =''
+
 
 Vue.component('top-menu',{
 	data() {return {currenttxt:topMenuText['abouttext'],
@@ -63,16 +65,14 @@ Vue.component('control-bar',{
 
 Vue.component('title-bar',{
 	data(){ 
-		return { selectedIssueTitle:'' }
+		return { selectedIssueTitle:'Hello I am a very long title' }
 	},
-	mounted() {
-		return { selectedIssueTitle: this.$root.iframethis}
-		return { log: console.log(this)}
-	},
+	// computed() {
+	// 	 selectedIssueTitle: this.$root.iframethis
+	// },
 	template: `
 			<div class="titleBar">
-				<a href="" class="sizeToggle"></a>
-				<div class="">{{selectedIssueTitle}}</div>
+				<div href="" class="sizeToggle">{{this.$root.iframethis}}</div>
 			</div>
 			`
 });
@@ -82,7 +82,9 @@ Vue.component('title-bar',{
 Vue.component('main-window',{
 	data() {return {source:''}},
 	methods: {
-        iframe:  function() {this.source=this.$root.iframethis ;return this.source;}
+        iframe:  function() {this.source=this.$root.iframethis;
+        					title=this.$root.iframethis;
+        					return this.source;}
      },
 	template: `
 	 		<div class="mainWindow">
