@@ -81,6 +81,10 @@ body {
 
 }
 
+.viewing{
+background: white!important;
+}
+
 .documentToggle:hover .indicatorToggle{
     background: white!important;
     -webkit-transition-duration: 0s;
@@ -425,7 +429,6 @@ width: 80px;
 }
 
 }
-
 
 
 

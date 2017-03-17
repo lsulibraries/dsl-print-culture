@@ -1,27 +1,24 @@
-var topMenuText = { abouttext: "It's what I'm all about",
-					techtext: "let's get technical",
-					creditstext: "ain't no credit like my credentials"
-				}
-var title =''
-
-
 Vue.component('top-menu',{
-	data() {return {currenttxt:topMenuText['abouttext'],
-				aboutActive: false,
-				techActive: false,
-				credActive: false
+	data() {return {
+				actives: [true,false,false]
 		}
 	},
 	methods: {	
-		selectAbout: function() {this.$root.windowthis= topMenuText['abouttext'];},
-		selectTech: function()  {this.$root.windowthis= topMenuText['techtext'];},
-		selectCred: function()  {this.$root.windowthis= topMenuText['creditstext'];}
+		selectAbout: function() {this.actives=[true,false,false];
+								this.$parent.$children[4].topMenuActives=this.actives;
+								},
+		selectTech: function()  {this.actives=[false,true,false];
+								this.$parent.$children[4].topMenuActives=this.actives;
+								},
+		selectCred: function()  {this.actives=[false,false,true];
+								this.$parent.$children[4].topMenuActives=this.actives;
+								}
 	},
 	template: `
 				<div class='topMenu'>
-					<a v-bind:class="{viewTop: aboutActive}" @click="selectAbout()">About</a>
-					<a v-bind:class="{viewTop: techActive}" @click="selectTech()">Technical</a>
-					<a v-bind:class="{viewTop: credActive}" @click="selectCred()">Credits</a>
+					<a v-bind:class="{ viewTop: actives[0] }" @click="selectAbout()">About</a>
+					<a v-bind:class="{ viewTop: actives[1] }" @click="selectTech()">Technical</a>
+					<a v-bind:class="{ viewTop: actives[2] }" @click="selectCred()">Credits</a>
 				</div> 
 			` 
 });
@@ -67,9 +64,6 @@ Vue.component('title-bar',{
 	data(){ 
 		return { selectedIssueTitle:'Hello I am a very long title' }
 	},
-	// computed() {
-	// 	 selectedIssueTitle: this.$root.iframethis
-	// },
 	template: `
 			<div class="titleBar">
 				<div href="" class="sizeToggle">{{this.$root.iframethis}}</div>
@@ -80,21 +74,38 @@ Vue.component('title-bar',{
 
 
 Vue.component('main-window',{
-	data() {return {source:''}},
+	data() {return {source:'',
+					topMenuActives: [true,false,false],
+					aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
+					creditText: ['Lauren Coates','tei markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
+					techText: ['TEI is a thingy','vue.js is a thingy','aws','php','laravel','html','css','linux']
+			}
+	},
 	methods: {
         iframe:  function() {this.source=this.$root.iframethis;
-        					title=this.$root.iframethis;
         					return this.source;}
      },
 	template: `
 	 		<div class="mainWindow">
 	 			<img src="images/logo.png"></img>
 				<div class="logoSubtitle">The Broadway Journal</div>
-					The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.<br><br>
+					
+					<div v-if="topMenuActives[0]">
+					{{ aboutText[0] }}
+					<br><br>
+					{{ aboutText[1] }}
+					</div>
+					
+					<div v-if="topMenuActives[1]">
+					<li v-for="each in techText" v-text="each"></li>
+					</div>
 
-					In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.
-			
-	 			<div @click='iframe()' class="mainInner">{{this.$root.windowthis}}\n{{this.$root.iframethis}}</div>
+					<div v-if="topMenuActives[2]">
+					<li v-for="each in creditText" v-text="each"></li>
+					</div>
+
+					
+	 			<div @click='iframe()' class="mainInner"></div>
 				<iframe :src=this.$root.iframethis></iframe>
 			</div>
 			`
@@ -103,12 +114,10 @@ Vue.component('main-window',{
 Vue.component('issue-month',{
 	data(){
 		return { toggled: false,
-			issues: this.$parent.$root.paths[this.list]	
-			}
+			issues: this.$parent.$root.paths[this.list]
+		}
 	},
-	props: {month: '',
-			list: '',
-		},
+	props: {month: '',	list: '' },
 	methods: { 
 		showChildren: function(){
 			if(this.toggled==false){
@@ -122,13 +131,14 @@ Vue.component('issue-month',{
 							if (this.$parent.$children[one].list != this.list){
 								for(two in this.$parent.$children[one].$children){
 								this.$parent.$children[one].$children[two].meSeen=false;
+								//remove activeMonth from everyone else
 								this.$parent.$children[one].toggled=false;
 								 }
 							}
 					}
 			}
 			else{
-				//turn off my children
+				//turn off this.children
 				for (each in this.$children){
 					this.$children[each].meSeen=false;
 					this.toggled=false;
@@ -136,36 +146,26 @@ Vue.component('issue-month',{
 			}
 		}
 	},
-	template: `
-				<div v-bind:class="{activeMonth: toggled}">
+	template: `<div v-bind:class="{activeMonth: toggled}">
 					<div @click="showChildren()">
 						<div class="singleText" >{{this.month}}</div>
 						<div class="indicatorIndex"></div>
 					</div>
 					<index-child :href="each" v-for="each in this.issues" ></index-child>
-				</div>
-			`
+				</div>`
 });
 
 Vue.component('index-child',{
 	data() {
-		return {
-			meSeen:false
-		};
+		return { meSeen:false }
 	},
 	props: ['href'],
-	methods: {
-		fillIframe: function(){
-		this.$root.iframethis=this.href;
-		}
+	methods: { fillIframe: function(){ this.$root.iframethis = this.href; }
 	},
-	template:`			
-						<div v-if="meSeen" @click="fillIframe()" class="childIndex">
-                            <div class="childText" v-text="this.href.slice(-2)"></div>
-                            <div class="childIndicator"></div>
-                        </div>
-                        
-                        `
+	template:	`<div v-if="meSeen" @click="fillIframe()" class="childIndex">
+					<div class="childText" v-text="this.href.slice(-2)"></div>
+					<div class="childIndicator"></div>
+				</div>`
 });
 
 Vue.component('issue-bar',{
@@ -197,7 +197,7 @@ Vue.component('issue-bar',{
 				</div>
 				<div class="issueIndex">
 					<div class="singleIndex" href="">
-						<div class="yearText">1845</div>
+						<div class="yearText">1846</div>
 						<div class="indicatorYear"></div>
 				</div>
 				<issue-month :month='months[0]' :list='lists[12]' class="singleIndex"></issue-month>
@@ -207,18 +207,17 @@ Vue.component('issue-bar',{
 });
 
 Vue.component('footer-bar',{
-	template: `			<div>
-							<div class="issueFooter"></div>
-							<div class="footerBar">
-							<img src="images/cc_logo.png" class="ccLogo"></img> 
-							<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
-						</div>`
+	template: `<div>
+					<div class="issueFooter"></div>
+					<div class="footerBar">
+					<img src="images/cc_logo.png" class="ccLogo"></img> 
+					<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
+				</div>`
 });
 
 new Vue({
 	el:'#container',
 	data: {
-			windowthis: topMenuText['about'],
 			iframethis: '',
 			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
 			'childrenFeb45': ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
