@@ -34,6 +34,8 @@ Route::get('/credits', function () {
     	]);
 });
 
+Route::get('/api/personography/summary', 'PersonographyController@summary');
+
 Route::get('/issue-01-04-45', function () {
     return view('welcome',['route'=>'issue-01-04-45']);
 });
