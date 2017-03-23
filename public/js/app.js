@@ -1,25 +1,26 @@
+// import Vue from 'vue'
+// import VuePDFViewer from 'vue-pdf-viewer'
+
 Vue.component('top-menu',{
 	data() {return {
-				actives: [true,false,false]
+				topMenuActives: ''
 		}
 	},
-	methods: {	
-		selectAbout: function() {this.actives=[true,false,false];
-								this.$parent.$children[4].topMenuActives=this.actives;
-								},
-		selectTech: function()  {this.actives=[false,true,false];
-								this.$parent.$children[4].topMenuActives=this.actives;
-								},
-		selectCred: function()  {this.actives=[false,false,true];
-								this.$parent.$children[4].topMenuActives=this.actives;
-								}
+	methods: {
+		selectMe: function(which) {
+						if(which == 'about') { this.topMenuActives = [true,false,false];}
+						if(which == 'tech') { this.topMenuActives = [false,true,false];}
+						if(which == 'cred'){ this.topMenuActives =[false,false,true];}
+						//Event.$emit('topMenuEvent', this.topMenuActives);
+						this.$parent.$children[4].topMenuActives=this.topMenuActives;
+						}
 	},
 	template: `
 				<div class='topMenu'>
-					<a v-bind:class="{ viewTop: actives[0] }" @click="selectAbout()">About</a>
-					<a v-bind:class="{ viewTop: actives[1] }" @click="selectTech()">Technical</a>
-					<a v-bind:class="{ viewTop: actives[2] }" @click="selectCred()">Credits</a>
-				</div> 
+					<a href="about" v-bind:class="{ viewTop: topMenuActives[0] }" @click="selectMe('about')">About</a>
+					<a href="technical" v-bind:class="{ viewTop: topMenuActives[1] }" @click="selectMe('tech')">Technical</a>
+					<a href="credits" v-bind:class="{ viewTop: topMenuActives[2] }" @click="selectMe('cred')">Credits</a>
+				</div>
 			` 
 });
 
@@ -45,13 +46,17 @@ Vue.component('control-button',{
 		</div>
 	`
 });
+
 Vue.component('control-bar',{
 	data() {return {
 				whichview:'',
 					}
 	},
+	methods: {
+		setView: function() { this.$parent.$children[4].whichview = this.whichview; },
+	},
 	template: `
-				<div class='controlBar'>
+				<div class='controlBar'  @click='setView()'>
 					<control-button class="teiToggle">TEI</control-button>
 					<control-button class="pdfToggle">PDF</control-button>
 					<control-button class="txtToggle">TXT</control-button>
@@ -61,52 +66,52 @@ Vue.component('control-bar',{
 
 
 Vue.component('title-bar',{
-	data(){ 
-		return { selectedIssueTitle:'Hello I am a very long title' }
-	},
+	mounted() {console.log(this.$root.iframethis)},
+	computed:{frame: function(){return this.$root.iframethis}},
 	template: `
 			<div class="titleBar">
-				<div href="" class="sizeToggle">{{this.$root.iframethis}}</div>
+				<a v-bind:href="frame" class="sizeToggle">{{this.$root.iframethis}}</a>
 			</div>
 			`
 });
-
-
 
 Vue.component('main-window',{
 	data() {return {source:'',
 					topMenuActives: [true,false,false],
 					aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-					creditText: ['Lauren Coates','tei markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
-					techText: ['TEI is a thingy','vue.js is a thingy','aws','php','laravel','html','css','linux']
-			}
-	},
-	methods: {
-        iframe:  function() {this.source=this.$root.iframethis;
-        					return this.source;}
-     },
+					creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
+					techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
+					whichview: ''
+				}
+			},
 	template: `
 	 		<div class="mainWindow">
 	 			<img src="images/logo.png"></img>
 				<div class="logoSubtitle">The Broadway Journal</div>
 					
-					<div v-if="topMenuActives[0]">
+				
+				<div v-if="topMenuActives[0]">
 					{{ aboutText[0] }}
 					<br><br>
 					{{ aboutText[1] }}
-					</div>
-					
-					<div v-if="topMenuActives[1]">
-					<li v-for="each in techText" v-text="each"></li>
-					</div>
+				</div>
+				
+				<div v-if="topMenuActives[1]">
+					<li v-for="each in techText"  v-text="each"></li>
+				</div>
 
-					<div v-if="topMenuActives[2]">
+				<div v-if="topMenuActives[2]">
 					<li v-for="each in creditText" v-text="each"></li>
-					</div>
+				</div>
+						
+	 			
+	 			<div class="mainInner">
+				<iframe v-if="whichview=='TEI'" :src=this.$root.iframethis></iframe>
+				<div id="pdf" v-if="whichview=='PDF' ">
+					<vue-pdf-viewer></vue-pdf-viewer>
+				</div>
 
-					
-	 			<div @click='iframe()' class="mainInner"></div>
-				<iframe :src=this.$root.iframethis></iframe>
+				</div>
 			</div>
 			`
 });
@@ -215,9 +220,15 @@ Vue.component('footer-bar',{
 				</div>`
 });
 
+//window.Event = new Vue();
+
 new Vue({
 	el:'#container',
-	data: {
+  // components: {
+  //   'vue-pdf-viewer': VuePDFViewer
+  // },
+	data: {	
+			// url: 'https://bitcoin.org/bitcoin.pdf',
 			iframethis: '',
 			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
 			'childrenFeb45': ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
@@ -234,5 +245,22 @@ new Vue({
 			'childrenJan46': ['http://52.40.88.89/broadwayjournal/issue/1846/01/03']
 		}
 	},
+	 mounted() {
+	 		if(this.$el._prevClass == 'context-about'){
+	 			this.$children[4].topMenuActives=[true,false,false]
+	 		}
+	 		if(this.$el._prevClass == 'context-technical'){
+	 			this.$children[4].topMenuActives=[false,true,false]
+	 		}
+	 		if(this.$el._prevClass == 'context-credits'){
+	 			this.$children[4].topMenuActives=[false,false,true]
+	 		}
+			if(this.$el._prevClass.includes('issue')){
+	 			this.$children[4].whichview= 'TEI';
+	 			var splits=this.$el._prevClass.split('-');
+	 			var spliced = 'http://52.40.88.89/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
+	 			this.iframethis=spliced
+	 		}
+	 	}
 });
-						
+
