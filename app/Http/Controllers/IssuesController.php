@@ -11,6 +11,11 @@ class IssuesController extends Controller
     private $file_prefix  = "BroadwayJournal_";
     private $uri          = "/broadwayjournal/issue/";
 
+
+    function mainWindow($month, $day, $year){
+            return view('welcome',['route' => "issue-$month-$day-$year"]);
+    }
+    
     function index($year = NULL, $month = NULL, $day = NULL){
         $issues = $this->getIssues($year, $month, $day);
         return response()->json($issues);
