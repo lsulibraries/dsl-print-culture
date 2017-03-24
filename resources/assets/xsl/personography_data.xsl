@@ -15,11 +15,11 @@
 
 <xsl:template match="listPerson">
     <xsl:for-each select="person">
-        <div class="{@role}" id="{@xml:id}">
-                <span class="name">
+        <xsl:element name="{@xml:id}">
+                <name>
                     <xsl:value-of select="persName"/>
-                </span>
-                <span class="initials">
+                </name>
+                <init>
                     <xsl:for-each select="tokenize(persName,'\s')">
                         <xsl:choose>
                             <xsl:when test="matches(.,'Sir')"/>
@@ -35,14 +35,14 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:for-each>
-                </span>
-                <span class="role">
+                </init>
+                <role>
                     <xsl:value-of select="@role"/>
-                </span>
-                <span class="viaf">
-                    <a href="{persName/@ref}"><xsl:value-of select="persName/@ref"/></a>
-                </span>
-                <span class="dob">
+                </role>
+                <viaf>
+                    <xsl:value-of select="persName/@ref"/>
+                </viaf>
+                <dob>
                     <xsl:for-each select="birth/@when">
                         <xsl:choose>
                             <xsl:when test="starts-with(.,'-')">
@@ -59,11 +59,11 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:for-each>    
-                </span>
-                <span class="pob">
+                </dob>
+                <pob>
                     <xsl:value-of select="birth/placeName"/>
-                </span>
-                <span class="dod">
+                </pob>
+                <dod>
                     <xsl:for-each select="death/@when">
                         <xsl:choose>
                             <xsl:when test="starts-with(.,'-')">
@@ -80,14 +80,14 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:for-each>   
-                </span>
-                <span class="pod">
+                </dod>
+                <pod>
                     <xsl:value-of select="death/placeName"/>
-                </span>
-                <span class="note">
+                </pod>
+                <note>
                     <xsl:value-of select="note"/>
-                </span>
-            </div>
+                </note>
+        </xsl:element>
     </xsl:for-each>    
 </xsl:template>
 
