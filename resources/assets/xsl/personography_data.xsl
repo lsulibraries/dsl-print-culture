@@ -8,7 +8,9 @@
 <xsl:output method="xml" indent="yes"/>
 
 <xsl:template match="/">
-    <xsl:apply-templates select="TEI/text/body/listPerson"/>
+    <div>
+        <xsl:apply-templates select="TEI/text/body/listPerson"/>
+    </div>
 </xsl:template>
 
 <xsl:template match="listPerson">
