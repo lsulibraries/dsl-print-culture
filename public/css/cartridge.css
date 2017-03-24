@@ -81,10 +81,7 @@ margin: 1px;
 
 .issueBar {
     width: 109px;
-    border-right: 1px solid #c9c9c9;
     position: relative;
-    background: #333133;
-
 }
 
 .homeButton{
@@ -112,6 +109,7 @@ margin: 1px;
     display: flex;
     flex-direction: column;
     width: calc(100% - 133px);    
+    z-index: 5;
 }
 
 .controlBar{
@@ -201,21 +199,24 @@ margin: 1px;
     position: relative;
     padding-left: 0px;
     top: 80px;
-    border-bottom: 1px solid #fff;    
-    border-top: 1px solid #fff;
     background: #fff;
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 
-.childIndex:nth-last-child(1){
-border: none;
+.childIndex:nth-child(1) .childText{
+margin-top:1px;
+}
+
+
+.childIndex:nth-last-child(1) .childText{
+margin-bottom: 12px;
 }
 
 .issueIndex {
     position: relative;
-    right: -27px;
+    right: 33px;
     background: none;
         z-index: 3;
 
@@ -312,15 +313,13 @@ color: white;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     position: relative;
-    border-top: 1px solid #c9c9c9;
-    border-bottom: 1px solid #c9c9c9;
     top: 80px;
     padding-right: 10px;
     text-align: right;
     font-size: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     background: #333133;
 }
 
@@ -332,14 +331,12 @@ color: grey;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     position: relative;
-    border-top: 1px solid #c9c9c9;
-    border-bottom: 1px solid #c9c9c9;
     top: 80px;
     padding-right: 10px;
     font-size: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     text-align: right;
     background: #333133;
 }
@@ -349,8 +346,8 @@ color: grey;
     padding: 5px;
     color: #ffffff;
     font-weight: 900;
-    margin-bottom: 11px;
-    background: #00b7eb;
+    margin-bottom: 13px;
+    background: #fe7251;
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     text-align: right;
@@ -521,6 +518,7 @@ display: none;
     margin-top: 0px;
     border: 1px solid #525252;
     padding: 10px;    
+        background: #333133;
 }
 
 .childIndex{
@@ -532,9 +530,8 @@ display: none;
 }
 
 .childText{
-    margin-bottom: 0px;
+    margin-bottom: 1px;
     margin-right: 10px;
-    border-bottom: 1px solid;
     padding: 10px;
 
 }
