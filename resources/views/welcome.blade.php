@@ -7,21 +7,12 @@
     </head>
     <body>
         <div id="container">
-
-
-                <!-- <issue-bar2></issue-bar> -->
-                <div class="mainColumn">
-                                    <div class="heading">The<br>Broadway<br>Journal
-                <top-menu></top-menu> 
-                </div>
-                    <control-bar></control-bar>
-                    <main-window ></main-window> 
-        <footer-bar></footer-bar>                    
-                </div>
-
-                                <issue-bar>
-                </issue-bar>
-
+            <div class="mainColumn">
+                <control-bar></control-bar>
+                <main-window ></main-window> 
+                <footer-bar></footer-bar>                    
+            </div>
+            <issue-bar></issue-bar>
         </div>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
