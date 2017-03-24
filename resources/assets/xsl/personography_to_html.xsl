@@ -24,6 +24,7 @@
                     <xsl:for-each select="tokenize(persName,'\s')">
                         <xsl:choose>
                             <xsl:when test="matches(.,'Sir')"/>
+                            <xsl:when test="matches(.,'Lady')"/>
                             <xsl:when test="matches(.,'Mr.')"/>
                             <xsl:when test="matches(.,'Mrs.')"/>
                             <xsl:when test="matches(.,'Miss')"/>
