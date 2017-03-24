@@ -64,6 +64,8 @@ Route::get('/credits', function () {
     	]);
 });
 
+Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
+
 Route::get('/api/personography/summary', 'PersonographyController@summary');
 
 Route::get('/issue-{month}-{day}-{year}', 'IssuesController@mainWindow');
