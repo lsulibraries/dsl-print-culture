@@ -181,6 +181,7 @@ Vue.component('issue-bar',{
 	 },
 	template: `
 		<div class="issueBar">
+		    <div class="homeButton"><i class="fa fa-home" aria-hidden="true"></i>  Home</div>		
 			<div class="issueMask"></div>
 				<div class="issueIndex">
 					<div class="singleIndex" href="">
