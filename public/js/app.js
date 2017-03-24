@@ -154,7 +154,6 @@ Vue.component('issue-month',{
 	template: `<div v-bind:class="{activeMonth: toggled}">
 					<div @click="showChildren()">
 						<div class="singleText" >{{this.month}}</div>
-						<div class="indicatorIndex"></div>
 					</div>
 					<index-child :href="each" v-for="each in this.issues" ></index-child>
 				</div>`
@@ -169,7 +168,6 @@ Vue.component('index-child',{
 	},
 	template:	`<div v-if="meSeen" @click="fillIframe()" class="childIndex">
 					<div class="childText" v-text="this.href.slice(-2)"></div>
-					<div class="childIndicator"></div>
 				</div>`
 });
 
@@ -182,7 +180,6 @@ Vue.component('issue-bar',{
 	template: `
 		<div class="issueBar">
 		    <div class="homeButton"><i class="fa fa-home" aria-hidden="true"></i>  Home</div>		
-			<div class="issueMask"></div>
 				<div class="issueIndex">
 					<div class="singleIndex" href="">
 						<div class="yearText">1845</div>

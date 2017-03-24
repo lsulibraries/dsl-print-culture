@@ -8,8 +8,7 @@
     <body>
         <div id="container">
 
-                <issue-bar>
-                </issue-bar>
+
                 <!-- <issue-bar2></issue-bar> -->
                 <div class="mainColumn">
                                     <div class="heading">The<br>Broadway<br>Journal
@@ -19,6 +18,9 @@
                     <main-window ></main-window> 
         <footer-bar></footer-bar>                    
                 </div>
+
+                                <issue-bar>
+                </issue-bar>
 
         </div>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
