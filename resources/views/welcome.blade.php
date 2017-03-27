@@ -14,6 +14,7 @@
                     <main-window></main-window>
                     <!-- <vue-pdf-viewer></vue-pdf-viewer> -->
                 </div>
+                <author-section></author-section>
                 <footer-bar></footer-bar>
         </div>
         <!-- <script src="../../public/pdfjs/build/pdf.js"></script> -->

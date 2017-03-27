@@ -211,6 +211,55 @@ Vue.component('issue-bar',{
 		`
 });
 
+Vue.component('author-section',{
+	data(){
+		return {
+			personography:[],
+			chosen: '',
+		}
+	},
+	methods: {
+		choose:
+		function(childAuthID){
+			this.chosen=childAuthID;
+		}
+	},
+	mounted() {
+		axios.get('/api/personography/summary/json').then(response => this.personography = response.data);
+	 },
+	template: `
+				<div class="authorSection">
+					<div class="authorIntro"></div>
+					<div class="authorLedgend"></div>
+					<div class="authorDirectory">
+						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
+					</div>
+					<author-card v-if="chosen" :authID='chosen' :authInfo="personography[chosen]"></author-card>
+				</div>
+	`
+})
+
+Vue.component('author-node',{
+	methods:{	
+		choose: function(){
+			this.$parent.chosen=this.authID;
+		}
+	},
+	props: ['authInfo','authID'],
+	template: `
+				<div class="node" @click='choose(authInfo)'>{{this.authInfo['name']}}</div>
+	`
+})
+
+Vue.component('author-card',{
+	props: ['authID','authInfo'],
+	template: `
+				<div>
+					<div  v-for="(val, key) in authInfo" v-bind:class='key'> {{val}}<div>
+				</div>
+	`
+})
+
 Vue.component('footer-bar',{
 	template: `<div>
 					<div class="issueFooter"></div>
@@ -227,8 +276,7 @@ new Vue({
   // components: {
   //   'vue-pdf-viewer': VuePDFViewer
   // },
-	data: {	
-			// url: 'https://bitcoin.org/bitcoin.pdf',
+	data: {
 			iframethis: '',
 			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
 			'childrenFeb45': ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
