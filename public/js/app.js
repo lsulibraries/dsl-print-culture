@@ -99,7 +99,8 @@ Vue.component('main-window',{
 					<br>
 					{{ aboutText[1] }}
 				</div>
-				
+				<div class="authorsButton">Authors</div>
+				<top-menu></top-menu>
 				<div v-if="topMenuActives[1]">
 					<li v-for="each in techText"  v-text="each"></li>
 				</div>
