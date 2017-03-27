@@ -29,6 +29,9 @@
                 <div class="authorDirectory"></div>
                 <div class="authorCard"></div>
             </div>
+            <div class="navigationIssue">
+                Table of contents
+            </div>
         </div>
 
 

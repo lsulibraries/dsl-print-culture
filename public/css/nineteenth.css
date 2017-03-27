@@ -178,6 +178,13 @@ body {
   background: #29303a;
 }
 
+.yearText {
+  background: #29303a;
+  color: #ffffff;
+  font-weight: 900;
+  cursor: default;
+}
+
 .childIndex {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
@@ -271,7 +278,8 @@ body {
   text-align: center;
   font-size: 32px;
   font-style: italic;
-      display: flex;
+  display: flex;
+  justify-content: center;
 }
 
 .inBorder {
@@ -303,13 +311,17 @@ body {
 
   .childText {
     border-bottom: 1px solid rgba(250, 238, 226, 0.09);
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: 0px;
     padding: 10px;
   }
 
   .childIndex {
     margin: 0px;
+  }
+
+  .childIndex:hover .childText {
+    margin-right: 10px;
   }
 
   .issueBar {
