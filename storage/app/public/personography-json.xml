@@ -1,0 +1,3289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+   <anon>
+      <name>Anonymous</name>
+      <init>A</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </anon>
+   <jaddison>
+      <name>Joseph Addison</name>
+      <init>JA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/7413288</viaf>
+      <dob>May 1, 1672</dob>
+      <pob>Milston, England</pob>
+      <dod>June 17, 1719</dod>
+      <pod>Kensington, England</pod>
+      <note>An English essayist, poet, playwright, and politician. He founded 'The Spectator' magazine with Richard Steele.</note>
+   </jaddison>
+   <dadee>
+      <name>Daniel Adee</name>
+      <init>DA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/22000087</viaf>
+      <dob>1819</dob>
+      <pob>Pleasant Valley, New York</pob>
+      <dod>1892</dod>
+      <pod>New York</pod>
+      <note>A printer in New York, and involved with the New York Press, possibly as editor. He published Newton's 'Principia' and Maunder's 'Treasury of History.'</note>
+   </dadee>
+   <whainsworth>
+      <name>William Harrison Ainsworth</name>
+      <init>WHA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/46894596</viaf>
+      <dob>February 4, 1805</dob>
+      <pob>Manchester, England</pob>
+      <dod>January 3, 1882</dod>
+      <pod>Reigate, England</pod>
+      <note>An English historical novelist. He wrote the novel 'Rookwood,' along with 39 others, and he created 'Ainsworth's Magazine' with illustrator George Cruikshank.</note>
+   </whainsworth>
+   <alolo>
+      <name>Alolo</name>
+      <init>A</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>No VIAF information available.</note>
+   </alolo>
+   <jakerly>
+      <name>J. Akerly</name>
+      <init>JA</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>No VIAF information available.</note>
+   </jakerly>
+   <jaldrich>
+      <name>James Aldrich</name>
+      <init>JA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/250318824</viaf>
+      <dob>July 14, 1810</dob>
+      <pob>Mattituck, New York</pob>
+      <dod>September 9, 1856</dod>
+      <pod/>
+      <note>Founder of the 'New York Literary Gazette' and editor on the 'New World.' He published many of his own poems in the the 'Gazette.'</note>
+   </jaldrich>
+   <dalighieri>
+      <name>Dante Alighieri</name>
+      <init>DA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/97105654</viaf>
+      <dob>1265</dob>
+      <pob>Florence, Republic of Florence</pob>
+      <dod>1321</dod>
+      <pod>Ravenna, Papal States</pod>
+      <note>Author of the 'Divine Comedy.' Dante is considered one of the greatest poets of world literature.</note>
+   </dalighieri>
+   <aalison>
+      <name>Sir Archibald Alison</name>
+      <init>AA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/69703133</viaf>
+      <dob>December 29, 1792</dob>
+      <pob>Kenley, England</pob>
+      <dod>May 23, 1867</dod>
+      <pod>Glasgow, Scotland</pod>
+      <note>A Scottish advocate and historian, author of 'History of Europe.'</note>
+   </aalison>
+   <pallen>
+      <name>Paul Allen</name>
+      <init>PA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/34589661</viaf>
+      <dob>February 15, 1775</dob>
+      <pob>Providence, Rhode Island</pob>
+      <dod>August 18, 1826</dod>
+      <pod/>
+      <note>Editor of a two-volume history of the Lewis and Clark expedition written by Nicholas Biddle.</note>
+   </pallen>
+   <earam>
+      <name>Eugene Aram</name>
+      <init>EA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/52043684</viaf>
+      <dob>1704</dob>
+      <pob>Ramsgill, England</pob>
+      <dod>August 6, 1759</dod>
+      <pod>York, England</pod>
+      <note>An English philologist. Aram was convicted and executed for the murderer of Daniel Clark. He is celebrated by Thomas Hood in his ballad 'The Dream of Eugene Aram,' and by Edward Bulwer-Lytton in his novel 'Eugene Aram.'</note>
+   </earam>
+   <wsarcher>
+      <name>William Segar Archer</name>
+      <init>WSA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/70326046</viaf>
+      <dob>March 5, 1789</dob>
+      <pob>Amelia County, Virginia</pob>
+      <dod>March 28, 1855</dod>
+      <pod>Amelia County, Virginia</pod>
+      <note>A U.S. Senator.</note>
+   </wsarcher>
+   <aristides>
+      <name>Aristides</name>
+      <init>A</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/61392255</viaf>
+      <dob>530 B.C.</dob>
+      <pob/>
+      <dod>468 B.C.</dod>
+      <pod/>
+      <note>An ancient Athenian statesman and general in the Persian War.</note>
+   </aristides>
+   <bvarnim>
+      <name>Bettina von Arnim</name>
+      <init>BvA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/7386152</viaf>
+      <dob>April 4, 1785</dob>
+      <pob>Frankfort, Germany</pob>
+      <dod>January 20, 1859</dod>
+      <pod>Berlin, Germany</pod>
+      <note>A writer, publisher, composer, singer, visual artist, an illustrator, patron of young talent, and a social activist. She was friends with Goethe and Beethoven.</note>
+   </bvarnim>
+   <tarnold>
+      <name>Thomas Arnold</name>
+      <init>TA</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/14778656</viaf>
+      <dob>June 13, 1795</dob>
+      <pob>Isle of Wight, England</pob>
+      <dod>June 12, 1842</dod>
+      <pod>Rugby, England</pod>
+      <note>An English educator and historian. He was headmaster of Rugby School and author of five widely-read books of sermons.</note>
+   </tarnold>
+   <pb>
+      <name>P. B.</name>
+      <init>PB</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </pb>
+   <rbacon>
+      <name>Roger Bacon</name>
+      <init>RB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/120688673</viaf>
+      <dob>1219</dob>
+      <pob>Ilchester, England</pob>
+      <dod>1292</dod>
+      <pod>Oxford, England</pod>
+      <note>An English philosopher and Franciscan friar who emphasized the study of nature through empirical methods. Author of 'Opus Maius,' which addresses mathematics, optics, alchemy, and astronomy.</note>
+   </rbacon>
+   <ddbarnard>
+      <name>Daniel Dewey Barnard</name>
+      <init>DDB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/13703232/</viaf>
+      <dob>July 16, 1797</dob>
+      <pob>Sheffield, Massachusetts</pob>
+      <dod>April 24, 1861</dod>
+      <pod>Albany, New York</pod>
+      <note>An American politician and U.S. Representative from New York.</note>
+   </ddbarnard>
+   <clbarritt>
+      <name>C. L. Barritt</name>
+      <init>CLB</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </clbarritt>
+   <bbates>
+      <name>Barnabas Bates</name>
+      <init>BB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/29089795</viaf>
+      <dob>February 2, 1787</dob>
+      <pob>England</pob>
+      <dod>October 11, 1854</dod>
+      <pod>United States</pod>
+      <note>An Acting Postmaster in New York City under President Andrew Jackson and an advocate for cheaper postal rates.</note>
+   </bbates>
+   <fbathos>
+      <name>Fidelius Bathos</name>
+      <init>FB</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>This is probably a pen name.</note>
+   </fbathos>
+   <jbeattie>
+      <name>James Beattie</name>
+      <init>JB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/14766002</viaf>
+      <dob>October 25, 1735</dob>
+      <pob>Laurencekirk, Scotland</pob>
+      <dod>August 18, 1803</dod>
+      <pod>Aberdeen, Scotland</pod>
+      <note>A Scottish poet, moralist, and philosopher. Author of 'An Essay on the Nature and Immutability of Truth' and the poem 'The Mistrel.'</note>
+   </jbeattie>
+   <cbell>
+      <name>Charles Bell</name>
+      <init>CB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/2619993/</viaf>
+      <dob>November 12, 1774</dob>
+      <pob>Edinburgh, Scotland</pob>
+      <dod>April 28, 1842</dod>
+      <pod>Worcester, England</pod>
+      <note>A Scottish surgeon, anatomist, neurologist, and philosophical theologian. Bell discovered the difference between sensory nerves and motor nerves in the spinal cord.</note>
+   </cbell>
+   <pbenjamin>
+      <name>Park Benjamin Sr.</name>
+      <init>PB</init>
+      <role>MentionedAuthor ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/48313754/</viaf>
+      <dob>August 14, 1809</dob>
+      <pob>Demerara, British Guiana</pob>
+      <dod>September 12, 1864</dod>
+      <pod>Long Island, New York</pod>
+      <note>An American poet, journalist, editor, and founder of several newspapers. He partnered with Rufus Wilmot Griswold to produce 'The Evening Tattler,' and he helped to found 'The New World.' He was friends with Poe.</note>
+   </pbenjamin>
+   <jmberrien>
+      <name>John Macpherson Berrien</name>
+      <init>JMB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/4029377/</viaf>
+      <dob>August 23, 1781</dob>
+      <pob>Rocky Hill, New Jersey</pob>
+      <dod>January 1, 1856</dod>
+      <pod>Savannah, Georgia</pod>
+      <note>A U.S. Senator from Georgia and Andrew Jackson's Attorney General.</note>
+   </jmberrien>
+   <hjbertini>
+      <name>Henri Jérôme Bertini</name>
+      <init>HJB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/12570065</viaf>
+      <dob>October 28, 1798</dob>
+      <pob>London, England</pob>
+      <dod>September 30, 1876</dod>
+      <pod>Meylan, France</pod>
+      <note>A French classical composer and pianist.</note>
+   </hjbertini>
+   <jbisco>
+      <name>John Bisco</name>
+      <init>JB</init>
+      <role>ContributingAuthor Editor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Publisher of the 'Broadway Journal.' After the failure of the 'Broadway Journal,' Bisco became a real estate agent.</note>
+   </jbisco>
+   <cfbriggs>
+      <name>Charles Frederick Briggs</name>
+      <init>CFB</init>
+      <role>ContributingAuthor Editor</role>
+      <viaf>http://viaf.org/viaf/76168680</viaf>
+      <dob>December 3, 1804</dob>
+      <pob>Nantucket, Massachusetts</pob>
+      <dod>June 20, 1877</dod>
+      <pod>Brooklyn, New York</pod>
+      <note>Creator of the 'Broadway Journal.' Briggs was also an author who wrote under the penname "Harry Franco."</note>
+   </cfbriggs>
+   <cpbronson>
+      <name>Charles P. Bronson</name>
+      <init>CPB</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/54080038</viaf>
+      <dob>May 3, 1800</dob>
+      <pob>Litchfield, Connecticut</pob>
+      <dod>June 12, 1866</dod>
+      <pod>New York, New York</pod>
+      <note>Author of 'Abstract of Elocution and Music.'</note>
+   </cpbronson>
+   <cbbrown>
+      <name>Charles Brockdon Brown</name>
+      <init>CBB</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob>January 17, 1771</dob>
+      <pob>Philadelphia, Pennsylvania</pob>
+      <dod>February 22, 1810</dod>
+      <pod>Philadelphia, Pennsylvania</pod>
+      <note>An American novelist, historian, and editor. Author of 'Wieland' and other novels. Edited 'The Literary Magazine and American Register' and 'The American Register and General Repository of History, Politics, and Science.'</note>
+   </cbbrown>
+   <gbush>
+      <name>George Bush</name>
+      <init>GB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/35315106</viaf>
+      <dob>June 12, 1796</dob>
+      <pob>Norwich, Vermont</pob>
+      <dod>September 19, 1859</dod>
+      <pod>Rochester, New York</pod>
+      <note>A theologian. Author of biblical commentaries, 'A Theological Dictionary,' 'A Grammar of the Hebrew Language,' among other publications.</note>
+   </gbush>
+   <wcbryant>
+      <name>William Cullen Bryant</name>
+      <init>WCB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24640113</viaf>
+      <dob>November 3, 1794</dob>
+      <pob>Cummington, Massachusetts</pob>
+      <dod>June 12, 1878</dod>
+      <pod>New York, New York</pod>
+      <note>A romantic poet, journalist, and editor of the 'New York Evening Post.' Author of the poem "Thanatopsis."</note>
+   </wcbryant>
+   <fburney>
+      <name>Fanny Burney</name>
+      <init>FB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/95297439</viaf>
+      <dob>June 13, 1752</dob>
+      <pob>Lynn Regis (now King's Lynn), England</pob>
+      <dod>January 6, 1840</dod>
+      <pod>Bath, England</pod>
+      <note>Also known as Frances Burney and, after her marriage, Madame d'Arblay. An English satirical novelist and playwright. Author of novels 'Evelina,' 'Cecilia,' 'Camilia,' and 'The Wanderer.'</note>
+   </fburney>
+   <ehburrington>
+      <name>Edwin Henry Burrington</name>
+      <init>EHB</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob>1821</dob>
+      <pob>Devon, England</pob>
+      <dod>January 1892</dod>
+      <pod>Bridgewater, Somerset, England</pod>
+      <note>An English journalist and author of "Revelations of the Beautiful and Other Poems," published in 1848. Burrington reviewed many books of poetry for the 'London Press.'</note>
+   </ehburrington>
+   <c>
+      <name>C.</name>
+      <init>C</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </c>
+   <tcampbell>
+      <name>Thomas Campbell</name>
+      <init>TC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39510901</viaf>
+      <dob>July 27, 1777</dob>
+      <pob>Glasgow, Scotland</pob>
+      <dod>June 15, 1844</dod>
+      <pod>Boulogne, France</pod>
+      <note>A Scottish writer of sentimental poems, such as "The Pleasures of Hope." Editor of the English magazine, 'The New Monthly Magazine.'</note>
+   </tcampbell>
+   <ecantwell>
+      <name>Edward Cantwell</name>
+      <init>EC</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/78342846</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Author of 'Swaim's Justice--Revised: the North Carolina Magistrate.'</note>
+   </ecantwell>
+   <tcarlyle>
+      <name>Thomas Carlyle</name>
+      <init>TC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39390702</viaf>
+      <dob>December 4, 1795</dob>
+      <pob>Ecclefechan, Scotland</pob>
+      <dod>February 5, 1881</dod>
+      <pod>London, England</pod>
+      <note>A Scottish philosopher, satirical writer, essayist, historian, and teacher. One of the most highly regarded social commentators of his time. Author of "On Heroes, Hero-Worship, and the Heroic in History." His book 'The French Revolutin: A History,' inspired Dicken's 'A Tale of Two Cities.'</note>
+   </tcarlyle>
+   <rcarter>
+      <name>Robert Carter</name>
+      <init>RC</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/4919133</viaf>
+      <dob>February 5, 1819</dob>
+      <pob>Albany, New York</pob>
+      <dod>February 15, 1879</dod>
+      <pod>Cambridge, Massachusetts</pod>
+      <note>An American editor, historian, and author, Carter was involved in the formation of the Republican Party. He created 'The Pioneer, a Literary and Critical Magazine' with James Russell Lowell. Carter sometimes wrote under the penname "Robert Oliver." </note>
+   </rcarter>
+   <fcatherwood>
+      <name>Frederick Catherwood</name>
+      <init>FC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100283356</viaf>
+      <dob>February 27, 1799</dob>
+      <pob>London, England</pob>
+      <dod>September 27, 1854</dod>
+      <pod>Atlantic Ocean</pod>
+      <note>An English artist, architect, and explorer, best known for his drawings of Mayan ruins. Wrote 'Incidents of Travel in Central America, Chiapas and Yucatan' and 'Incidents of Travel in Yucatan' with John Lloyd Stephens.</note>
+   </fcatherwood>
+   <gcatlin>
+      <name>George Catlin</name>
+      <init>GC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/88688790</viaf>
+      <dob>July 26, 1796</dob>
+      <pob>Wilkes-Barre, Pennsylvania</pob>
+      <dod>December 23, 1872</dod>
+      <pod>Jersey City, New Jersey</pod>
+      <note>An American painter, author, and traveler who focused on portraits of Native Americans and the Old West. Catlin was the first white man to depict Plains Indians in their native territory.</note>
+   </gcatlin>
+   <wcarleton>
+      <name>William Carleton</name>
+      <init>WC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/44383913</viaf>
+      <dob>February 20, 1794</dob>
+      <pob>Prolusk (Prillisk), Ireland</pob>
+      <dod>January 30, 1869</dod>
+      <pod>Dublin, Ireland</pod>
+      <note>An Irish writer and novelist best known for 'Traits and Stories of the Irish Peasantry.'</note>
+   </wcarleton>
+   <cdcennini>
+      <name>Cennino Cennini</name>
+      <init>CC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100207316</viaf>
+      <dob/>
+      <pob>Colle di Val d'Elsa, Italy</pob>
+      <dod/>
+      <pod/>
+      <note>An Italian painter and author of 'Il libro dell'arte,' a treatise on early Renaissance art.</note>
+   </cdcennini>
+   <wechanning>
+      <name>William Ellery Channing</name>
+      <init>WEC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100283356</viaf>
+      <dob>April 7, 1780</dob>
+      <pob>Newport, Rhode Island</pob>
+      <dod>October 2, 1842</dod>
+      <pod>Old Bennington, Vermont</pod>
+      <note>The foremost American Unitarian preacher and theologian of his time. Channing influenced New England Transcendentalists.</note>
+   </wechanning>
+   <lmchild>
+      <name>Lydia Maria Child</name>
+      <init>LMC</init>
+      <role>ContributingAuthor MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/73891035</viaf>
+      <dob>February 11, 1802</dob>
+      <pob>Medford, Massachusetts</pob>
+      <dod>October 20, 1880</dod>
+      <pod>Wayland, Massachusetts</pod>
+      <note>An American abolitionist, women's rights activist, Native American rights activist, novelist, and journalist. Wrote the column "Letters from New York" while editing the 'National Anti-Slavery Standard.'</note>
+   </lmchild>
+   <thchivers>
+      <name>Thomas Holley Chivers</name>
+      <init>THC</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/77109718</viaf>
+      <dob>October 18, 1809</dob>
+      <pob>Digby Manor, Washington, Georgia</pob>
+      <dod>December 18, 1858</dod>
+      <pod>Decatur, Georgia</pod>
+      <note>An American doctor-turned-poet and friend of Edgar Allen Poe. He accused Poe of plagiarizing "The Raven" and "Ulalume" from his own work, but he also defended Poe's reputation from attack by Rufus Wilmot Griswold.</note>
+   </thchivers>
+   <rchoate>
+      <name>Rufus Choate</name>
+      <init>RC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/33288487</viaf>
+      <dob>October 1, 1799</dob>
+      <pob>Ipswich, Massachusetts</pob>
+      <dod>July 13, 1859</dod>
+      <pod>Halifax, Nova Scotia</pod>
+      <note>An American lawyer, orator, and Congressman.</note>
+   </rchoate>
+   <cchurchill>
+      <name>Charles Churchill</name>
+      <init>CC</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob>1732</dob>
+      <pob>London, England</pob>
+      <dod>November 4, 1764</dod>
+      <pod>Boulogne-sur-Mer, France</pod>
+      <note>An English poet and satirist.</note>
+   </cchurchill>
+   <ljcist>
+      <name>Lewis J. Cist</name>
+      <init>LJC</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/37320758</viaf>
+      <dob>November 20, 1818</dob>
+      <pob>Harmony, Pennsylvania</pob>
+      <dod>March 31, 1885</dod>
+      <pod>College Hill, Ohio</pod>
+      <note>Author of 'Trifles in Verse: A Collection of Fugitive Poems."</note>
+   </ljcist>
+   <hhclements>
+      <name>H. H. Clements</name>
+      <init>HHC</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/7051320</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Seems to have been an editor in Rhode Island.</note>
+   </hhclements>
+   <tlclingman>
+      <name>Thomas Lanier Clingman</name>
+      <init>TLC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/72235020</viaf>
+      <dob>July 27, 1812</dob>
+      <pob>Huntsville (now Yadkin County), North Carolina</pob>
+      <dod>November 3, 1897</dod>
+      <pod>Morganton, North Carolina</pod>
+      <note>A Democratic member of the U. S. House of Representatives, and later U.S. senator from North Carolina. Clingman served as a general in the Confederate States Army.</note>
+   </tlclingman>
+   <wcobbett>
+      <name>William Cobbett</name>
+      <init>WC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/308908160</viaf>
+      <dob>March 9, 1763</dob>
+      <pob>Farnham, England</pob>
+      <dod>June 18, 1835</dod>
+      <pod>Normandy, England</pod>
+      <note>An English pamphleteer, farmer, and journalist. Created the 'Political Register,' a weekly newspaper.</note>
+   </wcobbett>
+   <jgcogswell>
+      <name>Joseph Green Cogswell</name>
+      <init>JGC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/54014707</viaf>
+      <dob>September 27, 1786</dob>
+      <pob>Ipswich, Massachusetts</pob>
+      <dod>November 26, 1871</dod>
+      <pod>Cambridge, Massachusetts</pod>
+      <note>An American librarian, bibliographer, and an innovative educator.</note>
+   </jgcogswell>
+   <stcoleridge>
+      <name>Samuel Taylor Coleridge</name>
+      <init>STC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24599809</viaf>
+      <dob>October 21, 1772</dob>
+      <pob>Ottery St Mary, England</pob>
+      <dod>July 25, 1834</dod>
+      <pod>Highgate, England</pod>
+      <note>An English poet, literary critic, and philosopher. Coleridge was a founder of the Romantic Movement and a member of the Lake Poets. Author of poems "The Rime of the Ancient Mariner" and "Kubla Khan," as well as his autobiography, 'Biographia Literaria.'</note>
+   </stcoleridge>
+   <jcollamer>
+      <name>Jacob Collamer</name>
+      <init>JC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/26147987</viaf>
+      <dob>January 8, 1791</dob>
+      <pob>Troy, New York</pob>
+      <dod>November 9, 1865</dod>
+      <pod>Woodstock, Vermont</pod>
+      <note>A member of the U.S. House of Representatives and, later, U.S. Senator from Vermont. Collamer served as the Postmaster General in the cabinet of President Zachary Taylor.</note>
+   </jcollamer>
+   <colman>
+      <name>Miss Colman</name>
+      <init>C</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown.</note>
+   </colman>
+   <ghcolton>
+      <name>George Hooker Colton</name>
+      <init>GHC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/54035923</viaf>
+      <dob>October 27, 1818</dob>
+      <pob>Westford, New York</pob>
+      <dod>December 1, 1847</dod>
+      <pod/>
+      <note>American educator, editor, and lecturer. He founded the 'American Review,' where Poe's poem "The Raven" was first published.</note>
+   </ghcolton>
+   <ppcooke>
+      <name>Philip Pendleton Cooke</name>
+      <init>PPC</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/103025986</viaf>
+      <dob>October 26, 1816</dob>
+      <pob>Martinsburg, Virginia</pob>
+      <dod>January 20, 1850</dod>
+      <pod>Clarke County, Virginia</pod>
+      <note>An American lawyer and minor poet. Edgar Allen Poe encouraged him to submit contributions.</note>
+   </ppcooke>
+   <acowley>
+      <name>Abraham Cowley</name>
+      <init>AC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/95254963</viaf>
+      <dob>1618</dob>
+      <pob>London, England</pob>
+      <dod>July 28, 1667</dod>
+      <pod>Chertsey, England</pod>
+      <note>An essayist and author of fanciful, decorous poems. Cowley served as the Queen's ciphor secretary and performed various Royalist missions.</note>
+   </acowley>
+   <wcowper>
+      <name>William Cowper</name>
+      <init>WC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/32009788</viaf>
+      <dob>November 26, 1731</dob>
+      <pob>Berkhamsted, England</pob>
+      <dod>April 25, 1800</dod>
+      <pod>East Dereham, England</pod>
+      <note>An English poet and hymnodist. A forerunner of Romantic poetry, Cowper influenced the nature poetry of his time by focusing on everyday life.</note>
+   </wcowper>
+   <whcrome>
+      <name>William Henry Crome</name>
+      <init>WHC</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/95732761</viaf>
+      <dob>1806</dob>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>An English painter.</note>
+   </whcrome>
+   <acunningham>
+      <name>Allan Cunningham</name>
+      <init>AC</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/79253486</viaf>
+      <dob>December 7, 1784</dob>
+      <pob>Kier, Scotland</pob>
+      <dod>October 30, 1842</dod>
+      <pod/>
+      <note>A Scottish poet and author. Cunningham worked as a parliamentary reporter and journalist in London. He wrote imitations of old Scottish ballands, as well as three novels and a biography of Sir David Wilkie.</note>
+   </acunningham>
+   <gfd>
+      <name>G. F. D.</name>
+      <init>GFD</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </gfd>
+   <sd>
+      <name>S. D.</name>
+      <init>SD</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown.</note>
+   </sd>
+   <rhdana>
+      <name>Richard Henry Dana, Sr.</name>
+      <init>RHD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/5810312</viaf>
+      <dob>November 15, 1797</dob>
+      <pob>Cambridge, Massachusetts</pob>
+      <dod>February 2, 1879</dod>
+      <pod/>
+      <note>American poet, critic, and lawyer. Dana criticized Romanticism and Transcendentalism. Along with other members of the Anthology Club, he founded the 'North American Review.' Dana wrote the gothic novel 'Paul Felton.'</note>
+   </rhdana>
+   <ldavinci>
+      <name>Leonardo da Vinci</name>
+      <init>LdV</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24604287</viaf>
+      <dob>April 15, 1452</dob>
+      <pob>Vinci, Republic of Florence</pob>
+      <dod>May 2, 1519</dod>
+      <pod>Amboise, Kingdom of France</pod>
+      <note>An Italian polymath. Da Vinci painted 'The Last Supper' and 'Mona Lisa.' He also studied science observationally, worked as an engineer, and invented many machines.</note>
+   </ldavinci>
+   <adavezac>
+      <name>Auguste Davezac</name>
+      <init>AD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/21752864</viaf>
+      <dob>May 30, 1780</dob>
+      <pob>Aux Cayes, Haiti</pob>
+      <dod>February 15, 1851</dod>
+      <pod>New York, New York</pod>
+      <note>United States Ambassador to the Netherlands.</note>
+   </adavezac>
+   <hdavy>
+      <name>Humphry Davy</name>
+      <init>HD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/29630108</viaf>
+      <dob>December 17, 1778</dob>
+      <pob>Penzance, England</pob>
+      <dod>May 29, 1829</dod>
+      <pod>Geneva, Switzerland</pod>
+      <note>A Cornish chemist and inventor who was first to isolate a series of substances such as potassium, sodium, and calcium. He also invented electrochemistry. He wrote"On Some Agencies of Electricity" and several books.</note>
+   </hdavy>
+   <jdbdebow>
+      <name>James Dunwoody Brownson DeBow</name>
+      <init>JDBD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/56169127</viaf>
+      <dob>July 20, 1820</dob>
+      <pob>Charleston, South Carolina</pob>
+      <dod>February 27, 1867</dod>
+      <pod>Elizabeth, New Jersey</pod>
+      <note>An American publisher and statistician, DeBow created and edited 'DeBow's Review,' a popular southern magazine that advocated the expansion of southern agriculture and commerce. DeBow urged southern secession from the Union.</note>
+   </jdbdebow>
+   <ddefoe>
+      <name>Daniel Defoe</name>
+      <init>DD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39375774</viaf>
+      <dob>1660</dob>
+      <pob>London, England</pob>
+      <dod>April 24, 1731</dod>
+      <pod>London, England</pod>
+      <note>An English trader, writer, journalist, pamphleteer, and spy. Defoe is most famous as the author of 'Robinson Crusoe.'</note>
+   </ddefoe>
+   <hsdegrove>
+      <name>Mrs. H. S. De Grove</name>
+      <init>HSDG</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>No VIAF information found.</note>
+   </hsdegrove>
+   <cdickens>
+      <name>Charles John Huffam Dickens</name>
+      <init>CJHD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/88666393</viaf>
+      <dob>February 7, 1812</dob>
+      <pob>Landport, England</pob>
+      <dod>June 9, 1870</dod>
+      <pod>Higham, England</pod>
+      <note>An English writer and social critic, regarded by many as the greatest novelist of the Victorian era. Author of 'Oliver Twist,' 'Bleak House,' 'A Tale of Two Cities,' and 'Great Expectations,' among other works.</note>
+   </cdickens>
+   <bdisraeli>
+      <name>Benjamin Disraeli</name>
+      <init>BD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/49233448</viaf>
+      <dob>December 21, 1804</dob>
+      <pob>London, England</pob>
+      <dod>April 19, 1881</dod>
+      <pod>London, England</pod>
+      <note>Prime Minister of the United Kingdom and an influential creator of the modern Conservative Party. Disraeli is the only British Prime Minister of Jewish birth. He was also a prolific novelist, authoring books such as 'Vivian Grey' and 'Henrietta Temple.'</note>
+   </bdisraeli>
+   <asdoane>
+      <name>Augustus Sidney Doane</name>
+      <init>ASD</init>
+      <role>MentionedAuthor Correspondent</role>
+      <viaf>http://viaf.org/viaf/70425582</viaf>
+      <dob>April 2, 1808</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>January 27, 1852</dod>
+      <pod>Staten Island, New York</pod>
+      <note>A medicial doctor in New York, chief physician at the Marine Hospital, and health officer of the port of New York. He edited Good's "Study of Medicine" and translated Magrier's "Midwifery."</note>
+   </asdoane>
+   <pdoddridge>
+      <name>Philip Doddridge</name>
+      <init>PD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39427796</viaf>
+      <dob>June 26, 1702</dob>
+      <pob>London, England</pob>
+      <dod>October 26, 1751</dod>
+      <pod>Lisbon, Portugal</pod>
+      <note>An English Nonconformist leader, educator, and hymnwriter. Doddridge is author of 'The Rise and Progress of Religion in the Soul.'</note>
+   </pdoddridge>
+   <jdryden>
+      <name>John Dryden</name>
+      <init>JD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/68937979</viaf>
+      <dob>August 19, 1631</dob>
+      <pob>Aldwincle, England</pob>
+      <dod>May 12, 1700</dod>
+      <pod/>
+      <note>A poet, literary critic, translator, playwright, and England's first Poet Laureate. Dryden wrote the Restoration comedy 'Marriage a la Mode' and the heroic drama 'All for Love.' He also wrote the satires 'Mac Flecknoe' and 'Absalom and Achitophel.'</note>
+   </jdryden>
+   <gdsdubartas>
+      <name>Guillaume de Saluste Du Bartas</name>
+      <init>GdSDB</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/73852818</viaf>
+      <dob>1544</dob>
+      <pob>Monfort, France</pob>
+      <dod>July 1590</dod>
+      <pod>Mauvezin, France</pod>
+      <note>A courtier and poet. Du Bartas wrote 'L'Uranie,' 'Judit,' 'La Sepmaine,' and 'La Seconde Semaine.'</note>
+   </gdsdubartas>
+   <adumas>
+      <name>Alexandre Dumas</name>
+      <init>AD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/51688902</viaf>
+      <dob>July 24, 1802</dob>
+      <pob>Villers-Cotterêts, France</pob>
+      <dod>December 5, 1870</dod>
+      <pod>Puys, France</pod>
+      <note>Author of 'The Count of Monte Cristo,' 'The Three Muskateers,' and 'Twenty Years After.'</note>
+   </adumas>
+   <fadurivage>
+      <name>Francis Alexander Durivage</name>
+      <init>FAD</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/15110811</viaf>
+      <dob>April 7, 1814</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>February 1, 1881</dod>
+      <pod>New York, New York</pod>
+      <note>A constributor of poems, humorous articles, stories, and sketches to magazines. He translated Alphonse de Lamartine's 'History of the Revolution of 1848,' and he was co-editor of 'Ballou's Pictorial.' Durivage often wrote under the penname "Old Un." </note>
+   </fadurivage>
+   <eaduyckinck>
+      <name>Evert Augustus Duyckinck</name>
+      <init>EAD</init>
+      <role>MentionedAuthor ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/1062022</viaf>
+      <dob>November 23, 1816</dob>
+      <pob>New York, New York</pob>
+      <dod>August 13, 1878</dod>
+      <pod>New York, New York</pod>
+      <note>An American publisher and biographer associated with the Young America movement in New York. He assisted Poe in printing his 'Tales' collection, selecting which stories to include. He was editor of 'The Literary World' and he worked with his brother to publish 'The Cyclopaedia of American Literature.'</note>
+   </eaduyckinck>
+   <edyer>
+      <name>Sir Edward Dyer</name>
+      <init>ED</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/18580778</viaf>
+      <dob>October 1543</dob>
+      <pob>Somerset, England</pob>
+      <dod>May 1607</dod>
+      <pod/>
+      <note>An English courtier and poet.</note>
+   </edyer>
+   <e>
+      <name>E.</name>
+      <init>E</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </e>
+   <ceames>
+      <name>Charles Eames</name>
+      <init>CE</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/53517374</viaf>
+      <dob>1812</dob>
+      <pob/>
+      <dod>1867</dod>
+      <pod/>
+      <note>Editor of 'The New World' weekly paper.</note>
+   </ceames>
+   <cleastlake>
+      <name>Sir Charles Lock Eastlake</name>
+      <init>CLE</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/61676654</viaf>
+      <dob>November 17, 1793</dob>
+      <pob>Plymouth, England</pob>
+      <dod>December 24, 1865</dod>
+      <pod>Pisa, Italy</pod>
+      <note>An English painter, gallery director, collector, and writer. He painted 'Christ Lamenting over Jerusalem.'</note>
+   </cleastlake>
+   <medgeworth>
+      <name>Maria Edgeworth</name>
+      <init>ME</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/71477273</viaf>
+      <dob>January 1, 1768</dob>
+      <pob>Black Bourton, England</pob>
+      <dod>May 22, 1849</dod>
+      <pod>Edgeworthstown, Ireland</pod>
+      <note>A progressive thinker and writer of adults' and childrens' literature. Edgeworth was one of the first realist writers in children's literature. She wrote the novels 'Castle of Rackrent' and 'Belinda,' among others.</note>
+   </medgeworth>
+   <efellet>
+      <name>Elizabeth Fries Ellet</name>
+      <init>EFE</init>
+      <role>ContributingAuthor MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/10224727</viaf>
+      <dob>October 18, 1818</dob>
+      <pob>Sodus Point, New York</pob>
+      <dod>June 3, 1877</dod>
+      <pod>New York, New York</pod>
+      <note>An American writer, historian, and poet. Ellet wrote 'The Women of the American Revolution,' the first work to record the lives of women who contributed to the American Revolutionary War. Ellet was involved with a scandal in which she accused Frances Sargent Osgood of sending indiscreet letters to Poe.</note>
+   </efellet>
+   <cwelmi>
+      <name>C. Wilkins Elmi</name>
+      <init>CWE</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>This is a pen name. The author's real name is unknown.</note>
+   </cwelmi>
+   <ecembury>
+      <name>Emma Catherine Embury</name>
+      <init>ECE</init>
+      <role>MentionedAuthor ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/18626354</viaf>
+      <dob>February 25, 1806</dob>
+      <pob>New York, New York</pob>
+      <dod>February 10, 1863</dod>
+      <pod>New York, New York</pod>
+      <note>An author and poet. Embury was an editor for 'Graham's Magazine,' and she wrote a collection of poems titled 'Guido, a Tale: Sketches from History and Other Poems,' as well as the prose work 'Pictures of Early Life.' Embury sometimes wrote under the pen names Rudolph Hertzman and Ianthe</note>
+   </ecembury>
+   <rwemerson>
+      <name>Ralph Waldo Emerson</name>
+      <init>RWE</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/27079964</viaf>
+      <dob>May 25, 1803</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>April 27, 1882</dod>
+      <pod>Concord, Massachusetts</pod>
+      <note>An essayist, lecturer, and poet who led the Transcendentalism movement. He wrote the essays "Nature," "Self-Reliance," and "The Over-Soul."</note>
+   </rwemerson>
+   <tdenglish>
+      <name>Thomas Dunn English</name>
+      <init>TDE</init>
+      <role>MentionedAuthor ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/50560346</viaf>
+      <dob>June 29, 1819</dob>
+      <pob>Philadelphia, Pennsylvania</pob>
+      <dod>April 1, 1902</dod>
+      <pod>Newark, New Jersey</pod>
+      <note>A Democratic politician who served in the House of Representatives. English was also an author and songwriter: he wrote the ballad "Ben Bolt" for N. P. Willis's 'New York Mirror' and edited the 'American Review.' English became involved in the scandal between Poe, Osgood, and Ellet when Poe asked English to lend him a pistol for defense against Ellet's brother. English did not believe Poe's story and this ended their friendship.</note>
+   </tdenglish>
+   <aheverett>
+      <name>Alexander Hill Everett</name>
+      <init>AHE</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/19781597</viaf>
+      <dob>March 19, 1792</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>June 28, 1847</dod>
+      <pod>Canton (Guangzhou), China</pod>
+      <note>An American diplomatist, politician, and writer. He publications in the 'North American Review' influenced the Trascendentalism movement. He wrote 'Europe; or, a General Survey,' 'New Ideas on Population,' and 'America; or, a General Survey,' among other works.</note>
+   </aheverett>
+   <hf>
+      <name>H. F.</name>
+      <init>HF</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown.</note>
+   </hf>
+   <jfinch>
+      <name>John Finch</name>
+      <init>JF</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/211157901</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Author of several works on geology and physical geography such as "Lectures on Geology," published in 1818, and "Geological Essay on the Tertiary Formations in America."</note>
+   </jfinch>
+   <gfield>
+      <name>George Field</name>
+      <init>GF</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/45929525</viaf>
+      <dob>1777</dob>
+      <pob>Berkhamsted, England</pob>
+      <dod>September 28, 1854</dod>
+      <pod>Isleworth, England</pod>
+      <note>An English chemist who pursued developments in the production of pigments and dyes.</note>
+   </gfield>
+   <hfish>
+      <name>Hamilton Fish</name>
+      <init>HF</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/232585893</viaf>
+      <dob>August 3, 1808</dob>
+      <pob>New York, New York</pob>
+      <dod>September 7, 1893</dod>
+      <pod>Garrison, New York</pod>
+      <note>Politican who served as the Governor of New York, a U. S. Senator, and the U. S. Secretary of State under Ulysses S. Grant.</note>
+   </hfish>
+   <jflaxman>
+      <name>John Flaxman</name>
+      <init>JF</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17260670</viaf>
+      <dob>July 6, 1755</dob>
+      <pob>York, England</pob>
+      <dod>December 7, 1826</dod>
+      <pod/>
+      <note>A sculptor and draughtsman, Flaxman was a leading figure in British and European Neoclassism.</note>
+   </jflaxman>
+   <afletcher>
+      <name>Alexander Fletcher</name>
+      <init>AF</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/5275198</viaf>
+      <dob>April 8, 1787</dob>
+      <pob/>
+      <dod>September 30, 1860</dod>
+      <pod/>
+      <note>A Scottish kirk minister and later a Congregationalist divine in England. He is remembered for preaching to audiences of children and attracting young people to nonconformists chapels through Sunday schools and other events. He is the author of a range of devotional works, including 'A Guide to Family Devotion.'</note>
+   </afletcher>
+   <jfroissart>
+      <name>Jean (Jehan) Froissart</name>
+      <init>JF</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100178580</viaf>
+      <dob>1337</dob>
+      <pob>Valenciennes, Holy Roman Empire</pob>
+      <dod>1410</dod>
+      <pod>Chimay, Holy Roman Empire</pod>
+      <note> A French-speaking medieval author and court historian. Froissart wrote 'Chronicles,' which is a history of the Hundred Years' War, as well as the chivalrous romance 'Meliador.'</note>
+   </jfroissart>
+   <smfuller>
+      <name>Sarah Margaret Fuller</name>
+      <init>SMF</init>
+      <role>MentionedAuthor ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/9866789</viaf>
+      <dob>May 23, 1810</dob>
+      <pob>Cambridge, Massachusetts</pob>
+      <dod>July 19, 1850</dod>
+      <pod>Fire Island, New York</pod>
+      <note>An American journalist, critic, and women's rights advocate commonly known as Margaret Fuller. Fuller was the full-time female book reviewer, the first editor of the Transcendentalist journal 'The Dial,' and the author of 'Woman in the Nineteenth Century,' considered the first major feminist work in the U.S. Fuller became involved in a scandal between Poe, Frances Osgood, and Elizabeth Ellet when she asked Poe to return Ellet's letters. Poe was angered by this interference, but he praised Fuller's book.</note>
+   </smfuller>
+   <ogoldsmith>
+      <name>Oliver Goldsmith</name>
+      <init>OG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100167171</viaf>
+      <dob>November 10, 1728</dob>
+      <pob>Kingdom of Ireland</pob>
+      <dod>April 4, 1774</dod>
+      <pod>London, England</pod>
+      <note>An Irish novelist, playwright, and poet. Goldsmith wrote the novel 'The Vicar of Wakefield,' the poem 'The Deserted Village,' and the plays 'The Good-Natur'd Man,' and 'She Stoops to Conquer.'</note>
+   </ogoldsmith>
+   <gcfullerton>
+      <name>Lady Georgiana Charlotte Leveson-Gower Fullerton</name>
+      <init>GCLF</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/76348624</viaf>
+      <dob>September 23, 1812</dob>
+      <pob>Staffordshire, England</pob>
+      <dod>January 19, 1885</dod>
+      <pod>Bournemouth, England</pod>
+      <note>An English novelist. Fullerton wrote the novels 'Ellen Middleton,' 'Grantley Manor,' and 'Too Strange Not to Be True,' among other novels and two volumes of verse. In a note on 'Ellen Middleton,' Poe praised the work's "precision of style, the thoroughness, and the luminousness," and he expressed difficulty in believing the book was written by a woman.</note>
+   </gcfullerton>
+   <fgaleota>
+      <name>Fabio Mario Galeota</name>
+      <init>FMG</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/65144476</viaf>
+      <dob>1499</dob>
+      <pob>Naples, Italy</pob>
+      <dod>1585</dod>
+      <pod>Naples, Italy</pod>
+      <note>An Italian sonnet is attributed to Galeota in the December 12 issue of the 'Broadway Journal.'</note>
+   </fgaleota>
+   <wdgallgaher>
+      <name>William Davis Gallagher</name>
+      <init>WDG</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/78631456</viaf>
+      <dob>August 21, 1808</dob>
+      <pob>Philadelphia, Pennsylvania</pob>
+      <dod>June 27, 1894</dod>
+      <pod/>
+      <note>A poet and editor for various newspapers. Compiler of one of the earliest American regional poetry anthologies, Selections from the Poetical Literature of the West.</note>
+   </wdgallgaher>
+   <agallatin>
+      <name>Abraham Alfonse Albert Gallatin</name>
+      <init>AAAG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/15580820</viaf>
+      <dob>January 29, 1761</dob>
+      <pob>Geneva, Republic of Switzerland</pob>
+      <dod>August 12, 1849</dod>
+      <pod>Astoria, New York</pod>
+      <note>A Swiss-American politician, diplomat, ethnologist, and linguist. Gallatin was the longest-serving U.S. Secretary of the Treasury, and he helped found the University of the City of New York, now New York University.</note>
+   </agallatin>
+   <jgalt>
+      <name>John Galt</name>
+      <init>JG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/61562976</viaf>
+      <dob>May 2, 1779</dob>
+      <pob>Irvine, Scotland</pob>
+      <dod>April 11, 1839</dod>
+      <pod>Greenock, Scotland</pod>
+      <note>A Scottish novelist, entrepeneur, and social commentator. He was the first novelist to deal with issues of the Industrial Revolution. He wrote the novel 'Annals of the Parish' among many others.</note>
+   </jgalt>
+   <egibbon>
+      <name>Edward Gibbon</name>
+      <init>EG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24601933</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>An English historian, writer, and Member of Parliament. Gibbon wrote 'The History of the Decline and Fall of the Roman Empire.'</note>
+   </egibbon>
+   <wg>
+      <name>W. G.</name>
+      <init>WG</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown. "W. G." is credited with the poem "The  Sybll" in the October 25 issue of the 'Broadway Journal.' Initials could refer to William Mitchell Gillespie, who was an amateur poet with an interest in classics.</note>
+   </wg>
+   <wgibson>
+      <name>William Gibson</name>
+      <init>WG</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob>1826</dob>
+      <pob/>
+      <dod>1887</dod>
+      <pod/>
+      <note>Source: A Vision of Faery Land and Other Poems by William Gibson, Wentworth Press.
+          Information: Attributes "To a Canary Bird" and "The Eternal Father," both printed in the 1846-01-03 edition of the Broadway Journal, to William Gibson, with the above biographical information (birth/death year). High possibility of also being the author of Poems of Many Years and Many Places (Lee and Shepard Publishers-1881).</note>
+   </wgibson>
+   <wmgillespie>
+      <name>William Mitchell Gillespie</name>
+      <init>WMG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/36021110</viaf>
+      <dob>1816</dob>
+      <pob/>
+      <dod>1868</dod>
+      <pod/>
+      <note>An American educator, engineer, traveler, authors, and amateur poet. Gillespie wrote books on engineering and math, such as 'A Manual of the Principles and Practice of Road-Making' and 'Subjects and Methods of Instruction in Mathematics,' and well as 'Rome as Seen by a New Yorker,' which Poe praises in his column "The Literati of New York City."</note>
+   </wmgillespie>
+   <jgiven>
+      <name>James Given</name>
+      <init>JG</init>
+      <role>Correspondent</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Unable to identify on VIAF.</note>
+   </jgiven>
+   <wgodwin>
+      <name>William Godwin</name>
+      <init>WG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/68929729</viaf>
+      <dob>March 3, 1756</dob>
+      <pob>Wisbech, England</pob>
+      <dod>April 7, 1836</dod>
+      <pod>London, England</pod>
+      <note>An English journalist, political philosopher, and novelist. Godwin is considered one of the first advocates of utilitarianism and anarchism. He wrote 'An Enquiry Concerning Political Justice,' and 'Things as They Are; or, The Adventures of Caleb Williams,' considered the first mystery novel. Poe praised Godwin's ingenuity in story-telling.</note>
+   </wgodwin>
+   <jwvgoethe>
+      <name>Johann Wolfgang von Goethe</name>
+      <init>JWvG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24602065</viaf>
+      <dob>August 28, 1749</dob>
+      <pob>Frankfurt-am-Main, Holy Roman Empire</pob>
+      <dod>March 22, 1832</dod>
+      <pod>Weimar, German Confederation</pod>
+      <note>A German writer and statesman. Goethe wrote the novel 'The Sorrows of Young Werther,' and drama 'Faust,' among other works. Goethe also wrote scientific treatises on botany, anatomy, and color.</note>
+   </jwvgoethe>
+   <sggoodrich>
+      <name>Samuel Griswold Goodrich</name>
+      <init>SGG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/88993961</viaf>
+      <dob>August 19, 1793</dob>
+      <pob>Ridgefield, Connecticut</pob>
+      <dod>May 9, 1860</dod>
+      <pod>New York</pod>
+      <note>An American publisher and author. Goodrich's publishing business published the illustrated annual 'The Token,' which featured some of the earlist work of Hawthorn, N. P. Willis, Longfellow, and Lydia Maria Child. Goodrich also established the children's magazine 'Merry's Museum' and wrote children's books. Goodrich is better known under the penname Peter Parley.</note>
+   </sggoodrich>
+   <cgfgore>
+      <name>Catherine Grace Frances Gore</name>
+      <init>CGFG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/74020526</viaf>
+      <dob>February 12, 1798</dob>
+      <pob>London, England</pob>
+      <dod>January 29, 1861</dod>
+      <pod/>
+      <note>An English novelist and dramatist who depicted the gentility and etiquette of high society. She wrote the novel 'Cecil, or Adventures of a Coxcomb,' among others.</note>
+   </cgfgore>
+   <ecjgray>
+      <name>Elizabeth Caroline Johnstone Gray</name>
+      <init>ECJG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/59433323</viaf>
+      <dob>1800</dob>
+      <pob/>
+      <dod>1887</dod>
+      <pod/>
+      <note>Author of 'The History of Etruria' and 'History of Rome for Young Persons.'</note>
+   </ecjgray>
+   <hgreeley>
+      <name>Horace Greeley</name>
+      <init>HG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24772897</viaf>
+      <dob>February 3, 1811</dob>
+      <pob>Amherst, New Hampshire</pob>
+      <dod>November 29, 1872</dod>
+      <pod>Pleasantville, New York</pod>
+      <note>Founder and editor of the 'New-York Tribune.' According to a letter written by Poe to Greeley in 1847, Greeley accused Poe of not paying his debts in a 'New-York Tribune' article.</note>
+   </hgreeley>
+   <jhgreen>
+      <name>Jonathan Harrington Green</name>
+      <init>JHG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/59433323</viaf>
+      <dob>1813</dob>
+      <pob>Ohio</pob>
+      <dod>1887</dod>
+      <pod/>
+      <note>An American gambler, writer, inventot, and eventual reformer. Although he was considered one of the most skilled card players in the U.S., after his retirement he was an anti-gambling activist. He wrote several books, such as 'An Exposure of the Arts and Miseries of Gambling,' and 'Gambling Unmasked.'</note>
+   </jhgreen>
+   <rwgriswold>
+      <name>Rufus Wilmot Griswold</name>
+      <init>RWG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17212832</viaf>
+      <dob>February 13, 1815</dob>
+      <pob>Vermont</pob>
+      <dod>August 27, 1857</dod>
+      <pod>New York, New York</pod>
+      <note/>
+   </rwgriswold>
+   <gguidiccioni>
+      <name>Giovanni Guidiccioni</name>
+      <init>GG</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/88331</viaf>
+      <dob>1500</dob>
+      <pob>Lucca, Italy</pob>
+      <dod>1541</dod>
+      <pod>Macerata, Italy</pod>
+      <note/>
+   </gguidiccioni>
+   <jgwilt>
+      <name>Joseph Gwilt</name>
+      <init>JG</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/44695741</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </jgwilt>
+   <h>
+      <name>H.</name>
+      <init>H</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </h>
+   <bh>
+      <name>B. H.</name>
+      <init>BH</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </bh>
+   <eh>
+      <name>E. H.</name>
+      <init>EH</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </eh>
+   <phaedi>
+      <name>Pater Haedi</name>
+      <init>PH</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>This is probably a penname.</note>
+   </phaedi>
+   <sjhale>
+      <name>Sarah Josepha Hale</name>
+      <init>SJH</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/72222129</viaf>
+      <dob>October 24, 1788</dob>
+      <pob>Newport, New Hampshire</pob>
+      <dod>April 30, 1879</dod>
+      <pod>Philadelphia, Pennsylvania</pod>
+      <note>Also published as Sarah Josephina Buell Hale.</note>
+   </sjhale>
+   <amhall>
+      <name>Anna Maria Fielding Hall</name>
+      <init>AMFH</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/59344020</viaf>
+      <dob>January 6, 1800</dob>
+      <pob>Dublin, Ireland</pob>
+      <dod>January 30, 1881</dod>
+      <pod>East Molesey, England</pod>
+      <note>Often published as Mrs. S. C. Hall.</note>
+   </amhall>
+   <cfhall>
+      <name>Charles Francis Hall</name>
+      <init>CFH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/73843730</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </cfhall>
+   <jhall>
+      <name>Joseph Hall</name>
+      <init>JH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/61678894</viaf>
+      <dob>July 1, 1574</dob>
+      <pob>Prestop Park, Leicestershire, England</pob>
+      <dod>September 8, 1656</dod>
+      <pod>Heigham, Norfolk, England</pod>
+      <note/>
+   </jhall>
+   <schall>
+      <name>Samuel Carter Hall</name>
+      <init>SCH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/67216250</viaf>
+      <dob>May 9, 1800</dob>
+      <pob>Waterford, Ireland</pob>
+      <dod>March 11, 1889</dod>
+      <pod>London, England</pod>
+      <note/>
+   </schall>
+   <fghalleck>
+      <name>Fitz-Greene Halleck</name>
+      <init>FH</init>
+      <role>ContributingAuthor MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/59331019</viaf>
+      <dob>July 8, 1790</dob>
+      <pob>Guilford, Connecticut</pob>
+      <dod>November 19, 1867</dod>
+      <pod>Guilford, Connecticut</pod>
+      <note/>
+   </fghalleck>
+   <wthamilton>
+      <name>William T. Hamilton</name>
+      <init>WTH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/70395367</viaf>
+      <dob>1796</dob>
+      <pob/>
+      <dod>1884</dod>
+      <pod/>
+      <note>Hamilton was a Presbyterian minister and theologian who lived and worked in Mobile, Alabama.</note>
+   </wthamilton>
+   <jjhardin>
+      <name>John Jay Hardin</name>
+      <init>JJH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/14635705</viaf>
+      <dob>January 6, 1810</dob>
+      <pob>Frankfort, Kentucky</pob>
+      <dod>February 23, 1847</dod>
+      <pod>Buena Vista, Mexico</pod>
+      <note>Hardin was killed in the Mexican-American War, in the Battle of Buena Vista.</note>
+   </jjhardin>
+   <whauff>
+      <name>Wilhelm Hauff</name>
+      <init>WH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/9931960</viaf>
+      <dob>November 29, 1802</dob>
+      <pob>Stuttgart, Germany</pob>
+      <dod>November 18, 1827</dod>
+      <pod>Stuttgart, Germany</pod>
+      <note/>
+   </whauff>
+   <drhay>
+      <name>David Ramsay Hay</name>
+      <init>DRH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/2860461</viaf>
+      <dob>March 1798</dob>
+      <pob>Edinburgh, Scotland</pob>
+      <dod>September 10, 1866</dod>
+      <pod>Edinburgh, Scotland</pod>
+      <note/>
+   </drhay>
+   <brhaydon>
+      <name>Benjamin Robert Haydon</name>
+      <init>BRH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/29662326</viaf>
+      <dob>January 26, 1786</dob>
+      <pob>Plymouth, England</pob>
+      <dod>June 22, 1846</dod>
+      <pod/>
+      <note/>
+   </brhaydon>
+   <whazlitt>
+      <name>William Hazlitt</name>
+      <init>WH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/87145187</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </whazlitt>
+   <jtheadley>
+      <name>Joel Tyler Headley</name>
+      <init>JTH</init>
+      <role>MentionedAuthor ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/33241832</viaf>
+      <dob>December 30, 1813</dob>
+      <pob>Walton, New York</pob>
+      <dod>January 16, 1897</dod>
+      <pod>Newburgh, New York</pod>
+      <note/>
+   </jtheadley>
+   <cahelvetius>
+      <name>Claude Adrien Helvétius</name>
+      <init>CAH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100185545</viaf>
+      <dob>January 26, 1715</dob>
+      <pob>Paris, France</pob>
+      <dod>December 26, 1771</dod>
+      <pod>Paris, France</pod>
+      <note/>
+   </cahelvetius>
+   <fhemans>
+      <name>Felicia Dorothea Hemans</name>
+      <init>FDH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17397168</viaf>
+      <dob>September 25, 1793</dob>
+      <pob>Liverpool, England</pob>
+      <dod>May 16, 1835</dod>
+      <pod>Dublin, Ireland</pod>
+      <note/>
+   </fhemans>
+   <herodotus>
+      <name>Herodotus</name>
+      <init>H</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100225976</viaf>
+      <dob>484 B.C.</dob>
+      <pob>Halicarnassus, Persian Empire</pob>
+      <dod>425 B.C.</dod>
+      <pod>Thurii, Calabria or Pella, Macedon</pod>
+      <note>The place where Herodotus died is debated.</note>
+   </herodotus>
+   <wheseltine>
+      <name>William Heseltine</name>
+      <init>WH</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Noted as original author of 'The Last of the Plantagenets.'</note>
+   </wheseltine>
+   <mehewitt>
+      <name>Mary Elizabeth Hewitt</name>
+      <init>MEH</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/60556692</viaf>
+      <dob>March 20, 1807</dob>
+      <pob>Malden, Massachusetts</pob>
+      <dod>September 17, 1894</dod>
+      <pod/>
+      <note/>
+   </mehewitt>
+   <jheywood>
+      <name>John Heywood</name>
+      <init>JH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/41859470</viaf>
+      <dob>1497</dob>
+      <pob>England</pob>
+      <dod>1580</dod>
+      <pod>Mechelen, Belgium</pod>
+      <note/>
+   </jheywood>
+   <hbhirst>
+      <name>Henry Beck Hirst</name>
+      <init>HBH</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/76152035</viaf>
+      <dob>August 23, 1817</dob>
+      <pob>Philadelphia, Pennsylvania</pob>
+      <dod>March 30, 1874</dod>
+      <pod>Philadelphia, Pennsylvania</pod>
+      <note>Some sources list his birth year as 1813.</note>
+   </hbhirst>
+   <gfholmes>
+      <name>George Frederick Holmes</name>
+      <init>GFH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/75589537</viaf>
+      <dob>1820</dob>
+      <pob>Georgetown, British Guyana</pob>
+      <dod>1897</dod>
+      <pod>Charlottesville, Virginia</pod>
+      <note/>
+   </gfholmes>
+   <thood>
+      <name>Thomas Hood</name>
+      <init>TH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17247761</viaf>
+      <dob>May 23, 1799</dob>
+      <pob>London, England</pob>
+      <dod>May 3, 1845</dod>
+      <pod>London, England</pod>
+      <note/>
+   </thood>
+   <ghorne>
+      <name>George Horne</name>
+      <init>GH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/71474094</viaf>
+      <dob>November 1, 1730</dob>
+      <pob>Otham, England</pob>
+      <dod>January 17, 1792</dod>
+      <pod>Bath, England</pod>
+      <note/>
+   </ghorne>
+   <horus>
+      <name>Horus</name>
+      <init>H</init>
+      <role>Correspondent</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>"Horus" is likely an unknown poet's pen name.</note>
+   </horus>
+   <fhoward>
+      <name>Frank Howard</name>
+      <init>FH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/59361412</viaf>
+      <dob>1805</dob>
+      <pob>London, England</pob>
+      <dod>June 29, 1866</dod>
+      <pod>Liverpool, England</pod>
+      <note/>
+   </fhoward>
+   <rhoyt>
+      <name>Ralph Hoyt</name>
+      <init>RH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/55862847</viaf>
+      <dob>1806</dob>
+      <pob/>
+      <dod>1878</dod>
+      <pod/>
+      <note/>
+   </rhoyt>
+   <dhume>
+      <name>David Hume</name>
+      <init>DH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/49226972</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </dhume>
+   <fhunt>
+      <name>Freeman Hunt</name>
+      <init>FH</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/6496622</viaf>
+      <dob>1804</dob>
+      <pob/>
+      <dod>1858</dod>
+      <pod/>
+      <note/>
+   </fhunt>
+   <amide>
+      <name>Abijah Metcalf Ide, Jr.</name>
+      <init>AMI</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob>February 2, 1825</dob>
+      <pob>Attleboro, Massachusetts</pob>
+      <dod>May 22, 1873</dod>
+      <pod/>
+      <note>Ide is not, as was once believed, a pen name for Poe.</note>
+   </amide>
+   <jringersoll>
+      <name>Joseph Reed Ingersoll</name>
+      <init>JRI</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/48200021</viaf>
+      <dob>June 14, 1786</dob>
+      <pob/>
+      <dod>February 20, 1868</dod>
+      <pod>Philadelphia, Pennsylvania</pod>
+      <note/>
+   </jringersoll>
+   <jinman>
+      <name>John Inman</name>
+      <init>JI</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/46681078</viaf>
+      <dob>1805</dob>
+      <pob/>
+      <dod>1850</dod>
+      <pod/>
+      <note/>
+   </jinman>
+   <eirving>
+      <name>Edward Irving</name>
+      <init>EI</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/37687636</viaf>
+      <dob>August 4, 1792</dob>
+      <pob>Annan, Scotland</pob>
+      <dod>December 7, 1834</dod>
+      <pod>Edinburgh, Scotland</pod>
+      <note/>
+   </eirving>
+   <j>
+      <name>J.</name>
+      <init>J</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </j>
+   <gjones>
+      <name>George Jones</name>
+      <init>GJ</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://www.viaf.org/viaf/43864654</viaf>
+      <dob>May 10, 1810</dob>
+      <pob>London, England</pob>
+      <dod>December 30, 1879</dod>
+      <pod>New York, New York</pod>
+      <note>Also known as George, Count Joannes.</note>
+   </gjones>
+   <sjohnson>
+      <name>Samuel Johnson</name>
+      <init>SJ</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/7406725</viaf>
+      <dob>September 18, 1709</dob>
+      <pob>Lichfield, England</pob>
+      <dod>December 13, 1784</dod>
+      <pod>London, England</pod>
+      <note/>
+   </sjohnson>
+   <wajones>
+      <name>William Alfred Jones</name>
+      <init>WAJ</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/31091349</viaf>
+      <dob>June 26, 1817</dob>
+      <pob>New York, New York</pob>
+      <dod>May 16, 1900</dod>
+      <pod>New York</pod>
+      <note/>
+   </wajones>
+   <k>
+      <name>K.</name>
+      <init>K</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </k>
+   <tkeightley>
+      <name>Thomas Keightley</name>
+      <init>TK</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24954462</viaf>
+      <dob>October 17, 1789</dob>
+      <pob>Dublin, Ireland</pob>
+      <dod>November 4, 1872</dod>
+      <pod>London, England</pod>
+      <note/>
+   </tkeightley>
+   <jpkennedy>
+      <name>John Pendleton Kennedy</name>
+      <init>JPK</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/15290449</viaf>
+      <dob>October 25, 1795</dob>
+      <pob>Baltimore, Maryland</pob>
+      <dod>August 18, 1870</dod>
+      <pod>Newport, Rhode Island</pod>
+      <note/>
+   </jpkennedy>
+   <cmketeltas>
+      <name>Caroline M. Keteltas</name>
+      <init>CMK</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Author of 'The Last of the Plantagenets.'</note>
+   </cmketeltas>
+   <cking>
+      <name>Charles King</name>
+      <init>CK</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/67936599</viaf>
+      <dob>March 16, 1867</dob>
+      <pob>New York, New York</pob>
+      <dod>1867</dod>
+      <pod>Frascati, Italy</pod>
+      <note/>
+   </cking>
+   <tbking>
+      <name>Thomas Butler King</name>
+      <init>TBK</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/53160666</viaf>
+      <dob>August 27, 1800</dob>
+      <pob>Palmer, Massachusetts</pob>
+      <dod>May 10, 1864</dod>
+      <pod>Waresboro, Georgia</pod>
+      <note/>
+   </tbking>
+   <cmkirkland>
+      <name>Caroline Mathilda Stansbury Kirkland</name>
+      <init>CMSK</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/45095811</viaf>
+      <dob>January 11, 1801</dob>
+      <pob>New York, New York</pob>
+      <dod>April 6, 1864</dod>
+      <pod>New York, New York</pod>
+      <note>Mary Clavers is Caroline Kirkland's pen name.</note>
+   </cmkirkland>
+   <hcl>
+      <name>H. C. L.</name>
+      <init>HCL</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </hcl>
+   <l>
+      <name>L.</name>
+      <init>L</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </l>
+   <flanaterzi>
+      <name>Francesco Lana de Terzi</name>
+      <init>FLdT</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/27801240</viaf>
+      <dob>1631</dob>
+      <pob>Brescia, Lombardy</pob>
+      <dod>February 22, 1687</dod>
+      <pod>Brescia, Lombardy</pod>
+      <note/>
+   </flanaterzi>
+   <clanman>
+      <name>Charles Lanman</name>
+      <init>CL</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/15148068</viaf>
+      <dob>June 14, 1819</dob>
+      <pob>Monroe, Michigan</pob>
+      <dod>March 4, 1895</dod>
+      <pod>Georgetown, D.C.</pod>
+      <note/>
+   </clanman>
+   <llanzi>
+      <name>Luigi Lanzi</name>
+      <init>LL</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/78760428</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </llanzi>
+   <mllawson>
+      <name>Mary L. Lawson</name>
+      <init>MLL</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </mllawson>
+   <eleslie>
+      <name>Eliza Leslie</name>
+      <init>EL</init>
+      <role>Mentioned Author</role>
+      <viaf>http://viaf.org/viaf/56963085</viaf>
+      <dob>November 15, 1787</dob>
+      <pob>Philadelphia, Pennsylvania</pob>
+      <dod>January 1, 1858</dod>
+      <pod>Gloucester City, New Jersey</pod>
+      <note/>
+   </eleslie>
+   <jlocke>
+      <name>John Locke</name>
+      <init>JL</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/34459614</viaf>
+      <dob>August 29, 1632</dob>
+      <pob>Wrington, England</pob>
+      <dod>October 28, 1704</dod>
+      <pod>High Laver, England</pod>
+      <note/>
+   </jlocke>
+   <hwlongfellow>
+      <name>Henry Wadsworth Longfellow</name>
+      <init>HWL</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/54150826</viaf>
+      <dob>February 27, 1807</dob>
+      <pob>Portland, Maine</pob>
+      <dod>March 24, 1882</dod>
+      <pod>Cambridge, Massachusetts</pod>
+      <note/>
+   </hwlongfellow>
+   <jrlowell>
+      <name>James Russell Lowell</name>
+      <init>JRL</init>
+      <role>ContributingAuthor MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/29549920</viaf>
+      <dob>February 22, 1819</dob>
+      <pob>Cambridge, Massachusetts</pob>
+      <dod>August 12, 1891</dod>
+      <pod>Cambridge, Massachusetts</pod>
+      <note/>
+   </jrlowell>
+   <mwlowell>
+      <name>Maria White Lowell</name>
+      <init>MWL</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/63040126</viaf>
+      <dob>July 8, 1824</dob>
+      <pob>Watertown, Massachusetts</pob>
+      <dod>October 27, 1853</dod>
+      <pod>Cambridge, Massachusetts</pod>
+      <note/>
+   </mwlowell>
+   <aclynch>
+      <name>Anne C. Lynch</name>
+      <init>ACL</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/51542839</viaf>
+      <dob>November 11, 1815</dob>
+      <pob>Bennington, Vermont</pob>
+      <dod>March 23, 1891</dod>
+      <pod>New York City, New York</pod>
+      <note>Often published as Anne Lynch Botta.</note>
+   </aclynch>
+   <eblytton>
+      <name>Edward George Earle Bulwer Lytton</name>
+      <init>EGEBL</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/99871326</viaf>
+      <dob>May 25, 1803</dob>
+      <pob>London, England</pob>
+      <dod>January 18, 1873</dod>
+      <pod>Torquay, England</pod>
+      <note/>
+   </eblytton>
+   <im>
+      <name>I. M.</name>
+      <init>IM</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </im>
+   <tbmacaulay>
+      <name>Thomas Babington Macaulay</name>
+      <init>TBM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/56618365</viaf>
+      <dob>October 25, 1800</dob>
+      <pob>Leicestershire, England</pob>
+      <dod>December 28, 1859</dod>
+      <pod>London, England</pod>
+      <note/>
+   </tbmacaulay>
+   <cdmacleod>
+      <name>C. Donald Macleod</name>
+      <init>CDM</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown. Has a set of poems titled "Emblems" published in Graham's Magazine, 1846.</note>
+   </cdmacleod>
+   <jjmapes>
+      <name>James Jay Mapes</name>
+      <init>JJM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/60658410</viaf>
+      <dob>May 29, 1806</dob>
+      <pob>New York, New York</pob>
+      <dod>January 10, 1866</dod>
+      <pod>New York, New York</pod>
+      <note/>
+   </jjmapes>
+   <fmarryat>
+      <name>Frederick Marryat</name>
+      <init>FM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39380934</viaf>
+      <dob>July 10, 1792</dob>
+      <pob>London, England</pob>
+      <dod>August 9, 1848</dod>
+      <pod>Langham, England</pod>
+      <note/>
+   </fmarryat>
+   <gpmarsh>
+      <name>George Perkins Marsh</name>
+      <init>GPM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17288270</viaf>
+      <dob>March 15, 1801</dob>
+      <pob>Woodstock, Vermont</pob>
+      <dod>July 23, 1882</dod>
+      <pod>Reggello, Italy</pod>
+      <note/>
+   </gpmarsh>
+   <hmartineau>
+      <name>Harriet Martineau</name>
+      <init>HM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/14785544</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </hmartineau>
+   <wmason>
+      <name>William Mason</name>
+      <init>WM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/95718679</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </wmason>
+   <cmathews>
+      <name>Cornelius Mathews</name>
+      <init>CM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/60326256</viaf>
+      <dob>October 28, 1817</dob>
+      <pob>Port Chester, New York</pob>
+      <dod>March 25, 1889</dod>
+      <pod>New York, New York</pod>
+      <note/>
+   </cmathews>
+   <abmeek>
+      <name>Alexander Beaufort Meek</name>
+      <init>ABM</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/31083817</viaf>
+      <dob>July 17, 1814</dob>
+      <pob>Columbia, South Carolina</pob>
+      <dod>November 30, 1865</dod>
+      <pod>Columbus, Mississippi</pod>
+      <note/>
+   </abmeek>
+   <jmichelet>
+      <name>Jules Michelet</name>
+      <init>JM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/41844048</viaf>
+      <dob>August 21, 1798</dob>
+      <pob>Paris, France</pob>
+      <dod>February 9, 1874</dod>
+      <pod>Hyères, France</pod>
+      <note/>
+   </jmichelet>
+   <tmiddleton>
+      <name>Thomas Middleton</name>
+      <init>TM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/292459958</viaf>
+      <dob>1580</dob>
+      <pob>London, England</pob>
+      <dod>1627</dod>
+      <pod>London, England</pod>
+      <note/>
+   </tmiddleton>
+   <ghmildeberger>
+      <name>G. H. Mildeberger</name>
+      <init>GHM</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Author of "The Autumnal Leaf"; full name unknown.</note>
+   </ghmildeberger>
+   <jmiller>
+      <name>Joseph Miller</name>
+      <init>JM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/65506759</viaf>
+      <dob>1684</dob>
+      <pob/>
+      <dod>1738</dod>
+      <pod/>
+      <note>English actor. After his death, his name was used to sell joke books.</note>
+   </jmiller>
+   <jmilton>
+      <name>John Milton</name>
+      <init>JM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17226855</viaf>
+      <dob>December 9, 1608</dob>
+      <pob>London, England</pob>
+      <dod>November 8, 1674</dod>
+      <pod>London, England</pod>
+      <note/>
+   </jmilton>
+   <tmoore>
+      <name>Thomas Moore</name>
+      <init>TM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/24616222</viaf>
+      <dob>May 28, 1779</dob>
+      <pob>Dublin, Ireland</pob>
+      <dod>February 25, 1852</dod>
+      <pod>Bromham, Wiltshire, England</pod>
+      <note/>
+   </tmoore>
+   <hmore>
+      <name>Hannah More</name>
+      <init>HM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/51802053</viaf>
+      <dob>February 2, 1745</dob>
+      <pob>Fishponds, England</pob>
+      <dod>September 7, 1833</dod>
+      <pod>Clifton, England</pod>
+      <note/>
+   </hmore>
+   <ejmorris>
+      <name>Edward Joy Morris</name>
+      <init>EJM</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/50802161</viaf>
+      <dob>July 16, 1815</dob>
+      <pob>Philadelphia, Pennsylvania</pob>
+      <dod>October 31, 1881</dod>
+      <pod>Philadelphia, Pennsylvania</pod>
+      <note/>
+   </ejmorris>
+   <jemurdoch>
+      <name>James Edward Murdoch</name>
+      <init>JEM</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/65658859</viaf>
+      <dob>January 25, 1811</dob>
+      <pob>Philadelphia, Pennsylvania</pob>
+      <dod>May 19, 1893</dod>
+      <pod>Ohio</pod>
+      <note/>
+   </jemurdoch>
+   <jneal>
+      <name>John Neal</name>
+      <init>JN</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/13102559</viaf>
+      <dob>August 25, 1793</dob>
+      <pob>Portland, Maine</pob>
+      <dod>June 20, 1876</dod>
+      <pod>Portland, Maine</pod>
+      <note/>
+   </jneal>
+   <mgnichols>
+      <name>Mary Sargeant Gove Nichols</name>
+      <init>MSGN</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/290135283</viaf>
+      <dob>August 10, 1810</dob>
+      <pob>Goffstown, New Hampshire</pob>
+      <dod>1884</dod>
+      <pod/>
+      <note/>
+   </mgnichols>
+   <llnoble>
+      <name>Lewis L. Noble</name>
+      <init>LLN</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Wrote "To a Flying Swan," which appears in the 1843 publication Readings in American Poetry. No VIAF information.</note>
+   </llnoble>
+   <btonderdonk>
+      <name>Benjamin Treadwell Onderdonk</name>
+      <init>BTO</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/55545295</viaf>
+      <dob>July 15, 1791</dob>
+      <pob>New York, New York</pob>
+      <dod>April 30, 1861</dod>
+      <pod>New York, New York</pod>
+      <note/>
+   </btonderdonk>
+   <aaopie>
+      <name>Amelia Alderson Opie</name>
+      <init>AAO</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39410771</viaf>
+      <dob>November 12, 1769</dob>
+      <pob>Norwich, England</pob>
+      <dod>December 2, 1853</dod>
+      <pod>Norwich, England</pod>
+      <note/>
+   </aaopie>
+   <losborn>
+      <name>Laughton Osborn</name>
+      <init>LO</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/18836680</viaf>
+      <dob>1809</dob>
+      <pob>New York, New York</pob>
+      <dod>December 12, 1878</dod>
+      <pod>New York, New York</pod>
+      <note/>
+   </losborn>
+   <fsosgood>
+      <name>Frances Sargent Osgood</name>
+      <init>FSO</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/74673685</viaf>
+      <dob>June 18, 1811</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>May 12, 1850</dod>
+      <pod>New York, New York</pod>
+      <note>Osgood sometimes used the pen name "Clarice," and Pollin identifies Osgood 
+          as the author of "Lenore" in the 31 May 1845 issue of the Broadway Journal. Source: www.eapoe.org</note>
+   </fsosgood>
+   <outis>
+      <name>Mr. Outis</name>
+      <init>O</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>This is a pen name. It may be a pen name for Poe.</note>
+   </outis>
+   <map>
+      <name>Mary Ann P.</name>
+      <init>MAP</init>
+      <role>Correspondent</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </map>
+   <wpage>
+      <name>William Page</name>
+      <init>WP</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/43289647</viaf>
+      <dob>January 23, 1811</dob>
+      <pob>Albany, New York</pob>
+      <dod>October 1, 1885</dod>
+      <pod>Tottenville, Staten Island, New
+            York</pod>
+      <note/>
+   </wpage>
+   <tparnell>
+      <name>Thomas Parnell</name>
+      <init>TP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/32041540</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </tparnell>
+   <ehpatterson>
+      <name>Edwin Howard Norton Patterson</name>
+      <init>EHNP</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob>January 27, 1828</dob>
+      <pob>Winchester, Virginia</pob>
+      <dod>April 21, 1880</dod>
+      <pod>Colorado</pod>
+      <note>Some sources list his name as Edward Patterson</note>
+   </ehpatterson>
+   <jpaul>
+      <name>Jean Paul</name>
+      <init>JP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/64011067</viaf>
+      <dob>March 21, 1763</dob>
+      <pob>Wunsiedel, Holy Roman Empire</pob>
+      <dod>November 14, 1825</dod>
+      <pod>Bayreuth, German Confederation</pod>
+      <note>Birth name was Johann Paul Friedrich Richter.</note>
+   </jpaul>
+   <cperabeau>
+      <name>Charles Perabeau</name>
+      <init>CP</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </cperabeau>
+   <asphelps>
+      <name>A. S. Phelps</name>
+      <init>ASP</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </asphelps>
+   <tpicton>
+      <name>Thomas Picton</name>
+      <init>TP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/21147179</viaf>
+      <dob>1822</dob>
+      <pob/>
+      <dod>1891</dod>
+      <pod/>
+      <note/>
+   </tpicton>
+   <apike>
+      <name>Albert Pike</name>
+      <init>AP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/12428852</viaf>
+      <dob>December 29, 1809</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>April 2, 1891</dod>
+      <pod>Washington, D.C.</pod>
+      <note/>
+   </apike>
+   <ecpinkney>
+      <name>Edward Coote Pinkney</name>
+      <init>ECP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/49081698</viaf>
+      <dob>October 1, 1802</dob>
+      <pob>Londong, England</pob>
+      <dod>April 11, 1828</dod>
+      <pod>Baltimore, Maryland</pod>
+      <note/>
+   </ecpinkney>
+   <eapoe>
+      <name>Edgar Allan Poe</name>
+      <init>EAP</init>
+      <role>ContributingAuthor MentionedAuthor Editor</role>
+      <viaf>http://viaf.org/viaf/60351476</viaf>
+      <dob>January 19, 1809</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>October 7, 1849</dod>
+      <pod>Baltimore, Maryland</pod>
+      <note/>
+   </eapoe>
+   <apope>
+      <name>Alexander Pope</name>
+      <init>AP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/61551003</viaf>
+      <dob>May 21, 1688</dob>
+      <pob>London, England</pob>
+      <dod>May 30, 1744</dod>
+      <pod>Twickenham, England</pod>
+      <note/>
+   </apope>
+   <jporter>
+      <name>Jane Porter</name>
+      <init>JP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/51964829</viaf>
+      <dob>January 17, 1776</dob>
+      <pob>Durham, England</pob>
+      <dod>May 24, 1850</dod>
+      <pod>Bristol, England</pod>
+      <note/>
+   </jporter>
+   <whprescott>
+      <name>William Hickling Prescott</name>
+      <init>WHP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/14775490</viaf>
+      <dob>May 4, 1796</dob>
+      <pob>Salem, Massachusetts</pob>
+      <dod>January 28, 1859</dod>
+      <pod>Boston, Massachusetts</pod>
+      <note/>
+   </whprescott>
+   <awpugin>
+      <name>Augustus Welby Northmore Pugin</name>
+      <init>AWNP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17247761</viaf>
+      <dob>March 1, 1812</dob>
+      <pob>London, England</pob>
+      <dod>September 14, 1852</dod>
+      <pod>Ramsgate, England</pod>
+      <note/>
+   </awpugin>
+   <jpycroft>
+      <name>James Pycroft</name>
+      <init>JP</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39751793</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </jpycroft>
+   <r>
+      <name>R.</name>
+      <init>R</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </r>
+   <mkreid>
+      <name>Marion Kirkland Reid</name>
+      <init>MKR</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://www.viaf.org/viaf/64402657</viaf>
+      <dob>March 25, 1815</dob>
+      <pob>Glasgow, Scotland</pob>
+      <dod>March 9, 1902</dod>
+      <pod>London, England</pod>
+      <note>Sometimes referenced as "Mrs. Hugo Reid."</note>
+   </mkreid>
+   <jreynolds>
+      <name>Sir Joshua Reynolds</name>
+      <init>JR</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/27081216</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </jreynolds>
+   <dlrichardson>
+      <name>David Lester Richardson</name>
+      <init>DLR</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/72944734</viaf>
+      <dob>1801</dob>
+      <pob>Marylebone, England</pob>
+      <dod>November 17, 1865</dod>
+      <pod>Clapham, England</pod>
+      <note>A poet, literary editor, periodical writer, linguist, and educator.</note>
+   </dlrichardson>
+   <acmritchie>
+      <name>Anna Cora Ogden Mowatt Ritchie</name>
+      <init>ACOMR</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/33288782</viaf>
+      <dob>March 5, 1819</dob>
+      <pob>Bordeaux, France</pob>
+      <dod>July 21, 1870</dod>
+      <pod>Twickenham, England</pod>
+      <note/>
+   </acmritchie>
+   <frobinson>
+      <name>Fay Robinson</name>
+      <init>FR</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>This may be a pen name.</note>
+   </frobinson>
+   <jrochietti>
+      <name>Joseph Rocchietti</name>
+      <init>JR</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/19581167</viaf>
+      <dob>1798</dob>
+      <pob/>
+      <dod>1879</dod>
+      <pod/>
+      <note/>
+   </jrochietti>
+   <ebrodman>
+      <name>E. B. Rodman</name>
+      <init>EBR</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>An engraver; full name unknown</note>
+   </ebrodman>
+   <srogers>
+      <name>Samuel Rogers</name>
+      <init>SR</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/34584260</viaf>
+      <dob>July 30, 1763</dob>
+      <pob>Newington Green, England</pob>
+      <dod>December 18, 1855</dod>
+      <pod>London, England</pod>
+      <note/>
+   </srogers>
+   <fmrowan>
+      <name>Frederica Maclean Rowan</name>
+      <init>FMR</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/7254636</viaf>
+      <dob>April 22, 1814</dob>
+      <pob>West Indies</pob>
+      <dod>October 23, 1892</dod>
+      <pod>London, England</pod>
+      <note/>
+   </fmrowan>
+   <nrowe>
+      <name>Nicholas Rowe</name>
+      <init>NR</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/19751395</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </nrowe>
+   <rsrowley>
+      <name>R. S. Rowley</name>
+      <init>RSR</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Author of "Fancies," "Epicedium," and "A College Reminiscence." Full name unknown.</note>
+   </rsrowley>
+   <fschiller>
+      <name>Johann Christoph Friedrich von Schiller</name>
+      <init>JCFvS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/96994450</viaf>
+      <dob>November 10, 1759</dob>
+      <pob>Marbach am Neckar, Holy Roman Empire</pob>
+      <dod>May 9, 1805</dod>
+      <pod>Weimar, Saxe-Weimar</pod>
+      <note/>
+   </fschiller>
+   <hrschoolcraft>
+      <name>Henry Rowe Schoolcraft</name>
+      <init>HRS</init>
+      <role>ContributingAuthor MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/7451014</viaf>
+      <dob>March 28, 1793</dob>
+      <pob>Guilderland, New York</pob>
+      <dod>December 10, 1864</dod>
+      <pod/>
+      <note/>
+   </hrschoolcraft>
+   <gcscott>
+      <name>Genio Columbus Scott</name>
+      <init>GCS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/77849688</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </gcscott>
+   <wscott>
+      <name>Sir Walter Scott</name>
+      <init>WS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/95207079</viaf>
+      <dob>August 15, 1771</dob>
+      <pob>Edinburgh, Scotland</pob>
+      <dod>September 21, 1832</dod>
+      <pod>Abbotsford, Scotland</pod>
+      <note/>
+   </wscott>
+   <waseeley>
+      <name>W. A. Seeley</name>
+      <init>WAS</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown.</note>
+   </waseeley>
+   <wshakespeare>
+      <name>William Shakespeare</name>
+      <init>WS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/96994048</viaf>
+      <dob>April 23, 1564</dob>
+      <pob>Stratford-upon-Avon, England</pob>
+      <dod>April 23, 1616</dod>
+      <pod>Startford-upon-Avon, England</pod>
+      <note/>
+   </wshakespeare>
+   <pbshelley>
+      <name>Percy Bysshe Shelley</name>
+      <init>PBS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/95159449</viaf>
+      <dob>August 4, 1792</dob>
+      <pob>Horsham, England</pob>
+      <dod>July 8, 1822</dod>
+      <pod>Gulf of La Spezia, Kingdom of Sardinia</pod>
+      <note/>
+   </pbshelley>
+   <lhsigourney>
+      <name>Lydia Huntley Sigourney</name>
+      <init>LHS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/67241256</viaf>
+      <dob>September 1, 1791</dob>
+      <pob>Norwich, Connecticut</pob>
+      <dod>June 10, 1865</dod>
+      <pod>Hartford, Connecticut</pod>
+      <note>Also known as Lydia Howard Huntley.</note>
+   </lhsigourney>
+   <wgsimms>
+      <name>William Gilmore Simms</name>
+      <init>WGS</init>
+      <role>ContributingAuthor MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/39392170</viaf>
+      <dob>April 17, 1806</dob>
+      <pob>Charleston, South Carolina</pob>
+      <dod>June 11, 1870</dod>
+      <pod>Charleston, South Carolina</pod>
+      <note/>
+   </wgsimms>
+   <ssmith>
+      <name>Sydney Smith</name>
+      <init>SS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/13103803</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </ssmith>
+   <tgsmollett>
+      <name>Tobias George Smollett</name>
+      <init>TGS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/68935985</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </tgsmollett>
+   <sophocles>
+      <name>Sophocles</name>
+      <init>S</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/101760867</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </sophocles>
+   <apstanley>
+      <name>Arthur Penrhyn Stanley</name>
+      <init>APS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/54137873</viaf>
+      <dob>December 13, 1815</dob>
+      <pob>Alderley Edge, England</pob>
+      <dod>July 18, 1881</dod>
+      <pod>London, England</pod>
+      <note/>
+   </apstanley>
+   <ahstephens>
+      <name>Alexander Hamilton Stephens</name>
+      <init>AHS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/22949859</viaf>
+      <dob>February 11, 1812</dob>
+      <pob>Crawfordville, Georgia</pob>
+      <dod>March 4, 1883</dod>
+      <pod/>
+      <note/>
+   </ahstephens>
+   <strabo>
+      <name>Strabo</name>
+      <init>S</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/100219883</viaf>
+      <dob>64 B.C.</dob>
+      <pob>Amaseia, Pontus</pob>
+      <dod>0024</dod>
+      <pod/>
+      <note/>
+   </strabo>
+   <esue>
+      <name>Eugene Sue</name>
+      <init>ES</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/66473859</viaf>
+      <dob>January 26, 1804</dob>
+      <pob/>
+      <dod>August 3, 1857</dod>
+      <pod/>
+      <note/>
+   </esue>
+   <ajsullivan>
+      <name>Arabella Jane Sullivan</name>
+      <init>AJS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/67194114</viaf>
+      <dob>1796</dob>
+      <pob/>
+      <dod>1839</dod>
+      <pod/>
+      <note>Also known as Arabelle Jane Wilmot and Mrs. Frederick Sullivan.</note>
+   </ajsullivan>
+   <jswift>
+      <name>Jonathan Swift</name>
+      <init>JS</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/14777110</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </jswift>
+   <t>
+      <name>T.</name>
+      <init>T</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown</note>
+   </t>
+   <wbstaylor>
+      <name>William Benjamin Sarsfield Taylor</name>
+      <init>WBST</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/62338567</viaf>
+      <dob>1781</dob>
+      <pob/>
+      <dod>1850</dod>
+      <pod/>
+      <note/>
+   </wbstaylor>
+   <jltellkampf>
+      <name>Johann Ludwig Tellkampf</name>
+      <init>JLT</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/77046838</viaf>
+      <dob>January 28, 1808</dob>
+      <pob>Buckeberg, Germany</pob>
+      <dod>February 15, 1876</dod>
+      <pod>Breslau, Poland</pod>
+      <note>Tellkampf is listed as "T.L. Tellkampf" in the 1845-12-20 issue of the Broadway Journal, and again in Poe: Essays and Reviews by Edgar Allan Poe and Gary Richard Thompson, which also mentions his work at Columbia College. A biography for Johann Ludgwig (or Louise) Tellkampf lists his work at Columbia College during the same time period. Thus we infer that the "T" was likely a misprint.</note>
+   </jltellkampf>
+   <wmthackeray>
+      <name>William Makepeace Thackeray</name>
+      <init>WMT</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/95208604</viaf>
+      <dob>July 18, 1811</dob>
+      <pob>Calcutta, British India</pob>
+      <dod>December 24, 1863</dod>
+      <pod>London, England</pod>
+      <note/>
+   </wmthackeray>
+   <fwthomas>
+      <name>Frederick William Thomas</name>
+      <init>FWT</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/9699484</viaf>
+      <dob>October 25, 1806</dob>
+      <pob>Providence, Rhode Island</pob>
+      <dod>August 27, 1866</dod>
+      <pod>Washington, D. C.</pod>
+      <note>Thomas worked as a newspaper editor in several cities, including Cincinnati, Richmond, and Columbia, South Carolina. He was also a professor of English and rhetoric at the University of Alabama.</note>
+   </fwthomas>
+   <gthorburn>
+      <name>Grant Thorburn</name>
+      <init>GT</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/5309233</viaf>
+      <dob>February 18, 1773</dob>
+      <pob>Westhouses, Scotland</pob>
+      <dod>January 21, 1863</dod>
+      <pod>Newhaven, Connecticut</pod>
+      <note/>
+   </gthorburn>
+   <gtroost>
+      <name>Gerard Troost</name>
+      <init>GT</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/19530779</viaf>
+      <dob>March 5, 1776</dob>
+      <pob>'s-Hertogenbosch, Netherlands</pob>
+      <dod>August 14, 1850</dod>
+      <pod>Nashville, Tennessee</pod>
+      <note/>
+   </gtroost>
+   <mhtrowbridge>
+      <name>Marcus H. Trowbridge</name>
+      <init>MHT</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>No VIAF information available.</note>
+   </mhtrowbridge>
+   <jtrumbull>
+      <name>John Trumbull</name>
+      <init>JT</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/12557753</viaf>
+      <dob>April 24, 1750</dob>
+      <pob>Watertown, Connecticut</pob>
+      <dod>May 11, 1831</dod>
+      <pod>Detroit, Michigan Territory</pod>
+      <note/>
+   </jtrumbull>
+   <httuckerman>
+      <name>Henry Theodore Tuckerman</name>
+      <init>HTT</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/42895727</viaf>
+      <dob>August 20, 1813</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>December 17, 1871</dod>
+      <pod>New York, New York</pod>
+      <note/>
+   </httuckerman>
+   <wwturner>
+      <name>William Wadden Turner</name>
+      <init>WWT</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/59474663</viaf>
+      <dob>October 23, 1810</dob>
+      <pob>London, England</pob>
+      <dod>November 29, 1859</dod>
+      <pod>Washington, D.C.</pod>
+      <note/>
+   </wwturner>
+   <saw>
+      <name>S. A. W.</name>
+      <init>SAW</init>
+      <role>Correspondent</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown.</note>
+   </saw>
+   <W>
+      <name>W.</name>
+      <init>W</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown.</note>
+   </W>
+   <ewaller>
+      <name>Edmund Waller</name>
+      <init>EW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/47109686</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </ewaller>
+   <gbwallis>
+      <name>George B. Wallis</name>
+      <init>GBW</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/100800323</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </gbwallis>
+   <hwalpole>
+      <name>Horace Walpole</name>
+      <init>HW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17231985</viaf>
+      <dob>September 24, 1717</dob>
+      <pob>London, England</pob>
+      <dod>March 2, 1797</dod>
+      <pod/>
+      <note/>
+   </hwalpole>
+   <iwalton>
+      <name>Izaak Walton</name>
+      <init>IW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/73863052</viaf>
+      <dob>1594</dob>
+      <pob/>
+      <dod>December 15, 1683</dod>
+      <pod>Winchester, England</pod>
+      <note/>
+   </iwalton>
+   <jwaters>
+      <name>John Waters</name>
+      <init>JW</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Noted for his poem published in the March 'Knickerbocker.'</note>
+   </jwaters>
+   <hcwatson>
+      <name>Henry Cood Watson</name>
+      <init>HCW</init>
+      <role>ContributingAuthor Editor</role>
+      <viaf>http://viaf.org/viaf/60433825</viaf>
+      <dob>1816</dob>
+      <pob>London, England</pob>
+      <dod>1875</dod>
+      <pod/>
+      <note/>
+   </hcwatson>
+   <dwebster>
+      <name>Daniel Webster</name>
+      <init>DW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/4944460</viaf>
+      <dob>January 18, 1782</dob>
+      <pob>Salisbury, New Hampshire</pob>
+      <dod>October 24, 1852</dod>
+      <pod>Marshfield, Massachusetts</pod>
+      <note/>
+   </dwebster>
+   <hhweld>
+      <name>Horatio Hastings Weld</name>
+      <init>HHW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/17069432</viaf>
+      <dob>February 4, 1811</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>August 27, 1888</dod>
+      <pod>Riverton, New Jersey</pod>
+      <note/>
+   </hhweld>
+   <mgwells>
+      <name>Mary G. Wells</name>
+      <init>MGW</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob>1819</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>January 23, 1889</dod>
+      <pod/>
+      <note/>
+   </mgwells>
+   <epwhipple>
+      <name>Edwin Percy Whipple</name>
+      <init>EPW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/18042169</viaf>
+      <dob>March 8, 1819</dob>
+      <pob>Gloucester, Massachusetts</pob>
+      <dod>June 16, 1886</dod>
+      <pod>Cambridge, Massachusetts</pod>
+      <note/>
+   </epwhipple>
+   <dkwhitaker>
+      <name>Daniel Kimball Whitaker</name>
+      <init>DKW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/29401758</viaf>
+      <dob>April 30, 1801</dob>
+      <pob>Sharon, Connecticut</pob>
+      <dod>April 10, 1881</dod>
+      <pod>New Orleans, Louisiana</pod>
+      <note/>
+   </dkwhitaker>
+   <wwhitman>
+      <name>Walter Whitman</name>
+      <init>WW</init>
+      <role>ContributingAuthor</role>
+      <viaf>http://viaf.org/viaf/2478331</viaf>
+      <dob>May 31, 1819</dob>
+      <pob>West Hills, New York</pob>
+      <dod>March 26, 1892</dod>
+      <pod>Camden, New Jersey</pod>
+      <note>Usually known as Walt Whitman.</note>
+   </wwhitman>
+   <npwillis>
+      <name>Nathaniel Parker Willis</name>
+      <init>NPW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/189826</viaf>
+      <dob>January 20, 1806</dob>
+      <pob>Portland, Maine</pob>
+      <dod>January 20, 1867</dod>
+      <pod/>
+      <note/>
+   </npwillis>
+   <hwilson>
+      <name>Harry Wilson</name>
+      <init>HW</init>
+      <role>MentionedAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Noted in Broadway Journal Vol. 1, No. 11 as the author of 'The Use of a Box of Colours'.</note>
+   </hwilson>
+   <jwilson>
+      <name>John Wilson</name>
+      <init>JW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/47566585</viaf>
+      <dob>May 18, 1785</dob>
+      <pob>Paisley, Scotland</pob>
+      <dod>April 3, 1854</dod>
+      <pod>Edinburgh, Scotland</pod>
+      <note>Pen name is Christopher (Kit) North.</note>
+   </jwilson>
+   <rcwinthrop>
+      <name>Robert Charles Winthrop</name>
+      <init>RCW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/76690634</viaf>
+      <dob>May 12, 1809</dob>
+      <pob>Boston, Massachusetts</pob>
+      <dod>November 16, 1894</dod>
+      <pod>Boston, Massachusetts</pod>
+      <note/>
+   </rcwinthrop>
+   <wwordsworth>
+      <name>William Wordsworth</name>
+      <init>WW</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/35723133</viaf>
+      <dob>April 7, 1770</dob>
+      <pob>Cockermouth, England</pob>
+      <dod>April 23, 1850</dod>
+      <pod>Cumberland, England</pod>
+      <note/>
+   </wwordsworth>
+   <xenophon>
+      <name>Xénophon</name>
+      <init>X</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/89597697</viaf>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note/>
+   </xenophon>
+   <lsy>
+      <name>L. S. Y.</name>
+      <init>LSY</init>
+      <role>ContributingAuthor</role>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Full name unknown.</note>
+   </lsy>
+   <hzschokke>
+      <name>Johann Heinrich Daniel Zschokke</name>
+      <init>JHDZ</init>
+      <role>MentionedAuthor</role>
+      <viaf>http://viaf.org/viaf/56743380</viaf>
+      <dob>March 22, 1771</dob>
+      <pob>Magdeburg, Prussia</pob>
+      <dod>June 27, 1848</dod>
+      <pod>Überlingen</pod>
+      <note/>
+   </hzschokke>
+   <lcoats>
+      <name>Lauren A. Coats</name>
+      <init>LAC</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Coats is Associate Professor of English and Director of the Digital Scholarship
+            Lab.</note>
+   </lcoats>
+   <cdoan>
+      <name>Caleb Doan</name>
+      <init>CD</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Doan is an English PhD student at LSU, who has been involved with developing a
+            digital humanities project about Poe since the fall of 2013. He focuses on 19th century
+            American literature and is particularly interested in literary nationalism and gift
+            exchange. Responsibilities: OCR correction, TEI encoding, project development, issue
+            previews</note>
+   </cdoan>
+   <gfallon>
+      <name>Gayle Fallon</name>
+      <init>GF</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Fallon is a Ph.D. student in English. She is currently studying developments in late
+            medieval semiotics and their impact on contemporary perceptions of British outlawry.
+            Fallon worked as one of the first graduate assistants to LSU's Digital Scholarship
+            Lab. Responsibilities: OCR correction, TEI encoding, project development</note>
+   </gfallon>
+   <egilliland>
+      <name>Elizabeth Gilliland</name>
+      <init>EG</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Gilliland is a PhD student in English. Responsibilities: OCR correction, TEI encoding, project development, issue
+            previews</note>
+   </egilliland>
+   <ajohnson>
+      <name>Andrew Johnson</name>
+      <init>AJ</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Johnson is a PhD candidate in History. Responsibilities: OCR correction, TEI encoding, project development, issue
+            previews</note>
+   </ajohnson>
+   <jkennedy>
+      <name>Jerry Kennedy</name>
+      <init>JK</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Kennedy is Boyd Professor of English, and has published extensively about Edgar A.
+            Poe. He founded LSU's first digital humanities project on Edgar A. Poe, focused on the
+            four main journals that Poe edited. The current project builds from this
+            foundation.</note>
+   </jkennedy>
+   <ckey>
+      <name>Cara Key</name>
+      <init>CK</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Key is a Metadata Librarian for LSU Libraries.</note>
+   </ckey>
+   <lpowell>
+      <name>Leah Powell</name>
+      <init>LP</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Powell is a PhD student in English. Responsibilities: OCR correction, TEI encoding, project development, issue
+            previews</note>
+   </lpowell>
+   <ktanglao>
+      <name>Kyle Tanglao</name>
+      <init>KT</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Responsibilities: Website development</note>
+   </ktanglao>
+   <ryantis>
+      <name>Rebecca Yantis</name>
+      <init>RY</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Yantis is a graduate student in Library &amp; Information Sciences.
+            Responsibilities: OCR correction</note>
+   </ryantis>
+   <jflanders>
+      <name>Julia Flanders</name>
+      <init>JF</init>
+      <role/>
+      <viaf/>
+      <dob/>
+      <pob/>
+      <dod/>
+      <pod/>
+      <note>Julia Flanders of Northeastern University's Digital Scholarship Group provided TEI
+            guidance.</note>
+   </jflanders>
+</div>
