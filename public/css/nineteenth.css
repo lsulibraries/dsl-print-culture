@@ -34,8 +34,16 @@ body {
   position: absolute;
 }
 
+.swash {
+  font-style: italic;
+  font-feature-settings: "swsh";
+  font-size: 2em;
+}
+
 .authorSection {
   background: #29303a;
+  color: #eee3cf;
+  margin-top: 100px;
 }
 
 .mainColumn {
@@ -200,10 +208,10 @@ body {
   right: 33px;
   background: none;
   z-index: 3;
-  top: 50px;
+  top: 100px;
 }
 
-.issueIndex:nth-child(3) {
+.issueIndex:nth-child(2) {
   z-index: 2;
   /*makes DEC clickable*/
 }
@@ -259,6 +267,12 @@ body {
   margin-top: 20px;
 }
 
+.authorHeader {
+  text-align: center;
+  font-size: 32px;
+  font-style: italic;
+}
+
 @media (max-width: 1000px) {
   .childIndex, .singleText, .yearText, .yearText {
     -ms-transform: rotate(0deg);
@@ -294,7 +308,7 @@ body {
 
   .issueIndex {
     right: 2px;
-    top: -89px;
+    top: -68px;
   }
 
   .mainColumn {

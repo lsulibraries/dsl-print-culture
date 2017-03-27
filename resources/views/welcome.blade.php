@@ -19,7 +19,7 @@
             </div>
             <div class="authorSection">
                 <div class="authorIntro">
-                    <div class="authorHeader">
+                    <div class="authorHeader"><span class="swash">A</span>uthors
                     </div>
                 </div>
                 <div class="authorLegend"></div>

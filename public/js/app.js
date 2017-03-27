@@ -185,7 +185,6 @@ Vue.component('issue-bar',{
 	 },
 	template: `
 		<div class="issueBar">
-		    <div class="homeButton"><i class="fa fa-home" aria-hidden="true"></i>  Home</div>		
 				<div class="issueIndex">
 					<div class="singleIndex" href="">
 						<div class="yearText">1845</div>
