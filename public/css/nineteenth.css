@@ -271,6 +271,16 @@ body {
   text-align: center;
   font-size: 32px;
   font-style: italic;
+      display: flex;
+}
+
+.inBorder {
+  height: 1px;
+  background: rgba(250, 238, 226, 0.3);
+  width: 40%;
+  position: relative;
+  top: 40px;
+  margin: 0px 20px;
 }
 
 @media (max-width: 1000px) {

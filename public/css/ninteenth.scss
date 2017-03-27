@@ -8,6 +8,7 @@ $secondary-accent-color: #322e2b;
 $document-text-color: #666666;
 $document-divide-color: rgba(250, 238, 226, 0.09);
 $document-outer-border: #d0c7be;
+$hr-color: rgba(250, 238, 226, 0.3);
 
 @mixin transform($deg){
     -ms-transform: rotate($deg);
@@ -284,6 +285,16 @@ margin-bottom: 12px;
 	text-align: center;
     font-size: 32px;
     font-style: italic;
+    display: flex;    
+}
+
+.inBorder {
+    height: 1px;
+    background: $hr-color;
+    width: 40%;
+    position: relative;
+    top: 40px;
+    margin: 0px 20px;
 }
 
 @media (max-width: 1000px){
