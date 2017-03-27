@@ -19,14 +19,29 @@ $secondary-accent-color: #322e2b;
 
 body{
 	font-family: Adobe Caslon Pro;
+	margin: 0px;
 }
 
 .documentSection {
 	background: $background-document-color;
     display: flex;
     flex-direction: row;
-    width: calc(100% - 133px);    
-    max-width: 900px;	
+    justify-content: center;
+    padding-left: 40px; /*centers section*/    
+    position: relative;
+}
+
+.documentOverflow{
+	background: $background-authors-color;	
+	position: absolute;
+	bottom: 0px;
+	height: 200px;
+	width: 100%;
+	    padding-left: 40px; /*centers section*/
+}
+
+.documentBorder{
+
 }
 
 .authorSection{
@@ -35,6 +50,11 @@ body{
 
 .mainColumn{
 	background: $document-color;
+	border: 14px solid $background-authors-color;	
+	width: calc(100% - 133px);    
+    max-width: 900px;	
+    z-index: 1;
+    min-height: 1200px;
 }
 
 .documentFooter{
@@ -50,6 +70,7 @@ body{
     width: 109px;
     position: relative;
     font-family: Roboto;
+    z-index: 0;
 }
 
 .singleIndex {
@@ -69,7 +90,11 @@ body{
     padding-bottom: 5px;
     margin-bottom: 11px;
     text-align: right;
-    background: #333133;
+    background: $background-authors-color;
+}
+
+.yearText{
+	@extend .singleText;
 }
 
 .childIndex {
@@ -100,20 +125,26 @@ body{
 	z-index: 3;
 }
 
+.childIndex:hover .childText{
+ 	@include transition-duration(0s);
+    color: $background-document-color;
+    margin-right: 15px;
+}
+
+.singleIndex:hover .singleText{
+    color: $background-document-color;
+ 	@include transition-duration(0s);
+}
+
+.activeMonth .singleText {
+    color: $background-document-color;
+ 	@include transition-duration(0s);
+}
+
 .childIndex:nth-child(1) .childText{
 margin-top:1px;
 }
 
-
 .childIndex:nth-last-child(1) .childText{
 margin-bottom: 12px;
 }
-
-@media (max-width: 1600px) {
-}
-
-@media (max-width: 1000px) {
-
-}
-
-

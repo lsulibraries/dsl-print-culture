@@ -2,12 +2,13 @@
 <meta charset="UTF-8">
 
     <head>
-        <link rel="stylesheet" type="text/css" href="../../public/css/cartridge.css">
+        <link rel="stylesheet" type="text/css" href="../../public/css/nineteenth.css">
         <title>The Broadway Journal</title>
     </head>
     <body>
         <div id="container">
             <div class="documentSection">
+                <div class="documentOverflow"></div>            
                 <div class="mainColumn">
                     <control-bar></control-bar>
                     <main-window ></main-window> 

@@ -7,8 +7,20 @@ body {
   background: #faeee2;
   display: flex;
   flex-direction: row;
-  width: calc(100% - 133px);
-  max-width: 900px;
+  justify-content: center;
+  padding-left: 40px;
+  /*centers section*/
+  position: relative;
+}
+
+.documentOverflow {
+  background: #29303a;
+  position: absolute;
+  bottom: 0px;
+  height: 200px;
+  width: 100%;
+  padding-left: 40px;
+  /*centers section*/
 }
 
 .authorSection {
@@ -17,6 +29,10 @@ body {
 
 .mainColumn {
   background: #eee3cf;
+  border: 14px solid #29303a;
+  width: calc(100% - 133px);
+  max-width: 900px;
+  z-index: 1;
 }
 
 .documentFooter {
@@ -32,6 +48,7 @@ body {
   width: 109px;
   position: relative;
   font-family: Roboto;
+  z-index: 0;
 }
 
 .singleIndex {
@@ -39,7 +56,7 @@ body {
   cursor: pointer;
 }
 
-.singleText {
+.singleText, .yearText {
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -54,7 +71,7 @@ body {
   padding-bottom: 5px;
   margin-bottom: 11px;
   text-align: right;
-  background: #333133;
+  background: #29303a;
 }
 
 .childIndex {
@@ -75,7 +92,7 @@ body {
   transition-duration: 0.2s;
   margin-right: 26px;
   padding: 5px;
-  color: #ffffff;
+  color: #faeee2;
   font-weight: 900;
   margin-bottom: 13px;
   background: #fe7251;
@@ -87,6 +104,25 @@ body {
   right: 33px;
   background: none;
   z-index: 3;
+}
+
+.childIndex:hover .childText {
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+  color: #faeee2;
+  margin-right: 15px;
+}
+
+.singleIndex:hover .singleText, .singleIndex:hover .yearText {
+  color: #faeee2;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+.activeMonth .singleText, .activeMonth .yearText {
+  color: #faeee2;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
 }
 
 .childIndex:nth-child(1) .childText {
