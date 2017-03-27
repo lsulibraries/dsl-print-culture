@@ -7,13 +7,24 @@
     </head>
     <body>
         <div id="container">
-            <div class="mainColumn">
-                <control-bar></control-bar>
-                <main-window ></main-window> 
-                <footer-bar></footer-bar>                    
+            <div class="documentSection">
+                <div class="mainColumn">
+                    <control-bar></control-bar>
+                    <main-window ></main-window> 
+                    <footer-bar></footer-bar>
+                </div>  
+                <issue-bar></issue-bar>          
             </div>
-            <issue-bar></issue-bar>
+            <div class="authorSection">
+                <div class="authorIntro"></div>
+                <div class="authorLegend"></div>
+                <div class="authorDirectory"></div>
+                <div class="authorCard"></div>
+            </div>
         </div>
+
+
+
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
         <script src="../../public/js/app.js"></script>

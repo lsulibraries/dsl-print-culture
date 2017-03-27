@@ -1,0 +1,98 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
+body {
+  font-family: Adobe Caslon Pro;
+}
+
+.documentSection {
+  background: #faeee2;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 133px);
+  max-width: 900px;
+}
+
+.authorSection {
+  background: #29303a;
+}
+
+.mainColumn {
+  background: #eee3cf;
+}
+
+.documentFooter {
+  background: #322e2b;
+}
+
+.documentInner {
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+.issueBar {
+  width: 109px;
+  position: relative;
+  font-family: Roboto;
+}
+
+.singleIndex {
+  color: grey;
+  cursor: pointer;
+}
+
+.singleText {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  color: grey;
+  position: relative;
+  top: 80px;
+  padding-right: 10px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 11px;
+  text-align: right;
+  background: #333133;
+}
+
+.childIndex {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  color: grey;
+  position: relative;
+  padding-left: 0px;
+  top: 80px;
+  background: #faeee2;
+}
+
+.childText {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  margin-right: 26px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: 900;
+  margin-bottom: 13px;
+  background: #fe7251;
+  text-align: right;
+}
+
+.issueIndex {
+  position: relative;
+  right: 33px;
+  background: none;
+  z-index: 3;
+}
+
+.childIndex:nth-child(1) .childText {
+  margin-top: 1px;
+}
+
+.childIndex:nth-last-child(1) .childText {
+  margin-bottom: 12px;
+}

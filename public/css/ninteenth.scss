@@ -3,200 +3,53 @@
 $document-color: #eee3cf;
 $background-document-color: #faeee2;
 $background-authors-color: #29303a;
+$primary-accent-color: #fe7251;
+$secondary-accent-color: #322e2b;
 
-
-
-body {
-    background: white;
-    font-family: Roboto;
+@mixin transform($deg){
+    -ms-transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+    transform: rotate($deg);
 }
 
-#container{
-    margin: 0 auto;
-    margin-top:50px;
-    position: relative;
-    max-width: 1440px;    
-        display: flex;
-        justify-content: center;
+@mixin transition-duration($sec){
+	-webkit-transition-duration: $sec;
+    transition-duration: $sec;
 }
 
-
-#container a:not(.topMenu a){
-    text-decoration: none;
-    color: #c9c9c9;
+body{
+	font-family: Adobe Caslon Pro;
 }
 
-.heading {
-    font-size: 5vw;
-    font-weight: 900;
-    color: #333133;
-    line-height: 4vw;
-    text-transform: uppercase;
-    border: 30px solid #333133;
-    padding: 20px;
-    letter-spacing: -5px;
-    position: relative;
-    overflow: hidden;
-    border-bottom: none;
-    padding-bottom: 40px;
-}
-
-.titleBar{
-    border-bottom: 1px solid #c9c9c9;
+.documentSection {
+	background: $background-document-color;
     display: flex;
-    align-items: center;
-    display: -ms-flex;
-    height: 29px;
-    background: #333133;
+    flex-direction: row;
+    width: calc(100% - 133px);    
+    max-width: 900px;	
 }
 
-.sizeToggle{
-    height:15px;
-    width:16px;
-    background:#c9c9c9;
-    margin-left:8px;
+.authorSection{
+	background: $background-authors-color;
 }
 
-.topMenu a{
-color: #c9c9c9;
-    background: #333133;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 10px;
-    padding: 10px;
-margin: 1px;
-    font-weight: 600;
-        flex-grow: 1;
-        display: flex;
-        justify-content: center;
-        align-content: center;
+.mainColumn{
+	background: $document-color;
 }
 
-.topMenu{
-    background: none;
-    color: #333133;
-    text-decoration: none;
-    text-align: right;
-    margin-bottom: 2px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
+.documentFooter{
+	background: $secondary-accent-color;
+}
+
+.documentInner{
+	border: 1px solid #ccc;
+	margin: 5px;
 }
 
 .issueBar {
     width: 109px;
     position: relative;
-}
-
-.homeButton{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    z-index: 3;
-    text-transform: uppercase;
-    font-size: 10px;
-    text-align: center;
-    color: white;
-    background: #ff0090;
-    padding: 2px 0px 2px 0px;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-    justify-content: center;
-    align-items: center;
-        border-bottom: 1px solid white;
-        display:none;
-}
-
-.mainColumn{
-    display: flex;
-    flex-direction: column;
-    width: calc(100% - 133px);    
-    z-index: 5;
-    max-width: 900px;
-}
-
-.controlBar{
-    border-bottom: 1px solid #c9c9c9;
-       background: #333133;
-    padding-left: 20px;
-
-}
-
-.documentToggle{
-    display: inline-flex;
-    width: 150px;
-    margin: 10px 0px 10px 2px;
-    height: 58px;
-    position: relative;
-
-}
-
-.documentToggle:hover .indicatorToggle{
-    background: white;
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-}
-
-.labelToggle {
-    position: absolute;
-    bottom: 0px;
-    padding: 3px 10px 0px 1px;
-    color: #c9c9c9;
-    font-size: 12px;
-    background: #333133;
-}
-
-.indicatorToggle{
-    position: absolute;
-    left: 2px;
-    top: 2px;
-        background: #333133;
-    height: 7px;
-    width: 7px;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-}
-
-.teiToggle{
-    background: #00b7eb;
-    margin-left: 10px;
-}
-
-.pdfToggle{
-    background: #ff0090;
-}
-
-.txtToggle{
-    background: #ffff6a;
-}
-
-.titleText {
-    color: #c9c9c9;
-    margin-left: 10px;
-    font-size: 11px;
-    letter-spacing: 1px;
-}
-
-.issueIndex:nth-child(2){
-    z-index:2;
-}
-
-
-.issueMask{
-    width: 40px;
-    height: 980px;
-    position: absolute;
-    z-index: 4;
-    left: 56px;
-    top: 90px;
-    background: #333133;
+    font-family: Roboto;
 }
 
 .singleIndex {
@@ -204,15 +57,47 @@ margin: 1px;
     cursor: pointer;
 }
 
+.singleText{
+ 	@include transform(-45deg);
+ 	@include transition-duration(.2s);
+	color: grey;
+    position: relative;
+    top: 80px;
+    padding-right: 10px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 11px;
+    text-align: right;
+    background: #333133;
+}
+
 .childIndex {
+ 	@include transition-duration(.2s);
+ 	@include transform(-45deg);    	
     color: grey;
     position: relative;
     padding-left: 0px;
     top: 80px;
-    background: #fff;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    background: $background-document-color;
+}
+
+.childText {
+ 	@include transition-duration(.2s);
+    margin-right: 26px;
+    padding: 5px;
+    color: $background-document-color;
+    font-weight: 900;
+    margin-bottom: 13px;
+    background: $primary-accent-color;
+    text-align: right;
+}
+
+.issueIndex {
+	position: relative;
+	right: 33px;
+	background: none;
+	z-index: 3;
 }
 
 .childIndex:nth-child(1) .childText{
@@ -224,313 +109,10 @@ margin-top:1px;
 margin-bottom: 12px;
 }
 
-.issueIndex {
-    position: relative;
-    right: 33px;
-    background: none;
-        z-index: 3;
-
-}
-
-.indicatorYear{
-     position: relative;
-    left: 12px;
-    top: 21px;
-    float: left;
-    background: grey;
-    height: 3px;
-    width: 3px;
-
-        -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-            z-index: 3;
-
-display: none;            
-
-}
-
-.indicatorIndex{
-    position: relative;
-    left: 12px;
-    top: 26px;
-    float: left;
-    background: grey;
-    height: 3px;
-    width: 3px;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    z-index: 3;
-}
-
-.childIndicator{
-    position: absolute;
-    left: 27px;
-    bottom: 2px;
-    background: #c9c9c9;
-    height: 3px;
-    width: 3px;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-display:none;    
-}
-
-.singleIndex:hover .indicatorIndex{
-    background: white;
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-}
-
-.childIndex:hover .childIndicator{
-    background: #00b7eb;
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-}
-
-.childIndex:hover .childText{
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-    color:white;
-    margin-right: 15px;
-}
-
-.singleIndex:hover .singleText{
-    color: white;
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-}
-
-.activeMonth .singleText {
-    color: white;
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-}
-
-.activeMonth .indicatorIndex {
-    background: white;
-    -webkit-transition-duration: 0s;
-    transition-duration: 0s;
-}
-
-.yearText{
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-color: white;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    position: relative;
-    top: 80px;
-    padding-right: 10px;
-    text-align: right;
-    font-size: 12px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 11px;
-    background: #333133;
-}
-
-.singleText{
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-color: grey;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    position: relative;
-    top: 80px;
-    padding-right: 10px;
-    font-size: 12px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 11px;
-    text-align: right;
-    background: #333133;
-}
-
-.childText {
-    margin-right: 26px;
-    padding: 5px;
-    color: #ffffff;
-    font-weight: 900;
-    margin-bottom: 13px;
-    background: #fe7251;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-    text-align: right;
-}
-
-.centerHome {
-    color: grey;
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-.logoSubtitle {
-    font-family: Roboto;
-    margin: 10px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 10px;
-    color: white;
-}
-
-.mainWindow {
-    font-family: Courier New;
-    display: flex;
-    display: -ms-flexbox;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 80%;
-    font-size: 12px;
-    color: #999999;
-    background: #333133;
-    padding-left: 20%;
-    padding-right: 20%;
-    min-height: 1000px;
-}
-
-.footerBar{
-    border-top: 1px solid #c9c9c9;
-    height: 80px;
-    display: flex;
-    align-items: center;
-            background: #333133;
-}
-
-.ccLogo{
-    margin: 20px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-.ccText {
-    color: #999;
-    font-size: 12px;
-}
-
-.ccText a {
-    color: #999;
-    text-decoration: none;
-}
-
-.topMenu a:hover + .previewTop, .previewTop:hover{
-    height: 100%;
-       transition: .2s ease-in;  
-    background: #ffff6a;
-    transform: translateX(-400px);
-}
-
 @media (max-width: 1600px) {
-    #container {
-    margin: 0px;
-    margin-left: 40px;
-    margin-right: 0px;
-    margin-top: 50px;
-    position: relative;
-    width: auto;
-    }
 }
-
 
 @media (max-width: 1000px) {
-
-#container{
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-.homeButton{
-        display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 77px;    
-border: none;
-
-}
-
-.heading{
-        font-size: 50px;
-        line-height: 40px;
-        padding-bottom: 30px;
-}
-
-.mainColumn {
-    width: calc(100% - 60px);
-}
-
-.documentToggle {
-width: 80px;
-}   
-
-.issueBar{
-    width: 60px;
-}
-
-.issueIndex {
-    position: relative;
-    left: 0px;
-    background: none ;
-}
-
-.issueMask {
-display: none;
-}
-
-.indicatorIndex, .indicatorYear, .childIndicator {
-    display: none;
-}
-
-.childIndex:nth-last-child(1) .childText {
-    margin-bottom: 0px;
-}
-
-.singleText, .yearText{
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    margin-bottom: -1px;
-    background: none;
-    margin-top: 0px;
-    border: 1px solid #525252;
-    padding: 10px;    
-        background: #333133;
-}
-
-.childIndex{
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    margin: 0px;
-    border: none;
-}
-
-.childText{
-    margin-bottom: 1px;
-    margin-right: 10px;
-    padding: 10px;
-
-}
-
-.childIndex:hover .childText{
-    margin-right: 0px;
-}
-
-
-
-.titleText, .topMenu a{
-    font-size:8px;
-}
 
 }
 
