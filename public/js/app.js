@@ -316,24 +316,28 @@ new Vue({
   // components: {
   //   'vue-pdf-viewer': VuePDFViewer
   // },
-	data: {
+	data: {	
+			journals:[],
 			iframethis: '',
-			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
-			'childrenFeb45': ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
-			'childrenMar45': ['http://52.40.88.89/broadwayjournal/issue/1845/03/01', 'http://52.40.88.89/broadwayjournal/issue/1845/03/08', 'http://52.40.88.89/broadwayjournal/issue/1845/03/15', 'http://52.40.88.89/broadwayjournal/issue/1845/03/22', 'http://52.40.88.89/broadwayjournal/issue/1845/03/29'],
-			'childrenApr45': ['http://52.40.88.89/broadwayjournal/issue/1845/04/05', 'http://52.40.88.89/broadwayjournal/issue/1845/04/12', 'http://52.40.88.89/broadwayjournal/issue/1845/04/19', 'http://52.40.88.89/broadwayjournal/issue/1845/04/26'],
-			'childrenMay45': ['http://52.40.88.89/broadwayjournal/issue/1845/05/03', 'http://52.40.88.89/broadwayjournal/issue/1845/05/10', 'http://52.40.88.89/broadwayjournal/issue/1845/05/17', 'http://52.40.88.89/broadwayjournal/issue/1845/05/24', 'http://52.40.88.89/broadwayjournal/issue/1845/05/31'],
-			'childrenJun45': ['http://52.40.88.89/broadwayjournal/issue/1845/06/07', 'http://52.40.88.89/broadwayjournal/issue/1845/06/14', 'http://52.40.88.89/broadwayjournal/issue/1845/06/21', 'http://52.40.88.89/broadwayjournal/issue/1845/06/28'],
-			'childrenJul45': ['http://52.40.88.89/broadwayjournal/issue/1845/07/12', 'http://52.40.88.89/broadwayjournal/issue/1845/07/19', 'http://52.40.88.89/broadwayjournal/issue/1845/07/26'],
-			'childrenAug45': ['http://52.40.88.89/broadwayjournal/issue/1845/08/02', 'http://52.40.88.89/broadwayjournal/issue/1845/08/09', 'http://52.40.88.89/broadwayjournal/issue/1845/08/16', 'http://52.40.88.89/broadwayjournal/issue/1845/08/23', 'http://52.40.88.89/broadwayjournal/issue/1845/08/30'],
-			'childrenSep45': ['http://52.40.88.89/broadwayjournal/issue/1845/09/06', 'http://52.40.88.89/broadwayjournal/issue/1845/09/13', 'http://52.40.88.89/broadwayjournal/issue/1845/09/20', 'http://52.40.88.89/broadwayjournal/issue/1845/09/27'],
-			'childrenOct45': ['http://52.40.88.89/broadwayjournal/issue/1845/10/04', 'http://52.40.88.89/broadwayjournal/issue/1845/10/11', 'http://52.40.88.89/broadwayjournal/issue/1845/10/18', 'http://52.40.88.89/broadwayjournal/issue/1845/10/25'],
-			'childrenNov45': ['http://52.40.88.89/broadwayjournal/issue/1845/11/01', 'http://52.40.88.89/broadwayjournal/issue/1845/11/08', 'http://52.40.88.89/broadwayjournal/issue/1845/11/15', 'http://52.40.88.89/broadwayjournal/issue/1845/11/22', 'http://52.40.88.89/broadwayjournal/issue/1845/11/29'],
-			'childrenDec45': ['http://52.40.88.89/broadwayjournal/issue/1845/12/06', 'http://52.40.88.89/broadwayjournal/issue/1845/12/13', 'http://52.40.88.89/broadwayjournal/issue/1845/12/20', 'http://52.40.88.89/broadwayjournal/issue/1845/12/27'],
-			'childrenJan46': ['http://52.40.88.89/broadwayjournal/issue/1846/01/03']
+			paths: {'childrenJan45': ['/broadwayjournal/issue/1845/01/04', '/broadwayjournal/issue/1845/01/11', '/broadwayjournal/issue/1845/01/18', '/broadwayjournal/issue/1845/01/25'],
+			'childrenFeb45': ['/broadwayjournal/issue/1845/02/01', '/broadwayjournal/issue/1845/02/08', '/broadwayjournal/issue/1845/02/15', '/broadwayjournal/issue/1845/02/22'],
+			'childrenMar45': ['/broadwayjournal/issue/1845/03/01', '/broadwayjournal/issue/1845/03/08', '/broadwayjournal/issue/1845/03/15', '/broadwayjournal/issue/1845/03/22', '/broadwayjournal/issue/1845/03/29'],
+			'childrenApr45': ['/broadwayjournal/issue/1845/04/05', '/broadwayjournal/issue/1845/04/12', '/broadwayjournal/issue/1845/04/19', '/broadwayjournal/issue/1845/04/26'],
+			'childrenMay45': ['/broadwayjournal/issue/1845/05/03', '/broadwayjournal/issue/1845/05/10', '/broadwayjournal/issue/1845/05/17', '/broadwayjournal/issue/1845/05/24', '/broadwayjournal/issue/1845/05/31'],
+			'childrenJun45': ['/broadwayjournal/issue/1845/06/07', '/broadwayjournal/issue/1845/06/14', '/broadwayjournal/issue/1845/06/21', '/broadwayjournal/issue/1845/06/28'],
+			'childrenJul45': ['/broadwayjournal/issue/1845/07/12', '/broadwayjournal/issue/1845/07/19', '/broadwayjournal/issue/1845/07/26'],
+			'childrenAug45': ['/broadwayjournal/issue/1845/08/02', '/broadwayjournal/issue/1845/08/09', '/broadwayjournal/issue/1845/08/16', '/broadwayjournal/issue/1845/08/23', '/broadwayjournal/issue/1845/08/30'],
+			'childrenSep45': ['/broadwayjournal/issue/1845/09/06', '/broadwayjournal/issue/1845/09/13', '/broadwayjournal/issue/1845/09/20', '/broadwayjournal/issue/1845/09/27'],
+			'childrenOct45': ['/broadwayjournal/issue/1845/10/04', '/broadwayjournal/issue/1845/10/11', '/broadwayjournal/issue/1845/10/18', '/broadwayjournal/issue/1845/10/25'],
+			'childrenNov45': ['/broadwayjournal/issue/1845/11/01', '/broadwayjournal/issue/1845/11/08', '/broadwayjournal/issue/1845/11/15', '/broadwayjournal/issue/1845/11/22', '/broadwayjournal/issue/1845/11/29'],
+			'childrenDec45': ['/broadwayjournal/issue/1845/12/06', '/broadwayjournal/issue/1845/12/13', '/broadwayjournal/issue/1845/12/20', '/broadwayjournal/issue/1845/12/27'],
+			'childrenJan46': ['/broadwayjournal/issue/1846/01/03']
 		}
 	},
 	 mounted() {
+
+	 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
+			console.log(this.journals);
 	 		//this.$children[4].whichview= 'TEI';
 	 		if(	this.$el._prevClass.includes('author')){
 	 			this.$children[5].chosen = this.$el._prevClass.slice(7)
@@ -350,7 +354,7 @@ new Vue({
 			if(this.$el._prevClass.includes('issue')){
 	 			this.$children[4].whichview= 'TEI';
 	 			var splits=this.$el._prevClass.split('-');
-	 			var spliced = 'http://52.40.88.89/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
+	 			var spliced = '/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
 	 			this.iframethis=spliced
 	 		}
 	 	}
