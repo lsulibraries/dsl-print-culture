@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 40px;
+  padding-left: 0px;
   /*centers section*/
   position: relative;
 }
@@ -21,8 +21,17 @@ body {
   bottom: 0px;
   height: 200px;
   width: 100%;
-  padding-left: 40px;
-  /*centers section*/
+}
+
+.documentUnder {
+  background: none;
+  border: 40px solid #d0c7be;
+  width: calc(100% - 225px);
+  max-width: 1100px;
+  z-index: 0;
+  min-height: 1200px;
+  margin-top: 50px;
+  position: absolute;
 }
 
 .authorSection {
@@ -35,9 +44,11 @@ body {
   width: calc(100% - 133px);
   max-width: 1100px;
   z-index: 1;
-  min-height: 1200px;
+  min-height: 1400px;
   position: relative;
   margin-top: 80px;
+  margin-left: 100px;
+  /*helps center because issueIndex*/
 }
 
 .mainColumn::after {
@@ -66,7 +77,12 @@ body {
 }
 
 .controlBar {
-  height: 80px;
+  height: 10px;
+  display: flex;
+  border-left: 8vw solid #322e2b;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 12px;
 }
 
 .hrMain {
@@ -126,6 +142,11 @@ body {
   z-index: 0;
 }
 
+.activeMonth {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
 .singleIndex {
   color: grey;
   cursor: pointer;
@@ -165,7 +186,7 @@ body {
 .childText {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  margin-right: 26px;
+  margin-right: 28px;
   padding: 5px;
   color: #faeee2;
   font-weight: 900;
@@ -221,7 +242,36 @@ body {
     transform: rotate(0deg);
   }
 
+  .childIndex:nth-last-child(1) .childText {
+    margin-bottom: 0px;
+  }
+
+  .singleText, .yearText, .yearText {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+    padding: 10px;
+  }
+
+  .childText {
+    border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+
   .childIndex {
     margin: 0px;
+  }
+
+  .issueIndex {
+    right: 2px;
+    top: -99px;
+  }
+
+  .mainColumn {
+    width: calc(100% + 486px);
+    margin-left: 2px;
+    margin-top: 2px;
   }
 }

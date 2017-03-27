@@ -8,7 +8,8 @@
     <body>
         <div id="container">
             <div class="documentSection">
-                <div class="documentOverflow"></div>            
+                <div class="documentUnder"></div>           
+                <div class="documentOverflow"></div>        
                 <div class="mainColumn">
                     <control-bar></control-bar>
                     <main-window ></main-window> 
