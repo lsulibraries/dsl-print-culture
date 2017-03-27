@@ -29,7 +29,7 @@
                             <xsl:when test="matches(.,'Miss')"/>
                             <xsl:when test="matches(.,'Sr.')"/>
                             <xsl:when test="matches(.,'Jr.')"/>
-                            <xsl:when test="matches(.,'\(+')"></xsl:when>
+                            <xsl:when test="matches(.,'\(+')"/>
                             <xsl:otherwise>
                                 <xsl:value-of select="substring(., 1, 1)"/>
                             </xsl:otherwise>
