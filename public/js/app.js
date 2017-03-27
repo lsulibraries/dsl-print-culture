@@ -1,5 +1,5 @@
 // import Vue from 'vue'
-// import VuePDFViewer from 'vue-pdf-viewer'
+ // import VuePDFViewer from 'vue-pdf-viewer'
 
 Vue.component('top-menu',{
 	data() {return {
@@ -49,7 +49,7 @@ Vue.component('control-button',{
 
 Vue.component('control-bar',{
 	data() {return {
-				whichview:'',
+				whichview:'TEI',
 					}
 	},
 	methods: {
@@ -84,6 +84,7 @@ Vue.component('main-window',{
 					whichview: ''
 				}
 			},
+	props: {src:this.source},
 	template: `
 	 		<div class="mainWindow">
 	 			<img src="images/logo.png"></img>
@@ -106,15 +107,47 @@ Vue.component('main-window',{
 						
 	 			
 	 			<div class="mainInner">
-				<iframe v-if="whichview=='TEI'" :src=this.$root.iframethis></iframe>
-				<div id="pdf" v-if="whichview=='PDF' ">
-					<vue-pdf-viewer></vue-pdf-viewer>
-				</div>
+					<div id="tei" v-if="whichview=='TEI'">___Hello TEI frame____				
+						<issue-toc :src=this.$root.iframethis></issue-toc>
+						<tei-markup :src=this.$root.iframethis></tei-markup>
+						<iframe  :src=this.$root.iframethis></iframe>
+					</div>
+
+					<div id="pdf" v-if="whichview=='PDF' ">___hello PDF canvas____
+						<canvas></canvas>
+					</div>
 
 				</div>
 			</div>
-			`
+			` //<vue-pdf-viewer></vue-pdf-viewer>
 });
+
+Vue.component('issue-toc',{
+	data(){
+		return { tocContent:[], tocPath:'' }
+	},
+	props: {src:''},
+	methods: {
+		tocPathCalc: function(){this.tocPath= this.src + '/toc';
+		axios.get(this.tocPath).then(response => this.tocContent = response.data);
+		}
+	 },
+	 template:`<div class="issueToc" @click='tocPathCalc()'>Click for TOC</div>`
+});
+
+Vue.component('tei-markup',{
+	data(){
+		return{
+			page:1,
+			markdown:[]
+		}
+	},
+	props: {src:''},
+	mounted() {
+		//axios.get(this.src).then(response => this.markdown = response.data);
+	 },
+	template: `<div class='teiMarkup'>pageNum:{{page}}<div>`
+})
 
 Vue.component('issue-month',{
 	data(){
@@ -165,7 +198,12 @@ Vue.component('index-child',{
 		return { meSeen:false }
 	},
 	props: ['href'],
-	methods: { fillIframe: function(){ this.$root.iframethis = this.href; }
+	methods: { fillIframe: function(){ 
+					this.$root.iframethis = this.href; 
+					this.$root.$children[3].whichview='TEI';
+					this.$root.$children[3].setView();
+					this.$root.$children[3].$children[0].selectMe();
+				}
 	},
 	template:	`<div v-if="meSeen" @click="fillIframe()" class="childIndex">
 					<div class="childText" v-text="this.href.slice(-2)"></div>
@@ -296,6 +334,7 @@ new Vue({
 		}
 	},
 	 mounted() {
+	 		//this.$children[4].whichview= 'TEI';
 	 		if(	this.$el._prevClass.includes('author')){
 	 			this.$children[5].chosen = this.$el._prevClass.slice(7)
 	 		}
