@@ -7,6 +7,10 @@ use Storage;
     
 class PersonographyController extends Controller
 {
+	
+	public function authorNav($authID){
+      return view('welcome',['route' => "author-$authID"]);
+    }
 
     public function summary() {
         return response()->file(storage_path('app/public/personography.xml'));

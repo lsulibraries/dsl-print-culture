@@ -245,17 +245,19 @@ Vue.component('author-node',{
 			this.$parent.chosen=this.authID;
 		}
 	},
+	computed:{ authHref: function() {var path = 'author-' + this.authID; return path}
+	},
 	props: ['authInfo','authID'],
 	template: `
-				<div class="node" @click='choose(authInfo)'>{{this.authInfo['name']}}</div>
+				<div class="node"><a v-bind:href="authHref"  @click='choose(authInfo)'>{{this.authInfo['name']}}</a></div>
 	`
 })
 
 Vue.component('author-card',{
 	props: ['authID','authInfo'],
 	template: `
-				<div>
-					<div  v-for="(val, key) in authInfo" v-bind:class='key'> {{val}}<div>
+				<div class="authorCard">
+					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}<div>
 				</div>
 	`
 })
@@ -294,6 +296,9 @@ new Vue({
 		}
 	},
 	 mounted() {
+	 		if(	this.$el._prevClass.includes('author')){
+	 			this.$children[5].chosen = this.$el._prevClass.slice(7)
+	 		}
 	 		if(this.$el._prevClass == 'context-about'){
 	 			this.$children[4].topMenuActives=[true,false,false]
 	 		}
