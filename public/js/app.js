@@ -86,13 +86,17 @@ Vue.component('main-window',{
 			},
 	template: `
 	 		<div class="mainWindow">
-	 			<img src="images/logo.png"></img>
-				<div class="logoSubtitle">The Broadway Journal</div>
-					
+				<div class="mainCenter">
+	 			<div class="logoTitle">
+				<div class="logoThe">The</div> <div class="logoBroadway">Broadway</div> <div class="logoJournal">Journal</div>
+				<div class="logoSubtitle">A Digital Augmented Edition</div>
+				</div>					
 				
+				<div class="hrMain"></div>
+
 				<div v-if="topMenuActives[0]">
 					{{ aboutText[0] }}
-					<br><br>
+					<br>
 					{{ aboutText[1] }}
 				</div>
 				
@@ -111,6 +115,7 @@ Vue.component('main-window',{
 					<vue-pdf-viewer></vue-pdf-viewer>
 				</div>
 
+				</div>
 				</div>
 			</div>
 			`

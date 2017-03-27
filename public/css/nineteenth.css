@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
 body {
   font-family: Adobe Caslon Pro;
+  margin: 0px;
+  background: #29303a;
 }
 
 .documentSection {
@@ -31,8 +33,81 @@ body {
   background: #eee3cf;
   border: 14px solid #29303a;
   width: calc(100% - 133px);
-  max-width: 900px;
+  max-width: 1100px;
   z-index: 1;
+  min-height: 1200px;
+  position: relative;
+  margin-top: 80px;
+}
+
+.mainColumn::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 1px solid grey;
+}
+
+.logoThe {
+  font-style: italic;
+  position: relative;
+  right: 120px;
+  font-size: 20px;
+}
+
+.logoBroadway, .logoJournal {
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+.controlBar {
+  height: 80px;
+}
+
+.hrMain {
+  width: 50px;
+  height: 2px;
+  background: #666666;
+  margin: 30px auto;
+}
+
+.mainWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 160px);
+  color: #666666;
+}
+
+.logoTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 20px;
+}
+
+.logoSubtitle {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 1px;
+  left: 4px;
+  letter-spacing: .5px;
+  position: relative;
+}
+
+.mainCenter {
+  width: 340px;
+}
+
+.footerBar {
+  height: 80px;
 }
 
 .documentFooter {
@@ -104,6 +179,12 @@ body {
   right: 33px;
   background: none;
   z-index: 3;
+  top: 50px;
+}
+
+.issueIndex:nth-child(3) {
+  z-index: 2;
+  /*makes DEC clickable*/
 }
 
 .childIndex:hover .childText {
@@ -131,4 +212,16 @@ body {
 
 .childIndex:nth-last-child(1) .childText {
   margin-bottom: 12px;
+}
+
+@media (max-width: 1000px) {
+  .childIndex, .singleText, .yearText, .yearText {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .childIndex {
+    margin: 0px;
+  }
 }

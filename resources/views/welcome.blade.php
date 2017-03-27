@@ -17,7 +17,10 @@
                 <issue-bar></issue-bar>          
             </div>
             <div class="authorSection">
-                <div class="authorIntro"></div>
+                <div class="authorIntro">
+                    <div class="authorHeader">
+                    </div>
+                </div>
                 <div class="authorLegend"></div>
                 <div class="authorDirectory"></div>
                 <div class="authorCard"></div>
