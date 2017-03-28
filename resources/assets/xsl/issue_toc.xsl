@@ -17,10 +17,16 @@
         </div>
     </xsl:template>
     
-    
     <xsl:template match="sourceDesc/bibl" mode="head">
         <title><xsl:value-of select="title"/></title>
-        
+        <xsl:for-each select="biblScope">
+            <xsl:if test="@unit='volume'">
+                <volume><xsl:value-of select="@n"/></volume>
+            </xsl:if>
+            <xsl:if test="@unit='number'">
+                <number><xsl:value-of select="@n"/></number>
+            </xsl:if>
+        </xsl:for-each>
         <date><xsl:value-of select="format-date(date/@when,'[MNn] [D], [Y]')"/></date>
         <xsl:for-each select="editor">
             <editor><xsl:value-of select="substring-after(persName/@ref,'#')"/></editor>
