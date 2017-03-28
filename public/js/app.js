@@ -15,7 +15,7 @@ Vue.component('top-menu',{
 						if(which == 'tech') { this.topMenuActives = [false,true,false];}
 						if(which == 'cred'){ this.topMenuActives =[false,false,true];}
 						//Event.$emit('topMenuEvent', this.topMenuActives);
-						this.$parent.$children[4].topMenuActives=this.topMenuActives;
+						this.$parent.$children[2].topMenuActives=this.topMenuActives;
 						}
 	},
 	template: `
@@ -309,7 +309,7 @@ Vue.component('author-node',{
 	},
 	computed:{ authHref: function() {var path = 'author-' + this.authID; return path}
 	},
-	props: ['authInfo','authID',''],
+	props: ['authInfo','authID'],
 	template: `
 				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref"  @click='choose(authInfo)'>{{this.authInfo['init']}}</a></div>
 	`
