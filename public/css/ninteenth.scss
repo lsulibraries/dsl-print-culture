@@ -311,6 +311,42 @@ margin-bottom: 12px;
     border-bottom: 1px solid $document-outer-border;
 }
 
+.node {
+    width: 46.94px;
+    background: $primary-accent-color;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    padding: 7px 11px 3px 11px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+}
+
+.node a {
+    background: $primary-accent-color;
+    color: #29303a;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.node a {
+    background: $primary-accent-color;
+    color: $background-authors-color;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.ContibutingAuthor a{
+	color: $background-document-color;
+}
+
+.authorDirectory{
+	display: flex;
+    flex-wrap: wrap;
+    width: 1135px;
+}
+
 @media (max-width: 1000px){
 
 .documentUnder{
