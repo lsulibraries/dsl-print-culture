@@ -45,14 +45,14 @@ body{
 }
 
 .documentUnder {
-    background: none;
     border: 40px solid $document-outer-border;
     width: calc(100% - 33px);
     max-width: 800px;
     z-index: 0;
-    min-height: 950px;
-    margin-top: 50px;
+    min-height: 840px;
     position: absolute;
+    margin-top: 54px;
+    margin-left: -5px;
 }
 
 .swash{
@@ -171,6 +171,7 @@ body{
     position: relative;
     font-family: Roboto;
     z-index: 0;
+        min-width: 109px;
 }
 
 .activeMonth {
@@ -311,6 +312,10 @@ margin-bottom: 12px;
 }
 
 @media (max-width: 1000px){
+
+.documentUnder{
+	display: none;
+}
 
 .childIndex, .singleText, .yearText{	
 	@include transform(0deg);
