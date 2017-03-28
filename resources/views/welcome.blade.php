@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
     <head>
-        <link rel="stylesheet" type="text/css" href="css/cartridge.css">
+        <link rel="stylesheet" type="text/css" href="/css/nineteenth.css">
         <title>The Broadway Journal</title>
     </head>
     <body>
         <div id="container" class="<?php echo $route; ?>">
-                <top-menu></top-menu>
-                <title-bar></title-bar>
-                <issue-bar></issue-bar>
+            <div class="documentSection">
+                <div class="documentUnder"></div>           
+                <div class="documentOverflow"></div>        
                 <div class="mainColumn">
-                    <control-bar ></control-bar>
-                    <main-window></main-window>
-                    <!-- <vue-pdf-viewer></vue-pdf-viewer> -->
-                </div>
-                <author-section></author-section>
-                <footer-bar></footer-bar>
+                    <!-- <control-bar></control-bar> -->
+                    <main-window ></main-window> 
+                    <!-- top-menu -->
+                    <footer-bar></footer-bar>
+                </div>  
+                <issue-bar></issue-bar>          
+            </div>
+            <author-section class="authorSection"></author-section>
         </div>
-        <!-- <script src="../../public/pdfjs/build/pdf.js"></script> -->
-        <!-- <script src="../../node_modules/vue-instant-pdf-viewer/static/lib/pdfobject.min.js"></script> -->
+        
         <!-- <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script> -->
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
-        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+        
         <script src="js/app.js"></script>
+        <script src="https://use.fontawesome.com/feda5854d8.js"></script>
 
     </body>
 </html>
