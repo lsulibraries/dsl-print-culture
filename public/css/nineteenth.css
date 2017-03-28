@@ -110,12 +110,12 @@ body {
 }
 
 .logoTitle {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: auto;
   margin: 20px;
+  display: flex;
 }
 
 .logoSubtitle {
@@ -300,9 +300,43 @@ body {
   border-bottom: 1px solid #d0c7be;
 }
 
+.node {
+  width: 46.94px;
+  background: #fe7251;
+  margin: 1px;
+  text-align: center;
+  display: flex;
+  padding: 7px 11px 3px 11px;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
+
+.node a {
+  background: #fe7251;
+  color: #29303a;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.node a {
+  background: #fe7251;
+  color: #29303a;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.ContibutingAuthor a {
+  color: #faeee2;
+}
+
+.authorDirectory {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1135px;
+}
+
 @media (max-width: 1000px) {
-
-
   .documentUnder {
     display: none;
   }
@@ -343,7 +377,6 @@ body {
     margin-right: 12px;
     min-width: 60px;
     width: 60px;
-
   }
 
   .issueIndex {
