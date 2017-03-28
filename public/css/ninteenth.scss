@@ -131,13 +131,13 @@ body{
 }
 
 .logoTitle{
-    display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
     margin: 20px;
-
+	    display: flex;
 }
 
 .logoSubtitle {
