@@ -309,9 +309,9 @@ Vue.component('author-node',{
 	},
 	computed:{ authHref: function() {var path = 'author-' + this.authID; return path}
 	},
-	props: ['authInfo','authID'],
+	props: ['authInfo','authID',''],
 	template: `
-				<div class="node"><a v-bind:href="authHref"  @click='choose(authInfo)'>{{this.authInfo['init']}}</a></div>
+				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref"  @click='choose(authInfo)'>{{this.authInfo['init']}}</a></div>
 	`
 })
 
