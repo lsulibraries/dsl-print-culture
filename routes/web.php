@@ -16,6 +16,8 @@ Route::get('/', function () {
     	]);
 });
 
+Route::get('/broadwayjournal/issue/{year}/{month}/{day}/pdf', 'IssuesController@pdf');
+
 Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@index');
 
 Route::get('/broadwayjournal/issue/{year}/{month}/{day}', 'IssuesController@show');
