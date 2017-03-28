@@ -1,20 +1,37 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700';
 
 body {
-    background: #c9c9c9;
+    background: white;
     font-family: Roboto;
 }
 
 #container{
     margin: 0 auto;
-    width: 80vw;
     margin-top:50px;
     position: relative;
+    max-width: 1440px;    
+    display: flex;
+    justify-content: center;
 }
 
 #container a:not(.topMenu a){
     text-decoration: none;
     color: #c9c9c9;
+}
+
+.heading {
+    font-size: 5vw;
+    font-weight: 900;
+    color: #333133;
+    line-height: 4vw;
+    text-transform: uppercase;
+    border: 30px solid #333133;
+    padding: 20px;
+    letter-spacing: -5px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: none;
+    padding-bottom: 40px;
 }
 
 .titleBar{
@@ -23,7 +40,7 @@ body {
     align-items: center;
     display: -ms-flex;
     height: 29px;
-        background: #333133;
+    background: #333133;
 }
 
 .sizeToggle{
@@ -34,14 +51,19 @@ body {
 }
 
 .topMenu a{
-    background: none;
-    color: #333133;
+    color: #c9c9c9;
+    background: #333133;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 10px;
+    padding: 10px;
+    margin: 1px;
     font-weight: 600;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .topMenu{
@@ -50,25 +72,53 @@ body {
     text-decoration: none;
     text-align: right;
     margin-bottom: 2px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
 }
 
 .issueBar {
-    width: 120px;
-    float: left;
-    border-right: 1px solid #c9c9c9;
+    width: 109px;
     position: relative;
-    background: #333133;
-    min-height: 1160px;
+}
+
+.homeButton{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    z-index: 3;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    background: #ff0090;
+    padding: 2px 0px 2px 0px;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    justify-content: center;
+    align-items: center;
+        border-bottom: 1px solid white;
+        display:none;
 }
 
 .mainColumn{
     display: flex;
     flex-direction: column;
-        background: #333133;    
+    width: calc(100% - 133px);    
+    z-index: 5;
+    max-width: 900px;
 }
 
 .controlBar{
     border-bottom: 1px solid #c9c9c9;
+       background: #333133;
+    padding-left: 20px;
 
 }
 
@@ -81,12 +131,8 @@ body {
 
 }
 
-.viewing{
-background: white!important;
-}
-
 .documentToggle:hover .indicatorToggle{
-    background: white!important;
+    background: white;
     -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
@@ -112,16 +158,16 @@ background: white!important;
 }
 
 .teiToggle{
-    background: #00b7eb!important;
+    background: #00b7eb;
     margin-left: 10px;
 }
 
 .pdfToggle{
-    background: #ff0090!important;
+    background: #ff0090;
 }
 
 .txtToggle{
-    background: #ffff6a!important;
+    background: #ffff6a;
 }
 
 .titleText {
@@ -131,18 +177,27 @@ background: white!important;
     letter-spacing: 1px;
 }
 
-.issueIndex :nth-child(1){
-    z-index:1;
+.issueIndex:nth-child(2){
+    z-index:2;
 }
 
 
+.documentSection {
+    background: $background-document-color;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 133px);    
+    max-width: 900px;   
+}
+
 .issueMask{
     width: 40px;
-    height: 100%;
+    height: 980px;
     position: absolute;
-    z-index: 2;
-    left: 66px;
-        background: #333133;
+    z-index: 4;
+    left: 56px;
+    top: 90px;
+    background: #333133;
 }
 
 .singleIndex {
@@ -155,38 +210,24 @@ background: white!important;
     position: relative;
     padding-left: 0px;
     top: 80px;
-    border-top: 1px solid #c9c9c9;
-    font-size: 12px;
-    background: #c9c9c9!important;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    background: #fff;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
-.issueIndex {
-    position: relative;
-    left: -27px;
-    background: none!important;
+.childIndex:nth-child(1) .childText{
+margin-top:1px;
 }
+
+
+.childIndex:nth-last-child(1) .childText{
+margin-bottom: 12px;
+}
+
+
 
 .indicatorYear{
-     position: relative;
-    left: 12px;
-    top: 21px;
-    float: left;
-    background: grey!important;
-    height: 3px;
-    width: 3px;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-        -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-            z-index: 3;
-
-}
-
-.indicatorIndex{
      position: relative;
     left: 12px;
     top: 21px;
@@ -194,41 +235,61 @@ background: white!important;
     background: grey;
     height: 3px;
     width: 3px;
+
+        -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+            z-index: 3;
+
+display: none;            
+
+}
+
+.indicatorIndex{
+    position: relative;
+    left: 12px;
+    top: 26px;
+    float: left;
+    background: grey;
+    height: 3px;
+    width: 3px;
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
-        -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-        z-index: 3;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: 3;
 }
 
 .childIndicator{
     position: absolute;
     left: 27px;
     bottom: 2px;
-    background: #c9c9c9!important;
+    background: #c9c9c9;
     height: 3px;
     width: 3px;
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
+display:none;    
 }
 
 .singleIndex:hover .indicatorIndex{
-    background: white!important;
+    background: white;
     -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
 
 .childIndex:hover .childIndicator{
-    background: #00b7eb!important;
+    background: #00b7eb;
     -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
 
 .childIndex:hover .childText{
-    background: #ececec!important;
     -webkit-transition-duration: 0s;
     transition-duration: 0s;
+    color:white;
+    margin-right: 15px;
 }
 
 .singleIndex:hover .singleText{
@@ -252,19 +313,18 @@ background: white!important;
 .yearText{
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
-color: grey;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+color: white;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     position: relative;
-    border-top: 1px solid #c9c9c9;
-    border-bottom: 1px solid #c9c9c9;
     top: 80px;
-    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
     font-size: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     background: #333133;
 }
 
@@ -272,28 +332,30 @@ color: grey;
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
 color: grey;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     position: relative;
-    border-top: 1px solid #c9c9c9;
-    border-bottom: 1px solid #c9c9c9;
     top: 80px;
-    padding-left: 10px;
+    padding-right: 10px;
     font-size: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
+    text-align: right;
     background: #333133;
 }
 
 .childText {
-    margin-left: 26px;
+    margin-right: 26px;
     padding: 5px;
-    color: #676767;
+    color: #ffffff;
     font-weight: 900;
-    margin-bottom: 11px;
-    background: #ffffff!important;
+    margin-bottom: 13px;
+    background: #fe7251;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    text-align: right;
 }
 
 .centerHome {
@@ -326,10 +388,9 @@ color: grey;
     height: 80%;
     font-size: 12px;
     color: #999999;
-    min-height: calc(80vh - 79px);
     background: #333133;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
     min-height: 1000px;
 }
 
@@ -357,78 +418,143 @@ color: grey;
     text-decoration: none;
 }
 
+.previewTop{
+    position:   absolute;
+    z-index: -1;
+    text-decoration: none;
+    text-align: right;
+    margin-bottom: 2px;
+    position: absolute;
+    top: 0px;
+    background: #ffff6a;
+    transform: translateX(90px);
+    display: flex;
+    height: 100%;
+    width: 500px;
+    flex-direction: column;  
+   transition: .2s linear;  
+   justify-content: center;
 
+}
 
-@media (max-width: 1100px) {
+.previewTech{
+        font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 320px;
+    padding: 20px;
+    border-left: 10px solid #333133;
+}
 
-#container {
+.topMenu a:hover + .previewTop, .previewTop:hover{
+    height: 100%;
+       transition: .2s ease-in;  
+    background: #ffff6a;
+    transform: translateX(-400px);
+}
+
+@media (max-width: 1600px) {
+    #container {
     margin: 0px;
-    margin-left: 20px;
-        margin-right: 0px;
-
+    margin-left: 40px;
+    margin-right: 0px;
     margin-top: 50px;
     position: relative;
     width: auto;
+    }
 }
 
-.indicatorIndex, .indicatorYear{
-    left: 10px;
-    top: 32px;
+
+@media (max-width: 1000px) {
+
+#container{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.homeButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 77px;    
+    border: none;
+}
+
+.heading{
+    font-size: 50px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.mainColumn {
+    width: calc(100% - 60px);
 }
 
 .documentToggle {
-width: 100px;
+    width: 80px;
 }   
+
+.issueBar{
+    width: 60px;
+}
 
 .issueIndex {
     position: relative;
-    left: -23px;
-    background: none !important;
+    left: 0px;
+    background: none ;
 }
 
 .issueMask {
-    width: 20px;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-    left: 46px;
+    display: none;
 }
 
-.issueBar {
-    width: 91px;
-    float: left;
-    border-right: 1px solid #c9c9c9;
-    position: relative;
-    background: #333133;        
+.indicatorIndex, .indicatorYear, .childIndicator {
+    display: none;
 }
 
+.childIndex:nth-last-child(1) .childText {
+    margin-bottom: 0px;
 }
 
-@media (max-width: 700px) {
-
-.documentToggle {
-width: 80px;
-}   
-
-.issueIndex {
-    position: relative;
-    left: -23px;
-    background: none !important;
+.singleText, .yearText{
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-bottom: -1px;
+    background: none;
+    margin-top: 0px;
+    border: 1px solid #525252;
+    padding: 10px;    
+        background: #333133;
 }
 
-.issueMask {
-    width: 20px;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-    left: 46px;
+.childIndex{
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin: 0px;
+    border: none;
 }
+
+.childText{
+    margin-bottom: 1px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.childIndex:hover .childText{
+    margin-right: 0px;
+}
+
+
 
 .titleText, .topMenu a{
     font-size:8px;
 }
 
 }
-
 
 

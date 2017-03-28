@@ -131,13 +131,21 @@ body{
 }
 
 .logoTitle{
+<<<<<<< HEAD
     display: flex;
+=======
+
+>>>>>>> origin/style
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
     margin: 20px;
+<<<<<<< HEAD
 
+=======
+	    display: flex;
+>>>>>>> origin/style
 }
 
 .logoSubtitle {
@@ -349,6 +357,11 @@ margin-bottom: 12px;
 
 .issueBar{
 	 margin-right: 12px;
+<<<<<<< HEAD
+=======
+		min-width: 60px;
+		width: 60px;	 
+>>>>>>> origin/style
 }
 
 .issueIndex{
