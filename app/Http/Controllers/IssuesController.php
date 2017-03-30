@@ -92,7 +92,7 @@ class IssuesController extends Controller
     }
 
     public function pdf($year, $month, $day) {
-        $pdf = Storage::url("BroadwayJournal_18450201.pdf");
+        $pdf = Storage::url("BroadwayJournal_$year$month$day.pdf");
         return <<<EOF
 <html>
 <head><title>hello</title></head>
