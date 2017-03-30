@@ -21,6 +21,13 @@ $hr-color: rgba(250, 238, 226, 0.3);
     transition-duration: $sec;
 }
 
+@mixin transition($sec){
+-webkit-transition: all $sec ease;
+-moz-transition: all $sec ease;
+-ms-transition: all $sec ease; 
+transition: all $sec ease;	
+}
+
 body{
 	font-family: Adobe Caslon Pro;
 	margin: 0px;
@@ -364,7 +371,9 @@ a.ContributingAuthor{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border-bottom: 1px solid rgba(208, 199, 190, 0.32);    
+    border-bottom: 1px solid rgba(208, 199, 190, 0.32);   
+   	@include transition-duration(.2s); 
+ 	cursor: pointer;
 }
 
 .pageNumber {
@@ -373,7 +382,7 @@ a.ContributingAuthor{
     background: #d0c7be;
     padding: 3px;
     font-weight: 900;
-    color: #faeee2;
+    color: $background-document-color;
 }
 
 .ccText {
@@ -384,6 +393,12 @@ a.ContributingAuthor{
   .tocDropdown{
     display:none;
   }
+
+.tocItem:hover{
+ transform: scale(1.1);
+   	@include transition-duration(0s); 
+
+}
 
 @media (max-width: 1200px){
 .tocItem {
@@ -401,8 +416,8 @@ a.ContributingAuthor{
     border-bottom: 1px solid rgba(208, 199, 190, 0.32);
     left: -12px;
     top: 3px;
-
     line-height: 10px;    
+    
 	}	
 
   .tocDropdown{
@@ -419,12 +434,12 @@ a.ContributingAuthor{
 	    height: 14px;
 	    border-right: 2px solid #d0c7be;
 	    border-left: 2px solid #d0c7be;
-	    border-bottom: 2px solid #eee3cf;
+	    border-bottom: 2px solid $background-document-color;
 	    flex-direction: column;
 	    padding: 0px 10px 0px 10px;
 	    top: 80px;
 	    text-align: center;
-	    background: hsl(11, 99%, 66%);
+	    background: $primary-accent-color;
 	}
 
 	.tocDropdown {
@@ -436,7 +451,7 @@ a.ContributingAuthor{
 		color:white;
 	}
 
-	.tocDropdown:hover ~ .tocItem{
+	.navigationIssue:hover .tocItem{
 		display: flex;
 	}
 
@@ -454,12 +469,12 @@ a.ContributingAuthor{
     height: 14px;
     flex-direction: column;
     padding: 0px 10px 0px 10px;
-    border-right: 2px solid #eee3cf;
-    border-left: 2px solid #eee3cf;
-    border-bottom: 2px solid #eee3cf;
+    border-right: 2px solid $background-document-color;
+    border-left: 2px solid $background-document-color;
+    border-bottom: 2px solid $background-document-color;
     top: 12px;
     text-align: center;
-    background: hsl(11, 99%, 66%);
+    background: $primary-accent-color;
 }
 
 .documentUnder{

@@ -354,6 +354,9 @@ a.ContributingAuthor {
   align-items: center;
   justify-content: flex-end;
   border-bottom: 1px solid rgba(208, 199, 190, 0.32);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 .pageNumber {
@@ -372,6 +375,12 @@ a.ContributingAuthor {
 
 .tocDropdown {
   display: none;
+}
+
+.tocItem:hover {
+  transform: scale(1.1);
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
 }
 
 @media (max-width: 1200px) {
@@ -407,12 +416,12 @@ a.ContributingAuthor {
     height: 14px;
     border-right: 2px solid #d0c7be;
     border-left: 2px solid #d0c7be;
-    border-bottom: 2px solid #eee3cf;
+    border-bottom: 2px solid #faeee2;
     flex-direction: column;
     padding: 0px 10px 0px 10px;
     top: 80px;
     text-align: center;
-    background: #fe7252;
+    background: #fe7251;
   }
 
   .tocDropdown {
@@ -424,7 +433,7 @@ a.ContributingAuthor {
     color: white;
   }
 
-  .tocDropdown:hover ~ .tocItem, .navigationIssue:hover ~.tocItem{
+  .navigationIssue:hover .tocItem {
     display: flex;
   }
 }
@@ -438,12 +447,12 @@ a.ContributingAuthor {
     height: 14px;
     flex-direction: column;
     padding: 0px 10px 0px 10px;
-    border-right: 2px solid #eee3cf;
-    border-left: 2px solid #eee3cf;
-    border-bottom: 2px solid #eee3cf;
+    border-right: 2px solid #faeee2;
+    border-left: 2px solid #faeee2;
+    border-bottom: 2px solid #faeee2;
     top: 12px;
     text-align: center;
-    background: #fe7252;
+    background: #fe7251;
   }
 
   .documentUnder {
