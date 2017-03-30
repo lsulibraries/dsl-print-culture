@@ -236,9 +236,6 @@ Vue.component('issue-bar',{
 	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
 		 }
 	 },
-	 mounted(){
-	 	this.$children[0].showChildren();
-	 },
 	template: `
 		<div class="issueBar">
 			<div class="issueMask"></div>
@@ -375,6 +372,9 @@ new Vue({
 	 			var splits=this.$el._prevClass.split('-');
 	 			var spliced = 'http://52.40.88.89/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
 	 			this.iframethis=spliced
+	 		}
+	 		else{
+	 			this.$children[3].$children[0].showChildren();
 	 		}
 	 	}
 });
