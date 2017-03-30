@@ -16,6 +16,7 @@
                 </div>
                 <author-section></author-section>
                 <footer-bar></footer-bar>
+      <p>{{$pdf}}</p>
         </div>
         <!-- <script src="../../public/pdfjs/build/pdf.js"></script> -->
         <!-- <script src="../../node_modules/vue-instant-pdf-viewer/static/lib/pdfobject.min.js"></script> -->
@@ -24,6 +25,6 @@
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
         <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
         <script src="js/app.js"></script>
-
+        <script src="js/broadway-pdf.js"></script>
     </body>
 </html>
