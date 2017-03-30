@@ -314,6 +314,9 @@ margin-bottom: 12px;
     height: 43px;
     background: $background-document-color;
     border-bottom: 1px solid $document-outer-border;
+    display: flex;
+    align-items: center;   
+	justify-content: space-between;     
 }
 
 .node {
@@ -398,6 +401,13 @@ a.ContributingAuthor{
  transform: scale(1.1);
    	@include transition-duration(0s); 
 
+}
+
+.libLogo img{
+	height: 20px;
+	width: auto;
+    margin-left: 20px;	
+    margin-top: 6px;    
 }
 
 @media (max-width: 1200px){

@@ -59,7 +59,6 @@ Vue.component('control-bar',{
 				<div class='controlBar'  @click='setView()'>
 					<control-button class="teiToggle">TEI</control-button>
 					<control-button class="pdfToggle">PDF</control-button>
-					<control-button class="txtToggle">TXT</control-button>
 				</div>
 			`
 });

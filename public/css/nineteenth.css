@@ -1,7 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
-
 body {
-  font-family: Adobe Caslon Pro;
+  font-family: Adobe Caslon Pro, adobe-caslon-pro, serif;
   margin: 0px;
   background: #29303a;
 }
@@ -296,6 +295,9 @@ body {
   height: 43px;
   background: #faeee2;
   border-bottom: 1px solid #d0c7be;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .node {
@@ -381,6 +383,13 @@ a.ContributingAuthor {
   transform: scale(1.1);
   -webkit-transition-duration: 0s;
   transition-duration: 0s;
+}
+
+.libLogo img {
+  height: 20px;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 6px;
 }
 
 @media (max-width: 1200px) {

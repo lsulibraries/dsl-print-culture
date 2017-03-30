@@ -11,6 +11,9 @@
     <body>
         <div id="container">
             <div class="nav">
+                <div class="libLogo">
+                    <img src="../../public/images/libraries_logo.png"></img>
+                </div>
                 <control-bar></control-bar>
             </div>     
             <div class="documentSection">
