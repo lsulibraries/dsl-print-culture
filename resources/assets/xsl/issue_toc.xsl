@@ -38,7 +38,8 @@
     <xsl:template match="listBibl" mode="toc">
         <xsl:variable name="page1"><xsl:value-of select="xs:int(//bibl[@xml:id='p1']/biblScope/@from)-1"/></xsl:variable>
         <xsl:for-each select="bibl">
-            <xsl:element name="{@xml:id}">
+            <xsl:element name="{@type}">
+                <id><xsl:value-of select="@xml:id"/></id>
                 <type><xsl:value-of select="@type"/></type>
                 <title><xsl:value-of select="title"/></title>
                 <t_type><xsl:value-of select="title/@type"/></t_type>
@@ -82,7 +83,8 @@
                     </links>
                 </xsl:if>
                 <xsl:for-each select="bibl">
-                    <xsl:element name="{@xml:id}">
+                    <xsl:element name="{@type}">
+                        <id><xsl:value-of select="@xml:id"/></id>
                         <type><xsl:value-of select="@type"/></type>
                         <title><xsl:value-of select="title"/></title>
                         <t_type><xsl:value-of select="title/@type"/></t_type>
