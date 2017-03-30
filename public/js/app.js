@@ -272,7 +272,6 @@ Vue.component('issue-bar',{
 });
 
 
-//root.$children[4]
 Vue.component('author-section',{
 	data(){
 		return {
@@ -287,10 +286,10 @@ Vue.component('author-section',{
 				<div class="authorSection">
 					<div class="authorIntro"></div>
 					<div class="authorHeader">
-                        <div class="inBorder"></div>
-                        <div class="inText"><span class="swash">A</span>uthors</div>
-                        <div class="inBorder"></div>
-                    </div>
+		                	        <div class="inBorder"></div>
+                		        	<div class="inText"><span class="swash">A</span>uthors</div>
+		                        	<div class="inBorder"></div>
+                	        	</div>
 					<div class="authorLedgend"></div>
 					<div class="authorDirectory">
 						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
@@ -311,7 +310,7 @@ Vue.component('author-node',{
 	},
 	props: ['authInfo','authID'],
 	template: `
-				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref"  @click='choose(authInfo)'>{{this.authInfo['init']}}</a></div>
+				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref"  @click='choose(authID)'>{{this.authInfo['init']}}</a></div>
 	`
 })
 
@@ -357,11 +356,10 @@ new Vue({
 	},
 	 mounted() {
 	 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
-	 		
 	 		this.$children[1].whichview= 'TEI';
 
-	 		if(	this.$el._prevClass.includes('author')){
-	 			this.$children[3].chosen = this.$el._prevClass.slice(7)
+	 		if(	this.$el._prevClass.includes('author-')){
+	 			this.$children[4].chosen = this.$el._prevClass.slice(7)
 	 		}
 	 		if(this.$el._prevClass == 'context-about'){
 	 			this.$children[1].topMenuActives=[true,false,false]
