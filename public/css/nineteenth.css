@@ -32,10 +32,11 @@ body {
   min-height: 840px;
   position: absolute;
   margin-top: 54px;
-    left: calc(50% - 444px);
+  left: calc(50% - 444px);
   top: 0px;
 }
 
+/*1011 to  1001 wide, error*/
 .swash {
   font-style: italic;
   font-feature-settings: "swsh";
@@ -398,6 +399,83 @@ a.ContributingAuthor {
   width: auto;
   margin-left: 20px;
   margin-top: 6px;
+}
+
+.authorLegend {
+  max-width: 1135px;
+  align-self: center;
+  font-size: 12px;
+  letter-spacing: .3px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.legendHeader {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.legendIcons {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.legend1, .legend2, .legend3, .legend4 {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #fe7251;
+  overflow: hidden;
+  border-radius: 1px;
+  margin-right: 5px;
+  background: #faeee2;
+}
+
+.legend2, .legend3, .legend4 {
+  background: #29303a;
+}
+
+.legend3 {
+  border: 2px solid rgba(254, 114, 81, 0.75);
+}
+.legend3 .innerIcon {
+  background: rgba(254, 114, 81, 0.75);
+}
+
+.legend4 {
+  border: 2px solid rgba(254, 114, 81, 0.5);
+}
+.legend4 .innerIcon {
+  background: rgba(254, 114, 81, 0.5);
+}
+
+.innerIcon {
+  height: 43px;
+  width: 35px;
+  background: #fe7251;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: relative;
+  top: -20px;
+  left: -14px;
+}
+
+.contributingIcon {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 60px;
+}
+
+.iconTop {
+  font-weight: 600;
+}
+
+.iconBottom {
+  font-style: italic;
 }
 
 @media (max-width: 1200px) {
