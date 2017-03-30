@@ -108,9 +108,6 @@ body{
 .controlBar{
     height: 10px;
     display: flex;
-    border-left: 8vw solid $secondary-accent-color;
-    margin-top: 5px;
-    margin-left: 5px;
     font-size: 12px;
 }
 
@@ -344,8 +341,41 @@ a.ContributingAuthor{
 .authorDirectory{
 	display: flex;
     flex-wrap: wrap;
-    width: 1135px;
+    max-width: 1135px;
 }
+
+.navigationIssue {
+    position: absolute;
+    left: calc(50% - 585px);
+    z-index: 1;
+    display: flex;
+    top: 54px;
+    width: 140px;
+    flex-direction: column;
+    text-align: right;
+}
+
+.navigationIssue > div {
+    color: $document-text-color;
+    font-size: 10px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(208, 199, 190, 0.32);    
+}
+
+.pageNumber {
+    margin-left: 20px;
+    border-radius: 2px;
+    background: #d0c7be;
+    padding: 3px;
+    font-weight: 900;
+    color: #faeee2;
+}
+
 
 @media (max-width: 1000px){
 
