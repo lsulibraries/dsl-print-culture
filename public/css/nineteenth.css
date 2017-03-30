@@ -1,15 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
-@font-face {
-  font-family: Adobe Caslon Pro;
-  font-weight: regular;
-  src: url("../fonts/ACaslonPro-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: Adobe Caslon Pro;
-  font-style: italic;
-  font-weight: regular;
-  src: url("../fonts/ACaslonPro-Italic.otf") format("opentype");
-}
+
 body {
   font-family: Adobe Caslon Pro;
   margin: 0px;
