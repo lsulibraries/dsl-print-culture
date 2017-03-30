@@ -40,7 +40,6 @@
         <xsl:for-each select="bibl">
             <xsl:element name="{@type}">
                 <id><xsl:value-of select="@xml:id"/></id>
-                <type><xsl:value-of select="@type"/></type>
                 <title><xsl:value-of select="title"/></title>
                 <t_type><xsl:value-of select="title/@type"/></t_type>
                 <author><xsl:value-of select="substring-after(author/@ref,'#')"/></author>
@@ -85,7 +84,6 @@
                 <xsl:for-each select="bibl">
                     <xsl:element name="{@type}">
                         <id><xsl:value-of select="@xml:id"/></id>
-                        <type><xsl:value-of select="@type"/></type>
                         <title><xsl:value-of select="title"/></title>
                         <t_type><xsl:value-of select="title/@type"/></t_type>
                         <author><xsl:value-of select="substring-after(author/@ref,'#')"/></author>
