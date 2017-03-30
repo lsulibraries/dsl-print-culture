@@ -371,7 +371,6 @@ a.ContributingAuthor{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border-bottom: 1px solid rgba(208, 199, 190, 0.32);   
    	@include transition-duration(.2s); 
  	cursor: pointer;
 }
@@ -411,19 +410,13 @@ a.ContributingAuthor{
     width: 125px;
     align-items: center;
     text-align: end;
-    background: rgba(255, 255, 255, 0.32);
+    background: $background-document-color;
     justify-content: flex-end;
-    border-bottom: 1px solid rgba(208, 199, 190, 0.32);
     left: -12px;
     top: 3px;
     line-height: 10px;    
     
 	}	
-
-  .tocDropdown{
-    display:inline-block;
-    position: relative;
-  }
 
 	.navigationIssue {
 	    position: absolute;
@@ -445,10 +438,11 @@ a.ContributingAuthor{
 	.tocDropdown {
 	    display: block;
 	    text-transform: uppercase;
-	    font-size: 10px;
+	    font-size: 8px;
 	    letter-spacing: 1px;
+	    padding-top: 2px;
 	    font-family: roboto;
-		color:white;
+	    color: white;
 	}
 
 	.navigationIssue:hover .tocItem{

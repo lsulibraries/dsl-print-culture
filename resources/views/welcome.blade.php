@@ -8,16 +8,83 @@
     <body>
         <div id="container">
             <div class="nav">
-            </div>
+                <control-bar></control-bar>
+            </div>     
             <div class="documentSection">
                 <div class="documentUnder"></div>           
                 <div class="documentOverflow"></div>        
+                    <div class="navigationIssue"> 
+                    <div class="tocDropdown">Table of Contents</div>          
+                    <div class="tocItem">
+                        <span class="tocTitle">Reviews</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">American Prose Writers</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Barbarities of the Theatre</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">National Nomenclature</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">The Devices of Beggary</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Original Poetry</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">The Drama</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Varieties</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Bits of News</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Literary Notices</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">The Concert Room</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Correspondence</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">A Painter's Sketch</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Notice to Readers and Correspondents</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Advertisements</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                    <div class="tocItem">
+                        <span class="tocTitle">Prospectus of the Broadway Journal</span>
+                        <div class="pageNumber">XX</div>
+                    </div>
+                </div>
                 <div class="mainColumn">
-                    <control-bar></control-bar>
                     <main-window ></main-window> 
                     <footer-bar></footer-bar>
                 </div>  
-                <issue-bar></issue-bar>          
+                <issue-bar></issue-bar>                               
             </div>
             <div class="authorSection">
                 <div class="authorIntro">
@@ -30,9 +97,6 @@
                 <div class="authorLegend"></div>
                 <div class="authorDirectory"></div>
                 <div class="authorCard"></div>
-            </div>
-            <div class="navigationIssue">
-                Table of contents
             </div>
         </div>
 

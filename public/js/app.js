@@ -218,7 +218,6 @@ Vue.component('footer-bar',{
 	template: `<div>
 					<div class="issueFooter"></div>
 					<div class="footerBar">
-					<img src="images/cc_logo.png" class="ccLogo"></img> 
 					<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
 				</div>`
 });
