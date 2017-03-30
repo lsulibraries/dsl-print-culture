@@ -3,6 +3,7 @@
 
     <head>
         <link rel="stylesheet" type="text/css" href="../../public/css/nineteenth.css">
+        <link rel="icon" href="favicon_purple.ico">        
         <title>The Broadway Journal</title>
         <script src="https://use.typekit.net/sqx2nmq.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>        
