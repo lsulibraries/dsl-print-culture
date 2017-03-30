@@ -4,6 +4,8 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../../public/css/nineteenth.css">
         <title>The Broadway Journal</title>
+        <script src="https://use.typekit.net/sqx2nmq.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>        
     </head>
     <body>
         <div id="container">
@@ -106,5 +108,6 @@
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
         <script src="../../public/js/app.js"></script>
         <script src="https://use.fontawesome.com/feda5854d8.js"></script>        
+
     </body>
 </html>
