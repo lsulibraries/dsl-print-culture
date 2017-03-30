@@ -355,7 +355,7 @@ a.ContributingAuthor{
     text-align: right;
 }
 
-.navigationIssue > div {
+.tocItem {
     color: $document-text-color;
     font-size: 10px;
     font-family: roboto;
@@ -368,7 +368,7 @@ a.ContributingAuthor{
 }
 
 .pageNumber {
-    margin-left: 20px;
+    margin-left: 12px;
     border-radius: 2px;
     background: #d0c7be;
     padding: 3px;
@@ -376,8 +376,91 @@ a.ContributingAuthor{
     color: #faeee2;
 }
 
+.ccText {
+    font-size: 8px;
+    margin-left: 15px;
+}
+
+  .tocDropdown{
+    display:none;
+  }
+
+@media (max-width: 1200px){
+.tocItem {
+	display:none;
+    color: #666666;
+    font-size: 10px;
+    font-family: roboto;
+    padding: 20px;
+    position: relative;
+    width: 125px;
+    align-items: center;
+    text-align: end;
+    background: rgba(255, 255, 255, 0.32);
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(208, 199, 190, 0.32);
+    left: -12px;
+    top: 3px;
+
+    line-height: 10px;    
+	}	
+
+  .tocDropdown{
+    display:inline-block;
+    position: relative;
+  }
+
+	.navigationIssue {
+	    position: absolute;
+	    left: calc(50% - 370px);
+	    z-index: 2;
+	    letter-spacing: 0px;
+	    display: flex;
+	    height: 14px;
+	    border-right: 2px solid #d0c7be;
+	    border-left: 2px solid #d0c7be;
+	    border-bottom: 2px solid #eee3cf;
+	    flex-direction: column;
+	    padding: 0px 10px 0px 10px;
+	    top: 80px;
+	    text-align: center;
+	    background: hsl(11, 99%, 66%);
+	}
+
+	.tocDropdown {
+	    display: block;
+	    text-transform: uppercase;
+	    font-size: 10px;
+	    letter-spacing: 1px;
+	    font-family: roboto;
+		color:white;
+	}
+
+	.tocDropdown:hover ~ .tocItem{
+		display: flex;
+	}
+
+}
+
 
 @media (max-width: 1000px){
+
+.navigationIssue {
+    position: absolute;
+    left: 8%;
+    z-index: 2;
+    letter-spacing: 0px;
+    display: flex;
+    height: 14px;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+    border-right: 2px solid #eee3cf;
+    border-left: 2px solid #eee3cf;
+    border-bottom: 2px solid #eee3cf;
+    top: 12px;
+    text-align: center;
+    background: hsl(11, 99%, 66%);
+}
 
 .documentUnder{
 	display: none;
