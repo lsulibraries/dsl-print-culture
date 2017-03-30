@@ -21,6 +21,7 @@ body {
   bottom: 0px;
   height: 140px;
   width: 100%;
+  left: 0px;
 }
 
 .documentUnder {
@@ -31,7 +32,8 @@ body {
   min-height: 840px;
   position: absolute;
   margin-top: 54px;
-  margin-left: -5px;
+    left: calc(50% - 444px);
+  top: 0px;
 }
 
 .swash {
@@ -44,6 +46,9 @@ body {
   background: #29303a;
   color: #eee3cf;
   margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainColumn {
@@ -334,6 +339,9 @@ a.ContributingAuthor {
   display: flex;
   flex-wrap: wrap;
   max-width: 1135px;
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .navigationIssue {

@@ -50,6 +50,7 @@ body{
 	bottom: 0px;
 	height: 140px;
 	width: 100%;
+	left: 0px;
 }
 
 .documentUnder {
@@ -60,7 +61,8 @@ body{
     min-height: 840px;
     position: absolute;
     margin-top: 54px;
-    margin-left: -5px;
+    left: calc(50% - 444px);
+	top: 0px;
 }
 
 .swash{
@@ -72,8 +74,10 @@ body{
 .authorSection{
 	background: $background-authors-color;
 	color: $document-color;
-	margin-top: 100px;
-
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .mainColumn{
@@ -350,9 +354,12 @@ a.ContributingAuthor{
 }
 
 .authorDirectory{
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
     max-width: 1135px;
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .navigationIssue {
