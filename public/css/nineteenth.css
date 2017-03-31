@@ -1,0 +1,396 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
+body {
+  font-family: Adobe Caslon Pro;
+  margin: 0px;
+  background: #29303a;
+}
+
+.documentSection {
+  background: #faeee2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0px;
+  /*centers section*/
+  position: relative;
+}
+
+.documentOverflow {
+  background: #29303a;
+  position: absolute;
+  bottom: 0px;
+  height: 140px;
+  width: 100%;
+}
+
+.documentUnder {
+  border: 40px solid #d0c7be;
+  width: calc(100% - 33px);
+  max-width: 800px;
+  z-index: 0;
+  min-height: 840px;
+  position: absolute;
+  margin-top: 54px;
+  margin-left: -5px;
+}
+
+.swash {
+  font-style: italic;
+  font-feature-settings: "swsh";
+  font-size: 2em;
+}
+
+.authorSection {
+  background: #29303a;
+  color: #eee3cf;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainColumn {
+  background: #eee3cf;
+  border: 14px solid #29303a;
+  width: calc(100% - 33px);
+  max-width: 800px;
+  z-index: 1;
+  min-height: 1000px;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 100px;
+  /*helps center because issueIndex*/
+}
+
+.mainColumn::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 1px solid #666666;
+}
+
+.logoThe {
+  font-style: italic;
+  position: relative;
+  right: 110px;
+  font-size: 20px;
+}
+
+.logoBroadway, .logoJournal {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.controlBar {
+  height: 10px;
+  display: flex;
+  border-left: 8vw solid #322e2b;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.hrMain {
+  width: 50px;
+  height: 2px;
+  background: #666666;
+  margin: 30px auto;
+}
+
+.mainWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 60px);
+  color: #666666;
+  font-size: 11px;
+}
+
+.logoTitle {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 20px;
+  display: flex;
+}
+
+.logoSubtitle {
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 1px;
+  left: 4px;
+  letter-spacing: .5px;
+  position: relative;
+}
+
+.mainCenter {
+  width: 300px;
+}
+
+.footerBar {
+  height: 80px;
+}
+
+.documentFooter {
+  background: #322e2b;
+}
+
+.documentInner {
+  border: 1px solid #666666;
+  margin: 5px;
+}
+
+.issueBar {
+  width: 109px;
+  position: relative;
+  font-family: Roboto;
+  z-index: 0;
+  min-width: 109px;
+}
+
+.activeMonth {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.singleIndex {
+  color: #666666;
+  cursor: pointer;
+}
+
+.singleText, .yearText {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  color: #666666;
+  position: relative;
+  top: 80px;
+  padding-right: 10px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 11px;
+  text-align: right;
+  background: #29303a;
+}
+
+.yearText {
+  background: #29303a;
+  color: #ffffff;
+  font-weight: 900;
+  cursor: default;
+}
+
+.childIndex {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  color: #666666;
+  position: relative;
+  padding-left: 0px;
+  top: 80px;
+  background: #faeee2;
+}
+
+.childText {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  margin-right: 28px;
+  padding: 5px;
+  color: #faeee2;
+  font-weight: 900;
+  margin-bottom: 13px;
+  background: #fe7251;
+  text-align: right;
+}
+
+.issueIndex {
+  position: relative;
+  right: 33px;
+  background: none;
+  z-index: 3;
+  top: 100px;
+}
+
+.issueIndex:nth-child(2) {
+  z-index: 2;
+  /*makes DEC clickable*/
+}
+
+.childIndex:hover .childText {
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+  color: #faeee2;
+  margin-right: 0px;
+}
+
+.singleIndex:hover .singleText, .singleIndex:hover .yearText {
+  color: #faeee2;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+.activeMonth .singleText, .activeMonth .yearText {
+  color: #faeee2;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+.childIndex:nth-child(1) .childText {
+  margin-top: 1px;
+}
+
+.childIndex:nth-last-child(1) .childText {
+  margin-bottom: 12px;
+}
+
+.topMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.topMenu a {
+  text-decoration: none;
+  color: #666666;
+  margin: 0px 10px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.authorsButton {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #666666;
+  padding: 10px;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+.authorHeader {
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.inBorder {
+  height: 1px;
+  background: rgba(250, 238, 226, 0.3);
+  width: 500px;
+  position: relative;
+  top: 30px;
+  margin: 0px 20px;
+}
+
+.nav {
+  width: 100%;
+  height: 43px;
+  background: #faeee2;
+  border-bottom: 1px solid #d0c7be;
+}
+
+.node {
+  width: 46.94px;
+  background: #fe7251;
+  margin: 1px;
+  text-align: center;
+  display: flex;
+  padding: 7px 11px 3px 11px;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
+
+.node a {
+  background: #fe7251;
+  color: #29303a;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.node a {
+  background: #fe7251;
+  color: #29303a;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.ContibutingAuthor a {
+  color: #faeee2;
+}
+
+.authorDirectory {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1135px;
+  align-self: center;
+}
+
+@media (max-width: 1000px) {
+  .documentUnder {
+    display: none;
+  }
+
+  .childIndex, .singleText, .yearText, .yearText {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .childIndex:nth-last-child(1) .childText {
+    margin-bottom: 0px;
+  }
+
+  .singleText, .yearText, .yearText {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+    padding: 10px;
+  }
+
+  .childText {
+    border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+
+  .childIndex {
+    margin: 0px;
+  }
+
+  .childIndex:hover .childText {
+    margin-right: 10px;
+  }
+
+  .issueBar {
+    margin-right: 12px;
+    min-width: 60px;
+    width: 60px;
+  }
+
+  .issueIndex {
+    right: 2px;
+    top: -68px;
+  }
+
+  .mainColumn {
+    width: calc(100% + 486px);
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+}
