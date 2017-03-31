@@ -16,7 +16,7 @@
                     <!-- top-menu -->
                     <footer-bar></footer-bar>
                 </div>
-		<canvas id="the-canvas" data-url={{{$pdf}}}</canvas>
+		<canvas id="the-canvas" data-url={{{$pdf}}}></canvas>
                 <issue-bar></issue-bar>
             </div>
             <author-section class="authorSection"></author-section>
@@ -24,7 +24,7 @@
         <!-- <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script> -->
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
-        <script src="js/app.js"></script>
+        <script src="/js/app.js"></script>
         <script src="https://use.fontawesome.com/feda5854d8.js"></script>
     </body>
 </html>
