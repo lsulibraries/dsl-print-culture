@@ -37,8 +37,8 @@ Vue.component('control-button',{
 					for(each in this.$parent.$children){
 						this.$parent.$children[each].isActive = (this.$parent.$children[each].$el.innerText == this.$el.innerText)
 						}
-					}
-	},
+					
+}	},
 	template: `
 		<div  class="documentToggle" @click="selectMe()">
 				<div class="labelToggle"><slot></slot></div>
@@ -56,7 +56,10 @@ Vue.component('control-bar',{
 		setView: function() { this.$parent.$children[4].whichview = this.whichview; },
 	},
 	template: `
+
+
 				<div class='controlBar'  @click='setView()'>
+                    Current title: <div class="currentTitle">No title</div>
 					<control-button class="teiToggle">TEI</control-button>
 					<control-button class="pdfToggle">PDF</control-button>
 				</div>
@@ -77,7 +80,7 @@ Vue.component('title-bar',{
 Vue.component('main-window',{
 	data() {return {source:'',
 					topMenuActives: [true,false,false],
-					aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
+					aboutText: [''],
 					creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 					techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
 					whichview: ''
@@ -95,11 +98,9 @@ Vue.component('main-window',{
 
 				<div v-if="topMenuActives[0]">
 					{{ aboutText[0] }}
-					<br>
+				<span class="dropCap">T</span>he Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks. <br><p class="indent">In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.
 					{{ aboutText[1] }}
 				</div>
-				<div class="authorsButton">Authors</div>
-				<top-menu></top-menu>
 				<div v-if="topMenuActives[1]">
 					<li v-for="each in techText"  v-text="each"></li>
 				</div>

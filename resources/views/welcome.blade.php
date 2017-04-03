@@ -15,12 +15,10 @@
                     <img src="../../public/images/libraries_logo.png"></img>
                 </div>
 
-                <div class="currentIssue"> 
-                    Current title: <div class="currentTitle">No title</div>
-                    <div class="toggletoTEI">Switch to TEI
-                    </div>
-                </div>
+
                 <control-bar></control-bar>
+                                <top-menu></top-menu>
+
             </div>     
             <div class="documentSection">
                 <div class="documentUnder"></div>           
