@@ -1,12 +1,6 @@
-// import Vue from 'vue'
- // import VuePDFViewer from 'vue-pdf-viewer'
-
-
-
-
 Vue.component('top-menu',{
 	data() {return {
-				topMenuActives: ''
+				topMenuActives: '',
 		}
 	},
 	methods: {
@@ -271,11 +265,10 @@ Vue.component('issue-bar',{
 		`
 });
 
-
-//root.$children[4]
 Vue.component('author-section',{
 	data(){
 		return {
+			 cardActive:false,
 			personography:[],
 			chosen: ''
 		}
@@ -305,13 +298,18 @@ Vue.component('author-node',{
 		choose: function(childAuthID){
 			this.$parent.chosen=this.authID;
 			this.$parent.cardActive=true;
+		},
+		cardHover: function(data){
+			console.log(data);
+			this.$parent.chosen=this.authID;
+			this.$parent.cardActive=true;
 		}
 	},
 	computed:{ authHref: function() {var path = 'author-' + this.authID; return path}
 	},
 	props: ['authInfo','authID'],
 	template: `
-				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref"  @click='choose(authInfo)'>{{this.authInfo['init']}}</a></div>
+				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref" @mouseover='cardHover(authID)'>{{this.authInfo['init']}}</a></div>
 	`
 })
 
