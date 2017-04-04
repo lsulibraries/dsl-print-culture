@@ -8,7 +8,7 @@ Vue.component('top-menu',{
 						if(which == 'about') { this.topMenuActives = [true,false,false];}
 						if(which == 'tech') { this.topMenuActives = [false,true,false];}
 						if(which == 'cred'){ this.topMenuActives =[false,false,true];}
-						//Event.$emit('topMenuEvent', this.topMenuActives);
+						// Event.$emit('topMenuChange', this.topMenuActives);
 						this.$parent.$children[2].topMenuActives=this.topMenuActives;
 						}
 	},
@@ -53,7 +53,7 @@ Vue.component('control-bar',{
 		setView: function() { this.$parent.$children[4].whichview = this.whichview; },
 	},
 	template: `
-				<div class='controlBar'  @click='setView()'>
+				<div class='controlBar' @click='setView()'>
 					<control-button class="teiToggle">TEI</control-button>
 					<control-button class="pdfToggle">PDF</control-button>
 					<control-button class="txtToggle">TXT</control-button>
@@ -63,7 +63,6 @@ Vue.component('control-bar',{
 
 
 Vue.component('title-bar',{
-	mounted() {console.log(this.$root.iframethis)},
 	computed:{frame: function(){return this.$root.iframethis}},
 	template: `
 			<div class="titleBar">
@@ -130,20 +129,27 @@ Vue.component('main-window',{
 
 Vue.component('issue-toc',{
 	data(){
-		return { tocContent:[], tocPath:'', tocActive:false }
+		return { tocContent:[], tocPath:'', tocActive:false, toggle:0 }
 	},
 	props: {src:''},
 	methods: {
 		tocPathCalc: function(){
+			if(this.toggle==0){
 			this.tocPath= this.src + '/toc'; //slice(18)
 			axios.get(this.tocPath).then(response => this.tocContent = response.data);
 			this.tocActive=true;
+			this.toggle=1;
+			}
+			else{
+			this.toggle=0;
+			this.tocActive=false;
+			}
 		}
 	 },
 	 template:`
 	<div>
+	 	<button class="issueToc" @click='tocPathCalc()'>Toggle for TOC</button>
 	 	<div v-if='tocActive' v-for="heading in this.tocContent" v-text='heading'></div>
-	 	<div class="issueToc" @click='tocPathCalc()'>Click for TOC</div>
 	 </div>
 	 `
 });
@@ -151,24 +157,31 @@ Vue.component('issue-toc',{
 Vue.component('tei-markup',{
 	data(){
 		return{
-			page:1,
+			page:'',
 			markdown:[]
 		}
 	},
 	props: {src:''},
-	mounted() {
-		//axios.get(this.src).then(response => this.markdown = response.data);
-	 },
 	template: `<div class='teiMarkup'>pageNum:{{page}}<div>`
 })
 
 Vue.component('issue-month',{
 	data(){
 		return { toggled: false,
-			issues: this.$parent.$root.paths[this.list]
+			issues: this.$parent.$root.paths[this.list],
+			monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUN':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
 		}
 	},
-	props: {month: '',	list: '' },
+	props: {month: '',	list: '', currentIssue: '' },
+	 mounted(){
+	 	Event.$on('issue-preselected',(data) => { 
+
+	 			if(this.monthConvert[this.month] == data.slice(6,-6) && this.list.slice(-2)== data.slice(12)){
+	 				this.showChildren()
+		 		}
+
+	 		});
+	 },
 	methods: { 
 		showChildren: function(){
 			if(this.toggled==false){
@@ -202,7 +215,7 @@ Vue.component('issue-month',{
 						<div class="singleText" >{{this.month}}</div>
 						<div class="indicatorIndex"></div>
 					</div>
-					<index-child :href="each" v-for="each in this.issues" ></index-child>
+					<index-child :href="each" v-for="each in this.issues"></index-child>
 				</div>`
 });
 
@@ -211,27 +224,28 @@ Vue.component('index-child',{
 		return { meSeen:false }
 	},
 	props: ['href'],
-	methods: { fillIframe: function(){ 
+	methods: { fillIframe: function(chosenIssue){ 
 					this.$root.iframethis = this.href; 
 					this.$root.$children[0].whichview='TEI';
 					this.$root.$children[0].setView();
 					this.$root.$children[0].$children[0].selectMe();
+					//add if table of contents resolves... then show, else say this Toc !exist yet...
 					this.$root.$children[1].$children[0].tocActive=true;
+
 				}
 	},
-	template:	`<div v-if="meSeen" @click="fillIframe()" class="childIndex">
-					<div class="childText" v-text="this.href.slice(-2)"></div>
+	template:	`<div v-if="meSeen" @click="fillIframe(this.href)" class="childIndex">
+					<div v-bind:href='href' class="childText" v-text="this.href.slice(-2)"></div>
 				</div>`
 });
 
 Vue.component('issue-bar',{
 	 data(){
 	 	return {months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
-	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
+	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46'],
+	 			currentIssue: '',
+
 		 }
-	 },
-	 mounted(){
-	 	this.$children[0].showChildren();
 	 },
 	template: `
 		<div class="issueBar">
@@ -241,18 +255,18 @@ Vue.component('issue-bar',{
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
-					<issue-month  :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
+					<issue-month :currentIssue='currentIssue' :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
 				</div>
 				<div class="issueIndex">
 					<div class="singleIndex" href="">
@@ -288,10 +302,11 @@ Vue.component('author-section',{
 					<div class="authorDirectory">
 						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
 					</div>
-					<author-card  :authID='chosen' :authInfo="personography[chosen]"></author-card>
+					<author-card :authID='chosen' :authInfo="personography[chosen]"></author-card>
+					
 				</div>
 	`
-})
+}) //<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-card>
 
 Vue.component('author-node',{
 	methods:{	
@@ -300,7 +315,6 @@ Vue.component('author-node',{
 			this.$parent.cardActive=true;
 		},
 		cardHover: function(data){
-			console.log(data);
 			this.$parent.chosen=this.authID;
 			this.$parent.cardActive=true;
 		}
@@ -314,10 +328,20 @@ Vue.component('author-node',{
 })
 
 Vue.component('author-card',{
+	computed: {mentions: function(){'10'
+		return Math.floor(Math.random(1,100)*10);
+		},
+		contribs: function(){'10'
+		return Math.floor(Math.random(1,100)*10);
+		}
+
+	},
 	props: ['authID','authInfo'],
 	template: `
 				<div class="authorCard">
-					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}<div>
+					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
+					<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
+					<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
 				</div>
 	`
 })
@@ -331,7 +355,7 @@ Vue.component('footer-bar',{
 				</div>`
 });
 
-//window.Event = new Vue();
+window.Event = new Vue();
 
 new Vue({
 	el:'#container',
@@ -353,13 +377,12 @@ new Vue({
 			'childrenJan46': ['http://52.40.88.89/broadwayjournal/issue/1846/01/03']
 		}
 	},
-	 mounted() {
-	 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
-	 		
-	 		this.$children[1].whichview= 'TEI';
+	 mounted() {			
 
-	 		if(	this.$el._prevClass.includes('author')){
-	 			this.$children[3].chosen = this.$el._prevClass.slice(7)
+	 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
+	 		this.$children[1].whichview= 'TEI';
+	 		if(	this.$el._prevClass.includes('author-')){
+	 			this.$children[4].chosen = this.$el._prevClass.slice(7)
 	 		}
 	 		if(this.$el._prevClass == 'context-about'){
 	 			this.$children[1].topMenuActives=[true,false,false]
@@ -375,6 +398,11 @@ new Vue({
 	 			var splits=this.$el._prevClass.split('-');
 	 			var spliced = 'http://52.40.88.89/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
 	 			this.iframethis=spliced
+	 			this.$children[3].currentIssue=this.$el._prevClass;
+	 			Event.$emit('issue-preselected', this.$el._prevClass)
+	 		}
+	 		else{
+	 			this.$children[3].$children[0].showChildren();
 	 		}
 	 	}
 });
