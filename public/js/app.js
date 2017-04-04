@@ -56,7 +56,6 @@ Vue.component('control-bar',{
 				<div class='controlBar' @click='setView()'>
 					<control-button class="teiToggle">TEI</control-button>
 					<control-button class="pdfToggle">PDF</control-button>
-					<control-button class="txtToggle">TXT</control-button>
 				</div>
 			`
 });
@@ -109,16 +108,15 @@ Vue.component('main-window',{
 				<div v-if="topMenuActives[2]">
 					<li v-for="each in creditText" v-text="each"></li>
 				</div>
-						
 	 			
 	 			<div class="mainInner">
-					<div id="tei" v-if="whichview=='TEI'">___Hello TEI frame____				
-						<issue-toc class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
-						<tei-markup :src=this.$root.iframethis></tei-markup>
-						<iframe  :src=this.$root.iframethis></iframe>
+					<div id="tei" v-if="whichview=='TEI'">				
+						<issue-toc v-if='this.$root.iframethis.length' class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
+						<tei-markup v-if='this.$root.iframethis.length' :src=this.$root.iframethis></tei-markup>
+						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
 
-					<div id="pdf" v-if="whichview=='PDF' ">___hello PDF canvas____
+					<div id="pdf" v-if="whichview=='PDF' ">
 						<canvas></canvas>
 					</div>
 
@@ -135,7 +133,7 @@ Vue.component('issue-toc',{
 	methods: {
 		tocPathCalc: function(){
 			if(this.toggle==0){
-			this.tocPath= this.src + '/toc'; //slice(18)
+			this.tocPath= this.src + '/toc'; 
 			axios.get(this.tocPath).then(response => this.tocContent = response.data);
 			this.tocActive=true;
 			this.toggle=1;
@@ -411,12 +409,13 @@ new Vue({
 	 			this.$children[1].topMenuActives=[false,false,true]
 	 		}
 			if(this.$el._prevClass.includes('issue')){
+				Event.$emit('issue-preselected', this.$el._prevClass);
 	 			this.$children[1].whichview= 'TEI';
 	 			var splits=this.$el._prevClass.split('-');
 	 			var spliced = 'http://52.40.88.89/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
 	 			this.iframethis=spliced
 	 			this.$children[3].currentIssue=this.$el._prevClass;
-	 			Event.$emit('issue-preselected', this.$el._prevClass)
+	 			
 	 		}
 	 		else{
 	 			this.$children[3].$children[0].showChildren();

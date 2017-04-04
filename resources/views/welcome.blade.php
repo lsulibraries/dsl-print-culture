@@ -12,7 +12,6 @@
                 <div class="mainColumn">
                     <control-bar></control-bar>
                     <main-window ></main-window>
-                    <!-- top-menu -->
                     <footer-bar></footer-bar>
                 </div>
                 <issue-bar></issue-bar>
