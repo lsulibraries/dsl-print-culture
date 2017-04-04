@@ -348,7 +348,9 @@ Vue.component('author-node',{
 	},
 	props: ['authInfo','authID'],
 	template: `
-				<div class="node"><div v-bind:class="this.authInfo['role']" v-bind:href="authHref" @click='modalClick(authID)' @mouseover='cardHover(authID)'>{{this.authInfo['init']}}</div></div>
+				<div class="node" @click='modalClick(authID)' @mouseover='cardHover(authID)'>
+					<div v-bind:class="this.authInfo['role']" v-bind:href="authHref" >{{this.authInfo['init']}}</div>
+				</div>
 	`
 })
 
