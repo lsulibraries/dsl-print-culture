@@ -284,7 +284,7 @@ Vue.component('author-section',{
 		return {
 			 modalActive:false,
 			personography:[],
-			chosen: ''
+			chosen: '',
 		}
 	},
 	mounted() {
@@ -302,27 +302,35 @@ Vue.component('author-section',{
 					<div class="authorDirectory">
 						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
 					</div>
-					<author-card :authID='chosen' :authInfo="personography[chosen]"></author-card>
-					<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-card>
+					<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
+					<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
 				</div>
 	`
 }) 
 
 Vue.component('author-modal',{
-	methods:{
-		choose: function(childAuthID){
-					this.$parent.chosen=this.authID;
-					this.$parent.modalActive=true;
+		computed: {mentions: function(){'10'
+		return Math.floor(Math.random(1,100)*10);
 		},
+		contribs: function(){'10'
+		return Math.floor(Math.random(1,100)*10);
+		}
+
+	},
+	methods:{
 		closeModal: function(){
-			this.$parent.chosen='';
 			this.$parent.modalActive=false;
 		}
 	},
 	props:['authInfo','authID'],
 	template: `
-				<div v-if="this.$parent.modalActive" >HELLOOOOOOOO
-				<button @click='closeModal()'>CloseMe</button>
+				<div v-if="this.$parent.modalActive">
+					<button @click='closeModal()'>CloseMe</button>
+					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
+					<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
+					<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
+					
+
 				</div>
 			`
 })
@@ -330,6 +338,7 @@ Vue.component('author-modal',{
 Vue.component('author-node',{
 	methods:{
 		modalClick: function(data){
+					Event.$emit('modal-active',this.authID);
 					this.$parent.chosen=this.authID;
 					this.$parent.modalActive=true;
 		},
@@ -345,21 +354,11 @@ Vue.component('author-node',{
 	`
 })
 
-Vue.component('author-card',{
-	computed: {mentions: function(){'10'
-		return Math.floor(Math.random(1,100)*10);
-		},
-		contribs: function(){'10'
-		return Math.floor(Math.random(1,100)*10);
-		}
-
-	},
+Vue.component('author-preview',{
 	props: ['authID','authInfo'],
 	template: `
 				<div class="authorCard">
-					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
-					<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
-					<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
+					<div v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
 				</div>
 	`
 })
