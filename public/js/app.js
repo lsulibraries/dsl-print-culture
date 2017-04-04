@@ -282,7 +282,7 @@ Vue.component('issue-bar',{
 Vue.component('author-section',{
 	data(){
 		return {
-			 cardActive:false,
+			 modalActive:false,
 			personography:[],
 			chosen: ''
 		}
@@ -303,27 +303,45 @@ Vue.component('author-section',{
 						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
 					</div>
 					<author-card :authID='chosen' :authInfo="personography[chosen]"></author-card>
-					
+					<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-card>
 				</div>
 	`
-}) //<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-card>
+}) 
+
+Vue.component('author-modal',{
+	methods:{
+		choose: function(childAuthID){
+					this.$parent.chosen=this.authID;
+					this.$parent.modalActive=true;
+		},
+		closeModal: function(){
+			this.$parent.chosen='';
+			this.$parent.modalActive=false;
+		}
+	},
+	props:['authInfo','authID'],
+	template: `
+				<div v-if="this.$parent.modalActive" >HELLOOOOOOOO
+				<button @click='closeModal()'>CloseMe</button>
+				</div>
+			`
+})
 
 Vue.component('author-node',{
-	methods:{	
-		choose: function(childAuthID){
-			this.$parent.chosen=this.authID;
-			this.$parent.cardActive=true;
+	methods:{
+		modalClick: function(data){
+					this.$parent.chosen=this.authID;
+					this.$parent.modalActive=true;
 		},
 		cardHover: function(data){
-			this.$parent.chosen=this.authID;
-			this.$parent.cardActive=true;
+					this.$parent.chosen=this.authID;
 		}
 	},
 	computed:{ authHref: function() {var path = 'author-' + this.authID; return path}
 	},
 	props: ['authInfo','authID'],
 	template: `
-				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref" @mouseover='cardHover(authID)'>{{this.authInfo['init']}}</a></div>
+				<div class="node"><div v-bind:class="this.authInfo['role']" v-bind:href="authHref" @click='modalClick(authID)' @mouseover='cardHover(authID)'>{{this.authInfo['init']}}</div></div>
 	`
 })
 
