@@ -10,6 +10,7 @@ Vue.component('meta-menu',{
 	selectMe: function(which) {
 	    this.content = which;
 	    Event.$emit('content', this.content);
+	    Event.$emit('activeModeChange', 'meta');
 	}
     },
     template: `
@@ -69,22 +70,22 @@ Vue.component('main-window',{
 			},
 	props: {src:this.source},
 	template: `
-	 		<div class="mainWindow">
-	 			<div class="mainCenter">
-	 			<div class="logoTitle">
-				<div class="logoThe">The</div> <div class="logoBroadway">Broadway</div> <div class="logoJournal">Journal</div>
-				<div class="logoSubtitle">A Digital Augmented Edition</div>
-				</div>
+ 		<div class="mainWindow">
+		  <div class="mainCenter">
+	 	  <div class="logoTitle">
+	            <div class="logoThe">The</div>
+	            <div class="logoBroadway">Broadway</div>
+	            <div class="logoJournal">Journal</div>
+		    <div class="logoSubtitle">A Digital Augmented Edition</div>
+		  </div>
 
-				<div class="hrMain"></div>
-					
-				<meta-menu></meta-menu>
-
-				<div v-if="content == 'about'">
-					{{ aboutText[0] }}
-					<br><br>
-					{{ aboutText[1] }}
-				</div>
+		  <div class="hrMain"></div>
+                  <meta-menu></meta-menu>
+		  <div v-if="content == 'about' && this.$root.state.active == 'meta'">
+		    {{ aboutText[0] }}
+		    <br><br>
+	            {{ aboutText[1] }}
+		  </div>
 				
 				<div class="authorsButton">Authors</div>
 				
@@ -97,7 +98,7 @@ Vue.component('main-window',{
 					<li v-for="each in creditText" v-text="each"></li>
 				</div>
 	 			
-	 			<div class="mainInner">
+	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
 						<issue-toc v-if='this.$root.iframethis.length' class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
 						<tei-markup v-if='this.$root.iframethis.length' :src=this.$root.iframethis></tei-markup>
