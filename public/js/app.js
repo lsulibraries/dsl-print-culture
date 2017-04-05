@@ -44,16 +44,6 @@ Vue.component('control-bar',{
 	`
 });
 
-
-Vue.component('title-bar',{
-	computed:{frame: function(){return this.$root.iframethis}},
-	template: `
-			<div class="titleBar">
-				<a v-bind:href="frame" class="sizeToggle">{{this.$root.iframethis}}</a>
-			</div>
-			`
-});
-
 Vue.component('main-window',{
     methods: {
 	notifyNextPage: () => (Event.$emit('nextPage', 2))
