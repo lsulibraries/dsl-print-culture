@@ -21,55 +21,46 @@ Vue.component('meta-menu',{
 	`
 });
 
-Vue.component('issue-view-toggle',{
-    data() {
-	return {
-	    whichview:'TEI',
-	}
-    },
+Vue.component('view-mode-toggle',{
     methods: {
 	issueViewToggled: (to) => {
-	    Event.$emit('issue-view-toggled', to);
+	    Event.$emit('view-mode-toggled', to);
 	},
-	pdfActive: function() {
-	    Event.$emit('pdfActive');
-	}
     },
     template: `
-	<div class='controlBar' @click='setView()'>
-	  <span class="teiToggle" @click="teiActive">TEI</span>
-	  <span class="pdfToggle" @click="pdfActive">PDF</span>
+	<div class='controlBar' v-if="this.$root.state.active == 'issue'">
+	  <span class="teiToggle" @click="issueViewToggled('tei')">TEI</span>
+	  <span class="pdfToggle" @click="issueViewToggled('pdf')">PDF</span>
 	</div>
 	`
 });
 
 Vue.component('main-window',{
     methods: {
-	notifyNextPage: () => (Event.$emit('nextPage', 2))
+	notifyNextPage: () => (Event.$emit('nextPage', 2)),
+	modeActive: (mode) => {
+	    issueMode  = this.$root.state.issue.viewMode;
+	    activeMode = this.$root.state.active == 'issue';
+	    if(mode == 'tei' && activeMode){
+		this.teiMode = true;
+	    }else if (mode == 'pdf' && activeMode){
+		this.teiMode = false;
+	    }
+	}
     },
     created() {
 	Event.$on('content', (content) => {
 	    this.content = content;
-	}),
-	Event.$on('teiActive', () => {
-		  this.showTeiViewer = true;
-		  this.showPdfViewer = false;
-		 });
-	Event.$on('pdfActive', () => {
-		  this.showTeiViewer = false;
-		  this.showPdfViewer = true;
-	});
+	})
     },
     data() {
 	return {
+	    teiMode: true,
 	    source:'',
 	    content: this.$root.state.meta.content,
 	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
 			creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 					techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
-			whichview: '',
-			showTeiViewer: false,
-			showPdfViewer: this.$root.state.active !== 'meta',
 		       }
 
 			},
@@ -84,7 +75,7 @@ Vue.component('main-window',{
 
 				<div class="hrMain"></div>
 					
-				<meta-menu v-if="this.$root.state.active === 'meta'"></meta-menu>
+				<meta-menu></meta-menu>
 
 				<div v-if="content == 'about'">
 					{{ aboutText[0] }}
@@ -104,13 +95,13 @@ Vue.component('main-window',{
 				</div>
 	 			
 	 			<div class="mainInner">
-					<div id="tei" v-if="showTeiViewer">
+					<div id="tei" v-if="teiMode">
 						<issue-toc v-if='this.$root.iframethis.length' class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
 						<tei-markup v-if='this.$root.iframethis.length' :src=this.$root.iframethis></tei-markup>
 						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
 
-	<pdf-viewer v-if="showPdfViewer"></pdf-viewer>
+	<pdf-viewer v-if="!teiMode"></pdf-viewer>
 	<button id="next-page" @click="notifyNextPage">Next Page</button>
 
 				</div>
@@ -248,7 +239,7 @@ Vue.component('issue-month',{
 	 		});
 	 },
 	methods: { 
-		showChildren: function(){
+	    showChildren: function(){
 			if(this.toggled==false){
 			//turn on this.$children
 				for (each in this.$children){
@@ -285,23 +276,20 @@ Vue.component('issue-month',{
 });
 
 Vue.component('index-child',{
-	data() {
-		return { meSeen:false }
-	},
-	props: ['href'],
-	methods: { fillIframe: function(chosenIssue){ 
-					this.$root.iframethis = this.href; 
-					this.$root.$children[0].whichview='TEI';
-					this.$root.$children[0].setView();
-					this.$root.$children[0].$children[0].selectMe();
-					//add if table of contents resolves... then show, else say this Toc !exist yet...
-					this.$root.$children[1].$children[0].tocActive=true;
-
-				}
-	},
-	template:	`<div v-if="meSeen" @click="fillIframe(this.href)" class="childIndex">
-					<div v-bind:href='href' class="childText" v-text="this.href.slice(-2)"></div>
-				</div>`
+    data() {
+	return { meSeen:false }
+    },
+    props: ['href'],
+    methods: {
+	selectIssue: function(issueId){
+	    Event.$emit('activeModeChange', 'issue');
+	    Event.$emit('issueSelected', issueId);
+	}
+    },
+    template: `
+	<div v-if="meSeen" @click="selectIssue(this.href)" class="childIndex">
+	  <div v-bind:href='href' class="childText" v-text="this.href.slice(-2)"></div>
+	</div>`
 });
 
 Vue.component('issue-bar',{
@@ -450,7 +438,7 @@ new Vue({
 		content: 'about', // about | tech | credits
 	    },
 	    issue: {
-		id: '', // yyyy-mm-dd
+		id: '1845-01-04', // yyyy-mm-dd
 		viewMode: '', // tei|pdf
 		page: 1, // int
 	    },
@@ -476,8 +464,8 @@ new Vue({
 	Event.$on('content', (name) => {
 	    this.state['meta']['content'] = name;
 	}),
-	Event.$on('issue-view-toggled', (to) => this.state.issue.viewMode = to)
-
+	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to),
+	Event.$on('activeModeChange', (mode) => this.state.active = mode )
     },
     mounted() {			
 	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
