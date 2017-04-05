@@ -72,7 +72,7 @@ Vue.component('main-window',{
 	template: `
  		<div class="mainWindow">
 		  <div class="mainCenter">
-	 	  <div class="logoTitle">
+	 	  <div class="logoTitle" v-if="this.$root.state.active != 'issue'">
 	            <div class="logoThe">The</div>
 	            <div class="logoBroadway">Broadway</div>
 	            <div class="logoJournal">Journal</div>
@@ -155,7 +155,7 @@ Vue.component('pdf-viewer',{
 	this.loadPdf(this.current_issue, this.current_page);
     },
     template: `
-       <div id="pdf-viewer"><canvas id="pdf"></canvas></div>
+       <div id="pdf-viewer" class="pdf-div"><canvas id="pdf" class="pdf-canvas"></canvas></div>
 	`,
     methods: {
 	loadPdf: function(issue, page) { 
@@ -185,7 +185,7 @@ Vue.component('pdf-viewer',{
 	    pdf.getPage(pageNumber).then(function(page) {
 		console.log('Page loaded');
 		
-		var scale = 1.5;
+		var scale = 1.75;
 		var viewport = page.getViewport(scale);
 
 		// Prepare canvas using PDF page dimensions
