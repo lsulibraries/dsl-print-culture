@@ -28,9 +28,8 @@ Vue.component('issue-view-toggle',{
 	}
     },
     methods: {
-	setView: function() { this.$parent.$children[4].whichview = this.whichview; },
-	teiActive: function() {
-	    Event.$emit('teiActive');
+	issueViewToggled: (to) => {
+	    Event.$emit('issue-view-toggled', to);
 	},
 	pdfActive: function() {
 	    Event.$emit('pdfActive');
@@ -85,7 +84,7 @@ Vue.component('main-window',{
 
 				<div class="hrMain"></div>
 					
-				<meta-menu v-if="this.$root.state.content.active === 'meta'"></meta-menu>
+				<meta-menu v-if="this.$root.state.active === 'meta'"></meta-menu>
 
 				<div v-if="content == 'about'">
 					{{ aboutText[0] }}
@@ -476,7 +475,8 @@ new Vue({
     created() {
 	Event.$on('content', (name) => {
 	    this.state['meta']['content'] = name;
-	})
+	}),
+	Event.$on('issue-view-toggled', (to) => this.state.issue.viewMode = to)
 
     },
     mounted() {			
