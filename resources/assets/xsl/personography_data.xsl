@@ -43,7 +43,7 @@
                 <viaf>
                     <xsl:value-of select="persName/@ref"/>
                 </viaf>
-                <contribs>
+                <issue_contrib>
                     <xsl:for-each select="$documents">
                         <xsl:for-each-group select="//listBibl//author" group-by="@ref">
                             <xsl:choose>
@@ -54,9 +54,7 @@
                                         </num>
                                         <link>
                                             <xsl:text>broadwayjournal/issue/</xsl:text>
-                                            <xsl:value-of
-                                                select="translate(string(//sourceDesc/bibl/date/@when), '-', '/')"/>
-                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when), '-', '/')"/>
                                         </link>
                                     </issue>
                                 </xsl:when>
@@ -64,7 +62,17 @@
                             </xsl:choose>
                         </xsl:for-each-group>
                     </xsl:for-each>
-                </contribs>
+                </issue_contrib>
+                <total_contrib>
+                    <xsl:for-each-group select="$documents//listBibl//author" group-by="@ref">
+                        <xsl:choose>
+                            <xsl:when test="substring-after(@ref, '#') eq $xmlid">
+                                <num><xsl:value-of select="count(current-group())"/></num>
+                            </xsl:when>
+                            <xsl:otherwise/>
+                        </xsl:choose>
+                    </xsl:for-each-group>
+                </total_contrib>
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
