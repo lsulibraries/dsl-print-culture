@@ -51,6 +51,9 @@ Vue.component('main-window',{
     created() {
 	Event.$on('content', (content) => {
 	    this.content = content;
+	}),
+	Event.$on('view-mode-toggled', (to) => {
+	    this.teiMode = to == 'tei' ? true : false;
 	})
     },
     data() {
@@ -438,7 +441,7 @@ new Vue({
 		content: 'about', // about | tech | credits
 	    },
 	    issue: {
-		id: '1845-01-04', // yyyy-mm-dd
+		id: '18450104', // yyyy-mm-dd
 		viewMode: '', // tei|pdf
 		page: 1, // int
 	    },
