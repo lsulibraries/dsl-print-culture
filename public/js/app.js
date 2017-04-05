@@ -38,7 +38,9 @@ Vue.component('view-mode-toggle',{
 
 Vue.component('main-window',{
     methods: {
-	notifyNextPage: () => (Event.$emit('nextPage', 2)),
+	changePage: (which) => {
+	    Event.$emit('pageChange', which);
+	},
 	modeActive: (mode) => {
 	    issueMode  = this.$root.state.issue.viewMode;
 	    activeMode = this.$root.state.active == 'issue';
@@ -102,9 +104,10 @@ Vue.component('main-window',{
 						<tei-markup v-if='this.$root.iframethis.length' :src=this.$root.iframethis></tei-markup>
 						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
-
+	<button class="next-page" @click="changePage('prev')">Prev Page</button>
+	<button class="next-page" @click="changePage('next')">Next Page</button>
 	<pdf-viewer v-if="!teiMode"></pdf-viewer>
-	<button id="next-page" @click="notifyNextPage">Next Page</button>
+
 
 				</div>
 			</div>
@@ -148,6 +151,14 @@ Vue.component('pdf-viewer',{
 	    this.current_page = 1;
 	    this.current_issue = id;
 	    this.loadPdf(this.current_issue, this.current_page);
+	}),
+	Event.$on('pageChange', (which) => {
+    	    newPage = which == 'next' ? this.current_page += 1 : this.current_page -= 1;
+	    if(this.current_page > 0){
+		this.loadPdf(this.current_issue, newPage);
+	    }
+	    
+
 	})
     },
     data() {
@@ -185,7 +196,9 @@ Vue.component('pdf-viewer',{
 	var loadingTask = PDFJS.getDocument(url);
 	loadingTask.promise.then(function(pdf) {
 	    console.log('PDF loaded');
-	    
+	    if(page > pdf.pdfInfo.numPages){
+		return;
+	    }
 	    // Fetch the first page
 	    var pageNumber = page;
 	    pdf.getPage(pageNumber).then(function(page) {
@@ -476,6 +489,9 @@ new Vue({
 	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to),
 	Event.$on('activeModeChange', (mode) => this.state.active = mode )
 	Event.$on('issueSelected', (id) => this.state.issue.id = id )
+	Event.$on('pageChange', (which) => {
+    	    newPage = which == 'next' ? this.state.issue.page += 1 : this.state.issue.page -= 1;
+	})
     },
     mounted() {			
 	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
