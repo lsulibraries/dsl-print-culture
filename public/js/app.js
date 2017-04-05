@@ -22,24 +22,26 @@ Vue.component('top-menu',{
 });
 
 Vue.component('control-bar',{
-	data() {return {
-				whichview:'TEI',
-					}
+    data() {
+	return {
+	    whichview:'TEI',
+	}
+    },
+    methods: {
+	setView: function() { this.$parent.$children[4].whichview = this.whichview; },
+	teiActive: function() {
+	    Event.$emit('teiActive');
 	},
-	methods: {
-	    setView: function() { this.$parent.$children[4].whichview = this.whichview; },
-	    teiActive: function() {
-		Event.$emit('teiActive');
-	    },
-	    pdfActive: function() {
-		Event.$emit('pdfActive');
-	    }
-	},
-	template: `
-				<div class='controlBar' @click='setView()'>
-					<span class="teiToggle" @click="teiActive">TEI</span>
-					<span class="pdfToggle" @click="pdfActive">PDF</span>
-			`
+	pdfActive: function() {
+	    Event.$emit('pdfActive');
+	}
+    },
+    template: `
+	<div class='controlBar' @click='setView()'>
+	  <span class="teiToggle" @click="teiActive">TEI</span>
+	  <span class="pdfToggle" @click="pdfActive">PDF</span>
+	</div>
+	`
 });
 
 
@@ -487,34 +489,8 @@ new Vue({
 	})
 
     },
-	 mounted() {			
-
-	 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
-	 		this.$children[1].whichview= 'TEI';
-	 		if(	this.$el._prevClass.includes('author-')){
-	 			this.$children[4].chosen = this.$el._prevClass.slice(7)
-	 		}
-	 		if(this.$el._prevClass == 'context-about'){
-//	 			this.$children[1].topMenuActives=[true,false,false]
-	 		}
-	 		if(this.$el._prevClass == 'context-technical'){
-//	 			this.$children[1].topMenuActives=[false,true,false]
-	 		}
-	 		if(this.$el._prevClass == 'context-credits'){
-//	 			this.$children[1].topMenuActives=[false,false,true]
-	 		}
-			if(this.$el._prevClass.includes('issue')){
-				Event.$emit('issue-preselected', this.$el._prevClass);
-	 			this.$children[1].whichview= 'TEI';
-	 			var splits=this.$el._prevClass.split('-');
-	 			var spliced = 'http://52.40.88.89/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
-	 			this.iframethis=spliced
-	 			this.$children[3].currentIssue=this.$el._prevClass;
-	 			
-	 		}
-	 		else{
-	 			this.$children[3].$children[0].showChildren();
-	 		}
-	 	}
+    mounted() {			
+	axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
+    }
 });
 

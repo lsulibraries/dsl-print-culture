@@ -11,7 +11,7 @@
                 <div class="documentUnder"></div>
                 <div class="documentOverflow"></div>
                 <div class="mainColumn">
-                    <control-bar></control-bar>
+      <control-bar v-if="this.$root.state.active === 'issue'"></control-bar>
                     <main-window ></main-window>
                     <footer-bar></footer-bar>
                 </div>
