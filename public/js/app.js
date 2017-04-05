@@ -21,29 +21,6 @@ Vue.component('top-menu',{
 	`
 });
 
-Vue.component('control-button',{
-	data(){
-		return {
-			isActive: false
-		}
-	},
-	methods: {	
-		selectMe: function() {
-					this.$parent.whichview = this.$el.innerText;
-					this.isActive = true;
-					for(each in this.$parent.$children){
-						this.$parent.$children[each].isActive = (this.$parent.$children[each].$el.innerText == this.$el.innerText)
-						}
-					}
-	},
-	template: `
-		<div  class="documentToggle" @click="selectMe()">
-				<div class="labelToggle"><slot></slot></div>
-				<div v-bind:class="{viewing: isActive}" class="indicatorToggle"></div>
-		</div>
-	`
-});
-
 Vue.component('control-bar',{
 	data() {return {
 				whichview:'TEI',
