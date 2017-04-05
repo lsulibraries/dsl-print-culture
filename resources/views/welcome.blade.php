@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="/css/nineteenth.css">
         <title>The Broadway Journal</title>
+        <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
     </head>
     <body>
         <div id="container" class="<?php echo $route; ?>">

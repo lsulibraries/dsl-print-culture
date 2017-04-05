@@ -189,7 +189,7 @@ Vue.component('pdf-viewer',{
 		var viewport = page.getViewport(scale);
 
 		// Prepare canvas using PDF page dimensions
-		var canvas = document.getElementById('the-canvas');
+		var canvas = document.getElementById('pdf');
 		var context = canvas.getContext('2d');
 		canvas.height = viewport.height;
 		canvas.width = viewport.width;
