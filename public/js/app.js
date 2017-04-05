@@ -1,6 +1,6 @@
 window.Event = new Vue();
 
-Vue.component('top-menu',{
+Vue.component('meta-menu',{
     data() {
 	return {
 	    content: this.$root.state['meta']['content'],
@@ -85,7 +85,7 @@ Vue.component('main-window',{
 
 				<div class="hrMain"></div>
 					
-				<top-menu></top-menu>
+				<meta-menu></meta-menu>
 
 				<div v-if="content == 'about'">
 					{{ aboutText[0] }}
