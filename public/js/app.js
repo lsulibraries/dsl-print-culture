@@ -473,6 +473,17 @@ window.Event = new Vue();
 new Vue({
 	el:'#container',
     data: {
+	state: {
+	    active: 'meta', // issue | meta
+	    meta: {
+		content: 'about', // about | tech | credits
+	    },
+	    issue: {
+		id: '', // yyyy-mm-dd
+		viewMode: '', // tei|pdf
+		page: 1, // int
+	    },
+	},
 			journals:[],
 			iframethis: '',
 			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
