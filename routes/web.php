@@ -46,24 +46,6 @@ Route::get('/broadwayjournal/', function () {
 </script></body></html>";
 });
 
-Route::get('/about', function () {
-    return view('welcome',[
-    	'route'=>'context-about'
-    	]);
-});
-
-Route::get('/technical', function () {
-    return view('welcome',[
-    	'route'=>'context-technical'
-    	]);
-});
-
-Route::get('/credits', function () {
-    return view('welcome',[
-    	'route'=>'context-credits'
-    	]);
-});
-
 Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
 
 Route::get('/api/personography/summary', 'PersonographyController@summary');

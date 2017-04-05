@@ -1,26 +1,24 @@
 window.Event = new Vue();
 
 Vue.component('top-menu',{
-	data() {return {
-				topMenuActives: '',
-		}
-	},
-	methods: {
-		selectMe: function(which) {
-						if(which == 'about') { this.topMenuActives = [true,false,false];}
-						if(which == 'tech') { this.topMenuActives = [false,true,false];}
-						if(which == 'cred'){ this.topMenuActives =[false,false,true];}
-						// Event.$emit('topMenuChange', this.topMenuActives);
-						this.$parent.$children[2].topMenuActives=this.topMenuActives;
-						}
-	},
-	template: `
-				<div class='topMenu'>
-					<a href="about" v-bind:class="{ viewTop: topMenuActives[0] }" @click="selectMe('about')">About</a>
-					<a href="technical" v-bind:class="{ viewTop: topMenuActives[1] }" @click="selectMe('tech')">Technical</a>
-					<a href="credits" v-bind:class="{ viewTop: topMenuActives[2] }" @click="selectMe('cred')">Credits</a>
-				</div>
-			` 
+    data() {
+	return {
+	    content: this.$root.state['meta']['content'],
+	}
+    },
+    methods: {
+	selectMe: function(which) {
+	    this.content = which;
+	    Event.$emit('content', this.content);
+	}
+    },
+    template: `
+	<div class='topMenu'>
+	  <div @click="selectMe('about')">About</div>
+	  <div @click="selectMe('tech')">Technical</div>
+	  <div @click="selectMe('credit')">Credits</div>
+	</div>
+	`
 });
 
 Vue.component('control-button',{
@@ -82,6 +80,9 @@ Vue.component('main-window',{
 	notifyNextPage: () => (Event.$emit('nextPage', 2))
     },
     created() {
+	Event.$on('content', (content) => {
+	    this.content = content;
+	}),
 	Event.$on('teiActive', () => {
 		  this.showTeiViewer = true;
 		  this.showPdfViewer = false;
@@ -92,9 +93,10 @@ Vue.component('main-window',{
 	});
     },
 	data() {return {source:'',
-					topMenuActives: [true,false,false],
+			//topMenuActives: [true,false,false],
+			content: this.$root.state['content'],
 					aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-					creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
+			creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 					techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
 			whichview: '',
 			showTeiViewer: false,
@@ -115,7 +117,7 @@ Vue.component('main-window',{
 					
 				<top-menu></top-menu>
 
-				<div v-if="topMenuActives[0]">
+				<div v-if="content == 'about'">
 					{{ aboutText[0] }}
 					<br><br>
 					{{ aboutText[1] }}
@@ -124,11 +126,11 @@ Vue.component('main-window',{
 				<div class="authorsButton">Authors</div>
 				
 
-				<div v-if="topMenuActives[1]">
+				<div v-if="content == 'tech'">
 					<li v-for="each in techText"  v-text="each"></li>
 				</div>
 
-				<div v-if="topMenuActives[2]">
+				<div v-if="content == 'credit'">
 					<li v-for="each in creditText" v-text="each"></li>
 				</div>
 	 			
@@ -500,7 +502,13 @@ new Vue({
 			'childrenDec45': ['http://52.40.88.89/broadwayjournal/issue/1845/12/06', 'http://52.40.88.89/broadwayjournal/issue/1845/12/13', 'http://52.40.88.89/broadwayjournal/issue/1845/12/20', 'http://52.40.88.89/broadwayjournal/issue/1845/12/27'],
 			'childrenJan46': ['http://52.40.88.89/broadwayjournal/issue/1846/01/03']
 		}
-	},
+    },
+    created() {
+	Event.$on('content', (name) => {
+	    this.state['meta']['content'] = name;
+	})
+
+    },
 	 mounted() {			
 
 	 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
@@ -509,13 +517,13 @@ new Vue({
 	 			this.$children[4].chosen = this.$el._prevClass.slice(7)
 	 		}
 	 		if(this.$el._prevClass == 'context-about'){
-	 			this.$children[1].topMenuActives=[true,false,false]
+//	 			this.$children[1].topMenuActives=[true,false,false]
 	 		}
 	 		if(this.$el._prevClass == 'context-technical'){
-	 			this.$children[1].topMenuActives=[false,true,false]
+//	 			this.$children[1].topMenuActives=[false,true,false]
 	 		}
 	 		if(this.$el._prevClass == 'context-credits'){
-	 			this.$children[1].topMenuActives=[false,false,true]
+//	 			this.$children[1].topMenuActives=[false,false,true]
 	 		}
 			if(this.$el._prevClass.includes('issue')){
 				Event.$emit('issue-preselected', this.$el._prevClass);
