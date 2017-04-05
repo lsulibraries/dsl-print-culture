@@ -21,7 +21,7 @@ Vue.component('meta-menu',{
 	`
 });
 
-Vue.component('control-bar',{
+Vue.component('issue-view-toggle',{
     data() {
 	return {
 	    whichview:'TEI',
@@ -85,7 +85,7 @@ Vue.component('main-window',{
 
 				<div class="hrMain"></div>
 					
-				<meta-menu></meta-menu>
+				<meta-menu v-if="this.$root.state.content.active === 'meta'"></meta-menu>
 
 				<div v-if="content == 'about'">
 					{{ aboutText[0] }}
