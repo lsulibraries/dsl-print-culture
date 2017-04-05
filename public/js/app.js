@@ -480,7 +480,7 @@ new Vue({
 
     },
     mounted() {			
-	axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
+	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
     }
 });
 

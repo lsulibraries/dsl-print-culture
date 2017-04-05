@@ -46,6 +46,8 @@ Route::get('/broadwayjournal/', function () {
 </script></body></html>";
 });
 
+Route::get('/api/all-issues/json', 'IssuesController@all_json');
+
 Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
 
 Route::get('/api/personography/summary', 'PersonographyController@summary');

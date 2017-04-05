@@ -21,6 +21,12 @@ class IssuesController extends Controller
         return response()->json($issues);
     }
 
+    function all_json($year = NULL, $month = NULL, $day = NULL){
+        $issues = $this->getIssues($year, $month, $day);
+        return response()->json($issues);
+    }
+
+    
     function show($year, $month, $day){
         $id = $year . $month . $day;
 
@@ -60,10 +66,7 @@ class IssuesController extends Controller
         if(strlen($filter) && !strstr($id, $filter)){
           continue;
         }
-        $date  = $this->timestampForID($id);
-        $uri   = $this->teiForID($id, 'uri');
-        $path  = $this->teiForID($id, 'path');
-        $out[] = compact('date', 'uri', 'path');
+        $out[] = $id;
       }
       return $out;
     }
