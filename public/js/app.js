@@ -59,7 +59,7 @@ Vue.component('main-window',{
     },
     data() {
 	return {
-	    teiMode: true,
+	    teiMode: false,
 	    source:'',
 	    content: this.$root.state.meta.content,
 	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
@@ -81,14 +81,12 @@ Vue.component('main-window',{
 
 		  <div class="hrMain"></div>
                   <meta-menu></meta-menu>
-		  <div v-if="content == 'about' && this.$root.state.active == 'meta'">
+<div class="content" v-if="this.$root.state.active != 'issue'">
+	<div v-if="content == 'about'">
 		    {{ aboutText[0] }}
 		    <br><br>
 	            {{ aboutText[1] }}
 		  </div>
-				
-				<div class="authorsButton">Authors</div>
-				
 
 				<div v-if="content == 'tech'">
 					<li v-for="each in techText"  v-text="each"></li>
@@ -97,7 +95,7 @@ Vue.component('main-window',{
 				<div v-if="content == 'credit'">
 					<li v-for="each in creditText" v-text="each"></li>
 				</div>
-	 			
+	 	</div>		
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
 						<issue-toc v-if='this.$root.iframethis.length' class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
