@@ -141,14 +141,19 @@ Vue.component('issue-toc',{
 Vue.component('pdf-viewer',{
     created(){
 	Event.$on('nextPage', (page) => {
-	    this.current_page += this.current_page;
+	    this.current_page += 1;
+	    this.loadPdf(this.current_issue, this.current_page);
+	}),
+	Event.$on('issueSelected', (id) => {
+	    this.current_page = 1;
+	    this.current_issue = id;
 	    this.loadPdf(this.current_issue, this.current_page);
 	})
     },
     data() {
 	return {
 	    current_page: 1,
-	    current_issue: '18450201'
+	    current_issue: this.$root.state.issue.id
 	}
     },
     mounted(){
@@ -158,11 +163,12 @@ Vue.component('pdf-viewer',{
        <div id="pdf-viewer" class="pdf-div"><canvas id="pdf" class="pdf-canvas"></canvas></div>
 	`,
     methods: {
-	loadPdf: function(issue, page) { 
+	loadPdf: function(issue, page = 1) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
 
-	var url = '/storage/BroadwayJournal_'+issue+'.pdf';
+	    var url = '/storage/pdf/BroadwayJournal_'+issue+'.pdf';
+	    console.log(url);
 	//console.log('$pdf');
 
 	// var pdfData = atob($pdf);
@@ -185,7 +191,7 @@ Vue.component('pdf-viewer',{
 	    pdf.getPage(pageNumber).then(function(page) {
 		console.log('Page loaded');
 		
-		var scale = 1.75;
+		var scale = 1;
 		var viewport = page.getViewport(scale);
 
 		// Prepare canvas using PDF page dimensions
@@ -285,11 +291,12 @@ Vue.component('index-child',{
     methods: {
 	selectIssue: function(issueId){
 	    Event.$emit('activeModeChange', 'issue');
-	    Event.$emit('issueSelected', issueId);
+	    id = issueId.slice(-10).split('/').join('');
+	    Event.$emit('issueSelected', id);
 	}
     },
     template: `
-	<div v-if="meSeen" @click="selectIssue(this.href)" class="childIndex">
+	<div v-if="meSeen" @click="selectIssue(href)" class="childIndex">
 	  <div v-bind:href='href' class="childText" v-text="this.href.slice(-2)"></div>
 	</div>`
 });
@@ -468,6 +475,7 @@ new Vue({
 	}),
 	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to),
 	Event.$on('activeModeChange', (mode) => this.state.active = mode )
+	Event.$on('issueSelected', (id) => this.state.issue.id = id )
     },
     mounted() {			
 	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
