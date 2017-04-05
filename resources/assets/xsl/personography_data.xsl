@@ -42,51 +42,6 @@
                 <viaf>
                     <xsl:value-of select="persName/@ref"/>
                 </viaf>
-                <dob>
-                    <xsl:for-each select="birth/@when">
-                        <xsl:choose>
-                            <xsl:when test="starts-with(.,'-')">
-                                <xsl:value-of select="abs(number(.))"/><xsl:text> B.C.</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="string-length(.) eq 10">
-                                <xsl:value-of select="format-date(.,'[MNn] [D], [Y]')"/>
-                            </xsl:when>
-                            <xsl:when test="string-length(.) eq 7">
-                                <xsl:value-of select="format-date(xs:date(concat(.,'-01')),'[MNn] [Y]')"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="."/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:for-each>    
-                </dob>
-                <pob>
-                    <xsl:value-of select="birth/placeName"/>
-                </pob>
-                <dod>
-                    <xsl:for-each select="death/@when">
-                        <xsl:choose>
-                            <xsl:when test="starts-with(.,'-')">
-                                <xsl:value-of select="abs(number(.))"/><xsl:text> B.C.</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="string-length(.) eq 10">
-                                <xsl:value-of select="format-date(.,'[MNn] [D], [Y]')"/>
-                            </xsl:when>
-                            <xsl:when test="string-length(.) eq 7">
-                                <xsl:value-of select="format-date(xs:date(concat(.,'-01')),'[MNn] [Y]')"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="."/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:for-each>   
-                </dod>
-                <pod>
-                    <xsl:value-of select="death/placeName"/>
-                </pod>
-                <note>
-                    <xsl:value-of select="note"/>
-                </note>
         </xsl:element>
     </xsl:for-each>    
 </xsl:template>
