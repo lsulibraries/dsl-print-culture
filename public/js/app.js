@@ -1,3 +1,5 @@
+window.Event = new Vue();
+
 Vue.component('top-menu',{
 	data() {return {
 				topMenuActives: '',
@@ -50,13 +52,18 @@ Vue.component('control-bar',{
 					}
 	},
 	methods: {
-		setView: function() { this.$parent.$children[4].whichview = this.whichview; },
+	    setView: function() { this.$parent.$children[4].whichview = this.whichview; },
+	    teiActive: function() {
+		Event.$emit('teiActive');
+	    },
+	    pdfActive: function() {
+		Event.$emit('pdfActive');
+	    }
 	},
 	template: `
 				<div class='controlBar' @click='setView()'>
-					<control-button class="teiToggle">TEI</control-button>
-					<control-button class="pdfToggle">PDF</control-button>
-				</div>
+					<span class="teiToggle" @click="teiActive">TEI</span>
+					<span class="pdfToggle" @click="pdfActive">PDF</span>
 			`
 });
 
@@ -71,13 +78,26 @@ Vue.component('title-bar',{
 });
 
 Vue.component('main-window',{
+    created() {
+	Event.$on('teiActive', () => {
+		  this.showTeiViewer = true;
+		  this.showPdfViewer = false;
+		 });
+	Event.$on('pdfActive', () => {
+		  this.showTeiViewer = false;
+		  this.showPdfViewer = true;
+	});
+    },
 	data() {return {source:'',
 					topMenuActives: [true,false,false],
 					aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
 					creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 					techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
-					whichview: ''
-				}
+			whichview: '',
+			showTeiViewer: false,
+			showPdfViewer: true,
+		       }
+
 			},
 	props: {src:this.source},
 	template: `
@@ -110,13 +130,13 @@ Vue.component('main-window',{
 				</div>
 	 			
 	 			<div class="mainInner">
-					<div id="tei" v-if="whichview=='TEI'">				
+					<div id="tei" v-if="showTeiViewer">
 						<issue-toc v-if='this.$root.iframethis.length' class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
 						<tei-markup v-if='this.$root.iframethis.length' :src=this.$root.iframethis></tei-markup>
 						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
 
-					<pdf-viewer v-if="true"></pdf-viewer>
+					<pdf-viewer v-if="showPdfViewer"></pdf-viewer>
 
 				</div>
 			</div>
