@@ -52,10 +52,9 @@
                                         <num>
                                             <xsl:value-of select="count(current-group())"/>
                                         </num>
-                                        <link>
-                                            <xsl:text>broadwayjournal/issue/</xsl:text>
-                                            <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when), '-', '/')"/>
-                                        </link>
+                                        <idno>
+                                            <xsl:value-of select="//publicationStmt/idno"/>
+                                        </idno>
                                     </issue>
                                 </xsl:when>
                                 <xsl:otherwise/>
