@@ -78,6 +78,9 @@ Vue.component('title-bar',{
 });
 
 Vue.component('main-window',{
+    methods: {
+	notifyNextPage: () => (Event.$emit('nextPage', 2))
+    },
     created() {
 	Event.$on('teiActive', () => {
 		  this.showTeiViewer = true;
@@ -136,7 +139,8 @@ Vue.component('main-window',{
 						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
 
-					<pdf-viewer v-if="showPdfViewer"></pdf-viewer>
+	<pdf-viewer v-if="showPdfViewer"></pdf-viewer>
+	<button id="next-page" @click="notifyNextPage">Next Page</button>
 
 				</div>
 			</div>
@@ -171,18 +175,30 @@ Vue.component('issue-toc',{
 });
 
 Vue.component('pdf-viewer',{
+    created(){
+	Event.$on('nextPage', (page) => {
+	    this.current_page += this.current_page;
+	    this.loadPdf(this.current_issue, this.current_page);
+	})
+    },
+    data() {
+	return {
+	    current_page: 1,
+	    current_issue: '18450201'
+	}
+    },
     mounted(){
-	this.loadPdf();
+	this.loadPdf(this.current_issue, this.current_page);
     },
     template: `
        <div id="pdf-viewer"><canvas id="pdf"></canvas></div>
 	`,
     methods: {
-	loadPdf: function() { 
+	loadPdf: function(issue, page) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
 
-	var url = '/storage/BroadwayJournal_18450201.pdf';
+	var url = '/storage/BroadwayJournal_'+issue+'.pdf';
 	//console.log('$pdf');
 
 	// var pdfData = atob($pdf);
@@ -201,7 +217,7 @@ Vue.component('pdf-viewer',{
 	    console.log('PDF loaded');
 	    
 	    // Fetch the first page
-	    var pageNumber = 1;
+	    var pageNumber = page;
 	    pdf.getPage(pageNumber).then(function(page) {
 		console.log('Page loaded');
 		
@@ -456,7 +472,7 @@ window.Event = new Vue();
 
 new Vue({
 	el:'#container',
-	data: {	
+    data: {
 			journals:[],
 			iframethis: '',
 			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
