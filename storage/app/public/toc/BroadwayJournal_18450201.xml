@@ -14,9 +14,6 @@
          <type>section</type>
          <title>Reviews</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p1>
                <type>piece</type>
@@ -131,9 +128,6 @@
          <type>section</type>
          <title>Original Poetry</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p8>
                <type>piece</type>
@@ -170,9 +164,6 @@
          <type>section</type>
          <title>Varieties</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p10>
                <type>piece</type>
@@ -268,9 +259,6 @@
                <type>piece</type>
                <title>Mayor Harper has refused</title>
                <t_type>derived</t_type>
-               <author/>
-               <a_stat/>
-               <a_cert/>
                <page>77</page>
                <links>
                   <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
@@ -281,9 +269,6 @@
                <type>piece</type>
                <title>John P. Ridner, Esq.</title>
                <t_type>derived</t_type>
-               <author/>
-               <a_stat/>
-               <a_cert/>
                <page>77</page>
                <links>
                   <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
@@ -294,9 +279,6 @@
                <type>piece</type>
                <title>The Harpers</title>
                <t_type>derived</t_type>
-               <author/>
-               <a_stat/>
-               <a_cert/>
                <page>77</page>
                <links>
                   <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
@@ -307,9 +289,6 @@
                <type>piece</type>
                <title>Mr. Prescott is engaged upon a new work</title>
                <t_type>derived</t_type>
-               <author/>
-               <a_stat/>
-               <a_cert/>
                <page>77</page>
                <links>
                   <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
@@ -320,9 +299,6 @@
                <type>piece</type>
                <title>Simms's Monthly Magazine</title>
                <t_type>derived</t_type>
-               <author/>
-               <a_stat/>
-               <a_cert/>
                <page>77</page>
                <links>
                   <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
@@ -333,9 +309,6 @@
                <type>piece</type>
                <title>It is said that Bishops</title>
                <t_type>derived</t_type>
-               <author/>
-               <a_stat/>
-               <a_cert/>
                <page>77</page>
                <links>
                   <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
@@ -348,9 +321,6 @@
          <type>section</type>
          <title>Literary Notices</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p22>
                <type>piece</type>
@@ -561,9 +531,6 @@
          <type>section</type>
          <title>Advertisements</title>
          <t_type>supplied</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <start>79</start>
          <end>80</end>
          <pages>79-80</pages>
