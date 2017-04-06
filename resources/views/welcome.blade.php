@@ -10,6 +10,7 @@
             <div class="documentSection">
                 <div class="documentUnder"></div>
                 <div class="documentOverflow"></div>
+                <navigation></navigation>
                 <div class="mainColumn">
                     <view-mode-toggle></view-mode-toggle>
                     <main-window ></main-window>

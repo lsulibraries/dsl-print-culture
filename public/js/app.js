@@ -100,7 +100,6 @@ Vue.component('main-window',{
 	 	</div>		
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
-						<issue-toc v-if='this.$root.iframethis.length' class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
 						<tei-markup v-if='this.$root.iframethis.length' :src=this.$root.iframethis></tei-markup>
 						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
@@ -114,30 +113,37 @@ Vue.component('main-window',{
 			`
 });
 
-Vue.component('issue-toc',{
+
+Vue.component('navigation',{
 	data(){
-		return { tocContent:[], tocPath:'', tocActive:false, toggle:0 }
+		return { issueID:'', tocContent:[ 
+			{'title':'title1','author':'author1','page':'3','displayPage':'1-17'},
+			{'title':'title2','author':'author2','page':'1','displayPage':'3-42'}] //faked data
+	    }
 	},
-	props: {src:''},
-	methods: {
-		tocPathCalc: function(){
-			if(this.toggle==0){
-			this.tocPath= this.src + '/toc'; 
-			axios.get(this.tocPath).then(response => this.tocContent = response.data);
-			this.tocActive=true;
-			this.toggle=1;
-			}
-			else{
-			this.toggle=0;
-			this.tocActive=false;
-			}
-		}
-	 },
+	created() {
+		Event.$on('issueSelected', (id) => {
+			this.issueID = id;
+			url= '/api/broadwayjournal/' + this.issueID + '/toc';
+			//axios.get(url).then(response => this.tocContent = response.data);
+		})
+	},
+	template:`
+				<div v-if='this.$root.state.active=="issue"' class='navigationIssue'> 
+                    <div class='tocDropdown'>Table of Contents</div>          
+                    <toc-item v-for='item in tocContent' :item='item'></toc-item>
+                </div>
+			`
+})
+
+Vue.component('toc-item',{
+	 props:['item'],
 	 template:`
-	<div>
-	 	<button class="issueToc" @click='tocPathCalc()'>Toggle for TOC</button>
-	 	<div v-if='tocActive' v-for="heading in this.tocContent" v-text='heading'></div>
-	 </div>
+		<div class="tocItem">
+            <span class="tocTitle">{{item.title}}</span>
+            <span class="author">{{item.author}}</span>
+            <div class="pageNumber">{{item.displayPage}}</div>
+        </div>
 	 `
 });
 
