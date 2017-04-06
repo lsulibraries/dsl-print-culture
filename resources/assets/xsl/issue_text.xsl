@@ -33,7 +33,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="//div/p">
+    <xsl:template match="//p">
         <p>
            <xsl:apply-templates/> 
         </p>
@@ -45,12 +45,22 @@
         </div>
     </xsl:template>
     
+    <xsl:template match="//head">
+        <div class="head">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
     <xsl:template match="//persName">
-        <span class="person"><xsl:value-of select="."/></span>
+        <span class="person" id="{substring-after(@ref,'#')}"><xsl:value-of select="."/></span>
     </xsl:template>
     
     <xsl:template match="//lb">
         <br/>
+    </xsl:template>
+
+    <xsl:template match="pb">
+        <a href="#p{@n}"/>
     </xsl:template>
 
 </xsl:stylesheet>
