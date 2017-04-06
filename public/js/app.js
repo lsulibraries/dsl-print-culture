@@ -1,6 +1,5 @@
 window.Event = new Vue();
 
-
 Vue.component('meta-menu',{
     data() {
 	return {
@@ -98,7 +97,7 @@ Vue.component('main-window',{
 				<div v-if="content == 'credit'">
 					<li v-for="each in creditText" v-text="each"></li>
 				</div>
-	 	</div>		
+	 	</div>
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
 						<tei-markup></tei-markup>
@@ -240,7 +239,7 @@ Vue.component('pdf-viewer',{
 	    var pageNumber = page;
 	    pdf.getPage(pageNumber).then(function(page) {
 		console.log('Page loaded');
-		
+
 		var scale = 1;
 		var viewport = page.getViewport(scale);
 
@@ -308,7 +307,7 @@ Vue.component('issue-month',{
 	},
 	props: {month: '',	list: '', currentIssue: '' },
 	 mounted(){
-	 	Event.$on('issue-preselected',(data) => { 
+	 	Event.$on('issue-preselected',(data) => {
 
 	 			if(this.monthConvert[this.month] == data.slice(6,-6) && this.list.slice(-2)== data.slice(12)){
 	 				this.showChildren()
@@ -316,7 +315,7 @@ Vue.component('issue-month',{
 
 	 		});
 	 },
-	methods: { 
+	methods: {
 	    showChildren: function(){
 			if(this.toggled==false){
 			//turn on this.$children
@@ -461,8 +460,6 @@ Vue.component('author-modal',{
 					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
 					<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
 					<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
-					
-
 				</div>
 			`
 })
@@ -549,8 +546,7 @@ new Vue({
     	    newPage = which == 'next' ? this.state.issue.page += 1 : this.state.issue.page -= 1;
 	})
     },
-    mounted() {			
+    mounted() {
 	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
     }
 });
-
