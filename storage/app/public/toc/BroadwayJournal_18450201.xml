@@ -25,10 +25,7 @@
                <start>65</start>
                <end>67</end>
                <pages>65-67</pages>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/1</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/65</as_printed>
-               </links>
+               <pdf_index>1</pdf_index>
             </p1>
             <p2>
                <type>piece</type>
@@ -40,10 +37,7 @@
                <start>67</start>
                <end>68</end>
                <pages>67-68</pages>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/3</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/67</as_printed>
-               </links>
+               <pdf_index>3</pdf_index>
             </p2>
             <p3>
                <type>piece</type>
@@ -55,10 +49,7 @@
                <start>68</start>
                <end>69</end>
                <pages>68-69</pages>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/4</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/68</as_printed>
-               </links>
+               <pdf_index>4</pdf_index>
             </p3>
          </pieces>
       </s1>
@@ -72,11 +63,7 @@
          <start>69</start>
          <end>71</end>
          <pages>69-71</pages>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/5</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/69</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>5</pdf_index>
       </p4>
       <p5>
          <type>piece</type>
@@ -88,11 +75,7 @@
          <start>69</start>
          <end>71</end>
          <pages>69-71</pages>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/5</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/69</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>5</pdf_index>
       </p5>
       <p6>
          <type>piece</type>
@@ -102,11 +85,7 @@
          <a_stat>supplied</a_stat>
          <a_cert>medium</a_cert>
          <page>72</page>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/8</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/72</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>8</pdf_index>
       </p6>
       <p7>
          <type>piece</type>
@@ -118,11 +97,7 @@
          <start>72</start>
          <end>73</end>
          <pages>72-73</pages>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/8</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/72</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>8</pdf_index>
       </p7>
       <s2>
          <type>section</type>
@@ -137,10 +112,7 @@
                <a_stat>attested</a_stat>
                <a_cert>high</a_cert>
                <page>73</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/9</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/73</as_printed>
-               </links>
+               <pdf_index>9</pdf_index>
             </p8>
          </pieces>
       </s2>
@@ -154,11 +126,7 @@
          <start>73</start>
          <end>74</end>
          <pages>73-74</pages>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/9</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/73</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>9</pdf_index>
       </p9>
       <s3>
          <type>section</type>
@@ -173,10 +141,7 @@
                <a_stat>attested</a_stat>
                <a_cert>high</a_cert>
                <page>75</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/11</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/75</as_printed>
-               </links>
+               <pdf_index>11</pdf_index>
             </p10>
             <p11>
                <type>piece</type>
@@ -188,10 +153,7 @@
                <start>75</start>
                <end>76</end>
                <pages>75-76</pages>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/11</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/75</as_printed>
-               </links>
+               <pdf_index>11</pdf_index>
             </p11>
             <p12>
                <type>piece</type>
@@ -201,10 +163,7 @@
                <a_stat>supplied</a_stat>
                <a_cert>medium</a_cert>
                <page>76</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/12</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/76</as_printed>
-               </links>
+               <pdf_index>12</pdf_index>
             </p12>
             <p13>
                <type>piece</type>
@@ -214,10 +173,7 @@
                <a_stat>supplied</a_stat>
                <a_cert>medium</a_cert>
                <page>76</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/12</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/76</as_printed>
-               </links>
+               <pdf_index>12</pdf_index>
             </p13>
             <p14>
                <type>piece</type>
@@ -227,10 +183,7 @@
                <a_stat>supplied</a_stat>
                <a_cert>medium</a_cert>
                <page>76</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/12</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/76</as_printed>
-               </links>
+               <pdf_index>12</pdf_index>
             </p14>
             <p15>
                <type>piece</type>
@@ -240,10 +193,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p15>
          </pieces>
       </s3>
@@ -260,60 +210,42 @@
                <title>Mayor Harper has refused</title>
                <t_type>derived</t_type>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p16>
             <p17>
                <type>piece</type>
                <title>John P. Ridner, Esq.</title>
                <t_type>derived</t_type>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p17>
             <p18>
                <type>piece</type>
                <title>The Harpers</title>
                <t_type>derived</t_type>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p18>
             <p19>
                <type>piece</type>
                <title>Mr. Prescott is engaged upon a new work</title>
                <t_type>derived</t_type>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p19>
             <p20>
                <type>piece</type>
                <title>Simms's Monthly Magazine</title>
                <t_type>derived</t_type>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p20>
             <p21>
                <type>piece</type>
                <title>It is said that Bishops</title>
                <t_type>derived</t_type>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p21>
          </pieces>
       </s4>
@@ -330,10 +262,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p22>
             <p23>
                <type>piece</type>
@@ -343,10 +272,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p23>
             <p24>
                <type>piece</type>
@@ -356,10 +282,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p24>
             <p25>
                <type>piece</type>
@@ -369,10 +292,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>77</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p25>
             <p26>
                <type>piece</type>
@@ -384,10 +304,7 @@
                <start>77</start>
                <end>78</end>
                <pages>77-78</pages>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/13</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/77</as_printed>
-               </links>
+               <pdf_index>13</pdf_index>
             </p26>
             <p27>
                <type>piece</type>
@@ -397,10 +314,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>78</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/14</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/78</as_printed>
-               </links>
+               <pdf_index>14</pdf_index>
             </p27>
             <p28>
                <type>piece</type>
@@ -410,10 +324,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>78</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/14</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/78</as_printed>
-               </links>
+               <pdf_index>14</pdf_index>
             </p28>
             <p29>
                <type>piece</type>
@@ -423,10 +334,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>78</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/14</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/78</as_printed>
-               </links>
+               <pdf_index>14</pdf_index>
             </p29>
             <p30>
                <type>piece</type>
@@ -436,10 +344,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>78</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/14</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/78</as_printed>
-               </links>
+               <pdf_index>14</pdf_index>
             </p30>
             <p31>
                <type>piece</type>
@@ -449,10 +354,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>78</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/14</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/78</as_printed>
-               </links>
+               <pdf_index>14</pdf_index>
             </p31>
             <p32>
                <type>piece</type>
@@ -462,10 +364,7 @@
                <a_stat>unknown</a_stat>
                <a_cert/>
                <page>78</page>
-               <links>
-                  <pdf_index>broadwayjournal/issue/1845/02/01/page/14</pdf_index>
-                  <as_printed>broadwayjournal/issue/1845/02/01/page/78</as_printed>
-               </links>
+               <pdf_index>14</pdf_index>
             </p32>
          </pieces>
       </s5>
@@ -479,11 +378,7 @@
          <start>78</start>
          <end>79</end>
          <pages>78-79</pages>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/14</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/78</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>14</pdf_index>
       </p33>
       <p34>
          <type>piece</type>
@@ -493,11 +388,7 @@
          <a_stat>attested</a_stat>
          <a_cert>high</a_cert>
          <page>79</page>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/15</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/79</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>15</pdf_index>
       </p34>
       <p35>
          <type>piece</type>
@@ -507,11 +398,7 @@
          <a_stat>attested</a_stat>
          <a_cert>high</a_cert>
          <page>79</page>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/15</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/79</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>15</pdf_index>
       </p35>
       <p36>
          <type>piece</type>
@@ -521,11 +408,7 @@
          <a_stat>unknown</a_stat>
          <a_cert/>
          <page>79</page>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/15</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/79</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>15</pdf_index>
       </p36>
       <s6>
          <type>section</type>
@@ -534,11 +417,7 @@
          <start>79</start>
          <end>80</end>
          <pages>79-80</pages>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/15</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/79</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>15</pdf_index>
       </s6>
       <p37>
          <type>piece</type>
@@ -548,11 +427,7 @@
          <a_stat>attested</a_stat>
          <a_cert>high</a_cert>
          <page>80</page>
-         <links>
-            <pdf_index>broadwayjournal/issue/1845/02/01/page/16</pdf_index>
-            <as_printed>broadwayjournal/issue/1845/02/01/page/80</as_printed>
-         </links>
-         <pieces/>
+         <pdf_index>16</pdf_index>
       </p37>
    </toc>
 </div>
