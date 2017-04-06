@@ -16,9 +16,6 @@
          <type>section</type>
          <title>Reviews</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p1>
                <type>piece</type>
@@ -136,9 +133,6 @@
          <type>section</type>
          <title>Original Poetry</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p8>
                <type>piece</type>
@@ -161,9 +155,6 @@
          <type>section</type>
          <title>Literary Notices</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p9>
                <type>piece</type>
@@ -277,9 +268,6 @@
          <type>section</type>
          <title>The Fine Arts</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p17>
                <type>piece</type>
@@ -355,9 +343,6 @@
          <type>section</type>
          <title>Musical Review</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p22>
                <type>piece</type>
@@ -420,9 +405,6 @@
          <type>section</type>
          <title>Correspondence</title>
          <t_type>attested</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <pieces>
             <p26>
                <type>piece</type>
@@ -472,9 +454,6 @@
          <type>section</type>
          <title>Advertisements</title>
          <t_type>supplied</t_type>
-         <author/>
-         <a_stat/>
-         <a_cert/>
          <start>159</start>
          <end>160</end>
          <pages>159-160</pages>
