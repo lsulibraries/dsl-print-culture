@@ -51,38 +51,13 @@
                     <start><xsl:value-of select="biblScope/@from"/></start>
                     <end><xsl:value-of select="biblScope/@to"/></end>
                     <pages><xsl:value-of select="biblScope/@from"/><xsl:text>-</xsl:text><xsl:value-of select="biblScope/@to"/></pages>
-                    <links>
-                        <pdf_index>
-                            <xsl:text>broadwayjournal/issue/</xsl:text>
-                            <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                            <xsl:text>/page/</xsl:text>
-                            <xsl:value-of select="xs:integer(biblScope/@from)-$page1"/>
-                        </pdf_index>
-                        <as_printed>
-                            <xsl:text>broadwayjournal/issue/</xsl:text>
-                            <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                            <xsl:text>/page/</xsl:text>
-                            <xsl:value-of select="xs:integer(biblScope/@from)"/>
-                        </as_printed>
-                    </links>
+                    <pdf_index><xsl:value-of select="xs:integer(biblScope/@from)-$page1"/></pdf_index>
                 </xsl:if>
                 <xsl:if test="biblScope/@n">
                     <page><xsl:value-of select="biblScope/@n"/></page>
-                    <links>
-                        <pdf_index>
-                            <xsl:text>broadwayjournal/issue/</xsl:text>
-                            <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                            <xsl:text>/page/</xsl:text>
-                            <xsl:value-of select="xs:integer(biblScope/@n)-$page1"/>
-                        </pdf_index>
-                        <as_printed>
-                            <xsl:text>broadwayjournal/issue/</xsl:text>
-                            <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                            <xsl:text>/page/</xsl:text>
-                            <xsl:value-of select="xs:integer(biblScope/@n)"/>
-                        </as_printed>
-                    </links>
+                    <pdf_index><xsl:value-of select="xs:integer(biblScope/@n)-$page1"/></pdf_index>
                 </xsl:if>
+                <xsl:if test="bibl">
                 <pieces>
                 <xsl:for-each select="bibl">
                     <xsl:element name="{@xml:id}">
@@ -98,41 +73,16 @@
                             <start><xsl:value-of select="biblScope/@from"/></start>
                             <end><xsl:value-of select="biblScope/@to"/></end>
                             <pages><xsl:value-of select="biblScope/@from"/><xsl:text>-</xsl:text><xsl:value-of select="biblScope/@to"/></pages>
-                            <links>
-                                <pdf_index>
-                                    <xsl:text>broadwayjournal/issue/</xsl:text>
-                                    <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                                    <xsl:text>/page/</xsl:text>
-                                    <xsl:value-of select="xs:integer(biblScope/@from)-$page1"/>
-                                </pdf_index>
-                                <as_printed>
-                                    <xsl:text>broadwayjournal/issue/</xsl:text>
-                                    <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                                    <xsl:text>/page/</xsl:text>
-                                    <xsl:value-of select="xs:integer(biblScope/@from)"/>
-                                </as_printed>
-                            </links>
+                            <pdf_index><xsl:value-of select="xs:integer(biblScope/@from)-$page1"/></pdf_index>
                         </xsl:if>
                         <xsl:if test="biblScope/@n">
                             <page><xsl:value-of select="biblScope/@n"/></page>
-                            <links>
-                                <pdf_index>
-                                    <xsl:text>broadwayjournal/issue/</xsl:text>
-                                    <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                                    <xsl:text>/page/</xsl:text>
-                                    <xsl:value-of select="xs:integer(biblScope/@n)-$page1"/>
-                                </pdf_index>
-                                <as_printed>
-                                    <xsl:text>broadwayjournal/issue/</xsl:text>
-                                    <xsl:value-of select="translate(string(//sourceDesc/bibl/date/@when),'-','/')"/>
-                                    <xsl:text>/page/</xsl:text>
-                                    <xsl:value-of select="xs:integer(biblScope/@n)"/>
-                                </as_printed>
-                            </links>
+                            <pdf_index><xsl:value-of select="xs:integer(biblScope/@n)-$page1"/></pdf_index>
                         </xsl:if>
                     </xsl:element>
                 </xsl:for-each>
                 </pieces>
+                </xsl:if>
             </xsl:element>
         </xsl:for-each>
     </xsl:template>        
