@@ -35,8 +35,7 @@ class IssuesController extends Controller
 	return response()->file(storage_path($url));
     }
 
-    function toc($year, $month, $day){
-        $id  = $year . $month . $day;
+    function toc($id){
         $xml = new \SimpleXMLElement(
             Storage::get($this->getFilePathForID($id))
         );
