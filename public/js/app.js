@@ -1,5 +1,6 @@
 window.Event = new Vue();
 
+
 Vue.component('meta-menu',{
     data() {
 	return {
@@ -26,7 +27,7 @@ Vue.component('view-mode-toggle',{
     methods: {
 	issueViewToggled: (to) => {
 	    Event.$emit('view-mode-toggled', to);
-	},
+		}
     },
     template: `
 	<div class='controlBar' v-if="this.$root.state.active == 'issue'">
@@ -65,8 +66,8 @@ Vue.component('main-window',{
 	    source:'',
 	    content: this.$root.state.meta.content,
 	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-			creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
-					techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
+		creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
+		techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
 		       }
 
 			},
@@ -450,7 +451,6 @@ Vue.component('footer-bar',{
 	template: `<div>
 					<div class="issueFooter"></div>
 					<div class="footerBar">
-					<img src="images/cc_logo.png" class="ccLogo"></img> 
 					<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
 				</div>`
 });
