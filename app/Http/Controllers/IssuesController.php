@@ -32,19 +32,13 @@ class IssuesController extends Controller
 
 	$url = 'app/public/broadway-tei/tei/' . $this->getFilenameForID($id);
 	$xml = Storage::get($this->getFilePathForID($id));
+    
 	return response()->file(storage_path($url));
     }
 
     function toc($id){
-        $xml = new \SimpleXMLElement(
-            Storage::get($this->getFilePathForID($id))
-        );
-        $toc = [];
-//        foreach($xml->xpath("//bibl[@type='section']") as $section){
-        foreach($xml->teiHeader->fileDesc->sourceDesc->listBibl->bibl as $bibl){
-            $toc[] = (string)$bibl->title;
-        }
-        return response()->json($toc);
+        $xml = simplexml_load_string(Storage::get('public/toc/' . $this->getFilenameForID($id)));
+        return response()->json($xml);// response()->json($toc);
     }
     
     private function getFilenameForID($id){
