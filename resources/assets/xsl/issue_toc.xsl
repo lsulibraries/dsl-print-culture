@@ -42,9 +42,11 @@
                 <type><xsl:value-of select="@type"/></type>
                 <title><xsl:value-of select="title"/></title>
                 <t_type><xsl:value-of select="title/@type"/></t_type>
-                <author><xsl:value-of select="substring-after(author/@ref,'#')"/></author>
-                <a_stat><xsl:value-of select="author/@status"/></a_stat>
-                <a_cert><xsl:value-of select="author/@cert"/></a_cert>
+                <xsl:if test="author">
+                    <author><xsl:value-of select="substring-after(author/@ref,'#')"/></author>
+                    <a_stat><xsl:value-of select="author/@status"/></a_stat>
+                    <a_cert><xsl:value-of select="author/@cert"/></a_cert>
+                </xsl:if>
                 <xsl:if test="biblScope/@from">
                     <start><xsl:value-of select="biblScope/@from"/></start>
                     <end><xsl:value-of select="biblScope/@to"/></end>
@@ -87,10 +89,12 @@
                         <type><xsl:value-of select="@type"/></type>
                         <title><xsl:value-of select="title"/></title>
                         <t_type><xsl:value-of select="title/@type"/></t_type>
-                        <author><xsl:value-of select="substring-after(author/@ref,'#')"/></author>
-                        <a_stat><xsl:value-of select="author/@status"/></a_stat>
-                        <a_cert><xsl:value-of select="author/@cert"/></a_cert>
-                        <xsl:if test="biblScope/@from">
+                        <xsl:if test="author">
+                              <author><xsl:value-of select="substring-after(author/@ref,'#')"/></author>
+                              <a_stat><xsl:value-of select="author/@status"/></a_stat>
+                              <a_cert><xsl:value-of select="author/@cert"/></a_cert>
+                        </xsl:if>
+                            <xsl:if test="biblScope/@from">
                             <start><xsl:value-of select="biblScope/@from"/></start>
                             <end><xsl:value-of select="biblScope/@to"/></end>
                             <pages><xsl:value-of select="biblScope/@from"/><xsl:text>-</xsl:text><xsl:value-of select="biblScope/@to"/></pages>
