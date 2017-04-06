@@ -22,6 +22,8 @@ Route::get('/broadwayjournal/issue/{year}/{month}/{day}', 'IssuesController@show
 
 Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
 
+Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText');
+
 Route::get('/broadwayjournal/', function () {
  	return "<html><head/><body><script type='text/javascript'>
 	       

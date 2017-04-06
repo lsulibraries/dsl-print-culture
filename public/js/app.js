@@ -101,7 +101,7 @@ Vue.component('main-window',{
 	 	</div>		
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
-						<tei-markup v-if='this.$root.iframethis.length' :src=this.$root.iframethis></tei-markup>
+						<tei-markup></tei-markup>
 						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
 	<button class="next-page" @click="changePage('prev')">Prev Page</button>
@@ -213,9 +213,10 @@ Vue.component('pdf-viewer',{
 	loadPdf: function(issue, page = 1) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
-
-	    var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
-	    console.log(url);
+	    if(this.$root.state.active == 'tei'){
+		return
+	    }
+	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
 	//console.log('$pdf');
 
 	// var pdfData = atob($pdf);
@@ -268,14 +269,34 @@ Vue.component('pdf-viewer',{
 })
 
 Vue.component('tei-markup',{
+    created(){
+	Event.$on('view-mode-toggled', (to) => {
+	    if(to == 'tei'){
+		this.current_issue = this.$root.state.issue.id;
+		this.getTei(this.current_issue);
+	    }
+	}),
+	Event.$on('issueSelected', (id) => {
+	    this.current_issue = id;
+	    this.getTei(this.current_issue);
+	})
+    },
+    methods: {
+	getTei: function(id){
+	    url = '/api/broadwayjournal/'+ id + '/issue-text';
+	    axios.get(url).then(response => this.issueText = response.data);
+	}
+    },
 	data(){
-		return{
-			page:'',
-			markdown:[]
-		}
+	    return{
+		id: '',
+		page:'',
+		markdown:[],
+		issueText: ''
+	    }
 	},
 	props: {src:''},
-	template: `<div class='teiMarkup'>pageNum:{{page}}<div>`
+        template: `<div class='teiMarkup' v-html="this.issueText"><div>`
 })
 
 Vue.component('issue-month',{
