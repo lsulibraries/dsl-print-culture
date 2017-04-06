@@ -117,36 +117,58 @@ Vue.component('main-window',{
 
 Vue.component('navigation',{
 	data(){
-		return { issueID:'', tocContent:[ 
-			{'title':'title1','author':'author1','page':'3','displayPage':'1-17'},
-			{'title':'title2','author':'author2','page':'1','displayPage':'3-42'}] //faked data
+		return { issueID:'', tocContent:[]
 	    }
 	},
 	created() {
 		Event.$on('issueSelected', (id) => {
 			this.issueID = id;
 			url= '/api/broadwayjournal/' + this.issueID + '/toc';
-			//axios.get(url).then(response => this.tocContent = response.data);
+			axios.get(url).then(response => this.tocContent = response.data);
 		})
 	},
 	template:`
-				<div v-if='this.$root.state.active=="issue"' class='navigationIssue'> 
-                    <div class='tocDropdown'>Table of Contents</div>          
-                    <toc-item v-for='item in tocContent' :item='item'></toc-item>
+		<div v-if='this.$root.state.active=="issue"' class='navigationIssue'>
+                    <div class='tocDropdown'>Table of Contents</div>
+                    <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
                 </div>
 			`
 })
 
 Vue.component('toc-item',{
-	 props:['item'],
+	 props:['id'],
+	 methods:{
+		tocItemSelected: function() {
+			Event.$emit("tocClick",this.id.pdf_index)
+		}
+	},
 	 template:`
-		<div class="tocItem">
-            <span class="tocTitle">{{item.title}}</span>
-            <span class="author">{{item.author}}</span>
-            <div class="pageNumber">{{item.displayPage}}</div>
+	<div class="tocItem" v-bind:class='id.type' @click='tocItemSelected'>
+            <div class="tocTitle">{{id.title}}</div>
+            <div v-if='Object.keys(id.author).length !==0' class="author">{{id.author}}</div>
+            <div v-if='id.start' class="pageNumber"></div>
+	    <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
         </div>
 	 `
 });
+
+
+Vue.component('child-piece',{
+	props:['id','pieceIndex'],
+	 methods:{
+		tocItemSelected: function() {
+			Event.$emit("tocClick",this.id.pdf_index)
+		}
+	},
+	template:`
+		<div class="childPiece" @click='tocItemSelected'>
+			<div class="childPieceTitle">{{id.title}}</div>
+            		<div v-if='Object.keys(id.author).length !== 0' class="childPieceAuthor">{{id.author}}</div>
+		<div>
+	`
+
+})
+
 
 Vue.component('pdf-viewer',{
     created(){
