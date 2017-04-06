@@ -54,4 +54,4 @@ Route::get('/api/personography/summary', 'PersonographyController@summary');
 
 Route::get('/issue-{month}-{day}-{year}', 'IssuesController@mainWindow');
 
-Route::get('/author-{authorID}', 'PersonographyController@authorNav');
+Route::get('/author-{authID}', 'PersonographyController@authorNav');

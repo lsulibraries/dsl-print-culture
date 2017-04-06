@@ -369,10 +369,10 @@ Vue.component('author-section',{
 				<div class="authorSection">
 					<div class="authorIntro"></div>
 					<div class="authorHeader">
-                        <div class="inBorder"></div>
-                        <div class="inText"><span class="swash">A</span>uthors</div>
-                        <div class="inBorder"></div>
-                    </div>
+		                	        <div class="inBorder"></div>
+                		        	<div class="inText"><span class="swash">A</span>uthors</div>
+		                        	<div class="inBorder"></div>
+                	        	</div>
 					<div class="authorLedgend"></div>
 					<div class="authorDirectory">
 						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
