@@ -139,14 +139,16 @@ Vue.component('toc-item',{
 	 props:['id'],
 	 methods:{
 		tocItemSelected: function() {
-			Event.$emit("tocClick",this.id.pdf_index)
+		Event.$emit("pageChange",this.id.pdf_index)
 		}
 	},
 	 template:`
-	<div class="tocItem" v-bind:class='id.type' @click='tocItemSelected'>
-            <div class="tocTitle">{{id.title}}</div>
-            <div v-if='Object.keys(id.author).length !==0' class="author">{{id.author}}</div>
-            <div v-if='id.start' class="pageNumber"></div>
+	<div class="tocItem" v-bind:class='id.type'>
+	    <div @click='tocItemSelected'>
+            	<div class="tocTitle">{{id.title}}</div>
+            	<div v-if='id.author' class="author">{{id.author}}</div>
+            	<div v-if='id.start' class="pageNumber"></div>
+	    </div>
 	    <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
         </div>
 	 `
@@ -157,13 +159,13 @@ Vue.component('child-piece',{
 	props:['id','pieceIndex'],
 	 methods:{
 		tocItemSelected: function() {
-			Event.$emit("tocClick",this.id.pdf_index)
+			Event.$emit("pageChange",this.id.pdf_index)
 		}
 	},
 	template:`
 		<div class="childPiece" @click='tocItemSelected'>
 			<div class="childPieceTitle">{{id.title}}</div>
-            		<div v-if='Object.keys(id.author).length !== 0' class="childPieceAuthor">{{id.author}}</div>
+            		<div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
 		<div>
 	`
 
@@ -182,12 +184,17 @@ Vue.component('pdf-viewer',{
 	    this.loadPdf(this.current_issue, this.current_page);
 	}),
 	Event.$on('pageChange', (which) => {
-    	    newPage = which == 'next' ? this.current_page += 1 : this.current_page -= 1;
-	    if(this.current_page > 0){
-		this.loadPdf(this.current_issue, newPage);
+    	    intPage= parseInt(which)
+	    if(intPage==NaN){
+	    	newPage = which == 'next' ? this.current_page += 1 : this.current_page -= 1;
+	    	if(this.current_page > 0){
+			this.loadPdf(this.current_issue, newPage);
+		}
 	    }
-	    
-
+	   else {
+	   	this.current_page = intPage;
+	   	this.loadPdf(this.current_issue, intPage);
+	   }
 	})
     },
     data() {
@@ -513,8 +520,8 @@ new Vue({
     created() {
 	Event.$on('content', (name) => {
 	    this.state['meta']['content'] = name;
-	}),
-	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to),
+	})
+	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to)
 	Event.$on('activeModeChange', (mode) => this.state.active = mode )
 	Event.$on('issueSelected', (id) => this.state.issue.id = id )
 	Event.$on('pageChange', (which) => {
