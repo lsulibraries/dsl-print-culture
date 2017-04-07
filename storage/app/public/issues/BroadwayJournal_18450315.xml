@@ -14,17 +14,24 @@
    <div class="body">
       
        <div> 
-          Truth, whether in or out of fashion, is the measure of knowledge and the busi-
+         <div class="cit">
+            <span class="quote">Truth, whether in or out of fashion, is the measure of knowledge and the busi-
             <br/>ness of the understanding; whatsoever is beside that, however authorised
             by con-
             <br/>sent or recommended by variety, is nothing but ignorance, or something
-            worse.
-          <span class="person" id="">Locke</span>
+            worse.</span>
+            <div class="bibl">
+               <span class="person">Locke</span>
+            </div>
         </div>
-        <div id="#s1" class="section">
+      </div>
+        <div class="section" id="#s1">
           <div class="head">Reviews.</div>
-          <div id="#p1" class="piece">
-            <div class="head">SATIRICAL POEMS.</div>
+          <div class="piece" id="#p1">
+            <div class="head">SATIRICAL POEMS.<span class="anchor" id="a001">
+                  <a href="n001"/>
+               </span>
+            </div>
             <p>In prose satire done at random in our newspapers and other
               <br/>journals, we have been by no means, as a people, deficient,
               <br/>but in verse we are scarcely so much satirists as subjects
@@ -71,7 +78,8 @@
               <br/>at all. This namby-pambyism, on the other hand, has arisen
               <br/>from the national sin of imitation—a sin perpetrated by all
               <br/>colonies upon the mother countries from which they spring.</p>
-            
+            <br/>
+            <div class="columnbreak"/>
             <p>We content ourselves with doing what not only has been
               <br/>done before, but what (however well done) has been done ad
               <br/>nauseam. We should not be able to endure infinite repetitions
@@ -100,28 +108,28 @@
             <p>We quote a few lines which embody not only some unu-
               <br/>sual pungencies of thought and expression, but some novel
               <br/>and very forcible rhythmical effects:</p>
-            
-              “Now o’er the world Infatuation sheds
-              The Polka’s poppies into vacant heads.
-              Asleep the Polka seems a tangled maze,
-              Awake the Polka prompts a hundred lays:
-              Polka the halls, the balls, the calls resound,
-              And Polka skims, Camilla-like, the ground.
-              Where roves in groves the nonsense-doating nymph,
-              And dreams by streams as smooth and clear as lymph,
-              Some leaf as brief as woman’s love flits by,
-              And brings dear Polka to her pensive eye.
-              So in swift circles, backward, forward, wheeled,
-              The Polka’s graces were at first revealed;
-              Perchance some posture-master, happy man,
-              From Nature drew the Polka's pretty plan.
-              Oh, wondrous figure, exquisitely stepp’d,
-              In thee who would not, should not be adept?
-              Oh Polka, Polka, wherefore art thou so?
-              I’ve asked ten dandies, and the ‘ ten do’nt know!’”
-            
+            <div class="lg">
+              <br/>“Now o’er the world Infatuation sheds
+              <br/>The Polka’s poppies into vacant heads.
+              <br/>Asleep the Polka seems a tangled maze,
+              <br/>Awake the Polka prompts a hundred lays:
+              <br/>Polka the halls, the balls, the calls resound,
+              <br/>And Polka skims, Camilla-like, the ground.
+              <br/>Where roves in groves the nonsense-doating nymph,
+              <br/>And dreams by streams as smooth and clear as lymph,
+              <br/>Some leaf as brief as woman’s love flits by,
+              <br/>And brings dear Polka to her pensive eye.
+              <br/>So in swift circles, backward, forward, wheeled,
+              <br/>The Polka’s graces were at first revealed;
+              <br/>Perchance some posture-master, happy man,
+              <br/>From Nature drew the Polka's pretty plan.
+              <br/>Oh, wondrous figure, exquisitely stepp’d,
+              <br/>In thee who would not, should not be adept?
+              <br/>Oh Polka, Polka, wherefore art thou so?
+              <br/>I’ve asked ten dandies, and the ‘ ten do’nt know!’”
+            </div>
           </div>
-          <div id="#p2" class="piece">
+          <div class="piece" id="#p2">
             <p>A CONTINUATION OF THE VOLUMINOUS HISTORY OF THE LlTTLE LONG-
               <br/>fellow War—Mr. Poe’s farther reply to the letter of OUTIS.</p>
             <p>"I shall not accuse Mr. Poe of plagiarism,” says Outis,
@@ -135,8 +143,10 @@
               <br/>defence of a friend from the charge of plagiarism, on the
               <br/>broad ground that no such thing as plagiarism ever existed.
               <br/>I confess that to an assertion of this nature there is no little
-              <a href="#p162"/>
-              difficulty in getting up a reply. What in the world can a
+              <br/>
+               <div class="pagebreak" id="#page162"/>
+              <br/>
+               <div class="columnbreak"/>difficulty in getting up a reply. What in the world can a
               <br/>man say in a case of this kind?—he cannot of course give ut-
               <br/>terance to the first epithets that spring to his lips—and yet
               <br/>what else shall he utter that shall not have an air of direct
@@ -202,7 +212,8 @@
               <br/>after the purloiners of his property—and too poor, and too
               <br/>cowed, and for these reasons too contemptible, under any
               <br/>circumstances, to dare accuse of so base a thing as theft, the
-              wealthy and triumphant gentleman of elegant leisure who
+              <br/>
+               <div class="columnbreak"/>wealthy and triumphant gentleman of elegant leisure who
               <br/>has only done the vagabond too much honor in knocking him
               <br/>down and robbing him upon the highway.</p>
             <p>The plagiarist, then, in either case, has very reasonable
@@ -268,8 +279,10 @@
               <br/>that once in the course of eternity some two individuals
               <br/>might not happen upon a single identity of thought, and give
               <br/>it voice in a single identity of expression.</p>
-            <a href="#p163"/>
-            
+            <br/>
+            <div class="pagebreak" id="#page163"/>
+            <br/>
+            <div class="columnbreak"/>
             <p>Now, frankly, I admit the possibility in question, and
               <br/>would request my friends to get ready for me a strait-jacket
               <br/>if I did not. There can be no doubt in the world, for exam-
@@ -343,7 +356,8 @@
               <br/>Italics on account of the exceeding beauty of the imagery,"
               <br/>then every printer’s devil in the land should have been flog-
               <br/>ged for not taking it out of Italics upon the spot, and putting
-              it in the plainest Roman—which is too good for it by one half.</p>
+              <br/>
+               <div class="columnbreak"/>it in the plainest Roman—which is too good for it by one half.</p>
             <p>I put no faith in the nil admirari, and am apt to be ama-
               <br/>zed at every second thing which I see. One of the most
               <br/>amazing things I have yet seen, is the complacency with
@@ -399,7 +413,7 @@
               <br/>done.</p>
           </div>
         </div>
-        <div id="#p3" class="piece">
+        <div class="piece" id="#p3">
           <div class="head">THOUGHTS OF A SILENT MAN.
             <br/>No. 2.</div>
           <p>"La nature n'est pour l'homme que les feuilles éparses de la Sybille, dont
@@ -410,8 +424,10 @@
             <br/>contempt for the claims of ordinary humanity, and lost itself
             <br/>in the pure vacuum of abstract truth; while the restless and
             <br/>fanciful thinkers of the age, unable to imp their wings to so
-            <a href="#p164"/>
-            
+            <br/>
+            <div class="pagebreak" id="#page164"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>bold a flight, reached only to the cloudy regions of mysticism,
             <br/>and like the traveller on the Hartz mountains, beheld their
             <br/>own shadows magnified into giants by the fog.</p>
@@ -478,7 +494,8 @@
           <p>In his theory of the geological and vegetable transforma-
             <br/>tion, many discoveries in science seem to bear him out; and
             <br/>although facts might be adduced which would at least throw
-            
+            <br/>
+            <div class="columnbreak"/>
             <br/>some doubts upon it, yet his picture of creation at the period
             <br/>of “carboniferous formation,” is so sublime that we would
             <br/>fain believe it as true as it is grand. Its suggestiveness is
@@ -520,30 +537,31 @@
             <br/>is poetry; and safe in my own insignificance, I thus spoke
             <br/>out:</p>
           <p>To the Author of the “Vestiges of Creation.”</p>
-          
-            Self-missioned Leader through Creation’s maze!
-            Dost thou interpret thus God’s mighty scheme_
-            Weaving the cobweb fancies of a dream
-            O’er each grey vestige of His mystic ways?
-            When thus ’mid chaos thou didst blindly grope,
-            Gathering new links for matter’s heavy chain,
-            Dwelt there not in thy soul the secret hope
-            That some strong truth would rend the bond of pain.
-            Which fired thee to Progression's iron wheel?
-            Oh teach not suffering earth such hopeless creed:
-            For heavy were her curse if doomed to feel
-            That, in her frequent hour of bitter need,
-            Her lifting eye of prayer could only see
-            Necessity’s stem laws, graven on eternity.
-          
-          <span class="person" id="">RUDOLPH HERTZMAN</span>.
+          <div class="lg">
+            <br/>Self-missioned Leader through Creation’s maze!
+            <br/>Dost thou interpret thus God’s mighty scheme_
+            <br/>Weaving the cobweb fancies of a dream
+            <br/>O’er each grey vestige of His mystic ways?
+            <br/>When thus ’mid chaos thou didst blindly grope,
+            <br/>Gathering new links for matter’s heavy chain,
+            <br/>Dwelt there not in thy soul the secret hope
+            <br/>That some strong truth would rend the bond of pain.
+            <br/>Which fired thee to Progression's iron wheel?
+            <br/>Oh teach not suffering earth such hopeless creed:
+            <br/>For heavy were her curse if doomed to feel
+            <br/>That, in her frequent hour of bitter need,
+            <br/>Her lifting eye of prayer could only see
+            <br/>Necessity’s stem laws, graven on eternity.
+          </div>
+          <div class="byline">
+            <span class="person">RUDOLPH HERTZMAN</span>.</div>
         </div>
-        <div id="#p4" class="piece">
+        <div class="piece" id="#p4">
           <div class="head">SOME PASSAGES IN THE LIFE OF A LION.</div>
-          
-            ----------All people went
-            Upon their ten toes in wild wonderment.
-          
+          <div class="lg">
+            <br/>----------All people went
+            <br/>Upon their ten toes in wild wonderment.
+          </div>
           <div class="ab">           Bishop Hall's Satires.</div>
           <p>I am—that is to say I was—a great man; but I am nei-
             <br/>ther the author of Junius nor the man in the mask; for my
@@ -552,8 +570,10 @@
           <p>The first action of my life was the taking hold of my nose
             <br/>with both hands. My mother saw this and called me a ge-
             <br/>nius:—my father wept for joy and presented me with a
-            <a href="#p165"/>
-            treatise on Nosology. This I mastered before I was breeched.</p>
+            <br/>
+            <div class="pagebreak" id="#page165"/>
+            <br/>
+            <div class="columnbreak"/>treatise on Nosology. This I mastered before I was breeched.</p>
           <p>I now began to feel my way in the science; and soon came
             <br/>to understand that, provided a man had a nose sufficiently
             <br/>conspicuous, he might, by merely following it, arrive at a
@@ -618,7 +638,8 @@
           <p>“For his nose!" shouted her Grace.</p>
           <p>“A thousand pounds,” said I, sitting down.</p>
           <p>“A thousand pounds?” inquired the artist, musingly.</p>
-          
+          <br/>
+         <div class="columnbreak"/>
           <p>A thousand pounds,” said I.</p>
           <p>“Do you warrant it?” he asked, turning the nose to the
             <br/>light.</p>
@@ -685,8 +706,10 @@
           <p>There was Delphinus Polyglott. He told us what had
             <br/>become of the eighty-three lost tragedies of Æschylus; of the
             <br/>fifty-four orations of Isœus; of the three hundred and ninety-
-            <a href="#p166"/>
-            
+            <br/>
+            <div class="pagebreak" id="#page166"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>one speeches of Lysias; of the hundred and eighty treatises
             <br/>of Theophrastus; of the eighth book of the Conic Sections of
             <br/>Apollonius; of Pindar’s hymns and dithyrambics; and of the
@@ -751,12 +774,14 @@
             <br/>ness of a lion is in proportion to the size of his proboscis—
             <br/>but, Good Heavens ! there is no competing with a lion who
             <br/>has no proboscis at all.”</p>
-          <span class="person" id="">EDGAR A. POE</span>.
+          <div class="byline">
+            <span class="person">EDGAR A. POE</span>.</div>
         </div>
-        <div id="#p5" class="piece">
+        <div class="piece" id="#p5">
           <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING,
             <br/>NO. V.</div>
-            <br/>BY <span class="person" id="">WILLIAM PAGE</span>.
+            <br/>
+         <div class="byline">BY <span class="person">WILLIAM PAGE</span>.</div>
           <p>I have heard it regretted by a painter, whose acknow-
             <br/>ledged abilities should have taught him better, that he had
             <br/>not the pigments wherewith fully to represent nature, for-
@@ -827,8 +852,10 @@
             <br/>the other would be equally credible. It would not be very
             <br/>astonishing if some of these artists were discovered to be
             <br/>the actual descendants of this identical old lady, and who
-            <a href="#p167"/>
-            have inherited an ambition as laudable as her own, which
+            <br/>
+            <div class="pagebreak" id="#page167"/>
+            <br/>
+            <div class="columnbreak"/>have inherited an ambition as laudable as her own, which
             <br/>will not suffer them to pause or rest until they have brushed
             <br/>away, not only the “cobwebs” but nature’s entire self from
             <br/>their canvass, if not from the face of the earth. “Nature
@@ -912,8 +939,9 @@
             <br/>and so far as my observation of his works goes it is undenia-
             <br/>ble.</p>
         </div>
-        
-        <div id="#p6" class="piece">
+        <br/>
+      <div class="columnbreak"/>
+        <div class="piece" id="#p6">
           <div class="head">THE DIGNITY OF TAILORS.</div>
           <p>The editor of the “Mirror of Fashion” quotes the quizzica
             <br/>essay on the ӕsthetics of dress from Blackwood’s Magazine
@@ -992,9 +1020,11 @@
             <br/>than up.</p>
         </div>
         
-        
-        <a href="#p168"/>
-        <div id="#p7" class="piece">
+        <br/>
+      <div class="columnbreak"/>
+        <br/>
+      <div class="pagebreak" id="#page168"/>
+        <div class="piece" id="#p7">
           <div class="head">Letter from James Given in New York, to his Cousin Hugh Hughes, of Pool Lane,
             Liverpool.</div>
           <div class="ab">Globe Hotel, March 10, 1845.</div>
@@ -1079,103 +1109,113 @@
             <br/>friend, but he will succeed, I have no doubt.</p>
           <p>I have only space enough for Frank—so, once more, I
             <br/>subscribe myself your friend, and resign the pen to him.</p>
-          <span class="person" id="">J. G.</span>
+          <span class="person">J. G.</span>
           
             <div class="head">A SPECULATOR IN STOCKS.</div>
-            <span class="person" id="">Brown</span>
+            <div class="byline">
+            <span class="person">Brown</span>
+         </div>
           
         </div>
-        <a href="#p169"/>
+        <br/>
+      <div class="pagebreak" id="#page169"/>
         
-          
-        <div id="#s2" class="section">
+          <br/>
+      <div class="columnbreak"/>
+        <div class="section" id="#s2">
           <div class="head">Original Poetry.</div>
-          <div id="#p8" class="piece">
+          <div class="piece" id="#p8">
             <div class="head">THE BELLE OF BROADWAY.</div>
-            
-              She walks in the light of her beauty arrayed,
-              Like a queen by the hearts of a nation obeyed;
-              There’s a lustre around her, a splendor that vies
-              With the brightest of stars in the bluest of skies.
-              I’ve seen her at morning all laughing and gay,
-              With the step of a fairy bewitching Broadway;
-              I’ve seen her at evening all jewels and plumes,
-              Outflashing the gas In the brilliantest rooms.
-              They may talk of Circassia and sing of Cashmere,
-              Where the maids are so fair and the shawls are so dear;
-              But for elegant figures deliciously drest,
-              The East cannot rival our land of the West.
-              And the belle of all belles is the belle of Broadway:
-              She’s as plump as a Venus and light as a fay;
-              Her smile—oh ! what rapture its sweetness bestows,
-              While the blush of her cheek shames the blush of a rose!
-              If my pen were a diamond whose sparkles would flow
-              Like the lightning’s swift gleam to the paper below,
-              By the dazzle of words I might hope to convey
-              Some glance at the charms of the belle of Broadway.
-              But Sully himself would resign in despair
-              The pencil that pictures the fairest of fair,
-              Nor attempt in his exquisite style to pourtray
-              The perfection of grace in the belle of Broadway!
-            
+            <div class="lg">
+              <br/>She walks in the light of her beauty arrayed,
+              <br/>Like a queen by the hearts of a nation obeyed;
+              <br/>There’s a lustre around her, a splendor that vies
+              <br/>With the brightest of stars in the bluest of skies.
+              <br/>I’ve seen her at morning all laughing and gay,
+              <br/>With the step of a fairy bewitching Broadway;
+              <br/>I’ve seen her at evening all jewels and plumes,
+              <br/>Outflashing the gas In the brilliantest rooms.
+              <br/>They may talk of Circassia and sing of Cashmere,
+              <br/>Where the maids are so fair and the shawls are so dear;
+              <br/>But for elegant figures deliciously drest,
+              <br/>The East cannot rival our land of the West.
+              <br/>And the belle of all belles is the belle of Broadway:
+              <br/>She’s as plump as a Venus and light as a fay;
+              <br/>Her smile—oh ! what rapture its sweetness bestows,
+              <br/>While the blush of her cheek shames the blush of a rose!
+              <br/>If my pen were a diamond whose sparkles would flow
+              <br/>Like the lightning’s swift gleam to the paper below,
+              <br/>By the dazzle of words I might hope to convey
+              <br/>Some glance at the charms of the belle of Broadway.
+              <br/>But Sully himself would resign in despair
+              <br/>The pencil that pictures the fairest of fair,
+              <br/>Nor attempt in his exquisite style to pourtray
+              <br/>The perfection of grace in the belle of Broadway!
+            </div>
             <div class="ab">417 Houston St., March 10.</div>
-            <span class="person" id="">P.B.</span>
+            <div class="byline">
+               <span class="person">P.B.</span>
+            </div>
           </div>
-          <div id="#p9" class="piece">
-            
+          <div class="piece" id="#p9">
+            <span class="note" id="">
+               <a href=""/>
+            </span>
               <br/>We have had frequent requests within the last ten days, for a copy of
               <br/>"Florence Vane"—a little poem recited by Mr. Poe in his late Lecture
               <br/>on the Poetry of America. To oblige our friends, therefore, (and our-
               <br/>selves,) we publish the lines, from memory, as accurately as we can.
               <div class="head">FLORENCE VANE.</div>
-              <br/>BY <span class="person" id="">PHILIP P. COOKE</span>, OF WINCHESTER, VA.
-            
-              I loved thee long and dearly,
-              Florence Vane !
-              My life’s bright dream and early
-              Hath come again.
-              I renew in my fond vision
-              My heart’s dear pain—
-              My hopes and thy derision,
-              Florence Vane.
-              The ruin lone and hoary,
-              The ruin old
-              Where thou didst hark my story,
-              At even told—
-              That spot—the hues Elysian
-              Of sky and plain
-              I treasure in my vision,
-              Florence Vane.
-              Thou wast lovelier than the roses
-              In their prime;
-              Thy voice excelled the closes
-              Of sweetest rhyme;
-              Thy heart was as a river
-              Without a main—
-              Would I had loved thee never,
-              Florence Vane.
-              But fairest, coldest, wonder,
-              Thy glorious day
-              Lieth the green sod under,
-              Alas the day!
-              And it boots not to remember
-              Thy disdain,
-              To quicken love’s pale ember,
-              Florence Vane.
-              The lilies of the valley
-              By young graves weep;
-              The pansies love to dally
-              Where maidens sleeps
-              May their bloom, in beauty vieing,
-              Never wane
-              Where thine earthly part is lying,
-              Florence Vane.
-            
+              <br/>
+            <div class="byline">BY <span class="person">PHILIP P. COOKE</span>, OF WINCHESTER, VA.</div>
+            <div class="lg">
+              <br/>I loved thee long and dearly,
+              <br/>Florence Vane !
+              <br/>My life’s bright dream and early
+              <br/>Hath come again.
+              <br/>I renew in my fond vision
+              <br/>My heart’s dear pain—
+              <br/>My hopes and thy derision,
+              <br/>Florence Vane.
+              <br/>The ruin lone and hoary,
+              <br/>The ruin old
+              <br/>Where thou didst hark my story,
+              <br/>At even told—
+              <br/>That spot—the hues Elysian
+              <br/>Of sky and plain
+              <br/>I treasure in my vision,
+              <br/>Florence Vane.
+              <br/>Thou wast lovelier than the roses
+              <br/>In their prime;
+              <br/>Thy voice excelled the closes
+              <br/>Of sweetest rhyme;
+              <br/>Thy heart was as a river
+              <br/>Without a main—
+              <br/>Would I had loved thee never,
+              <br/>Florence Vane.
+              <br/>But fairest, coldest, wonder,
+              <br/>Thy glorious day
+              <br/>Lieth the green sod under,
+              <br/>Alas the day!
+              <br/>And it boots not to remember
+              <br/>Thy disdain,
+              <br/>To quicken love’s pale ember,
+              <br/>Florence Vane.
+              <br/>The lilies of the valley
+              <br/>By young graves weep;
+              <br/>The pansies love to dally
+              <br/>Where maidens sleeps
+              <br/>May their bloom, in beauty vieing,
+              <br/>Never wane
+              <br/>Where thine earthly part is lying,
+              <br/>Florence Vane.
+            </div>
           </div>
         </div>
         
-        
-        <div id="#p10" class="piece">
+        <br/>
+      <div class="columnbreak"/>
+        <div class="piece" id="#p10">
           <div class="head">MECHANICS' INSTITUTE CONVERSATIONAL MEETING, ON THE SUBJECT OT AERIAL
             NAVIGATION.</div>
           <p>President J. J. Mapes in the Chair; C. L. Barritt, Acting Secretary.</p>
@@ -1254,8 +1294,10 @@
             <br/>conclusively that the power required to move in the air, or
             <br/>to fly, is so great over that of the size of the , bird, that no
             <br/>machine ever could be built, that could carry, suspended in
-            <a href="#p170"/>
-            
+            <br/>
+            <div class="pagebreak" id="#page170"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>the air, machinery enough to propel it—as the size of the
             <br/>bird is to the muscular power of its wings, no machine on
             <br/>land could be made. The buoyancy of air being so well
@@ -1302,9 +1344,10 @@
             <br/>hydrogen could not be replenished, even could the mechani-
             <br/>cal difficulties be overcome.</p>
         </div>
-        <div id="#p11" class="piece">
+        <div class="piece" id="#p11">
           <div class="head">THE GREAT TOWER OF TARUDANT.</div>
-            <br/>BY <span class="person" id="">ROBERT OLIVER</span>.
+            <br/>
+         <div class="byline">BY <span class="person">ROBERT OLIVER</span>.</div>
             <div class="ab">(Continued from page 138.)</div>
           <p>When the great green bird beheld this dove, it shivered as
             <br/>though struck with mortal fear, and letting go the king’s
@@ -1337,7 +1380,8 @@
             <br/>and why you came to my rescue in such singular guise?”</p>
           <p>“Know first, O king, that yonder carcass when it sought thy destruction, was animated,
             not by the life of a bird but by
-            the spirit of a most wicked and powerful genie, who had as-
+            <br/>
+            <div class="columnbreak"/>the spirit of a most wicked and powerful genie, who had as-
             <br/>sumed that form, the better to work his evil will and that of
             <br/>his master, Arphaxad the Egyptian, who sent him against
             <br/>thee. When thy watchful eye discovered his approach and
@@ -1419,8 +1463,10 @@
             <br/>sharp like a javelin. The king at once hurled it at the rep-
             <br/>tile with such good aim that its heart was pierced, and it
             <br/>fell dead on the sand.</p>
-          <a href="#p171"/>
-          
+          <br/>
+         <div class="pagebreak" id="#page171"/>
+          <br/>
+         <div class="columnbreak"/>
           <p>“Bravely done,” exclaimed the fairy, “you have fully
             <br/>atoned for your disobedience—but let it not be repeated. You
             <br/>will never encounter a more terrible enemy than this. Thank
@@ -1503,7 +1549,8 @@
             <br/>were bent with clusters of rich fruit, and occasionally they
             <br/>crossed on sculptured bridges sparkling and murmurous
             <br/>streams, in the clear depths of which were visible the glan-
-            
+            <br/>
+            <div class="columnbreak"/>
             <br/>cing movements of brightly colored fishes. Abdallah’s de-
             <br/>light continually increased, though he could not help some-
             <br/>times mournfully contrasting the desolation of his own king-
@@ -1556,7 +1603,7 @@
             <br/>without delay, to the dwelling of her sister.</p>
           <div class="ab">(To be Continued.)</div>
         </div>
-        <div id="#p12" class="piece">
+        <div class="piece" id="#p12">
           <div class="head">THE CONCERT ROOM.</div>
           <p>Grand Concert of the German Society.—Some twenty-
             <br/>five hundred persons visited the Tabernacle on Saturday
@@ -1580,8 +1627,10 @@
             <br/>cert, when more than half the audience left during the first
             <br/>movement; and on the present occasion many hundreds left
             <br/>before and during the symphony. Such a scuffling of feet
-            <a href="#p172"/>
-            and slamming of doors, we have rarely heard in a concert
+            <br/>
+            <div class="pagebreak" id="#page172"/>
+            <br/>
+            <div class="columnbreak"/>and slamming of doors, we have rarely heard in a concert
             <br/>room. To listen in comfort was impossible, and Beethoven
             <br/>suffered, and we suffered with him, for want of common
             <br/>sense in those who arranged the programme.</p>
@@ -1656,7 +1705,8 @@
             <br/>The pieces were long and heavy in the extreme, and though
             <br/>grateful to a musician's ear from their fine harmony, prove
             <br/>ineffectual and tiresome to the general taste.</p>
-          
+          <br/>
+         <div class="columnbreak"/>
           <p>The leader of the Chorusses, Mr. Perabeau, would have
             <br/>made a much better impression if he had conducted himself
             <br/>in a more quiet manner. It would have been quite as easy,
@@ -1698,7 +1748,7 @@
             <br/>judgment, and on the whole it was probably the best bene-
             <br/>fit concert ever given in the city.</p>
         </div>
-        <div id="#p13" class="piece">
+        <div class="piece" id="#p13">
           <div class="head">MUSICAL REVIEW.</div>
           <p>Bertini's Method for the Piano-Forte. Published by Oakes, and sold by E.
             <br/>H. Wade, 197 Washington St., Boston.</p>
@@ -1727,8 +1777,10 @@
             <br/>looked upon with indifference, if not with disgust.</p>
           <p>Our opinion upon these matters is the result of an experience of many years, during
             which time all kinds o| methods have come under
-            <a href="#p173"/>
-            our notice. We have felt how utterly inadequate these were to fulfil
+            <br/>
+            <div class="pagebreak" id="#page173"/>
+            <br/>
+            <div class="columnbreak"/>our notice. We have felt how utterly inadequate these were to fulfil
             <br/>the end for which they were intended, namely, to assist the master in
             <br/>explaining to the pupil, and to assist the pupil when absent from the
             <br/>master. Much that is necessary between master and pupil, can never
@@ -1780,7 +1832,7 @@
             <br/>expensive work, and we earnestly hope that he will reap the reward
             <br/>of his public spirit.</p>
         </div>
-        <div id="#p14" class="piece">
+        <div class="piece" id="#p14">
           <div class="head">MUSICAL ITEMS.</div>
           <p>The Seguins and Frazer commenced an engagement at
             <br/>the St. Charles theatre, New Orleans, on Monday, March the third.
@@ -1803,7 +1855,8 @@
           <p>Home News.—Great efforts are being made to get up a
             <br/>short season at Palmo’s. The committee are striving to unite the
             <br/>scattered members of the late party, and to establish at least a season
-            of twelve nights, with Pico for the great attraction. We sincerely
+            <br/>
+            <div class="columnbreak"/>of twelve nights, with Pico for the great attraction. We sincerely
             <br/>believe that it would be a signal failure, for, with all Borghese’s faults,
             <br/>and she had many, as we had occasion to shew, she was still a great
             <br/>favorite with the largest class of the opera patrons.</p>
@@ -1824,7 +1877,7 @@
           <p>The most beautiful, as well as the best sounding room in the city for
             <br/>Concerts, the Minerva Room, has been engaged for the Soirée.</p>
         </div>
-          <div id="#p14a" class="piece">
+          <div class="piece" id="#p14a">
          <p>Mitchell's Olympic Theatre.—This delightful place of
             <br/>amusement continues its career of perfect success. It is, without
             <br/>a doubt, the most respectable as well as the best managed Theatre in
@@ -1856,9 +1909,9 @@
           <p>Niblo is going to hold on to the gardens: no one we should
             <br/>judge would be rash enough to take them from him.</p>
         </div>
-        <div id="#s3" class="section">
+        <div class="section" id="#s3">
           <div class="head">LITERARY NOTICES.</div>
-          <div id="#p15" class="piece">
+          <div class="piece" id="#p15">
             <p>Inaugural Address, delivered before the Mechanics’ Institute of the State of
               <br/>New York, by James J. Mapes, President. 1845.</p>
             <p>Unlike the greater part of the addresses which we have heard and
@@ -1879,8 +1932,10 @@
               <br/>idea, not altogether new, but new in its application, respecting the
               <br/>use of Caryatides in architecture. We should be glad to see it adopted
               <br/>by way of an experiment; to substitute the form of some living thing
-              <a href="#p174"/>
-              in the place of the eternal columns which disfigure so many of our
+              <br/>
+               <div class="pagebreak" id="#page174"/>
+              <br/>
+               <div class="columnbreak"/>in the place of the eternal columns which disfigure so many of our
               <br/>public buildings. Anything would be a relief to the wearisome effect
               <br/>of the five orders, even though it were disorder itself.</p>
             <p>We congratulate the Mechanics’ Institute on having for a President
@@ -1893,7 +1948,7 @@
               <br/>Mr. Barritt, the actuary, the Mechanics’ Institute must exert in the
               <br/>community an influence of inestimable benefit.</p>
           </div>
-          <div id="#p16" class="piece">
+          <div class="piece" id="#p16">
             <p>Cruikshank's Omnibus, with numerous illustrations. Philadelphia: E. Fer-
               <br/>rett &amp; Co. For sale by W. H. Graham, 163 Nassau st.</p>
             <p>The purchaser of this little volume will be sure to get the worth of
@@ -1902,7 +1957,7 @@
               <br/>they are tinged with a dash of melancholy. One could weep almost as
               <br/>readily as laugh at some of his most humorous sketches.</p>
           </div>
-          <div id="#p17" class="piece">
+          <div class="piece" id="#p17">
             <p>The Democratic Review for March.</p>
             <p>This is altogether a very excellent number; it is, in fact, the best
               <br/>that we have seen of this magazine. The first nrticle, on Tyler, which
@@ -1918,7 +1973,7 @@
               <br/>The account of the four Presidents of Texas is highly interesting, and
               <br/>the other papers are both readable and profitable.</p>
           </div>
-          <div id="#p18" class="piece">
+          <div class="piece" id="#p18">
             <p>Military Maxims of Napoleon. Translated from the French by J. Akerly.
               <br/>New York: Wiley &amp; Putnam. 1846.</p>
             <p>Mr. Akerly’s name is new to us, but we think that it cannot be new
@@ -1952,7 +2007,7 @@
               <br/>under the present system of conferring offices, disgrace and defeat
               <br/>would be the result of every engagement with an enemy.</p>
           </div>
-          <div id="#p19" class="piece">
+          <div class="piece" id="#p19">
             <p>Martin’s Illustrated Family Bible. Part 3.</p>
             <p>The second number of this magnificent work—in all points the best
               <br/>edition of the Bible that has yet been issued in this country—extends
@@ -1961,11 +2016,12 @@
               <br/>—a chef d’œuvre in art worthy to accompany a chef d'œuvre in publi-
               <br/>cation, as this Bible is.</p>
           </div>
-          <div id="#p20" class="piece">
+          <div class="piece" id="#p20">
             <p>Hunt's Merchants’ Magazine.</p>
             <p>The March number of this valuable periodical contains a paper on the consular system
               of the United States, which should be carefully
-              read by every man who can exert the smallest degree of influence in
+              <br/>
+               <div class="columnbreak"/>read by every man who can exert the smallest degree of influence in
               <br/>the National councils. There are some abuses existing in the economy
               <br/>of our government, which all admit and none pretend to justify, but
               <br/>which, nevertheless, no one attempts to remove. The Consular system
@@ -1988,7 +2044,7 @@
               <br/>the Merchants’ Magazine, relating to our national resources, of great
               <br/>ability.</p>
           </div>
-          <div id="#p21" class="piece">
+          <div class="piece" id="#p21">
             <p>“The New World."</p>
             <p>But for fear of disparaging the “Broadway Journal,” we would say,
               <br/>unhesitatingly, that the “New World,” under the editorial guidance
@@ -2002,7 +2058,7 @@
               <br/>knows well what he is thinking about—a very great deal to say of any
               <br/>man, as times go.</p>
           </div>
-          <div id="#p22" class="piece">
+          <div class="piece" id="#p22">
             <p>Anastasis; or the Doctrine of the Resurrection of the Body rationally and
               <br/>Scripturally considered. By George Bush, Professor of Hebrew, New York
               <br/>City University. Second edition. New York and London. Wiley and
@@ -2011,7 +2067,7 @@
               <br/>much talked-of work; we shall review it at length hereafter.</p>
           </div>
         </div>
-        <div id="#p23" class="piece">
+        <div class="piece" id="#p23">
           <div class="head">LITERARY INTELLIGENCE.</div>
           <p>Messrs. Wiley and Putnam have announced a series of Minor Clas-
             <br/>sics, something in the way of Dove’s Classics, etc.; the aim, however,
@@ -2046,8 +2102,10 @@
             <br/>price of a dollar and a half.</p>
           <p>Phil Purcel, and other stories of Ireland, by William Carleton.— William Carleton, as
             every body knows who has read his stories, feels
-            <a href="#p175"/>
-            to his inmost heart, the genuine traits of Irish humor, not only feels,
+            <br/>
+            <div class="pagebreak" id="#page175"/>
+            <br/>
+            <div class="columnbreak"/>to his inmost heart, the genuine traits of Irish humor, not only feels,
             <br/>but can reproduce them in fiction. How much we all owe " ould Ire-
             <br/>land,” for her inimitable fun, half laughter and half pathos, the hu-
             <br/>mor of light and shade, ever hearty, frank, and native! The names of
@@ -2058,7 +2116,7 @@
             <br/>Trials, told to my children, by Mrs. Opie,” in a form which combines
             <br/>elegance with cheapness.</p>
         </div>
-        <div id="#p24" class="piece">
+        <div class="piece" id="#p24">
           <div class="head">MISCELLANY.</div>
           <p>Mr. Nichols’ Lecture.—On Tuesday next, the 18th, Mr.
             <br/>Thomas L. Nichols will lecture, at the Society Library, on “Emigra-
@@ -2115,7 +2173,7 @@
             <br/>as has never pervaded it, and would render our marine and invincible
             <br/>body.</p>
         </div>
-        <div id="#p25" class="piece">
+        <div class="piece" id="#p25">
           <p>To Readers and Correspondents.— We thank “A." for his commu-
             <br/>nication; the intelligence which it gives will be of service.</p>
           <p>The exceedingly pleasant letter of Horace H------will be duly attended to.</p>
@@ -2140,8 +2198,9 @@
             <br/>essay of Rudolph Hertz man. Those who read his initial number will
             <br/>need no call to anything bearing his signature.</p>
         </div>
-        
-        <div id="#s4" class="section">
+        <br/>
+      <div class="columnbreak"/>
+        <div class="section" id="#s4">
           <div>
             <div class="head">WORKS ON THE FINE ARTS RECENTLY IMPORTED.—No. 2.</div>
             <p>THE LAWS OF HARMONIOUS COLOURING.
@@ -2249,8 +2308,10 @@
             <p>Dress Circle, 50 Cents. Upper Boxes, 25 cents. Pit 12 1-2 cents. Private
               <br/>Boxes, $3. Box Office open every day.</p>
           </div>
-          <a href="#p176"/>
-          
+          <br/>
+         <div class="pagebreak" id="#page176"/>
+          <br/>
+         <div class="columnbreak"/>
           <div>
             <div class="head">PIANO FORTES.</div>
             <p>THOMAS H. CHAMBERS, late Practical partner of
@@ -2386,9 +2447,12 @@
               <br/>N. B. Gentlemen keeping their horses at this establishment, will have the
               <br/>privilege of riding them in the School gratis.</p>
           </div>
-          
+          <br/>
+         <div class="columnbreak"/>
           <div>
-            GREAT REDUCTION IN PRICE.
+            <span class="note" id="">
+               <a href=""/>
+            </span>GREAT REDUCTION IN PRICE.
               <br/>The first Premium awarded five years by the American Institute for the
               <br/>best Specimen of Off-hand Penmanship.
               <div class="head">GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,</div>
@@ -2475,7 +2539,9 @@
         </div>
     </div>
    <div class="back">
-          Infatuation; a poem spoken before the Mercantile Library Association
+          <span class="note" id="n001">
+         <a href="#a001"/>
+      </span>Infatuation; a poem spoken before the Mercantile Library Association
             of Boston, October 9, 1844. By Park Benjamin. Boston W. D. Ticknor &amp; Co.
         </div>
 </div>

@@ -12,38 +12,44 @@
     </div>
    <div class="body">
       <br/>
+      <div class="columnbreak"/>
+      <br/>
       <div>
          <div class="head">Lines.</div>
-Peace of the hallowed day—how pure and deep!
-On the green earth—in the blue boundless air,
-How do all things invite the soul to prayer!
-Her solemn Sabbath how doth Nature keep!
-Doth silence reign, that hither down may float 
-The full deep waves of Heaven’s own harmony—
-That favored man, from earthly coil set free,
-Listening in awe, may catch the angelic note? 
-O dreamer! see to it—that nought within 
-The faint, yet glorious diapason mar!
-Crush thy heart’s whispers; fix thy gaze alar,
-And turn thee from the Siren lure of sin!
-It is a “still small voice” that speaks His will 
-Before whom sank the ocean billows, and were still.
-O weary heart! there is a rest for thee;
-O truant heart! there is a blessed home—
-An isle of gladness on life’s treacherous sea,
-Where storms, that vex the waters, never come. 
-Through groves perennial, streams that cannot die 
-Bear blessing round that fair and fertile shore;
-And shipwrecked ones, beneath that bending sky,
-Dream of the terrors of the deep no more.
-Winnowed by wings immortal that sweet isle;
-Vocal its air with music from above;
-There meets the exile aye a welcoming smile;
-There ever speaks a summoning voice of love 
-"Say to the heavy laden and distressed—
-‘Come unto me, and I will give you rest.’ ”
+         <div class="lg">
+            <br/>Peace of the hallowed day—how pure and deep!
+<br/>On the green earth—in the blue boundless air,
+<br/>How do all things invite the soul to prayer!
+<br/>Her solemn Sabbath how doth Nature keep!
+<br/>Doth silence reign, that hither down may float 
+<br/>The full deep waves of Heaven’s own harmony—
+<br/>That favored man, from earthly coil set free,
+<br/>Listening in awe, may catch the angelic note? 
+<br/>O dreamer! see to it—that nought within 
+<br/>The faint, yet glorious diapason mar!
+<br/>Crush thy heart’s whispers; fix thy gaze alar,
+<br/>And turn thee from the Siren lure of sin!
+<br/>It is a “still small voice” that speaks His will 
+<br/>Before whom sank the ocean billows, and were still.
+<br/>O weary heart! there is a rest for thee;
+<br/>O truant heart! there is a blessed home—
+<br/>An isle of gladness on life’s treacherous sea,
+<br/>Where storms, that vex the waters, never come. 
+<br/>Through groves perennial, streams that cannot die 
+<br/>Bear blessing round that fair and fertile shore;
+<br/>And shipwrecked ones, beneath that bending sky,
+<br/>Dream of the terrors of the deep no more.
+<br/>Winnowed by wings immortal that sweet isle;
+<br/>Vocal its air with music from above;
+<br/>There meets the exile aye a welcoming smile;
+<br/>There ever speaks a summoning voice of love 
+<br/>"Say to the heavy laden and distressed—
+<br/>‘Come unto me, and I will give you rest.’ ”
 <br/>
-         <span class="person" id="">E. F. Ellet.</span>
+            <div class="byline">
+               <span class="person">E. F. Ellet.</span>
+            </div>
+         </div>
       </div>
       <div>
          <div class="head">The Gift of Prophecy.</div>
@@ -69,7 +75,9 @@ There ever speaks a summoning voice of love
 <br/>been compelled to feel, if not to utter the Prophecy. But
 <br/>apart from these seasons I could never divine for myself, 
 <br/>or another. That is, in what is called my natural state,
-<br/>I could not do this. Of the influence of Mesmerism I 
+<br/>
+            <br/>
+            <div class="columnbreak"/>I could not do this. Of the influence of Mesmerism I 
 <br/>shall speak hereafter. The first distinct shadowing of 
 <br/>unknown events upon my consciousness that I remember, 
 <br/>was when I was very young. From infancy I had been 
@@ -125,7 +133,10 @@ There ever speaks a summoning voice of love
 <br/>ded from before me, and I was left alone, with the weak-
 <br/>ness of an infant, counting my heart-throbs, to see if I 
 <br/>had forgotten how to count. I slowly gained health, and
-<a href="#p188"/>
+<br/>
+            <div class="pagebreak" id="#page188"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>forgot the vision—and not until the days of its accom-
 <br/>plishment had passed, did I again call it to mind. Peo-
 <br/>ple try at this day to explain all this neurologically, or 
@@ -167,63 +178,77 @@ There ever speaks a summoning voice of love
 <br/>the foreshine of that world that we are all entering
 <br/>upon.</p>  
          <br/>
-         <span class="person" id="">Mary Orme</span>.</div>
+         <div class="byline">
+            <span class="person">Mary Orme</span>.</div>
+      </div>
       <div>
          <div class="head">Pictures.</div>
-         <br/>BY <span class="person" id="">MISS COLMAN</span>.
-Wearily, wearily,
-Drowned in her tears,
-Sitting so lonelily,
-Trembling with fears,
-Hearken how sobbingly,
-Come forth her sighs!
-See, see how absently 
-Wander her eyes!
-Listen I—she dreamily 
-Murmurs a word,
-Soft, and how touchingly!
-Scarce is it heard.
-Now she prays mourningly,
-Bent to the earth;
-Angels, that tenderly,
-Watched her from birth,
-Sooth her now lovingly 
-Sinking with grief—
-In voices so heavenly 
-Whisper relief.
-Ah, is it not pitiful 
-To look on her there,
-Good, and so beautiful
-Laden with care?
-Listen now, thankfully 
-Chagned is her tone;
-No longer drooping,
-Sits she alone.
-No longer tearfully 
-Clouded her sight;
-From her eyes cheerfully 
-Shineth love’s light.
-See, see how gladsomely 
-Bounds she along,
-While from her lips merrily 
-Ripples a song!
-Upward, she lovingly 
-Raises her eyes,
-Gazing so gratefully 
-Into the skies.
-Angels that weepingly 
-Prayed with her there,
-Look on her smilingly,
-Saved from despair.
-Ah, we can happily 
-Look on her now,
-Joy reigns so peacefully 
-On her lair brow.</div>
+         <br/>
+         <div class="byline">BY <span class="person">MISS COLMAN</span>.</div>
+         <div class="lg">
+            <br/>Wearily, wearily,
+<br/>Drowned in her tears,
+<br/>Sitting so lonelily,
+<br/>Trembling with fears,
+<br/>Hearken how sobbingly,
+<br/>Come forth her sighs!
+<br/>See, see how absently 
+<br/>Wander her eyes!
+<br/>Listen I—she dreamily 
+<br/>Murmurs a word,
+<br/>Soft, and how touchingly!
+<br/>Scarce is it heard.
+<br/>Now she prays mourningly,
+<br/>Bent to the earth;
+<br/>Angels, that tenderly,
+<br/>Watched her from birth,
+<br/>Sooth her now lovingly 
+<br/>Sinking with grief—
+<br/>In voices so heavenly 
+<br/>Whisper relief.
+<br/>Ah, is it not pitiful 
+<br/>To look on her there,
+<br/>
+            <div class="columnbreak"/>
+            <br/>Good, and so beautiful
+<br/>Laden with care?
+<br/>Listen now, thankfully 
+<br/>Chagned is her tone;
+<br/>No longer drooping,
+<br/>Sits she alone.
+<br/>No longer tearfully 
+<br/>Clouded her sight;
+<br/>From her eyes cheerfully 
+<br/>Shineth love’s light.
+<br/>See, see how gladsomely 
+<br/>Bounds she along,
+<br/>While from her lips merrily 
+<br/>Ripples a song!
+<br/>Upward, she lovingly 
+<br/>Raises her eyes,
+<br/>Gazing so gratefully 
+<br/>Into the skies.
+<br/>Angels that weepingly 
+<br/>Prayed with her there,
+<br/>Look on her smilingly,
+<br/>Saved from despair.
+<br/>Ah, we can happily 
+<br/>Look on her now,
+<br/>Joy reigns so peacefully 
+<br/>On her lair brow.</div>
+      </div>
       <div>
          <div class="head">The Island of the Fay.</div>
-         <br/>Nullus enim locus sine genio est.——<span class="person" id="">Servius.</span>
+         <br/>
+         <div class="cit">
+            <span class="quote">Nullus enim locus sine genio est.</span>
+            <div class="bibl">——<span class="person">Servius.</span>
+            </div>
+         </div>
          <p>“La musique," says Marmontel, in those “Contes Mo-
-<br/>raux” which, in all our translations, we have insisted 
+<br/>raux”<span class="anchor" id="a001">
+               <a href="#n001"/>
+            </span> which, in all our translations, we have insisted 
 <br/>upon calling “Moral Tales” as if in mockery of their 
 <br/>spirit—“la musique est le seul des talens qui jouissent de 
 <br/>lui méme; tous les autres veutent des temoins." He here 
@@ -256,7 +281,10 @@ On her lair brow.</div>
 <br/>the proud watchful mountains that look down upon all— 
 <br/>I love to regard these as themselves but the colossal 
 <br/>members of one vast animate and sentient whole—a
-<a href="#p189"/>
+<br/>
+            <div class="pagebreak" id="#page189"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>whole whose form (that of the sphere) is the most per-
 <br/>fect and most inclusive of all; whose path is among as-
 <br/>sociate planets; whose meek handmaiden is the moon; 
@@ -298,7 +326,10 @@ On her lair brow.</div>
 <br/>moment in the universe than that vast “clod of the val-
 <br/>ley” which he tills and contemns, and to which he de-
 <br/>nies a soul for no more profound reason than that he
-<br/>does not behold it in operation.</p>
+<br/>does not behold it in operation.<span class="anchor" id="a002">
+               <a href="#n002"/>
+            </span>
+         </p>
          <p>These fancies, and such as these, have always given to 
 <br/>my meditations among the mountains, and the forests, by
 <br/>the rivers and the ocean, a tinge of what the every-day
@@ -321,7 +352,9 @@ On her lair brow.</div>
 <br/>island. I came upon them suddenly in the leafy June,
 <br/>and threw myself upon the turf, beneath the branches of
 <br/>an unknown odorous shrub, that I might doze as I con-
-<br/>templated the scene. I felt that thus only should I look
+<br/>
+            <br/>
+            <div class="columnbreak"/>templated the scene. I felt that thus only should I look
 <br/>upon it—such was the character of phantasm which it 
 <br/>wore.</p>
          <p>On all sides—save to the west, where the sun was
@@ -355,7 +388,10 @@ On her lair brow.</div>
 <br/>life and joy about all; and although no airs blew from
 <br/>out the Heavens, yet every thing had motion through the
 <br/>gentle sweepings to and fro of innumerable butterflies,
-<br/>that might have been mistaken for tulips with wings.</p>
+<br/>that might have been mistaken for tulips with wings.<span class="anchor" id="a003">
+               <a href="#n003"/>
+            </span>
+         </p>
          <p>The other or eastern end of the isle was whelmed in
 <br/>the blackest shade. A sombre, yet beautiful and peace-
 <br/>ful gloom here pervaded all things. The trees were
@@ -385,7 +421,10 @@ On her lair brow.</div>
 <br/>yield up their own? In dying, do they not rather waste
 <br/>away mournfully; rendering unto God little by little
 <br/>their existence, as these trees render up shadow after
-<a href="#p190"/>
+<br/>
+            <div class="pagebreak" id="#page190"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>shadow, exhausting their substances unto dissolution?
 <br/>What the wasting tree is to the water that imbibes its
 <br/>shade, growing thus blacker by what it preys upon, may
@@ -432,29 +471,36 @@ On her lair brow.</div>
 <br/>thence at all I cannot say,—for darkness fell over all
 <br/>things, and I beheld her magical figure no more.</p>
          <br/>
-         <span class="person" id="">Edgar A. Poe</span>
+         <div class="byline">
+            <span class="person">Edgar A. Poe</span>
+         </div>
       </div>
       <br/>
       <div>
          <div class="head">Myrrha</div>
-Oh! with a delicate art, how quaintly taught,
-Sweetly around thy lattice thou hast wrought,
-In many a mazy twine,
-The forest vine.
-Its sweets requite thee, and as summer comes,
-It yields thee precious odors and gay blooms,
-And, folded in thy breast,
-Its birds are blest.
-Am I less worthy of thy care, this hour,
-Than the frail blossom of thy summer bower—
-Of humbler claim to share Thy smile, thy care?
-Why hast thou taught my feelings then to twine 
-Thus hopeful round thee like that summer vine,
-If still denied like rest Upon thy breast?
-<br/>
-         <span class="person" id="">W. Gilmore Simms</span>
+         <div class="lg">
+            <br/>Oh! with a delicate art, how quaintly taught,
+<br/>Sweetly around thy lattice thou hast wrought,
+<br/>In many a mazy twine,
+<br/>The forest vine.
+<br/>Its sweets requite thee, and as summer comes,
+<br/>It yields thee precious odors and gay blooms,
+<br/>And, folded in thy breast,
+<br/>Its birds are blest.
+<br/>Am I less worthy of thy care, this hour,
+<br/>Than the frail blossom of thy summer bower—
+<br/>Of humbler claim to share Thy smile, thy care?
+<br/>Why hast thou taught my feelings then to twine 
+<br/>Thus hopeful round thee like that summer vine,
+<br/>If still denied like rest Upon thy breast?</div>
+         <br/>
+         <div class="byline">
+            <span class="person">W. Gilmore Simms</span>
+         </div>
       </div>
       <br/>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="head">Critical Notices.</div>
          <p>Wiley &amp; Putnam's Library of American Books. No IV.
@@ -521,7 +567,10 @@ If still denied like rest Upon thy breast?
 <br/>the Gamester of the Mississippi";“The Arm-Chair of
 <br/>Tustenugge, a Tradition of the Catawba”;"The Snake
 <br/>of the Cabin";“Oakatibbe, or the Choctaw Sampson";
-<a href="#p191"/>
+<br/>
+            <div class="pagebreak" id="#page191"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>and "Jocassee, a Cherokee Legend.” The author says
 <br/>of them, in an advertisement—“The material employed 
 <br/>will be found to illustrate, in large degree, the border,
@@ -592,7 +641,9 @@ If still denied like rest Upon thy breast?
 <br/>voice did not hear. He only knows what he meant to say.
 <br/>The answer was to this effect.</p>
          <p>It is, James!—It is your own friend, Lionel Spencer, that
-<br/>speaks to you; do not be alarmed when you see me! I have
+<br/>
+            <br/>
+            <div class="columnbreak"/>speaks to you; do not be alarmed when you see me! I have
 <br/>been shockingly murdered!’’</p>
          <p>James asserts that he tried to tell him that he would not be 
 <br/>frightened, but his own voice was still a whisper, which he him-
@@ -663,7 +714,10 @@ If still denied like rest Upon thy breast?
 <br/>outvoted, he bowed and departed.</p>
          <p>On reaching die point of his destination, he found not only wa-
 <br/>ter-bibbing—bathing—and ambulation to be the order of the day,
-<a href="#p192"/>
+<br/>
+            <div class="pagebreak" id="#page192"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>but it was moreover insisted upon, that the mind was to be relaxed
 <br/>inversely as the body was to be strengthened. Daring this severe
 <br/>regimen, he was driven to amuse himself in his old age by blow-
@@ -675,9 +729,13 @@ If still denied like rest Upon thy breast?
          <p>The critic must, of course, declare this production to be vain
 <br/>empty—light—hollow—superficial .... but it is the nature of
 <br/>Bubbles to be so.</p>
-         <p>The earth has bubbles, as the water has,
+         <p>
+            <div class="cit">
+               <span class="quote">The earth has bubbles, as the water has,
 <br/>And these are of them.
-<br/>Macbeth, Act I. Scene 3.</p>
+<br/>Macbeth, Act I. Scene 3.</span>
+            </div>
+         </p>
          <p>Lady Mary; or Not of the World. By the Rev. Chas.
 <br/>B. Tayler, M. A., Author of “The Records of a Good
 <br/>Man's Life," etc. New-York: Stanford if Swords,
@@ -732,7 +790,9 @@ If still denied like rest Upon thy breast?
 <br/>der,” its rules and exceptions:—these in the original
 <br/>work were interspersed at random, throughout. In 
 <br/>Verbs, too, there are several important alterations and ad-
-<br/>ditions—deleo is conjugated in place of doceo; the latter, 
+<br/>
+            <br/>
+            <div class="columnbreak"/>ditions—deleo is conjugated in place of doceo; the latter, 
 <br/>not being accurately regular. Mr. Brooks gives, also,
 <br/>(what is essential) an explanatian of the nature of the
 <br/>Gerund and Supine. In Syntax the rules are much sim-
@@ -797,16 +857,28 @@ If still denied like rest Upon thy breast?
 <br/>and “Elodie, a Ballad." These are anonymous, and we
 <br/>attribute them to the same hand. We quote the first
 <br/>stanza of the one first named.</p>
-         <a href="#p193"/>
-         <br/>Soft, O! how softly sleeping,
-<br/>Shadowed by beamy she lies,
-<br/>Dreams, as of rapture, creeping,
-<br/>Smile by smile, over her eyes;
-<br/>Lips, O! how sweetly parting,
-<br/>As if the delight between,
-<br/>With its own warm pulses starting,
-<br/>Strove to go forth and be seen,
-<p>Whoever has written these two poems, will undoubted-
+         <br/>
+         <div class="pagebreak" id="#page193"/>
+         <br/>
+         <div class="columnbreak"/>
+         <br/>
+         <div class="lg">
+            <br/>Soft, O! how softly sleeping,
+<br/>
+            <br/>Shadowed by beamy she lies,
+<br/>
+            <br/>Dreams, as of rapture, creeping,
+<br/>
+            <br/>Smile by smile, over her eyes;
+<br/>
+            <br/>Lips, O! how sweetly parting,
+<br/>
+            <br/>As if the delight between,
+<br/>
+            <br/>With its own warm pulses starting,
+<br/>
+            <br/>Strove to go forth and be seen,</div>
+         <p>Whoever has written these two poems, will undoubted-
 <br/>ly be distinguished.</p>
          <p>Godey's Magazine for October, has a good engraving
 <br/>of “The Battle of Concord Bridge” from a painting by
@@ -841,15 +913,24 @@ If still denied like rest Upon thy breast?
 <br/>Mrs. Osgood furnishes “Leonora L’Estrange,” one of her
 <br/>invariably graceful compositions. We purloin from it an
 <br/>epigrammatic song:</p>
-         <br/>I have been true to all I loved—
-<br/>To Honor, Love and Truth;
-<br/>These were the idols of my soul
-<br/>In my believing youth—
-<br/>And these I worship londly still,
-<br/>With vows all pure and free—
-<br/>Alas I that truth to them involves
-<br/>Unfaithfulness to thee.
-<p>The Aristidean for September looks and speaks re-
+         <br/>
+         <div class="lg">
+            <br/>I have been true to all I loved—
+<br/>
+            <br/>To Honor, Love and Truth;
+<br/>
+            <br/>These were the idols of my soul
+<br/>
+            <br/>In my believing youth—
+<br/>
+            <br/>And these I worship londly still,
+<br/>
+            <br/>With vows all pure and free—
+<br/>
+            <br/>Alas I that truth to them involves
+<br/>
+            <br/>Unfaithfulness to thee.</div>
+         <p>The Aristidean for September looks and speaks re-
 <br/>markably well. Its papers are all pointed and forcible.
 <br/>“Travels in Texas” is one of the most interesting sketch-
 <br/>es we have seen in a year, and puts us in mind of the vi-
@@ -861,22 +942,40 @@ If still denied like rest Upon thy breast?
 <br/>are from the pen editorial. We notice, also, as espe-
 <br/>cially meritorious, “Popular Governments and Institu-
 <br/>tions”; and “ Leaves from aLog-Book." The Notices 
-<br/>of New Books are unusually full and particularly inde-
+<br/>
+            <br/>
+            <div class="columnbreak"/>of New Books are unusually full and particularly inde-
 <br/>pendent. The poetry of the number is, nevertheless, its
 <br/>chief feature. “Sir Albert De Veniter” is capital.</p>
          <p>Here is an excellent epigram:</p>
-         <br/>ALAS!
-<br/>To work like a Turk—what a life is an editor’s.!
-<br/>News-clipping, ink-dipping,
-<br/>Pasting and wasting,
-<br/>No rest ever tasting,
-<br/>And pestered to death with his creditors.
-<br/>Go loll on the soil, or dig cellars like Dan Nichols;
-<br/>Plough a field, trowel wield,
-<br/>Worry and flurry,
-<br/>And live in a hurry,
-<br/>But wear not an editor’s manacles.
-<p>Many of the other poetical pieces interspersed through-
+         <br/>
+         <div class="cit">
+            <span class="quote">
+               <div class="lg">
+                  <br/>ALAS!
+<br/>
+                  <br/>To work like a Turk—what a life is an editor’s.!
+<br/>
+                  <br/>News-clipping, ink-dipping,
+<br/>
+                  <br/>Pasting and wasting,
+<br/>
+                  <br/>No rest ever tasting,
+<br/>
+                  <br/>And pestered to death with his creditors.
+<br/>
+                  <br/>Go loll on the soil, or dig cellars like Dan Nichols;
+<br/>
+                  <br/>Plough a field, trowel wield,
+<br/>
+                  <br/>Worry and flurry,
+<br/>
+                  <br/>And live in a hurry,
+<br/>
+                  <br/>But wear not an editor’s manacles.</div>
+            </span>
+         </div>
+         <p>Many of the other poetical pieces interspersed through-
 <br/>out the number, are of a high order of excellence. “The
 <br/>Aristidean” is, upon the whole, an admirable journal,
 <br/>and will yet do good service.</p>
@@ -906,53 +1005,58 @@ If still denied like rest Upon thy breast?
       <br/>
       <div>
          <div class="head">Fairyland.</div>
-Dim vales—and shadowy floods—
-And cloudy-looking woods,
-Whose forms we can’t discover 
-For the tears that drip all over.
-Huge moons there wax and wane—
-Again—again—again—
-Every moment of the night—
-Forever changing places—
-And they put out the star-light
-With the breath from their pale faces.
-About twelve by the moon-dial
-One, more filmy than the rest 
-(A kind which, upon trial,
-They have found to be the best)
-Comes down—still down—and down
-With its centre on the crown 
-Of a mountain’s eminence,
-While its wide circumference
-In easy drapery falls
-Over hamlets, over halls,
-Wherever they may be—
-O’er the strange woods—o’er the sea—
-<a href="#p194"/>
-Over spirits on the wing—
-Over every drowsy thing—
-And buries them up quite 
-In a labyrinth of light—
-And then, how deep! O, deep!
-Is the passion of their sleep !
-In the morning they arise,
-And their moony covering 
-Is soaring in the skies,
-With the tempests as they toss,
-Like——almost any thing—
-Or a yellow Albatross.
-They use that moon no more
-For the same end as before—
-Videlicet a tent—
-Which I think extravagant:
-Its atomics, however,
-Into a shower dissever,
-Of which those butterflies,
-Of Earth, who seek the skies,
-And so come down again 
-(Never-contented things!)
-Have brought a specimen
-Upon their quivering wings.</div>	
+         <div class="lg">
+            <br/>Dim vales—and shadowy floods—
+<br/>And cloudy-looking woods,
+<br/>Whose forms we can’t discover 
+<br/>For the tears that drip all over.
+<br/>Huge moons there wax and wane—
+<br/>Again—again—again—
+<br/>Every moment of the night—
+<br/>Forever changing places—
+<br/>And they put out the star-light
+<br/>With the breath from their pale faces.
+<br/>About twelve by the moon-dial
+<br/>One, more filmy than the rest 
+<br/>(A kind which, upon trial,
+<br/>They have found to be the best)
+<br/>Comes down—still down—and down
+<br/>With its centre on the crown 
+<br/>Of a mountain’s eminence,
+<br/>While its wide circumference
+<br/>In easy drapery falls
+<br/>Over hamlets, over halls,
+<br/>Wherever they may be—
+<br/>O’er the strange woods—o’er the sea—
+<br/>
+            <div class="pagebreak" id="#page194"/>
+            <br/>
+            <div class="columnbreak"/>
+            <br/>Over spirits on the wing—
+<br/>Over every drowsy thing—
+<br/>And buries them up quite 
+<br/>In a labyrinth of light—
+<br/>And then, how deep! O, deep!
+<br/>Is the passion of their sleep !
+<br/>In the morning they arise,
+<br/>And their moony covering 
+<br/>Is soaring in the skies,
+<br/>With the tempests as they toss,
+<br/>Like——almost any thing—
+<br/>Or a yellow Albatross.
+<br/>They use that moon no more
+<br/>For the same end as before—
+<br/>Videlicet a tent—
+<br/>Which I think extravagant:
+<br/>Its atomics, however,
+<br/>Into a shower dissever,
+<br/>Of which those butterflies,
+<br/>Of Earth, who seek the skies,
+<br/>And so come down again 
+<br/>(Never-contented things!)
+<br/>Have brought a specimen
+<br/>Upon their quivering wings.</div>
+      </div>	
       <br/>
       <div>
          <div class="head">Fine Arts.</div>
@@ -998,7 +1102,9 @@ Upon their quivering wings.</div>
 <br/>table Jersey farmers, whose house and grounds skirted
 <br/>the canal. Our passengers quelled the rapacity-of their 
 <br/>stomachs—affording a pretty illustration of our constitu-
-<br/>tional declaration that all men are equal.</p>
+<br/>
+            <br/>
+            <div class="columnbreak"/>tional declaration that all men are equal.</p>
          <p>The frail and humble bark was honored with carrying
 <br/>representatives of the Senate, the Bar, and the Mart, and
 <br/>ey, forced into a momentary forgetfulness of the world-
@@ -1067,7 +1173,10 @@ Upon their quivering wings.</div>
 <br/>nute delicacy of expression, a softness of contour, and a 
 <br/>truthfulness of the party represented, that we never re-
 <br/>
-            <a href="#p195"/>
+            <br/>
+            <div class="pagebreak" id="#page195"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>collect to have seen equalled, and which impels us to
 <br/>acknowledge that the artist capable of executing such
 <br/>work, did not depend for success on the caprice or pride
@@ -1135,7 +1244,9 @@ Upon their quivering wings.</div>
 <br/>Birch, the auctioneer, would have favored the company
 <br/>with some remarks respecting the pictures; but with a 
 <br/>propriety highly creditable, he refrained therefrom, leav-
-<br/>ing the genuineness of the collection, and its being with-
+<br/>
+            <br/>
+            <div class="columnbreak"/>ing the genuineness of the collection, and its being with-
 <br/>out exchange or addition, to be inferred.</p>
          <div class="ab">6. De Marne. Landscape—Arrival of a Diligence at the 
 <br/>gates of the City. This was a pleasing subject, but its 
@@ -1206,7 +1317,10 @@ Upon their quivering wings.</div>
 <br/>style of the composition to be solemn and grand. We sup-
 <br/>pose it was, for it found a purchaser—Mr.	Marshall,	225</div>
          <div class="ab">60. A. Carracci. Christ and his Disciples at Sea in a Boat—
-<a href="#p196"/>
+<br/>
+            <div class="pagebreak" id="#page196"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>the Saviour sleeping.—Boldly painted, in the artist’s best
 <br/>style—canvass 5 feetx2 feet 3—Mr. Cuthbert,	125</div>
          <div class="ab">65 &amp; 66. A Pair of Marine Views, said to be by Vernet.—
@@ -1279,7 +1393,9 @@ Upon their quivering wings.</div>
 <br/>much in the style of Hondekoter—Mr. Robb,	160</div>
          <div class="ab">122.	P. De Champagne. Massanissa and Sophonisba.—A 
 <br/>badly drawn and wretchedly colored composition, attribu-
-<br/>ted to a master whose pictures have an agreeable tone
+<br/>
+            <br/>
+            <div class="columnbreak"/>ted to a master whose pictures have an agreeable tone
 <br/>of color, and are designed correctly—Francini,	200</div>
          <div class="ab">127. G. Delle Notta, or Gherard Honthorst. Christ Break-
 <br/>ing Bread with his Disciples.—A picture of some merit,
@@ -1345,7 +1461,10 @@ Upon their quivering wings.</div>
 <br/>situation, she assumes the dignity of an insulted woman,
 <br/>and frees herself from his embrace, were all so beautiful-
 <br/>ly and forcibly given, that we are disposed to consider
-<a href="#p197"/>
+<br/>
+            <div class="pagebreak" id="#page197"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>this scene the finest in the whole play; though it would
 <br/>be difficult, perhaps, for any thing to exceed the beauty of 
 <br/>her acting in the subsequent scene with Master Walter,
@@ -1415,7 +1534,9 @@ Upon their quivering wings.</div>
 <br/>there was hardly sufficient force and emphasis to his per-
 <br/>formance.</p>
          <p>Miss Julia Northall has improved in one respect: she
-<br/>seems almost content to sing the music nearly as it is
+<br/>
+            <br/>
+            <div class="columnbreak"/>seems almost content to sing the music nearly as it is
 <br/>written; she has given over embellishing too lavishly
 <br/>the composer’s ideas, and confines herself to a decided re-
 <br/>lantando and a trifling cadence at the close. This self-
@@ -1483,7 +1604,10 @@ Upon their quivering wings.</div>
 <br/>secured.</p>
          <p>The President of the Society announced from the or-
 <br/>
-            <a href="#p198"/>
+            <br/>
+            <div class="pagebreak" id="#page198"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>chestra that David would be given on the 10th of October.
 <br/>We may reasonably expect that this performance will ex-
 <br/>hibit some marked degree of excellence, as the Society
@@ -1548,7 +1672,9 @@ Upon their quivering wings.</div>
 <br/>Entertainment never before equalled in this country. We 
 <br/>have every confidence that the performance will he excel-
 <br/>lent, and can therefore consistently recommend the public 
-<br/>to attend it. It is just that the people of New York
+<br/>
+            <br/>
+            <div class="columnbreak"/>to attend it. It is just that the people of New York
 <br/>should support the spirited undertaking of Mr. Meigs, for
 <br/>a better entertainment is given for fifty cents, than the Sa-
 <br/>cred Music Society offer, in opposition, for one dollar.</p>
@@ -1567,47 +1693,48 @@ Upon their quivering wings.</div>
 <br/>touching truthfulness of narrative, it became popular, and
 <br/>being extensively copied, induced the author to ac-
 <br/>knowledge it. It runs thus:</p>
-Don’t you remember sweet Alice, Ben Bolt?
-Sweet Alice whose hair was so brown,
-Who wept with delight when you gave her a smile,
-And trembled with fear at your frown?
-In the old churchyard in the valley, Ben Bolt,
-In a corner obscure and alone,
-They have fitted a slab of the granite so gray,
-And Alice lies under the stone.
-Under the Hickory tree, Ben Bolt,
-Which stood at the foot of the hill,
-Together we’ve lain in the noonday shade,
-And listened to Appleton’s mill.
-The mill-wheel has fallen to pieces, Ben Bolt,
-The rafters have tumbled in,
-And a quiet which crawls round the walls as you gaze,
-Has followed the olden din.
-Do you mind the cabin of logs, Ben Bolt.
-At the edge of the pathless wood,
-And the button-ball tree with its motley limbs,
-Which nigh by the door-step stood?
-The cabin to ruin has gone, Ben Bolt,
-The tree you would seek in vain;
-And where once the lords of the finest waved,
-Grow grass and the golden grain.
-And don’t you remember the school, Ben Bolt.
-With the master so cruel and grim,
-And the shaded nook in the running brook,
-Where the children went to swim? 
-Grass grows on the master’s grave, Ben Bolt.
-The spring of the brook is dry,
-And of all the boys that were schoolmates then,
-There are only you and I.
-There is change in the things I loved, Ben Bolt
-They have changed from the old to the new;
-But I led in the core of any spirit the truth,
-There never was change in you.
-Twelvemonths twenty have past, Ben Bolt.
-Since first we were friends, yet I hail
-Thy presence a blessing, thy friendship a truth—
-Ben Bolt, of the salt-sea  gale.
-<p>Several musical people have attempted to adapt an
+         <div class="lg">
+            <br/>Don’t you remember sweet Alice, Ben Bolt?
+<br/>Sweet Alice whose hair was so brown,
+<br/>Who wept with delight when you gave her a smile,
+<br/>And trembled with fear at your frown?
+<br/>In the old churchyard in the valley, Ben Bolt,
+<br/>In a corner obscure and alone,
+<br/>They have fitted a slab of the granite so gray,
+<br/>And Alice lies under the stone.
+<br/>Under the Hickory tree, Ben Bolt,
+<br/>Which stood at the foot of the hill,
+<br/>Together we’ve lain in the noonday shade,
+<br/>And listened to Appleton’s mill.
+<br/>The mill-wheel has fallen to pieces, Ben Bolt,
+<br/>The rafters have tumbled in,
+<br/>And a quiet which crawls round the walls as you gaze,
+<br/>Has followed the olden din.
+<br/>Do you mind the cabin of logs, Ben Bolt.
+<br/>At the edge of the pathless wood,
+<br/>And the button-ball tree with its motley limbs,
+<br/>Which nigh by the door-step stood?
+<br/>The cabin to ruin has gone, Ben Bolt,
+<br/>The tree you would seek in vain;
+<br/>And where once the lords of the finest waved,
+<br/>Grow grass and the golden grain.
+<br/>And don’t you remember the school, Ben Bolt.
+<br/>With the master so cruel and grim,
+<br/>And the shaded nook in the running brook,
+<br/>Where the children went to swim? 
+<br/>Grass grows on the master’s grave, Ben Bolt.
+<br/>The spring of the brook is dry,
+<br/>And of all the boys that were schoolmates then,
+<br/>There are only you and I.
+<br/>There is change in the things I loved, Ben Bolt
+<br/>They have changed from the old to the new;
+<br/>But I led in the core of any spirit the truth,
+<br/>There never was change in you.
+<br/>Twelvemonths twenty have past, Ben Bolt.
+<br/>Since first we were friends, yet I hail
+<br/>Thy presence a blessing, thy friendship a truth—
+<br/>Ben Bolt, of the salt-sea  gale.</div>
+         <p>Several musical people have attempted to adapt an
 <br/>air to these Words; and there are, in consequence, live
 <br/>editions of the song afloat, issued under the auspices of 
 <br/>various publishers. In some of these a portion of the
@@ -1616,7 +1743,10 @@ Ben Bolt, of the salt-sea  gale.
 <br/>intention, and bear every evidence of their accidental na-
 <br/>ture. The one before us is of a different kind. It occurs
 <br/>on two pages of music and words, published by Oliver &amp;
-<a href="#p199"/>
+<br/>
+            <div class="pagebreak" id="#page199"/>
+            <br/>
+            <div class="columnbreak"/>
 Ditsen, Washington street, Boston, with the following title:—</p>
          <p>There's a change in the things I love. Composed and respect-
 <br/>fully dedicated to his friend B. F. Baker, Esq., by Joseph P: Web-
@@ -1629,39 +1759,40 @@ Ditsen, Washington street, Boston, with the following title:—</p>
 <br/>the poem as given above, he gives four of the stanzas
 <br/>only, and in the following form—the italics, which mark
 <br/>the alterations and additions, being our own:—</p>
-O don’t you remember sweet Alice, Ben Bolt,
-Sweet Alice with hair so brown;
-Who wept with delight when you gave her a smile,
-And trembled with fear at your frown.
-In the old church-yard in the Abbey, Ben Bolt,
-In a comer obscure and alone,
-They have fitted a slab of the granite so gray,
-And Alice lies under the stone.
-O don't you remember the wood, Ben Bolt,
-That grew on the green sunny hill;
-Where oft ire bote played ’neath its wide-spreading shade,
-And listened to Appleton’s mill.
-The mill bets gone to decay, Ben Bolt,
-And the rafters have fallen in,
-And a quiet has settled on all around,
-In the place of the olden din.
-O don’t you remember the school, Ben Bolt,
-With the master so cruel and grim; 
-And the quiet nook and the running brook,
-Where the school boys went to swim.
-Grass grows on the master’s grave, Ben Bolt,
-And the running brook is dry:
-And of all the boys who were schoolmates then,
-There is only you and I.
-There's a change in the things I love, Ben Bolt,
-A change from the old to the new;
-But I feel in the core of my heart, Ben Bolt,
-There never was change in you.
-Twelve months—twenty have passed, Ben Bolt,
-But still with delight I hail 
-Thy presence a blessing, thy friendship a truth,
-Ben Bolt of the salt sea gale.
-<p>Now, in the name of the craft of authors we protest
+         <div class="lg">
+            <br/>O don’t you remember sweet Alice, Ben Bolt,
+<br/>Sweet Alice with hair so brown;
+<br/>Who wept with delight when you gave her a smile,
+<br/>And trembled with fear at your frown.
+<br/>In the old church-yard in the Abbey, Ben Bolt,
+<br/>In a comer obscure and alone,
+<br/>They have fitted a slab of the granite so gray,
+<br/>And Alice lies under the stone.
+<br/>O don't you remember the wood, Ben Bolt,
+<br/>That grew on the green sunny hill;
+<br/>Where oft ire bote played ’neath its wide-spreading shade,
+<br/>And listened to Appleton’s mill.
+<br/>The mill bets gone to decay, Ben Bolt,
+<br/>And the rafters have fallen in,
+<br/>And a quiet has settled on all around,
+<br/>In the place of the olden din.
+<br/>O don’t you remember the school, Ben Bolt,
+<br/>With the master so cruel and grim; 
+<br/>And the quiet nook and the running brook,
+<br/>Where the school boys went to swim.
+<br/>Grass grows on the master’s grave, Ben Bolt,
+<br/>And the running brook is dry:
+<br/>And of all the boys who were schoolmates then,
+<br/>There is only you and I.
+<br/>There's a change in the things I love, Ben Bolt,
+<br/>A change from the old to the new;
+<br/>But I feel in the core of my heart, Ben Bolt,
+<br/>There never was change in you.
+<br/>Twelve months—twenty have passed, Ben Bolt,
+<br/>But still with delight I hail 
+<br/>Thy presence a blessing, thy friendship a truth,
+<br/>Ben Bolt of the salt sea gale.</div>
+         <p>Now, in the name of the craft of authors we protest
 <br/>against such impudent thieving as this. The thing is
 <br/>growing to a nuisance. No sooner does a literary man
 <br/>produce anything worthy of especial note, than some
@@ -1682,7 +1813,9 @@ Ben Bolt of the salt sea gale.
 <br/>to bear in mind that “distance lends enchantment to the
 <br/>view. Ceteris paribus, a foreign theme is, in a strictly
 <br/>literary sense, to be preferred. Alter all, the world at
-<br/>large is the only legitimate stage for the autorial histrio.</p>
+<br/>
+            <br/>
+            <div class="columnbreak"/>large is the only legitimate stage for the autorial histrio.</p>
          <p>But of the need of that nationality which defends our own
 <br/>literature, sustains our own men of letters, upholds our own
 <br/>dignity, and depends upon our own resources, there cannot
@@ -1748,7 +1881,10 @@ Ben Bolt of the salt sea gale.
 <br/>not more than self-evidont. Mr. Lowell is called “a mag-
 <br/>pie,” an “ape,” a “Yankee cockney,” and his name is
 <br/>intentionally mis-written John Russell Lowell. Now
-<a href="#p200"/>
+<br/>
+            <div class="pagebreak" id="#page200"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>were these indecencies perpetrated by any American 
 <br/>critic, that critic would be sent to Coventry by the whole 
 <br/>press of the country, but since it is Wilson who insults,
@@ -1815,7 +1951,9 @@ Ben Bolt of the salt sea gale.
 <br/>is, we are ashamed both of Mr. Lord and of his book.
 <br/>His chicaneries have done more to convince the public
 <br/>of his utter want of poetic (or of any other kind of) spir-
-<br/>it, than even the bombast, egotism, and inanity of “Nia-
+<br/>
+            <br/>
+            <div class="columnbreak"/>it, than even the bombast, egotism, and inanity of “Nia-
 <br/>gara” itself.</p>
          <p>There is a rumor that the plates of the Natural Histo-
 <br/>ry Department of the Exploring Expedition book are in
@@ -1878,8 +2016,10 @@ Ben Bolt of the salt sea gale.
          <p>The editor of “Graham’s Magazine" assures us that
 <br/>certainly he has paid, (according to Dr. Griswold’s con-
 <br/>tract.) for Mr. William Jones’articles—hut that he (Mr.
-<a href="#p201"/>
-Graham) has not the slightest inten-
+<br/>
+            <div class="pagebreak" id="#page201"/>
+            <br/>
+            <div class="columnbreak"/>Graham) has not the slightest inten-
 <br/>tion of ever using them. No doubt
 <br/>they are at Mr. Jones’ service.</p>
          <p>To Correspondents.—Shall we not'
@@ -1979,6 +2119,8 @@ Graham) has not the slightest inten-
 <br/>Ladies’ Class meets daily at 11 o'clock. Gentle-
 <br/>men's day and evening. See Circular. s18 2wis</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">161 Broadway, September, 1845.
 <br/>WILEY &amp; PUTNAM'S 
@@ -2100,7 +2242,9 @@ Graham) has not the slightest inten-
       <div>
          <div class="ab">AMERICAN SERIES. 
 <br/>Of the “Library of American Books,’ the fol
-<br/>lowing have already been issued:
+<br/>
+            <br/>
+            <div class="columnbreak"/>lowing have already been issued:
 <br/>JOURNAL OF AN AFRICAN CRUISER, EDITED
 <br/>BY NATHANIEL HAWTHORNE.
 <br/>TALES BY EDGAR A. POE.
@@ -2219,7 +2363,10 @@ Graham) has not the slightest inten-
 <br/>GLENN, ROGERS &amp; CO., Manufacturers,
 <br/>152 Fulton street, East of Broadway.</div>
       </div>
-      <a href="#p202"/>
+      <br/>
+      <div class="pagebreak" id="#page202"/>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">J. F. BROWNE &amp; CO.
 <br/>-MANUFACTURER OF THE
@@ -2260,6 +2407,8 @@ Graham) has not the slightest inten-
 <br/>improvements in this delightful Instrument.
 <br/>Harps from 300 to 1000 dollars. Harps repaired, strings, &amp;c.</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">The southern literary messenger.
 <br/>B.B MINOR, Proprietor. Pub island monthly,
@@ -2311,6 +2460,8 @@ Graham) has not the slightest inten-
 <br/>wishing to purchase will find it to their advantage
 <br/>to call and examine before purchasing elsewhere.</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">BEETHOVEN’S MOUNT OF OLIVES AND
 <br/>the SEVEN SLEEPERS—During the week of
@@ -2363,6 +2514,8 @@ Graham) has not the slightest inten-
 <br/>CARDS, engraved and printed at VALEN-
 <br/>TINE’S, 1 Beekman street— Lovrjoy’s Hotel</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">J BALLARD. PROFESSOR OF THE GUITAR,
 <br/>Singing, and Flute, No. 135 Spring street.</div>
@@ -2409,11 +2562,17 @@ Graham) has not the slightest inten-
       </div>
    </div>
    <div class="back">
-          Moraux is here derived from mæurs and its meaning is "fash-
+          <span class="note" id="n001">
+         <a href="#a001"/>
+      </span>Moraux is here derived from mæurs and its meaning is "fash-
             <br/>ionable," or, more strictly, "of manners."
-          Speaking of the tides, Pomponius Mela, in his treatise De Situ 
+          <span class="note" id="n002">
+         <a href="#a002"/>
+      </span>Speaking of the tides, Pomponius Mela, in his treatise De Situ 
             <br/>Orbis," says “either the world is a great animal, or" &amp;c.
-          Florem putares nare per liquidum æthera.
+          <span class="note" id="n003">
+         <a href="#a003"/>
+      </span>Florem putares nare per liquidum æthera.
             <br/>P. Commire.
         </div>
 </div>

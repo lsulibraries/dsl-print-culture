@@ -13,20 +13,23 @@
     </div>
    <div class="body">
       
-      
-      
-        Truth, whether in or out of fashion, it the measure of knowledge and the buti-
+      <br/>
+      <div class="columnbreak"/>
+      <div class="cit">
+        <span class="quote">Truth, whether in or out of fashion, it the measure of knowledge and the buti-
           <br/>ness of the understanding ; whatsoever to beside that, however authorised
           by con-
           <br/>tent or recommended by variety, it nothing but ignorance, or something
-          worse. 
+          worse. </span>
         <br/>
-        <span class="person" id="">Locke</span>
-      
+        <div class="bibl">
+            <span class="person">Locke</span>
+         </div>
+      </div>
 
-      <div id="#s1" class="section">
+      <div class="section" id="#s1">
         <div class="head">REVIEWS.</div>
-        <div id="#p1" class="piece">
+        <div class="piece" id="#p1">
             <div class="head">Woman in the Nineteenth Century.</div>
             <div class="ab">(Second Notice.)</div>
             <p>The great defect of Miss Fuller’s book is a want of dis-
@@ -76,7 +79,8 @@
             <br/>instincts of the mass can be trusted more safely than the spe-
             <br/>culations of any individual. Men and women fall naturally
             <br/>into their proper spheres when let alone, and there can be no
-            need of any violent revolutions to displace them from their
+            <br/>
+               <div class="columnbreak"/>need of any violent revolutions to displace them from their
             <br/>true positions. The restraints which Miss Fuller complains
             <br/>of as hindering women from becoming blacksmiths, sailors,
             <br/>and soldiers, are the restraints which Nature has imposed,
@@ -132,8 +136,10 @@
             <br/>bundance.</p>
             <p>There are many admirable little episodes in the book, which ever and anon appear, like
             springs of tweet water
-            <a href="#p146"/>
-            bubbling out of a sterile soil, and charm us by their sparkles and music.
+            <br/>
+               <div class="pagebreak" id="#page146"/>
+               <br/>
+               <div class="columnbreak"/>bubbling out of a sterile soil, and charm us by their sparkles and music.
             There are too few of passages like the following:</p>
             <p>"Only in a clean body can the soul do its message fitly. The prai-
             <br/>ses of cold water seem to me an excellent sign of the age. They de-
@@ -208,7 +214,8 @@
             <br/>he sets sail upon the Rhine. The maiden still watching beneath the
             <br/>vines, sees at last the object of all this partial love approach. Ap-
             <br/>proach, but not to touch the strand, to which she with outstretched
-            arms had rushed. He dares not trust himself to land; but in low heart
+            <br/>
+               <div class="columnbreak"/>arms had rushed. He dares not trust himself to land; but in low heart
             <br/>and broken tones, tells her of Heavens will; and that he, in obedi-
             <br/>ence to his vision, is now on the way to a convent, on the river bank,
             <br/>there to pass the rest of his earthly life, in the service of the shrine.
@@ -236,7 +243,7 @@
             <br/>the exact quality of her mind.</p>
         </div>
 
-        <div id="#p2" class="piece">
+        <div class="piece" id="#p2">
             <p>Glossary or Ecclesiastical Ornament and Costume. Compiled and illustra-
             <br/>ted from ancient authorities and examples, by A. Welby Puyin, architect.
             <br/>London, 1844. Imported by Wiley and Putnam, New York.</p>
@@ -281,8 +288,10 @@
             <br/>girded a sword upon the thigh of a bishop, it was unavoida-
             <br/>ble that the same violent feeling should lavish the wealth
             <br/>of an empire upon the decorations of a house of worship, and
-            <a href="#p147"/>
-            that more thought should be given to the nimbus of a saint
+            <br/>
+               <div class="pagebreak" id="#page147"/>
+               <br/>
+               <div class="columnbreak"/>that more thought should be given to the nimbus of a saint
             <br/>than to the glory of God. But in these days of colporteurs
             <br/>and Bible Societies, when Christians go to Jerusalem to con-
             <br/>vert the Musselman and not to slay him, it is a feeling close-
@@ -352,7 +361,8 @@
             <br/>other name than that of unmeaning detail, dictated by no rule but
             <br/>that of individual fancy and caprice. Every ornament to deserve the
             <br/>name must form an appropriate meaning, and be introduced with an
-            intelligent purpose, and on reasonable grounds. The symbolical asso-
+            <br/>
+               <div class="columnbreak"/>intelligent purpose, and on reasonable grounds. The symbolical asso-
             <br/>ciations of each ornament must be understood and considered : other-
             <br/>wise things beautiful in themselves will be rendered absurd in their
             <br/>application. It is to the neglect of these principles that we may trace
@@ -368,7 +378,7 @@
             <br/>It has been said poetically, that, ' where use is exiled, beauty scorns
             <br/>to dwell,' and the sentiment is founded in truth and reason."</p>
         </div>
-        <div id="#p3" class="piece">
+        <div class="piece" id="#p3">
             <p>IMITATION—PLAGIARISM—MR. POE’S REPLY TO THE LETTER OF
             <br/>OUTIS—A LARGE ACCOUNT OF A SMALL MATTER—A VOLUMINOUS HIS-
             <br/>TORY OF THE LITTLE LONGFELLOW WAR.</p>
@@ -430,8 +440,10 @@
             <br/>then the satire of the “all" in Mr. Willis’ manifesto becomes
             <br/>apparent at once. Mr. Longfellow did not see it; and I
             <br/>presume his friends did not see it. I did. In my mind’s eye
-            <a href="#p148"/>
-            it expanded itself thus ;—“My dear Sir, or Sirs, what will
+            <br/>
+               <div class="pagebreak" id="#page148"/>
+               <br/>
+               <div class="columnbreak"/>it expanded itself thus ;—“My dear Sir, or Sirs, what will
             <br/>you have? You are an insatiable set of cormorants, it is
             <br/>true; but if you will only let me know what you desire, I
             <br/>will satisfy you, if I die for it. Be quick !—merely say what
@@ -471,35 +483,35 @@
             <br/>the mean time it is rendered necessary that once again we give pub-
             <br/>licity to the collation of poems in question. Mr. Hood’s lines run thus
             :</p>
-          
-            We watched her breathing through the night,
-            Her breathing soft and low, As in her breast the wave of life
-            Kept heaving to and fro.
-            So silently we seemed to speak,
-            So slowly moved about,
-            As we had lent her half our powers
-            To eke her being out.
-            Our very hope belied our fears;
-            Our fears our hope belied;
-            We thought her dying when she slept.
-            And sleeping when she died.
-            But when the morn came dim and sad.
-            And chill with early showers,
-            Her quiet eyelids dosed ;—she had
-            Another morn than ours.
-          
-          <div class="ab">Mr. Aldrich’s thus:--</div>
-          
-            Her sufferings ended with the day,
-            Yet lived she at its close.
-            And breathed the long, long night away
-            In statue-like repose ;
-            But when the sun in all its state
-            Illumed the eastern skies,
-            She passed through Glory’s morning gate.
-            And walked in paradise.
-          
-          <p>And here, to be sure, we might well leave a decision in the ease to
+            <div class="lg">
+               <br/>We watched her breathing through the night,
+            <br/>Her breathing soft and low, As in her breast the wave of life
+            <br/>Kept heaving to and fro.
+            <br/>So silently we seemed to speak,
+            <br/>So slowly moved about,
+            <br/>As we had lent her half our powers
+            <br/>To eke her being out.
+            <br/>Our very hope belied our fears;
+            <br/>Our fears our hope belied;
+            <br/>We thought her dying when she slept.
+            <br/>And sleeping when she died.
+            <br/>But when the morn came dim and sad.
+            <br/>And chill with early showers,
+            <br/>Her quiet eyelids dosed ;—she had
+            <br/>Another morn than ours.
+          </div>
+            <div class="ab">Mr. Aldrich’s thus:--</div>
+            <div class="lg">
+               <br/>Her sufferings ended with the day,
+            <br/>Yet lived she at its close.
+            <br/>And breathed the long, long night away
+            <br/>In statue-like repose ;
+            <br/>But when the sun in all its state
+            <br/>Illumed the eastern skies,
+            <br/>She passed through Glory’s morning gate.
+            <br/>And walked in paradise.
+          </div>
+            <p>And here, to be sure, we might well leave a decision in the ease to
             <br/>the verdict of common sense. But since the “Broadway Journal” in-
             <br/>sists upon the “no resemblance,” we are constrained to point out es-
             <br/>pecially where our supposed similarity lies. In the first place, then,
@@ -518,7 +530,8 @@
             <br/>structed into identical stanzas.</p>
             <p>At this point the matter rested for a fortnight, when a fourth
             <br/>friend of Mr. Longfellow took up the cudgels for him and
-            Mr. Aldrich conjointly, in another communication to the
+            <br/>
+               <div class="columnbreak"/>Mr. Aldrich conjointly, in another communication to the
             <br/>“Mirror.” I copy it in full.</p>
             <div class="ab">PLAGIARISM.</div>
             <p>Dear Willis—Fair play is a jewel, and I hope you will let us have
@@ -616,8 +629,10 @@
             <br/>may steal what he can conceal in his pocket, or his chest—but one
             <br/>must be utterly non compos, to steal a splendid shawl, or a magnifi-
             <br/>cent plume, which had been admired by thousands for its singular
-            <a href="#p149"/>
-            beauty, for the purpose of sporting it in Broadway. In nine hundred
+            <br/>
+               <div class="pagebreak" id="#page149"/>
+               <br/>
+               <div class="columnbreak"/>beauty, for the purpose of sporting it in Broadway. In nine hundred
             <br/>and ninety-nine cases of a thousand, such charges are absurd, and in-
             <br/>dicate rather the carping littleness of the critic, than the delinquency
             <br/>of his victim.</p>
@@ -635,21 +650,21 @@
             <br/>plagiarisms then, and show them up? Or are they only verbal imita-
             <br/>tions of style? Perhaps this is one of them, in his poem on the “Sea
             <br/>Weed.”
-            
-              -----“drifting, drifting, drifting
-              On the shirting
-              Currents of the restless main.”
-            
-            <br/>resembling, in form and collocation only, a line in a beautiful and very
+            <div class="lg">
+                  <br/>-----“drifting, drifting, drifting
+              <br/>On the shirting
+              <br/>Currents of the restless main.”
+            </div>
+               <br/>resembling, in form and collocation only, a line in a beautiful and very
             <br/>powerful poem of Mr. Edgar A. Poe. (Write it rather Edgar, a
             <br/>Poet, and then it is right to a T.) I have not the poem before me,
             <br/>and have forgotten its title. But he is describing a magnificent intel-
             <br/>lect in ruins, if I remember rightly—and, speaking of the eloquence
-            <br/>of its better days, represents it as 
-              -----"flowing, flowing, flowing
-              Like a river.”
-            
-          </p>
+            <br/>of its better days, represents it as <div class="lg">
+                  <br/>-----"flowing, flowing, flowing
+              <br/>Like a river.”
+            </div>
+            </p>
             <p>Is this what the critic means? Is it such imitations as this
             <br/>that he alludes to? If not, I am at fault, either in my reading of
             <br/>Longfellow, or in my general familiarity with the American Poets.
@@ -666,25 +681,25 @@
             <br/>pable imitation of the manner of Coleridge, in several stanzas of the
             <br/>Ancient Mariner. Let me put them together.</p>
             <p>Mr. Poe says— 
-            
-              " Let me see, then, what thereat is, and this mystery explore,
-              Let my heart be still a moment, and this mystery explore.”
-            
-            <br/>And again— 
-            
-              “It shall clasp a sainted maiden, whom the angels name Lenore—
-              Clasp a rare and radiant maiden, whom the angels name Lenore.”
-            
-            <br/>Mr. Coleridge says, (running two lines into one): 
-            
-              “For all averred I had killed the bird, that made the breeze to blow.
-              ' Ah, wretch !’ said they, ‘the bird to slay, that made the breeze to blow.” '
-            
-            <br/>And again— 
-              "They all averred I had killed the bird, that brought the fog and mist.
-              ’ ’Twas right,’ said they, ‘ such birds to slay, that bring the fog and mist.
-            
-          </p>
+            <div class="lg">
+                  <br/>" Let me see, then, what thereat is, and this mystery explore,
+              <br/>Let my heart be still a moment, and this mystery explore.”
+            </div>
+               <br/>And again— 
+            <div class="lg">
+                  <br/>“It shall clasp a sainted maiden, whom the angels name Lenore—
+              <br/>Clasp a rare and radiant maiden, whom the angels name Lenore.”
+            </div>
+               <br/>Mr. Coleridge says, (running two lines into one): 
+            <div class="lg">
+                  <br/>“For all averred I had killed the bird, that made the breeze to blow.
+              <br/>' Ah, wretch !’ said they, ‘the bird to slay, that made the breeze to blow.” '
+            </div>
+               <br/>And again— <div class="lg">
+                  <br/>"They all averred I had killed the bird, that brought the fog and mist.
+              <br/>’ ’Twas right,’ said they, ‘ such birds to slay, that bring the fog and mist.
+            </div>
+            </p>
             <p>I have before me an anonymous poem, which I first saw some five
             <br/>years ago, entitled “The Bird of the Dream.” I should like to tran-
             <br/>scribe the whole—but it is too long. The author was awaked from
@@ -692,24 +707,26 @@
             <br/>—the sweet notes had mingled with his dreams, and brought to his
             <br/>remembrance, the sweeter voice of his lost “Clare.” He says—</p>
             <p>
-              " And thou wert in my dream—a spirit thou didst seem—
-              The spirit of a friend long since departed;
-              Oh! she was fair and bright, but she left me one dark night—
-              She left me all alone, and broken-hearted.
-            
-            <br/>* * * * * * * * 
-            
-              My dream went on, and thou went a warbling too, 
-              Mingling the harmonies of earth and heaven ; 
-              Till away—away—away—beyond the realms of day— 
-              My angel Clare to my embrace was given.
-            
-            <br/>* * * * * * * *
-            
-              Sweet bird from realms of light, oh! come again to-night,
-              Come to my window—perch upon my chair— 
-              Come give me back again that deep impassioned strain
-              That tells me thou hast seen and loved my Clare.
+               <div class="lg">
+                  <br/>" And thou wert in my dream—a spirit thou didst seem—
+              <br/>The spirit of a friend long since departed;
+              <br/>Oh! she was fair and bright, but she left me one dark night—
+              <br/>She left me all alone, and broken-hearted.
+            </div>
+               <br/>* * * * * * * * 
+            <div class="lg">
+                  <br/>My dream went on, and thou went a warbling too, 
+              <br/>Mingling the harmonies of earth and heaven ; 
+              <br/>Till away—away—away—beyond the realms of day— 
+              <br/>My angel Clare to my embrace was given.
+            </div>
+               <br/>* * * * * * * *
+            <div class="lg">
+                  <br/>Sweet bird from realms of light, oh! come again to-night,
+              <br/>Come to my window—perch upon my chair— 
+              <br/>Come give me back again that deep impassioned strain
+              <br/>That tells me thou hast seen and loved my Clare.
+            </div>
             </p>
             <p>Now I shall not charge Mr. Poe with Plagiarism—for, as I have
             <br/>said, such charges are perfectly absurd. Ten to one, he never saw
@@ -731,7 +748,8 @@
             <br/>to offset the dozen found between Aldrich and Hood, and that too,
             <br/>without a word of rhythm, metre or stanza, which should never form a
             <br/>part of such a comparison. Moreover, this same poem contains an
-            example of that kind of repetition, which I have supposed the critic
+            <br/>
+               <div class="columnbreak"/>example of that kind of repetition, which I have supposed the critic
             <br/>meant to charge upon Longfellow as one of his imitations--
             <br/>" Away—away—away,” &amp;c.</p>
             <p>I might pursue it further. But I will not. Such criticisms only
@@ -741,7 +759,9 @@
             <br/>the lovers of true poetry hereabouts. It is remarkable for its power,
             <br/>beauty, and originality, (out upon the automaton owl that has pre-
             <br/>sumed to croak out a miserable parody—I commend him to the ten-
-            <br/>der mercies of Haynes Bayley,)  and shows more forcibly than any
+            <br/>der mercies of Haynes Bayley,) <span class="anchor" id="a001">
+                  <a href="#n001"/>
+               </span> and shows more forcibly than any
             <br/>which I can think of, the absurdity and shallowness of this kind of
             <br/>criticism.</p>
             <p>One word more,—though acquainted with Mr. Longfellow, I have
@@ -803,8 +823,10 @@
             <br/>thies are always in favor of distinction. “It is not likely,”
             <br/>we say in our hearts "that so distinguished a personage
             <br/>as A. would be guilty of plagiarism from this B. of whom
-            <a href="#p150"/>
-            nobody in the world has ever heard.” We give judgment,
+            <br/>
+               <div class="pagebreak" id="#page150"/>
+               <br/>
+               <div class="columnbreak"/>nobody in the world has ever heard.” We give judgment,
             <br/>therefore, at once against B. of whom nobody in the world
             <br/>has ever heard; and it is for the very reason that nobody in
             <br/>world has ever heard of him, that, in ninety-nine cases out of
@@ -869,17 +891,18 @@
             <br/>sume the subject at some length in the next” Journal,” and
             <br/>hope to convince our friend Outis that he has made a series
             <br/>of very singular mistakes.</p>
-          E. A. P.
+            <div class="byline">E. A. P.</div>
         </div>
       </div>
 
 
-      
-      <div id="#p4" class="piece">
+      <br/>
+      <div class="columnbreak"/>
+      <div class="piece" id="#p4">
         <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING.</div>
         <br/>
         <div class="ab">NO. IV.
-          <br/>BY <span class="person" id="">WILLIAM PAGE</span>.</div>
+          <br/>BY <span class="person">WILLIAM PAGE</span>.</div>
         <p>No, all the outcry that has been made against imitation,
           <br/>and in favor of the ideal, anti-natural, is most unadulterated
           <br/>cant, and though propped up by the words of Reynolds, and
@@ -941,8 +964,10 @@
           <br/>over a darker Yellow, and again a lighter Yellow over a
           <br/>darker Red, we could go on, on this principle, multiplying
           <br/>this one infinitely, and yet always producing a distinctive
-          <a href="#p151"/>
-          character that a nice eye would discern and enjoy. And it is
+          <br/>
+            <div class="pagebreak" id="#page151"/>
+            <br/>
+            <div class="columnbreak"/>character that a nice eye would discern and enjoy. And it is
           <br/>by this means that Nature ekes out her unmeasured treasures,
           <br/>to make a fuller, richer, more varied bouquet, for the dainty
           <br/>eye of man. And yet we painters will do without this: we’ll
@@ -1008,8 +1033,9 @@
           <br/>local color will be undisturbed, and the accidental color will
           <br/>be kept separate from the thing itself as it should evidently
           <br/>he, and a more perfect imitation than can possibly be attain-
-          
-          <br/>ed by any other means known will follow. No sky ever
+          <br/>
+            <div class="columnbreak"/>
+            <br/>ed by any other means known will follow. No sky ever
           <br/>was or can be truly represented, unless some of this using
           <br/>the principle existent in the thing itself be adopted, any more
           <br/>than the conch shell, the inside of which is by so many sup-
@@ -1049,7 +1075,7 @@
           <br/>tery ; let each fix what each best sees and knows, and the
           <br/>garden of art will again blossom with fresh beauties.</p>
       </div>
-      <div id="#p5" class="piece">
+      <div class="piece" id="#p5">
         <div class="head">THOUGHTS OF A SILENT MAN.</div>
         <div class="ab">
             <br/>No. 1.
@@ -1076,11 +1102,13 @@
           <br/>bargaining and trading; they feel no vacancy of soul, because
           <br/>they have filled that temple of the living God with the ta-
           <br/>bles of the money changers.</p>
-        <a href="#p152"/>
+        <br/>
+         <div class="pagebreak" id="#page152"/>
 
 
 
-        
+        <br/>
+         <div class="columnbreak"/>
         <p>But to those who think deeply, and feel vividly, expres-
           <br/>sion is a necessity of their being ; they must “speak or die.”
           <br/>Some find their utterance in the interchange of socialities,
@@ -1099,7 +1127,8 @@
           <br/>yet deterring it from utterance.</p>
 
 
-        
+        <br/>
+         <div class="columnbreak"/>
         <p>Without putting forth any pretension to the possession of
           <br/>the higher order of such power, I may yet claim to know
           <br/>something of the discomforts attendant upon compulsory
@@ -1120,7 +1149,7 @@
       </div>
 
       
-      <div id="#p6" class="piece">
+      <div class="piece" id="#p6">
         <div class="head">Letter from James Given in New York, to his Cousin Hugh Hughes, of Pool Lane,
           Liverpool.</div>
         <div class="ab">Globe Hotel, March 3, 1845.</div>
@@ -1187,9 +1216,10 @@
         <div class="ab">Ever yours, JAMES GIVEN.
           <br/>PS. Direct your letters care of F. Myrtle, Now York.</div>
       </div>
-      <a href="#p153"/>
+      <br/>
+      <div class="pagebreak" id="#page153"/>
 
-      <div id="#p7" class="piece">
+      <div class="piece" id="#p7">
         <p>No person of proper feeling can peruse the works of a distinguished author or authoress
           (the latter is a very absurd word, to be sure, but
           <br/>for that very reason the more necessary,) without an instantaneous desire to make his
@@ -1233,14 +1263,18 @@
           <br/>penultimate ode “To the Universe.”</p>
         
           <div class="head">PORTRAIT OF A DISTINGUISHED AUTHORESS.</div>
-          <span class="person" id="">E. Brown</span>
+          <div class="byline">
+            <span class="person">E. Brown</span>
+         </div>
         
       </div>
-      <a href="#p154"/>
+      <br/>
+      <div class="pagebreak" id="#page154"/>
 
       
-      
-      <div id="#p5" class="piece">
+      <br/>
+      <div class="columnbreak"/>
+      <div class="piece" id="#p5">
         <div class="ab">(Continued from page 152.)</div>
         <p>I cannot talk. An unfortunate impediment in my speech,
           <br/>which is always increased by any nervous excitement, is one
@@ -1310,216 +1344,222 @@
           <br/>much as if we looked upon an apparition from the world of
           <br/>shadows, and like the witch of Endor, we are terrified before
           <br/>the spectre we have ourselves called forth.</p>
-        <span class="person" id="">RUDOLPH HERTZMAN</span>.
+        <div class="byline">
+            <span class="person">RUDOLPH HERTZMAN</span>.</div>
       </div>
 
 
-      
-      <div id="#s2" class="section">
+      <br/>
+      <div class="columnbreak"/>
+      <div class="section" id="#s2">
         <div class="head">Original Poetry.</div>
-        <div id="#p8" class="piece">
+        <div class="piece" id="#p8">
             <div class="head">THE GHOST-SEER.</div>
-          
-            Ye who, passing graves by night,
-            Glance not to the left nor right
-            Lest a spirit should arise,
-            Cold and white, to freeze your eyes,
-            Some weak phantom, which your doubt
-            Shapes upon the dark without
-            From the dark within, a guess
-            At the spirit’s deathlessness,
-            Which ye entertain with fear
-            In your self-built dungeon here,
-            Where ye dance and shake your chain
-            As if freedom would be pain,—
-            Ye without a shudder meet
-            In the city’s noon-day street,
-            Spirits sadder and more dread
-            Than from out the clay have fled :
-            Spirits buried dark and deep
-            In a grave where never sleep,
-            The cool dew of Paradise,
-            Drops upon their burning eyes,
-            Buried, beyond hope of light,
-            In the body’s haunted night!
-            See ye not that woman pale?
-            Where are bloodhounds on her trail,
-            Bloodhounds two, all gaunt and lean,
-            For the soul their scent is keen,
-            Want and Sin, and Sin is last,
-            They have followed far and fast;
-            Want gave tongue, and, at her howl,
-            Sin awakened with a growl.
-            ’Twas the World and the World’s law
-            Let them slip and cried, Hurrah!
-            Ah, poor girl! she had a right
-            To a blessing from the light,
-            Title deeds to sky and earth
-            God gave to her at her birth,
-            But, before they were enjoyed,
-            Poverty had made them void,
-            And had drunk the sunshine up
-            From all nature’s ample cup,
-            Leaving her a firstborn’s share
-            In the dregs of darkness there.
-            Often, on the sidewalk bleak,
-            Hungry, all alone, and weak.
-            She has seen, in night and storm,
-            Rooms o’erflow with firelight warm,
-            Which, outside the window glass
-            Doubled all the cold, alas !
-            Till each ray that on her fell
-            Stabbed her like an icicle,
-            And she almost loved the wail
-            Of the bloodhounds on her trail.
-            Till the floor becomes her bier
-            She shall feel their pantings near.
-            Close upon her very heels,
-            ’Spite of all the din of wheels ;
-            Shivering on her pallet floor,
-            She shall hear them at the door
-            Whine and scratch to be let in.
-            Sister bloodhounds, Want and Sin !
-            Hark ! that rustle of a drew
-            Stiff with lavish costliness !
-            Here comes one whose cheek would flush
-            But to have her garment brush
-            ’Gainst the girl whose fingers thin
-            Wove the weary broidery in,
-            Who bent backward from her toil
-            Lest her tears the silk might soil,
-            And, in midnight chill and murk,
-            Stitched her life into the work.
-            Little doth the wearer heed
-            Of the heart break in the brede,
-            A hyena by her side
-            Skulks, downlooking—it is Pride.
-            He digs for her in the earth,
-            Where lie all her claims of birth,
-            With his foul paws rooting o’er
-            Some long-buried ancestor
-            Who, most like, a statue won
-            By the ill deeds he had done.
-            Round her heart and round her brain
-            Wealth hath linked a golden chain,
-            Which doth dose and closer press
-            Heart and brain to narrowness.
-            Every morn and every night
-            She must bare that bosom white,
-            Which so thrillingly doth rise
-            ’Neath its proud embroideries,
-            What its mere heave lets men know
-            How much whiter 'tis than snow,—
-            She must bare it, and, unseen,
-            Suckle that hyena lean ;—
-            Ah! the fountain’s angel shrinks,
-            And forsakes it while he drinks !
-            There walks Judas, he who sold
-            Yesterday his Lord for gold,
-            Sold God’s presence in his heart
-            For a proud step in the Mart;
-            He hath dealt in flesh and blood,
-            At the Bank his name is good,
-            At the Bank, and only there,
-            ’Tis a marketable ware.
-            In his eyes that stealthy gleam
-            Was not learned of sky or stream,
-            <a href="#p155"/>
+            <div class="lg">
+               <br/>Ye who, passing graves by night,
+            <br/>Glance not to the left nor right
+            <br/>Lest a spirit should arise,
+            <br/>Cold and white, to freeze your eyes,
+            <br/>Some weak phantom, which your doubt
+            <br/>Shapes upon the dark without
+            <br/>From the dark within, a guess
+            <br/>At the spirit’s deathlessness,
+            <br/>Which ye entertain with fear
+            <br/>In your self-built dungeon here,
+            <br/>Where ye dance and shake your chain
+            <br/>As if freedom would be pain,—
+            <br/>Ye without a shudder meet
+            <br/>In the city’s noon-day street,
+            <br/>Spirits sadder and more dread
+            <br/>Than from out the clay have fled :
+            <br/>Spirits buried dark and deep
+            <br/>In a grave where never sleep,
+            <br/>The cool dew of Paradise,
+            <br/>Drops upon their burning eyes,
+            <br/>Buried, beyond hope of light,
+            <br/>In the body’s haunted night!
+            <br/>See ye not that woman pale?
+            <br/>Where are bloodhounds on her trail,
+            <br/>Bloodhounds two, all gaunt and lean,
+            <br/>For the soul their scent is keen,
+            <br/>Want and Sin, and Sin is last,
+            <br/>They have followed far and fast;
+            <br/>Want gave tongue, and, at her howl,
+            <br/>Sin awakened with a growl.
+            <br/>’Twas the World and the World’s law
+            <br/>Let them slip and cried, Hurrah!
+            <br/>Ah, poor girl! she had a right
+            <br/>To a blessing from the light,
+            <br/>Title deeds to sky and earth
+            <br/>God gave to her at her birth,
+            <br/>But, before they were enjoyed,
+            <br/>Poverty had made them void,
+            <br/>And had drunk the sunshine up
+            <br/>From all nature’s ample cup,
+            <br/>Leaving her a firstborn’s share
+            <br/>In the dregs of darkness there.
+            <br/>Often, on the sidewalk bleak,
+            <br/>Hungry, all alone, and weak.
+            <br/>She has seen, in night and storm,
+            <br/>Rooms o’erflow with firelight warm,
+            <br/>Which, outside the window glass
+            <br/>Doubled all the cold, alas !
+            <br/>Till each ray that on her fell
+            <br/>Stabbed her like an icicle,
+            <br/>And she almost loved the wail
+            <br/>Of the bloodhounds on her trail.
+            <br/>Till the floor becomes her bier
+            <br/>She shall feel their pantings near.
+            <br/>Close upon her very heels,
+            <br/>’Spite of all the din of wheels ;
+            <br/>Shivering on her pallet floor,
+            <br/>She shall hear them at the door
+            <br/>Whine and scratch to be let in.
+            <br/>Sister bloodhounds, Want and Sin !
+            <br/>Hark ! that rustle of a drew
+            <br/>Stiff with lavish costliness !
+            <br/>Here comes one whose cheek would flush
+            <br/>But to have her garment brush
+            <br/>’Gainst the girl whose fingers thin
+            <br/>Wove the weary broidery in,
+            <br/>Who bent backward from her toil
+            <br/>Lest her tears the silk might soil,
+            <br/>And, in midnight chill and murk,
+            <br/>Stitched her life into the work.
+            <br/>Little doth the wearer heed
+            <br/>Of the heart break in the brede,
+            <br/>A hyena by her side
+            <br/>Skulks, downlooking—it is Pride.
+            <br/>He digs for her in the earth,
+            <br/>Where lie all her claims of birth,
+            <br/>With his foul paws rooting o’er
+            <br/>Some long-buried ancestor
+            <br/>Who, most like, a statue won
+            <br/>By the ill deeds he had done.
+            <br/>Round her heart and round her brain
+            <br/>Wealth hath linked a golden chain,
+            <br/>Which doth dose and closer press
+            <br/>Heart and brain to narrowness.
+            <br/>Every morn and every night
+            <br/>She must bare that bosom white,
+            <br/>Which so thrillingly doth rise
+            <br/>’Neath its proud embroideries,
+            <br/>What its mere heave lets men know
+            <br/>How much whiter 'tis than snow,—
+            <br/>She must bare it, and, unseen,
+            <br/>Suckle that hyena lean ;—
+            <br/>Ah! the fountain’s angel shrinks,
+            <br/>And forsakes it while he drinks !
+            <br/>There walks Judas, he who sold
+            <br/>Yesterday his Lord for gold,
+            <br/>Sold God’s presence in his heart
+            <br/>For a proud step in the Mart;
+            <br/>He hath dealt in flesh and blood,
+            <br/>At the Bank his name is good,
+            <br/>At the Bank, and only there,
+            <br/>’Tis a marketable ware.
+            <br/>In his eyes that stealthy gleam
+            <br/>Was not learned of sky or stream,
+            <br/>
+               <div class="pagebreak" id="#page155"/>
 
 
-            
-            But it has the cold, hard glint,
-            Of new dollars from the Mint
-            Often now your spirit’s eyes
-            Look through that poor clay disguise
-            Which has thickened, day by day,
-            Till it keeps all life away,
-            And his soul in pitchy gloom
-            Gropes about its narrow tomb,
-            From whose dank and slimy walls,
-            Drop by drop, the horror falls.
-            Look ! a serpent lank and cold
-            Hugs his spirit, fold on fold,
-            From his heart, all day and night,
-            It doth suck God’s blessed light
-            Drink it will, and drink it must,
-            Till the cup holds naught but dust;
-            All day long he hears it hiss,
-            Writhing in its fiendish bliss;
-            All night long he sees its eyes
-            Flicker with strange ecstasies,
-            As the spirit ebbs away
-            Into the absorbing day.
-            Who is he that skulks afraid
-            Of the trust he has betrayed,
-            Shuddering if perchance a gleam
-            Of old nobleness should stream
-            Through the pent, unwholesome room,
-            Where his shrunk soul cowers in gloom,
-            Spirit sad beyond the rest
-            By more instinct for the Best?
-            'Tis a poet, who was sent
-            For a bad world’s punishment,
-            By compelling it to see
-            Golden glimpses of To Be,
-            By compelling it to hear
-            Songs that prove the angels near;
-            Who was sent to be the tongue
-            Of the weak and spirit-wrung,
-            Whence the fiery-winged Despair
-            In men’s shrinking eyes might flare.
-            ’Tis our hope doth fashion us
-            To base use or glorious:
-            He who might have been a lark
-            Of Truth’s morning, from the dark
-            Raining down melodious hope
-            Of a freer, broader scope,
-            Aspirations, prophecies,
-            Of the spirit’s full sunrise,—
-            Chose to be a bird of night,
-            Which, with eyes refusing light,
-            Hooted from some hollow tree
-            Of the world’s idolatry.
-            ’Tis his punishment to hear
-            Flutterings of pinions near,
-            And his own vain wings to feel
-            Drooping downward to his heel,
-            All their grace and import lost,
-            Burthening his weary ghost:
-            Ever walking by his side
-            He must see his angel guide,
-            Who at intervals doth turn
-            Looks on him so sadly stem,
-            With such ever-new surprise
-            Of hushed anguish in her eyes,
-            That it seems the light of day
-            From around him shrinks away,
-            Or drops blunted from the wall
-            Built around him by his fall.
-            Then the mountains, whose white peaks
-            Catch the morning’s earliest streaks,
-            He must see, where prophets sit,
-            Turning East their faces lit,
-            Whence, with footsteps beautiful,
-            To the earth, yet dim and dull,
-            They the gladsome tidings bring
-            Of the sunlight’s hastening.
-            Never can those hills of bliss
-            Be o’erclimbed by feet of his!
-            But enough! Oh, do not dare
-            From the next its mask to tear,
-            Which, although it moves about
-            Like a human form without.
-            Hath a soul within, I ween,
-            Of the vulture’s shape and mien.
-          
-          <span class="person" id="">JAMES R. LOWELL.</span>
+               <br/>
+               <div class="columnbreak"/>
+               <br/>But it has the cold, hard glint,
+            <br/>Of new dollars from the Mint
+            <br/>Often now your spirit’s eyes
+            <br/>Look through that poor clay disguise
+            <br/>Which has thickened, day by day,
+            <br/>Till it keeps all life away,
+            <br/>And his soul in pitchy gloom
+            <br/>Gropes about its narrow tomb,
+            <br/>From whose dank and slimy walls,
+            <br/>Drop by drop, the horror falls.
+            <br/>Look ! a serpent lank and cold
+            <br/>Hugs his spirit, fold on fold,
+            <br/>From his heart, all day and night,
+            <br/>It doth suck God’s blessed light
+            <br/>Drink it will, and drink it must,
+            <br/>Till the cup holds naught but dust;
+            <br/>All day long he hears it hiss,
+            <br/>Writhing in its fiendish bliss;
+            <br/>All night long he sees its eyes
+            <br/>Flicker with strange ecstasies,
+            <br/>As the spirit ebbs away
+            <br/>Into the absorbing day.
+            <br/>Who is he that skulks afraid
+            <br/>Of the trust he has betrayed,
+            <br/>Shuddering if perchance a gleam
+            <br/>Of old nobleness should stream
+            <br/>Through the pent, unwholesome room,
+            <br/>Where his shrunk soul cowers in gloom,
+            <br/>Spirit sad beyond the rest
+            <br/>By more instinct for the Best?
+            <br/>'Tis a poet, who was sent
+            <br/>For a bad world’s punishment,
+            <br/>By compelling it to see
+            <br/>Golden glimpses of To Be,
+            <br/>By compelling it to hear
+            <br/>Songs that prove the angels near;
+            <br/>Who was sent to be the tongue
+            <br/>Of the weak and spirit-wrung,
+            <br/>Whence the fiery-winged Despair
+            <br/>In men’s shrinking eyes might flare.
+            <br/>’Tis our hope doth fashion us
+            <br/>To base use or glorious:
+            <br/>He who might have been a lark
+            <br/>Of Truth’s morning, from the dark
+            <br/>Raining down melodious hope
+            <br/>Of a freer, broader scope,
+            <br/>Aspirations, prophecies,
+            <br/>Of the spirit’s full sunrise,—
+            <br/>Chose to be a bird of night,
+            <br/>Which, with eyes refusing light,
+            <br/>Hooted from some hollow tree
+            <br/>Of the world’s idolatry.
+            <br/>’Tis his punishment to hear
+            <br/>Flutterings of pinions near,
+            <br/>And his own vain wings to feel
+            <br/>Drooping downward to his heel,
+            <br/>All their grace and import lost,
+            <br/>Burthening his weary ghost:
+            <br/>Ever walking by his side
+            <br/>He must see his angel guide,
+            <br/>Who at intervals doth turn
+            <br/>Looks on him so sadly stem,
+            <br/>With such ever-new surprise
+            <br/>Of hushed anguish in her eyes,
+            <br/>That it seems the light of day
+            <br/>From around him shrinks away,
+            <br/>Or drops blunted from the wall
+            <br/>Built around him by his fall.
+            <br/>Then the mountains, whose white peaks
+            <br/>Catch the morning’s earliest streaks,
+            <br/>He must see, where prophets sit,
+            <br/>Turning East their faces lit,
+            <br/>Whence, with footsteps beautiful,
+            <br/>To the earth, yet dim and dull,
+            <br/>They the gladsome tidings bring
+            <br/>Of the sunlight’s hastening.
+            <br/>Never can those hills of bliss
+            <br/>Be o’erclimbed by feet of his!
+            <br/>But enough! Oh, do not dare
+            <br/>From the next its mask to tear,
+            <br/>Which, although it moves about
+            <br/>Like a human form without.
+            <br/>Hath a soul within, I ween,
+            <br/>Of the vulture’s shape and mien.
+          </div>
+            <div class="byline">
+               <span class="person">JAMES R. LOWELL.</span>
+            </div>
         </div>
       </div>
 
-      <div id="#s3" class="section">
+      <div class="section" id="#s3">
         <div class="head">LITERARY NOTICES.</div>
-        <div id="#p9" class="piece">
+        <div class="piece" id="#p9">
             <p>A Lecture on the Philosophy of Vegetation. Read at the Organization of
             <br/>the American Agricultural Association, at the University in the City of
             <br/>New York, on Monday, the 10th February, 1845. By W. A. Seeley, Esq.
@@ -1528,14 +1568,15 @@
             <br/>we were not surprised to see, in a morning paper that gives a good por-
             <br/>tion of its columns to agricultural knowledge, some exceedingly dis-
             <br/>paraging remarks in regard to it. Probably the critic had in his mind
-            <br/>Milton’s lines in Comus, 
-              " How charming is divine philosophy !
-              Not harsh and crabbed as vain fools suppose,
-              But musical as is Apollo's lute.
-              And a perpetual feast of nectared sweets,’'
-             was disappointed in not finding the “philosophy of vegetation” as smooth and
+            <br/>Milton’s lines in Comus, <div class="lg">
+                  <br/>" How charming is divine philosophy !
+              <br/>Not harsh and crabbed as vain fools suppose,
+              <br/>But musical as is Apollo's lute.
+              <br/>And a perpetual feast of nectared sweets,’'
+            </div> was disappointed in not finding the “philosophy of vegetation” as smooth and
             flashy as a review by Macaulay. A purely scientific essay
-            should not read too smoothly, lest it slip over the tongue without
+            <br/>
+               <div class="columnbreak"/>should not read too smoothly, lest it slip over the tongue without
             <br/>making any impression upon the mind. A few jagged points may help
             <br/>to make a principle stick to the memory. Mr. Seeley’s lecture is not
             <br/>written in the pleasing style of Dumas it is true, nor with the copious-
@@ -1558,7 +1599,7 @@
             <br/>ment, for the purpose of another, and a future, again antiseptic
             existence.”</p>
         </div>
-        <div id="#p10" class="piece">
+        <div class="piece" id="#p10">
             <p>Mothers' Lessons for little Girls and Boys. By a Lady of Boston.
             <br/>Little Stories for Little Folks. From the German. Boston. Published by W.
             <br/>D. Ticknor 4c Co., 1845.</p>
@@ -1571,7 +1612,7 @@
             <br/>from the blotches and distortions which disfigure the majority of
             <br/>books of this class.</p>
         </div>
-        <div id="#p11" class="piece">
+        <div class="piece" id="#p11">
             <p>The Gambler's Mirror, Vol. 1. No. 1. Boston, Redding &amp; Co., 1845.
             <br/>Gambling unmasked, or the Reformed Gambler, designed as a warning to the
             <br/>young of this country. New-York, Burgess, Stringer, &amp; Co., 1845.
@@ -1597,7 +1638,7 @@
             <br/>ceives a new clerk into his employment should see that he has a copy
             <br/>of the “Miseries of Gambling.”</p>
         </div>
-        <div id="#p12" class="piece">
+        <div class="piece" id="#p12">
             <p>The Last of the Plantagenets, a Tragic Drama in three acts. By Caroline M. Keteltas.
             Founded on the romance of that name by William Heseltine of Turret house, South Lambeth,
             England. New-York, 1844.</p>
@@ -1622,11 +1663,13 @@
             <br/>and natural the allusion to “the Poet Dryden who married ” &amp;c.—
             <br/>Whatever doubts may be entertained of the descent from the husband
             <br/>of the daughter of the earl of Berkshire, there can be none in the
-            <a href="#p156"/>
-            world that the descent from the Poet Dryden to the author of the
+            <br/>
+               <div class="pagebreak" id="#page156"/>
+               <br/>
+               <div class="columnbreak"/>world that the descent from the Poet Dryden to the author of the
             <br/>“Last of the Plantagenets” is not only very real, but very great.</p>
         </div>
-        <div id="#p13" class="piece">
+        <div class="piece" id="#p13">
             <p>The Knickerbocker, March, 1349. John Allen, 139 Nassau St.</p>
             <p>This comfortable old Magazine contains several very capital pa-
             <br/>pers, a beautiful poem from Albert Pike, a quaint one from John Wa-
@@ -1640,7 +1683,7 @@
             <br/>mouthful, pocketful, &amp;c.; but matterful sounds less agreeably than
             <br/>full of matter.</p>
         </div>
-        <div id="#p14" class="piece">
+        <div class="piece" id="#p14">
             <p>The Saturday Emporium. March 1st, 1345. Ward A Go., Ann St., New-
             <br/>York.</p>
             <p>This is an admirable paper, one better adapted to the uses of the
@@ -1672,7 +1715,7 @@
             <br/>Messieurs of the Emporium, accuse us of making attacks upon people
             <br/>when we simply utter our opinions and fortify them with reasons.</p>
         </div>
-        <div id="#p15" class="piece">
+        <div class="piece" id="#p15">
             <p>The Foreign Quarterly Review. No. LXVIII. for January, 1845. Ameri- can edition,
             Leonard Scott &amp; Co., 112 Fulton st.</p>
             <p>For American readers the Foreign Quarterly is becoming the most
@@ -1682,7 +1725,7 @@
             <br/>contains sound, valuable papers, but the most interesting one is on
             <br/>Bettina Brentano.</p>
         </div>
-        <div id="#p16" class="piece">
+        <div class="piece" id="#p16">
             <p>Blackwood's Magazine. February. New American Edition. New-York.—
             <br/>Published by Leonard Scott &amp; Co., 113 Fulton St.</p>
             <p>This is the sprightliest and most valuable number of Blackwood
@@ -1691,9 +1734,9 @@
             <br/>preserves the peculiarities of his early years.</p>
         </div>
       </div>
-      <div id="#s4" class="section">
+      <div class="section" id="#s4">
         <div class="head">The Fine Arts.</div>
-        <div id="#p17" class="piece">
+        <div class="piece" id="#p17">
             <p>A New picture by Chapman has been exhibited at the the rooms of
             <br/>the Art Union in Broadway, the last fortnight, representing Rachel,
             <br/>mourning for her first bora, and refusing to be comforted. To our per-
@@ -1709,8 +1752,9 @@
         </div>
 
 
-        
-        <div id="#p18" class="piece">
+        <br/>
+         <div class="columnbreak"/>
+        <div class="piece" id="#p18">
             <p>We have recently inspected the portraits of a horse and a Shetland
             <br/>poney, painted by Mr. T. Hicks, for John H. Hicks, Esq. of this city,
             <br/>which struck us as the finest specimen of animal portraiture that we
@@ -1725,7 +1769,7 @@
             <br/>profession in this country, we shall be disappointed in our expecta-
             <br/>tions.</p>
         </div>
-        <div id="#p19" class="piece">
+        <div class="piece" id="#p19">
             <p>The granite buildings on the corner of Chambers-street and Broad-
             <br/>way, is a huge eccaleiobeon, for hatching artists. On every floor of
             <br/>that capacious building may be found a half dozen of painters or sculp-
@@ -1739,7 +1783,7 @@
             <br/>promises which they gave when they first made themselves known to
             <br/>the public.</p>
         </div>
-        <div id="#p20" class="piece">
+        <div class="piece" id="#p20">
             <p>Mons. Edouart’s Silhouettes —The works of this gentleman de-
             <br/>serve to be classed among works of fine-art. His mere profile cuttings,
             <br/>perhaps, do not; although even his scissored portraits better deserve
@@ -1755,7 +1799,7 @@
         </div>
       </div>
 
-      <div id="#p21" class="piece">
+      <div class="piece" id="#p21">
         <div class="head">THE CONCERT ROOM.</div>
         <p>The New York Philharmonic Society.—The third Concert of
           <br/>the third season took place at the Apollo Saloon on Saturday, March
@@ -1797,10 +1841,12 @@
           <br/>dead march ; the third, the. return from the funeral, and the fourth, a
           <br/>sort of musical history of the times, being a collection of revolutionary
           <br/>airs, worked one into the other.</p>
-        <a href="#p157"/>
+        <br/>
+         <div class="pagebreak" id="#page157"/>
 
 
-        
+        <br/>
+         <div class="columnbreak"/>
         <p>Of the performance of this great work, we can with justice say that
           <br/>it was executed with great precision; each point was taken up with
           <br/>perfect exactness, and grand effects were frequently produced ; but to
@@ -1880,7 +1926,8 @@
           <br/>ed them, and which they are not likely toon to forget.</p>
 
 
-        
+        <br/>
+         <div class="columnbreak"/>
         <p>The concluding overture by Ries, is a brilliant and effective compo-
           <br/>sition, and had it not been so late would doubtless have been encored.
           <br/>It was admirably performed ; the wind instruments, as usual, distin-
@@ -1892,9 +1939,9 @@
         <p>The next concert will take place on the 15th of April.</p>
       </div>
       
-      <div id="#s5" class="section">
+      <div class="section" id="#s5">
         <div class="head">MUSICAL REVIEW.</div>
-        <div id="#p22" class="piece">
+        <div class="piece" id="#p22">
             <p>From A. Fiot, 196 Chesnut St., Philadelphia, and W. Dubois 315
             <br/>Broadway, New York.</p>
             <p>“Twelve Nouvelles Vocalisées, pour Mezzo-Soprano, dediées á
@@ -1966,8 +2013,10 @@
             <br/>not for thee," is very effective, and the introduction to its relative ma-
             <br/>jor, is exceedingly happy. The subject is afterwards repeated in F
             <br/>major, and is carried on to the end in perfect unity of design. It is a
-            <a href="#p158"/>
-            very clever composition, and although the accompaniment is here and
+            <br/>
+               <div class="pagebreak" id="#page158"/>
+               <br/>
+               <div class="columnbreak"/>very clever composition, and although the accompaniment is here and
             <br/>there somewhat heavy and labored, it is as a whole a very musician-
             <br/>like work, and one which we can very cordially recommend to the
             <br/>public.</p>
@@ -1980,7 +2029,7 @@
             <p>Le Tremolo.—This is one of Herz’s recent pianoforte pieces, and abounds with the
             composer’s peculiarities.</p>
         </div>
-        <div id="#p23" class="piece">
+        <div class="piece" id="#p23">
             <p>Bertini’s Great Method tor the Piano-Forte.—Every teach-
             <br/>er of every grade in the profession, has felt for years the want of a
             <br/>Piano-Forte instruction bonk, which should contain in its single com-
@@ -2036,7 +2085,7 @@
             <br/>making it necessary to have recourse to a multitude of little pieces,
             <br/>almost all of them carelessly written and badly fingered.</p>
         </div>
-        <div id="#p24" class="piece">
+        <div class="piece" id="#p24">
             <p>To Accordion Players.—We call the attention of professional and
             <br/>amateur performers on this instrument, to the admirable improve-
             <br/>ments made upon it by Mr. Dumsday, Professor of Music, 55 Christie
@@ -2055,7 +2104,7 @@
             <br/>over all others now in use.</p>
         </div>
       </div>
-      <div id="#p25" class="piece">
+      <div class="piece" id="#p25">
         <div class="head">MUSICAL ITEMS.</div>
         <p>New Orleans.—Mesdames Borghose and Ricci, with Sig-
           <br/>nori Perozzi, Tomasi, and Condi, have, contrary to the reports recent-
@@ -2065,7 +2114,8 @@
           accounts differ greatly.</p>
 
 
-        
+        <br/>
+         <div class="columnbreak"/>
         <p>The Swiss Bell Ringers have surprised the people into an extensive
           <br/>enthusiasm. They are very highly spoken of.</p>
         <p>Mr. Barton, the flutist, arrived here lately; he had a very narrow
@@ -2125,9 +2175,9 @@
           <br/>ny, was to attain this object, and we do not doubt in the least of the
           <br/>success of his undertaking, as he possesses in an eminent degree, both
           <br/>the qualities of the leader and of the professor.</p>
-        COM.
+        <div class="byline">COM.</div>
       </div>
-      <div id="#s6" class="section">
+      <div class="section" id="#s6">
         <div class="head">CORRESPONDENCE.</div>
         <div id="#26">
             <div class="head">TO THE EDITOR OF THE BROADWAY JOURNAL.</div>
@@ -2160,9 +2210,11 @@
             <br/>that he is opposed to the measure. No matter what the company, or
             <br/>occasion, or place, if he but hear an allusion to Texas, he must, uncle
             <br/>Toby-like, mount his ever-saddled nag, and frisk away for the enter-
-            <a href="#p159"/>
+            <br/>
+               <div class="pagebreak" id="#page159"/>
                <br/>
-            tainment of his auditory, though all the laugh I ever saw him raise
+               <br/>
+               <div class="columnbreak"/>tainment of his auditory, though all the laugh I ever saw him raise
             <br/>was at him. He takes vast delight in exhibiting this beast of his.
             <br/>although to my mind he is one of the most hideously deformed
             <br/>animals imaginable.</p>
@@ -2198,7 +2250,7 @@
           Horace.
         </div>
       </div>
-      <div id="#p27" class="piece">
+      <div class="piece" id="#p27">
           <p>Mr. Webster and his Friends.—There have been a vari-
             <br/>ety of statements in the newspapers the past month or two, respecting
             <br/>a magnificent donation said to have been made to Daniel Webster, to
@@ -2224,7 +2276,7 @@
             <br/>we should not care a straw what principles they professed.</p>
         </div>
   
-      <div id="#p28" class="piece">
+      <div class="piece" id="#p28">
         <p>In a late lecture on the "Poets and Poetry of America,” delivered
           <br/>before an audience made up chiefly of editors and their connexions, I
           <br/>took occasion to speak what I know to be the truth, and I endeavour-
@@ -2265,12 +2317,13 @@
           <br/>ly exalted themselves in their own opinion—and when, especially, they
           <br/>shall have brought me over to that precise view of the question which
           <br/>it is their endeavor to have me adopt.</p>
-        E. A. P.
+        <div class="byline">E. A. P.</div>
       </div>
 
 
-      
-      <div id="#s7" class="section">
+      <br/>
+      <div class="columnbreak"/>
+      <div class="section" id="#s7">
         <div>
             <div class="head">STODDART &amp; DUNHAM,</div>
             <div class="ab">
@@ -2385,10 +2438,12 @@
             <br/>fident will be satisfactory to those who employ him.</p>
             <div class="ab">January 16, 1845.</div>
         </div>
-        <a href="#p160"/>
+        <br/>
+         <div class="pagebreak" id="#page160"/>
 
 
-        
+        <br/>
+         <div class="columnbreak"/>
         <div>
             <div class="head">OLIVER DITSON,</div>
             <div class="ab">
@@ -2479,9 +2534,12 @@
         </div>
 
 
-        
+        <br/>
+         <div class="columnbreak"/>
         <div>
-          GREAT REDUCTION IN PRICE.
+            <span class="note" id="">
+               <a href=""/>
+            </span>GREAT REDUCTION IN PRICE.
           The first Premium awarded five years by the American Institute for the
             <br/>best Specimen of Off-hand Penmanship.
           <div class="head">GOLDSMITH’S WRITING AND BOOK-KEEPING ACADEMY,</div>
@@ -2544,7 +2602,7 @@
             <br/>promptly attended to.</p>
         </div>
       </div>
-      <div id="#p29" class="piece">
+      <div class="piece" id="#p29">
         <div class="head">Prospectus of the Broadway Journal.</div>
         <div class="ab">To be Published every Saturday.</div>
         <p>The Broadway Journal will differ from any of the weekly Peri-
@@ -2579,7 +2637,9 @@
       </div>
     </div>
    <div class="back">
-      "I would be a Parody, written by a ninny,
+      <span class="note" id="n001">
+         <a href="#a001"/>
+      </span>"I would be a Parody, written by a ninny,
         <br/>Not worth a penny, and sold for a guinea," &amp;c.
     </div>
 </div>

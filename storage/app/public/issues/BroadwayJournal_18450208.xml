@@ -6,19 +6,22 @@
     </div>
    <div class="body">
       
-      
+      <br/>
+      <div class="columnbreak"/>
       <div>
-        
-          Truth, whether in or out of fashion, is the measure of knowledge and the busi-
+        <div class="cit">
+            <span class="quote">Truth, whether in or out of fashion, is the measure of knowledge and the busi-
             <br/> ness of the understanding; whatsoever is beside that, however authorised by con-
             <br/> sent or recommended by variety, is nothing but ignorance, or something
-            worse.
-          <span class="person" id="">Locke</span>
-        
+            worse.</span>
+            <div class="bibl">
+               <span class="person">Locke</span>
+            </div>
+        </div>
       </div>
-        <div id="#s1" class="section">
+        <div class="section" id="#s1">
           <div class="head">REVIEWS.</div>
-          <div id="#p1" class="piece">
+          <div class="piece" id="#p1">
             <p>Poems by Sir Edward Lytton Bulwer. Edited by C. Donald
               <br/>Macleod. New York: Farmer &amp; Daggers, 1845.</p>
             <p>Mr. C. Donald Macleod, whose name is no doubt fami-
@@ -72,7 +75,8 @@
               <br/>Mr. M. that we object, nor to any particular set of his dog-
               <br/>mas, but to the principle of dogmatizing in general, we are
               <br/>willing to admit that we coincide with him in one half of his
-              opinion about the poems of Bulwer. We think as he does,
+              <br/>
+               <div class="columnbreak"/>opinion about the poems of Bulwer. We think as he does,
               <br/>(Mr. Macleod,) that the omitted compositions were scarcely
               <br/>worth including in a book; but we go even a few steps far-
               <br/>ther, and maintain that the effusions so cavalierly treated
@@ -97,7 +101,8 @@
               <br/>rian, Moral Philosopher, Essayist, Critic, Political Pamphle-
               <br/>teer; in each superior to all others, and only rivalled in each
               <br/>by himself’—that is to say, we presume, that
-              <br/>“None but himself can be his parallel.”</p>
+              <br/>
+               <br/>“None but himself can be his parallel.”</p>
             <p>But if Mr. Macleod is serious in thinking that the author
               <br/>of Tremaine (which may be co sidered as the quintessence
               <br/>of prose) did not intend to be bitterly satirical when he pen-
@@ -130,8 +135,10 @@
               <br/>dred which he could neither have written nor conceived for
               <br/>his life. As a dramatist he deserves more credit, although
               <br/>he receives less. His "Richelieu,” “Money,” and “Duchesse
-              <a href="#p82"/>
-              de la Valiere,” have done much in the way of opening the
+              <br/>
+               <div class="pagebreak" id="#page82"/>
+              <br/>
+               <div class="columnbreak"/>de la Valiere,” have done much in the way of opening the
               <br/>public eyes to the true value of what is superciliously term-
               <br/>ed “stage-effect” in the hands of one able to manage it.
               <br/>But if commendable at this point, his dramas fail egregious-
@@ -197,7 +204,8 @@
               <br/>as we might imagine would have delighted Curran when
               <br/>drunk—an absolutely ludicrous array of metaphor run mad
               <br/>—and a continuous strain of didacticism, always obtrusive,
-              sometimes entertaining, often equivocal, now and then sophis-
+              <br/>
+               <div class="columnbreak"/>sometimes entertaining, often equivocal, now and then sophis-
               <br/>tical, frequently preposterous, but at no time failing to wear
               <br/>those habiliments of apparent profundity which were wont
               <br/>so cleverly to disguise the no-meaning of the nonsense-verses
@@ -223,12 +231,12 @@
             <p>On reading this we turned with some curiosity to “Maza-
               <br/>rin” and "Andre Chenier." The versification in these poems
               <br/>is identical. We give a specimen from the latter:</p>
-            
-              And must I die so soon? sighed forth the young man unresigned,
-              And leave this pleasant world before a name is left behind?
-              I feel the glorious something stir within my burning brain,
-              That tells me what my life would be—a prophet and in vain!
-            
+            <div class="lg">
+              <br/>And must I die so soon? sighed forth the young man unresigned,
+              <br/>And leave this pleasant world before a name is left behind?
+              <br/>I feel the glorious something stir within my burning brain,
+              <br/>That tells me what my life would be—a prophet and in vain!
+            </div>
             <p>The metre here would be called, in the ridiculous Greek
               <br/>prosodies, iambic heptameter acatalectic. In plain English
               <br/>it consists of seven feet, each foot being a short syllable suc-
@@ -239,7 +247,7 @@
               <br/>instance, if we add a single short syllable at the end, is iden-
               <br/>tically that of the “Oh, Miss Bailey” ballad—of which we
               <br/>transcribe the first line:</p>
-            A captain bold of Halifax who dwelt in country quarters.
+            <br/>A captain bold of Halifax who dwelt in country quarters.
             <p>Now Mr. Macleod maintains that “Miss Bailey” is pecu-
               <br/>liar; but if so the only peculiarity about her lies in her trip-
               <br/>ping and frisky character—the character universally and just-
@@ -260,15 +268,17 @@
               <br/>it, the poems of Bulwer which have been, whether rightfully
               <br/>or wrongfully, have been omitted.</p>
           </div>
-          <div id="p2" class="piece">
+          <div class="piece" id="p2">
             <p>Why a National Literature cannot flourish in the United
               <br/>States of North America. By Joseph Rocchietti. Turner &amp;
               <br/>Hayden, 10 John street, 1845.</p>
             <p>This is a very imposing title page, in more senses than
               <br/>one, for it is a gross imposition upon the reader, since the
               <br/>contents of the book do not offer any reasons why a National
-              <a href="#p83"/>
-              Literature cannot flourish in the United States. A work on
+              <br/>
+               <div class="pagebreak" id="#page83"/>
+              <br/>
+               <div class="columnbreak"/>Literature cannot flourish in the United States. A work on
               <br/>a purely literary subject should, at least, be tolerably gram-
               <br/>matical, but this book sets all conventional rules of composi-
               <br/>tion at defiance. It is not written in English at all, but in
@@ -346,7 +356,8 @@
               <br/>blind lovers of my country, I will say here nothing more, than I
               <br/>would of those, who had no kind feeling for Italy. Besides there are
               <br/>so many, who wrote on Italy, that, were I undertaking to comment
-              on them, it would be a work too long for me, and unfit here. How-
+              <br/>
+               <div class="columnbreak"/>on them, it would be a work too long for me, and unfit here. How-
               <br/>ever, as such kind of writers form one of the most extensive branches
               <br/>of our present literature, I will take up “Italy and the Italians,” by
               <br/>J. T. Headley, for two good reasons. The first, because I find in it,
@@ -423,15 +434,17 @@
               <br/>its pages to fill up our paper.</p>
           </div>
         </div>
-        <div id="#p3" class="piece">
+        <div class="piece" id="#p3">
           <div class="head"> AMERICAN ILLUSTRATED BOOKS.</div>
           <p>Harper’s Illuminated and New Pictorial Bible, Nos. 1 to 17.</p>
           <p>Very great expectations were excited by the announce-
             <br/>ment of this edition of the Bible, which the first number, with
             <br/>its pink title-page, and red and yellow cover, rather tended to
             <br/>increase in the minds of the multitude; but any one with the
-            <a href="#p84"/>
-            slightest knowledge of art, could have foreseen from the cover
+            <br/>
+            <div class="pagebreak" id="#page84"/>
+            <br/>
+            <div class="columnbreak"/>slightest knowledge of art, could have foreseen from the cover
             <br/>alone, that the prodigious sensation which it had begun to
             <br/>cause, would very soon subside into a dead quiet. The first
             <br/>number contained about twice the quantity of illustrations
@@ -497,7 +510,8 @@
             <br/>the borders which surround the large engravings in the Bible,
             <br/>adding that two of them are paltry, and one hideous. The
             <br/>same borders with the same emblems, grapes and grotesques,
-            surround all sorts of subjects, without any regard to harmony
+            <br/>
+            <div class="columnbreak"/>surround all sorts of subjects, without any regard to harmony
             <br/>of expression. The designs enclosed in these borders are all
             <br/>wretched; there is not a tolerable one among them, and the
             <br/>engraving, if possible, is worse than the drawing. We are
@@ -562,8 +576,10 @@
           <p>In all that relates to the getting up of this Bible, the work
             <br/>reflects great credit on the publishers. The type is very clear
             <br/>and neat; the ink of an exceedingly brilliant jet black, and
-            <a href="#p85"/>
-            the paper of a superior quality. Our remarks about the il-
+            <br/>
+            <div class="pagebreak" id="#page85"/>
+            <br/>
+            <div class="columnbreak"/>the paper of a superior quality. Our remarks about the il-
             <br/>lustrations are such as we feel ourselves bound to make. It
             <br/>is a work that we could not let pass in silence, and we could
             <br/>not slobber it over with the unmeaning praise of those who
@@ -610,7 +626,7 @@
             <br/>the designs in that work, will see that he turned his back
             <br/>upon Nature, and she turned hers upon him.</p>
         </div>
-        <div id="#p4" class="piece">
+        <div class="piece" id="#p4">
           <div class="head">THE NAVY.</div>
           <p>Mr. Editor,—The fourth number of the “Broadway Jour-
             <br/>nal,” (January 25th,) commences with some remarks on
@@ -634,7 +650,8 @@
             <br/>any improvement in the condition of the sailors, who are
             <br/>generally without sufficient education to plead before the na-
             <br/>tion for themselves, while those who are universally admitted
-            to be their superiors in knowledge and standing in all situa-
+            <br/>
+            <div class="columnbreak"/>to be their superiors in knowledge and standing in all situa-
             <br/>tions in life, plead in vain to have their rights recognized,
             <br/>and to be protected from aggression or tyranny while serving
             <br/>in the Navy.</p>
@@ -718,10 +735,14 @@
             <br/>is the inference from the communication referred to above.</p>
           <p>The pamphlet is worth looking at again. If you will ex-
             <br/>amine the pay proposed, you will find, I think, it is a very
-            <a href="#p86"/>
-            considerable reduction of the present salaries in very many instances.</p>
+            <br/>
+            <div class="pagebreak" id="#page86"/>
+            <br/>
+            <div class="columnbreak"/>considerable reduction of the present salaries in very many instances.</p>
           Truth.
-          [We give place to the above communication with a good deal of
+          <span class="note" id="">
+            <a href=""/>
+         </span>[We give place to the above communication with a good deal of
             <br/>pleasure; if we misunderstood the author of the pamphlet on the re-
             <br/>organization of the Navy, we regret it, and will very cheerfully cor-
             <br/>rect our mistake. The subject is one of too great importance to be
@@ -730,11 +751,14 @@
             <br/>effected in any department of the government, is by beginning with
             <br/>one offence at a time. We shall recur to the subject again.—Ed.]
         </div>
-        <div id="#s3" class="section">
+        <div class="section" id="#s3">
           <div class="head">The Fine Arts</div>
-          <div id="#p5" class="piece">
+          <div class="piece" id="#p5">
             <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING, NO. 1.</div>
-            BY <span class="person" id="">WILLIAM PAGE</span>.
+            <div class="byline">BY <span class="person">WILLIAM PAGE</span>.</div>
+            <span class="note" id="">
+               <a href=""/>
+            </span>
             <p>[We give the first number of a series of articles on a subject
                 which is
                 <br/>always of interest among painters. The manifest ability of the
@@ -791,7 +815,8 @@
               <br/>countryman, Hiram Powers, which have all the breadth of
               <br/>the finest antique heads, and a minuteness of finish in all the
               <br/>details unknown to that gifted people the Greeks, and still
-              more so to modem nations, without disturbing either breadth
+              <br/>
+               <div class="columnbreak"/>more so to modem nations, without disturbing either breadth
               <br/>of form or expression, shall yet make the world wonder that
               <br/>such things should have been done in our midst, and never a
               <br/>cry of a miracle, a miracle!</p>
@@ -857,8 +882,10 @@
               <br/>known focus (so to speak) of expression. Goethe has well
               <br/>said in his “Theory of Colors,” that here nature seems to
               <br/>have exhausted all her resources, having so used all the pri-
-              <a href="#p87"/>
-              
+              <br/>
+               <div class="pagebreak" id="#page87"/>
+              <br/>
+               <div class="columnbreak"/>
               <br/>mitive colors, and so interwoven and combined them, that
               <br/>we scarce know which predominate, (I quote from memory)
               <br/>and, he might have added, that all other known qualities,
@@ -925,7 +952,8 @@
               <br/>other’s eyes, a thing which has been too often done of late
               <br/>to need a repetition.</p>
             <p>But to return to the imitation of flesh. Now in imitating
-              the appearance of this human substance, we are first to ask
+              <br/>
+               <div class="columnbreak"/>the appearance of this human substance, we are first to ask
               <br/>how nature has arranged her material, that is colors, to pro-
               <br/>duce it, knowing, that like causes will produce like effects,
               <br/>and that “Art is formation, as nature is.”</p>
@@ -991,13 +1019,15 @@
               <br/>ject, it must be considered in connection with those peculiar
               <br/>modifications of light which nature presents in such endless
               <br/>variety.</p>
-            <a href="#p88"/>
-            
+            <br/>
+            <div class="pagebreak" id="#page88"/>
+            <br/>
+            <div class="columnbreak"/>
             <p>We must be indulged a little farther in these general re-
               <br/>marks before we can descend effectually to their more practi-
               <br/>cal application.</p>
           </div>
-          <div id="#p6" class="piece">
+          <div class="piece" id="#p6">
             <div class="head">A NEW DISCOVERY IN ART.</div>
             <p>We gave an extract in our second number, from the Lon-
               <br/>don Art Union, announcing a new discovery in the Art of
@@ -1083,7 +1113,8 @@
               for
               <br/>instance, say the Times, might in twenty minutes be prepared for re-
               <br/>p[r]inting merely from a single number, and worked on with the ordi-
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>nary rapidity of the steam-press. It is our purpose fully to describe
               <br/>in the next number of the Art-Union, the procoss whereby this is ef-
               <br/>fected, and to show the admirable applicability of the invention to
@@ -1154,7 +1185,7 @@
               <br/>gentlemen had independently arrived at the same result, but that the pri-
               <br/>ority of invention was undoubtedly Spencer’s.”</p>
           </div>
-          <div id="#p7" class="piece">
+          <div class="piece" id="#p7">
             <p>Valentines.—Mr. Coleman has got the prettiest collec-
               <br/> tion of Valentines that we have ever seen; some of them
               <br/> are very brilliantly illuminated with all manner of ingenious
@@ -1172,10 +1203,12 @@
         </div>
 
 
-        <a href="#p89"/>
+        <br/>
+      <div class="pagebreak" id="#page89"/>
         
-        
-        <div id="#p8" class="piece">
+        <br/>
+      <div class="columnbreak"/>
+        <div class="piece" id="#p8">
           <div class="head">THE BISHOP.</div>
           <p>The case of the Bishop is one with which the public have no business, for although he
             is in a certain sense a public charac-
@@ -1204,7 +1237,9 @@
             <br/>caused them to monopolize for nine days the talk of the town.</p>
           
             <div class="head">A SUSPENDED BISHOP.</div>
-            <span class="person" id="">SE BROWN</span>
+            <div class="byline">
+            <span class="person">SE BROWN</span>
+         </div>
           
           <p>We give an illustration of the Bishop’s case from a very sincere desire to avoid any
             committal on the subject. The
@@ -1218,36 +1253,41 @@
             go up or down, we wish him well.</p>
         </div>
         
-        
-        <a href="#p90"/>
-        <div id="#s4" class="section">
+        <br/>
+      <div class="columnbreak"/>
+        <br/>
+      <div class="pagebreak" id="#page90"/>
+        <div class="section" id="#s4">
           <div class="head">Original Poetry.</div>
-          <div id="#p9" class="piece">
+          <div class="piece" id="#p9">
             <div class="head">THE TWO PATHS.</div>
-            
-              Aye, they in plodding on so steadily
-              Did gain a heap of gold,
-              While I, who hurried on so merrily,
-              Gained brighter wealth ten-fold.
-               A wealth of thought and cheerfulness
-              The coinage of the soul,
-              And more than all, a hope to bless,
-              With promise fill’d my bowl.
-              They ride in princely chariot proud,
-              By blooded coursers drawn,—
-              They feast in stately halls the crowd
-              Of friends in lace and lawn.
-              My carriage is the wide-winged thought,
-               By fancy wheeled above,—
-              My home the world-wide space unbought,
-              My feast the feast of love.
-              They labored on till life was waning
-              To live above all strife,—
-               I lived the whole, the present gaining,
-              And with me cherish'd life.
-            
+            <div class="lg">
+              <br/>Aye, they in plodding on so steadily
+              <br/>Did gain a heap of gold,
+              <br/>While I, who hurried on so merrily,
+              <br/>Gained brighter wealth ten-fold.
+              <br/> A wealth of thought and cheerfulness
+              <br/>The coinage of the soul,
+              <br/>And more than all, a hope to bless,
+              <br/>With promise fill’d my bowl.
+              <br/>They ride in princely chariot proud,
+              <br/>By blooded coursers drawn,—
+              <br/>They feast in stately halls the crowd
+              <br/>Of friends in lace and lawn.
+              <br/>My carriage is the wide-winged thought,
+              <br/> By fancy wheeled above,—
+              <br/>My home the world-wide space unbought,
+              <br/>My feast the feast of love.
+              <br/>They labored on till life was waning
+              <br/>To live above all strife,—
+              <br/> I lived the whole, the present gaining,
+              <br/>And with me cherish'd life.
+            </div>
           </div>
-          <div id="#p10" class="piece">
+          <div class="piece" id="#p10">
+            <span class="note" id="">
+               <a href=""/>
+            </span>
             <p>We copy the following poem from the American Review, the new
                 <br/>Whig Magazine, on account of its unusual beauty. It will have been
                 <br/>read by many of our city subscribers, we have no doubt, before it
@@ -1263,125 +1303,146 @@
                 <br/>who reads it."</p>
             
             <div class="head">THE RAVEN.</div>
-            BY <span class="person" id="">EDGAR A. POE</span>.
-            
-              Once upon a midnight dreary, while I pondered, weak and weary,
-              Over many a quaint and curious volume of forgotten lore,
-              While I nodded, nearly napping, suddenly there came a tapping,
-              As of-some one gently rapping, rapping at my chamber door.
-              “Tis some visiter,” I muttered, “tapping at my chamber door—
-              Only this, and nothing more.”
-              Ah, distinctly I remember it was in the bleak December,
-              And each separate dying ember wrought its ghost upon the floor.
-              Eagerly I wished the morrow;—vainly I had tried to borrow
-              From my books surcease of sorrow—sorrow for the lost Lenore—
-              For the rare and radiant maiden whom the angels name Lenore—
-              Nameless here for evermore.
-              And the silken sad uncertain rustling of each purple curtain
-               Thrilled me—filled me with fantastic terrors never felt before
-              So that now, to still the beating of my heart, I stood repeating
-              “'Tis some visiter entreating entrance at my chamber door—
-              Some late visiter entreating entrance at my chamber door;—
-              This it is, and nothing more.”
-               Presently my soul grew stronger; hesitating then no longer,
-              “Sir,” said I, “or Madam, truly your forgiveness I implore;
-              But the fact is I was napping, and so gently you came rapping,
-              And so faintly you came tapping, tapping at my chamber door,
-              That I scarce was sure I heard you”—here I opened wide the door;
-              Darkness there, and nothing more.
-              Deep into that darkness peering, long I stood there wondering, fearing,
-              Doubting, dreaming dreams no mortal ever dared to dream before;
-              But the silence was unbroken, and the darkness gave no token,
-              And the only word there spoken was the whispered word, “Lenore!”
-              This I whispered, and an echo murmured back the word, “Lenore!”
-              Merely this and nothing more.
-              Then into the chamber turning, all my soul within me burning,
-              Soon I heard again a tapping somewhat louder than before.
-              '' Surely,” said I, “surely that is something at my window lattice;
-              Let me see, then, what thereat is, and this mystery explore—
-              Let my heart be still a moment and this mystery explore
-              'Tis the wind and nothing more!”
-              
-              Open here I flung the shutter, when, with many a flirt and flutter,
-              In there stepped a stately raven of the saintly days of yore;
-              Not the least obeisance made he; not an instant stopped or stayed he;
-              But, with mien of lord or lady, perched above my chamber door—
-              Perched upon a bust of Pallas just above my chamber door—
-               Perched, and sat, and nothing more.
-              Then this ebony bird beguiling my sad fancy into smiling,
-              By the grave and stem decorum of the countenance it wore,
-              “Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,
-              Ghastly grim and ancient raven wandering from the Nightly shore—
-              Tell me what thy lordly name is on the Night’s Plutonian shore!”
-              Quoth the raven “Nevermore.”
-              Much I marvelled this ungainly fowl to hear discourse so plainly,
-              Though its answer little meaning—little relevancy bore;
-              For we cannot help agreeing that no living human being
-               Ever yet was blessed with seeing bird above his chamber door—
-              Bird or beast upon the sculptured bust above his chamber door,
-              With such name as “Nevermore.”
-              But the raven, sitting lonely on the placid bust, spoke only
-              That one word, as if his soul in that one word he did outpour.
-              Nothing farther then he uttered—not a feather then he fluttered—
-              Till I scarcely more than muttered « Other friends have flown before—
-              On the morrow he will leave me, as my hopes have flown before.
-              Then the bird said “Nevermore.”
-              Startled at the stillness broken by reply so aptly spoken,
-              "Doubtless” said I, “what it utters is its only stock and store
-              Caught from some unhappy master whom unmerciful Disaster
-              Followed fast and followed faster till his songs one burden bore—
-              Till the dirges of his Hope the melancholy burden bore
-              Of “Nevermore”—of “Nevermore.”
-              But the raven still beguiling all my sad soul into smiling,
-               Straight I wheeled a cushioned seat in front of bird, and bust and door;
-              Then upon the velvet sinking, I betook myself to linking
-              Fancy unto fancy, thinking what this ominous bird of yore—
-              What this grim, ungainly, ghastly, gaunt, and ominous bird of yore
-              Meant in croaking “Nevermore.”
-              This I sat engaged in guessing, but no syllable expressing
-              To the fowl whose fiery eyes now burned into my bosom’s core;
-              This and more I sat divining, with my head at ease reclining
-              On the cushion’s velvet lining that the lamplight gloated o’er,
-              But whose velvet violet lining with the lamplight gloating o’er.
-              She shall press, ah, nevermore!
-              Then, methought, the air grew denser, perfumed from an unseen censer
-              Swung by angels whose faint foot-falls tinkled on the tufted floor.
-              " Wretch,” I cried, "thy God hath lent thee—by these angels he hath sent thee
-              Respite—respite and nepenthe from thy memories of Lenore!
-              Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”
-              Quoth the raven “Nevermore.”
-              “Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—
-              Whether Tempter sent, or whether tempest tossed thee here ashore,
-              Desolate yet all undaunted, on this desert land enchanted—
-              On this home by Horror haunted—tell me truly, I implore—
-              Is there—is there balm in Gilead—tell me—tell me, I implore!”
-              Quoth the raven “Nevermore.”
-              “Prophet!” said I, “thing of evil—prophet still, if bird or devil!
-              By that Heaven that bends above us—by that God we both adore—
-              Tell this soul with sorrow laden if, within the distant Aidenn,
-              It shall clasp a sainted maiden whom the angels name Lenore—
-              Clasp a rare and radiant maiden whom the angels name Lenore.”
-              Quoth the raven “Nevermore.”
-              “Be that word our sign of parting, bird or fiend!” I shrieked, upstarting—
-              “Get tbee back into the tempest and the Night’s Plutonian shore!
-              Leave no black plume as a token of that lie thy soul hath spoken!
-              Leave my loneliness unbroken!—quit the bust above my door!
-              Take thy beak from out my heart, and take thy form from off my door!”
-              Quoth the raven "Nevermore.”
-              And the raven, never flitting, still is sitting, still is sitting
-              On the pallid bust of Pallas just above my chamber door;
-              And his eyes have all the seeming of a demon that is dreaming,
-              And the lamp-light o’er him streaming throws his shadow on the floor;
-              And my soul from out that shadow that lies floating on the floor
-               Shall be lifted—nevermore!
-            
+            <div class="byline">BY <span class="person">EDGAR A. POE</span>.</div>
+            <div class="lg">
+               <div class="lg">  
+                  <br/>Once upon a midnight dreary, while I pondered, weak and weary,
+              <br/>Over many a quaint and curious volume of forgotten lore,
+              <br/>While I nodded, nearly napping, suddenly there came a tapping,
+              <br/>As of-some one gently rapping, rapping at my chamber door.
+              <br/>“Tis some visiter,” I muttered, “tapping at my chamber door—
+              <br/>Only this, and nothing more.”</div>
+               <div class="lg"> 
+                  <br/>Ah, distinctly I remember it was in the bleak December,
+              <br/>And each separate dying ember wrought its ghost upon the floor.
+              <br/>Eagerly I wished the morrow;—vainly I had tried to borrow
+              <br/>From my books surcease of sorrow—sorrow for the lost Lenore—
+              <br/>For the rare and radiant maiden whom the angels name Lenore—
+              <br/>Nameless here for evermore.</div>
+              <div class="lg">
+                  <br/>And the silken sad uncertain rustling of each purple curtain
+              <br/> Thrilled me—filled me with fantastic terrors never felt before
+              <br/>So that now, to still the beating of my heart, I stood repeating
+              <br/>“'Tis some visiter entreating entrance at my chamber door—
+              <br/>Some late visiter entreating entrance at my chamber door;—
+              <br/>This it is, and nothing more.”</div>
+              <div class="lg">
+                  <br/> Presently my soul grew stronger; hesitating then no longer,
+              <br/>“Sir,” said I, “or Madam, truly your forgiveness I implore;
+              <br/>But the fact is I was napping, and so gently you came rapping,
+              <br/>And so faintly you came tapping, tapping at my chamber door,
+              <br/>That I scarce was sure I heard you”—here I opened wide the door;
+              <br/>Darkness there, and nothing more.</div>
+              <div class="lg">
+                  <br/>Deep into that darkness peering, long I stood there wondering, fearing,
+              <br/>Doubting, dreaming dreams no mortal ever dared to dream before;
+              <br/>But the silence was unbroken, and the darkness gave no token,
+              <br/>And the only word there spoken was the whispered word, “Lenore!”
+              <br/>This I whispered, and an echo murmured back the word, “Lenore!”
+              <br/>Merely this and nothing more.</div>
+               <div class="lg"> 
+                  <br/>Then into the chamber turning, all my soul within me burning,
+              <br/>Soon I heard again a tapping somewhat louder than before.
+              <br/>'' Surely,” said I, “surely that is something at my window lattice;
+              <br/>Let me see, then, what thereat is, and this mystery explore—
+              <br/>Let my heart be still a moment and this mystery explore
+              <br/>'Tis the wind and nothing more!”</div>
+              <br/>
+               <div class="columnbreak"/>
+              <div class="lg">
+                  <br/>Open here I flung the shutter, when, with many a flirt and flutter,
+              <br/>In there stepped a stately raven of the saintly days of yore;
+              <br/>Not the least obeisance made he; not an instant stopped or stayed he;
+              <br/>But, with mien of lord or lady, perched above my chamber door—
+              <br/>Perched upon a bust of Pallas just above my chamber door—
+              <br/> Perched, and sat, and nothing more.</div>
+               <div class="lg"> 
+                  <br/>Then this ebony bird beguiling my sad fancy into smiling,
+              <br/>By the grave and stem decorum of the countenance it wore,
+              <br/>“Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,
+              <br/>Ghastly grim and ancient raven wandering from the Nightly shore—
+              <br/>Tell me what thy lordly name is on the Night’s Plutonian shore!”
+              <br/>Quoth the raven “Nevermore.”</div>
+              <div class="lg">
+                  <br/>Much I marvelled this ungainly fowl to hear discourse so plainly,
+              <br/>Though its answer little meaning—little relevancy bore;
+              <br/>For we cannot help agreeing that no living human being
+              <br/> Ever yet was blessed with seeing bird above his chamber door—
+              <br/>Bird or beast upon the sculptured bust above his chamber door,
+              <br/>With such name as “Nevermore.”</div>
+              <div class="lg">
+                  <br/>But the raven, sitting lonely on the placid bust, spoke only
+              <br/>That one word, as if his soul in that one word he did outpour.
+              <br/>Nothing farther then he uttered—not a feather then he fluttered—
+              <br/>Till I scarcely more than muttered « Other friends have flown before—
+              <br/>On the morrow he will leave me, as my hopes have flown before.
+              <br/>Then the bird said “Nevermore.”</div>
+              <div class="lg">
+                  <br/>Startled at the stillness broken by reply so aptly spoken,
+              <br/>"Doubtless” said I, “what it utters is its only stock and store
+              <br/>Caught from some unhappy master whom unmerciful Disaster
+              <br/>Followed fast and followed faster till his songs one burden bore—
+              <br/>Till the dirges of his Hope the melancholy burden bore
+              <br/>Of “Nevermore”—of “Nevermore.”</div>
+              <div class="lg">
+                  <br/>But the raven still beguiling all my sad soul into smiling,
+              <br/> Straight I wheeled a cushioned seat in front of bird, and bust and door;
+              <br/>Then upon the velvet sinking, I betook myself to linking
+              <br/>Fancy unto fancy, thinking what this ominous bird of yore—
+              <br/>What this grim, ungainly, ghastly, gaunt, and ominous bird of yore
+              <br/>Meant in croaking “Nevermore.”</div>
+               <div class="lg">  
+                  <br/>This I sat engaged in guessing, but no syllable expressing
+              <br/>To the fowl whose fiery eyes now burned into my bosom’s core;
+              <br/>This and more I sat divining, with my head at ease reclining
+              <br/>On the cushion’s velvet lining that the lamplight gloated o’er,
+              <br/>But whose velvet violet lining with the lamplight gloating o’er.
+              <br/>She shall press, ah, nevermore!</div>
+              <div class="lg">
+                  <br/>Then, methought, the air grew denser, perfumed from an unseen censer
+              <br/>Swung by angels whose faint foot-falls tinkled on the tufted floor.
+              <br/>" Wretch,” I cried, "thy God hath lent thee—by these angels he hath sent thee
+              <br/>Respite—respite and nepenthe from thy memories of Lenore!
+              <br/>Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”
+              <br/>Quoth the raven “Nevermore.”</div>
+              <div class="lg">
+                  <br/>“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—
+              <br/>Whether Tempter sent, or whether tempest tossed thee here ashore,
+              <br/>Desolate yet all undaunted, on this desert land enchanted—
+              <br/>On this home by Horror haunted—tell me truly, I implore—
+              <br/>Is there—is there balm in Gilead—tell me—tell me, I implore!”
+              <br/>Quoth the raven “Nevermore.”</div>
+               <div class="lg">    
+                  <br/>“Prophet!” said I, “thing of evil—prophet still, if bird or devil!
+              <br/>By that Heaven that bends above us—by that God we both adore—
+              <br/>Tell this soul with sorrow laden if, within the distant Aidenn,
+              <br/>It shall clasp a sainted maiden whom the angels name Lenore—
+              <br/>Clasp a rare and radiant maiden whom the angels name Lenore.”
+              <br/>Quoth the raven “Nevermore.”</div>
+              <div class="lg">
+                  <br/>“Be that word our sign of parting, bird or fiend!” I shrieked, upstarting—
+              <br/>“Get tbee back into the tempest and the Night’s Plutonian shore!
+              <br/>Leave no black plume as a token of that lie thy soul hath spoken!
+              <br/>Leave my loneliness unbroken!—quit the bust above my door!
+              <br/>Take thy beak from out my heart, and take thy form from off my door!”
+              <br/>Quoth the raven "Nevermore.”</div>
+              <div class="lg">
+                  <br/>And the raven, never flitting, still is sitting, still is sitting
+              <br/>On the pallid bust of Pallas just above my chamber door;
+              <br/>And his eyes have all the seeming of a demon that is dreaming,
+              <br/>And the lamp-light o’er him streaming throws his shadow on the floor;
+              <br/>And my soul from out that shadow that lies floating on the floor
+              <br/> Shall be lifted—nevermore!</div>
+            </div>
           </div>
         </div>
-        <a href="#p91"/>
-        
-        <div id="#p11" class="piece">
+        <br/>
+      <div class="pagebreak" id="#page91"/>
+        <br/>
+      <div class="columnbreak"/>
+        <div class="piece" id="#p11">
           <div class="head">CHRONOLOGY.</div>
-          BY <span class="person" id="">R. H. SCHOOLCROT</span>.
+          <div class="byline">BY <span class="person">R. H. SCHOOLCROT</span>.</div>
           <p>The original tribe of the Phoenecians believed that their
             <br/>ancestors were grasshoppers, and came out of the ground.
             <br/>The Persians believed that Zoroaster lived twenty years in
@@ -1445,7 +1506,8 @@
             <br/>Certain it is, that the Manhattanese fought the nations east,
             <br/>West and north all around them; sung their war songs, trap-
             <br/>ped beaver, worshipped whom they would worship, and died'
-            They had their villages at Capsee, and Warpoes, and Na-
+            <br/>
+            <div class="columnbreak"/>They had their villages at Capsee, and Warpoes, and Na-
             <br/>tonk, and many other places, now covered by the great city,
             <br/>where they feasted, and danced, and sung. If any one was
             <br/>sick they raised a high pole before the priest’s or juggler’s
@@ -1471,7 +1533,7 @@
             <br/>quiry also, we may endeavor, in due time, to answer.</p>
         </div>
 
-        <div id="#p12" class="piece">
+        <div class="piece" id="#p12">
           <div class="head">THE CONCERT ROOM.</div>
           <p>The Euterpean Society.—This Society, venerable in its
             <br/>age, though youthful in its spirit, gave its Annual Concert
@@ -1512,8 +1574,10 @@
             <br/>enthusiasm is real, earnest and unaffected. His mind highly
             <br/>educated and refined, has carried him far beyond the triviali-
             <br/>ties which delight the ordinary amateur. Music has been to
-            <a href="#p92"/>
-            him, like his profession, a study. The old masters are as
+            <br/>
+            <div class="pagebreak" id="#page92"/>
+            <br/>
+            <div class="columnbreak"/>him, like his profession, a study. The old masters are as
             <br/>familiar to him as Latin, Greek, German, and French. He
             <br/>has studied their beauties and feels them knowingly. We
             <br/>have the pleasure of a personal acquaintance with him, and
@@ -1568,9 +1632,9 @@
           <p>Signor Rapetti did as much as could be expected with the incompetent band under his
             direction.</p>
         </div>
-        <div id="#s5" class="section">
+        <div class="section" id="#s5">
           <div class="head">VARIETIES.</div>
-          <div id="#p13" class="piece">
+          <div class="piece" id="#p13">
             <div class="head">THE CURSE OF CRITICISM.</div>
             <p>Malice often makes the pretence of criticism the conve-
               <br/>nience of circulating her detractions; but honest criticism has
@@ -1579,7 +1643,8 @@
               <br/>of the critic to gratify their propensities for inflicting pain.
               <br/>Such “imps of fame” have brought discredit upon the hono-
               <br/>rable and necessary office which malicious men, above all
-              others, are least qualified to fill, let their pretensions be what they
+              <br/>
+               <div class="columnbreak"/>others, are least qualified to fill, let their pretensions be what they
               may.</p>
             <p>We do not remember of ever meeting with a sadder ac-
               <br/>count of the wrongs inflicted by malicious criticism than that
@@ -1610,7 +1675,7 @@
               <br/>of his master.</p>
           </div>
 
-          <div id="#p14" class="piece">
+          <div class="piece" id="#p14">
             <div class="head">A NEW WASHINGTON MONUMENT.</div>
             <p>Mr. Robert Kerr has published a large lithographic print
               <br/>of a design for a Washington Monument, which is much less
@@ -1646,8 +1711,10 @@
               <br/>table. The choragic monuments, though the largest among
               <br/>the Greeks, were of the lowest order; and the use of any
               <br/>structure resembling them, for such a purpose as a monument
-              <a href="#p93"/>
-              in honor of Washington, would always have a be-littling ef-
+              <br/>
+               <div class="pagebreak" id="#page93"/>
+              <br/>
+               <div class="columnbreak"/>in honor of Washington, would always have a be-littling ef-
               <br/>fect upon the feelings, even though it were as vast as St.
               <br/>Peter’s. The only description of monument in honor of
               <br/>Washington, which can be devised, that will not outrage
@@ -1657,7 +1724,7 @@
               <br/>will create the feeling of veneration, which mere magnitude
               <br/>can never do.</p>
           </div>
-          <div id="#p15" class="piece">
+          <div class="piece" id="#p15">
             <div class="head">THE SNOW.</div>
             <p>The Snow-storm of Tuesday and Wednesday.—This is
               <br/>the grand event of the season. We have not had such an ava-
@@ -1704,7 +1771,7 @@
           </div>
         </div>
 
-        <div id="#p16" class="piece">
+        <div class="piece" id="#p16">
           <div class="head">THE MAGAZINES.</div>
           <p>There are two kinds of Magazines, those that appear on the first
             <br/>of the month, and those that appear in the middle of it. The first
@@ -1717,7 +1784,8 @@
             <br/>Magazine, has ever thriven in Philadelphia; nothing lower than five
             <br/>dollars has ever done well in New York. We have thus, we believe,
             <br/>given the distinguishing features of the two species of the Magazines.
-            We might distinguish them still farther, as: the three dollar species
+            <br/>
+            <div class="columnbreak"/>We might distinguish them still farther, as: the three dollar species
             <br/>have pinkish colored covers, fifty leaved, and are of both sexes; while
             <br/>the five dollar species are generally males, have a hundred leaves, and
             <br/>are bluish or brown covered. In other respects the points of difference
@@ -1796,8 +1864,10 @@
             <br/>"The Literary Prospects of 1845, ’ is a very agreeable and genial
             <br/>paper by Mr. Duyckinck, who is one of those rare men that devote
             <br/>their time and abundance to the cultivation of letters, not as a means
-            <a href="#p94"/>
-            of dissipating time and procuring a refined enjoyment, but as the
+            <br/>
+            <div class="pagebreak" id="#page94"/>
+            <br/>
+            <div class="columnbreak"/>of dissipating time and procuring a refined enjoyment, but as the
             <br/>means of doing good to others, and promoting social reform. The
             <br/>Review of Alison’s History by Mr. Headley, is long and able,
             <br/>but too much in the massacrante style for the dignity of a review. It
@@ -1825,9 +1895,9 @@
             <br/>cal essays, and it would be difficult to decide which was which.</p>
         </div>
 
-        <div id="#s6" class="section">
+        <div class="section" id="#s6">
           <div class="head">LITERARY NOTICES.</div>
-          <div id="#p17" class="piece">
+          <div class="piece" id="#p17">
             <p>The Treasury of History, No. 2. Price 2ft cents. Daniel Adee, 107 Fulton street.</p>
             <p>A work of great value at a very low price. As a book oi historical
               <br/>reference it will be indispensable in a library. We are happy to per-
@@ -1835,7 +1905,7 @@
               <br/>enriched by a History of America, by John Inman.</p>
           </div>
 
-          <div id="#p18" class="piece">
+          <div class="piece" id="#p18">
             <p>A Chaunt of Life and other Poems, with Sketches and Essays, by Ralph Hoyt, in Six
               Parts. Part 1. 1844.</p>
             <p>There is too little material in this delicate volume to base an opin-
@@ -1848,7 +1918,7 @@
               <br/>Hoyt’s modest volume are rather an injury to it.</p>
           </div>
 
-          <div id="#p19" class="piece">
+          <div class="piece" id="#p19">
             <p>Catlin’s New Work. North American Indian Portfolio, containing Hunt-
               <br/>ing Scenes. Amusements, Scenery and Costume of the Indians of the
               Rocky
@@ -1860,7 +1930,7 @@
               <br/>cards, enveloped in a handsome portfolio, price £10 10s. Henry G. Bohn,
               <br/>York street, Covent Garden.</p>
           </div>
-          <div id="#p20" class="piece">
+          <div class="piece" id="#p20">
             <p>Rome as seen by a New Yorker in 1843-4. New York and London: Wiley and Putnam.
               1845.</p>
             <p>It would be idle to look for any thing new in a book professing to
@@ -1877,7 +1947,7 @@
               <br/>understood to be from the pen of Mr. W. M. Gillespie, whose letters in
               <br/>the Tribune, a year or two since, were very generally admired.</p>
           </div>
-          <div id="#p21" class="piece">
+          <div class="piece" id="#p21">
             <p>The Wonderful Adventures of Baron Munchausen. New York: Farmer and Daggers, 30 Ann
               street.</p>
             <p>We have not met the Baron before for many a long year, and we
@@ -1886,15 +1956,16 @@
               <br/>our publishers did not re-introduce the marvellous story-teller to the
               <br/>present generation of wonder-loving boys.</p>
           </div>
-          
-          <div id="#p22" class="piece">
+          <br/>
+         <div class="columnbreak"/>
+          <div class="piece" id="#p22">
             <p>Blackwood's Magazine, for January. Republished by Leonard Scott &amp; Co., 112 Fulton
               street.</p>
             <p>The present number contains a paper from Christopher North, on
               <br/>Coleridge, very much in the manner of his early essays, which gained
               <br/>him his great renown.</p>
           </div>
-          <div id="#p23" class="piece">
+          <div class="piece" id="#p23">
             <p>The Southern Quarterly Review. No 13. January, 1845. Charleston.</p>
             <p>It is a matter of surprise that a work of this character should not be
               <br/>more extensively known. The proprietor seems to have no particular
@@ -1924,7 +1995,7 @@
           </div>
         </div>
 
-        <div id="#p24" class="piece">
+        <div class="piece" id="#p24">
           <div class="head">MUSICAL INTELLIGENCE.</div>
           <p>Madame Pico is in Boston. She was engaged to sing at the Phil-
             <br/>harmonic Society, and intends, we understand, to give several Con-
@@ -1957,12 +2028,12 @@
             <br/>pose to give a series of Concerts in a week or two.</p>
         </div>
 
-        <div id="#s7" class="section">
+        <div class="section" id="#s7">
           <div class="head">BITS OF NEWS.</div>
-          <div id="#p27" class="piece">
+          <div class="piece" id="#p27">
             <p>Longfellow’s Poets and Poetry of Europe will be published in about six weeks.</p>
           </div>
-          <div id="#pg28" class="piece">
+          <div class="piece" id="#pg28">
             <p>Carey and Hart have in press a new work of native humor by the
               <br/>author of Major Jones’s Courtship, which will be illustrated by Darley
               <br/>of Philadelphia. The same publishers will soon issue a genuine South-
@@ -1970,29 +2041,31 @@
               <br/>voyagers down the Mississippi; the author is a Kentuckian. We shall
               <br/>give due notice of its appearance.</p>
           </div>
-          <div id="#p29" class="piece">
+          <div class="piece" id="#p29">
             <p>Mr. Petre, the British Consul in Philadelphia, a gentleman hardly more distinguished
               for his fine social qualities than for his profound
-              <a href="#p95"/>
-              and almost universal acquaintance with the classic authors, has ready for
+              <br/>
+               <div class="pagebreak" id="#page95"/>
+              <br/>
+               <div class="columnbreak"/>and almost universal acquaintance with the classic authors, has ready for
               the press the “Poets and Poetry of Greece and Rome.”</p>
           </div>
-          <div id="#p30" class="piece">
+          <div class="piece" id="#p30">
             <p>A New Edition of Carlyle.—Carey and Hart have in press, a complete
               <br/>edition of the Critical and Miscellaneous Writings of Thomas Carlyle,
               <br/>with a Preface by Ralph Waldo Emerson. This is to be published for the author’s
               benefit.</p>
           </div>
-          <div id="#p31" class="piece">
+          <div class="piece" id="#p31">
             <p>Powers, the sculptor, has nearly finished a work for a distinguished gentleman in
               Philadelphia, which is said by good critics in Italy very much to surpass his Eve.</p>
           </div>
-          <div id="#p32" class="piece">
+          <div class="piece" id="#p32">
             <p>The Harpers will publish, in a few days, a new edition of Halleck’s
               <br/>Poems, which will contain, it is said, some pieces never before pub-
               <br/>lished.</p>
           </div>
-          <div id="#p33" class="piece">
+          <div class="piece" id="#p33">
             <p>Leutze is engaged on the greatest of all his pictures, the Landing of
               <br/>the Norsemen in America. One of the most celebrated of the living
               <br/>sculptors of Germany, in writing to a gentleman in Philadelphia in re-
@@ -2004,7 +2077,7 @@
           </div>
         </div>
 
-        <div id="#p25" class="piece">
+        <div class="piece" id="#p25">
           <p>To Readers and Correspondents.—There are a good many enquiries
             <br/>as to the success of our undertaking, for which we are extremely grate-
             <br/>ful. Many of our good friends, we are informed, are waiting to
@@ -2082,16 +2155,17 @@
             <br/> ceived.</p>
         </div>
 
-        
-        <div id="#s8" class="section">
+        <br/>
+      <div class="columnbreak"/>
+        <div class="section" id="#s8">
           <div>
             <div class="head">BY THE CAMBRIA—VALENTINES!</div>
-            
-              Ho for the day, when true lovers may
-              Their vows to each other impart,
-              Uncensur’d by those who feign would oppose
-              The spontaneous flow of the heart.
-            
+            <div class="lg">
+              <br/>Ho for the day, when true lovers may
+              <br/>Their vows to each other impart,
+              <br/>Uncensur’d by those who feign would oppose
+              <br/>The spontaneous flow of the heart.
+            </div>
             <p>THE Proprietor has the pleasure to announce to the
               <br/>Public that he has received probably the largest, most superb and beautiful
               <br/>assortment of English Valentines that has been imported by any other house
@@ -2182,8 +2256,10 @@
               <br/>literature of a good history of France, has induced the publishers to
               <br/>introduce it to the American public at a price within the means of all.</p>
           </div>
-          <a href="#p96"/>
-          
+          <br/>
+         <div class="pagebreak" id="#page96"/>
+          <br/>
+         <div class="columnbreak"/>
           <div>
             <div class="head">DISEASES OF THE TEETH.</div>
             <div class="ab">Washington, D. C., May, 1844.</div>
@@ -2279,7 +2355,8 @@
               <br/>the Proprietor, will be entitled to the Magazine for one year.</p>
             <p>Office of Merchants’ Magzine, January 1st, 1845.</p>
           </div>
-          
+          <br/>
+         <div class="columnbreak"/>
           <div>
             <div class="head">PLUMBE DAGUERRIAN GALLERY</div>
             <p>AND PHOTOGRAPHIC DEPOT, 251 Broadway,
@@ -2307,7 +2384,9 @@
             <div class="ab">TURNER &amp; HAYDEN, No. 10 John Street, And for sale by all the Booksellers.</div>
           </div>
           <div>
-            The First Premium awarded five years by the American Institute for
+            <span class="note" id="">
+               <a href=""/>
+            </span>The First Premium awarded five years by the American Institute for
               <br/>the best Specimen of Off-hand Penmanship.
             <div class="head">GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,
               <br/>NO. 189 BROADWAY, NEW YORK.</div>
@@ -2338,7 +2417,7 @@
             <div class="ab">No. 9 Whitehall Street, New York.</div>
           </div>
         </div>
-        <div id="p26" class="piece">
+        <div class="piece" id="p26">
           <div class="head">Prospectus of the Broadway Journal. To be Published every Saturday.</div>
           <p>The Broadway Journal will differ from any of the weekly Peri-
             <br/>odicals now published in this city, as it will be made up entirely of

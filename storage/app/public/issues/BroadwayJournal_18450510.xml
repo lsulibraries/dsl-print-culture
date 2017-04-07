@@ -13,6 +13,8 @@
         <div class="ab">GLIMPSES OF BROADWAY. NO. I. FROM UNION SQUARE LOOKING DOWN BROADWAY</div>
       </div>
    
+      <br/>
+      <div class="columnbreak"/>
       <div>
         <div class="head">THE NATIONAL ACADEMY. PORTRAITS.</div>
 
@@ -25,7 +27,8 @@
           regard it. The most valuable paintings in the world are portraits ; they sell at higher
           prices than any other pictures, and give the highest degree of pleasure. Even the gross
           beauties
-           of Rubens are valued more highly than any other of his paintings, and the
+          <br/>
+            <div class="columnbreak"/> of Rubens are valued more highly than any other of his paintings, and the
           portraits of Van Dyke and Titian are the most esteemed of their productions. Take the
           portraits from the list of Reynolds’ works, and there would be nothing left worth having.
           Among our own painters, Copley, Stewart, Trumbull, and Alston’s portraitures comprise the
@@ -36,8 +39,10 @@
           charming and profitable objects in Art. A portrait of Shakspeare by such an artist as Van
           Dyke, would be worth more than all the historical pictures painted in his century. It is
           the true object of
-          <a href="#p290"/> 
-          Art to counterfeit Nature, and preserve the forms which would be
+          <br/>
+            <div class="pagebreak" id="#page290"/> 
+            <br/>
+            <div class="columnbreak"/>Art to counterfeit Nature, and preserve the forms which would be
           forever obliterated without its aid. We would by no means discourage historical
           composition, but then we would have each century paint its own history. It is very obvious
           that no painter can give us a reflection of a past age. We do not want mockeries in a
@@ -96,7 +101,8 @@
 
         <p>No. 199. Portrait of T. Hicks—painted by himself.Lawyers say that the advocate who
           pleads his own cause has a
-          fool for his client, and the artist who paints his own
+          <br/>
+            <div class="columnbreak"/>fool for his client, and the artist who paints his own
           portrait is sure of satisfying his sitter. Perhaps this is the reason why artists are so
           fond of painting themselves. We believe there are few painters who have not multiplied
           their own faces. The Academy has an absurd rule, requiring its associates to present their
@@ -159,8 +165,10 @@
           excepting the marked character of the subject, to attract attention, and the posi-tion in
           which it is hung not being a favorable one. we should hardly have noticed it had we not
           known the painter to be one of the most industrious, most enthusiastic, and most
-          <a href="#p291"/>
-          promising of all our young artists. No. 221, another head of an old gentleman, is a very
+          <br/>
+            <div class="pagebreak" id="#page291"/>
+            <br/>
+            <div class="columnbreak"/>promising of all our young artists. No. 221, another head of an old gentleman, is a very
           truthful, unpretending portrait.</p>
 
         <p>No. 165. A Greek.—By F. Fink. This portrait attracts a good deal of attention, and is
@@ -186,29 +194,31 @@
 
       <div>
         <div class="head">ENIGMA.</div>
-        
-          INFLUX of Eternal Mind,
-          Nameless, formless, undefined;
-          Image of all things that be,—
-          Mirror of Eternity;
-          Ether, betwixt earth and heaven;
-          Deathless, though to mortals given;
-          Sphere of knowledge, soul of things,
-          Parent of imaginings;
-          Fluctuous vehicle of shape,
-          Nature’s idol, Reason’s ape ;
-          Master of the hand and eye,
-          Forerunner of destiny;
-          Dual Essence ! at thy birth
-          Sprang the masters of the earth;
-          Eros, lord of golden life,—
-          Passion, mingling all in strife,—
-          Prudence, wisdom’s early friend,—
-          Fancy, earning but to spend;
-          Last, not least, thou sawest light;—
-          Name thyself, O subtile sprite !
-        
-        <span class="person" id="">HORUS.</span>
+        <div class="lg">
+            <br/>INFLUX of Eternal Mind,
+          <br/>Nameless, formless, undefined;
+          <br/>Image of all things that be,—
+          <br/>Mirror of Eternity;
+          <br/>Ether, betwixt earth and heaven;
+          <br/>Deathless, though to mortals given;
+          <br/>Sphere of knowledge, soul of things,
+          <br/>Parent of imaginings;
+          <br/>Fluctuous vehicle of shape,
+          <br/>Nature’s idol, Reason’s ape ;
+          <br/>Master of the hand and eye,
+          <br/>Forerunner of destiny;
+          <br/>Dual Essence ! at thy birth
+          <br/>Sprang the masters of the earth;
+          <br/>Eros, lord of golden life,—
+          <br/>Passion, mingling all in strife,—
+          <br/>Prudence, wisdom’s early friend,—
+          <br/>Fancy, earning but to spend;
+          <br/>Last, not least, thou sawest light;—
+          <br/>Name thyself, O subtile sprite !
+        </div>
+        <div class="byline">
+            <span class="person">HORUS.</span>
+         </div>
       </div>
 
       <div>
@@ -235,7 +245,8 @@
           out of the polar austerities of Scotland ? It was a merciful dispensation which sent this
           tropical genius to a clime which might naturally produce only Chamber’s Journals and
           
-          
+          <br/>
+            <div class="columnbreak"/>
           Information for the people. Soul, soul, soul are the three requisites for the great
           magazine. We like the dishabille air and demi-toilette of authorship, for we feel, where
           these are worn, the surrounding atmosphere is warm and genial. Here we prefer sensibility
@@ -283,22 +294,25 @@
           the support and influence of the best men that the best things are done, the best words
           spoken, and the best books written. Pope has explained this in his courtly graceful way: </p>
            
-            “But why then publish? Granville the polite, 
-             And knowing Walsh, would tell me I could write; 
-             Well-natured Garth inflamed with early praise, 
-             And Congreve lov’d, and Swift endur’d my lays! 
-             The courtly Talbot, Somers, Sheffield read, 
-             E'en mitred Rochester would nod the head, 
-             And St. John’s self, great Dryden’s friend before, 
-             With open arms receive one poet more.”
+           <div class="lg"> 
+            <br/>“But why then publish? Granville the polite, 
+             <br/>And knowing Walsh, would tell me I could write; 
+             <br/>Well-natured Garth inflamed with early praise, 
+             <br/>And Congreve lov’d, and Swift endur’d my lays! 
+             <br/>The courtly Talbot, Somers, Sheffield read, 
+             <br/>E'en mitred Rochester would nod the head, 
+             <br/>And St. John’s self, great Dryden’s friend before, 
+             <br/>With open arms receive one poet more.”</div>
 
         <p>There is nothing more delightful in authorship, than an unchecked genial strain of
           friendly altercation, a rivalry in the appreciation of one another’s qualities, where it
           takes place between men who possess something in themselves worth eulogizing, and are of
           sufficient importance for the world to take an interest in the matter. We know what a much
           dreaded word egotism is in society and among critics, and how instinctively alarm is taken
-          by a class of very sensitive persons at the slightest approach to personality; how <a href="#p292"/>
-          many very careful guardians there are in the world with the zeal of duennas,
+          by a class of very sensitive persons at the slightest approach to personality; how <br/>
+            <div class="pagebreak" id="#page292"/>
+            <br/>
+            <div class="columnbreak"/>many very careful guardians there are in the world with the zeal of duennas,
           whose prudish, nicely-educated souls are offended at an improper exhibition of self, and
           we appreciate very kindly the good taste which would reduce men and women to a vapid state
           of insipidity, by closing the mouths of everybody to anything which might prove hazardous
@@ -357,7 +371,8 @@
           knows, thinks and feels, that other men may learn to know, think and feel. If he were to
           do otherwise, and cease to exhibit, directly or indirectly, his own personal character on
           the page, biography would soon be an
-           enumeration of mere platitudes, and would fall
+          <br/>
+            <div class="columnbreak"/> enumeration of mere platitudes, and would fall
           into the very pretence and puffery sought to be avoided; ignorance would be unquestioned,
           folly respected, and vice unscathed ; there would be one biographical formula, something
           like that in the ladies’ magazines, where character and reputation are dispensed as freely
@@ -417,7 +432,10 @@
           sustained and defended by the few, is a point only to be suggested. In the present state
           of our literature it is of the next importance to being true to themselves, that literary
           men should be true to one another. Short as our history has been, and comparatively few
-          as<a href="#p293"/> have been our men of letters, there has been time to forget and neglect some of
+          as<br/>
+            <div class="pagebreak" id="#page293"/> 
+            <br/>
+            <div class="columnbreak"/>have been our men of letters, there has been time to forget and neglect some of
           the best spirits among them. American criticism has yet many a genial hour’s delightful
           toil to come, in making the acquaintance of the inner life of many who are but little
           understood.—Dem. Review.</p>
@@ -477,7 +495,8 @@
           physical as well as mental training is necessary to the full development of our nature.
           The philosophy of Socrates and Plato—the philosophy of words has long since given way to
           the philosophy of Bacon—the philosophy of works.</p>
-        
+        <br/>
+         <div class="columnbreak"/>
 
         <p>To those boys who have for years been poring over dull pages of Greek and Latin, whose
           eyes have become weak and weary with much study—whose brains have been puzzled with
@@ -517,10 +536,10 @@
           mantel-piece, and a bumper of port in his paw, making strenuous efforts to accomplish the
           ditty,</p>
 
-        
-           Remplis ton verre vide ! 
-           Vide ton verre plein ! 
-        
+        <div class="lg">
+            <br/> Remplis ton verre vide ! 
+          <br/> Vide ton verre plein ! 
+        </div>
 
         <p>“My dear uncle,” said I, closing the door gently, and approaching him with the blandest
           of smiles, “you are always so very kind and considerate, and have evinced your benevolence
@@ -555,7 +574,10 @@
 
         <p>“If you please, uncle—precisely.-</p>
 
-        <p>“Well, then, Bobby, my boy—you’re a fine fellow, are’nt<a href="#p294"/> you ?—since you will have
+        <p>“Well, then, Bobby, my boy—you’re a fine fellow, are’nt<br/>
+            <div class="pagebreak" id="#page294"/> 
+            <br/>
+            <div class="columnbreak"/>you ?—since you will have
           the exact time, I’ll—why, I’ll oblige you for once.”</p>
 
         <p>“ Dear uncle !”</p>
@@ -615,7 +637,8 @@
           resistance (as Messieurs Ude and Ca-reme would say) which suited his perverse fancy to a
           T. It would have stirred the indignation of Job himself, to see how much like an old
           mouser he behaved to us two poor wretched little mice. In his heart he wished for nothing
-          more ardently than our union. He had made up his mind to this all along. In fact, he
+          more ardently than our union. He had made up his mind to this<br/>
+            <div class="columnbreak"/> all along. In fact, he
           would have given ten thousand pounds from his own pocket (Kate’s plum was her own) if he
           could have invented anything like an excuse for complying with our very natural wishes.
           But then we had been so imprudent as to broach the subject ourselves. Not to oppose it
@@ -692,8 +715,10 @@
 
         <p>Pratt. Oh no !—to-morrow's Sunday.”</p>
 
-        <p>Smitherton. “ You are all mad—every one of you. I am<a href="#p295"/>
-          as positive that yesterday was Sunday as I am that I sit upon this chair.”</p>
+        <p>Smitherton. “ You are all mad—every one of you. I am<br/>
+            <div class="pagebreak" id="#page295"/>
+            <br/>
+            <div class="columnbreak"/>as positive that yesterday was Sunday as I am that I sit upon this chair.”</p>
 
         <p>Kate, (jumping up eagerly.) “I see it—I see it all. Papa, this is a judgment upon you,
           about—about you know what. Let me alone, and I’ll explain it all in a minute. It’s a very
@@ -735,43 +760,50 @@
           Done up, by Jove ! Three Sundays all in a row! I’ll go,and take Dubble L. Dee’s opinion
           upon that.</p>
 
-        <span class="person" id="">EDGAR A. POE.</span>
+        <div class="byline">
+            <span class="person">EDGAR A. POE.</span>
+         </div>
       </div>
       
       <div>
          <div class="head">TO ONE IN PARADISE.</div>
         
-        Thou wast all that to me, love,
-          For which my soul did pine—
-          A green isle in the sea, love,
-          A fountain and a shrine,
-          All wreathed with fairy fruits and flowers,
-          And all the flowers were mine.
-          Ah, dream too bright to last!
-          Ah, starry Hope ! that didst arise But to be overcast!
-          A voice from out the Future cries,
-          "On ! on !”—but o’er the Past
-          (Dim gulf!) my spirit hovering lies Mute, motionless, aghast!
-          For, alas! alas ! with me The light of Life is o’er!
-          (Such language holds the solemn sea To the sands upon the shore)
-          Shall bloom the thunder-blasted tree,
-          Or the stricken eagle soar!
-          And all my days are trances,
-          And all my nightly dreams 
-          Are where thy dark eye glances,
-          And where thy footstep gleams—
-          In what ethereal dances,
-          By what eternal streams.
-        <span class="person" id="">EDGAR A. POE</span>
+        <div class="lg">
+            <br/>Thou wast all that to me, love,
+          <br/>For which my soul did pine—
+          <br/>A green isle in the sea, love,
+          <br/>A fountain and a shrine,
+          <br/>All wreathed with fairy fruits and flowers,
+          <br/>And all the flowers were mine.
+          <br/>Ah, dream too bright to last!
+          <br/>Ah, starry Hope ! that didst arise But to be overcast!
+          <br/>A voice from out the Future cries,
+          <br/>"On ! on !”—but o’er the Past
+          <br/>(Dim gulf!) my spirit hovering lies Mute, motionless, aghast!
+          <br/>For, alas! alas ! with me The light of Life is o’er!
+          <br/>(Such language holds the solemn sea To the sands upon the shore)
+          <br/>Shall bloom the thunder-blasted tree,
+          <br/>Or the stricken eagle soar!
+          <br/>And all my days are trances,
+          <br/>And all my nightly dreams 
+          <br/>Are where thy dark eye glances,
+          <br/>And where thy footstep gleams—
+          <br/>In what ethereal dances,
+          <br/>By what eternal streams.</div>
+        <div class="byline">
+            <span class="person">EDGAR A. POE</span>
+         </div>
       </div>
 
+      <br/>
+      <div class="columnbreak"/>
       <div>
         <div class="head">REVIEWS. </div> 
         
         <div>
             <div class="head">The first Three Books of Homer’s Iliad, according to the Ordi-dinary
             Text, and also with the restoration of the Digamma, to which are appended English Notes,
-            critical and explanatory, a Metrical Index, and Homer’s Glossary. By <span class="person" id=""> Charles
+            critical and explanatory, a Metrical Index, and Homer’s Glossary. By <span class="person"> Charles
               Anthon</span>, L.L. D., Jay Professor of the Greek and Latin Languages in Columbia
             College, New York, and Rector of the Grammar School. New York: Harper &amp;
             Brothers.</div>
@@ -817,15 +849,17 @@
         </div>
 
         <div>
-            <div class="head">Letters from New York. Second Series. By <span class="person" id="">L. M.
+            <div class="head">Letters from New York. Second Series. By <span class="person">L. M.
               Child</span>. New York. C. S. Francis, &amp; Co. 1845.</div>
 
             <p>The great popularity of the first series of Mrs. Child’s letters from New York, will
             insure a hearty welcome and a large sale for this new volume. Without possessing any of
             the charms which private epistles derive from their confidential revelations and bits of
             private scandal that all people love, the letters of Mrs. Child make a direct appeal
-              to<a href="#p296"/>
-             every human heart and cause the reader to feel as though they had been
+              to<br/>
+               <div class="pagebreak" id="#page296"/>
+               <br/>
+               <div class="columnbreak"/> every human heart and cause the reader to feel as though they had been
             addressed to himself personally. It is because the author opens her own heart that she
             gains admission to the hearts of others so rapidly. Nothing will so disarm reserve as
             confidence; ice can alone be melted by heat; hatred and anger must be overcome by love
@@ -894,7 +928,8 @@
             in the midst of it; and few have within themselves such uplifting life as the
             burdock.</p>
 
-            <p>It is one of the saddest sights to see a young girl, born of wealthy and
+            <p>It is one of the saddest sights to see a young girl, born of wealthy<br/>
+               <div class="columnbreak"/> and
             wordly parents, full of heart and soul, her kindly impulses continually checked by
             etiquette, her noble energies repressed by genteel limitations. She must not presume to
             love any body, till father and mother find a suitable match ; she must not laugh loud
@@ -908,7 +943,7 @@
         </div>
       
         <div>
-            <div class="head">The Pencil of Nature. By <span class="person" id="">H. Fox Talbot</span>: London,
+            <div class="head">The Pencil of Nature. By <span class="person">H. Fox Talbot</span>: London,
             1844. Imported by Wiley &amp; Putnam, 161 Broadway. Nos. 1 and 2.</div>
 
             <p>This is the first attempt to publish a series of pictures, made entirely by Nature
@@ -964,8 +999,10 @@
             founded, is contained in the Books of Samuel, commencing with the twentieth chapter of
             the first book, and ending with the first chapter of the second. “It may be proper to
             say," says the author in a note, "that I am not acquainted with any other poem in the
-            language plotted<a href="#p297"/>
-            on the same incidents. Mr. Sotheby’s Epic, which very probably occupies the
+            language plotted<br/>
+               <div class="pagebreak" id="#page297"/>
+               <br/>
+               <div class="columnbreak"/>on the same incidents. Mr. Sotheby’s Epic, which very probably occupies the
             same ground, I believe I have never seen, and am sure that I never read.”</p>
 
             <p>This we look upon as a very remarkable thing. How a poet, writing a Jong dramatic poem
@@ -984,60 +1021,60 @@
             <p>In our next " Journal,” we shall review the poem in full. At present, we have time only
             to extract a peculiar passage,— the whole of the first scene of the fourth act.</p>
 
-          
-            Merodach. There crashed an avalanche,
-            From highest Libanus:
-            And ho ! another falls a-near,
-            Glancing a thousand moonbeams,
-            As the crystal rocks of ice,
-            Go thundering down below.
-            And hark! it is the mother-eagle screams,
-            As snaps the high branched pine,
-            And her nest and her brood are buried.
-            Far, far, in the valley below,
-            The peasant awakes in fear,
-            As he hears the alarum on high,
-            And the booming destruction comes down !
-            He wakes, and he prayeth his prayers;
-            The prayers that he prayeth are vain.
-            A mountain is piled on his roof and his home,
-            And the cry, and the crashing are still.
-            (Climbs higher.)
-            Earth, in these solitudes,
-            Makes bold to talk with God,
-            And lifts her head sublime to heaven,
-            Where breaks no mortal voice On the long Sabbath of her quietness.
-            But spirits, where are ye In icy fetters pining;
-            Ye who once chained the soul of Saul;
-            Ye whom the harp disarmed,
-            When David rallied his good angels,
-            To drag ye hither through the viewless ? Spirits, say where !
-            (Pauses.)
-            If such the might of song;
-            Ye too shall have enchanters Mimicking once more The spell of Moses’ rod:
-            And Pytho shall be praised upon the lyre,
-            Loud as the Hebrew’s Lord.
-            A blind old man shall be To roam the sunny islands,
-            That float upon the sea,
-            And on their hills, and on their valleys,
-            Forever, shall his song enshrine A fair idolatry.
-            (Climbs higher.)
-            Enchantress hear'st me not,
-            That calledst me afar?
-            I come to bid the spirits back again,
-            And seven beside, more strong.
-            Their harper foe is gone forever,
-            And Saul is thine once more.
-            Say witch, where art thou ?
-            Come on !
-            Merodach. Ah, Magdiel, art thou there ?
-            Voice. Ay, teaching the new seven. Did ye hear
-            The snowballs that we bowled upon your head?
-          
+            <div class="lg">
+               <br/>Merodach. There crashed an avalanche,
+            <br/>From highest Libanus:
+            <br/>And ho ! another falls a-near,
+            <br/>Glancing a thousand moonbeams,
+            <br/>As the crystal rocks of ice,
+            <br/>Go thundering down below.
+            <br/>And hark! it is the mother-eagle screams,
+            <br/>As snaps the high branched pine,
+            <br/>And her nest and her brood are buried.
+            <br/>Far, far, in the valley below,
+            <br/>The peasant awakes in fear,
+            <br/>As he hears the alarum on high,
+            <br/>And the booming destruction comes down !
+            <br/>He wakes, and he prayeth his prayers;
+            <br/>The prayers that he prayeth are vain.
+            <br/>A mountain is piled on his roof and his home,
+            <br/>And the cry, and the crashing are still.
+            <br/>(Climbs higher.)
+            <br/>Earth, in these solitudes,
+            <br/>Makes bold to talk with God,
+            <br/>And lifts her head sublime to heaven,
+            <br/>Where breaks no mortal voice On the long Sabbath of her quietness.
+            <br/>But spirits, where are ye In icy fetters pining;
+            <br/>Ye who once chained the soul of Saul;
+            <br/>Ye whom the harp disarmed,
+            <br/>When David rallied his good angels,
+            <br/>To drag ye hither through the viewless ? Spirits, say where !
+            <br/>(Pauses.)
+            <br/>If such the might of song;
+            <br/>Ye too shall have enchanters Mimicking once more The spell of Moses’ rod:
+            <br/>And Pytho shall be praised upon the lyre,
+            <br/>Loud as the Hebrew’s Lord.
+            <br/>A blind old man shall be To roam the sunny islands,
+            <br/>That float upon the sea,
+            <br/>And on their hills, and on their valleys,
+            <br/>Forever, shall his song enshrine A fair idolatry.
+            <br/>(Climbs higher.)
+            <br/>Enchantress hear'st me not,
+            <br/>That calledst me afar?
+            <br/>I come to bid the spirits back again,
+            <br/>And seven beside, more strong.
+            <br/>Their harper foe is gone forever,
+            <br/>And Saul is thine once more.
+            <br/>Say witch, where art thou ?
+            <br/>Come on !
+            <br/>Merodach. Ah, Magdiel, art thou there ?
+            <br/>Voice. Ay, teaching the new seven. Did ye hear
+            <br/>The snowballs that we bowled upon your head?
+          </div>
         </div>
 
         <div>
-            <div class="head">Never too Late. By <span class="person" id="">Charles Burdett</span>. New York. D. Appleton, &amp; Co. Be- ing of a
+            <div class="head">Never too Late. By <span class="person">Charles Burdett</span>. New York. D. Appleton, &amp; Co. Be- ing of a
           second series of tales for the people.</div>
 
             <p>One of those simple little tales of every day life, written to enforce a pious lesson,
@@ -1050,6 +1087,8 @@
         </div>
       
 
+      <br/>
+      <div class="columnbreak"/>
       <div>
         <div class="head">THE MAGAZINES. The Knickerbocker. Democratic Review. Hunt’s Merchant’s Magazine.
           American Review and Whig Magazine.—(Colton.)</div>
@@ -1105,8 +1144,10 @@
           magazine literature, than the country has ever offered before. While the three dollar
           magazine, cheap and flashy, flourish best in Philadelphia, the five dollar ones thrive
           best in New York ; indeed it is the only place, except Richmond, Va., where one has ever
-          thrived at all. But there is still room for another to administer<a href="#p298"/>
-          to tastes and preserve interests, which the others neglect. No magazine in this
+          thrived at all. But there is still room for another to administer<br/>
+            <div class="pagebreak" id="#page298"/>
+            <br/>
+            <div class="columnbreak"/>to tastes and preserve interests, which the others neglect. No magazine in this
           country has yet done anything for the interests of art, but there is a growing appetite in
           tne American people for works of artistic excellence, which we trust that some intelligent
           publisher will before long turn to a profitable account.</p>
@@ -1202,7 +1243,8 @@
             Plague.’' If any one can read that and verily believe the writer ever witnessed and
             passed through what he professes, he need not stagger at any thing. The same is true of
             what he says respecting the Pyramids, and that incredible, solitary ride on a
-            drome- dary, in the night, across the desert, to Suez.—Look, too, at Baalbec,
+            drome-<br/>
+            <div class="columnbreak"/> dary, in the night, across the desert, to Suez.—Look, too, at Baalbec,
             despatched, literally, in a dozen lines of dreamy mystification, containing not one
             definite idea. We might go on with particulars, but these are enough to direct inquiry
             to the point we wish. The mocking tone in which much of the book is written, gives
@@ -1260,7 +1302,8 @@
           late years, been so comparatively withdrawn from the more prominent scenes of business and
           society, that we have little doubt that we shall surprise the larger proportion of our
           readers by affirming that, while the younger justly attracted an ampler share of the
-          public notice by the more active part he bore in questions<a href="#p299"/> and measures
+          public notice by the more active part he bore in questions<br/>
+            <div class="pagebreak" id="#page299"/> and measures
           affecting the public welfare, and while in a species of inspiration which he imparted to
           mirth and wit, though by no means his most valuable characteristic, he, among the men of
           his own, and perhaps of any time, may with truth be pronounced inimitable; at the same
@@ -1327,7 +1370,8 @@
 
           <p>Already have the birds of night, preceded by the white-winged owl, who seems to serve
             them as a warning beacon, begun to regain their obscure retreats in the shadowy depths
-            of the forests: the timid hare  and cautious deer have already left the open fields
+            of the forests: the timid hare <br/>
+            <div class="columnbreak"/> and cautious deer have already left the open fields
             for the more propi- tious shadow of the woods. At their return, the implacable eagle and
             the voracious hawk begin to prepare anew their sharp talons for the morning’s hunt;
             while, disengaging their heads from underneath the warm wings which covered them during
@@ -1411,8 +1455,10 @@
             forgets himself in presence of a spec- tacle so majestic and sublime! . . . . . . . </p>
 
         <p>Soon the laborers resume their wonted toils; the flocks and herds are reconducted to the
-          fields; the butterflies begin to flit from flower<a href="#p300"/>
-          to flower, the bees of the neighbouring trees come to dispute with them for the
+          fields; the butterflies begin to flit from flower<br/>
+            <div class="pagebreak" id="#page300"/>
+            <br/>
+            <div class="columnbreak"/>to flower, the bees of the neighbouring trees come to dispute with them for the
           sweet ambrosia of their streaming nectaria ; the lady-birds leave their rosy couches ; the
           gilded day-beetles quit their pro-tecting recesses, while those of the night regain their
           mossy cells. The nocturnal flowers fold their humid petals, while the blossoms of the day
@@ -1474,7 +1520,8 @@
           enrol themselves among its members ; yet it appears that only twenty-five persons gathered
           together at its anniversary, which, after all, is about the number of men in the country
           who are favorable to National Reform. The Foreign Evangelical Society can number its
-          thousands of members. Our Charity is not one  of the domestic virtues; she begins
+          thousands of members. Our Charity is not one <br/>
+            <div class="columnbreak"/> of the domestic virtues; she begins
           abroad, and, in many cases ends there.</p>
 
         <p>In New Haven there has been a grand gathering of Scientific Gentlemen during the last
@@ -1490,39 +1537,42 @@
       
       <div>
          <div class="head">THE CROSSING’S SWEEPER.</div>
-        
-          With unkempt hair, and shoeless feet,
-          The untitled sov’reign of the street,
-          With broom in hand,
-          Of charity may crave a mite,—
-          Pass him not by, it is a sight He may command.
-          Pass him not by without a sign,
-          You recognize the shape divine In him, though poor;
-          Kind words, if not a coin, will soothe,
-          And make his rugged pathway smooth,
-          More than before.
-          Pass him not by ! Ye know not men,
-          But God with his omniscient ken Has placed him there,
-          To make his country’s annals bright,
-          When the plebeian claims his right And spurns despair.
-          Ay! ’neath that tattered, brimless hat,
-          May rest a spirit great as that Which shook the world,
-          And bent all Europe to its rod,
-          While kings who ruled by grace of God,
-          From thrones were hurled.
-          A time may come when ’neath a sky,
-          Brighter than that dark canopy,
-          That shades him now;
-          He yet may stand to clear your way,
-          And pointing out a brighter day,
-          Enwreathe his brow.
-          The head now pillowing on a stone,
-          Despised, uncared for, and lone,
-          May one day rise,
-          High plumed on its eagle wings,
-          To sit above your sceptred kings,
-          Eloquent, wise !
-        	<span class="person" id="">s. A. W.</span> 
+        <div class="lg">
+            <br/>With unkempt hair, and shoeless feet,
+          <br/>The untitled sov’reign of the street,
+          <br/>With broom in hand,
+          <br/>Of charity may crave a mite,—
+          <br/>Pass him not by, it is a sight He may command.
+          <br/>Pass him not by without a sign,
+          <br/>You recognize the shape divine In him, though poor;
+          <br/>Kind words, if not a coin, will soothe,
+          <br/>And make his rugged pathway smooth,
+          <br/>More than before.
+          <br/>Pass him not by ! Ye know not men,
+          <br/>But God with his omniscient ken Has placed him there,
+          <br/>To make his country’s annals bright,
+          <br/>When the plebeian claims his right And spurns despair.
+          <br/>Ay! ’neath that tattered, brimless hat,
+          <br/>May rest a spirit great as that Which shook the world,
+          <br/>And bent all Europe to its rod,
+          <br/>While kings who ruled by grace of God,
+          <br/>From thrones were hurled.
+          <br/>A time may come when ’neath a sky,
+          <br/>Brighter than that dark canopy,
+          <br/>That shades him now;
+          <br/>He yet may stand to clear your way,
+          <br/>And pointing out a brighter day,
+          <br/>Enwreathe his brow.
+          <br/>The head now pillowing on a stone,
+          <br/>Despised, uncared for, and lone,
+          <br/>May one day rise,
+          <br/>High plumed on its eagle wings,
+          <br/>To sit above your sceptred kings,
+          <br/>Eloquent, wise !
+        </div>	
+         <div class="byline">
+            <span class="person">s. A. W.</span>
+         </div> 
       </div>
 
       <div>
@@ -1542,8 +1592,10 @@
             but it ensures, beyond every contingency, that every scale shall be in perfect tune. It
             renders also the upper and the lower tones very easy to produce, while it improves and
             equalizes the tone throughout. Passages which were im practicable upon the old flute can
-            be played with perfect fa<a href="#p301"/>
-            cility upon the Boehm flute, while, added to all these advan-tages, and many
+            be played with perfect fa<br/>
+               <div class="pagebreak" id="#page301"/>
+               <br/>
+               <div class="columnbreak"/>cility upon the Boehm flute, while, added to all these advan-tages, and many
             more advantages which we shall take an early opportunity of pointing out to amateur and
             professional players, the exterior appearance of the flute is much improved and
             beautified.</p>
@@ -1604,7 +1656,8 @@
           neighborhood where they have been built, we should expect that the owners of property in
           Broadway would protest against the erection of one in that noble thoroughfare. The little
           Olympic is probably the best conducted theatre in the city ; but we see it surrounded by
-          dram shops, billiard rooms, and other equivocal resorts for  the profligate and idle.
+          dram shops, billiard rooms, and other equivocal resorts for <br/>
+               <div class="columnbreak"/> the profligate and idle.
           We see no necessity of making a theatre a drinking house, a gambling house, and a
           something else house, as well as a play house, but there seems to be the real unities of
           the drama, and pea-nuts and punch are as es-sential concomitants to the acting drama as
@@ -1653,9 +1706,12 @@
           his way to retrieve his losses ; and our remarks are only intended to apply to the
           erection of a theatre in Broadway.</p>
          </div>
-         <a href="#p302"/>
+         <br/>
+         <div class="pagebreak" id="#page302"/>
 
-        <div>
+        <br/>
+         <div class="columnbreak"/>
+         <div>
             <div class="head">Fact and Fiction.—From Thoughts on Reading, in Colton’s Magazine, by H. N.
           Hudson, the Lecturer on Shakspeare:</div>
 
@@ -1729,7 +1785,8 @@
               for 12 nights.</p>
             </div>
         
-        
+            <br/>
+            <div class="columnbreak"/>
             <div>
                <div class="head">Three faces under a hood, viz. Palmo-hood.</div>
                <p>—The new opera house in Chambers street was first occupied by the Italians, then the
@@ -1821,8 +1878,11 @@
           complete, so that it shall be a full index to alt the operations of the “ Press ” in the
           English language.</p>
          </div>
-         <a href="#p303"/>
+         <br/>
+         <div class="pagebreak" id="#page303"/>
 
+         <br/>
+         <div class="columnbreak"/>
          <div>
             <div>
                <div class="head">BOARD IN BROOKLYN.</div>
@@ -1938,6 +1998,8 @@
                <div class="head">JOHN DOUGLAS, BOOK AND JOB PRINTER, No. 106 FULTON STREET.</div>
             </div>
 
+            <br/>
+            <div class="columnbreak"/>
             <div>
                <div class="head">PIANO-FORTES.—A. H. GALE &amp; CO.’S WARE- Rooms, No. 289 Broadway—Manufactory Third
           Avenue, corner of 13th street.</div>
@@ -2042,8 +2104,11 @@
                <p>Professors and Teachers are respectfully invited to examine the work. American edition
           published by E. h. waDE and W. H. OAKES, 197, Wash-ington street, Boston. Boston.</p>
             </div>
-            <a href="#p304"/>
+            <br/>
+            <div class="pagebreak" id="#page304"/>
 
+            <br/>
+            <div class="columnbreak"/>
             <div>
                <div class="head">WORKS IN PRESS. BY HARPER AND BROTHERS, NEW YORK.</div>
 
@@ -2151,7 +2216,11 @@
 
                <p>For sale “ Goldsmith's Gems OF PENMANSHIP,” elegantly bound. Price Five Dollars.</p>
             </div>
+            <br/>
+            <div class="columnbreak"/>
 
+            <br/>
+            <div class="columnbreak"/>
             <div>
                <div class="head">THE SOUTHERN LITERARY MESSENGER. B. B. MINOR, Editor and Proprietor. Published Monthly
           at Richmond, Va. ; price Five Dollars per Year.</div>

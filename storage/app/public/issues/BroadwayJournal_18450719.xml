@@ -12,6 +12,8 @@
           By JOHN BISCO.</div>
    </div>
    <div class="body">
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="head">OUR NEW VOLUME.</div>
          <p>To the Public.—The suspension of “The Broadway
@@ -29,8 +31,10 @@
          <p>The editorial conduct of “ The Broadway Journal” is un-
 <br/>der the sole charge of Edgar A. Poe—Mr. H. C. Watson,
 <br/>as heretofore, controlling the Musical Department.</p>
-         <span class="person" id="">John Bisco</span>,
+         <div class="byline">
+            <span class="person">John Bisco</span>,
 Publisher.</div>
+      </div>
       <div>
          <div class="head">The Masque of the Red Death.</div>
          <p>The “Red Death” had long devastated the country. No
@@ -65,7 +69,8 @@ Publisher.</div>
 <br/>were within. Without was the “ Red Death.”</p>
          <p>It was toward the close of the fifth or sixth month of his
 <br/>seclusion, and while the pestilence raged most furiously 
-<br/>abroad, that the Prince Prospero entertained his thousand  friends at a masked ball of the most unusual magnificence.
+<br/>abroad, that the Prince Prospero entertained his thousand <br/>
+            <div class="columnbreak"/> friends at a masked ball of the most unusual magnificence.
 </p>
          <p>It was a voluptuous scene, that masquerade. But first let
 <br/>me tell of the rooms in which it was held. There were
@@ -119,7 +124,10 @@ Publisher.</div>
 <br/>and exceedingly musical, but of so peculiar a note and em-
 <br/>phasis that, at each lapse of an hour, the musicians of the
 <br/>orchestra were constrained to pause, momentarily, in their
-<br/>performance, to harken to the sound; and thus the waltzers <a href="#p18"/>
+<br/>performance, to harken to the sound; and thus the waltzers<br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page18"/>
 perforce ceased their evolutions; and there was a brief dis-
 <br/>concert of the whole gay company ; and, while the chimes
 <br/>of the clock yet rang, it was observed that the giddiest grew
@@ -185,7 +193,8 @@ perforce ceased their evolutions; and there was a brief dis-
 <br/>But now there were twelve strokes to be sounded by the bell
 <br/>of the clock ; and thus it happened, perhaps, that more of
 <br/>thought crept, with more of lime, into the meditations of
-  <br/>the thoughtful among those who revelled. And thus, too, it 
+  <br/>the thoughtful among those who revelled. And thus, too, it <br/>
+            <div class="columnbreak"/>
 happened, perhaps, that before the last echoes of the last
 <br/> chime had utterly sunk into silence, there were many indi-
 <br/> viduals in the crowd who had found leisure to become aware
@@ -251,7 +260,10 @@ happened, perhaps, that before the last echoes of the last
 <br/>to the orange—through this again to the white—and even
 <br/>thence to the violet, ere a decided movement had been made
 <br/>to arrest him. It was then, however, that the Prince Pros-
-<br/>pero, maddening with rage and the shame of his own mo- <a href="#p19"/>
+<br/>pero, maddening with rage and the shame of his own mo-<br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page19"/>
 mentary cowardice, rushed hurriedly through the six cham-
 <br/>bers, while none followed him on account of a deadly terror
 <br/>that had seized upon all. He bore aloft a drawn dagger, and
@@ -276,37 +288,44 @@ mentary cowardice, rushed hurriedly through the six cham-
 <br/>of the gay. And the flames of the tripods expired. And
 <br/>Darkness and Decay and the Red Death held illimitable do-
 <br/>minion over all.</p>
-         <span class="person" id="">EDGAR A. POE</span>.</div>
+         <div class="byline">
+            <span class="person">EDGAR A. POE</span>.</div>
+      </div>
           <div>
          <div class="head">IMAGINATION.
-</div>An arch immeasurably tower’d
-Where Aiden’s glories spring,
-And through the opened diamond valves
-Majestically strode the King.
-Truth, with a crown of stars
-On a large brow free from stain,
-While all her motions music made,
-Held up his royal train:
-Flowers of a rare undying hue
-Sprang round the glowing arch,
-And tones, that float like a seraph’s note,
-Rolled out a solemn march.
-'T was when the Deity appeared
-Beneath the portal's flame,
-He felt his might, and in the light
-Creator then became.
-His kindled mind conceived a sun,
-And out the great fire burst
-From Chaos that fell shuddering back
-Like a fiend accursed :
-  And still the God-head wrought,
-Wrought still the poet-power,
-While Time was spending on the earth
-His primal hour.
-  The labor yet went on
-Where Chaos heard the curse,
-Nor ceased till in a sea of space 
-Floated a universe.	<span class="person" id="">WM. WALLACE</span>.</div>
+</div>
+         <div class="lg">
+            <br/>An arch immeasurably tower’d
+<br/>Where Aiden’s glories spring,
+<br/>And through the opened diamond valves
+<br/>Majestically strode the King.
+<br/>Truth, with a crown of stars
+<br/>On a large brow free from stain,
+<br/>While all her motions music made,
+<br/>Held up his royal train:
+<br/>Flowers of a rare undying hue
+<br/>Sprang round the glowing arch,
+<br/>And tones, that float like a seraph’s note,
+<br/>Rolled out a solemn march.
+<br/>'T was when the Deity appeared
+<br/>Beneath the portal's flame,
+<br/>He felt his might, and in the light
+<br/>Creator then became.
+<br/>His kindled mind conceived a sun,
+<br/>And out the great fire burst
+<br/>From Chaos that fell shuddering back
+<br/>Like a fiend accursed :
+  <br/>And still the God-head wrought,
+<br/>Wrought still the poet-power,
+<br/>While Time was spending on the earth
+<br/>His primal hour.
+  <br/>The labor yet went on
+<br/>Where Chaos heard the curse,
+<br/>Nor ceased till in a sea of space 
+<br/>Floated a universe.</div>	
+         <div class="byline">
+            <span class="person">WM. WALLACE</span>.</div>
+      </div>
       <div>
          <div class="head">The Contrasted Prejudices.
 </div>
@@ -320,6 +339,8 @@ Floated a universe.	<span class="person" id="">WM. WALLACE</span>.</div>
 <br/>mine his appearance, whether he will be agreeable, or
 <br/>repellent to us, from our association with what he is
   <br/>called.</p>
+         <br/>
+         <div class="columnbreak"/>
          <p>So it is; we are creatures of strange prejudices; these,
 <br/>though, are not wholly unaccountable. We can sometimes
 <br/>trace their origin back even to our cradles. The first lullaby
@@ -390,7 +411,10 @@ Floated a universe.	<span class="person" id="">WM. WALLACE</span>.</div>
 <br/>man, and filled his calling with propriety. He was a super-
 <br/>numerary clerk in my father’s counting-house, transacting
 <br/>some little of the business, and performing all the menial re-
-<br/>quirements. Samuel was the surviving child of five. Only  <a href="#p20"/>
+<br/>quirements. Samuel was the surviving child of five. Only <br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page20"/>
 a few months the mother and son realised the comfort of be-
 <br/>ing together; he also died, and the mother was left destitute.
 <br/>My father being aware of this, arrangements were made,
@@ -458,7 +482,8 @@ a few months the mother and son realised the comfort of be-
 <br/>blackest of crimes." “Yes, Hannah,” my brother Harry
 <br/>would playfully reply, “he that's ungrateful has no guilt
 <br/>but one; all other crimes may pass for virtues in him.” “ Oh !
-  <br/>that poesy, Mister Harry, was made for the drawing-room,and folk what don’t like anything but what’s dressed up, but,
+  <br/>that poesy, Mister Harry, was made for the drawing-room,<br/>
+            <div class="columnbreak"/>and folk what don’t like anything but what’s dressed up, but,
 <br/>for my part, I say in plain English, it’s no better than steal-
 <br/>ing.” Yet, with this unexceptionable sentiment, she was the
 <br/>most disagreeable person I ever encountered. Her very
@@ -528,7 +553,10 @@ a few months the mother and son realised the comfort of be-
 <br/>said “Heavenly,” and not “Hannah." Unconsciously I uttered,
 <br/>"Angelic !’’ for such was the being who was encircled in our
 <br/>mother’s arms. She was one of the most lovely I ever look-
-<br/>ed upon,—her soft hazel, beseeching eyes, asked for love,— <a href="#p21"/>
+<br/>ed upon,—her soft hazel, beseeching eyes, asked for love,—<br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page21"/>
 her forehead was low, but faultlessly white, and draped by j
 folds of the richest black hair Her form was a Houri’s.
 </p>
@@ -588,21 +616,27 @@ folds of the richest black hair Her form was a Houri’s.
       </div>
       <div>
          <div class="head">SONNET TO ZANTE.</div>
-Fair isle, that, from the fairest of all flowers,
-Thy gentlest of all gentle names dost take !
-How many memories of what radiant hours
-At sight of thee and thine at once awake !
-How many scenes of what departed bliss!
-How many thoughts of what entombed hopes!
-How many visions of a maiden that is
-No more—uo more upon thy verdant slopes!
-No more ! alus that magical sad sound
-Transforming all! Thy charms shall please no more—
-Thy memory no more! Accursed ground
-  Henceforth I bold thy flowcr-enamelled shore,
-O hyacinthine isle ! O purple Zante !
-“ Isola d'oro! Fior di Levante !"
-<span class="person" id="">EDGAR A. POE</span>.</div>
+         <div class="lg">
+            <br/>Fair isle, that, from the fairest of all flowers,
+<br/>Thy gentlest of all gentle names dost take !
+<br/>How many memories of what radiant hours
+<br/>At sight of thee and thine at once awake !
+<br/>How many scenes of what departed bliss!
+<br/>How many thoughts of what entombed hopes!
+<br/>How many visions of a maiden that is
+<br/>No more—uo more upon thy verdant slopes!
+<br/>No more ! alus that magical sad sound
+<br/>Transforming all! Thy charms shall please no more—
+<br/>Thy memory no more! Accursed ground
+  <br/>Henceforth I bold thy flowcr-enamelled shore,
+<br/>O hyacinthine isle ! O purple Zante !
+<br/>“ Isola d'oro! Fior di Levante !"
+</div>
+         <div class="byline">
+            <span class="person">EDGAR A. POE</span>.</div>
+      </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="head">The Antigone.
 </div>
@@ -670,8 +704,11 @@ Homer,” seemed doubly applicable to the present instance.
 <br/>Alcibiades, I fell asleep. It may be that, inclined somewhat
 <br/>to the philosophy of the porch, the strong Cyprus had over-
 <br/>come my senses, and that I had poured too deep a libation
-<br/>to Bacchus.</p> 
-         <a href="#p22"/>
+<br/>to Bacchus.</p>
+         <br/>
+         <div class="columnbreak"/> 
+         <br/>
+         <div class="pagebreak" id="#page22"/>
          <p>Straight it seemed to me that Alcibiades entered, clad in
 <br/>the rich and spotless dress of his day, with the crimson bus-
 <br/>kin and Median train. Perfumes dripped from his waving
@@ -745,6 +782,8 @@ Hatui, of which your old tragedians spoke so much.”
 <br/>remembered that was a custom derived from our northern
 <br/>progenitors. At length we began to speak of the subject
   <br/>matter, the Antigone, and Alcibiades remarked—</p>
+         <br/>
+         <div class="columnbreak"/>
          <p>“ As I sate last night in the Koilon, I was pleased to see
 <br/> that women sate in the lowest row, showing that the wives
 <br/>and daughters of the principal citizens sate with them to wit-
@@ -816,8 +855,11 @@ Hatui, of which your old tragedians spoke so much.”
 <br/>they had no part in the action of the play, except that they
 <br/>wore the costume of the age of the actors, and during the
 <br/>changing of the scene, spoke in explanations of allusions,
-<br/>with which the mass of the audience were not familiar.”</p> 
-         <a href="#p23"/>
+<br/>with which the mass of the audience were not familiar.”</p>
+         <br/>
+         <div class="columnbreak"/> 
+         <br/>
+         <div class="pagebreak" id="#page23"/>
          <br/>
          <p>“Did your tragic actors wear masks?”
   </p>
@@ -896,7 +938,8 @@ private box.”
          <p>When I heard this, I remembered that I had seen the
 <br/>sleeve of a white robe, and a jewelled finger occasionally
 <br/>on the outside of the left balcony box! we then sate for
-  <br/>for some time, and conversed together. Alcibiades saidsome prettinesses relative to our number, which was that
+  <br/>for some time, and conversed together. Alcibiades said<br/>
+            <div class="columnbreak"/>some prettinesses relative to our number, which was that
 <br/>of the Graces, and other similar things, with which I did not
 <br/>charge my memory, for, recurring to the days of the per-
 <br/>fection of Grecian drama, I naturally used the system of
@@ -911,7 +954,9 @@ private box.”
 <br/>wine streaming over his bosom. I went home, and began
 <br/>to write out this imaginary conversation, which I have just
   <br/>now finished.</p>	
-         <span class="person" id="">FAY. ROBINSON</span>.</div>
+         <div class="byline">
+            <span class="person">FAY. ROBINSON</span>.</div>
+      </div>
           <div>
          <div class="head">Correspondence with a Governess.
 No. II.</div>
@@ -940,54 +985,61 @@ No. II.</div>
             <div class="ab">is a less easy and natural transition.</div>
             <div class="ab">“ Captain Sword and Captain Pen” is very much to the
   <br/>purpose.</div>
-“ Captain Sword,
-...... forget the close thought, and the burning heart,
-And prayers, and the mild moon hanging apart,
-Which lifteth the seas with her gentle looks,
-And growth, and death, and immortal books,
-And the Infinite Wildness, the soul of souls,
-Which layeth earth soft with her silver poles;
-Which ruleth the stars and saith not a word;
-Whose speed in the hair of no comet is heard ;
-Which sendeth the soft sun, day by day,
-Mighty, and genial, and just alway ;
-Owning no difference, doing no wrong,
-Loving the orbs and the least bird’s song ;
-The great, sweet, warm angel with golden rod,
-Bright with the smile of the distance of God.”
-“ Indestructible souls among men
-Were the souls of the line of Captain Pen ;
-Sages, patriots, martyrs mild
-Going to the stake, as child
-Goeth with his prayer to bed:
-  Dungeon-beams from quenchless head ;
-Poets making earth aware
-Of its wealth in good and fair.” 
-  <p> Are not these capital passages? You will enter with all
+            <div class="lg">
+               <br/>“ Captain Sword,
+<br/>...... forget the close thought, and the burning heart,
+<br/>And prayers, and the mild moon hanging apart,
+<br/>Which lifteth the seas with her gentle looks,
+<br/>And growth, and death, and immortal books,
+<br/>And the Infinite Wildness, the soul of souls,
+<br/>Which layeth earth soft with her silver poles;
+<br/>Which ruleth the stars and saith not a word;
+<br/>Whose speed in the hair of no comet is heard ;
+<br/>Which sendeth the soft sun, day by day,
+<br/>Mighty, and genial, and just alway ;
+<br/>Owning no difference, doing no wrong,
+<br/>Loving the orbs and the least bird’s song ;
+<br/>The great, sweet, warm angel with golden rod,
+<br/>Bright with the smile of the distance of God.”
+<br/>“ Indestructible souls among men
+<br/>Were the souls of the line of Captain Pen ;
+<br/>Sages, patriots, martyrs mild
+<br/>Going to the stake, as child
+<br/>Goeth with his prayer to bed:
+  <br/>Dungeon-beams from quenchless head ;
+<br/>Poets making earth aware
+<br/>Of its wealth in good and fair.”</div> 
+            <p> Are not these capital passages? You will enter with all
 <br/>your heart into what he says about fishing, and “Izaak.”
 <br/>“ Bodryddan” is dearly beautiful: it makes the reader feel truly,</p>
             <div class="ab">	" That earth also is a star”</div>
             <div class="ab">worthy of her
-</div> 
-            <a href="#p24"/> 
-" That sat retired in reverend chair,
-Fading heavenward beauteously
-In a long-drawn life of love.”
-<div class="ab">There have been many good words about clocks and bells,
+</div>
+            <br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page24"/> 
+            <div class="lg">
+               <br/>" That sat retired in reverend chair,
+<br/>Fading heavenward beauteously
+<br/>In a long-drawn life of love.”</div>
+            <div class="ab">There have been many good words about clocks and bells,
 but these are memorable:—</div>
-" Lost on the roof, a clock’s old grace
-Looked forth like some enchanted face
-That never slept, but in the night
-Dinted the air with thoughtful might
-Of sudden tongue, which seemed to say,
-‘ The stars are firm and hold their way ’ ”
-<div class="ab">“An Angel in the House,” “Songs of the Flowers,” are
+            <div class="lg">
+               <br/>" Lost on the roof, a clock’s old grace
+<br/>Looked forth like some enchanted face
+<br/>That never slept, but in the night
+<br/>Dinted the air with thoughtful might
+<br/>Of sudden tongue, which seemed to say,
+<br/>‘ The stars are firm and hold their way ’ ”</div>
+            <div class="ab">“An Angel in the House,” “Songs of the Flowers,” are
 <br/>most choice. I thought I would have done with quoting, but
 <br/>here are two lines describing martyrdom, which I must co-
 <br/>py;—</div>
-  " Now, now he gives the skies
-The heart they gave (sweet thought 'gainst bitter wonders! )”
-<p>There are some lines my fingers can scarcely resist, in
+            <div class="lg">
+               <br/>" Now, now he gives the skies
+<br/>The heart they gave (sweet thought 'gainst bitter wonders! )”</div>
+            <p>There are some lines my fingers can scarcely resist, in
 <br/>“ To Kosciusko,” “ To the Author of Ion,” “Our Cottage,”
 <br/>“ Reflections of a Dead Body,” noble pieces. You will pick 
 <br/>them out.</p>
@@ -995,11 +1047,12 @@ The heart they gave (sweet thought 'gainst bitter wonders! )”
 <br/>wonders that lie in the past. Hunt’s beautiful illustrations
 <br/>of the “ Divine Mildness,” recalled Milton’s description of our
 <br/>unconscious diurnal revolution:</p>
-  “ Or she from west her silent course advance
-With inoffensive pace, that spinning sleeps
-On her soft axle, while she paces even,
-   And bears thee soft with the smooth air along.”
-<p>The “ One that sat Retired” in “ Bodryddan,” brought to
+            <div class="lg">
+               <br/> “ Or she from west her silent course advance
+<br/>With inoffensive pace, that spinning sleeps
+<br/>On her soft axle, while she paces even,
+   <br/>And bears thee soft with the smooth air along.”</div>
+            <p>The “ One that sat Retired” in “ Bodryddan,” brought to
 <br/>mind a beautiful passage in a lecture of Hudson’s—that on
 <br/>“All’s Well that Ends Well.” The Countess Rousillon is
 <br/>to him, as he said, one of Shakspeare’s choicest fancies. It
@@ -1013,15 +1066,16 @@ On her soft axle, while she paces even,
 <br/>words of this tender and beautiful sketch, a feeling burst of
 <br/>sympathy, delicately subdued, came from the audience.
 <br/>Gresset’s words were never more fit:—</p>
-  Voir avec clairte,
-Que l’homme n’est point fait pour la mechantete,
-Consultez, ecoutez pour juges, pour oracles,
-Les hommes rassembles ! voyez a nos spectacles,
-Quand on peint quelque trait de candeur, de bonte,
-Ou brille en tout son jour la tendre humanite,
-Tous les coeurs son remplis d’une volupte pure,
-Et c’est la qu’ on entend le cri de la nature.
-<p>What a lovely phrase, “heavenly old child”! Hunt avoids
+            <div class="lg">  
+               <br/>Voir avec clairte,
+<br/>Que l’homme n’est point fait pour la mechantete,
+<br/>Consultez, ecoutez pour juges, pour oracles,
+<br/>Les hommes rassembles ! voyez a nos spectacles,
+<br/>Quand on peint quelque trait de candeur, de bonte,
+<br/>Ou brille en tout son jour la tendre humanite,
+<br/>Tous les coeurs son remplis d’une volupte pure,
+<br/>Et c’est la qu’ on entend le cri de la nature.</div>
+            <p>What a lovely phrase, “heavenly old child”! Hunt avoids
 both “ old lady” and “ old woman.”</p>
             <p>I am very glad you think with me as to walking in the
 <br/>fields with the children. I have heard you say, what is very
@@ -1039,37 +1093,45 @@ both “ old lady” and “ old woman.”</p>
 <br/>lives! May every spring be to them, what it has been to
 <br/>me always a new spring ! May they see, time after time,
   <br/>what Bryant saw,</p>
-  “ When violets lean
-O’er wandering brooks and things unseen,
-Or columbines in purple drest.
-Nod o’er the ground-bird’s hidden nest.”
-<div class="ab">with Emerson—</div>
-  “ Beneath dim aisles in odorous beds,
-The slight Linnaea hangs its twin-born heads,
-And bless the monument of the man of flowers,
-Which breathes his sweet fame through the northern bowers.”
-<div class="ab">with Street,</div>
-“ Where its long rings uncurls the fern,
-The violet, nestling low,
-Casts back the white lid of its urn,
-Its purple streaks to show.”
-<div class="ab">May they share his feelings, when he exclaims,
-</div>“ Beautiful blossom ! first to rise
-And smile beneath Spring’s wakening skies,
-The courier of the band
-Of coming flowers, what feelings sweet
-Gush, as the silvery gem we meet
-Upon its slender wand !
-<div class="ab">Nor leave wandering for heat or cold, but see with Dana's
+            <br/>
+            <div class="columnbreak"/>
+            <div class="lg">
+               <br/>“ When violets lean
+<br/>O’er wandering brooks and things unseen,
+<br/>Or columbines in purple drest.
+<br/>Nod o’er the ground-bird’s hidden nest.”</div>
+            <div class="ab">with Emerson—</div>
+            <div class="lg">
+               <br/> “ Beneath dim aisles in odorous beds,
+<br/>The slight Linnaea hangs its twin-born heads,
+<br/>And bless the monument of the man of flowers,
+<br/>Which breathes his sweet fame through the northern bowers.”</div>
+            <div class="ab">with Street,</div>
+            <div class="lg">
+               <br/>“ Where its long rings uncurls the fern,
+<br/>The violet, nestling low,
+<br/>Casts back the white lid of its urn,
+<br/>Its purple streaks to show.”</div>
+            <div class="ab">May they share his feelings, when he exclaims,
+</div>
+            <div class="lg">
+               <br/>“ Beautiful blossom ! first to rise
+<br/>And smile beneath Spring’s wakening skies,
+<br/>The courier of the band
+<br/>Of coming flowers, what feelings sweet
+<br/>Gush, as the silvery gem we meet
+<br/>Upon its slender wand !</div>
+            <div class="ab">Nor leave wandering for heat or cold, but see with Dana's
 eyes delicate shadows embellish the expanse of snow.</div>
- “ A lovely tracery
-Of branch aud twig, that naked tree
-Of shadows soft and dim has wove,
-   And spread so gently, that above
-The pure white snow it seems to float
-As if its darkening touch, through fear,
-It held from thing so saintly dear”
-<p>I was thanking you all the time for leading me this plea-
+            <div class="lg">
+               <br/>“ A lovely tracery
+<br/>Of branch aud twig, that naked tree
+<br/>Of shadows soft and dim has wove,
+   <br/>And spread so gently, that above
+<br/>The pure white snow it seems to float
+<br/>As if its darkening touch, through fear,
+<br/>It held from thing so saintly dear”</div>
+            <p>I was thanking you all the time for leading me this plea-
 <br/>sant road. It puzzles me, by the way, how Bryant can com-
 <br/>pare the gentian for color to the blue sky, since the blue is a
 <br/>great deal darker; but I explain it by supposing he meant
@@ -1079,10 +1141,12 @@ It held from thing so saintly dear”
 <br/>shade of the blue sky. Are you an observer of the express-
 <br/>ion of flowers ? Burns, I suppose, considered the fox-glove
 <br/>as expressive of dignity when he said,</p>
-  “ The stately fox-glove fair to see,”
-<div class="ab">and in that line,</div>
-“ Wee, modest, crimson tipped flower.”
-<br/>
+            <div class="lg">
+               <br/>“ The stately fox-glove fair to see,”</div>
+            <div class="ab">and in that line,</div>
+            <div class="lg">
+               <br/>“ Wee, modest, crimson tipped flower.”</div>
+            <br/>
             <p>doubtless he thought the low stature and rosy hue of the
 <br/>daisy denoted blushing humility. To go back in imagina-
 <br/>tion to June, the swamp honeysuckle seems to me the em-
@@ -1110,8 +1174,11 @@ It held from thing so saintly dear”
 <br/>You would say perhaps, why not turn her attention to the
 <br/>past blessings of her own lot ? But that might not have so
 <br/>great a tendency to cure her dejection, because she has al-
-<br/>was been too sickly to enjoy much.</p> 
-            <a href="#p25"/>
+<br/>was been too sickly to enjoy much.</p>
+            <br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page25"/>
             <p>Henry says he observed two of my brother’s spruces re-
 <br/>cently, and from having just read Harris’s book, he was in-
 <br/>duced to search them for the false caterpillar, which he
@@ -1180,7 +1247,8 @@ It held from thing so saintly dear”
 <br/>they grew large James brought them to me for my box that
 <br/>Mrs. — says she has been telling you about. They are black
 <br/>with stripes round, of yellow lines, spiny, with white dots in
-    <br/>pairs. Mrs. M. tells me the butterfly comes out, after hang-ing itself up, in about a fortnight, and is chiefly orange. I
+    <br/>pairs. Mrs. M. tells me the butterfly comes out, after hang-<br/>
+               <div class="columnbreak"/>ing itself up, in about a fortnight, and is chiefly orange. I
 <br/>mean, dear mother, to send you a chrysalis. James says he
 <br/>has tried without success to rear the species you mentioned
 <br/>in your letter to him, but they are described in Harris, creep-
@@ -1247,7 +1315,10 @@ Mary M.</div>
     <br/>was carved on Capt. ——stone. James, who has been
     <br/>drawing a good deal lately, and become very dexterous,
     <br/>drew with his pencil upon the marble, a beetle emerging
- <a href="#p26"/>
+<br/>
+               <div class="columnbreak"/> 
+               <br/>
+               <div class="pagebreak" id="#page26"/>
                <br/>from the earth ; however, when his back was turned, I suc-
 <br/>ceeded in effacing the lines. You once enlightened me on
 <br/>the falsity of contempt. I was always repelled by its ill-na-
@@ -1308,11 +1379,12 @@ N. S.</div>
 <br/>splendid images. With what labor, for instance, with what atten-
 <br/>tive watching of consciousness, must the following stanza have been
 <br/>wrought into shape:</p>
-  “ All those sharp fancies, by down-lapsing thought
-Stream’d onward, lost their edges, and did creep,
-Roll’d on each other, rounded, smooth’d and brought
-Into the gulfs of sleep.”
-<p>This intense intellectual action is displayed in his delineations of
+         <div class="lg">
+            <br/>“ All those sharp fancies, by down-lapsing thought
+<br/>Stream’d onward, lost their edges, and did creep,
+<br/>Roll’d on each other, rounded, smooth’d and brought
+<br/>Into the gulfs of sleep.”</div>
+         <p>This intense intellectual action is displayed in his delineations of
 <br/>nature and individual character, as well as in his subjective gross-
 <br/>ings into the refinements of his own consciousness. In describing
 <br/>scenery, his microscopic eye and marvellously delicate ear, are ex-
@@ -1327,7 +1399,8 @@ Into the gulfs of sleep.”
 <br/>his mind is spread out before his detecting and dissecting intellect,
 <br/>to be transferred to words, only when it can be done with the most
 <br/>refined exactness, both as regards color, and form and melody. He
-  <br/>takes into calculation the nature of his subject, and decides wheth-er it shall be definitely expressed in images, or indefinitely
+  <br/>takes into calculation the nature of his subject, and decides wheth-<br/>
+            <div class="columnbreak"/>er it shall be definitely expressed in images, or indefinitely
 <br/>through tone, or whether both modes shall be combined. His ob-
 <br/>ject is expression, in its true sense; to reproduce in other minds
 <br/>the imagination or feeling which lies in his own ; and he adopts the
@@ -1383,9 +1456,10 @@ Into the gulfs of sleep.”
 <br/>complete form to the objects which his keen vision perceives. The
 <br/>melody of verse, which distinguishes all, ranging from the deepest
 <br/>organ tones to that</p>
-  " Music which gentlier on the spirit lies,
-Than tired eyelids upon tired eyes,”
-<br/>
+         <div class="lg"> 
+            <br/>" Music which gentlier on the spirit lies,
+<br/>Than tired eyelids upon tired eyes,”</div>
+         <br/>
          <div class="ab">is also of remarkable beauty, and wins and winds its way to the
 <br/>very fountains of thought and feeling.</div>
       </div>
@@ -1410,7 +1484,10 @@ Than tired eyelids upon tired eyes,”
          <p>I do take it for granted, Gentlemen, that there are some new in-
 <br/>fluences to be represented in Literature by the authors of this coun-
 <br/>try. I am foolish enough to believe and insist that we are a pro-
-<br/>vince to no other country on the face of the world. I therefore, in <a href="#p27"/>
+<br/>vince to no other country on the face of the world. I therefore, in<br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page27"/>
 behalf of this young America of ours, insist on nationality and true
 <br/>Americanism in the books this country furnishes to itself and to the
 <br/>world : nationality in its purest, highest, broadest sense. Not such
@@ -1499,8 +1576,9 @@ behalf of this young America of ours, insist on nationality and true
 <br/>counter a single person capable of a respectable performance in this
 <br/>way although I am told there are such.</p>
          <p>In sculpture, and some departments of painting, we have already
-    <br/>accomplished something in the true spirit of Young America, and
-    <br/>the world is ready to acknowledge it. But in another province of
+    <br/>accomplished something in the true spirit of Young America, and<br/>
+            <div class="columnbreak"/>
+            <br/>the world is ready to acknowledge it. But in another province of
 <br/>art, that of engraving,, we have played the copyist and servant with a
 <br/>vengeance. For fifty years, at least, I take it, the whole force of
 <br/>engravers of the United States has been employed in the dilligent
@@ -1579,7 +1657,10 @@ The Age of Elizabeth. By William Hazlitt.</div>
 <br/>attained—a happy medium between the stilted and jejune
     <br/>—between the ponderous and the ephemeral. Works were
     <br/>required of a piquancy to render them at once popular, (for
- <a href="#p28"/>
+<br/>
+               <div class="columnbreak"/> 
+               <br/>
+               <div class="pagebreak" id="#page28"/>
                <br/>the immediate and extensive sale of the Library was indis-
 <br/>pensible) and at the same time, of a gravity which would en-
 <br/>able them to make their way as volumes not only sufficient
@@ -1653,7 +1734,8 @@ The Age of Elizabeth. By William Hazlitt.</div>
 <br/>crowded into a moment, and the die was to be cast at that instant ?
 <br/>Gotzebue’s best work I read first in Cumberland's imitation of it in
 <br/>The Wheel of Fortune,’ and I confess that that style of sentiment
-  <br/>which seems to make of life itself a long-drawn endless sigh, has
+  <br/>which seems to make of life itself a long-drawn endless sigh, has<br/>
+               <div class="columnbreak"/>
   something in it that pleases me, in spite of rules and criticism.
 <br/>Goethe's tragedies are (those that I have seen of them, his ' Count
 <br/>Edmont,' ‘ Stella, ’&amp;c.) constructed upon the second or diverted man-
@@ -1730,7 +1812,10 @@ The Age of Elizabeth. By William Hazlitt.</div>
          <div>
             <div class="head">A History of the Protestant Episcopal Churches in the Cit
 <br/>of New York. By Henry M. Onderdonk. Embellished
-<br/>with a highly finished engraving of each Church, on steel <a href="#p29"/>
+<br/>with a highly finished engraving of each Church, on steel<br/>
+               <div class="columnbreak"/> 
+               <br/>
+               <div class="pagebreak" id="#page29"/>
 executed by different artists. New York. Henry M. On-
 derdonk &amp; Co.</div>
             <p>This beautiful work is published in the serial form. No V.
@@ -1799,7 +1884,8 @@ derdonk &amp; Co.</div>
 <br/>well-born, hesitated not to consecrate to the drama her brief
 <br/>career of genius and of beauty.</p>
          <p>At Niblo’s, as at the Park, Mrs. Mowatt made her first appear-
-    ance as Pauline, in “The Lady of Lyons;” and this is the
+    <br/>
+            <div class="columnbreak"/>ance as Pauline, in “The Lady of Lyons;” and this is the
 <br/>only character she has yet sustained. On the play itself we
 <br/>have lately seen some strictures which seem to us unjust.
 <br/>We regard it as one of the most successful dramatic efforts of
@@ -1865,7 +1951,10 @@ derdonk &amp; Co.</div>
 <br/>respect no actress in America is her equal—for she reads not
 <br/>theatrically, but with the emphasis of Nature. Indeed the
 <br/>great charm of the whole acting of Mrs. Mowatt is its natu-
-     <a href="#p30"/>
+    <br/>
+            <div class="columnbreak"/> 
+            <br/>
+            <div class="pagebreak" id="#page30"/>
             <br/>ralness. She moves, looks, and speaks with a well-control-
 <br/>led impulsiveness as can be conceived from the customary
 <br/>rant and cant—the hack conventionality of the stage. If she
@@ -1934,7 +2023,8 @@ Cambridge.</div>
 <br/>that the elegance and force of the writer's style, the unan-
 <br/>swerable truth of the arguments he advances, and the great
 <br/>authorities he quotes in his support, will prove all sufficient,
-  to recommend the papers to the earnest attention of cur rea-
+  <br/>
+               <div class="columnbreak"/>to recommend the papers to the earnest attention of cur rea-
   <br/>ders.
 </p>
             <p> There is no science, human or divine, of such universal acepta-
@@ -2028,7 +2118,10 @@ Cambridge.</div>
 <br/>probitious similitude of a theatrical representation; and, unquestionably, they
 <br/>who would so represent a musical festival in a cathedral, would find ready
 <br/>hearers amongst the nonmusical part of the world, that is, among nineteen-
-<br/>twentieths of the populalion, including ourselves in the unhappy majority. <a href="#p31"/>
+<br/>twentieths of the populalion, including ourselves in the unhappy majority.<br/>
+               <div class="columnbreak"/> 
+               <br/>
+               <div class="pagebreak" id="#page31"/>
 It is very true, there are those who think that music may be made subservient
 <br/>to the cultivation of religion; but it is a doleful truth that there are also
 <br/>those, we are persuaded the great majority, if they dare confess it, who feel
@@ -2119,6 +2212,8 @@ Contents.—Voyage to Italy—Man Lost Overboard; Gibraltar—Ap-
   <br/>BOOK AND JOB PRINTER.
   <br/>106 FULTON STREET.</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">INTERESTING WORKS
   <br/>JUST PUBLISHED BY
@@ -2207,7 +2302,10 @@ Contents.—Voyage to Italy—Man Lost Overboard; Gibraltar—Ap-
 <br/>perfection, with the best French grand action, warranted in every re
 <br/>spect by the manufacturer.</div>
       </div>
-      <a href="#p32"/>
+      <br/>
+      <div class="columnbreak"/> 
+      <br/>
+      <div class="pagebreak" id="#page32"/>
           <div>
          <div class="ab">A CARD.
   <br/>WM. A. KING, PROFESSOR of the PIANO-
@@ -2306,6 +2404,8 @@ Contents.—Voyage to Italy—Man Lost Overboard; Gibraltar—Ap-
   <br/>C. SHEPARD, Publisher,
   <br/>191 Broadway, opposite John-street.</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">GREAT REDUCTION IN PRICE.
   <br/>THE FIRST PREMIUM A WARDED FIVE YEA RS BY THE AMERICAN INSTI-

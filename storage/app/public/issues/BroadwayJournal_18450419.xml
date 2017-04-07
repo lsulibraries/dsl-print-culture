@@ -11,6 +11,8 @@
       </div>
         </div>
    <div class="body">
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="head">STREET-PAVING.</div>
          <p>There is, perhaps, no point in the history of the useful arts
@@ -66,7 +68,8 @@
           <p>We are aware that all this is very school-boyish informa-
 <br/>tion— but we venture to place it before our readers by way
 <br/>of fairly collating the ancient and modem ideas on the gene-
-<br/>ral topic of road-making, and by way, also, of insisting on
+<br/>ral topic of road-making, and by way, also, of insisting on<br/>
+            <div class="columnbreak"/>
    the observation with which we commenced—that it is ex-
 <br/>ceedingly remarkable how little we have done to advance
 <br/>an art of so vast an importance, notwithstanding the contin-
@@ -123,8 +126,10 @@
 <br/>erly prepared, for example, were subjected for many years,
 <br/>in the fungus pit of the dockyard at Woolwich, England, to</p>
          <p>
-            <a href="#p242"/>
-all the known decomposing agents which can ever naturally
+            <br/>
+            <div class="pagebreak" id="#page242"/>
+            <br/>
+            <div class="columnbreak"/>all the known decomposing agents which can ever naturally
 <br/>be brought to act against a wooden pavement, and yet were
 <br/>taken from the pit, at the close of the experiments, in as
 <br/>sound a condition as when originally deposited.</p>
@@ -193,6 +198,8 @@ all the known decomposing agents which can ever naturally
 <br/>York. In France they dance by daylight in the open air, for
 <br/>economy’s sake, but here they dance at night in well lighted
 <br/>rooms. The French dance, as though dancing were a matter</p>
+         <br/>
+         <div class="columnbreak"/>
          <p>of course, in a trifling light-hearted manner; here we make
 <br/>a serious business of it, and amuse ourselves in this manner
 <br/>as though it were a duty. Our balls are conducted with as
@@ -260,7 +267,10 @@ all the known decomposing agents which can ever naturally
 <br/>accustomed, very irrationally set us down in their diaries as
 <br/>an overtasked people, who sacrifice every enjoyment to the
 <br/>almighty dollar.</p>
-         <a href="#p243"/>
+         <br/>
+         <div class="pagebreak" id="#page243"/>
+         <br/>
+         <div class="columnbreak"/>
          <p>The city governors have always indulged freely in recrea-
 <br/>tions, setting an example to the people which they have not
 <br/>been slow to imitate; but if they should spend part of the
@@ -328,8 +338,9 @@ all the known decomposing agents which can ever naturally
 <br/>it in his own power to reform himself, and when he has done
 <br/>that well, he is in a capital condition to help reform the
 <br/>world, but not before. There are some excellent hints on this
-<br/>subject in the Bible, which would do our eastern friend peculiar
-<br/>good, if he were to meditate on them whenever he may feel
+<br/>subject in the Bible, which would do our eastern friend peculiar<br/>
+            <div class="columnbreak"/>
+            <br/>good, if he were to meditate on them whenever he may feel
 <br/>disposed to hurl his arrows at supposed non-reformers, like
 <br/>ourselves. We do not believe in the existence of individual or
 <br/>isolated vices in a society; it is, therefore, an idle task to at-
@@ -386,24 +397,28 @@ all the known decomposing agents which can ever naturally
   
       <div>
          <div class="head">BON-BON.</div>
-Quand unbon vin meuble mon estomac,
-Je suis plus savant que Balzac—
-Plus sage que Pibrac ;
-Mon bras seul faisant l’attaque
-De la nation Cossaque,
-La mettroit au sac;
-De Charon Je passerois le lac
-En dormant dans son bac;
-J’irois au fier Eac,
-Sans que mon cœur fit tic ni tac,
-Presenter du tabac.French Vaudeville
-<p>That Pierre Bon-Bon was a restaurateur of uncommon
+         <div class="lg">
+            <br/>Quand unbon vin meuble mon estomac,
+<br/>Je suis plus savant que Balzac—
+<br/>Plus sage que Pibrac ;
+<br/>Mon bras seul faisant l’attaque
+<br/>De la nation Cossaque,
+<br/>La mettroit au sac;
+<br/>De Charon Je passerois le lac
+<br/>En dormant dans son bac;
+<br/>J’irois au fier Eac,
+<br/>Sans que mon cœur fit tic ni tac,
+<br/>Presenter du tabac.<div class="byline">French Vaudeville</div>
+         </div>
+         <p>That Pierre Bon-Bon was a restaurateur of uncommon
 qualifications, no man who, during the reign of---------—, fre-
 </p>
          <p>quented the little Cafe in the cul-de-sac Le Febvre at Rouen,
 <br/>will imagine, feel himself at liberty to dispute. That
-<br/>Pierre Bon-Bon was, in an equal degree, skilled in the phil<a href="#p244"/>
-osophy of that period is, I presume, still more especially un-
+<br/>Pierre Bon-Bon was, in an equal degree, skilled in the phil<br/>
+            <div class="pagebreak" id="#page244"/>
+            <br/>
+            <div class="columnbreak"/>osophy of that period is, I presume, still more especially un-
 <br/>deniable. His patés à la fois were beyond doubt immacu-
 <br/>late : but what pen can do justice to his essays sur la Nature
 <br/>—his thoughts sur I'Ame—his observations sur VEsprit ? If
@@ -446,7 +461,9 @@ osophy of that period is, I presume, still more especially un-
 <br/>indeed, that he greatly disagreed with the Chinese, who
 <br/>hold that the soul lies in the abdomen. The Greeks at all events
 <br/>were right, he thought, who employed the same word for
-<br/>the mind and the diaphragm. By this I do not mean to
+<br/>the mind and the diaphragm.<span class="anchor" id="a001">
+               <a href="3n001"/>
+            </span> By this I do not mean to
 <br/>insinuate a charge of gluttony, or indeed any other serious
 <br/>charge to the prejudice of the metaphysician. If Pierre Bon-
 <br/>Bon had his failings—and what great man has not a thou-
@@ -482,8 +499,9 @@ osophy of that period is, I presume, still more especially un-
          <p>The philosopher had other weakneses—but they are scarce-
 <br/>ly worthy our serious examination. For example, there are
 <br/>few men of extraordinary profundity who are found wanting
-<br/>in an inclination for the bottle. Whether this inclination be
-  <br/>an exciting cause, or rather a valid proof, of such profundi-
+<br/>in an inclination for the bottle. Whether this inclination be<br/>
+            <div class="columnbreak"/>
+            <br/>an exciting cause, or rather a valid proof, of such profundi-
 <br/>ty, it is a nice thing to say. Bon-Bon, as far as I can learn,
 <br/>did not think the subject adapted to minute investigation;—
 <br/>nor do I. Yet in the indulgence of a propensity so truly clas-
@@ -565,7 +583,10 @@ osophy of that period is, I presume, still more especially un-
 <br/>visible in large letters the words Œuvres de Bon-Bon. T bus
 <br/>was delicately shadowed forth the two-fold occupation of
 <br/>the proprietor.</p>
-         <a href="#p245"/>
+         <br/>
+         <div class="pagebreak" id="#page245"/>
+         <br/>
+         <div class="columnbreak"/>
          <p>Upon stepping over the threshold the whole interior of the
 <br/>building presented itself to view. A long, low pitched room
 <br/>of antique construction, was indeed all the accommodation af-
@@ -632,7 +653,8 @@ osophy of that period is, I presume, still more especially un-
 <br/>in no hurry, Monsieur Bon-Bon,” suddenly whispered a whin-
 <br/>ing voice in the apartment.</p>
          <p>“The devil!” ejaculated 
-our hero, starting to his feet,
+<br/>
+            <div class="columnbreak"/>our hero, starting to his feet,
 <br/>overturning the table at his side, and staring around him in
 <br/>astonishment.</p>
          <p>“ Very true,” calmly replied the voice.</p>
@@ -648,8 +670,9 @@ our hero, starting to his feet,
 <br/>came you to understand that I was writing an exposition ?
 <br/>good God!"</p>
          <p>“ Hush !" replied the figure in a shrill under tone: and,
-<br/>arising quickly from the bed, he made a single step towards
-<br/>our hero, while an iron lamp that depended overhead swung
+<br/>arising quickly from the bed, he made a single step towards<br/>
+            <div class="columnbreak"/>
+            <br/>our hero, while an iron lamp that depended overhead swung
 <br/>convulsively back from his approach.	</p>
          <p>The philosopher’s amazement did not prevent a narrow
 <br/>scrutiny of the stranger’s dress and appearance. The out-
@@ -731,8 +754,10 @@ our hero, starting to his feet,
 <br/>restaurateur found himself nonplussed by the very first words
 <br/>of his visiter's speech.</p>
          <p>"I see you know me, Bon-Bon,” said he: “ha! ha!ha!—
-<a href="#p246"/>
-he! he! he !—hi! hi! hi!—ho! ho ! ho!—hu! hu! hu!”—and
+<br/>
+            <div class="pagebreak" id="#page246"/>
+            <br/>
+            <div class="columnbreak"/>he! he! he !—hi! hi! hi!—ho! ho ! ho!—hu! hu! hu!”—and
 <br/>the devil, dropping at once the sanctity of his demeanour,
 <br/>opened to its fullest extent a mouth from ear to ear, so as to
 <br/>display a set of jagged and fang-like teeth, and throwing back
@@ -812,8 +837,9 @@ he! he! he !—hi! hi! hi!—ho! ho ! ho!—hu! hu! hu!”—and
 <br/>many of your notions remind me of Aristotle. That philo-
 <br/>sopher was one of my most intimate acquaintances. I liked
 <br/>him as much for his terrible ill temper, as for his happy
-<br/>knack at making a blunder. There is only one solid truth in
-<br/>all that he has written, and for that I gave him the hint out
+<br/>knack at making a blunder. There is only one solid truth in<br/>
+            <div class="columnbreak"/>
+            <br/>all that he has written, and for that I gave him the hint out
 <br/>of pure compassion for his absurdity. I suppose, Pierre Bon-
 <br/>Bon, you very well know to what divine moral truth I am
 <br/>alluding.”</p>
@@ -850,7 +876,10 @@ he! he! he !—hi! hi! hi!—ho! ho ! ho!—hu! hu! hu!”—and
 <br/>these were not legally vested with any degree of executive</p>
          <p>power—at that time, Monsieur Bon-Bon—at that time only
 <br/>I was in Rome, and I have no earthly acquaintance, conse-
-<br/>quently, with any of its philosophy.”</p>
+<br/>quently, with any of its philosophy.”<span class="anchor" id="a002">
+               <a href="#n002"/>
+            </span>
+         </p>
          <p>
             <br/>“ What do you think of—what do you think of—hiccup !
 <br/>—Epicurus ?”</p>
@@ -893,7 +922,10 @@ he! he! he !—hi! hi! hi!—ho! ho ! ho!—hu! hu! hu!”—and
 <br/>looking daggers, took occasion to make an end, upon the
 <br/>spot, of his third bottle of Chambertin.)</p>
          <p>“ Then —hic-cup !—pray, sir—what—what is it ?"</p>
-         <a href="#p247"/>
+         <br/>
+         <div class="pagebreak" id="#page247"/>
+         <br/>
+         <div class="columnbreak"/>
          <p>“ That is neither here nor there, Monsieur Bon-Bon,” re-
 <br/>plied his Majesty, musingly. “I have tasted—that is to say,
 <br/>I have known some very had souls, and some too—pretty
@@ -976,7 +1008,8 @@ he! he! he !—hi! hi! hi!—ho! ho ! ho!—hu! hu! hu!”—and
 <br/>transaction. I have made innumerable purchases of the kind
 <br/>in my day, and the parties never experienced any inconve-
 <br/>nience. There were Cain and Nimrod, and Nero, and Cali-
-gula, and Dionysius, and Pisistratus, and—and a thousand
+<br/>
+            <div class="columnbreak"/>gula, and Dionysius, and Pisistratus, and—and a thousand
 <br/>others, who never knew what it was to have a soul during
 <br/>the latter part of their lives; yet, sir, these men adorned so-
 <br/>ciety. Why isn’t there A-----, now, whom you know as</p>
@@ -995,7 +1028,9 @@ gula, and Dionysius, and Pisistratus, and—and a thousand
 <br/>thousand louis d’or, I, being aged one year and one month,
 <br/>do hereby make over to the bearer of this agreement all my
 <br/>right, title, and appurtenance in the shadow called my soul.(
-<br/>Signed) A..... (Here his Majesty repeated a name
+<br/>Signed) A.....<span class="anchor" id="a003">
+               <a href="#n003"/>
+            </span> (Here his Majesty repeated a name
 <br/>which I do not feel myself justified in indicating more une-
 <br/>quivocally.)</p>
          <p>“A clever fellow that,’’ resumed he; ‘‘but like you, Mon-
@@ -1048,131 +1083,148 @@ gula, and Dionysius, and Pisistratus, and—and a thousand
   
   
       <div>
-Written on a block of ice brought from America without melting, and
+         <span class="note" id="">
+            <a href=""/>
+         </span>Written on a block of ice brought from America without melting, and
 <br/>exhibited in a window in the Strand, London :<div class="head">LINES</div>
-“ Ice placed within a shop or room
-Will turn to water, we presume;
-For, 'tis a solvent, all agree;
-But here IN-solvent ice we see.
-“ Yet, though we cannot solve the ice,
-We solve the riddle in a trice;
-It comes from Pennsylvania's State,
-And therefore will not liquidate."</div>
+         <div class="lg">
+            <br/>“ Ice placed within a shop or room
+<br/>Will turn to water, we presume;
+<br/>For, 'tis a solvent, all agree;
+<br/>But here IN-solvent ice we see.
+<br/>“ Yet, though we cannot solve the ice,
+<br/>We solve the riddle in a trice;
+<br/>It comes from Pennsylvania's State,
+<br/>And therefore will not liquidate."</div>
+      </div>
   
   
-      <a href="#p248"/>
-
+      <br/>
+      <div class="pagebreak" id="#page248"/>
+      <br/>
+      <div class="columnbreak"/>
   
       <div>
          <div class="head">Original Poetry.</div>
          <div>
             <div class="head">OSCEOLA SIGNING THE TREATY.</div>
-Stern in the white man’s council hall,
-’Mid his red brethren of the wood,
-While fearless flashed his eye on all,
-The chieftain Osceola stood—
-And fast the words that keenly stung,
-Like arrows hurtled from his tongue.
-“ Brothers !” he said, “ and ye are come
-To sign the white man’s treaty here,—
-To yield to him our forest home,
-And he will give us lands and deer
-Beyond the western prairie flowers,
-For these broad hunting grounds of ours.
-“ The pale-face is a singing bird!
-Hungry and crafty as the kite—
-And ye his cunning song have heard
-Till like his cheek your hearts are white!
-Till for his fire-drink and his gold
-Your fathers’ bones their sons have sold !
-“ And ye, the strong and pale of face,
-Have bought the Indian’s hunting ground—
-Bought his time-honored burial place,
-With little gold and many a wound—
-Yea—bought his right with hand of mail!
-And with your blood-hounds on the trail,
-You drive him from the everglades,
-Beyond the Mississippi’s flow,
-And with your rifles and your blades
-You hunt him like the buffalo—
-Till turns he, goaded, maddened, back,
-To strike the foe upon the track!
-"Let the white chieftains pause, and hear
-The answer of the Seminole:—
-The red man is a foe to fear—
-He will not sign yon faithless scroll,
-Nor yield to you the lands ye prize—
-The war-belt on your pathway lies !”
-Leapt from his wampum belt the glaive,
-As from the bent bow leaps the shaft,
-And fierce the tempered steel he drave
-Through board and parchment, to the haft;
-"And thus,” he said, with eye of flame—
-" Thus Osceola signs your claim!"
-<span class="person" id="">MARY E. HEWITT.</span>
+            <div class="lg">
+               <br/>Stern in the white man’s council hall,
+<br/>’Mid his red brethren of the wood,
+<br/>While fearless flashed his eye on all,
+<br/>The chieftain Osceola stood—
+<br/>And fast the words that keenly stung,
+<br/>Like arrows hurtled from his tongue.
+<br/>“ Brothers !” he said, “ and ye are come
+<br/>To sign the white man’s treaty here,—
+<br/>To yield to him our forest home,
+<br/>And he will give us lands and deer
+<br/>Beyond the western prairie flowers,
+<br/>For these broad hunting grounds of ours.
+<br/>“ The pale-face is a singing bird!
+<br/>Hungry and crafty as the kite—
+<br/>And ye his cunning song have heard
+<br/>Till like his cheek your hearts are white!
+<br/>Till for his fire-drink and his gold
+<br/>Your fathers’ bones their sons have sold !
+<br/>“ And ye, the strong and pale of face,
+<br/>Have bought the Indian’s hunting ground—
+<br/>Bought his time-honored burial place,
+<br/>With little gold and many a wound—
+<br/>Yea—bought his right with hand of mail!
+<br/>And with your blood-hounds on the trail,
+<br/>You drive him from the everglades,
+<br/>Beyond the Mississippi’s flow,
+<br/>And with your rifles and your blades
+<br/>You hunt him like the buffalo—
+<br/>Till turns he, goaded, maddened, back,
+<br/>To strike the foe upon the track!
+<br/>"Let the white chieftains pause, and hear
+<br/>The answer of the Seminole:—
+<br/>The red man is a foe to fear—
+<br/>He will not sign yon faithless scroll,
+<br/>Nor yield to you the lands ye prize—
+<br/>The war-belt on your pathway lies !”
+<br/>Leapt from his wampum belt the glaive,
+<br/>As from the bent bow leaps the shaft,
+<br/>And fierce the tempered steel he drave
+<br/>Through board and parchment, to the haft;
+<br/>"And thus,” he said, with eye of flame—
+<br/>" Thus Osceola signs your claim!"
+<div class="byline">
+                  <span class="person">MARY E. HEWITT.</span>
+               </div>
+            </div>
          </div>
     
     
          <div>
             <div class="head">STANZAS.</div>
-When the snowy arms of Death
-Like a shroud encircle thee,
-And his cold benumbing breath
-Stills thy pulse’s melody;
-Then beside thee, lowly bending,
-Fondest friends shall seek to trace
-In this blow, our bosoms rending,
-Tokens of Almighty grace.
-Daily, us we see thee fade
-Like a blossom on the bough,
-Chilling in the wintry shade,
-Frosted dews upon its brow,
-How we turn aside in anguish,
-Chiding tears that flow too free,
-Lest thy loving heart should languish,
-Witnessing our grief for thee !
-Thus to see the vital spark
-Trembling in its wasted frame,
-Waiting, longing to embark
-For the haven whence it came—
-Who could blame our sad concealings
-From thy meek and watchful eyes,
-Of the dark and troubled feelings
-Which within our bosoms rise ?
-Daily strive our lips to say—
-Father! let thy will be done !
-Nightly, kneeling, do we pray—
-Father, spare our gentle one !
-Thus from Death we seek to shield thee,
-Hoping, where no hope avails ;
-Knowing that His hand hath sealed thee—
-That His arrow never fails !
-When we fold thee on Earth’s breast,
-Greenest turf we’ll gather there ;
-Sweetest dews shall lightly rest
-On that bosom, once so fair.
-Yes ! for thee the tears of Heaven,
-From the concave's deepest blue,
-Noiselessly shall flow each even,
-In the droppings of the dew.
-There the tender buds of Spring
-First shall open to the day,
-Light their little bells shall ring
-To the robin’s roundelay ;
-And a breezy voice, while straying
-Through the narrow, vaulted aisles,
-Sad shall sigh, like mourners praying
-God’s forgiveness and his smiles.
-Lo ! across thy path of life
-Death’s white shadow’s stealing now;
-Let me not behold the strife—
-Let me still in meekness bow.
-God be with thee, gentle spirit,
-When his angel fondly calls—
-Yielding life, thou wilt inherit
-Life within our Father’s halls.
-  Cincinnati,April, 1845.
-  <span class="person" id="">R. S. NICHOLS.</span>
+            <div class="lg">
+               <br/>When the snowy arms of Death
+<br/>Like a shroud encircle thee,
+<br/>And his cold benumbing breath
+<br/>Stills thy pulse’s melody;
+<br/>Then beside thee, lowly bending,
+<br/>Fondest friends shall seek to trace
+<br/>In this blow, our bosoms rending,
+<br/>Tokens of Almighty grace.
+<br/>Daily, us we see thee fade
+<br/>Like a blossom on the bough,
+<br/>Chilling in the wintry shade,
+<br/>Frosted dews upon its brow,
+<br/>How we turn aside in anguish,
+<br/>Chiding tears that flow too free,
+<br/>Lest thy loving heart should languish,
+<br/>Witnessing our grief for thee !
+<br/>Thus to see the vital spark
+<br/>Trembling in its wasted frame,
+<br/>Waiting, longing to embark
+<br/>For the haven whence it came—
+<br/>
+               <div class="columnbreak"/>
+               <br/>Who could blame our sad concealings
+<br/>From thy meek and watchful eyes,
+<br/>Of the dark and troubled feelings
+<br/>Which within our bosoms rise ?
+<br/>Daily strive our lips to say—
+<br/>Father! let thy will be done !
+<br/>Nightly, kneeling, do we pray—
+<br/>Father, spare our gentle one !
+<br/>Thus from Death we seek to shield thee,
+<br/>Hoping, where no hope avails ;
+<br/>Knowing that His hand hath sealed thee—
+<br/>That His arrow never fails !
+<br/>When we fold thee on Earth’s breast,
+<br/>Greenest turf we’ll gather there ;
+<br/>Sweetest dews shall lightly rest
+<br/>On that bosom, once so fair.
+<br/>Yes ! for thee the tears of Heaven,
+<br/>From the concave's deepest blue,
+<br/>Noiselessly shall flow each even,
+<br/>In the droppings of the dew.
+<br/>There the tender buds of Spring
+<br/>First shall open to the day,
+<br/>Light their little bells shall ring
+<br/>To the robin’s roundelay ;
+<br/>And a breezy voice, while straying
+<br/>Through the narrow, vaulted aisles,
+<br/>Sad shall sigh, like mourners praying
+<br/>God’s forgiveness and his smiles.
+<br/>Lo ! across thy path of life
+<br/>Death’s white shadow’s stealing now;
+<br/>Let me not behold the strife—
+<br/>Let me still in meekness bow.
+<br/>God be with thee, gentle spirit,
+<br/>When his angel fondly calls—
+<br/>Yielding life, thou wilt inherit
+<br/>Life within our Father’s halls.
+  <div class="byline">Cincinnati,</div>
+               <div class="byline">April, 1845.</div>
+               <div class="byline">
+                  <span class="person">R. S. NICHOLS.</span>
+               </div>
+            </div>
          </div>
       </div>
   
@@ -1192,8 +1244,10 @@ PAUL DE LA ROCHE.</div>
 <br/>siderable progress as a painter of history, renounced the pro-
 <br/>fession, and succeeded to the appointment which his father
 <br/>held, and has risen to the directorship of the Mont-de-Piété.
-<br/>The younger persevered in his studies, and has, by his assid-<a href="#p249"/>
-uity, attained to the first rank among the painters of the
+<br/>The younger persevered in his studies, and has, by his assid-<br/>
+            <div class="pagebreak" id="#page249"/>
+            <br/>
+            <div class="columnbreak"/>uity, attained to the first rank among the painters of the
 <br/>French school.</p>
          <p>Paul Delaroche devoted himself first to landscape painting;
 <br/>he then entered the atelier of Gros, under whom he applied
@@ -1273,8 +1327,9 @@ uity, attained to the first rank among the painters of the
 <br/>death. This picture was purchased by the Duke of Orleans,
 <br/>it displays more care and finish than any which preceded it.
 <br/>The intention of the painter is shown in the figure of the
-<br/>King, who looks from the corner of his eye to ascertain if his
-    <br/>enemy be really dead: it is also apparent in the courtesy
+<br/>King, who looks from the corner of his eye to ascertain if his<br/>
+            <div class="columnbreak"/>
+            <br/>enemy be really dead: it is also apparent in the courtesy
 <br/>with which he is received by the assassins, who separate
 <br/>that he may see that his commands have been accomplished. 
 <br/>It is in the body of the Duke that the artist recovers his grave
@@ -1358,8 +1413,10 @@ uity, attained to the first rank among the painters of the
 <br/>ness, vanity, or envy.</p>
       </div>
 
-      <a href="#p250"/>
-  
+      <br/>
+      <div class="pagebreak" id="#page250"/>
+      <br/>
+      <div class="columnbreak"/>
   
       <div>
          <div class="head">THE AMERICAN AUTHORS’ UNION.</div>
@@ -1433,6 +1490,8 @@ crying children. Enter</p>
 <br/>with a clear conscience, (for you know I hate lying,) Sir, I
 <br/>have been reeding your manuscript, when an author applies
 <br/>to me.</p>
+         <br/>
+         <div class="columnbreak"/>
          <p>2d Pub. You were born a wag, brother; but what will
 <br/>you say to Mr. Writefort? He will call this morning for an
 <br/>answer.</p>
@@ -1501,8 +1560,10 @@ Now for more fun. Enter Writefort.</p>
 <br/>pressed so sorely by my necessities that I cannot wait. I
 <br/>must apply elsewhere, and as you have read my work you
 <br/>will, of course, give me a paper setting forth its value.</p>
-         <a href="#p251"/>
-  
+         <br/>
+         <div class="pagebreak" id="#page251"/>
+         <br/>
+         <div class="columnbreak"/>
          <p>1st Pub. That I cannot do; it’s against my principles to
 <br/>recommend any work which I do not publish. Porter, give
 <br/>Mr. Writefort his manuscript.</p>
@@ -1574,7 +1635,8 @@ ACT V.
 <br/>being placed on the free list of this theatre, because (as your letter
 <br/>says) you were anxious "to do Justice to 'Antigone’ on its representa-
 <br/>tion.’’ Your name was accordingly placed on the free list. Your
-    Critique has appeared, in the Broadway Journal, characterized, much
+    <br/>
+            <div class="columnbreak"/>Critique has appeared, in the Broadway Journal, characterized, much
 <br/>more by ill nature and an illiberal spirit, than by fair and candid or
 <br/>even just criticism.—</p>
          <p>In justice therefore to myself, I have withdrawn your name from
@@ -1643,8 +1705,10 @@ ACT V.
 <br/>as he may, through the Venetian shutters of the boxes—for
 <br/>usually he cannot go until late, and no accommodations are
 <br/>afforded him—no seats are reserved for his use. And for the
-<br/>honor of doing all this, he is complimented with what ?—the<a href="#p252"/>
-  privilege of entering the doors of the Temple consecrated to
+<br/>honor of doing all this, he is complimented with what ?—the<br/>
+            <div class="pagebreak" id="#page252"/>
+            <br/>
+            <div class="columnbreak"/>privilege of entering the doors of the Temple consecrated to
 <br/>the Quinneford—the value of the privilege in actual money,
 <br/>ranging from one dollar to twenty-five cents per night; ad-
 <br/>mitting that circumstances are at the very best, and that the
@@ -1707,20 +1771,24 @@ ACT V.
 <br/>quite perfect and original. As an example of the author’s
 <br/>art and feeling, we make as long an extract as we can afford
 <br/>room for.</p>
-  E’en now the gale that stirs this humid air.
-Is wet with sight and tears that rise to beaten,
-Despatch’d, how vain, to sue for mercy there.
-Gay-hearted sufferers! such are not to me
-The sounds I love the most; for I am of you:
-Lay but the master his cold hand on me.
-Press but these cords, and lo ! what plaintive airs
-Running through all my compass, judge me true.
-A sharer in your lot; partner with all
-Of human kind, the common nerve of life
-That knits all nature, country, race, in one,
-And makes us comrades as in fortune joined;
-Each bound to each, and one to all, then why
-Less sad for other’s sorrows than my own ?</div>
+            <div class="lg">
+               <br/>E’en now the gale that stirs this humid air.
+<br/>Is wet with sight and tears that rise to beaten,
+<br/>Despatch’d, how vain, to sue for mercy there.
+<br/>Gay-hearted sufferers! such are not to me
+<br/>The sounds I love the most; for I am of you:
+<br/>Lay but the master his cold hand on me.
+<br/>Press but these cords, and lo ! what plaintive airs
+<br/>Running through all my compass, judge me true.
+<br/>
+               <div class="columnbreak"/>
+               <br/>A sharer in your lot; partner with all
+<br/>Of human kind, the common nerve of life
+<br/>That knits all nature, country, race, in one,
+<br/>And makes us comrades as in fortune joined;
+<br/>Each bound to each, and one to all, then why
+<br/>Less sad for other’s sorrows than my own ?</div>
+         </div>
     
     
          <div>
@@ -1785,7 +1853,10 @@ Less sad for other’s sorrows than my own ?</div>
 <br/>not appreciate its necessity (since it is no necessity for him)
 <br/>and secondly through absolute incapacity for its discussion.
 <br/>Now the one cause predominates in him and now the other.
-<br/>We can at all time trust his comments of love and admira-<a href="#p253"/>
+<br/>We can at all time trust his comments of love and admira-<br/>
+               <div class="pagebreak" id="#page253"/>
+               <br/>
+               <div class="columnbreak"/>
                <br/>tion, and we may put faith to a very great extent in his defi-
 <br/>nitions or general conclusions in art, but we must never ask
 <br/>of him too inquisitively, by what process they have been at-
@@ -1863,7 +1934,8 @@ Less sad for other’s sorrows than my own ?</div>
 <br/>must put himself in the place of another, and of many others: the
 <br/>pains and pleasures of hie species most become his own. The great
 <br/>instrument of moral good is imagination ; and poetry administers to
-  the effect by acting upon the cause.”—Essays and Letters,vol. i. p. 16.</p>
+  <br/>
+               <div class="columnbreak"/>the effect by acting upon the cause.”—Essays and Letters,vol. i. p. 16.</p>
             <p>I would not willingly say anything after perorations like these ;
 <br/>but as treatises on poetry may chance to have auditors who think
 <br/>themselves called upon to vindicate the superiority of what is termed
@@ -1977,7 +2049,10 @@ Less sad for other’s sorrows than my own ?</div>
             <p>
                <br/>We have not read this work, but if any thing could induce us to do
 <br/>so, it would be the name of the translator on the title-page, who has the
-<a href="#p254"/>
+<br/>
+               <div class="pagebreak" id="#page254"/>
+               <br/>
+               <div class="columnbreak"/>
 rare art in his translations, of preserving the spirit of the original lan-
 guage, while he invests it with his own graceful and elegant style.</p>
          </div>
@@ -2071,6 +2146,8 @@ Forester. Henry William ilerbert. Philadelphia : Zieber &amp; Co. 1845.</p>
          <p>4.	Fantasie Brillante, for the piano-forte, on favorite subjects, from
 <br/>Rossini’s Guillaume Tell, composed, arranged, and dedicated to Miss
 <br/>Cordelia Kiddie, by James G. Maeder.</p>
+         <br/>
+         <div class="columnbreak"/>
          <p>5.	’ Tis Eve on the Ocean. Song composed by Henry Russell.</p>
          <p>6.	Street Hawthorn-den. A ballad written and composed by George
 <br/>Linley.</p>
@@ -2152,7 +2229,10 @@ for sale by E. H. Wade, 197 Washington street, Boston.</p>
          <p>We shall notice the Social Minstrel, by David Paine of Boston, in
 <br/>our next.</p>
       </div>
-      <a href="#p255"/>
+      <br/>
+      <div class="pagebreak" id="#page255"/>
+      <br/>
+      <div class="columnbreak"/>
   
       
       <div>
@@ -2263,7 +2343,8 @@ for sale by E. H. Wade, 197 Washington street, Boston.</p>
          </div>
       </div>
   
-
+      <br/>
+      <div class="columnbreak"/>
   
       <div>
          <div> 
@@ -2384,7 +2465,10 @@ for sale by E. H. Wade, 197 Washington street, Boston.</p>
 <br/>BOOK AND JOB PRINTER,
 <br/>No. 68 ANN STREET.</div>
          </div>
-         <a href="#p256"/>
+         <br/>
+         <div class="pagebreak" id="#page256"/>
+         <br/>
+         <div class="columnbreak"/>
   
          <div>
             <div class="ab">PRICE REDUCED TO $2 50.
@@ -2484,6 +2568,8 @@ for sale by E. H. Wade, 197 Washington street, Boston.</p>
 <br/>James Irvin, Pa.	J. Thompson, Miss.
 <br/>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.</div>
          </div>
+         <br/>
+         <div class="columnbreak"/>
   
          <div>
             <div class="ab">VANDENHOFF’S ELOCUTION.
@@ -2591,8 +2677,14 @@ for sale by E. H. Wade, 197 Washington street, Boston.</p>
 
       </div>
    <div class="back">
-          * θζενες
-          * Ils ecrivaient sur la Philosophie, (Cicero, Lucretius, Seneca) mais c’etait la Philosophie Grecque. — Condorcet.
-          * Quere—Arouet?
+          <span class="note" id="n001">
+         <a href="#a001"/>
+      </span>* θζενες
+          <span class="note" id="n002">
+         <a href="#a002"/>
+      </span>* Ils ecrivaient sur la Philosophie, (Cicero, Lucretius, Seneca) mais c’etait la Philosophie Grecque. — Condorcet.
+          <span class="note" id="n003">
+         <a href="#a003"/>
+      </span>* Quere—Arouet?
         </div>
 </div>

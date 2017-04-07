@@ -11,6 +11,8 @@
    <div class="body">
           
           <div>
+         <br/>
+         <div class="columnbreak"/>
             <div class="head">The Office of the Broadway Journal is removed</div>
             <p>The Office of the Broadway Journal is removed to
 <br/>304 Broadway, corner of Duane.</p>
@@ -18,39 +20,42 @@
 
           <div>
             <div class="head">To—————————</div>
-I saw thee in thy tender, youthful bloom;
-Ah! many then there were who loved thee well,
-And in thy joy, and grace,
-And loveliness rejoiced.
-Years since have passed, charged with what freight of gloom!
-How art thou changed! pale, woe-worn, hopeless, sad—
-Amid the dismal wreck
-Lives nought but cold Despair!
-And thou repinest that thou stand’st apart,
-Like the tree lightning-blasted; wrung with pain
-No sympathy can heal,
-No time can e’er assuage.
-That life to thee is but a sea of woe,
-Where deep unto its deep of sorrow calls,
-While others walk a maze
-Of flowers, and smiles, and joys!
-Look up, thou lone and sorely stricken one!
-Look up, thou darling of the Eternal Sire!
-More blest a thousand fold
-Than they, the idly gay!
-For them earth yields her all of bliss; for thee
-Kind heaven doth violence to its heart of love;
-And Mercy holds thee fast,
-Even in her iron bonds;
-And wounds thee, lest thou ’scape her jealous care;
-And her best gifts—the cross and thorn—bestows.
-They dwell within the vale
-Where fruits and flowers abound;
-Those on Affliction’s high and barren place;
-But round about the mount chariots of fire—
-Horses of fire—encamp,
-To keep thee safe for heaven!
-<span class="person" id="">E. F. Ellett.</span>
+         <div class="lg">
+            <br/>I saw thee in thy tender, youthful bloom;
+<br/>Ah! many then there were who loved thee well,
+<br/>And in thy joy, and grace,
+<br/>And loveliness rejoiced.
+<br/>Years since have passed, charged with what freight of gloom!
+<br/>How art thou changed! pale, woe-worn, hopeless, sad—
+<br/>Amid the dismal wreck
+<br/>Lives nought but cold Despair!
+<br/>And thou repinest that thou stand’st apart,
+<br/>Like the tree lightning-blasted; wrung with pain
+<br/>No sympathy can heal,
+<br/>No time can e’er assuage.
+<br/>That life to thee is but a sea of woe,
+<br/>Where deep unto its deep of sorrow calls,
+<br/>While others walk a maze
+<br/>Of flowers, and smiles, and joys!
+<br/>Look up, thou lone and sorely stricken one!
+<br/>Look up, thou darling of the Eternal Sire!
+<br/>More blest a thousand fold
+<br/>Than they, the idly gay!
+<br/>For them earth yields her all of bliss; for thee
+<br/>Kind heaven doth violence to its heart of love;
+<br/>And Mercy holds thee fast,
+<br/>Even in her iron bonds;
+<br/>And wounds thee, lest thou ’scape her jealous care;
+<br/>And her best gifts—the cross and thorn—bestows.
+<br/>They dwell within the vale
+<br/>Where fruits and flowers abound;
+<br/>Those on Affliction’s high and barren place;
+<br/>But round about the mount chariots of fire—
+<br/>Horses of fire—encamp,
+<br/>To keep thee safe for heaven!</div>
+         <div class="byline">
+            <span class="person">E. F. Ellett.</span>
+         </div>
       </div>
 
           <div>
@@ -66,8 +71,9 @@ To keep thee safe for heaven!
 <br/>friends. The one, a young lawyer, was glad enough to escape
 <br/>from the drudgery of a toilsome profession. His looks brightened
 <br/>up, good talk flowed freely from his lips, his step was buoyant 
-<br/>and triumphant, and his cane came down with a ringing sound,
-<br/>as we walked through the lovely City of Brooklyn. He was
+<br/>and triumphant, and his cane came down with a ringing sound,<br/>
+            <div class="columnbreak"/>
+            <br/>as we walked through the lovely City of Brooklyn. He was
 <br/> humming “Begone dull care.” He is one of those, whose qual-
 <br/>ities of head and heart but few of his acquaintance appreciate,
 <br/>for they sink into an absorbent ground of modesty and quiet
@@ -121,7 +127,10 @@ To keep thee safe for heaven!
 <br/>like homes, the abodes of quiet and contentment. They give
 <br/>one a perfect idea of cleanliness and comfort. A Sabbath silence
 <br/>brooded over the whole scene. The city, with its cares, and crimes
-<br/>and pains, was forgotten. We were boys again. A walk through<a href="#p382"/>
+<br/>and pains, was forgotten. We were boys again. A walk through<br/>
+            <div class="pagebreak" id="#page382"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>Flatbush is delightful, for each side of the path is lined with
 <br/>trees, and it is serpentine. If it looks like fairy land in Novem-
 <br/>ber, it must be a bower of bliss in “the leafy month of June.”
@@ -147,10 +156,11 @@ To keep thee safe for heaven!
 <br/>we were; the sun shed a golden tinge on some vine-leaves by
 <br/>the window, and the garden paths looked as if the broom had
 <br/>just passed over them. We felt a delicious repose</p>
-                  A wise man never will be sad;
-                  But neither will sonorous bubbling mirth,
-                  A shallow stream of happiness betray—
-                  Too happy to be sportive, he’s serene.
+                  <div class="lg">
+            <br/>A wise man never will be sad;
+                  <br/>But neither will sonorous bubbling mirth,
+                  <br/>A shallow stream of happiness betray—
+                  <br/>Too happy to be sportive, he’s serene.</div>
                <p>After luxuriating till warned by the gloaming to depart, we bid
 <br/>a kind adieu to our fair entertainers and set our faces towards
 <br/>home. Our way was cheered with conversation about our pleas-
@@ -162,59 +172,63 @@ To keep thee safe for heaven!
             <p>Arrived home, we rejoiced that the day had passed so happily.</p>
             <p>Prosperity to Flatbush, and the inn with the sign of the lion-
 <br/>rampant.</p>	
-         <span class="person" id="">G. F. D.</span>
+         <div class="byline">
+            <span class="person">G. F. D.</span>
+         </div>
       </div>
           
           
           <div>
             <div class="head">Sonnets,
              <br/>(WRITTEN IN EXILE.)</div>
-I.
-Man’s heart may change, but Nature’s glory never:
-And while the soul’s internal cell is bright,
-The cloudless eye lets in the bloom and light
-Of earth and heaven, to charm and cheer us ever.
-Though youth has vanished like a winding river
-Lost in the shadowy woods; and the dear sight
-Of native hill and nest-like cottage white,
-'Mid breeze-stirred boughs, whose crisp leaves gleam and quiver,
-And murmur sea-like sounds, perchance no more
-My homeward step shall hasten cheerily.
-Yet still I feel as I have felt of yore,
-And love this radiant world. Yon clear blue sky—
-These gorgeous groves—this flower-enameled floor—
-Have deep enchantments for my heart and eye.
+         <div class="lg">I.
+<br/>Man’s heart may change, but Nature’s glory never:
+<br/>And while the soul’s internal cell is bright,
+<br/>The cloudless eye lets in the bloom and light
+<br/>Of earth and heaven, to charm and cheer us ever.
+<br/>Though youth has vanished like a winding river
+<br/>Lost in the shadowy woods; and the dear sight
+<br/>Of native hill and nest-like cottage white,
+<br/>'Mid breeze-stirred boughs, whose crisp leaves gleam and quiver,
+<br/>And murmur sea-like sounds, perchance no more
+<br/>My homeward step shall hasten cheerily.
+<br/>Yet still I feel as I have felt of yore,
+<br/>And love this radiant world. Yon clear blue sky—
+<br/>These gorgeous groves—this flower-enameled floor—
+<br/>Have deep enchantments for my heart and eye.
 II.
-Man’s heart may change, but Nature’s glory never;
-Though to the sullen gaze of grief the sight
-Of sun-illumined skies may seem less bright,
-Or gathering clouds less grand, yet she, as ever,
-Is lovely or majestic. Though fate sever
-The long-linked bonds of love, and all delight
-Be lost, as in a sudden starless night,
-The radiance may return, if He, the giver
-Of peace on earth, vouchsafe the storm to still.
-This breast, once shaken with the strife of care,
-Is touched with silent joy. The cot—the hill
-Beyond the broad blue wave—and faces fair
-Are pictured in my dreams; yet scenes that fill
-My waking eye can save me from despair.
+<br/>Man’s heart may change, but Nature’s glory never;
+<br/>Though to the sullen gaze of grief the sight
+<br/>Of sun-illumined skies may seem less bright,
+<br/>Or gathering clouds less grand, yet she, as ever,
+<br/>Is lovely or majestic. Though fate sever
+<br/>The long-linked bonds of love, and all delight
+<br/>Be lost, as in a sudden starless night,
+<br/>The radiance may return, if He, the giver
+<br/>Of peace on earth, vouchsafe the storm to still.
+<br/>This breast, once shaken with the strife of care,
+<br/>Is touched with silent joy. The cot—the hill
+<br/>Beyond the broad blue wave—and faces fair
+<br/>Are pictured in my dreams; yet scenes that fill
+<br/>My waking eye can save me from despair.
 III.
-Man's heart may change, but Nature’s glory never:
-Strange features throng around me, and the shore
-Is not my fatherland. Yet why deplore
-This varied doom? All mortal ties must sever—
-The pang is past—and now, with blest endeavor,
-I check the rising sigh, and weep no more.
-The common earth is here—these crowds adore
-That earth’s Creator; and how high soever
-O’er other tribes proud England’s hosts may seem,
-God’s children, fair or sable, equal find
-A father’s love. Then learn, O man, to deem
-All difference idle, save of heart or mind—
-Thy duty, love—each cause of strife, a dream—
-Thy home, the world—thy family, mankind.
-<span class="person" id="">D. L. Richardson.</span>
+<br/>Man's heart may change, but Nature’s glory never:
+<br/>Strange features throng around me, and the shore
+<br/>Is not my fatherland. Yet why deplore
+<br/>This varied doom? All mortal ties must sever—
+<br/>The pang is past—and now, with blest endeavor,
+<br/>I check the rising sigh, and weep no more.
+<br/>The common earth is here—these crowds adore
+<br/>That earth’s Creator; and how high soever
+<br/>O’er other tribes proud England’s hosts may seem,
+<br/>God’s children, fair or sable, equal find
+<br/>A father’s love. Then learn, O man, to deem
+<br/>All difference idle, save of heart or mind—
+<br/>Thy duty, love—each cause of strife, a dream—
+<br/>Thy home, the world—thy family, mankind.</div>
+         <div class="byline">
+            <span class="person">D. L. Richardson.</span>
+         </div>
       </div>
 
           <div>
@@ -254,7 +268,10 @@ Thy home, the world—thy family, mankind.
 <br/>era in its annals, and is characterized by all classes of people
 <br/>appertaining to it or its dependencies as “that very extraordinary
 <br/>epoch forming the domination of the Baron Ritzner Von Jung.”</p>
-         <a href="#p383"/>
+         <br/>
+         <div class="pagebreak" id="#page383"/>
+         <br/>
+         <div class="columnbreak"/>
                 <p>Upon his advent to G——————n, he sought me out in my apart-
 <br/>ments. He was then of no particular age;—by which I mean
 <br/>that it was impossible to form a guess respecting his age by any
@@ -318,8 +335,9 @@ Thy home, the world—thy family, mankind.
 <br/>house of them all more famous or more frequented than that of
 <br/>the Baron. Our carousals here were many, and boisterous, and
 <br/>long, and never unfruitful of events.</p>
-            <p>Upon one occasion we had protracted our sitting until nearly
-<br/>daybreak, and an unusual quantity of wine had been drunk.
+            <p>Upon one occasion we had protracted our sitting until nearly<br/>
+            <div class="columnbreak"/>
+            <br/>daybreak, and an unusual quantity of wine had been drunk.
 <br/>The company consisted of seven or eight individuals besides the
 <br/>Baron and myself. Most of these were young men of wealth, of
 <br/>high connection, of great family pride, and all alive with an ex-
@@ -382,7 +400,10 @@ Thy home, the world—thy family, mankind.
             <p>As Hermann completed this equivocal sentence, all eyes were
 <br/>turned upon the Baron. He became pale, then excessively red,
 <br/>then, dropping his pocket-handkerchief, stooped to recover it,
-<br/>when I caught a glimpse of his countenance, while it could be<a href="#p384"/>
+<br/>when I caught a glimpse of his countenance, while it could be<br/>
+            <div class="pagebreak" id="#page384"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>seen by no one else at the table. It was radiant with the quiz-
 <br/>zical expression which was its natural character, but which I
 <br/>had never seen it assume except when we were alone together, 
@@ -446,8 +467,9 @@ Thy home, the world—thy family, mankind.
 <br/>tionem, et per se,” about half of which, he averred, was strictly
 <br/>applicable to his own “refinedly peculiar” case, although not
 <br/>one syllable of the whole matter could I understand for the life
-<br/>of me. Having finished the chapter, he closed the book, and de-
-<br/>manded what I thought necessary to be done. I replied that I
+<br/>of me. Having finished the chapter, he closed the book, and de-<br/>
+            <div class="columnbreak"/>
+            <br/>manded what I thought necessary to be done. I replied that I
 <br/>had entire confidence in his superior delicacy of feeling, and
 <br/>would abide by what he proposed. With this answer he seemed
 <br/>flattered, and sat down to write a note to the Baron. It ran thus:</p>
@@ -507,7 +529,10 @@ Thy home, the world—thy family, mankind.
             <p>Somewhat amazed at all this, I made my retreat to the Baron.
 <br/>He seemed to receive Hermann’s amicable letter as a matter of
 <br/>course, and after a few words of general conversation, went to
-<br/>an inner room and brought out the everlasting treatise “Duelli<a href="#p385"/>
+<br/>an inner room and brought out the everlasting treatise “Duelli<br/>
+            <div class="pagebreak" id="#page385"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>Lex scripta, et non; aliterque.” He handed me the volume and
 <br/>asked me to look over some portion of it. I did so, but to little
 <br/>purpose, not being able to gather the least particle of meaning.
@@ -532,45 +557,52 @@ Thy home, the world—thy family, mankind.
 <br/>sand deaths rather than acknowledge his inability to understand
 <br/>anything and everything in the universe that had ever been
 <br/>written about the duello.</p>	
-         <span class="person" id="">Littleton Barry</span>.</div>
+         <div class="byline">
+            <span class="person">Littleton Barry</span>.</div>
+      </div>
             
             
           <div>        
            <div class="head"> The Invalid. </div>
-She came in Spring, when leaves were green,
-And birds sang blithe in bower and tree;
-A stranger, but her gentle mien
-It was a calm delight to see.
-In every motion, grace was hers;
-On every feature, sweetness dwelt;
-Thoughts soon became her worshipers—
-Affections soon before her knelt.
-She bloom’d through all the summer days,
-As sweetly as the fairest flowers,
-And till October’s softening haze
-Came with its still and dreamy hours.
-So calm the current of her life,
-So lovely and serene its flow,
-We hardly mark’d the deadly strife
-Disease forever kept below.
-But Autumn winds grew wild and chill,
-And pierced her with their icy breath;
-And when the snow on plain and hill
-Lay white, she pass’d, and slept in death.
-Tones only of immortal birth
-Our memory of her voice can stir;
-With things too beautiful for earth
-Alone do we remember her.
-She came in Spring, when leaves were green,
-And birds sang blithe in bower and tree,
-And flowers sprang up and bloomed between
-Low branches and the quickening lea.
-The greenness of the leaf is gone,
-The beauty of the flower is riven,
-The birds to other climes have flown,
-And there’s an angel more in Heaven.
-<span class="person" id="">W. D. Gallagher.</span>
+         <div class="lg">
+            <br/>She came in Spring, when leaves were green,
+<br/>And birds sang blithe in bower and tree;
+<br/>A stranger, but her gentle mien
+<br/>It was a calm delight to see.
+<br/>In every motion, grace was hers;
+<br/>On every feature, sweetness dwelt;
+<br/>Thoughts soon became her worshipers—
+<br/>Affections soon before her knelt.
+<br/>She bloom’d through all the summer days,
+<br/>As sweetly as the fairest flowers,
+<br/>And till October’s softening haze
+<br/>Came with its still and dreamy hours.
+<br/>So calm the current of her life,
+<br/>So lovely and serene its flow,
+<br/>We hardly mark’d the deadly strife
+<br/>Disease forever kept below.
+<br/>But Autumn winds grew wild and chill,
+<br/>And pierced her with their icy breath;
+<br/>And when the snow on plain and hill
+<br/>Lay white, she pass’d, and slept in death.
+<br/>Tones only of immortal birth
+<br/>Our memory of her voice can stir;
+<br/>With things too beautiful for earth
+<br/>Alone do we remember her.
+<br/>She came in Spring, when leaves were green,
+<br/>And birds sang blithe in bower and tree,
+<br/>And flowers sprang up and bloomed between
+<br/>Low branches and the quickening lea.
+<br/>The greenness of the leaf is gone,
+<br/>The beauty of the flower is riven,
+<br/>The birds to other climes have flown,
+<br/>And there’s an angel more in Heaven.</div>
+         <div class="byline">
+            <span class="person">W. D. Gallagher.</span>
+         </div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
 
 
             <div>
@@ -645,7 +677,10 @@ And there’s an angel more in Heaven.
 <br/>the emotions of intense and burning enthusiosm that it kindles!</p>
          </div>
 
-         <a href="#p386"/>
+         <br/>
+         <div class="pagebreak" id="#page386"/>
+         <br/>
+         <div class="columnbreak"/>
      
               <div>
                 <div class="head">The Opal: a Pure Gift for the Holidays--1846.</div>
@@ -661,59 +696,61 @@ And there’s an angel more in Heaven.
 <br/>man, Hoffman, Paulding, Schoolcraft, Whittier, and others. Our
 <br/>attention is especially arrested by Miss Anne C. Lynch’s
 <br/>thoughtful and vigorous poem,</p>
-                <div class="head">BONES IN THE DESERT.</div>
-Where plgrims seek the Prophet’s tomb
-Across the Arabian waste,
-Upon the ever shifting sands,
-A fearful path is traced.
-Far up to the horizon’s verge,
-The traveler sees it rise,
-A line of ghastly bones that bleach
-Beneath those burning skies.
-Across it, tempest and simoom
-The desert sands have strewed,
-But still that line of spectral white
-Forever is renewed.
-For while along that burning track
-The caravans move on,
-Still do the way-worn pilgrims fall,
-Ere yet the shrine be won.
-There the tired camel lays him down
-And shuts his gentle eyes,
-And there the fiery rider droops,
-Toward Mecca looks and dies.
-They fall unheeded from the ranks:—
-On sweeps the endless train,
-But there to mark the desert path
-Their whitening bones remain.
-As thus I read the mournful tale
-Upon the traveler’s page,
-I thought how like the march of life
-Is this sad pilgrimage.
-For every heart hath some fair dream,
-Some object unattained,
-And far off in the distance lies
-Some Mecca to be gained.
-But beauty, manhood, love and power
-Go in their morning down,
-And longing eyes and outstretched arms
-Tell of the goal unwon.
-The mighty caravan of life
-Above their dust may sweep,
-Nor shout, nor trampling feet shall break
-The rest of those who sleep.
-Oh, fountains that I have not reached,
-That gush far off e’en now,
-When shall I quench my spirit’s thirst
-Where your sweet waters flow?
-Oh, Mecca of my life-long dreams,
-Cloud-palaces that rise
-In that far distance pierced by hope,
-When will ye greet mine eyes?
-The shadows lengthen towards the East
-From the declining sun,
-And the pilgrim, as ye still recede,
-Sighs for the journey done.
+                <div class="lg">
+               <div class="head">BONES IN THE DESERT.</div>
+               <br/>Where plgrims seek the Prophet’s tomb
+<br/>Across the Arabian waste,
+<br/>Upon the ever shifting sands,
+<br/>A fearful path is traced.
+<br/>Far up to the horizon’s verge,
+<br/>The traveler sees it rise,
+<br/>A line of ghastly bones that bleach
+<br/>Beneath those burning skies.
+<br/>Across it, tempest and simoom
+<br/>The desert sands have strewed,
+<br/>But still that line of spectral white
+<br/>Forever is renewed.
+<br/>For while along that burning track
+<br/>The caravans move on,
+<br/>Still do the way-worn pilgrims fall,
+<br/>Ere yet the shrine be won.
+<br/>There the tired camel lays him down
+<br/>And shuts his gentle eyes,
+<br/>And there the fiery rider droops,
+<br/>Toward Mecca looks and dies.
+<br/>They fall unheeded from the ranks:—
+<br/>On sweeps the endless train,
+<br/>But there to mark the desert path
+<br/>Their whitening bones remain.
+<br/>As thus I read the mournful tale
+<br/>Upon the traveler’s page,
+<br/>I thought how like the march of life
+<br/>Is this sad pilgrimage.
+<br/>For every heart hath some fair dream,
+<br/>Some object unattained,
+<br/>And far off in the distance lies
+<br/>Some Mecca to be gained.
+<br/>But beauty, manhood, love and power
+<br/>Go in their morning down,
+<br/>And longing eyes and outstretched arms
+<br/>Tell of the goal unwon.
+<br/>The mighty caravan of life
+<br/>Above their dust may sweep,
+<br/>Nor shout, nor trampling feet shall break
+<br/>The rest of those who sleep.
+<br/>Oh, fountains that I have not reached,
+<br/>That gush far off e’en now,
+<br/>When shall I quench my spirit’s thirst
+<br/>Where your sweet waters flow?
+<br/>Oh, Mecca of my life-long dreams,
+<br/>Cloud-palaces that rise
+<br/>In that far distance pierced by hope,
+<br/>When will ye greet mine eyes?<br/>
+               <div class="columnbreak"/>
+               <br/>The shadows lengthen towards the East
+<br/>From the declining sun,
+<br/>And the pilgrim, as ye still recede,
+<br/>Sighs for the journey done.</div>
              <p>The engravings and general getting-up of “The Opal” are dis-
 <br/>creditable in the last degree. A more wretched set of mezzotints
 <br/>we certainly never beheld.</p>
@@ -742,9 +779,10 @@ Sighs for the journey done.
 <br/>senses are not near so likely to be duped as the sensitive and excited
 <br/>imagination of the reader in his solitary chamber. It must be ad-
 <br/>mitted, however, that the public of those days, when the
-                              Undoubting mind
-           Believed the magic wonders that were sung,
-<br/>were admirably seasoned for the action of superstition in all forms,
+                              <div class="lg">
+                  <br/>Undoubting mind
+           <br/>Believed the magic wonders that were sung,</div>
+               <br/>were admirably seasoned for the action of superstition in all forms,
 <br/>and furnished, therefore, a most enviable audience for the melo-
 <br/>dramatic artist, whether dramatist or romance-writer. But all this
 <br/>is changed. No witches ride the air now-a-days, and fairies no
@@ -780,7 +818,10 @@ Sighs for the journey done.
 <br/>Their province must now be confined to poor human nature, with-
 <br/>out meddling with the “Gorgons and chimeras dire” which floated
 <br/>through the bewildered brains of our forefathers, at least on the
-<br/>other aide of the water. At any rate, if a writer, in this broad sun<a href="#p387"/>
+<br/>other aide of the water. At any rate, if a writer, in this broad sun<br/>
+               <div class="pagebreak" id="#page387"/>
+               <br/>
+               <div class="columnbreak"/>
                <br/>shine, ventures on any sort of diablerie he is forced to explain it by
 <br/>all the thousand contrivances of trap-doors, secret passages, waxen
 <br/>images, and other make-shifts from the property-room of Mrs. Rad-
@@ -855,8 +896,9 @@ Sighs for the journey done.
                 <p>This is one of the most tastefully printed books we have seen
 <br/>for many a year:—a thick duodecimo of 370 pages—delightful
 <br/>type, unusually good paper—well bound. The work itself is
-<br/>sufficiently well known. It has all Mr. Longfellow’s distinctive-
-<br/>ness of thought and manner—is graceful, scholar-like, at times
+<br/>sufficiently well known. It has all Mr. Longfellow’s distinctive-<br/>
+               <div class="columnbreak"/>
+               <br/>ness of thought and manner—is graceful, scholar-like, at times
 <br/>pointed, and always artistical, but neither original, nor very inter-
 <br/>estiing. Its tone is a palpable imitation of the German spirit. One
 <br/>of its marked peculiarities—and an idiosyncrasy, in fact, apper-
@@ -932,7 +974,10 @@ Sighs for the journey done.
 <br/>cine and Domestic Treatment of Cutaneous Diseases. By Eras-
 <br/>mus Wilson, F. R. S. etc. Illustrated with six Steel Engrav-
 <br/>ings. New York D. Appleton &amp; Co.</p>
-                  <p>“In the following pages,” says the author, one of the most<a href="#p388"/>
+                  <p>“In the following pages,” says the author, one of the most<br/>
+               <div class="pagebreak" id="#page388"/>
+               <br/>
+               <div class="columnbreak"/>
                <br/>eminent of British physiologists, “I propose to make my reader
 <br/>acquainted with the structure and uses of the skin, in the hope
 <br/>of awaking his attention to the necessity and manner of training
@@ -1013,33 +1058,38 @@ Sighs for the journey done.
 <br/>others. Lowell has a poem full of nerve and grace. Here is a
 <br/>magnificent stanza:</p>
 
-Titanic shapes, with faces blank and dun,
-Of their old Godhead born,
-Gaze on the embers of the sunken sun,
-Which they misdeem for morn;
-And yet the eternal sorrow
-In their unmonarched eyes says day is done,
-Without the hope of morrow.
-And here a melodious one :
-Here, ’mid the bleak waves of our strife and care
-Float the green Fortunate Isles,
-Where all our hero spirits dwell, and share
-Our martyrdoms and toils;
-The present moves attended
-With all of brave, and excellent, and fair
-That made the old time splendid.
+            <div class="lg">
+               <br/>Titanic shapes, with faces blank and dun,
+<br/>Of their old Godhead born,
+<br/>Gaze on the embers of the sunken sun,
+<br/>Which they misdeem for morn;
+<br/>And yet the eternal sorrow
+<br/>In their unmonarched eyes says day is done,
+<br/>Without the hope of morrow.<br/>
+               <div class="columnbreak"/>
+               <br/>And here a melodious one :
+<br/>Here, ’mid the bleak waves of our strife and care
+<br/>Float the green Fortunate Isles,
+<br/>Where all our hero spirits dwell, and share
+<br/>Our martyrdoms and toils;
+<br/>The present moves attended
+<br/>With all of brave, and excellent, and fair
+<br/>That made the old time splendid.</div>
                       
                       <p>The number contains, also, other excellent poetry. We mention,
 <br/>in especial, the “Proem to the Froissart Ballads”—although this
 <br/>is strongly tinctured with imitation. For example:</p>
                       
-The dappled fawns upon the plains,
-The birds that love the upper sky
-Lived not in lovelier liberty.
+            <div class="lg">
+               <br/>The dappled fawns upon the plains,
+<br/>The birds that love the upper sky
+<br/>Lived not in lovelier liberty.</div>
 
-<p>Every one remembers the lines ending</p>
+            <p>Every one remembers the lines ending</p>
 
-Know no such liberty.</div>
+            <div class="lg">
+               <br/>Know no such liberty.</div>
+         </div>
                       
                       
               <div>
@@ -1081,24 +1131,30 @@ Know no such liberty.</div>
                 
                 <div>
                  <div class="head"> Sonnet.</div>
-Within the world’s dread furnace we are cast—
-The furnace seven times heated—but we tread,
-By a good angel still accompanied,
-The fiery way unscathed, where men, aghast,
-Fall powerless before the scorching blast
-That toucheth not our garments. We have said,
-Not to your idols, but to our God, instead,
-We bow. We wake the dulcimer, and fast,
-Fanning the ardent air with snowy plumes,
-And cheering with sweet words our fainting souls.
-On through surrounding flame that none consumes
-The angel guideth us among the coals,
-Till, like base ore in the alembic tried,
-We do come forth the fire, refined and purified.
-<span class="person" id="">Mary E. Hewitt.</span>
+         <div class="lg">
+            <br/>Within the world’s dread furnace we are cast—
+<br/>The furnace seven times heated—but we tread,
+<br/>By a good angel still accompanied,
+<br/>The fiery way unscathed, where men, aghast,
+<br/>Fall powerless before the scorching blast
+<br/>That toucheth not our garments. We have said,
+<br/>Not to your idols, but to our God, instead,
+<br/>We bow. We wake the dulcimer, and fast,
+<br/>Fanning the ardent air with snowy plumes,
+<br/>And cheering with sweet words our fainting souls.
+<br/>On through surrounding flame that none consumes
+<br/>The angel guideth us among the coals,
+<br/>Till, like base ore in the alembic tried,
+<br/>We do come forth the fire, refined and purified.</div>
+         <div class="byline">
+            <span class="person">Mary E. Hewitt.</span>
+         </div>
       </div>
 
-      <a href="#p389"/>
+      <br/>
+      <div class="pagebreak" id="#page389"/>
+      <br/>
+      <div class="columnbreak"/>
                 
                 <div>                
                   <div class="head">The Drama.</div>
@@ -1164,10 +1220,11 @@ We do come forth the fire, refined and purified.
 <br/>delivered with more triumphant power than we ever had heard
 <br/>them before. When he exclaimed
                     
-                   The play’s the thing
-Wherein I’ll catch the conscience of the king,
+                   <div class="lg">
+                  <br/>The play’s the thing
+<br/>Wherein I’ll catch the conscience of the king,</div>
 
-<br/>we were then fully satisfied that Murdoch was equal to the task he
+               <br/>we were then fully satisfied that Murdoch was equal to the task he
 <br/>had undertaken; he had fallen upon a stratagem that would foil the
 <br/>subtil king, and enmesh him in his own conscience, and it gleamed
 <br/>from every nerve in the actor. The soliloquy commencing with
@@ -1183,6 +1240,8 @@ Wherein I’ll catch the conscience of the king,
 <br/>picture of his father, he was too wild and declamatory. The pas-
 <br/>sion should be strong, yet subdued. Will he try the value of this
 <br/>hint?—Boston Post</p>
+            <br/>
+            <div class="columnbreak"/>
                     <p>On Wednesday evening, Mr. Murdoch appeared in the character
 <br/>of Benedick in that delightful comedy of Shakspeare’s, “Much
 <br/>Ado About Nothing.” We never saw him in a fitter mood. He
@@ -1245,14 +1304,16 @@ Wherein I’ll catch the conscience of the king,
 <br/>band, flashed from the eyes, gestures, attitudes and tears of the actor
 <br/>to the hearts and minds of the entire audience. The furious charge
 <br/>to Iago—
-                      Villain! be sure thou prov’st my love is false,
+                      <div class="lg">
+                  <br/>Villain! be sure thou prov’st my love is false,</div>
                       
-<br/>with its consecutive passage—the rapturous apostrophe to Desde-
+               <br/>with its consecutive passage—the rapturous apostrophe to Desde-
 <br/>mona—
                       
-                       Excellent wench, &amp;c.,
+                      <div class="lg">
+                  <br/> Excellent wench, &amp;c.,</div>
                       
-<br/>the heart-broken farewell to all the “pomp, pride and circumstance
+               <br/>the heart-broken farewell to all the “pomp, pride and circumstance
 <br/>of glorious war,” the mingled tenderness, sternness and ruthless-
 <br/>ness of the murder scene, and the terrible expiation of the crime,
 <br/>were all the most critical could demand. We know not what future
@@ -1260,7 +1321,10 @@ Wherein I’ll catch the conscience of the king,
 <br/>“Othello,” he will indeed enact wonders.—Times.</p>
          </div>
       </div>
-      <a href="#p390"/>
+      <br/>
+      <div class="pagebreak" id="#page390"/>
+      <br/>
+      <div class="columnbreak"/>
                   
                   
                   <div>
@@ -1351,6 +1415,8 @@ Wherein I’ll catch the conscience of the king,
 <br/>to Boston to-morrow, and will return to this city by the 19th of
 <br/>January, when he will play at the Philharmonic Concert.</p>
          </div>
+         <br/>
+         <div class="columnbreak"/>
                       
                       
                       
@@ -1365,21 +1431,24 @@ Wherein I’ll catch the conscience of the king,
                       
           <div>            
                       <div class="head">Sonetto.</div>
-Degna Madre d’Amor, fulgente Stella,
-Emula al Sol, che l’aria illume e’l giorno,
-A'questo oscuro, e lasso e vil soggiorno
-Donde n’irraggi tu si chiara, e bella?
-Forse la Donna mia, forse sei quella
-Che solea far di luce il mondo adorno?
-E le nebbie, e l’orror, ch' abbiamo intorno
-Ne tolgon gli occhi, e l’ alia sua favella?
-Oime, ch’ avendo il viver nostro a sdegno,
-Come cosa cli’ a noi venne del cielo.
-Tornata é a ricovrar l’antica sede;
-Ond’ or Hespero, or splendor sol si vede;
-Ma di che copre tenebroso velo
-La terra, e me, ch’ ogni altra odio, e disdegno.
-<span class="person" id="">Giovanni Giudiecione.</span>
+         <div class="lg">
+            <br/>Degna Madre d’Amor, fulgente Stella,
+<br/>Emula al Sol, che l’aria illume e’l giorno,
+<br/>A'questo oscuro, e lasso e vil soggiorno
+<br/>Donde n’irraggi tu si chiara, e bella?
+<br/>Forse la Donna mia, forse sei quella
+<br/>Che solea far di luce il mondo adorno?
+<br/>E le nebbie, e l’orror, ch' abbiamo intorno
+<br/>Ne tolgon gli occhi, e l’ alia sua favella?
+<br/>Oime, ch’ avendo il viver nostro a sdegno,
+<br/>Come cosa cli’ a noi venne del cielo.
+<br/>Tornata é a ricovrar l’antica sede;
+<br/>Ond’ or Hespero, or splendor sol si vede;
+<br/>Ma di che copre tenebroso velo
+<br/>La terra, e me, ch’ ogni altra odio, e disdegno.</div>
+         <div class="byline">
+            <span class="person">Giovanni Giudiecione.</span>
+         </div>
       </div>
 
 
@@ -1441,7 +1510,10 @@ La terra, e me, ch’ ogni altra odio, e disdegno.
                        <p>Robert H. Collyer.</p>
             <p>Edgar A. Poe, Esq., New York.</p>
                        
-            <a href="#p391"/>
+            <br/>
+            <div class="pagebreak" id="#page391"/>
+            <br/>
+            <div class="columnbreak"/>
                        
                       <p>We have no doubt that Mr. Collyer is perfectly correct in all
 <br/>that he says—and all that he desires us to say—but the truth is,
@@ -1521,8 +1593,9 @@ La terra, e me, ch’ ogni altra odio, e disdegno.
 <br/>value is the new mode made choice of. The gift of a jewel is the
 <br/>familiar form that a crowned head usually selects to express royal
 <br/>approbation, but it is the first instance of the kind we know of
-<br/>where an autograph letter was added to give a stronger emphasis to
-<br/>such a testimonial. We record with great pleasure this marked
+<br/>where an autograph letter was added to give a stronger emphasis to<br/>
+               <div class="columnbreak"/>
+               <br/>such a testimonial. We record with great pleasure this marked
 <br/>compliment to the talents of a fellow countryman, and congratulate
 <br/>Mr. Wikoff upon his honorable commission.</p>
                        <p>For our own parts we are glad that Mr. Downing has received
@@ -1593,7 +1666,10 @@ La terra, e me, ch’ ogni altra odio, e disdegno.
 <br/>in his opinion that Mrs. Brooks was “considered by all who
 <br/>have read her writings thoughtfully as unmatched among poets
 <br/>of her sex.” The author of “Zophiel” was a truly imaginative
-<br/>poet, but no one, “who read her writings thoughtfully,” would<a href="#p392"/>
+<br/>poet, but no one, “who read her writings thoughtfully,” would<br/>
+               <div class="pagebreak" id="#page392"/>
+               <br/>
+               <div class="columnbreak"/>
                <br/>think of comparing her with Miss Barrett—or even with Mrs.
 <br/>Norton. As for Lamb’s pert query—“was there ever a woman
 <br/>capable of writing such a poem ?”—it merely proves that Lamb
@@ -1616,53 +1692,59 @@ La terra, e me, ch’ ogni altra odio, e disdegno.
                        
                    <div>
                       <div class="head"> The Minstrel.</div>
-“Einst ist die Lieben.”
-Who goes so late through wind and night,
-With joyous face and beaming eye,
-His step so firm, his heart so light?
-Means he, with light guitar, Love’s fate to try?
-Ah, youthful bard, trust not the fair!
-Their hearts are ever false and vain;
-Trust not thine eyes, nor bend thine ear!
-Heed not their song, nor wake thy strain!
-For woman’s heart will triumph in thy pain.
-Away false Doubt! the youth replies,
-Damp not thus my soul with sorrow—
-True love from thee forever flies—
-Thy gloomy past shall be my morrow;
-My heart, from thee, no grief shall borrow.
-Thus spoke the bard, then woke the lay;
-To one he sang, whom Love had given
-Again to make men bless the day,
-When first he stole to Earth from Heaven,
-While joined in her, all grace seemed brighter even.
-Now on the winds his sighings rise;
-Beneath the lattice sings the Boy,
-And upwards turns his tender eyes;
-Rise sweetest hopes, and welcome joy,
-While thus Love’s songs the gentle hours employ.
-But pleads the fond Minstrel in vain
-To her heart cold and unfeeling,
-Like that grim lake on Italy’s plain
-Itself’s waters all concealing
-Sinks in the grave its own waves die sealing.
-Now colder blew the midnight blast,
-Hoarse peal the bells in sullen toll,
-The driven snow falls round him fast,
-And fly the hopes that filled his soul,
-Like the dark clouds that swiftly o’er him roll.
-Through the tall and quaint old trees
-Down sheds the light its mellowed gleam;
-Like silvery moonlit seas,
-Or diamond’s glittering beam,
-Their snow-hung branches round him shining seem.
-Two starry tears in silence fall,
-Congealed they fasten on the string
-That woke so oft Love’s sweetest call—
-No more for thee may lovers sing—
-And dead the tones that told their suffering.
-<span class="person" id="">Edward Cantwell.</span>
+         <div class="lg">
+            <br/>“Einst ist die Lieben.”
+<br/>Who goes so late through wind and night,
+<br/>With joyous face and beaming eye,
+<br/>His step so firm, his heart so light?
+<br/>Means he, with light guitar, Love’s fate to try?
+<br/>Ah, youthful bard, trust not the fair!
+<br/>Their hearts are ever false and vain;
+<br/>Trust not thine eyes, nor bend thine ear!
+<br/>Heed not their song, nor wake thy strain!
+<br/>For woman’s heart will triumph in thy pain.
+<br/>Away false Doubt! the youth replies,
+<br/>Damp not thus my soul with sorrow—
+<br/>True love from thee forever flies—
+<br/>Thy gloomy past shall be my morrow;
+<br/>My heart, from thee, no grief shall borrow.<br/>
+            <div class="columnbreak"/>
+            <br/>Thus spoke the bard, then woke the lay;
+<br/>To one he sang, whom Love had given
+<br/>Again to make men bless the day,
+<br/>When first he stole to Earth from Heaven,
+<br/>While joined in her, all grace seemed brighter even.
+<br/>Now on the winds his sighings rise;
+<br/>Beneath the lattice sings the Boy,
+<br/>And upwards turns his tender eyes;
+<br/>Rise sweetest hopes, and welcome joy,
+<br/>While thus Love’s songs the gentle hours employ.
+<br/>But pleads the fond Minstrel in vain
+<br/>To her heart cold and unfeeling,
+<br/>Like that grim lake on Italy’s plain
+<br/>Itself’s waters all concealing
+<br/>Sinks in the grave its own waves die sealing.
+<br/>Now colder blew the midnight blast,
+<br/>Hoarse peal the bells in sullen toll,
+<br/>The driven snow falls round him fast,
+<br/>And fly the hopes that filled his soul,
+<br/>Like the dark clouds that swiftly o’er him roll.
+<br/>Through the tall and quaint old trees
+<br/>Down sheds the light its mellowed gleam;
+<br/>Like silvery moonlit seas,
+<br/>Or diamond’s glittering beam,
+<br/>Their snow-hung branches round him shining seem.
+<br/>Two starry tears in silence fall,
+<br/>Congealed they fasten on the string
+<br/>That woke so oft Love’s sweetest call—
+<br/>No more for thee may lovers sing—
+<br/>And dead the tones that told their suffering.</div>
+         <div class="byline">
+            <span class="person">Edward Cantwell.</span>
+         </div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
 
       <div>
          <div class="ab">GURNEY’S
@@ -1705,6 +1787,8 @@ And dead the tones that told their suffering.
 <br/>Ladies who desire it, can have their teeth examined at their resi-
 <br/>dences, by sending their address as above.	nov8—9t</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
 
 
       <div>
@@ -1755,7 +1839,10 @@ And dead the tones that told their suffering.
 <br/>from $1 50 upwards.	nov8—3m</div>
       </div>
 
-      <a href="#p393"/>
+      <br/>
+      <div class="pagebreak" id="#page393"/>
+      <br/>
+      <div class="columnbreak"/>
           
       <div>
          <div class="ab">NEW BOOKS,	
@@ -1849,6 +1936,8 @@ And dead the tones that told their suffering.
 <br/>C. KNOX, No. 110 Fulton st.
 <br/>nov 8—3m	between William and Nassau sts.</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
           
           
           
@@ -1950,7 +2039,10 @@ And dead the tones that told their suffering.
 <br/>Nov. 8th, 1845.	6m</div>
       </div>
 
-      <a href="#p394"/>
+      <br/>
+      <div class="pagebreak" id="#page394"/>
+      <br/>
+      <div class="columnbreak"/>
 
       <div>
          <div class="ab">HARPER &amp; BROTHERS’ RECENT PUBLI-
@@ -2036,6 +2128,8 @@ And dead the tones that told their suffering.
 <br/>elegantly printed as a library book, and aderned by some dozen curi-
 <br/>ous fac-similes of oriental drawings.”—Courier and Enquirer.</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
           
           
           
@@ -2123,7 +2217,10 @@ And dead the tones that told their suffering.
       </div>
   
   
-      <a href="#p395"/>
+      <br/>
+      <div class="pagebreak" id="#page395"/>
+      <br/>
+      <div class="columnbreak"/>
 
       <div>
          <div class="ab">THE SECOND VOLUME OF
@@ -2221,7 +2318,8 @@ And dead the tones that told their suffering.
 </div>
       </div>
           
-
+      <br/>
+      <div class="columnbreak"/>
 
       <div>
          <div class="ab">CHEAP MUSIC.
@@ -2325,7 +2423,10 @@ And dead the tones that told their suffering.
 <br/>Truss Hoops.	nov8—3m</div>
       </div>
 
-      <a href="#p396"/>
+      <br/>
+      <div class="pagebreak" id="#page396"/>
+      <br/>
+      <div class="columnbreak"/>
   
       <div>
          <div class="ab">CATALOGUE OF TEAS,
@@ -2415,8 +2516,9 @@ And dead the tones that told their suffering.
 <br/>The Pekin Tea Company, 75 Fulton street, are performing a great
 <br/>and good work, and will, in a few years, beyond all doubt, drive all the
 <br/>poor teas which have deluged this country, and defrauded consumers
-<br/>of the article, out of the market. They import none but pure and fra-
-<br/>grant teas, and retail them by the single pound at wholesale prices.
+<br/>of the article, out of the market. They import none but pure and fra-<br/>
+            <div class="columnbreak"/>
+            <br/>grant teas, and retail them by the single pound at wholesale prices.
 <br/>Families are always sure of obtaining good teas at this great tea ware-
 <br/>house, in quantities to suit their convenience, and at the same price
 <br/>that the merchant pays who buys to sell again.—[Daily True Sun.

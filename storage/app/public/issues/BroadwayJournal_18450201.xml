@@ -4,13 +4,21 @@
             <br/>VOL. 1.          NEW YORK, SATURDAY, FEBRUARY 1, 1845.          N° 5.</div>
         </div>
    <div class="body"> 
-           <div>Truth, whether in or out of fashion, is the measure of knowledge and the busi-
+      <br/>
+      <div class="columnbreak"/>
+           <div>
+         <div class="cit">
+            <span class="quote">Truth, whether in or out of fashion, is the measure of knowledge and the busi-
              <br/>ness of the understanding; whatsoever is beside that, however authorised by con-
-             <br/>sent or recommended by variety, is nothing but ignorance, or something worse.<span class="person" id="">Locke.</span>
+             <br/>sent or recommended by variety, is nothing but ignorance, or something worse.</span>
+            <div class="bibl">
+               <span class="person">Locke.</span>
+            </div>
+         </div>
       </div>
-          <div id="#s1" class="section">
+          <div class="section" id="#s1">
          <div class="head">REVIEWS.</div>
-            <div id="#p1" class="piece">
+            <div class="piece" id="#p1">
             <p>A Course of English Reading, adapted to every taste and capacity,
 <br/>with Anecdotes of Men of Genius.By the Rev. James Pycroft,
 <br/>B. A., with additions by J. G. Coggswell. New York, Wiley &amp; Put-
@@ -66,7 +74,8 @@
 <br/>are poring over the wordy pages of these writers. The great
 <br/>defect of the book is the lack of general principles, in the
  
-place of which we have particular instructions. But there is
+<br/>
+               <div class="columnbreak"/>place of which we have particular instructions. But there is
 <br/>much sound sense distributed through the work, which ap-
 <br/>pears to less advantage for want of a proper arrangement.
 <br/>There are many pious mothers, who would sooner see their
@@ -138,9 +147,11 @@ lowing divisions:</p>
 <br/>tach to all.”</p>
             <p>This is the main principle of the plan in every department
 <br/>of study, to divide off, and master a portion at a time, and not
-    <br/>attempt to grasp an entire study at once. A very judicious,<a href="#p66"/>
+    <br/>attempt to grasp an entire study at once. A very judicious,<br/>
+               <div class="pagebreak" id="#page66"/>
     
-    
+               <br/>
+               <div class="columnbreak"/>
 and obviously necessary course, such as would naturally be
 <br/>followed by any student who had a serious wish to become
 <br/>tolerably well acquainted with any department of learning.</p>
@@ -218,7 +229,8 @@ and obviously necessary course, such as would naturally be
 <br/>ten on Art excepting Leonardo and Lanzi. In his list of ar-
 <br/>chitectural works he has omitted two of the best of modern
     
-    times—Hope’s Essay and Gwilt’s Cyclopoedia. But his re-
+    <br/>
+               <div class="columnbreak"/>times—Hope’s Essay and Gwilt’s Cyclopoedia. But his re-
 <br/>marks on this subject are exceedingly brief, and prove that
 <br/>he felt but little interest in it. He would have acted more
 <br/>judiciously in letting it alone altogether. The space devoted
@@ -284,9 +296,11 @@ and obviously necessary course, such as would naturally be
 <br/>persuaded to engage in the undertaking, upon representations
 <br/> similar to those which Columbus had made to his patrons.
 <br/> Among the adventurers who accompanied Cousin was a boat-
-<br/> swain, or mate, contra-maitre, named Vincent Pinzan, who<a href="#p67"/>
+<br/> swain, or mate, contra-maitre, named Vincent Pinzan, who<br/>
+               <div class="pagebreak" id="#page67"/>
     
-quarrelled with his commander, and afterwards was one of
+               <br/>
+               <div class="columnbreak"/>quarrelled with his commander, and afterwards was one of
 <br/>the most sanguine of those who seconded the endeavors of
 <br/>Columbus, as is well known. A very satisfactory library
 <br/>might be formed out of the works which neither Mr. Pycroft
@@ -312,7 +326,7 @@ quarrelled with his commander, and afterwards was one of
 <br/>but for the leaden tint of the ink, would look like an English
 <br/>edition.</p>
          </div>
-            <div id="#p2" class="piece"> 
+            <div class="piece" id="#p2"> 
             <p>The Chimes, A Goblin Story. By Charles Dickens, Esq. New York, 
 E. Winchester. Republished.</p>
             <p>The Chimes are in the Dickens vein, but not the true vein
@@ -354,7 +368,8 @@ E. Winchester. Republished.</p>
 <br/>the refinements of a fastidious taste. It is this freshness
 <br/>which distinguishes all his writings, that gives them one of
       
-      their chief attractions. His copy goes from his hand to the
+      <br/>
+               <div class="columnbreak"/>their chief attractions. His copy goes from his hand to the
 <br/>printer before the ink is dry. There are many slovenly pas-
 <br/>sages in his writings in consequence, but no stiff ones. The
 <br/>Chimes contains many passages of unapproachable beauty,
@@ -414,11 +429,12 @@ E. Winchester. Republished.</p>
 <br/>dy. “Last winter, when I introduced pinking and eyelet-holeing
 <br/>among the men and boys in the village, as a nice evening employ-
 <br/>ment, and had the lines,
-Oh let us love our occupations,
-  Bless the squire and his relations,
-  Live upon our daily rations,
-  And always know our proper stations,
-<br/>set to music on the new system, for them to sing the while: this very
+<div class="lg">
+                  <br/>Oh let us love our occupations,
+  <br/>Bless the squire and his relations,
+  <br/>Live upon our daily rations,
+  <br/>And always know our proper stations,</div>
+               <br/>set to music on the new system, for them to sing the while: this very
 <br/>Fern—I see him now—touched that hat of his, and said,  'I humbly
 <br/>ask your pardon my lady, but an’t I something different from a great
 <br/>girl?’ I expected it, of course; who can expect anything but insolence
@@ -435,8 +451,11 @@ Oh let us love our occupations,
 <br/>which the wizard shapes of other authors have; they speak
 <br/>to us smoothly, and their words are imbued with a wisdom
 <br/>above that of ordinary men.</p>
-            <a href="#p68"/>
+            <br/>
+            <div class="pagebreak" id="#page68"/>
     
+            <br/>
+            <div class="columnbreak"/> 
             <p>" 'The voice of Time,’ said a phantom, 'cries to man, Advance!
 <br/>Time is for his advancement and improvement; for his greater worth,
 <br/>his greater happiness, his better lite; his progress onward to that
@@ -468,7 +487,7 @@ Oh let us love our occupations,
 <br/>tion are by famous artists, but have nothing but the names
 <br/>of the artists to recommend them.</p>
          </div>
-            <div id="#p3" class="piece">
+            <div class="piece" id="#p3">
             <p>The Natural Boundaries of Empires, and a New View of Colo-
 <br/>nization. By John Finch, Esq., Corresponding Member of the
 <br/>Literary and Historical Society of Quebec, and of the Natural His-
@@ -518,7 +537,8 @@ Oh let us love our occupations,
 <br/>descended from the good Saxons who resisted with such true valour
 <br/>the armies of Charlemagne. They dress in the skins of sheep, and
   
-dwell in tents. They are perfectly happy, lor they lead a pastoral
+<br/>
+               <div class="columnbreak"/>dwell in tents. They are perfectly happy, lor they lead a pastoral
 <br/>life, and cordially pity those unfortunate people who are compelled to
 <br/>reside in towns. Towns! where Mother Earth is carefully hidden from
 <br/>view by a heavy pavement of brick or of stone; where the air is pol-
@@ -562,17 +582,18 @@ dwell in tents. They are perfectly happy, lor they lead a pastoral
 <br/>nations present a more pleasing aspect from the variety of their cus-
 <br/>toms, the difference of their opinions, and the distinct character of
 <br/>their political institutions.</p>
-" 'The shuddering tenant of the Frigid Zone
-  Boldly proclaims the happiest spot his own;
-Extols the treasures of his stormy seas,
-And his long nights of revelry and ease.
-The naked Negro, panting at the Line,
-Boasts of his golden sands and palmy wine;
-Banks in the glare, or stems the tepid wave,
-And thanks his gods for all the wealth they gave.
-Such is the patriot’s boast, where’er he roam,
-  His first, best country', ever is, at home.’
-<p>“This circumstance contributes much to the comfort and happiness
+            <div class="lg">
+               <br/>" 'The shuddering tenant of the Frigid Zone
+  <br/>Boldly proclaims the happiest spot his own;
+<br/>Extols the treasures of his stormy seas,
+<br/>And his long nights of revelry and ease.
+<br/>The naked Negro, panting at the Line,
+<br/>Boasts of his golden sands and palmy wine;
+<br/>Banks in the glare, or stems the tepid wave,
+<br/>And thanks his gods for all the wealth they gave.
+<br/>Such is the patriot’s boast, where’er he roam,
+  <br/>His first, best country', ever is, at home.’</div>
+            <p>“This circumstance contributes much to the comfort and happiness
 <br/>of the human race; each nation considers its own law, custom, and
 <br/>institution—soil, climate, and provision—habit, manner, and govern-
 <br/>ment, as far superior to all others. There is one thing which every
@@ -612,9 +633,11 @@ Such is the patriot’s boast, where’er he roam,
 <br/>first wish of all nations, and which they are unhappy if they do not
 <br/>attain, is to be governed according to their peculiar ideas and prejudices. There is no doubt they believe these to be founded in truth
 <br/>and justice; but how fur this is from being actually the case, the his-
-<br/>tory of every country will elucidate. Even if a nation should desire it,<a href="#p69"/>
+<br/>tory of every country will elucidate. Even if a nation should desire it,<br/>
+               <div class="pagebreak" id="#page69"/>
 
-—as governments are carried on by human agents, and their power is
+               <br/>
+               <div class="columnbreak"/>—as governments are carried on by human agents, and their power is
 <br/>exercised over human subjects,—how is it possible it should be per-fect? they of necessity partake of the general imperfection of all hu-
 <br/>man things. Can we construct a temple which shall continue to at-
 <br/>tract for ages the admiration of mankind with diminutive bricks, or
@@ -667,7 +690,7 @@ Such is the patriot’s boast, where’er he roam,
          </div>
       </div>
       
-          <div id="#p4" class="piece">
+          <div class="piece" id="#p4">
          <div class="head">AMERICAN PROSE WRITERS.
             <br/>NO. 3.
             <br/>R. H. Dana.</div>
@@ -706,7 +729,8 @@ Such is the patriot’s boast, where’er he roam,
 <br/>maniac, may be made very effective in vigorous description,
 <br/>but is not the simple-hearted Jonathan Fords, for example,
               
-a better character both for study and imitation? Doubtless
+<br/>
+            <div class="columnbreak"/>a better character both for study and imitation? Doubtless
 <br/>more than one Paul Felton has birds, but we do not go to
 <br/>nature, in bad extravagances or capricious words, for instruc-
 <br/>tion or delight—else the records of a Prison or a Lunatic
@@ -787,9 +811,11 @@ a better character both for study and imitation? Doubtless
 <br/>ant was the early associate, as he remains the "oldest friend
 <br/>of our author. Some of Dana’s finest portrait contributions,
 <br/>were included in Bryant’s New York Review. The father,
-<br/>too, is happy in a son who has written one of the best books<a href="#p70"/>
+<br/>too, is happy in a son who has written one of the best books<br/>
+            <div class="pagebreak" id="#page70"/>
 
-of its class since the world renowned fiction of De Foe. With
+            <br/>
+            <div class="columnbreak"/>of its class since the world renowned fiction of De Foe. With
 <br/>these connections to boast of, the nobility of genius has had
 <br/>to contend with comparative neglect and poverty: sure ever
 <br/>of a high place in the esteem and admiration of good critics,
@@ -872,7 +898,8 @@ of its class since the world renowned fiction of De Foe. With
 <br/>“taking” style. He is not a popular writer, and has,
 <br/>rightly, not aimed at popularity. This he confesses, and
 
-justifies with sense and honesty. His real mind—the cast of
+<br/>
+            <div class="columnbreak"/>justifies with sense and honesty. His real mind—the cast of
 <br/>a writer’s mind must be popular, to render his writings
 <br/>such, yet there is no element of that kind in our author’s
 <br/>intellectual constitution. He is too honest to disguise his
@@ -953,13 +980,17 @@ justifies with sense and honesty. His real mind—the cast of
 <br/>clear, precise, final. He is equally powerful in his critical
 <br/>capacity, as he is an original writer. His essays are musings,
 <br/>the finest reflections of a scholar, and many given to reverie
-<br/>and sentimental disquisition. The man, too, is but the natu-<a href="#p71"/>
+<br/>and sentimental disquisition. The man, too, is but the natu-<br/>
+            <div class="pagebreak" id="#page71"/>
 
-ral converse of the author—kind, sincere, honorable; with-
+            <br/>
+            <div class="columnbreak"/>ral converse of the author—kind, sincere, honorable; with-
 <br/>out a meanness, without a flaw—such is Richard H. Dana,
-      <br/>one of our very best writers; one of our very best men.</p> J.</div>
+      <br/>one of our very best writers; one of our very best men.</p>
+         <div class="byline"> J.</div>
+      </div>
           
-          <div id="#p5" class="piece">
+          <div class="piece" id="#p5">
          <div class="head">BARBARITIES OF THE THEATRE.</div>
          <p>Dullness and absurdity are not the only or the least causes
 <br/>of the decline and fall of the present Drama. The stage has
@@ -1017,8 +1048,13 @@ ral converse of the author—kind, sincere, honorable; with-
 <br/>mous Railway Disaster with locked doors. A similar fatal
 <br/>occurrence in France, vividly related by Froissart, took place
 <br/>in a species of mummery and masking, at the Court of
-<br/>Charles VI. </p>
+<br/>Charles VI. <span class="anchor" id="a001">
+               <a href="#n001"/>
+            </span>
+         </p>
   
+         <br/>
+         <div class="columnbreak"/>
          <p>It remains for theatrical managers to take the strictest pre-
 <br/>cautions against the recurrence of similar accidents in future.
 <br/>We have often noticed with alarm, the flaring of the foot-
@@ -1044,8 +1080,11 @@ ral converse of the author—kind, sincere, honorable; with-
 <br/>teriously, by some unknown laws of assimilation, continue
 <br/>to grow fat in such an atmosphere, but it is death to the au-
   <br/>dience.</p>
-         <a href="#p72"/>
+         <br/>
+         <div class="pagebreak" id="#page72"/>
             
+         <br/>
+         <div class="columnbreak"/>
          <p>There is a host of minor grievances, each sufficient in it-
 <br/>self to account for the general disappearance of the audiences,
 <br/>without recurring to the unfortunate laws of the drama, for a
@@ -1084,8 +1123,10 @@ ral converse of the author—kind, sincere, honorable; with-
 <br/>very satisfactorily solved too. Verily, if a man goes to destruc-
 <br/>tion through the gate of the theatre, he goes to it like a Po-
       <br/>pish anchorite, without ever treading the soft primrose path.</p>
-         <br/>E. A. D.</div>
-          <div id="#p6" class="piece">
+         <br/>
+         <div class="byline">E. A. D.</div>
+      </div>
+          <div class="piece" id="#p6">
          <div class="head">NATIONAL NOMENCLATURE.</div>
          <p>Our countrymen are very much in the habit of pointing to
 <br/>the Patent Office in Washington to prove the fertility of the
@@ -1113,7 +1154,8 @@ ral converse of the author—kind, sincere, honorable; with-
 <br/>Columbuses. There are one hundred and four towns and coun-
 <br/>ties of the color Green, five Vermillions, and twenty-four
   
-  Browns. Almost every name in Scripture, has been repro-
+  <br/>
+            <div class="columnbreak"/>Browns. Almost every name in Scripture, has been repro-
 <br/>duced on our soil: Goshens fifteen, Canaans eleven, Salems
 <br/>thirty, Bethlehems eleven. All the classical writers have
 <br/>been largely honored in our national baptisms: there are fif-
@@ -1163,7 +1205,7 @@ ral converse of the author—kind, sincere, honorable; with-
 <br/>in such an arithmetical world as that, we would infinitely
 <br/>prefer a dozen Joe Davieses, and ninety-one Jacksons.</p>
       </div>
-          <div id="#p7" class="piece"> 
+          <div class="piece" id="#p7"> 
          <div class="head">THE DEVICES OF BEGGARY.</div>
          <p>Mr. Bumble, the beadle in Oliver Twist, was very indig-
 <br/>nant at a pauper, who went and starved himself to death, on
@@ -1179,9 +1221,11 @@ ral converse of the author—kind, sincere, honorable; with-
 <br/>not long since, made a very feeling statement of his griefs,
 <br/>in not being able to eat his breakfast in quiet, for the obtru-
 <br/>siveness of street beggars, who would be asking for some-
-  <a href="#p73"/> 
+  <br/>
+            <div class="pagebreak" id="#page73"/> 
   
-thing to eat. Probably they did not know his profession, or
+            <br/>
+            <div class="columnbreak"/>thing to eat. Probably they did not know his profession, or
 <br/>they would have kept clear. That any man, woman, or
 <br/>child ever begged, but from sheer necessity, for something to
 <br/>eat, we do not believe. It is a very prevalent opinion, how-
@@ -1249,54 +1293,58 @@ thing to eat. Probably they did not know his profession, or
          <p>“Very possible!” thought I, “seeing that you live by it.”</p>
       </div>
           
-          <div id="#s2" class="section">
+          <br/>
+      <div class="columnbreak"/>
+      <div class="section" id="#s2">
          <div class="head">Original Poetry.</div>
-         <div id="#p8" class="piece">
+         <div class="piece" id="#p8">
             <div class="head">THE RING.
   <br/>(TRANSLATED FROM THE GERMAN OF LUDWIG UHLER.)</div>
-          BY <span class="person" id="">MARIA LOWELL</span>.
-There rode upon a morning
-A knight across the lea,
-Of his lady many a warning
-And anxious thought had he.
-"My little trusty ring of gold
-From care can set me free;
-In thee my loved one’s pledge I hold;
-How stands her constancy?”
-Now while he looks upon the ring,
-It flies from off his hand,
-It rolls and bounds with many a spring
-Across the meadow land.
-Across the meadow would he skim
-To catch it as it flew,
-But golden blossoms dazzle him,
-And grass bedropped with dew.
-The ring a falcon spieth
-From off a linden tree;
-And downward swiftly flieth,
-The ring on high lifts he.
-On mighty plumes his way doth take
-In the free air to swing,
-His brothers follow in his wake
-To seize the little ring.
-But none can win the little ring,
-It drops adown the sky,
-The knight he watch’t it falling
-On the deep sea silently.
-The fish are gaily dancing
-To seize the golden prize,
-But down the ring is glancing,
-Beyond the reach of eyes.
-“Oh little ring, in meadows fair
-The flowers drew thee aside,
-Oh little ring, in the blue air
-The birds behind thee glide.
-“Oh little ring, from ocean’s spring
-Thou draw’st the fish above,
-I fear thou tellest, little ring,
-Strange news of her I love!”</div>
+            <div class="byline">BY <span class="person">MARIA LOWELL</span>.</div>
+            <div class="lg">
+               <br/>There rode upon a morning
+<br/>A knight across the lea,
+<br/>Of his lady many a warning
+<br/>And anxious thought had he.
+<br/>"My little trusty ring of gold
+<br/>From care can set me free;
+<br/>In thee my loved one’s pledge I hold;
+<br/>How stands her constancy?”
+<br/>Now while he looks upon the ring,
+<br/>It flies from off his hand,
+<br/>It rolls and bounds with many a spring
+<br/>Across the meadow land.
+<br/>Across the meadow would he skim
+<br/>To catch it as it flew,
+<br/>But golden blossoms dazzle him,
+<br/>And grass bedropped with dew.
+<br/>The ring a falcon spieth
+<br/>From off a linden tree;
+<br/>And downward swiftly flieth,
+<br/>The ring on high lifts he.
+<br/>On mighty plumes his way doth take
+<br/>In the free air to swing,
+<br/>His brothers follow in his wake
+<br/>To seize the little ring.
+<br/>But none can win the little ring,
+<br/>It drops adown the sky,
+<br/>The knight he watch’t it falling
+<br/>On the deep sea silently.
+<br/>The fish are gaily dancing
+<br/>To seize the golden prize,
+<br/>But down the ring is glancing,
+<br/>Beyond the reach of eyes.
+<br/>“Oh little ring, in meadows fair
+<br/>The flowers drew thee aside,
+<br/>Oh little ring, in the blue air
+<br/>The birds behind thee glide.
+<br/>“Oh little ring, from ocean’s spring
+<br/>Thou draw’st the fish above,
+<br/>I fear thou tellest, little ring,
+<br/>Strange news of her I love!”</div>
+         </div>
       </div>
-          <div id="#p9" class="piece">
+          <div class="piece" id="#p9">
          <div class="head">The Drama.</div>
          <p>The Chatham.—Chatham street has been a favorite loca-
 <br/>tion for theatres during the past twenty-five years. Since
@@ -1316,9 +1364,11 @@ Strange news of her I love!”</div>
 <br/>of the Brigadier in the Mirror, produced the beautiful native
 <br/>Opera of the “Forest Rose,” and the celebrated Micah
 <br/>Hawkins brought out some of his classic dramas. These
-<br/>were the palmy days of the drama, when the celebrated <a href="#p74"/>
+<br/>were the palmy days of the drama, when the celebrated <br/>
+            <div class="pagebreak" id="#page74"/>
 
-Colonel Stevenson, since a tobacco inspector, kept the re-
+            <br/>
+            <div class="columnbreak"/>Colonel Stevenson, since a tobacco inspector, kept the re-
 <br/>freshment room and served drinks to the ladies who frequent-
 <br/>ed that charming spot. But these days are gone, never more
 <br/>to return, as some poet says. Mrs. Entwistle, we believe,
@@ -1386,7 +1436,8 @@ Colonel Stevenson, since a tobacco inspector, kept the re-
 <br/>the young care-for-naughts, who fill the pit and galleries of
 <br/>this theatre? Yet it is surely of as much importance, in
         
-every respect, that the apprentices and newspaper boys of
+<br/>
+            <div class="columnbreak"/>every respect, that the apprentices and newspaper boys of
 <br/>our city should be rightly instructed, as the learned barbari-
 <br/>ans of the east. These boys may possibly go to church once
 <br/>a week, but they go to the theatre every night. It is admit-
@@ -1453,11 +1504,14 @@ every respect, that the apprentices and newspaper boys of
 <br/>incubus would be removed from the drama, and it would
 <br/>rise to a level with the other arts.</p> 
       </div>
-      <a href="#p75"/> 
+      <br/>
+      <div class="pagebreak" id="#page75"/> 
       
-          <div id="#s3" class="section">
+          <br/>
+      <div class="columnbreak"/>
+      <div class="section" id="#s3">
          <div class="head">VARIETIES.</div>
-         <div id="#p10" class="piece">
+         <div class="piece" id="#p10">
             <div class="head">LETTER FROM DR. A. SIDNEY DOANE.</div>
             <div class="ab">New York, Jan. 23, 1845.
   <br/>To the Editor of the Broadway Journal.</div>
@@ -1523,7 +1577,8 @@ every respect, that the apprentices and newspaper boys of
 <br/>She answered, “rather tired.” “Had she suffered during
 <br/>her sleep?” She said, “No.” “Had she been cut?” She
     
-replied “ No, the operation was to be performed the next
+<br/>
+               <div class="columnbreak"/>replied “ No, the operation was to be performed the next
 <br/>day,” as Dr. B. had previously stated to her would be the
 <br/>case. She was now shown the tumor, at which she seemed
 <br/>much surprised and gratified., Since that time the patient has
@@ -1552,8 +1607,8 @@ replied “ No, the operation was to be performed the next
 <br/>what I saw. You can draw your own conclusions.</p>
             <div class="ab">Respectfully yours,
     <br/>32 Warren Street.</div>
-            <span class="person" id="">A. SIDNEY DOANE</span>, A.M., M.D.</div>
-         <div id="#p11" class="piece">
+            <span class="person">A. SIDNEY DOANE</span>, A.M., M.D.</div>
+         <div class="piece" id="#p11">
             <div class="head">THE MOZART-INSTITUTE OF FRANKFORT - ON - THE - MAINE.</div>
             <p>On the loth of February, 1828, a society of Amateurs was
 <br/>formed in Frankfort, under the name of the “ Lieder-Kranz,”
@@ -1589,9 +1644,11 @@ replied “ No, the operation was to be performed the next
 <br/>tending thereby to erect a moral monument to the greatest
 <br/>tone-poet of the world. The first performance of the Lieder
 <br/>Kranz for the benefit of the Mozart Institute, took place at
-<br/>Frankfort in July, 1838, and the constitution of the society <a href="#p76"/>
+<br/>Frankfort in July, 1838, and the constitution of the society <br/>
+               <div class="pagebreak" id="#page76"/>
 
-provided that an annual concert should be given by the Lie-
+               <br/>
+               <div class="columnbreak"/>provided that an annual concert should be given by the Lie-
 <br/>der-Kranz for the same purpose.</p>
             <p>The Constitution of the “Mozart-Stiftung” consists of
 <br/>forty sections, detailing the manner in which its objects shall
@@ -1626,8 +1683,10 @@ provided that an annual concert should be given by the Lie-
 <br/>compensate its high-hearted founders for the indefatigable
 <br/>zeal which they have shown in their interest for the German
     <br/>National Monument—the Mozart-Stiftung.</p>
-            <span class="person" id="">Charles Perabeau</span>.</div>
-         <div id="#p12" class="piece">
+            <div class="byline">
+               <span class="person">Charles Perabeau</span>.</div>
+         </div>
+         <div class="piece" id="#p12">
             <div class="head">PLACES WORTH VISITING.</div>
             <p>The Governor’s Room in the City Hall.—The suite of
 <br/>rooms in the City Hall, called the Governor’s Room, can be
@@ -1658,7 +1717,8 @@ provided that an annual concert should be given by the Lie-
 <br/>merit as a painting will always be of secondary interest; as
 <br/>a portrait of a man, whose name will ever be dear to an
     
-American, it will seem full of grandeur and beauty. It is
+<br/>
+               <div class="columnbreak"/>American, it will seem full of grandeur and beauty. It is
 <br/>much superior to the portrait which hangs in the House of
 <br/>Representatives at Washington.</p>
             <p>Some of the most interesting pictures here, are the portraits
@@ -1674,7 +1734,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>week. It is the only free gallery in the city, and should be
 <br/>made the most of.</p>
          </div>
-         <div id="#p13" class="piece">
+         <div class="piece" id="#p13">
             <div class="head">WALL STREET ARCHITECTURE.</div>
             <p>A block of brick stores has just been built upon the site
 <br/>of the old Wall Street Church, in which a novelty in street
@@ -1703,7 +1763,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>ments of the inefficiency of mere money to produce anything
 <br/>great in art without the assistance of knowledge or genius.</p>
          </div>
-         <div id="#p14" class="piece">
+         <div class="piece" id="#p14">
             <p>Catalogue of the Mercantile Library in New York,
 <br/>1844.—The library of this all-important institution now con-
 <br/>tains 21,000 volumes, the use of which can be had for the
@@ -1726,9 +1786,12 @@ American, it will seem full of grandeur and beauty. It is
 <br/>der the names of their subjects. The third part, or Appendix,
 <br/>comprises Novels, which are not in the other divisions of the
 <br/>Catalogue.</p>
-            <a href="#p77"/>
+            <br/>
+            <div class="pagebreak" id="#page77"/>
          </div>
-         <div id="#p15" class="piece">
+         <br/>
+         <div class="columnbreak"/>
+         <div class="piece" id="#p15">
             <p>The Difference.—The Chimes, by Dickens, was sold in
 <br/>London at a dollar and a quarter; it is sold here at a six-
 <br/>pence. The London edition is better printed, of course,
@@ -1761,9 +1824,9 @@ American, it will seem full of grandeur and beauty. It is
          </div>
       </div>
   
-            <div id="#s4" class="section">
+            <div class="section" id="#s4">
          <div class="head">BITS OF NEWS.</div>
-         <div id="#p16" class="piece">
+         <div class="piece" id="#p16">
             <p>Mayor Harper has refused to sign the bill, giving the
 <br/>use of the Rotunda, in the Park, to the New York Gallery of
 <br/>Fine Arts, because he thinks it would be establishing a bad
@@ -1772,7 +1835,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>of art, the Mayor informed them that he was a member of
 <br/>the institution. The price of life-membership is one dollar.</p>
          </div>
-         <div id="#p17" class="piece">
+         <div class="piece" id="#p17">
             <p>John P. Ridner, Esq. of this city, for several years the su-
 <br/>perintendent of the Apollo Association, has recently been ap-
 <br/>pointed an honorary secretary of the Art-Union of London,
@@ -1783,17 +1846,17 @@ American, it will seem full of grandeur and beauty. It is
 <br/>a celebrated painting by W. Mulready, R. A., called “The
 <br/>Convalescent.”</p>
          </div>
-         <div id="#p18" class="piece">
+         <div class="piece" id="#p18">
             <p>The Harpers, it is said, are going to publish a new work
 <br/>by Cornelius Matthews, in April, to be called “Little Abel
 <br/>and Great Manhattan.”</p>
          </div>
-         <div id="#p19" class="piece">
+         <div class="piece" id="#p19">
             <p>Mr. Prescott is engaged upon a new work, the “Con-
 <br/>quest of Peru,” which will probably equal in interest his
 <br/>last publication.</p>
          </div>
-         <div id="#p20" class="piece">
+         <div class="piece" id="#p20">
             <p>Simms’s Monthly Magazine has just made its appearance
 <br/>from the Charleston press. It professes to be a Southern and
 <br/>Western Review, and the first article in it is called “Ameri-
@@ -1810,16 +1873,18 @@ American, it will seem full of grandeur and beauty. It is
 <br/>duct of southern pens. The best things in the present num-
 <br/>ber come from the north.</p>
          </div>
-         <div id="#p21" class="piece">
+         <div class="piece" id="#p21">
             <p>It is said that Bishops are going out of fashion. Several
 <br/>ladies have been seen in Broadway without these appen-
 <br/>dages.</p>
          </div>
       </div>
   
-      <div id="#s5" class="section">
+      <br/>
+      <div class="columnbreak"/>
+      <div class="section" id="#s5">
          <div class="head">LITERARY NOTICES.</div>
-         <div id="#p22" class="piece"> 
+         <div class="piece" id="#p22"> 
             <p>Appleton’s Historical Library. History of France, from the earliest period
 <br/>to the present time. By M. Michelet. Translated by G. H. Smith, F.G.S.
 <br/>D. Appleton A Co., 200 Broadway. No. 1, pp. 158. Price 25 cents.</p>
@@ -1839,7 +1904,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>lished from an English edition; but it is an inference which we have
 <br/>no right to draw.</p>
          </div>
-         <div id="#p23" class="piece">
+         <div class="piece" id="#p23">
             <p>Forest Life. By Mrs. Mary Clavers, in two volumes. Farmer &amp; Daggers,
 <br/>30 Ann Street.</p>
             <p>A new edition of a very popular work. Mrs. Clavers was a resi-
@@ -1859,7 +1924,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>have so so little of that commodity themselves, excepting for them-
 <br/>selves.	</p>
          </div>
-         <div id="#p24" class="piece">
+         <div class="piece" id="#p24">
             <p>Uncle Peter’s Fairy Tales. Farmer &amp; Daggers, 30 Ann Street.</p>
             <p>This little book was designed for English children between the ages
 <br/>of eight and fourteen, and it contains too many local allusions, we
@@ -1892,16 +1957,18 @@ American, it will seem full of grandeur and beauty. It is
 <br/>of the plot, but for the characters which they contain, as we read
 <br/>Shakspeare’s historical tragedies.</p>
          </div>
-         <div id="#p26" class="piece">
+         <div class="piece" id="#p26">
             <p>Lawrie Todd. By John Galt, with an original preface by Grant Thorburn.
 <br/>New York : Farmer &amp;c Daggers, 1845.</p>
             <p>We have here a new edition of this once popular work, with a pre-
 <br/>face from the Original who furnished the author with the hints for his
 <br/>volume. Mr. Thorburn informs us that Galt received three thousand
 <br/>pounds from the sale of this work alone. An incredible sum, consid-
-<br/>ering the character of the book. If the author had accomplished no <a href="#p78"/>
+<br/>ering the character of the book. If the author had accomplished no <br/>
+               <div class="pagebreak" id="#page78"/>
 
- other good by writing this book, it was enough to have made a simple-
+               <br/>
+               <div class="columnbreak"/> other good by writing this book, it was enough to have made a simple-
 <br/>hearted old man perfectly happy. Mr. Thorbumhas grown fat, figu-
 <br/>ratively, upon the reputation of Lawrie Todd; he looks as smiling as
 <br/>one of his own perennials whenever any one asks him if he was really
@@ -1915,7 +1982,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>hence, we hope, Lawrie Todd will preserve his memory to another
 <br/>generation.</p>
          </div>
-         <div id="#p27" class="piece">
+         <div class="piece" id="#p27">
             <p>The Book of British Ballads. New York: James W. Judd &amp; Co., New
 <br/>World Press.</p>
             <p>This is a reprint from Mr. Hall's illustrated edition, with a very sen-
@@ -1930,7 +1997,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>tried of publishing a fac simile. The book is a valuable one as it is,
 <br/>and we are glad to learn that the Editor has found it a profitable one.</p>
          </div>
-         <div id="#p28" class="piece">
+         <div class="piece" id="#p28">
             <p>Mike Martin, or the Last of the Highwaymen. By F. A. Durivage.
 <br/>Boston: Charles H. Brainard &amp; Co., 1845.</p>
             <p>This is the story of an Irish pick-pocket of the same name, who
@@ -1944,7 +2011,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>thief for their hero, should also take the History of Jonathan Wild for
 <br/>their model.</p>
          </div>
-         <div id="#p29" class="piece">
+         <div class="piece" id="#p29">
             <p>Punch’s Snapdragon. Farmer &amp; Daggers, 30 Ann Street.</p>
             <p>Some two or three hundred years hence, Punch will be looked upon
 <br/>as a veritable personage, and learned lecturers will read essays before
@@ -1954,7 +2021,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>and smart sayings. Punch’s Snap-Dragon, as republished, is a rich
 <br/>two shillings’ worth of fun and satire</p>
          </div>
-         <div id="#p30" class="piece">
+         <div class="piece" id="#p30">
             <p>Manners and Customs of Nations. Parley’s Cabinet Library, Part I. John
 <br/>Allen, 139 Nassau St. New-York.</p>
             <p>This well known series of children’s books has reached the seven-
@@ -1963,7 +2030,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>truthful representation of one of the picturesque views in the French
 <br/>Capital.</p>
          </div>
-         <div id="#p31" class="piece">
+         <div class="piece" id="#p31">
             <p>The Southern Quarterly Review for January, contains the following
 <br/>articles:</p>
             <p>Education in Europe by D. K. Whitaker, the Sieur de la Salle, by J.
@@ -1973,7 +2040,7 @@ American, it will seem full of grandeur and beauty. It is
 <br/>Lee, Miss Gray’s History of Etruria, and Memoirs of Aaron Burr, by
 <br/>F. B. Porter of Tuscaloosa.</p>
          </div>   
-         <div id="#p32" class="piece">
+         <div class="piece" id="#p32">
             <p>Chemistry, as exemplifing the Wisdom and Beneficence of God. By Geo.
 <br/>Fownes, Ph. D., F. R.S., etc. In 1 vol. small 8vo. Price 50 cents. Wiley
 <br/>and Putnam.</p>
@@ -1989,7 +2056,9 @@ American, it will seem full of grandeur and beauty. It is
          </div>
       </div>
     
-      <div id="#p33" class="piece">
+      <br/>
+      <div class="columnbreak"/>
+      <div class="piece" id="#p33">
          <div class="head">THE CONCERT ROOM.</div>
          <p>The New York Vocal Society.—After endeavoring to correct ex-
 <br/>isting abuses, the next duty of a journalist is to call the attention of
@@ -2065,9 +2134,11 @@ American, it will seem full of grandeur and beauty. It is
 <br/>Judgment, and smaller pieces by the same great composer; a wonder-
 <br/>ful composition called the Forty Second Psalm, and an exquisite Ave
 <br/>Maria, by Mendelssohn-Bartholdy, also pieces by Haydn, Hum-
-<br/>mel, Weber, and many other great names. The most important of <a href="#p79"/>
+<br/>mel, Weber, and many other great names. The most important of <br/>
+            <div class="pagebreak" id="#page79"/>
 
-these pieces were produced by the Vocal Society for the first time in
+            <br/>
+            <div class="columnbreak"/>these pieces were produced by the Vocal Society for the first time in
 <br/>this country, which would in any other land he more than sufficient to
 <br/>establish firmly its high character in the public estimation. The vocal
 <br/>performances, as may be imagined from the well-known abilities of its
@@ -2080,7 +2151,7 @@ these pieces were produced by the Vocal Society for the first time in
 <br/>classical music.</p>
       </div>
   
-      <div id="#p34" class="piece">
+      <div class="piece" id="#p34">
          <div class="head">CORRESPONDENCE.</div>
          <div class="ab">Dear Mr. Editor.</div>
          <p>My brother did not expect that you would print his letter about
@@ -2108,50 +2179,55 @@ these pieces were produced by the Vocal Society for the first time in
 <br/>send you, to satisfy you of the enormity of his offence. What makes
 <br/>it more singular, is the fact, that none of us ever laugh at his puns, al-
 <br/>though he always laughs himself. Your friend,</p>
-         <span class="person" id="">Mary Ann P.</span>
-P.S. We have lost three silver mugs lately; do you think that the
+         <span class="person">Mary Ann P.</span>
+         <span class="note" id="">
+            <a href=""/>
+         </span>P.S. We have lost three silver mugs lately; do you think that the
 <br/>punning visitor could have taken them?</div>
-      <div id="#p35" class="piece">
+      <div class="piece" id="#p35">
          <div class="head">A PAINTER’S SKETCH.</div>
-In search of brighter clime or sky
-Still let the restless wanderer roam,
-No fairer meets the painter’s eye
-Than mantles o’er our English home.
-Green are our woods, and sweeter stream!
-Ne’er onward rolled in brighter beams.
-More varied scenes what land can boast,
-From castled craig to mountain vale?
-Field, forest, sea-encircled coast,
-The pencil charm: the pictured tale
-Of sun and shade, of shifting skies,
-No fairer clime than ours supplies.
-Dear is the woodland cot, where trees,
-Low bending o’er the rushy brook,
-Fling their wild branches to the breeze,
-Around the hereditary nook;
-While chequered sunbeams trembling throw
-Above the thatch, a golden glow.
-If to thine eye be dearer still
-The riven craig or crumbling wall.
-The leaping foam from mountain rill,
-Or deepest glen or loftiest fall,
-Or hoary castle, dim and gray,
-That mournful mocks the eye of day;
-Turn to the wilds in northern land,
-Whose circling mountains shroud the sky—
-From snowy wreath and icy band,
-Mysterious grandeur frowns on high—
-Ben Nevis hoarsely shouts aloud,
-And Lomond answers from its cloud.
-Fill from the farthest spring of Thames,
-And pledge Old England’s wide domain;
-Fill to the high and honoured names
-Which Genius hallows—not in vain—
-Since bounding hearts in worship burn,
-Before each consecrated urn.
-<span class="person" id="">W. H. CROME.</span>
+         <div class="lg">
+            <br/>In search of brighter clime or sky
+<br/>Still let the restless wanderer roam,
+<br/>No fairer meets the painter’s eye
+<br/>Than mantles o’er our English home.
+<br/>Green are our woods, and sweeter stream!
+<br/>Ne’er onward rolled in brighter beams.
+<br/>More varied scenes what land can boast,
+<br/>From castled craig to mountain vale?
+<br/>Field, forest, sea-encircled coast,
+<br/>The pencil charm: the pictured tale
+<br/>Of sun and shade, of shifting skies,
+<br/>No fairer clime than ours supplies.
+<br/>Dear is the woodland cot, where trees,
+<br/>Low bending o’er the rushy brook,
+<br/>Fling their wild branches to the breeze,
+<br/>Around the hereditary nook;
+<br/>While chequered sunbeams trembling throw
+<br/>Above the thatch, a golden glow.
+<br/>If to thine eye be dearer still
+<br/>The riven craig or crumbling wall.
+<br/>The leaping foam from mountain rill,
+<br/>Or deepest glen or loftiest fall,
+<br/>Or hoary castle, dim and gray,
+<br/>That mournful mocks the eye of day;
+<br/>Turn to the wilds in northern land,
+<br/>Whose circling mountains shroud the sky—
+<br/>From snowy wreath and icy band,
+<br/>Mysterious grandeur frowns on high—
+<br/>Ben Nevis hoarsely shouts aloud,
+<br/>And Lomond answers from its cloud.
+<br/>Fill from the farthest spring of Thames,
+<br/>And pledge Old England’s wide domain;
+<br/>Fill to the high and honoured names
+<br/>Which Genius hallows—not in vain—
+<br/>Since bounding hearts in worship burn,
+<br/>Before each consecrated urn.</div>
+         <div class="byline">
+            <span class="person">W. H. CROME.</span>
+         </div>
       </div>
-      <div id="#p36" class="piece">
+      <div class="piece" id="#p36">
          <p>Notice to Readers and Correspondents.—Our promised Engra-
 <br/>ving of " a Suspended Bishop,” ice are compelled to omit this week
 <br/>in consequence of an accident to the artist who had it in hand. It will
@@ -2164,7 +2240,9 @@ Before each consecrated urn.
 <br/>arrived too late.</p>
       </div>
     
-      <div id="#s6" class="section">
+      <br/>
+      <div class="columnbreak"/>
+      <div class="section" id="#s6">
          <div>
             <div class="head">HUNT’S MERCHANTS’ MAGAZINE
   <br/>and commercial review.</div>
@@ -2254,8 +2332,11 @@ Before each consecrated urn.
 <br/>literature of a good history of France, has induced the publishers to
 <br/>introduce it to the American public at a price within the means of ail.</p>
          </div>
-         <a href="#p80"/>
+         <br/>
+         <div class="pagebreak" id="#page80"/>
   
+         <br/>
+         <div class="columnbreak"/>
          <div>
             <div class="head">DISEASES OF THE TEETH.</div>
             <div class="ab">Washington, D. C., May, 1844.</div>
@@ -2356,6 +2437,8 @@ Before each consecrated urn.
 and Importers, 7 Astor House, New-York.	J</p>
          </div>
 
+         <br/>
+         <div class="columnbreak"/>
          <div>
             <div class="head">PLUMBE DAGUERRIAN GALLERY</div>
             <p>AND PHOTOGRAPHIC DEPOT, 251 Broadway,
@@ -2382,7 +2465,10 @@ and Importers, 7 Astor House, New-York.	J</p>
 <br/>TURNER &amp; HAYDEN. No. 10 John Street,
 <br/>And for sale by all the Booksellers.</p>
          </div>
-         <div>The First Premium awarded five years by the American Institute for
+         <div>
+            <span class="note" id="">
+               <a href=""/>
+            </span>The First Premium awarded five years by the American Institute for
   <br/>the best Specimen of Off-hand Penmanship.
   <div class="head">GOLDSMITH’S WRITING AND BOOK-KEEPING ACADEMY,</div>
             <div class="ab">NO. 189 BROADWAY, NEW YORK.</div>
@@ -2413,7 +2499,7 @@ and Importers, 7 Astor House, New-York.	J</p>
    <br/>No. 9 Whitehall Street, Nac York.</div>
          </div>
       </div>
-      <div id="#p37" class="piece">
+      <div class="piece" id="#p37">
          <div class="head">Prospectus of the Broadway Journal.</div>
          <div class="ab">To be Published every Saturday.</div>
          <p>The Broadway Journal will differ from any of the weekly Peri-
@@ -2448,12 +2534,17 @@ and Importers, 7 Astor House, New-York.	J</p>
       </div>
    </div>
    <div class="back">
-          <p>The narrative is a very curious one, and brings before us “the form and
+          <span class="note" id="n001">
+         <a href="#a001"/>
+      </span>
+      <p>The narrative is a very curious one, and brings before us “the form and
             <br/>pressure” of the period, with all the natural incidents of such an event. It
             <br/>may serve, while it fixes the reader’s attention profitably upon this class of
             <br/>occurrences, to relieve by its historic distance, the painfulness of the more
             <br/>recent misfortune. We follow the old English of Lord Berner’s translation,
-            <br/>modernizing the spelling.</p>   
+            <br/>modernizing the spelling.</p> 
+      <br/>
+      <div class="columnbreak"/>  
       <p>"It fortuned that a marriage was made in the king’s house between a
             <br/>young knight of Vermandois and one of the Queen’s gentlewomen; and be-
             <br/>cause they were both of the king’s house, the king’s uncles, and other lords,

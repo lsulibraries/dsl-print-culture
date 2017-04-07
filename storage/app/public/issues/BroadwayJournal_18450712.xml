@@ -11,7 +11,8 @@
       </div>
         </div>
    <div class="body">
-          
+          <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="head">OUR NEW VOLUME.</div>
          <p>To the Public.—The suspension of “ The Broadway
@@ -29,8 +30,10 @@
           <p>The editorial conduct of “ The Broadway Journal” is un-
 <br/>der the sole charge of Edgar A. Poe—Mr. H. C. Watson,
 <br/>as heretofore, controlling the Musical Department.</p>
-         <span class="person" id="">John Bisco</span>,
+         <div class="byline">
+            <span class="person">John Bisco</span>,
 Publisher.</div>
+      </div>
           <div>
          <div class="head">HOW TO WRITE A BLACKWOOD
   <br/>ARTICLE.</div>
@@ -68,7 +71,8 @@ Publisher.</div>
 <br/>ponding secretary to the “ Philadelphia. Regular, Exchange,
 <br/>Tea, Total, Young, Belles, Lettns. Universal, Experimen-
 <br/>tal, Bibliographical, Association, To, Civilize, Humanity.”
-    Dr. Moneypenny made the title for us, and says he chose it
+    <br/>
+            <div class="columnbreak"/>Dr. Moneypenny made the title for us, and says he chose it
 <br/>because it sounded big like an empty rum-puncheon. (A
 <br/>vulgar man that sometimes—but he’s deep.) We all sign
 <br/>the initials of the society after our names, in the fashion of
@@ -123,7 +127,10 @@ Publisher.</div>
 <br/>Times, Slang-Whang, and Examiner—and then Times, Ex-
 <br/>aminer, and Slang-Whang.</p>
             <p>But the chief merit of the Magazine lies in its miscella-
-<a href="#p2"/> 
+<br/>
+            <div class="pagebreak" id="#page2"/> 
+            <br/>
+            <div class="columnbreak"/>
 neous articles ; and the best of these come under the head of
 <br/>what Dr. Moneypenny calls the bizarreries (whatever that
 <br/>may mean) and what every body else calls the intensities.
@@ -189,7 +196,8 @@ neous articles ; and the best of these come under the head of
 <br/>sations are the great things after all. Should you ever be
 <br/>drowned or hung, be sure and make a note of your sensa-
 <br/>tions—they will be worth to you ten guineas a sheet. If you
-<br/>wish to write forcibly, Miss Zenobia, pay minute attention to 
+<br/>wish to write forcibly, Miss Zenobia, pay minute attention to <br/>
+            <div class="columnbreak"/>
               the sensations.”</p>
          <p>“ That I certainly will, Mr. Blackwood,” said I.
 </p>
@@ -256,7 +264,10 @@ neous articles ; and the best of these come under the head of
 <br/>man with a delusive show of Can.’ Put in something about
 <br/>the Supernal Oneness. Don’t say a syllable about the In-
 <br/>fernal Twoness. Above all, study inuendo. Hint every
-<br/>thing—assert nothing. If you feel inclined to say ‘ bread <a href="#p3"/>
+<br/>thing—assert nothing. If you feel inclined to say ‘ bread <br/>
+            <div class="pagebreak" id="#page3"/>
+            <br/>
+            <div class="columnbreak"/>
 and butter’ do not by any means say it outright. You may
 <br/>say anything and every thing approaching to ‘bread and
 <br/>butter.' You may hint at buck-wheat cake, or you may
@@ -322,34 +333,39 @@ lived. He kissed me and continued:</p>
 <br/>nuity to make it fit into your article. Now write!</p>
             <p>“ ' Aussi tendre que Zaire'—as tender as Zaire—French.
 Alludes to the frequent repetition of the phrase, la tendre
-Zaire, in the French tragedy of that name. Properly intro-
+<br/>
+            <div class="columnbreak"/>Zaire, in the French tragedy of that name. Properly intro-
 <br/>duced, will show not only your knowledge of the language,
 <br/>but your general reading and wit. You can say, for instance,
 <br/>that the chicken you were eating (write an article about be-
 <br/>ing choked to death by a chicken-bone) was not altogether
 <br/>aussi tendre que Zaire. Write!</p>
-‘ Van muerle tan escondida,
-Que no te sienta renir,
-Porque el plazer del morir
-No me torne a dar la vida.'
-<p>That’s Spanish—from Miguel de Cervantes. ‘ Come quickly
+         <div class="lg">
+            <br/>‘ Van muerle tan escondida,
+<br/>Que no te sienta renir,
+<br/>Porque el plazer del morir
+<br/>No me torne a dar la vida.'
+</div>
+         <p>That’s Spanish—from Miguel de Cervantes. ‘ Come quickly
 <br/>O death! but be sure and don’t let me see you coming, lest
 <br/>the pleasure I shall feel at your appearance should unfor-
 <br/>tunately bring me back again to life.’ This you may slip in
 <br/>quite a propos when you are struggling in the last agonies
 <br/>with the chicken-bone. Write!</p>
-            ‘ Il pover ’huomo che non se’n era accorto,
-Andava combattendo, e era morto.’
-<p>That’s Italian, you perceive,—from Ariosto. It means that
+            <div class="lg">
+            <br/>‘ Il pover ’huomo che non se’n era accorto,
+<br/>Andava combattendo, e era morto.’</div>
+         <p>That’s Italian, you perceive,—from Ariosto. It means that
 <br/>a great hero, in the heat of combat, not perceivin that he
 <br/>had been fairly killed, continued to fight valiantly, dead as
 <br/>he was. The application of this to your own case is obvious
 <br/>—for I trust, Miss Psyche, that you will not neglect to kick
 <br/>for at least an hour and a half after you have been choked to
 <br/>death by that chicken-bone. Please to write!</p>
-            ‘ Und sterb’ich doch, no sterb’ich denn
-Durch sie—durch sie."
-<p>That’s German—from Schiller. ‘And if I die, at least I die
+            <div class="lg">
+            <br/>‘ Und sterb’ich doch, no sterb’ich denn
+<br/>Durch sie—durch sie."</div>
+         <p>That’s German—from Schiller. ‘And if I die, at least I die
 <br/>—for thee—for thee!’ Here it is clear that you are apostro-
 <br/>phising the cause of your disaster, the chicken. Indeed what
 <br/>gentleman (or lady either) of sense, would'nt die, I should
@@ -379,15 +395,20 @@ Durch sie—durch sie."
             <p>“In Greek we must have something pretty—from Demos-
 <br/>thenes, for example. Ανερ ο φεογων χαι παλιν μαχεσεται.
 <br/>[Aner o pheogon kai palin makesetai.] There is a tolerably
-<br/>good translation of it in Hudibras—</p>For he that flies may fight again,
-Which he can never do that’s slain.
-<p>In a Blackwood article nothing makes so fine a show as your
+<br/>good translation of it in Hudibras—</p>
+         <div class="lg">
+            <br/>For he that flies may fight again,
+<br/>Which he can never do that’s slain.</div>
+         <p>In a Blackwood article nothing makes so fine a show as your
 <br/>Greek. The very letters have an air of profundity about
 <br/>them. Only observe, madam, the astute look of that Epsi-
 <br/>ion! That Phi ought certainly to be a bishop! Was ever
 <br/>there a smarter fellow than that Omicron ? Just twig that
 <br/>Tau! In short, there is nothing like Greek for a genuine
-<a href="#p4"/>
+<br/>
+            <div class="pagebreak" id="#page4"/>
+            <br/>
+            <div class="columnbreak"/>
 sensation-paper. In the present case your application is the
 <br/>most obvious thing in the world. Rap out the sentence,
 <br/>with a huge oath, and by way of ultimatum, at the good-for-
@@ -451,7 +472,8 @@ sensation-paper. In the present case your application is the
 <br/>anon be awakened in the mind of genius and imaginative
 <br/>contemplation, especially of a genius doomed to the everlast-
 <br/>ing, and eternal, and continual, and, as one might say, the—
-<br/>continued—yes, the continued and continuous, bitter, har-
+<br/>continued—yes, the continued and continuous, bitter, har-<br/>
+            <div class="columnbreak"/>
   assing, disturbing, and, if I may be allowed the expression,
 <br/>the very disturbing influence of the serene, and godlike, and
 <br/>heavenly, and exalting, and ele ated, and purifying effect of
@@ -518,7 +540,10 @@ sensation-paper. In the present case your application is the
 <br/>vailed. I entered the ominous archway. Where then was
 <br/>my guardian angel ?— if indeed such angels there be. If!
 <br/>Distressing monosyllable! what a world of mystery, and
-              <a href="#p5"/> 
+              <br/>
+            <div class="pagebreak" id="#page5"/> 
+            <br/>
+            <div class="columnbreak"/>
 meaning, and doubt, and uncertainty is there involved in thy
 <br/>two letters! I entered the ominous archway! I entered;
 <br/>and, without injury to my orange-colored auriculas, I passed
@@ -585,7 +610,8 @@ meaning, and doubt, and uncertainty is there involved in thy
 <br/>But alas! it was now far beyond my grasp. As it dangled
 <br/>among the cordage of the bell, I fancied it still alive. I fan-
 <br/>cied that it stood on end with indignation._Thus the happ
-              dandy Flos Aeris of Java, bears, it is said, a beautiful flow-
+              <br/>
+            <div class="columnbreak"/>dandy Flos Aeris of Java, bears, it is said, a beautiful flow-
 <br/>er, which will live when pulled up by the roots. The na-
 <br/>tives suspend it by a cord from the ceiling and enjoy its fra-
 <br/>grance for years.</p>
@@ -651,7 +677,10 @@ meaning, and doubt, and uncertainty is there involved in thy
 <br/>werrybor'em. With this he appeared satisfied, and I resum-
 <br/>ed my contemplations.</p>
          <p>It might have been half an hour after this altercation
-<a href="#p6"/>
+<br/>
+            <div class="pagebreak" id="#page6"/>
+            <br/>
+            <div class="columnbreak"/>
 when, as I was deeply absorbed in the heavenly scenery be-
 <br/>neath me, I was startled by something very cold which
 <br/>pressed with a gentle pressure upon the back of my neck.
@@ -711,13 +740,15 @@ when, as I was deeply absorbed in the heavenly scenery be-
 <br/>sense of exquisite pain. I prayed for death, and, in the agony
 <br/>of the moment, could not help repeating those exquisite vers-
 <br/>es of the poet Miguel De Cervantes:	</p>
-Vanny Buren, tan escondida
-Query no te senty venny	
-Pork and pleasure, delly morry	
-Nommy, torny, darry, widdy !
+         <div class="lg">
+            <br/>Vanny Buren, tan escondida
+<br/>Query no te senty venny	
+<br/>Pork and pleasure, delly morry	
+<br/>Nommy, torny, darry, widdy !</div>
             <p>But now a new horror presented itself, and one indeed suf- 
 <br/>ficient to startle the strongest nerves. My eyes, from the 
-<br/>cruel pressure of the machine, were absolutely starting from 
+<br/>cruel pressure of the machine, were absolutely starting from <br/>
+            <div class="columnbreak"/>
 their sockets. While I was thinking how I should possibly
 <br/> manage without them, one actually tumbled out of my head,
 <br/> and, rolling down the steep side of the steeple, lodged in the
@@ -771,9 +802,10 @@ their sockets. While I was thinking how I should possibly
 <br/>astonished at my wishing to remain alive under such circum-
 <br/>stances. In the concluding sentences it quoted the noble
 <br/>words of Ariosto—</p>
-            Il pover hommy che non sera corty
-And have a combat tenty erry morty.
-<p>thus comparing me to the hero who, in the heat of the com-
+            <div class="lg">
+            <br/>Il pover hommy che non sera corty
+<br/>And have a combat tenty erry morty.</div>
+         <p>thus comparing me to the hero who, in the heat of the com-
 <br/>bat, not perceiving that he was dead, continued to contest
 <br/>the battle with inextinguishable valor. There was nothing
 <br/>now to prevent my getting down from my elevation, and I
@@ -784,7 +816,10 @@ And have a combat tenty erry morty.
 <br/>Finally, throwing off his overcoat, he made one spring for
 <br/>the staircase and disappeared. I hurled after the scoun-
 <br/>drel those vehement words of Demosthenes—</p>
-         <a href="#p7"/>
+         <br/>
+         <div class="pagebreak" id="#page7"/>
+         <br/>
+         <div class="columnbreak"/>
          <div class="ab">Andrew O' Phlegethon, you really make haste to fly,</div>
          <p>and then turned to the darling of my heart, to the one-eyed!
 <br/>the shaggy-haired Diana. Alas ! what horrible vision af-
@@ -795,59 +830,67 @@ And have a combat tenty erry morty.
 <br/>ghost of my beloved puppy, which I perceive sitting with
 <br/>a grace so melancholy, in the corner ? Harken ! for she
 <br/>speaks, and, heavens! it is in the German of Schiller—</p>
-            "Unt stubby duk, so stubby dun
-            Duk she ! duk she !”
-<div class="ab">Alas !—and are not her words too true ?</div>
-And if I died at least I died
-For thee—for thee.
-<p>Sweet creature ! she too has sacrificed herself in my behalf
+            <div class="lg">
+            <br/>"Unt stubby duk, so stubby dun
+            <br/>Duk she ! duk she !”</div>
+         <div class="ab">Alas !—and are not her words too true ?</div>
+         <div class="lg">
+            <br/>And if I died at least I died
+<br/>For thee—for thee.</div>
+         <p>Sweet creature ! she too has sacrificed herself in my behalf
 <br/>Dogless, niggerless, headless, what now remains for the un-
 <br/>happy Signora Psyche Zenobia ?	Alas—nothing!	I have
   <br/>done.</p>
-         <span class="person" id="">EDGAR A. POE</span>.</div>
+         <div class="byline">
+            <span class="person">EDGAR A. POE</span>.</div>
+      </div>
       <div>
          <div class="head">THE DEPARTED.</div>
-Where the river ever floweth,
-Where the green grass ever groweth.
-Where each star most faintly gloweth,
-Do I wander on;
-My thick pulses hastily beating.
-My quick glances now retreating,
-And, with bold advance, now meeting.
-Shadows of the gone !
-Lonely, by that lovely river,
-Where the moon-lit blossoms quiver,
-Do I wander on forever,
-Musing on the past;
-When the weary moon descendeth.
-When each pals star earthward bendeth.
-Then my soul strong memories sendeth,—
+         <div class="lg">
+            <br/>Where the river ever floweth,
+<br/>Where the green grass ever groweth.
+<br/>Where each star most faintly gloweth,
+<br/>Do I wander on;
+<br/>My thick pulses hastily beating.
+<br/>My quick glances now retreating,
+<br/>And, with bold advance, now meeting.
+<br/>Shadows of the gone !
+<br/>Lonely, by that lovely river,
+<br/>Where the moon-lit blossoms quiver,
+<br/>Do I wander on forever,
+<br/>Musing on the past;
+<br/>When the weary moon descendeth.
+<br/>When each pals star earthward bendeth.
+<br/>Then my soul strong memories sendeth,—
 
-  Joys too bright to last!
-  She, earth’s bright and loveliest flower,
-Spirit, cooped in mortal bower,
-She, whose voice alone bad power
-O’er my soul, is gone!
-Vain, oh! vain, are tears and wailing.
-Fierce deep grief is unavailing,
-Yet are they my heart assailing,—
-Proud heart, never won !
-By that river, ever flowing.
-With heaven’s light upon her glowing.
-Sometimes comes she to me, showing
-Things past and to come.
-  And we wander on. caressing,
-While the mute earth sheds her blessing
-Happy in that dim possessing,
-Spirits in the gloom !
-Were it not for that dim meeting.
-Were it not for that dark greeting.
-Its own core my wild heart eating,
-Soon would turn to clay.
-Now along that lonely river.
-Lonely do I wander ever,
-Where the nightly blossoms shiver,—
-Dark and sad as they !</div>
+  <br/>Joys too bright to last!
+  <br/>She, earth’s bright and loveliest flower,
+<br/>Spirit, cooped in mortal bower,
+<br/>She, whose voice alone bad power
+<br/>O’er my soul, is gone!
+<br/>Vain, oh! vain, are tears and wailing.
+<br/>Fierce deep grief is unavailing,
+<br/>Yet are they my heart assailing,—
+<br/>Proud heart, never won !
+<br/>By that river, ever flowing.
+<br/>With heaven’s light upon her glowing.
+<br/>Sometimes comes she to me, showing
+<br/>Things past and to come.
+  <br/>And we wander on. caressing,
+<br/>While the mute earth sheds her blessing
+<br/>Happy in that dim possessing,
+<br/>Spirits in the gloom !
+<br/>Were it not for that dim meeting.
+<br/>Were it not for that dark greeting.
+<br/>Its own core my wild heart eating,
+<br/>Soon would turn to clay.
+<br/>Now along that lonely river.
+<br/>Lonely do I wander ever,
+<br/>Where the nightly blossoms shiver,—
+<br/>Dark and sad as they !</div>
+      </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="head">CRITICAL NOTICES.</div>
          <div>
@@ -907,23 +950,28 @@ Dark and sad as they !</div>
 <br/>and desolation every where—destroying vegetation, and ani-
 <br/>mal life wherever they pass. The extravagance with which
 <br/>their nature is delineated, may be instanced by one stanza:</p>
-  We saw them hunt the buffalo,
-And crush them with their tusks of steel;
-The mountains rocking to and fro
-Like trees that in the tempest reel,
-When passed their herds; and lake and river
-A draught of theirs made dry forever.
-<p>The aborigines themselves fall a prey and are reduced to
+            <div class="lg"> 
+               <br/> We saw them hunt the buffalo,
+<br/>And crush them with their tusks of steel;
+<br/>The mountains rocking to and fro
+<br/>Like trees that in the tempest reel,
+<br/>When passed their herds; and lake and river
+<br/>A draught of theirs made dry forever.</div>
+            <p>The aborigines themselves fall a prey and are reduced to
 <br/>a small band, when they bethink them of supplicating the
-<br/>aid of Moneddo (Manitou) who forthwith attacks the rava-<a href="#p8"/>
+<br/>aid of Moneddo (Manitou) who forthwith attacks the rava-<br/>
+               <div class="columnbreak"/>
+               <br/>
+               <div class="pagebreak" id="#page8"/>
   gers with lightning, and destroys them all but one.</p>
-Bolt rushed on bolt till, one by one,
-Howling in agony, they died,
-Save him, the fiercest! And alone
-He stood—almost a God in pride—
-Then with a loud defying yell
-Leapt, like a shaft, o’er hill and dell.
-<p>He flies at great speed ; the lightnings and the Indians
+            <div class="lg">
+               <br/>Bolt rushed on bolt till, one by one,
+<br/>Howling in agony, they died,
+<br/>Save him, the fiercest! And alone
+<br/>He stood—almost a God in pride—
+<br/>Then with a loud defying yell
+<br/>Leapt, like a shaft, o’er hill and dell.</div>
+            <p>He flies at great speed ; the lightnings and the Indians
 <br/>still pursuing. He reaches the Mississippi—leaps it at one
 <br/>bound (possibly at a point not very far from the source)
 <br/>and is at last brought up by the Rocky Mountains—but only
@@ -931,16 +979,17 @@ Leapt, like a shaft, o’er hill and dell.
 <br/>rocks and trees “ in the face of God ” and fairly defies him,
 <br/>until at length the “ mightiest spirits ” are summoned to
 <br/>put an end to the contest:</p>
-  They heard : with one tremendous crash
-Down on the Mammoth’s forehead came
-A surging sea of withering flame.
-  Earth trembled to its core ; and weak
-But unsubdued the Mammoth leapt
-Furiously from that lofty peak
-  To where the dark blue ocean swept.
-Down ! down ! The startled waters sever ;
-Then roll above him—and forever!
-<p>Our readers will agree with us that from the summit of
+            <div class="lg">  
+               <br/>They heard : with one tremendous crash
+<br/>Down on the Mammoth’s forehead came
+<br/>A surging sea of withering flame.
+  <br/>Earth trembled to its core ; and weak
+<br/>But unsubdued the Mammoth leapt
+<br/>Furiously from that lofty peak
+  <br/>To where the dark blue ocean swept.
+<br/>Down ! down ! The startled waters sever ;
+<br/>Then roll above him—and forever!</div>
+            <p>Our readers will agree with us that from the summit of
 <br/>the Rocky Mountains to the Pacific, is a tolerably long leap 
 <br/>even for a Mammoth—although he had had some previous 
 <br/>practice in jumping the Mississippi.</p>
@@ -966,136 +1015,143 @@ Then roll above him—and forever!
       <br/>improved—and its versification (within the narrow limits
     <br/>designed) is full of original force. We quote (unconnected-
 ly) a few of the best quatrains:</p>
-A lustrous maid was Isabelle,
-And quiet as a brooding bird ;
-She never thought of passion’s spell—
-Of love she never heard ;
-But in her lonely chamber sat,
-Sighing the weary hours away
-From morn till flitting of the bat
-Around the turrets gray.
-And trembling with a strange unrest—
-A yearning for—she knew not what ;
-She only knew her heaving breast
-Was heavy with its lot.
-At last she passed to womanhood,
-And sat her down on Beauty’s throne,
-A statue with a beating heart
-Beneath a breast of stone.
-Her lustrous eyes grew large with love ;
-Her cheeks with passion flushed and bright;
-Her lips, whereon no bee might rove
-Undrunken with delight,
-Were, &amp;c.
-She felt she bad not lived in vain ;
-She saw the Eden of her dreams
-Close round her, and she stood again
-Beside its silver streams.
-The servants followed her with their eyes,
-And prayed the virgin that her hours
-Might ever pass under azure skies
-And over parterres of flowers.
-  <p>“ Geraldine ” is a far better poem than “ Isabelle ” and is
+            <div class="lg">
+               <br/>A lustrous maid was Isabelle,
+<br/>And quiet as a brooding bird ;
+<br/>She never thought of passion’s spell—
+<br/>Of love she never heard ;
+<br/>But in her lonely chamber sat,
+<br/>Sighing the weary hours away
+<br/>From morn till flitting of the bat
+<br/>Around the turrets gray.
+<br/>And trembling with a strange unrest—
+<br/>A yearning for—she knew not what ;
+<br/>She only knew her heaving breast
+<br/>Was heavy with its lot.
+<br/>At last she passed to womanhood,
+<br/>And sat her down on Beauty’s throne,
+<br/>A statue with a beating heart
+<br/>Beneath a breast of stone.
+<br/>Her lustrous eyes grew large with love ;
+<br/>Her cheeks with passion flushed and bright;
+<br/>Her lips, whereon no bee might rove
+<br/>Undrunken with delight,
+<br/>Were, &amp;c.
+<br/>She felt she bad not lived in vain ;
+<br/>She saw the Eden of her dreams
+<br/>Close round her, and she stood again
+<br/>Beside its silver streams.<br/>
+               <div class="columnbreak"/>
+               <br/>The servants followed her with their eyes,
+<br/>And prayed the virgin that her hours
+<br/>Might ever pass under azure skies
+<br/>And over parterres of flowers.</div>
+            <p>“ Geraldine ” is a far better poem than “ Isabelle ” and is
 <br/>unquestionably the best in the volume. It is, however, in
 <br/>manner a palpable imitation of Tennyson. In justice to Mr.
 <br/>Hirst we quote it in full:</p>
-The martins twitter round the eaves,
-The swift adown the chimney glides,
-The bees are humming ’mid the leaves
-Along the garden side ;
-The robin whistles in the wood,
-The linnet on the vane,
-And down the alder-margined lane
-The throstle sings, and by the flood
-The plover pipes again.
-  But ah—alas alas ! no more
-Their merry melodies delight ;
-No more along the river’s shore
-I watch the swallow’s flight:
-And bees may hum and birds may sing,
-And silver streamlets shine,
-But on the rocks I sit and pine
-Unheeding all; for thought will cling
-To naught but Geraldine.
-  Oh, Geraldine ! my life, my love !
+            <div class="lg">
+               <br/>The martins twitter round the eaves,
+<br/>The swift adown the chimney glides,
+<br/>The bees are humming ’mid the leaves
+<br/>Along the garden side ;
+<br/>The robin whistles in the wood,
+<br/>The linnet on the vane,
+<br/>And down the alder-margined lane
+<br/>The throstle sings, and by the flood
+<br/>The plover pipes again.
+  <br/>But ah—alas alas ! no more
+<br/>Their merry melodies delight ;
+<br/>No more along the river’s shore
+<br/>I watch the swallow’s flight:
+<br/>And bees may hum and birds may sing,
+<br/>And silver streamlets shine,
+<br/>But on the rocks I sit and pine
+<br/>Unheeding all; for thought will cling
+<br/>To naught but Geraldine.
+  <br/>Oh, Geraldine ! my life, my love !
 
-  I only wander where we met
-In emerald days, when blue above
-The skies were o’er us set—
-  Along the glen and o’er the vale
-And by the willow tree
-I wander where at even with thee
-I sang the song and told the tale
-Of olden chivalry.
-  I stand beneath the sombre pines
-That darken all thy father’s hall,
-Begirt with noisome ivy vines
-That shroud me like a pall.
-  Aye there !—where ruin frowns around !
-Until the cock doth crow
-I watch thy window-panes below,
-Upon the sodden blackened ground
-  Where nothing good will grow.
-I’ve watched thy lattice as before
-To see the glimmer dimly pass,
-(When thou wouldst open thy chamber door)
-Of lamp-light on the glass ;
-But none from out thy lattice peeps,
-And all within is gloom,
-And silent as a vacant tomb,
-Save when a bat affrighted cheeps
-In some deserted room.
-Why comest thou not? Night after night,
-For many a long and weary year,
-’Neath many and many a May-moon’s light,
-I’ve waited for thee here.
-Aye blackest night and wildest storm
-When frowning in the sky
-Have looked on me with lightning eye,
-And charnel figures round my form
-Have gleamed and hurried by.
-  Why comest thou not ? or wilt thou soon ?
-The crimson sun doth wax and wane
-Day after day; the yellow moon
-Gildeth thy casement pane
-Night after night; the stars are pale
-Expecting thee ; the breeze
-Rustling among the dreary trees
-Sighs for thee with a woful wail
-Who art beyond the seas.
-  They tell me thou wilt never come—
-Alas ! that thou art cold and dead,
-And slumbering in the green sea-foam
-Upon some coral bed :—
-That shriekingly thy ship went down
-Beneath the wailing wave,
-And none were near to hear or save—
-And then they weep to see me frown—
-To hear me groan and rave.
-Thou dead ?—no, no !—it cannot be !
-For if thou wast, thy ghost had kept
-The solemn trist thou madest with me
-When all save passion slept—
-  Thy ghost had come and greeted me
-And bade me be at rest;
-And long ere this upon my breast
-The clod had fain : and I with thee
-W'ere roaming ’mid the blest.
-<p>  “ The Unseen River" is musical, but has the defect of
-  <br/>being imperfectly made out. Few persons will understand <a href="#p7"/>
+<br/>  I only wander where we met
+<br/>In emerald days, when blue above
+<br/>The skies were o’er us set—
+<br/>  Along the glen and o’er the vale
+<br/>And by the willow tree
+<br/>I wander where at even with thee
+<br/>I sang the song and told the tale
+<br/>Of olden chivalry.
+<br/>  I stand beneath the sombre pines
+<br/>That darken all thy father’s hall,
+<br/>Begirt with noisome ivy vines
+<br/>That shroud me like a pall.
+  <br/>Aye there !—where ruin frowns around !
+<br/>Until the cock doth crow
+<br/>I watch thy window-panes below,
+<br/>Upon the sodden blackened ground
+  <br/>Where nothing good will grow.
+<br/>I’ve watched thy lattice as before
+<br/>To see the glimmer dimly pass,
+<br/>(When thou wouldst open thy chamber door)
+<br/>Of lamp-light on the glass ;
+<br/>But none from out thy lattice peeps,
+<br/>And all within is gloom,
+<br/>And silent as a vacant tomb,
+<br/>Save when a bat affrighted cheeps
+<br/>In some deserted room.
+<br/>Why comest thou not? Night after night,
+<br/>For many a long and weary year,
+<br/>’Neath many and many a May-moon’s light,
+<br/>I’ve waited for thee here.
+<br/>Aye blackest night and wildest storm
+<br/>When frowning in the sky
+<br/>Have looked on me with lightning eye,
+<br/>And charnel figures round my form
+<br/>Have gleamed and hurried by.
+  <br/>Why comest thou not ? or wilt thou soon ?
+<br/>The crimson sun doth wax and wane
+<br/>Day after day; the yellow moon
+<br/>Gildeth thy casement pane
+<br/>Night after night; the stars are pale
+<br/>Expecting thee ; the breeze
+<br/>Rustling among the dreary trees
+<br/>Sighs for thee with a woful wail
+<br/>Who art beyond the seas.
+  <br/>They tell me thou wilt never come—
+<br/>Alas ! that thou art cold and dead,
+<br/>And slumbering in the green sea-foam
+<br/>Upon some coral bed :—
+<br/>That shriekingly thy ship went down
+<br/>Beneath the wailing wave,
+<br/>And none were near to hear or save—
+<br/>And then they weep to see me frown—
+<br/>To hear me groan and rave.
+<br/>Thou dead ?—no, no !—it cannot be !
+<br/>For if thou wast, thy ghost had kept
+<br/>The solemn trist thou madest with me
+<br/>When all save passion slept—
+<br/>  Thy ghost had come and greeted me
+<br/>And bade me be at rest;
+<br/>And long ere this upon my breast
+<br/>The clod had fain : and I with thee
+<br/>W'ere roaming ’mid the blest.</div>
+            <p>  “ The Unseen River" is musical, but has the defect of
+  <br/>being imperfectly made out. Few persons will understand <br/>
+               <div class="pagebreak" id="#page7"/>
+               <br/>
+               <div class="columnbreak"/>
 that by the river always heard but never seen, until the tra-
 <br/>veller is overtaken by death, it is the poet’s intention to
 <br/>typify Happiness. We quote a fine stanza of which the
 <br/>whole is very poetic (in the best sense) and of which the
 <br/>concluding line is a specimen of exquisite versification.</p>
-From the valley—from a river
-Which, like many a silver quiver.
-Through the landscape stole in light:—
-From the bushes, shrubs and blossoms—
-Flowers unfolding fragrant bosoms—
-Curled the shadows out of sight,
-Fading like a ghost in air; and ever the river rippled bright.
-  <p>“ The Burial of Eros" is a very effective allegorical poem
+            <div class="lg">
+               <br/>From the valley—from a river
+<br/>Which, like many a silver quiver.
+<br/>Through the landscape stole in light:—
+<br/>From the bushes, shrubs and blossoms—
+<br/>Flowers unfolding fragrant bosoms—
+<br/>Curled the shadows out of sight,
+<br/>Fading like a ghost in air; and ever the river rippled bright.</div>
+            <p>“ The Burial of Eros" is a very effective allegorical poem
 <br/>—but all allegories are contemptible:—at least the only two
 <br/>which are not contemptible (The Pilgrim’s Progress and
 <br/>The Fairy Queen) are admired in despite of themselves (as
@@ -1112,167 +1168,190 @@ Fading like a ghost in air; and ever the river rippled bright.
 <br/>sounds abound; and all the effects of alliteration, with other
 <br/>rhythmical effects less common, are skilfully introduced.—
 <br/>For example;</p>
-Silvery the ocean singeth over sands of pearly glow ;
-Under its surface shapes are gliding—gliding last or sailing slow—
-Shapes of strange supernal beauty, floating through a fairy wave—
-Fairer, purer, lovelier, brighter than the streams that Iram lave.
-  <p>“The Birth of a Poet” is somewhat like an imitation
+            <div class="lg">
+               <br/>Silvery the ocean singeth over sands of pearly glow ;
+<br/>Under its surface shapes are gliding—gliding last or sailing slow—
+<br/>Shapes of strange supernal beauty, floating through a fairy wave—
+<br/>Fairer, purer, lovelier, brighter than the streams that Iram lave.</div>
+            <p>“The Birth of a Poet” is somewhat like an imitation
 <br/>from John Neal's poem of the same title; the commence-
 <br/>ment, especially, is stolen.</p>
             <p>Mr. Hirst’s conception throughout is fantastical—not to
 <br/>say absurd. The poem, however, is redeemed by one re-
 <br/>markably well-managed quatrain:</p>
-Music like what the poet hears
-When, wrapt in harmony, he wings
-His soul away through argent spheres,
-And back their melody brings.
-<p>The concluding anapoest here beautifully and most appro-
+            <div class="lg">
+               <br/>Music like what the poet hears
+<br/>When, wrapt in harmony, he wings
+<br/>His soul away through argent spheres,
+<br/>And back their melody brings.</div>
+            <p>The concluding anapoest here beautifully and most appro-
 <br/>priately varies the iambic rhythm—making the sound “echo
 <br/>the sense.”</p>
             <p>“ Everard Grey ” is a superb specimen of dactylic trime-
 <br/>ter, catalectic on one syllable—three dactyls and one equiva-
 <br/>lent coesura. E. g.—</p>
-Time it has passed; and the lady is pale—
-Pale as the lily that lolls on the gale:
-Weary and worn she hath waited for years
-Keeping her grief evergreen with her tears :—
-Years will she tarry—for cold is the clay
-Fettering the form of her Everard Grey.
-
-  <p>“ The Fringilla Melodia ” is truly beautiful throughout,
+            <div class="lg">
+               <br/>Time it has passed; and the lady is pale—
+<br/>Pale as the lily that lolls on the gale:
+<br/>Weary and worn she hath waited for years
+<br/>Keeping her grief evergreen with her tears :—
+<br/>Years will she tarry—for cold is the clay
+<br/>Fettering the form of her Everard Grey.
+</div>
+            <p>“ The Fringilla Melodia ” is truly beautiful throughout,
 <br/>possessing a natural force and grace (without effort) which
 <br/>would do honor to the most noted poet in the land. We
 <br/>quote the first quatrain :</p>
-Happy song-sparrow that on woodland side
-Or by the meadow sits, and ceaseless sings
-His mellow roundelay in russet pride,
-Owning no care between his wings.
-<p>The “sits” here is not ungrammatical; the sparrow is
+            <div class="lg">
+               <br/>Happy song-sparrow that on woodland side
+<br/>Or by the meadow sits, and ceaseless sings
+<br/>His mellow roundelay in russet pride,
+<br/>Owning no care between his wings.</div>
+            <p>The “sits” here is not ungrammatical; the sparrow is
 <br/>not invoked, The construction is nevertheless a little equi-
 <br/>vocal.</p>
             <p>“The Coming of Autumn" is spirited—but is a little too
   <br/> much in the Old King Cole way.</p>
             <p>“ The Autumn Wind ” has a noble beginning, and as no-
   <br/>ble an end—but as a whole is unimpressive.</p>
+            <br/>
+            <div class="columnbreak"/>
             <p>“Eleanore” has no merit at all except the effect of the
 <br/>constantly recurring refrain, “ Eleanore !” and this is taken
 <br/>'from Tennyson’s “ Oriana.”</p>
             <p>“ Mary ” has some fine passages—e. g.</p>
-He watched each motion of her rustling dress,
-Each lustrous movement of her liquid eyes—
-Envied the air its undisturbed caress
-Of her whose presence was his Paradise.
-
-  <p>“To an Old Oak;” “To E—with a Withered Rose;”
+            <div class="lg">
+               <br/>He watched each motion of her rustling dress,
+<br/>Each lustrous movement of her liquid eyes—
+<br/>Envied the air its undisturbed caress
+<br/>Of her whose presence was his Paradise.
+</div>
+            <p>“To an Old Oak;” “To E—with a Withered Rose;”
 <br/>and “The Death-Song of the Nightingale” have nothing
 <br/>in them remarkable—“ Eulalie Vere ” nothing beyond the 
 <br/>barroques lines,</p>
-Cheeks where the loveliest of lustres reposes
-On valleys of lilies and mountains of roses.
-<p>“ To the American Sky-Lark ” is professedly an imitation
+            <div class="lg">
+               <br/>Cheeks where the loveliest of lustres reposes
+<br/>On valleys of lilies and mountains of roses.</div>
+            <p>“ To the American Sky-Lark ” is professedly an imitation
 <br/>of Bryant's “Waterfowl:” we need, therefore, say nothing
 <br/>about it.</p>
             <p>“ Ellena ” has some glowing thoughts. For example,</p>
-at her word
-The hushed air shook, with human passion stirred.
-<p>And again:</p>
-a maniac tune
-Rang in mine ears, like songs sung in a swoon.
-<p>“ The Coming of Night ” is excellent throughout—if we
+            <div class="lg">
+               <br/>at her word
+<br/>The hushed air shook, with human passion stirred.</div>
+            <p>And again:</p>
+            <div class="lg">
+               <br/>a maniac tune
+<br/>Rang in mine ears, like songs sung in a swoon.</div>
+            <p>“ The Coming of Night ” is excellent throughout—if we
   <br/>except the grammatical error in the ante-penultimate line.</p>
-Oh Blessed Night that comes to rich and poor.
-<p>Here are two admirable quatrains:</p>
-Forest and field are still
-Nature seems wrapt in slumber; wholly dumb,
-Save when the frog’s deep bass or beetle's bum,
-Or wailing whippoorwill,
-Disturb her weary ear,
-Or the far falling of the rippling rill
-That sings, while leaping down the silent hill,
-Her dreamless sleep to cheer.
-<p>“ Violet” is merely an absurd imitation of Barry Cornwall’s
+            <div class="lg">
+               <br/>Oh Blessed Night that comes to rich and poor.</div>
+            <p>Here are two admirable quatrains:</p>
+            <div class="lg">
+               <br/>Forest and field are still
+<br/>Nature seems wrapt in slumber; wholly dumb,
+<br/>Save when the frog’s deep bass or beetle's bum,
+<br/>Or wailing whippoorwill,
+<br/>Disturb her weary ear,
+<br/>Or the far falling of the rippling rill
+<br/>That sings, while leaping down the silent hill,
+<br/>Her dreamless sleep to cheer.
+</div>
+            <p>“ Violet” is merely an absurd imitation of Barry Cornwall’s
 most absurd Tom-Foolery.</p>
             <p>“ A Gift” is well versified, but common-place.</p>
             <p>“ The Owl" opens with too finely imaginative
   <br/>stanzas:</p>
-When twilight fades and evening falls
-Alike on tree and tower,
-And silence, like a pensive maid,
-Walks round each slumbering bower;
-When fragrant flowerets fold their leaves,
-And all is still in sleep,
-The horned owl on moonlit wing
-Flies from the donjon keep.
-And he calls aloud “ too-whit! too-whoo !”
-And the nightingale is still,
-And the pattering step of the hurrying hare
-Is hushed upon the bill;
-And he crouches low in the dewy grass
-As the lord of the night goes by,
-Not with a loudly whirring wing
-But like a lady's sigh.
-<p>Every critic—at least every poetical critic—will admit
+            <div class="lg">
+               <br/>When twilight fades and evening falls
+<br/>Alike on tree and tower,
+<br/>And silence, like a pensive maid,
+<br/>Walks round each slumbering bower;
+<br/>When fragrant flowerets fold their leaves,
+<br/>And all is still in sleep,
+<br/>The horned owl on moonlit wing
+<br/>Flies from the donjon keep.
+<br/>And he calls aloud “ too-whit! too-whoo !”
+<br/>And the nightingale is still,
+<br/>And the pattering step of the hurrying hare
+<br/>Is hushed upon the bill;
+<br/>And he crouches low in the dewy grass
+<br/>As the lord of the night goes by,
+<br/>Not with a loudly whirring wing
+<br/>But like a lady's sigh.</div>
+            <p>Every critic—at least every poetical critic—will admit
 <br/>that the images in these two stanzas are such as only a true
 <br/>poet could conceive. At the same time they are embodied
 <br/>with much art.</p>
             <p>“A Song’’ and “Mutius Sccevola” have no particular
     merit. “ The Forsaken” ends with nerve:</p>
-Well, go thy way! and never wake
-The feeblest memory of me,
-To wring thy worthless heart! I break
-Thy chains and set thee free.
-Thou to thy mirth ! I to my gloom !
-Health to the coldest of the twain !
-And mine—not thine—the iron doom
-Of having loved in vain.
-  <p>“ The Lament of Adam” is chiefly remarkable for the ef-
+            <div class="lg">
+               <br/>Well, go thy way! and never wake
+<br/>The feeblest memory of me,
+<br/>To wring thy worthless heart! I break
+<br/>Thy chains and set thee free.
+<br/>Thou to thy mirth ! I to my gloom !
+<br/>Health to the coldest of the twain !
+<br/>And mine—not thine—the iron doom
+<br/>Of having loved in vain.</div>
+            <p>“ The Lament of Adam” is chiefly remarkable for the ef-
 <br/>fect of its versification—not altogether original, to be sure,
 <br/>but rare, and very forcible when well-managed. The
 <br/>rhythm is dactylic, the lines terminating with equivalent
 <br/>caesuras. The metre is generally tetrameter, catalectic on
-<br/>one syllable (the exsura forming the catalexis)—but the<a href="#p10"/>
+<br/>one syllable (the exsura forming the catalexis)—but the<br/>
+               <div class="pagebreak" id="#page10"/>
+               <br/>
+               <div class="columnbreak"/>
                <br/>lines increase towards the closing of the stanzas, and in one
     <br/>instance are hexameter catalectic. We give the last stanza:</p>
-Life hath its pleasures—but perishing they as the flowers :
-Sin hath its sorrows; and, sighing we turned from those bowers:
-Bright were the angels behind with their falchions of heavenly 
-flame :
-Dark was the desolate desert before us, but darker the depth of our
-shame.
-<p>Here the alliteration is too obvious—quite overdone, and
+            <div class="lg">
+               <br/>Life hath its pleasures—but perishing they as the flowers :
+<br/>Sin hath its sorrows; and, sighing we turned from those bowers:
+<br/>Bright were the angels behind with their falchions of heavenly 
+<br/>flame :
+<br/>Dark was the desolate desert before us, but darker the depth of our
+<br/>shame.</div>
+            <p>Here the alliteration is too obvious—quite overdone, and
 <br/>is an instance of the hyperism to which we alluded in the
 <br/>beginning of our notice.</p>
             <p>“ The Statue-Love” is not very good.</p>
             <p>“ May” is a remarkably line poem, with an exquisite close:</p>
-  ---the passionate bard
-Wanders away through sylvan lonelinesses,
-Alive with love—his heart a silver river
-On which the swan of song floats gracefully for ever.
-<p>“Dramatic Fragments” are worth nothing. “ The Song 
+            <div class="lg"> 
+               <br/>---the passionate bard
+<br/>Wanders away through sylvan lonelinesses,
+<br/>Alive with love—his heart a silver river
+<br/>On which the swan of song floats gracefully for ever.</div>
+            <p>“Dramatic Fragments” are worth nothing. “ The Song 
 <br/>of the Scald Biorne” is, to our astonishment, badly versified. 
 <br/>How comes Mr. Hirst in an anapaestic rhythm, or in any
 <br/>rhythm, with such a verse as—</p>
-My iron hand on her arm when before her I knelt ?
-
-  <p>“Summer” is quite feeble.</p>
+            <div class="lg">
+               <br/>My iron hand on her arm when before her I knelt ?
+</div>
+            <p>“Summer” is quite feeble.</p>
             <p>Twenty well-constructed sonnets conclude the volume.
 <br/>Among these, Bethlehem” and “ Dead Man’s Island” may
 <br/>be cited as particularly good : but by way of finale to our re-
 <br/>view we quote “ Astarte” as the best.</p>
-Thy lustre, heavenly star ! shines ever on me.
-I, trembling like Endymion over-bent
-By dazzling Dian, when with wonderment
-He saw her crescent light the Latmian lea :
-  And like a Naiad’s sailing on the sea,
-Floats thy fair form before me: the azure air
-Is all ambrosial with thy hyacinth hair:
-While round thy lips the moth in airy glee
-Hovers, and hums in dim and dizzy dreams,
-Drunken with odorous breath: thy argent eyes
-(Twin planets swimming through love’s lustrous skies)
-Are mirrored in my heart’s serenest streams—
-Such eyes saw Shakespeare, flashing, bold and bright,
-When Queenly Egypt rode the Nile at night.</div>
+            <div class="lg">
+               <br/>Thy lustre, heavenly star ! shines ever on me.
+<br/>I, trembling like Endymion over-bent
+<br/>By dazzling Dian, when with wonderment
+<br/>He saw her crescent light the Latmian lea :
+<br/>  And like a Naiad’s sailing on the sea,
+<br/>Floats thy fair form before me: the azure air
+<br/>Is all ambrosial with thy hyacinth hair:
+<br/>While round thy lips the moth in airy glee
+<br/>Hovers, and hums in dim and dizzy dreams,
+<br/>Drunken with odorous breath: thy argent eyes
+<br/>(Twin planets swimming through love’s lustrous skies)
+<br/>Are mirrored in my heart’s serenest streams—
+<br/>Such eyes saw Shakespeare, flashing, bold and bright,
+<br/>When Queenly Egypt rode the Nile at night.</div>
+         </div>
          <div>
             <div class="head">Wiley and Putnam's Library of American Books. No. 11.
 Tales by Edgar A. Poe. New York and London : Wiley
@@ -1306,7 +1385,8 @@ if Putnam.</div>
 <br/>can regard the making of Latin verses as in any respect, or
 <br/>under any circumstances, as a useful occupation. The mate-
 <br/>rials have been collected from a great variety of sources.
-    As a text book the volume cannot be too highly commended.
+    <br/>
+               <div class="columnbreak"/>As a text book the volume cannot be too highly commended.
 <br/>The exercises form a regular and progressive course. A key
 <br/>has been prepared, and can be obtained from the publishers
 <br/>on personal application. The work is got up in the usual
@@ -1380,29 +1460,32 @@ if Putnam.</div>
 <br/>a beautilul and suggestive subject. It is a little remarkable that nei.
 <br/>ther of them bears any resemblance in the conception or execution.
 <br/>Miss Barrett’s idea is the absolute death of the ancient Divinities—
-<a href="#p11"/>
+<br/>
+            <div class="pagebreak" id="#page11"/>
+            <br/>
+            <div class="columnbreak"/>
 Schiller laments the decay of their influence—the following Ode is
 <br/>based on their continued existence as poetical creations which delight
 <br/>the human mind.—</p>
          <p>It cannot be doubted that Mr. Wallace's conception is the
 <br/>best of the three, and he has handled it in a masterly man-
 <br/>ner. We quote the concluding stanza.</p>
-  V.
-Like far off stars that glimmer in a cloud,
-Deathless, O Gods ! shall ye illume the past:
-To ye the Poet-Voice will cry aloud,
-Faithful among the faithless to the last:—
-Ye must not die !
-Long as the dim robes of the Ages trail
-O’er Delphi’s steep or Tempe’s flowery vale—
-An awful Throng—
-Borne upward on the sounding wings of Song
-That cast the Beautiful o’er Land, o’er Sea,
-Ye shall not die :
-Though Time and storm your calm, old temples rend,
-And, rightly, men to the “ One Only” bend—
-Your Realm is Memory !
-<p>The Knickerbocker for July has also some meritorious con-
+         <div class="lg">V.
+<br/>Like far off stars that glimmer in a cloud,
+<br/>Deathless, O Gods ! shall ye illume the past:
+<br/>To ye the Poet-Voice will cry aloud,
+<br/>Faithful among the faithless to the last:—
+<br/>Ye must not die !
+<br/>Long as the dim robes of the Ages trail
+<br/>O’er Delphi’s steep or Tempe’s flowery vale—
+<br/>An awful Throng—
+<br/>Borne upward on the sounding wings of Song
+<br/>That cast the Beautiful o’er Land, o’er Sea,
+<br/>Ye shall not die :
+<br/>Though Time and storm your calm, old temples rend,
+<br/>And, rightly, men to the “ One Only” bend—
+<br/>Your Realm is Memory !</div>
+         <p>The Knickerbocker for July has also some meritorious con-
 <br/>tributions—but neither man nor devil can dissuade its editor
 <br/>from a monthly farrago of type so small as to be nearly in-
 <br/>visible, and so stupid as to make us wish it were quite so.
@@ -1453,7 +1536,8 @@ Your Realm is Memory !
 <br/>and full of point. It was well sung—indeed we might say,
 <br/>admirably well: short, stern, and precise, the manner was
 <br/>worthy of the matter. Indeed, we can not praise its per-
-      formance too highly, and the public were of our opinion,
+      <br/>
+               <div class="columnbreak"/>formance too highly, and the public were of our opinion,
 <br/>for they encored it upon each occasion. The finales do not
 <br/>call for much remark. They ate chiefly noticeable for great
 <br/>noise and want of clearness. The instrumentation is, gen-
@@ -1519,7 +1603,10 @@ Your Realm is Memory !
 <br/>ditable manner, with the exception that occasionally he was
 <br/>most painfully out of tune.</p>
             <p>The band, as usual, formed the most delightful feature in
-<a href="#p12"/>
+<br/>
+               <div class="pagebreak" id="#page12"/>
+               <br/>
+               <div class="columnbreak"/>
 the evening’s entertainment. Its performance was admira- 
 <br/>ble throughout the evening. Prevost did all that a fine leader
 <br/>should do, and the band seconded his efforts to the very
@@ -1588,7 +1675,8 @@ the evening’s entertainment. Its performance was admira-
 <br/>entertaining. The only argument they use, however, to
 <br/>prove that our criticism of poor Leonora was no criticism,
 <br/>and to prove how impossible it is that we should be able to
-    write a criticism, is the following. We beg our readers to
+    <br/>
+               <div class="columnbreak"/>write a criticism, is the following. We beg our readers to
 <br/>forbear laughing while we state it, for the charge is a grave
 <br/>charge. The reason why we have not, and why we cannot,
 <br/>write a criticism is—that we eat beef! Serious as this
@@ -1653,7 +1741,10 @@ the evening’s entertainment. Its performance was admira-
 <br/>Englishman, the Italian or the German, these amotions
 <br/>spring right up from the heart, and are dependent for the
 <br/>truthfulness of expression upon the genius or inspiration of
-<br/>the composer." Mr. Colley Cibber says: “Well, let that<a href="#p13"/>
+<br/>the composer." Mr. Colley Cibber says: “Well, let that<br/>
+               <div class="columnbreak"/>
+               <br/>
+               <div class="pagebreak" id="#page13"/>
 pass; but see how this learned critic contradicts himself.”
 <br/>Now for the contradiction. “There is a rule, however,
 <br/>which is never departed from by composers of any talent—
@@ -1707,7 +1798,9 @@ pass; but see how this learned critic contradicts himself.”
 THE ETHIOPIAN MUSIC.</div>
          <p>Though the fashionable American world would fain per-
 <br/>suade us, that ‘ all the world is out of town,’ at this season,
-  <br/>in palpable imitation of the English world of fashion, yet,
+  <br/>in palpable imitation of the English world of fashion,<span class="anchor" id="a001">
+               <a href="#n001"/>
+            </span> yet,
 <br/>as the streets appear tolerably full, and as the public places
 <br/>are not altogether empty : as we happen to know a few
 <br/>ladies and as many gentlemen, who happen to be still re-
@@ -1721,7 +1814,8 @@ THE ETHIOPIAN MUSIC.</div>
 <br/>they are open until quite too late in the season. The extreme
 <br/>heat, together with the blaze of light and a crowded audi-
 <br/>ence, destroy any gratification to be derive from any perfor-
-mances on the stage. The French company at the Park,
+<br/>
+            <div class="columnbreak"/>mances on the stage. The French company at the Park,
 <br/>draw now select houses: chiefly of their countrymen and
 <br/>countrywomen. But they will do better at Niblo’s by-and
 <br/>by, in a light, airy, open place, and with reduced price. The
@@ -1786,7 +1880,10 @@ mances on the stage. The French company at the Park,
 <br/>the better musician, by many, from his (general) want of
 <br/>individuality and proneness to imitation. To a certain point,
 <br/>he is only clever, but never gets beyond it. The airs, com-
-<br/>monly supposed to be indigenous, bear a model somewhere <a href="#p41"/>
+<br/>monly supposed to be indigenous, bear a model somewhere <br/>
+            <div class="columnbreak"/>
+            <br/>
+            <div class="pagebreak" id="#page41"/>
 among old English or Scotch songs, or hymn tunes, march-
 <br/>es, etc. Yet some of the negro airs, are as old, as the first
 <br/>settlement of Georgia by Oglethorpe: some may be older still.
@@ -1850,8 +1947,11 @@ among old English or Scotch songs, or hymn tunes, march-
 <br/>accords with the season. You can easily change the scene,
 <br/>of a hot evening from the green at Hoboken, or Palmo’s, to a
 <br/>southern plantation. You see many from Georgia, the Car-
-    <br/>olinas, and Alabama among the audience. Out of doors 
-through the open windows you hear negro voices calling
+    <br/>olinas, and Alabama among the audience. Out of doors <span class="anchor" id="a002">
+               <a href="#n002"/>
+            </span>
+            <br/>
+            <div class="columnbreak"/>through the open windows you hear negro voices calling
 <br/>‘ hot corn’ or ‘I—scream.’ In winter, these adjuncts are
 <br/>wanting, and the music sounds spiritless, in consequence.</p>
          <p>The turn for music and dancing in the negro, is wonderful.
@@ -1862,56 +1962,60 @@ through the open windows you hear negro voices calling
 <br/>whistle to perfection. As to mere time and agility, and
 <br/>awkward steps of all kinds gracefully conquered; the negro
     <br/>rivals Fanny Ellsler, on the present idol, Cerito.</p>	
-         <span class="person" id="">J.</span>
+         <div class="byline">
+            <span class="person">J.</span>
+         </div>
       </div>
       <div>
          <div class="head">THE COLISEUM.</div>
-   Type of the antique Rome ! Rich reliquary
-Of lofty contemplation left to Time
-By buried centuries of pomp and power!
-At length—at length—after so many days
-Of weary pilgrimage and burning thirst,
-(Thirst for the springs of lore that in thee lie,)
-I kneel, an alter’d and an humble man,
-Amid thy shadows, and so drink within
-My very soul thy grandeur gloom and glory !
-Vastness ! and Age ! and Memories of Eld !
-Silence! and Desolation! and dim Night!
-I feel ye now—I feel ye in your strength—
-O spells more sure than e’er Judaenn king
-Taught in the gardens of Gethsemane!
-O charms more potent than the rapt Chaldee
-Ever drew down from out the quiet stars !
-Here, where a hero fell, a column fulls!
-Here, where the mimic eagle glared in gold,
-A midnight vigil holds the swarthy bat!
-Here, where the dames of Rome their gilded hair
-Waved to the wind, now wave the reed and thistle!
-Here, where on golden throne the monarch loll’d,
-  Glides, spectre-like unto his marble home,
-Lit by the wan-light of the horned moon.
-The swift and silent lizard of the stones!
-But stay ! these walls—these ivy-clad arcades—
-These mould’ring plinths—these sad and blacken’d shafts—
-These vague entablatures—this crumbling frieze—
-These shatter’d cornices—this wreck—this ruin—
-These stones—alas ! these gray stones—are they all—
-All of the fam’d, and the colossal left
-By the corrosive Hours, to Fate and me?
-“ Not all"—the Echoes answer me—“ not all!
-“ Prophetic sounds and loud, arise forever
-"From us, and from all Ruin, unto the wise,
-“ As melody from Memnou to the Sun.
-“ We rule the hearts of mightiest men—we rule
-“ With a despotic sway all giant minds.
-“ We are net impotent—we pallid stones.
-" Not all our power is gone—not all our fame—
-“ Not all the magic of our high renown—
-“ Not all the wonder that encircles us—
-“ Not all the mysteries that in us lie—
-“ Not all the memories that hung upon
-“ And cling around about us as a garment,
-“ Clothing us in a robe of more than glory."</div>
+         <div class="lg"> 
+            <br/>Type of the antique Rome ! Rich reliquary
+<br/>Of lofty contemplation left to Time
+<br/>By buried centuries of pomp and power!
+<br/>At length—at length—after so many days
+<br/>Of weary pilgrimage and burning thirst,
+<br/>(Thirst for the springs of lore that in thee lie,)
+<br/>I kneel, an alter’d and an humble man,
+<br/>Amid thy shadows, and so drink within
+<br/>My very soul thy grandeur gloom and glory !
+<br/>Vastness ! and Age ! and Memories of Eld !
+<br/>Silence! and Desolation! and dim Night!
+<br/>I feel ye now—I feel ye in your strength—
+<br/>O spells more sure than e’er Judaenn king
+<br/>Taught in the gardens of Gethsemane!
+<br/>O charms more potent than the rapt Chaldee
+<br/>Ever drew down from out the quiet stars !
+<br/>Here, where a hero fell, a column fulls!
+<br/>Here, where the mimic eagle glared in gold,
+<br/>A midnight vigil holds the swarthy bat!
+<br/>Here, where the dames of Rome their gilded hair
+<br/>Waved to the wind, now wave the reed and thistle!
+<br/>Here, where on golden throne the monarch loll’d,
+  <br/>Glides, spectre-like unto his marble home,
+<br/>Lit by the wan-light of the horned moon.
+<br/>The swift and silent lizard of the stones!
+<br/>But stay ! these walls—these ivy-clad arcades—
+<br/>These mould’ring plinths—these sad and blacken’d shafts—
+<br/>These vague entablatures—this crumbling frieze—
+<br/>These shatter’d cornices—this wreck—this ruin—
+<br/>These stones—alas ! these gray stones—are they all—
+<br/>All of the fam’d, and the colossal left
+<br/>By the corrosive Hours, to Fate and me?
+<br/>“ Not all"—the Echoes answer me—“ not all!
+<br/>“ Prophetic sounds and loud, arise forever
+<br/>"From us, and from all Ruin, unto the wise,
+<br/>“ As melody from Memnou to the Sun.
+<br/>“ We rule the hearts of mightiest men—we rule
+<br/>“ With a despotic sway all giant minds.
+<br/>“ We are net impotent—we pallid stones.
+<br/>" Not all our power is gone—not all our fame—
+<br/>“ Not all the magic of our high renown—
+<br/>“ Not all the wonder that encircles us—
+<br/>“ Not all the mysteries that in us lie—
+<br/>“ Not all the memories that hung upon
+<br/>“ And cling around about us as a garment,
+<br/>“ Clothing us in a robe of more than glory."</div>
+      </div>
       <div>
          <div class="head">ALEXANDER VON HUMBOLDT’S “COSMOS.”</div>
          <br/>
@@ -1922,7 +2026,10 @@ By the corrosive Hours, to Fate and me?
 <br/>dressed to the editor of a newspaper in Cologne.</p>
          <p>The following is a true translation of it.</p>
          <div class="ab">—Ebs. B. J.</div>
-         <a href="#p15"/>
+         <br/>
+         <div class="pagebreak" id="#page15"/>
+         <br/>
+         <div class="columnbreak"/>
          <p>The first volume of Alexander von Humboldt’s “ Cosmos
 <br/>Sketches of a Physical Oosmoarapy,” has just been publish-
   <br/>ed, and it is no more than natural that this work should be-
@@ -2009,6 +2116,8 @@ By the corrosive Hours, to Fate and me?
   <br/>FOR SALE—A splendid Harp, nearly new. To be sold at a great
   <br/>bargain tor cash</div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">INTERESTING WORKS
   <br/>JUST PUBLISHED BY
@@ -2097,7 +2206,10 @@ By the corrosive Hours, to Fate and me?
 <br/>perfection, with the best French grand action, warranted in every re-
 <br/>spect by the manufacturer.</div>
       </div>
-      <a href="#p16"/>
+      <br/>
+      <div class="pagebreak" id="#page16"/>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab">A CARD.
   <br/>WM. A. KINO, PROFESSOR of the PIANO-
@@ -2198,6 +2310,8 @@ By the corrosive Hours, to Fate and me?
 191 Broadway, opposite John-street.
 </div>
       </div>
+      <br/>
+      <div class="columnbreak"/>
       <div>
          <div class="ab"> GREAT REDUCTION IN PRICE.
    <br/>THE FIRST PREMIUM AWARDED FIVE YEARS BY THE AMERICAN INSTI-
@@ -2302,9 +2416,13 @@ By the corrosive Hours, to Fate and me?
       </div>
         </div>
    <div class="back">
-          Horace Smith has written a capital paper on this tonic, in his Odi-
+          <span class="note" id="n001">
+         <a href="#a001"/>
+      </span>Horace Smith has written a capital paper on this tonic, in his Odi-
             ties and Varieties.
-          Southern Minstrels, Kentucky Minstrels, Carolina Minstrels. Far
+          <span class="note" id="n002">
+         <a href="#a002"/>
+      </span>Southern Minstrels, Kentucky Minstrels, Carolina Minstrels. Far
             River Roarers, &amp;c., &amp;c., &amp;c.
         </div>
 </div>

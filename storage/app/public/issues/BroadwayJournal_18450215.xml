@@ -6,19 +6,22 @@
    <div class="body">
       
       <div>
-        
-        
-          Truth, whether in or cut of fashion, is the measure of knowledge and the busi-
+        <br/>
+         <div class="columnbreak"/>
+        <div class="cit">
+            <span class="quote">Truth, whether in or cut of fashion, is the measure of knowledge and the busi-
             <br/>ness of the understanding; whatsoever is beside that, however authorised
             by con-
             <br/>sent or recommended by variety, is nothing but ignorance, or something
-            worse.
-          <span class="person" id="">Locke</span>
-        
+            worse.</span>
+            <div class="bibl">
+               <span class="person">Locke</span>
+            </div>
+        </div>
       </div>
-        <div id="#s1" class="section">
+        <div class="section" id="#s1">
           <div class="head">REVIEWS.</div>
-          <div id="#p1" class="piece">
+          <div class="piece" id="#p1">
             <div class="ab">Woman in the Nineteenth Century.</div>
             <p>This is the title of a book now in press in this city, which
               <br/>will be likely to excite a good deal of remark, for and against.
@@ -76,7 +79,8 @@
             <p>"Meanwhile not a few believe, and men themselves have express-
               <br/>ed the opinion, that the time is come when Eurydice is to call for an
               <br/>Orpheus, rather than Orpheus for Eurydice : that the idea of Man,
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>however imperfectly brought out, has been far more so than that of
               <br/>Woman ; that she, the other half of the same thought, the other
               <br/>chamber of the heart of life, needs now to take her turn in the full
@@ -161,11 +165,15 @@
               <br/>as well as protector from external ill, to the other party, and have a
               <br/>being in his power pining for sympathy, intelligence and aid, that he
               <br/>could not give.”</p>
-            <span class="person" id="">L. M. C.</span>
-            <a href="#p98"/>
+            <div class="byline">
+               <span class="person">L. M. C.</span>
+            </div>
+            <br/>
+            <div class="pagebreak" id="#page98"/>
           </div>
-          <div id="#p2" class="piece">
-            
+          <div class="piece" id="#p2">
+            <br/>
+            <div class="columnbreak"/>
             <div class="ab">Rome ; as Seen by a New Yorker in 1843-4. New York and London.
               <br/>Wiley &amp; Putnam, 1846. 12mo. pp. 216.</div>
             <p>The author of this book is William M. Gillespie, whose
@@ -231,7 +239,8 @@
               <br/>nion than in the United States</p>
             <p>The description of the Duomo of Milan will convey a very
               <br/>fair impression of our writer’s style in description.</p>
-            
+            <br/>
+            <div class="columnbreak"/>
             <div class="ab">THE DUOMO OF MILAN.</div>
             <p>"The only Rival or St. Peter’s is the Duomo or Milan ; and
               <br/>wonderful as is the former, I am so heretical as to find the latter far
@@ -326,8 +335,10 @@
               <br/>that the four quarters of the globe are thus made tributary to the Im-
               <br/>perial city. The Fontano Paulina rises like the front of a church on
               <br/>the Janiculum hill, overlooking all Rome, and three torrents rush
-              <a href="#p99"/>
-              
+              <br/>
+               <div class="pagebreak" id="#page99"/>
+              <br/>
+               <div class="columnbreak"/>
               <br/>through its central arches, and fall into a large basin, from which they
               <br/>roll down the hill, turning mills and supplying reservoirs. Over the
               <br/>Fontana dell’ Acqua Felice rises an Ionic arcade, in the central niche
@@ -391,7 +402,7 @@
               <br/>is distinguished for its beauty and accuracy—rare merits in
               <br/>these days of anti-copyright slovenliness.</p>
           </div>
-          <div id="#p3" class="piece">
+          <div class="piece" id="#p3">
             <div class="ab">Letters from a Landscape Painter.—By the author of Essays
               <br/>for Summer Hours. Boston, James Munroe, It Co., 1845.</div>
             <p>There are many commendable things in this little volume,
@@ -409,7 +420,8 @@
               <br/>indulges continually in that style called by an English critic,
               <br/>the treble X. Every picture that he sees is the very best that
               <br/>he has ever seen, and moreover the best, as he verily be-
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>lieves, that anybody has ever seen. This is not the way in
               <br/>which men who have seen much usually express themselves;
               <br/>neither is it the manner of a cautious deliberate observer,
@@ -476,8 +488,10 @@
               <br/>false impression of his character; to paint his forehead too
               <br/>high is as great a wrong to him as to paint it too low. Some
               <br/>artists give all their women red cheeks and scarlet lips,
-              <a href="#p100"/>
-              
+              <br/>
+               <div class="pagebreak" id="#page100"/>
+              <br/>
+               <div class="columnbreak"/>
               <br/>and yet there is not one in a thousand that has either, the
               <br/>consequence is that women so misrepresented look as though
               <br/>they were rouged. A New York artist, now in Europe,
@@ -544,7 +558,8 @@
               <br/>a dear, first-rate mother, a good wife, and an only boy. They
               <br/>were all in the enjoyment of good health, and happy ; and
               <br/>when we were under sail, and I saw from the mast head,
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>how kindly they waved their handkerchiefs beside my door,
               <br/>(there is not a house on the island so situated that such a
               <br/>performance could be witnessed from the mast-head of a ship
@@ -581,12 +596,12 @@
               <br/>cred song, which my mother used to be so fond of singing on
               <br/>Sabbath evenings long ago; that song I can understand now:</p>
 
-            
-              'I would not live alway ; I ask not to stay
-              Where storm after storm rises dark o’er the way ;
-              The few lurid mornings that dawn on us here,
-              Are enough for life’s woes, full enough for its cheer.'
-            
+            <div class="lg">
+              <br/>'I would not live alway ; I ask not to stay
+              <br/>Where storm after storm rises dark o’er the way ;
+              <br/>The few lurid mornings that dawn on us here,
+              <br/>Are enough for life’s woes, full enough for its cheer.'
+            </div>
 
             <p>(This Song was written by Bishop Onderdonk of Pennsylva-
               <br/>nia, and we are inclined to think that the seaman with a
@@ -615,8 +630,10 @@
               <br/>should be. He manifests a refined and exalted taste in the ar-
               <br/>rangement of his portraits, and generally in his miscellaneous
               <br/>designs. But, after all, he has painted some poor pictures.
-              <a href="#p101"/>
-              
+              <br/>
+               <div class="pagebreak" id="#page101"/>
+              <br/>
+               <div class="columnbreak"/>
               <br/>and this is an evidence of the fact, that he is a man of un-
               <br/>common genius, and not talent. There is a wonderful spirit
               <br/>in his heads, and, unlike his rival, Page, he portrays the
@@ -683,7 +700,8 @@
               <br/>of all kinds, and affectations of piety the most of all, we
               <br/>Would not give it as our opinion that he says his prayers too
               <br/>often; or rather that he says he says them. There are some
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>things which a man might as well keep to himself, and the
               <br/>frequency with which he says his prayers is the chief of
               <br/>them. It is an act so purely personal, that we see no neces-
@@ -706,11 +724,11 @@
               <br/>hope of improvement.</p>
           </div>
         </div>
-        <div id="#s2" class="section">
+        <div class="section" id="#s2">
           <div class="head">PLACES WORTH VISITING.</div>
-          <div id="#p4" class="piece">
+          <div class="piece" id="#p4">
             <div class="head">MONSIEUR EDOUART’S SILHOUETTE ROOMS.</div>
-            BY <span class="person" id="">MRS. L. M. CHILD</span>.
+            <div class="byline">BY <span class="person">MRS. L. M. CHILD</span>.</div>
             <p>Among the places worth visiting, you might have enume-
               <br/>rated the room of Monsieur Edouart, No. 285 Broadway. At
               <br/>the first glance, his gallery has a singular effect on the eye.
@@ -752,8 +770,10 @@
               <br/>one of the commissioners of the army, he was distinguished
               <br/>for his moderation and forbearance toward those from whom
               <br/>be was ordered to raise forced supplies of provisions for the
-              <a href="#p102"/>
-              
+              <br/>
+               <div class="pagebreak" id="#page102"/>
+              <br/>
+               <div class="columnbreak"/>
               <br/>army. Unlike most others in the same office, he never abu-
               <br/>sed his power to fill his own purse. He took only such arti-
               <br/>cles as were absolutely necessary, and for these he was care-
@@ -821,7 +841,8 @@
               <br/>then I promise you that you shall have my skull.”</p>
             <p>This led to a funny adventure. Not long after, M. Edouart
               <br/>was taken ill at Glasgow, and it was supposed that he would
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>die of an internal tumor. Being a foreigner, his friends
               <br/>thought it necessary to inquire whether he had any particu-
               <br/>lar directions to give concerning his burial. "Yes,” said he,
@@ -873,11 +894,13 @@
               <br/>covered with their own hair, which are remarkably full of
               <br/>life and expression. Altogether, it is a very agreeable place
               <br/>to look into.</p>
-            <span class="person" id="">L. M. C.</span>
+            <div class="byline">
+               <span class="person">L. M. C.</span>
+            </div>
           </div>
 
 
-          <div id="#p5" class="piece">
+          <div class="piece" id="#p5">
             <div class="head">THE NEW YORK GALLERY OF THE FINE ARTS</div>
             <p>This is not a free exhibition, as it should be to render much
               <br/>service to the community ; but it is next door to one. The
@@ -893,8 +916,10 @@
               <br/>tle need of any such aids to refinement, but to the poor and
               <br/>ignorant, a public gallery of pictures is a real blessing, and
               <br/>it is for their aid that such places are, or should be es
-              <a href="#p103"/>
-              
+              <br/>
+               <div class="pagebreak" id="#page103"/>
+              <br/>
+               <div class="columnbreak"/>
               <br/>tablished. A picture need not be didactic like the picture-
               <br/>stories of Hogarth, to do good. Nature affixes no morals to any
               <br/>of her productions, yet her perfections and beauty impress
@@ -961,7 +986,8 @@
               <br/>should, indeed, be exhibited by itself, without any hint being
               <br/>given of its allegorical character, that it might be enjoyed
               <br/>without any uncomfortable feeling of its didacticism.</p>
-            
+            <br/>
+            <div class="columnbreak"/>
             <p>There is another bit of Nature in the gallery, of a character
               <br/>entirely different from the Nature which Mr. Cole loves to
               <br/>depict; the "Truant Gamblers,” by Mount. It is one of his
@@ -981,7 +1007,7 @@
         </div>
 
 
-          <div id="#p6" class="piece">
+          <div class="piece" id="#p6">
             <div class="head">SOME SECRETS OF THE MAGAZINE PRISON-HOUSE.</div>
             <p>The want of an International Copy-Right Law, by rendering
               <br/>it nearly impossible to obtain anything from the booksellers
@@ -1031,8 +1057,10 @@
               <br/>a difference—although a mathematician might contend that
               <br/>the difference might be infinitesimally small. Still, these
               <br/>Magazine editors and proprietors pay (that is the word), and
-              <a href="#p104"/>
-              
+              <br/>
+            <div class="pagebreak" id="#page104"/>
+              <br/>
+            <div class="columnbreak"/>
               <br/>with your true poor-devil author the smallest favors are sure
               <br/>to be thankfully received. No: the illiberality lies at the
               <br/>door of the demagogue-ridden public, who suffer their anoint-
@@ -1101,108 +1129,113 @@
               <br/>appreciation of Genius.</p>
           </div>
        
-        
-        <div id="#s3" class="section">
+        <br/>
+      <div class="columnbreak"/>
+        <div class="section" id="#s3">
           <div class="head">Original Poetry.</div>
-          <div id="#p7" class="piece">
+          <div class="piece" id="#p7">
             <div class="head">REMEMBERED MUSIC.
               <br/>A FRAGMENT.</div>
-            
-              Thick rushing, like an ocean vast
-              Of bisons the fair prairies shaking,
-              The notes crowd heavily and fast
-              As surfs, one plunging while the last
-              Draws seaward from its foamy breaking.
-              Or in low murmurs they began,
-              Rising and rising momently,
-              As, o’er a harp Ӕolian
-              A fitful breeze, until they ran
-              Up to a sudden ecstacy.
-              And then, like minute-drops of rain
-              Ringing in water silverly,
-              They lingering dropt and dropt again,
-              Till it was almost like a pain
-              To listen when the next would be.
-            
-            <span class="person" id="">JAMES R. LOWELL</span>.
+            <div class="lg">
+              <br/>Thick rushing, like an ocean vast
+              <br/>Of bisons the fair prairies shaking,
+              <br/>The notes crowd heavily and fast
+              <br/>As surfs, one plunging while the last
+              <br/>Draws seaward from its foamy breaking.
+              <br/>Or in low murmurs they began,
+              <br/>Rising and rising momently,
+              <br/>As, o’er a harp Ӕolian
+              <br/>A fitful breeze, until they ran
+              <br/>Up to a sudden ecstacy.
+              <br/>And then, like minute-drops of rain
+              <br/>Ringing in water silverly,
+              <br/>They lingering dropt and dropt again,
+              <br/>Till it was almost like a pain
+              <br/>To listen when the next would be.
+            </div>
+            <div class="byline">
+               <span class="person">JAMES R. LOWELL</span>.</div>
           </div>
 
 
-          <div id="#p8" class="piece">
+          <div class="piece" id="#p8">
             <div class="head">THE REVELATION.</div>
-            BY <span class="person" id="">B. H.</span>
-            
-              Twilight over earth was stealing,
-              And my spirit’s wing was furl’d,
-              Musing on a dim revealing,
-              Of a purer, brighter world.
+            <div class="byline">BY <span class="person">B. H.</span>
+            </div>
+            <div class="lg">
+              <br/>Twilight over earth was stealing,
+              <br/>And my spirit’s wing was furl’d,
+              <br/>Musing on a dim revealing,
+              <br/>Of a purer, brighter world.
 
-              The old book I had been reading,
-              Brimfull was of holy thought,
-              Far away through darkness leading,
-              With a mystic meaning fraught.
+              <br/>The old book I had been reading,
+              <br/>Brimfull was of holy thought,
+              <br/>Far away through darkness leading,
+              <br/>With a mystic meaning fraught.
 
-              Truth it seemed yet changing ever,
-              Seeking what that truth might be;
-              Long I strove with vain endeavor,
-              To unveil its mystery.
+              <br/>Truth it seemed yet changing ever,
+              <br/>Seeking what that truth might be;
+              <br/>Long I strove with vain endeavor,
+              <br/>To unveil its mystery.
 
-              Sitting by the open casement,
-              With the old book in my hand,
-              Outward looking—with amazement,
-              There I saw a figure stand,
+              <br/>Sitting by the open casement,
+              <br/>With the old book in my hand,
+              <br/>Outward looking—with amazement,
+              <br/>There I saw a figure stand,
 
-              Shadowy it was and glimmered,
-              Like a billow’s snowy crest,
-              And the moonlight through it shimmered.
-              With a beautiful un-rest.
+              <br/>Shadowy it was and glimmered,
+              <br/>Like a billow’s snowy crest,
+              <br/>And the moonlight through it shimmered.
+              <br/>With a beautiful un-rest.
 
-              Like a shining one descending,
-              Struggling in the wind’s embrace,
-              Seemed she now—now dimly blending;
-              With the shadows in their race.
+              <br/>Like a shining one descending,
+              <br/>Struggling in the wind’s embrace,
+              <br/>Seemed she now—now dimly blending;
+              <br/>With the shadows in their race.
 
-              Bending with a waving motion,
-              She upon the yellow sand
-              Drew a rainbow based on ocean ;
-              Ocean without sea or land.
+              <br/>Bending with a waving motion,
+              <br/>She upon the yellow sand
+              <br/>Drew a rainbow based on ocean ;
+              <br/>Ocean without sea or land.
 
-              But the sand I saw not—only,
-              On the sand the bended bow,
-              And within it—dim and lonely,
-              Swung a meteor—to and fro.
+              <br/>But the sand I saw not—only,
+              <br/>On the sand the bended bow,
+              <br/>And within it—dim and lonely,
+              <br/>Swung a meteor—to and fro.
 
-              Swinging—swinging—like a plummet,
-              ’Till the maiden rose and saith,
-              "Lo !” and on the glowing summit,
-              Wrote in golden letters FAITH.
+              <br/>Swinging—swinging—like a plummet,
+              <br/>’Till the maiden rose and saith,
+              <br/>"Lo !” and on the glowing summit,
+              <br/>Wrote in golden letters FAITH.
 
-              Then the meteor ceased its motion.
-              Upward rose with deathless ray,
-              And the rainbow and the ocean,
-              Faded from my sight away.
+              <br/>Then the meteor ceased its motion.
+              <br/>Upward rose with deathless ray,
+              <br/>And the rainbow and the ocean,
+              <br/>Faded from my sight away.
 
-              Then the silver maiden speaketh,
-              But with voice so soft and low,
-              That no word the silence breaketh,
-              Though their import well I know.
+              <br/>Then the silver maiden speaketh,
+              <br/>But with voice so soft and low,
+              <br/>That no word the silence breaketh,
+              <br/>Though their import well I know.
 
-              Thus the darkness shall be shivered—
-              And the crooked be made straight.
-              And thy soul shall be delivered
-              If thou faithful watch and wait.
-            
+              <br/>Thus the darkness shall be shivered—
+              <br/>And the crooked be made straight.
+              <br/>And thy soul shall be delivered
+              <br/>If thou faithful watch and wait.
+            </div>
           </div>
         </div>
 
 
 
 
-        <a href="#p105"/>
+        <br/>
+      <div class="pagebreak" id="#page105"/>
         
-        
+        <br/>
+      <div class="columnbreak"/>
 
-        <div id="#p9" class="piece">
+        <div class="piece" id="#p9">
           <div class="head">HORACE GREELEY.</div>
           <p>We have been importuned to follow up our portraits of “Mi Boy” and the “Brigadier,”
             with the portraits of the
@@ -1240,7 +1273,7 @@
             <br/>dozen widows and orphans in luxurious dinners, could have done.</p>
 
           
-            Rodman
+            <div class="byline">Rodman</div>
           
 
           <p>Mr. Greeley owes his eminence mainly to his pen ; people listen to his speeches because
@@ -1267,12 +1300,14 @@
             <br/>ted expression of bis countenance in this style of engraving.</p>
         </div>
 
-        <a href="#p106"/>
+        <br/>
+      <div class="pagebreak" id="#page106"/>
         
-        
-        <div id="#p10" class="piece">
+        <br/>
+      <div class="columnbreak"/>
+        <div class="piece" id="#p10">
           <div class="head">THE GREAT TOWER OF TARUDANT.</div>
-          BY <span class="person" id="">ROBERT OLIVER</span>.
+          <div class="byline">BY <span class="person">ROBERT OLIVER</span>.</div>
           <div class="ab">Two meanings have our lightest fantasies—
             <br/>One of the flesh, and of the Spirit one.—Lowell.</div>
           <p>There was sorrow and lamentation in the city of Tarudant.
@@ -1352,7 +1387,8 @@
             <br/>splendid habiliments. He wore only a single green garment,
             <br/>tattered and dirty, which reached from his head to his heels,
             <br/>and was bound about his waist by a rope of camel’s hair.
-            
+            <br/>
+            <div class="columnbreak"/>
             <br/>Who, therefore, could believe that a man so wretchedly
             <br/>formed, so shabbily attired, was in possession of supernatural
             <br/>knowledge and power ? That he could unveil the future
@@ -1435,8 +1471,10 @@
             <br/>from Granada, whose intolerable couplets were held in such
             <br/>general dread, that even in the great hall of the palace, he
             <br/>could always be sure of an undisturbed solitude, so dear to
-            <a href="#p107"/>
-            
+            <br/>
+            <div class="pagebreak" id="#page107"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>the pensive poetic soul, and who, in the absence of other lis-
             <br/>teners, inflicted his verses upon himself with a persevering
             <br/>endurance that would have done honor to an Indian fakir.</p>
@@ -1519,7 +1557,8 @@
             <br/>So the kingdom overflowed with wealth and population.
             <br/>Caravans bearing rich burdens animated its plains with
             <br/>endless processions. Buyers and sellers crowded the capa-
-            
+            <br/>
+            <div class="columnbreak"/>
             <br/>cious bazaars. From morn till eve, the air resounded with
             <br/>the din and clangor of innumerable work-shops—from eve till
             <br/>morn, the darkness was cheered by the blaze of festivity, and
@@ -1566,7 +1605,7 @@
 
 
 
-        <div id="#p11" class="piece">
+        <div class="piece" id="#p11">
           <div class="head">THE CONCERT ROOM.</div>
           <p>Gratuitous Services at Charitable Concerts.--Our
             <br/>attention has often been called to this subject, and we have
@@ -1598,8 +1637,10 @@
             <br/>dollars would be considered a liberal donation. Contrast
             <br/>this small amount with the sum, in a measure demanded, in
             <br/>the services of a professor. We will mention two instances,
-            <a href="#p108"/>
-            
+            <br/>
+            <div class="pagebreak" id="#page108"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>one of them Madame Otto. Within the last six months,
             <br/>this lady, whose kindness and disinterested nature is well
             <br/>known, has given away in gratuitous services, no less a sum
@@ -1654,9 +1695,9 @@
         </div>
 
 
-        <div id="#s4" class="section">
+        <div class="section" id="#s4">
           <div class="head">VARIETIES.</div>
-          <div id="#p12" class="piece">
+          <div class="piece" id="#p12">
             <div class="head">CHEAP POSTAGE.</div>
             <p>It is truly astonishing to see with what pertinacity our
               <br/>legislators cling to old abuses, and with what eagerness they
@@ -1670,7 +1711,8 @@
               <br/>majority of the members of Congress. But the President
               <br/>recommends the annexation of a foreign territory by joint re-
               <br/>solution of Congress, and his hint is acted upon with indecent
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>haste, notwithstanding that the people declare themselves
               <br/>opposed to the measure. But we discern a glimpse of morn-
               <br/>ing breaking out from this darkness. The joint resolution
@@ -1743,47 +1785,49 @@
 
 
 
-          <a href="#p109"/>
-          
+          <br/>
+         <div class="pagebreak" id="#page109"/>
+          <br/>
+         <div class="columnbreak"/>
 
-          <div id="#p13" class="piece">
+          <div class="piece" id="#p13">
             <div class="head">THEFTS OF AMERICAN AUTHORS.</div>
             <p>"Somebody is a thief,” said the critic of the Mirror a few
               <br/>days since, when commenting on Longfellow's “Waif.”
               <br/>The occasion of the remark was a comparison of the follow-
               <br/>ing lines by Hood—</p>
 
-            
-              We watched her breathing through the night,
-              Her breathing soft and low.
-              As in her breast the wave of life
-              Kept heaving to and fro.
-              So silently we seemed to speak,
-              So slowly moved about,
-              At we had lent her half our powers
-              To eke her being out.
-              Our very hope belied our fears;
-              Our fears our hopes belied ;
-              We thought her dying when she slept,
-              And sleeping when she died.
-              For when the mom came dim and sad,
-              And chill with early showers,
-              Her quiet eye lids closed :—the had
-              Another morn than ours.
-            
+            <div class="lg">
+              <br/>We watched her breathing through the night,
+              <br/>Her breathing soft and low.
+              <br/>As in her breast the wave of life
+              <br/>Kept heaving to and fro.
+              <br/>So silently we seemed to speak,
+              <br/>So slowly moved about,
+              <br/>At we had lent her half our powers
+              <br/>To eke her being out.
+              <br/>Our very hope belied our fears;
+              <br/>Our fears our hopes belied ;
+              <br/>We thought her dying when she slept,
+              <br/>And sleeping when she died.
+              <br/>For when the mom came dim and sad,
+              <br/>And chill with early showers,
+              <br/>Her quiet eye lids closed :—the had
+              <br/>Another morn than ours.
+            </div>
 
             <p>with these stanzas by Mr. Aldrich—</p>
 
-            
-              Her sufferings ended with the day,
-              Yet lived she at its close,
-              And breathed the long, long night away
-              In statue-like repose;
-              But when the sun in all its state
-              Illumed the eastern skies,
-              She passed through Glory’s morning gate,
-              And walked in paradise.
-            
+            <div class="lg">
+              <br/>Her sufferings ended with the day,
+              <br/>Yet lived she at its close,
+              <br/>And breathed the long, long night away
+              <br/>In statue-like repose;
+              <br/>But when the sun in all its state
+              <br/>Illumed the eastern skies,
+              <br/>She passed through Glory’s morning gate,
+              <br/>And walked in paradise.
+            </div>
 
             <p>We can discover no resemblance between these verses,
               <br/>sufficient to warrant the charge of plagiarism, excepting the
@@ -1826,7 +1870,8 @@
             <p>The charge of plagiarism against Mrs. Ellet—which we
               <br/>think should have been called “an unblushing charge of
               <br/>Plagiarism” rather than "a charge of unblushing plagiarism”
-              
+              <br/>
+               <div class="columnbreak"/>
               <br/>—is thus noticed in the Southern Chronicle, published at
               <br/>Columbia, S. C., where Mrs. Ellet resides. The numerous
               <br/>friends of Mrs. Ellet needed no explanation, and it seems
@@ -1852,7 +1897,7 @@
 
 
 
-        <div id="#p14" class="piece">
+        <div class="piece" id="#p14">
           <div class="head">THE MAGAZINES.</div>
           <p>We have received No. l. of the Aristidean, a Magazine of Reviews,
             <br/>Politics, and light Literature, for March, 1845, edited by Thomas Dunn
@@ -1878,16 +1923,16 @@
             <br/>dean as the paper on Texas.</p>
           <p>The last stanza runs thus—</p>
 
-          
-            "Old Sampson and Cӕsar—
-            Each man was a sneezer—
-            Tossed off, with a will, rosy wine;
-            While Ovid, the scamp, he
-            With Cato and Pompey,
-            Drank three bottles each when they’d dine.
-            So we tread in the steps of the famous in rhyme—
-            The jolly old Cocks of the gone-sway time.”
-          
+          <div class="lg">
+            <br/>"Old Sampson and Cӕsar—
+            <br/>Each man was a sneezer—
+            <br/>Tossed off, with a will, rosy wine;
+            <br/>While Ovid, the scamp, he
+            <br/>With Cato and Pompey,
+            <br/>Drank three bottles each when they’d dine.
+            <br/>So we tread in the steps of the famous in rhyme—
+            <br/>The jolly old Cocks of the gone-sway time.”
+          </div>
 
           <p>What puzzles us most in this article is the difficulty of classing it;
             <br/>whether with "the solidity of the review,” or, "the lightness of the
@@ -1919,12 +1964,14 @@
 
 
 
-        <a href="#p110"/>
-        
+        <br/>
+      <div class="pagebreak" id="#page110"/>
+        <br/>
+      <div class="columnbreak"/>
 
-        <div id="#s5" class="section">
+        <div class="section" id="#s5">
           <div class="head">LITERARY NOTICES.</div>
-          <div id="#p15" class="piece">
+          <div class="piece" id="#p15">
             <div class="ab">A Plea for Woman, being a Vindication of the importance and extent of her
               <br/>natural sphere of action. By Mrs. Hugo Reid; with an introduction by
               <br/>Mrs. C. M. Kirkland. New York: Farmer &amp; Daggers, 30 Ann street.</div>
@@ -1954,7 +2001,7 @@
           </div>
 
 
-          <div id="#p16" class="piece">
+          <div class="piece" id="#p16">
             <div class="ab">Hunt’s Merchants' Magazine for February.</div>
             <p>We omitted, by accident, to mention this excellent periodical in our
               <br/>last week’s Review. The present number contains some admirable
@@ -1970,7 +2017,7 @@
           </div>
 
 
-          <div id="#p17" class="piece">
+          <div class="piece" id="#p17">
             <div class="ab">The Monthly Rose. Vol. I. No. 2. A periodical sustained by the present
               <br/>members of the Albany Female Academy. Albany. E. H. Pease and W. C.
               <br/>Little.</div>
@@ -1983,7 +2030,7 @@
           </div>
 
 
-          <div id="#p18" class="piece">
+          <div class="piece" id="#p18">
             <div class="ab">Guano; its Origin, Properties, and Uses—showing its importance to the Far-
               <br/>mers of the United State, as a cheap and valuable Manure, with
               directions
@@ -2005,7 +2052,7 @@
           </div>
 
 
-          <div id="#p19" class="piece">
+          <div class="piece" id="#p19">
             <div class="ab">The Edinburgh Review. No. clxiii, for January, 1845. American Edition.
               <br/>Leonard Scott &amp; Co., 112 Fulton street.</div>
             <p>Since English Reviews must be republished in this country, our own
@@ -2015,7 +2062,8 @@
               <br/>the publishers of the London, Edinburgh, Foreign, and Westminster.
               <br/>A greater amount of good reading, for so small a sum as these works
               <br/>cost, was never before afforded to the public.</p>
-            
+            <br/>
+            <div class="columnbreak"/>
             <p>The January number of the Edinburgh contains seven articles, the
               <br/>the most important being on the progress of Scientific Agriculture.
               <br/>The article on Charles Churchill, will be found, perhaps, the best
@@ -2025,9 +2073,9 @@
 
 
 
-        <div id="#s6" class="section">
+        <div class="section" id="#s6">
           <div class="head">BITS OF NEWS.</div>
-          <div id="#p20" class="piece">
+          <div class="piece" id="#p20">
             <p>Schnol for the Arts of Design.—The Mechanic’s Institute of
               <br/>this city have established an Evening School for the Arts of Design, as
               <br/>applied to the mechanic Arts, and their success is fully equal to the
@@ -2049,7 +2097,7 @@
               <br/>worthy the support of our citizens generally.</p>
           </div>
 
-          <div id="#p21" class="piece">
+          <div class="piece" id="#p21">
             <p>The Common Council have unanimously resolved to allow the use of
               <br/>the building in the Park, known as the Rotunda, to the New York
               <br/>Gallery of the Fine Arts, at an annual rent of one dollar We are
@@ -2064,7 +2112,7 @@
         </div>
 
 
-        <div id="#p22" class="piece">
+        <div class="piece" id="#p22">
           <div class="head">MUSICAL INTELLIGENCE.</div>
           <p>Madame Pico has been very successful in Boston. Sanquirico has
             <br/>also there created a favorable impression.</p>
@@ -2105,12 +2153,14 @@
             <br/>talented young ladies are beginning lo be justly appreciated.</p>
         </div>
 
-        <a href="#p111"/>
-        
+        <br/>
+      <div class="pagebreak" id="#page111"/>
+        <br/>
+      <div class="columnbreak"/>
 
-        <div id="#s7" class="section">
+        <div class="section" id="#s7">
           <div class="head">CORRESPONDENCE.</div>
-          <div id="#p23" class="piece">
+          <div class="piece" id="#p23">
             <p>For the Broadway Journal.</p>
             <p>"With all our boasting of American genius, we have not yet been
               <br/>able to design a pattern for a cap ribbon.”</p>
@@ -2128,8 +2178,10 @@
               <br/>ingenuity of a class of men who are supposed by the literary portion of
               <br/>the community, to have no ideas beyond those engendered and foster-
               <br/>ed by the almighty dollar.</p>
-            <span class="person" id="">S. A. W.</span>
-            [We give place to the above communication with great pleasure, for
+            <span class="person">S. A. W.</span>
+            <span class="note" id="">
+               <a href=""/>
+            </span>[We give place to the above communication with great pleasure, for
               <br/>we are happy to learn that our dealers in fancy goods are not so depen-
               <br/>dent upon the inventive genius of Frenchmen as we had supposed. If
               <br/>our merchants, without an artistical education, are able to make pleas-
@@ -2141,7 +2193,7 @@
               <br/>tariff could never do.—Ed.]
           </div>
 
-          <div id="#p24" class="piece">
+          <div class="piece" id="#p24">
             <p>To the Editor of the Broadway Journal.</p>
             <p>Mr. Editor—While reading the fifth nnmber of your paper, I was
               <br/>much struck by an article entitled, Barbarities of the Theatre. Since
@@ -2169,7 +2221,7 @@
           </div>
 
 
-          <div id="#p25" class="piece">
+          <div class="piece" id="#p25">
             <p>To the Editor of the Broadway Journal.</p>
             <p>Dear Mr Editor,</p>
             <p>Im a surprised that you print our letters; we only wrote to you
@@ -2191,7 +2243,9 @@
               <br/>prevent exposure, I sign myself only</p>
             <br/>
             Your Friend.
-            P. S. The punning gentleman has lately begun upon conundrums, and
+            <span class="note" id="">
+               <a href=""/>
+            </span>P. S. The punning gentleman has lately begun upon conundrums, and
               <br/>be called upon us in the midst of the snow storm to tell us that a bon-
               <br/>net is not a bonnet when it becomes a lady. Such dreadful trash ! Of
               <br/>course nobody laughed but the gentleman himself. Do you think that
@@ -2201,9 +2255,10 @@
 
 
 
-        
+        <br/>
+      <div class="columnbreak"/>
 
-        <div id="#s8" class="section">
+        <div class="section" id="#s8">
 
 
           <div>
@@ -2331,9 +2386,11 @@
 
 
 
-          <a href="#p112"/>
+          <br/>
+         <div class="pagebreak" id="#page112"/>
           
-          
+          <br/>
+         <div class="columnbreak"/>
 
 
           <div>
@@ -2354,7 +2411,8 @@
           </div>
 
           
-          
+          <br/>
+         <div class="columnbreak"/>
 
           <div>
             <div class="head">DR. ARNOLD’S LIFE AND CORRESPONDENCE.</div>
@@ -2436,10 +2494,13 @@
 
 
 
-          
+          <br/>
+         <div class="columnbreak"/>
 
           <div>
-            The First Premium awarded five years by the American Institute for
+            <span class="note" id="">
+               <a href=""/>
+            </span>The First Premium awarded five years by the American Institute for
               <br/>the best Specimen of Off-hand Penmanship.
             <div class="head">GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,</div>
               <div class="ab">NO. 189 BROADWAY, NEW YORK.</div>
@@ -2481,7 +2542,7 @@
         </div>
 
 
-          <div id="p26" class="piece">
+          <div class="piece" id="p26">
             <div class="head">Prospectus of the Broadway Journal.</div>
             <div class="ab">To be Published every Saturday.</div>
             <p>The Broadway Journal will differ from any of the weekly Peri-

@@ -14,6 +14,8 @@
           
           
       <div>
+         <br/>
+         <div class="columnbreak"/>
          <div class="head">TWENTIETH ANNUAL EXHIBITION OF THE ACADEMY
 OF NATIONAL DESIGN.</div>
          <p>THE Artists of New York,
@@ -67,8 +69,9 @@ OF NATIONAL DESIGN.</div>
 <br/>artist to exhibit one of his works that will bring him into
 <br/>contempt; it will be better that he remain unknown,
 <br/>than known unfavorably ; his crude works, which may appear
-<br/>respectably in his own room, when hung by the side of a
-<br/>finished performance will appear very bad. The hanging
+<br/>respectably in his own room, when hung by the side of a<br/>
+            <div class="columnbreak"/>
+            <br/>finished performance will appear very bad. The hanging
 <br/>committee have an extremely delicate duty, and it is easy
 <br/>to understand the difficulty of rejecting the work of a per-
 <br/>sonal friend or of an associate, but their duty to the cause of
@@ -122,7 +125,10 @@ OF NATIONAL DESIGN.</div>
 <br/>which Mr. Mayr evidently lacks. It is truly a melancholy
 <br/>sight to see so much ability, and so much time and good ma-
 <br/>terials, employed all to no purpose. What perfect works
-<br/>should we not see if every man could know what he was<a href="#p258"/>
+<br/>should we not see if every man could know what he was<br/>
+            <div class="pagebreak" id="#page258"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>best calculated to perform! The merest tyro could tell Mr.
 <br/>Mayr that the head of his Adam is a good deal too small,
 <br/>that Eve is a good deal too young, that Abel lies as flat upon
@@ -187,8 +193,9 @@ OF NATIONAL DESIGN.</div>
 <br/>of these masquerade subjects, they are out of place every
 <br/>where excepting in a lady's magazine, and even there they
 <br/>would be out of place if we did not expect to see them as a
-<br/>matter of course. It is impossible that they should embody
-<br/>an idea that will prove either profitable or pleasing to any
+<br/>matter of course. It is impossible that they should embody<br/>
+            <div class="columnbreak"/>
+            <br/>an idea that will prove either profitable or pleasing to any
 <br/>body, and we cannot but wonder that an artist should throw
 <br/>away his time in producing such inanities, while the world
 <br/>is full of sober realities, whose shadows even appeal forcibly
@@ -255,7 +262,10 @@ OF NATIONAL DESIGN.</div>
 <br/>There may have been very gross carelessness on the part of
 <br/>the pilot of the Swallow, but there will always be careless-
 <br/>ness on the part of other pilots; it is quite impossible to
-<br/>guard against it wholly, and the safer way will be to put it<a href="#p259"/>
+<br/>guard against it wholly, and the safer way will be to put it<br/>
+            <div class="pagebreak" id="#page259"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>out of the power of carelessness or inefficiency to destroy life
 <br/>and property, by erecting all suitable safeguards before we
 <br/>expose ourselves to danger. The public demand swift ve-
@@ -327,8 +337,9 @@ Garden—in other words, on the giant’s forehead.</p>
 <br/>of our national Commerce—as they enter this noble bay, not
 <br/>dealing death and destruction in their path, as in former days,
 <br/>but freighted with the productions of many a clime, from the
-<br/>iron of northern Russia to the spices of Ceylon! See the 
-<br/>leafless forest that surrounds our wharves as if it grew out
+<br/>iron of northern Russia to the spices of Ceylon! See the <br/>
+            <div class="columnbreak"/>
+            <br/>leafless forest that surrounds our wharves as if it grew out
 <br/>of the water, its culminating points piercing the sky like the
 <br/>spears of an army of Titans. You can hear, at this distance,
 <br/>the clicking cogs of a hundred windlasses, loading and un-
@@ -407,7 +418,10 @@ THE PARK.
 <br/>the qui vive from morning to night, and from night to morn-
 <br/>ing, with their engines on the pavement, and the ropes in
 <br/>their hands, ready to start at the first note of alarm, and ar-
-<br/>ray the elements each other—water against fire. See<a href="#p260"/>
+<br/>ray the elements each other—water against fire. See<br/>
+            <div class="pagebreak" id="#page260"/>
+            <br/>
+            <div class="columnbreak"/>
          </p>
          <p>how the school-boys fly across the gravelled walks, leaving
 <br/>their cricket-bats and balls, to find out where the blaze is!
@@ -489,35 +503,44 @@ THE PARK.
 <br/>after it. What stirring dramas have been enacted during the
 <br/>long interval! Nineteen centuries more, and antiquaries
 <br/>will perhaps be rambling with their note books among the
-<br/>scarce distinguishable ruins of this great city, and inquiring
-<br/>of the herdsmen, who shall feed their flocks between Harlem
+<br/>scarce distinguishable ruins of this great city, and inquiring<br/>
+            <div class="columnbreak"/>
+            <br/>of the herdsmen, who shall feed their flocks between Harlem
 <br/>and the Battery, concerning the whereabouts of the ancient
 <br/>Broadway ! Mutandum est omnibus—the omnibuses must
 <br/>pass away !</p>	
-        <span class="person" id="">I. M.</span>
+        <div class="byline">
+            <span class="person">I. M.</span>
+         </div>
       </div>
         
         <div>
          <div class="head">TO F-------.</div>
-Beloved ! amid the earnest woes
-That crowd around my earthly path—
-(Drear path, alas ! where grows
-Not even one lonely rose)—
-My soul at least a solace hath
-In dreams of thee, and therein knows
-An Eden of bland repose.
-And thus thy memory is to me
-Like some enchanted far-off isle
-In some tumultuous sea—
-Some ocean throbbing far and free
-With storms—but where meanwhile
-Serenest skies continually
-Just o’er that one bright island smile. 	<span class="person" id="">E</span>
+         <div class="lg">
+            <br/>Beloved ! amid the earnest woes
+<br/>That crowd around my earthly path—
+<br/>(Drear path, alas ! where grows
+<br/>Not even one lonely rose)—
+<br/>My soul at least a solace hath
+<br/>In dreams of thee, and therein knows
+<br/>An Eden of bland repose.
+<br/>And thus thy memory is to me
+<br/>Like some enchanted far-off isle
+<br/>In some tumultuous sea—
+<br/>Some ocean throbbing far and free
+<br/>With storms—but where meanwhile
+<br/>Serenest skies continually
+<br/>Just o’er that one bright island smile. </div>	
+         <div class="byline">
+            <span class="person">E</span>
+         </div>
       </div>
           
          <div> 
          <div class="head">LAW AND WALTZING.</div>
-Translated from the French.
+         <span class="note" id="">
+            <a href=""/>
+         </span>Translated from the French.
 <p>It was but the other day that I chanced to be crossing the
 <br/>gloomy vestibule of the Palais de Justice, called with much
 <br/>reason the Hall des Pas Perdus. The door leading to the
@@ -566,7 +589,10 @@ Translated from the French.
 <br/>tears, or cause you to grow pale with terror.”</p>
            <p>While speaking, the lawyer introduced the tip of his fin-
 <br/>ger, at hazard, between two leaves of a volume he held, and
-<a href="#p261"/>
+<br/>
+            <div class="pagebreak" id="#page261"/>
+            <br/>
+            <div class="columnbreak"/>
 opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>3d, paragraph 138,—here we are in the midst of deep trage-
 <br/>dy. I have ten minutes yet, before my cause comes on; so I
@@ -648,8 +674,9 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>questions, she informed him that his mothers end was near.
 <br/>Struck by the dreadful intelligence, the young man sunk into
 <br/>a chair, rigid and insensible. His mother saw him and was
-<br/>terrified; she sprang from her bed, and called his name with 
-<br/>her dying voice : Gustave recalled to sense by the sound,
+<br/>terrified; she sprang from her bed, and called his name with <br/>
+            <div class="columnbreak"/>
+            <br/>her dying voice : Gustave recalled to sense by the sound,
 <br/>hastened to support her in his arms; she sank upon his
 <br/>breast, and breathed her last sigh.</p>
            <p>“The bereaved son was seized with convulsions; the
@@ -730,7 +757,10 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
            <p>" ‘ Giuseppa!’</p>
            <p>" ' I was never loved but once. He who loved me was poor;
 <br/>but bavin" seen me he won for me rank, opulence, and hap-
-<br/>piness ; he counted nothing; stopped at nothing; so I was<a href="#p262"/>
+<br/>piness ; he counted nothing; stopped at nothing; so I was<br/>
+            <div class="pagebreak" id="#page262"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>proud to bear his name—and adore him as a deity.’</p>
            <p>“ ' But you repel my love; you plunge me into despair.
 <br/>Consent to become my wife ; I feel that I shall then toil with
@@ -812,8 +842,9 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>such information as shall procure the arrest of other guilty
 <br/>persons.’</p>
            <p>“With a slight but graceful gesture, she twined her slen-
-<br/>der fingers in her beautiful dark hair. ' Ah!’ she exclaimed,
-<br/>' the law pardons the informer! Thanks—and adieu, Mon-
+<br/>der fingers in her beautiful dark hair. ' Ah!’ she exclaimed,<br/>
+            <div class="columnbreak"/>
+            <br/>' the law pardons the informer! Thanks—and adieu, Mon-
 <br/>sieur l’avocat.’</p>
            <p>“ The same evening, the friend who had accompanied me
 <br/>to Giuseppa’s ball, informed me that Gustave Remicourt had
@@ -894,7 +925,10 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
            <p>" You remember the exciting political events from 1812, to
 <br/>1816 ?—the invasion of France, the taking of Paris, the resto-
 <br/>ration, the return from Elba, the hundred days, Waterloo,
-<br/>and finally the second return of the Bourbons. In the tu-<a href="#p263"/>
+<br/>and finally the second return of the Bourbons. In the tu-<br/>
+            <div class="pagebreak" id="#page263"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>mult of these stupendous events, Gustave and Giuseppa pas-
 <br/>sed from my recollection.</p>
            <p>“One evening at the carnival, in 1817, fatigued with a
@@ -976,8 +1010,9 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>posite in your hands.’</p>
            <p>" He gave me his pocket-book, placed his watch in my
 <br/>hand, and hastened back to the card table. His luck had
-<br/>not abandoned him, even during his absence. Everybody
-<br/>looked at him in astonishment, and almost with superstitious
+<br/>not abandoned him, even during his absence. Everybody<br/>
+            <div class="columnbreak"/>
+            <br/>looked at him in astonishment, and almost with superstitious
 <br/>fear. While gathering up the money he had gained, he
 <br/>cast his eyes around, and fixed them on Giuseppa, who had
 <br/>come with others to see the wonderful player.</p>
@@ -1060,7 +1095,10 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
            <p>'To save yourself'—cried he, 'you, who devised the crime
 <br/>—you, who reaped its sole fruits—betrayed and sold him!
 <br/>You abandoned him to death, without compassion.'</p>
-         <a href="#p264"/>
+         <br/>
+         <div class="pagebreak" id="#page264"/>
+         <br/>
+         <div class="columnbreak"/>
            <p>'Heap your reproaches upon me ; I merit them. But for
 <br/>pity’s sake, monsieur, let me rest. This frightful pain—I
 <br/>can support it no longer.’</p>
@@ -1107,7 +1145,9 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>he, showing it to me.</p>
            <p>“ Ha ! I had no idea it was so late. Dupin and Oremieux
 <br/>are waiting to consult with me. Adieu.”</p> 
-         <span class="person" id="">e. f. ellet.</span>
+         <div class="byline">
+            <span class="person">e. f. ellet.</span>
+         </div>
       </div>
           
           
@@ -1146,6 +1186,8 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>me, and outreaching my hand with difficulty, rather than
 <br/>disturb my slumbering valet, I placed it so as to throw its
 <br/>rays more fully upon the book.</p>
+         <br/>
+         <div class="columnbreak"/>
           <p>But the action produced an effect altogether unanticipated.
 <br/>The rays of the numerous candles (for there were many)
 <br/>now fell within a niche of the room which had hitherto
@@ -1227,7 +1269,10 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>his eyes from the canvas rarely, even to regard the counte-
 <br/>nance of his wife. And he would not see that the tints
 <br/>which he spread upon the canvas were drawn from the
-<br/>cheeks of her who sate beside him. And when many weeks<a href="#p265"/>
+<br/>cheeks of her who sate beside him. And when many weeks<br/>
+            <div class="pagebreak" id="#page265"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>had passed, and hut little remained to do, save one brush up-
 <br/>on the mouth and one tint upon the eye, the spirit of the lady
 <br/>again flickered up as the flame within the socket of the lamp.
@@ -1237,42 +1282,50 @@ opened it. “Just as I said!” cried he, “ Look here ; chapter
 <br/>yet gazed, he grew tremulous and very pallid, and aghast,
 <br/>and crying with a loud voice ‘This is indeed Life itself!’
 <br/>turned suddenly to regard his beloved:—She was dead."</p>
-         <span class="person" id="">EDGAR A. POE.</span>
+         <div class="byline">
+            <span class="person">EDGAR A. POE.</span>
+         </div>
       </div>
           
       <div>
          <div class="head">HOPE.</div>
-(in the manner OF burns.)
-I dare not sing of lofty things,
-Of heroes, demigods, and kings ;
-And yet, my song hath no mean wings,—
-Were they but grown,
-Proud over heads of carping fools
-It long had flown.
-Feebly the yearling falcon flies,
-Strong, tumbling torrents humbly rise,—
-Nor, at the first, in tempest tries
-His arms the pine;
-Slow planned, the solemn domes arise,
-Nor soon decline.
-Oh ! much avails the strong desire,
-The bosom touched with restless fire,
-The strife that sunward still, and higher,
-Would ceaseless rise;
-More in the strife than in the crown,
-The virtue lies.
-Still, at the mountain's wooded base
-The fledgling hawk, though proud, may chase
-A game too humble for the race
-Of stronger plumes;
-So may the soul her strength await,
-Whom Hope illumes.
-And should my day be limited,
-Let conscious worth my soul bested ;
-Glory may wreath the honored head,
-But could not rise
-With crown of stars, to match the worth
-That higher lies.	<span class="person" id="">HORUS.</span>
+         <span class="note" id="">
+            <a href=""/>
+         </span>(in the manner OF burns.)
+<div class="lg">
+            <br/>I dare not sing of lofty things,
+<br/>Of heroes, demigods, and kings ;
+<br/>And yet, my song hath no mean wings,—
+<br/>Were they but grown,
+<br/>Proud over heads of carping fools
+<br/>It long had flown.
+<br/>Feebly the yearling falcon flies,
+<br/>Strong, tumbling torrents humbly rise,—
+<br/>Nor, at the first, in tempest tries
+<br/>His arms the pine;
+<br/>Slow planned, the solemn domes arise,
+<br/>Nor soon decline.
+<br/>Oh ! much avails the strong desire,
+<br/>The bosom touched with restless fire,
+<br/>The strife that sunward still, and higher,
+<br/>Would ceaseless rise;
+<br/>More in the strife than in the crown,
+<br/>The virtue lies.
+<br/>Still, at the mountain's wooded base
+<br/>The fledgling hawk, though proud, may chase
+<br/>A game too humble for the race
+<br/>Of stronger plumes;
+<br/>So may the soul her strength await,
+<br/>Whom Hope illumes.
+<br/>And should my day be limited,
+<br/>Let conscious worth my soul bested ;
+<br/>Glory may wreath the honored head,
+<br/>But could not rise
+<br/>With crown of stars, to match the worth
+<br/>That higher lies.	</div>
+         <div class="byline">
+            <span class="person">HORUS.</span>
+         </div>
       </div>
 
       <div>
@@ -1300,8 +1353,9 @@ That higher lies.	<span class="person" id="">HORUS.</span>
 <br/>pension from government, which was awarded to him in
 <br/>consideration of his having worn a pair of gilt epaulettes a
 <br/>certain number of years. The dignity of labor, is a phrase
-<br/>that was invented by certain people who wished to make
-<br/>laborers contented with their condition, lest they should grow
+<br/>that was invented by certain people who wished to make<br/>
+            <div class="columnbreak"/>
+            <br/>laborers contented with their condition, lest they should grow
 <br/>dissatisfied and refuse to work any longer to support a cer-
 <br/>tain number of their fellow beings in a state of idlehood;
 <br/>but the laborers do not appear to appreciate the compliment
@@ -1331,7 +1385,9 @@ That higher lies.	<span class="person" id="">HORUS.</span>
 <br/>mendation that should in such a case be given to a servant on
 <br/>leaving his place.</p>
       No. 1.
-From an individual whose gardener had left him for the sake of a more
+<span class="note" id="">
+            <a href=""/>
+         </span>From an individual whose gardener had left him for the sake of a more
 <br/>dignified station.
       <p>This is to certify that His Excellency, Thompson Donald-
 <br/>son, the bearer of this, was in my employment as a gardener
@@ -1341,7 +1397,9 @@ From an individual whose gardener had left him for the sake of a more
 <br/>light, and H. E. having an ambition to become a ditcher or
 <br/>something of that kind.	Christopher Easysides.</p>
        No. 2.
-From a person whose coachman had become dissatisfied with his idle and
+<span class="note" id="">
+            <a href=""/>
+         </span>From a person whose coachman had become dissatisfied with his idle and
 <br/>luxurious situation.
        <p>To whom it may concern, this is to certify that the bearer,
 <br/>the honorable Terence Malone, is an honest industrious gen-
@@ -1355,7 +1413,9 @@ From a person whose coachman had become dissatisfied with his idle and
 <br/>which he is fearful of growing corpulent and idle.</p>
          <p>Peter Van Summertime.</p>  
       No. 3.
-From a Stock Broker recommending his clerk.
+<span class="note" id="">
+            <a href=""/>
+         </span>From a Stock Broker recommending his clerk.
       <p>This is to certify that Charles Sturdyman, Esquire, has
 <br/>been employed in my office as a book keeper the past year.
 <br/>I have found him attentive, docile and correct in his duties.
@@ -1366,14 +1426,19 @@ From a Stock Broker recommending his clerk.
          <p>Mr. Sturdyman is somewhat enervated at present from
 <br/>having been in the habit of taking his breakfast in bed, but I
 <br/>have no doubt that he will in time become a dignified mem-
-<br/>ber of society, for his mind seems bent upon hard work. He<a href="#p266"/>
+<br/>ber of society, for his mind seems bent upon hard work. He<br/>
+            <div class="pagebreak" id="#page266"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>is ambitious to wield a sledge hammer, but I have recom-
 <br/>mended him to try his hand for a while in breaking stones on
 <br/>the public road; he may in time rise to the dignity of a
 <br/>ploughman or stone mason.</p>
          <p>(Signed)	Curtis Littlebody.</p>
        No. 4.
-From a woman in high life to one of her young ladies.
+<span class="note" id="">
+            <a href=""/>
+         </span>From a woman in high life to one of her young ladies.
        <p>My dear Miss Flaherty. I regret extremely that the situ-
 <br/>ation which you have long held in my house, as a maker of
 <br/>beds and a duster of tables, should at last prove so irksome to
@@ -1391,7 +1456,9 @@ From a woman in high life to one of her young ladies.
 <br/>wishing to employ you, that I have ever found you honest
 <br/>and obedient.	M. F.</p>
          No. 5.
-From, the wife of a Cashier, recommending her Cook.
+<span class="note" id="">
+            <a href=""/>
+         </span>From, the wife of a Cashier, recommending her Cook.
 <br/>To my Friends,—
         <p>I can warrant the bearer of this, Madam Davis, to be a
 <br/>first rate Cook. She done all my cooking the last year, but
@@ -1411,31 +1478,35 @@ From, the wife of a Cashier, recommending her Cook.
           
           <div>
          <div class="head">A GENTLE PUFF.</div>
-IF we copied into our Journal all the complimentary notices that
+         <span class="note" id="">
+            <a href=""/>
+         </span>IF we copied into our Journal all the complimentary notices that
 <br/>are bestowed upon us, it would contain hardly any thing besides; the
 <br/>following done into poetry is probably the only one of the kind that
 <br/>we shall receive, and we extract it from our neighbor, the New World,
 <br/>for the sake of its uniqueness.
-Then with step sedate and stately, as if thrones had borne him lately,
-Came a bold and daring warrior up the distant echoing floor;
-As he passed the Courier's Colonel, then I saw The Broadway
-Journal,
-In a character supernal, on his gallant front he bore,
-And with stately step and solemn marched he proudly through the
-door,
-As if he pondered, evermore.
-With his keen sardonic smiling, every other care beguiling,
-Right and left he bravely wielded a double-edged and broad claymore,
-And with gallant presence dashing, ’mid his confreres stoutly clashing,
-He unpityingly went slashing, as he keenly scanned them o’er,
-And with eye and mien undaunted, such a gallant presence bore,
-As might awe them, evermore.
-Neither rank nor station heeding, with his foes around him bleeding,
-Sternly, singly and alone, his course he kept upon that floor;
-While the countless foes attacking, neither strength nor valor lacking,
-On his goodly armor hacking, wrought no change his visage o'er,
-As with high and honest aim, he still his falchion proudly bore,
-Resisting error, evermore.</div>
+<div class="lg">
+            <br/>Then with step sedate and stately, as if thrones had borne him lately,
+<br/>Came a bold and daring warrior up the distant echoing floor;
+<br/>As he passed the Courier's Colonel, then I saw The Broadway
+<br/>Journal,
+<br/>In a character supernal, on his gallant front he bore,
+<br/>And with stately step and solemn marched he proudly through the
+<br/>door,
+<br/>As if he pondered, evermore.
+<br/>With his keen sardonic smiling, every other care beguiling,
+<br/>Right and left he bravely wielded a double-edged and broad claymore,
+<br/>And with gallant presence dashing, ’mid his confreres stoutly clashing,
+<br/>He unpityingly went slashing, as he keenly scanned them o’er,
+<br/>And with eye and mien undaunted, such a gallant presence bore,
+<br/>As might awe them, evermore.
+<br/>Neither rank nor station heeding, with his foes around him bleeding,
+<br/>Sternly, singly and alone, his course he kept upon that floor;
+<br/>While the countless foes attacking, neither strength nor valor lacking,
+<br/>On his goodly armor hacking, wrought no change his visage o'er,
+<br/>As with high and honest aim, he still his falchion proudly bore,
+<br/>Resisting error, evermore.</div>
+      </div>
 
 
       <div>
@@ -1512,7 +1583,10 @@ and Massachusetts Asylum of the Blind.</div>
 <br/>now on the verge of womanhood, she has less elementary
 <br/>knowledge than a child of six years.</p>
             <p>The cases of blind and deaf mutes are not as rare as they
-<a href="#p267"/>
+<br/>
+               <div class="pagebreak" id="#page267"/>
+               <br/>
+               <div class="columnbreak"/>
                <br/>have been supposed ; Dr. Howe has met with ten of these
 <br/>unfortunate persons, in relation to seven of whom he gives
 <br/>some highly interesting particulars.</p>
@@ -1612,6 +1686,8 @@ way. (To be completed in five numbers.)</div>
 <br/>given the first four words only), and should be universally
 <br/>read. Published by Collins &amp; Co. 254 Pearl st.</p>
          </div>
+         <br/>
+         <div class="columnbreak"/>
     
     
          <div>
@@ -1702,7 +1778,10 @@ College, etc., etc. New York : Harper &amp; Brothers.</div>
 <br/>tavo, on very good paper—and all for half a dollar! The
 <br/>most astounding miracles of Mesmerism, if fairly examined,
 <br/>would be found scarcely more really marvellous than this.</p>
-            <a href="#p268"/>
+            <br/>
+            <div class="pagebreak" id="#page268"/>
+            <br/>
+            <div class="columnbreak"/>
            <p>We observe that unusual care has been taken in getting
 <br/>up this edition. The typography is very correct, and the five
 <br/>volumes bound or unbound, would form a valuable addition
@@ -1724,9 +1803,11 @@ the sounds and the accentuation of the German. By Morite Erthei-
 <br/>book that we have seen. First the phrase is given in Eng-
 <br/>lish, then underneath in German, then translated literally
 <br/>into English: as,</p>
-         This was ever so.
-         Dies ist immer so gewesen.
-         This is always so been.</div>
+            <div class="lg">
+               <br/>This was ever so.
+         <br/>Dies ist immer so gewesen.
+         <br/>This is always so been.</div>
+         </div>
 
 
 
@@ -1798,8 +1879,9 @@ by F. O. C. Darley. Philadelphia. Carey and Hart. 1845.</div>
 <br/>which are there enthroned. The destruction of the holy city, there-
 <br/>fore, is an act of poetic justice—the last act of the Jewish drama
 <br/>which reconciles the beholder to her fate. But. also, the relation of
-<br/>the catastrophe to our own times is admirably indicated. It deprived
-<br/>the people of Israel of their home : what remained of their faith was
+<br/>the catastrophe to our own times is admirably indicated. It deprived<br/>
+            <div class="columnbreak"/>
+            <br/>the people of Israel of their home : what remained of their faith was
 <br/>doomed to endure the yoke of perpetual slavery. This fact the mid-
 <br/>dle ages have dressed into the Story of ‘ The Wandering Jew;’ and
 <br/>him, scourged by demons, the artist has introduced into his picture.
@@ -1843,38 +1925,39 @@ by F. O. C. Darley. Philadelphia. Carey and Hart. 1845.</div>
 <br/>quoted by Mr. Grund from “ La Normandie Romanesque, Traditions,
 <br/>Legendes et Superstitions Populaires de Cette Province.”</p>
     
-Le roi a one fille a marler
-A un Anglais la veut donner
-Elle ne veut; moi
-—Jamais mari n’ epouserai s’ il n’est François.
-La Belle ne voulant ceder,
-Sa Sœur s’ en vint la conjurer,
-—Accepter, ma sœr, cette fois
-C'est pour paix a France donner avec l’Anglois.
-Et quand ce vint pour s’ embarquer
-Les yeux on lui voulut bander ;
-—Eh ! ote-toi, retire-toi, franc traitre Anglois,
-Car je veux voir juaqu’ a la fin le sol François.
-Et quand ce vint pour arriver
-La chatel etait pavoise
-—Eh! ote-toi, retire-toi, franc traitre Anglois,
-Ce n’ est pa la le drapeau blanc du roi François,
-Et quand ce vint pour le souper
-Pas ne voulut boire ou manger
-—Eloigne-toi, retire-toi, franc traitre Anglois,
-Ce n est pas la le pain, le vin du roi François.
-Et quand ce vint pour se coucher
-L' Anglois la voulut dechausser
-—Eloigne-toi, retire-toi, franc traitre Anglois,
-Jamais homme n’ y touchera s’ il n’ eat François.
-Et quand ce vint sur la minuit
-Elle fit entendre grand bruit
-En s’ ecriant avec douleur-—O Roi des Rois,
-Ne me laissez entre les bras de cet Anglois.
-Quatre heures sonnant a la tour,
-La Belle finissoit ses jours,
-La Belle finissoit ses jours d’un cœur joyeux
-Et les Anglois y pleuroient tous d' un air pitieux.
+         <div class="lg">
+            <br/>Le roi a one fille a marler
+<br/>A un Anglais la veut donner
+<br/>Elle ne veut; moi
+<br/>—Jamais mari n’ epouserai s’ il n’est François.
+<br/>La Belle ne voulant ceder,
+<br/>Sa Sœur s’ en vint la conjurer,
+<br/>—Accepter, ma sœr, cette fois
+<br/>C'est pour paix a France donner avec l’Anglois.
+<br/>Et quand ce vint pour s’ embarquer
+<br/>Les yeux on lui voulut bander ;
+<br/>—Eh ! ote-toi, retire-toi, franc traitre Anglois,
+<br/>Car je veux voir juaqu’ a la fin le sol François.
+<br/>Et quand ce vint pour arriver
+<br/>La chatel etait pavoise
+<br/>—Eh! ote-toi, retire-toi, franc traitre Anglois,
+<br/>Ce n’ est pa la le drapeau blanc du roi François,
+<br/>Et quand ce vint pour le souper
+<br/>Pas ne voulut boire ou manger
+<br/>—Eloigne-toi, retire-toi, franc traitre Anglois,
+<br/>Ce n est pas la le pain, le vin du roi François.
+<br/>Et quand ce vint pour se coucher
+<br/>L' Anglois la voulut dechausser
+<br/>—Eloigne-toi, retire-toi, franc traitre Anglois,
+<br/>Jamais homme n’ y touchera s’ il n’ eat François.
+<br/>Et quand ce vint sur la minuit
+<br/>Elle fit entendre grand bruit
+<br/>En s’ ecriant avec douleur-—O Roi des Rois,
+<br/>Ne me laissez entre les bras de cet Anglois.
+<br/>Quatre heures sonnant a la tour,
+<br/>La Belle finissoit ses jours,
+<br/>La Belle finissoit ses jours d’un cœur joyeux
+<br/>Et les Anglois y pleuroient tous d' un air pitieux.</div>
 
              <p>Besides the articles above noticed, there are papers from Headley,
 <br/>Whipple, Fanny Forrester, Mrs. Seba Smith, Tuckerman, Lowell,
@@ -1882,14 +1965,18 @@ Et les Anglois y pleuroient tous d' un air pitieux.
               <p>In Mr. Lowell’s poem, “ An Incident of the Fire at Hamburgh,”
 <br/>there are some very noble images. For example :</p>
     
-Not Nature's self more freely speaks In crystal or in oak,
-Than through the pious builder’s hand in that gray pile she spoke;
-And as from acorn springs the oak, so, freely and alone,
-Sprang from his heart this hymn to God, sung in obedient stone.
+         <div class="lg">
+            <br/>Not Nature's self more freely speaks In crystal or in oak,
+<br/>Than through the pious builder’s hand in that gray pile she spoke;
+<br/>And as from acorn springs the oak, so, freely and alone,
+<br/>Sprang from his heart this hymn to God, sung in obedient stone.</div>
 
             <p>The engravings are “ The Proposal,” by Cowperthwait, from a
 drawing by Miss Corbould, and a very excellent view of the Cut-Off
-<a href="#p269"/>
+<br/>
+            <div class="pagebreak" id="#page269"/>
+            <br/>
+            <div class="columnbreak"/>
 River (a Branch of the Wabash) engraved by Smillie from a design
 by Bodmer.</p>
             <p>The Columbian opens with a very good domestic tale by Fanny For-
@@ -1901,14 +1988,17 @@ by Bodmer.</p>
 <br/>Mrs. Osgood’s “ Golden Rules in Rhyme.” We fancy, however, that
 <br/>we perceive in it some misprints.</p>
     
-    Think not to aim the shafts of wit
-At all that’s mean or narrow—
+         <div class="lg"> 
+            <br/>Think not to aim the shafts of wit
+<br/>At all that’s mean or narrow—</div>
           <p>should be undoubtedly</p>
-Shrink not— &amp;c.
-Let more than the domestic mill
-Be tuned by Feeling’s river—
+         <div class="lg">
+            <br/>Shrink not— &amp;c.
+<br/>Let more than the domestic mill
+<br/>Be tuned by Feeling’s river—</div>
           <p>should as undoubtedly read</p>
-Be turned—&amp;c.
+         <div class="lg">
+            <br/>Be turned—&amp;c.</div>
           <p>The engravings are “ The Wedding” by Forrest from a drawing by
 <br/>Morton, "The Idle Servant” mezzotinted by Sadd from a painting
 <br/>by Maes, and a " Fashion Plate,” with three figures, colored. There
@@ -1975,8 +2065,9 @@ CONCERT OF THE NEW YORK PHILHARMONIC SOCIETY.</div>
 <br/>tainly be no news to him theoretically, but it would certainly astonish
 <br/>his hearers, if he should by chanct give any practical evidence of his
 <br/>knowledge. The Andante is truly an exquisite movement, but it was
-<br/>badly played; there was a total want of delicacy in the performance
-<br/>of the stringed instruments, (excepting the violoncelli, which were ad-
+<br/>badly played; there was a total want of delicacy in the performance<br/>
+            <div class="columnbreak"/>
+            <br/>of the stringed instruments, (excepting the violoncelli, which were ad-
 <br/>mirably handled) the violins scraped away unmercifully without taste
 <br/>or expression, and in the short fugue towards the close, one half
 <br/>seemed undetermined whether they were playing in the major or the
@@ -2053,7 +2144,10 @@ CONCERT OF THE NEW YORK PHILHARMONIC SOCIETY.</div>
 <br/>lime in its vraisemblance; the last movement, however, delighted us
 <br/>the most. Its theme is the Indian air introduced by Weber into his
 <br/>opera of Oberon. The ingenuity with which this is worked out in a
-<br/>thousand different ways, while brilliantly accompanied on the piano<a href="#p270"/>
+<br/>thousand different ways, while brilliantly accompanied on the piano<br/>
+            <div class="pagebreak" id="#page270"/>
+            <br/>
+            <div class="columnbreak"/>
             <br/>is worthy particular notice. The orchestral arrangements are exqui-
 <br/>site in their effects from the beginning to the end.</p>
             <p>Mr. Timm’s performance was distinguished by a fine appreciation
@@ -2132,8 +2226,9 @@ CONCERT OF THE NEW YORK PHILHARMONIC SOCIETY.</div>
 <br/>to vocal part-music, would be sufficient. Quite a number of Glee
 <br/>Books, re-published from English and German copies, have appeared
 <br/>in New York, and as far as we have seen, these are superior to any
-<br/>others published in the United Slates in respect to selection, form, and
-<br/>convenient arrangement. We allude particularly to the collection
+<br/>others published in the United Slates in respect to selection, form, and<br/>
+            <div class="columnbreak"/>
+            <br/>convenient arrangement. We allude particularly to the collection
 <br/>published by S. O. Dyer, 385 Hudson st., one volume of which has al-
 <br/>ready appeared, and another is in course of publication in monthly num-
 <br/>bers.</p>
@@ -2212,7 +2307,10 @@ CONCERT OF THE NEW YORK PHILHARMONIC SOCIETY.</div>
 <br/>brilliancy to them, their tone is not so apt to wear thin and wiry, as is
 <br/>the case with those which are brilliant when new.</p>
                <p>Of the latter class are Messrs. Stodart &amp; Dunham’s instruments.
-<a href="#p271"/>
+<br/>
+                  <div class="pagebreak" id="#page271"/>
+                  <br/>
+                  <div class="columnbreak"/>
                   <br/>They are full bodied, rich toned Pianos, with a touch so elastic that
 <br/>it springs to the finger, and a clear, melodious and ringing sound,
 <br/>which may almost be called vocal. The tone does not come out slug-
@@ -2254,12 +2352,14 @@ CONCERT OF THE NEW YORK PHILHARMONIC SOCIETY.</div>
     
             <div>
                <div class="head">IMPROMPTU</div>
-IMPROMPTU.
-TO KATE CAROL.
-When from your gems of thought I turn
-To those pure orbs, your heart to learn,
-I scarce know which to prize most high—
-The bright i-dea, or bright dear-eye.</div>
+               <div class="lg">
+                  <br/>IMPROMPTU.
+<br/>TO KATE CAROL.
+<br/>When from your gems of thought I turn
+<br/>To those pure orbs, your heart to learn,
+<br/>I scarce know which to prize most high—
+<br/>The bright i-dea, or bright dear-eye.</div>
+            </div>
     
     
             <div>
@@ -2323,6 +2423,8 @@ The bright i-dea, or bright dear-eye.</div>
 <br/>his article has been waiting its turn, and will appear in due season.
 <br/>"C. L. B.” will find a communication for him at our publishing office.</div>
          </div> 
+         <br/>
+         <div class="columnbreak"/>
 
 
          <div>
@@ -2448,7 +2550,10 @@ The bright i-dea, or bright dear-eye.</div>
 <br/>will be constantly kept on hand.</div>
          </div>
   
-         <a href="#p272"/>
+         <br/>
+         <div class="pagebreak" id="#page272"/>
+         <br/>
+         <div class="columnbreak"/>
     
          <div>
             <div class="ab">NOW READY,
@@ -2552,6 +2657,8 @@ vols. royal 8 vo. bound in calf extra.	40 00
 <br/>For sale “ Goldsmith’s Gems or Penmanship," elegantly bound.
 <br/>Price Five Dollars.</div>
          </div>
+         <br/>
+         <div class="columnbreak"/>
 
 
          <div>
