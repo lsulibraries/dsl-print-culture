@@ -13,6 +13,8 @@
                 <div class="libLogo">
                     <img src="images/libraries_logo.png"></img>
                 </div>
+                                <meta-menu></meta-menu>
+
             </div>     
             <div class="documentSection">
                 <div class="documentUnder"></div>

@@ -80,8 +80,6 @@ Vue.component('main-window',{
 		      	</div>
 
 		    	<div class="hrMain"></div>
-            	<meta-menu></meta-menu>
-
 		    	<div class="content" v-if="this.$root.state.active != 'issue'">
 		        	<div v-if="content == 'about'">
 			    		{{ aboutText[0] }}
