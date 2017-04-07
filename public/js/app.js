@@ -309,11 +309,11 @@ Vue.component('issue-month',{
 			monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUN':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
 		}
 	},
-	props: {month: '',	list: '', currentIssue: '' },
+	props: {month: '',	list: ''},
 	 mounted(){
 	 	Event.$on('issue-preselected',(data) => {
 
-	 			if(this.monthConvert[this.month] == data.slice(6,-6) && this.list.slice(-2)== data.slice(12)){
+	 			if(this.monthConvert[this.month] == data.slice(6,-6) && this.list.slice(-2) == data.slice(12)){
 	 				this.showChildren()
 		 		}
 
@@ -377,8 +377,7 @@ Vue.component('index-child',{
 Vue.component('issue-bar',{
 	 data(){
 	 	return {months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
-	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46'],
-	 			currentIssue: '',
+	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
 
 		 }
 	 },
@@ -390,18 +389,18 @@ Vue.component('issue-bar',{
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
-					<issue-month :currentIssue='currentIssue' :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
-					<issue-month :currentIssue='currentIssue' :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
+					<issue-month :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
+					<issue-month :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
+					<issue-month :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
+					<issue-month :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
+					<issue-month :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
+					<issue-month :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
+					<issue-month :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
+					<issue-month :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
+					<issue-month :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
+					<issue-month :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
+					<issue-month :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
+					<issue-month :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
 				</div>
 				<div class="issueIndex">
 					<div class="singleIndex">
@@ -540,19 +539,19 @@ new Vue({
 	    },
 	},
 			journals:[],
-			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
-			'childrenFeb45': ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
-			'childrenMar45': ['http://52.40.88.89/broadwayjournal/issue/1845/03/01', 'http://52.40.88.89/broadwayjournal/issue/1845/03/08', 'http://52.40.88.89/broadwayjournal/issue/1845/03/15', 'http://52.40.88.89/broadwayjournal/issue/1845/03/22', 'http://52.40.88.89/broadwayjournal/issue/1845/03/29'],
-			'childrenApr45': ['http://52.40.88.89/broadwayjournal/issue/1845/04/05', 'http://52.40.88.89/broadwayjournal/issue/1845/04/12', 'http://52.40.88.89/broadwayjournal/issue/1845/04/19', 'http://52.40.88.89/broadwayjournal/issue/1845/04/26'],
-			'childrenMay45': ['http://52.40.88.89/broadwayjournal/issue/1845/05/03', 'http://52.40.88.89/broadwayjournal/issue/1845/05/10', 'http://52.40.88.89/broadwayjournal/issue/1845/05/17', 'http://52.40.88.89/broadwayjournal/issue/1845/05/24', 'http://52.40.88.89/broadwayjournal/issue/1845/05/31'],
-			'childrenJun45': ['http://52.40.88.89/broadwayjournal/issue/1845/06/07', 'http://52.40.88.89/broadwayjournal/issue/1845/06/14', 'http://52.40.88.89/broadwayjournal/issue/1845/06/21', 'http://52.40.88.89/broadwayjournal/issue/1845/06/28'],
-			'childrenJul45': ['http://52.40.88.89/broadwayjournal/issue/1845/07/12', 'http://52.40.88.89/broadwayjournal/issue/1845/07/19', 'http://52.40.88.89/broadwayjournal/issue/1845/07/26'],
-			'childrenAug45': ['http://52.40.88.89/broadwayjournal/issue/1845/08/02', 'http://52.40.88.89/broadwayjournal/issue/1845/08/09', 'http://52.40.88.89/broadwayjournal/issue/1845/08/16', 'http://52.40.88.89/broadwayjournal/issue/1845/08/23', 'http://52.40.88.89/broadwayjournal/issue/1845/08/30'],
-			'childrenSep45': ['http://52.40.88.89/broadwayjournal/issue/1845/09/06', 'http://52.40.88.89/broadwayjournal/issue/1845/09/13', 'http://52.40.88.89/broadwayjournal/issue/1845/09/20', 'http://52.40.88.89/broadwayjournal/issue/1845/09/27'],
-			'childrenOct45': ['http://52.40.88.89/broadwayjournal/issue/1845/10/04', 'http://52.40.88.89/broadwayjournal/issue/1845/10/11', 'http://52.40.88.89/broadwayjournal/issue/1845/10/18', 'http://52.40.88.89/broadwayjournal/issue/1845/10/25'],
-			'childrenNov45': ['http://52.40.88.89/broadwayjournal/issue/1845/11/01', 'http://52.40.88.89/broadwayjournal/issue/1845/11/08', 'http://52.40.88.89/broadwayjournal/issue/1845/11/15', 'http://52.40.88.89/broadwayjournal/issue/1845/11/22', 'http://52.40.88.89/broadwayjournal/issue/1845/11/29'],
-			'childrenDec45': ['http://52.40.88.89/broadwayjournal/issue/1845/12/06', 'http://52.40.88.89/broadwayjournal/issue/1845/12/13', 'http://52.40.88.89/broadwayjournal/issue/1845/12/20', 'http://52.40.88.89/broadwayjournal/issue/1845/12/27'],
-			'childrenJan46': ['http://52.40.88.89/broadwayjournal/issue/1846/01/03']
+			paths: {'childrenJan45': ['/1845/01/04', '/1845/01/11', '/1845/01/18', '/1845/01/25'],
+			'childrenFeb45': ['/1845/02/01', '/1845/02/08', '/1845/02/15', '/1845/02/22'],
+			'childrenMar45': ['/1845/03/01', '/1845/03/08', '/1845/03/15', '/1845/03/22', '/1845/03/29'],
+			'childrenApr45': ['/1845/04/05', '/1845/04/12', '/1845/04/19', '/1845/04/26'],
+			'childrenMay45': ['/1845/05/03', '/1845/05/10', '/1845/05/17', '/1845/05/24', '/1845/05/31'],
+			'childrenJun45': ['/1845/06/07', '/1845/06/14', '/1845/06/21', '/1845/06/28'],
+			'childrenJul45': ['/1845/07/12', '/1845/07/19', '/1845/07/26'],
+			'childrenAug45': ['/1845/08/02', '/1845/08/09', '/1845/08/16', '/1845/08/23', '/1845/08/30'],
+			'childrenSep45': ['/1845/09/06', '/1845/09/13', '/1845/09/20', '/1845/09/27'],
+			'childrenOct45': ['/1845/10/04', '/1845/10/11', '/1845/10/18', '/1845/10/25'],
+			'childrenNov45': ['/1845/11/01', '/1845/11/08', '/1845/11/15', '/1845/11/22', '/1845/11/29'],
+			'childrenDec45': ['/1845/12/06', '/1845/12/13', '/1845/12/20', '/1845/12/27'],
+			'childrenJan46': ['/1846/01/03']
 		}
     },
     created() {
