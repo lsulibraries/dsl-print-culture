@@ -212,8 +212,8 @@ Vue.component('pdf-viewer',{
 	loadPdf: function(issue, page = 1) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
-	    if(this.$root.state.active == 'tei'){
-		return
+	    if(this.$root.state.issue.viewMode == 'tei'){
+		return;
 	    }
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
 	//console.log('$pdf');
