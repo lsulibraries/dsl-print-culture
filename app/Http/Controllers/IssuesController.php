@@ -21,25 +21,29 @@ class IssuesController extends Controller
         return response()->json($issues);
     }
 
+    function all_json($year = NULL, $month = NULL, $day = NULL){
+        $issues = $this->getIssues($year, $month, $day);
+        return response()->json($issues);
+    }
+
+    
     function show($year, $month, $day){
         $id = $year . $month . $day;
 
 	$url = 'app/public/broadway-tei/tei/' . $this->getFilenameForID($id);
 	$xml = Storage::get($this->getFilePathForID($id));
+    
 	return response()->file(storage_path($url));
     }
 
-    function toc($year, $month, $day){
-        $id  = $year . $month . $day;
-        $xml = new \SimpleXMLElement(
-            Storage::get($this->getFilePathForID($id))
-        );
-        $toc = [];
-//        foreach($xml->xpath("//bibl[@type='section']") as $section){
-        foreach($xml->teiHeader->fileDesc->sourceDesc->listBibl->bibl as $bibl){
-            $toc[] = (string)$bibl->title;
-        }
-        return response()->json($toc);
+    function toc($id){
+        $xml = simplexml_load_string(Storage::get('public/toc/' . $this->getFilenameForID($id)));
+        return response()->json($xml);// response()->json($toc);
+    }
+
+    function issueText($id){
+        $xml = Storage::get('public/issues/' . $this->getFilenameForID($id));
+        return $xml;// response()->json($toc);
     }
     
     private function getFilenameForID($id){
@@ -60,10 +64,7 @@ class IssuesController extends Controller
         if(strlen($filter) && !strstr($id, $filter)){
           continue;
         }
-        $date  = $this->timestampForID($id);
-        $uri   = $this->teiForID($id, 'uri');
-        $path  = $this->teiForID($id, 'path');
-        $out[] = compact('date', 'uri', 'path');
+        $out[] = $id;
       }
       return $out;
     }

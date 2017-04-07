@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+   <head>
+      <title>The Broadway Journal</title>
+      <volume>1</volume>
+      <number>10</number>
+      <date>March 8, 1845</date>
+      <editor>cfbriggs</editor>
+      <editor>eapoe</editor>
+      <editor>hcwatson</editor>
+      <publisher>jbisco</publisher>
+      <printer>John Douglas</printer>
+   </head>
+   <toc>
+      <s1>
+         <type>section</type>
+         <title>Reviews</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p1>
+               <type>piece</type>
+               <title>Woman in the Nineteenth Century, Second Notice</title>
+               <t_type>attested</t_type>
+               <author>cfbriggs</author>
+               <a_stat>supplied</a_stat>
+               <a_cert>high</a_cert>
+               <start>145</start>
+               <end>146</end>
+               <pages>145-146</pages>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <type>piece</type>
+               <title>Glossary of Ecclesiastical Ornament and Costume</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <start>146</start>
+               <end>147</end>
+               <pages>146-147</pages>
+               <pdf_index>2</pdf_index>
+            </p2>
+            <p3>
+               <type>piece</type>
+               <title>Imitation—Plagiarism—Mr. Poe’s Reply</title>
+               <t_type>derived</t_type>
+               <author>eapoe</author>
+               <a_stat>inferred</a_stat>
+               <a_cert>high</a_cert>
+               <start>147</start>
+               <end>150</end>
+               <pages>147-150</pages>
+               <pdf_index>3</pdf_index>
+            </p3>
+         </pieces>
+      </s1>
+      <p4>
+         <type>piece</type>
+         <title>The Art of the Use of Color in Imitation in Painting</title>
+         <t_type>attested</t_type>
+         <author>wpage</author>
+         <a_stat>attested</a_stat>
+         <a_cert>high</a_cert>
+         <start>150</start>
+         <end>151</end>
+         <pages>150-151</pages>
+         <pdf_index>6</pdf_index>
+      </p4>
+      <p5>
+         <type>piece</type>
+         <title>Thoughts of a Silent Man</title>
+         <t_type>attested</t_type>
+         <author>rhertzman</author>
+         <a_stat>attested</a_stat>
+         <a_cert>high</a_cert>
+         <start>151</start>
+         <end>152</end>
+         <pages>151-152</pages>
+         <pdf_index>7</pdf_index>
+         <page>154</page>
+         <pdf_index>10</pdf_index>
+      </p5>
+      <p6>
+         <type>piece</type>
+         <title>Letter from James Given</title>
+         <t_type>attested</t_type>
+         <author>jgiven</author>
+         <a_stat>attested</a_stat>
+         <a_cert>high</a_cert>
+         <page>152</page>
+         <pdf_index>8</pdf_index>
+      </p6>
+      <p7>
+         <type>piece</type>
+         <title>Portrait of a Distinguished Authoress</title>
+         <t_type>derived</t_type>
+         <author>eapoe</author>
+         <a_stat>supplied</a_stat>
+         <a_cert>medium</a_cert>
+         <page>152</page>
+         <pdf_index>8</pdf_index>
+      </p7>
+      <s2>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p8>
+               <type>piece</type>
+               <title>The Ghost-Seer</title>
+               <t_type>attested</t_type>
+               <author>jrlowell</author>
+               <a_stat>attested</a_stat>
+               <a_cert>high</a_cert>
+               <start>154</start>
+               <end>155</end>
+               <pages>154-155</pages>
+               <pdf_index>10</pdf_index>
+            </p8>
+         </pieces>
+      </s2>
+      <s3>
+         <type>section</type>
+         <title>Literary Notices</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p9>
+               <type>piece</type>
+               <title>A Lecture on the Philosophy of Vegetation</title>
+               <t_type>derived</t_type>
+               <author>eapoe</author>
+               <a_stat>supplied</a_stat>
+               <a_cert>medium</a_cert>
+               <page>155</page>
+               <pdf_index>11</pdf_index>
+            </p9>
+            <p10>
+               <type>piece</type>
+               <title>Mothers' Lessons for Little Girls and Boys</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>155</page>
+               <pdf_index>11</pdf_index>
+            </p10>
+            <p11>
+               <type>piece</type>
+               <title>The Gambler's Mirror</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>155</page>
+               <pdf_index>11</pdf_index>
+            </p11>
+            <p12>
+               <type>piece</type>
+               <title>The Last of the Plantagenets</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <start>155</start>
+               <end>156</end>
+               <pages>155-156</pages>
+               <pdf_index>11</pdf_index>
+            </p12>
+            <p13>
+               <type>piece</type>
+               <title>The Knickerbocker</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p13>
+            <p14>
+               <type>piece</type>
+               <title>The Saturday Emporium</title>
+               <t_type>derived</t_type>
+               <author>eapoe</author>
+               <a_stat>supplied</a_stat>
+               <a_cert>medium</a_cert>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p14>
+            <p15>
+               <type>piece</type>
+               <title>The Foreign Quarterly Review</title>
+               <t_type>derived</t_type>
+               <author>eapoe</author>
+               <a_stat>supplied</a_stat>
+               <a_cert>low</a_cert>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p15>
+            <p16>
+               <type>piece</type>
+               <title>Blackwood's Magazine</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p16>
+         </pieces>
+      </s3>
+      <s4>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p17>
+               <type>piece</type>
+               <title>A New Picture by Chapman</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p17>
+            <p18>
+               <type>piece</type>
+               <title>We Have Recently Inspected</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p18>
+            <p19>
+               <type>piece</type>
+               <title>The Granite Buildings</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p19>
+            <p20>
+               <type>piece</type>
+               <title>Mons. Edouart's Silhouettes</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p20>
+         </pieces>
+      </s4>
+      <p21>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <t_type>attested</t_type>
+         <author>anon</author>
+         <a_stat>unknown</a_stat>
+         <a_cert/>
+         <start>156</start>
+         <end>157</end>
+         <pages>156-157</pages>
+         <pdf_index>12</pdf_index>
+      </p21>
+      <s5>
+         <type>section</type>
+         <title>Musical Review</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p22>
+               <type>piece</type>
+               <title>Marco Bordogni</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <start>157</start>
+               <end>158</end>
+               <pages>157-158</pages>
+               <pdf_index>13</pdf_index>
+            </p22>
+            <p23>
+               <type>piece</type>
+               <title>Bertini's Great Method for the Piano-Forte</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>158</page>
+               <pdf_index>14</pdf_index>
+            </p23>
+            <p24>
+               <type>piece</type>
+               <title>To Accordian Players</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>158</page>
+               <pdf_index>14</pdf_index>
+            </p24>
+         </pieces>
+      </s5>
+      <p25>
+         <type>piece</type>
+         <title>Musical Items</title>
+         <t_type>attested</t_type>
+         <author>hcwatson</author>
+         <a_stat>supplied</a_stat>
+         <a_cert>low</a_cert>
+         <page>158</page>
+         <pdf_index>14</pdf_index>
+      </p25>
+      <s6>
+         <type>section</type>
+         <title>Correspondence</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p26>
+               <type>piece</type>
+               <title>To the Editor of the Broadway Journal</title>
+               <t_type>attested</t_type>
+               <author>horace</author>
+               <a_stat>attested</a_stat>
+               <a_cert/>
+               <start>158</start>
+               <end>159</end>
+               <pages>158-159</pages>
+               <pdf_index>14</pdf_index>
+            </p26>
+            <p27>
+               <type>piece</type>
+               <title>Mr. Webster and His Friends</title>
+               <t_type>derived</t_type>
+               <author>anon</author>
+               <a_stat>unknown</a_stat>
+               <a_cert/>
+               <page>159</page>
+               <pdf_index>15</pdf_index>
+            </p27>
+         </pieces>
+      </s6>
+      <p28>
+         <type>piece</type>
+         <title>In a Late Lecture</title>
+         <t_type>derived</t_type>
+         <author>eapoe</author>
+         <a_stat>inferred</a_stat>
+         <a_cert/>
+         <page>159</page>
+         <pdf_index>15</pdf_index>
+      </p28>
+      <s7>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <start>159</start>
+         <end>160</end>
+         <pages>159-160</pages>
+         <pdf_index>15</pdf_index>
+      </s7>
+      <p29>
+         <type>piece</type>
+         <title>Prospectus of the Broadway Journal</title>
+         <t_type>attested</t_type>
+         <author>jbisco</author>
+         <a_stat>attested</a_stat>
+         <a_cert/>
+         <page>160</page>
+         <pdf_index>16</pdf_index>
+      </p29>
+   </toc>
+</div>
