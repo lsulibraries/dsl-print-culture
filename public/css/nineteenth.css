@@ -130,7 +130,7 @@ body {
   position: relative;
 }
 
-.mainCenter {
+.content {
   width: 300px;
 }
 
@@ -401,7 +401,7 @@ a.ContributingAuthor {
   margin-top: 6px;
 }
 
-.authorLegend {
+.authorLegend, .authorCard {
   max-width: 1135px;
   align-self: center;
   font-size: 12px;
@@ -478,6 +478,30 @@ a.ContributingAuthor {
   font-style: italic;
 }
 
+.dropCap {
+  float: left;
+  font-family: Georgia;
+  font-size: 45px;
+  line-height: 25px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.indent {
+  text-indent: 40px;
+  margin-top: 0px;
+}
+
+.authorCard {
+  width: 100%;
+  border: 1px solid rgba(250, 238, 226, 0.3);
+  padding: 10px;
+  bottom: 290px;
+  background: #29303a;
+  box-sizing: border-box;
+}
+
 @media (max-width: 1200px) {
   .tocItem {
     display: none;
@@ -526,21 +550,6 @@ a.ContributingAuthor {
   .navigationIssue:hover .tocItem {
     display: flex;
   }
-}
-
-.dropCap {
-    float: left;
-    font-family: Georgia;
-    font-size: 45px;
-    line-height: 25px;
-    padding-top: 4px;
-    padding-right: 8px;
-    padding-left: 3px;
-}
-
-
-.indent{
-  text-indent: 40px;
 }
 @media (max-width: 1000px) {
   .navigationIssue {
