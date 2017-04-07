@@ -15,7 +15,7 @@
         </div>
     </xsl:template>
         
-    <xsl:template match="//div">
+    <xsl:template match="div">
         <xsl:element name="div">
             <xsl:if test="@decls">
                 <xsl:attribute name="id" select="@decls"/>
@@ -33,29 +33,29 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="//p">
+    <xsl:template match="p">
         <p>
            <xsl:apply-templates/> 
         </p>
     </xsl:template>
     
-    <xsl:template match="//ab">
+    <xsl:template match="ab">
         <div class="ab">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
-    <xsl:template match="//head">
+    <xsl:template match="head">
         <div class="head">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
-    <xsl:template match="//persName">
+    <xsl:template match="persName">
         <span class="person" id="{substring-after(@ref,'#')}"><xsl:value-of select="."/></span>
     </xsl:template>
     
-    <xsl:template match="//lb">
+    <xsl:template match="lb">
         <br/>
     </xsl:template>
 
