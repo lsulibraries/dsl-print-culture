@@ -5,8 +5,8 @@
       <volume>1</volume>
       <number>6</number>
       <date>February 8, 1845</date>
-      <editor>cfbriggs</editor>
-      <publisher>jbisco</publisher>
+      <editor>Charles Frederick Briggs</editor>
+      <publisher>John Bisco</publisher>
       <printer>John Douglas</printer>
    </head>
    <toc>
@@ -19,9 +19,10 @@
                <type>piece</type>
                <title>Poems by Sir Edward Lytton Bulwer</title>
                <t_type>derived</t_type>
-               <author>eapoe</author>
-               <a_stat>supplied</a_stat>
-               <a_cert>high</a_cert>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <start>81</start>
                <end>82</end>
                <pages>81-82</pages>
@@ -32,9 +33,10 @@
                <title>Why A National Literature Cannot Flourish in the United States
                 of North America</title>
                <t_type>derived</t_type>
-               <author>eapoe</author>
-               <a_stat>supplied</a_stat>
-               <a_cert>high</a_cert>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <start>82</start>
                <end>83</end>
                <pages>82-83</pages>
@@ -46,9 +48,9 @@
          <type>piece</type>
          <title>American Illustrated Books</title>
          <t_type>attested</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <start>83</start>
          <end>85</end>
          <pages>83-85</pages>
@@ -58,9 +60,9 @@
          <type>piece</type>
          <title>The Navy</title>
          <t_type>attested</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <start>85</start>
          <end>86</end>
          <pages>85-86</pages>
@@ -76,9 +78,9 @@
                <title>The Art of the Use of Color in Imitation in Painting, No.
                 1</title>
                <t_type>attested</t_type>
-               <author>wpage</author>
-               <a_stat>attested</a_stat>
-               <a_cert/>
+               <auth_id>wpage</auth_id>
+               <auth_name>William Page</auth_name>
+               <auth_stat>attested</auth_stat>
                <start>86</start>
                <end>88</end>
                <pages>86-88</pages>
@@ -88,9 +90,9 @@
                <type>piece</type>
                <title>A New Discovery in Art</title>
                <t_type>attested</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>88</page>
                <pdf_index>8</pdf_index>
             </p6>
@@ -100,9 +102,9 @@
          <type>piece</type>
          <title>Valentines</title>
          <t_type>derived</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <page>88</page>
          <pdf_index>8</pdf_index>
       </p7>
@@ -110,9 +112,9 @@
          <type>piece</type>
          <title>The Bishop</title>
          <t_type>attested</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <page>89</page>
          <pdf_index>9</pdf_index>
       </p8>
@@ -125,9 +127,9 @@
                <type>piece</type>
                <title>The Two Paths</title>
                <t_type>attested</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>90</page>
                <pdf_index>10</pdf_index>
             </p9>
@@ -135,9 +137,10 @@
                <type>piece</type>
                <title>The Raven</title>
                <t_type>attested</t_type>
-               <author>eapoe</author>
-               <a_stat>supplied</a_stat>
-               <a_cert>high</a_cert>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <page>90</page>
                <pdf_index>10</pdf_index>
             </p10>
@@ -147,9 +150,9 @@
          <type>piece</type>
          <title>Chronology</title>
          <t_type>attested</t_type>
-         <author>rhschoolcrot</author>
-         <a_stat>attested</a_stat>
-         <a_cert/>
+         <auth_id>rhschoolcrot</auth_id>
+         <auth_name/>
+         <auth_stat>attested</auth_stat>
          <page>91</page>
          <pdf_index>11</pdf_index>
       </p11>
@@ -157,9 +160,9 @@
          <type>piece</type>
          <title>The Concert Room</title>
          <t_type>attested</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <start>91</start>
          <end>92</end>
          <pages>91-92</pages>
@@ -174,9 +177,9 @@
                <type>piece</type>
                <title>The Curse of Criticism</title>
                <t_type>attested</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>92</page>
                <pdf_index>12</pdf_index>
             </p13>
@@ -184,9 +187,9 @@
                <type>piece</type>
                <title>A New Washington Monument</title>
                <t_type>attested</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <start>92</start>
                <end>93</end>
                <pages>92-93</pages>
@@ -196,9 +199,9 @@
                <type>piece</type>
                <title>The Snow</title>
                <t_type>attested</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>93</page>
                <pdf_index>13</pdf_index>
             </p15>
@@ -208,9 +211,9 @@
          <type>piece</type>
          <title>The Magazines</title>
          <t_type>attested</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <start>93</start>
          <end>94</end>
          <pages>93-94</pages>
@@ -225,9 +228,9 @@
                <type>piece</type>
                <title>The Treasury of History, No. 2</title>
                <t_type>derived</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>94</page>
                <pdf_index>14</pdf_index>
             </p17>
@@ -235,9 +238,9 @@
                <type>piece</type>
                <title>A Chaunt of Life and other Poems</title>
                <t_type>derived</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>94</page>
                <pdf_index>14</pdf_index>
             </p18>
@@ -245,9 +248,9 @@
                <type>piece</type>
                <title>Catlin's New Work</title>
                <t_type>derived</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>94</page>
                <pdf_index>14</pdf_index>
             </p19>
@@ -255,9 +258,9 @@
                <type>piece</type>
                <title>Rome as seen by a New Yorker in 1843-4</title>
                <t_type>derived</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>94</page>
                <pdf_index>14</pdf_index>
             </p20>
@@ -265,9 +268,9 @@
                <type>piece</type>
                <title>The Wonderful Adventures of Baron Munchausen</title>
                <t_type>derived</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>94</page>
                <pdf_index>14</pdf_index>
             </p21>
@@ -275,9 +278,9 @@
                <type>piece</type>
                <title>Blackwood's Magazine, for January</title>
                <t_type>derived</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>94</page>
                <pdf_index>14</pdf_index>
             </p22>
@@ -285,9 +288,9 @@
                <type>piece</type>
                <title>The Southern Quarterly Review. No 13</title>
                <t_type>derived</t_type>
-               <author>anon</author>
-               <a_stat>unknown</a_stat>
-               <a_cert/>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
                <page>94</page>
                <pdf_index>14</pdf_index>
             </p23>
@@ -297,9 +300,9 @@
          <type>piece</type>
          <title>Musical Intelligence</title>
          <t_type>attested</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <page>94</page>
          <pdf_index>14</pdf_index>
       </p24>
@@ -307,9 +310,9 @@
          <type>section</type>
          <title>Bits of News</title>
          <t_type>attested</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <pieces>
             <p27>
                <type>piece</type>
@@ -368,9 +371,9 @@
          <type>piece</type>
          <title>To Readers and Correspondents</title>
          <t_type>derived</t_type>
-         <author>anon</author>
-         <a_stat>unknown</a_stat>
-         <a_cert/>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
          <page>95</page>
          <pdf_index>15</pdf_index>
       </p25>
@@ -387,9 +390,10 @@
          <type>piece</type>
          <title>The Prospectus of the Broadway Journal</title>
          <t_type>attested</t_type>
-         <author>jbisco</author>
-         <a_stat>supplied</a_stat>
-         <a_cert>high</a_cert>
+         <auth_id>jbisco</auth_id>
+         <auth_name>John Bisco</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
          <page>96</page>
          <pdf_index>16</pdf_index>
       </p26>

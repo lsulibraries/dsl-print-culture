@@ -143,7 +143,7 @@ Vue.component('toc-item',{
 		<div class="tocItem" v-bind:class='id.type'>
 	    	<div @click='tocItemSelected'>
             	<div class="tocTitle">{{id.title}}</div>
-            	<div v-if='id.author' class="author">{{id.author}}</div>
+            	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
 
             	<div v-if='id.start' class="pageNumber"></div>
 	    	</div>
