@@ -13,6 +13,8 @@
                 <div class="libLogo">
                     <img src="images/libraries_logo.png"></img>
                 </div>
+                                <meta-menu></meta-menu>
+
             </div>     
             <div class="documentSection">
                 <div class="documentUnder"></div>
@@ -30,7 +32,6 @@
             <author-section class="authorSection">
             </author-section>
         </div>
-        <!-- <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script> -->
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
         <script src="js/app.js"></script>

@@ -267,7 +267,7 @@ body {
   margin-top: 10px;
 }
 
-.topMenu a {
+.topMenu div {
   text-decoration: none;
   color: #666666;
   margin: 0px 10px;
@@ -323,6 +323,13 @@ body {
   align-items: center;
 }
 
+.node {
+  background: #fe7251;
+  color: #29303a;
+  text-decoration: none;
+  font-weight: 900;
+}
+
 .node a {
   background: #fe7251;
   color: #29303a;
@@ -330,7 +337,7 @@ body {
   font-weight: 900;
 }
 
-a.ContributingAuthor {
+.node .ContributingAuthor {
   color: #faeee2;
 }
 
@@ -500,6 +507,10 @@ a.ContributingAuthor {
   box-sizing: border-box;
 }
 
+#tei {
+  margin: 20px;
+}
+
 @media (max-width: 1200px) {
   .tocItem {
     display: none;
@@ -567,19 +578,6 @@ a.ContributingAuthor {
     background: #fe7251;
   }
 
-
-.ContibutingAuthor a {
-  color: #faeee2;
-}
-
-.authorDirectory {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1135px;
-  align-self: center;
-}
-
-@media (max-width: 1000px) {
   .documentUnder {
     display: none;
   }
@@ -617,7 +615,6 @@ a.ContributingAuthor {
   }
 
   .issueBar {
-    margin-right: 12px;
     min-width: 60px;
     width: 60px;
   }
