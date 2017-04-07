@@ -272,13 +272,13 @@ Vue.component('tei-markup',{
     created(){
 	Event.$on('view-mode-toggled', (to) => {
 	    if(to == 'tei'){
-		this.current_issue = this.$root.state.issue.id;
-		this.getTei(this.current_issue);
+		this.id = this.$root.state.issue.id;
+		this.getTei(this.id);
 	    }
 	}),
 	Event.$on('issueSelected', (id) => {
-	    this.current_issue = id;
-	    this.getTei(this.current_issue);
+	    this.id = id;
+	    this.getTei(this.id);
 	})
     },
     methods: {
@@ -289,6 +289,8 @@ Vue.component('tei-markup',{
     },
     mounted() {
 	this.issueText = this.getTei(this.$root.state.issue.id);
+	this.id = this.$root.state.issue.id
+	this.page = this.$root.state.issue.page
     },
 	data(){
 	    return{
@@ -298,7 +300,6 @@ Vue.component('tei-markup',{
 		issueText: ''
 	    }
 	},
-	props: {src:''},
         template: `<div class='teiMarkup' v-html="this.issueText"><div>`
 })
 
