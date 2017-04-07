@@ -70,6 +70,7 @@ Vue.component('main-window',{
 			},
 	template: `
  		<div class="mainWindow">
+
 		    <div class="mainCenter">
 	 	  	    <div class="logoTitle" v-if="this.$root.state.active != 'issue'">
 	            	<div class="logoThe">The</div>
@@ -96,6 +97,7 @@ Vue.component('main-window',{
 						<li v-for="each in creditText" v-text="each"></li>
 					</div>
 	 	    	</div>
+
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
 						<tei-markup></tei-markup>
@@ -142,9 +144,11 @@ Vue.component('toc-item',{
 	    	<div @click='tocItemSelected'>
             	<div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.author' class="author">{{id.author}}</div>
+
             	<div v-if='id.start' class="pageNumber"></div>
 	    	</div>
 	    	<child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
+
         </div>
 	 `
 });
