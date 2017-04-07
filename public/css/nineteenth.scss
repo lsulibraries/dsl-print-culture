@@ -148,21 +148,13 @@ body{
 }
 
 .logoTitle{
-<<<<<<< HEAD
-    display: flex;
-=======
 
->>>>>>> origin/style
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
     margin: 20px;
-<<<<<<< HEAD
-
-=======
-	    display: flex;
->>>>>>> origin/style
+    display: flex;
 }
 
 .logoSubtitle {
@@ -354,7 +346,7 @@ margin-bottom: 12px;
     align-items: center;
 }
 
-.node a {
+.node {
     background: $primary-accent-color;
     color: #29303a;
     text-decoration: none;
@@ -543,6 +535,9 @@ flex-wrap: wrap;
     box-sizing: border-box;
 }
 
+#tei{
+    margin:20px;
+}
 
 @media (max-width: 1200px){
 .tocItem {
@@ -650,12 +645,9 @@ flex-wrap: wrap;
 }
 
 .issueBar{
-	 margin-right: 12px;
-<<<<<<< HEAD
-=======
+
 		min-width: 60px;
 		width: 60px;	 
->>>>>>> origin/style
 }
 
 .issueIndex{
