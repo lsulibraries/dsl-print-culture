@@ -67,46 +67,45 @@ Vue.component('main-window',{
 		creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 		techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
 		       }
-
 			},
 	template: `
  		<div class="mainWindow">
-		  <div class="mainCenter">
-	 	  <div class="logoTitle" v-if="this.$root.state.active != 'issue'">
-	            <div class="logoThe">The</div>
-	            <div class="logoBroadway">Broadway</div>
-	            <div class="logoJournal">Journal</div>
-		    <div class="logoSubtitle">A Digital Augmented Edition</div>
-		  </div>
+		    <div class="mainCenter">
+	 	  	    <div class="logoTitle" v-if="this.$root.state.active != 'issue'">
+	            	<div class="logoThe">The</div>
+	            	<div class="logoBroadway">Broadway</div>
+	            	<div class="logoJournal">Journal</div>
+		        	<div class="logoSubtitle">A Digital Augmented Edition</div>
+		      	</div>
 
-		  <div class="hrMain"></div>
-                  <meta-menu></meta-menu>
-<div class="content" v-if="this.$root.state.active != 'issue'">
-	<div v-if="content == 'about'">
-		    {{ aboutText[0] }}
-		    <br><br>
-	            {{ aboutText[1] }}
-		  </div>
+		    	<div class="hrMain"></div>
+            	<meta-menu></meta-menu>
 
-				<div v-if="content == 'tech'">
-					<li v-for="each in techText"  v-text="each"></li>
-				</div>
+		    	<div class="content" v-if="this.$root.state.active != 'issue'">
+		        	<div v-if="content == 'about'">
+			    		{{ aboutText[0] }}
+			    		<br><br>
+	        			{{ aboutText[1] }}
+		   		 	</div>
 
-				<div v-if="content == 'credit'">
-					<li v-for="each in creditText" v-text="each"></li>
-				</div>
-	 	</div>
+					<div v-if="content == 'tech'">
+						<li v-for="each in techText"  v-text="each"></li>
+					</div>
+	
+					<div v-if="content == 'credit'">
+						<li v-for="each in creditText" v-text="each"></li>
+					</div>
+	 	    	</div>
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
 						<tei-markup></tei-markup>
 					</div>
-	<button class="next-page" @click="changePage('prev')">Prev Page</button>
-	<button class="next-page" @click="changePage('next')">Next Page</button>
-	<pdf-viewer v-if="!teiMode"></pdf-viewer>
-
-
+					<button class="next-page" @click="changePage('prev')">Prev Page</button>
+					<button class="next-page" @click="changePage('next')">Next Page</button>
+					<pdf-viewer v-if="!teiMode"></pdf-viewer>
 				</div>
-			</div>
+			</div>	
+		</div>
 			`
 });
 
@@ -125,9 +124,9 @@ Vue.component('navigation',{
 	},
 	template:`
 		<div v-if='this.$root.state.active=="issue"' class='navigationIssue'>
-                    <div class='tocDropdown'>Table of Contents</div>
-                    <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
-                </div>
+                <div class='tocDropdown'>Table of Contents</div>
+                <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
+        </div>
 			`
 })
 
@@ -139,13 +138,13 @@ Vue.component('toc-item',{
 		}
 	},
 	 template:`
-	<div class="tocItem" v-bind:class='id.type'>
-	    <div @click='tocItemSelected'>
+		<div class="tocItem" v-bind:class='id.type'>
+	    	<div @click='tocItemSelected'>
             	<div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.author' class="author">{{id.author}}</div>
             	<div v-if='id.start' class="pageNumber"></div>
-	    </div>
-	    <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
+	    	</div>
+	    	<child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
         </div>
 	 `
 });
@@ -161,7 +160,7 @@ Vue.component('child-piece',{
 	template:`
 		<div class="childPiece" @click='tocItemSelected'>
 			<div class="childPieceTitle">{{id.title}}</div>
-            		<div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
+            <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
 		<div>
 	`
 
@@ -383,7 +382,7 @@ Vue.component('issue-bar',{
 		<div class="issueBar">
 			<div class="issueMask"></div>
 				<div class="issueIndex">
-					<div class="singleIndex" href="">
+					<div class="singleIndex">
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
@@ -401,7 +400,7 @@ Vue.component('issue-bar',{
 					<issue-month :currentIssue='currentIssue' :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
 				</div>
 				<div class="issueIndex">
-					<div class="singleIndex" href="">
+					<div class="singleIndex">
 						<div class="yearText">1846</div>
 						<div class="indicatorYear"></div>
 				</div>
@@ -423,20 +422,22 @@ Vue.component('author-section',{
 		axios.get('/api/personography/summary/json').then(response => this.personography = response.data);
 	 },
 	template: `
-				<div class="authorSection">
-					<div class="authorIntro"></div>
-					<div class="authorHeader">
-		                	        <div class="inBorder"></div>
-                		        	<div class="inText"><span class="swash">A</span>uthors</div>
-		                        	<div class="inBorder"></div>
-                	        	</div>
-					<div class="authorLedgend"></div>
-					<div class="authorDirectory">
-						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
-					</div>
-					<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
-					<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
-				</div>
+		<div class="authorSection">
+			<div class="authorIntro"></div>
+			<div class="authorHeader">
+               	<div class="inBorder"></div>
+           		<div class="inText"><span class="swash">A</span>uthors</div>
+                <div class="inBorder"></div>
+           	</div>
+
+			<div class="authorLedgend"></div>
+			<div class="authorDirectory">
+				<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
+			</div>
+
+			<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
+			<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
+		</div>
 	`
 }) 
 
@@ -456,12 +457,12 @@ Vue.component('author-modal',{
 	},
 	props:['authInfo','authID'],
 	template: `
-				<div v-if="this.$parent.modalActive">
-					<button @click='closeModal()'>CloseMe</button>
-					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
-					<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
-					<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
-				</div>
+		<div v-if="this.$parent.modalActive">
+			<button @click='closeModal()'>CloseMe</button>
+			<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
+			<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
+			<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
+		</div>
 			`
 })
 
@@ -480,27 +481,34 @@ Vue.component('author-node',{
 	},
 	props: ['authInfo','authID'],
 	template: `
-				<div class="node" @click='modalClick(authID)' @mouseover='cardHover(authID)'>
-					<div v-bind:class="this.authInfo['role']" v-bind:href="authHref" >{{this.authInfo['init']}}</div>
-				</div>
+		<div class="node" @click='modalClick(authID)' @mouseover='cardHover(authID)'>
+			<div v-bind:class="this.authInfo['role']" v-bind:href="authHref" >{{this.authInfo['init']}}</div>
+		</div>
 	`
 })
 
 Vue.component('author-preview',{
 	props: ['authID','authInfo'],
 	template: `
-				<div class="authorCard">
-					<div v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
-				</div>
+		<div class="authorCard">
+			<div v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
+		</div>
 	`
 })
 
 Vue.component('footer-bar',{
-	template: `<div>
-					<div class="issueFooter"></div>
-					<div class="footerBar">
-					<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
-				</div>`
+	data() {
+		return{
+			fText: ['This work is licensed under a ','Creative Commons Attribution 4.0 International License','. ','Contact the ','Digital Scholarship Lab',' at LSU Libraries with any questions or comments.']
+		}
+	},
+	template: `
+		<div>
+			<div class="issueFooter"></div>
+			<div class="footerBar">
+				<div class="ccText">{{fText[0]}}<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">{{fText[1]}}</a>{{fText[2]}}<br>{{fText[3]}}<a href="mailto:dsl@lsu.edu" target="_blank">{{fText[4]}}</a>{{fText[5]}}</div>
+			</div>
+		</div>`
 });
 
 window.Event = new Vue();
