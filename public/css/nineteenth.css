@@ -44,6 +44,10 @@ body {
   font-size: 2em;
 }
 
+.author {
+  font-style: italic;
+}
+
 .authorSection {
   background: #29303a;
   color: #eee3cf;
