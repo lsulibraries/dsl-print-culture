@@ -65,6 +65,12 @@
         </div>
     </xsl:template>
     
+    <xsl:template match="byline">
+        <div class="byline">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
     <xsl:template match="persName">
         <span class="person" id="{substring-after(@ref,'#')}"><xsl:value-of select="."/></span>
     </xsl:template>
