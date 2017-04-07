@@ -37,70 +37,82 @@
                         </xsl:choose>
                     </xsl:for-each>
                 </init>
-                <role>
-                    <xsl:value-of select="@role"/>
-                </role>
-                <viaf>
-                    <xsl:value-of select="persName/@ref"/>
-                </viaf>
-                <issue_contribs>
-                    <xsl:for-each select="$documents">
-                        <xsl:for-each-group select="//listBibl//author" group-by="@ref">
+                <xsl:if test="@role">
+                    <role>
+                        <xsl:value-of select="@role"/>
+                    </role>
+                </xsl:if>
+                <xsl:if test="persName/@ref">
+                    <viaf>
+                        <xsl:value-of select="persName/@ref"/>
+                    </viaf>
+                </xsl:if>
+                <xsl:if test="contains(@role, 'ContributingAuthor')">
+                    <issue_contribs>
+                        <xsl:for-each select="$documents">
+                            <xsl:for-each-group select="//listBibl//author" group-by="@ref">
+                                <xsl:choose>
+                                    <xsl:when test="substring-after(@ref, '#') eq $xmlid">
+                                        <issue>
+                                            <num>
+                                                <xsl:value-of select="count(current-group())"/>
+                                            </num>
+                                            <idno>
+                                                <xsl:value-of select="//publicationStmt/idno"/>
+                                            </idno>
+                                        </issue>
+                                    </xsl:when>
+                                    <xsl:otherwise/>
+                                </xsl:choose>
+                            </xsl:for-each-group>
+                        </xsl:for-each>
+                    </issue_contribs>
+                    <total_contribs>
+                        <xsl:for-each-group select="$documents//listBibl//author" group-by="@ref">
                             <xsl:choose>
                                 <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                    <issue>
-                                        <num>
-                                            <xsl:value-of select="count(current-group())"/>
-                                        </num>
-                                        <idno>
-                                            <xsl:value-of select="//publicationStmt/idno"/>
-                                        </idno>
-                                    </issue>
+                                    <num>
+                                        <xsl:value-of select="count(current-group())"/>
+                                    </num>
                                 </xsl:when>
                                 <xsl:otherwise/>
                             </xsl:choose>
                         </xsl:for-each-group>
-                    </xsl:for-each>
-                </issue_contribs>
-                <total_contribs>
-                    <xsl:for-each-group select="$documents//listBibl//author" group-by="@ref">
-                        <xsl:choose>
-                            <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                <num><xsl:value-of select="count(current-group())"/></num>
-                            </xsl:when>
-                            <xsl:otherwise/>
-                        </xsl:choose>
-                    </xsl:for-each-group>
-                </total_contribs>
-                <issue_mentions>
-                    <xsl:for-each select="$documents">
-                        <xsl:for-each-group select="//body//persName" group-by="@ref">
+                    </total_contribs>
+                </xsl:if>
+                <xsl:if test="contains(@role, 'MentionedAuthor')">
+                    <issue_mentions>
+                        <xsl:for-each select="$documents">
+                            <xsl:for-each-group select="//body//persName" group-by="@ref">
+                                <xsl:choose>
+                                    <xsl:when test="substring-after(@ref, '#') eq $xmlid">
+                                        <issue>
+                                            <num>
+                                                <xsl:value-of select="count(current-group())"/>
+                                            </num>
+                                            <idno>
+                                                <xsl:value-of select="//publicationStmt/idno"/>
+                                            </idno>
+                                        </issue>
+                                    </xsl:when>
+                                    <xsl:otherwise/>
+                                </xsl:choose>
+                            </xsl:for-each-group>
+                        </xsl:for-each>
+                    </issue_mentions>
+                    <total_mentions>
+                        <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
                             <xsl:choose>
                                 <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                    <issue>
-                                        <num>
-                                            <xsl:value-of select="count(current-group())"/>
-                                        </num>
-                                        <idno>
-                                            <xsl:value-of select="//publicationStmt/idno"/>
-                                        </idno>
-                                    </issue>
+                                    <num>
+                                        <xsl:value-of select="count(current-group())"/>
+                                    </num>
                                 </xsl:when>
                                 <xsl:otherwise/>
                             </xsl:choose>
                         </xsl:for-each-group>
-                    </xsl:for-each>
-                </issue_mentions>
-                <total_mentions>
-                    <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
-                        <xsl:choose>
-                            <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                <num><xsl:value-of select="count(current-group())"/></num>
-                            </xsl:when>
-                            <xsl:otherwise/>
-                        </xsl:choose>
-                    </xsl:for-each-group>
-                </total_mentions>
+                    </total_mentions>
+                </xsl:if>
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
