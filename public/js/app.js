@@ -510,8 +510,8 @@ Vue.component('author-modal',{
 		<div v-if="this.$parent.modalActive">
 			<button @click='closeModal()'>CloseMe</button>
 			<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
-			<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
-			<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
+			<div v-if='this.$parent.chosen.length && this.authInfo.totalContribs' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>
+			<div v-if='this.$parent.chosen.length && this.authInfo.totalMentions' class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>
 		</div>
 			`
 })
