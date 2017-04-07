@@ -62,7 +62,6 @@ Vue.component('main-window',{
     data() {
 	return {
 	    teiMode: false,
-	    source:'',
 	    content: this.$root.state.meta.content,
 	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
 		creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
@@ -70,7 +69,6 @@ Vue.component('main-window',{
 		       }
 
 			},
-	props: {src:this.source},
 	template: `
  		<div class="mainWindow">
 		  <div class="mainCenter">
@@ -101,7 +99,6 @@ Vue.component('main-window',{
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<div id="tei" v-if="teiMode">
 						<tei-markup></tei-markup>
-						<iframe v-if='this.$root.iframethis.length' :src=this.$root.iframethis></iframe>
 					</div>
 	<button class="next-page" @click="changePage('prev')">Prev Page</button>
 	<button class="next-page" @click="changePage('next')">Next Page</button>
@@ -524,7 +521,6 @@ new Vue({
 	    },
 	},
 			journals:[],
-			iframethis: '',
 			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
 			'childrenFeb45': ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
 			'childrenMar45': ['http://52.40.88.89/broadwayjournal/issue/1845/03/01', 'http://52.40.88.89/broadwayjournal/issue/1845/03/08', 'http://52.40.88.89/broadwayjournal/issue/1845/03/15', 'http://52.40.88.89/broadwayjournal/issue/1845/03/22', 'http://52.40.88.89/broadwayjournal/issue/1845/03/29'],
