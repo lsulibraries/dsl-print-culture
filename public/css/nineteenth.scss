@@ -66,6 +66,7 @@ body{
     margin-top: 54px;
     left: calc(50% - 444px);
 	top: 0px;
+    height: calc(100% - 200px);    
 } /*1011 to  1001 wide, error*/
 
 .swash{
@@ -170,7 +171,10 @@ body{
 }
 
 .mainCenter{
-	width:300px;
+}
+
+.content{
+    width:300px;
 }
 
 .footerBar{
@@ -521,7 +525,19 @@ flex-wrap: wrap;
 
 .indent{
   text-indent: 40px;
+  margin-top: 0px;  
 }
+
+.authorCard{
+    @extend .authorLegend;
+    width: 100%;
+    border: 1px solid $hr-color;
+    padding: 10px;
+    bottom: 290px;
+    background: #29303a;
+    box-sizing: border-box;
+}
+
 
 @media (max-width: 1200px){
 .tocItem {
@@ -574,7 +590,6 @@ flex-wrap: wrap;
 	}
 
 }
-
 
 @media (max-width: 1000px){
 

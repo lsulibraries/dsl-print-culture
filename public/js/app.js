@@ -89,8 +89,8 @@ Vue.component('main-window',{
 		    <br><br>
 	            {{ aboutText[1] }}
 		  </div>
+			<div v-if="content == 'tech'">
 
-				<div v-if="content == 'tech'">
 					<li v-for="each in techText"  v-text="each"></li>
 				</div>
 
