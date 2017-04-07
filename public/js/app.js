@@ -506,7 +506,15 @@ Vue.component('footer-bar',{
 		<div>
 			<div class="issueFooter"></div>
 			<div class="footerBar">
-				<div class="ccText">{{fText[0]}}<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">{{fText[1]}}</a>{{fText[2]}}<br>{{fText[3]}}<a href="mailto:dsl@lsu.edu" target="_blank">{{fText[4]}}</a>{{fText[5]}}</div>
+				<div class="ccText">
+					{{fText[0]}}
+					<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">{{fText[1]}}</a>
+					{{fText[2]}}
+					<br>
+					{{fText[3]}}
+					<a href="mailto:dsl@lsu.edu" target="_blank">{{fText[4]}}</a>
+					{{fText[5]}}
+				</div>
 			</div>
 		</div>`
 });
