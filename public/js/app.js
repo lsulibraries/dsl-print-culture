@@ -183,9 +183,10 @@ Vue.component('pdf-viewer',{
 	    this.loadPdf(this.current_issue, this.current_page);
 	}),
 	Event.$on('pageChange', (which) => {
-    	    intPage= parseInt(which)
-	    if(intPage==NaN){
+    	    intPage= parseInt(which);
+	    if(isNaN(intPage)){
 	    	newPage = which == 'next' ? this.current_page += 1 : this.current_page -= 1;
+
 	    	if(this.current_page > 0){
 			this.loadPdf(this.current_issue, newPage);
 		}
@@ -236,7 +237,7 @@ Vue.component('pdf-viewer',{
 		return;
 	    }
 	    // Fetch the first page
-	    var pageNumber = page;
+	    var pageNumber = parseInt(page);
 	    pdf.getPage(pageNumber).then(function(page) {
 		console.log('Page loaded');
 
