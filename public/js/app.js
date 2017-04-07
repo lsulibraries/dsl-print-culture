@@ -146,7 +146,8 @@ Vue.component('toc-item',{
 	    <div @click='tocItemSelected'>
             	<div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.author' class="author">{{id.author}}</div>
-            	<div v-if='id.start' class="pageNumber"></div>
+                <div v-if='id.start' class="pageNumber">{{id.page}}</div>
+	        <div v-if='id.pages' class="pageNumber">{{id.start}}</div>
 	    </div>
 	    <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
         </div>
