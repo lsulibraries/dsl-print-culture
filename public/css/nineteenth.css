@@ -511,6 +511,12 @@ body {
   margin: 20px;
 }
 
+.piece {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
 @media (max-width: 1200px) {
   .tocItem {
     display: none;

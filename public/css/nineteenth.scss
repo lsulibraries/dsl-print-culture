@@ -32,6 +32,12 @@ $primary-accent-color3:  rgba(254, 114, 81, 0.5);
 transition: all $sec ease;	
 }
 
+@mixin columns($num){
+    -webkit-column-count: ($num);
+    -moz-column-count: ($num);
+    column-count: ($num);
+}
+
 body{
 	font-family: Adobe Caslon Pro, adobe-caslon-pro, serif;
 	margin: 0px;
@@ -537,6 +543,10 @@ flex-wrap: wrap;
 
 #tei{
     margin:20px;
+}
+
+.piece {
+    @include columns(2);
 }
 
 @media (max-width: 1200px){

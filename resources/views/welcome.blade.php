@@ -13,6 +13,8 @@
                 <div class="libLogo">
                     <img src="images/libraries_logo.png"></img>
                 </div>
+                                    <view-mode-toggle></view-mode-toggle>
+
                                 <meta-menu></meta-menu>
 
             </div>     
@@ -21,7 +23,6 @@
                 <div class="documentOverflow"></div>
                 <navigation></navigation>
                 <div class="mainColumn">
-                    <view-mode-toggle></view-mode-toggle>
                     <main-window ></main-window>
                     <footer-bar></footer-bar>
                 </div>
