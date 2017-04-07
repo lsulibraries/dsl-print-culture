@@ -425,7 +425,13 @@ Vue.component('author-section',{
 	 },
 	template: `
 		<div class="authorSection">
-
+		
+			<div class="authorIntro"></div>
+			<div class="authorHeader">
+               	<div class="inBorder"></div>
+           		<div class="inText"><span class="swash">A</span>uthors</div>
+                <div class="inBorder"></div>
+           	</div>
                             <div class="authorLegend">
                 <div class="legendHeader">View authors and their mentions</div>
                 <div class="legendBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -470,13 +476,6 @@ Vue.component('author-section',{
                     </div>
                 </div>
             </div>
-		
-			<div class="authorIntro"></div>
-			<div class="authorHeader">
-               	<div class="inBorder"></div>
-           		<div class="inText"><span class="swash">A</span>uthors</div>
-                <div class="inBorder"></div>
-           	</div>
 
 			<div class="authorLedgend"></div>
 			<div class="authorDirectory">
