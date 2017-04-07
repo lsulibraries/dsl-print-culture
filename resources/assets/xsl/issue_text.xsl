@@ -60,7 +60,7 @@
     </xsl:template>
 
     <xsl:template match="pb">
-        <a href="#p{@n}"/>
+        <br/><div class="pagebreak" id="#page{@n}"/>
     </xsl:template>
 
 </xsl:stylesheet>
