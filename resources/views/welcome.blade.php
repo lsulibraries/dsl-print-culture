@@ -2,8 +2,8 @@
 <meta charset="UTF-8">
 
     <head>
-        <link rel="stylesheet" type="text/css" href="../../public/css/nineteenth.css">
-        <link rel="icon" href="../../favicon_purple.ico">        
+        <link rel="stylesheet" type="text/css" href="css/nineteenth.css">
+        <link rel="icon" href="favicon_purple.ico">        
         <title>The Broadway Journal</title>
         <script src="https://use.typekit.net/sqx2nmq.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>        
@@ -12,7 +12,7 @@
         <div id="container">
             <div class="nav">
                 <div class="libLogo">
-                    <img src="../../public/images/libraries_logo.png"></img>
+                    <img src="images/libraries_logo.png"></img>
                 </div>
 
 
@@ -170,7 +170,7 @@
 
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
-        <script src="../../public/js/app.js"></script>
+        <script src="js/app.js"></script>
         <script src="https://use.fontawesome.com/feda5854d8.js"></script>        
 
     </body>
