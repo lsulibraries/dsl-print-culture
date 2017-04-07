@@ -20,7 +20,9 @@ Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@
 
 Route::get('/broadwayjournal/issue/{year}/{month}/{day}', 'IssuesController@show');
 
-Route::get('/broadwayjournal/issue/{year}/{month}/{day}/toc', 'IssuesController@toc');
+Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
+
+Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText');
 
 Route::get('/broadwayjournal/', function () {
  	return "<html><head/><body><script type='text/javascript'>
@@ -46,24 +48,12 @@ Route::get('/broadwayjournal/', function () {
 </script></body></html>";
 });
 
-Route::get('/about', function () {
-    return view('welcome',[
-    	'route'=>'context-about'
-    	]);
-});
+Route::get('/api/all-issues/json', 'IssuesController@all_json');
 
-Route::get('/technical', function () {
-    return view('welcome',[
-    	'route'=>'context-technical'
-    	]);
-});
-
-Route::get('/credits', function () {
-    return view('welcome',[
-    	'route'=>'context-credits'
-    	]);
-});
+Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
 
 Route::get('/api/personography/summary', 'PersonographyController@summary');
 
 Route::get('/issue-{month}-{day}-{year}', 'IssuesController@mainWindow');
+
+Route::get('/author-{authID}', 'PersonographyController@authorNav');

@@ -330,13 +330,6 @@ body {
   font-weight: 900;
 }
 
-.node a {
-  background: #fe7251;
-  color: #29303a;
-  text-decoration: none;
-  font-weight: 900;
-}
-
 a.ContributingAuthor {
   color: #faeee2;
 }
@@ -574,6 +567,19 @@ a.ContributingAuthor {
     background: #fe7251;
   }
 
+
+.ContibutingAuthor a {
+  color: #faeee2;
+}
+
+.authorDirectory {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1135px;
+  align-self: center;
+}
+
+@media (max-width: 1000px) {
   .documentUnder {
     display: none;
   }
