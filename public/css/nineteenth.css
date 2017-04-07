@@ -323,14 +323,14 @@ body {
   align-items: center;
 }
 
-.node a {
+.node {
   background: #fe7251;
   color: #29303a;
   text-decoration: none;
   font-weight: 900;
 }
 
-a.ContributingAuthor {
+.node .ContributingAuthor {
   color: #faeee2;
 }
 
