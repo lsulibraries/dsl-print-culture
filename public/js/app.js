@@ -286,6 +286,9 @@ Vue.component('tei-markup',{
 	    axios.get(url).then(response => this.issueText = response.data);
 	}
     },
+    mounted() {
+	this.issueText = this.getTei(this.$root.state.issue.id);
+    },
 	data(){
 	    return{
 		id: '',
