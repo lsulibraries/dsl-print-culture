@@ -241,7 +241,7 @@ Vue.component('pdf-viewer',{
 	    pdf.getPage(pageNumber).then(function(page) {
 		console.log('Page loaded');
 
-		var scale = 1;
+		var scale = 1.3;
 		var viewport = page.getViewport(scale);
 
 		// Prepare canvas using PDF page dimensions
