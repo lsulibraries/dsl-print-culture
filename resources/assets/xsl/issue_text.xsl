@@ -45,6 +45,20 @@
         </div>
     </xsl:template>
     
+    <xsl:template match="lg">
+        <div class="lg">
+            <xsl:apply-templates/>                
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="l">
+        <br/><xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="lb">
+        <br/>
+    </xsl:template>
+    
     <xsl:template match="head">
         <div class="head">
             <xsl:apply-templates/>
@@ -55,10 +69,6 @@
         <span class="person" id="{substring-after(@ref,'#')}"><xsl:value-of select="."/></span>
     </xsl:template>
     
-    <xsl:template match="lb">
-        <br/>
-    </xsl:template>
-
     <xsl:template match="pb">
         <br/><div class="pagebreak" id="#page{@n}"/>
     </xsl:template>
