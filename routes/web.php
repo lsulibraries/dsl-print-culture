@@ -50,6 +50,8 @@ Route::get('/broadwayjournal/', function () {
 
 Route::get('/api/all-issues/json', 'IssuesController@all_json');
 
+Route::get('/api/all-issues-grouped/json', 'IssuesController@all_grouped_json');
+
 Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
 
 Route::get('/api/personography/summary', 'PersonographyController@summary');
