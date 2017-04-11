@@ -1201,9 +1201,9 @@
           <br/>him, and Frank says he is boxed for eternity. He says that an idea has struck him,
           and begs that I will let him put it down before it
           <br/>escapes him. So I give him the pen.</p>
-        
-          <div class="head">THE LAST OF TYLER.</div>
-        
+        <div class="figure">
+            <div class="head">THE LAST OF TYLER.</div>
+        </div>
         <p>In my next I will tell you all that I intended to do in this. You may show the specimen
           in Bold street, but nothing more.</p>
         <div class="ab">Ever yours, JAMES GIVEN.
@@ -1253,12 +1253,12 @@
           <br/>unusual acidity of expression worn at present by the fail lady, who happens to be
           engaged in a perusal of one of our criticisms upon her ante-
           <br/>penultimate ode “To the Universe.”</p>
-        
-          <div class="head">PORTRAIT OF A DISTINGUISHED AUTHORESS.</div>
-          <div class="byline">
-            <span class="person">E. Brown</span>
-         </div>
-        
+        <div class="figure">
+            <div class="head">PORTRAIT OF A DISTINGUISHED AUTHORESS.</div>
+            <div class="byline">
+               <span class="person">E. Brown</span>
+            </div>
+        </div>
       </div>
       <div class="pagebreak" id="#page154"/>
 
@@ -2502,9 +2502,9 @@
         </div>
         <div>
             <div class="head">M. DUMSDAY’S IMPROVED ACCORDEON.</div>
-          
-            <div class="head">ADDITIONAL MODULATIONS</div>
-          
+            <div class="figure">
+               <div class="head">ADDITIONAL MODULATIONS</div>
+            </div>
             <p>THE ACCOMPANIMENT OF ALL ACCORDE-
             <br/>ons heretofore has been confined to one key, in music. By applying the
             <br/>above improvement, (on the bottom of the instrument,) we are enabled to
@@ -2522,8 +2522,7 @@
         <br/>
          <div class="columnbreak"/>
         <div>
-            <a href=""/>
-            <div class="note" id="">GREAT REDUCTION IN PRICE.
+            <div class="note" type="headnote">GREAT REDUCTION IN PRICE.
           The first Premium awarded five years by the American Institute for the
             <br/>best Specimen of Off-hand Penmanship.</div>
             <div class="head">GOLDSMITH’S WRITING AND BOOK-KEEPING ACADEMY,</div>

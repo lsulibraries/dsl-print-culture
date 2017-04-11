@@ -1103,12 +1103,12 @@
           <p>I have only space enough for Frank—so, once more, I
             <br/>subscribe myself your friend, and resign the pen to him.</p>
           <span class="person">J. G.</span>
-          
+          <div class="figure">
             <div class="head">A SPECULATOR IN STOCKS.</div>
             <div class="byline">
-            <span class="person">Brown</span>
-         </div>
-          
+               <span class="person">Brown</span>
+            </div>
+          </div>
         </div>
         <div class="pagebreak" id="#page169"/>
         
@@ -1150,8 +1150,7 @@
             </div>
           </div>
           <div class="piece" id="#p9">
-            <a href=""/>
-            <div class="note" id="">
+            <div class="note" type="headnote">
               <br/>We have had frequent requests within the last ten days, for a copy of
               <br/>"Florence Vane"—a little poem recited by Mr. Poe in his late Lecture
               <br/>on the Poetry of America. To oblige our friends, therefore, (and our-
@@ -2434,8 +2433,7 @@
           <br/>
          <div class="columnbreak"/>
           <div>
-            <a href=""/>
-            <div class="note" id="">GREAT REDUCTION IN PRICE.
+            <div class="note" type="headnote">GREAT REDUCTION IN PRICE.
               <br/>The first Premium awarded five years by the American Institute for the
               <br/>best Specimen of Off-hand Penmanship.</div>
               <div class="head">GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,</div>
@@ -2501,9 +2499,9 @@
           </div>
           <div>
             <div class="head">M. DUMSDAY’S IMPROVED ACCORDEON.</div>
-            
+            <div class="figure">
               <div class="head">Additional Modulations</div>
-            
+            </div>
             <p>THE ACCOMPANIMENT OF ALL ACCORDE-
               <br/>ons heretofore has been confined to one key, in music. By applying the
               <br/>above improvement, (on the bottom of the instrument,) we are enabled to

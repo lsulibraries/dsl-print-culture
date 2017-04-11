@@ -735,8 +735,7 @@
             <br/>
             <div class="columnbreak"/>considerable reduction of the present salaries in very many instances.</p>
           Truth.
-          <a href=""/>
-         <div class="note" id="">[We give place to the above communication with a good deal of
+          <div class="note">[We give place to the above communication with a good deal of
             <br/>pleasure; if we misunderstood the author of the pamphlet on the re-
             <br/>organization of the Navy, we regret it, and will very cheerfully cor-
             <br/>rect our mistake. The subject is one of too great importance to be
@@ -750,8 +749,7 @@
           <div class="piece" id="#p5">
             <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING, NO. 1.</div>
             <div class="byline">BY <span class="person">WILLIAM PAGE</span>.</div>
-            <a href=""/>
-            <div class="note" id="">
+            <div class="note" type="headnote">
                <p>[We give the first number of a series of articles on a subject
                 which is
                 <br/>always of interest among painters. The manifest ability of the
@@ -1226,12 +1224,12 @@
             <br/>murderer; as it was the virulence and personal abuse in the Carey trials, and the
             Potts and Wainright controversies, which
             <br/>caused them to monopolize for nine days the talk of the town.</p>
-          
+          <div class="figure">
             <div class="head">A SUSPENDED BISHOP.</div>
             <div class="byline">
-            <span class="person">SE BROWN</span>
-         </div>
-          
+               <span class="person">SE BROWN</span>
+            </div>
+          </div>
           <p>We give an illustration of the Bishop’s case from a very sincere desire to avoid any
             committal on the subject. The
             <br/>bishop appears here “suspended.” Dr. Seabury and the six Bishops who believed him
@@ -1275,8 +1273,7 @@
             </div>
           </div>
           <div class="piece" id="#p10">
-            <a href=""/>
-            <div class="note" id="">
+            <div class="note" type="headnote">
                <p>We copy the following poem from the American Review, the new
                 <br/>Whig Magazine, on account of its unusual beauty. It will have been
                 <br/>read by many of our city subscribers, we have no doubt, before it
@@ -2367,8 +2364,7 @@
             <div class="ab">TURNER &amp; HAYDEN, No. 10 John Street, And for sale by all the Booksellers.</div>
           </div>
           <div>
-            <a href=""/>
-            <div class="note" id="">The First Premium awarded five years by the American Institute for
+            <div class="note" type="headnote">The First Premium awarded five years by the American Institute for
               <br/>the best Specimen of Off-hand Penmanship.</div>
             <div class="head">GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,
               <br/>NO. 189 BROADWAY, NEW YORK.</div>

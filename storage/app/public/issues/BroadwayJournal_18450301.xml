@@ -1024,9 +1024,9 @@
       <div class="pagebreak" id="#page136"/>
       
       <div>
-        
-          <div class="head">ONE OF THE "UPPER TEN THOUSAND."</div>
-        
+        <div class="figure">
+            <div class="head">ONE OF THE "UPPER TEN THOUSAND."</div>
+        </div>
       </div>
       <div class="pagebreak" id="#page137"/>
       
@@ -1549,8 +1549,7 @@
       </div>
       <div>
         <div class="head">THE LOST BOY.</div>
-        <a href=""/>
-         <div class="note" id="">We find the following, remarkable story in the New York
+        <div class="note" type="headnote">We find the following, remarkable story in the New York
           <br/>Evangelist of last week, without any indication of the source
           <br/>whence it was derived. But it has all the appearance of
           <br/>truth, and all the strangeness of fiction; it is a novel incident
@@ -2146,9 +2145,9 @@
         </div>
         <div>
             <div class="ab">M. DUMSDAY’S IMPROVED ACCORDEON.</div>
-          
-            <div class="head">Additional Modulations</div>
-          
+            <div class="figure">
+               <div class="head">Additional Modulations</div>
+            </div>
             <div class="ab">THE ACCOMPANIMENT OF ALL ACCORDE- 
             <br/>ons heretofore has been confined to one key, in music. By applying the
             <br/>above improvement, (on the bottom of the instrument.) we are enabled to

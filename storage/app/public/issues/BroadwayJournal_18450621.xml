@@ -726,8 +726,7 @@
             
           <div>
          <div class="head">Poems by Anne Charlotte Lynch&gt;</div>
-            <a href=""/>
-         <div class="note" id="">[The two noble poems subjoined have already appeared in
+            <div class="note" type="headnote">[The two noble poems subjoined have already appeared in
             <br/>print—although we are unable to say in what work they origi-
             <br/>nated. They are the composition of one of our most justly
             <br/>distinguished poetesses—Miss Anne Charlotte Lynch. We
@@ -916,8 +915,7 @@
             
           <div>
          <div class="head">THE HEART OF MAN.</div>
-          <a href=""/>
-         <div class="note" id="">SUGGESTED BY A FRAGMENT OF F. SIELER.</div>
+          <div class="note" type="headnote">SUGGESTED BY A FRAGMENT OF F. SIELER.</div>
          <div>
             <div class="lg">
                <br/>A strange, unsounded, glorious thing,
