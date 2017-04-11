@@ -5,7 +5,6 @@
 
     <xsl:output omit-xml-declaration="yes" method="xml" indent="yes"/>
 
-
     <xsl:template match="/">
         <div>
             <div class="front">
@@ -77,6 +76,12 @@
         </span>
     </xsl:template>
     
+    <xsl:template match="figure">
+        <div class="figure">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
     <xsl:template match="bibl">
         <div class="bibl">
             <xsl:apply-templates/>
@@ -96,12 +101,23 @@
     </xsl:template>
     
     <xsl:template match="anchor">
-        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"/></span>
+        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"></a></span>
     </xsl:template>
     
     <xsl:template match="note">
-        <a href="{@target}"/>
-        <div class="note" id="{@xml:id}"><xsl:apply-templates/></div>
+        <xsl:if test="@target">
+            <a href="{@target}"></a>
+        </xsl:if>
+        <xsl:element name="div">
+            <xsl:attribute name="class">note</xsl:attribute>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@type">
+                <xsl:attribute name="type"><xsl:value-of select="@type"/></xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </xsl:element>
     </xsl:template>
 
     <xsl:template match="persName">
@@ -115,12 +131,12 @@
     </xsl:template>
 
     <xsl:template match="pb">
-        <div class="pagebreak" id="#page{@n}"/>
+        <div class="pagebreak" id="#page{@n}"></div>
     </xsl:template>
     
     <xsl:template match="cb">
         <br/>
-        <div class="columnbreak"/>
+        <div class="columnbreak"></div>
     </xsl:template>
 
 </xsl:stylesheet>
