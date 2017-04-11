@@ -100,8 +100,8 @@
     </xsl:template>
     
     <xsl:template match="note">
-        <span class="note" id="{@xml:id}"><a href="{@target}"/></span>
-        <xsl:apply-templates/>
+        <a href="{@target}"/>
+        <div class="note" id="{@xml:id}"><xsl:apply-templates/></div>
     </xsl:template>
 
     <xsl:template match="persName">
@@ -115,7 +115,6 @@
     </xsl:template>
 
     <xsl:template match="pb">
-        <br/>
         <div class="pagebreak" id="#page{@n}"/>
     </xsl:template>
     
