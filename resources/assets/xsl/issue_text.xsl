@@ -108,10 +108,19 @@
     </xsl:template>
     
     <xsl:template match="note">
-        <a href="{@target}"></a>
-        <div class="note" id="{@xml:id}">
+        <xsl:if test="@target">
+            <a href="{@target}"></a>
+        </xsl:if>
+        <xsl:element name="div">
+            <xsl:attribute name="class">note</xsl:attribute>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@type">
+                <xsl:attribute name="type"><xsl:value-of select="@type"/></xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
-        </div>
+        </xsl:element>
     </xsl:template>
 
     <xsl:template match="persName">
