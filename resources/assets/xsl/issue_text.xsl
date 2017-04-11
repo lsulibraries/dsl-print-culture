@@ -104,12 +104,14 @@
     </xsl:template>
     
     <xsl:template match="anchor">
-        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"/></span>
+        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"></a></span>
     </xsl:template>
     
     <xsl:template match="note">
-        <a href="{@target}"/>
-        <div class="note" id="{@xml:id}"><xsl:apply-templates/></div>
+        <a href="{@target}"></a>
+        <div class="note" id="{@xml:id}">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
 
     <xsl:template match="persName">
@@ -123,12 +125,12 @@
     </xsl:template>
 
     <xsl:template match="pb">
-        <div class="pagebreak" id="#page{@n}"/>
+        <div class="pagebreak" id="#page{@n}"></div>
     </xsl:template>
     
     <xsl:template match="cb">
         <br/>
-        <div class="columnbreak"/>
+        <div class="columnbreak"></div>
     </xsl:template>
 
 </xsl:stylesheet>
