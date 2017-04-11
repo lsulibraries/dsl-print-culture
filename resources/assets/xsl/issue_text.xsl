@@ -76,6 +76,12 @@
         </span>
     </xsl:template>
     
+    <xsl:template match="figure">
+        <div class="figure">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
     <xsl:template match="bibl">
         <div class="bibl">
             <xsl:apply-templates/>
