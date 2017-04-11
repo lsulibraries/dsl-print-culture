@@ -5,7 +5,6 @@
 
     <xsl:output omit-xml-declaration="yes" method="xml" indent="yes"/>
 
-
     <xsl:template match="/">
         <div>
             <div class="front">
@@ -32,7 +31,16 @@
                 <xsl:otherwise/>
             </xsl:choose>
             <xsl:if test="@decls">
-                <xsl:attribute name="id" select="@decls"/>
+                <xsl:variable name="decls" select="@decls"/>
+                <xsl:attribute name="id" select="$decls"/>
+                <div class="bibl">
+                    <div class="title">
+                        <xsl:value-of select="//listBibl/bibl[@xml:id eq $decls]/title"/>    
+                    </div>
+                    <div class="author id">
+                        <xsl:value-of select="substring-after(//listBibl/bibl[@xml:id eq $decls]/author/@ref,'#')"/>    
+                    </div>
+                </div>
             </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
