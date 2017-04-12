@@ -479,10 +479,13 @@ Vue.component('author-section',{
 
 			<div class="authorLedgend"></div>
 			<div class="authorDirectory">
+				<div class="authorDirectory_inner">	
 				<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
+				</div>
+							<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
+
 			</div>
 
-			<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
 			<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
 		</div>
 	`
@@ -621,3 +624,4 @@ new Vue({
 	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
     }
 });
+

@@ -92,6 +92,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 .mainColumn{
@@ -371,7 +372,6 @@ margin-bottom: 12px;
 
 .authorDirectory{
     display: flex;
-    flex-wrap: wrap;
     max-width: 1135px;
     align-self: center;
     margin-left: 20px;
@@ -531,7 +531,8 @@ flex-wrap: wrap;
 
 .authorCard{
     @extend .authorLegend;
-    width: 100%;
+    width: 170px;
+    align-self: flex-start;
     border: 1px solid $hr-color;
     padding: 10px;
     bottom: 290px;
@@ -610,15 +611,38 @@ flex-wrap: wrap;
     background: rgba(0, 0, 0, 0.87);
     display: flex;
     justify-content:  center;
-    align-content: center;
+    align-items: center;
 }
-
-.modalBody{
-  overflow: hidden;
-}
-
 .modalContent{
     width:500px;
+}
+
+.closeModal {
+    padding: 20px;
+    background: $primary-accent-color;
+    border-radius: 50px;
+    text-align: center;
+    font-family: roboto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.fade-enter-active{
+  transition: opacity .5s;
+
+}
+.fade-leave-active {
+  transition: opacity 0s;
+
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
+}
+
+.authorDirectory_inner {
+    width: calc(100% - 200px);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 1000px){

@@ -55,6 +55,7 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 200px;
 }
 
 .mainColumn {
@@ -320,15 +321,14 @@ body {
   padding: 7px 11px 3px 11px;
   font-style: italic;
   justify-content: center;
-  color: #29303a;  
   align-items: center;
-  cursor:   pointer;
+  cursor: pointer;
+  color: #29303a;
 }
-
 
 .node a {
   background: #fe7251;
-
+  color: #29303a;
   text-decoration: none;
   font-weight: 900;
 }
@@ -339,7 +339,6 @@ body {
 
 .authorDirectory {
   display: flex;
-  flex-wrap: wrap;
   max-width: 1135px;
   align-self: center;
   margin-left: 20px;
@@ -495,7 +494,8 @@ body {
 }
 
 .authorCard {
-  width: 100%;
+  width: 170px;
+  align-self: flex-start;
   border: 1px solid rgba(250, 238, 226, 0.3);
   padding: 10px;
   bottom: 290px;
@@ -562,48 +562,55 @@ body {
     display: flex;
   }
 }
-
 .authorModal {
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background: rgba(0, 0, 0, 0.87);
-    display: flex;
-    justify-content:  center;
-    align-items: center;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background: rgba(0, 0, 0, 0.87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.modalBody{
-}
-
-.modalContent{
-    width:500px;
+.modalContent {
+  width: 500px;
 }
 
 .closeModal {
-    padding: 20px;
-    background: red;
-    border-radius: 50px;
-    text-align: center;
-    font-family: roboto;
-    text-transform: uppercase;
-    cursor: pointer;
+  padding: 20px;
+  background: #fe7251;
+  border-radius: 50px;
+  text-align: center;
+  font-family: roboto;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-.fade-enter-active{
+.fade-enter-active {
   transition: opacity .5s;
-
 }
+
 .fade-leave-active {
   transition: opacity 0s;
-
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+
+.fade-enter, .fade-leave-to {
   opacity: 0;
+}
+
+.authorDirectory_inner {
+  width: calc(100% - 200px);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1000px) {
