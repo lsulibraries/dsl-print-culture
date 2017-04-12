@@ -43,7 +43,7 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="text()[following-sibling::lb]">
+    <xsl:template match="p/text()[following-sibling::lb]">
         <xsl:value-of select="replace(.,'\-\s+','')"/>
     </xsl:template> 
 
@@ -64,9 +64,9 @@
         <xsl:apply-templates/>
     </xsl:template>
 
-    <!-- <xsl:template match="lb">
+    <xsl:template match="ab/lb">
         <br/>
-    </xsl:template> -->
+    </xsl:template>
     
     <xsl:template match="cit">
         <div class="cit">
