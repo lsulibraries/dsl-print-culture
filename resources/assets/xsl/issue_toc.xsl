@@ -62,6 +62,9 @@
         </xsl:variable>
         <xsl:for-each select="bibl">
             <xsl:element name="{@xml:id}">
+                <decls_id>
+                    <xsl:value-of select="@xml:id"/>
+                </decls_id>
                 <type>
                     <xsl:value-of select="@type"/>
                 </type>
