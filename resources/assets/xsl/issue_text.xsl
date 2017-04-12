@@ -43,7 +43,7 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="//*[not(ancestor-or-self::ab)]/text()[following-sibling::lb][ends-with(normalize-space(.),'-')]">
+    <xsl:template match="//*[not(ancestor-or-self::ab)]/text()[following-sibling::lb[@break='no']][ends-with(normalize-space(.),'-')]">
         <xsl:value-of select="substring(normalize-space(.),1,string-length(normalize-space(.))-1)"/>
     </xsl:template> 
 
