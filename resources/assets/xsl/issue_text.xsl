@@ -139,7 +139,6 @@
     </xsl:template>
     
     <xsl:template match="cb">
-        <br/>
         <div class="columnbreak"></div>
     </xsl:template>
 
