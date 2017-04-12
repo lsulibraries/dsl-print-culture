@@ -303,43 +303,33 @@ Vue.component('tei-markup',{
 
 Vue.component('issue-month',{
 	data(){
-		return { toggled: false,
-			issues: this.$parent.$root.paths[this.list],
-			monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUN':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
-		}
+	    return {
+		toggled: false,
+		monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUN':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
+	    }
 	},
 	props: {month: '',	list: ''},
-	 mounted(){
-	 	Event.$on('issue-preselected',(data) => {
-
-	 			if(this.monthConvert[this.month] == data.slice(6,-6) && this.list.slice(-2) == data.slice(12)){
-	 				this.showChildren()
-		 		}
-
-	 		});
-	 },
 	methods: {
 	    showChildren: function(){
-			if(this.toggled==false){
-			//turn on this.$children
-				for (each in this.$children){
-					this.$children[each].meSeen=true;
-					this.toggled=true;
-				}
-			//turn off everyone else's children
-				for(one in this.$parent.$children){
-							if (this.$parent.$children[one].list != this.list){
-								for(two in this.$parent.$children[one].$children){
-								this.$parent.$children[one].$children[two].meSeen=false;
-								//remove activeMonth from everyone else
-								this.$parent.$children[one].toggled=false;
-								 }
-							}
-					}
+		if(this.toggled==false){
+		    //turn on this.$children
+		    for (each in this.$children){
+			this.$children[each].meSeen=true;
+			this.toggled=true;
+		    }
+		    //turn off everyone else's children
+		    for(one in this.$parent.$children){
+			if (this.$parent.$children[one].list != this.list){
+			    for(two in this.$parent.$children[one].$children){
+				this.$parent.$children[one].$children[two].meSeen=false;
+				//remove activeMonth from everyone else
+				this.$parent.$children[one].toggled=false;
+			    }							}
 			}
-			else{
-				//turn off this.children
-				for (each in this.$children){
+		    }
+		    else{
+			//turn off this.children
+			for (each in this.$children){
 					this.$children[each].meSeen=false;
 					this.toggled=false;
 					}
@@ -351,7 +341,7 @@ Vue.component('issue-month',{
 						<div class="singleText" >{{this.month}}</div>
 						<div class="indicatorIndex"></div>
 					</div>
-					<index-child :href="each" v-for="each in this.issues"></index-child>
+					<index-child :id="each" v-for="each in this.list"></index-child>
 				</div>`
 });
 
@@ -359,54 +349,65 @@ Vue.component('index-child',{
     data() {
 	return { meSeen:false }
     },
-    props: ['href'],
+    props: ['id'],
     methods: {
-	selectIssue: function(issueId){
+	selectIssue: function(id){
 	    Event.$emit('activeModeChange', 'issue');
-	    id = issueId.slice(-10).split('/').join('');
 	    Event.$emit('issueSelected', id);
 	}
     },
     template: `
-	<div v-if="meSeen" @click="selectIssue(href)" class="childIndex">
-	  <div v-bind:href='href' class="childText" v-text="this.href.slice(-2)"></div>
+	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
+	  <div class="childText" v-text="id.slice(-2)"></div>
 	</div>`
 });
 
 Vue.component('issue-bar',{
+    created(){
+	Event.$on('dataLoaded', () => this.hasData = true)
+    },
 	 data(){
-	 	return {months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
-	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
+	     return {
+		 months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
+		 hasData: false
 
 		 }
 	 },
+    methods:{
+	lookupMonth: function(month){
+	    monthConvert = {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUN':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'}
+	    return monthConvert[month]
+	},
+	lookup: function(month, year){
+	    intMonth = this.lookupMonth(month);
+	    ret = []
+	    for(j in this.$root.journals){
+		tmp = this.$root.journals[j]
+		if(tmp.month == intMonth && tmp.year == year){
+		    ret.push(tmp.day)
+		}
+	    }
+	    return ret
+	}
+    },
 	template: `
-		<div class="issueBar">
+		<div v-if="hasData" class="issueBar">
 			<div class="issueMask"></div>
 				<div class="issueIndex">
 					<div class="singleIndex">
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
-					<issue-month :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
-					<issue-month :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
-					<issue-month :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
-					<issue-month :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
-					<issue-month :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
-					<issue-month :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
-					<issue-month :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
-					<issue-month :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
-					<issue-month :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
-					<issue-month :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
-					<issue-month :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
-					<issue-month :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
+	                                <issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" v-text="month"></issue-month>
+
 				</div>
 				<div class="issueIndex">
 					<div class="singleIndex">
 						<div class="yearText">1846</div>
 						<div class="indicatorYear"></div>
-				</div>
-				<issue-month :month='months[0]' :list='lists[12]' class="singleIndex"></issue-month>
+	</div>
+	<!-- todo! clean me up!! -->
+		                <issue-month :list='lookup("JAN","1846")' class="singleIndex" v-text='this.months[0]'></issue-month>
 			</div>
 		</div>
 		`
@@ -571,6 +572,7 @@ window.Event = new Vue();
 new Vue({
 	el:'#container',
     data: {
+	years: [],
 	state: {
 	    active: 'meta', // issue | meta
 	    meta: {
@@ -614,13 +616,18 @@ new Vue({
 	    for (issue in this.journals){
 		id = this.journals[issue]
 		console.log(id)
+		year = id.slice(0,4)
 		this.journals[issue] = {
 		    'id':id,
-		    'year': id.slice(0,4),
+		    'year': year,
 		    'month': id.slice(4,6),
 		    'day': id.slice(6),
 		}
+		if(this.years.indexOf(year) == -1){
+		    this.years.push(year)
+		}
 	    }
+	    Event.$emit('dataLoaded')
 	});
     },
 });
