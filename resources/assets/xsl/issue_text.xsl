@@ -43,7 +43,7 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="*[not(self::ab)]/text()[following-sibling::lb]">
+    <xsl:template match="*[not(ancestor-or-self::ab)]/text()[following-sibling::lb]">
         <xsl:value-of select="replace(.,'\-\s+','')"/>
     </xsl:template> 
 
