@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs xsl">
 
-    <xsl:output omit-xml-declaration="yes" method="xml" indent="yes"/>
+    <xsl:output omit-xml-declaration="yes" method="html" indent="yes"/>
 
     <xsl:template match="/">
         <div>
@@ -42,6 +42,10 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+    <xsl:template match="*[not(ancestor-or-self::ab)]/text()[following-sibling::lb]">
+        <xsl:value-of select="replace(.,'\-\s+','')"/>
+    </xsl:template> 
 
     <xsl:template match="ab">
         <div class="ab">
@@ -60,7 +64,7 @@
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="lb">
+    <xsl:template match="ab/lb">
         <br/>
     </xsl:template>
     
@@ -101,12 +105,12 @@
     </xsl:template>
     
     <xsl:template match="anchor">
-        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"></a></span>
+        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"> Link </a></span>
     </xsl:template>
     
     <xsl:template match="note">
         <xsl:if test="@target">
-            <a href="{@target}"></a>
+            <a href="{@target}"> Link </a>
         </xsl:if>
         <xsl:element name="div">
             <xsl:attribute name="class">note</xsl:attribute>
@@ -126,7 +130,7 @@
             <xsl:if test="@ref">
                 <xsl:attribute name="id"><xsl:value-of select="substring-after(@ref,'#')"/></xsl:attribute>
             </xsl:if>
-            <xsl:value-of select="."/>
+            <xsl:value-of select="replace(.,'\-\s+','')"/>
         </xsl:element>
     </xsl:template>
 
@@ -135,7 +139,6 @@
     </xsl:template>
     
     <xsl:template match="cb">
-        <br/>
         <div class="columnbreak"></div>
     </xsl:template>
 
