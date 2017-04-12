@@ -105,12 +105,12 @@
     </xsl:template>
     
     <xsl:template match="anchor">
-        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"></a></span>
+        <span class="anchor" id="{@xml:id}"><a href="{@corresp}"> Link </a></span>
     </xsl:template>
     
     <xsl:template match="note">
         <xsl:if test="@target">
-            <a href="{@target}"></a>
+            <a href="{@target}"> Link </a>
         </xsl:if>
         <xsl:element name="div">
             <xsl:attribute name="class">note</xsl:attribute>
