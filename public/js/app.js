@@ -549,7 +549,9 @@ Vue.component('author-preview',{
 	props: ['authID','authInfo'],
 	template: `
 		<div class="authorCard">
+			<transition name="fade">
 			<div  v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
+			</transition>
 		</div>
 	`
 })
