@@ -480,10 +480,13 @@ Vue.component('author-section',{
 
 			<div class="authorLedgend"></div>
 			<div class="authorDirectory">
+				<div class="authorDirectory_inner">	
 				<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
+				</div>
+							<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
+
 			</div>
 
-			<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
 			<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
 		</div>
 	`
@@ -501,16 +504,24 @@ Vue.component('author-modal',{
 	methods:{
 		closeModal: function(){
 			this.$parent.modalActive=false;
+
 		}
 	},
 	props:['authInfo','authID'],
 	template: `
-		<div v-if="this.$parent.modalActive">
-			<button @click='closeModal()'>CloseMe</button>
-			<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
-			<div v-if='this.$parent.chosen.length && this.authInfo.totalContribs' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>
-			<div v-if='this.$parent.chosen.length && this.authInfo.totalMentions' class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>
+
+		<transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">  
+
+			<div class="modalContent">
+			<div   v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
+			<div v-if='this.$parent.chosen.length  && this.authInfo.totalMentions'  class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>
+			<div v-if='this.$parent.chosen.length  && this.authInfo.totalContribs' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>
+						<div @click='closeModal()' class="closeModal">Close</button>
+
+			</div>
 		</div>
+					</transition>
+
 			`
 })
 
@@ -520,6 +531,7 @@ Vue.component('author-node',{
 					Event.$emit('modal-active',this.authID);
 					this.$parent.chosen=this.authID;
 					this.$parent.modalActive=true;
+
 		},
 		cardHover: function(data){
 					this.$parent.chosen=this.authID;
@@ -539,7 +551,9 @@ Vue.component('author-preview',{
 	props: ['authID','authInfo'],
 	template: `
 		<div class="authorCard">
-			<div v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
+			<transition name="fade">
+			<div  v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
+			</transition>
 		</div>
 	`
 })
@@ -651,3 +665,4 @@ new Vue({
 	});
     },
 });
+

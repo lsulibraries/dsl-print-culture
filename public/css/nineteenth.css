@@ -55,6 +55,7 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 200px;
 }
 
 .mainColumn {
@@ -228,7 +229,7 @@ body {
   top: 100px;
 }
 
-.issueIndex:nth-child(2) {
+.issueIndex:nth-child(3) {
   z-index: 2;
   /*makes DEC clickable*/
 }
@@ -321,13 +322,8 @@ body {
   font-style: italic;
   justify-content: center;
   align-items: center;
-}
-
-.node {
-  background: #fe7251;
+  cursor: pointer;
   color: #29303a;
-  text-decoration: none;
-  font-weight: 900;
 }
 
 .node a {
@@ -343,7 +339,6 @@ body {
 
 .authorDirectory {
   display: flex;
-  flex-wrap: wrap;
   max-width: 1135px;
   align-self: center;
   margin-left: 20px;
@@ -499,16 +494,27 @@ body {
 }
 
 .authorCard {
-  width: 100%;
+  width: 170px;
+  height: 300px;
+  align-self: flex-start;
   border: 1px solid rgba(250, 238, 226, 0.3);
   padding: 10px;
   bottom: 290px;
   background: #29303a;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #tei {
   margin: 20px;
+}
+
+.piece {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
 }
 
 @media (max-width: 1200px) {
@@ -560,6 +566,57 @@ body {
     display: flex;
   }
 }
+.authorModal {
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background: rgba(0, 0, 0, 0.87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  width: 500px;
+}
+
+.closeModal {
+  padding: 20px;
+  background: #fe7251;
+  border-radius: 50px;
+  text-align: center;
+  font-family: roboto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.fade-enter-active {
+  transition: opacity .5s;
+}
+
+.fade-leave-active {
+  transition: opacity 0s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.authorDirectory_inner {
+  width: calc(100% - 200px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 1000px) {
   .navigationIssue {
     position: absolute;
