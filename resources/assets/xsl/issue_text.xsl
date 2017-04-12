@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs xsl">
 
-    <xsl:output omit-xml-declaration="yes" method="xml" indent="yes"/>
+    <xsl:output omit-xml-declaration="yes" method="html" indent="yes"/>
 
     <xsl:template match="/">
         <div>
