@@ -398,7 +398,7 @@ Vue.component('issue-bar',{
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
-	                                <issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" v-text="month"></issue-month>
+	<issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" :month="month"></issue-month>
 
 				</div>
 				<div class="issueIndex">
@@ -407,7 +407,7 @@ Vue.component('issue-bar',{
 						<div class="indicatorYear"></div>
 	</div>
 	<!-- todo! clean me up!! -->
-		                <issue-month :list='lookup("JAN","1846")' class="singleIndex" v-text='this.months[0]'></issue-month>
+	<issue-month :month='this.months[0]' :list='lookup("JAN","1846")' class="singleIndex"></issue-month>
 			</div>
 		</div>
 		`
