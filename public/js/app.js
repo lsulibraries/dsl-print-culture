@@ -608,8 +608,19 @@ new Vue({
 	Event.$on('pageChange', (which) => {
     	    newPage = which == 'next' ? this.state.issue.page += 1 : this.state.issue.page -= 1;
 	})
+	axios.get('/api/all-issues/json').then((response) => {
+	    this.journals = response.data;
+
+	    for (issue in this.journals){
+		id = this.journals[issue]
+		console.log(id)
+		this.journals[issue] = {
+		    'id':id,
+		    'year': id.slice(0,4),
+		    'month': id.slice(4,6),
+		    'day': id.slice(6),
+		}
+	    }
+	});
     },
-    mounted() {
-	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
-    }
 });
