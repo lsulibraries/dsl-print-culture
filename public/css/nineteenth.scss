@@ -601,6 +601,18 @@ flex-wrap: wrap;
 
 }
 
+.authorModal {
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    border: 1px solid #68696c;
+    z-index: 1;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.87);
+}
+
 @media (max-width: 1000px){
 
 .navigationIssue {

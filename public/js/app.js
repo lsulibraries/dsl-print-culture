@@ -500,13 +500,15 @@ Vue.component('author-modal',{
 	methods:{
 		closeModal: function(){
 			this.$parent.modalActive=false;
+			document.body.classList.toggle('modalBody');
+
 		}
 	},
 	props:['authInfo','authID'],
 	template: `
-		<div v-if="this.$parent.modalActive">
+		<div class="authorModal" v-if="this.$parent.modalActive">
 			<button @click='closeModal()'>CloseMe</button>
-			<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
+			<div   v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
 			<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
 			<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
 		</div>
@@ -519,6 +521,8 @@ Vue.component('author-node',{
 					Event.$emit('modal-active',this.authID);
 					this.$parent.chosen=this.authID;
 					this.$parent.modalActive=true;
+					document.body.classList.toggle('modalBody');
+
 		},
 		cardHover: function(data){
 					this.$parent.chosen=this.authID;
@@ -538,7 +542,7 @@ Vue.component('author-preview',{
 	props: ['authID','authInfo'],
 	template: `
 		<div class="authorCard">
-			<div v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
+			<div  v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
 		</div>
 	`
 })
