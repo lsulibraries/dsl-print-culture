@@ -44,7 +44,7 @@
     </xsl:template>
     
     <xsl:template match="text()[following-sibling::lb]">
-        <xsl:value-of select="replace(.,'\-\s','')"/>
+        <xsl:value-of select="replace(.,'\-\s+','')"/>
     </xsl:template> 
 
     <xsl:template match="ab">
@@ -130,7 +130,7 @@
             <xsl:if test="@ref">
                 <xsl:attribute name="id"><xsl:value-of select="substring-after(@ref,'#')"/></xsl:attribute>
             </xsl:if>
-            <xsl:value-of select="."/>
+            <xsl:value-of select="replace(.,'\-\s+','')"/>
         </xsl:element>
     </xsl:template>
 
