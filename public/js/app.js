@@ -571,6 +571,27 @@ window.Event = new Vue();
 
 new Vue({
 	el:'#container',
+    methods: {
+	getTocEntry: function(issueId, itemId){
+
+	    url = '/api/broadwayjournal/' + issueId + '/toc';
+            axios.get(url).then((response) => {
+		bibl = response.data
+		for (item in bibl.toc){
+		    if(item == itemId){
+			return bibl.toc[item]
+		    }
+		    if(bibl.toc[item].pieces){
+			for (piece in bibl.toc[item].pieces){
+			    if(piece == itemId){
+				return bibl.toc[item].pieces.piece
+			    }
+			}
+		    }
+		}
+	    });
+	}
+    },
     data: {
 	years: [],
 	state: {
@@ -615,7 +636,6 @@ new Vue({
 
 	    for (issue in this.journals){
 		id = this.journals[issue]
-		console.log(id)
 		year = id.slice(0,4)
 		this.journals[issue] = {
 		    'id':id,
