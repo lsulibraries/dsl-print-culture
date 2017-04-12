@@ -384,7 +384,7 @@ Vue.component('issue-bar',{
 	    for(j in this.$root.journals){
 		tmp = this.$root.journals[j]
 		if(tmp.month == intMonth && tmp.year == year){
-		    ret.push(tmp.day)
+		    ret.push(tmp.id)
 		}
 	    }
 	    return ret
