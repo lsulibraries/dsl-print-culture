@@ -320,19 +320,15 @@ body {
   padding: 7px 11px 3px 11px;
   font-style: italic;
   justify-content: center;
+  color: #29303a;  
   align-items: center;
+  cursor:   pointer;
 }
 
-.node {
-  background: #fe7251;
-  color: #29303a;
-  text-decoration: none;
-  font-weight: 900;
-}
 
 .node a {
   background: #fe7251;
-  color: #29303a;
+
   text-decoration: none;
   font-weight: 900;
 }
@@ -576,10 +572,38 @@ body {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background: rgba(0, 0, 0, 0.87);
+    display: flex;
+    justify-content:  center;
+    align-items: center;
 }
 
 .modalBody{
-  overflow: hidden;
+}
+
+.modalContent{
+    width:500px;
+}
+
+.closeModal {
+    padding: 20px;
+    background: red;
+    border-radius: 50px;
+    text-align: center;
+    font-family: roboto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.fade-enter-active{
+  transition: opacity .5s;
+
+}
+.fade-leave-active {
+  transition: opacity 0s;
+
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
 }
 
 @media (max-width: 1000px) {

@@ -350,14 +350,12 @@ margin-bottom: 12px;
     font-style: italic;
     justify-content: center;
     align-items: center;
+    cursor: pointer;    
+    color: $background-authors-color;
+
 }
 
-.node {
-    background: $primary-accent-color;
-    color: #29303a;
-    text-decoration: none;
-    font-weight: 900;
-}
+
 
 .node a {
     background: $primary-accent-color;
@@ -610,10 +608,17 @@ flex-wrap: wrap;
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background: rgba(0, 0, 0, 0.87);
+    display: flex;
+    justify-content:  center;
+    align-content: center;
 }
 
 .modalBody{
   overflow: hidden;
+}
+
+.modalContent{
+    width:500px;
 }
 
 @media (max-width: 1000px){
