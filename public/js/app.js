@@ -230,14 +230,14 @@ Vue.component('pdf-viewer',{
 	// Asynchronous download of PDF
 	var loadingTask = PDFJS.getDocument(url);
 	loadingTask.promise.then(function(pdf) {
-	    console.log('PDF loaded');
+	    //console.log('PDF loaded');
 	    if(page > pdf.pdfInfo.numPages){
 		return;
 	    }
 	    // Fetch the first page
 	    var pageNumber = parseInt(page);
 	    pdf.getPage(pageNumber).then(function(page) {
-		console.log('Page loaded');
+		//console.log('Page loaded');
 
 		var scale = 1.3;
 		var viewport = page.getViewport(scale);
@@ -255,7 +255,7 @@ Vue.component('pdf-viewer',{
 		};
 		var renderTask = page.render(renderContext);
 		renderTask.then(function () {
-		    console.log('Page rendered');
+		    //console.log('Page rendered');
 		});
 	    });
 	}, function (reason) {
