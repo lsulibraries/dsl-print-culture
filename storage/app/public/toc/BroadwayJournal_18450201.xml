@@ -11,6 +11,7 @@
    </head>
    <toc>
       <s1>
+         <decls_id>s1</decls_id>
          <type>section</type>
          <title>Reviews</title>
          <t_type>attested</t_type>
@@ -54,6 +55,7 @@
          </pieces>
       </s1>
       <p4>
+         <decls_id>p4</decls_id>
          <type>piece</type>
          <title>American Prose Writers</title>
          <t_type>attested</t_type>
@@ -67,6 +69,7 @@
          <pdf_index>5</pdf_index>
       </p4>
       <p5>
+         <decls_id>p5</decls_id>
          <type>piece</type>
          <title>Barbarities of the Theatre</title>
          <t_type>attested</t_type>
@@ -80,6 +83,7 @@
          <pdf_index>5</pdf_index>
       </p5>
       <p6>
+         <decls_id>p6</decls_id>
          <type>piece</type>
          <title>National Nomenclature</title>
          <t_type>attested</t_type>
@@ -91,6 +95,7 @@
          <pdf_index>8</pdf_index>
       </p6>
       <p7>
+         <decls_id>p7</decls_id>
          <type>piece</type>
          <title>The Devices of Beggary</title>
          <t_type>attested</t_type>
@@ -104,6 +109,7 @@
          <pdf_index>8</pdf_index>
       </p7>
       <s2>
+         <decls_id>s2</decls_id>
          <type>section</type>
          <title>Original Poetry</title>
          <t_type>attested</t_type>
@@ -122,6 +128,7 @@
          </pieces>
       </s2>
       <p9>
+         <decls_id>p9</decls_id>
          <type>piece</type>
          <title>The Drama</title>
          <t_type>attested</t_type>
@@ -135,6 +142,7 @@
          <pdf_index>9</pdf_index>
       </p9>
       <s3>
+         <decls_id>s3</decls_id>
          <type>section</type>
          <title>Varieties</title>
          <t_type>attested</t_type>
@@ -209,6 +217,7 @@
          </pieces>
       </s3>
       <s4>
+         <decls_id>s4</decls_id>
          <type>section</type>
          <title>Bits of News</title>
          <t_type>attested</t_type>
@@ -261,6 +270,7 @@
          </pieces>
       </s4>
       <s5>
+         <decls_id>s5</decls_id>
          <type>section</type>
          <title>Literary Notices</title>
          <t_type>attested</t_type>
@@ -380,6 +390,7 @@
          </pieces>
       </s5>
       <p33>
+         <decls_id>p33</decls_id>
          <type>piece</type>
          <title>The Concert Room</title>
          <t_type>attested</t_type>
@@ -392,6 +403,7 @@
          <pdf_index>14</pdf_index>
       </p33>
       <p34>
+         <decls_id>p34</decls_id>
          <type>piece</type>
          <title>Correspondence</title>
          <t_type>attested</t_type>
@@ -403,6 +415,7 @@
          <pdf_index>15</pdf_index>
       </p34>
       <p35>
+         <decls_id>p35</decls_id>
          <type>piece</type>
          <title>A Painter's Sketch</title>
          <t_type>attested</t_type>
@@ -414,6 +427,7 @@
          <pdf_index>15</pdf_index>
       </p35>
       <p36>
+         <decls_id>p36</decls_id>
          <type>piece</type>
          <title>Notice to Readers and Correspondents</title>
          <t_type>derived</t_type>
@@ -424,6 +438,7 @@
          <pdf_index>15</pdf_index>
       </p36>
       <s6>
+         <decls_id>s6</decls_id>
          <type>section</type>
          <title>Advertisements</title>
          <t_type>supplied</t_type>
@@ -433,6 +448,7 @@
          <pdf_index>15</pdf_index>
       </s6>
       <p37>
+         <decls_id>p37</decls_id>
          <type>piece</type>
          <title>Prospectus of the Broadway Journal</title>
          <t_type>attested</t_type>
