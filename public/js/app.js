@@ -110,6 +110,7 @@ Vue.component('main-window',{
 
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
 					<button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
+					<zoom-slider v-if='!teiMode'></zoom-slider>
 					<button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
 					<pdf-viewer v-if="!teiMode"></pdf-viewer>
 				</div>
@@ -223,9 +224,27 @@ Vue.component('child-piece',{
 
 })
 
+Vue.component('zoom-slider',{
+	data(){
+		return{ 
+			zoomLevel: 1.3
+		}
+	},
+	methods:{
+		zoomUpdate: function(){
+			Event.$emit('zoomUpdate', this.zoomLevel)
+	}
+
+	},
+	template:`<input class='zoom' id='zoomSlider' min='0' max='2.0' step='0.1' v-model="zoomLevel" @change='zoomUpdate(this.zoomLevel)' type='range'></input>`
+})
 
 Vue.component('pdf-viewer',{
     created(){
+    Event.$on('zoomUpdate',(level)=>{
+    	this.scale = level;
+    	this.loadPdf(this.current_issue, this.current_page,this.scale);
+    }),
 	Event.$on('nextPage', (page) => {
 	    this.current_page += 1;
 	    this.loadPdf(this.current_issue, this.current_page);
@@ -251,19 +270,24 @@ Vue.component('pdf-viewer',{
 	})
     },
     data() {
-	return {
-	    current_page: 1,
-	    current_issue: this.$root.state.issue.id
-	}
+		return {
+			scale: 1.3,
+	    	current_page: 1,
+	    	current_issue: this.$root.state.issue.id
+		}
     },
     mounted(){
-	this.loadPdf(this.current_issue, this.current_page);
+	this.loadPdf(this.current_issue, this.current_page,this.scale);
     },
     template: `
        <div id="pdf-viewer" class="pdf-div"><canvas id="pdf" class="pdf-canvas"></canvas></div>
 	`,
     methods: {
-	loadPdf: function(issue, page = 1) { 
+    // reload: function(scale = this.scale){
+    // 	page.getViewport(scale);
+    // },
+
+	loadPdf: function(issue, page = 1, scale = 1.3) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
 	    if(this.$root.state.issue.viewMode == 'tei'){
@@ -293,15 +317,15 @@ Vue.component('pdf-viewer',{
 	    var pageNumber = parseInt(page);
 	    pdf.getPage(pageNumber).then(function(page) {
 		//console.log('Page loaded');
-
-		var scale = 1.3;
+		//scale = 1.3
+		
 		var viewport = page.getViewport(scale);
 
 		// Prepare canvas using PDF page dimensions
 		var canvas = document.getElementById('pdf');
 		var context = canvas.getContext('2d');
-		canvas.height = viewport.height;
-		canvas.width = viewport.width;
+		canvas.height = 1014//viewport.height;
+		canvas.width = 735// viewport.width;
 
 		// Render PDF page into canvas context
 		var renderContext = {
