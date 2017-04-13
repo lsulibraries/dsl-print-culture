@@ -83,6 +83,7 @@ body{
 
 .author{
     font-style: italic;
+    font-size: 0.8em;
 }
 
 .authorSection{
@@ -381,26 +382,31 @@ margin-bottom: 12px;
 
 .navigationIssue {
     position: absolute;
-    left: calc(50% - 585px);
+    left: calc(50% - 605px);
     z-index: 1;
     display: flex;
     top: 54px;
-    width: 140px;
+    width: 200px;
     flex-direction: column;
     text-align: right;
 }
 
 .tocItem {
     color: $document-text-color;
-    font-size: 10px;
+    font-size: 12px;
     font-family: roboto;
     letter-spacing: 1px;
-    padding: 10px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    flex-direction: column;
+    margin-right: 40px;
+    position: relative;
+    background: $background-document-color;
    	@include transition-duration(.2s); 
- 	cursor: pointer;
+
 }
 
 .pageNumber {
@@ -410,6 +416,7 @@ margin-bottom: 12px;
     padding: 3px;
     font-weight: 900;
     color: $background-document-color;
+    display:    none;
 }
 
 .ccText {
@@ -559,7 +566,22 @@ flex-wrap: wrap;
     @include columns(2);
 }*/
 
+.childPiece {
+    margin-bottom: 1px;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    font-size: 1em;
+    letter-spacing: 0px;
+    border-right: 6px solid #d0c7be;
+    @include transition-duration(0s);
 
+}
+
+.childPiece:hover{
+    border-right: 6px solid $primary-accent-color;
+    @include transition-duration(.2s);
+
+}
 
 @media (max-width: 1200px){
 .tocItem {
@@ -656,6 +678,13 @@ flex-wrap: wrap;
     width: calc(100% - 200px);
     display: flex;
     flex-wrap: wrap;
+}
+
+.tocToggle{
+    padding: 7px;
+    border-bottom: 1px dashed #d0c7be;
+    margin-bottom: 1px;
+    font-weight: 900;
 }
 
 @media (max-width: 1000px){
