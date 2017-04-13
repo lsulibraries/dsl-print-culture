@@ -13,6 +13,7 @@
    </head>
    <toc>
       <s1>
+         <decls_id>s1</decls_id>
          <type>section</type>
          <title>Reviews</title>
          <t_type>attested</t_type>
@@ -58,6 +59,7 @@
          </pieces>
       </s1>
       <p4>
+         <decls_id>p4</decls_id>
          <type>piece</type>
          <title>The Art of the Use of Color in Imitation in Painting</title>
          <t_type>attested</t_type>
@@ -71,6 +73,7 @@
          <pdf_index>6</pdf_index>
       </p4>
       <p5>
+         <decls_id>p5</decls_id>
          <type>piece</type>
          <title>Thoughts of a Silent Man</title>
          <t_type>attested</t_type>
@@ -86,6 +89,7 @@
          <pdf_index>10</pdf_index>
       </p5>
       <p6>
+         <decls_id>p6</decls_id>
          <type>piece</type>
          <title>Letter from James Given</title>
          <t_type>attested</t_type>
@@ -97,6 +101,7 @@
          <pdf_index>8</pdf_index>
       </p6>
       <p7>
+         <decls_id>p7</decls_id>
          <type>piece</type>
          <title>Portrait of a Distinguished Authoress</title>
          <t_type>derived</t_type>
@@ -108,6 +113,7 @@
          <pdf_index>8</pdf_index>
       </p7>
       <s2>
+         <decls_id>s2</decls_id>
          <type>section</type>
          <title>Original Poetry</title>
          <t_type>attested</t_type>
@@ -128,6 +134,7 @@
          </pieces>
       </s2>
       <s3>
+         <decls_id>s3</decls_id>
          <type>section</type>
          <title>Literary Notices</title>
          <t_type>attested</t_type>
@@ -220,6 +227,7 @@
          </pieces>
       </s3>
       <s4>
+         <decls_id>s4</decls_id>
          <type>section</type>
          <title>The Fine Arts</title>
          <t_type>attested</t_type>
@@ -267,6 +275,7 @@
          </pieces>
       </s4>
       <p21>
+         <decls_id>p21</decls_id>
          <type>piece</type>
          <title>The Concert Room</title>
          <t_type>attested</t_type>
@@ -279,6 +288,7 @@
          <pdf_index>12</pdf_index>
       </p21>
       <s5>
+         <decls_id>s5</decls_id>
          <type>section</type>
          <title>Musical Review</title>
          <t_type>attested</t_type>
@@ -318,6 +328,7 @@
          </pieces>
       </s5>
       <p25>
+         <decls_id>p25</decls_id>
          <type>piece</type>
          <title>Musical Items</title>
          <t_type>attested</t_type>
@@ -329,6 +340,7 @@
          <pdf_index>14</pdf_index>
       </p25>
       <s6>
+         <decls_id>s6</decls_id>
          <type>section</type>
          <title>Correspondence</title>
          <t_type>attested</t_type>
@@ -358,6 +370,7 @@
          </pieces>
       </s6>
       <p28>
+         <decls_id>p28</decls_id>
          <type>piece</type>
          <title>In a Late Lecture</title>
          <t_type>derived</t_type>
@@ -368,6 +381,7 @@
          <pdf_index>15</pdf_index>
       </p28>
       <s7>
+         <decls_id>s7</decls_id>
          <type>section</type>
          <title>Advertisements</title>
          <t_type>supplied</t_type>
@@ -377,6 +391,7 @@
          <pdf_index>15</pdf_index>
       </s7>
       <p29>
+         <decls_id>p29</decls_id>
          <type>piece</type>
          <title>Prospectus of the Broadway Journal</title>
          <t_type>attested</t_type>
