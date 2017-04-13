@@ -58,7 +58,12 @@
 
     <xsl:template match="listBibl" mode="toc">
         <xsl:variable name="page1">
-            <xsl:value-of select="xs:integer(//bibl[@xml:id = 'p1']/biblScope/@from) - 1"/>
+            <xsl:if test="//bibl[@xml:id = 'p1']/biblScope/@from">
+                <xsl:value-of select="xs:integer(//bibl[@xml:id = 'p1']/biblScope/@from) - 1"/>
+            </xsl:if>
+            <xsl:if test="//bibl[@xml:id = 'p1']/biblScope/@n">
+                <xsl:value-of select="xs:integer(//bibl[@xml:id = 'p1']/biblScope/@n) - 1"/>
+            </xsl:if>
         </xsl:variable>
         <xsl:for-each select="bibl">
             <xsl:element name="{@xml:id}">
@@ -82,7 +87,7 @@
                             <xsl:value-of select="$auth_id"/>
                         </auth_id>
                         <auth_name>
-                            <xsl:value-of select="$personography//listPerson/person[@xml:id eq $auth_id]/persName"/>
+                            <xsl:value-of select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type='pseudo')]"/>
                         </auth_name>
                         <xsl:if test="author/@status">
                             <auth_stat>
