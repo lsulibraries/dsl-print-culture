@@ -24,6 +24,8 @@ Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
 
 Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText');
 
+Route::get('/api/broadwayjournal/{id}/piece-text/{pid}', 'IssuesController@pieceText');
+
 Route::get('/broadwayjournal/', function () {
  	return "<html><head/><body><script type='text/javascript'>
 	       

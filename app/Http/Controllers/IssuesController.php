@@ -65,6 +65,17 @@ class IssuesController extends Controller
         $xml = Storage::get('public/issues/' . $this->getFilenameForID($id));
         return $xml;// response()->json($toc);
     }
+
+    
+    function pieceText($id, $pid){
+        $issue =  simplexml_load_string(Storage::get('public/issues/' . $this->getFilenameForID($id)));
+        $piece = $issue->xpath("//div[@id='#$pid']");
+        $txt   = '';
+        foreach($piece as $pisces){
+            $txt .= $pisces->asXML();
+        }
+        return response($txt);
+    }
     
     private function getFilenameForID($id){
       return $this->file_prefix . $id . '.xml';
