@@ -70,7 +70,9 @@ Vue.component('main-window',{
 			},
 	template: `
  		<div class="mainWindow">
-
+					<div id="tei" v-if="teiMode">
+						<tei-markup></tei-markup>
+					</div>
 		    <div class="mainCenter">
 	 	  	    <div class="logoTitle" v-if="this.$root.state.active != 'issue'">
 	            	<div class="logoThe">The</div>
@@ -97,9 +99,6 @@ Vue.component('main-window',{
 	 	    	</div>
 
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
-					<div id="tei" v-if="teiMode">
-						<tei-markup></tei-markup>
-					</div>
 					<button class="next-page" @click="changePage('prev')">Prev Page</button>
 					<button class="next-page" @click="changePage('next')">Next Page</button>
 					<pdf-viewer v-if="!teiMode"></pdf-viewer>

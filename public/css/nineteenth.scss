@@ -547,10 +547,20 @@ flex-wrap: wrap;
 
 #tei{
     margin:20px;
+    height: 100%;
+    margin-top: 50px;    
 }
 
-.piece {
+#tei + .mainCenter{
+  display:none;
+}
+
+/*.piece {
     @include columns(2);
+}*/
+
+.childPiece {
+    display: none;
 }
 
 @media (max-width: 1200px){
@@ -648,7 +658,6 @@ flex-wrap: wrap;
     width: calc(100% - 200px);
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
 }
 
 @media (max-width: 1000px){

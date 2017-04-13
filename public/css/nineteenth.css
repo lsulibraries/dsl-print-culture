@@ -510,12 +510,18 @@ body {
 
 #tei {
   margin: 20px;
+  height: 100%;
+  margin-top: 50px;
 }
 
-.piece {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
+#tei + .mainCenter{
+  display:none;
+}
+/*.piece {
+    @include columns(2);
+}*/
+.childPiece {
+  display: none;
 }
 
 @media (max-width: 1200px) {
@@ -616,7 +622,6 @@ body {
   width: calc(100% - 200px);
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
 }
 
 @media (max-width: 1000px) {
