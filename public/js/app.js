@@ -12,7 +12,8 @@ Vue.component('meta-menu',{
 		let year  = tmp.slice(0,4);
 		let month = tmp.slice(4,6);
 		let day = tmp.slice(-2);
-		let url = '/broadwayjournal/issue/' + year + '/'+ month +'/' + day
+		let format = this.$root.state.issue.viewMode
+		let url = '/broadwayjournal/issue/' + year + '/'+ month +'/' + day +'/' + format
     	return url;
     },
 	selectMe: function(which) {
@@ -715,7 +716,7 @@ new Vue({
 	    },
 	    issue: {
 		id: '18450104', // yyyy-mm-dd
-		viewMode: '', // tei|pdf
+		viewMode: 'pdf', // tei|pdf
 		page: 1, // int
 	    },
 	},
