@@ -137,6 +137,9 @@ Vue.component('toc-item',{
 		 if(this.id.pdf_index >= 1){
 		     Event.$emit("pdf-pageChange",this.id.pdf_index)
 		 }
+		 if(this.id.decls_id){
+		     Event.$emit("tei-biblChanged", this.id.decls_id)
+		 }
 		}
 	},
 	 template:`
@@ -279,11 +282,19 @@ Vue.component('tei-markup',{
 	Event.$on('issueSelected', (id) => {
 	    this.id = id;
 	    this.getTei(this.id);
+	}),
+	Event.$on("tei-biblChanged", (biblId) => {
+	    this.bibl = biblId;
+	    this.getBibl(this.id, biblId);
 	})
     },
     methods: {
 	getTei: function(id){
 	    url = '/api/broadwayjournal/'+ id + '/issue-text';
+	    axios.get(url).then(response => this.issueText = response.data);
+	},
+	getBibl: function(issueId, biblId){
+	    url = '/api/broadwayjournal/'+ issueId + '/piece-text/' + biblId;
 	    axios.get(url).then(response => this.issueText = response.data);
 	}
     },
