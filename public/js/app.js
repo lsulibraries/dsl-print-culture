@@ -1,4 +1,16 @@
 window.Event = new Vue();
+window.Util  = new Vue({
+    methods: {
+	datePartsForIssueId: function(id){
+	    let ret       = {};
+	    ret.year  = id.slice(0,4);
+	    ret.month = id.slice(4,6);
+	    ret.day   = id.slice(-2);
+	    return ret;
+	}
+    }
+
+});
 
 Vue.component('meta-menu',{
     data() {
@@ -7,15 +19,11 @@ Vue.component('meta-menu',{
 		}
     },
     methods: {
-    stateHref:function(){    	
-		let tmp   = this.$root.state.issue.id;
-		let year  = tmp.slice(0,4);
-		let month = tmp.slice(4,6);
-		let day = tmp.slice(-2);
-		let format = this.$root.state.issue.viewMode
-		let url = `/broadwayjournal/issue/${year}/${month}/${day}/${format}`
-    	return url;
-    },
+	stateHref:function(){
+	    let iid   = Util.datePartsForIssueId(this.$root.state.issue.id);
+	    let format = this.$root.state.issue.viewMode
+	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
+	},
 	selectMe: function(which) {
 	    this.content = which;
 	    Event.$emit('content', this.content);
@@ -776,15 +784,15 @@ new Vue({
 
 	    for (issue in this.journals){
 		id = this.journals[issue]
-		year = id.slice(0,4)
+		let iid   = Util.datePartsForIssueId(id);
 		this.journals[issue] = {
 		    'id':id,
-		    'year': year,
-		    'month': id.slice(4,6),
-		    'day': id.slice(6),
+		    'year': iid.year,
+		    'month': iid.month,
+		    'day': iid.day,
 		}
-		if(this.years.indexOf(year) == -1){
-		    this.years.push(year)
+		if(this.years.indexOf(iid.year) == -1){
+		    this.years.push(iid.year)
 		}
 	    }
 	    Event.$emit('dataLoaded')
