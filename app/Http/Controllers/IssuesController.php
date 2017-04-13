@@ -28,8 +28,9 @@ class IssuesController extends Controller
 
     
     function download($year, $month, $day, $format){
+        $fileFormat = $format == 'tei' ? 'xml' : $format;
         $id = $year . $month . $day;
-            $url = "app/public/broadway-tei/$format/" . $this->getFilenameForID($id,$format);
+            $url = "app/public/broadway-tei/$format/" . $this->getFilenameForID($id,$fileFormat);
             $xml = Storage::get($this->getFilePathForID($id));
             return response()->file(storage_path($url));
     }
