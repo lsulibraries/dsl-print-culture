@@ -19,6 +19,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p1>
+               <decls_id>p1</decls_id>
                <type>piece</type>
                <title>Woman in the Nineteenth Century, Second Notice</title>
                <t_type>attested</t_type>
@@ -32,6 +33,7 @@
                <pdf_index>1</pdf_index>
             </p1>
             <p2>
+               <decls_id>p2</decls_id>
                <type>piece</type>
                <title>Glossary of Ecclesiastical Ornament and Costume</title>
                <t_type>derived</t_type>
@@ -44,6 +46,7 @@
                <pdf_index>2</pdf_index>
             </p2>
             <p3>
+               <decls_id>p3</decls_id>
                <type>piece</type>
                <title>Imitation—Plagiarism—Mr. Poe’s Reply</title>
                <t_type>derived</t_type>
@@ -119,6 +122,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p8>
+               <decls_id>p8</decls_id>
                <type>piece</type>
                <title>The Ghost-Seer</title>
                <t_type>attested</t_type>
@@ -140,6 +144,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p9>
+               <decls_id>p9</decls_id>
                <type>piece</type>
                <title>A Lecture on the Philosophy of Vegetation</title>
                <t_type>derived</t_type>
@@ -151,6 +156,7 @@
                <pdf_index>11</pdf_index>
             </p9>
             <p10>
+               <decls_id>p10</decls_id>
                <type>piece</type>
                <title>Mothers' Lessons for Little Girls and Boys</title>
                <t_type>derived</t_type>
@@ -161,6 +167,7 @@
                <pdf_index>11</pdf_index>
             </p10>
             <p11>
+               <decls_id>p11</decls_id>
                <type>piece</type>
                <title>The Gambler's Mirror</title>
                <t_type>derived</t_type>
@@ -171,6 +178,7 @@
                <pdf_index>11</pdf_index>
             </p11>
             <p12>
+               <decls_id>p12</decls_id>
                <type>piece</type>
                <title>The Last of the Plantagenets</title>
                <t_type>derived</t_type>
@@ -183,6 +191,7 @@
                <pdf_index>11</pdf_index>
             </p12>
             <p13>
+               <decls_id>p13</decls_id>
                <type>piece</type>
                <title>The Knickerbocker</title>
                <t_type>derived</t_type>
@@ -193,6 +202,7 @@
                <pdf_index>12</pdf_index>
             </p13>
             <p14>
+               <decls_id>p14</decls_id>
                <type>piece</type>
                <title>The Saturday Emporium</title>
                <t_type>derived</t_type>
@@ -204,6 +214,7 @@
                <pdf_index>12</pdf_index>
             </p14>
             <p15>
+               <decls_id>p15</decls_id>
                <type>piece</type>
                <title>The Foreign Quarterly Review</title>
                <t_type>derived</t_type>
@@ -215,6 +226,7 @@
                <pdf_index>12</pdf_index>
             </p15>
             <p16>
+               <decls_id>p16</decls_id>
                <type>piece</type>
                <title>Blackwood's Magazine</title>
                <t_type>derived</t_type>
@@ -233,6 +245,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p17>
+               <decls_id>p17</decls_id>
                <type>piece</type>
                <title>A New Picture by Chapman</title>
                <t_type>derived</t_type>
@@ -243,6 +256,7 @@
                <pdf_index>12</pdf_index>
             </p17>
             <p18>
+               <decls_id>p18</decls_id>
                <type>piece</type>
                <title>We Have Recently Inspected</title>
                <t_type>derived</t_type>
@@ -253,6 +267,7 @@
                <pdf_index>12</pdf_index>
             </p18>
             <p19>
+               <decls_id>p19</decls_id>
                <type>piece</type>
                <title>The Granite Buildings</title>
                <t_type>derived</t_type>
@@ -263,6 +278,7 @@
                <pdf_index>12</pdf_index>
             </p19>
             <p20>
+               <decls_id>p20</decls_id>
                <type>piece</type>
                <title>Mons. Edouart's Silhouettes</title>
                <t_type>derived</t_type>
@@ -294,6 +310,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p22>
+               <decls_id>p22</decls_id>
                <type>piece</type>
                <title>Marco Bordogni</title>
                <t_type>derived</t_type>
@@ -306,6 +323,7 @@
                <pdf_index>13</pdf_index>
             </p22>
             <p23>
+               <decls_id>p23</decls_id>
                <type>piece</type>
                <title>Bertini's Great Method for the Piano-Forte</title>
                <t_type>derived</t_type>
@@ -316,6 +334,7 @@
                <pdf_index>14</pdf_index>
             </p23>
             <p24>
+               <decls_id>p24</decls_id>
                <type>piece</type>
                <title>To Accordian Players</title>
                <t_type>derived</t_type>
@@ -346,6 +365,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p26>
+               <decls_id>p26</decls_id>
                <type>piece</type>
                <title>To the Editor of the Broadway Journal</title>
                <t_type>attested</t_type>
@@ -358,6 +378,7 @@
                <pdf_index>14</pdf_index>
             </p26>
             <p27>
+               <decls_id>p27</decls_id>
                <type>piece</type>
                <title>Mr. Webster and His Friends</title>
                <t_type>derived</t_type>

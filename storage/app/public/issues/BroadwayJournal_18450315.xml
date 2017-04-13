@@ -4,13 +4,20 @@
       <div>
          
          <div class="ab">THE BROADWAY JOURNAL.
-            <br>VOL. I. NO. 11. NEW YORK, SATURDAY, MARCH 15, 1845.
-            <br>Three Dollars per Annum.
-            <br>Single Copies, 6 1-4 Cents.
-            <br>C. F. BRIGGS, EDGAR A. POE, H. C. WATSON, EDITORS.
-            <br>Published at
-            <br>153 BROADWAY, by
-            <br>JOHN BlSCO.
+            
+            <br></br>VOL. I. NO. 11. NEW YORK, SATURDAY, MARCH 15, 1845.
+            
+            <br></br>Three Dollars per Annum.
+            
+            <br></br>Single Copies, 6 1-4 Cents.
+            
+            <br></br>C. F. BRIGGS, EDGAR A. POE, H. C. WATSON, EDITORS.
+            
+            <br></br>Published at
+            
+            <br></br>153 BROADWAY, by
+            
+            <br></br>JOHN BlSCO.
          </div>
          
       </div>
@@ -21,10 +28,14 @@
       
       <div> 
          <div class="cit">
-            <span class="quote">Truth, whether in or out of fashion, is the measure of knowledge and the business of the understanding; whatsoever is beside that, however authorised by consent or recommended by variety, is nothing but ignorance, or something
-               worse.</span>
             
-            <div class="bibl"><span class="person">Locke</span></div>
+            <span class="quote">Truth, whether in or out of fashion, is the measure of knowledge and the business of the understanding; whatsoever is beside that, however authorised by consent or recommended by variety, is nothing but ignorance, or something
+               worse.
+            </span>
+            
+            <div class="bibl">
+               <span class="person">Locke</span>
+            </div>
             
          </div>
       </div>
@@ -35,7 +46,11 @@
          
          <div class="piece" id="#p1">
             
-            <div class="head">SATIRICAL POEMS.<span class="anchor" id="a001"><a href="n001"> Link </a></span></div>
+            <div class="head">SATIRICAL POEMS.
+               <span class="anchor" id="a001">
+                  <a href="n001"> Link </a>
+               </span>
+            </div>
             
             <p>In prose satire done at random in our newspapers and other
                journals, we have been by no means, as a people, deficient,
@@ -112,24 +127,42 @@
             </p>
             
             <div class="lg">
-               <br>“Now o’er the world Infatuation sheds
-               <br>The Polka’s poppies into vacant heads.
-               <br>Asleep the Polka seems a tangled maze,
-               <br>Awake the Polka prompts a hundred lays:
-               <br>Polka the halls, the balls, the calls resound,
-               <br>And Polka skims, Camilla-like, the ground.
-               <br>Where roves in groves the nonsense-doating nymph,
-               <br>And dreams by streams as smooth and clear as lymph,
-               <br>Some leaf as brief as woman’s love flits by,
-               <br>And brings dear Polka to her pensive eye.
-               <br>So in swift circles, backward, forward, wheeled,
-               <br>The Polka’s graces were at first revealed;
-               <br>Perchance some posture-master, happy man,
-               <br>From Nature drew the Polka's pretty plan.
-               <br>Oh, wondrous figure, exquisitely stepp’d,
-               <br>In thee who would not, should not be adept?
-               <br>Oh Polka, Polka, wherefore art thou so?
-               <br>I’ve asked ten dandies, and the ‘ ten do’nt know!’”
+               
+               <br></br>“Now o’er the world Infatuation sheds
+               
+               <br></br>The Polka’s poppies into vacant heads.
+               
+               <br></br>Asleep the Polka seems a tangled maze,
+               
+               <br></br>Awake the Polka prompts a hundred lays:
+               
+               <br></br>Polka the halls, the balls, the calls resound,
+               
+               <br></br>And Polka skims, Camilla-like, the ground.
+               
+               <br></br>Where roves in groves the nonsense-doating nymph,
+               
+               <br></br>And dreams by streams as smooth and clear as lymph,
+               
+               <br></br>Some leaf as brief as woman’s love flits by,
+               
+               <br></br>And brings dear Polka to her pensive eye.
+               
+               <br></br>So in swift circles, backward, forward, wheeled,
+               
+               <br></br>The Polka’s graces were at first revealed;
+               
+               <br></br>Perchance some posture-master, happy man,
+               
+               <br></br>From Nature drew the Polka's pretty plan.
+               
+               <br></br>Oh, wondrous figure, exquisitely stepp’d,
+               
+               <br></br>In thee who would not, should not be adept?
+               
+               <br></br>Oh Polka, Polka, wherefore art thou so?
+               
+               <br></br>I’ve asked ten dandies, and the ‘ ten do’nt know!’”
                
             </div>
             
@@ -531,24 +564,39 @@
          <p>To the Author of the “Vestiges of Creation.”</p>
          
          <div class="lg">
-            <br>Self-missioned Leader through Creation’s maze!
-            <br>Dost thou interpret thus God’s mighty scheme_
-            <br>Weaving the cobweb fancies of a dream
-            <br>O’er each grey vestige of His mystic ways?
-            <br>When thus ’mid chaos thou didst blindly grope,
-            <br>Gathering new links for matter’s heavy chain,
-            <br>Dwelt there not in thy soul the secret hope
-            <br>That some strong truth would rend the bond of pain.
-            <br>Which fired thee to Progression's iron wheel?
-            <br>Oh teach not suffering earth such hopeless creed:
-            <br>For heavy were her curse if doomed to feel
-            <br>That, in her frequent hour of bitter need,
-            <br>Her lifting eye of prayer could only see
-            <br>Necessity’s stem laws, graven on eternity.
+            
+            <br></br>Self-missioned Leader through Creation’s maze!
+            
+            <br></br>Dost thou interpret thus God’s mighty scheme_
+            
+            <br></br>Weaving the cobweb fancies of a dream
+            
+            <br></br>O’er each grey vestige of His mystic ways?
+            
+            <br></br>When thus ’mid chaos thou didst blindly grope,
+            
+            <br></br>Gathering new links for matter’s heavy chain,
+            
+            <br></br>Dwelt there not in thy soul the secret hope
+            
+            <br></br>That some strong truth would rend the bond of pain.
+            
+            <br></br>Which fired thee to Progression's iron wheel?
+            
+            <br></br>Oh teach not suffering earth such hopeless creed:
+            
+            <br></br>For heavy were her curse if doomed to feel
+            
+            <br></br>That, in her frequent hour of bitter need,
+            
+            <br></br>Her lifting eye of prayer could only see
+            
+            <br></br>Necessity’s stem laws, graven on eternity.
             
          </div>
          
-         <div class="byline"><span class="person">RUDOLPH HERTZMAN</span>.
+         <div class="byline">
+            <span class="person">RUDOLPH HERTZMAN</span>.
          </div>
          
       </div>
@@ -558,8 +606,10 @@
          <div class="head">SOME PASSAGES IN THE LIFE OF A LION.</div>
          
          <div class="lg">
-            <br>----------All people went
-            <br>Upon their ten toes in wild wonderment.
+            
+            <br></br>----------All people went
+            
+            <br></br>Upon their ten toes in wild wonderment.
             
          </div>
          
@@ -885,7 +935,8 @@
             has no proboscis at all.”
          </p>
          
-         <div class="byline"><span class="person">EDGAR A. POE</span>.
+         <div class="byline">
+            <span class="person">EDGAR A. POE</span>.
          </div>
          
       </div>
@@ -896,7 +947,8 @@
             NO. V.
          </div>
          
-         <div class="byline">BY <span class="person">WILLIAM PAGE</span>.
+         <div class="byline">BY 
+            <span class="person">WILLIAM PAGE</span>.
          </div>
          
          <p>I have heard it regretted by a painter, whose acknowledged abilities should have taught him better, that he had
@@ -1211,13 +1263,16 @@
          <p>I have only space enough for Frank—so, once more, I
             subscribe myself your friend, and resign the pen to him.
          </p>
+         
          <span class="person">J. G.</span>
          
          <div class="figure">
             
             <div class="head">A SPECULATOR IN STOCKS.</div>
             
-            <div class="byline"><span class="person">Brown</span></div>
+            <div class="byline">
+               <span class="person">Brown</span>
+            </div>
             
          </div>
          
@@ -1237,36 +1292,62 @@
             <div class="head">THE BELLE OF BROADWAY.</div>
             
             <div class="lg">
-               <br>She walks in the light of her beauty arrayed,
-               <br>Like a queen by the hearts of a nation obeyed;
-               <br>There’s a lustre around her, a splendor that vies
-               <br>With the brightest of stars in the bluest of skies.
-               <br>I’ve seen her at morning all laughing and gay,
-               <br>With the step of a fairy bewitching Broadway;
-               <br>I’ve seen her at evening all jewels and plumes,
-               <br>Outflashing the gas In the brilliantest rooms.
-               <br>They may talk of Circassia and sing of Cashmere,
-               <br>Where the maids are so fair and the shawls are so dear;
-               <br>But for elegant figures deliciously drest,
-               <br>The East cannot rival our land of the West.
-               <br>And the belle of all belles is the belle of Broadway:
-               <br>She’s as plump as a Venus and light as a fay;
-               <br>Her smile—oh ! what rapture its sweetness bestows,
-               <br>While the blush of her cheek shames the blush of a rose!
-               <br>If my pen were a diamond whose sparkles would flow
-               <br>Like the lightning’s swift gleam to the paper below,
-               <br>By the dazzle of words I might hope to convey
-               <br>Some glance at the charms of the belle of Broadway.
-               <br>But Sully himself would resign in despair
-               <br>The pencil that pictures the fairest of fair,
-               <br>Nor attempt in his exquisite style to pourtray
-               <br>The perfection of grace in the belle of Broadway!
+               
+               <br></br>She walks in the light of her beauty arrayed,
+               
+               <br></br>Like a queen by the hearts of a nation obeyed;
+               
+               <br></br>There’s a lustre around her, a splendor that vies
+               
+               <br></br>With the brightest of stars in the bluest of skies.
+               
+               <br></br>I’ve seen her at morning all laughing and gay,
+               
+               <br></br>With the step of a fairy bewitching Broadway;
+               
+               <br></br>I’ve seen her at evening all jewels and plumes,
+               
+               <br></br>Outflashing the gas In the brilliantest rooms.
+               
+               <br></br>They may talk of Circassia and sing of Cashmere,
+               
+               <br></br>Where the maids are so fair and the shawls are so dear;
+               
+               <br></br>But for elegant figures deliciously drest,
+               
+               <br></br>The East cannot rival our land of the West.
+               
+               <br></br>And the belle of all belles is the belle of Broadway:
+               
+               <br></br>She’s as plump as a Venus and light as a fay;
+               
+               <br></br>Her smile—oh ! what rapture its sweetness bestows,
+               
+               <br></br>While the blush of her cheek shames the blush of a rose!
+               
+               <br></br>If my pen were a diamond whose sparkles would flow
+               
+               <br></br>Like the lightning’s swift gleam to the paper below,
+               
+               <br></br>By the dazzle of words I might hope to convey
+               
+               <br></br>Some glance at the charms of the belle of Broadway.
+               
+               <br></br>But Sully himself would resign in despair
+               
+               <br></br>The pencil that pictures the fairest of fair,
+               
+               <br></br>Nor attempt in his exquisite style to pourtray
+               
+               <br></br>The perfection of grace in the belle of Broadway!
                
             </div>
             
             <div class="ab">417 Houston St., March 10.</div>
             
-            <div class="byline"><span class="person">P.B.</span></div>
+            <div class="byline">
+               <span class="person">P.B.</span>
+            </div>
             
          </div>
          
@@ -1280,50 +1361,91 @@
             
             <div class="head">FLORENCE VANE.</div>
             
-            <div class="byline">BY <span class="person">PHILIP P. COOKE</span>, OF WINCHESTER, VA.
+            <div class="byline">BY 
+               <span class="person">PHILIP P. COOKE</span>, OF WINCHESTER, VA.
             </div>
             
             <div class="lg">
-               <br>I loved thee long and dearly,
-               <br>Florence Vane !
-               <br>My life’s bright dream and early
-               <br>Hath come again.
-               <br>I renew in my fond vision
-               <br>My heart’s dear pain—
-               <br>My hopes and thy derision,
-               <br>Florence Vane.
-               <br>The ruin lone and hoary,
-               <br>The ruin old
-               <br>Where thou didst hark my story,
-               <br>At even told—
-               <br>That spot—the hues Elysian
-               <br>Of sky and plain
-               <br>I treasure in my vision,
-               <br>Florence Vane.
-               <br>Thou wast lovelier than the roses
-               <br>In their prime;
-               <br>Thy voice excelled the closes
-               <br>Of sweetest rhyme;
-               <br>Thy heart was as a river
-               <br>Without a main—
-               <br>Would I had loved thee never,
-               <br>Florence Vane.
-               <br>But fairest, coldest, wonder,
-               <br>Thy glorious day
-               <br>Lieth the green sod under,
-               <br>Alas the day!
-               <br>And it boots not to remember
-               <br>Thy disdain,
-               <br>To quicken love’s pale ember,
-               <br>Florence Vane.
-               <br>The lilies of the valley
-               <br>By young graves weep;
-               <br>The pansies love to dally
-               <br>Where maidens sleeps
-               <br>May their bloom, in beauty vieing,
-               <br>Never wane
-               <br>Where thine earthly part is lying,
-               <br>Florence Vane.
+               
+               <br></br>I loved thee long and dearly,
+               
+               <br></br>Florence Vane !
+               
+               <br></br>My life’s bright dream and early
+               
+               <br></br>Hath come again.
+               
+               <br></br>I renew in my fond vision
+               
+               <br></br>My heart’s dear pain—
+               
+               <br></br>My hopes and thy derision,
+               
+               <br></br>Florence Vane.
+               
+               <br></br>The ruin lone and hoary,
+               
+               <br></br>The ruin old
+               
+               <br></br>Where thou didst hark my story,
+               
+               <br></br>At even told—
+               
+               <br></br>That spot—the hues Elysian
+               
+               <br></br>Of sky and plain
+               
+               <br></br>I treasure in my vision,
+               
+               <br></br>Florence Vane.
+               
+               <br></br>Thou wast lovelier than the roses
+               
+               <br></br>In their prime;
+               
+               <br></br>Thy voice excelled the closes
+               
+               <br></br>Of sweetest rhyme;
+               
+               <br></br>Thy heart was as a river
+               
+               <br></br>Without a main—
+               
+               <br></br>Would I had loved thee never,
+               
+               <br></br>Florence Vane.
+               
+               <br></br>But fairest, coldest, wonder,
+               
+               <br></br>Thy glorious day
+               
+               <br></br>Lieth the green sod under,
+               
+               <br></br>Alas the day!
+               
+               <br></br>And it boots not to remember
+               
+               <br></br>Thy disdain,
+               
+               <br></br>To quicken love’s pale ember,
+               
+               <br></br>Florence Vane.
+               
+               <br></br>The lilies of the valley
+               
+               <br></br>By young graves weep;
+               
+               <br></br>The pansies love to dally
+               
+               <br></br>Where maidens sleeps
+               
+               <br></br>May their bloom, in beauty vieing,
+               
+               <br></br>Never wane
+               
+               <br></br>Where thine earthly part is lying,
+               
+               <br></br>Florence Vane.
                
             </div>
             
@@ -1462,7 +1584,8 @@
          
          <div class="head">THE GREAT TOWER OF TARUDANT.</div>
          
-         <div class="byline">BY <span class="person">ROBERT OLIVER</span>.
+         <div class="byline">BY 
+            <span class="person">ROBERT OLIVER</span>.
          </div>
          
          <div class="ab">(Continued from page 138.)</div>
@@ -1766,32 +1889,58 @@
          </p>
          
          <div class="ab">
-            <br>PROGRAMME.
-            <br>PART I.
-            <br>1.Overture to Freischutz,      .      .      .      C. M. Weber.
-            <br>2. Rondo de la Cenerentola. Signora Rosina Pico.    Rossini.
-            <br>3. Grand variations di Bravura on the Romance of
-            <br>   Joseph: “A peine au sortir de l'enfance.”
-            <br>   (For the piano-forte.) Mr. Wm. Scharfenberg.     H. Herz.
-            <br>4. Choruses, Festlied: “Tretet in die Runde,” .  .  Stuntz.
-            <br>“  “Die Abendglocken,” (Evening Bells.) By
-            <br>   several amateurs.    .      .      .      .      Mangold.
-            <br>PART II.
-            <br>5. Overture.—Fingal’s Cave.      .     .     .      Mendelssohn.
-            <br>6. Grand Aria de la Norma. Signor Rosina Pico.   .  Bellini.
-            <br>7. Concertino.—(Clarionet.) Mr. Theodore W.
-            <br>   Grœnevelt.     .      .       .        .        C. M. Weber.
-            <br>8. Choruses. “Liebe und Wein.”      .       .       Mendelssohn.
-            <br>  “      Fest-Marsch: “Tone du Feierlied.”    .     Speier.
-            <br>         By several amateurs.
-            <br>PART III.
-            <br>9. Grand Sinfonia in C Minor.    .    .    .      Beethoven.
-            <br>  1. Allegro con Brio.
-            <br>    2. Andante con Moto.
-            <br>      3. Minuetto and Trio.
-            <br>        4. Allegro and Presto. Finale.
-            <br>Director, U. C. Hill.
-            <br>Leader of the German choruses, Mr. Charles Perabeau.
+            
+            <br></br>PROGRAMME.
+            
+            <br></br>PART I.
+            
+            <br></br>1.Overture to Freischutz,      .      .      .      C. M. Weber.
+            
+            <br></br>2. Rondo de la Cenerentola. Signora Rosina Pico.    Rossini.
+            
+            <br></br>3. Grand variations di Bravura on the Romance of
+            
+            <br></br>   Joseph: “A peine au sortir de l'enfance.”
+            
+            <br></br>   (For the piano-forte.) Mr. Wm. Scharfenberg.     H. Herz.
+            
+            <br></br>4. Choruses, Festlied: “Tretet in die Runde,” .  .  Stuntz.
+            
+            <br></br>“  “Die Abendglocken,” (Evening Bells.) By
+            
+            <br></br>   several amateurs.    .      .      .      .      Mangold.
+            
+            <br></br>PART II.
+            
+            <br></br>5. Overture.—Fingal’s Cave.      .     .     .      Mendelssohn.
+            
+            <br></br>6. Grand Aria de la Norma. Signor Rosina Pico.   .  Bellini.
+            
+            <br></br>7. Concertino.—(Clarionet.) Mr. Theodore W.
+            
+            <br></br>   Grœnevelt.     .      .       .        .        C. M. Weber.
+            
+            <br></br>8. Choruses. “Liebe und Wein.”      .       .       Mendelssohn.
+            
+            <br></br>  “      Fest-Marsch: “Tone du Feierlied.”    .     Speier.
+            
+            <br></br>         By several amateurs.
+            
+            <br></br>PART III.
+            
+            <br></br>9. Grand Sinfonia in C Minor.    .    .    .      Beethoven.
+            
+            <br></br>  1. Allegro con Brio.
+            
+            <br></br>    2. Andante con Moto.
+            
+            <br></br>      3. Minuetto and Trio.
+            
+            <br></br>        4. Allegro and Presto. Finale.
+            
+            <br></br>Director, U. C. Hill.
+            
+            <br></br>Leader of the German choruses, Mr. Charles Perabeau.
          </div>
          
          <p>The overture of Der Freischutz was better performed than
@@ -2458,7 +2607,8 @@
             <p>ACCOUNT OF A NEW PROCESS IN PAINTING   -  -   -   175</p>
             
             <div class="ab">Imported and for sale by
-               <br>WILEY &amp; PUTNAM, 161 Broadway.
+               
+               <br></br>WILEY &amp; PUTNAM, 161 Broadway.
             </div>
             
          </div>
@@ -2497,7 +2647,8 @@
             </p>
             
             <div class="ab">HENRY G. DAGGERS, Publisher.
-               <br>30 Ann-st., up stairs.
+               
+               <br></br>30 Ann-st., up stairs.
             </div>
             
          </div>
@@ -2533,7 +2684,8 @@
             </p>
             
             <div class="ab">HENRY G. DAGGERS,
-               <br>30 Ann street, New York.
+               
+               <br></br>30 Ann street, New York.
             </div>
             
             <p>N. B. The Beethoven Collection is for sale by all Periodical agents.
@@ -2639,23 +2791,40 @@
             </p>
             
             <div class="ab">
-               <br>BOSTON. 
-               <br>Messrs. G. J. Webb. 
-               <br>J. G Maedar. 
-               <br>H. T. Hach. 
-               <br>E. L. White. 
-               <br> David Paine. 
-               <br>A. Kurek. 
-               <br> T. B. Moses. 
-               <br>NEW YORK.
-               <br>Messrs. H. C. Timm.
-               <br> W. Alpers.
-               <br>U. C. Hill.
-               <br> F. H. Brown.
-               <br>PHILADELPHIA.
-               <br>B. C. Cross.
-               <br>Joseph Duggan.
-               <br>ALBANY—O. J. Shaw.
+               
+               <br></br>BOSTON. 
+               
+               <br></br>Messrs. G. J. Webb. 
+               
+               <br></br>J. G Maedar. 
+               
+               <br></br>H. T. Hach. 
+               
+               <br></br>E. L. White. 
+               
+               <br></br> David Paine. 
+               
+               <br></br>A. Kurek. 
+               
+               <br></br> T. B. Moses. 
+               
+               <br></br>NEW YORK.
+               
+               <br></br>Messrs. H. C. Timm.
+               
+               <br></br> W. Alpers.
+               
+               <br></br>U. C. Hill.
+               
+               <br></br> F. H. Brown.
+               
+               <br></br>PHILADELPHIA.
+               
+               <br></br>B. C. Cross.
+               
+               <br></br>Joseph Duggan.
+               
+               <br></br>ALBANY—O. J. Shaw.
             </div>
             
             <p>Professors and Teachers are respectfully invited to examine the work.
@@ -2726,24 +2895,42 @@
             <p>Mr. D. has the honor to announce that his School is open Day and Evening, for Equestrian Tuition and Exercise Riding.</p>
             
             <div class="ab">
-               <br>TERMS:
-               <br>Lecture Lessons. 
-               <br>16 Lessons . . . . . . . . . . . . $15 00 
-               <br>10    “  . . . . . . . . . . . .  . 10 00 
-               <br>4     "  . . . . . . . . . . . . .  6 00
-               <br>Single Lessons . . . . . . . . . .  2 00
-               <br>Road  “  . . . . . . . . . . . . .  2 50
-               <br>Exercise Riding.
-               <br>1 Month  . . . . . . . . . . . . . $12 00
-               <br>20 Rides . . . . . . . . . . . . .  10 00
-               <br>10   “ . . . . . . . . . . . . . .   6 00
-               <br>Single Rides. . . . . . . . . . . .  0 75
-               <br>N. B.—Highly trained and quiet Horses for the Road or Parade, to let.
-               <br>Evening Class.
-               <br>12 Lessons. . . . . . . . . . . . $9 00 
-               <br>Single “  . . . . . . . . . . . . .1 00
-               <br>20 Rides  . . . . . . . . . . . . $10 00
-               <br>Single Ride . . . . . . . . . . . . 0 75
+               
+               <br></br>TERMS:
+               
+               <br></br>Lecture Lessons. 
+               
+               <br></br>16 Lessons . . . . . . . . . . . . $15 00 
+               
+               <br></br>10    “  . . . . . . . . . . . .  . 10 00 
+               
+               <br></br>4     "  . . . . . . . . . . . . .  6 00
+               
+               <br></br>Single Lessons . . . . . . . . . .  2 00
+               
+               <br></br>Road  “  . . . . . . . . . . . . .  2 50
+               
+               <br></br>Exercise Riding.
+               
+               <br></br>1 Month  . . . . . . . . . . . . . $12 00
+               
+               <br></br>20 Rides . . . . . . . . . . . . .  10 00
+               
+               <br></br>10   “ . . . . . . . . . . . . . .   6 00
+               
+               <br></br>Single Rides. . . . . . . . . . . .  0 75
+               
+               <br></br>N. B.—Highly trained and quiet Horses for the Road or Parade, to let.
+               
+               <br></br>Evening Class.
+               
+               <br></br>12 Lessons. . . . . . . . . . . . $9 00 
+               
+               <br></br>Single “  . . . . . . . . . . . . .1 00
+               
+               <br></br>20 Rides  . . . . . . . . . . . . $10 00
+               
+               <br></br>Single Ride . . . . . . . . . . . . 0 75
             </div>
             
             <p>RULES:
@@ -2829,13 +3016,20 @@
             </p>
             
             <div class="ab">
-               <br>Hon. J. W. M. Berrien, Geo. 
-               <br>Hon. John B. Dawson, La.
-               <br>Joshua Herrick, Me.
-               <br>John H. Lumpkin, Geo.
-               <br>James Irvin, Pa.
-               <br>J. Thompson, Miss.
-               <br>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.
+               
+               <br></br>Hon. J. W. M. Berrien, Geo. 
+               
+               <br></br>Hon. John B. Dawson, La.
+               
+               <br></br>Joshua Herrick, Me.
+               
+               <br></br>John H. Lumpkin, Geo.
+               
+               <br></br>James Irvin, Pa.
+               
+               <br></br>J. Thompson, Miss.
+               
+               <br></br>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.
             </div>
             
          </div>
@@ -2896,7 +3090,9 @@
       
    </div>
    <div class="back">
-      <a href="#a001"> Link </a><div class="note" id="n001">Infatuation; a poem spoken before the Mercantile Library Association
+      
+      <a href="#a001"> Link </a>
+      <div class="note" id="n001">Infatuation; a poem spoken before the Mercantile Library Association
          of Boston, October 9, 1844. By Park Benjamin. Boston W. D. Ticknor &amp; Co.
       </div>
       

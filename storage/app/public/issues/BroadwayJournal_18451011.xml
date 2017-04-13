@@ -21,32 +21,51 @@
       <div>
          <div class="head">Beauty in Shadow.</div>
          
-         <div class="lg"><br>I mark a sadness on thy brow,
-            <br>Not meet in one so fair as thou;
-            <br>And as I hear thy accent now,
-            <br>There’s sorrow in each tone;—
-            <br>O! sure thou hast not felt the chain,
-            <br>The venom of love’s shaft—the pain,
-            <br>That from a dream, forever vain,
-            <br>Leaves life’s sad waking lone!
-            <br>Like some sweet waters poured to waste,
-            <br>With few to see, with none to taste,
-            <br>Do thy heart’s precious fountains haste
-            <br>To desert sands and seas?
-            <br>Oh! flowers thy hope in friendless sky,
-            <br>Beneath no fond, imploring eye—
-            <br>Or, like some harp, that hangs on high,
-            <br>Among forgotten trees?
+         <div class="lg">
+            <br></br>I mark a sadness on thy brow,
+            
+            <br></br>Not meet in one so fair as thou;
+            
+            <br></br>And as I hear thy accent now,
+            
+            <br></br>There’s sorrow in each tone;—
+            
+            <br></br>O! sure thou hast not felt the chain,
+            
+            <br></br>The venom of love’s shaft—the pain,
+            
+            <br></br>That from a dream, forever vain,
+            
+            <br></br>Leaves life’s sad waking lone!
+            
+            <br></br>Like some sweet waters poured to waste,
+            
+            <br></br>With few to see, with none to taste,
+            
+            <br></br>Do thy heart’s precious fountains haste
+            
+            <br></br>To desert sands and seas?
+            
+            <br></br>Oh! flowers thy hope in friendless sky,
+            
+            <br></br>Beneath no fond, imploring eye—
+            
+            <br></br>Or, like some harp, that hangs on high,
+            
+            <br></br>Among forgotten trees?
          </div>
          
-         <div class="byline"><span class="person">W. GIlMORE SlMMS.</span></div>
+         <div class="byline">
+            <span class="person">W. GIlMORE SlMMS.</span>
+         </div>
       </div>
       
       <div>
          <div class="head">Ms. Found in a Bottle.</div>
          
          <div class="ab">Qui n’a plus qu’un moment a vivre
-            <br>N’a plus rien a dissimuler-Quinault—Alys.
+            
+            <br></br>N’a plus rien a dissimuler-Quinault—Alys.
          </div>
          
          <p>Of my country and of my family I have little to say.
@@ -472,53 +491,92 @@
             ocean and of tempest, the ship is quivering, oh God!
             and—going down.
          </p>
-         <div class="byline"><span class="person">Edgar a. Poe.</span></div>
+         <div class="byline">
+            <span class="person">Edgar a. Poe.</span>
+         </div>
       </div>
       
       <div>
          <div class="head">Stanzas.</div>
          
-         <div class="lg"><br>Oh! lay not her loveliness under the sod,
-            <br>When life’s silver chord shall have parted;
-            <br>The frame of the late when the music’s with God—
-            <br>The gentle girl now broken-hearted!
-            <br>Would ye that the worms of the valley should prey
-            <br>On the lips once like roses above her?
-            <br>Or rather the Fire King waft her away,
-            <br>Forever, in free air, to hover I
-            <br>Then of amber and wood of the sandal-tree rear
-            <br>All fragrant the funeral pyre:
-            <br>For sure there is nothing of darksome or drear
-            <br>In the shadowless Spirit of Fire!
-            <br>Oh! beautiful he is, and hath not his peers
-            <br>In the elements—he is their master!
-            <br>To him give her blighted bloom dew’d with our tears,
-            <br>And he, though he burn, will not blast her!
-            <br>She shall scorch, like the lily she looks, in his breath;
-            <br>But paly, and pure, and perfuming,
-            <br>His arms shall her beauty unhlemished enwreath,
-            <br>And even refine whilst consuming.
-            <br>Ye will find that, when clouds which conceal her unfold,
-            <br>She hath fled in her rich robes of burning!
-            <br>But glean from the smouldering pile and when cold
-            <br>Give the ashes a splendid inurning!
-            <br>And oft as the evening star chastens the blush
-            <br>Of sunset that brightens beneath her,
-            <br>Ye will deem it her heart, which its soft fires flush,
-            <br>That palpitates in the pure ether!
+         <div class="lg">
+            <br></br>Oh! lay not her loveliness under the sod,
+            
+            <br></br>When life’s silver chord shall have parted;
+            
+            <br></br>The frame of the late when the music’s with God—
+            
+            <br></br>The gentle girl now broken-hearted!
+            
+            <br></br>Would ye that the worms of the valley should prey
+            
+            <br></br>On the lips once like roses above her?
+            
+            <br></br>Or rather the Fire King waft her away,
+            
+            <br></br>Forever, in free air, to hover I
+            
+            <br></br>Then of amber and wood of the sandal-tree rear
+            
+            <br></br>All fragrant the funeral pyre:
+            
+            <br></br>For sure there is nothing of darksome or drear
+            
+            <br></br>In the shadowless Spirit of Fire!
+            
+            <br></br>Oh! beautiful he is, and hath not his peers
+            
+            <br></br>In the elements—he is their master!
+            
+            <br></br>To him give her blighted bloom dew’d with our tears,
+            
+            <br></br>And he, though he burn, will not blast her!
+            
+            <br></br>She shall scorch, like the lily she looks, in his breath;
+            
+            <br></br>But paly, and pure, and perfuming,
+            
+            <br></br>His arms shall her beauty unhlemished enwreath,
+            
+            <br></br>And even refine whilst consuming.
+            
+            <br></br>Ye will find that, when clouds which conceal her unfold,
+            
+            <br></br>She hath fled in her rich robes of burning!
+            
+            <br></br>But glean from the smouldering pile and when cold
+            
+            <br></br>Give the ashes a splendid inurning!
+            
+            <br></br>And oft as the evening star chastens the blush
+            
+            <br></br>Of sunset that brightens beneath her,
+            
+            <br></br>Ye will deem it her heart, which its soft fires flush,
+            
+            <br></br>That palpitates in the pure ether!
          </div>
          
-         <div class="byline"><span class="person">William Gibbon, U. S. N.</span></div>
+         <div class="byline">
+            <span class="person">William Gibbon, U. S. N.</span>
+         </div>
       </div>
       
       <div>
          <div class="head">The Due De L'Omelette.</div>
          
-         <div class="cit"><span class="quote">And stepped at once into a cooler clime.</span><div class="bibl"><span class="person">—Cowper.</span></div>
+         <div class="cit">
+            <span class="quote">And stepped at once into a cooler clime.</span>
+            <div class="bibl">
+               <span class="person">—Cowper.</span>
+            </div>
          </div>
          
          <p>Keats fell by a criticism. Who was it died of “The
-            Andromache?"<span class="anchor" id="a001"><a href="#n001"> Link </a></span>Ignoble souls!—De L’Omelette perished of an ortolan. L'histoire en est brère. Assist me, Spirit of Apicius!
+            Andromache?"
+            <span class="anchor" id="a001">
+               <a href="#n001"> Link </a>
+            </span>Ignoble souls!—De L’Omelette perished of an ortolan. L'histoire en est brère. Assist me, Spirit of Apicius!
          </p>
          
          <p>A golden cage bore the little winged wanderer, enamored, melting, indolent, to the Chaussée D'Antin, from
@@ -686,47 +744,84 @@
          <p>Had Alexander not been Alexander, he would have
             been Diogenes; and the Duc assured his antagonist in taking leave, “que s'il n'eut pas été Be L’Omelette il n'aurait point d’objection d’etre le Diable."
          </p>
-         <div class="byline"><span class="person">Littleton Barry.</span></div>
+         <div class="byline">
+            <span class="person">Littleton Barry.</span>
+         </div>
       </div>
       
       <div>
          <div class="head">To Constance.</div>
          
-         <div class="lg"><br>Forgive me, Lady, if I bring to bear
-            <br>Upon my case, a fable of old times;
-            <br>Since Poesie did ne’er such beauty wear
-            <br>As in the breathing of those antique rhymes.
-            <br>Love was Ideal then, and Fancy dress’d,
-            <br>Some mortal form in attributes divine;
-            <br>She was the Deity all men confessed,
-            <br>And bowed down soul and reason at her shrine.
-            <br>Where shall we find such passion now? ah! where?
-            <br>Are not those vain, though sweet, delusive lays?
-            <br>Love and Romance grow strangers year by year,
-            <br>’Till rare their meeting in these actual days.
-            <br>But sometimes there is found amidst the throng
-            <br>A being aged in care, with heart still young,
-            <br>Who still finds truth in the wild dreamer’s song,
-            <br>Like ivy, clinging, where in youth he clung.
-            <br>These are but few, yet rarer still we find
-            <br>The God-like cause, that makes such thoughts to be;
-            <br>I might have liqed and perished cold and blind
-            <br>To all such bliss, had it not been for thee.
-            <br>FABLE.
-            <br>“Thou art, like me, but common earth—then why
-            <br>Shouldst thou so rich in rarest odors be?”
-            <br>This was the modest and the wise reply:—
-            <br>“I nursed the Rose—its sweetness lives with me!”
-            <br>So I, who am but common clay, have caught
-            <br>From thy bright Presence some of its pure light;
-            <br>As great a change is in my being wrought,
-            <br>As brings the sun to the down-winged night.
-            <br>I am of thee poor counterfeit, alas!
-            <br>Grafting thy virtues on a worthless tree;
-            <br>Yet from my heart their glory shall not pass,
-            <br>But hallow, like the Rose, their sanctuary.
+         <div class="lg">
+            <br></br>Forgive me, Lady, if I bring to bear
+            
+            <br></br>Upon my case, a fable of old times;
+            
+            <br></br>Since Poesie did ne’er such beauty wear
+            
+            <br></br>As in the breathing of those antique rhymes.
+            
+            <br></br>Love was Ideal then, and Fancy dress’d,
+            
+            <br></br>Some mortal form in attributes divine;
+            
+            <br></br>She was the Deity all men confessed,
+            
+            <br></br>And bowed down soul and reason at her shrine.
+            
+            <br></br>Where shall we find such passion now? ah! where?
+            
+            <br></br>Are not those vain, though sweet, delusive lays?
+            
+            <br></br>Love and Romance grow strangers year by year,
+            
+            <br></br>’Till rare their meeting in these actual days.
+            
+            <br></br>But sometimes there is found amidst the throng
+            
+            <br></br>A being aged in care, with heart still young,
+            
+            <br></br>Who still finds truth in the wild dreamer’s song,
+            
+            <br></br>Like ivy, clinging, where in youth he clung.
+            
+            <br></br>These are but few, yet rarer still we find
+            
+            <br></br>The God-like cause, that makes such thoughts to be;
+            
+            <br></br>I might have liqed and perished cold and blind
+            
+            <br></br>To all such bliss, had it not been for thee.
+            
+            <br></br>FABLE.
+            
+            <br></br>“Thou art, like me, but common earth—then why
+            
+            <br></br>Shouldst thou so rich in rarest odors be?”
+            
+            <br></br>This was the modest and the wise reply:—
+            
+            <br></br>“I nursed the Rose—its sweetness lives with me!”
+            
+            <br></br>So I, who am but common clay, have caught
+            
+            <br></br>From thy bright Presence some of its pure light;
+            
+            <br></br>As great a change is in my being wrought,
+            
+            <br></br>As brings the sun to the down-winged night.
+            
+            <br></br>I am of thee poor counterfeit, alas!
+            
+            <br></br>Grafting thy virtues on a worthless tree;
+            
+            <br></br>Yet from my heart their glory shall not pass,
+            
+            <br></br>But hallow, like the Rose, their sanctuary.
          </div>
-         <div class="byline"><span class="person">w.</span></div>
+         <div class="byline">
+            <span class="person">w.</span>
+         </div>
       </div>
       
       <div>
@@ -944,7 +1039,9 @@
          
          <p>“My brother! I saw that star fall!"</p>
          
-         <div class="byline"><span class="person">Henry C. Watson.</span></div>
+         <div class="byline">
+            <span class="person">Henry C. Watson.</span>
+         </div>
       </div>
       
       <div>
@@ -975,23 +1072,40 @@
             spark of poetic fire. In justice, we cull what we consider the best specimen of her powers:
          </p>
          
-         <div class="lg"><br>THE MOON.
-            <br>Beautiful moon! oh, how I love to hail
-            <br>Thy glorious coming in the eastern sky,
-            <br>When starry gems along thy pathway lie,
-            <br>Trembling and turning in thy presence pale;
-            <br>Brightest adorner of Night’s pensive brow,
-            <br>Fairest of all her radiant jewels, tbou!
-            <br>Wreathing with light the fleecy cloud that veils
-            <br>With its thin mantle, for a little space,
-            <br>The full-orbed lustre of thy beaming face—
-            <br>Casting thy splendor on the sleeping dales,
-            <br>Fields, woods and waters that beneath thee rest,
-            <br>With Night’s dark shadows on thy peaceful breast—
-            <br>Oh, I do love thee! but the most, sweet moon,
-            <br>In the still hour of midnight’s sacred noon;
-            <br>Calm then are spirits that with day have striven,
-            <br>And Earth's repose seems kin to that of Heaven!
+         <div class="lg">
+            <br></br>THE MOON.
+            
+            <br></br>Beautiful moon! oh, how I love to hail
+            
+            <br></br>Thy glorious coming in the eastern sky,
+            
+            <br></br>When starry gems along thy pathway lie,
+            
+            <br></br>Trembling and turning in thy presence pale;
+            
+            <br></br>Brightest adorner of Night’s pensive brow,
+            
+            <br></br>Fairest of all her radiant jewels, tbou!
+            
+            <br></br>Wreathing with light the fleecy cloud that veils
+            
+            <br></br>With its thin mantle, for a little space,
+            
+            <br></br>The full-orbed lustre of thy beaming face—
+            
+            <br></br>Casting thy splendor on the sleeping dales,
+            
+            <br></br>Fields, woods and waters that beneath thee rest,
+            
+            <br></br>With Night’s dark shadows on thy peaceful breast—
+            
+            <br></br>Oh, I do love thee! but the most, sweet moon,
+            
+            <br></br>In the still hour of midnight’s sacred noon;
+            
+            <br></br>Calm then are spirits that with day have striven,
+            
+            <br></br>And Earth's repose seems kin to that of Heaven!
          </div>
          
          <p>We have said that the English of Miss Edmond is ge
@@ -1010,8 +1124,10 @@
       
       <div>
          <div class="ab">Oracles from the Poets: A Fanciful Diversion for the
-            <br>Drawing-Room. By Caroline Grilman. New-York:
-            <br>Wiley if Putnam.
+            
+            <br></br>Drawing-Room. By Caroline Grilman. New-York:
+            
+            <br></br>Wiley if Putnam.
          </div>
          
          <p>This is the third edition of a book which has been exceedingly popular, and justly so. Nothing could be better adapted for the amusement of an evening party.—
@@ -1021,11 +1137,16 @@
             the oracle reads as follows, from Washington Allston:
          </p>
          
-         <div class="lg"><br>Every thought and feeling throw
-            <br>Their shadows o’er her face,
-            <br>And so are every thought and feeling joined,
-            <br>’Twere hard to answer whether thought or mind
-            <br>Of either were the native place.
+         <div class="lg">
+            <br></br>Every thought and feeling throw
+            
+            <br></br>Their shadows o’er her face,
+            
+            <br></br>And so are every thought and feeling joined,
+            
+            <br></br>’Twere hard to answer whether thought or mind
+            
+            <br></br>Of either were the native place.
          </div>
          
          <p>The volume is beautifully printed and bound, and forms
@@ -1035,8 +1156,10 @@
       
       <div>
          <div class="ab">Wiley if Putnam's Library if Choice Reading. No.
-            <br>XXV. Table-Talk. By William Hazlitt. Second
-            <br>Series Part I.
+            
+            <br></br>XXV. Table-Talk. By William Hazlitt. Second
+            
+            <br></br>Series Part I.
          </div>
          
          <p>Of the first series of the Table-Talk we spoke so fully
@@ -1069,7 +1192,10 @@
             
             <div class="pagebreak" id="#page211"></div>
             <div class="columnbreak"></div>
-            have been equally useless toil and trouble.<span class="anchor" id="a002"><a href="#n002"> Link </a></span>He is a man of capacity who possesses considerable intellectual riches: he is a man
+            have been equally useless toil and trouble.
+            <span class="anchor" id="a002">
+               <a href="#n002"> Link </a>
+            </span>He is a man of capacity who possesses considerable intellectual riches: he is a man
             of genius who finds out a vein of new ore. Originality is the
             seeing nature different from all others, and yet as it is in itself.
             It is not singularity or affectation, but the discovery of new and
@@ -1112,7 +1238,10 @@
             for an Encyclopedia, and was advised to take time and give it a
             systematic and scientific form, to avail myself of all the knowledge
             that was to be obtained on the subject, and arrange it with clearness and method. I made answer that as to the first, I had taken
-            time to do all that I ever pretended to do, as I had thought incessantly on difierent matters for twenty years of my life;<span class="anchor" id="a003"><a href="#n003"> Link </a></span>that I had
+            time to do all that I ever pretended to do, as I had thought incessantly on difierent matters for twenty years of my life;
+            <span class="anchor" id="a003">
+               <a href="#n003"> Link </a>
+            </span>that I had
             no particular knowledge of the subject in question, and no head
             for arrangement; and that the utmost I could do in such a case
             would be, when a systematic and scientific article was prepared, to
@@ -1217,13 +1346,20 @@
       
       <div>
          <div class="ab">History of the War in France and Belgium, in 1815;
-            <br>Containing Minute Details of Quatre-Bras, Ligny,
-            <br>Wavre, and Waterloo. By Captain W. Siborne, Sec-
-            <br>retary and Adjutant of the Royal Military Asylum;
-            <br>constructor of the “Waterloo Model” first Amer-
-            <br>ican from the Second London edition. With Plans of
-            <br>the Battles and Maps. Philadelphia: Lea and Blan-
-            <br>chard.
+            
+            <br></br>Containing Minute Details of Quatre-Bras, Ligny,
+            
+            <br></br>Wavre, and Waterloo. By Captain W. Siborne, Sec-
+            
+            <br></br>retary and Adjutant of the Royal Military Asylum;
+            
+            <br></br>constructor of the “Waterloo Model” first Amer-
+            
+            <br></br>ican from the Second London edition. With Plans of
+            
+            <br></br>the Battles and Maps. Philadelphia: Lea and Blan-
+            
+            <br></br>chard.
          </div>
          
          <p>A beantifully printed volume of nearly 650 pages.
@@ -1240,12 +1376,18 @@
       
       <div>
          <div class="ab">Historical Sketch of the Second War between the United
-            <br>States of America and Great Britain, declared by Act
-            <br>of Congress, the 18M of June 1812, and Concluded by
-            <br>Peace, the 15th of February 1815. fly Charles J. In-
-            <br>gersoll. In Three Volumes. Vol. I. Embracing the
-            <br>Events of 1812-13. Philadelphia: Lea aud Blan-
-            <br>chard.
+            
+            <br></br>States of America and Great Britain, declared by Act
+            
+            <br></br>of Congress, the 18M of June 1812, and Concluded by
+            
+            <br></br>Peace, the 15th of February 1815. fly Charles J. In-
+            
+            <br></br>gersoll. In Three Volumes. Vol. I. Embracing the
+            
+            <br></br>Events of 1812-13. Philadelphia: Lea aud Blan-
+            
+            <br></br>chard.
          </div>
          
          <p>A volume of more than 500 pages octavo. It is rather
@@ -1308,11 +1450,16 @@
       
       <div>
          <div class="ab">Ollendorf's New Method of learning to read, write,
-            <br>and speak the German Language; to which is added
-            <br>a Systematic Outline of the Different Parts of Speech,
-            <br>their Inflection and Use, with full Paradigms and a
-            <br>Complete Table of the Irregular Verbs. By J. G. Ad-
-            <br>ler, A. B. New-York: D. Appleton&amp; Co.
+            
+            <br></br>and speak the German Language; to which is added
+            
+            <br></br>a Systematic Outline of the Different Parts of Speech,
+            
+            <br></br>their Inflection and Use, with full Paradigms and a
+            
+            <br></br>Complete Table of the Irregular Verbs. By J. G. Ad-
+            
+            <br></br>ler, A. B. New-York: D. Appleton&amp; Co.
          </div>
          
          <p>The New Method of Ollendorf affords, unquestionably, the best means of studying the German. In no other grammar do we obtain so much information, so luminously given. His great merit is that he does not plunge
@@ -1339,13 +1486,20 @@
       
       <div>
          <div class="ab">Norman's New-Orleans and Environs: Containing a
-            <br>Brief Historical Sketch of the Territory and State of
-            <br>Louisiana, and the City of New-Orleans, from the
-            <br>Earliest Period to the Present Time: Presenting a
-            <br>Complete Guide to all Subjects of General Interest in
-            <br>the Southern Metropolis, with a Correct and Improved
-            <br>Plan of the City, Pictorial Illustrations of Public
-            <br>Buildings, etc. etc. New-Orleans: B. B. Norman.
+            
+            <br></br>Brief Historical Sketch of the Territory and State of
+            
+            <br></br>Louisiana, and the City of New-Orleans, from the
+            
+            <br></br>Earliest Period to the Present Time: Presenting a
+            
+            <br></br>Complete Guide to all Subjects of General Interest in
+            
+            <br></br>the Southern Metropolis, with a Correct and Improved
+            
+            <br></br>Plan of the City, Pictorial Illustrations of Public
+            
+            <br></br>Buildings, etc. etc. New-Orleans: B. B. Norman.
          </div>
          
          <p>We give the full title to show the design of the work;
@@ -1360,8 +1514,10 @@
       
       <div>
          <div class="ab">The Prince and the Pedler. A Novel. By Miss Ellen
-            <br>Pickering, Author of “Nan Darrell," etc. New-York:
-            <br>E. Ferrett, &amp; Co.
+            
+            <br></br>Pickering, Author of “Nan Darrell," etc. New-York:
+            
+            <br></br>E. Ferrett, &amp; Co.
          </div>
          
          <p>Miss Pickering has written some of the most praiseworthy and popular novels of the day; and “The Prince
@@ -1386,78 +1542,105 @@
       
       <div>
          <div class="ab">Pictorial History of the World. By John Frost, L. L.
-            <br>D.. Philadelphia: Walker if Gillis. New-York: Wil-
-            <br>liam H. Graham.
-            <br>No. 9 is issued. To be completed in 30 numbers, at 25
-            <br>cents.
+            
+            <br></br>D.. Philadelphia: Walker if Gillis. New-York: Wil-
+            
+            <br></br>liam H. Graham.
+            
+            <br></br>No. 9 is issued. To be completed in 30 numbers, at 25
+            
+            <br></br>cents.
          </div>
       </div>
       
       <div>
          <div class="ab">The Knickerbocker for October is unusually good, but
-            <br>we are too much pressed for space to do more, just now.
-            <br>than recommend to the especial attention of our readers
-            <br>the papet entitled “Who are our National Poets?”
+            
+            <br></br>we are too much pressed for space to do more, just now.
+            
+            <br></br>than recommend to the especial attention of our readers
+            
+            <br></br>the papet entitled “Who are our National Poets?”
          </div>
       </div>
       
       <div>
          <div class="ab">The Westminster Review for September has been re-
-            <br>printed by Messrs. Leonard Scott &amp; Co., and contains its
-            <br>usual amount of valuable matter:—among other things,
-            <br>a review of Humboldt’s “Kosmos”—a review of “Sy-
-            <br>bil”—and a paper on “Shaksperian Criticism and Act-
-            <br>ing.”
+            
+            <br></br>printed by Messrs. Leonard Scott &amp; Co., and contains its
+            
+            <br></br>usual amount of valuable matter:—among other things,
+            
+            <br></br>a review of Humboldt’s “Kosmos”—a review of “Sy-
+            
+            <br></br>bil”—and a paper on “Shaksperian Criticism and Act-
+            
+            <br></br>ing.”
          </div>
       </div>
       
       <div>
          <div class="ab">The Southern Lit. Messenger for October contains a
-            <br>very condemnatory and in our opinion a very just review
-            <br>of “Poems by William W. Lord.”
+            
+            <br></br>very condemnatory and in our opinion a very just review
+            
+            <br></br>of “Poems by William W. Lord.”
          </div>
       </div>
       
       <div>
          <div class="ab">The Democratic Review for October has a fine mezzo-
-            <br>tint of Cave Johnson, and one of the most exciting stories
-            <br>We ever read, “The Monomaniac,” by Mrs. E. F. Ellet.
+            
+            <br></br>tint of Cave Johnson, and one of the most exciting stories
+            
+            <br></br>We ever read, “The Monomaniac,” by Mrs. E. F. Ellet.
          </div>
       </div>
       
       <div>
          <div class="ab">Wiley &amp; Putnam’s Library of American Books. No VI.
-            <br>Wanderings of a Pilgrim under the Shadow of Mount
-            <br>Blanc. By George B. Cheever, D. D.
+            
+            <br></br>Wanderings of a Pilgrim under the Shadow of Mount
+            
+            <br></br>Blanc. By George B. Cheever, D. D.
          </div>
       </div>
       
       <div>
          <div class="ab">History of France from the Earliest Period to the Pre-
-            <br>sent Time. By M. Michlet, Professeur-suppléant à la
-            <br>Faculté des Lettres, etc. Translated by G. H. Smith,
-            <br>F. G. S. No. 5. New York: D Appleton dfCo.
+            
+            <br></br>sent Time. By M. Michlet, Professeur-suppléant à la
+            
+            <br></br>Faculté des Lettres, etc. Translated by G. H. Smith,
+            
+            <br></br>F. G. S. No. 5. New York: D Appleton dfCo.
          </div>
       </div>
       
       <div>
          <div class="ab">A Cyclopedia of Several Thousand Practical Receipts,
-            <br>etc. By Arnold James Cooley. No 5. New York: D.
-            <br>Appleton &amp; Co.
+            
+            <br></br>etc. By Arnold James Cooley. No 5. New York: D.
+            
+            <br></br>Appleton &amp; Co.
          </div>
       </div>
       
       <div>
          <div class="ab">A Plea for Social and Popular Repose; Delivered be-
-            <br>fore the Literary Societies of the University of the
-            <br>City of New York. By D. D. Barnard.
+            
+            <br></br>fore the Literary Societies of the University of the
+            
+            <br></br>City of New York. By D. D. Barnard.
          </div>
       </div>
       
       <div>
          <div class="ab">The Songs of our Land, and other Poems. By Mary E.
-            <br>Hewitt. Boston: William D. Ticknor &amp; Co. For
-            <br>sale by Langley.
+            
+            <br></br>Hewitt. Boston: William D. Ticknor &amp; Co. For
+            
+            <br></br>sale by Langley.
          </div>
          
          <p>We have received these five last publications at too
@@ -1482,8 +1665,10 @@
             the forest—beneath whose mighty arms
          </p>
          
-         <div class="lg"><br>The ground was never trenched by spade,
-            <br>And flowers spring up unseen.
+         <div class="lg">
+            <br></br>The ground was never trenched by spade,
+            
+            <br></br>And flowers spring up unseen.
          </div>
          
          <p>
@@ -1532,7 +1717,9 @@
             you, by wishing that the sheep in the middle ground
             were of an “improved breed,” as they make the shepherd appear too tall.
          </p>
-         <div class="byline"><span class="person">W.</span></div>
+         <div class="byline">
+            <span class="person">W.</span>
+         </div>
       </div>
       
       <div>
@@ -1572,7 +1759,9 @@
             the Society Library. We have no patience with those
             who decry it.
          </p>
-         <div class="byline"><span class="person">P.</span></div>
+         <div class="byline">
+            <span class="person">P.</span>
+         </div>
       </div>
       
       <div>
@@ -1792,7 +1981,9 @@
             sending him so long a letter, I must say that I had not time to
             write it shorter.
          </p>
-         <div class="byline"><span class="person">E. H.</span></div>
+         <div class="byline">
+            <span class="person">E. H.</span>
+         </div>
       </div>
       
       <div>
@@ -1999,372 +2190,609 @@
       
       <div>
          <div class="ab">PAINE &amp; BURGESS
-            <br>HAVE JUST PUBLISHED
+            
+            <br></br>HAVE JUST PUBLISHED
          </div>
          
          <div class="ab">THE CITIZEN OF a REPUBLIC, by
-            <br>Ansaldo Ceba. 1 vol. 12 mo. “A book
-            <br>of rare and condensed thoughts, like dia-
-            <br>monds finely polished and richly set.”
+            
+            <br></br>Ansaldo Ceba. 1 vol. 12 mo. “A book
+            
+            <br></br>of rare and condensed thoughts, like dia-
+            
+            <br></br>monds finely polished and richly set.”
          </div>
          
          <div class="ab">The Florentine Histories, by Machiavelli,
-            <br>2 vols. 12 mo. “The charmed records of
-            <br>the classic city of the Arno, by the master
-            <br>spirit of his age.”
+            
+            <br></br>2 vols. 12 mo. “The charmed records of
+            
+            <br></br>the classic city of the Arno, by the master
+            
+            <br></br>spirit of his age.”
          </div>
          
          <div class="ab">The Challenge of Barletta, a Romance of
-            <br>the Times of the Medici. 1 vol. 12 mo. “A
-            <br>gem gathered from the jewelled mines of
-            <br>Italian Romance.”
+            
+            <br></br>the Times of the Medici. 1 vol. 12 mo. “A
+            
+            <br></br>gem gathered from the jewelled mines of
+            
+            <br></br>Italian Romance.”
          </div>
          
          <div class="ab">WILL PUBLISH SOON,
-            <br>The Autobiography of Alfieri.
-            <br>Melodies, by Gen. Geo. P. Morris.
-            <br>The Artist, Merchant and Statesman. 2
-            <br>vols. 12 mo. By C. Edwards Lester.
-            <br>Prairiedom; or Texas and New Estrama-
-            <br>dura. By a Southerner. 1 vol. 12 mo.
-            <br>A New Work on Greece. By G. A. Per-
-            <br>dicari, U. S. Consul at Athens. 2 vols. 12
-            <br>mo.
-            <br>Rambles by Land and Water, or Notes of
-            <br>Travel in Cuba and Mexico. By B. M.
-            <br>Norman, author of Rambles in Yucatan, etc.
-            <br>1 vol. Illustrated.
-            <br>Fanny Forrester’s First Book of Sketches.
-            <br>Man in the Republic. By C. Matthews.
-            <br>32 mo. Gilt. A new and carefully revised
-            <br>edition.
-            <br>The Prince. By Machiavelli.
+            
+            <br></br>The Autobiography of Alfieri.
+            
+            <br></br>Melodies, by Gen. Geo. P. Morris.
+            
+            <br></br>The Artist, Merchant and Statesman. 2
+            
+            <br></br>vols. 12 mo. By C. Edwards Lester.
+            
+            <br></br>Prairiedom; or Texas and New Estrama-
+            
+            <br></br>dura. By a Southerner. 1 vol. 12 mo.
+            
+            <br></br>A New Work on Greece. By G. A. Per-
+            
+            <br></br>dicari, U. S. Consul at Athens. 2 vols. 12
+            
+            <br></br>mo.
+            
+            <br></br>Rambles by Land and Water, or Notes of
+            
+            <br></br>Travel in Cuba and Mexico. By B. M.
+            
+            <br></br>Norman, author of Rambles in Yucatan, etc.
+            
+            <br></br>1 vol. Illustrated.
+            
+            <br></br>Fanny Forrester’s First Book of Sketches.
+            
+            <br></br>Man in the Republic. By C. Matthews.
+            
+            <br></br>32 mo. Gilt. A new and carefully revised
+            
+            <br></br>edition.
+            
+            <br></br>The Prince. By Machiavelli.
          </div>
       </div>
       
       <div>
          <div class="ab">161 Broadway, September, 1845.
-            <br>WILEY &amp; PUTNAM'S
-            <br>Library OF CHOICE READING.
+            
+            <br></br>WILEY &amp; PUTNAM'S
+            
+            <br></br>Library OF CHOICE READING.
          </div>
          
          <div class="ab">“BOOKS WHICH ARC BOOKS.”</div>
          
          <div class="ab">THE PUBLISHERS of the Library of Choice
-            <br>Heading beg leave to call attention to the fol
-            <br>lowing clarification of the books published in the
-            <br>series by which it will appear that novelty, variety,
-            <br>and standard merit have always been preserved,
-            <br>and the promise of the original prospectus faithfully,
-            <br>kept. It was proposed to publish "the best books of
-            <br>Travels, Biographies, works of Classic Fiction— 
-            <br>where the moral is superior to the mere story, with
-            <br>out any sacrifice of the interest—occasional choice 
-            <br>volumes of Poetry, Essays, Criticism. Contributions
-            <br>to History, and generally such single volumes, writ-
-            <br>ten by men 0f genius as will equally delight the 
-            <br>scholar and the general reader.” The books already
-            <br>issued and ready for immediate publication may be
-            <br>arranged as follows:
+            
+            <br></br>Heading beg leave to call attention to the fol
+            
+            <br></br>lowing clarification of the books published in the
+            
+            <br></br>series by which it will appear that novelty, variety,
+            
+            <br></br>and standard merit have always been preserved,
+            
+            <br></br>and the promise of the original prospectus faithfully,
+            
+            <br></br>kept. It was proposed to publish "the best books of
+            
+            <br></br>Travels, Biographies, works of Classic Fiction— 
+            
+            <br></br>where the moral is superior to the mere story, with
+            
+            <br></br>out any sacrifice of the interest—occasional choice 
+            
+            <br></br>volumes of Poetry, Essays, Criticism. Contributions
+            
+            <br></br>to History, and generally such single volumes, writ-
+            
+            <br></br>ten by men 0f genius as will equally delight the 
+            
+            <br></br>scholar and the general reader.” The books already
+            
+            <br></br>issued and ready for immediate publication may be
+            
+            <br></br>arranged as follows:
          </div>
          
          <div class="ab">BOOKS OF TRAVELS.</div>
          
          <div class="ab">EOTHEN, OR TRACES OF TRAVEL BROUGHT
-            <br>home FROM THE EAST.
-            <br>FRENCH IN ALGIERS. By Lady Duff
-            <br>Gordon.
-            <br>THE CRESCENT AND THE CROSS—2 vols. By
-            <br>Warburton.
-            <br>Sir Francis HEAD'S BUBBLES FROM THE
-            <br>BRUNNEN.
-            <br>BECKFORD'S ITALY, SPAIN, PORTUGAL, AND
-            <br>vist TO THE MONASTERIES OF ALCO-
-            <br>BACA AND BATALHA—in press.
+            
+            <br></br>home FROM THE EAST.
+            
+            <br></br>FRENCH IN ALGIERS. By Lady Duff
+            
+            <br></br>Gordon.
+            
+            <br></br>THE CRESCENT AND THE CROSS—2 vols. By
+            
+            <br></br>Warburton.
+            
+            <br></br>Sir Francis HEAD'S BUBBLES FROM THE
+            
+            <br></br>BRUNNEN.
+            
+            <br></br>BECKFORD'S ITALY, SPAIN, PORTUGAL, AND
+            
+            <br></br>vist TO THE MONASTERIES OF ALCO-
+            
+            <br></br>BACA AND BATALHA—in press.
          </div>
          
          <div class="ab">NOTES ON A JOURNEY THROUGH FRANCE
-            <br>AND ITALY. By Hazlitt—in runs.
+            
+            <br></br>AND ITALY. By Hazlitt—in runs.
          </div>
          
          <div class="columnbreak"></div>
          <div class="ab">These will be followed by Sir Francis Head’s
-            <br>Rough Notes of a Journey across the Pampas;—
-            <br>Waterton’s Wanderings in South America; Miss
-            <br>Rigby’s Letters from the Baltic; Henry Nelson
-            <br>Coleridge’s Six Months in the West Indies, and
-            <br>Thackeray’s Notes of a Journey from London to
-            <br>Cairo, and others—forming altogether one of the
-            <br>most original and select collections of books of tra-
-            <br>vels ever published.
+            
+            <br></br>Rough Notes of a Journey across the Pampas;—
+            
+            <br></br>Waterton’s Wanderings in South America; Miss
+            
+            <br></br>Rigby’s Letters from the Baltic; Henry Nelson
+            
+            <br></br>Coleridge’s Six Months in the West Indies, and
+            
+            <br></br>Thackeray’s Notes of a Journey from London to
+            
+            <br></br>Cairo, and others—forming altogether one of the
+            
+            <br></br>most original and select collections of books of tra-
+            
+            <br></br>vels ever published.
          </div>
          
          <div class="ab">CLASSIC FICTION.</div>
          
          <div class="ab">MARY SCHWEIDLER, THE AMBER WITCH
-            <br>The most interesting Trial for Witchcraft ever 
-            <br>published.
+            
+            <br></br>The most interesting Trial for Witchcraft ever 
+            
+            <br></br>published.
          </div>
          
          <div class="ab">UNDINE AND SINTRAM AND HIS COMPAN-
-            <br>IONS. From the German of La Motte Fouque.
+            
+            <br></br>IONS. From the German of La Motte Fouque.
          </div> 
          
          <div class="ab">THE DIARY OF LADY WILLOUGHHY
-            <br>HEADLONG HALL AND NIGHTMARE. ABBEY 
-            <br>ZSCHOKKE’S TALES. Translated by Parke God-
-            <br>win.
+            
+            <br></br>HEADLONG HALL AND NIGHTMARE. ABBEY 
+            
+            <br></br>ZSCHOKKE’S TALES. Translated by Parke God-
+            
+            <br></br>win.
          </div>
          
          <div class="ab">THE CROCK OF GOLD. By Martin Farquhar
-            <br>Tapper.
+            
+            <br></br>Tapper.
          </div>
          
          <div class="ab">HEART AND THE TWINS. By Marlin Farquhar
-            <br>Tupper.—in press.
+            
+            <br></br>Tupper.—in press.
          </div>
          
          <div class="ab">Under this department will be included the choicest
-            <br>new works of fiction as they issue from the press
-            <br>and choice translations from the writers of the Con-
-            <br>tinent. The following have been already announc
-            <br>ed: Mrs. INCHBALD'S Nature and Art; Tales from
-            <br>TIECK and Hoffman, the White Lady and Peter
-            <br>Schlemihl; The Life and Adventures of Peter Wil
-            <br>kins, a Cornish Man; Melincourt and Crotchet Cas-
-            <br>tle, by the author of Headlong Hall.
+            
+            <br></br>new works of fiction as they issue from the press
+            
+            <br></br>and choice translations from the writers of the Con-
+            
+            <br></br>tinent. The following have been already announc
+            
+            <br></br>ed: Mrs. INCHBALD'S Nature and Art; Tales from
+            
+            <br></br>TIECK and Hoffman, the White Lady and Peter
+            
+            <br></br>Schlemihl; The Life and Adventures of Peter Wil
+            
+            <br></br>kins, a Cornish Man; Melincourt and Crotchet Cas-
+            
+            <br></br>tle, by the author of Headlong Hall.
          </div>
          
          <div class="ab">ILLUSTRATIONS OF ENGLISH LITERATURE
-            <br>LEIGH HUNTS IMAGINATION AND FANCY
-            <br>HAZLITT’S DRAMATIC WRITERS OF THE
-            <br>AGE OF ELIZABETH.
+            
+            <br></br>LEIGH HUNTS IMAGINATION AND FANCY
+            
+            <br></br>HAZLITT’S DRAMATIC WRITERS OF THE
+            
+            <br></br>AGE OF ELIZABETH.
          </div>
          
          <div class="ab">HAZLITT’S CHARACTERS OF SHAKSPEARE
-            <br>WILSON’S GENIUS AND CHARACTER OF 
-            <br>BURNS.
+            
+            <br></br>WILSON’S GENIUS AND CHARACTER OF 
+            
+            <br></br>BURNS.
          </div>
          
          <div class="ab">HAZLITT’S LECTURES ON THE COMIC WRI-
-            <br>TERS—in press.
+            
+            <br></br>TERS—in press.
          </div>
          
          <div class="ab">HAZLITT’S LECTURES ON THE ENGLISH
-            <br>POETS—in PRESS
+            
+            <br></br>POETS—in PRESS
          </div>
          
          <div class="ab">The works of Hazlitt in this department, the
-            <br>most eloquent commentator on English Literature,
-            <br>will be followed by various writings of Campbell,
-            <br>Wilson, COLERIDGE, SOUTHEY, Ellis and others.
+            
+            <br></br>most eloquent commentator on English Literature,
+            
+            <br></br>will be followed by various writings of Campbell,
+            
+            <br></br>Wilson, COLERIDGE, SOUTHEY, Ellis and others.
          </div>
          
          <div class="ab">BIOGRAPHY AND GENERAL LITERATURE.
-            <br>LEIGH HUNT’S INDICATOR AND COMPANION— 2 vols.
-            <br>HOOD’S PROSE AND VERSE—2 vols.
-            <br>CHARLES LAMB'S ESSAYS Of ELIA.
-            <br>HAZLITT'S TABLE TALK—2d seriәs, 2 vols.
-            <br>AUTOBIOGRAPHY OF BENVENUTO CELLINI
-            <br>—IN PRESS.
+            
+            <br></br>LEIGH HUNT’S INDICATOR AND COMPANION— 2 vols.
+            
+            <br></br>HOOD’S PROSE AND VERSE—2 vols.
+            
+            <br></br>CHARLES LAMB'S ESSAYS Of ELIA.
+            
+            <br></br>HAZLITT'S TABLE TALK—2d seriәs, 2 vols.
+            
+            <br></br>AUTOBIOGRAPHY OF BENVENUTO CELLINI
+            
+            <br></br>—IN PRESS.
          </div>
          
          <div class="ab">A complete collection of the writings of Hazlitt
-            <br>and Leigh hunt will form part of the senes to be
-            <br>published at short intervals; Walter Satage Lam
-            <br>dor's writings: De Quincet’s (the English opium
-            <br>eater) Miscellaneous Writings; names Smith's Re-
-            <br>jected Addresses and the Poems and Ballads of Box
-            <br>Gualtier.
+            
+            <br></br>and Leigh hunt will form part of the senes to be
+            
+            <br></br>published at short intervals; Walter Satage Lam
+            
+            <br></br>dor's writings: De Quincet’s (the English opium
+            
+            <br></br>eater) Miscellaneous Writings; names Smith's Re-
+            
+            <br></br>jected Addresses and the Poems and Ballads of Box
+            
+            <br></br>Gualtier.
          </div>
          
          <div class="ab">OLD ENGLISH LITERATURE.
-            <br>BASIL MONTAGU’S SELECTIONS FROM TAY
-            <br>LOR. SOUTH, BARROW. FULLER, &amp;c.
-            <br>CHARLES LAMB’S SPECIMENS OF OLD ENG-
-            <br>LISH DRAMATISTS WHO LIVED ABOUT 
-            <br>THE TIME OF SHAKSPEARE.
+            
+            <br></br>BASIL MONTAGU’S SELECTIONS FROM TAY
+            
+            <br></br>LOR. SOUTH, BARROW. FULLER, &amp;c.
+            
+            <br></br>CHARLES LAMB’S SPECIMENS OF OLD ENG-
+            
+            <br></br>LISH DRAMATISTS WHO LIVED ABOUT 
+            
+            <br></br>THE TIME OF SHAKSPEARE.
          </div>
          
          <div class="ab">Three, the most perfect collections of the kind
-            <br>ever published, will form the introduction in prose
-            <br>and ve.se ton series of the old English writers,
-            <br>including Sir Thomas More, Herbert, Fuller,
-            <br>Sir Thomas Browse, Milton, Selden, Bacon and
-            <br>others.
+            
+            <br></br>ever published, will form the introduction in prose
+            
+            <br></br>and ve.se ton series of the old English writers,
+            
+            <br></br>including Sir Thomas More, Herbert, Fuller,
+            
+            <br></br>Sir Thomas Browse, Milton, Selden, Bacon and
+            
+            <br></br>others.
          </div>
          
          <div class="ab">AMERICAN SERIES.
-            <br>Of the “Library of American Books, the fol-
-            <br>lowing have already been issued:
-            <br>JOURNAL OF AN AFRICAN CRUISER, EDITED
-            <br>BY NATHANIEL HAWTHORNE.
-            <br>LETTERS FROM ITALY. BY J T. HEADLEY
-            <br>THE WIGWAM AND THE CABIN. BY W. GIL
-            <br>MORE SIMMS. 
-            <br>BIG ABEL AND THE LITTLE MANHATTAN, 
-            <br>BY CORNELIUS MATHEWS.
-            <br>WANDERINGS OF THE PILGRIM UNDER THE
-            <br>SHADOW OF THE JUNGFRAU, BY GEORGE
-            <br>B, CHEEVER, D. D.—Just ready.
+            
+            <br></br>Of the “Library of American Books, the fol-
+            
+            <br></br>lowing have already been issued:
+            
+            <br></br>JOURNAL OF AN AFRICAN CRUISER, EDITED
+            
+            <br></br>BY NATHANIEL HAWTHORNE.
+            
+            <br></br>LETTERS FROM ITALY. BY J T. HEADLEY
+            
+            <br></br>THE WIGWAM AND THE CABIN. BY W. GIL
+            
+            <br></br>MORE SIMMS. 
+            
+            <br></br>BIG ABEL AND THE LITTLE MANHATTAN, 
+            
+            <br></br>BY CORNELIUS MATHEWS.
+            
+            <br></br>WANDERINGS OF THE PILGRIM UNDER THE
+            
+            <br></br>SHADOW OF THE JUNGFRAU, BY GEORGE
+            
+            <br></br>B, CHEEVER, D. D.—Just ready.
          </div>
          
          <div class="ab">The following are in press:—Western Clearings,
-            <br>by Mary Clavers (Mrs. Kirkland); Wanderings
-            <br>of a Pilgrim under the Shadow of the Jungfrau by
-            <br>George B. Cheever; Views and Reviews in Ame-
-            <br>rica History, Literature, and Fiction, a Miscellany,
-            <br>by W. Gilmore Simms; The Forest and the Prairie
-            <br>by James hall, author of the Border tales; a new
-            <br>volume, by Nathaniel Hawthorne; The Old Eng
-            <br>lish Library. by W. N. Jones; and other productions
-            <br>of American authors.
+            
+            <br></br>by Mary Clavers (Mrs. Kirkland); Wanderings
+            
+            <br></br>of a Pilgrim under the Shadow of the Jungfrau by
+            
+            <br></br>George B. Cheever; Views and Reviews in Ame-
+            
+            <br></br>rica History, Literature, and Fiction, a Miscellany,
+            
+            <br></br>by W. Gilmore Simms; The Forest and the Prairie
+            
+            <br></br>by James hall, author of the Border tales; a new
+            
+            <br></br>volume, by Nathaniel Hawthorne; The Old Eng
+            
+            <br></br>lish Library. by W. N. Jones; and other productions
+            
+            <br></br>of American authors.
          </div>
       </div>	
       
       <div>
          <div class="ab">Gurney's
-            <br>PREMIUM DAGUERRIAX GALLERY,
-            <br>189 BROADWAY, NEW-YORK.
-            <br>PICTURES taken at this Establishment
-            <br>are not excelled in this country—so say
-            <br>his numerous patrons. The public are in-
-            <br>vited to call and judge for themselves. O2
+            
+            <br></br>PREMIUM DAGUERRIAX GALLERY,
+            
+            <br></br>189 BROADWAY, NEW-YORK.
+            
+            <br></br>PICTURES taken at this Establishment
+            
+            <br></br>are not excelled in this country—so say
+            
+            <br></br>his numerous patrons. The public are in-
+            
+            <br></br>vited to call and judge for themselves. O2
          </div>
       </div>
       
       <div class="columnbreak"></div>
       <div>
          <div class="ab">MESSRS. HARPER &amp; BROTHERS
-            <br>PUBLISH THIS DAY,
-            <br>Elements of Morality and Polity.
-            <br>BY PROF. WHEWELL.
-            <br>THIS valuable new production, from the pen of
-            <br>one if the most eminent scholars of the age,
-            <br>exhibits, in a most lucid, exact, and elegant style,
-            <br>the great principles of moral, political, and ecclesi-
-            <br>astical science in a far more complete and methodi-
-            <br>cal manner than has ever met been presented to the
-            <br>Public. In offering this great work to the American
-            <br>reader, the publisher begs leave to introduce it as
-            <br>the commencement- of a new and a tractive series
-            <br>of sterling books, to be issued by them, under the
-            <br>general designation of
-            <br>HARPER’S NEW MISCELLANY;
-            <br>the volumes of which will be legibly printed, in
-            <br>duodecimo, on fine paper, and
+            
+            <br></br>PUBLISH THIS DAY,
+            
+            <br></br>Elements of Morality and Polity.
+            
+            <br></br>BY PROF. WHEWELL.
+            
+            <br></br>THIS valuable new production, from the pen of
+            
+            <br></br>one if the most eminent scholars of the age,
+            
+            <br></br>exhibits, in a most lucid, exact, and elegant style,
+            
+            <br></br>the great principles of moral, political, and ecclesi-
+            
+            <br></br>astical science in a far more complete and methodi-
+            
+            <br></br>cal manner than has ever met been presented to the
+            
+            <br></br>Public. In offering this great work to the American
+            
+            <br></br>reader, the publisher begs leave to introduce it as
+            
+            <br></br>the commencement- of a new and a tractive series
+            
+            <br></br>of sterling books, to be issued by them, under the
+            
+            <br></br>general designation of
+            
+            <br></br>HARPER’S NEW MISCELLANY;
+            
+            <br></br>the volumes of which will be legibly printed, in
+            
+            <br></br>duodecimo, on fine paper, and
          </div>
          
          <div class="ab">Bound, in extra Muslin Gilt—Price
-            <br>Fifty Cents a Volume,
-            <br>and issued at short intervals. To render accessible
-            <br>to the million, the fullest advantages of popular in-
-            <br>struction in the various divisions of human know-
-            <br>ledge, is tile design of the above series. It is appa-
-            <br>rent in the present day, that books of intrinsic value
-            <br>are demanded by the people. Formerly the popu-
-            <br>lar taste preferred mainly works of mete amusement
-            <br>—the great body of readers now seek them as vehi-
-            <br>cles of general knowledge books of a more per-
-            <br>manently valuable caste—devoted to some of the
-            <br>departments of science, or general literature. A
-            <br>new race has sprung up, glowing with the first
-            <br>energies of youth, requiring more expanded ideas
-            <br>of the world in  which they live, and a more reliable
-            <br>and well-digested knowledge of the men. and the
-            <br>events of other times and countries. A class of
-            <br>books expressly adapted to this demand, it is the
-            <br>aim of the publishers to supply; and at a price so
-            <br>exceedingly cheap that every person of ordinary
-            <br>taste and advantages may thus become possessed
-            <br>of a
+            
+            <br></br>Fifty Cents a Volume,
+            
+            <br></br>and issued at short intervals. To render accessible
+            
+            <br></br>to the million, the fullest advantages of popular in-
+            
+            <br></br>struction in the various divisions of human know-
+            
+            <br></br>ledge, is tile design of the above series. It is appa-
+            
+            <br></br>rent in the present day, that books of intrinsic value
+            
+            <br></br>are demanded by the people. Formerly the popu-
+            
+            <br></br>lar taste preferred mainly works of mete amusement
+            
+            <br></br>—the great body of readers now seek them as vehi-
+            
+            <br></br>cles of general knowledge books of a more per-
+            
+            <br></br>manently valuable caste—devoted to some of the
+            
+            <br></br>departments of science, or general literature. A
+            
+            <br></br>new race has sprung up, glowing with the first
+            
+            <br></br>energies of youth, requiring more expanded ideas
+            
+            <br></br>of the world in  which they live, and a more reliable
+            
+            <br></br>and well-digested knowledge of the men. and the
+            
+            <br></br>events of other times and countries. A class of
+            
+            <br></br>books expressly adapted to this demand, it is the
+            
+            <br></br>aim of the publishers to supply; and at a price so
+            
+            <br></br>exceedingly cheap that every person of ordinary
+            
+            <br></br>taste and advantages may thus become possessed
+            
+            <br></br>of a
          </div>
          
          <div class="ab">Complete Library of the Best Litera-
-            <br>ture of the Age.
-            <br>In this collection it is intended to include the ben
-            <br>productions in every department of knowledge;
-            <br>popular philosophical treatises on topics of univer ’
-            <br>sal interest; the most compact and brilliant histori-
-            <br>cal books; valuable biographical memoirs; modern
-            <br>voyages and travels, See.; together with scientific
-            <br>and other collateral divisions; in the selection of
-            <br>all which, the most careful discrimination will be
-            <br>observed A mere glance over the wide domain of
-            <br>our English literature will exhibit much yet unex-
-            <br>plored and uncultivated, from which might be ga-
-            <br>thered the fruits of a rich, luxuriant harvest; besides
-            <br>which, the ever-teeming issues of the European
-            <br>press open a vast revenue of literary wealth, from
-            <br>which the above collection may be liberally suppli-
-            <br>ed. Original productions from American writers
-            <br>will also occasionally be introduced. In submitting,
-            <br>therefore, the esteemed work of Prof. Whewell
-            <br>as a kind of first fruits of their New Miscellany,”
-            <br>the publishers deem it only necessary to add, that
-            <br>their arrangements for carrying forward the enter-
-            <br>prise being of the most complete and efficient kind,
-            <br>hey confidently rely upon their efforts being met
-            <br>with a ready response from the entire reading com-
-            <br>munity.
+            
+            <br></br>ture of the Age.
+            
+            <br></br>In this collection it is intended to include the ben
+            
+            <br></br>productions in every department of knowledge;
+            
+            <br></br>popular philosophical treatises on topics of univer ’
+            
+            <br></br>sal interest; the most compact and brilliant histori-
+            
+            <br></br>cal books; valuable biographical memoirs; modern
+            
+            <br></br>voyages and travels, See.; together with scientific
+            
+            <br></br>and other collateral divisions; in the selection of
+            
+            <br></br>all which, the most careful discrimination will be
+            
+            <br></br>observed A mere glance over the wide domain of
+            
+            <br></br>our English literature will exhibit much yet unex-
+            
+            <br></br>plored and uncultivated, from which might be ga-
+            
+            <br></br>thered the fruits of a rich, luxuriant harvest; besides
+            
+            <br></br>which, the ever-teeming issues of the European
+            
+            <br></br>press open a vast revenue of literary wealth, from
+            
+            <br></br>which the above collection may be liberally suppli-
+            
+            <br></br>ed. Original productions from American writers
+            
+            <br></br>will also occasionally be introduced. In submitting,
+            
+            <br></br>therefore, the esteemed work of Prof. Whewell
+            
+            <br></br>as a kind of first fruits of their New Miscellany,”
+            
+            <br></br>the publishers deem it only necessary to add, that
+            
+            <br></br>their arrangements for carrying forward the enter-
+            
+            <br></br>prise being of the most complete and efficient kind,
+            
+            <br></br>hey confidently rely upon their efforts being met
+            
+            <br></br>with a ready response from the entire reading com-
+            
+            <br></br>munity.
          </div>
          
          <div class="ab">This, they venture to believe, will be insured to
-            <br>the r Miscellany, no less from the intrinsic value
-            <br>if the collection, than from its unparalleled econo-
-            <br>my; each volume being elegantly produced, bound
-            <br>IN HANDSOME AND SUBSTANTIAL STYLE. FITTED WITH'
-            <br>JUT FARTHER EXPENSE FOR PERMANENT PRESERVA-
-            <br>tion in the library; the whole series being issued
-            <br>in uniform binding, while the price of each volume
-            <br>will be only Fifty Cents—far below the cost of
-            <br>any similar series of books yet published in this,
-            <br>are, it is believed, any other country.
+            
+            <br></br>the r Miscellany, no less from the intrinsic value
+            
+            <br></br>if the collection, than from its unparalleled econo-
+            
+            <br></br>my; each volume being elegantly produced, bound
+            
+            <br></br>IN HANDSOME AND SUBSTANTIAL STYLE. FITTED WITH'
+            
+            <br></br>JUT FARTHER EXPENSE FOR PERMANENT PRESERVA-
+            
+            <br></br>tion in the library; the whole series being issued
+            
+            <br></br>in uniform binding, while the price of each volume
+            
+            <br></br>will be only Fifty Cents—far below the cost of
+            
+            <br></br>any similar series of books yet published in this,
+            
+            <br></br>are, it is believed, any other country.
          </div>
       </div>
       
       <div>
          <div class="ab">PIANOFORTES.—THOMAS H.—CHAMBERS,
-            <br>(formerly Conductor to Dubois and Stodart),
-            <br>No. 385 Broadway, will keep a complete assortment
-            <br>if the latest approved Grand Action Piano Fortes,
-            <br>of the most superior quality; such as he is prepared
-            <br>of guarantee for their excellence of Tone, Touch,
-            <br>and External Finish, and to elude in any climate,
-            <br>a liberal discount from the standard prices. Piano
-            <br>Fortes Tuned and Repaired. Piano Fortes always
-            <br>on here.
+            
+            <br></br>(formerly Conductor to Dubois and Stodart),
+            
+            <br></br>No. 385 Broadway, will keep a complete assortment
+            
+            <br></br>if the latest approved Grand Action Piano Fortes,
+            
+            <br></br>of the most superior quality; such as he is prepared
+            
+            <br></br>of guarantee for their excellence of Tone, Touch,
+            
+            <br></br>and External Finish, and to elude in any climate,
+            
+            <br></br>a liberal discount from the standard prices. Piano
+            
+            <br></br>Fortes Tuned and Repaired. Piano Fortes always
+            
+            <br></br>on here.
          </div>
       </div>
       
       <div>
          <div class="ab">PENMANSHIP.
-            <br>Reopening of goldsmiths writing
-            <br>ACADEMY, 289 Broadway. LA Farge Build-
-            <br>ings corner of Reade Street. Terms reduced to
-            <br>THREE DOLLARS, AND NO EXTRA CHARGE.
+            
+            <br></br>Reopening of goldsmiths writing
+            
+            <br></br>ACADEMY, 289 Broadway. LA Farge Build-
+            
+            <br></br>ings corner of Reade Street. Terms reduced to
+            
+            <br></br>THREE DOLLARS, AND NO EXTRA CHARGE.
          </div>
          
          <div class="ab">Mr. Oliver B. Goldsmith respectfully informs the
-            <br>citizens of New York and Brooklyn, that his rooms
-            <br>are now open, during the day and evening, for Pu-
-            <br>puils and Visiters. Mr. G's specimens of
+            
+            <br></br>citizens of New York and Brooklyn, that his rooms
+            
+            <br></br>are now open, during the day and evening, for Pu-
+            
+            <br></br>puils and Visiters. Mr. G's specimens of
          </div>
          
          <div class="ab">PENMANSHIP
-            <br>has received the First Premium Five Years, from
-            <br>the American Institute, and he guarantees to all in
-            <br>TEN easy AND INTERESTING EXERCISES,
-            <br>a free and elegant style of writing that the pupils
-            <br>cannot possibly ever lose in their future practice.
+            
+            <br></br>has received the First Premium Five Years, from
+            
+            <br></br>the American Institute, and he guarantees to all in
+            
+            <br></br>TEN easy AND INTERESTING EXERCISES,
+            
+            <br></br>a free and elegant style of writing that the pupils
+            
+            <br></br>cannot possibly ever lose in their future practice.
          </div>
          
          <div class="ab">For sale at the Academy GOLDSMITH'S GEMS
-            <br>OF PENMANSHIP.
+            
+            <br></br>OF PENMANSHIP.
          </div>
          
          <div class="ab">Ladies’ Class meets daily at 11 o’clock. Gentle
-            <br>men’s day and evening. See Circular. s18
+            
+            <br></br>men’s day and evening. See Circular. s18
          </div>
       </div>
       
@@ -2374,30 +2802,42 @@
       <div class="columnbreak"></div>
       <div>
          <div class="ab">J. F. BROWNE &amp; CO.
-            <br>MANUFACTURER OF THE
-            <br>IMPROVED PATENT DOUBLE-ACTION HARP,
-            <br>By Royal Letters Patent, London. Established 1810. (Many years with Erard.
-            <br>J. F. BROWNE respectfully informs his Friends and the Musical World, that he has established
+            
+            <br></br>MANUFACTURER OF THE
+            
+            <br></br>IMPROVED PATENT DOUBLE-ACTION HARP,
+            
+            <br></br>By Royal Letters Patent, London. Established 1810. (Many years with Erard.
+            
+            <br></br>J. F. BROWNE respectfully informs his Friends and the Musical World, that he has established
             himself for the manufacture
-            <br>and importation of these very beautiful instruments, at
-            <br>281 BROADWAY, and 73 1-2 CHAMBERS STREET.
-            <br>His arrangements are such as to enable him to transact business at European prices,
+            
+            <br></br>and importation of these very beautiful instruments, at
+            
+            <br></br>281 BROADWAY, and 73 1-2 CHAMBERS STREET.
+            
+            <br></br>His arrangements are such as to enable him to transact business at European prices,
             thereby saving purchasers the high duties
-            <br>imposed by Tariff on these Instruments.
+            
+            <br></br>imposed by Tariff on these Instruments.
          </div>
          
          <div class="ab">J. F. Browne would observe, these Harps are constructed on the most approved principles,
             with all the modern improvements of
-            <br>London and Paris, are unequalled in brilliancy of tone, fineness of touch, and perfectness
+            
+            <br></br>London and Paris, are unequalled in brilliancy of tone, fineness of touch, and perfectness
             of mechanism. Particular care is taken
-            <br>to fit them for the extremes of climate in this country, in which respect they will
+            
+            <br></br>to fit them for the extremes of climate in this country, in which respect they will
             be found far superior to any of European manufac-
-            <br>ture, imported in the usual way.
+            
+            <br></br>ture, imported in the usual way.
          </div>
          
          <div class="ab">These Harps are patronized by the elite of musical taste and professional talent in
             Europe; among the latter, he would mention
-            <br>N. C. Boscha, who invariably selects from this establishment.
+            
+            <br></br>N. C. Boscha, who invariably selects from this establishment.
          </div>
          
          <div class="ab">J. F. Browne begs to offer the opinions of some of the first professional talent in
@@ -2408,9 +2848,11 @@
       <div>
          <div class="ab">Mr. J. F. Browne, Sir Having had for several years past, the opportunity of making
             a professional use of your Harps, and of
-            <br>testing their qualities, it affords me pleasure to certify, that in point of tone,
+            
+            <br></br>testing their qualities, it affords me pleasure to certify, that in point of tone,
             workmanship, and above all, a solidity that stands proof
-            <br>against the inconstancy of our trying climate, they have in all cases given me the
+            
+            <br></br>against the inconstancy of our trying climate, they have in all cases given me the
             most entire satisfaction.
          </div>
          
@@ -2420,9 +2862,11 @@
       <div>
          <div class="ab">Dear Sir I write to express the delight I experienced in performing on one of your
             Harps at Sig. Casella’s Concert in this city —
-            <br>The mechanism is perfect, and the quality of Tone certainly superior to any harp I
+            
+            <br></br>The mechanism is perfect, and the quality of Tone certainly superior to any harp I
             have heard for many years. I remember my old
-            <br>Master, Boscha, always gave the preference to your Harps, indeed he himself used no
+            
+            <br></br>Master, Boscha, always gave the preference to your Harps, indeed he himself used no
             other. Yours most truly, H. G. TRUST.
          </div>
          
@@ -2432,9 +2876,11 @@
       <div>
          <div class="ab">Mr. J. F. Browne, Sir I have much pleasure in saying, that the Harp of your make I
             performed on at the St. George’s Society
-            <br>Concert, is, in brilliancy of tone, touch, and elegance of workmanship, the finest
+            
+            <br></br>Concert, is, in brilliancy of tone, touch, and elegance of workmanship, the finest
             I ever played on. This will apply to all your Harps.
-            <br>The grand six and a half Gothic Double action, is a most splendid instrument. Yours,
+            
+            <br></br>The grand six and a half Gothic Double action, is a most splendid instrument. Yours,
             with respect, ELIZABETH SLOMAN.
          </div>
          
@@ -2444,13 +2890,17 @@
       <div>
          <div class="ab">Mr. J. F. Browne, Sir Having at your request closely scrutinized your double-action
             Harps, I find they possess the best quali-
-            <br>ties of the first makers in Europe combined. That in the ease of touch, by which the
+            
+            <br></br>ties of the first makers in Europe combined. That in the ease of touch, by which the
             most brilliant tone is obtained in perfection and
-            <br>ease of modulation, they arc superior to any I have used; their elegance of exterior
+            
+            <br></br>ease of modulation, they arc superior to any I have used; their elegance of exterior
             must gratify the most refined taste Your new
-            <br>Grand Gothic six and a half octave, is the most splendid effort of art yet produced
+            
+            <br></br>Grand Gothic six and a half octave, is the most splendid effort of art yet produced
             in the musical world; it will give me great pleasure
-            <br>in recommending your Harps at every opportunity.	Yours Truly, HENRY HORN
+            
+            <br></br>in recommending your Harps at every opportunity.	Yours Truly, HENRY HORN
          </div>
          
          <div class="ab">January 12th, 1845.	An eminent professor, and Member of the Royal Academy.</div>
@@ -2459,9 +2909,11 @@
       <div>
          <div class="ab">These are but a very small part of the testimonials received, but will suffice to
             show the estimate of persons every wav capable of
-            <br>making a correct decision. J. F. Browne has also received the Franklin Medal of the
+            
+            <br></br>making a correct decision. J. F. Browne has also received the Franklin Medal of the
             Society of Arts, Philadelphia for his splendid
-            <br>improvements in this delightful Instrument.
+            
+            <br></br>improvements in this delightful Instrument.
          </div>	
          
          <div class="ab">Harps from 300 to 1000 dollars. Harps repaired, strings, &amp;c.</div>
@@ -2471,101 +2923,145 @@
       <div class="columnbreak"></div>
       <div>
          <div class="ab">The southern literary messenger
-            <br>B.B MINOR, Proprietor. Published monthly,
-            <br>at Richmond. Va. Price Five Dollars per year.
+            
+            <br></br>B.B MINOR, Proprietor. Published monthly,
+            
+            <br></br>at Richmond. Va. Price Five Dollars per year.
          </div>
          
          <div class="ab">The MESSENGER has been established since
-            <br>1835, has a large subscription list, and is the princi-
-            <br>pal organ of Southern opinion.
+            
+            <br></br>1835, has a large subscription list, and is the princi-
+            
+            <br></br>pal organ of Southern opinion.
          </div>
          
          <div class="ab">Subscriptions received by John Bisco, at the office
-            <br>of the “Broadway Journal,  135 Nassau street.
+            
+            <br></br>of the “Broadway Journal,  135 Nassau street.
          </div>
       </div>
       
       <div>
          <div class="ab">JUST PUBLISHED BY H. G. DAGGERS, 30 Ann
-            <br>Street, New York.
+            
+            <br></br>Street, New York.
          </div>
          
          <div class="ab">THE COTTON LORD By Mrs. Stone A Ro
-            <br>mance of the Rich and Poor, written by a lady of
-            <br>brilliant talents. 25 Cents.
+            
+            <br></br>mance of the Rich and Poor, written by a lady of
+            
+            <br></br>brilliant talents. 25 Cents.
          </div>
          
          <div class="ab">FRANKENSTEIN, by Mrs. Marry W. Shelley,
-            <br>wife of the illustrious poet. “It is among the most
-            <br>exciting and terrible of modern romances."—Tri
-            <br>bune. 25 Cents.
+            
+            <br></br>wife of the illustrious poet. “It is among the most
+            
+            <br></br>exciting and terrible of modern romances."—Tri
+            
+            <br></br>bune. 25 Cents.
          </div>
          
          <div class="ab">LAWRIE TODD, by John Galt, with an original
-            <br>preface by the original Lawrie Todd, viz: Grant
-            <br>Thorburn, Esq. “Mr. Thorburn’s Preface is worth
-            <br>more than the price asked fur the novel." 25 Cents.
+            
+            <br></br>preface by the original Lawrie Todd, viz: Grant
+            
+            <br></br>Thorburn, Esq. “Mr. Thorburn’s Preface is worth
+            
+            <br></br>more than the price asked fur the novel." 25 Cents.
          </div>
          
          <div class="ab">THE NUN: or, Life in a Convent. By one of
-            <br>the Sisterhood “A terrible exposition of the secret
-            <br>practices of Roman Catholics.’’ 25 Cents.
+            
+            <br></br>the Sisterhood “A terrible exposition of the secret
+            
+            <br></br>practices of Roman Catholics.’’ 25 Cents.
          </div>
          
          <div class="ab">POOR JACK. By Captain Marryatt, author of
-            <br>Midshipman Easy, Peter Simple, &amp;c. 25 Cents.
+            
+            <br></br>Midshipman Easy, Peter Simple, &amp;c. 25 Cents.
          </div>
          
          <div class="ab">N. B. All of the above will be sent for One Dol
-            <br>lar to any person ordering them through Postmas-
-            <br>ters. who are by law authorized to remit money to
-            <br>publishers. Any Postmaster ordering the above
-            <br>shall be presented with either novel he may select.
+            
+            <br></br>lar to any person ordering them through Postmas-
+            
+            <br></br>ters. who are by law authorized to remit money to
+            
+            <br></br>publishers. Any Postmaster ordering the above
+            
+            <br></br>shall be presented with either novel he may select.
          </div>
       </div>
       
       <div>
          <div class="ab">ÆOLIAN ATTACHMENT.
-            <br>HERMANN'S SARONI, Professor of Music, 111
-            <br>Leonard street, New York, teaches the Piano
-            <br>Forte, with or without Coleman's celebrated At
-            <br>tachment.
+            
+            <br></br>HERMANN'S SARONI, Professor of Music, 111
+            
+            <br></br>Leonard street, New York, teaches the Piano
+            
+            <br></br>Forte, with or without Coleman's celebrated At
+            
+            <br></br>tachment.
          </div>
       </div>
       
       <div>
          <div class="ab">PIANOFORTES-H. WORCESTEB, NO. 139
-            <br>THIRD AVENUE, Corner of 14th Street, res
-            <br>pectfully informs his friends and the public, that hr
-            <br>has a good assortment of Piano Fortes, in Rosewood
-            <br>and Mahogany cases, from 6 to 7 octaves. Persons
-            <br>wishing to purchase will find it to their advantage
-            <br>to call and examine before purchasing elsewhere.
+            
+            <br></br>THIRD AVENUE, Corner of 14th Street, res
+            
+            <br></br>pectfully informs his friends and the public, that hr
+            
+            <br></br>has a good assortment of Piano Fortes, in Rosewood
+            
+            <br></br>and Mahogany cases, from 6 to 7 octaves. Persons
+            
+            <br></br>wishing to purchase will find it to their advantage
+            
+            <br></br>to call and examine before purchasing elsewhere.
          </div>
       </div>
       
       <div class="columnbreak"></div>
       <div>
          <div class="ab">BEETHOVEN'S MOUNT OF OLIVES AND|
-            <br>the SEVEN SLEEPERS -During the week of
-            <br>the American Musical Convention —The sublime
-            <br>Oratorio of the Mount of Olives, by the immortal
-            <br>Beethoven, and the Seven Sleepers, by Dr. Lowe,
-            <br>will be performed at the Tabernacle, on Thursday
-            <br>evening, the 9th October next, under the direction of
-            <br>MR. GEORGE LODER.
+            
+            <br></br>the SEVEN SLEEPERS -During the week of
+            
+            <br></br>the American Musical Convention —The sublime
+            
+            <br></br>Oratorio of the Mount of Olives, by the immortal
+            
+            <br></br>Beethoven, and the Seven Sleepers, by Dr. Lowe,
+            
+            <br></br>will be performed at the Tabernacle, on Thursday
+            
+            <br></br>evening, the 9th October next, under the direction of
+            
+            <br></br>MR. GEORGE LODER.
          </div>
          
          <div class="ab">The Chorus and Orchestra will be full and effect-
-            <br>ive, and the solo parts will be sustained by resident
-            <br>talent
+            
+            <br></br>ive, and the solo parts will be sustained by resident
+            
+            <br></br>talent
          </div>
          
          <div class="ab">Mr. H. C. TIMM will preside at the Organ.
-            <br>Tickets, 50 cents each, may be obtained on and
-            <br>after Thursday next, at the principal music stores
-            <br>Subscribers will receive three tickets for one dollar
-            <br>as usual.
+            
+            <br></br>Tickets, 50 cents each, may be obtained on and
+            
+            <br></br>after Thursday next, at the principal music stores
+            
+            <br></br>Subscribers will receive three tickets for one dollar
+            
+            <br></br>as usual.
          </div>
          
          <div class="ab">HENRY MEIGGS, 446 Broadway.</div>
@@ -2573,26 +3069,40 @@
       
       <div>
          <div class="ab">G. H. DERWORT, PROFESSOR OF SINGING. 
-            <br> Guitar and Piano Forte, has opened a class
-            <br>for Young Ladies, from 7 to 10 years of age, among
-            <br>whom are three of his own daughters, whom he
-            <br>proposes to thoroughly instruct in the art of Singing
-            <br>Mr Derwort’s system is the result of many years'
-            <br>observation and experience, during which he has
-            <br>successfully taught in Germany, London, and .New
-            <br>York. His method cannot fail to impart to his pu
-            <br>pils a clear perception and a thorough knowledge
-            <br>of the grammatical principles of music with the
-            <br>ability to harmonize any simple given melody.
+            
+            <br></br> Guitar and Piano Forte, has opened a class
+            
+            <br></br>for Young Ladies, from 7 to 10 years of age, among
+            
+            <br></br>whom are three of his own daughters, whom he
+            
+            <br></br>proposes to thoroughly instruct in the art of Singing
+            
+            <br></br>Mr Derwort’s system is the result of many years'
+            
+            <br></br>observation and experience, during which he has
+            
+            <br></br>successfully taught in Germany, London, and .New
+            
+            <br></br>York. His method cannot fail to impart to his pu
+            
+            <br></br>pils a clear perception and a thorough knowledge
+            
+            <br></br>of the grammatical principles of music with the
+            
+            <br></br>ability to harmonize any simple given melody.
          </div>
          
          <div class="ab">Parents and guardians are invited to call at his
-            <br>Rooms, 427 Broadway, when every inquiry will be
-            <br>answered.
+            
+            <br></br>Rooms, 427 Broadway, when every inquiry will be
+            
+            <br></br>answered.
          </div>
          
          <div class="ab">Terms $20 per annum, payable quarterly in ad
-            <br>vance. Lessons three times a week.
+            
+            <br></br>vance. Lessons three times a week.
          </div>
          
          <div class="ab">Private instruction as heretofore.</div>
@@ -2600,81 +3110,124 @@
       
       <div>
          <div class="ab">PIANO FORTE MANUFACTURER-JAMES
-            <br>PIRSSON, 88, 90, &amp; 92 Walker Street, near
-            <br>Elm. A Large Stock of the finest instruments al
-            <br>ways on hand. Terms moderate. FOR SALE—A
-            <br>Splendid Harp, nearly new. To be sold at a great
-            <br>bargain for cash.
+            
+            <br></br>PIRSSON, 88, 90, &amp; 92 Walker Street, near
+            
+            <br></br>Elm. A Large Stock of the finest instruments al
+            
+            <br></br>ways on hand. Terms moderate. FOR SALE—A
+            
+            <br></br>Splendid Harp, nearly new. To be sold at a great
+            
+            <br></br>bargain for cash.
          </div>
       </div>
       
       <div>
          <div class="ab">WEDDING, VISITING, &amp; PROFESSIONAL.
-            <br>CARDS, engraved and printed at VALEN-
-            <br>TINE'S, 1 Beckman street—Lovejoy's Hotel.
+            
+            <br></br>CARDS, engraved and printed at VALEN-
+            
+            <br></br>TINE'S, 1 Beckman street—Lovejoy's Hotel.
          </div>
       </div>
       
       <div>
          <div class="ab">J. BALLARD, PROFESSOR OF THE GUITAR,
-            <br>Singing, and Flute, No. 135 8pring street.
+            
+            <br></br>Singing, and Flute, No. 135 8pring street.
          </div>
       </div>
       
       <div>
          <div class="ab">CARD OF REMOVAL.—MR. W. A. KING,
-            <br>Professor of Music and Teacher of the Piano-
-            <br>Forte and Organ, has Removed to the First House
-            <br>above Twenty-Fifth Street on the Rail-Road (4th
-            <br>Avenue)
+            
+            <br></br>Professor of Music and Teacher of the Piano-
+            
+            <br></br>Forte and Organ, has Removed to the First House
+            
+            <br></br>above Twenty-Fifth Street on the Rail-Road (4th
+            
+            <br></br>Avenue)
          </div>
       </div>
       
       <div>
          <div class="ab">Our First Volume.—A few copies of
-            <br>the first volume of the Broadway Jour-
-            <br>nal are for sale at the office, either in
-            <br>numbers or neatly bound.
+            
+            <br></br>the first volume of the Broadway Jour-
+            
+            <br></br>nal are for sale at the office, either in
+            
+            <br></br>numbers or neatly bound.
          </div>
       </div>
       
       <div>
          <div class="ab">AGENTS.
-            <br>Redding &amp; Co., Boston, Mass.
-            <br>R. G. H. Huntington, Hartford, Ct.
-            <br>M. Baullemet, Mobile, Ala.
-            <br>Robinson &amp; Jones, Cincinnati, O.
-            <br>D. M. Dewey, Rochester, N. Y.
-            <br>J. Robertson, Syracuse, N. Y.
-            <br>W. E. Russell, Schenectady, N. Y
-            <br>Levi Willard, Troy, N. Y.
-            <br>G. Jones, Albany. N. Y.
-            <br>S. F. Hoyt, Newburgh, N. Y.
-            <br>Shurtz &amp; Wilde, Baltimore, Md.
-            <br>Colon &amp; Adriance, Philadelphia.
-            <br>Thos. H. Peade, New-Haven, Ct.
-            <br>J. C. Morgan, New-Orleans.
-            <br>W. W. Kingslev, New-London, Ct.
-            <br>G. N. Beesley, Utica, N Y.
-            <br>H. B. Strang, Peekskill, N. Y.
-            <br>Haliburton &amp; Dudley Boston, Mass.
-            <br>S. Thompson, Worcester, Mass.
-            <br>Peter Cooke, Hartford, Ct.
-            <br>H. Eaten, Providence, R. I.
-            <br>Safford &amp; Park, Norwich. Ct.
-            <br>John Tomlin, P. M. Jackson, Tenn.
-            <br>S. Hart, Sen., Charleston, 8. C.
+            
+            <br></br>Redding &amp; Co., Boston, Mass.
+            
+            <br></br>R. G. H. Huntington, Hartford, Ct.
+            
+            <br></br>M. Baullemet, Mobile, Ala.
+            
+            <br></br>Robinson &amp; Jones, Cincinnati, O.
+            
+            <br></br>D. M. Dewey, Rochester, N. Y.
+            
+            <br></br>J. Robertson, Syracuse, N. Y.
+            
+            <br></br>W. E. Russell, Schenectady, N. Y
+            
+            <br></br>Levi Willard, Troy, N. Y.
+            
+            <br></br>G. Jones, Albany. N. Y.
+            
+            <br></br>S. F. Hoyt, Newburgh, N. Y.
+            
+            <br></br>Shurtz &amp; Wilde, Baltimore, Md.
+            
+            <br></br>Colon &amp; Adriance, Philadelphia.
+            
+            <br></br>Thos. H. Peade, New-Haven, Ct.
+            
+            <br></br>J. C. Morgan, New-Orleans.
+            
+            <br></br>W. W. Kingslev, New-London, Ct.
+            
+            <br></br>G. N. Beesley, Utica, N Y.
+            
+            <br></br>H. B. Strang, Peekskill, N. Y.
+            
+            <br></br>Haliburton &amp; Dudley Boston, Mass.
+            
+            <br></br>S. Thompson, Worcester, Mass.
+            
+            <br></br>Peter Cooke, Hartford, Ct.
+            
+            <br></br>H. Eaten, Providence, R. I.
+            
+            <br></br>Safford &amp; Park, Norwich. Ct.
+            
+            <br></br>John Tomlin, P. M. Jackson, Tenn.
+            
+            <br></br>S. Hart, Sen., Charleston, 8. C.
          </div>
       </div>
       
    </div>
    <div class="back">
-      <a href="#a001"> Link </a><div class="note" id="n001">Montfleury. The author of the Parnasse Réformé makes him
+      
+      <a href="#a001"> Link </a>
+      <div class="note" id="n001">Montfleury. The author of the Parnasse Réformé makes him
          thus speak in Hades:—“L'Komme done qui roudrait savoir ce dont
          Je suis mart, qui'l ne demande pas si’l fut de fievrt ou de podagre
          on d'autre chose, mais qu'il entende que ce fut de 'L'Andromache.’"
       </div>
-      <a href="#a002"> Link </a><div class="note" id="n002">The only good thing I ever heard come of this singular man’s
+      
+      <a href="#a002"> Link </a>
+      <div class="note" id="n002">The only good thing I ever heard come of this singular man’s
          faculty of memory was the following. A gentleman was mentioning his having been sent up to London from where he lived to see
          Garrick act. When he went back into the country, he was asked
          what he thought of the player and the play. “Oh!” he said, “he
@@ -2687,7 +3240,9 @@
          number of words was idle enough; but here was a fellow who
          wanted some one to count them over again to see that he was correct.“The force of dulness could no farther go!"
       </div>
-      <a href="#a003"> Link </a><div class="note" id="n003">Sir Joshua Reynolds being asked how long it had taken him to
+      
+      <a href="#a003"> Link </a>
+      <div class="note" id="n003">Sir Joshua Reynolds being asked how long it had taken him to
          do a certain picture, made answer, “All his life.”
       </div>
       

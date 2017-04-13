@@ -17,6 +17,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p1>
+               <decls_id>p1</decls_id>
                <type>piece</type>
                <title>Poems by Sir Edward Lytton Bulwer</title>
                <t_type>derived</t_type>
@@ -30,6 +31,7 @@
                <pdf_index>1</pdf_index>
             </p1>
             <p2>
+               <decls_id>p2</decls_id>
                <type>piece</type>
                <title>Why A National Literature Cannot Flourish in the United States
                 of North America</title>
@@ -78,6 +80,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p5>
+               <decls_id>p5</decls_id>
                <type>piece</type>
                <title>The Art of the Use of Color in Imitation in Painting, No.
                 1</title>
@@ -91,6 +94,7 @@
                <pdf_index>6</pdf_index>
             </p5>
             <p6>
+               <decls_id>p6</decls_id>
                <type>piece</type>
                <title>A New Discovery in Art</title>
                <t_type>attested</t_type>
@@ -131,6 +135,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p9>
+               <decls_id>p9</decls_id>
                <type>piece</type>
                <title>The Two Paths</title>
                <t_type>attested</t_type>
@@ -141,6 +146,7 @@
                <pdf_index>10</pdf_index>
             </p9>
             <p10>
+               <decls_id>p10</decls_id>
                <type>piece</type>
                <title>The Raven</title>
                <t_type>attested</t_type>
@@ -184,6 +190,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p13>
+               <decls_id>p13</decls_id>
                <type>piece</type>
                <title>The Curse of Criticism</title>
                <t_type>attested</t_type>
@@ -194,6 +201,7 @@
                <pdf_index>12</pdf_index>
             </p13>
             <p14>
+               <decls_id>p14</decls_id>
                <type>piece</type>
                <title>A New Washington Monument</title>
                <t_type>attested</t_type>
@@ -206,6 +214,7 @@
                <pdf_index>12</pdf_index>
             </p14>
             <p15>
+               <decls_id>p15</decls_id>
                <type>piece</type>
                <title>The Snow</title>
                <t_type>attested</t_type>
@@ -237,6 +246,7 @@
          <t_type>attested</t_type>
          <pieces>
             <p17>
+               <decls_id>p17</decls_id>
                <type>piece</type>
                <title>The Treasury of History, No. 2</title>
                <t_type>derived</t_type>
@@ -247,6 +257,7 @@
                <pdf_index>14</pdf_index>
             </p17>
             <p18>
+               <decls_id>p18</decls_id>
                <type>piece</type>
                <title>A Chaunt of Life and other Poems</title>
                <t_type>derived</t_type>
@@ -257,6 +268,7 @@
                <pdf_index>14</pdf_index>
             </p18>
             <p19>
+               <decls_id>p19</decls_id>
                <type>piece</type>
                <title>Catlin's New Work</title>
                <t_type>derived</t_type>
@@ -267,6 +279,7 @@
                <pdf_index>14</pdf_index>
             </p19>
             <p20>
+               <decls_id>p20</decls_id>
                <type>piece</type>
                <title>Rome as seen by a New Yorker in 1843-4</title>
                <t_type>derived</t_type>
@@ -277,6 +290,7 @@
                <pdf_index>14</pdf_index>
             </p20>
             <p21>
+               <decls_id>p21</decls_id>
                <type>piece</type>
                <title>The Wonderful Adventures of Baron Munchausen</title>
                <t_type>derived</t_type>
@@ -287,6 +301,7 @@
                <pdf_index>14</pdf_index>
             </p21>
             <p22>
+               <decls_id>p22</decls_id>
                <type>piece</type>
                <title>Blackwood's Magazine, for January</title>
                <t_type>derived</t_type>
@@ -297,6 +312,7 @@
                <pdf_index>14</pdf_index>
             </p22>
             <p23>
+               <decls_id>p23</decls_id>
                <type>piece</type>
                <title>The Southern Quarterly Review. No 13</title>
                <t_type>derived</t_type>
@@ -329,6 +345,7 @@
          <auth_stat>unknown</auth_stat>
          <pieces>
             <p27>
+               <decls_id>p27</decls_id>
                <type>piece</type>
                <title>Longfellow's Poets</title>
                <t_type>derived</t_type>
@@ -336,6 +353,7 @@
                <pdf_index>14</pdf_index>
             </p27>
             <p28>
+               <decls_id>p28</decls_id>
                <type>piece</type>
                <title>Carey and Hart</title>
                <t_type>derived</t_type>
@@ -343,6 +361,7 @@
                <pdf_index>14</pdf_index>
             </p28>
             <p29>
+               <decls_id>p29</decls_id>
                <type>piece</type>
                <title>Mr. Petre</title>
                <t_type>derived</t_type>
@@ -352,6 +371,7 @@
                <pdf_index>14</pdf_index>
             </p29>
             <p30>
+               <decls_id>p30</decls_id>
                <type>piece</type>
                <title>A New Edition of Carlyle</title>
                <t_type>derived</t_type>
@@ -359,6 +379,7 @@
                <pdf_index>15</pdf_index>
             </p30>
             <p31>
+               <decls_id>p31</decls_id>
                <type>piece</type>
                <title>Powers, the sculptor</title>
                <t_type>derived</t_type>
@@ -366,6 +387,7 @@
                <pdf_index>15</pdf_index>
             </p31>
             <p32>
+               <decls_id>p32</decls_id>
                <type>piece</type>
                <title>The Harpers</title>
                <t_type>derived</t_type>
@@ -373,6 +395,7 @@
                <pdf_index>15</pdf_index>
             </p32>
             <p33>
+               <decls_id>p33</decls_id>
                <type>piece</type>
                <title>The Landing of the Norsemen in America</title>
                <t_type>derived</t_type>
