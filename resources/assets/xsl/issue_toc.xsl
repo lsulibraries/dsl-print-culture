@@ -148,7 +148,7 @@
                                         <xsl:value-of select="$auth_id"/>
                                     </auth_id>
                                     <auth_name>
-                                        <xsl:value-of select="$personography//listPerson/person[@xml:id eq $auth_id]/persName"/>
+                                        <xsl:value-of select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type='pseudo')]"/>
                                     </auth_name>
                                     <xsl:if test="author/@status">
                                         <auth_stat>
