@@ -3,9 +3,10 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs xsl">
 
-    <xsl:output omit-xml-declaration="yes" method="html" indent="yes"/>
+    <xsl:output omit-xml-declaration="yes" method="xhtml" indent="yes" />
 
     <xsl:template match="/">
+        
         <div>
             <div class="front">
                 <xsl:apply-templates select="TEI/text/front"/>
@@ -17,9 +18,10 @@
                 <xsl:apply-templates select="TEI/text/back"/>
             </div>
         </div>
+        
     </xsl:template>
 
-    <xsl:template match="div">
+    <xsl:template match="div" >
         <xsl:element name="div">
             <xsl:choose>
                 <xsl:when test="contains(@decls, 's')">
