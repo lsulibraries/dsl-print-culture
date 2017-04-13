@@ -10,5 +10,476 @@
       <publisher>John Bisco</publisher>
       <printer>[?]</printer>
    </head>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Lines</title>
+         <t_type>attested</t_type>
+         <auth_id>efellet</auth_id>
+         <auth_name>Elizabeth Fries Ellet</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>187</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>The Gift of Prophecy</title>
+         <t_type>attested</t_type>
+         <auth_id>mgnichols</auth_id>
+         <auth_name>Mary Sargeant Gove Nichols</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>187</start>
+         <end>188</end>
+         <pages>187-188</pages>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Pictures</title>
+         <t_type>attested</t_type>
+         <auth_id>colman</auth_id>
+         <auth_name>Miss Colman</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>low</auth_cert>
+         <page>188</page>
+         <pdf_index>2</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Island of the Fay</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>188</start>
+         <end>190</end>
+         <pages>188-190</pages>
+         <pdf_index>2</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Myrrha</title>
+         <t_type>attested</t_type>
+         <auth_id>wgsimms</auth_id>
+         <auth_name>William Gilmore Simms</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>190</page>
+         <pdf_index>4</pdf_index>
+      </p5>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p6>
+               <decls_id>p6</decls_id>
+               <type>piece</type>
+               <title>The Wigwam and the Cabin</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>190</start>
+               <end>191</end>
+               <pages>190-191</pages>
+               <pdf_index>4</pdf_index>
+            </p6>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>Bubbles from the Brunnen of Nassau</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>191</start>
+               <end>192</end>
+               <pages>191-192</pages>
+               <pdf_index>5</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>Lady Mary; or Not of the World</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>192</page>
+               <pdf_index>6</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>Sermons on Certain of the Less Prominent Facts and References in Sacred Story</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>192</page>
+               <pdf_index>6</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>A Latin Grammar</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>192</page>
+               <pdf_index>6</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Blackwood's Magazine for September</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>192</page>
+               <pdf_index>6</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Book of Useful Knowledge</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>192</page>
+               <pdf_index>6</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>The Treasury of History NO. IX</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>192</page>
+               <pdf_index>6</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>The Young Man's Mentor on His Entrance into Life</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>192</page>
+               <pdf_index>6</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>Simms' Monthly Magazine for September</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>192</start>
+               <end>193</end>
+               <pages>192-193</pages>
+               <pdf_index>6</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>Godey's Magazine for October</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>193</page>
+               <pdf_index>7</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>Graham's Magazine for October</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>193</page>
+               <pdf_index>7</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The Aristidean for September</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>193</page>
+               <pdf_index>7</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>A Popular Treatise</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>193</page>
+               <pdf_index>7</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>Too Late for Notice</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>193</page>
+               <pdf_index>7</pdf_index>
+            </p20>
+         </pieces>
+      </s1>
+      <p21>
+         <decls_id>p21</decls_id>
+         <type>piece</type>
+         <title>Fairyland</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>193</start>
+         <end>194</end>
+         <pages>193-194</pages>
+         <pdf_index>7</pdf_index>
+      </p21>
+      <p22>
+         <decls_id>p22</decls_id>
+         <type>piece</type>
+         <title>The Fine Arts</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>194</start>
+         <end>196</end>
+         <pages>194-196</pages>
+         <pdf_index>8</pdf_index>
+      </p22>
+      <p23>
+         <decls_id>p23</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>196</start>
+         <end>197</end>
+         <pages>196-197</pages>
+         <pdf_index>10</pdf_index>
+      </p23>
+      <p24>
+         <decls_id>p24</decls_id>
+         <type>piece</type>
+         <title>Musical Department</title>
+         <t_type>attested</t_type>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>low</auth_cert>
+         <start>197</start>
+         <end>198</end>
+         <pages>197-198</pages>
+         <pdf_index>11</pdf_index>
+      </p24>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Editorial Miscellany</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p25>
+               <decls_id>p25</decls_id>
+               <type>piece</type>
+               <title>Thomas Dunn English</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>198</start>
+               <end>199</end>
+               <pages>198-199</pages>
+               <pdf_index>12</pdf_index>
+            </p25>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>A Proper Nationality in American Letters</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>199</start>
+               <end>200</end>
+               <pages>199-200</pages>
+               <pdf_index>13</pdf_index>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>The Whittier and Bulwer Parallel</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p27>
+            <p28>
+               <decls_id>p28</decls_id>
+               <type>piece</type>
+               <title>Mr. William W. Lord</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p28>
+            <p29>
+               <decls_id>p29</decls_id>
+               <type>piece</type>
+               <title>The Natural History Department of the Exploring Expedition</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p29>
+            <p30>
+               <decls_id>p30</decls_id>
+               <type>piece</type>
+               <title>American Books of Exceeding Merit</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p30>
+            <p31>
+               <decls_id>p31</decls_id>
+               <type>piece</type>
+               <title>Contributors to the Broadway Journal</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p31>
+            <p32>
+               <decls_id>p32</decls_id>
+               <type>piece</type>
+               <title>Tales of Edgar A. Poe</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p32>
+            <p33>
+               <decls_id>p33</decls_id>
+               <type>piece</type>
+               <title>A Portrait of Pope Paul V.</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p33>
+            <p34>
+               <decls_id>p34</decls_id>
+               <type>piece</type>
+               <title>Library of American Books</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>200</page>
+               <pdf_index>14</pdf_index>
+            </p34>
+            <p35>
+               <decls_id>p35</decls_id>
+               <type>piece</type>
+               <title>Mr. William Jones' Articles</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>200</start>
+               <end>201</end>
+               <pages>200-201</pages>
+               <pdf_index>14</pdf_index>
+            </p35>
+            <p36>
+               <decls_id>p36</decls_id>
+               <type>piece</type>
+               <title>To Correspondents</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>201</page>
+               <pdf_index>15</pdf_index>
+            </p36>
+         </pieces>
+      </s2>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>derived</t_type>
+         <start>201</start>
+         <end>202</end>
+         <pages>201-202</pages>
+         <pdf_index>15</pdf_index>
+      </s3>
+   </toc>
 </div>

@@ -10,5 +10,209 @@
       <publisher>John Bisco</publisher>
       <printer>[?]</printer>
    </head>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>The Tablet of Love</title>
+         <t_type>attested</t_type>
+         <auth_id>asphelps</auth_id>
+         <auth_name>A. S. Phelps</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>97</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>The Tell-Tale Heart</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>97</start>
+         <end>99</end>
+         <pages>97-99</pages>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>To Florence</title>
+         <t_type>attested</t_type>
+         <auth_id>t</auth_id>
+         <auth_name>T.</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>99</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Alcibiades Again: Newspapers and Philosophy</title>
+         <t_type>attested</t_type>
+         <auth_id>frobinson</auth_id>
+         <auth_name>Fay Robinson</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>low</auth_cert>
+         <start>99</start>
+         <end>101</end>
+         <pages>99-101</pages>
+         <pdf_index>3</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>The Whole Duty of Woman</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>101</page>
+         <pdf_index>5</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>A New York Ghost</title>
+         <t_type>attested</t_type>
+         <auth_id>fbathos</auth_id>
+         <auth_name>Fidelius Bathos</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>low</auth_cert>
+         <start>101</start>
+         <end>102</end>
+         <pages>101-102</pages>
+         <pdf_index>5</pdf_index>
+      </p6>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>The Poetical Writings of Mrs. Elizabeth Oakes Smith</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>103</page>
+               <pdf_index>7</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's Library of Choice Reading</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>104</page>
+               <pdf_index>8</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>Dashes at Life with a Free Pencil</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>104</page>
+               <pdf_index>8</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>The Lone Star</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>104</page>
+               <pdf_index>8</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Harper's Illuminated and New Pictorial Bible</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>104</page>
+               <pdf_index>8</pdf_index>
+            </p11>
+         </pieces>
+      </s1>
+      <p12>
+         <decls_id>p12</decls_id>
+         <type>piece</type>
+         <title>The Fine Arts</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>104</start>
+         <end>109</end>
+         <pages>104-109</pages>
+         <pdf_index>8</pdf_index>
+      </p12>
+      <p13>
+         <decls_id>p13</decls_id>
+         <type>piece</type>
+         <title>Musical Department</title>
+         <t_type>attested</t_type>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>low</auth_cert>
+         <start>105</start>
+         <end>108</end>
+         <pages>105-108</pages>
+         <pdf_index>9</pdf_index>
+      </p13>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>section</type>
+         <title>Editorial Miscellany</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>109</start>
+         <end>111</end>
+         <pages>109-111</pages>
+         <pdf_index>13</pdf_index>
+      </p14>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <start>111</start>
+         <end>112</end>
+         <pages>111-112</pages>
+         <pdf_index>15</pdf_index>
+      </s4>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
+         <title>Agents for the Broadway Journal</title>
+         <t_type>derived</t_type>
+         <page>112</page>
+         <pdf_index>16</pdf_index>
+      </p15>
+   </toc>
 </div>

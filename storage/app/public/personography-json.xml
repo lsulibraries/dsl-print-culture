@@ -3,64 +3,6 @@
    <anon>
       <name>Anonymous</name>
       <init>A</init>
-      <role>ContributingAuthor</role>
-      <issue_contribs>
-         <issue>
-            <num>9</num>
-            <idno>18450315</idno>
-         </issue>
-         <issue>
-            <num>3</num>
-            <idno>18450517</idno>
-         </issue>
-         <issue>
-            <num>21</num>
-            <idno>18450208</idno>
-         </issue>
-         <issue>
-            <num>3</num>
-            <idno>18450816</idno>
-         </issue>
-         <issue>
-            <num>14</num>
-            <idno>18450215</idno>
-         </issue>
-         <issue>
-            <num>15</num>
-            <idno>18450308</idno>
-         </issue>
-         <issue>
-            <num>1</num>
-            <idno>18450927</idno>
-         </issue>
-         <issue>
-            <num>18</num>
-            <idno>18450201</idno>
-         </issue>
-         <issue>
-            <num>7</num>
-            <idno>18450531</idno>
-         </issue>
-         <issue>
-            <num>3</num>
-            <idno>18451129</idno>
-         </issue>
-         <issue>
-            <num>3</num>
-            <idno>18451206</idno>
-         </issue>
-         <issue>
-            <num>7</num>
-            <idno>18450222</idno>
-         </issue>
-         <issue>
-            <num>8</num>
-            <idno>18450412</idno>
-         </issue>
-      </issue_contribs>
-      <total_contribs>
-         <num>112</num>
-      </total_contribs>
    </anon>
    <jaddison>
       <name>Joseph Addison</name>
@@ -235,8 +177,15 @@
       <name>Fidelius Bathos</name>
       <init>FB</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450823</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </fbathos>
    <jbeattie>
       <name>James Beattie</name>
@@ -259,8 +208,15 @@
       <init>PB</init>
       <role>MentionedAuthor ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/48313754/</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450920</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
       <issue_mentions/>
       <total_mentions/>
    </pbenjamin>
@@ -321,6 +277,10 @@
             <idno>18450517</idno>
          </issue>
          <issue>
+            <num>9</num>
+            <idno>18450125</idno>
+         </issue>
+         <issue>
             <num>4</num>
             <idno>18450215</idno>
          </issue>
@@ -338,11 +298,15 @@
          </issue>
          <issue>
             <num>2</num>
+            <idno>18450614</idno>
+         </issue>
+         <issue>
+            <num>2</num>
             <idno>18450412</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>34</num>
+         <num>45</num>
       </total_contribs>
    </cfbriggs>
    <cpbronson>
@@ -388,8 +352,15 @@
       <name>Edwin Henry Burrington</name>
       <init>EHB</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450802</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </ehburrington>
    <c>
       <name>C.</name>
@@ -510,11 +481,15 @@
       <issue_contribs>
          <issue>
             <num>1</num>
+            <idno>18450802</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18451206</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>1</num>
+         <num>2</num>
       </total_contribs>
    </thchivers>
    <rchoate>
@@ -545,8 +520,15 @@
       <init>HHC</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/7051320</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451101</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </hhclements>
    <tlclingman>
       <name>Thomas Lanier Clingman</name>
@@ -592,8 +574,15 @@
       <name>Miss Colman</name>
       <init>C</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451004</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </colman>
    <ghcolton>
       <name>George Hooker Colton</name>
@@ -668,8 +657,15 @@
       <name>S. D.</name>
       <init>SD</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451101</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </sd>
    <rhdana>
       <name>Richard Henry Dana, Sr.</name>
@@ -858,8 +854,19 @@
       <init>EFE</init>
       <role>ContributingAuthor MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/10224727</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451101</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451004</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>2</num>
+      </total_contribs>
       <issue_mentions/>
       <total_mentions/>
    </efellet>
@@ -1056,15 +1063,33 @@
       <name>W. G.</name>
       <init>WG</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451025</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </wg>
    <wgibson>
       <name>William Gibson</name>
       <init>WG</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451101</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451018</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>2</num>
+      </total_contribs>
    </wgibson>
    <wmgillespie>
       <name>William Mitchell Gillespie</name>
@@ -1191,24 +1216,45 @@
       <name>Pater Haedi</name>
       <init>PH</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450614</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </phaedi>
    <sjhale>
       <name>Sarah Josepha Hale</name>
       <init>SJH</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/72222129</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451115</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </sjhale>
    <amhall>
       <name>Anna Maria Fielding Hall</name>
       <init>AMFH</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/59344020</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450628</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </amhall>
    <cfhall>
       <name>Charles Francis Hall</name>
@@ -1355,11 +1401,27 @@
       <issue_contribs>
          <issue>
             <num>1</num>
+            <idno>18451018</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450809</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451115</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450222</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450614</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>1</num>
+         <num>5</num>
       </total_contribs>
    </mehewitt>
    <jheywood>
@@ -1382,11 +1444,15 @@
          </issue>
          <issue>
             <num>1</num>
+            <idno>18450607</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450531</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>2</num>
+         <num>3</num>
       </total_contribs>
    </hbhirst>
    <gfholmes>
@@ -1457,6 +1523,10 @@
       <issue_contribs>
          <issue>
             <num>1</num>
+            <idno>18451025</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450927</idno>
          </issue>
          <issue>
@@ -1465,7 +1535,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>2</num>
+         <num>3</num>
       </total_contribs>
    </amide>
    <jringersoll>
@@ -1591,11 +1661,15 @@
       <issue_contribs>
          <issue>
             <num>1</num>
+            <idno>18450628</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18451206</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>1</num>
+         <num>2</num>
       </total_contribs>
    </hcl>
    <l>
@@ -1672,6 +1746,10 @@
       <viaf>http://viaf.org/viaf/29549920</viaf>
       <issue_contribs>
          <issue>
+            <num>2</num>
+            <idno>18450125</idno>
+         </issue>
+         <issue>
             <num>1</num>
             <idno>18450215</idno>
          </issue>
@@ -1681,7 +1759,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>2</num>
+         <num>4</num>
       </total_contribs>
       <issue_mentions/>
       <total_mentions/>
@@ -1696,9 +1774,13 @@
             <num>1</num>
             <idno>18450201</idno>
          </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450607</idno>
+         </issue>
       </issue_contribs>
       <total_contribs>
-         <num>1</num>
+         <num>2</num>
       </total_contribs>
    </mwlowell>
    <aclynch>
@@ -1706,8 +1788,19 @@
       <init>ACL</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/51542839</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>2</num>
+            <idno>18450621</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451115</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>3</num>
+      </total_contribs>
    </aclynch>
    <eblytton>
       <name>Edward George Earle Bulwer Lytton</name>
@@ -1822,8 +1915,15 @@
       <name>G. H. Mildeberger</name>
       <init>GHM</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451115</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </ghmildeberger>
    <jmiller>
       <name>Joseph Miller</name>
@@ -1870,8 +1970,15 @@
       <init>JEM</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/65658859</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450920</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </jemurdoch>
    <jneal>
       <name>John Neal</name>
@@ -1886,8 +1993,15 @@
       <init>MSGN</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/290135283</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451004</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </mgnichols>
    <llnoble>
       <name>Lewis L. Noble</name>
@@ -1917,8 +2031,15 @@
       <init>LO</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/18836680</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450920</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </losborn>
    <fsosgood>
       <name>Frances Sargent Osgood</name>
@@ -1926,6 +2047,10 @@
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/74673685</viaf>
       <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450830</idno>
+         </issue>
          <issue>
             <num>1</num>
             <idno>18450531</idno>
@@ -1944,7 +2069,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>3</num>
+         <num>4</num>
          <num>1</num>
       </total_contribs>
    </fsosgood>
@@ -2024,8 +2149,15 @@
       <name>A. S. Phelps</name>
       <init>ASP</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450823</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </asphelps>
    <tpicton>
       <name>Thomas Picton</name>
@@ -2066,6 +2198,30 @@
             <idno>18450517</idno>
          </issue>
          <issue>
+            <num>26</num>
+            <idno>18451101</idno>
+         </issue>
+         <issue>
+            <num>7</num>
+            <idno>18451025</idno>
+         </issue>
+         <issue>
+            <num>24</num>
+            <idno>18450920</idno>
+         </issue>
+         <issue>
+            <num>20</num>
+            <idno>18450802</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451018</idno>
+         </issue>
+         <issue>
+            <num>5</num>
+            <idno>18451018</idno>
+         </issue>
+         <issue>
             <num>3</num>
             <idno>18450208</idno>
          </issue>
@@ -2078,6 +2234,26 @@
             <idno>18450215</idno>
          </issue>
          <issue>
+            <num>1</num>
+            <idno>18450628</idno>
+         </issue>
+         <issue>
+            <num>19</num>
+            <idno>18451004</idno>
+         </issue>
+         <issue>
+            <num>7</num>
+            <idno>18450823</idno>
+         </issue>
+         <issue>
+            <num>7</num>
+            <idno>18450621</idno>
+         </issue>
+         <issue>
+            <num>14</num>
+            <idno>18450809</idno>
+         </issue>
+         <issue>
             <num>6</num>
             <idno>18450308</idno>
          </issue>
@@ -2086,8 +2262,20 @@
             <idno>18450927</idno>
          </issue>
          <issue>
+            <num>25</num>
+            <idno>18450830</idno>
+         </issue>
+         <issue>
             <num>6</num>
             <idno>18450201</idno>
+         </issue>
+         <issue>
+            <num>5</num>
+            <idno>18451115</idno>
+         </issue>
+         <issue>
+            <num>21</num>
+            <idno>18450607</idno>
          </issue>
          <issue>
             <num>4</num>
@@ -2102,12 +2290,17 @@
             <idno>18451206</idno>
          </issue>
          <issue>
+            <num>7</num>
+            <idno>18450614</idno>
+         </issue>
+         <issue>
             <num>13</num>
             <idno>18450412</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>117</num>
+         <num>305</num>
+         <num>1</num>
       </total_contribs>
       <issue_mentions/>
       <total_mentions/>
@@ -2156,8 +2349,15 @@
       <name>R.</name>
       <init>R</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450614</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </r>
    <mkreid>
       <name>Marion Kirkland Reid</name>
@@ -2195,8 +2395,19 @@
       <name>Fay Robinson</name>
       <init>FR</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450823</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450809</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>2</num>
+      </total_contribs>
    </frobinson>
    <jrochietti>
       <name>Joseph Rocchietti</name>
@@ -2244,11 +2455,15 @@
       <issue_contribs>
          <issue>
             <num>1</num>
+            <idno>18451115</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18451206</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>1</num>
+         <num>2</num>
       </total_contribs>
    </rsrowley>
    <fschiller>
@@ -2264,8 +2479,15 @@
       <init>HRS</init>
       <role>ContributingAuthor MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/7451014</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450125</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
       <issue_mentions/>
       <total_mentions/>
    </hrschoolcraft>
@@ -2324,6 +2546,18 @@
       <issue_contribs>
          <issue>
             <num>1</num>
+            <idno>18451101</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451018</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451004</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450531</idno>
          </issue>
          <issue>
@@ -2336,7 +2570,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>4</num>
+         <num>7</num>
       </total_contribs>
       <issue_mentions/>
       <total_mentions/>
@@ -2417,8 +2651,15 @@
       <name>T.</name>
       <init>T</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450823</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </t>
    <wbstaylor>
       <name>William Benjamin Sarsfield Taylor</name>
@@ -2452,11 +2693,15 @@
       <issue_contribs>
          <issue>
             <num>1</num>
+            <idno>18450802</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450816</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>1</num>
+         <num>2</num>
       </total_contribs>
    </fwthomas>
    <gthorburn>
@@ -2538,8 +2783,15 @@
       <init>GBW</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/100800323</viaf>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451018</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </gbwallis>
    <hwalpole>
       <name>Horace Walpole</name>
@@ -2576,7 +2828,39 @@
          </issue>
          <issue>
             <num>1</num>
+            <idno>18451101</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450920</idno>
+         </issue>
+         <issue>
+            <num>2</num>
+            <idno>18450802</idno>
+         </issue>
+         <issue>
+            <num>2</num>
+            <idno>18451018</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450816</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450628</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451004</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450823</idno>
+         </issue>
+         <issue>
+            <num>2</num>
+            <idno>18450809</idno>
          </issue>
          <issue>
             <num>1</num>
@@ -2585,6 +2869,18 @@
          <issue>
             <num>1</num>
             <idno>18450927</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450830</idno>
+         </issue>
+         <issue>
+            <num>2</num>
+            <idno>18451115</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450607</idno>
          </issue>
          <issue>
             <num>2</num>
@@ -2603,12 +2899,16 @@
             <idno>18450222</idno>
          </issue>
          <issue>
+            <num>1</num>
+            <idno>18450614</idno>
+         </issue>
+         <issue>
             <num>3</num>
             <idno>18450412</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>14</num>
+         <num>30</num>
          <num>1</num>
       </total_contribs>
    </hcwatson>
@@ -2721,8 +3021,15 @@
       <name>L. S. Y.</name>
       <init>LSY</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18451025</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </lsy>
    <hzschokke>
       <name>Johann Heinrich Daniel Zschokke</name>

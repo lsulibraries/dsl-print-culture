@@ -2,21 +2,31 @@
    <div class="front">
       
       <div>
-         <div class="head">THE BROADWAY JOURNAL</div>
-         <div class="ab">VOL. I.NEW YORK, SATURDAY, JULY 12, 1985.
-            NO. 25.
-         </div>
-         <div class="ab">Three Dollars Per Annum. Single Copies, 6 1-4 Cents.</div>
-         <div class="ab">C.F. BRIGGS, EDGAR A. POE, H.C. WATSON, EDITORS</div>
          
-         <div class="ab">Published at 135 Nassau-St. By JOHN BISCO.</div>
+         <div class="ab">THE BROADWAY JOURNAL.
+            
+            <br></br>VOL. I. NO. 10. NEW YORK, SATURDAY, MARCH 8, 1845.
+            
+            <br></br>Three Dollars per Annum.
+            
+            <br></br>Single Copies, 6 1-4 Cents.
+            
+            <br></br>C. F. BRIGGS, EDGAR A. POE, H. C. WATSON, EDITORS.
+            
+            <br></br>Published at
+            
+            <br></br>153 BROADWAY, by
+            
+            <br></br>JOHN BlSCO.
+         </div>
+         
       </div>
       
    </div>
    <div class="body">
       
       
-      <div>
+      <div class="piece" id="#p1">
          <div class="columnbreak"></div>
          
          <div class="head">THE ADVENTURES OF A GENTLEMAN IN SEARCH OF A DINNER.</div>
@@ -484,7 +494,7 @@
       
       
       
-      <div>
+      <div class="piece" id="#p2">
          <div class="head">MORELLA.</div>
          
          <p>Avro KaΘ’ avro μεΘ' avrov, μovo εidες aiεi ov.
@@ -704,7 +714,7 @@
       
       
       
-      <div>
+      <div class="piece" id="#p3">
          <div class="head">A Holiday on the Hudson</div>
          
          <p>A Holiday on the Hudson.—Last Monday was a redletter day in the lives of four or five hundred happy souls, who
@@ -754,20 +764,19 @@
       <div class="columnbreak"></div>
       
       
-      <div>
-         <div class="head">Poems by Anne Charlotte Lynch&gt;</div>
+      <div class="section" id="#s4">
          
-         <div class="note" type="headnote">[The two noble poems subjoined have already appeared in
+         <p>[The two noble poems subjoined have already appeared in
             print—although we are unable to say in what work they originated. They are the composition of one of our most justly
             distinguished poetesses—Miss Anne Charlotte Lynch. We
             have no excuse to offer for copying them in the “Journal”—except that we have been profoundly impressed with their excellence. In modulation and force of rhythm—in dignity and
             loftiness of sentiment—and in terse energy of expression—
             they equal if they do not excel any thing of the same character written by an American.—Eds. B. J.]
-         </div>
+         </p>
          
          
          
-         <div>
+         <div class="section" id="#s4p1">
             <div class="head">THE IDEAL.</div>
             
             <div class="lg">
@@ -872,7 +881,7 @@
          </div>
          
          
-         <div>
+         <div class="section" id="#s4p2">
             <div class="head">THE IDEAL FOUND.</div>
             
             <div class="lg">
@@ -969,7 +978,7 @@
       
       
       
-      <div>
+      <div class="piece" id="#p5">
          <div class="head">A JUST VIEW OF A BAD HABIT.</div>
          
          <p>We find the following very sensible remarks, in a late number of the Charleston Mercury, and we copy them to give currency to such excellent sentiments. But we must resist the
@@ -1043,100 +1052,95 @@
       
       
       
-      <div>
+      <div class="piece" id="#p6">
          <div class="head">THE HEART OF MAN.</div>
          
-         <div class="note" type="headnote">SUGGESTED BY A FRAGMENT OF F. SIELER.</div>
+         <div class="ab">SUGGESTED BY A FRAGMENT OF F. SIELER.</div>
          
-         <div>
-            <div class="lg">
-               <br></br>A strange, unsounded, glorious thing,
-               
-               <br></br>The heart of man hath ever been,
-               
-               <br></br>Where light and gloom alternate spring
-               
-               <br></br>With many a changing shade between.
-               
-               <br></br>There earnest love and frantic hate
-               
-               <br></br>Have their deep fountains, side by side;
-               
-               <br></br>There sweetest hopes and feelings mate
-               
-               <br></br>With basest fear, with rankling pride.
-               
-               <br></br>Like some strong harp whose thousand strings
-               
-               <br></br>Vibrate to every passing tone,
-               
-               <br></br>Now with deep passion-notes it rings,
-               
-               <br></br>Now melts in sorrow’s gentlest moan.
-               
-               <br></br>The magic of a kindling eye,
-               
-               <br></br>The music of a gentle voice,
-               
-               <br></br>May thrill its chords with agony
-               
-               <br></br>Or bid its noblest powers rejoice.
-               
-               <br></br>A word, a look, a tone, that falls
-               
-               <br></br>On memory’s fount, seal'd up for years.
-               
-               <br></br>All the bright, glowing past recalls,
-               
-               <br></br>Its passionate hopes, its vows, its tears.
-               
-               <br></br>Shape after shape of glorious light,
-               
-               <br></br>It summons from that living tomb,
-               
-               <br></br>With forms whose aspects, once all bright,
-               
-               <br></br>Are shadowed now by softest gloom.
-               
-               <br></br>The kindling eye, the open brow,
-               
-               <br></br>The sunny smile of youth are there;
-               
-               <br></br>The faces dimmed by sorrow now,
-               
-               <br></br>The hopeless glance of pale despair.
-               
-               <br></br>O heart of man ! O heart of man !
-               
-               <br></br>What magic of the spirit's lore,
-               
-               <br></br>What heav’n-enkindled glance may scan
-               
-               <br></br>Thy fountains, hidden evermore !
-               
-               <br></br>No Earthly wisdom may avail;
-               
-               <br></br>No eye but His who set the springs
-               
-               <br></br>In the heart’s depths, can pierce the veil
-               
-               <br></br>That o’er their silent workings clings.
-            </div>
+         <div class="lg">
+            <br></br>A strange, unsounded, glorious thing,
             
-            <div class="byline">
-               <span class="person">ULRIC HORN.</span>
-            </div>
+            <br></br>The heart of man hath ever been,
+            
+            <br></br>Where light and gloom alternate spring
+            
+            <br></br>With many a changing shade between.
+            
+            <br></br>There earnest love and frantic hate
+            
+            <br></br>Have their deep fountains, side by side;
+            
+            <br></br>There sweetest hopes and feelings mate
+            
+            <br></br>With basest fear, with rankling pride.
+            
+            <br></br>Like some strong harp whose thousand strings
+            
+            <br></br>Vibrate to every passing tone,
+            
+            <br></br>Now with deep passion-notes it rings,
+            
+            <br></br>Now melts in sorrow’s gentlest moan.
+            
+            <br></br>The magic of a kindling eye,
+            
+            <br></br>The music of a gentle voice,
+            
+            <br></br>May thrill its chords with agony
+            
+            <br></br>Or bid its noblest powers rejoice.
+            
+            <br></br>A word, a look, a tone, that falls
+            
+            <br></br>On memory’s fount, seal'd up for years.
+            
+            <br></br>All the bright, glowing past recalls,
+            
+            <br></br>Its passionate hopes, its vows, its tears.
+            
+            <br></br>Shape after shape of glorious light,
+            
+            <br></br>It summons from that living tomb,
+            
+            <br></br>With forms whose aspects, once all bright,
+            
+            <br></br>Are shadowed now by softest gloom.
+            
+            <br></br>The kindling eye, the open brow,
+            
+            <br></br>The sunny smile of youth are there;
+            
+            <br></br>The faces dimmed by sorrow now,
+            
+            <br></br>The hopeless glance of pale despair.
+            
+            <br></br>O heart of man ! O heart of man !
+            
+            <br></br>What magic of the spirit's lore,
+            
+            <br></br>What heav’n-enkindled glance may scan
+            
+            <br></br>Thy fountains, hidden evermore !
+            
+            <br></br>No Earthly wisdom may avail;
+            
+            <br></br>No eye but His who set the springs
+            
+            <br></br>In the heart’s depths, can pierce the veil
+            
+            <br></br>That o’er their silent workings clings.
          </div>
          
-         <div>
-            <div class="ab">Hellgate, L. I.</div>
+         <div class="byline">
+            <span class="person">ULRIC HORN.</span>
+            Hellgate, L. I.
          </div>
       </div>
       <div class="columnbreak"></div>
       
       
       
-      <div>
+      <div class="piece" id="#p7">
          <div class="head">THORWALDSEN’S STATUE OF BYRON.</div>
          
          <p>We copy the annexed account of this interesting work of
@@ -1223,14 +1227,10 @@
       
       
       
-      <div>
+      <div class="section" id="#s8">
          <div class="head">REVIEWS.</div>
          
-         <div>
-            
-            <div class="head">Combined Review of An Essay on the Philosophy of Medical Science and The Principles
-               of the Chrono-thermal System of Medicine
-            </div>
+         <div class="section" id="#s8p1">
             
             <p>An Essay on the Philosophy of Medical Science, by Elisha
                Bartlett, M. D., &amp;c.—Philadelphia, Lea &amp; Blanchard, 1844.
@@ -1379,9 +1379,7 @@
          </div>
          
          
-         <div>
-            <div class="head">PLATO CONTRA ATHEOS</div>
-            
+         <div class="section" id="#s8p2">
             <p>PLATO CONTRA ATHEOS.—Plato against the Atheists; or the Tenth
                Book of the Dialogue on Laws, accompanied with Critical Notes,
                and followed by Extended Dissertations on some of the Main
@@ -1516,8 +1514,7 @@
          
          
          
-         <div>
-            <div class="head">Harper's Illuminated and Illustrated Edition of Shakespeare</div>
+         <div class="section" id="#s8p3">
             
             <p>Harper's Illuminated and Illustrated Edition of Shakespeare. Nos. 55 &amp; 56 : Containing parts of “ As You Like It,”
                and “ Midsummer Night’s Dream.” Price 25cts.
@@ -1739,10 +1736,9 @@
          
          
          
-         <div>
-            <div class="head">A Pilgrimage to Treves</div>
+         <div class="section" id="#s8p4">
             
-            <p> A Pilgrimage to Treves, through the Valley of the Meuse and
+            <p>A Pilgrimage to Treves, through the Valley of the Meuse and
                the Forest of Ardennes in the year 1844. Harper &amp; Brothers,
                1845.
             </p>
@@ -1877,567 +1873,537 @@
                ends here.
             </p>
          </div>
+      </div>
+      
+      <div class="section" id="#s9">
+         <div class="head">NEW WORKS LATELY RECEIVED.</div>
          
+         <div class="section" id="#s9p1">
+            
+            <p>Satanstoe, or the Littlepage Manuscripts. A Tale of the Colony:
+               by J. Fennimore Cooper. In 2 vols. New-York: Burgess,
+               Stringer &amp; Co.
+            </p>
+            
+            <p>Satanstoe appears to be the first of a series of three tales
+               written to illustrate a principle, the principle of anti-rentism,
+               which Mr. Cooper considers a greater disgrace to the State of
+               New-York than repudiation to Mississippi. We have but little faith in stories that are written to illustrate any other principle than the principle of human nature, and we doubt whether Satanstoe will be read with much interest by any class excepting those who have read the author’s other productions, for
+               the sake of the story. It appears that Satanstoe is a neck of
+               land somewhere in Westchester county, its precise locality we
+               are not acquainted with, but it is probably in the neighborhood
+               of Devilshoof. Of the merits of the work we are unable to
+               speak at present. We give the concluding paragraph of the
+               author’s preface, for the sake of its manly tone, which wil
+               neet with a hearty response from all honest men.
+            </p>
+            
+            <p>" For ourselves, we conceive that true patriotism consists in
+               laying bare every thing like public vice, and in calling things
+               by their right names. The great enemy of the race has made
+               a deep inroad upon us, within the list ten or a dozen years,
+               under cover of a spurious delicacy on the subject of expressing
+               national ills ; and it is time that they who have not been afraid
+               to praise when praise was merited, should not shrink from the
+               office of censuring, when the want of timely warnings may be
+               one cause of the most fatal evils. The great practical defect
+               of institutions like ours, is the circumstance that “ what is
+               everybody’s business, is nobody’s business,” a neglect that
+               gives to the activity of the rogue a very dangerous ascendency over the more dilatory corrections of the honest man.”
+            </p>
+         </div>          
          
-         
-         
-         <div>
-            <div class="head">NEW WORKS LATELY RECEIVED.</div>
+         <div class="section" id="#s9p2">  
             
-            <div>
-               <div class="head">Satanstoe, or the Littlepage Manuscripts</div>
-               
-               <p>Satanstoe, or the Littlepage Manuscripts. A Tale of the Colony:
-                  by J. Fennimore Cooper. In 2 vols. New-York: Burgess,
-                  Stringer &amp; Co.
-               </p>
-               
-               <p>Satanstoe appears to be the first of a series of three tales
-                  written to illustrate a principle, the principle of anti-rentism,
-                  which Mr. Cooper considers a greater disgrace to the State of
-                  New-York than repudiation to Mississippi. We have but little faith in stories that are written to illustrate any other principle than the principle of human nature, and we doubt whether Satanstoe will be read with much interest by any class excepting those who have read the author’s other productions, for
-                  the sake of the story. It appears that Satanstoe is a neck of
-                  land somewhere in Westchester county, its precise locality we
-                  are not acquainted with, but it is probably in the neighborhood
-                  of Devilshoof. Of the merits of the work we are unable to
-                  speak at present. We give the concluding paragraph of the
-                  author’s preface, for the sake of its manly tone, which wil
-                  neet with a hearty response from all honest men.
-               </p>
-               
-               <p>" For ourselves, we conceive that true patriotism consists in
-                  laying bare every thing like public vice, and in calling things
-                  by their right names. The great enemy of the race has made
-                  a deep inroad upon us, within the list ten or a dozen years,
-                  under cover of a spurious delicacy on the subject of expressing
-                  national ills ; and it is time that they who have not been afraid
-                  to praise when praise was merited, should not shrink from the
-                  office of censuring, when the want of timely warnings may be
-                  one cause of the most fatal evils. The great practical defect
-                  of institutions like ours, is the circumstance that “ what is
-                  everybody’s business, is nobody’s business,” a neglect that
-                  gives to the activity of the rogue a very dangerous ascendency over the more dilatory corrections of the honest man.”
-               </p>
-            </div>
+            <p>Notes, Explanatory and Practical, on the Epistles of Paul to the
+               Ephesians, Philipians, and Colossians. By Albert Barues. New
+               York: Harper &amp; Brothers.
+            </p>
             
-            
-            
-            <div>
-               <div class="head">Notes, Explanatory and Practical, on the Epistles of Paul</div>  
-               
-               <p>Notes, Explanatory and Practical, on the Epistles of Paul to the
-                  Ephesians, Philipians, and Colossians. By Albert Barues. New
-                  York: Harper &amp; Brothers.
-               </p>
-               
-               <p>The learning and industry which distinguish these Notes
-                  are points about which we have heard little difference of opinion. Not the least interesting portion of the work is the Introduction, which embraces an account of the situation of
-                  Ephesus, and the character of its people, as well as of the
-                  advent of the Gospel among them—also notices of the Hisory of its Church—of the time and places of writing the
-                  Epistle—with an inquiry as to its object and to whom it was
-                  written. This Introduction is illustrated with two wood engravings of the present Ephesus.
-               </p>
-            </div>
-            <div class="pagebreak" id="#page396"></div>
-            <div class="columnbreak"></div>
-            
-            
-            
-            <div>
-               <div class="head">De Rohan; or The Court Conspirator</div>
-               
-               <p>De Rohan; or The Court Conspirator. An Historical Romance.
-                  By M. Eugene Sue. author of “ The Mysteries of Paris,” etc. 
-                  etc. New York: Harper &amp; Brothers.
-               </p>
-               
-               <p>This is number 54 of Harper’s " Library of Select Novels.” 
-                  It is by no means as good a book as we have a right to expect
-                  from the author of “ The Mysteries of Paris;” its interest has
-                  been materially impaired by too close an adherence to historical fact. The chief actors are two young girls, nobly
-                  born, and each of an heroic devotion beautifully diverse in
-                  character; a youth of great sensitiveness and timidity; a
-                  cynical and brutal giant and buffoon ; a nobleman of the gay
-                  Court of Louis XIV; and an eccentric Dutch philosopher,
-                  of great genius and erudition.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="head">Ocean Work, Ancient and Modern</div>
-               
-               <p>Ocean Work, Ancient and Modern: or, Evenings on Sea and Land.
-                  By J. Hall Wright, author of “ Breakfast-table Scenes.” (Science.) New York, Appleton &amp; Co.
-               </p>
-               
-               <p>This neat little book is one of the second series of “ Tales
-                  for the People and their children,” and in our estimation is
-                  one of the best among them. A little more science and a little less prattle would have greatly enhanced its value as a
-                  book for the people, but even in its present shape it contains
-                  a great amount of knowledge in a very limited space.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="head">The Age of Elizabeth</div>
-               
-               <p>The Age of Elizabeth. By William Howitt. No. 13 of Wiley &amp;
-                  Putnam’s Library of choice reading. _Wiley &amp; Putnam. Price
-                  50 cents.
-               </p>
-               
-               <p>The expressive title of this series of works, choice reading,
-                  may be applied with as great truth to this book as to any one
-                  yet issued. The “ age of Elizabeth,” contains some of the
-                  best criticisms and most agreeable writing of the author.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="head">The Blind Girl, with Other Tales</div>
-               
-               <p>The Blind Girl, with Other Tales: by Emma C. Embury. New
-                  York : Harper &amp; Brothers.
-               </p>
-               
-               <p>This little volume includes Constance Latimer, or The
-                  Blind Girl;" “ The Son and Heir;" “ The Village Tragedy;"
-                  “ Newton Ainslie;" and “ Frank Morrison.” The first was
-                  originally written as a contribution to a Fair for the benefit of
-                  the Institution for the Blind :—it is an exceedingly pathetic
-                  tale. The others are also excellent, each in a different way.
-                  Mrs. Embury is one of the very best of our female writers.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="head">The Dutchman's Fireside</div>
-               
-               <p>The Dutchman’s Fireside : a Tale, by the author of “ Letters
-                  from the South,” “ John Bull in America,” “ The Backwoodsman,” &amp;c. Two volumes in one, New York; Harper &amp;
-                  Brothers.
-               </p>
-               
-               <p>This is number 9 of the Harpers’ “ Pocket Edition of Select Novels.” The novel itself is too well known in America
-                  to need comment. It is, perhaps, the best work of its author.
-                  We particularly admire the clear print and convenient form of
-                  these editions.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="head">A System of Latin Versification</div>
-               
-               <p>A System of Latin Versification: in a series of Progressive
-                  Exercises, including specimens of Translation from English and 
-                  German Poetry into Latin verse. For the use of Schools and
-                  Colleges: by Charles Anthon, LL.D.. Professor of the Greek
-                  languages in Columbia College, New York, etc. etc. New York : 
-                  Harper &amp; Brothers.
-               </p>
-               
-               <p>A very admirable volume which we shall, of course, notice 
-                  more fully hereafter.
-               </p>
-            </div>
-            
-            
-            
-            
-            <div>
-               <div class="head">The Gambler's Wife</div>
-               
-               <p>The Gambler's Wife. A Novel. By the Author of the “ Young
-                  Prima Donna,” “The Belle of the Family,” “The Old Dower
-                  House,” etc. etc. New York: Harper &amp; Brothers.
-               </p>
-               
-               <p>Number 50 of the “ Library of Select Novels.” A wellwritten and well-constructed story of profound, although
-                  homely interest.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="head">The Smuggler and other books</div>
-               
-               <p>The Smuggler, a Tale, by G. P. R. James. No. 56 of
-                  Harper's Library of Select Novels. The Mysteries of Berlin, Part 4, published by W. H. Collyer. An Encyclopaedia of Domestic Economy, Part 5 : Harper &amp; Brothers.
-                  <div class="columnbreak"></div>
-                  The Nevilles of Garrettstown, Part 4. Martin’s Bible, Part
-                  5. Littell’s Living Age, No. 58, from Taylor, No. 2, Astor
-                  House. Narrative of the Life of Frederick Douglas, an
-                  American Slave, written by himself, from W. H. Graham, Tribune buildings.
-               </p>
-            </div>
+            <p>The learning and industry which distinguish these Notes
+               are points about which we have heard little difference of opinion. Not the least interesting portion of the work is the Introduction, which embraces an account of the situation of
+               Ephesus, and the character of its people, as well as of the
+               advent of the Gospel among them—also notices of the Hisory of its Church—of the time and places of writing the
+               Epistle—with an inquiry as to its object and to whom it was
+               written. This Introduction is illustrated with two wood engravings of the present Ephesus.
+            </p>
          </div>
+         <div class="pagebreak" id="#page396"></div>
+         <div class="columnbreak"></div>
          
          
          
-         <div>
-            <div class="head">NUMBER ONE’S.</div>
+         <div class="section" id="#s9p3">
             
-            <p>We have received the first number of three new weekly
-               Magazines during the past week. Two of them sprung up in
-               Boston, and one in New-York. The most important of these
-               new comers, in appearance, and doubtless containing the largest
-               amount of vitality, is called “ The Harbinger ;” it is dedicated
-               to “ Social and Political Progress.” No editor is named, but
-               it is to be furnished with matter by Park Godwin, W. H.
-               Channing, Albert Brisbane, Osborne Macdanniel, Horace
-               Greely, George Ripley, Charles A. Dana, John S. Dwight, L.
-               W. Ryckman, John Allen, and Francis S. Shaw. Some of
-               these gentlemen we know to be matter-full men, and if they
-               lend their aid to this new magazine, it must shortly become an
-               important organ in the world of journalism. It emanates from
-               the Brook Farm Association at West Roxbury, and is, as a
-               matter of course, an advocate of Fourierism. The first number contains the beginning of George Sand’s famous story
-               “ Consuelo,” translated, we suppose, by F. S. Shaw, as the
-               copy-right is secured to him. The Harbinger is as well printed
-               as any paper of its class, but coming from an Association like
-               that at Brook Farm, we expected a greater degree of elegance
-               in its externals. Tuttle &amp; Dexter are the general agents.
+            <p>De Rohan; or The Court Conspirator. An Historical Romance.
+               By M. Eugene Sue. author of “ The Mysteries of Paris,” etc. 
+               etc. New York: Harper &amp; Brothers.
             </p>
             
-            <p>“The Jester,” is another Boston birth; an imitation of
-               Punch, but a very slender imitation indeed. The illustrations
-               are better than the matter illustrated, an unusual case in an
-               American publication. It wants a Lemon to give it flavor.
-            </p>
-            
-            <p>“ The New-Yorker,” a semi-monthly paper of eight pages,
-               devoted to Temperance, Morality, and several other good
-               things, is published in New-York.
+            <p>This is number 54 of Harper’s " Library of Select Novels.” 
+               It is by no means as good a book as we have a right to expect
+               from the author of “ The Mysteries of Paris;” its interest has
+               been materially impaired by too close an adherence to historical fact. The chief actors are two young girls, nobly
+               born, and each of an heroic devotion beautifully diverse in
+               character; a youth of great sensitiveness and timidity; a
+               cynical and brutal giant and buffoon ; a nobleman of the gay
+               Court of Louis XIV; and an eccentric Dutch philosopher,
+               of great genius and erudition.
             </p>
          </div>
          
          
          
-         <div>
-            <div class="head">THE FINE ARTS.</div>
+         <div class="section" id="#s9p4">
             
-            <div>
-               <div class="head">We have seen a proof impression of an engraving by Smillie and Hinshelwood</div>
-               
-               <p>We have seen a proof impression of an engraving by Smillie
-                  and Hinshelwood, intended for part five of Martin’s edition of
-                  the Bible, which will reflect great credit upon the skill of the
-                  artists and the liberality of the publishers. The subject is the
-                  “ departure of the Israelites” from a picture by David Roberts,
-                  one of the best painters of Eastern life and scenery now living. This picture has much of the grandeur of feeling peculiar to Martin's designs, and though but a few inches in size,
-                  is capable of creating as sublime and lofty emotions, as though
-                  it were stretched over an acre of canvass. The cheapness of
-                  illustrated books is a growing marvel. This print is of a class
-                  rarely sold at a price less than two dollars, yet it is here given
-                  away to the purchaser of one of the parts of the superb work
-                  which it is meant to illustrate.
-               </p>
-               
-               <p>We have before us, also, parts 29 and 30 of Harper's Bible,
-                  which is more legitimately ornamented by wood-cuts, containing
-                  an amount of pictorial illustrations, which, a few years ago, would
-                  have been considered an impossibility at the price for which
-                  they are now sold. The great defect of the illustrations of
-                  “ Harper’s Bible,” arises from their sameness of character.
-                  One author may well be illustrated by one artist; but to give
-                  all the Prophets, Psalmists, and Evangelists of the Sacred
-                  Book, into the hands of the same man for illustration, was a very
-                  dangerous experiment. To fulfil such a task properly, as the
-                  illustration of the whole Bible, requires an amount of genius
-                  and learning, which no individual ever did, or ever can, possess.
-                  If the Bible itself were pervaded by one tone of expression,
-                  it would be the most wearisome book in existence. But one
-                  of the charms which attracts all readers, is the almost infinite
-                  <div class="pagebreak" id="#page397"></div>
-                  <div class="columnbreak"></div>
-                  variety of styles in which it is written. The Harpers’ edition,
-                  however, has claims to favor irrespective of its illustrations,
-                  which would render it a cheap and valuable work, even though
-                  it did not contain a tenth part of its pictures. The type, paper and ink, the correctness of the text and notes, are the
-                  points which must give it a permanent and reliable value.
-               </p>
-            </div>
+            <p>Ocean Work, Ancient and Modern: or, Evenings on Sea and Land.
+               By J. Hall Wright, author of “ Breakfast-table Scenes.” (Science.) New York, Appleton &amp; Co.
+            </p>
             
-            
-            
-            <div>
-               <div class="head">A new Painting, by C. Deas</div>
-               
-               <p>A new Painting, by C. Deas, has lately been added to the
-                  Exhibition of the American Art-Union. It represents a party
-                  of Indians at play, and though an interesting picture, as exhibiting a trait of Indian life, it is by no means equal to the
-                  two last which were purchased by the Art-Union.
-               </p>
-            </div>
-            
-            
-            <div>
-               <div class="head">Mr. E. L. Carey.--Philadelphia and the whole circle of American artists</div>
-               
-               <p>Mr. E. L. Carey.—Philadelphia and the whole circle of
-                  American artists, have met with a great loss in the death of
-                  Mr. E. L. Carey, who had been an invalid for the last three
-                  years, but was at last suddenly snatched away from his sphere
-                  of usefulness, after an illness of only two days. Mr. Carey
-                  was the most liberal and discriminating purchaser of works of
-                  art in the country, and he had made the very best, if not the
-                  most extensive collection of the productions of modern artists,
-                  to be found in the Union. Mr. Carey was peculiarly liberal
-                  towards young artists, and gave them orders without waiting
-                  for them to become famous. The destruction of the Pennsylvania Academy of Fine Arts is a calamity, no doubt; but it is
-                  one that can be repaired ; the loss of an enlightened and liberal patron, however, is one that the world of art cannot
-                  repair. We trust, however, that Mr. Carey’s example will not 
-                  be lost on the men of wealth in Philadelphia and elsewhere.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="head">Horace Kneeland.--We are happy to learn that this deserving artist</div>
-               
-               <p>Horace Kneeland.—We are happy to learn that this deserving artist has received a very liberal order from a few gentlemen of this City, Philadelphia and Boston, for another
-                  equestrian statue of Washington, which is to be cast in bronze.
-                  The model will be made here, but it will be taken to Berlin by 
-                  Mr. Kneeland and there cast. The commission for this statue 
-                  reflects the highest credit upon Mr. Kneeland’s past works,
-                  and is an honor to the discernment and liberality of the gentle- 
-                  men who have commissioned him. It also reflects disgrace, 
-                  which the whole country should see, on the National Academy,
-                  which recently refused to confer the poor title of associate 
-                  upon Mr. K., who has, during the past four years, exhibited
-                  the first busts in the annual exhibitions of the Academy, if we 
-                  except those by Mr. Powers. But while there are so many
-                  spoilers of canvass among the academicians, it can hardly be 
-                  expected that they should admit an artist of respectable abilities
-                  among their associates. In justice to the Academy, it should
-                  be known that the best artists belonging to it were in favor of
-                  Mr. Kneeland’s election.
-               </p>
-            </div>
+            <p>This neat little book is one of the second series of “ Tales
+               for the People and their children,” and in our estimation is
+               one of the best among them. A little more science and a little less prattle would have greatly enhanced its value as a
+               book for the people, but even in its present shape it contains
+               a great amount of knowledge in a very limited space.
+            </p>
          </div>
          
          
          
-         <div>
-            <div class="head">THE CONCERT ROOM.</div>
+         <div class="section" id="#s9p5">
             
-            <div>
-               <div class="head">New York Philharmonic Society vs. the Musical Fund Society of Philadelphia</div>
-               
-               <p>New York Philharmonic Society vs. the Musical
-                  Fund Society of Philadelphia.—It seems that some person corresponding with the Mirror, from Philadelphia, takes 
-                  the opportunity of speaking of the Musical Fund in terms of
-                  high commendation, while he does considerable, although perhaps unintentional injustice to the Philharmonic Society. 
-                  This Society, although by no means a benefit society, according to its constitution, has yet taken a noble stand in the cause
-                  of humanity. We know of several instances where the funds
-                  have been judiciously applied, either to aid the sick, or to bury 
-                  the deceased brother. There is no party feeling here ; all is
-                  forgotten but the necessity of the case. A member of the N.
-                  Y. P. S., in answer to the Mirror, states that the remuneration of the members, barely amounts to one dollar for their at-
-                  <div class="columnbreak"></div> 
-                  tendence at the numerous rehearsals which occur during the
-                  season.
-               </p>
-               
-               <p>This is indeed poor pay for two or three hours’ tedious rehearsals during each week. It is indeed so poor that nothing
-                  but the right spirit of enthusiasm for their profession can induce the members to submit to such a loss.
-               </p>
-               
-               <p>For loving their art so well they should be commended and
-                  respected, but there are other points which entitle them, in
-                  our opinion, to still higher commendation and respect. Why
-                  is it that their dividend is so small—why is it that they have to
-                  work so hard for a remuneration so inadequate ? The Society is successful ! it is prosperous in the highest degree—the
-                  favorite with the profession and the public ! What then is the
-                  reason of its apparent poverty—it is that they all must willingly yield the greater portion of the results of their hard labor for
-                  the sake of a charity which is wide and embracing. Besides
-                  this, many of the members are liberal subscribers to the concerts, for their families and their friends, and in this way contribute individually to the prosperity of the society. We know
-                  some, who instead of receiving any dividend from the receipts,
-                  were by their liberal subscriptions indebted to the society.
-               </p>
-               
-               <p>The Philharmonic Society deserve more credit for their liberality, from the fact that they pretend to nothing, but do all
-                  that charity requires in a sure but secret, unostentatious manner.
-               </p>
-               
-               <p>We have long known the necessity of a fund which should
-                  be devoted to the relief of indigent or aged musicians, and we
-                  trust that at no distant period an institution so much needed
-                  and so charitable in its purposes will be established ; but in the
-                  meantime we assure our friends in Philadelphia, that the sick
-                  or the needy musician, is not entirely friendless, and cannot be,
-                  while the Philharmonic Society continues to extend its beneficial influence over the profession of New York.
-               </p>
-            </div>
+            <p>The Age of Elizabeth. By William Howitt. No. 13 of Wiley &amp;
+               Putnam’s Library of choice reading. _Wiley &amp; Putnam. Price
+               50 cents.
+            </p>
             
+            <p>The expressive title of this series of works, choice reading,
+               may be applied with as great truth to this book as to any one
+               yet issued. The “ age of Elizabeth,” contains some of the
+               best criticisms and most agreeable writing of the author.
+            </p>
+         </div>
+         
+         
+         
+         <div class="section" id="#s9p6">
             
+            <p>The Blind Girl, with Other Tales: by Emma C. Embury. New
+               York : Harper &amp; Brothers.
+            </p>
             
-            <div>
-               <div class="head">Mr. Fry, --his Critics and his Friends</div>
-               
-               <p>Mr. Fry,—his Critics and his Friends.—Our remarks
-                  upon Mr. Fry’s Leonora have called forth a lengthy reply in
-                  the Evening Express.
-               </p>
-               
-               <p>The reply is of very little moment, as nothing we have said
-                  is therein refuted ; indeed, the only attempt at refutation is in
-                  the case of Newkomn’s fine song, King Death, and in this the
-                  writer has signally failed, as we shall show. The writer of
-                  the Express first quotes our words—
-               </p>
-               
-               <p>“ Montalvo’s first song is ‘ King Death was a rare old fellow.'
-                  This song as composed by Chevalier Newkomn is universally
-                  known, and what could have induced Mr. Fry to introduce it into
-                  his Opera, unless to suggest comparison, we are at a loss to conceive. Comparisons will be drawn, and to his disadvantage, for
-                  the first phrases of his version prove, beyond a doubt, that Newkomn’s fine song was fresh in his memory, and suggested, if not
-                  supplied the thoughts.”
-               </p>
-               
-               <p>He then adds:</p>
-               
-               <p>" Now, it so happens that Mr. Fry’s version of the song has been
-                  lying for years in his repertoire, and was sung in public and in
-                  private—(just as it is bodily introduced into ‘ Leonora,’ and performed by Mr. Seguin,) when Barry Cornwall's words were new,
-                  and probably long before the Chev. Newkomn ever thought of
-                  setting.”
-               </p>
-               
-               <p>Now, we don’t pretend to doubt the truth of the assertion
-                  that Mr. Fry’s version has been lying in his repertoire for
-                  years, for the original is old enough to allow of it; we remember it some twelve or fourteen years. With regard to the “ probability” that Mr. Fry set the words before Newkomn saw
-                  them, we positively state that there is not a shadow of a possibility that such should be the case, for it is a well-known fact
-                  that Barry Cornwall, or Proctor, wrote the words one morning
-                  while Newkomn was with him, and that the Chevalier composed the music to them, as it was afterwards published, before
-                  he left the room. The two artists were on terms of the most
-                  intimate friendship, and Barry Cornwall wrote all his lyrics
-                  <div class="pagebreak" id="#page398"></div>
-                  <div class="columnbreak"></div>
-                  especially for Newkomm, because, as he said, a foreigner appreciated them, and discovered their musical adaptability, when
-                  his own countrymen passed them by unnoticed. Mr. Fry, or
-                  his friends, may still claim priority, originality, &amp;c. &amp;c., but
-                  the fact as we have stated it cannot be disputed.
-               </p>
-               
-               <p>The editor of the Express refers with excessive satisfaction
-                  to a long, tumid, fulsomely laudatory article which appeared in
-                  the Express on the 9th inst. ; and which he flatteringly denominates a criticism, comparing it triumphantly with our notice of
-                  the Opera. It will be seen by the following quotation that he
-                  considers the relative value and truth of the two articles to
-                  be determined by the corrections of our statement respecting
-                  “ King Death.”
-               </p>
-               
-               <p>“ Now, after this opera of ‘ Leonora’ had been played four times
-                  we published in this paper an extended criticism of it from the
-                  pen of one of the best and most impartial musical judges in this
-                  country. His favorable judgment of the composition and its performance have been corroborated by other writers equally unprejudiced, and equally experienced. The ‘ Broadway Journal,’
-                  on the other hand, has this elaborate condemnation of the opera;
-                  and now, who is to decide which of all these critics is right ?
-                  Which is best entitled to public confidence, as to the merits of the
-                  composition in question ? We take leave to say that the paragraph
-                  above quoted ought to settle the dispute definitely, so far as the
-                  authenticity of the Journal’s infallibility is concerned, at least."
-               </p>
-               
-               <p>We are content to leave “ the authenticity of the Journal’s
-                  infallibility,” to be decided by the truth or the contrary of our
-                  statement.	
-               </p>
-               
-               <p>Our criticism throughout was a fair and impartial one, and
-                  has placed Mr. Fry in his true position as an imitator and not
-                  a creator. His blind idolatry of the modern Italian school,
-                  has led him to think not merely similarities, but positive identities. He may believe honestly that they are original; his
-                  friends and such writers as the one in the Express, may confirm him in the belief, but we assure him and them that the
-                  whole is a delusion. Any honest and competent writer would
-                  scorn to toady the individual at the expense of the art! What
-                  man possessing any knowledge of music, or respect for truth
-                  after hearing Leonora, with its endless robberies from Bellini
-                  &amp; Co., could sit down and pen so wilful and absurd a falsehood as the following from the critique in the Express—“ As
-                  we said in a former article, he takes rank by this work with
-                  the first of living masters.” Is this writer aware of the existence of Rossini ? of Auber ? or even of those trifling writers
-                  Mendelssohn, Spohr, Beissiger, Marschner, Meyerbeer, and a
-                  hundred other writers, the least of them enjoying a sterling
-                  reputation from their published works, by far exceeding the
-                  written-up-by-my-brother’s-reputation of Mr. Fry.
-               </p>
-               
-               <p>Again, says this writer, “ He has achieved that which no
-                  man speaking the English language has yet equalled.” What
-                  bombast ! what fustian ! Handel spoke the English language
-                  fluently, Weber also, and Oberon was the result; Ferdninand
-                  Reiss too, and the Ice Witch was the consequence,—the Ice
-                  Witch was by the by, composed in six weeks, so that Reiss
-                  beat Fry by six weeks;—Jules Benedict may be said to have
-                  advanced beyond the rudiments of the English language, and
-                  his Operas of the Gipsey’s Warning, and the Bride of Venice
-                  are still extant. Then we have John Barnett, Edward Loder,
-                  Mcfarren, Balfe, and even Rooke, who speak English, though,
-                  some of them are Irish to be sure, and each of these has done
-                  more to win a lasting reputation than Mr. Fry in his Leonora
-                  gives evidence of being capable of doing. They have not
-                  before, certainly, contrived the monstrosity of a recitative
-                  Opera; but there is one man who had the audacity and the
-                  misfortune to live before Mr. Fry, we mean Dr. Arne who
-                  wrote the recitative Opera of Artaxerxes. We will not draw
-                  a comparison between the two works, lest we should be considered partial; but we doubt if Leonora will live to as good
-                  an old age as the venerable Artaxerxes.
-               </p>
+            <p>This little volume includes Constance Latimer, or The
+               Blind Girl;" “ The Son and Heir;" “ The Village Tragedy;"
+               “ Newton Ainslie;" and “ Frank Morrison.” The first was
+               originally written as a contribution to a Fair for the benefit of
+               the Institution for the Blind :—it is an exceedingly pathetic
+               tale. The others are also excellent, each in a different way.
+               Mrs. Embury is one of the very best of our female writers.
+            </p>
+         </div>
+         
+         
+         
+         <div class="section" id="#s9p7">
+            
+            <p>The Dutchman’s Fireside : a Tale, by the author of “ Letters
+               from the South,” “ John Bull in America,” “ The Backwoodsman,” &amp;c. Two volumes in one, New York; Harper &amp;
+               Brothers.
+            </p>
+            
+            <p>This is number 9 of the Harpers’ “ Pocket Edition of Select Novels.” The novel itself is too well known in America
+               to need comment. It is, perhaps, the best work of its author.
+               We particularly admire the clear print and convenient form of
+               these editions.
+            </p>
+         </div>
+         
+         
+         
+         <div class="section" id="#s9p8">
+            
+            <p>A System of Latin Versification: in a series of Progressive
+               Exercises, including specimens of Translation from English and 
+               German Poetry into Latin verse. For the use of Schools and
+               Colleges: by Charles Anthon, LL.D.. Professor of the Greek
+               languages in Columbia College, New York, etc. etc. New York : 
+               Harper &amp; Brothers.
+            </p>
+            
+            <p>A very admirable volume which we shall, of course, notice 
+               more fully hereafter.
+            </p>
+         </div>
+         
+         
+         
+         
+         <div class="section" id="#s9p9">
+            
+            <p>The Gambler's Wife. A Novel. By the Author of the “ Young
+               Prima Donna,” “The Belle of the Family,” “The Old Dower
+               House,” etc. etc. New York: Harper &amp; Brothers.
+            </p>
+            
+            <p>Number 50 of the “ Library of Select Novels.” A wellwritten and well-constructed story of profound, although
+               homely interest.
+            </p>
+         </div>
+         
+         
+         
+         <div class="section" id="#s9p10">
+            
+            <p>The Smuggler, a Tale, by G. P. R. James. No. 56 of
+               Harper's Library of Select Novels. The Mysteries of Berlin, Part 4, published by W. H. Collyer. An Encyclopaedia of Domestic Economy, Part 5 : Harper &amp; Brothers.
                <div class="columnbreak"></div>
-               
-               <p>The “ best and most impartial of musical judges,” as the
-                   writer in the Express calls the writer in the Express for we
-                  believe that both the critique and the criticism upon our criticism, own the same paternity—we had almost said fry-ternity
-                  —the “ best and most impartial of musical judges,” we say—
-                  as the Express says—must be a very ignorant pretender in
-                  the art which he professes to criticise. A more uncouth jumble of unmeaning phrases will seldom be found huddled together
-                  in one article. He has, however, found out one great, original and peculiar beauty in Leonora, for which Mr. Fry certainly owes him one; we find it described in two places, in the
-                  following words:—“ The finale follows, introduced with a short
-                  passage by the Chorus fortissimo on a high key." “ The end
-                  of the finale is in syncopated passages on high keys for the
-                  whole Chorus.” Good gracious! which are the high keys ?
-                  —and if it be not an impertinent question, did the whole of the
-                  Chorus sing in different high keys ? this is an important query,
-                  and we should be glad to send its solution to Europe, as the
-                  effect of vast bodies in high keys—the Irish already have highlowes—may become a standard of its class !!
-               </p>
-               
-               <p>There are many absurdities equally glaring, which we will
-                  reserve for a future article.
-               </p>
-            </div>
+               The Nevilles of Garrettstown, Part 4. Martin’s Bible, Part
+               5. Littell’s Living Age, No. 58, from Taylor, No. 2, Astor
+               House. Narrative of the Life of Frederick Douglas, an
+               American Slave, written by himself, from W. H. Graham, Tribune buildings.
+            </p>
+         </div>
+      </div>
+      
+      
+      
+      <div class="piece" id="#p10">
+         <div class="head">NUMBER ONE’S.</div>
+         
+         <p>We have received the first number of three new weekly
+            Magazines during the past week. Two of them sprung up in
+            Boston, and one in New-York. The most important of these
+            new comers, in appearance, and doubtless containing the largest
+            amount of vitality, is called “ The Harbinger ;” it is dedicated
+            to “ Social and Political Progress.” No editor is named, but
+            it is to be furnished with matter by Park Godwin, W. H.
+            Channing, Albert Brisbane, Osborne Macdanniel, Horace
+            Greely, George Ripley, Charles A. Dana, John S. Dwight, L.
+            W. Ryckman, John Allen, and Francis S. Shaw. Some of
+            these gentlemen we know to be matter-full men, and if they
+            lend their aid to this new magazine, it must shortly become an
+            important organ in the world of journalism. It emanates from
+            the Brook Farm Association at West Roxbury, and is, as a
+            matter of course, an advocate of Fourierism. The first number contains the beginning of George Sand’s famous story
+            “ Consuelo,” translated, we suppose, by F. S. Shaw, as the
+            copy-right is secured to him. The Harbinger is as well printed
+            as any paper of its class, but coming from an Association like
+            that at Brook Farm, we expected a greater degree of elegance
+            in its externals. Tuttle &amp; Dexter are the general agents.
+         </p>
+         
+         <p>“The Jester,” is another Boston birth; an imitation of
+            Punch, but a very slender imitation indeed. The illustrations
+            are better than the matter illustrated, an unusual case in an
+            American publication. It wants a Lemon to give it flavor.
+         </p>
+         
+         <p>“ The New-Yorker,” a semi-monthly paper of eight pages,
+            devoted to Temperance, Morality, and several other good
+            things, is published in New-York.
+         </p>
+      </div>
+      
+      
+      
+      <div class="section" id="#s11">
+         <div class="head">THE FINE ARTS.</div>
+         
+         <div class="section" id="#s11p1">
+            
+            <p>We have seen a proof impression of an engraving by Smillie
+               and Hinshelwood, intended for part five of Martin’s edition of
+               the Bible, which will reflect great credit upon the skill of the
+               artists and the liberality of the publishers. The subject is the
+               “ departure of the Israelites” from a picture by David Roberts,
+               one of the best painters of Eastern life and scenery now living. This picture has much of the grandeur of feeling peculiar to Martin's designs, and though but a few inches in size,
+               is capable of creating as sublime and lofty emotions, as though
+               it were stretched over an acre of canvass. The cheapness of
+               illustrated books is a growing marvel. This print is of a class
+               rarely sold at a price less than two dollars, yet it is here given
+               away to the purchaser of one of the parts of the superb work
+               which it is meant to illustrate.
+            </p>
+            
+            <p>We have before us, also, parts 29 and 30 of Harper's Bible,
+               which is more legitimately ornamented by wood-cuts, containing
+               an amount of pictorial illustrations, which, a few years ago, would
+               have been considered an impossibility at the price for which
+               they are now sold. The great defect of the illustrations of
+               “ Harper’s Bible,” arises from their sameness of character.
+               One author may well be illustrated by one artist; but to give
+               all the Prophets, Psalmists, and Evangelists of the Sacred
+               Book, into the hands of the same man for illustration, was a very
+               dangerous experiment. To fulfil such a task properly, as the
+               illustration of the whole Bible, requires an amount of genius
+               and learning, which no individual ever did, or ever can, possess.
+               If the Bible itself were pervaded by one tone of expression,
+               it would be the most wearisome book in existence. But one
+               of the charms which attracts all readers, is the almost infinite
+               <div class="pagebreak" id="#page397"></div>
+               <div class="columnbreak"></div>
+               variety of styles in which it is written. The Harpers’ edition,
+               however, has claims to favor irrespective of its illustrations,
+               which would render it a cheap and valuable work, even though
+               it did not contain a tenth part of its pictures. The type, paper and ink, the correctness of the text and notes, are the
+               points which must give it a permanent and reliable value.
+            </p>
          </div>
          
          
          
-         <div>
-            <div class="ab">To Correspondents.—We are greatly indebted to the author of
-               
-               <br></br>the Correspondence between a Mother and Governess—also to A.
-               
-               <br></br>M. J.—to J. T. of Jackson—to T. H. C.—and to F.W.C. of Boston.
-               
-               <br></br>We are forced to decline “ The Heart Unshared.” We are anxious
-               
-               <br></br>to hear from Ellen of N., in D.
-            </div>
+         <div class="section" id="#s11p2">
+            
+            <p>A new Painting, by C. Deas, has lately been added to the
+               Exhibition of the American Art-Union. It represents a party
+               of Indians at play, and though an interesting picture, as exhibiting a trait of Indian life, it is by no means equal to the
+               two last which were purchased by the Art-Union.
+            </p>
          </div>
          
          
+         <div class="section" id="#s11p3">
+            
+            <p>Mr. E. L. Carey.—Philadelphia and the whole circle of
+               American artists, have met with a great loss in the death of
+               Mr. E. L. Carey, who had been an invalid for the last three
+               years, but was at last suddenly snatched away from his sphere
+               of usefulness, after an illness of only two days. Mr. Carey
+               was the most liberal and discriminating purchaser of works of
+               art in the country, and he had made the very best, if not the
+               most extensive collection of the productions of modern artists,
+               to be found in the Union. Mr. Carey was peculiarly liberal
+               towards young artists, and gave them orders without waiting
+               for them to become famous. The destruction of the Pennsylvania Academy of Fine Arts is a calamity, no doubt; but it is
+               one that can be repaired ; the loss of an enlightened and liberal patron, however, is one that the world of art cannot
+               repair. We trust, however, that Mr. Carey’s example will not 
+               be lost on the men of wealth in Philadelphia and elsewhere.
+            </p>
+         </div>
+         
+         
+         
+         <div class="section" id="#s11p4">
+            
+            <p>Horace Kneeland.—We are happy to learn that this deserving artist has received a very liberal order from a few gentlemen of this City, Philadelphia and Boston, for another
+               equestrian statue of Washington, which is to be cast in bronze.
+               The model will be made here, but it will be taken to Berlin by 
+               Mr. Kneeland and there cast. The commission for this statue 
+               reflects the highest credit upon Mr. Kneeland’s past works,
+               and is an honor to the discernment and liberality of the gentle- 
+               men who have commissioned him. It also reflects disgrace, 
+               which the whole country should see, on the National Academy,
+               which recently refused to confer the poor title of associate 
+               upon Mr. K., who has, during the past four years, exhibited
+               the first busts in the annual exhibitions of the Academy, if we 
+               except those by Mr. Powers. But while there are so many
+               spoilers of canvass among the academicians, it can hardly be 
+               expected that they should admit an artist of respectable abilities
+               among their associates. In justice to the Academy, it should
+               be known that the best artists belonging to it were in favor of
+               Mr. Kneeland’s election.
+            </p>
+         </div>
+      </div>
+      
+      <div class="piece" id="#p16">
+         <div class="head">THE CONCERT ROOM.</div>
+         
+         <p>New York Philharmonic Society vs. the Musical
+            Fund Society of Philadelphia.—It seems that some person corresponding with the Mirror, from Philadelphia, takes 
+            the opportunity of speaking of the Musical Fund in terms of
+            high commendation, while he does considerable, although perhaps unintentional injustice to the Philharmonic Society. 
+            This Society, although by no means a benefit society, according to its constitution, has yet taken a noble stand in the cause
+            of humanity. We know of several instances where the funds
+            have been judiciously applied, either to aid the sick, or to bury 
+            the deceased brother. There is no party feeling here ; all is
+            forgotten but the necessity of the case. A member of the N.
+            Y. P. S., in answer to the Mirror, states that the remuneration of the members, barely amounts to one dollar for their at-
+            <div class="columnbreak"></div> 
+            tendence at the numerous rehearsals which occur during the
+            season.
+         </p>
+         
+         <p>This is indeed poor pay for two or three hours’ tedious rehearsals during each week. It is indeed so poor that nothing
+            but the right spirit of enthusiasm for their profession can induce the members to submit to such a loss.
+         </p>
+         
+         <p>For loving their art so well they should be commended and
+            respected, but there are other points which entitle them, in
+            our opinion, to still higher commendation and respect. Why
+            is it that their dividend is so small—why is it that they have to
+            work so hard for a remuneration so inadequate ? The Society is successful ! it is prosperous in the highest degree—the
+            favorite with the profession and the public ! What then is the
+            reason of its apparent poverty—it is that they all must willingly yield the greater portion of the results of their hard labor for
+            the sake of a charity which is wide and embracing. Besides
+            this, many of the members are liberal subscribers to the concerts, for their families and their friends, and in this way contribute individually to the prosperity of the society. We know
+            some, who instead of receiving any dividend from the receipts,
+            were by their liberal subscriptions indebted to the society.
+         </p>
+         
+         <p>The Philharmonic Society deserve more credit for their liberality, from the fact that they pretend to nothing, but do all
+            that charity requires in a sure but secret, unostentatious manner.
+         </p>
+         
+         <p>We have long known the necessity of a fund which should
+            be devoted to the relief of indigent or aged musicians, and we
+            trust that at no distant period an institution so much needed
+            and so charitable in its purposes will be established ; but in the
+            meantime we assure our friends in Philadelphia, that the sick
+            or the needy musician, is not entirely friendless, and cannot be,
+            while the Philharmonic Society continues to extend its beneficial influence over the profession of New York.
+         </p>
+         
+         <p>Mr. Fry,—his Critics and his Friends.—Our remarks
+            upon Mr. Fry’s Leonora have called forth a lengthy reply in
+            the Evening Express.
+         </p>
+         
+         <p>The reply is of very little moment, as nothing we have said
+            is therein refuted ; indeed, the only attempt at refutation is in
+            the case of Newkomn’s fine song, King Death, and in this the
+            writer has signally failed, as we shall show. The writer of
+            the Express first quotes our words—
+         </p>
+         
+         <p>“ Montalvo’s first song is ‘ King Death was a rare old fellow.'
+            This song as composed by Chevalier Newkomn is universally
+            known, and what could have induced Mr. Fry to introduce it into
+            his Opera, unless to suggest comparison, we are at a loss to conceive. Comparisons will be drawn, and to his disadvantage, for
+            the first phrases of his version prove, beyond a doubt, that Newkomn’s fine song was fresh in his memory, and suggested, if not
+            supplied the thoughts.”
+         </p>
+         
+         <p>He then adds:</p>
+         
+         <p>" Now, it so happens that Mr. Fry’s version of the song has been
+            lying for years in his repertoire, and was sung in public and in
+            private—(just as it is bodily introduced into ‘ Leonora,’ and performed by Mr. Seguin,) when Barry Cornwall's words were new,
+            and probably long before the Chev. Newkomn ever thought of
+            setting.”
+         </p>
+         
+         <p>Now, we don’t pretend to doubt the truth of the assertion
+            that Mr. Fry’s version has been lying in his repertoire for
+            years, for the original is old enough to allow of it; we remember it some twelve or fourteen years. With regard to the “ probability” that Mr. Fry set the words before Newkomn saw
+            them, we positively state that there is not a shadow of a possibility that such should be the case, for it is a well-known fact
+            that Barry Cornwall, or Proctor, wrote the words one morning
+            while Newkomn was with him, and that the Chevalier composed the music to them, as it was afterwards published, before
+            he left the room. The two artists were on terms of the most
+            intimate friendship, and Barry Cornwall wrote all his lyrics
+            <div class="pagebreak" id="#page398"></div>
+            <div class="columnbreak"></div>
+            especially for Newkomm, because, as he said, a foreigner appreciated them, and discovered their musical adaptability, when
+            his own countrymen passed them by unnoticed. Mr. Fry, or
+            his friends, may still claim priority, originality, &amp;c. &amp;c., but
+            the fact as we have stated it cannot be disputed.
+         </p>
+         
+         <p>The editor of the Express refers with excessive satisfaction
+            to a long, tumid, fulsomely laudatory article which appeared in
+            the Express on the 9th inst. ; and which he flatteringly denominates a criticism, comparing it triumphantly with our notice of
+            the Opera. It will be seen by the following quotation that he
+            considers the relative value and truth of the two articles to
+            be determined by the corrections of our statement respecting
+            “ King Death.”
+         </p>
+         
+         <p>“ Now, after this opera of ‘ Leonora’ had been played four times
+            we published in this paper an extended criticism of it from the
+            pen of one of the best and most impartial musical judges in this
+            country. His favorable judgment of the composition and its performance have been corroborated by other writers equally unprejudiced, and equally experienced. The ‘ Broadway Journal,’
+            on the other hand, has this elaborate condemnation of the opera;
+            and now, who is to decide which of all these critics is right ?
+            Which is best entitled to public confidence, as to the merits of the
+            composition in question ? We take leave to say that the paragraph
+            above quoted ought to settle the dispute definitely, so far as the
+            authenticity of the Journal’s infallibility is concerned, at least."
+         </p>
+         
+         <p>We are content to leave “ the authenticity of the Journal’s
+            infallibility,” to be decided by the truth or the contrary of our
+            statement.	
+         </p>
+         
+         <p>Our criticism throughout was a fair and impartial one, and
+            has placed Mr. Fry in his true position as an imitator and not
+            a creator. His blind idolatry of the modern Italian school,
+            has led him to think not merely similarities, but positive identities. He may believe honestly that they are original; his
+            friends and such writers as the one in the Express, may confirm him in the belief, but we assure him and them that the
+            whole is a delusion. Any honest and competent writer would
+            scorn to toady the individual at the expense of the art! What
+            man possessing any knowledge of music, or respect for truth
+            after hearing Leonora, with its endless robberies from Bellini
+            &amp; Co., could sit down and pen so wilful and absurd a falsehood as the following from the critique in the Express—“ As
+            we said in a former article, he takes rank by this work with
+            the first of living masters.” Is this writer aware of the existence of Rossini ? of Auber ? or even of those trifling writers
+            Mendelssohn, Spohr, Beissiger, Marschner, Meyerbeer, and a
+            hundred other writers, the least of them enjoying a sterling
+            reputation from their published works, by far exceeding the
+            written-up-by-my-brother’s-reputation of Mr. Fry.
+         </p>
+         
+         <p>Again, says this writer, “ He has achieved that which no
+            man speaking the English language has yet equalled.” What
+            bombast ! what fustian ! Handel spoke the English language
+            fluently, Weber also, and Oberon was the result; Ferdninand
+            Reiss too, and the Ice Witch was the consequence,—the Ice
+            Witch was by the by, composed in six weeks, so that Reiss
+            beat Fry by six weeks;—Jules Benedict may be said to have
+            advanced beyond the rudiments of the English language, and
+            his Operas of the Gipsey’s Warning, and the Bride of Venice
+            are still extant. Then we have John Barnett, Edward Loder,
+            Mcfarren, Balfe, and even Rooke, who speak English, though,
+            some of them are Irish to be sure, and each of these has done
+            more to win a lasting reputation than Mr. Fry in his Leonora
+            gives evidence of being capable of doing. They have not
+            before, certainly, contrived the monstrosity of a recitative
+            Opera; but there is one man who had the audacity and the
+            misfortune to live before Mr. Fry, we mean Dr. Arne who
+            wrote the recitative Opera of Artaxerxes. We will not draw
+            a comparison between the two works, lest we should be considered partial; but we doubt if Leonora will live to as good
+            an old age as the venerable Artaxerxes.
+         </p>
+         <div class="columnbreak"></div>
+         
+         <p>The “ best and most impartial of musical judges,” as the
+             writer in the Express calls the writer in the Express for we
+            believe that both the critique and the criticism upon our criticism, own the same paternity—we had almost said fry-ternity
+            —the “ best and most impartial of musical judges,” we say—
+            as the Express says—must be a very ignorant pretender in
+            the art which he professes to criticise. A more uncouth jumble of unmeaning phrases will seldom be found huddled together
+            in one article. He has, however, found out one great, original and peculiar beauty in Leonora, for which Mr. Fry certainly owes him one; we find it described in two places, in the
+            following words:—“ The finale follows, introduced with a short
+            passage by the Chorus fortissimo on a high key." “ The end
+            of the finale is in syncopated passages on high keys for the
+            whole Chorus.” Good gracious! which are the high keys ?
+            —and if it be not an impertinent question, did the whole of the
+            Chorus sing in different high keys ? this is an important query,
+            and we should be glad to send its solution to Europe, as the
+            effect of vast bodies in high keys—the Irish already have highlowes—may become a standard of its class !!
+         </p>
+         
+         <p>There are many absurdities equally glaring, which we will
+            reserve for a future article.
+         </p>
+      </div>
+      
+      
+      <div class="piece" id="#p17">
+         <div class="ab">To Correspondents.—We are greatly indebted to the author of
+            
+            <br></br>the Correspondence between a Mother and Governess—also to A.
+            
+            <br></br>M. J.—to J. T. of Jackson—to T. H. C.—and to F.W.C. of Boston.
+            
+            <br></br>We are forced to decline “ The Heart Unshared.” We are anxious
+            
+            <br></br>to hear from Ellen of N., in D.
+         </div>
+      </div>
+      
+      
+      <div class="section" id="#s14">
          
          <div>
             <div class="ab">VANDENHOFF’S ELOCUTION.
@@ -3316,34 +3282,35 @@
                <br></br>Washington-street, Boston.
             </div>
          </div>
-         
-         
-         
-         <div>
-            <div class="ab">AGENTS FOR THE BROADWAY JOURNAL.
-               
-               <br></br>Redding &amp; Co..............................Boston, Mass.
-               
-               <br></br>Colon &amp; Adriance........................Philadelphia, Pa.
-               
-               <br></br>R. G. H. Huntington,....................Hartford, Ct.
-               
-               <br></br>George Jones,...........................Albany, N.Y.
-               
-               <br></br>Thomas H Pease,.........................New-Haven, Ct.
-               
-               <br></br>L. Willard...............................Troy.
-            </div>
-         </div>
-         
-         
-         
-         <div>
-            <div class="ab"> J. R, Winser, Printer 138 Fulton-street.</div>
-         </div>
-         
-         
       </div>
+      
+      
+      
+      <div class="piece" id="#p15">
+         <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
+         
+         <div class="ab">
+            <br></br>Redding &amp; Co..............................Boston, Mass.
+            
+            <br></br>Colon &amp; Adriance........................Philadelphia, Pa.
+            
+            <br></br>R. G. H. Huntington,....................Hartford, Ct.
+            
+            <br></br>George Jones,...........................Albany, N.Y.
+            
+            <br></br>Thomas H Pease,.........................New-Haven, Ct.
+            
+            <br></br>L. Willard...............................Troy.
+         </div>
+      </div>
+      
+      
+      
+      <div>
+         <div class="ab"> J. R, Winser, Printer 138 Fulton-street.</div>
+      </div>
+      
+      
       
    </div>
    <div class="back">

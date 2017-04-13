@@ -3,9 +3,408 @@
    <head>
       <title>The Broadway Journal</title>
       <volume>1</volume>
-      <number>1</number>
-      <date>January 1, 1</date>
-      <printer/>
+      <number>4</number>
+      <date>January 25, 1845</date>
+      <editor>Charles Frederick Briggs</editor>
+      <publisher>John Bisco</publisher>
+      <printer>John Douglas</printer>
    </head>
-   <toc/>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>Hints on the Re-organization of the Navy</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>49</start>
+               <end>50</end>
+               <pages>49-50</pages>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>The Natural Boundaries of the Empires, and a New View of Colonization</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>50</start>
+               <end>52</end>
+               <pages>50-52</pages>
+               <pdf_index>2</pdf_index>
+            </p2>
+            <p3>
+               <decls_id>p3</decls_id>
+               <type>piece</type>
+               <title>St. Ignatius and His First Companions</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>52</page>
+               <pdf_index>4</pdf_index>
+            </p3>
+            <p4>
+               <decls_id>p4</decls_id>
+               <type>piece</type>
+               <title>Vestiges of the Natural History of Creation</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>52</start>
+               <end>53</end>
+               <pages>52-53</pages>
+               <pdf_index>4</pdf_index>
+            </p4>
+            <p5>
+               <decls_id>p5</decls_id>
+               <type>piece</type>
+               <title>Conversations on Some of the Old Poets</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>53</start>
+               <end>54</end>
+               <pages>53-54</pages>
+               <pdf_index>5</pdf_index>
+            </p5>
+         </pieces>
+      </s1>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>American Prose Writers, No. 3, John Waters</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>55</start>
+         <end>56</end>
+         <pages>55-56</pages>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Chronology</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>The Origin of Manhattan, Hell Gate, Etc.</title>
+               <t_type>attested</t_type>
+               <auth_id>hrschoolcraft</auth_id>
+               <auth_name>Henry Rowe Schoolcraft</auth_name>
+               <auth_stat>inferred</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>56</page>
+               <pdf_index>8</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>Singular Anecdote of a Cat</title>
+               <t_type>attested</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>56</page>
+               <pdf_index>8</pdf_index>
+            </p8>
+         </pieces>
+      </s2>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>"Mi Boy" and "The Brigadier"</title>
+         <t_type>derived</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>57</page>
+         <pdf_index>9</pdf_index>
+      </p9>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>Now is Always Best</title>
+               <t_type>attested</t_type>
+               <auth_id>jrlowell</auth_id>
+               <auth_name>James Russell Lowell</auth_name>
+               <auth_stat>attested</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>58</page>
+               <pdf_index>10</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>An Epigram, On Certain Conservatives</title>
+               <t_type>attested</t_type>
+               <auth_id>jrlowell</auth_id>
+               <auth_name>James Russell Lowell</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>58</page>
+               <pdf_index>10</pdf_index>
+            </p11>
+         </pieces>
+      </s3>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Horace Kneeland</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>58</page>
+               <pdf_index>10</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>The American Art-Union</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>58</page>
+               <pdf_index>10</pdf_index>
+            </p13>
+         </pieces>
+      </s4>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>58</start>
+         <end>59</end>
+         <pages>58-59</pages>
+         <pdf_index>10</pdf_index>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
+         <title>Operas and Concerts</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>59</start>
+         <end>60</end>
+         <pages>59-60</pages>
+         <pdf_index>11</pdf_index>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
+         <type>piece</type>
+         <title>Places Worth Visiting</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>60</page>
+         <pdf_index>12</pdf_index>
+      </p16>
+      <s5>
+         <decls_id>s5</decls_id>
+         <type>section</type>
+         <title>Illustrated Magazines</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <pieces>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>Godey's Magazine and Lady's Book</title>
+               <t_type>derived</t_type>
+               <start>60</start>
+               <end>61</end>
+               <pages>60-61</pages>
+               <pdf_index>12</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>Graham's Magazine of Literature and Art</title>
+               <t_type>derived</t_type>
+               <page>61</page>
+               <pdf_index>13</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>The Columbian Lady's and Gentleman's Magazine</title>
+               <t_type>derived</t_type>
+               <page>61</page>
+               <pdf_index>13</pdf_index>
+            </p19>
+         </pieces>
+      </s5>
+      <s6>
+         <decls_id>s6</decls_id>
+         <type>section</type>
+         <title>Literary Notices</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <pieces>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>The Life and Correspondence of Thomas Arnold</title>
+               <t_type>derived</t_type>
+               <page>61</page>
+               <pdf_index>13</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>Oneota, or the Red Race of America</title>
+               <t_type>derived</t_type>
+               <page>61</page>
+               <pdf_index>13</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>The Southern Quarterly Review</title>
+               <t_type>derived</t_type>
+               <start>61</start>
+               <end>62</end>
+               <pages>61-62</pages>
+               <pdf_index>13</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>The Waif</title>
+               <t_type>derived</t_type>
+               <page>62</page>
+               <pdf_index>14</pdf_index>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
+               <type>piece</type>
+               <title>Dunigan's Illustrated Edition of the Bible</title>
+               <t_type>derived</t_type>
+               <page>62</page>
+               <pdf_index>14</pdf_index>
+            </p24>
+         </pieces>
+      </s6>
+      <p25>
+         <decls_id>p25</decls_id>
+         <type>piece</type>
+         <title>Literary Intelligence</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>62</page>
+         <pdf_index>14</pdf_index>
+      </p25>
+      <s7>
+         <decls_id>s7</decls_id>
+         <type>section</type>
+         <title>Varieties</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>The Meanness of English Life</title>
+               <t_type>attested</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>62</page>
+               <pdf_index>14</pdf_index>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>Letter from an Anxious Father</title>
+               <t_type>attested</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>62</start>
+               <end>63</end>
+               <pages>62-63</pages>
+               <pdf_index>14</pdf_index>
+            </p27>
+         </pieces>
+      </s7>
+      <p28>
+         <decls_id>p28</decls_id>
+         <type>piece</type>
+         <title>Notice to Readers and Correspondents</title>
+         <t_type>derived</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>63</page>
+         <pdf_index>15</pdf_index>
+      </p28>
+      <s8>
+         <decls_id>s8</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <start>63</start>
+         <end>64</end>
+         <pages>63-64</pages>
+         <pdf_index>15</pdf_index>
+      </s8>
+      <p29>
+         <decls_id>p29</decls_id>
+         <type>piece</type>
+         <title>Prospectus of the Broadway Journal</title>
+         <t_type>attested</t_type>
+         <page>63</page>
+         <pdf_index>15</pdf_index>
+      </p29>
+   </toc>
 </div>
