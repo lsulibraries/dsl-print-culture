@@ -294,8 +294,31 @@ Vue.component('tei-markup',{
 	    axios.get(url).then(response => this.issueText = response.data);
 	},
 	getBibl: function(issueId, biblId){
+	    this.biblId = biblId;
+	    this.biblData = this.getTocEntry(issueId, biblId);
 	    url = '/api/broadwayjournal/'+ issueId + '/piece-text/' + biblId;
 	    axios.get(url).then(response => this.issueText = response.data);
+	},
+	getTocEntry: function(issueId, itemId){
+
+	    url = '/api/broadwayjournal/' + issueId + '/toc';
+            axios.get(url).then((response) => {
+		bibl = response.data
+		for (item in bibl.toc){
+		    if(item == itemId){
+			this.biblData = bibl.toc[item]
+			return
+		    }
+		    if(bibl.toc[item].pieces){
+			for (piece in bibl.toc[item].pieces){
+			    if(piece == itemId){
+				this.biblData = bibl.toc[item].pieces.piece
+				return
+			    }
+			}
+		    }
+		}
+	    });
 	}
     },
     mounted() {
@@ -308,10 +331,25 @@ Vue.component('tei-markup',{
 		id: '',
 		page:'',
 		markdown:[],
-		issueText: ''
+		issueText: '',
+		biblId: '',
+		biblData: {}
 	    }
 	},
-        template: `<div class='teiMarkup' v-html="this.issueText"><div>`
+    template: `
+      <div class='tei'>
+        <div v-if="this.biblData" class='citation'>
+        <div class="title">title: {{ this.biblData.title }}</div>
+	<div class="title-type">title type: {{ this.biblData.t_type }}</div>
+	<div class="author-name">author: {{ this.biblData.auth_name }}</div>
+	<div class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
+	<div class="author-status">author status: {{ this.biblData.auth_stat }}</div>
+	<div class="page" v-if="this.biblData.page">page: {{ this.biblData.page }}</div>
+	<div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
+        </div>
+	<div class='teiMarkup' v-html="this.issueText"><div>
+      </div>
+	`
 })
 
 Vue.component('issue-month',{
