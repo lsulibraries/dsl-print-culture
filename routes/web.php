@@ -18,8 +18,6 @@ Route::get('/', function () {
 
 Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@index');
 
-Route::get('/broadwayjournal/issue/{year}/{month}/{day}', 'IssuesController@show');
-
 Route::get('/broadwayjournal/issue/{year}/{month}/{day}/{format}', 'IssuesController@download');
 
 Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
