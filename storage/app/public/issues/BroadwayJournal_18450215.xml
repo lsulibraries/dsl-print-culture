@@ -2,7 +2,8 @@
    <div class="front">
       
       <div class="ab">﻿THE BROADWAY JOURNAL.
-         <br>VOL. 1. NEW YORK, SATURDAY, FEBRUARY 15, 1845. N° 7.
+         
+         <br></br>VOL. 1. NEW YORK, SATURDAY, FEBRUARY 15, 1845. N° 7.
       </div>
       
    </div>
@@ -14,10 +15,14 @@
          <div class="columnbreak"></div>
          
          <div class="cit">
-            <span class="quote">Truth, whether in or cut of fashion, is the measure of knowledge and the business of the understanding; whatsoever is beside that, however authorised by consent or recommended by variety, is nothing but ignorance, or something
-               worse.</span>
             
-            <div class="bibl"><span class="person">Locke</span></div>
+            <span class="quote">Truth, whether in or cut of fashion, is the measure of knowledge and the business of the understanding; whatsoever is beside that, however authorised by consent or recommended by variety, is nothing but ignorance, or something
+               worse.
+            </span>
+            
+            <div class="bibl">
+               <span class="person">Locke</span>
+            </div>
             
          </div>
          
@@ -191,7 +196,9 @@
                could not give.”
             </p>
             
-            <div class="byline"><span class="person">L. M. C.</span></div>
+            <div class="byline">
+               <span class="person">L. M. C.</span>
+            </div>
             
             <div class="pagebreak" id="#page98"></div>
             
@@ -202,7 +209,8 @@
             <div class="columnbreak"></div>
             
             <div class="ab">Rome ; as Seen by a New Yorker in 1843-4. New York and London.
-               <br>Wiley &amp; Putnam, 1846. 12mo. pp. 216.
+               
+               <br></br>Wiley &amp; Putnam, 1846. 12mo. pp. 216.
             </div>
             
             <p>The author of this book is William M. Gillespie, whose
@@ -426,7 +434,8 @@
          <div class="piece" id="#p3">
             
             <div class="ab">Letters from a Landscape Painter.—By the author of Essays
-               <br>for Summer Hours. Boston, James Munroe, It Co., 1845.
+               
+               <br></br>for Summer Hours. Boston, James Munroe, It Co., 1845.
             </div>
             
             <p>There are many commendable things in this little volume,
@@ -604,10 +613,14 @@
             
             
             <div class="lg">
-               <br>'I would not live alway ; I ask not to stay
-               <br>Where storm after storm rises dark o’er the way ;
-               <br>The few lurid mornings that dawn on us here,
-               <br>Are enough for life’s woes, full enough for its cheer.'
+               
+               <br></br>'I would not live alway ; I ask not to stay
+               
+               <br></br>Where storm after storm rises dark o’er the way ;
+               
+               <br></br>The few lurid mornings that dawn on us here,
+               
+               <br></br>Are enough for life’s woes, full enough for its cheer.'
                
             </div>
             
@@ -738,7 +751,8 @@
             
             <div class="head">MONSIEUR EDOUART’S SILHOUETTE ROOMS.</div>
             
-            <div class="byline">BY <span class="person">MRS. L. M. CHILD</span>.
+            <div class="byline">BY 
+               <span class="person">MRS. L. M. CHILD</span>.
             </div>
             
             <p>Among the places worth visiting, you might have enumerated the room of Monsieur Edouart, No. 285 Broadway. At
@@ -903,7 +917,9 @@
                to look into.
             </p>
             
-            <div class="byline"><span class="person">L. M. C.</span></div>
+            <div class="byline">
+               <span class="person">L. M. C.</span>
+            </div>
             
          </div>
          
@@ -1135,25 +1151,41 @@
             </div>
             
             <div class="lg">
-               <br>Thick rushing, like an ocean vast
-               <br>Of bisons the fair prairies shaking,
-               <br>The notes crowd heavily and fast
-               <br>As surfs, one plunging while the last
-               <br>Draws seaward from its foamy breaking.
-               <br>Or in low murmurs they began,
-               <br>Rising and rising momently,
-               <br>As, o’er a harp Ӕolian
-               <br>A fitful breeze, until they ran
-               <br>Up to a sudden ecstacy.
-               <br>And then, like minute-drops of rain
-               <br>Ringing in water silverly,
-               <br>They lingering dropt and dropt again,
-               <br>Till it was almost like a pain
-               <br>To listen when the next would be.
+               
+               <br></br>Thick rushing, like an ocean vast
+               
+               <br></br>Of bisons the fair prairies shaking,
+               
+               <br></br>The notes crowd heavily and fast
+               
+               <br></br>As surfs, one plunging while the last
+               
+               <br></br>Draws seaward from its foamy breaking.
+               
+               <br></br>Or in low murmurs they began,
+               
+               <br></br>Rising and rising momently,
+               
+               <br></br>As, o’er a harp Ӕolian
+               
+               <br></br>A fitful breeze, until they ran
+               
+               <br></br>Up to a sudden ecstacy.
+               
+               <br></br>And then, like minute-drops of rain
+               
+               <br></br>Ringing in water silverly,
+               
+               <br></br>They lingering dropt and dropt again,
+               
+               <br></br>Till it was almost like a pain
+               
+               <br></br>To listen when the next would be.
                
             </div>
             
-            <div class="byline"><span class="person">JAMES R. LOWELL</span>.
+            <div class="byline">
+               <span class="person">JAMES R. LOWELL</span>.
             </div>
             
          </div>
@@ -1164,68 +1196,118 @@
             
             <div class="head">THE REVELATION.</div>
             
-            <div class="byline">BY <span class="person">B. H.</span></div>
+            <div class="byline">BY 
+               <span class="person">B. H.</span>
+            </div>
             
             <div class="lg">
-               <br>Twilight over earth was stealing,
-               <br>And my spirit’s wing was furl’d,
-               <br>Musing on a dim revealing,
-               <br>Of a purer, brighter world.
                
-               <br>The old book I had been reading,
-               <br>Brimfull was of holy thought,
-               <br>Far away through darkness leading,
-               <br>With a mystic meaning fraught.
+               <br></br>Twilight over earth was stealing,
                
-               <br>Truth it seemed yet changing ever,
-               <br>Seeking what that truth might be;
-               <br>Long I strove with vain endeavor,
-               <br>To unveil its mystery.
+               <br></br>And my spirit’s wing was furl’d,
                
-               <br>Sitting by the open casement,
-               <br>With the old book in my hand,
-               <br>Outward looking—with amazement,
-               <br>There I saw a figure stand,
+               <br></br>Musing on a dim revealing,
                
-               <br>Shadowy it was and glimmered,
-               <br>Like a billow’s snowy crest,
-               <br>And the moonlight through it shimmered.
-               <br>With a beautiful un-rest.
+               <br></br>Of a purer, brighter world.
                
-               <br>Like a shining one descending,
-               <br>Struggling in the wind’s embrace,
-               <br>Seemed she now—now dimly blending;
-               <br>With the shadows in their race.
                
-               <br>Bending with a waving motion,
-               <br>She upon the yellow sand
-               <br>Drew a rainbow based on ocean ;
-               <br>Ocean without sea or land.
+               <br></br>The old book I had been reading,
                
-               <br>But the sand I saw not—only,
-               <br>On the sand the bended bow,
-               <br>And within it—dim and lonely,
-               <br>Swung a meteor—to and fro.
+               <br></br>Brimfull was of holy thought,
                
-               <br>Swinging—swinging—like a plummet,
-               <br>’Till the maiden rose and saith,
-               <br>"Lo !” and on the glowing summit,
-               <br>Wrote in golden letters FAITH.
+               <br></br>Far away through darkness leading,
                
-               <br>Then the meteor ceased its motion.
-               <br>Upward rose with deathless ray,
-               <br>And the rainbow and the ocean,
-               <br>Faded from my sight away.
+               <br></br>With a mystic meaning fraught.
                
-               <br>Then the silver maiden speaketh,
-               <br>But with voice so soft and low,
-               <br>That no word the silence breaketh,
-               <br>Though their import well I know.
                
-               <br>Thus the darkness shall be shivered—
-               <br>And the crooked be made straight.
-               <br>And thy soul shall be delivered
-               <br>If thou faithful watch and wait.
+               <br></br>Truth it seemed yet changing ever,
+               
+               <br></br>Seeking what that truth might be;
+               
+               <br></br>Long I strove with vain endeavor,
+               
+               <br></br>To unveil its mystery.
+               
+               
+               <br></br>Sitting by the open casement,
+               
+               <br></br>With the old book in my hand,
+               
+               <br></br>Outward looking—with amazement,
+               
+               <br></br>There I saw a figure stand,
+               
+               
+               <br></br>Shadowy it was and glimmered,
+               
+               <br></br>Like a billow’s snowy crest,
+               
+               <br></br>And the moonlight through it shimmered.
+               
+               <br></br>With a beautiful un-rest.
+               
+               
+               <br></br>Like a shining one descending,
+               
+               <br></br>Struggling in the wind’s embrace,
+               
+               <br></br>Seemed she now—now dimly blending;
+               
+               <br></br>With the shadows in their race.
+               
+               
+               <br></br>Bending with a waving motion,
+               
+               <br></br>She upon the yellow sand
+               
+               <br></br>Drew a rainbow based on ocean ;
+               
+               <br></br>Ocean without sea or land.
+               
+               
+               <br></br>But the sand I saw not—only,
+               
+               <br></br>On the sand the bended bow,
+               
+               <br></br>And within it—dim and lonely,
+               
+               <br></br>Swung a meteor—to and fro.
+               
+               
+               <br></br>Swinging—swinging—like a plummet,
+               
+               <br></br>’Till the maiden rose and saith,
+               
+               <br></br>"Lo !” and on the glowing summit,
+               
+               <br></br>Wrote in golden letters FAITH.
+               
+               
+               <br></br>Then the meteor ceased its motion.
+               
+               <br></br>Upward rose with deathless ray,
+               
+               <br></br>And the rainbow and the ocean,
+               
+               <br></br>Faded from my sight away.
+               
+               
+               <br></br>Then the silver maiden speaketh,
+               
+               <br></br>But with voice so soft and low,
+               
+               <br></br>That no word the silence breaketh,
+               
+               <br></br>Though their import well I know.
+               
+               
+               <br></br>Thus the darkness shall be shivered—
+               
+               <br></br>And the crooked be made straight.
+               
+               <br></br>And thy soul shall be delivered
+               
+               <br></br>If thou faithful watch and wait.
                
             </div>
             
@@ -1332,11 +1414,13 @@
          
          <div class="head">THE GREAT TOWER OF TARUDANT.</div>
          
-         <div class="byline">BY <span class="person">ROBERT OLIVER</span>.
+         <div class="byline">BY 
+            <span class="person">ROBERT OLIVER</span>.
          </div>
          
          <div class="ab">Two meanings have our lightest fantasies—
-            <br>One of the flesh, and of the Spirit one.—Lowell.
+            
+            <br></br>One of the flesh, and of the Spirit one.—Lowell.
          </div>
          
          <p>There was sorrow and lamentation in the city of Tarudant.
@@ -1818,9 +1902,12 @@
             </p>
             
             <div class="ab">Apropos des Bottes.—Speaking of letters, reminds us to remind
-               <br>our readers that the indefatigable manager of the U. S. City Despatch
-               <br>Post Office, has engaged two or three hundred extra carriers to distri-
-               <br>bute Valentines ; so that all will be delivered in time that may be
+               
+               <br></br>our readers that the indefatigable manager of the U. S. City Despatch
+               
+               <br></br>Post Office, has engaged two or three hundred extra carriers to distri-
+               
+               <br></br>bute Valentines ; so that all will be delivered in time that may be
                sent.
             </div>
             
@@ -1845,22 +1932,38 @@
             
             
             <div class="lg">
-               <br>We watched her breathing through the night,
-               <br>Her breathing soft and low.
-               <br>As in her breast the wave of life
-               <br>Kept heaving to and fro.
-               <br>So silently we seemed to speak,
-               <br>So slowly moved about,
-               <br>At we had lent her half our powers
-               <br>To eke her being out.
-               <br>Our very hope belied our fears;
-               <br>Our fears our hopes belied ;
-               <br>We thought her dying when she slept,
-               <br>And sleeping when she died.
-               <br>For when the mom came dim and sad,
-               <br>And chill with early showers,
-               <br>Her quiet eye lids closed :—the had
-               <br>Another morn than ours.
+               
+               <br></br>We watched her breathing through the night,
+               
+               <br></br>Her breathing soft and low.
+               
+               <br></br>As in her breast the wave of life
+               
+               <br></br>Kept heaving to and fro.
+               
+               <br></br>So silently we seemed to speak,
+               
+               <br></br>So slowly moved about,
+               
+               <br></br>At we had lent her half our powers
+               
+               <br></br>To eke her being out.
+               
+               <br></br>Our very hope belied our fears;
+               
+               <br></br>Our fears our hopes belied ;
+               
+               <br></br>We thought her dying when she slept,
+               
+               <br></br>And sleeping when she died.
+               
+               <br></br>For when the mom came dim and sad,
+               
+               <br></br>And chill with early showers,
+               
+               <br></br>Her quiet eye lids closed :—the had
+               
+               <br></br>Another morn than ours.
                
             </div>
             
@@ -1869,14 +1972,22 @@
             
             
             <div class="lg">
-               <br>Her sufferings ended with the day,
-               <br>Yet lived she at its close,
-               <br>And breathed the long, long night away
-               <br>In statue-like repose;
-               <br>But when the sun in all its state
-               <br>Illumed the eastern skies,
-               <br>She passed through Glory’s morning gate,
-               <br>And walked in paradise.
+               
+               <br></br>Her sufferings ended with the day,
+               
+               <br></br>Yet lived she at its close,
+               
+               <br></br>And breathed the long, long night away
+               
+               <br></br>In statue-like repose;
+               
+               <br></br>But when the sun in all its state
+               
+               <br></br>Illumed the eastern skies,
+               
+               <br></br>She passed through Glory’s morning gate,
+               
+               <br></br>And walked in paradise.
                
             </div>
             
@@ -1980,14 +2091,22 @@
          
          
          <div class="lg">
-            <br>"Old Sampson and Cӕsar—
-            <br>Each man was a sneezer—
-            <br>Tossed off, with a will, rosy wine;
-            <br>While Ovid, the scamp, he
-            <br>With Cato and Pompey,
-            <br>Drank three bottles each when they’d dine.
-            <br>So we tread in the steps of the famous in rhyme—
-            <br>The jolly old Cocks of the gone-sway time.”
+            
+            <br></br>"Old Sampson and Cӕsar—
+            
+            <br></br>Each man was a sneezer—
+            
+            <br></br>Tossed off, with a will, rosy wine;
+            
+            <br></br>While Ovid, the scamp, he
+            
+            <br></br>With Cato and Pompey,
+            
+            <br></br>Drank three bottles each when they’d dine.
+            
+            <br></br>So we tread in the steps of the famous in rhyme—
+            
+            <br></br>The jolly old Cocks of the gone-sway time.”
             
          </div>
          
@@ -2036,8 +2155,10 @@
          <div class="piece" id="#p15">
             
             <div class="ab">A Plea for Woman, being a Vindication of the importance and extent of her
-               <br>natural sphere of action. By Mrs. Hugo Reid; with an introduction by
-               <br>Mrs. C. M. Kirkland. New York: Farmer &amp; Daggers, 30 Ann street.
+               
+               <br></br>natural sphere of action. By Mrs. Hugo Reid; with an introduction by
+               
+               <br></br>Mrs. C. M. Kirkland. New York: Farmer &amp; Daggers, 30 Ann street.
             </div>
             
             <p>The introduction to this book, by the accomplished author of
@@ -2093,8 +2214,10 @@
          <div class="piece" id="#p17">
             
             <div class="ab">The Monthly Rose. Vol. I. No. 2. A periodical sustained by the present
-               <br>members of the Albany Female Academy. Albany. E. H. Pease and W. C.
-               <br>Little.
+               
+               <br></br>members of the Albany Female Academy. Albany. E. H. Pease and W. C.
+               
+               <br></br>Little.
             </div>
             
             <p>A neat little pamphlet of sixteen pages, containing some prettily
@@ -2112,9 +2235,11 @@
          <div class="piece" id="#p18">
             
             <div class="ab">Guano; its Origin, Properties, and Uses—showing its importance to the Far-
-               <br>mers of the United State, as a cheap and valuable Manure, with
+               
+               <br></br>mers of the United State, as a cheap and valuable Manure, with
                directions
-               <br>for using it. New York: Wiley and Putnam. 1844.
+               
+               <br></br>for using it. New York: Wiley and Putnam. 1844.
             </div>
             
             <p>This pamphlet contains a condensed and well arranged summary
@@ -2139,7 +2264,8 @@
          <div class="piece" id="#p19">
             
             <div class="ab">The Edinburgh Review. No. clxiii, for January, 1845. American Edition.
-               <br>Leonard Scott &amp; Co., 112 Fulton street.
+               
+               <br></br>Leonard Scott &amp; Co., 112 Fulton street.
             </div>
             
             <p>Since English Reviews must be republished in this country, our own
@@ -2292,7 +2418,8 @@
                which, although of little moment in itself, reflects upon the taste and
                ingenuity of a class of men who are supposed by the literary portion of
                the community, to have no ideas beyond those engendered and fostered by the almighty dollar.
-            </p><span class="person">S. A. W.</span>
+            </p>
+            <span class="person">S. A. W.</span>
             
             <div class="note">[We give place to the above communication with great pleasure, for
                we are happy to learn that our dealers in fancy goods are not so dependent upon the inventive genius of Frenchmen as we had supposed. If
@@ -2456,10 +2583,14 @@
             </p>
             
             <div class="ab">
-               <br>Hon. J. W. M. Berrien, Geo. Hon. John B. Dawson, La.
-               <br>Joshua Herrick, Me. John H. Lumpkin, Geo.
-               <br>James Irvin, Pa. J. Thompson, Miss.
-               <br>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.
+               
+               <br></br>Hon. J. W. M. Berrien, Geo. Hon. John B. Dawson, La.
+               
+               <br></br>Joshua Herrick, Me. John H. Lumpkin, Geo.
+               
+               <br></br>James Irvin, Pa. J. Thompson, Miss.
+               
+               <br></br>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.
             </div>
             
          </div>
@@ -2567,9 +2698,12 @@
             <div class="head">MARTIN’S SPLENDIDLY ILLUSTRATED FAMILY BIBLE.</div>
             
             <div class="ab">THE DEVOTIONAL FAMILY BIBLE,
-               <br>EACH PART EMBELLISHED WITH A SPLENDID ENGRAVING, SUCH AS USUALLY SELLS AT
-               <br>A DOLLAR EACH.
-               <br>Price only 25 Cents a Part.
+               
+               <br></br>EACH PART EMBELLISHED WITH A SPLENDID ENGRAVING, SUCH AS USUALLY SELLS AT
+               
+               <br></br>A DOLLAR EACH.
+               
+               <br></br>Price only 25 Cents a Part.
             </div>
             
             <p>THE DEVOTIONAL FAMILY BIBLE, by the REV. ALEXANDER FLETCHER, A.M., Author of the

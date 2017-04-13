@@ -2,13 +2,35 @@
    <div class="front">
       
       <div class="ab">                          THE BROADWAY JOURNAL.
-         <br/>VOL. 1.          NEW YORK, SATURDAY, FEBRUARY 1, 1845.          N° 5.
+         
+         <br></br>VOL. 1.          NEW YORK, SATURDAY, FEBRUARY 1, 1845.          N° 5.
       </div>
       
    </div>
    <div class="body"> 
       <div class="columnbreak"></div>
-             <p>        dinner-ordering cares of life, claimed one part; hearing two
+      
+      <div>
+         <div class="cit">
+            <span class="quote">Truth, whether in or out of fashion, is the measure of knowledge and the business of the understanding; whatsoever is beside that, however authorised by consent or recommended by variety, is nothing but ignorance, or something worse.</span>
+            <div class="bibl">
+               <span class="person">Locke.</span>
+            </div>
+         </div>
+      </div>
+      
+      <div class="section" id="#s1">
+         <div class="head">REVIEWS.</div>
+         
+         <div class="piece" id="#p1">
+            <p>A Course of English Reading, adapted to every taste and capacity,
+               with Anecdotes of Men of Genius.By the Rev. James Pycroft,
+               B. A., with additions by J. G. Coggswell. New York, Wiley &amp; Putnam, 1845.
+            </p>
+            
+            <p>“Miss Jane C.,”-says Mr. Pycroft, in his preface, “divided
+               her in-door hours into three parts: the house-keeping andFor
+               dinner-ordering cares of life, claimed one part; hearing two
                younger sisters say their lessons, a second part; and during
                the third, and most delightful remainder, she would lock
                herself up in her bed-room, and move on the marker of Russell’s ‘ Modern Europe,’ at the rate of never less than fifteen
@@ -114,14 +136,22 @@
             </p>
             
             <div class="ab">HISTORY,
-               <br/>  MODERN,  
-               <br/>  of Great Britain ; 
-               <br/>  of the Continent, Colonies, and
-               <br/>  of India, America;
-               <br/>  ANCIENT,
-               <br/>  of Rome; 
-               <br/>  of Greece;
-               <br/>  of the Egyptians, Persians, &amp;c.
+               
+               <br></br>  MODERN,  
+               
+               <br></br>  of Great Britain ; 
+               
+               <br></br>  of the Continent, Colonies, and
+               
+               <br></br>  of India, America;
+               
+               <br></br>  ANCIENT,
+               
+               <br></br>  of Rome; 
+               
+               <br></br>  of Greece;
+               
+               <br></br>  of the Egyptians, Persians, &amp;c.
             </div>
             
             <p> "Divide and conquer, that is, choose one department and master it,
@@ -416,10 +446,14 @@
             <p>“Let him be made an example of, by all means,” returned the lady. “Last winter, when I introduced pinking and eyelet-holeing
                among the men and boys in the village, as a nice evening employment, and had the lines,
                
-               <div class="lg"><br/>Oh let us love our occupations,
-                  <br/>Bless the squire and his relations,
-                  <br/>Live upon our daily rations,
-                  <br/>And always know our proper stations,
+               <div class="lg">
+                  <br></br>Oh let us love our occupations,
+                  
+                  <br></br>Bless the squire and his relations,
+                  
+                  <br></br>Live upon our daily rations,
+                  
+                  <br></br>And always know our proper stations,
                </div>
                set to music on the new system, for them to sing the while: this very
                Fern—I see him now—touched that hat of his, and said,  'I humbly
@@ -576,16 +610,26 @@
                their political institutions.
             </p>
             
-            <div class="lg"><br/>" 'The shuddering tenant of the Frigid Zone
-               <br/>Boldly proclaims the happiest spot his own;
-               <br/>Extols the treasures of his stormy seas,
-               <br/>And his long nights of revelry and ease.
-               <br/>The naked Negro, panting at the Line,
-               <br/>Boasts of his golden sands and palmy wine;
-               <br/>Banks in the glare, or stems the tepid wave,
-               <br/>And thanks his gods for all the wealth they gave.
-               <br/>Such is the patriot’s boast, where’er he roam,
-               <br/>His first, best country', ever is, at home.’
+            <div class="lg">
+               <br></br>" 'The shuddering tenant of the Frigid Zone
+               
+               <br></br>Boldly proclaims the happiest spot his own;
+               
+               <br></br>Extols the treasures of his stormy seas,
+               
+               <br></br>And his long nights of revelry and ease.
+               
+               <br></br>The naked Negro, panting at the Line,
+               
+               <br></br>Boasts of his golden sands and palmy wine;
+               
+               <br></br>Banks in the glare, or stems the tepid wave,
+               
+               <br></br>And thanks his gods for all the wealth they gave.
+               
+               <br></br>Such is the patriot’s boast, where’er he roam,
+               
+               <br></br>His first, best country', ever is, at home.’
             </div>
             
             <p>“This circumstance contributes much to the comfort and happiness
@@ -681,7 +725,7 @@
                him, because he would not spend more money, that they rose in rebellion, effected a revolution, and cruelly put him to death.”
             </p>
          </div>
-      
+      </div>
       
       
       <div class="piece" id="#p4">
@@ -1014,7 +1058,11 @@
             and a more available subject for relief in this, than in the famous Railway Disaster with locked doors. A similar fatal
             occurrence in France, vividly related by Froissart, took place
             in a species of mummery and masking, at the Court of
-            Charles VI. <span class="anchor" id="a001"><a href="#n001"> Link </a></span></p>
+            Charles VI. 
+            <span class="anchor" id="a001">
+               <a href="#n001"> Link </a>
+            </span>
+         </p>
          
          
          <div class="columnbreak"></div>
@@ -1261,49 +1309,90 @@
                (TRANSLATED FROM THE GERMAN OF LUDWIG UHLER.)
             </div>
             
-            <div class="byline">BY <span class="person">MARIA LOWELL</span>.
+            <div class="byline">BY 
+               <span class="person">MARIA LOWELL</span>.
             </div>
             
-            <div class="lg"><br/>There rode upon a morning
-               <br/>A knight across the lea,
-               <br/>Of his lady many a warning
-               <br/>And anxious thought had he.
-               <br/>"My little trusty ring of gold
-               <br/>From care can set me free;
-               <br/>In thee my loved one’s pledge I hold;
-               <br/>How stands her constancy?”
-               <br/>Now while he looks upon the ring,
-               <br/>It flies from off his hand,
-               <br/>It rolls and bounds with many a spring
-               <br/>Across the meadow land.
-               <br/>Across the meadow would he skim
-               <br/>To catch it as it flew,
-               <br/>But golden blossoms dazzle him,
-               <br/>And grass bedropped with dew.
-               <br/>The ring a falcon spieth
-               <br/>From off a linden tree;
-               <br/>And downward swiftly flieth,
-               <br/>The ring on high lifts he.
-               <br/>On mighty plumes his way doth take
-               <br/>In the free air to swing,
-               <br/>His brothers follow in his wake
-               <br/>To seize the little ring.
-               <br/>But none can win the little ring,
-               <br/>It drops adown the sky,
-               <br/>The knight he watch’t it falling
-               <br/>On the deep sea silently.
-               <br/>The fish are gaily dancing
-               <br/>To seize the golden prize,
-               <br/>But down the ring is glancing,
-               <br/>Beyond the reach of eyes.
-               <br/>“Oh little ring, in meadows fair
-               <br/>The flowers drew thee aside,
-               <br/>Oh little ring, in the blue air
-               <br/>The birds behind thee glide.
-               <br/>“Oh little ring, from ocean’s spring
-               <br/>Thou draw’st the fish above,
-               <br/>I fear thou tellest, little ring,
-               <br/>Strange news of her I love!”
+            <div class="lg">
+               <br></br>There rode upon a morning
+               
+               <br></br>A knight across the lea,
+               
+               <br></br>Of his lady many a warning
+               
+               <br></br>And anxious thought had he.
+               
+               <br></br>"My little trusty ring of gold
+               
+               <br></br>From care can set me free;
+               
+               <br></br>In thee my loved one’s pledge I hold;
+               
+               <br></br>How stands her constancy?”
+               
+               <br></br>Now while he looks upon the ring,
+               
+               <br></br>It flies from off his hand,
+               
+               <br></br>It rolls and bounds with many a spring
+               
+               <br></br>Across the meadow land.
+               
+               <br></br>Across the meadow would he skim
+               
+               <br></br>To catch it as it flew,
+               
+               <br></br>But golden blossoms dazzle him,
+               
+               <br></br>And grass bedropped with dew.
+               
+               <br></br>The ring a falcon spieth
+               
+               <br></br>From off a linden tree;
+               
+               <br></br>And downward swiftly flieth,
+               
+               <br></br>The ring on high lifts he.
+               
+               <br></br>On mighty plumes his way doth take
+               
+               <br></br>In the free air to swing,
+               
+               <br></br>His brothers follow in his wake
+               
+               <br></br>To seize the little ring.
+               
+               <br></br>But none can win the little ring,
+               
+               <br></br>It drops adown the sky,
+               
+               <br></br>The knight he watch’t it falling
+               
+               <br></br>On the deep sea silently.
+               
+               <br></br>The fish are gaily dancing
+               
+               <br></br>To seize the golden prize,
+               
+               <br></br>But down the ring is glancing,
+               
+               <br></br>Beyond the reach of eyes.
+               
+               <br></br>“Oh little ring, in meadows fair
+               
+               <br></br>The flowers drew thee aside,
+               
+               <br></br>Oh little ring, in the blue air
+               
+               <br></br>The birds behind thee glide.
+               
+               <br></br>“Oh little ring, from ocean’s spring
+               
+               <br></br>Thou draw’st the fish above,
+               
+               <br></br>I fear thou tellest, little ring,
+               
+               <br></br>Strange news of her I love!”
             </div>
          </div>
       </div>
@@ -1451,7 +1540,8 @@
             <div class="head">LETTER FROM DR. A. SIDNEY DOANE.</div>
             
             <div class="ab">New York, Jan. 23, 1845.
-               <br/>To the Editor of the Broadway Journal.
+               
+               <br></br>To the Editor of the Broadway Journal.
             </div>
             
             <p>Sir,—On the 16th of January I was requested by my friend
@@ -1546,8 +1636,10 @@
             </p>
             
             <div class="ab">Respectfully yours,
-               <br/>32 Warren Street.
-            </div><span class="person">A. SIDNEY DOANE</span>, A.M., M.D.
+               
+               <br></br>32 Warren Street.
+            </div>
+            <span class="person">A. SIDNEY DOANE</span>, A.M., M.D.
          </div>
          
          <div class="piece" id="#p11">
@@ -1622,7 +1714,8 @@
                zeal which they have shown in their interest for the German
                National Monument—the Mozart-Stiftung.
             </p>
-            <div class="byline"><span class="person">Charles Perabeau</span>.
+            <div class="byline">
+               <span class="person">Charles Perabeau</span>.
             </div>
          </div>
          
@@ -2128,6 +2221,7 @@
             send you, to satisfy you of the enormity of his offence. What makes
             it more singular, is the fact, that none of us ever laugh at his puns, although he always laughs himself. Your friend,
          </p>
+         
          <span class="person">Mary Ann P.</span>
          
          <div class="note">P.S. We have lost three silver mugs lately; do you think that the
@@ -2138,45 +2232,83 @@
       <div class="piece" id="#p35">
          <div class="head">A PAINTER’S SKETCH.</div>
          
-         <div class="lg"><br/>In search of brighter clime or sky
-            <br/>Still let the restless wanderer roam,
-            <br/>No fairer meets the painter’s eye
-            <br/>Than mantles o’er our English home.
-            <br/>Green are our woods, and sweeter stream!
-            <br/>Ne’er onward rolled in brighter beams.
-            <br/>More varied scenes what land can boast,
-            <br/>From castled craig to mountain vale?
-            <br/>Field, forest, sea-encircled coast,
-            <br/>The pencil charm: the pictured tale
-            <br/>Of sun and shade, of shifting skies,
-            <br/>No fairer clime than ours supplies.
-            <br/>Dear is the woodland cot, where trees,
-            <br/>Low bending o’er the rushy brook,
-            <br/>Fling their wild branches to the breeze,
-            <br/>Around the hereditary nook;
-            <br/>While chequered sunbeams trembling throw
-            <br/>Above the thatch, a golden glow.
-            <br/>If to thine eye be dearer still
-            <br/>The riven craig or crumbling wall.
-            <br/>The leaping foam from mountain rill,
-            <br/>Or deepest glen or loftiest fall,
-            <br/>Or hoary castle, dim and gray,
-            <br/>That mournful mocks the eye of day;
-            <br/>Turn to the wilds in northern land,
-            <br/>Whose circling mountains shroud the sky—
-            <br/>From snowy wreath and icy band,
-            <br/>Mysterious grandeur frowns on high—
-            <br/>Ben Nevis hoarsely shouts aloud,
-            <br/>And Lomond answers from its cloud.
-            <br/>Fill from the farthest spring of Thames,
-            <br/>And pledge Old England’s wide domain;
-            <br/>Fill to the high and honoured names
-            <br/>Which Genius hallows—not in vain—
-            <br/>Since bounding hearts in worship burn,
-            <br/>Before each consecrated urn.
+         <div class="lg">
+            <br></br>In search of brighter clime or sky
+            
+            <br></br>Still let the restless wanderer roam,
+            
+            <br></br>No fairer meets the painter’s eye
+            
+            <br></br>Than mantles o’er our English home.
+            
+            <br></br>Green are our woods, and sweeter stream!
+            
+            <br></br>Ne’er onward rolled in brighter beams.
+            
+            <br></br>More varied scenes what land can boast,
+            
+            <br></br>From castled craig to mountain vale?
+            
+            <br></br>Field, forest, sea-encircled coast,
+            
+            <br></br>The pencil charm: the pictured tale
+            
+            <br></br>Of sun and shade, of shifting skies,
+            
+            <br></br>No fairer clime than ours supplies.
+            
+            <br></br>Dear is the woodland cot, where trees,
+            
+            <br></br>Low bending o’er the rushy brook,
+            
+            <br></br>Fling their wild branches to the breeze,
+            
+            <br></br>Around the hereditary nook;
+            
+            <br></br>While chequered sunbeams trembling throw
+            
+            <br></br>Above the thatch, a golden glow.
+            
+            <br></br>If to thine eye be dearer still
+            
+            <br></br>The riven craig or crumbling wall.
+            
+            <br></br>The leaping foam from mountain rill,
+            
+            <br></br>Or deepest glen or loftiest fall,
+            
+            <br></br>Or hoary castle, dim and gray,
+            
+            <br></br>That mournful mocks the eye of day;
+            
+            <br></br>Turn to the wilds in northern land,
+            
+            <br></br>Whose circling mountains shroud the sky—
+            
+            <br></br>From snowy wreath and icy band,
+            
+            <br></br>Mysterious grandeur frowns on high—
+            
+            <br></br>Ben Nevis hoarsely shouts aloud,
+            
+            <br></br>And Lomond answers from its cloud.
+            
+            <br></br>Fill from the farthest spring of Thames,
+            
+            <br></br>And pledge Old England’s wide domain;
+            
+            <br></br>Fill to the high and honoured names
+            
+            <br></br>Which Genius hallows—not in vain—
+            
+            <br></br>Since bounding hearts in worship burn,
+            
+            <br></br>Before each consecrated urn.
          </div>
          
-         <div class="byline"><span class="person">W. H. CROME.</span></div>
+         <div class="byline">
+            <span class="person">W. H. CROME.</span>
+         </div>
       </div>
       
       <div class="piece" id="#p36">
@@ -2264,9 +2396,12 @@
             <div class="head">LEWIS EATEN, SIGN AND ORNAMENTAL PAINTER,</div>
             
             <div class="ab">NO. 45 WILLIAM STREET,
-               <br/>(basement of the leather manufacturers’ bank.)
-               <br/>Block Letter Signs, Transparencies, Banners, &amp;c., Executed in the
-               <br/>neatest manner.
+               
+               <br></br>(basement of the leather manufacturers’ bank.)
+               
+               <br></br>Block Letter Signs, Transparencies, Banners, &amp;c., Executed in the
+               
+               <br></br>neatest manner.
             </div>
          </div>
          	
@@ -2330,8 +2465,10 @@
             </p>
             
             <div class="ab">   Hon. J. W. M. Berrien, Geo.                Hon. John B. Dawson, La,
-               <br/>Joshua Herrick, Me.	                      John H. Lumpkin, Geo.
-               <br/>James Irvin, Pa.	                          J. Thompson, Miss.
+               
+               <br></br>Joshua Herrick, Me.	                      John H. Lumpkin, Geo.
+               
+               <br></br>James Irvin, Pa.	                          J. Thompson, Miss.
             </div>
             
             <div class="ab">Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.</div>
@@ -2358,72 +2495,138 @@
             
             <div class="ab">CONTENTS OF THE VOLUME.</div>
             
-            <div class="ab"><br/>Art. I. Notes on the Semi-civilized Nations of Mexico, Yucatan, and
-               <br/>Central America. By Albert Gallatin.
-               <br/>Sec. 1st. Languages.—Vocabularies, grammar, derived and com-
-               <br/>pounded words.
-               <br/>2d. Numeration.—Vigintesimal.
-               <br/>3d. Calendars and Astronomv.—Mexico, Yucatan, Chiapas.
-               <br/>—Extent of Astronomical knowledge.
-               <br/>4th. History and Chronology.—Paintings designating years;
-               <br/>only four known—Tradition; early writers discussed—
-               <br/>Uncertainty of dates and events. 
-               <br/>5th. Conjectures on origin of semi-civilization in Ameri-
-               <br/>ca.—America inhabited at a very early dale.—Astrono-
-               <br/>my.—Agriculture.—Extinct race.
-               <br/>No. 1. Appendix.—Grammatical notices.—Mexican, Tarasca,
-               <br/>Ottomi, Maya, Guatemala, Huestaca.
-               <br/>No. 2. " Notes on Lord Kingsborough’s collection.
-               <br/>—All paintings, but one, Mexican.—All but four relate to
-               <br/>Mythology and Judicial Astrology.—Codices Borgianus
-               <br/>and Vaticanus.
-               <br/>Art. II. An Essay on the Grave-Creek Mound in the Ohio Valley—
-               <br/>By Henry R. Schoolcraft, embracing:
-               <br/>1st. A description of the Tumulus, its dimensions and mode of
-               <br/>structure.
-               <br/>2d. An accurate drawing and description of the Inscription found
-               <br/>in one of the vaults.
-               <br/>3d. Other antiquarian articles disclosed by the opening of that
-               <br/>mound, or found in other parts of the Grave-Creek Valley
-               <br/>and its neighborhood.
-               <br/>4th. Conjectures upon the character of the Alphabet, and the
-               <br/>probable era of the Inscription, &amp;c. The whole illustrated
-               <br/>with carefully executed plates.
-               <br/>Art. III. A Dissertation on some curious evidences of an Era of An-
-               <br/>cient Semi-civilization in the West, noticed in the progress
-               <br/>of settlements in the Mississippi Valley and the Lakes. By
-               <br/>Henry R. Schoolcraft.
-               <br/>Description of some extensive Horticultural Beds and Furrows,
-               <br/>found in the prairies and forests of the Lake Region, about
-               <br/>the latitude of the sources of the Illinois and St. Joseph’s,
-               <br/>with an engraving.
-               <br/>Art. IV. An account of Ancient Remains in Tennessee. By Gerard
-               <br/>Troost, M. D.. Prof, of Chemistry, Geology, &amp;c. in the
-               <br/>University of Tennessee.
-               <br/>1.	The Mummies found in the Saltpetre Caves, with conjectures
-               <br/>as to their antiquity.
-               <br/>2.	The ancient Burial Places.
-               <br/>3.	Traces of Phallic Worship among a people once occupying that
-               <br/>section of country.
-               <br/>Art. V. On the recent discoveries of Himyaritic Inscriptions, and the
-               <br/>attempt made to decipher them. By Wm. W. Turner.
-               <br/>Kingdom of the Himyarites.—Discovery of Inscriptions.
-               <br/>Himyaritic Alphabet.—Alphabets found in Manuscripts—
-               <br/>Alphabets from the Inscriptions.—Ethiopic Alphabets.
-               <br/>Himyaritic Language.—Ehkili Language.—General results.
-               <br/>Art. VI. A visit to the Lybio-Phanician Monument at Dugga, near
-               <br/>the site of ancient Carthage. By Frederic Catherwood.
-               <br/>With an account of the inscription; and a view and ground
-               <br/>plan of this ancient and interesting monument.
-               <br/>Art. VII. An Account of the Serreculies, or Serranalies, with hints re-
-               <br/>specting several other tribes or families of people composing
-               <br/>the Fullah nation, and those inhabiting the neighboring
-               <br/>Counties of Western Nigritia. By Theodore Dwight, Jr.
-               <br/>1.	The statements of authors respecting the Serreculies.
-               <br/>2.	The Geography, History, Learning, Arts, &amp;c., of the Serrecu-
-               <br/>lies.
-               <br/>3.	Their Language.
-               <br/>4.	Remarks on Neighboring Nations and Tribes.
+            <div class="ab">
+               <br></br>Art. I. Notes on the Semi-civilized Nations of Mexico, Yucatan, and
+               
+               <br></br>Central America. By Albert Gallatin.
+               
+               <br></br>Sec. 1st. Languages.—Vocabularies, grammar, derived and com-
+               
+               <br></br>pounded words.
+               
+               <br></br>2d. Numeration.—Vigintesimal.
+               
+               <br></br>3d. Calendars and Astronomv.—Mexico, Yucatan, Chiapas.
+               
+               <br></br>—Extent of Astronomical knowledge.
+               
+               <br></br>4th. History and Chronology.—Paintings designating years;
+               
+               <br></br>only four known—Tradition; early writers discussed—
+               
+               <br></br>Uncertainty of dates and events. 
+               
+               <br></br>5th. Conjectures on origin of semi-civilization in Ameri-
+               
+               <br></br>ca.—America inhabited at a very early dale.—Astrono-
+               
+               <br></br>my.—Agriculture.—Extinct race.
+               
+               <br></br>No. 1. Appendix.—Grammatical notices.—Mexican, Tarasca,
+               
+               <br></br>Ottomi, Maya, Guatemala, Huestaca.
+               
+               <br></br>No. 2. " Notes on Lord Kingsborough’s collection.
+               
+               <br></br>—All paintings, but one, Mexican.—All but four relate to
+               
+               <br></br>Mythology and Judicial Astrology.—Codices Borgianus
+               
+               <br></br>and Vaticanus.
+               
+               <br></br>Art. II. An Essay on the Grave-Creek Mound in the Ohio Valley—
+               
+               <br></br>By Henry R. Schoolcraft, embracing:
+               
+               <br></br>1st. A description of the Tumulus, its dimensions and mode of
+               
+               <br></br>structure.
+               
+               <br></br>2d. An accurate drawing and description of the Inscription found
+               
+               <br></br>in one of the vaults.
+               
+               <br></br>3d. Other antiquarian articles disclosed by the opening of that
+               
+               <br></br>mound, or found in other parts of the Grave-Creek Valley
+               
+               <br></br>and its neighborhood.
+               
+               <br></br>4th. Conjectures upon the character of the Alphabet, and the
+               
+               <br></br>probable era of the Inscription, &amp;c. The whole illustrated
+               
+               <br></br>with carefully executed plates.
+               
+               <br></br>Art. III. A Dissertation on some curious evidences of an Era of An-
+               
+               <br></br>cient Semi-civilization in the West, noticed in the progress
+               
+               <br></br>of settlements in the Mississippi Valley and the Lakes. By
+               
+               <br></br>Henry R. Schoolcraft.
+               
+               <br></br>Description of some extensive Horticultural Beds and Furrows,
+               
+               <br></br>found in the prairies and forests of the Lake Region, about
+               
+               <br></br>the latitude of the sources of the Illinois and St. Joseph’s,
+               
+               <br></br>with an engraving.
+               
+               <br></br>Art. IV. An account of Ancient Remains in Tennessee. By Gerard
+               
+               <br></br>Troost, M. D.. Prof, of Chemistry, Geology, &amp;c. in the
+               
+               <br></br>University of Tennessee.
+               
+               <br></br>1.	The Mummies found in the Saltpetre Caves, with conjectures
+               
+               <br></br>as to their antiquity.
+               
+               <br></br>2.	The ancient Burial Places.
+               
+               <br></br>3.	Traces of Phallic Worship among a people once occupying that
+               
+               <br></br>section of country.
+               
+               <br></br>Art. V. On the recent discoveries of Himyaritic Inscriptions, and the
+               
+               <br></br>attempt made to decipher them. By Wm. W. Turner.
+               
+               <br></br>Kingdom of the Himyarites.—Discovery of Inscriptions.
+               
+               <br></br>Himyaritic Alphabet.—Alphabets found in Manuscripts—
+               
+               <br></br>Alphabets from the Inscriptions.—Ethiopic Alphabets.
+               
+               <br></br>Himyaritic Language.—Ehkili Language.—General results.
+               
+               <br></br>Art. VI. A visit to the Lybio-Phanician Monument at Dugga, near
+               
+               <br></br>the site of ancient Carthage. By Frederic Catherwood.
+               
+               <br></br>With an account of the inscription; and a view and ground
+               
+               <br></br>plan of this ancient and interesting monument.
+               
+               <br></br>Art. VII. An Account of the Serreculies, or Serranalies, with hints re-
+               
+               <br></br>specting several other tribes or families of people composing
+               
+               <br></br>the Fullah nation, and those inhabiting the neighboring
+               
+               <br></br>Counties of Western Nigritia. By Theodore Dwight, Jr.
+               
+               <br></br>1.	The statements of authors respecting the Serreculies.
+               
+               <br></br>2.	The Geography, History, Learning, Arts, &amp;c., of the Serrecu-
+               
+               <br></br>lies.
+               
+               <br></br>3.	Their Language.
+               
+               <br></br>4.	Remarks on Neighboring Nations and Tribes.
             </div>
             
             <p>Subscriptions received by BARTLETT &amp; WELFORD, Booksellers
@@ -2509,7 +2712,8 @@
          
          <div> 
             <div class="ab">CHARLES PERABEAU, Professor of Music,
-               <br/>No. 9 Whitehall Street, Nac York.
+               
+               <br></br>No. 9 Whitehall Street, Nac York.
             </div>
          </div>
       </div>
@@ -2544,10 +2748,14 @@
          </p>
          
          <div class="ab">Terms $3,00 per annum—Single numbers 6 1-4 cts.
-            <br/>A liberal discount to Periodical Agents.
-            <br/>All Communications for the Editor must be addressed to the Editor
-            <br/>of the Broadway Journal, and all letters on business to
-            <br/>JOHN BISCO, Publisher, 153 Broadway.
+            
+            <br></br>A liberal discount to Periodical Agents.
+            
+            <br></br>All Communications for the Editor must be addressed to the Editor
+            
+            <br></br>of the Broadway Journal, and all letters on business to
+            
+            <br></br>JOHN BISCO, Publisher, 153 Broadway.
          </div>
       </div>
       
@@ -2555,9 +2763,11 @@
          <div class="ab">John Douglas, Printer, 68 Ann Street.</div>
       </div>
       
-   
+   </div>
    <div class="back">
-      <a href="#a001"> Link </a><div class="note" id="n001">
+      
+      <a href="#a001"> Link </a>
+      <div class="note" id="n001">
          <p>The narrative is a very curious one, and brings before us “the form and
             pressure” of the period, with all the natural incidents of such an event. It
             may serve, while it fixes the reader’s attention profitably upon this class of

@@ -43,7 +43,8 @@
          <p>The editorial conduct of “ The Broadway Journal” is under the sole charge of Edgar A. Poe—Mr. H. C. Watson,
             as heretofore, controlling the Musical Department.
          </p>
-         <div class="byline"><span class="person">John Bisco</span>,
+         <div class="byline">
+            <span class="person">John Bisco</span>,
             Publisher.
          </div>
       </div>
@@ -264,7 +265,8 @@
             of the gay. And the flames of the tripods expired. And
             Darkness and Decay and the Red Death held illimitable dominion over all.
          </p>
-         <div class="byline"><span class="person">EDGAR A. POE</span>.
+         <div class="byline">
+            <span class="person">EDGAR A. POE</span>.
          </div>
       </div>
       
@@ -272,36 +274,65 @@
          <div class="head">IMAGINATION.
             
          </div>
-         <div class="lg"><br>An arch immeasurably tower’d
-            <br>Where Aiden’s glories spring,
-            <br>And through the opened diamond valves
-            <br>Majestically strode the King.
-            <br>Truth, with a crown of stars
-            <br>On a large brow free from stain,
-            <br>While all her motions music made,
-            <br>Held up his royal train:
-            <br>Flowers of a rare undying hue
-            <br>Sprang round the glowing arch,
-            <br>And tones, that float like a seraph’s note,
-            <br>Rolled out a solemn march.
-            <br>'T was when the Deity appeared
-            <br>Beneath the portal's flame,
-            <br>He felt his might, and in the light
-            <br>Creator then became.
-            <br>His kindled mind conceived a sun,
-            <br>And out the great fire burst
-            <br>From Chaos that fell shuddering back
-            <br>Like a fiend accursed :
-            <br>And still the God-head wrought,
-            <br>Wrought still the poet-power,
-            <br>While Time was spending on the earth
-            <br>His primal hour.
-            <br>The labor yet went on
-            <br>Where Chaos heard the curse,
-            <br>Nor ceased till in a sea of space 
-            <br>Floated a universe.
+         <div class="lg">
+            <br></br>An arch immeasurably tower’d
+            
+            <br></br>Where Aiden’s glories spring,
+            
+            <br></br>And through the opened diamond valves
+            
+            <br></br>Majestically strode the King.
+            
+            <br></br>Truth, with a crown of stars
+            
+            <br></br>On a large brow free from stain,
+            
+            <br></br>While all her motions music made,
+            
+            <br></br>Held up his royal train:
+            
+            <br></br>Flowers of a rare undying hue
+            
+            <br></br>Sprang round the glowing arch,
+            
+            <br></br>And tones, that float like a seraph’s note,
+            
+            <br></br>Rolled out a solemn march.
+            
+            <br></br>'T was when the Deity appeared
+            
+            <br></br>Beneath the portal's flame,
+            
+            <br></br>He felt his might, and in the light
+            
+            <br></br>Creator then became.
+            
+            <br></br>His kindled mind conceived a sun,
+            
+            <br></br>And out the great fire burst
+            
+            <br></br>From Chaos that fell shuddering back
+            
+            <br></br>Like a fiend accursed :
+            
+            <br></br>And still the God-head wrought,
+            
+            <br></br>Wrought still the poet-power,
+            
+            <br></br>While Time was spending on the earth
+            
+            <br></br>His primal hour.
+            
+            <br></br>The labor yet went on
+            
+            <br></br>Where Chaos heard the curse,
+            
+            <br></br>Nor ceased till in a sea of space 
+            
+            <br></br>Floated a universe.
          </div>	
-         <div class="byline"><span class="person">WM. WALLACE</span>.
+         <div class="byline">
+            <span class="person">WM. WALLACE</span>.
          </div>
       </div>
       
@@ -578,23 +609,38 @@
       <div>
          <div class="head">SONNET TO ZANTE.</div>
          
-         <div class="lg"><br>Fair isle, that, from the fairest of all flowers,
-            <br>Thy gentlest of all gentle names dost take !
-            <br>How many memories of what radiant hours
-            <br>At sight of thee and thine at once awake !
-            <br>How many scenes of what departed bliss!
-            <br>How many thoughts of what entombed hopes!
-            <br>How many visions of a maiden that is
-            <br>No more—uo more upon thy verdant slopes!
-            <br>No more ! alus that magical sad sound
-            <br>Transforming all! Thy charms shall please no more—
-            <br>Thy memory no more! Accursed ground
-            <br>Henceforth I bold thy flowcr-enamelled shore,
-            <br>O hyacinthine isle ! O purple Zante !
-            <br>“ Isola d'oro! Fior di Levante !"
+         <div class="lg">
+            <br></br>Fair isle, that, from the fairest of all flowers,
+            
+            <br></br>Thy gentlest of all gentle names dost take !
+            
+            <br></br>How many memories of what radiant hours
+            
+            <br></br>At sight of thee and thine at once awake !
+            
+            <br></br>How many scenes of what departed bliss!
+            
+            <br></br>How many thoughts of what entombed hopes!
+            
+            <br></br>How many visions of a maiden that is
+            
+            <br></br>No more—uo more upon thy verdant slopes!
+            
+            <br></br>No more ! alus that magical sad sound
+            
+            <br></br>Transforming all! Thy charms shall please no more—
+            
+            <br></br>Thy memory no more! Accursed ground
+            
+            <br></br>Henceforth I bold thy flowcr-enamelled shore,
+            
+            <br></br>O hyacinthine isle ! O purple Zante !
+            
+            <br></br>“ Isola d'oro! Fior di Levante !"
             
          </div>
-         <div class="byline"><span class="person">EDGAR A. POE</span>.
+         <div class="byline">
+            <span class="person">EDGAR A. POE</span>.
          </div>
       </div>
       <div class="columnbreak"></div>
@@ -925,7 +971,8 @@
             to write out this imaginary conversation, which I have just
             now finished.
          </p>	
-         <div class="byline"><span class="person">FAY. ROBINSON</span>.
+         <div class="byline">
+            <span class="person">FAY. ROBINSON</span>.
          </div>
       </div>
       
@@ -967,32 +1014,56 @@
             <div class="ab">is a less easy and natural transition.</div>
             
             <div class="ab">“ Captain Sword and Captain Pen” is very much to the
-               <br>purpose.
+               
+               <br></br>purpose.
             </div>
             
-            <div class="lg"><br>“ Captain Sword,
-               <br>...... forget the close thought, and the burning heart,
-               <br>And prayers, and the mild moon hanging apart,
-               <br>Which lifteth the seas with her gentle looks,
-               <br>And growth, and death, and immortal books,
-               <br>And the Infinite Wildness, the soul of souls,
-               <br>Which layeth earth soft with her silver poles;
-               <br>Which ruleth the stars and saith not a word;
-               <br>Whose speed in the hair of no comet is heard ;
-               <br>Which sendeth the soft sun, day by day,
-               <br>Mighty, and genial, and just alway ;
-               <br>Owning no difference, doing no wrong,
-               <br>Loving the orbs and the least bird’s song ;
-               <br>The great, sweet, warm angel with golden rod,
-               <br>Bright with the smile of the distance of God.”
-               <br>“ Indestructible souls among men
-               <br>Were the souls of the line of Captain Pen ;
-               <br>Sages, patriots, martyrs mild
-               <br>Going to the stake, as child
-               <br>Goeth with his prayer to bed:
-               <br>Dungeon-beams from quenchless head ;
-               <br>Poets making earth aware
-               <br>Of its wealth in good and fair.”
+            <div class="lg">
+               <br></br>“ Captain Sword,
+               
+               <br></br>...... forget the close thought, and the burning heart,
+               
+               <br></br>And prayers, and the mild moon hanging apart,
+               
+               <br></br>Which lifteth the seas with her gentle looks,
+               
+               <br></br>And growth, and death, and immortal books,
+               
+               <br></br>And the Infinite Wildness, the soul of souls,
+               
+               <br></br>Which layeth earth soft with her silver poles;
+               
+               <br></br>Which ruleth the stars and saith not a word;
+               
+               <br></br>Whose speed in the hair of no comet is heard ;
+               
+               <br></br>Which sendeth the soft sun, day by day,
+               
+               <br></br>Mighty, and genial, and just alway ;
+               
+               <br></br>Owning no difference, doing no wrong,
+               
+               <br></br>Loving the orbs and the least bird’s song ;
+               
+               <br></br>The great, sweet, warm angel with golden rod,
+               
+               <br></br>Bright with the smile of the distance of God.”
+               
+               <br></br>“ Indestructible souls among men
+               
+               <br></br>Were the souls of the line of Captain Pen ;
+               
+               <br></br>Sages, patriots, martyrs mild
+               
+               <br></br>Going to the stake, as child
+               
+               <br></br>Goeth with his prayer to bed:
+               
+               <br></br>Dungeon-beams from quenchless head ;
+               
+               <br></br>Poets making earth aware
+               
+               <br></br>Of its wealth in good and fair.”
             </div> 
             
             <p> Are not these capital passages? You will enter with all
@@ -1007,31 +1078,45 @@
             <div class="columnbreak"></div> 
             <div class="pagebreak" id="#page24"></div> 
             
-            <div class="lg"><br>" That sat retired in reverend chair,
-               <br>Fading heavenward beauteously
-               <br>In a long-drawn life of love.”
+            <div class="lg">
+               <br></br>" That sat retired in reverend chair,
+               
+               <br></br>Fading heavenward beauteously
+               
+               <br></br>In a long-drawn life of love.”
             </div>
             
             <div class="ab">There have been many good words about clocks and bells,
                but these are memorable:—
             </div>
             
-            <div class="lg"><br>" Lost on the roof, a clock’s old grace
-               <br>Looked forth like some enchanted face
-               <br>That never slept, but in the night
-               <br>Dinted the air with thoughtful might
-               <br>Of sudden tongue, which seemed to say,
-               <br>‘ The stars are firm and hold their way ’ ”
+            <div class="lg">
+               <br></br>" Lost on the roof, a clock’s old grace
+               
+               <br></br>Looked forth like some enchanted face
+               
+               <br></br>That never slept, but in the night
+               
+               <br></br>Dinted the air with thoughtful might
+               
+               <br></br>Of sudden tongue, which seemed to say,
+               
+               <br></br>‘ The stars are firm and hold their way ’ ”
             </div>
             
             <div class="ab">“An Angel in the House,” “Songs of the Flowers,” are
-               <br>most choice. I thought I would have done with quoting, but
-               <br>here are two lines describing martyrdom, which I must co-
-               <br>py;—
+               
+               <br></br>most choice. I thought I would have done with quoting, but
+               
+               <br></br>here are two lines describing martyrdom, which I must co-
+               
+               <br></br>py;—
             </div>
             
-            <div class="lg"><br>" Now, now he gives the skies
-               <br>The heart they gave (sweet thought 'gainst bitter wonders! )”
+            <div class="lg">
+               <br></br>" Now, now he gives the skies
+               
+               <br></br>The heart they gave (sweet thought 'gainst bitter wonders! )”
             </div>
             
             <p>There are some lines my fingers can scarcely resist, in
@@ -1046,10 +1131,14 @@
                unconscious diurnal revolution:
             </p>
             
-            <div class="lg"><br> “ Or she from west her silent course advance
-               <br>With inoffensive pace, that spinning sleeps
-               <br>On her soft axle, while she paces even,
-               <br>And bears thee soft with the smooth air along.”
+            <div class="lg">
+               <br></br> “ Or she from west her silent course advance
+               
+               <br></br>With inoffensive pace, that spinning sleeps
+               
+               <br></br>On her soft axle, while she paces even,
+               
+               <br></br>And bears thee soft with the smooth air along.”
             </div>
             
             <p>The “ One that sat Retired” in “ Bodryddan,” brought to
@@ -1067,14 +1156,22 @@
                Gresset’s words were never more fit:—
             </p>
             
-            <div class="lg">  <br>Voir avec clairte,
-               <br>Que l’homme n’est point fait pour la mechantete,
-               <br>Consultez, ecoutez pour juges, pour oracles,
-               <br>Les hommes rassembles ! voyez a nos spectacles,
-               <br>Quand on peint quelque trait de candeur, de bonte,
-               <br>Ou brille en tout son jour la tendre humanite,
-               <br>Tous les coeurs son remplis d’une volupte pure,
-               <br>Et c’est la qu’ on entend le cri de la nature.
+            <div class="lg">  
+               <br></br>Voir avec clairte,
+               
+               <br></br>Que l’homme n’est point fait pour la mechantete,
+               
+               <br></br>Consultez, ecoutez pour juges, pour oracles,
+               
+               <br></br>Les hommes rassembles ! voyez a nos spectacles,
+               
+               <br></br>Quand on peint quelque trait de candeur, de bonte,
+               
+               <br></br>Ou brille en tout son jour la tendre humanite,
+               
+               <br></br>Tous les coeurs son remplis d’une volupte pure,
+               
+               <br></br>Et c’est la qu’ on entend le cri de la nature.
             </div>
             
             <p>What a lovely phrase, “heavenly old child”! Hunt avoids
@@ -1098,50 +1195,75 @@
             </p>
             <div class="columnbreak"></div>
             
-            <div class="lg"><br>“ When violets lean
-               <br>O’er wandering brooks and things unseen,
-               <br>Or columbines in purple drest.
-               <br>Nod o’er the ground-bird’s hidden nest.”
+            <div class="lg">
+               <br></br>“ When violets lean
+               
+               <br></br>O’er wandering brooks and things unseen,
+               
+               <br></br>Or columbines in purple drest.
+               
+               <br></br>Nod o’er the ground-bird’s hidden nest.”
             </div>
             
             <div class="ab">with Emerson—</div>
             
-            <div class="lg"><br> “ Beneath dim aisles in odorous beds,
-               <br>The slight Linnaea hangs its twin-born heads,
-               <br>And bless the monument of the man of flowers,
-               <br>Which breathes his sweet fame through the northern bowers.”
+            <div class="lg">
+               <br></br> “ Beneath dim aisles in odorous beds,
+               
+               <br></br>The slight Linnaea hangs its twin-born heads,
+               
+               <br></br>And bless the monument of the man of flowers,
+               
+               <br></br>Which breathes his sweet fame through the northern bowers.”
             </div>
             
             <div class="ab">with Street,</div>
             
-            <div class="lg"><br>“ Where its long rings uncurls the fern,
-               <br>The violet, nestling low,
-               <br>Casts back the white lid of its urn,
-               <br>Its purple streaks to show.”
+            <div class="lg">
+               <br></br>“ Where its long rings uncurls the fern,
+               
+               <br></br>The violet, nestling low,
+               
+               <br></br>Casts back the white lid of its urn,
+               
+               <br></br>Its purple streaks to show.”
             </div>
             
             <div class="ab">May they share his feelings, when he exclaims,
                
             </div>
-            <div class="lg"><br>“ Beautiful blossom ! first to rise
-               <br>And smile beneath Spring’s wakening skies,
-               <br>The courier of the band
-               <br>Of coming flowers, what feelings sweet
-               <br>Gush, as the silvery gem we meet
-               <br>Upon its slender wand !
+            <div class="lg">
+               <br></br>“ Beautiful blossom ! first to rise
+               
+               <br></br>And smile beneath Spring’s wakening skies,
+               
+               <br></br>The courier of the band
+               
+               <br></br>Of coming flowers, what feelings sweet
+               
+               <br></br>Gush, as the silvery gem we meet
+               
+               <br></br>Upon its slender wand !
             </div>
             
             <div class="ab">Nor leave wandering for heat or cold, but see with Dana's
                eyes delicate shadows embellish the expanse of snow.
             </div>
             
-            <div class="lg"><br>“ A lovely tracery
-               <br>Of branch aud twig, that naked tree
-               <br>Of shadows soft and dim has wove,
-               <br>And spread so gently, that above
-               <br>The pure white snow it seems to float
-               <br>As if its darkening touch, through fear,
-               <br>It held from thing so saintly dear”
+            <div class="lg">
+               <br></br>“ A lovely tracery
+               
+               <br></br>Of branch aud twig, that naked tree
+               
+               <br></br>Of shadows soft and dim has wove,
+               
+               <br></br>And spread so gently, that above
+               
+               <br></br>The pure white snow it seems to float
+               
+               <br></br>As if its darkening touch, through fear,
+               
+               <br></br>It held from thing so saintly dear”
             </div>
             
             <p>I was thanking you all the time for leading me this pleasant road. It puzzles me, by the way, how Bryant can compare the gentian for color to the blue sky, since the blue is a
@@ -1152,12 +1274,14 @@
                as expressive of dignity when he said,
             </p>
             
-            <div class="lg"><br>“ The stately fox-glove fair to see,”
+            <div class="lg">
+               <br></br>“ The stately fox-glove fair to see,”
             </div>
             
             <div class="ab">and in that line,</div>
             
-            <div class="lg"><br>“ Wee, modest, crimson tipped flower.”
+            <div class="lg">
+               <br></br>“ Wee, modest, crimson tipped flower.”
             </div>
             
             <p>doubtless he thought the low stature and rosy hue of the
@@ -1387,10 +1511,14 @@
             wrought into shape:
          </p>
          
-         <div class="lg"><br>“ All those sharp fancies, by down-lapsing thought
-            <br>Stream’d onward, lost their edges, and did creep,
-            <br>Roll’d on each other, rounded, smooth’d and brought
-            <br>Into the gulfs of sleep.”
+         <div class="lg">
+            <br></br>“ All those sharp fancies, by down-lapsing thought
+            
+            <br></br>Stream’d onward, lost their edges, and did creep,
+            
+            <br></br>Roll’d on each other, rounded, smooth’d and brought
+            
+            <br></br>Into the gulfs of sleep.”
          </div>
          
          <p>This intense intellectual action is displayed in his delineations of
@@ -1459,12 +1587,15 @@
             organ tones to that
          </p>
          
-         <div class="lg"> <br>" Music which gentlier on the spirit lies,
-            <br>Than tired eyelids upon tired eyes,”
+         <div class="lg"> 
+            <br></br>" Music which gentlier on the spirit lies,
+            
+            <br></br>Than tired eyelids upon tired eyes,”
          </div>
          
          <div class="ab">is also of remarkable beauty, and wins and winds its way to the
-            <br>very fountains of thought and feeling.
+            
+            <br></br>very fountains of thought and feeling.
          </div>
       </div>
       
@@ -2159,139 +2290,244 @@
             I.
             JOURNAL OF AN AFRICAN CRUISER.
             Journal of an African Cruiser ; comprising Sketches of the Ca-
-            <br>naries, the Cape de Verdes, Liberia, Maderia, Sierra Leone, and
-            <br>other places of interest on the West Coast of Africa. By an Officer
-            <br>of the U. S. Navy. Edited by Nathaniel Hawthorne. 50 cents.II.
+            
+            <br></br>naries, the Cape de Verdes, Liberia, Maderia, Sierra Leone, and
+            
+            <br></br>other places of interest on the West Coast of Africa. By an Officer
+            
+            <br></br>of the U. S. Navy. Edited by Nathaniel Hawthorne. 50 cents.II.
             POE’S TALES.
             Tales. By Edgar A. Poe. 50 Cents.
             This excellent collection will include the most characteristic of the
-            <br>peculiar series of Tales written by Mr. Poe. Among others will be
-            <br>found " The Murders of the Rue Morgue,” " The Purloined Letter,”
-            <br>" Marie Roget,” " The House of Usher,” " William Wilson,” " The
-            <br>Gold Bug,” “ The Descent into the Maelstrom,” “ The Premature
-            <br>Burial,” Mesmeric Revelations,” &amp;c.&amp;c.III.
+            
+            <br></br>peculiar series of Tales written by Mr. Poe. Among others will be
+            
+            <br></br>found " The Murders of the Rue Morgue,” " The Purloined Letter,”
+            
+            <br></br>" Marie Roget,” " The House of Usher,” " William Wilson,” " The
+            
+            <br></br>Gold Bug,” “ The Descent into the Maelstrom,” “ The Premature
+            
+            <br></br>Burial,” Mesmeric Revelations,” &amp;c.&amp;c.III.
             LETTERS FROM ITALY.
             By J.T. Headley. 50 cts.
             Contents.—Voyage to Italy—Man Lost Overboard; Gibraltar—Ap-
-            <br>proach to Geneva ; First impressions—Lunatics; Description of Ge-
-            <br>noa; House Hunting—Romantic Marriage; Funeral in the Morning-
-            <br>Murder of an American Officer; Carnival—Clara Novella—Persecu-
-            <br>tion of a Painter ; Columbus’s Manuscripts—Horseback Ride—Death
-            <br>in the Theatre ; a Day’s Ramble through Genoa ; Italian Soirees and
-            <br>Beauty—Marquis of Palavicini, &amp;c., &amp;c. Published and for sale by WILEY &amp; PUTNAM,
+            
+            <br></br>proach to Geneva ; First impressions—Lunatics; Description of Ge-
+            
+            <br></br>noa; House Hunting—Romantic Marriage; Funeral in the Morning-
+            
+            <br></br>Murder of an American Officer; Carnival—Clara Novella—Persecu-
+            
+            <br></br>tion of a Painter ; Columbus’s Manuscripts—Horseback Ride—Death
+            
+            <br></br>in the Theatre ; a Day’s Ramble through Genoa ; Italian Soirees and
+            
+            <br></br>Beauty—Marquis of Palavicini, &amp;c., &amp;c. Published and for sale by WILEY &amp; PUTNAM,
             161 Broadway.
          </div>
       </div>
       
       <div>
          <div class="ab">PIANO FORTES.—THOMAS H. CHAMBERS,
-            <br>(formerly Conductor to Dubois &amp; Stodart), No. 385 Broadway,
-            <br>will keep a complete assortment of the largest approved Grand Action
-            <br>Piano Fortes, of the most superior quality; such as he is prepared to
-            <br>guarantee for their excellence of Tone, Touch, and External Finish.
-            <br>and to endure in any climate. A liberal discount from the standard
-            <br>prices. Piano Fortes Tuned and Repaired. Piano Fortes always on
-            <br>hire.
+            
+            <br></br>(formerly Conductor to Dubois &amp; Stodart), No. 385 Broadway,
+            
+            <br></br>will keep a complete assortment of the largest approved Grand Action
+            
+            <br></br>Piano Fortes, of the most superior quality; such as he is prepared to
+            
+            <br></br>guarantee for their excellence of Tone, Touch, and External Finish.
+            
+            <br></br>and to endure in any climate. A liberal discount from the standard
+            
+            <br></br>prices. Piano Fortes Tuned and Repaired. Piano Fortes always on
+            
+            <br></br>hire.
          </div>
       </div>
       
       <div>
          <div class="ab">JOHN DOUGLAS,
-            <br>BOOK AND JOB PRINTER.
-            <br>106 FULTON STREET.
+            
+            <br></br>BOOK AND JOB PRINTER.
+            
+            <br></br>106 FULTON STREET.
          </div>
       </div>
       <div class="columnbreak"></div>
       
       <div>
          <div class="ab">INTERESTING WORKS
-            <br>JUST PUBLISHED BY
-            <br>HARPER &amp; BROTHERS, NEW-YORK.
-            <br>THE NEW REFORMATION.
-            <br>Now ready, with curious Illustrative Plate, price 25 cents, or Muslin,
-            <br>37 1-2 cents.
-            <br>JOHN RONGE,
-            <br>THE HOLY COAT OF TREVES,
-            <br>AND THE NEW GER. CATHOLIC CHURCH.
-            <br>Including authentic details of the events connected with the recent
-            <br>exhibition of the pretended " Coat of our Lord ” in the Cathedral of
-            <br>Treves, during the months of August and September, 1844 : compris-
-            <br>ing the letters and protestations of the author against the imposition
-            <br>and superstitions of the Roman Catholic priests, &amp;c.
-            <br>This publication is exceedingly opportune; it will be perused with
-            <br>deep interest by the Protestant community at large.—Commercial Ad-
-            <br>vertiser.
-            <br>The noble protest of Ronge has been circulated in Germany, not by
-            <br>thousands, but by millions of copies ; and it has been hailed with loud
-            <br>applause by all classes, because it expeesses a public sentiment, and
-            <br>finds a response in all hearts.—New York Observer.
-            <br>PILGRIMAGE TO TREVES.
-            <br>In one volume, 12mo., beautifully printed, price 75 cts.
-            <br>A PILGRIMAGE TO TREVES,
-            <br>THROUGH THE VALLEY OF THE MEUSE, AND THE FOREST OF
-            <br>ARDENNES.
-            <br>BY CHARLES EDWARD ANTHON, Esq.
-            <br>This is the production of a young American, who had the rare for-
-            <br>tune to be present at the most marvellous occurrence of the 19th cen-
-            <br>tury—the exhibition of the Holy Robe. In addition to a very graphic
-            <br>description of this extraordinary event, which, from the excitement it
-            <br>has created, seems destined to be an era in the Christian Church, this
-            <br>unpretending volume is replete with antiquarian lore, relating to the
-            <br>city of Charlemagne, from which the " Pilgrimage ” commences—
-            <br>the intermediate historic and poetic ground ; and of the once renowned
-            <br>city of Treves, with which it closes. It is the work of a scholar, and
-            <br>cannot fail to enlist a profound interest.—Oswego Advertiser.
-            <br>MR. PRESCOTT’S HISTORICAL WORKS.
-            <br>In 3 volumes 8vo, beautifully printed and accompanied with fine En-
-            <br>gravings.
-            <br>HISTORY OF
-            <br>THE CONQUEST OF MEXICO
-            <br>WITH A LIFE OF THE CONQUERER, HERNANDO CORTES,
-            <br>AND A VIEW OF ANCIENT MEXICAN CIVILIZATION.
-            <br>BY WILLIAM H. PRESCOTT, Esq.
-            <br>Mr. Prescott appears to possess almost every qualification for his
-            <br>task; he has a pure, simple, and eloquent style—a keen relish for the
-            <br>picturesque—a quick and discerning judgment of character, and a calm,
-            <br>generous and enlightened spirit of philanthropy, There is no exag-
-            <br>geration in stating that his Conquest of Mexico” contains most of the
-            <br>valuable qualities which distingush the most popular historical writers
-            <br>in our language of the present day. It unites the chivalrous but truth-
-            <br>ful enthusiasm of Col. Napier, and the vivacity of the accomplished
-            <br>author of the " Siege of Granada,” with the patient and ample research
-            <br>of Mr. Tytler.—Edinburgh Review, May, 1845.
-            <br>In 3 volumes 8vo, uniform with the above, with Portraits and Maps.
-            <br>HISTORY OF THE
-            <br>REIGN OF FERDINAND AND ISBAELLA,
-            <br>THE CATHOLIC.
-            <br>BY WILLIAM H. PRESCOTT, Esq.
-            <br>The Tenth Edition.
-            <br>It would be altogether supererogatory to make this celebrated work
-            <br>the subject of critical analysis, since it has so long been distinguished
-            <br>by the concurrent and enthusiastic applause of the whole reading com-
-            <br>munity. We know of scarcely any other work so amusing, instruc-
-            <br>tive, and powerfully attractive as the “ History of Ferdinand and Isa-
-            <br>bella ;” it possesses every charm which elegance of diction, graceful-
-            <br>ness of style, and interest of subject can impart. In a word, it is such
-            <br>a production as could only have emanated from a mind richly stored
-            <br>with the wealth of sound learning, genius, and the felicitous art of its
-            <br>application.—-N. Y. Review.
+            
+            <br></br>JUST PUBLISHED BY
+            
+            <br></br>HARPER &amp; BROTHERS, NEW-YORK.
+            
+            <br></br>THE NEW REFORMATION.
+            
+            <br></br>Now ready, with curious Illustrative Plate, price 25 cents, or Muslin,
+            
+            <br></br>37 1-2 cents.
+            
+            <br></br>JOHN RONGE,
+            
+            <br></br>THE HOLY COAT OF TREVES,
+            
+            <br></br>AND THE NEW GER. CATHOLIC CHURCH.
+            
+            <br></br>Including authentic details of the events connected with the recent
+            
+            <br></br>exhibition of the pretended " Coat of our Lord ” in the Cathedral of
+            
+            <br></br>Treves, during the months of August and September, 1844 : compris-
+            
+            <br></br>ing the letters and protestations of the author against the imposition
+            
+            <br></br>and superstitions of the Roman Catholic priests, &amp;c.
+            
+            <br></br>This publication is exceedingly opportune; it will be perused with
+            
+            <br></br>deep interest by the Protestant community at large.—Commercial Ad-
+            
+            <br></br>vertiser.
+            
+            <br></br>The noble protest of Ronge has been circulated in Germany, not by
+            
+            <br></br>thousands, but by millions of copies ; and it has been hailed with loud
+            
+            <br></br>applause by all classes, because it expeesses a public sentiment, and
+            
+            <br></br>finds a response in all hearts.—New York Observer.
+            
+            <br></br>PILGRIMAGE TO TREVES.
+            
+            <br></br>In one volume, 12mo., beautifully printed, price 75 cts.
+            
+            <br></br>A PILGRIMAGE TO TREVES,
+            
+            <br></br>THROUGH THE VALLEY OF THE MEUSE, AND THE FOREST OF
+            
+            <br></br>ARDENNES.
+            
+            <br></br>BY CHARLES EDWARD ANTHON, Esq.
+            
+            <br></br>This is the production of a young American, who had the rare for-
+            
+            <br></br>tune to be present at the most marvellous occurrence of the 19th cen-
+            
+            <br></br>tury—the exhibition of the Holy Robe. In addition to a very graphic
+            
+            <br></br>description of this extraordinary event, which, from the excitement it
+            
+            <br></br>has created, seems destined to be an era in the Christian Church, this
+            
+            <br></br>unpretending volume is replete with antiquarian lore, relating to the
+            
+            <br></br>city of Charlemagne, from which the " Pilgrimage ” commences—
+            
+            <br></br>the intermediate historic and poetic ground ; and of the once renowned
+            
+            <br></br>city of Treves, with which it closes. It is the work of a scholar, and
+            
+            <br></br>cannot fail to enlist a profound interest.—Oswego Advertiser.
+            
+            <br></br>MR. PRESCOTT’S HISTORICAL WORKS.
+            
+            <br></br>In 3 volumes 8vo, beautifully printed and accompanied with fine En-
+            
+            <br></br>gravings.
+            
+            <br></br>HISTORY OF
+            
+            <br></br>THE CONQUEST OF MEXICO
+            
+            <br></br>WITH A LIFE OF THE CONQUERER, HERNANDO CORTES,
+            
+            <br></br>AND A VIEW OF ANCIENT MEXICAN CIVILIZATION.
+            
+            <br></br>BY WILLIAM H. PRESCOTT, Esq.
+            
+            <br></br>Mr. Prescott appears to possess almost every qualification for his
+            
+            <br></br>task; he has a pure, simple, and eloquent style—a keen relish for the
+            
+            <br></br>picturesque—a quick and discerning judgment of character, and a calm,
+            
+            <br></br>generous and enlightened spirit of philanthropy, There is no exag-
+            
+            <br></br>geration in stating that his Conquest of Mexico” contains most of the
+            
+            <br></br>valuable qualities which distingush the most popular historical writers
+            
+            <br></br>in our language of the present day. It unites the chivalrous but truth-
+            
+            <br></br>ful enthusiasm of Col. Napier, and the vivacity of the accomplished
+            
+            <br></br>author of the " Siege of Granada,” with the patient and ample research
+            
+            <br></br>of Mr. Tytler.—Edinburgh Review, May, 1845.
+            
+            <br></br>In 3 volumes 8vo, uniform with the above, with Portraits and Maps.
+            
+            <br></br>HISTORY OF THE
+            
+            <br></br>REIGN OF FERDINAND AND ISBAELLA,
+            
+            <br></br>THE CATHOLIC.
+            
+            <br></br>BY WILLIAM H. PRESCOTT, Esq.
+            
+            <br></br>The Tenth Edition.
+            
+            <br></br>It would be altogether supererogatory to make this celebrated work
+            
+            <br></br>the subject of critical analysis, since it has so long been distinguished
+            
+            <br></br>by the concurrent and enthusiastic applause of the whole reading com-
+            
+            <br></br>munity. We know of scarcely any other work so amusing, instruc-
+            
+            <br></br>tive, and powerfully attractive as the “ History of Ferdinand and Isa-
+            
+            <br></br>bella ;” it possesses every charm which elegance of diction, graceful-
+            
+            <br></br>ness of style, and interest of subject can impart. In a word, it is such
+            
+            <br></br>a production as could only have emanated from a mind richly stored
+            
+            <br></br>with the wealth of sound learning, genius, and the felicitous art of its
+            
+            <br></br>application.—-N. Y. Review.
          </div>
       </div>
       
       <div>
          <div class="ab">PIANO FORTES. —A. H. GALE &amp; CO.s Ware-
-            <br>Rooms, No. 289 Broadway — Manufactory Third Avenue, corner
-            <br>of 13th Street.
-            <br>Purchasers are invited to call and examine their extensive assort-
-            <br>ment of Rosewood and Mahogany Piano Fortes, with from six to
-            <br>seven octaves, embracing every variety of patterns, made in their well-
-            <br>known substantial manner, under their immediate and personal super-
-            <br>intendence, by skillful and experienced mechanics, from the best sea-
-            <br>soned materials.
-            <br>These instruments embrance many important improvements, which
-            <br>will recommend themselves, and are finished in the highest state of
-            <br>perfection, with the best French grand action, warranted in every re
-            <br>spect by the manufacturer.
+            
+            <br></br>Rooms, No. 289 Broadway — Manufactory Third Avenue, corner
+            
+            <br></br>of 13th Street.
+            
+            <br></br>Purchasers are invited to call and examine their extensive assort-
+            
+            <br></br>ment of Rosewood and Mahogany Piano Fortes, with from six to
+            
+            <br></br>seven octaves, embracing every variety of patterns, made in their well-
+            
+            <br></br>known substantial manner, under their immediate and personal super-
+            
+            <br></br>intendence, by skillful and experienced mechanics, from the best sea-
+            
+            <br></br>soned materials.
+            
+            <br></br>These instruments embrance many important improvements, which
+            
+            <br></br>will recommend themselves, and are finished in the highest state of
+            
+            <br></br>perfection, with the best French grand action, warranted in every re
+            
+            <br></br>spect by the manufacturer.
          </div>
       </div>
       
@@ -2300,223 +2536,383 @@
       
       <div>
          <div class="ab">A CARD.
-            <br>WM. A. KING, PROFESSOR of the PIANO-
-            <br>forte, ORGAN, &amp;c. has removed to No. 22 Bank street,
-            <br>where his terms lor giving instruction can be ascertained. myl7
+            
+            <br></br>WM. A. KING, PROFESSOR of the PIANO-
+            
+            <br></br>forte, ORGAN, &amp;c. has removed to No. 22 Bank street,
+            
+            <br></br>where his terms lor giving instruction can be ascertained. myl7
          </div>
       </div>
       
       <div>
          <div class="ab">PIANO FORTE MANUFACTURER.—JAMES
-            <br>PIRSSON, 88, 90, &amp; 92 Walker Street, near Elm. A
-            <br>Large Stock of the finest instruments always on hand. Terms mode-
-            <br>rate. FOR SALE—A Splendid Harp, nearly new. To be sold at a
-            <br>great bargain for cash.
+            
+            <br></br>PIRSSON, 88, 90, &amp; 92 Walker Street, near Elm. A
+            
+            <br></br>Large Stock of the finest instruments always on hand. Terms mode-
+            
+            <br></br>rate. FOR SALE—A Splendid Harp, nearly new. To be sold at a
+            
+            <br></br>great bargain for cash.
          </div>	
       </div>
       
       <div>
          <div class="ab">PIANO FORTES.—V. F. HARRISON, 23 Canal
-            <br>Street, N. Y.		
-            <br>Instruments made with the most recent improvements, such as Iron
-            <br>Frames, &amp;c., with a compass of 6 and 7 octaves. They are made
-            <br>from choice materials, and highly finished, with the most faithful
-            <br>workmanship, the result of 23 years experience in the busines.
-            <br>N. B. Wanted, a second-hand Parlor Organ.
-            <br>Piano Fortes on hire by the month.
+            
+            <br></br>Street, N. Y.		
+            
+            <br></br>Instruments made with the most recent improvements, such as Iron
+            
+            <br></br>Frames, &amp;c., with a compass of 6 and 7 octaves. They are made
+            
+            <br></br>from choice materials, and highly finished, with the most faithful
+            
+            <br></br>workmanship, the result of 23 years experience in the busines.
+            
+            <br></br>N. B. Wanted, a second-hand Parlor Organ.
+            
+            <br></br>Piano Fortes on hire by the month.
          </div>
       </div>
       
       <div>
          <div class="ab">PIANO FORTES.—JOHN PETHICK, (formerly
-            <br>Mundy &amp; Pethick.) invites the attention of the musical public to
-            <br>the elegant and varied assortment he now has at his Old Establish-
-            <br>ment, corner of Cottage Place and Bleecker street, which he will sell
-            <br>at prices unusually low.
-            <br>J. P. having been actively engaged in the business for the last twen-
-            <br>ty years, and, for a large portion of that time manufacturing for two
-            <br>of the largest Music Stores in the city, feels warranted in saying that
-            <br>his instruments will bear a favorable comparison with those of the
-            <br>best makers in this country or Europe, and that they contain all the
-            <br>real improvements of the day.
-            <br>Second hand Pianos Bought, Sold and Exchanged, also Tuned and
-            <br>Repaired.
-            <br>New York, April 23d, 1845.
+            
+            <br></br>Mundy &amp; Pethick.) invites the attention of the musical public to
+            
+            <br></br>the elegant and varied assortment he now has at his Old Establish-
+            
+            <br></br>ment, corner of Cottage Place and Bleecker street, which he will sell
+            
+            <br></br>at prices unusually low.
+            
+            <br></br>J. P. having been actively engaged in the business for the last twen-
+            
+            <br></br>ty years, and, for a large portion of that time manufacturing for two
+            
+            <br></br>of the largest Music Stores in the city, feels warranted in saying that
+            
+            <br></br>his instruments will bear a favorable comparison with those of the
+            
+            <br></br>best makers in this country or Europe, and that they contain all the
+            
+            <br></br>real improvements of the day.
+            
+            <br></br>Second hand Pianos Bought, Sold and Exchanged, also Tuned and
+            
+            <br></br>Repaired.
+            
+            <br></br>New York, April 23d, 1845.
          </div>
       </div>
       
       <div>
          <div class="ab">PIANO FORTES. The Subscribers, while return-
-            <br>ing thanks to their numerous friends and to the public, would, at
-            <br>the same time call attention to their Stock of Instruments, of six and
-            <br>seven octaves, just finished, in elegant Rosewood and mahogany cases.
-            <br>The subscribers, from their long experience in every department of
-            <br>the business, have been enabled to add several important improvements
-            <br>to the action, so that their Instruments, they feel assured will prove,
-            <br>upon examination, equal to any in the market.
-            <br>STODART &amp; DUNHAM, 361 Broadway.
-            <br>Manufactory, 13th st., between 3d and 4th Avenues.
+            
+            <br></br>ing thanks to their numerous friends and to the public, would, at
+            
+            <br></br>the same time call attention to their Stock of Instruments, of six and
+            
+            <br></br>seven octaves, just finished, in elegant Rosewood and mahogany cases.
+            
+            <br></br>The subscribers, from their long experience in every department of
+            
+            <br></br>the business, have been enabled to add several important improvements
+            
+            <br></br>to the action, so that their Instruments, they feel assured will prove,
+            
+            <br></br>upon examination, equal to any in the market.
+            
+            <br></br>STODART &amp; DUNHAM, 361 Broadway.
+            
+            <br></br>Manufactory, 13th st., between 3d and 4th Avenues.
          </div>
       </div>
       
       <div>
          <div class="ab">THE BOEHM FLUTE.
-            <br>NEW INVENTION.
-            <br>Adopted at the Royal Academy of Music, London, the Conservato-
-            <br>rie at Paris, and the Principal Musical Institutions in Europe.
-            <br>MR. LARRABEE, Manufacturer of the ‘Boehm Flute,’
-            <br>110 Fulton St. N. Y., anxious to introduce to the Amateurs of
-            <br>this city the above Imported Invention, which has been so enthusi-
-            <br>astically received and generally used by the most distinguished Eu-
-            <br>ropean artists, feels happy in being able to place before them the
-            <br>following testimonial to its merits, signed by two of the most distin-
-            <br>guished of our resident Artists.
-            <br>We hereby testify to the excellence of the Boehm Flute, as manufac- j
-            <br>tured by Mr. J. D. Larrabee ; to the beauty of its tone, the perfec-
-            <br>tion of its tune, and the simplicity of its FIngering, which renders
-            <br>a brilliant execution comparatively easy.
-            <br>Philip Ernst, (who has already introduced it
-            <br>successfully among his pupils.)
-            <br>John A. Kyle, Principal Flute of the Philhar-
-            <br>monic Society, and Italian Opera, Professor and Teacher of the Boehm
-            <br>Flute, 41 Forsyth st. New York.
-            <br>Amateurs and Professors are requested to call at the manufactory
-            <br>110 Fulton st. and judge for themselves.
+            
+            <br></br>NEW INVENTION.
+            
+            <br></br>Adopted at the Royal Academy of Music, London, the Conservato-
+            
+            <br></br>rie at Paris, and the Principal Musical Institutions in Europe.
+            
+            <br></br>MR. LARRABEE, Manufacturer of the ‘Boehm Flute,’
+            
+            <br></br>110 Fulton St. N. Y., anxious to introduce to the Amateurs of
+            
+            <br></br>this city the above Imported Invention, which has been so enthusi-
+            
+            <br></br>astically received and generally used by the most distinguished Eu-
+            
+            <br></br>ropean artists, feels happy in being able to place before them the
+            
+            <br></br>following testimonial to its merits, signed by two of the most distin-
+            
+            <br></br>guished of our resident Artists.
+            
+            <br></br>We hereby testify to the excellence of the Boehm Flute, as manufac- j
+            
+            <br></br>tured by Mr. J. D. Larrabee ; to the beauty of its tone, the perfec-
+            
+            <br></br>tion of its tune, and the simplicity of its FIngering, which renders
+            
+            <br></br>a brilliant execution comparatively easy.
+            
+            <br></br>Philip Ernst, (who has already introduced it
+            
+            <br></br>successfully among his pupils.)
+            
+            <br></br>John A. Kyle, Principal Flute of the Philhar-
+            
+            <br></br>monic Society, and Italian Opera, Professor and Teacher of the Boehm
+            
+            <br></br>Flute, 41 Forsyth st. New York.
+            
+            <br></br>Amateurs and Professors are requested to call at the manufactory
+            
+            <br></br>110 Fulton st. and judge for themselves.
          </div>
       </div>
       
       <div>
          <div class="ab">VAN DENHOFF’S ELOCUTION.
-            <br>SECOND EDITION.—This valuable work is being
-            <br>introduced into a large number of the best Schools in the City and
-            <br>Country.
-            <br>It only needs to be generally known to become universally estab-
-            <br>lished.
-            <br>Testimonials are received from every quarter.
-            <br>From Rev. R. F. Burnham, Rector of St. Paul's Church, Hoboken.
-            <br>“ Having seen with much pleasure, a second edition, by your house,
-            <br>of " A Plain System of Elocution," I beg leave to express to you my
-            <br>opinion of the high merit of that work.
-            <br>Its title is in keeping with the plan pursued in the book ; a rare fact
-            <br>in this age of making many books. In the work may be found what
-            <br>this age needs—a System of Elocution, that presents to the learner
-            <br>something tangible; and that combines meaning with beauty, and
-            <br>beauty with force.
-            <br>I hereby express the opinion that the Principals of Seminaries of
-            <br>Learning would benefit the department of Elocution, by the introduc-
-            <br>tion of Mr. Vandenhoff’s System."
-            <br>C. SHEPARD, Publisher,
-            <br>191 Broadway, opposite John-street.
+            
+            <br></br>SECOND EDITION.—This valuable work is being
+            
+            <br></br>introduced into a large number of the best Schools in the City and
+            
+            <br></br>Country.
+            
+            <br></br>It only needs to be generally known to become universally estab-
+            
+            <br></br>lished.
+            
+            <br></br>Testimonials are received from every quarter.
+            
+            <br></br>From Rev. R. F. Burnham, Rector of St. Paul's Church, Hoboken.
+            
+            <br></br>“ Having seen with much pleasure, a second edition, by your house,
+            
+            <br></br>of " A Plain System of Elocution," I beg leave to express to you my
+            
+            <br></br>opinion of the high merit of that work.
+            
+            <br></br>Its title is in keeping with the plan pursued in the book ; a rare fact
+            
+            <br></br>in this age of making many books. In the work may be found what
+            
+            <br></br>this age needs—a System of Elocution, that presents to the learner
+            
+            <br></br>something tangible; and that combines meaning with beauty, and
+            
+            <br></br>beauty with force.
+            
+            <br></br>I hereby express the opinion that the Principals of Seminaries of
+            
+            <br></br>Learning would benefit the department of Elocution, by the introduc-
+            
+            <br></br>tion of Mr. Vandenhoff’s System."
+            
+            <br></br>C. SHEPARD, Publisher,
+            
+            <br></br>191 Broadway, opposite John-street.
          </div>
       </div>
       <div class="columnbreak"></div>
       
       <div>
          <div class="ab">GREAT REDUCTION IN PRICE.
-            <br>THE FIRST PREMIUM A WARDED FIVE YEA RS BY THE AMERICAN INSTI-
-            <br>TUTE FOR THE BEST SPECIMEN OF OFF HAND PENMANSHIP.
-            <br>GOLDSMITH’S WRITING AND BOOK-KEEPING ACADEMY,
-            <br>No. 289 BROADWAY, NEW YORK.
-            <br>GOLDSMITH’S PREMIUM SYSTEM of Mercan-
-            <br>tile and Epistolary Writing, guaranteed to all (old and young)
-            <br>in 10 lessons of 1 hour each.
-            <br>Double entry Book-keeping, Fifteen Dollars, for a thorough course
-            <br>of instruction, including mercantile arithmetic, also Blanks and Sta-
-            <br>tionery. Payable at the commencement.
-            <br>Class Hours—9 A. M., 3, 5 3-4, and 7 P. M., daily, for gentlemen,
-            <br>and from 11 to 1 o’clock, for ladies. Private instruction given.
-            <br>For sale “ Goldsmith’s Gems of Penmanship,” elegantly bound.
-            <br>Price Five Dollars.
+            
+            <br></br>THE FIRST PREMIUM A WARDED FIVE YEA RS BY THE AMERICAN INSTI-
+            
+            <br></br>TUTE FOR THE BEST SPECIMEN OF OFF HAND PENMANSHIP.
+            
+            <br></br>GOLDSMITH’S WRITING AND BOOK-KEEPING ACADEMY,
+            
+            <br></br>No. 289 BROADWAY, NEW YORK.
+            
+            <br></br>GOLDSMITH’S PREMIUM SYSTEM of Mercan-
+            
+            <br></br>tile and Epistolary Writing, guaranteed to all (old and young)
+            
+            <br></br>in 10 lessons of 1 hour each.
+            
+            <br></br>Double entry Book-keeping, Fifteen Dollars, for a thorough course
+            
+            <br></br>of instruction, including mercantile arithmetic, also Blanks and Sta-
+            
+            <br></br>tionery. Payable at the commencement.
+            
+            <br></br>Class Hours—9 A. M., 3, 5 3-4, and 7 P. M., daily, for gentlemen,
+            
+            <br></br>and from 11 to 1 o’clock, for ladies. Private instruction given.
+            
+            <br></br>For sale “ Goldsmith’s Gems of Penmanship,” elegantly bound.
+            
+            <br></br>Price Five Dollars.
          </div>
       </div>
       
       <div>
          <div class="ab">PAINE AND BURGESS,
-            <br>62 JOHN STREET, N. Y.,
-            <br>ARE just sending to press a New Series of Choice
-            <br>Works, selected from the Prose Literature of Italy. Translated
-            <br>and Edited by Edwards Lester, U. S. Consul at Genoa, auther of the
-            <br>“ Glory and Shame of England,” &amp;c., &amp;c. This series will be made
-            <br> up of original translations of the best works of the best Italian writers,
-            <br>with original notes and sketches in illustration of the Genius, the Lives
-            <br>and Times of the Authors. Five vols. are ready for the Press.
-            <br>1. Ettore Fieramosca, or the Challenge of Barletta, an Historical
-            <br> Romance of the Times of the Medici, by Agegbio.
-            <br>2 and 3, The Florentine Histories, by Machiavelli.
-            <br> 4. The Autobiography of Alfieri.
-            <br>These numbers will be issued in quick succession, in beautiful style,
-            <br>and sold for fifty cents per volume. The object of this series is to
-            <br> make known to the American people the Literature of Italy.
+            
+            <br></br>62 JOHN STREET, N. Y.,
+            
+            <br></br>ARE just sending to press a New Series of Choice
+            
+            <br></br>Works, selected from the Prose Literature of Italy. Translated
+            
+            <br></br>and Edited by Edwards Lester, U. S. Consul at Genoa, auther of the
+            
+            <br></br>“ Glory and Shame of England,” &amp;c., &amp;c. This series will be made
+            
+            <br></br> up of original translations of the best works of the best Italian writers,
+            
+            <br></br>with original notes and sketches in illustration of the Genius, the Lives
+            
+            <br></br>and Times of the Authors. Five vols. are ready for the Press.
+            
+            <br></br>1. Ettore Fieramosca, or the Challenge of Barletta, an Historical
+            
+            <br></br> Romance of the Times of the Medici, by Agegbio.
+            
+            <br></br>2 and 3, The Florentine Histories, by Machiavelli.
+            
+            <br></br> 4. The Autobiography of Alfieri.
+            
+            <br></br>These numbers will be issued in quick succession, in beautiful style,
+            
+            <br></br>and sold for fifty cents per volume. The object of this series is to
+            
+            <br></br> make known to the American people the Literature of Italy.
          </div>
       </div>
       
       <div>
          <div class="ab">TO THE EDITOR OF THE BROADWAY JOURNAL.
-            <br>SIR —WE WILL THANK YOU TO CAUTION
-            <br> the public against a set of imposters who are calling upon our cus-
-            <br> tomers, asserting that they are engaged by us in the capacity of agents.
-            <br> In several instances they have succeeded in obtaining orders. But
-            <br> when the goods are delivered great dissatisfaction has been given by
-            <br>the infamous and utterly base imitations. But still persisting that the
-            <br> cards are our manufacture, they too often succeed in foisting them
-            <br> upon the unsuspecting. We ourselves would strenuously caution the
-            <br>said parties that, should they persist after this notice, we will try what
-            <br>effect a State Prison will have upon them.
-            <br>We are, Sir, Yours most obt’y,
-            <br>J. B. CAREY &amp; CO ,
-            <br>Ornamental Show Card Manufacturers,
-            <br>34 Beekman street, (late 323 Broadway.)
-            <br>An agent wanted for New York City. Also one for New York State
-            <br>—whose name will be published as our authorized agent.
+            
+            <br></br>SIR —WE WILL THANK YOU TO CAUTION
+            
+            <br></br> the public against a set of imposters who are calling upon our cus-
+            
+            <br></br> tomers, asserting that they are engaged by us in the capacity of agents.
+            
+            <br></br> In several instances they have succeeded in obtaining orders. But
+            
+            <br></br> when the goods are delivered great dissatisfaction has been given by
+            
+            <br></br>the infamous and utterly base imitations. But still persisting that the
+            
+            <br></br> cards are our manufacture, they too often succeed in foisting them
+            
+            <br></br> upon the unsuspecting. We ourselves would strenuously caution the
+            
+            <br></br>said parties that, should they persist after this notice, we will try what
+            
+            <br></br>effect a State Prison will have upon them.
+            
+            <br></br>We are, Sir, Yours most obt’y,
+            
+            <br></br>J. B. CAREY &amp; CO ,
+            
+            <br></br>Ornamental Show Card Manufacturers,
+            
+            <br></br>34 Beekman street, (late 323 Broadway.)
+            
+            <br></br>An agent wanted for New York City. Also one for New York State
+            
+            <br></br>—whose name will be published as our authorized agent.
             
          </div>
       </div>
       
       <div>
          <div class="ab">BERTINI’S METHOD FOR THE PIANO.
-            <br>THIS is the only thorough, complete and progressive work
-            <br>yet published in this country. Where pupils have used this me-
-            <br>thod, the most rapid advancement has been observed in all cases.
-            <br>The most prominent feature of this work is that the lessons, exerci-
-            <br>ses, scales and studies are given in such progressive order, that they
-            <br>enlist the interest of pupils, and carry them almost imperceptibly
-            <br>through those mechanical difficulties which, otherwise, arc too often
-            <br>made irksome in other instruction books. The time has arrived when
-            <br>a superficial knowledge of the Piano is of but little account, and it is
-            <br>only by the study of such methods as Bertini’s that pupils will be ena-
-            <br>bled to read music with facility, and at the same time become good
-            <br>musicians.
-            <br>This method commences in the most plain and simple manner ; the
-            <br>rudiments of music being given and illustrated at the same time, and
-            <br>each lesson is fully explained by marginal notes on the same page.
-            <br>The publishers are in possession of the highest recommendations
-            <br>from professional gentlemen, who speak of the superior merits of
-            <br>Bertini’s Method over all others yet published in this country, most
-            <br>of them having used the foreign copies previously. It will only be
-            <br>necessary to give a lew of the names in the principal cities.
-            <br>Boston.	New-York.
-            <br>Messr. G. J. Webb,	Messrs. H. C.Timm,
-            <br>J. G. Maeder,	W. Alpers,
-            <br>H. T. Hach,	U. C. Hill,
-            <br>E. L. White,	F. H. Brown,
-            <br>David Paine,	Philadelphia.
-            <br>A.Kurek,	B. C. Cross,
-            <br>T. B. Moses.	Joseph Duggan.
-            <br>Albany—O. J. Shaw.
-            <br>Professors and Teachers are respectfully invited to examine the
-            <br>work. American edition published by E. H. WADE and W. H.
-            <br>OAKES, 197 Washington street, Boston
+            
+            <br></br>THIS is the only thorough, complete and progressive work
+            
+            <br></br>yet published in this country. Where pupils have used this me-
+            
+            <br></br>thod, the most rapid advancement has been observed in all cases.
+            
+            <br></br>The most prominent feature of this work is that the lessons, exerci-
+            
+            <br></br>ses, scales and studies are given in such progressive order, that they
+            
+            <br></br>enlist the interest of pupils, and carry them almost imperceptibly
+            
+            <br></br>through those mechanical difficulties which, otherwise, arc too often
+            
+            <br></br>made irksome in other instruction books. The time has arrived when
+            
+            <br></br>a superficial knowledge of the Piano is of but little account, and it is
+            
+            <br></br>only by the study of such methods as Bertini’s that pupils will be ena-
+            
+            <br></br>bled to read music with facility, and at the same time become good
+            
+            <br></br>musicians.
+            
+            <br></br>This method commences in the most plain and simple manner ; the
+            
+            <br></br>rudiments of music being given and illustrated at the same time, and
+            
+            <br></br>each lesson is fully explained by marginal notes on the same page.
+            
+            <br></br>The publishers are in possession of the highest recommendations
+            
+            <br></br>from professional gentlemen, who speak of the superior merits of
+            
+            <br></br>Bertini’s Method over all others yet published in this country, most
+            
+            <br></br>of them having used the foreign copies previously. It will only be
+            
+            <br></br>necessary to give a lew of the names in the principal cities.
+            
+            <br></br>Boston.	New-York.
+            
+            <br></br>Messr. G. J. Webb,	Messrs. H. C.Timm,
+            
+            <br></br>J. G. Maeder,	W. Alpers,
+            
+            <br></br>H. T. Hach,	U. C. Hill,
+            
+            <br></br>E. L. White,	F. H. Brown,
+            
+            <br></br>David Paine,	Philadelphia.
+            
+            <br></br>A.Kurek,	B. C. Cross,
+            
+            <br></br>T. B. Moses.	Joseph Duggan.
+            
+            <br></br>Albany—O. J. Shaw.
+            
+            <br></br>Professors and Teachers are respectfully invited to examine the
+            
+            <br></br>work. American edition published by E. H. WADE and W. H.
+            
+            <br></br>OAKES, 197 Washington street, Boston
          </div>
       </div>
       
       <div>
          <div class="ab">AGENTS FOR THE BROADWAY JOURNAL.
-            <br>Redding &amp; Co......................Boston, Mass.
-            <br>Colon &amp; Adriance...................Philadelphia, Pa.
-            <br>R.G. H. HUNTINGTON,...............Hartford, Ct.
-            <br>George Jones,......................Albany, N. Y.
-            <br>Thomas H. Pease...................New-Haven, Ct.
-            <br>L. Willard, ................ Troy.
+            
+            <br></br>Redding &amp; Co......................Boston, Mass.
+            
+            <br></br>Colon &amp; Adriance...................Philadelphia, Pa.
+            
+            <br></br>R.G. H. HUNTINGTON,...............Hartford, Ct.
+            
+            <br></br>George Jones,......................Albany, N. Y.
+            
+            <br></br>Thomas H. Pease...................New-Haven, Ct.
+            
+            <br></br>L. Willard, ................ Troy.
          </div>
       </div>
       

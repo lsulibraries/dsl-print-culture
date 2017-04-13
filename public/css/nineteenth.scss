@@ -559,9 +559,7 @@ flex-wrap: wrap;
     @include columns(2);
 }*/
 
-.childPiece {
-    display: none;
-}
+
 
 @media (max-width: 1200px){
 .tocItem {
