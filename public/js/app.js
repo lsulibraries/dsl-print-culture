@@ -138,14 +138,15 @@ Vue.component('toc-item',{
 	    showChildren: function(){
 		if(this.toggled==false){
 		    //turn on this.$children
-		    console.log('hello')
 		    for (each in this.$children){
 			this.$children[each].meSeen=true;
 			this.toggled=true;
 		    }
 		    //turn off everyone else's children
 		    for(one in this.$parent.$children){
-			if (this.$parent.$children[one].list != this.list){
+			//create new check for toc
+
+			if (this.$parent.$children[one].id != this.id){
 			    for(two in this.$parent.$children[one].$children){
 				this.$parent.$children[one].$children[two].meSeen=false;
 				//remove activeMonth from everyone else
@@ -162,17 +163,26 @@ Vue.component('toc-item',{
 			}
 		},
 	     tocItemSelected: function() {
-		 if(this.id.pdf_index >= 1){
-		     Event.$emit("pdf-pageChange",this.id.pdf_index)
-		 }
-		 if(this.id.decls_id){
-		     Event.$emit("tei-biblChanged", this.id.decls_id)
-		 }
+		     this.showChildren();
+			 if(this.id.pdf_index >= 1){
+			     Event.$emit("pdf-pageChange",this.id.pdf_index)
+			 }
+			 
+			if(this.id.pieces){
+			 	for(key in this.id.pieces){
+			     	Event.$emit("pdf-pageChange",this.id.pieces[key].pdf_index)
+			     	break
+				}
+				
+			}
+			if(this.id.decls_id){
+			     Event.$emit("tei-biblChanged", this.id.decls_id)
+		 	}
 		}
 	},
 	 template:`
 		<div class="tocItem" v-bind:class='id.type'>
-	    	<div @click='showChildren'>
+	    	<div @click='tocItemSelected'>
             	<div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
 
