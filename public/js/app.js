@@ -99,8 +99,8 @@ Vue.component('main-window',{
 	 	    	</div>
 
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
-					<button class="next-page" @click="changePage('prev')">Prev Page</button>
-					<button class="next-page" @click="changePage('next')">Next Page</button>
+					<button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
+					<button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
 					<pdf-viewer v-if="!teiMode"></pdf-viewer>
 				</div>
 			</div>	
