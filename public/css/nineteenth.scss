@@ -389,6 +389,7 @@ margin-bottom: 12px;
     width: 200px;
     flex-direction: column;
     text-align: right;
+    max-height: 972px;
 }
 
 .tocItem {
@@ -427,12 +428,6 @@ margin-bottom: 12px;
   .tocDropdown{
     display:none;
   }
-
-.tocItem:hover{
- transform: scale(1.1);
-   	@include transition-duration(0s); 
-
-}
 
 .libLogo img{
 	height: 20px;
@@ -568,18 +563,18 @@ flex-wrap: wrap;
 
 .childPiece {
     margin-bottom: 1px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 0px;
     position: relative;
     font-size: 1em;
     letter-spacing: 0px;
     border-right: 6px solid #d0c7be;
-    @include transition-duration(0s);
-
+    @include transition-duration(0.2s);
+line-height: 12px;
 }
 
 .childPiece:hover{
-    border-right: 6px solid $primary-accent-color;
-    @include transition-duration(.2s);
+    border-right: 10px solid $primary-accent-color;
+    @include transition-duration(0s);
 
 }
 

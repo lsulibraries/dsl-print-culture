@@ -356,6 +356,7 @@ body {
   width: 200px;
   flex-direction: column;
   text-align: right;
+max-height: 972px;  
 }
 
 .tocItem {
@@ -523,19 +524,20 @@ body {
 }*/
 .childPiece {
   margin-bottom: 1px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 0px;
   position: relative;
   font-size: 1em;
   letter-spacing: 0px;
   border-right: 6px solid #d0c7be;
-  -webkit-transition-duration: 0s;
-  transition-duration: 0s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  line-height: 12px;
 }
 
 .childPiece:hover {
-  border-right: 6px solid #fe7251;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+  border-right: 10px solid #fe7251;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
 }
 
 @media (max-width: 1200px) {
