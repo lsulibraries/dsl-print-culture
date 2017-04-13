@@ -13,7 +13,7 @@ Vue.component('meta-menu',{
 		let month = tmp.slice(4,6);
 		let day = tmp.slice(-2);
 		let format = this.$root.state.issue.viewMode
-		let url = '/broadwayjournal/issue/' + year + '/'+ month +'/' + day +'/' + format
+		let url = `/broadwayjournal/issue/${year}/${month}/${day}/${format}`
     	return url;
     },
 	selectMe: function(which) {
