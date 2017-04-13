@@ -2,11 +2,20 @@ window.Event = new Vue();
 
 Vue.component('meta-menu',{
     data() {
-	return {
-	    content: this.$root.state['meta']['content'],
-	}
+		return {
+	    	content: this.$root.state['meta']['content'],
+		}
     },
     methods: {
+    stateHref:function(){    	
+		let tmp   = this.$root.state.issue.id;
+		let year  = tmp.slice(0,4);
+		let month = tmp.slice(4,6);
+		let day = tmp.slice(-2);
+		let format = this.$root.state.issue.viewMode
+		let url = '/broadwayjournal/issue/' + year + '/'+ month +'/' + day +'/' + format
+    	return url;
+    },
 	selectMe: function(which) {
 	    this.content = which;
 	    Event.$emit('content', this.content);
@@ -18,6 +27,7 @@ Vue.component('meta-menu',{
 	  <div @click="selectMe('about')">About</div>
 	  <div @click="selectMe('tech')">Technical</div>
 	  <div @click="selectMe('credit')">Credits</div>
+	  <a v-bind:href='stateHref()' download>Download Source</a>
 	</div>
 	`
 });
@@ -706,7 +716,7 @@ new Vue({
 	    },
 	    issue: {
 		id: '18450104', // yyyy-mm-dd
-		viewMode: '', // tei|pdf
+		viewMode: 'pdf', // tei|pdf
 		page: 1, // int
 	    },
 	},

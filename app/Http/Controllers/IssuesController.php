@@ -27,13 +27,11 @@ class IssuesController extends Controller
     }
 
     
-    function show($year, $month, $day){
+    function download($year, $month, $day, $format){
         $id = $year . $month . $day;
-
-	$url = 'app/public/broadway-tei/tei/' . $this->getFilenameForID($id);
-	$xml = Storage::get($this->getFilePathForID($id));
-    
-	return response()->file(storage_path($url));
+            $url = "app/public/broadway-tei/$format/" . $this->getFilenameForID($id,$format);
+            $xml = Storage::get($this->getFilePathForID($id));
+            return response()->file(storage_path($url));
     }
 
     function all_grouped_json($year = NULL, $month = NULL, $day = NULL){
@@ -77,8 +75,8 @@ class IssuesController extends Controller
         return response($txt);
     }
     
-    private function getFilenameForID($id){
-      return $this->file_prefix . $id . '.xml';
+    private function getFilenameForID($id, $format = 'xml'){
+      return $this->file_prefix . $id . '.' . $format;
     }
 
     private function getFilePathForID($id){
