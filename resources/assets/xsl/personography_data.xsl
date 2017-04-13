@@ -21,7 +21,7 @@
                     <xsl:value-of select="persName"/>
                 </name>
                 <init>
-                    <xsl:for-each select="tokenize(persName, '\s')">
+                    <xsl:for-each select="tokenize(persName[not(@type='pseudo')], '\s')">
                         <xsl:choose>
                             <xsl:when test="matches(., 'Sir')"/>
                             <xsl:when test="matches(., 'Lady')"/>
