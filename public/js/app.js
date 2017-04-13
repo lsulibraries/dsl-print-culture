@@ -130,8 +130,37 @@ Vue.component('navigation',{
 })
 
 Vue.component('toc-item',{
+	 data(){
+	 	return { toggled:false} 
+	 },
 	 props:['id'],
 	 methods:{
+	    showChildren: function(){
+		if(this.toggled==false){
+		    //turn on this.$children
+		    console.log('hello')
+		    for (each in this.$children){
+			this.$children[each].meSeen=true;
+			this.toggled=true;
+		    }
+		    //turn off everyone else's children
+		    for(one in this.$parent.$children){
+			if (this.$parent.$children[one].list != this.list){
+			    for(two in this.$parent.$children[one].$children){
+				this.$parent.$children[one].$children[two].meSeen=false;
+				//remove activeMonth from everyone else
+				this.$parent.$children[one].toggled=false;
+			    }							}
+			}
+		    }
+		    else{
+			//turn off this.children
+			for (each in this.$children){
+					this.$children[each].meSeen=false;
+					this.toggled=false;
+					}
+			}
+		},
 	     tocItemSelected: function() {
 		 if(this.id.pdf_index >= 1){
 		     Event.$emit("pdf-pageChange",this.id.pdf_index)
@@ -143,7 +172,7 @@ Vue.component('toc-item',{
 	},
 	 template:`
 		<div class="tocItem" v-bind:class='id.type'>
-	    	<div @click='tocItemSelected'>
+	    	<div @click='showChildren'>
             	<div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
 
@@ -157,6 +186,9 @@ Vue.component('toc-item',{
 
 
 Vue.component('child-piece',{
+	data(){
+		return { meSeen:false }
+	},
 	props:['id','pieceIndex'],
 	 methods:{
 		tocItemSelected: function() {
@@ -164,7 +196,7 @@ Vue.component('child-piece',{
 		}
 	},
 	template:`
-		<div class="childPiece" @click='tocItemSelected'>
+		<div v-if="meSeen" class="childPiece" @click='tocItemSelected'>
 			<div class="childPieceTitle">{{id.title}}</div>
             <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
 		<div>
