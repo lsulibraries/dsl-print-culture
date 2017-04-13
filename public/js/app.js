@@ -39,7 +39,7 @@ Vue.component('view-mode-toggle',{
 Vue.component('main-window',{
     methods: {
 	changePage: (which) => {
-	    Event.$emit('pageChange', which);
+	    Event.$emit('pdf-pageChange', which);
 	},
 	modeActive: (mode) => {
 	    issueMode  = this.$root.state.issue.viewMode;
@@ -133,8 +133,10 @@ Vue.component('navigation',{
 Vue.component('toc-item',{
 	 props:['id'],
 	 methods:{
-		tocItemSelected: function() {
-		Event.$emit("pageChange",this.id.pdf_index)
+	     tocItemSelected: function() {
+		 if(this.id.pdf_index >= 1){
+		     Event.$emit("pdf-pageChange",this.id.pdf_index)
+		 }
 		}
 	},
 	 template:`
@@ -156,7 +158,7 @@ Vue.component('child-piece',{
 	props:['id','pieceIndex'],
 	 methods:{
 		tocItemSelected: function() {
-			Event.$emit("pageChange",this.id.pdf_index)
+			Event.$emit("pdf-pageChange",this.id.pdf_index)
 		}
 	},
 	template:`
@@ -180,7 +182,7 @@ Vue.component('pdf-viewer',{
 	    this.current_issue = id;
 	    this.loadPdf(this.current_issue, this.current_page);
 	}),
-	Event.$on('pageChange', (which) => {
+	Event.$on('pdf-pageChange', (which) => {
     	    intPage= parseInt(which);
 	    if(isNaN(intPage)){
 	    	newPage = which == 'next' ? this.current_page += 1 : this.current_page -= 1;
@@ -642,7 +644,7 @@ new Vue({
 	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to)
 	Event.$on('activeModeChange', (mode) => this.state.active = mode )
 	Event.$on('issueSelected', (id) => this.state.issue.id = id )
-	Event.$on('pageChange', (which) => {
+	Event.$on('pdf-pageChange', (which) => {
     	    newPage = which == 'next' ? this.state.issue.page += 1 : this.state.issue.page -= 1;
 	})
 	axios.get('/api/all-issues/json').then((response) => {
