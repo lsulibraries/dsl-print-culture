@@ -36,6 +36,26 @@ class IssuesController extends Controller
 	return response()->file(storage_path($url));
     }
 
+    function all_grouped_json($year = NULL, $month = NULL, $day = NULL){
+        $issues = $this->getIssues($year, $month, $day);
+        $ret = array();
+        $out = '';
+        foreach($issues as $issue){
+            $year  = substr($issue, 0, 4);
+            $month = substr($issue, 4, 2);
+            $d   = substr($issue, 6, 2);
+
+            if(!array_key_exists($year, $ret)){
+                $ret[$year] = array();
+            }
+            if(!array_key_exists($month, $ret[$year])){
+                $ret[$year][$month] = array();
+            }
+            $ret[$year][$month][] = $d;
+        }
+        return response()->json($ret);
+    }
+    
     function toc($id){
         $xml = simplexml_load_string(Storage::get('public/toc/' . $this->getFilenameForID($id)));
         return response()->json($xml);// response()->json($toc);
@@ -44,6 +64,17 @@ class IssuesController extends Controller
     function issueText($id){
         $xml = Storage::get('public/issues/' . $this->getFilenameForID($id));
         return $xml;// response()->json($toc);
+    }
+
+    
+    function pieceText($id, $pid){
+        $issue =  simplexml_load_string(Storage::get('public/issues/' . $this->getFilenameForID($id)));
+        $piece = $issue->xpath("//div[@id='#$pid']");
+        $txt   = '';
+        foreach($piece as $pisces){
+            $txt .= $pisces->asXML();
+        }
+        return response($txt);
     }
     
     private function getFilenameForID($id){

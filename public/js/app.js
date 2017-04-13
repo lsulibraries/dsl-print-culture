@@ -39,7 +39,7 @@ Vue.component('view-mode-toggle',{
 Vue.component('main-window',{
     methods: {
 	changePage: (which) => {
-	    Event.$emit('pageChange', which);
+	    Event.$emit('pdf-pageChange', which);
 	},
 	modeActive: (mode) => {
 	    issueMode  = this.$root.state.issue.viewMode;
@@ -132,15 +132,20 @@ Vue.component('navigation',{
 Vue.component('toc-item',{
 	 props:['id'],
 	 methods:{
-		tocItemSelected: function() {
-		Event.$emit("pageChange",this.id.pdf_index)
+	     tocItemSelected: function() {
+		 if(this.id.pdf_index >= 1){
+		     Event.$emit("pdf-pageChange",this.id.pdf_index)
+		 }
+		 if(this.id.decls_id){
+		     Event.$emit("tei-biblChanged", this.id.decls_id)
+		 }
 		}
 	},
 	 template:`
 		<div class="tocItem" v-bind:class='id.type'>
 	    	<div @click='tocItemSelected'>
             	<div class="tocTitle">{{id.title}}</div>
-            	<div v-if='id.author' class="author">{{id.author}}</div>
+            	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
 
             	<div v-if='id.start' class="pageNumber"></div>
 	    	</div>
@@ -155,7 +160,7 @@ Vue.component('child-piece',{
 	props:['id','pieceIndex'],
 	 methods:{
 		tocItemSelected: function() {
-			Event.$emit("pageChange",this.id.pdf_index)
+			Event.$emit("pdf-pageChange",this.id.pdf_index)
 		}
 	},
 	template:`
@@ -179,7 +184,7 @@ Vue.component('pdf-viewer',{
 	    this.current_issue = id;
 	    this.loadPdf(this.current_issue, this.current_page);
 	}),
-	Event.$on('pageChange', (which) => {
+	Event.$on('pdf-pageChange', (which) => {
     	    intPage= parseInt(which);
 	    if(isNaN(intPage)){
 	    	newPage = which == 'next' ? this.current_page += 1 : this.current_page -= 1;
@@ -229,14 +234,14 @@ Vue.component('pdf-viewer',{
 	// Asynchronous download of PDF
 	var loadingTask = PDFJS.getDocument(url);
 	loadingTask.promise.then(function(pdf) {
-	    console.log('PDF loaded');
+	    //console.log('PDF loaded');
 	    if(page > pdf.pdfInfo.numPages){
 		return;
 	    }
 	    // Fetch the first page
 	    var pageNumber = parseInt(page);
 	    pdf.getPage(pageNumber).then(function(page) {
-		console.log('Page loaded');
+		//console.log('Page loaded');
 
 		var scale = 1.3;
 		var viewport = page.getViewport(scale);
@@ -254,7 +259,7 @@ Vue.component('pdf-viewer',{
 		};
 		var renderTask = page.render(renderContext);
 		renderTask.then(function () {
-		    console.log('Page rendered');
+		    //console.log('Page rendered');
 		});
 	    });
 	}, function (reason) {
@@ -276,12 +281,43 @@ Vue.component('tei-markup',{
 	Event.$on('issueSelected', (id) => {
 	    this.id = id;
 	    this.getTei(this.id);
+	}),
+	Event.$on("tei-biblChanged", (biblId) => {
+	    this.bibl = biblId;
+	    this.getBibl(this.id, biblId);
 	})
     },
     methods: {
 	getTei: function(id){
 	    url = '/api/broadwayjournal/'+ id + '/issue-text';
 	    axios.get(url).then(response => this.issueText = response.data);
+	},
+	getBibl: function(issueId, biblId){
+	    this.biblId = biblId;
+	    this.biblData = this.getTocEntry(issueId, biblId);
+	    url = '/api/broadwayjournal/'+ issueId + '/piece-text/' + biblId;
+	    axios.get(url).then(response => this.issueText = response.data);
+	},
+	getTocEntry: function(issueId, itemId){
+
+	    url = '/api/broadwayjournal/' + issueId + '/toc';
+            axios.get(url).then((response) => {
+		bibl = response.data
+		for (item in bibl.toc){
+		    if(item == itemId){
+			this.biblData = bibl.toc[item]
+			return
+		    }
+		    if(bibl.toc[item].pieces){
+			for (piece in bibl.toc[item].pieces){
+			    if(piece == itemId){
+				this.biblData = bibl.toc[item].pieces.piece
+				return
+			    }
+			}
+		    }
+		}
+	    });
 	}
     },
     mounted() {
@@ -294,51 +330,56 @@ Vue.component('tei-markup',{
 		id: '',
 		page:'',
 		markdown:[],
-		issueText: ''
+		issueText: '',
+		biblId: '',
+		biblData: {}
 	    }
 	},
-        template: `<div class='teiMarkup' v-html="this.issueText"><div>`
+    template: `
+      <div class='tei'>
+        <div v-if="this.biblData" class='citation'>
+        <div class="title">title: {{ this.biblData.title }}</div>
+	<div class="title-type">title type: {{ this.biblData.t_type }}</div>
+	<div class="author-name">author: {{ this.biblData.auth_name }}</div>
+	<div class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
+	<div class="author-status">author status: {{ this.biblData.auth_stat }}</div>
+	<div class="page" v-if="this.biblData.page">page: {{ this.biblData.page }}</div>
+	<div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
+        </div>
+	<div class='teiMarkup' v-html="this.issueText"><div>
+      </div>
+	`
 })
 
 Vue.component('issue-month',{
 	data(){
-		return { toggled: false,
-			issues: this.$parent.$root.paths[this.list],
-			monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUN':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
-		}
+	    return {
+		toggled: false,
+		monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
+	    }
 	},
 	props: {month: '',	list: ''},
-	 mounted(){
-	 	Event.$on('issue-preselected',(data) => {
-
-	 			if(this.monthConvert[this.month] == data.slice(6,-6) && this.list.slice(-2) == data.slice(12)){
-	 				this.showChildren()
-		 		}
-
-	 		});
-	 },
 	methods: {
 	    showChildren: function(){
-			if(this.toggled==false){
-			//turn on this.$children
-				for (each in this.$children){
-					this.$children[each].meSeen=true;
-					this.toggled=true;
-				}
-			//turn off everyone else's children
-				for(one in this.$parent.$children){
-							if (this.$parent.$children[one].list != this.list){
-								for(two in this.$parent.$children[one].$children){
-								this.$parent.$children[one].$children[two].meSeen=false;
-								//remove activeMonth from everyone else
-								this.$parent.$children[one].toggled=false;
-								 }
-							}
-					}
+		if(this.toggled==false){
+		    //turn on this.$children
+		    for (each in this.$children){
+			this.$children[each].meSeen=true;
+			this.toggled=true;
+		    }
+		    //turn off everyone else's children
+		    for(one in this.$parent.$children){
+			if (this.$parent.$children[one].list != this.list){
+			    for(two in this.$parent.$children[one].$children){
+				this.$parent.$children[one].$children[two].meSeen=false;
+				//remove activeMonth from everyone else
+				this.$parent.$children[one].toggled=false;
+			    }							}
 			}
-			else{
-				//turn off this.children
-				for (each in this.$children){
+		    }
+		    else{
+			//turn off this.children
+			for (each in this.$children){
 					this.$children[each].meSeen=false;
 					this.toggled=false;
 					}
@@ -350,7 +391,7 @@ Vue.component('issue-month',{
 						<div class="singleText" >{{this.month}}</div>
 						<div class="indicatorIndex"></div>
 					</div>
-					<index-child :href="each" v-for="each in this.issues"></index-child>
+					<index-child :id="each" v-for="each in this.list"></index-child>
 				</div>`
 });
 
@@ -358,54 +399,65 @@ Vue.component('index-child',{
     data() {
 	return { meSeen:false }
     },
-    props: ['href'],
+    props: ['id'],
     methods: {
-	selectIssue: function(issueId){
+	selectIssue: function(id){
 	    Event.$emit('activeModeChange', 'issue');
-	    id = issueId.slice(-10).split('/').join('');
 	    Event.$emit('issueSelected', id);
 	}
     },
     template: `
-	<div v-if="meSeen" @click="selectIssue(href)" class="childIndex">
-	  <div v-bind:href='href' class="childText" v-text="this.href.slice(-2)"></div>
+	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
+	  <div class="childText" v-text="id.slice(-2)"></div>
 	</div>`
 });
 
 Vue.component('issue-bar',{
+    created(){
+	Event.$on('dataLoaded', () => this.hasData = true)
+    },
 	 data(){
-	 	return {months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
-	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
+	     return {
+		 months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
+		 hasData: false
 
 		 }
 	 },
+    methods:{
+	lookupMonth: function(month){
+	    monthConvert = {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'}
+	    return monthConvert[month]
+	},
+	lookup: function(month, year){
+	    intMonth = this.lookupMonth(month);
+	    ret = []
+	    for(j in this.$root.journals){
+		tmp = this.$root.journals[j]
+		if(tmp.month == intMonth && tmp.year == year){
+		    ret.push(tmp.id)
+		}
+	    }
+	    return ret
+	}
+    },
 	template: `
-		<div class="issueBar">
+		<div v-if="hasData" class="issueBar">
 			<div class="issueMask"></div>
 				<div class="issueIndex">
 					<div class="singleIndex">
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
-					<issue-month :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
-					<issue-month :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
-					<issue-month :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
-					<issue-month :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
-					<issue-month :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
-					<issue-month :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
-					<issue-month :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
-					<issue-month :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
-					<issue-month :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
-					<issue-month :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
-					<issue-month :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
-					<issue-month :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
+	<issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" :month="month"></issue-month>
+
 				</div>
 				<div class="issueIndex">
 					<div class="singleIndex">
 						<div class="yearText">1846</div>
 						<div class="indicatorYear"></div>
-				</div>
-				<issue-month :month='months[0]' :list='lists[12]' class="singleIndex"></issue-month>
+	</div>
+	<!-- todo! clean me up!! -->
+	<issue-month :month='this.months[0]' :list='lookup("JAN","1846")' class="singleIndex"></issue-month>
 			</div>
 		</div>
 		`
@@ -507,12 +559,13 @@ Vue.component('author-modal',{
 	},
 	props:['authInfo','authID'],
 	template: `
+
 		<transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">  
 
 			<div class="modalContent">
 			<div   v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
-			<div v-if='this.$parent.chosen.length' class="mentionNumber">{{this.mentions}}</div>
-			<div v-if='this.$parent.chosen.length' class="contributionNumber">{{this.contribs}}</div>
+			<div v-if='this.$parent.chosen.length  && this.authInfo.totalMentions'  class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>
+			<div v-if='this.$parent.chosen.length  && this.authInfo.totalContribs' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>
 						<div @click='closeModal()' class="closeModal">Close</button>
 
 			</div>
@@ -582,7 +635,29 @@ window.Event = new Vue();
 
 new Vue({
 	el:'#container',
+    methods: {
+	getTocEntry: function(issueId, itemId){
+
+	    url = '/api/broadwayjournal/' + issueId + '/toc';
+            axios.get(url).then((response) => {
+		bibl = response.data
+		for (item in bibl.toc){
+		    if(item == itemId){
+			return bibl.toc[item]
+		    }
+		    if(bibl.toc[item].pieces){
+			for (piece in bibl.toc[item].pieces){
+			    if(piece == itemId){
+				return bibl.toc[item].pieces.piece
+			    }
+			}
+		    }
+		}
+	    });
+	}
+    },
     data: {
+	years: [],
 	state: {
 	    active: 'meta', // issue | meta
 	    meta: {
@@ -617,12 +692,27 @@ new Vue({
 	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to)
 	Event.$on('activeModeChange', (mode) => this.state.active = mode )
 	Event.$on('issueSelected', (id) => this.state.issue.id = id )
-	Event.$on('pageChange', (which) => {
+	Event.$on('pdf-pageChange', (which) => {
     	    newPage = which == 'next' ? this.state.issue.page += 1 : this.state.issue.page -= 1;
 	})
+	axios.get('/api/all-issues/json').then((response) => {
+	    this.journals = response.data;
+
+	    for (issue in this.journals){
+		id = this.journals[issue]
+		year = id.slice(0,4)
+		this.journals[issue] = {
+		    'id':id,
+		    'year': year,
+		    'month': id.slice(4,6),
+		    'day': id.slice(6),
+		}
+		if(this.years.indexOf(year) == -1){
+		    this.years.push(year)
+		}
+	    }
+	    Event.$emit('dataLoaded')
+	});
     },
-    mounted() {
-	axios.get('/api/all-issues/json').then(response => this.journals = response.data);
-    }
 });
 

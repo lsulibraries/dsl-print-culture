@@ -24,6 +24,8 @@ Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
 
 Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText');
 
+Route::get('/api/broadwayjournal/{id}/piece-text/{pid}', 'IssuesController@pieceText');
+
 Route::get('/broadwayjournal/', function () {
  	return "<html><head/><body><script type='text/javascript'>
 	       
@@ -49,6 +51,8 @@ Route::get('/broadwayjournal/', function () {
 });
 
 Route::get('/api/all-issues/json', 'IssuesController@all_json');
+
+Route::get('/api/all-issues-grouped/json', 'IssuesController@all_grouped_json');
 
 Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
 
