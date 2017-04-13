@@ -182,10 +182,9 @@ Vue.component('toc-item',{
 	},
 	 template:`
 		<div class="tocItem" v-bind:class='id.type'>
-	    	<div @click='tocItemSelected'>
+	    	<div class='tocToggle' @click='tocItemSelected'>
             	<div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
-
             	<div v-if='id.start' class="pageNumber"></div>
 	    	</div>
 	    	<child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
