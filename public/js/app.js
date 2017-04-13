@@ -211,7 +211,8 @@ Vue.component('child-piece',{
 	props:['id','pieceIndex'],
 	 methods:{
 		tocItemSelected: function() {
-			Event.$emit("pdf-pageChange",this.id.pdf_index)
+		    Event.$emit("pdf-pageChange",this.id.pdf_index)
+		    Event.$emit("tei-biblChanged", this.id.decls_id)
 		}
 	},
 	template:`
