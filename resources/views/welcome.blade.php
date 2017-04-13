@@ -24,7 +24,6 @@
                 <navigation></navigation>
                 <div class="mainColumn">
                     <main-window ></main-window>
-                    <footer-bar></footer-bar>
                 </div>
                 <issue-bar></issue-bar>
 

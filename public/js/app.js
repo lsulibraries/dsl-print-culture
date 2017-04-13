@@ -70,16 +70,18 @@ Vue.component('main-window',{
 			},
 	template: `
  		<div class="mainWindow">
-
+					<div id="tei" v-if="teiMode">
+						<tei-markup></tei-markup>
+					</div>
 		    <div class="mainCenter">
 	 	  	    <div class="logoTitle" v-if="this.$root.state.active != 'issue'">
 	            	<div class="logoThe">The</div>
 	            	<div class="logoBroadway">Broadway</div>
 	            	<div class="logoJournal">Journal</div>
 		        	<div class="logoSubtitle">A Digital Augmented Edition</div>
+		        		<div class="hrMain"></div>
 		      	</div>
 
-		    	<div class="hrMain"></div>
 		    	<div class="content" v-if="this.$root.state.active != 'issue'">
 		        	<div v-if="content == 'about'">
 			    		{{ aboutText[0] }}
@@ -97,9 +99,6 @@ Vue.component('main-window',{
 	 	    	</div>
 
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
-					<div id="tei" v-if="teiMode">
-						<tei-markup></tei-markup>
-					</div>
 					<button class="next-page" @click="changePage('prev')">Prev Page</button>
 					<button class="next-page" @click="changePage('next')">Next Page</button>
 					<pdf-viewer v-if="!teiMode"></pdf-viewer>
