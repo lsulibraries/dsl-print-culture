@@ -77,9 +77,9 @@ Vue.component('main-window',{
 	            	<div class="logoBroadway">Broadway</div>
 	            	<div class="logoJournal">Journal</div>
 		        	<div class="logoSubtitle">A Digital Augmented Edition</div>
+		        		<div class="hrMain"></div>
 		      	</div>
 
-		    	<div class="hrMain"></div>
 		    	<div class="content" v-if="this.$root.state.active != 'issue'">
 		        	<div v-if="content == 'about'">
 			    		{{ aboutText[0] }}
