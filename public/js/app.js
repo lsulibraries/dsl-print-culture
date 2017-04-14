@@ -48,7 +48,8 @@ Vue.component('view-mode-toggle',{
     },
     template: `
 	<div class='controlBar' v-if="this.$root.state.active == 'issue'">
-	  <span class="teiToggle" @click="issueViewToggled('tei')">TEI</span>
+	<span class="teiToggle" @click="issueViewToggled('tei')">Text</span>
+	<span>&nbsp;|&nbsp; </span>
 	  <span class="pdfToggle" @click="issueViewToggled('pdf')">PDF</span>
 	</div>
 	`
