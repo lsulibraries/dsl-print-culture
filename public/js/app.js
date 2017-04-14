@@ -56,8 +56,20 @@ Vue.component('view-mode-toggle',{
 
 Vue.component('main-window',{
     methods: {
-	changePage: (which) => {
-	    Event.$emit('pdf-pageChange', which);
+	changePage: function (which) {
+	    page = this.$root.state.issue.page;
+	    switch (which) {
+	        case 'next':
+		    page += 1;
+		    break;
+	        case 'prev':
+		    page -= 1;
+		    break;
+	    default:
+		page = 1;
+	    }
+	    page = page <= 1 ? 1 : page;
+	    Event.$emit('pdf-pageChange', page);
 	},
 	modeActive: (mode) => {
 	    issueMode  = this.$root.state.issue.viewMode;
@@ -184,12 +196,12 @@ Vue.component('toc-item',{
 	     tocItemSelected: function() {
 		     this.showChildren();
 			 if(this.id.pdf_index >= 1){
-			     Event.$emit("pdf-pageChange",this.id.pdf_index)
+			     Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
 			 }
 			 
 			if(this.id.pieces){
 			 	for(key in this.id.pieces){
-			     	Event.$emit("pdf-pageChange",this.id.pieces[key].pdf_index)
+			     	    Event.$emit("pdf-pageChange",parseInt(this.id.pieces[key].pdf_index))
 			     	break
 				}
 				
@@ -263,19 +275,8 @@ Vue.component('pdf-viewer',{
 	    this.current_issue = id;
 	    this.loadPdf(this.current_issue, this.current_page);
 	}),
-	Event.$on('pdf-pageChange', (which) => {
-    	    intPage= parseInt(which);
-	    if(isNaN(intPage)){
-	    	newPage = which == 'next' ? this.current_page += 1 : this.current_page -= 1;
-
-	    	if(this.current_page > 0){
-			this.loadPdf(this.current_issue, newPage);
-		}
-	    }
-	   else {
-	   	this.current_page = intPage;
-	   	this.loadPdf(this.current_issue, intPage);
-	   }
+	Event.$on('pdf-pageChange', (page) => {
+	    this.loadPdf(this.current_issue, page);
 	})
     },
     data() {
@@ -378,7 +379,7 @@ Vue.component('tei-markup',{
 	},
 	getBibl: function(issueId, biblId){
 	    this.biblId = biblId;
-	    this.biblData = this.getTocEntry(issueId, biblId);
+	    this.getTocEntry(issueId, biblId);
 	    url = '/api/broadwayjournal/'+ issueId + '/piece-text/' + biblId;
 	    axios.get(url).then(response => this.issueText = response.data);
 	},
@@ -775,9 +776,12 @@ new Vue({
 	})
 	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to)
 	Event.$on('activeModeChange', (mode) => this.state.active = mode )
-	Event.$on('issueSelected', (id) => this.state.issue.id = id )
-	Event.$on('pdf-pageChange', (which) => {
-    	    newPage = which == 'next' ? this.state.issue.page += 1 : this.state.issue.page -= 1;
+	Event.$on('issueSelected', (id) => {
+	    this.state.issue.id = id;
+	    this.state.issue.page = 1;
+	})
+	Event.$on('pdf-pageChange', (page) => {
+    	    this.state.issue.page = page;
 	})
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
