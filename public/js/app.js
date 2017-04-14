@@ -198,16 +198,20 @@ Vue.component('toc-item',{
 			 if(this.id.pdf_index >= 1){
 			     Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
 			 }
-			 
+		 page = 1;
 			if(this.id.pieces){
-			 	for(key in this.id.pieces){
+			    for(key in this.id.pieces){
+				page = this.id.pieces[key].pdf_index;
 			     	    Event.$emit("pdf-pageChange",parseInt(this.id.pieces[key].pdf_index))
 			     	break
 				}
 				
 			}
-			if(this.id.decls_id){
-			     Event.$emit("tei-biblChanged", this.id.decls_id)
+		 if(this.id.decls_id){
+		     if(!this.id.pdf_index){
+			 this.id.pdf_index = page;
+		     }
+			     Event.$emit("tei-biblChanged", this.id)
 		 	}
 		}
 	},
@@ -233,7 +237,7 @@ Vue.component('child-piece',{
 	 methods:{
 		tocItemSelected: function() {
 		    Event.$emit("pdf-pageChange",this.id.pdf_index)
-		    Event.$emit("tei-biblChanged", this.id.decls_id)
+		    Event.$emit("tei-biblChanged", this.id)
 		}
 	},
 	template:`
@@ -282,7 +286,7 @@ Vue.component('pdf-viewer',{
     data() {
 		return {
 			scale: 1.3,
-	    	current_page: 1,
+	    	current_page: this.$root.state.issue.page,
 	    	current_issue: this.$root.state.issue.id
 		}
     },
@@ -367,9 +371,9 @@ Vue.component('tei-markup',{
 	    this.id = id;
 	    this.getTei(this.id);
 	}),
-	Event.$on("tei-biblChanged", (biblId) => {
-	    this.bibl = biblId;
-	    this.getBibl(this.id, biblId);
+	Event.$on("tei-biblChanged", (bibl) => {
+	    this.bibl = bibl.decls_id;
+	    this.getBibl(this.id, this.bibl);
 	})
     },
     methods: {
@@ -783,6 +787,7 @@ new Vue({
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.issue.page = page;
 	})
+	Event.$on('tei-biblChanged', (id) => this.state.issue.page = id.pdf_index)
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
