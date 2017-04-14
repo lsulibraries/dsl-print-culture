@@ -201,7 +201,7 @@ Vue.component('toc-item',{
 		 page = 1;
 			if(this.id.pieces){
 			    for(key in this.id.pieces){
-				page = this.id.pieces[key].pdf_index;
+				page = parseInt(this.id.pieces[key].pdf_index);
 			     	    Event.$emit("pdf-pageChange",parseInt(this.id.pieces[key].pdf_index))
 			     	break
 				}
@@ -236,7 +236,7 @@ Vue.component('child-piece',{
 	props:['id','pieceIndex'],
 	 methods:{
 		tocItemSelected: function() {
-		    Event.$emit("pdf-pageChange",this.id.pdf_index)
+		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
 		    Event.$emit("tei-biblChanged", this.id)
 		}
 	},
@@ -787,7 +787,7 @@ new Vue({
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.issue.page = page;
 	})
-	Event.$on('tei-biblChanged', (id) => this.state.issue.page = id.pdf_index)
+	Event.$on('tei-biblChanged', (id) => this.state.issue.page = parseInt(id.pdf_index))
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
