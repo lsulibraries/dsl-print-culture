@@ -736,91 +736,91 @@ body {
     margin-top: 12px;
   }
 
-  body .highContrast {
+  .highContrast {
     /*1011 to  1001 wide, error*/
     eight: 972px;
   }
-  body .highContrast body {
+  .highContrast body {
     background: #29303a;
   }
-  body .highContrast .documentSection {
+  .highContrast .documentSection {
     background: #faeee2;
   }
-  body .highContrast .documentUnder {
+  .highContrast .documentUnder {
     border: 40px solid #d0c7be;
   }
-  body .highContrast .authorSection {
+  .highContrast .authorSection {
     background: #29303a;
     color: #eee3cf;
   }
-  body .highContrast .mainColumn {
+  .highContrast .mainColumn {
     background: #eee3cf;
   }
-  body .highContrast .mainColumn::after {
+  .highContrast .mainColumn::after {
     border: 1px solid #666666;
   }
-  body .highContrast .hrMain {
+  .highContrast .hrMain {
     background: #666666;
   }
-  body .highContrast .mainWindow {
+  .highContrast .mainWindow {
     color: #666666;
   }
-  body .highContrast .documentFooter {
+  .highContrast .documentFooter {
     background: #322e2b;
   }
-  body .highContrast .documentInner {
+  .highContrast .documentInner {
     border: 1px solid #666666;
   }
-  body .highContrast .singleIndex {
+  .highContrast .singleIndex {
     color: #666666;
   }
-  body .highContrast .singleText, body .highContrast .yearText {
+  .highContrast .singleText, .highContrast .yearText {
     color: #666666;
     background: #29303a;
   }
-  body .highContrast .yearText {
+  .highContrast .yearText {
     background: #29303a;
     color: #ffffff;
   }
-  body .highContrast .childIndex {
+  .highContrast .childIndex {
     color: #666666;
     background: #faeee2;
   }
-  body .highContrast .childText {
+  .highContrast .childText {
     color: #faeee2;
     background: #000000;
   }
-  body .highContrast .childIndex:hover .childText {
+  .highContrast .childIndex:hover .childText {
     color: #faeee2;
   }
-  body .highContrast .singleIndex:hover .singleText, body .highContrast .singleIndex:hover .yearText {
+  .highContrast .singleIndex:hover .singleText, .highContrast .singleIndex:hover .yearText {
     color: #faeee2;
   }
-  body .highContrast .activeMonth .singleText, body .highContrast .activeMonth .yearText {
+  .highContrast .activeMonth .singleText, .highContrast .activeMonth .yearText {
     color: #faeee2;
   }
-  body .highContrast .topMenu div {
+  .highContrast .topMenu div {
     color: #666666;
   }
-  body .highContrast .authorsButton {
+  .highContrast .authorsButton {
     border: 1px solid #666666;
   }
-  body .highContrast .inBorder {
+  .highContrast .inBorder {
     background: rgba(250, 238, 226, 0.3);
   }
-  body .highContrast .nav {
+  .highContrast .nav {
     background: #faeee2;
     border-bottom: 1px solid #d0c7be;
   }
-  body .highContrast .node {
+  .highContrast .node {
     background: #000000;
     color: #29303a;
   }
-  body .highContrast .node a {
+  .highContrast .node a {
     background: #000000;
     color: #29303a;
   }
-  body .highContrast .node .ContributingAuthor {
+  .highContrast .node .ContributingAuthor {
     color: #faeee2;
   }
 

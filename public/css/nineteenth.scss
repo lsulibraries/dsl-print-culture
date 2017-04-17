@@ -779,7 +779,7 @@ line-height: 12px;
 
 
 
-body .highContrast{
+.highContrast{
 
 
 body{
@@ -925,12 +925,10 @@ eight: 972px;
 }
 
 .legend2{
-    @extend .legend1;
     background: $background-authors-color;
 }
 
 .legend3{
-    @extend .legend2;
     border: 2px solid $primary-accent-color-HC2;
     .innerIcon{
         background: $primary-accent-color-HC2;
@@ -938,7 +936,6 @@ eight: 972px;
 }
 
 .legend4{
-    @extend .legend2;
     border: 2px solid $primary-accent-color-HC3;
     .innerIcon{
         background: $primary-accent-color-HC3;
