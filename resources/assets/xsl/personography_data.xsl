@@ -15,10 +15,26 @@
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
+            
             <xsl:variable name="xmlid" select="@xml:id"/>
+            <xsl:variable name="totalcontribs">                        
+                <xsl:for-each-group select="$documents//listBibl//author" group-by="@ref">
+                    <xsl:if test="substring-after(@ref, '#') eq $xmlid">
+                        <xsl:value-of select="count(current-group())"/>
+                    </xsl:if>
+                </xsl:for-each-group>
+            </xsl:variable>
+            <xsl:variable name="totalmentions">
+                <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
+                    <xsl:if test="substring-after(@ref, '#') eq $xmlid">
+                        <xsl:value-of select="count(current-group())"/>
+                    </xsl:if>
+                </xsl:for-each-group>
+            </xsl:variable>
+            
             <xsl:element name="{$xmlid}">
                 <name>
-                    <xsl:value-of select="persName"/>
+                    <xsl:value-of select="persName[not(@type='pseudo')]"/>
                 </name>
                 <init>
                     <xsl:for-each select="tokenize(persName[not(@type='pseudo')], '\s')">
@@ -37,6 +53,11 @@
                         </xsl:choose>
                     </xsl:for-each>
                 </init>
+                <xsl:for-each select="persName[@type='pseudo']">
+                    <pseudo>
+                        <xsl:value-of select="."/>
+                    </pseudo>
+                </xsl:for-each>
                 <xsl:if test="@role">
                     <role>
                         <xsl:value-of select="@role"/>
@@ -47,7 +68,8 @@
                         <xsl:value-of select="persName/@ref"/>
                     </viaf>
                 </xsl:if>
-                <xsl:if test="contains(@role, 'ContributingAuthor')">
+
+                <xsl:if test="string-length($totalcontribs) != 0">
                     <issue_contribs>
                         <xsl:for-each select="$documents">
                             <xsl:for-each-group select="//listBibl//author" group-by="@ref">
@@ -68,19 +90,13 @@
                         </xsl:for-each>
                     </issue_contribs>
                     <total_contribs>
-                        <xsl:for-each-group select="$documents//listBibl//author" group-by="@ref">
-                            <xsl:choose>
-                                <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                    <num>
-                                        <xsl:value-of select="count(current-group())"/>
-                                    </num>
-                                </xsl:when>
-                                <xsl:otherwise/>
-                            </xsl:choose>
-                        </xsl:for-each-group>
+                        <num>
+                            <xsl:value-of select="$totalcontribs"/>
+                        </num>
                     </total_contribs>
                 </xsl:if>
-                <xsl:if test="contains(@role, 'MentionedAuthor')">
+                
+                <xsl:if test="string-length($totalmentions) != 0">
                     <issue_mentions>
                         <xsl:for-each select="$documents">
                             <xsl:for-each-group select="//body//persName" group-by="@ref">
@@ -101,16 +117,9 @@
                         </xsl:for-each>
                     </issue_mentions>
                     <total_mentions>
-                        <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
-                            <xsl:choose>
-                                <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                    <num>
-                                        <xsl:value-of select="count(current-group())"/>
-                                    </num>
-                                </xsl:when>
-                                <xsl:otherwise/>
-                            </xsl:choose>
-                        </xsl:for-each-group>
+                        <num>
+                            <xsl:value-of select="$totalmentions"/>
+                        </num>
                     </total_mentions>
                 </xsl:if>
             </xsl:element>
