@@ -3,30 +3,137 @@
    <anon>
       <name>Anonymous</name>
       <init>A</init>
+      <issue_contribs>
+         <issue>
+            <num>9</num>
+            <idno>18450315</idno>
+         </issue>
+         <issue>
+            <num>3</num>
+            <idno>18450517</idno>
+         </issue>
+         <issue>
+            <num>10</num>
+            <idno>18450125</idno>
+         </issue>
+         <issue>
+            <num>3</num>
+            <idno>18451025</idno>
+         </issue>
+         <issue>
+            <num>2</num>
+            <idno>18450920</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450802</idno>
+         </issue>
+         <issue>
+            <num>7</num>
+            <idno>18451018</idno>
+         </issue>
+         <issue>
+            <num>21</num>
+            <idno>18450208</idno>
+         </issue>
+         <issue>
+            <num>3</num>
+            <idno>18450816</idno>
+         </issue>
+         <issue>
+            <num>7</num>
+            <idno>18450301</idno>
+         </issue>
+         <issue>
+            <num>14</num>
+            <idno>18450215</idno>
+         </issue>
+         <issue>
+            <num>10</num>
+            <idno>18450628</idno>
+         </issue>
+         <issue>
+            <num>12</num>
+            <idno>18451004</idno>
+         </issue>
+         <issue>
+            <num>2</num>
+            <idno>18450823</idno>
+         </issue>
+         <issue>
+            <num>23</num>
+            <idno>18450621</idno>
+         </issue>
+         <issue>
+            <num>15</num>
+            <idno>18450308</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450927</idno>
+         </issue>
+         <issue>
+            <num>2</num>
+            <idno>18450830</idno>
+         </issue>
+         <issue>
+            <num>18</num>
+            <idno>18450201</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18451115</idno>
+         </issue>
+         <issue>
+            <num>5</num>
+            <idno>18450607</idno>
+         </issue>
+         <issue>
+            <num>7</num>
+            <idno>18450531</idno>
+         </issue>
+         <issue>
+            <num>3</num>
+            <idno>18451129</idno>
+         </issue>
+         <issue>
+            <num>3</num>
+            <idno>18451206</idno>
+         </issue>
+         <issue>
+            <num>7</num>
+            <idno>18450222</idno>
+         </issue>
+         <issue>
+            <num>14</num>
+            <idno>18450614</idno>
+         </issue>
+         <issue>
+            <num>8</num>
+            <idno>18450412</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>211</num>
+      </total_contribs>
    </anon>
    <jaddison>
       <name>Joseph Addison</name>
       <init>JA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/7413288</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jaddison>
    <dadee>
       <name>Daniel Adee</name>
       <init>DA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/22000087</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </dadee>
    <whainsworth>
       <name>William Harrison Ainsworth</name>
       <init>WHA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/46894596</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </whainsworth>
    <alolo>
       <name>Alolo</name>
@@ -46,80 +153,60 @@
       <name>J. Akerly</name>
       <init>JA</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </jakerly>
    <jaldrich>
       <name>James Aldrich</name>
       <init>JA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/250318824</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jaldrich>
    <dalighieri>
       <name>Dante Alighieri</name>
       <init>DA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/97105654</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </dalighieri>
    <aalison>
       <name>Sir Archibald Alison</name>
       <init>AA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/69703133</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </aalison>
    <pallen>
       <name>Paul Allen</name>
       <init>PA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/34589661</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </pallen>
    <earam>
       <name>Eugene Aram</name>
       <init>EA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/52043684</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </earam>
    <wsarcher>
       <name>William Segar Archer</name>
       <init>WSA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/70326046</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wsarcher>
    <aristides>
       <name>Aristides</name>
       <init>A</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/61392255</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </aristides>
    <bvarnim>
       <name>Bettina von Arnim</name>
       <init>BvA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/7386152</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </bvarnim>
    <tarnold>
       <name>Thomas Arnold</name>
       <init>TA</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/14778656</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tarnold>
    <pb>
       <name>P. B.</name>
@@ -140,16 +227,12 @@
       <init>RB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/120688673</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </rbacon>
    <ddbarnard>
       <name>Daniel Dewey Barnard</name>
       <init>DDB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/13703232/</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ddbarnard>
    <clbarritt>
       <name>C. L. Barritt</name>
@@ -170,8 +253,6 @@
       <init>BB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/29089795</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </bbates>
    <fbathos>
       <name>Fidelius Bathos</name>
@@ -192,16 +273,12 @@
       <init>JB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/14766002</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jbeattie>
    <cbell>
       <name>Charles Bell</name>
       <init>CB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/2619993/</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cbell>
    <pbenjamin>
       <name>Park Benjamin Sr.</name>
@@ -217,24 +294,18 @@
       <total_contribs>
          <num>1</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </pbenjamin>
    <jmberrien>
       <name>John Macpherson Berrien</name>
       <init>JMB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/4029377/</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jmberrien>
    <hjbertini>
       <name>Henri Jérôme Bertini</name>
       <init>HJB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/12570065</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hjbertini>
    <jbisco>
       <name>John Bisco</name>
@@ -281,6 +352,10 @@
             <idno>18450125</idno>
          </issue>
          <issue>
+            <num>3</num>
+            <idno>18450301</idno>
+         </issue>
+         <issue>
             <num>4</num>
             <idno>18450215</idno>
          </issue>
@@ -306,7 +381,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>45</num>
+         <num>48</num>
       </total_contribs>
    </cfbriggs>
    <cpbronson>
@@ -314,39 +389,29 @@
       <init>CPB</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/54080038</viaf>
-      <issue_contribs/>
-      <total_contribs/>
    </cpbronson>
    <cbbrown>
       <name>Charles Brockdon Brown</name>
       <init>CBB</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </cbbrown>
    <gbush>
       <name>George Bush</name>
       <init>GB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/35315106</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gbush>
    <wcbryant>
       <name>William Cullen Bryant</name>
       <init>WCB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24640113</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wcbryant>
    <fburney>
       <name>Fanny Burney</name>
       <init>FB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/95297439</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fburney>
    <ehburrington>
       <name>Edwin Henry Burrington</name>
@@ -366,32 +431,24 @@
       <name>C.</name>
       <init>C</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </c>
    <tcampbell>
       <name>Thomas Campbell</name>
       <init>TC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/39510901</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tcampbell>
    <ecantwell>
       <name>Edward Cantwell</name>
       <init>EC</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/78342846</viaf>
-      <issue_contribs/>
-      <total_contribs/>
    </ecantwell>
    <tcarlyle>
       <name>Thomas Carlyle</name>
       <init>TC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/39390702</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tcarlyle>
    <rcarter>
       <name>Robert Carter</name>
@@ -405,6 +462,10 @@
          </issue>
          <issue>
             <num>1</num>
+            <idno>18450301</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450215</idno>
          </issue>
          <issue>
@@ -413,7 +474,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>3</num>
+         <num>4</num>
       </total_contribs>
    </rcarter>
    <fcatherwood>
@@ -421,40 +482,30 @@
       <init>FC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100283356</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fcatherwood>
    <gcatlin>
       <name>George Catlin</name>
       <init>GC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/88688790</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gcatlin>
    <wcarleton>
       <name>William Carleton</name>
       <init>WC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/44383913</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wcarleton>
    <cdcennini>
       <name>Cennino Cennini</name>
       <init>CC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100207316</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cdcennini>
    <wechanning>
       <name>William Ellery Channing</name>
       <init>WEC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100283356</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wechanning>
    <lmchild>
       <name>Lydia Maria Child</name>
@@ -470,8 +521,6 @@
       <total_contribs>
          <num>2</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </lmchild>
    <thchivers>
       <name>Thomas Holley Chivers</name>
@@ -497,23 +546,17 @@
       <init>RC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/33288487</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </rchoate>
    <cchurchill>
       <name>Charles Churchill</name>
       <init>CC</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </cchurchill>
    <ljcist>
       <name>Lewis J. Cist</name>
       <init>LJC</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/37320758</viaf>
-      <issue_contribs/>
-      <total_contribs/>
    </ljcist>
    <hhclements>
       <name>H. H. Clements</name>
@@ -535,40 +578,30 @@
       <init>TLC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/72235020</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tlclingman>
    <wcobbett>
       <name>William Cobbett</name>
       <init>WC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/308908160</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wcobbett>
    <jgcogswell>
       <name>Joseph Green Cogswell</name>
       <init>JGC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/54014707</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jgcogswell>
    <stcoleridge>
       <name>Samuel Taylor Coleridge</name>
       <init>STC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24599809</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </stcoleridge>
    <jcollamer>
       <name>Jacob Collamer</name>
       <init>JC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/26147987</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jcollamer>
    <colman>
       <name>Miss Colman</name>
@@ -589,8 +622,6 @@
       <init>GHC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/54035923</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ghcolton>
    <ppcooke>
       <name>Philip Pendleton Cooke</name>
@@ -612,16 +643,12 @@
       <init>AC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/95254963</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </acowley>
    <wcowper>
       <name>William Cowper</name>
       <init>WC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/32009788</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wcowper>
    <whcrome>
       <name>William Henry Crome</name>
@@ -643,15 +670,11 @@
       <init>AC</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/79253486</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </acunningham>
    <gfd>
       <name>G. F. D.</name>
       <init>GFD</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </gfd>
    <sd>
       <name>S. D.</name>
@@ -672,48 +695,36 @@
       <init>RHD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/5810312</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </rhdana>
    <ldavinci>
       <name>Leonardo da Vinci</name>
       <init>LdV</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24604287</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ldavinci>
    <adavezac>
       <name>Auguste Davezac</name>
       <init>AD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/21752864</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </adavezac>
    <hdavy>
       <name>Humphry Davy</name>
       <init>HD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/29630108</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hdavy>
    <jdbdebow>
       <name>James Dunwoody Brownson DeBow</name>
       <init>JDBD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/56169127</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jdbdebow>
    <ddefoe>
       <name>Daniel Defoe</name>
       <init>DD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/39375774</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ddefoe>
    <hsdegrove>
       <name>Mrs. H. S. De Grove</name>
@@ -734,64 +745,57 @@
       <init>CJHD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/88666393</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cdickens>
    <bdisraeli>
       <name>Benjamin Disraeli</name>
       <init>BD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/49233448</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </bdisraeli>
    <asdoane>
       <name>Augustus Sidney Doane</name>
       <init>ASD</init>
       <role>MentionedAuthor Correspondent</role>
       <viaf>http://viaf.org/viaf/70425582</viaf>
-      <issue_mentions/>
-      <total_mentions/>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450201</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </asdoane>
    <pdoddridge>
       <name>Philip Doddridge</name>
       <init>PD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/39427796</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </pdoddridge>
    <jdryden>
       <name>John Dryden</name>
       <init>JD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/68937979</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jdryden>
    <gdsdubartas>
       <name>Guillaume de Saluste Du Bartas</name>
       <init>GdSDB</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/73852818</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gdsdubartas>
    <adumas>
       <name>Alexandre Dumas</name>
       <init>AD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/51688902</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </adumas>
    <fadurivage>
       <name>Francis Alexander Durivage</name>
       <init>FAD</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/15110811</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fadurivage>
    <eaduyckinck>
       <name>Evert Augustus Duyckinck</name>
@@ -807,47 +811,35 @@
       <total_contribs>
          <num>1</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </eaduyckinck>
    <edyer>
       <name>Sir Edward Dyer</name>
       <init>ED</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/18580778</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </edyer>
    <e>
       <name>E.</name>
       <init>E</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </e>
    <ceames>
       <name>Charles Eames</name>
       <init>CE</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/53517374</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ceames>
    <cleastlake>
       <name>Sir Charles Lock Eastlake</name>
       <init>CLE</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/61676654</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cleastlake>
    <medgeworth>
       <name>Maria Edgeworth</name>
       <init>ME</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/71477273</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </medgeworth>
    <efellet>
       <name>Elizabeth Fries Ellet</name>
@@ -867,15 +859,11 @@
       <total_contribs>
          <num>2</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </efellet>
    <cwelmi>
       <name>C. Wilkins Elmi</name>
       <init>CWE</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </cwelmi>
    <ecembury>
       <name>Emma Catherine Embury</name>
@@ -891,16 +879,12 @@
       <total_contribs>
          <num>1</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </ecembury>
    <rwemerson>
       <name>Ralph Waldo Emerson</name>
       <init>RWE</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/27079964</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </rwemerson>
    <tdenglish>
       <name>Thomas Dunn English</name>
@@ -920,97 +904,71 @@
       <total_contribs>
          <num>2</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </tdenglish>
    <aheverett>
       <name>Alexander Hill Everett</name>
       <init>AHE</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/19781597</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </aheverett>
    <hf>
       <name>H. F.</name>
       <init>HF</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </hf>
    <jfinch>
       <name>John Finch</name>
       <init>JF</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/211157901</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jfinch>
    <gfield>
       <name>George Field</name>
       <init>GF</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/45929525</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gfield>
    <hfish>
       <name>Hamilton Fish</name>
       <init>HF</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/232585893</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hfish>
    <jflaxman>
       <name>John Flaxman</name>
       <init>JF</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17260670</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jflaxman>
    <afletcher>
       <name>Alexander Fletcher</name>
       <init>AF</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/5275198</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </afletcher>
    <jfroissart>
       <name>Jean (Jehan) Froissart</name>
       <init>JF</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100178580</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jfroissart>
    <smfuller>
       <name>Sarah Margaret Fuller</name>
       <init>SMF</init>
       <role>MentionedAuthor ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/9866789</viaf>
-      <issue_contribs/>
-      <total_contribs/>
-      <issue_mentions/>
-      <total_mentions/>
    </smfuller>
    <ogoldsmith>
       <name>Oliver Goldsmith</name>
       <init>OG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100167171</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ogoldsmith>
    <gcfullerton>
       <name>Lady Georgiana Charlotte Leveson-Gower Fullerton</name>
       <init>GCLF</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/76348624</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gcfullerton>
    <fgaleota>
       <name>Fabio Mario Galeota</name>
@@ -1032,32 +990,24 @@
       <init>WDG</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/78631456</viaf>
-      <issue_contribs/>
-      <total_contribs/>
    </wdgallgaher>
    <agallatin>
       <name>Abraham Alfonse Albert Gallatin</name>
       <init>AAAG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/15580820</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </agallatin>
    <jgalt>
       <name>John Galt</name>
       <init>JG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/61562976</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jgalt>
    <egibbon>
       <name>Edward Gibbon</name>
       <init>EG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24601933</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </egibbon>
    <wg>
       <name>W. G.</name>
@@ -1096,100 +1046,89 @@
       <init>WMG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/36021110</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wmgillespie>
    <jgiven>
       <name>James Given</name>
       <init>JG</init>
       <role>Correspondent</role>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450315</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450308</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>2</num>
+      </total_contribs>
    </jgiven>
    <wgodwin>
       <name>William Godwin</name>
       <init>WG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/68929729</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wgodwin>
    <jwvgoethe>
       <name>Johann Wolfgang von Goethe</name>
       <init>JWvG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24602065</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jwvgoethe>
    <sggoodrich>
       <name>Samuel Griswold Goodrich</name>
       <init>SGG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/88993961</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </sggoodrich>
    <cgfgore>
       <name>Catherine Grace Frances Gore</name>
       <init>CGFG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/74020526</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cgfgore>
    <ecjgray>
       <name>Elizabeth Caroline Johnstone Gray</name>
       <init>ECJG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/59433323</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ecjgray>
    <hgreeley>
       <name>Horace Greeley</name>
       <init>HG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24772897</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hgreeley>
    <jhgreen>
       <name>Jonathan Harrington Green</name>
       <init>JHG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/59433323</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jhgreen>
    <rwgriswold>
       <name>Rufus Wilmot Griswold</name>
       <init>RWG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17212832</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </rwgriswold>
    <gguidiccioni>
       <name>Giovanni Guidiccioni</name>
       <init>GG</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/88331</viaf>
-      <issue_contribs/>
-      <total_contribs/>
    </gguidiccioni>
    <jgwilt>
       <name>Joseph Gwilt</name>
       <init>JG</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/44695741</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jgwilt>
    <h>
       <name>H.</name>
       <init>H</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </h>
    <bh>
       <name>B. H.</name>
@@ -1209,8 +1148,6 @@
       <name>E. H.</name>
       <init>EH</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </eh>
    <phaedi>
       <name>Pater Haedi</name>
@@ -1261,24 +1198,18 @@
       <init>CFH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/73843730</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cfhall>
    <jhall>
       <name>Joseph Hall</name>
       <init>JH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/61678894</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jhall>
    <schall>
       <name>Samuel Carter Hall</name>
       <init>SCH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/67216250</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </schall>
    <fghalleck>
       <name>Fitz-Greene Halleck</name>
@@ -1294,56 +1225,42 @@
       <total_contribs>
          <num>1</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </fghalleck>
    <wthamilton>
       <name>William T. Hamilton</name>
       <init>WTH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/70395367</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wthamilton>
    <jjhardin>
       <name>John Jay Hardin</name>
       <init>JJH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/14635705</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jjhardin>
    <whauff>
       <name>Wilhelm Hauff</name>
       <init>WH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/9931960</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </whauff>
    <drhay>
       <name>David Ramsay Hay</name>
       <init>DRH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/2860461</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </drhay>
    <brhaydon>
       <name>Benjamin Robert Haydon</name>
       <init>BRH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/29662326</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </brhaydon>
    <whazlitt>
       <name>William Hazlitt</name>
       <init>WH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/87145187</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </whazlitt>
    <jtheadley>
       <name>Joel Tyler Headley</name>
@@ -1359,39 +1276,29 @@
       <total_contribs>
          <num>1</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </jtheadley>
    <cahelvetius>
       <name>Claude Adrien Helvétius</name>
       <init>CAH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100185545</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cahelvetius>
    <fhemans>
       <name>Felicia Dorothea Hemans</name>
       <init>FDH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17397168</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fhemans>
    <herodotus>
       <name>Herodotus</name>
       <init>H</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100225976</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </herodotus>
    <wheseltine>
       <name>William Heseltine</name>
       <init>WH</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </wheseltine>
    <mehewitt>
       <name>Mary Elizabeth Hewitt</name>
@@ -1429,8 +1336,6 @@
       <init>JH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/41859470</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jheywood>
    <hbhirst>
       <name>Henry Beck Hirst</name>
@@ -1460,24 +1365,18 @@
       <init>GFH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/75589537</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gfholmes>
    <thood>
       <name>Thomas Hood</name>
       <init>TH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17247761</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </thood>
    <ghorne>
       <name>George Horne</name>
       <init>GH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/71474094</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ghorne>
    <horus>
       <name>Horus</name>
@@ -1489,32 +1388,24 @@
       <init>FH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/59361412</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fhoward>
    <rhoyt>
       <name>Ralph Hoyt</name>
       <init>RH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/55862847</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </rhoyt>
    <dhume>
       <name>David Hume</name>
       <init>DH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/49226972</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </dhume>
    <fhunt>
       <name>Freeman Hunt</name>
       <init>FH</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/6496622</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fhunt>
    <amide>
       <name>Abijah Metcalf Ide, Jr.</name>
@@ -1543,47 +1434,35 @@
       <init>JRI</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/48200021</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jringersoll>
    <jinman>
       <name>John Inman</name>
       <init>JI</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/46681078</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jinman>
    <eirving>
       <name>Edward Irving</name>
       <init>EI</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/37687636</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </eirving>
    <j>
       <name>J.</name>
       <init>J</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </j>
    <gjones>
       <name>George Jones</name>
       <init>GJ</init>
       <role>MentionedAuthor</role>
       <viaf>http://www.viaf.org/viaf/43864654</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gjones>
    <sjohnson>
       <name>Samuel Johnson</name>
       <init>SJ</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/7406725</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </sjohnson>
    <wajones>
       <name>William Alfred Jones</name>
@@ -1604,55 +1483,41 @@
       <name>K.</name>
       <init>K</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </k>
    <tkeightley>
       <name>Thomas Keightley</name>
       <init>TK</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24954462</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tkeightley>
    <jpkennedy>
       <name>John Pendleton Kennedy</name>
       <init>JPK</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/15290449</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jpkennedy>
    <cmketeltas>
       <name>Caroline M. Keteltas</name>
       <init>CMK</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </cmketeltas>
    <cking>
       <name>Charles King</name>
       <init>CK</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/67936599</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cking>
    <tbking>
       <name>Thomas Butler King</name>
       <init>TBK</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/53160666</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tbking>
    <cmkirkland>
       <name>Caroline Mathilda Stansbury Kirkland</name>
       <init>CMSK</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/45095811</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cmkirkland>
    <hcl>
       <name>H. C. L.</name>
@@ -1676,32 +1541,24 @@
       <name>L.</name>
       <init>L</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </l>
    <flanaterzi>
       <name>Francesco Lana de Terzi</name>
       <init>FLdT</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/27801240</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </flanaterzi>
    <clanman>
       <name>Charles Lanman</name>
       <init>CL</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/15148068</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </clanman>
    <llanzi>
       <name>Luigi Lanzi</name>
       <init>LL</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/78760428</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </llanzi>
    <mllawson>
       <name>Mary L. Lawson</name>
@@ -1728,16 +1585,12 @@
       <init>JL</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/34459614</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jlocke>
    <hwlongfellow>
       <name>Henry Wadsworth Longfellow</name>
       <init>HWL</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/54150826</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hwlongfellow>
    <jrlowell>
       <name>James Russell Lowell</name>
@@ -1761,8 +1614,6 @@
       <total_contribs>
          <num>4</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </jrlowell>
    <mwlowell>
       <name>Maria White Lowell</name>
@@ -1770,6 +1621,10 @@
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/63040126</viaf>
       <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450301</idno>
+         </issue>
          <issue>
             <num>1</num>
             <idno>18450201</idno>
@@ -1780,7 +1635,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>2</num>
+         <num>3</num>
       </total_contribs>
    </mwlowell>
    <aclynch>
@@ -1807,78 +1662,58 @@
       <init>EGEBL</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/99871326</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </eblytton>
    <im>
       <name>I. M.</name>
       <init>IM</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </im>
    <tbmacaulay>
       <name>Thomas Babington Macaulay</name>
       <init>TBM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/56618365</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tbmacaulay>
    <cdmacleod>
       <name>C. Donald Macleod</name>
       <init>CDM</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </cdmacleod>
    <jjmapes>
       <name>James Jay Mapes</name>
       <init>JJM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/60658410</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jjmapes>
    <fmarryat>
       <name>Frederick Marryat</name>
       <init>FM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/39380934</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fmarryat>
    <gpmarsh>
       <name>George Perkins Marsh</name>
       <init>GPM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17288270</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gpmarsh>
    <hmartineau>
       <name>Harriet Martineau</name>
       <init>HM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/14785544</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hmartineau>
    <wmason>
       <name>William Mason</name>
       <init>WM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/95718679</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wmason>
    <cmathews>
       <name>Cornelius Mathews</name>
       <init>CM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/60326256</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </cmathews>
    <abmeek>
       <name>Alexander Beaufort Meek</name>
@@ -1900,16 +1735,12 @@
       <init>JM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/41844048</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jmichelet>
    <tmiddleton>
       <name>Thomas Middleton</name>
       <init>TM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/292459958</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tmiddleton>
    <ghmildeberger>
       <name>G. H. Mildeberger</name>
@@ -1930,40 +1761,30 @@
       <init>JM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/65506759</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jmiller>
    <jmilton>
       <name>John Milton</name>
       <init>JM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17226855</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jmilton>
    <tmoore>
       <name>Thomas Moore</name>
       <init>TM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/24616222</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tmoore>
    <hmore>
       <name>Hannah More</name>
       <init>HM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/51802053</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hmore>
    <ejmorris>
       <name>Edward Joy Morris</name>
       <init>EJM</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/50802161</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ejmorris>
    <jemurdoch>
       <name>James Edward Murdoch</name>
@@ -1985,8 +1806,6 @@
       <init>JN</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/13102559</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jneal>
    <mgnichols>
       <name>Mary Sargeant Gove Nichols</name>
@@ -2007,24 +1826,18 @@
       <name>Lewis L. Noble</name>
       <init>LLN</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </llnoble>
    <btonderdonk>
       <name>Benjamin Treadwell Onderdonk</name>
       <init>BTO</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/55545295</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </btonderdonk>
    <aaopie>
       <name>Amelia Alderson Opie</name>
       <init>AAO</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/39410771</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </aaopie>
    <losborn>
       <name>Laughton Osborn</name>
@@ -2069,21 +1882,27 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>4</num>
-         <num>1</num>
+         <num>41</num>
       </total_contribs>
    </fsosgood>
    <outis>
       <name>Mr. Outis</name>
       <init>O</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </outis>
    <map>
       <name>Mary Ann P.</name>
       <init>MAP</init>
       <role>Correspondent</role>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450201</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>1</num>
+      </total_contribs>
    </map>
    <wpage>
       <name>William Page</name>
@@ -2101,11 +1920,15 @@
          </issue>
          <issue>
             <num>1</num>
+            <idno>18450301</idno>
+         </issue>
+         <issue>
+            <num>1</num>
             <idno>18450308</idno>
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>4</num>
+         <num>5</num>
       </total_contribs>
    </wpage>
    <tparnell>
@@ -2113,23 +1936,17 @@
       <init>TP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/32041540</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tparnell>
    <ehpatterson>
       <name>Edwin Howard Norton Patterson</name>
       <init>EHNP</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </ehpatterson>
    <jpaul>
       <name>Jean Paul</name>
       <init>JP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/64011067</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jpaul>
    <cperabeau>
       <name>Charles Perabeau</name>
@@ -2164,24 +1981,18 @@
       <init>TP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/21147179</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tpicton>
    <apike>
       <name>Albert Pike</name>
       <init>AP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/12428852</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </apike>
    <ecpinkney>
       <name>Edward Coote Pinkney</name>
       <init>ECP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/49081698</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ecpinkney>
    <eapoe>
       <name>Edgar Allan Poe</name>
@@ -2228,6 +2039,10 @@
          <issue>
             <num>41</num>
             <idno>18450816</idno>
+         </issue>
+         <issue>
+            <num>4</num>
+            <idno>18450301</idno>
          </issue>
          <issue>
             <num>1</num>
@@ -2299,51 +2114,38 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>305</num>
-         <num>1</num>
+         <num>3091</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </eapoe>
    <apope>
       <name>Alexander Pope</name>
       <init>AP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/61551003</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </apope>
    <jporter>
       <name>Jane Porter</name>
       <init>JP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/51964829</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jporter>
    <whprescott>
       <name>William Hickling Prescott</name>
       <init>WHP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/14775490</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </whprescott>
    <awpugin>
       <name>Augustus Welby Northmore Pugin</name>
       <init>AWNP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17247761</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </awpugin>
    <jpycroft>
       <name>James Pycroft</name>
       <init>JP</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/39751793</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jpycroft>
    <r>
       <name>R.</name>
@@ -2364,32 +2166,24 @@
       <init>MKR</init>
       <role>MentionedAuthor</role>
       <viaf>http://www.viaf.org/viaf/64402657</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </mkreid>
    <jreynolds>
       <name>Sir Joshua Reynolds</name>
       <init>JR</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/27081216</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jreynolds>
    <dlrichardson>
       <name>David Lester Richardson</name>
       <init>DLR</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/72944734</viaf>
-      <issue_contribs/>
-      <total_contribs/>
    </dlrichardson>
    <acmritchie>
       <name>Anna Cora Ogden Mowatt Ritchie</name>
       <init>ACOMR</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/33288782</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </acmritchie>
    <frobinson>
       <name>Fay Robinson</name>
@@ -2414,39 +2208,29 @@
       <init>JR</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/19581167</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jrochietti>
    <ebrodman>
       <name>E. B. Rodman</name>
       <init>EBR</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </ebrodman>
    <srogers>
       <name>Samuel Rogers</name>
       <init>SR</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/34584260</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </srogers>
    <fmrowan>
       <name>Frederica Maclean Rowan</name>
       <init>FMR</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/7254636</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fmrowan>
    <nrowe>
       <name>Nicholas Rowe</name>
       <init>NR</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/19751395</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </nrowe>
    <rsrowley>
       <name>R. S. Rowley</name>
@@ -2471,8 +2255,6 @@
       <init>JCFvS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/96994450</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </fschiller>
    <hrschoolcraft>
       <name>Henry Rowe Schoolcraft</name>
@@ -2484,59 +2266,49 @@
             <num>1</num>
             <idno>18450125</idno>
          </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450301</idno>
+         </issue>
       </issue_contribs>
       <total_contribs>
-         <num>1</num>
+         <num>2</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </hrschoolcraft>
    <gcscott>
       <name>Genio Columbus Scott</name>
       <init>GCS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/77849688</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gcscott>
    <wscott>
       <name>Sir Walter Scott</name>
       <init>WS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/95207079</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wscott>
    <waseeley>
       <name>W. A. Seeley</name>
       <init>WAS</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </waseeley>
    <wshakespeare>
       <name>William Shakespeare</name>
       <init>WS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/96994048</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wshakespeare>
    <pbshelley>
       <name>Percy Bysshe Shelley</name>
       <init>PBS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/95159449</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </pbshelley>
    <lhsigourney>
       <name>Lydia Huntley Sigourney</name>
       <init>LHS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/67241256</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </lhsigourney>
    <wgsimms>
       <name>William Gilmore Simms</name>
@@ -2572,80 +2344,60 @@
       <total_contribs>
          <num>7</num>
       </total_contribs>
-      <issue_mentions/>
-      <total_mentions/>
    </wgsimms>
    <ssmith>
       <name>Sydney Smith</name>
       <init>SS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/13103803</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ssmith>
    <tgsmollett>
       <name>Tobias George Smollett</name>
       <init>TGS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/68935985</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </tgsmollett>
    <sophocles>
       <name>Sophocles</name>
       <init>S</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/101760867</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </sophocles>
    <apstanley>
       <name>Arthur Penrhyn Stanley</name>
       <init>APS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/54137873</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </apstanley>
    <ahstephens>
       <name>Alexander Hamilton Stephens</name>
       <init>AHS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/22949859</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ahstephens>
    <strabo>
       <name>Strabo</name>
       <init>S</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/100219883</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </strabo>
    <esue>
       <name>Eugene Sue</name>
       <init>ES</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/66473859</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </esue>
    <ajsullivan>
       <name>Arabella Jane Sullivan</name>
       <init>AJS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/67194114</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ajsullivan>
    <jswift>
       <name>Jonathan Swift</name>
       <init>JS</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/14777110</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jswift>
    <t>
       <name>T.</name>
@@ -2666,24 +2418,18 @@
       <init>WBST</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/62338567</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wbstaylor>
    <jltellkampf>
       <name>Johann Ludwig Tellkampf</name>
       <init>JLT</init>
       <role>ContributingAuthor</role>
       <viaf>http://viaf.org/viaf/77046838</viaf>
-      <issue_contribs/>
-      <total_contribs/>
    </jltellkampf>
    <wmthackeray>
       <name>William Makepeace Thackeray</name>
       <init>WMT</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/95208604</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wmthackeray>
    <fwthomas>
       <name>Frederick William Thomas</name>
@@ -2709,16 +2455,12 @@
       <init>GT</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/5309233</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gthorburn>
    <gtroost>
       <name>Gerard Troost</name>
       <init>GT</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/19530779</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </gtroost>
    <mhtrowbridge>
       <name>Marcus H. Trowbridge</name>
@@ -2739,44 +2481,47 @@
       <init>JT</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/12557753</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jtrumbull>
    <httuckerman>
       <name>Henry Theodore Tuckerman</name>
       <init>HTT</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/42895727</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </httuckerman>
    <wwturner>
       <name>William Wadden Turner</name>
       <init>WWT</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/59474663</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wwturner>
    <saw>
       <name>S. A. W.</name>
       <init>SAW</init>
       <role>Correspondent</role>
+      <issue_contribs>
+         <issue>
+            <num>1</num>
+            <idno>18450215</idno>
+         </issue>
+         <issue>
+            <num>1</num>
+            <idno>18450222</idno>
+         </issue>
+      </issue_contribs>
+      <total_contribs>
+         <num>2</num>
+      </total_contribs>
    </saw>
    <W>
       <name>W.</name>
       <init>W</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </W>
    <ewaller>
       <name>Edmund Waller</name>
       <init>EW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/47109686</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </ewaller>
    <gbwallis>
       <name>George B. Wallis</name>
@@ -2798,23 +2543,17 @@
       <init>HW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17231985</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hwalpole>
    <iwalton>
       <name>Izaak Walton</name>
       <init>IW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/73863052</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </iwalton>
    <jwaters>
       <name>John Waters</name>
       <init>JW</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </jwaters>
    <hcwatson>
       <name>Henry Cood Watson</name>
@@ -2845,6 +2584,10 @@
          <issue>
             <num>1</num>
             <idno>18450816</idno>
+         </issue>
+         <issue>
+            <num>3</num>
+            <idno>18450301</idno>
          </issue>
          <issue>
             <num>1</num>
@@ -2908,8 +2651,7 @@
          </issue>
       </issue_contribs>
       <total_contribs>
-         <num>30</num>
-         <num>1</num>
+         <num>331</num>
       </total_contribs>
    </hcwatson>
    <dwebster>
@@ -2917,39 +2659,29 @@
       <init>DW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/4944460</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </dwebster>
    <hhweld>
       <name>Horatio Hastings Weld</name>
       <init>HHW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/17069432</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hhweld>
    <mgwells>
       <name>Mary G. Wells</name>
       <init>MGW</init>
       <role>ContributingAuthor</role>
-      <issue_contribs/>
-      <total_contribs/>
    </mgwells>
    <epwhipple>
       <name>Edwin Percy Whipple</name>
       <init>EPW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/18042169</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </epwhipple>
    <dkwhitaker>
       <name>Daniel Kimball Whitaker</name>
       <init>DKW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/29401758</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </dkwhitaker>
    <wwhitman>
       <name>Walter Whitman</name>
@@ -2975,47 +2707,35 @@
       <init>NPW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/189826</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </npwillis>
    <hwilson>
       <name>Harry Wilson</name>
       <init>HW</init>
       <role>MentionedAuthor</role>
-      <issue_mentions/>
-      <total_mentions/>
    </hwilson>
    <jwilson>
       <name>John Wilson</name>
       <init>JW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/47566585</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </jwilson>
    <rcwinthrop>
       <name>Robert Charles Winthrop</name>
       <init>RCW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/76690634</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </rcwinthrop>
    <wwordsworth>
       <name>William Wordsworth</name>
       <init>WW</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/35723133</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </wwordsworth>
    <xenophon>
       <name>Xénophon</name>
       <init>X</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/89597697</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </xenophon>
    <lsy>
       <name>L. S. Y.</name>
@@ -3036,8 +2756,6 @@
       <init>JHDZ</init>
       <role>MentionedAuthor</role>
       <viaf>http://viaf.org/viaf/56743380</viaf>
-      <issue_mentions/>
-      <total_mentions/>
    </hzschokke>
    <lcoats>
       <name>Lauren A. Coats</name>
