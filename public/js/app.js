@@ -134,7 +134,7 @@ Vue.component('view-mode-button',{
 Vue.component('main-window',{
     methods: {
 	toggleVis: function (){
-	    this.$root.visibility = this.$root.visibility == 'high' ? 'normal' : 'high';
+	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
 	    Event.$emit('toggleVisibility');
 	},
 	readerMode: function () {
