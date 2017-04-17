@@ -12,6 +12,47 @@ window.Util  = new Vue({
 
 });
 
+Vue.component('pseudo-body', {
+    created() {
+	Event.$on('toggleVisibility', (content) => {
+	    this.visibility = this.$root.visibility;
+	})
+    },
+    data() {
+	return {
+	    visibility: this.$root.visibility
+	}
+    },
+    template: `
+        <div id="pseudo-body" v-bind:class="this.visibility">
+        <div class="nav">
+                <div class="libLogo">
+                    <img src="images/libraries_logo.png"></img>
+                </div>
+                                    <view-mode-toggle></view-mode-toggle>
+
+                                <meta-menu></meta-menu>
+
+            </div>     
+            <div class="documentSection">
+                <div class="documentUnder"></div>
+                <div class="documentOverflow"></div>
+                <navigation></navigation>
+                <div class="mainColumn">
+                    <main-window ></main-window>
+                </div>
+                <issue-bar></issue-bar>
+
+            </div>
+
+            <author-section class="authorSection">
+            </author-section>
+        </div>
+	</div>
+    `
+})
+
+
 Vue.component('meta-menu',{
     data() {
 		return {
@@ -68,6 +109,10 @@ Vue.component('view-mode-toggle',{
 
 Vue.component('main-window',{
     methods: {
+	toggleVis: function (){
+	    this.$root.visibility = this.$root.visibility == 'high' ? 'normal' : 'high';
+	    Event.$emit('toggleVisibility');
+	},
 	readerMode: function () {
 	    return this.$root.state.active == 'issue' ? true : false;
 	},
@@ -144,7 +189,8 @@ Vue.component('main-window',{
 	 	    	</div>
 
 	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
-					<button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
+	<button @click='toggleVis'>Vis</button>
+	<button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
 					<zoom-slider v-if='!teiMode'></zoom-slider>
 					<button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
 					<pdf-viewer v-if="!teiMode"></pdf-viewer>
@@ -762,6 +808,7 @@ new Vue({
 	}
     },
     data: {
+	visibility: 'normal',
     journals:[],
 	years: [],
 	state: {
