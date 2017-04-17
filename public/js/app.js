@@ -443,12 +443,14 @@ Vue.component('tei-markup',{
         <div v-if="this.biblData" class='citation'>
         <div class="title">title: {{ this.biblData.title }}</div>
 	<div class="title-type">title type: {{ this.biblData.t_type }}</div>
-	<div class="author-name">author: {{ this.biblData.auth_name }}</div>
-	<div class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
-	<div class="author-status">author status: {{ this.biblData.auth_stat }}</div>
-	<div class="page" v-if="this.biblData.page">page: {{ this.biblData.page }}</div>
-	<div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
-        </div>
+	<div v-if="this.biblData.auth_name" class="author-name">author: {{ this.biblData.auth_name }}</div>
+	<div v-if="this.biblData.auth_cert" class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
+	<div v-if="this.biblData.auth_stat" class="author-status">author status: {{ this.biblData.auth_stat }}</div>
+	<div v-if="this.biblData.pages || this.biblData.page">
+	  <div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
+	  <div class="page" v-else>page: {{ this.biblData.page }}</div>
+	</div>
+    </div>
 	<div class='teiMarkup' v-html="this.issueText"><div>
       </div>
 	`
