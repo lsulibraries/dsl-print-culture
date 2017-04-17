@@ -24,7 +24,7 @@ $primary-accent-color3:  rgba(254, 114, 81, 0.5);
 }
 
 @mixin transition-duration($sec){
-	-webkit-transition-duration: $sec;
+    -webkit-transition-duration: $sec;
     transition-duration: $sec;
 }
 
@@ -32,7 +32,7 @@ $primary-accent-color3:  rgba(254, 114, 81, 0.5);
 -webkit-transition: all $sec ease;
 -moz-transition: all $sec ease;
 -ms-transition: all $sec ease; 
-transition: all $sec ease;	
+transition: all $sec ease;  
 }
 
 @mixin columns($num){
@@ -43,13 +43,13 @@ transition: all $sec ease;
 
 
 body{
-	font-family: Adobe Caslon Pro, adobe-caslon-pro, serif;
-	margin: 0px;
-	background: $background-authors-color;
+    font-family: Adobe Caslon Pro, adobe-caslon-pro, serif;
+    margin: 0px;
+    background: $background-authors-color;
 }
 
 .documentSection {
-	background: $background-document-color;
+    background: $background-document-color;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -58,12 +58,12 @@ body{
 }
 
 .documentOverflow{
-	background: $background-authors-color;	
-	position: absolute;
-	bottom: 0px;
-	height: 140px;
-	width: 100%;
-	left: 0px;
+    background: $background-authors-color;  
+    position: absolute;
+    bottom: 0px;
+    height: 140px;
+    width: 100%;
+    left: 0px;
 }
 
 .documentUnder {
@@ -75,7 +75,7 @@ body{
     position: absolute;
     margin-top: 54px;
     left: calc(50% - 444px);
-	top: 0px;
+    top: 0px;
     height: calc(100% - 200px);    
 } /*1011 to  1001 wide, error*/
 
@@ -91,8 +91,8 @@ body{
 }
 
 .authorSection{
-	background: $background-authors-color;
-	color: $document-color;
+    background: $background-authors-color;
+    color: $document-color;
     margin-top: 100px;
     justify-content: center;
     display: flex;
@@ -101,8 +101,8 @@ body{
 }
 
 .mainColumn{
-	background: $document-color;
-	border: 14px solid $background-authors-color;	
+    background: $document-color;
+    border: 14px solid $background-authors-color;   
     width: calc(100% - 33px);
     max-width: 800px;
     z-index: 1;
@@ -187,16 +187,16 @@ body{
 }
 
 .footerBar{
-	height: 80px;
+    height: 80px;
 }
 
 .documentFooter{
-	background: $secondary-accent-color;
+    background: $secondary-accent-color;
 }
 
 .documentInner{
-	border: 1px solid $document-text-color;
-	margin: 5px;
+    border: 1px solid $document-text-color;
+    margin: 5px;
 }
 
 .issueBar {
@@ -208,7 +208,7 @@ body{
 }
 
 .activeMonth {
- 	@include transition-duration(.2s);
+    @include transition-duration(.2s);
  }
 
 .singleIndex {
@@ -217,9 +217,9 @@ body{
 }
 
 .singleText{
- 	@include transform(-45deg);
- 	@include transition-duration(.2s);
-	color: $document-text-color;
+    @include transform(-45deg);
+    @include transition-duration(.2s);
+    color: $document-text-color;
     position: relative;
     top: 80px;
     padding-right: 10px;
@@ -232,7 +232,7 @@ body{
 }
 
 .yearText{
-	@extend .singleText;
+    @extend .singleText;
     background: $background-authors-color;
     color: #ffffff;
     font-weight: 900;
@@ -240,8 +240,8 @@ body{
 }
 
 .childIndex {
- 	@include transition-duration(.2s);
- 	@include transform(-45deg);    	
+    @include transition-duration(.2s);
+    @include transform(-45deg);     
     color: $document-text-color;
     position: relative;
     padding-left: 0px;
@@ -250,7 +250,7 @@ body{
 }
 
 .childText {
- 	@include transition-duration(.2s);
+    @include transition-duration(.2s);
     margin-right: 28px;
     padding: 5px;
     color: $background-document-color;
@@ -261,11 +261,11 @@ body{
 }
 
 .issueIndex {
-	position: relative;
-	right: 33px;
-	background: none;
-	z-index: 3;
-  	top: 100px;  	
+    position: relative;
+    right: 33px;
+    background: none;
+    z-index: 3;
+    top: 100px;     
 }
 
 .issueIndex:nth-child(3){
@@ -273,19 +273,19 @@ body{
 }
 
 .childIndex:hover .childText{
- 	@include transition-duration(0s);
+    @include transition-duration(0s);
     color: $background-document-color;
     margin-right: 0px;
 }
 
 .singleIndex:hover .singleText{
     color: $background-document-color;
- 	@include transition-duration(0s);
+    @include transition-duration(0s);
 }
 
 .activeMonth .singleText {
     color: $background-document-color;
- 	@include transition-duration(0s);
+    @include transition-duration(0s);
 }
 
 .childIndex:nth-child(1) .childText{
@@ -297,7 +297,7 @@ margin-bottom: 12px;
 }
 
 .topMenu {
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -321,7 +321,7 @@ margin-bottom: 12px;
 }
 
 .authorHeader{
-	text-align: center;
+    text-align: center;
     font-size: 22px;
     font-style: italic;
     display: flex;    
@@ -344,7 +344,7 @@ margin-bottom: 12px;
     border-bottom: 1px solid $document-outer-border;
     display: flex;
     align-items: center;   
-	justify-content: space-between;     
+    justify-content: space-between;     
 }
 
 .node {
@@ -373,7 +373,7 @@ margin-bottom: 12px;
 
 
 .node .ContributingAuthor {
-	color: $background-document-color;
+    color: $background-document-color;
 }
 
 .authorDirectory{
@@ -410,7 +410,7 @@ margin-bottom: 12px;
     margin-right: 40px;
     position: relative;
     background: $background-document-color;
-   	@include transition-duration(.2s); 
+    @include transition-duration(.2s); 
 
 }
 
@@ -434,9 +434,9 @@ margin-bottom: 12px;
   }
 
 .libLogo img{
-	height: 20px;
-	width: auto;
-    margin-left: 20px;	
+    height: 20px;
+    width: auto;
+    margin-left: 20px;  
     margin-top: 6px;    
 }
 
@@ -456,9 +456,9 @@ margin-bottom: 12px;
 }
 
 .legendIcons{
-	display:flex;
+    display:flex;
     margin-top: 24px;
-    margin-bottom: 24px;	
+    margin-bottom: 24px;    
 flex-wrap: wrap;    
 }
 
@@ -473,28 +473,28 @@ flex-wrap: wrap;
 }
 
 .legend2{
-	@extend .legend1;
-	background: $background-authors-color;
+    @extend .legend1;
+    background: $background-authors-color;
 }
 
 .legend3{
-	@extend .legend2;
-	border: 2px solid $primary-accent-color2;
-	.innerIcon{
-		background: $primary-accent-color2;
-	}
+    @extend .legend2;
+    border: 2px solid $primary-accent-color2;
+    .innerIcon{
+        background: $primary-accent-color2;
+    }
 }
 
 .legend4{
-	@extend .legend2;
-	border: 2px solid $primary-accent-color3;
-	.innerIcon{
-		background: $primary-accent-color3;
-	}
+    @extend .legend2;
+    border: 2px solid $primary-accent-color3;
+    .innerIcon{
+        background: $primary-accent-color3;
+    }
 }
 
 .innerIcon{
-	height: 43px;
+    height: 43px;
     width: 35px;
     background: $primary-accent-color;
     -ms-transform: rotate(45deg);
@@ -506,9 +506,9 @@ flex-wrap: wrap;
 }
 
 .contributingIcon{
-	display: flex;
-	align-items: center;
-    margin-top: 10px;	
+    display: flex;
+    align-items: center;
+    margin-top: 10px;   
     margin-right: 60px;    
 }
 
@@ -603,7 +603,7 @@ line-height: 12px;
 
 @media (max-width: 1200px){
 .tocItem {
-	display:none;
+    display:none;
     color: #666666;
     font-size: 10px;
     font-family: roboto;
@@ -618,38 +618,38 @@ line-height: 12px;
     top: 3px;
     line-height: 10px;    
     
-	}	
+    }   
 
-	.navigationIssue {
-	    position: absolute;
-	    left: calc(50% - 370px);
-	    z-index: 2;
-	    letter-spacing: 0px;
-	    display: flex;
-	    height: 14px;
-	    border-right: 2px solid #d0c7be;
-	    border-left: 2px solid #d0c7be;
-	    border-bottom: 2px solid $background-document-color;
-	    flex-direction: column;
-	    padding: 0px 10px 0px 10px;
-	    top: 80px;
-	    text-align: center;
-	    background: $primary-accent-color;
-	}
+    .navigationIssue {
+        position: absolute;
+        left: calc(50% - 370px);
+        z-index: 2;
+        letter-spacing: 0px;
+        display: flex;
+        height: 14px;
+        border-right: 2px solid #d0c7be;
+        border-left: 2px solid #d0c7be;
+        border-bottom: 2px solid $background-document-color;
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+        top: 80px;
+        text-align: center;
+        background: $primary-accent-color;
+    }
 
-	.tocDropdown {
-	    display: block;
-	    text-transform: uppercase;
-	    font-size: 8px;
-	    letter-spacing: 1px;
-	    padding-top: 2px;
-	    font-family: roboto;
-	    color: white;
-	}
+    .tocDropdown {
+        display: block;
+        text-transform: uppercase;
+        font-size: 8px;
+        letter-spacing: 1px;
+        padding-top: 2px;
+        font-family: roboto;
+        color: white;
+    }
 
-	.navigationIssue:hover .tocItem{
-		display: flex;
-	}
+    .navigationIssue:hover .tocItem{
+        display: flex;
+    }
 
 }
 
@@ -725,15 +725,15 @@ line-height: 12px;
 }
 
 .documentUnder{
-	display: none;
+    display: none;
 }
 
-.childIndex, .singleText, .yearText{	
-	@include transform(0deg);
+.childIndex, .singleText, .yearText{    
+    @include transform(0deg);
 }
 
 .childIndex:nth-last-child(1) .childText{
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .singleText, .yearText{
@@ -751,33 +751,33 @@ line-height: 12px;
 }
 
 .childIndex{
-	margin: 0px;
+    margin: 0px;
 }
 
 .childIndex:hover .childText{
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 .issueBar{
 
-		min-width: 60px;
-		width: 60px;	 
+        min-width: 60px;
+        width: 60px;     
 }
 
 .issueIndex{
-	right: 2px;
+    right: 2px;
     top: -68px;
 }
 
 .mainColumn{
-	    width: calc(100% + 486px);
-	margin-left: 12px;
-    margin-top: 12px;	
+        width: calc(100% + 486px);
+    margin-left: 12px;
+    margin-top: 12px;   
 }
 
 
 
-
+}
 
 .highContrast{
 
@@ -902,8 +902,6 @@ body{
     color: $background-document-color;
 }
 
-eight: 972px;
-}
 
 .tocItem {
     color: $document-text-color;
@@ -952,5 +950,5 @@ eight: 972px;
     border-bottom: 1px solid $document-divide-color;
 }
 
-
 }
+
