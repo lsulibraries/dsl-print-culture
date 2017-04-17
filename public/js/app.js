@@ -92,6 +92,9 @@ Vue.component('view-mode-button',{
 
 Vue.component('main-window',{
     methods: {
+	readerMode: function () {
+	    return this.$root.state.active == 'issue' ? true : false;
+	},
 	changePage: function (which) {
 	    page = this.$root.state.issue.page;
 	    switch (which) {
@@ -136,7 +139,7 @@ Vue.component('main-window',{
 			},
 	template: `
  		<div class="mainWindow">
-					<div id="tei" v-if="teiMode">
+					<div id="tei" v-if="teiMode && this.readerMode()">
 						<tei-markup></tei-markup>
 					</div>
 		    <div class="mainCenter">
@@ -408,8 +411,7 @@ Vue.component('tei-markup',{
 	    this.getTei(this.id);
 	}),
 	Event.$on("tei-biblChanged", (bibl) => {
-	    this.bibl = bibl.decls_id;
-	    this.getBibl(this.id, this.bibl);
+	    this.getBibl(this.id, bibl.decls_id);
 	})
     },
     methods: {
@@ -436,7 +438,7 @@ Vue.component('tei-markup',{
 		    if(bibl.toc[item].pieces){
 			for (piece in bibl.toc[item].pieces){
 			    if(piece == itemId){
-				this.biblData = bibl.toc[item].pieces.piece
+				this.biblData = bibl.toc[item].pieces[piece]
 				return
 			    }
 			}
@@ -465,12 +467,14 @@ Vue.component('tei-markup',{
         <div v-if="this.biblData" class='citation'>
         <div class="title">title: {{ this.biblData.title }}</div>
 	<div class="title-type">title type: {{ this.biblData.t_type }}</div>
-	<div class="author-name">author: {{ this.biblData.auth_name }}</div>
-	<div class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
-	<div class="author-status">author status: {{ this.biblData.auth_stat }}</div>
-	<div class="page" v-if="this.biblData.page">page: {{ this.biblData.page }}</div>
-	<div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
-        </div>
+	<div v-if="this.biblData.auth_name" class="author-name">author: {{ this.biblData.auth_name }}</div>
+	<div v-if="this.biblData.auth_cert" class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
+	<div v-if="this.biblData.auth_stat" class="author-status">author status: {{ this.biblData.auth_stat }}</div>
+	<div v-if="this.biblData.pages || this.biblData.page">
+	  <div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
+	  <div class="page" v-else>page: {{ this.biblData.page }}</div>
+	</div>
+    </div>
 	<div class='teiMarkup' v-html="this.issueText"><div>
       </div>
 	`
