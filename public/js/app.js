@@ -92,9 +92,6 @@ Vue.component('view-mode-button',{
 
 Vue.component('main-window',{
     methods: {
-	readerMode: function () {
-	    return this.$root.state.active == 'issue' ? true : false;
-	},
 	changePage: function (which) {
 	    page = this.$root.state.issue.page;
 	    switch (which) {
@@ -139,7 +136,7 @@ Vue.component('main-window',{
 			},
 	template: `
  		<div class="mainWindow">
-					<div id="tei" v-if="teiMode && this.readerMode()">
+					<div id="tei" v-if="teiMode">
 						<tei-markup></tei-markup>
 					</div>
 		    <div class="mainCenter">
@@ -411,7 +408,8 @@ Vue.component('tei-markup',{
 	    this.getTei(this.id);
 	}),
 	Event.$on("tei-biblChanged", (bibl) => {
-	    this.getBibl(this.id, bibl.decls_id);
+	    this.bibl = bibl.decls_id;
+	    this.getBibl(this.id, this.bibl);
 	})
     },
     methods: {
@@ -438,7 +436,7 @@ Vue.component('tei-markup',{
 		    if(bibl.toc[item].pieces){
 			for (piece in bibl.toc[item].pieces){
 			    if(piece == itemId){
-				this.biblData = bibl.toc[item].pieces[piece]
+				this.biblData = bibl.toc[item].pieces.piece
 				return
 			    }
 			}
@@ -467,14 +465,12 @@ Vue.component('tei-markup',{
         <div v-if="this.biblData" class='citation'>
         <div class="title">title: {{ this.biblData.title }}</div>
 	<div class="title-type">title type: {{ this.biblData.t_type }}</div>
-	<div v-if="this.biblData.auth_name" class="author-name">author: {{ this.biblData.auth_name }}</div>
-	<div v-if="this.biblData.auth_cert" class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
-	<div v-if="this.biblData.auth_stat" class="author-status">author status: {{ this.biblData.auth_stat }}</div>
-	<div v-if="this.biblData.pages || this.biblData.page">
-	  <div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
-	  <div class="page" v-else>page: {{ this.biblData.page }}</div>
-	</div>
-    </div>
+	<div class="author-name">author: {{ this.biblData.auth_name }}</div>
+	<div class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
+	<div class="author-status">author status: {{ this.biblData.auth_stat }}</div>
+	<div class="page" v-if="this.biblData.page">page: {{ this.biblData.page }}</div>
+	<div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
+        </div>
 	<div class='teiMarkup' v-html="this.issueText"><div>
       </div>
 	`
@@ -488,6 +484,15 @@ Vue.component('issue-month',{
 	    }
 	},
 	props: {month: '',	list: ''},
+	created(){
+		Event.$on('issueSelected',(id) =>{
+			for(each in this.$children){	
+				if(this.$children[each].id==id){
+	    			this.$children[each].toggled=true;
+	    		}else{this.$children[each].toggled=false;}
+			}
+		})
+	},
 	methods: {
 	    showChildren: function(){
 		if(this.toggled==false){
@@ -526,18 +531,18 @@ Vue.component('issue-month',{
 
 Vue.component('index-child',{
     data() {
-	return { meSeen:false }
+	return { meSeen:false,toggled:false }
     },
     props: ['id'],
     methods: {
 	selectIssue: function(id){
 	    Event.$emit('activeModeChange', 'issue');
 	    Event.$emit('issueSelected', id);
-	}
+		}
     },
     template: `
 	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
-	  <div class="childText" v-text="id.slice(-2)"></div>
+	  <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
 	</div>`
 });
 
@@ -578,14 +583,12 @@ Vue.component('issue-bar',{
 						<div class="indicatorYear"></div>
 					</div>
 	<issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" :month="month"></issue-month>
-
 				</div>
 				<div class="issueIndex">
 					<div class="singleIndex">
 						<div class="yearText">1846</div>
 						<div class="indicatorYear"></div>
 	</div>
-	<!-- todo! clean me up!! -->
 	<issue-month :month='this.months[0]' :list='lookup("JAN","1846")' class="singleIndex"></issue-month>
 			</div>
 		</div>
