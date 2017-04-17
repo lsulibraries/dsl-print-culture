@@ -551,6 +551,21 @@ flex-wrap: wrap;
     margin:20px;
     height: 100%;
     margin-top: 50px;    
+    font-size:18px;
+    font-family: Roboto;    
+}
+
+.front {
+    font-weight: 700;
+}
+
+.head {
+    font-weight: 700;
+    border-bottom: 2px solid grey;
+}
+
+.cit {
+    margin-bottom: 30px;
 }
 
 #tei + .mainCenter{
