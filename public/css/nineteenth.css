@@ -735,4 +735,135 @@ body {
     margin-left: 12px;
     margin-top: 12px;
   }
+
+  body .highContrast {
+    /*1011 to  1001 wide, error*/
+    eight: 972px;
+  }
+  body .highContrast body {
+    background: #29303a;
+  }
+  body .highContrast .documentSection {
+    background: #faeee2;
+  }
+  body .highContrast .documentUnder {
+    border: 40px solid #d0c7be;
+  }
+  body .highContrast .authorSection {
+    background: #29303a;
+    color: #eee3cf;
+  }
+  body .highContrast .mainColumn {
+    background: #eee3cf;
+  }
+  body .highContrast .mainColumn::after {
+    border: 1px solid #666666;
+  }
+  body .highContrast .hrMain {
+    background: #666666;
+  }
+  body .highContrast .mainWindow {
+    color: #666666;
+  }
+  body .highContrast .documentFooter {
+    background: #322e2b;
+  }
+  body .highContrast .documentInner {
+    border: 1px solid #666666;
+  }
+  body .highContrast .singleIndex {
+    color: #666666;
+  }
+  body .highContrast .singleText, body .highContrast .yearText {
+    color: #666666;
+    background: #29303a;
+  }
+  body .highContrast .yearText {
+    background: #29303a;
+    color: #ffffff;
+  }
+  body .highContrast .childIndex {
+    color: #666666;
+    background: #faeee2;
+  }
+  body .highContrast .childText {
+    color: #faeee2;
+    background: #000000;
+  }
+  body .highContrast .childIndex:hover .childText {
+    color: #faeee2;
+  }
+  body .highContrast .singleIndex:hover .singleText, body .highContrast .singleIndex:hover .yearText {
+    color: #faeee2;
+  }
+  body .highContrast .activeMonth .singleText, body .highContrast .activeMonth .yearText {
+    color: #faeee2;
+  }
+  body .highContrast .topMenu div {
+    color: #666666;
+  }
+  body .highContrast .authorsButton {
+    border: 1px solid #666666;
+  }
+  body .highContrast .inBorder {
+    background: rgba(250, 238, 226, 0.3);
+  }
+  body .highContrast .nav {
+    background: #faeee2;
+    border-bottom: 1px solid #d0c7be;
+  }
+  body .highContrast .node {
+    background: #000000;
+    color: #29303a;
+  }
+  body .highContrast .node a {
+    background: #000000;
+    color: #29303a;
+  }
+  body .highContrast .node .ContributingAuthor {
+    color: #faeee2;
+  }
+
+  .tocItem {
+    color: #666666;
+    background: #faeee2;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+  }
+
+  .pageNumber {
+    background: #d0c7be;
+    color: #faeee2;
+  }
+
+  .legend1, .legend2, .legend3, .legend4 {
+    border: 2px solid #000000;
+    background: #faeee2;
+  }
+
+  .legend2, .legend3, .legend4 {
+    background: #29303a;
+  }
+
+  .legend3 {
+    border: 2px solid #000000;
+  }
+  .legend3 .innerIcon {
+    background: #000000;
+  }
+
+  .legend4 {
+    border: 2px solid #000000;
+  }
+  .legend4 .innerIcon {
+    background: #000000;
+  }
+
+  .singleText, .yearText, .yearText {
+    border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+  }
+
+  .childText {
+    border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+  }
 }

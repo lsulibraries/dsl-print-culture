@@ -5,12 +5,15 @@ $document-color: #eee3cf;
 $background-document-color: #faeee2;
 $background-authors-color: #29303a;
 $primary-accent-color: #fe7251;
+$primary-accent-color-HC: #000000;
 $secondary-accent-color: #322e2b;
 $document-text-color: #666666;
 $document-divide-color: rgba(250, 238, 226, 0.09);
 $document-outer-border: #d0c7be;
 $hr-color: rgba(250, 238, 226, 0.3);
 $primary-accent-color2:  rgba(254, 114, 81, 0.75);
+$primary-accent-color-HC2:  #000000;
+$primary-accent-color-HC3:  #000000;
 $primary-accent-color3:  rgba(254, 114, 81, 0.5);
 
 
@@ -37,6 +40,7 @@ transition: all $sec ease;
     -moz-column-count: ($num);
     column-count: ($num);
 }
+
 
 body{
 	font-family: Adobe Caslon Pro, adobe-caslon-pro, serif;
@@ -568,6 +572,10 @@ flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
+.citation {
+    margin-bottom: 30px;
+}
+
 #tei + .mainCenter{
   display:none;
 }
@@ -766,5 +774,186 @@ line-height: 12px;
 	margin-left: 12px;
     margin-top: 12px;	
 }
+
+
+
+
+
+body .highContrast{
+
+
+body{
+    background: $background-authors-color;
+}
+
+.documentSection {
+    background: $background-document-color;
+}
+
+
+
+.documentUnder {
+    border: 40px solid $document-outer-border;
+
+} /*1011 to  1001 wide, error*/
+
+
+
+.authorSection{
+    background: $background-authors-color;
+    color: $document-color;
+}
+
+.mainColumn{
+    background: $document-color;
+}
+
+.mainColumn::after {
+  border: 1px solid $document-text-color;
+}
+
+
+
+.hrMain {
+    background: $document-text-color;
+}
+
+.mainWindow{
+    color: $document-text-color;
+}
+
+.documentFooter{
+    background: $secondary-accent-color;
+}
+
+.documentInner{
+    border: 1px solid $document-text-color;
+}
+
+.singleIndex {
+    color: $document-text-color;
+}
+
+.singleText{
+    color: $document-text-color;
+    background: $background-authors-color;
+}
+
+.yearText{
+    background: $background-authors-color;
+    color: #ffffff;
+}
+
+.childIndex {
+    color: $document-text-color;
+    background: $background-document-color;
+}
+
+.childText {
+    color: $background-document-color;
+    background: $primary-accent-color-HC;
+}
+
+
+.childIndex:hover .childText{
+    color: $background-document-color;
+}
+
+.singleIndex:hover .singleText{
+    color: $background-document-color;
+}
+
+.activeMonth .singleText {
+    color: $background-document-color;
+}
+
+
+.topMenu div {
+    color: $document-text-color;
+}
+
+.authorsButton {
+    border: 1px solid $document-text-color;
+}
+
+.inBorder {
+    background: $hr-color;
+}
+
+.nav {
+    background: $background-document-color;
+    border-bottom: 1px solid $document-outer-border;
+}
+
+.node {
+    background: $primary-accent-color-HC;
+    color: $background-authors-color;
+}
+
+
+
+.node a {
+    background: $primary-accent-color-HC;
+    color: $background-authors-color;
+}
+
+
+.node .ContributingAuthor {
+    color: $background-document-color;
+}
+
+eight: 972px;
+}
+
+.tocItem {
+    color: $document-text-color;
+    background: $background-document-color;
+    @include transition-duration(.2s); 
+
+}
+
+.pageNumber {
+    background: #d0c7be;
+    color: $background-document-color;
+
+}
+
+
+.legend1 {
+    border: 2px solid $primary-accent-color-HC;
+    background: $background-document-color;    
+}
+
+.legend2{
+    @extend .legend1;
+    background: $background-authors-color;
+}
+
+.legend3{
+    @extend .legend2;
+    border: 2px solid $primary-accent-color-HC2;
+    .innerIcon{
+        background: $primary-accent-color-HC2;
+    }
+}
+
+.legend4{
+    @extend .legend2;
+    border: 2px solid $primary-accent-color-HC3;
+    .innerIcon{
+        background: $primary-accent-color-HC3;
+    }
+}
+
+
+
+.singleText, .yearText{
+    border-bottom: 1px solid $document-divide-color;
+  }
+
+.childText{
+    border-bottom: 1px solid $document-divide-color;
+}
+
 
 }
