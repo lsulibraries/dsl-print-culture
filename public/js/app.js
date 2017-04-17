@@ -387,8 +387,7 @@ Vue.component('tei-markup',{
 	    this.getTei(this.id);
 	}),
 	Event.$on("tei-biblChanged", (bibl) => {
-	    this.bibl = bibl.decls_id;
-	    this.getBibl(this.id, this.bibl);
+	    this.getBibl(this.id, bibl.decls_id);
 	})
     },
     methods: {
@@ -415,7 +414,7 @@ Vue.component('tei-markup',{
 		    if(bibl.toc[item].pieces){
 			for (piece in bibl.toc[item].pieces){
 			    if(piece == itemId){
-				this.biblData = bibl.toc[item].pieces.piece
+				this.biblData = bibl.toc[item].pieces[piece]
 				return
 			    }
 			}
