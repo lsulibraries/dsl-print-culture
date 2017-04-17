@@ -93,19 +93,43 @@ Vue.component('meta-menu',{
 });
 
 Vue.component('view-mode-toggle',{
-    methods: {
-	issueViewToggled: (to) => {
-	    Event.$emit('view-mode-toggled', to);
-		}
+    created(){
+    	Event.$on('view-mode-toggled', (mode) =>{
+    		if(mode == 'tei'){
+    			this.$children[0].active=true;
+    			this.$children[1].active=false;
+    		}
+    		else{
+    			this.$children[0].active=false;
+    			this.$children[1].active=true;
+    		}	
+    	})
+
     },
     template: `
 	<div class='controlBar' v-if="this.$root.state.active == 'issue'">
-	<span class="teiToggle" @click="issueViewToggled('tei')">Text</span>
+	<view-mode-button  kind="tei">Text</view-mode-button>
 	<span>&nbsp;|&nbsp; </span>
-	  <span class="pdfToggle" @click="issueViewToggled('pdf')">PDF</span>
+	<view-mode-button kind='pdf'>PDF</view-mode-button>
 	</div>
 	`
 });
+
+Vue.component('view-mode-button',{
+	data(){
+		return {
+			active: false,
+		}
+	},
+	props: ['kind'],
+	methods: {
+	issueViewToggled: (to) => {
+		Event.$emit('view-mode-toggled', to);  	
+		}
+	    
+    },
+	template: `<span v-bind:class="[{toggled: active}, kind]"  @click="issueViewToggled(kind)"><slot></slot></span>`
+})
 
 Vue.component('main-window',{
     methods: {
@@ -821,8 +845,7 @@ new Vue({
 		viewMode: 'pdf', // tei|pdf
 		page: 1, // int
 	    },
-	}
-			
+	}		
     },
     created() {
 	Event.$on('content', (name) => {
