@@ -18,6 +18,17 @@ Vue.component('meta-menu',{
 	    	content: this.$root.state['meta']['content'],
 		}
     },
+    computed:{
+    	dlLabel: function(){
+    		if(this.$root.state.issue.viewMode == 'pdf'){
+    			return 'PDF'
+    		}
+    		else{
+    			return 'TEI'
+    		}
+    		
+    	}
+    },
     methods: {
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.issue.id);
@@ -35,7 +46,7 @@ Vue.component('meta-menu',{
 	  <div @click="selectMe('about')">About</div>
 	  <div @click="selectMe('tech')">Technical</div>
 	  <div @click="selectMe('credit')">Credits</div>
-	  <a v-bind:href='stateHref()' download>Download Source</a>
+	  <a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
 	</div>
 	`
 });
@@ -258,7 +269,7 @@ Vue.component('zoom-slider',{
 	},
 	methods:{
 		zoomUpdate: function(){
-			Event.$emit('zoomUpdate', this.zoomLevel)
+			Event.$emit('zoomUpdate', this.zoomLevel,this.$root.state.issue.page)
 	}
 
 	},
@@ -267,9 +278,9 @@ Vue.component('zoom-slider',{
 
 Vue.component('pdf-viewer',{
     created(){
-    Event.$on('zoomUpdate',(level)=>{
+    Event.$on('zoomUpdate',(level,page)=>{
     	this.scale = level;
-    	this.loadPdf(this.current_issue, this.current_page,this.scale);
+    	this.loadPdf(this.current_issue, page,this.scale);
     }),
 	Event.$on('nextPage', (page) => {
 	    this.current_page += 1;
