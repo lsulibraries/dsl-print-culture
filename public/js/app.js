@@ -68,6 +68,9 @@ Vue.component('view-mode-toggle',{
 
 Vue.component('main-window',{
     methods: {
+	readerMode: function () {
+	    return this.$root.state.active == 'issue' ? true : false;
+	},
 	changePage: function (which) {
 	    page = this.$root.state.issue.page;
 	    switch (which) {
@@ -112,7 +115,7 @@ Vue.component('main-window',{
 			},
 	template: `
  		<div class="mainWindow">
-					<div id="tei" v-if="teiMode">
+					<div id="tei" v-if="teiMode && this.readerMode()">
 						<tei-markup></tei-markup>
 					</div>
 		    <div class="mainCenter">
