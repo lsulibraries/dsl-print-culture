@@ -34,7 +34,7 @@
             
             <xsl:element name="{$xmlid}">
                 <name>
-                    <xsl:value-of select="persName"/>
+                    <xsl:value-of select="persName[not(@type='pseudo')]"/>
                 </name>
                 <init>
                     <xsl:for-each select="tokenize(persName[not(@type='pseudo')], '\s')">
@@ -53,6 +53,11 @@
                         </xsl:choose>
                     </xsl:for-each>
                 </init>
+                <xsl:for-each select="persName[@type='pseudo']">
+                    <pseudo>
+                        <xsl:value-of select="."/>
+                    </pseudo>
+                </xsl:for-each>
                 <xsl:if test="@role">
                     <role>
                         <xsl:value-of select="@role"/>
