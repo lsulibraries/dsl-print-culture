@@ -736,3 +736,124 @@ body {
     margin-top: 12px;
   }
 }
+.highContrast {
+  /*1011 to  1001 wide, error*/
+}
+.highContrast body {
+  background: #29303a;
+}
+.highContrast .documentSection {
+  background: #faeee2;
+}
+.highContrast .documentUnder {
+  border: 40px solid #d0c7be;
+}
+.highContrast .authorSection {
+  background: #29303a;
+  color: #eee3cf;
+}
+.highContrast .mainColumn {
+  background: #eee3cf;
+}
+.highContrast .mainColumn::after {
+  border: 1px solid #666666;
+}
+.highContrast .hrMain {
+  background: #666666;
+}
+.highContrast .mainWindow {
+  color: #666666;
+}
+.highContrast .documentFooter {
+  background: #322e2b;
+}
+.highContrast .documentInner {
+  border: 1px solid #666666;
+}
+.highContrast .singleIndex {
+  color: #666666;
+}
+.highContrast .singleText, .highContrast .yearText {
+  color: #666666;
+  background: #29303a;
+}
+.highContrast .yearText {
+  background: #29303a;
+  color: #ffffff;
+}
+.highContrast .childIndex {
+  color: #666666;
+  background: #faeee2;
+}
+.highContrast .childText {
+  color: #faeee2;
+  background: #000000;
+}
+.highContrast .childIndex:hover .childText {
+  color: #faeee2;
+}
+.highContrast .singleIndex:hover .singleText, .highContrast .singleIndex:hover .yearText {
+  color: #faeee2;
+}
+.highContrast .activeMonth .singleText, .highContrast .activeMonth .yearText {
+  color: #faeee2;
+}
+.highContrast .topMenu div {
+  color: #666666;
+}
+.highContrast .authorsButton {
+  border: 1px solid #666666;
+}
+.highContrast .inBorder {
+  background: rgba(250, 238, 226, 0.3);
+}
+.highContrast .nav {
+  background: #faeee2;
+  border-bottom: 1px solid #d0c7be;
+}
+.highContrast .node {
+  background: #000000;
+  color: #29303a;
+}
+.highContrast .node a {
+  background: #000000;
+  color: #29303a;
+}
+.highContrast .node .ContributingAuthor {
+  color: #faeee2;
+}
+.highContrast .tocItem {
+  color: #666666;
+  background: #faeee2;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.highContrast .pageNumber {
+  background: #d0c7be;
+  color: #faeee2;
+}
+.highContrast .legend1, .highContrast .legend2, .highContrast .legend3, .highContrast .legend4 {
+  border: 2px solid #000000;
+  background: #faeee2;
+}
+.highContrast .legend2, .highContrast .legend3, .highContrast .legend4 {
+  background: #29303a;
+}
+.highContrast .legend3 {
+  border: 2px solid #000000;
+}
+.highContrast .legend3 .innerIcon {
+  background: #000000;
+}
+.highContrast .legend4 {
+  border: 2px solid #000000;
+}
+.highContrast .legend4 .innerIcon {
+  background: #000000;
+}
+.highContrast .singleText, .highContrast .yearText, .highContrast .yearText {
+  border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+}
+.highContrast .childText {
+  border-bottom: 1px solid rgba(250, 238, 226, 0.09);
+}
