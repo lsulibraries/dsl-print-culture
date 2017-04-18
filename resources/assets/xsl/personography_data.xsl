@@ -6,8 +6,11 @@
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:template match="/">
-        <div>
-            <xsl:apply-templates select="TEI/text/body/listPerson"/>
+        <div class="Authors">
+            <xsl:apply-templates select="TEI/text/body/listPerson[@type='Authors']"/>
+        </div>
+        <div class="ProjectStaff">
+            <xsl:apply-templates select="TEI/text/body/listPerson[@type='ProjectStaff']"/>
         </div>
     </xsl:template>
 
@@ -68,7 +71,16 @@
                         <xsl:value-of select="persName/@ref"/>
                     </viaf>
                 </xsl:if>
-
+                <xsl:if test="affiliation">
+                    <affil>
+                        <xsl:value-of select="affiliation"/>
+                    </affil>
+                </xsl:if>
+                <xsl:if test="../@type='ProjectStaff'">
+                    <note>
+                        <xsl:value-of select="note"/>
+                    </note>
+                </xsl:if>
                 <xsl:if test="string-length($totalcontribs) != 0">
                     <contrib_issues>
                         <xsl:for-each select="$documents">
