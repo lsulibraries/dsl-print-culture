@@ -601,6 +601,29 @@ line-height: 12px;
 
 }
 
+.topMenu a {
+    text-decoration: none;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 15px;
+    display: flex;
+    padding-bottom: 22px;
+    height: 100%;
+    color: #faeee2;
+    background: #29303a;
+    justify-content: center;
+    align-items: center;
+}
+
+.topMenu div{
+    cursor: pointer;
+}
+
+.controlBar span{
+    cursor: pointer;
+}
+
 @media (max-width: 1200px){
 .tocItem {
     display:none;
