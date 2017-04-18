@@ -71,12 +71,10 @@
                         <xsl:value-of select="persName/@ref"/>
                     </viaf>
                 </xsl:if>
-                <xsl:if test="affiliation">
+                <xsl:if test="../@type='ProjectStaff'">
                     <affil>
                         <xsl:value-of select="affiliation"/>
                     </affil>
-                </xsl:if>
-                <xsl:if test="../@type='ProjectStaff'">
                     <note>
                         <xsl:value-of select="note"/>
                     </note>
