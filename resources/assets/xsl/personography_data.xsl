@@ -75,14 +75,14 @@
                             <xsl:for-each-group select="//listBibl//author" group-by="@ref">
                                 <xsl:choose>
                                     <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                        <issue>
-                                            <num>
+                                        <c_issue>
+                                            <c_issue_total>
                                                 <xsl:value-of select="count(current-group())"/>
-                                            </num>
-                                            <idno>
+                                            </c_issue_total>
+                                            <c_issue_idno>
                                                 <xsl:value-of select="//publicationStmt/idno"/>
-                                            </idno>
-                                        </issue>
+                                            </c_issue_idno>
+                                        </c_issue>
                                     </xsl:when>
                                     <xsl:otherwise/>
                                 </xsl:choose>
@@ -90,9 +90,9 @@
                         </xsl:for-each>
                     </issue_contribs>
                     <total_contribs>
-                        <num>
+                        <c_total>
                             <xsl:value-of select="$totalcontribs"/>
-                        </num>
+                        </c_total>
                     </total_contribs>
                 </xsl:if>
                 
@@ -102,14 +102,14 @@
                             <xsl:for-each-group select="//body//persName" group-by="@ref">
                                 <xsl:choose>
                                     <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                        <issue>
-                                            <num>
+                                        <m_issue>
+                                            <m_issue_total>
                                                 <xsl:value-of select="count(current-group())"/>
-                                            </num>
-                                            <idno>
+                                            </m_issue_total>
+                                            <m_issue_idno>
                                                 <xsl:value-of select="//publicationStmt/idno"/>
-                                            </idno>
-                                        </issue>
+                                            </m_issue_idno>
+                                        </m_issue>
                                     </xsl:when>
                                     <xsl:otherwise/>
                                 </xsl:choose>
@@ -117,9 +117,9 @@
                         </xsl:for-each>
                     </issue_mentions>
                     <total_mentions>
-                        <num>
+                        <m_total>
                             <xsl:value-of select="$totalmentions"/>
-                        </num>
+                        </m_total>
                     </total_mentions>
                 </xsl:if>
             </xsl:element>
