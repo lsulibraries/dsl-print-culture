@@ -70,7 +70,7 @@
                 </xsl:if>
 
                 <xsl:if test="string-length($totalcontribs) != 0">
-                    <issue_contribs>
+                    <contrib_issues>
                         <xsl:for-each select="$documents">
                             <xsl:for-each-group select="//listBibl//author" group-by="@ref">
                                 <xsl:choose>
@@ -88,16 +88,14 @@
                                 </xsl:choose>
                             </xsl:for-each-group>
                         </xsl:for-each>
-                    </issue_contribs>
-                    <total_contribs>
-                        <c_total>
-                            <xsl:value-of select="$totalcontribs"/>
-                        </c_total>
-                    </total_contribs>
+                    </contrib_issues>
+                    <contrib_total>
+                        <xsl:value-of select="$totalcontribs"/>
+                    </contrib_total>
                 </xsl:if>
                 
                 <xsl:if test="string-length($totalmentions) != 0">
-                    <issue_mentions>
+                    <mention_issues>
                         <xsl:for-each select="$documents">
                             <xsl:for-each-group select="//body//persName" group-by="@ref">
                                 <xsl:choose>
@@ -115,12 +113,10 @@
                                 </xsl:choose>
                             </xsl:for-each-group>
                         </xsl:for-each>
-                    </issue_mentions>
-                    <total_mentions>
-                        <m_total>
-                            <xsl:value-of select="$totalmentions"/>
-                        </m_total>
-                    </total_mentions>
+                    </mention_issues>
+                    <mention_total>
+                        <xsl:value-of select="$totalmentions"/>
+                    </mention_total>
                 </xsl:if>
             </xsl:element>
         </xsl:for-each>
