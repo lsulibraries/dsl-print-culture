@@ -72,9 +72,10 @@
                 <xsl:value-of select="xs:integer(//bibl[@xml:id = 'p1']/biblScope/@n) - 1"/>
             </xsl:if>
         </xsl:variable>
+        <xsl:variable name="decls_id" select="concat('#', string(@xml:id))"/>
+        <xsl:variable name="auth_id" select="substring-after(author/@ref, '#')"/>
 
         <rhBibl id="{@xml:id}">
-            <xsl:variable name="decls_id" select="@xml:id"/>
             <rhSection>
                 <decls_id>
                     <xsl:value-of select="$decls_id"/>
@@ -90,6 +91,7 @@
                         </section_id>
                     </xsl:when>
                 </xsl:choose>
+
                 <title>
                     <xsl:value-of select="title"/>
                 </title>
@@ -116,62 +118,77 @@
 
             <xsl:if test="author">
                 <rhAuthor>
-                    <xsl:variable name="auth_id" select="substring-after(author/@ref, '#')"/>
+
                     <auth_id>
                         <xsl:value-of select="$auth_id"/>
                     </auth_id>
+
                     <auth_name>
-                        
-                    
-                    <xsl:choose>
-                        <xsl:when test="author/@status='attested'">
-                            <xsl:value-of
-                                select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
-                            />
-                        </xsl:when>
-                        <xsl:when test="author/@status='unknown'">
-                            <xsl:value-of
-                                select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
-                            />
-                        </xsl:when>
-                        
-                        <xsl:when test="author/@status='inferred'">
-                            <xsl:choose>
-                            <xsl:when test="//text/div[@decls eq $decls_id]/byline/persName">
+                        <xsl:choose>
+                            <xsl:when
+                                test="author/@status = 'attested' or author/@status = 'unknown'">
                                 <xsl:value-of
                                     select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
                                 />
-                                <xsl:text> writing as </xsl:text>
-                                <xsl:value-of select="//text/div[@decls eq $decls_id]/byline/persName"/>
                             </xsl:when>
-                                <xsl:otherwise>
-                            <xsl:value-of
-                                select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
-                                />
-                            <xsl:text> (Authorship inferred)</xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:when>
-                        <xsl:when test="author/@status='supplied'">
-                            <xsl:value-of
-                                select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
-                            />
-                            <xsl:text> writing as </xsl:text>
-                            <xsl:value-of select="//text/div[@decls eq $decls_id]/byline/persName"/>
-                        </xsl:when>
 
-                        <xsl:otherwise/>
-                    </xsl:choose>    
+                            <xsl:when test="author/@status = 'inferred'">
+                                <xsl:choose>
+                                    <xsl:when
+                                        test="//text//div[@decls eq $decls_id]//byline/persName">
+                                        <xsl:value-of
+                                            select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"/>
+                                        <xsl:text> writing as </xsl:text>
+                                        <xsl:value-of
+                                            select="//text//div[@decls eq $decls_id]//byline/persName"
+                                        />
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of
+                                            select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
+                                        />
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                            <xsl:when test="author/@status = 'supplied'">
+                                <xsl:choose>
+                                    <xsl:when
+                                        test="//text//div[@decls eq $decls_id]//byline/persName">
+                                        <xsl:value-of
+                                            select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"/>
+                                        <xsl:text> writing as </xsl:text>
+                                        <xsl:value-of
+                                            select="//text//div[@decls eq $decls_id]//byline/persName"
+                                        />
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of
+                                            select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
+                                        />
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+
+                            <xsl:otherwise/>
+                        </xsl:choose>
                     </auth_name>
-                        <auth_stat>
-                            <xsl:value-of select="author/@status"/>
-                        </auth_stat>
-                    
-                    <xsl:if test="author/@cert">
-                        <auth_cert>
-                            <xsl:value-of select="author/@cert"/>
-                        </auth_cert>
-                    </xsl:if>
+
+
+                    <auth_status>
+                        <xsl:text>This author's status is </xsl:text><xsl:value-of select="author/@status"/>
+                        <xsl:choose>
+                            <xsl:when test="author/@cert">
+                                <xsl:text>, with </xsl:text>
+                                <xsl:value-of select="author/@cert"/>
+                                <xsl:text> certainty.</xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>.</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </auth_status>
+
+                   
                 </rhAuthor>
             </xsl:if>
         </rhBibl>
