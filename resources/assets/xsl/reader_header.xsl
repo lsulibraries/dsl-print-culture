@@ -172,10 +172,8 @@
                             <xsl:otherwise/>
                         </xsl:choose>
                     </auth_name>
-
-
                     <auth_status>
-                        <xsl:text>This author's status is </xsl:text><xsl:value-of select="author/@status"/>
+                        <xsl:text>Authorship is </xsl:text><xsl:value-of select="author/@status"/>
                         <xsl:choose>
                             <xsl:when test="author/@cert">
                                 <xsl:text>, with </xsl:text>
