@@ -72,6 +72,7 @@
                     </personViaf>
                 </xsl:if>
                 
+                <xsl:if test="birth or death or affiliation">
                 <personBio>
                     <xsl:if test="birth">
                         <personBirth>
@@ -143,10 +144,9 @@
                             <xsl:value-of select="note"/>
                         </personNote>
                     </xsl:if>
-                    
                 </personBio>
-                
-                
+                </xsl:if>
+                                
                 <xsl:if test="string-length($totalcontribs) != 0">
                     <personTotalContrib>
                         <xsl:value-of select="$totalcontribs"/>
@@ -158,6 +158,14 @@
                         <xsl:value-of select="$totalmentions"/>
                     </personTotalMention>
                 </xsl:if>
+                
+                
+                <xsl:if test="string-length($totalmentions) or string-length($totalcontribs) != 0">
+                    <listBibl>
+                        
+                    </listBibl>
+                </xsl:if>
+                
                 
             </xsl:element>
         </xsl:for-each>
