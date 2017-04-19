@@ -78,17 +78,17 @@
         <rhBibl id="{@xml:id}">
             <rhSection>
                 <decls_id>
-                    <xsl:value-of select="$decls_id"/>
+                    <xsl:value-of select="@xml:id"/>
                 </decls_id>
 
                 <xsl:choose>
                     <xsl:when test="parent::bibl">
-                        <section_title>
+                        <parent_title>
                             <xsl:value-of select="parent::bibl/title"/>
-                        </section_title>
-                        <section_id>
+                        </parent_title>
+                        <parent_id>
                             <xsl:value-of select="parent::bibl/@xml:id"/>
-                        </section_id>
+                        </parent_id>
                     </xsl:when>
                 </xsl:choose>
 
@@ -156,7 +156,7 @@
                                         test="//text//div[@decls eq $decls_id]//byline/persName">
                                         <xsl:value-of
                                             select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"/>
-                                        <xsl:text> writing as </xsl:text>
+                                        <xsl:text>, writing as </xsl:text>
                                         <xsl:value-of
                                             select="//text//div[@decls eq $decls_id]//byline/persName"
                                         />
@@ -190,8 +190,6 @@
                             <xsl:text>)</xsl:text>
                         </xsl:if>
                     </auth_status>
-
-                   
                 </rhAuthor>
             </xsl:if>
         </rhBibl>
