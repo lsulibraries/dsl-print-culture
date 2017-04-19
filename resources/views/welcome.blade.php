@@ -9,7 +9,7 @@
     </head>
     <body v-bind:class="normal">
       <div id="vue-root">
-              <pseudo-body></pseudo-body>
+              <container></container>
 
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
