@@ -51,24 +51,131 @@ Vue.component('vue-footer',{
 
 Vue.component('vue-content',{
     template: `
+
         <div class="documentSection">
+	  <!-- Needs to move down into the Issue component -->
+	  <interIssueNav></interIssueNav>
           <div class="documentUnder"></div>
           <div class="documentOverflow"></div>
-          <navigation></navigation>
+          
           <div class="mainColumn">
-            <main-window ></main-window>
+            <main-window></main-window>
           </div>
-          <issue-bar></issue-bar>
         </div>
     `
 })
 
+Vue.component('people',{
+    template: ``
+})
+
+Vue.component('searchResults',{
+    template: ``
+})
+
+Vue.component('issue',{
+    template: `
+	<div class="mainColumn" v-if="this.$root.state.active == 'issue'">
+	  <div id="tei" v-if="teiMode">
+	    <tei-markup></tei-markup>
+	  </div>
+          <navigation></navigation>
+	  <view-mode-toggle></view-mode-toggle>
+	  <div class="mainInner" v-if="this.$root.state.active == 'issue'">
+	    <button @click='toggleVis'>Vis</button>
+	    <button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
+	    <zoom-slider v-if='!teiMode'></zoom-slider>
+	    <button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
+	    <pdf-viewer v-if="!teiMode"></pdf-viewer>
+	  </div>
+    </div>
+	`,
+    data() {
+	return {
+	    teiMode: false,
+	}
+    },
+    methods: {
+	toggleVis: function (){
+	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
+	    Event.$emit('toggleVisibility');
+	},
+	changePage: function (which) {
+	    page = this.$root.state.issue.page;
+	    switch (which) {
+	        case 'next':
+		    page += 1;
+		    break;
+	        case 'prev':
+		    page -= 1;
+		    break;
+	    default:
+		page = 1;
+	    }
+	    page = page <= 1 ? 1 : page;
+	    Event.$emit('pdf-pageChange', page);
+	},
+	modeActive: (mode) => {
+	    issueMode  = this.$root.state.issue.viewMode;
+	    activeMode = this.$root.state.active == 'issue';
+	    if(mode == 'tei' && activeMode){
+		this.teiMode = true;
+	    }else if (mode == 'pdf' && activeMode){
+		this.teiMode = false;
+	    }
+	}
+    },
+    created() {
+	Event.$on('view-mode-toggled', (to) => {
+	    this.teiMode = to == 'tei' ? true : false;
+	})
+    },
+})
+
+Vue.component('about',{
+    template: `
+
+      <div class="content" v-if="this.$root.state.active != 'issue'">
+	<div class="logoTitle" v-if="this.$root.state.active != 'issue'">
+	  <div class="logoThe">The</div>
+	  <div class="logoBroadway">Broadway</div>
+	  <div class="logoJournal">Journal</div>
+	  <div class="logoSubtitle">A Digital Edition</div>
+	  <div class="hrMain"></div>
+	</div>
+	<div v-if="content == 'about'">
+	        {{ aboutText[0] }}
+	        <br/>
+	        {{ aboutText[1] }}
+              </div>
+	      <div v-if="content == 'tech'">
+	        <li v-for="each in techText"  v-text="each"></li>
+	      </div>
+	      <div v-if="content == 'credit'">
+	        <li v-for="each in creditText" v-text="each"></li>
+	      </div>
+	    </div>
+	`,
+    created() {
+	Event.$on('content', (content) => {
+	    this.content = content;
+	})
+    },
+    data() {
+	return {
+	    content: this.$root.state.meta.content,
+	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
+	    creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
+	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
+	}
+    },
+})
 
 Vue.component('meta-menu',{
     data() {
-		return {
-	    	content: this.$root.state['meta']['content'],
-		}
+	return {
+	    content: this.$root.state['meta']['content'],
+	}
     },
     computed:{
     	dlLabel: function(){
@@ -88,6 +195,10 @@ Vue.component('meta-menu',{
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
 	selectMe: function(which) {
+	    if(which == 'issues'){
+		Event.$emit('activeModeChange', 'issue');
+		return
+	    }
 	    this.content = which;
 	    Event.$emit('content', this.content);
 	    Event.$emit('activeModeChange', 'meta');
@@ -95,6 +206,7 @@ Vue.component('meta-menu',{
     },
     template: `
 	<div class='topMenu'>
+	  <div @click="selectMe('issues')">Explore Issues</div>
 	  <div @click="selectMe('about')">About</div>
 	  <div @click="selectMe('tech')">Technical</div>
 	  <div @click="selectMe('credit')">Credits</div>
@@ -148,91 +260,17 @@ Vue.component('main-window',{
 	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
 	    Event.$emit('toggleVisibility');
 	},
-	readerMode: function () {
-	    return this.$root.state.active == 'issue' ? true : false;
-	},
-	changePage: function (which) {
-	    page = this.$root.state.issue.page;
-	    switch (which) {
-	        case 'next':
-		    page += 1;
-		    break;
-	        case 'prev':
-		    page -= 1;
-		    break;
-	    default:
-		page = 1;
-	    }
-	    page = page <= 1 ? 1 : page;
-	    Event.$emit('pdf-pageChange', page);
-	},
-	modeActive: (mode) => {
-	    issueMode  = this.$root.state.issue.viewMode;
-	    activeMode = this.$root.state.active == 'issue';
-	    if(mode == 'tei' && activeMode){
-		this.teiMode = true;
-	    }else if (mode == 'pdf' && activeMode){
-		this.teiMode = false;
-	    }
-	}
     },
-    created() {
-	Event.$on('content', (content) => {
-	    this.content = content;
-	}),
-	Event.$on('view-mode-toggled', (to) => {
-	    this.teiMode = to == 'tei' ? true : false;
-	})
-    },
-    data() {
-	return {
-	    teiMode: false,
-	    content: this.$root.state.meta.content,
-	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-		creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
-		techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
-		       }
-			},
-	template: `
- 		<div class="mainWindow">
-					<div id="tei" v-if="teiMode">
-						<tei-markup></tei-markup>
-					</div>
-		    <div class="mainCenter">
-	 	  	    <div class="logoTitle" v-if="this.$root.state.active != 'issue'">
-	            	<div class="logoThe">The</div>
-	            	<div class="logoBroadway">Broadway</div>
-	            	<div class="logoJournal">Journal</div>
-		        	<div class="logoSubtitle">A Digital Augmented Edition</div>
-		        		<div class="hrMain"></div>
-		      	</div>
-        <view-mode-toggle></view-mode-toggle>
-		    	<div class="content" v-if="this.$root.state.active != 'issue'">
-		        	<div v-if="content == 'about'">
-			    		{{ aboutText[0] }}
-			    		<br><br>
-	        			{{ aboutText[1] }}
-		   		 	</div>
-
-					<div v-if="content == 'tech'">
-						<li v-for="each in techText"  v-text="each"></li>
-					</div>
-	
-					<div v-if="content == 'credit'">
-						<li v-for="each in creditText" v-text="each"></li>
-					</div>
-	 	    	</div>
-
-	 			<div class="mainInner" v-if="this.$root.state.active == 'issue'">
-	<button @click='toggleVis'>Vis</button>
-	<button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
-					<zoom-slider v-if='!teiMode'></zoom-slider>
-					<button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
-					<pdf-viewer v-if="!teiMode"></pdf-viewer>
-				</div>
-			</div>	
-		</div>
-			`
+    template: `
+ 	<div class="mainWindow">
+	  <div class="mainCenter">
+	    <about></about>
+	    <issue></issue>
+	    <people></people>
+	    <searchResults></searchResults>
+	  </div>	
+	</div>
+	`
 });
 
 
@@ -606,17 +644,13 @@ Vue.component('index-child',{
 	</div>`
 });
 
-Vue.component('issue-bar',{
-    created(){
-	Event.$on('dataLoaded', () => this.hasData = true)
+Vue.component('interIssueNav',{
+    data(){
+	return {
+	    months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
+	    hasData: this.$root.journals ? true : false
+	}
     },
-	 data(){
-	     return {
-		 months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
-		 hasData: false
-
-		 }
-	 },
     methods:{
 	lookupMonth: function(month){
 	    monthConvert = {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'}
@@ -635,7 +669,7 @@ Vue.component('issue-bar',{
 	}
     },
 	template: `
-		<div v-if="hasData" class="issueBar">
+		<div v-if="hasData && this.$root.state.active == 'issue'" class="issueBar">
 			<div class="issueMask"></div>
 				<div class="issueIndex">
 					<div class="singleIndex">
@@ -894,7 +928,6 @@ new Vue({
 		    this.years.push(iid.year)
 		}
 	    }
-	    Event.$emit('dataLoaded')
 	});
     },
 });
