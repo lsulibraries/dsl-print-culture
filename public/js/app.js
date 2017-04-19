@@ -14,7 +14,7 @@ window.Util  = new Vue({
 
 
 
-Vue.component('pseudo-body', {
+Vue.component('container', {
     created() {
 	Event.$on('toggleVisibility', (content) => {
 	    this.visibility = this.$root.visibility;
@@ -26,7 +26,7 @@ Vue.component('pseudo-body', {
 	}
     },
     template: `
-        <div id="pseudo-body" v-bind:class="this.visibility">
+        <div id="container" v-bind:class="this.visibility">
         <div class="nav">
                 <div class="libLogo">
                     <img src="images/libraries_logo.png"></img>
