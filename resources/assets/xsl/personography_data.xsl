@@ -6,12 +6,12 @@
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:template match="/">
-        <div class="Authors">
+        <people class="Authors">
             <xsl:apply-templates select="TEI/text/body/listPerson[@type='Authors']"/>
-        </div>
-        <div class="ProjectStaff">
+        </people>
+        <people class="ProjectStaff">
             <xsl:apply-templates select="TEI/text/body/listPerson[@type='ProjectStaff']"/>
-        </div>
+        </people>
     </xsl:template>
 
     <xsl:variable name="documents" select="collection('Issues')"/>
@@ -36,10 +36,10 @@
             </xsl:variable>
             
             <xsl:element name="{$xmlid}">
-                <name>
+                <personName>
                     <xsl:value-of select="persName[not(@type='pseudo')]"/>
-                </name>
-                <init>
+                </personName>
+                <personInit>
                     <xsl:for-each select="tokenize(persName[not(@type='pseudo')], '\s')">
                         <xsl:choose>
                             <xsl:when test="matches(., 'Sir')"/>
@@ -55,30 +55,106 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:for-each>
-                </init>
+                </personInit>
                 <xsl:for-each select="persName[@type='pseudo']">
-                    <pseudo>
+                    <personPseudo>
                         <xsl:value-of select="."/>
-                    </pseudo>
+                    </personPseudo>
                 </xsl:for-each>
                 <xsl:if test="@role">
-                    <role>
+                    <personRole>
                         <xsl:value-of select="@role"/>
-                    </role>
+                    </personRole>
                 </xsl:if>
                 <xsl:if test="persName/@ref">
-                    <viaf>
+                    <personViaf>
                         <xsl:value-of select="persName/@ref"/>
-                    </viaf>
+                    </personViaf>
                 </xsl:if>
-                <xsl:if test="../@type='ProjectStaff'">
-                    <affil>
-                        <xsl:value-of select="affiliation"/>
-                    </affil>
-                    <note>
-                        <xsl:value-of select="note"/>
-                    </note>
-                </xsl:if>
+                
+                <personBio>
+                    <xsl:if test="birth">
+                        <personBirth>
+                            <xsl:text>Born</xsl:text>
+                            <xsl:for-each select="birth/@when">
+                                <xsl:text> </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when test="starts-with(., '-')">
+                                        <xsl:value-of select="abs(number(.))"/>
+                                        <xsl:text> B.C.</xsl:text>
+                                    </xsl:when>
+                                    <xsl:when test="string-length(.) eq 10">
+                                        <xsl:value-of select="format-date(., '[MNn] [D], [Y]')"/>
+                                    </xsl:when>
+                                    <xsl:when test="string-length(.) eq 7">
+                                        <xsl:value-of
+                                            select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"
+                                        />
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="."/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:for-each>
+
+                            <xsl:choose>
+                                <xsl:when test="birth/placeName">
+                                    <xsl:text> in </xsl:text>
+                                    <xsl:value-of select="birth/placeName"/>
+                                </xsl:when>
+                            </xsl:choose>
+                            <xsl:text>.</xsl:text>
+                        </personBirth>
+
+                    </xsl:if>
+
+                    <xsl:if test="death">
+                        <personDeath>
+                            <xsl:text>Died</xsl:text>
+                            <xsl:for-each select="death/@when">
+                                <xsl:text> </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when test="starts-with(., '-')">
+                                        <xsl:value-of select="abs(number(.))"/>
+                                        <xsl:text> B.C.</xsl:text>
+                                    </xsl:when>
+                                    <xsl:when test="string-length(.) eq 10">
+                                        <xsl:value-of select="format-date(., '[MNn] [D], [Y]')"/>
+                                    </xsl:when>
+                                    <xsl:when test="string-length(.) eq 7">
+                                        <xsl:value-of
+                                            select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"
+                                        />
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="."/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:for-each>
+                            
+                            <xsl:choose>
+                                <xsl:when test="death/placeName">
+                                    <xsl:text> in </xsl:text>
+                                    <xsl:value-of select="death/placeName"/>
+                                </xsl:when>
+                            </xsl:choose>
+                            <xsl:text>.</xsl:text>
+                        </personDeath>
+                        
+                    </xsl:if>
+                    
+                    <xsl:if test="../@type='ProjectStaff'">
+                        <personAffiliation>
+                            <xsl:value-of select="affiliation"/>
+                        </personAffiliation>
+                        <personNote>
+                            <xsl:value-of select="note"/>
+                        </personNote>
+                    </xsl:if>
+                    
+                </personBio>
+                
+                
                 <xsl:if test="string-length($totalcontribs) != 0">
                     <contrib_issues>
                         <xsl:for-each select="$documents">
