@@ -8,7 +8,7 @@
         <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
     </head>
     <body v-bind:class="normal">
-      <div id="container">
+      <div id="vue-root">
               <pseudo-body></pseudo-body>
 
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

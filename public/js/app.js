@@ -12,6 +12,8 @@ window.Util  = new Vue({
 
 });
 
+
+
 Vue.component('pseudo-body', {
     created() {
 	Event.$on('toggleVisibility', (content) => {
@@ -815,7 +817,7 @@ Vue.component('footer-bar',{
 window.Event = new Vue();
 
 new Vue({
-	el:'#container',
+	el:'#vue-root',
     methods: {
 	getTocEntry: function(issueId, itemId){
 
