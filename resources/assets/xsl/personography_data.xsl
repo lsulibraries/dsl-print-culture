@@ -15,7 +15,7 @@
     </xsl:template>
 
     <xsl:variable name="documents" select="collection('Issues')"/>
-
+    
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
             
@@ -35,6 +35,16 @@
                 </xsl:for-each-group>
             </xsl:variable>
             
+
+            
+            <xsl:variable name="personMentionPiece">
+                <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
+                    <xsl:copy-of select="parent::div"></xsl:copy-of>
+                </xsl:for-each-group>
+                
+            </xsl:variable>
+            
+    
             <xsl:element name="{$xmlid}">
                 <personName>
                     <xsl:value-of select="persName[not(@type='pseudo')]"/>
@@ -162,10 +172,17 @@
                 
                 <xsl:if test="string-length($totalmentions) or string-length($totalcontribs) != 0">
                     <listBibl>
-                        
+                        <xsl:for-each select="$documents//listBibl//author">
+                            <xsl:if test="substring-after(@ref, '#') eq $xmlid">
+                            <bibl>
+                                <issueId><xsl:value-of select="ancestor::fileDesc/publicationStmt/idno"/></issueId>
+                                <pieceId><xsl:value-of select="parent::bibl/@xml:id"/></pieceId>                               
+                            </bibl>
+                            </xsl:if>
+                        </xsl:for-each>
                     </listBibl>
                 </xsl:if>
-                
+             
                 
             </xsl:element>
         </xsl:for-each>
