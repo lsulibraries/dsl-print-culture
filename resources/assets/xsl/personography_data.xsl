@@ -34,16 +34,6 @@
                     </xsl:if>
                 </xsl:for-each-group>
             </xsl:variable>
-            
-
-            
-            <xsl:variable name="personMentionPiece">
-                <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
-                    <xsl:copy-of select="parent::div"></xsl:copy-of>
-                </xsl:for-each-group>
-                
-            </xsl:variable>
-            
     
             <xsl:element name="{$xmlid}">
                 <personName>
