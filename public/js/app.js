@@ -9,10 +9,7 @@ window.Util  = new Vue({
 	    return ret;
 	}
     }
-
 });
-
-
 
 Vue.component('container', {
     created() {
@@ -27,30 +24,42 @@ Vue.component('container', {
     },
     template: `
         <div id="container" v-bind:class="this.visibility">
-        <div class="nav">
-                <div class="libLogo">
-                    <img src="images/libraries_logo.png"></img>
-                </div>
-                                    <view-mode-toggle></view-mode-toggle>
-
-                                <meta-menu></meta-menu>
-
-            </div>     
-            <div class="documentSection">
-                <div class="documentUnder"></div>
-                <div class="documentOverflow"></div>
-                <navigation></navigation>
-                <div class="mainColumn">
-                    <main-window ></main-window>
-                </div>
-                <issue-bar></issue-bar>
-
-            </div>
-
-            <author-section class="authorSection">
-            </author-section>
-        </div>
+          <vue-header></vue-header>
+	  <vue-content></vue-content>
+	  <vue-footer></vue-footer>
 	</div>
+    `
+})
+
+Vue.component('vue-header',{
+    template: `
+          <div class="nav">
+            <div class="libLogo">
+              <img src="images/libraries_logo.png"></img>
+            </div>
+            <meta-menu></meta-menu>
+        </div>
+	`
+})
+
+Vue.component('vue-footer',{
+    template: `<div class='footer'>
+        <author-section class="authorSection">
+        </author-section>
+    </div>`
+})
+
+Vue.component('vue-content',{
+    template: `
+        <div class="documentSection">
+          <div class="documentUnder"></div>
+          <div class="documentOverflow"></div>
+          <navigation></navigation>
+          <div class="mainColumn">
+            <main-window ></main-window>
+          </div>
+          <issue-bar></issue-bar>
+        </div>
     `
 })
 
@@ -197,7 +206,7 @@ Vue.component('main-window',{
 		        	<div class="logoSubtitle">A Digital Augmented Edition</div>
 		        		<div class="hrMain"></div>
 		      	</div>
-
+        <view-mode-toggle></view-mode-toggle>
 		    	<div class="content" v-if="this.$root.state.active != 'issue'">
 		        	<div v-if="content == 'about'">
 			    		{{ aboutText[0] }}
