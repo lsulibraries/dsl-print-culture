@@ -87,16 +87,13 @@
                                         <xsl:value-of select="format-date(., '[MNn] [D], [Y]')"/>
                                     </xsl:when>
                                     <xsl:when test="string-length(.) eq 7">
-                                        <xsl:value-of
-                                            select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"
-                                        />
+                                        <xsl:value-of select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"/>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:value-of select="."/>
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:for-each>
-
                             <xsl:choose>
                                 <xsl:when test="birth/placeName">
                                     <xsl:text> in </xsl:text>
@@ -105,7 +102,6 @@
                             </xsl:choose>
                             <xsl:text>.</xsl:text>
                         </personBirth>
-
                     </xsl:if>
 
                     <xsl:if test="death">
@@ -122,16 +118,13 @@
                                         <xsl:value-of select="format-date(., '[MNn] [D], [Y]')"/>
                                     </xsl:when>
                                     <xsl:when test="string-length(.) eq 7">
-                                        <xsl:value-of
-                                            select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"
-                                        />
+                                        <xsl:value-of select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"/>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:value-of select="."/>
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:for-each>
-                            
                             <xsl:choose>
                                 <xsl:when test="death/placeName">
                                     <xsl:text> in </xsl:text>
@@ -140,7 +133,6 @@
                             </xsl:choose>
                             <xsl:text>.</xsl:text>
                         </personDeath>
-                        
                     </xsl:if>
                     
                     <xsl:if test="../@type='ProjectStaff'">
@@ -156,54 +148,17 @@
                 
                 
                 <xsl:if test="string-length($totalcontribs) != 0">
-                    <contrib_issues>
-                        <xsl:for-each select="$documents">
-                            <xsl:for-each-group select="//listBibl//author" group-by="@ref">
-                                <xsl:choose>
-                                    <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                        <c_issue>
-                                            <c_issue_total>
-                                                <xsl:value-of select="count(current-group())"/>
-                                            </c_issue_total>
-                                            <c_issue_idno>
-                                                <xsl:value-of select="//publicationStmt/idno"/>
-                                            </c_issue_idno>
-                                        </c_issue>
-                                    </xsl:when>
-                                    <xsl:otherwise/>
-                                </xsl:choose>
-                            </xsl:for-each-group>
-                        </xsl:for-each>
-                    </contrib_issues>
-                    <contrib_total>
+                    <personTotalContrib>
                         <xsl:value-of select="$totalcontribs"/>
-                    </contrib_total>
+                    </personTotalContrib>
                 </xsl:if>
                 
                 <xsl:if test="string-length($totalmentions) != 0">
-                    <mention_issues>
-                        <xsl:for-each select="$documents">
-                            <xsl:for-each-group select="//body//persName" group-by="@ref">
-                                <xsl:choose>
-                                    <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                        <m_issue>
-                                            <m_issue_total>
-                                                <xsl:value-of select="count(current-group())"/>
-                                            </m_issue_total>
-                                            <m_issue_idno>
-                                                <xsl:value-of select="//publicationStmt/idno"/>
-                                            </m_issue_idno>
-                                        </m_issue>
-                                    </xsl:when>
-                                    <xsl:otherwise/>
-                                </xsl:choose>
-                            </xsl:for-each-group>
-                        </xsl:for-each>
-                    </mention_issues>
-                    <mention_total>
+                    <personTotalMention>
                         <xsl:value-of select="$totalmentions"/>
-                    </mention_total>
+                    </personTotalMention>
                 </xsl:if>
+                
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
