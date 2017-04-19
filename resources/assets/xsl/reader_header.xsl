@@ -126,31 +126,12 @@
                     <auth_name>
                         <xsl:choose>
                             <xsl:when
-                                test="author/@status = 'attested' or author/@status = 'unknown'">
+                                test="author/@status = 'attested' or 'unknown'">
                                 <xsl:value-of
                                     select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
                                 />
                             </xsl:when>
-
-                            <xsl:when test="author/@status = 'inferred'">
-                                <xsl:choose>
-                                    <xsl:when
-                                        test="//text//div[@decls eq $decls_id]//byline/persName">
-                                        <xsl:value-of
-                                            select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"/>
-                                        <xsl:text> writing as </xsl:text>
-                                        <xsl:value-of
-                                            select="//text//div[@decls eq $decls_id]//byline/persName"
-                                        />
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of
-                                            select="$personography//listPerson/person[@xml:id eq $auth_id]/persName[not(@type = 'pseudo')]"
-                                        />
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:when>
-                            <xsl:when test="author/@status = 'supplied'">
+                            <xsl:when test="author/@status = 'supplied' or 'inferred'">
                                 <xsl:choose>
                                     <xsl:when
                                         test="//text//div[@decls eq $decls_id]//byline/persName">
