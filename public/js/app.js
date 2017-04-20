@@ -28,7 +28,13 @@ Vue.component('container', {
 	  <vue-content></vue-content>
 	  <vue-footer></vue-footer>
 	</div>
-    `
+	`,
+    methods: {
+	toggleVis: function (){
+	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
+	    Event.$emit('toggleVisibility');
+	},
+    }
 })
 
 Vue.component('vue-header',{
@@ -65,33 +71,34 @@ Vue.component('vue-footer',{
 Vue.component('vue-content',{
     template: `
 
-        <div class="documentSection">
-	  <!-- Needs to move down into the Issue component -->
-	  <interIssueNav></interIssueNav>
-          <div class="documentUnder"></div>
-          <div class="documentOverflow"></div>
-          
-          <div class="mainColumn">
-            <main-window></main-window>
-          </div>
+        <div class="content">
+	  <about></about>
+	  <issue></issue>
+	  <people></people>
+	  <searchResults></searchResults>
         </div>
-    `
+	`,
 })
 
 Vue.component('people',{
-    template: ``
+    template: `
+        <div class="people">___________PEOPLE____________</div>
+    `
 })
 
 Vue.component('searchResults',{
-    template: ``
+    template: `
+	<div class="searchResults">___________SEARCH RESULTS____________</div>
+    `
 })
 
 Vue.component('issue',{
     template: `
-	<div class="mainColumn" v-if="this.$root.state.active == 'issue'">
+	<div class="issue" v-if="this.$root.state.active == 'issue'">
 	  <div id="tei" v-if="teiMode">
 	    <tei-markup></tei-markup>
-	  </div>
+	</div>
+	  <interIssueNav></interIssueNav>
           <navigation></navigation>
 	  <view-mode-toggle></view-mode-toggle>
 	  <div class="mainInner" v-if="this.$root.state.active == 'issue'">
@@ -156,20 +163,26 @@ Vue.component('issueHeader', {
     `
 })
 
-Vue.component('about',{
+Vue.component('logo', {
     template: `
-
-      <div class="content" v-if="this.$root.state.active != 'issue'">
-	<div class="logoTitle" v-if="this.$root.state.active != 'issue'">
+	<div class="logo" v-if="this.$root.state.active != 'issue'">
 	  <div class="logoThe">The</div>
 	  <div class="logoBroadway">Broadway</div>
 	  <div class="logoJournal">Journal</div>
 	  <div class="logoSubtitle">A Digital Edition</div>
+	</div>
+    `
+})
 
+Vue.component('about',{
+    template: `
+
+      <div class="about" v-if="this.$root.state.active != 'issue'">
+
+          <logo></logo>
 	  <div @click="selectMe('about')">About</div>
 	  <div @click="selectMe('tech')">Technical</div>
 	  <div @click="selectMe('credit')">Credits</div>
-	</div>
 	<div v-if="content == 'about'">
 	        {{ aboutText[0] }}
 	        <br/>
@@ -232,7 +245,12 @@ Vue.component('headerNav',{
 	    let format = this.$root.state.issue.viewMode
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
-	contextSelected: function() {
+	contextSelected: function(context) {
+	    if(context == 'issues'){
+		Event.$emit('activeModeChange', 'issue')
+	    }else if(context == 'about'){
+		Event.$emit('activeModeChange', 'meta')
+	    }
 	}
     },
     template: `
@@ -283,25 +301,6 @@ Vue.component('view-mode-button',{
     },
 	template: `<span v-bind:class="[{toggled: active}, kind]"  @click="issueViewToggled(kind)"><slot></slot></span>`
 })
-
-Vue.component('main-window',{
-    methods: {
-	toggleVis: function (){
-	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
-	    Event.$emit('toggleVisibility');
-	},
-    },
-    template: `
- 	<div class="mainWindow">
-	  <div class="mainCenter">
-	    <about></about>
-	    <issue></issue>
-	    <people></people>
-	    <searchResults></searchResults>
-	  </div>	
-	</div>
-	`
-});
 
 
 Vue.component('navigation',{
