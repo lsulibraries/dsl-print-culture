@@ -33,13 +33,26 @@ Vue.component('container', {
 
 Vue.component('vue-header',{
     template: `
-          <div class="nav">
-            <div class="libLogo">
-              <img src="images/libraries_logo.png"></img>
-            </div>
-            <meta-menu></meta-menu>
+        <div class="header">
+          <headerLogo></headerLogo>
+	  <headerNav></headerNav>
+          <headerTitle></headerTitle>
         </div>
 	`
+})
+
+Vue.component('headerTitle',{
+    template: `
+	<div class="headerTitle">The Broadway Journal</div>
+    `
+})
+
+Vue.component('headerLogo',{
+    template: `
+	<div class="headerLogo">
+          <img src="images/libraries_logo.png"></img>
+        </div>
+    `
 })
 
 Vue.component('vue-footer',{
@@ -132,6 +145,17 @@ Vue.component('issue',{
     },
 })
 
+Vue.component('issueHeader', {
+    data() {
+	return {
+	    dlLabel: 'Hello Download'
+	}
+    },
+    template: `
+    	<a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
+    `
+})
+
 Vue.component('about',{
     template: `
 
@@ -141,7 +165,10 @@ Vue.component('about',{
 	  <div class="logoBroadway">Broadway</div>
 	  <div class="logoJournal">Journal</div>
 	  <div class="logoSubtitle">A Digital Edition</div>
-	  <div class="hrMain"></div>
+
+	  <div @click="selectMe('about')">About</div>
+	  <div @click="selectMe('tech')">Technical</div>
+	  <div @click="selectMe('credit')">Credits</div>
 	</div>
 	<div v-if="content == 'about'">
 	        {{ aboutText[0] }}
@@ -169,9 +196,20 @@ Vue.component('about',{
 	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
 	}
     },
+    methods: {
+    	selectMe: function(which) {
+	    if(which == 'issues'){
+		Event.$emit('activeModeChange', 'issue');
+		return
+	    }
+	    this.content = which;
+	    Event.$emit('content', this.content);
+	    Event.$emit('activeModeChange', 'meta');
+	}
+    }
 })
 
-Vue.component('meta-menu',{
+Vue.component('headerNav',{
     data() {
 	return {
 	    content: this.$root.state['meta']['content'],
@@ -194,23 +232,15 @@ Vue.component('meta-menu',{
 	    let format = this.$root.state.issue.viewMode
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
-	selectMe: function(which) {
-	    if(which == 'issues'){
-		Event.$emit('activeModeChange', 'issue');
-		return
-	    }
-	    this.content = which;
-	    Event.$emit('content', this.content);
-	    Event.$emit('activeModeChange', 'meta');
+	contextSelected: function() {
 	}
     },
     template: `
-	<div class='topMenu'>
-	  <div @click="selectMe('issues')">Explore Issues</div>
-	  <div @click="selectMe('about')">About</div>
-	  <div @click="selectMe('tech')">Technical</div>
-	  <div @click="selectMe('credit')">Credits</div>
-	  <a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
+	<div class='headerNav'>
+	  <div @click="contextSelected('issues')">Explore Issues</div>
+	  <div @click="contextSelected('about')">About</div>
+	  <div @click="contextSelected('people')">Explore People</div>
+	  <input>Search</input>
 	</div>
 	`
 });
