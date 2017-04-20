@@ -1,8 +1,7 @@
 <html lang="en">
 <meta charset="UTF-8">
     <head>
-
-        <link rel="stylesheet" type="text/css" href="css/nineteenth.css">
+<!--        <link rel="stylesheet" type="text/css" href="css/nineteenth.css"> -->
         <link rel="icon" href="favicon_purple.ico">        
         <title>The Broadway Journal</title>
         <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
