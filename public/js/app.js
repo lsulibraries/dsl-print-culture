@@ -40,6 +40,7 @@ Vue.component('container', {
 Vue.component('vue-header',{
     template: `
         <div class="header">
+	  <button @click='toggleVis'>Vis</button>
           <headerLogo></headerLogo>
 	  <headerNav></headerNav>
           <headerTitle></headerTitle>
@@ -72,7 +73,7 @@ Vue.component('vue-content',{
     template: `
 
         <div class="content">
-	  <about></about>
+	  <abouts></abouts>
 	  <issue></issue>
 	  <personography></personography>
 	  <searchResults></searchResults>
@@ -140,10 +141,8 @@ Vue.component('issue',{
 	    <tei-markup></tei-markup>
 	</div>
 	  <interIssueNav></interIssueNav>
-          <navigation></navigation>
 	  <view-mode-toggle></view-mode-toggle>
 	  <div class="mainInner" v-if="this.$root.state.active == 'issue'">
-	    <button @click='toggleVis'>Vis</button>
 	    <button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
 	    <zoom-slider v-if='!teiMode'></zoom-slider>
 	    <button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
@@ -215,10 +214,10 @@ Vue.component('logo', {
     `
 })
 
-Vue.component('about',{
+Vue.component('abouts',{
     template: `
 
-      <div class="about" v-if="this.$root.state.active != 'issue'">
+      <div class="abouts" v-if="this.$root.state.active != 'issue'">
 
           <logo></logo>
 	  <div @click="selectMe('about')">About</div>
@@ -344,7 +343,7 @@ Vue.component('view-mode-button',{
 })
 
 
-Vue.component('navigation',{
+Vue.component('intraIssueNav',{
 	data(){
 		return { issueID:'', tocContent:[]
 	    }
@@ -357,7 +356,7 @@ Vue.component('navigation',{
 		})
 	},
 	template:`
-		<div v-if='this.$root.state.active=="issue"' class='navigationIssue'>
+		<div v-if='this.$root.state.active=="issue"' class='intraIssueNav'>
                 <div class='tocDropdown'>Table of Contents</div>
                 <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
         </div>
@@ -739,7 +738,7 @@ Vue.component('interIssueNav',{
 	}
     },
 	template: `
-		<div v-if="hasData && this.$root.state.active == 'issue'" class="issueBar">
+		<div v-if="hasData && this.$root.state.active == 'issue'" class="interIssueNav">
 			<div class="issueMask"></div>
 				<div class="issueIndex">
 					<div class="singleIndex">
@@ -755,7 +754,8 @@ Vue.component('interIssueNav',{
 	</div>
 	<issue-month :month='this.months[0]' :list='lookup("JAN","1846")' class="singleIndex"></issue-month>
 			</div>
-		</div>
+	<intraIssueNav></intraIssueNav>	
+    </div>
 		`
 });
 
