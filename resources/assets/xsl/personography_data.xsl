@@ -164,10 +164,20 @@
                     <listBibl>
                         <xsl:for-each select="$documents//listBibl//author">
                             <xsl:if test="substring-after(@ref, '#') eq $xmlid">
-                            <bibl>
-                                <issueId><xsl:value-of select="ancestor::fileDesc/publicationStmt/idno"/></issueId>
-                                <pieceId><xsl:value-of select="parent::bibl/@xml:id"/></pieceId>                               
-                            </bibl>
+                                <bibl>
+                                    <issueId><xsl:value-of select="ancestor::fileDesc/publicationStmt/idno"/></issueId>
+                                    <pieceId><xsl:value-of select="parent::bibl/@xml:id"/></pieceId>
+                                    <personPieceRole>Contributor</personPieceRole>
+                                </bibl>
+                            </xsl:if>
+                        </xsl:for-each>
+                        <xsl:for-each select="$documents//body//persName">
+                            <xsl:if test="substring-after(@ref, '#') eq $xmlid">
+                                <bibl>
+                                    <issueId><xsl:value-of select="ancestor::TEI//fileDesc/publicationStmt/idno"/></issueId>
+                                    <pieceId><xsl:value-of select="substring-after(ancestor::div[@decls][1]/@decls,'#')"/></pieceId>
+                                    <personPieceRole>Mentioned</personPieceRole>
+                                </bibl>
                             </xsl:if>
                         </xsl:for-each>
                     </listBibl>
