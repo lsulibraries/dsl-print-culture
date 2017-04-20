@@ -74,15 +74,38 @@ Vue.component('vue-content',{
         <div class="content">
 	  <about></about>
 	  <issue></issue>
-	  <people></people>
+	  <personography></personography>
 	  <searchResults></searchResults>
         </div>
 	`,
 })
 
-Vue.component('people',{
+Vue.component('personography',{
     template: `
-        <div class="people">___________PEOPLE____________</div>
+        <div class="personography">___________personography____________
+	  <personFilter></personFilter>
+	  <personIndex></personIndex>
+	</div>
+    `
+})
+
+Vue.component('personIndex', {
+    template: `
+	<div class='personIndex'>Person Index...
+     	  <person></person>
+        </div>
+    `
+})
+
+Vue.component('personFilter', {
+    template: `
+	<div class='personFilter'>Person Filter...</div>
+    `
+})
+
+Vue.component('person', {
+    template: `
+	<div class='person'>Person...</div>
     `
 })
 
