@@ -111,7 +111,25 @@ Vue.component('person', {
 
 Vue.component('searchResults',{
     template: `
-	<div class="searchResults">___________SEARCH RESULTS____________</div>
+	<div class="searchResults">___________SEARCH RESULTS____________
+          <searchResult></searchResult> ...
+        </div>
+	
+    `
+})
+
+Vue.component('searchResult',{
+    props: ['issueId', 'pieceId'],
+    methods: {
+	resultClicked: function(){
+	    console.log('resultClicked ' + this.issueId + this.pieceId)
+	}
+    },
+    template: `
+	<div class="searchResult">___________SEARCH RESULT____________
+	<div class="context"></div>
+	<div class="pieceTitle" @click="resultClicked">Click me</div>
+	</div>
     `
 })
 
