@@ -29,12 +29,6 @@ Vue.component('container', {
 	  <vue-footer></vue-footer>
 	</div>
 	`,
-    methods: {
-	toggleVis: function (){
-	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
-	    Event.$emit('toggleVisibility');
-	},
-    }
 })
 
 Vue.component('vue-header',{
@@ -45,7 +39,13 @@ Vue.component('vue-header',{
 	  <headerNav></headerNav>
           <headerTitle></headerTitle>
         </div>
-	`
+	`,
+    methods: {
+	toggleVis: function (){
+	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
+	    Event.$emit('toggleVisibility');
+	},
+    }
 })
 
 Vue.component('headerTitle',{
