@@ -750,9 +750,8 @@ Vue.component('index-child',{
     props: ['id'],
     methods: {
 	selectIssue: function(id){
-	    Event.$emit('activeModeChange', 'issue');
 	    Event.$emit('issueSelected', id);
-		}
+	}
     },
     template: `
 	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
@@ -842,13 +841,11 @@ Vue.component('author-modal',{
 Vue.component('author-node',{
 	methods:{
 		modalClick: function(data){
-					Event.$emit('modal-active',this.authID);
-					this.$parent.chosen=this.authID;
-					this.$parent.modalActive=true;
-
+		    this.$parent.chosen=this.authID;
+		    this.$parent.modalActive=true;
 		},
 		cardHover: function(data){
-					this.$parent.chosen=this.authID;
+		    this.$parent.chosen=this.authID;
 		}
 	},
 	computed:{ authHref: function() {var path = 'author-' + this.authID; return path}
