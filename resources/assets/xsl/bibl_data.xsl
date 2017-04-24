@@ -8,10 +8,10 @@
     <xsl:variable name="personography" select="document('personography.xml')"/>
 
     <xsl:template match="/">
-        <div>
+        <issue>
             <xsl:apply-templates select="//sourceDesc/bibl"/>
             <xsl:apply-templates select="//listBibl//bibl"/>
-        </div>
+        </issue>
     </xsl:template>
 
     <xsl:template match="sourceDesc/bibl">
@@ -91,13 +91,48 @@
             </xsl:if>
         </xsl:variable>
         <xsl:variable name="decls_id" select="concat('#', string(@xml:id))"/>
-        <xsl:variable name="auth_id" select="substring-after(author/@ref, '#')"/>
-
-        <rhBibl id="{@xml:id}">
-            <rhSection>
-                <decls_id>
+        
+        <xsl:if test="@type='section'">
+            <xsl:element name="sectionMeta">
+                <xsl:attribute name="id" select="@xml:id"/>
+                <sectionId>
                     <xsl:value-of select="@xml:id"/>
-                </decls_id>
+                </sectionId>
+                <sectionTitle>
+                    <xsl:value-of select="title"/>
+                </sectionTitle>
+                <xsl:if test="biblScope/@from">
+                    <sectionPage>
+                        <xsl:value-of select="biblScope/@from"/>
+                        <xsl:text>-</xsl:text>
+                        <xsl:value-of select="biblScope/@to"/>
+                    </sectionPage>
+                    <sectionPdfIndex>
+                        <xsl:value-of select="xs:integer(biblScope/@from) - $page1"/>
+                    </sectionPdfIndex>
+                </xsl:if>
+                <xsl:if test="biblScope/@n">
+                    <sectionPage>
+                        <xsl:value-of select="biblScope/@n"/>
+                    </sectionPage>
+                    <sectionPdfIndex>
+                        <xsl:value-of select="xs:integer(biblScope/@n) - $page1"/>
+                    </sectionPdfIndex>
+                </xsl:if>
+                <xsl:if test="author">
+                    <sectionListPerson>
+                        <xsl:for-each select="author">
+                            <person>
+                                <personId>
+                                    <xsl:value-of select="substring-after(@ref, '#')"/>
+                                </personId>
+                            </person>
+                        </xsl:for-each>
+                    </sectionListPerson>
+                </xsl:if>
+            </xsl:element>
+        </xsl:if> 
+        <!-- 
 
                 <xsl:choose>
                     <xsl:when test="parent::bibl">
@@ -191,6 +226,7 @@
                     </auth_status>
                 </rhAuthor>
             </xsl:if>
-        </rhBibl>
+        </xsl:element>
+         -->    
     </xsl:template>
 </xsl:stylesheet>
