@@ -13,17 +13,17 @@ window.Util  = new Vue({
 
 Vue.component('container', {
     created() {
-	Event.$on('toggleVisibility', (content) => {
-	    this.visibility = this.$root.visibility;
+	Event.$on('toggleContrast', () => {
+	    this.contrast = this.$root.state.contrast;
 	})
     },
-    data() {
-	return {
-	    visibility: this.$root.visibility
+    methods: {
+	contrastString: function () {
+	    return this.$root.state.contrast + 'Contrast'
 	}
     },
     template: `
-        <div id="container" v-bind:class="this.visibility">
+        <div id="container" v-bind:class="contrastString()">
           <vue-header></vue-header>
 	  <vue-content></vue-content>
 	  <vue-footer></vue-footer>
@@ -34,16 +34,16 @@ Vue.component('container', {
 Vue.component('vue-header',{
     template: `
         <div class="header">
-	  <button @click='toggleVis'>Vis</button>
+	  <button @click='toggleContrast'>Vis</button>
           <headerLogo></headerLogo>
 	  <headerNav></headerNav>
           <headerTitle></headerTitle>
         </div>
 	`,
     methods: {
-	toggleVis: function (){
-	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
-	    Event.$emit('toggleVisibility');
+	toggleContrast: function (){
+	    this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
+	    Event.$emit('toggleContrast');
 	},
     }
 })
@@ -157,8 +157,8 @@ Vue.component('issue',{
     },
     methods: {
 	toggleVis: function (){
-	    this.$root.visibility = this.$root.visibility == 'highContrast' ? 'normal' : 'highContrast';
-	    Event.$emit('toggleVisibility');
+	    this.$root.contrast = this.$root.contrast == 'highContrast' ? 'normal' : 'highContrast';
+	    Event.$emit('toggleContrast');
 	},
 	changePage: function (which) {
 	    page = this.$root.state.issue.page;
@@ -243,7 +243,7 @@ Vue.component('abouts',{
     },
     data() {
 	return {
-	    content: this.$root.state.meta.content,
+//	    content: this.$root.state.meta.content,
 	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
 	    creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
@@ -265,7 +265,7 @@ Vue.component('abouts',{
 Vue.component('headerNav',{
     data() {
 	return {
-	    content: this.$root.state['meta']['content'],
+//	    content: this.$root.state['meta']['content'],
 	}
     },
     computed:{
@@ -953,19 +953,27 @@ new Vue({
 	}
     },
     data: {
-	visibility: 'normal',
-    journals:[],
+	journals:[],
 	years: [],
 	state: {
-	    active: 'meta', // issue | meta
-	    meta: {
-		content: 'about', // about | tech | credits
+	    activeContent: 'abouts', // issue| personography | search
+	    content: {
+		abouts: 'about', // technical | credits
+		issue: {
+		    id: '18450104', // yyyy-mm-dd
+		    viewMode: 'pdf', // text|pdf
+		    page: 1, // int
+		},
+		personography: {
+		    filterString: '', // ie eapoe
+		},
+		searchResults:{
+		    filter:'', // alpha | by date
+		    query: '', //eapoe
+		},
+
 	    },
-	    issue: {
-		id: '18450104', // yyyy-mm-dd
-		viewMode: 'pdf', // tei|pdf
-		page: 1, // int
-	    },
+	    contrast: 'normal', // high
 	}		
     },
     created() {
