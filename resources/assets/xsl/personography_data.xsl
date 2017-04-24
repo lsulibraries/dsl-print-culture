@@ -6,12 +6,12 @@
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:template match="/">
-        <people class="Authors">
+        <personIndex class="Authors">
             <xsl:apply-templates select="TEI/text/body/listPerson[@type='Authors']"/>
-        </people>
-        <people class="ProjectStaff">
+        </personIndex>
+        <personIndex class="ProjectStaff">
             <xsl:apply-templates select="TEI/text/body/listPerson[@type='ProjectStaff']"/>
-        </people>
+        </personIndex>
     </xsl:template>
 
     <xsl:variable name="documents" select="collection('Issues')"/>
