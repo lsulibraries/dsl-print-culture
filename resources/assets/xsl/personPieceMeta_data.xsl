@@ -70,17 +70,6 @@
                     <xsl:text>)</xsl:text>
                 </xsl:if>
             </authorShip>
-            
-        
-            
-            
-            
-                <!--
-                    <auth_status>
-                        
-                    </auth_status>
-                </rhAuthor>
-                -->
         </xsl:element>
     </xsl:template>
 </xsl:stylesheet>
