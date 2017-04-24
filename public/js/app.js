@@ -295,47 +295,39 @@ Vue.component('logo', {
 Vue.component('abouts',{
     template: `
 
-      <div class="abouts" v-if="this.$root.state.active != 'issue'">
+      <div class="abouts">
 
-          <logo></logo>
-	  <div @click="selectMe('about')">About</div>
-	  <div @click="selectMe('tech')">Technical</div>
-	  <div @click="selectMe('credit')">Credits</div>
-	<div v-if="content == 'about'">
+        <logo></logo>
+	<div @click="selectMe('about')">About</div>
+	<div @click="selectMe('tech')">Technical</div>
+	<div @click="selectMe('credit')">Credits</div>
+	<div v-if="this.abouts == 'about'">
+	
 	        {{ aboutText[0] }}
 	        <br/>
 	        {{ aboutText[1] }}
-              </div>
-	      <div v-if="content == 'tech'">
+        </div>
+	      <div v-if="this.abouts == 'tech'">
 	        <li v-for="each in techText"  v-text="each"></li>
 	      </div>
-	      <div v-if="content == 'credit'">
+	      <div v-if="this.abouts == 'credit'">
 	        <li v-for="each in creditText" v-text="each"></li>
 	      </div>
 	    </div>
 	`,
-    created() {
-	Event.$on('content', (content) => {
-	    this.content = content;
-	})
-    },
     data() {
 	return {
-//	    content: this.$root.state.meta.content,
+	    abouts: this.$root.state.content.abouts,
 	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
 	    creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
 	}
     },
     methods: {
-    	selectMe: function(which) {
-	    if(which == 'issues'){
-		Event.$emit('activeModeChange', 'issue');
-		return
-	    }
-	    this.content = which;
-	    Event.$emit('content', this.content);
-	    Event.$emit('activeModeChange', 'meta');
+    	selectMe: function(about) {
+	    this.abouts = about;
+	    Event.$emit('aboutsSelected', this.abouts);
+//	    Event.$emit('activeModeChange', 'abouts');
 	}
     }
 })
@@ -967,8 +959,8 @@ new Vue({
 	}		
     },
     created() {
-	Event.$on('content', (name) => {
-	    this.state['meta']['content'] = name;
+	Event.$on('aboutsSelected', (about) => {
+	    this.state.content.abouts = about;
 	})
 	Event.$on('viewerSelected', (viewer) => this.state.content.issue.viewer = viewer)
 	Event.$on('activeContentChange', (content) => this.state.activeContent = content )
