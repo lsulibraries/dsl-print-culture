@@ -64,28 +64,99 @@ Vue.component('headerLogo',{
 
 Vue.component('vue-footer',{
     template: `<div class='footer'>
-        <author-section class="authorSection">
-        </author-section>
     </div>`
 })
 
 Vue.component('vue-content',{
     template: `
-
         <div class="content">
-	  <abouts></abouts>
-	  <issue></issue>
-	  <personography></personography>
-	  <searchResults></searchResults>
+	  <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
+	  <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
+	  <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
+	  <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
         </div>
 	`,
 })
 
 Vue.component('personography',{
+    data(){
+	return {
+	    modalActive:false,
+	    personography:[],
+	    chosen: '',
+	}
+    },
+    mounted() {
+	axios.get('/api/personography/summary/json').then(response => this.personography = response.data);
+    },
     template: `
         <div class="personography">___________personography____________
 	  <personFilter></personFilter>
-	  <personIndex></personIndex>
+	<personIndex></personIndex>
+			<div class="authorSection">
+		
+			<div class="authorIntro"></div>
+			<div class="authorHeader">
+               	<div class="inBorder"></div>
+           		<div class="inText"><span class="swash">A</span>uthors</div>
+                <div class="inBorder"></div>
+           	</div>
+                            <div class="authorLegend">
+                <div class="legendHeader">View authors and their mentions</div>
+                <div class="legendBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+
+                <div class="legendIcons">
+                    <div class="contributingIcon">
+                        <div class="legend1">
+                            <div class="innerIcon"></div>
+                        </div>
+                        <div class="legendLabels">
+                            <div class="iconTop">Contributing Author</div>
+                            <div class="iconBottom">High Frequency</div>
+                        </div>
+                    </div>
+                    <div class="contributingIcon">
+                        <div class="legend2">
+                            <div class="innerIcon"></div>
+                        </div>
+                        <div class="legendLabels">
+                            <div class="iconTop">Mentioned Author</div>
+                            <div class="iconBottom">High Frequency</div>
+                        </div>
+                    </div>
+                    <div class="contributingIcon">
+                        <div class="legend3">
+                            <div class="innerIcon"></div>
+                        </div>
+                        <div class="legendLabels">
+                            <div class="iconTop">Mentioned Author</div>
+                            <div class="iconBottom">Medium Frequency</div>
+                        </div>
+                    </div>    
+                    <div class="contributingIcon">
+                        <div class="legend4">
+                            <div class="innerIcon"></div>
+                        </div>
+                        <div class="legendLabels">
+                            <div class="iconTop">Mentioned Author</div>
+                            <div class="iconBottom">Low Frequency</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<div class="authorLedgend"></div>
+			<div class="authorDirectory">
+				<div class="authorDirectory_inner">	
+				<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
+				</div>
+							<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
+
+			</div>
+
+			<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
+		</div>
 	</div>
     `
 })
@@ -136,13 +207,13 @@ Vue.component('searchResult',{
 
 Vue.component('issue',{
     template: `
-	<div class="issue" v-if="this.$root.state.active == 'issue'">
+	<div class="issue">
 	  <div id="tei" v-if="teiMode">
 	    <tei-markup></tei-markup>
 	</div>
 	  <interIssueNav></interIssueNav>
-	  <view-mode-toggle></view-mode-toggle>
-	  <div class="mainInner" v-if="this.$root.state.active == 'issue'">
+	  <viewSelector></viewerSelector>
+	  <div class="mainInner">
 	    <button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
 	    <zoom-slider v-if='!teiMode'></zoom-slider>
 	    <button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
@@ -161,7 +232,7 @@ Vue.component('issue',{
 	    Event.$emit('toggleContrast');
 	},
 	changePage: function (which) {
-	    page = this.$root.state.issue.page;
+	    page = this.$root.state.content.issue.page;
 	    switch (which) {
 	        case 'next':
 		    page += 1;
@@ -176,7 +247,7 @@ Vue.component('issue',{
 	    Event.$emit('pdf-pageChange', page);
 	},
 	modeActive: (mode) => {
-	    issueMode  = this.$root.state.issue.viewMode;
+	    issueMode  = this.$root.state.content.issue.viewer;
 	    activeMode = this.$root.state.active == 'issue';
 	    if(mode == 'tei' && activeMode){
 		this.teiMode = true;
@@ -186,8 +257,8 @@ Vue.component('issue',{
 	}
     },
     created() {
-	Event.$on('view-mode-toggled', (to) => {
-	    this.teiMode = to == 'tei' ? true : false;
+	Event.$on('viewerSelected', (viewer) => {
+	    this.teiMode = viewer == 'tei' ? true : false;
 	})
     },
 })
@@ -204,7 +275,7 @@ Vue.component('issueHeader', {
     methods: {
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.issue.id);
-	    let format = this.$root.state.issue.viewMode
+	    let format = this.$root.state.content.issue.viewer
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
     }
@@ -277,7 +348,7 @@ Vue.component('headerNav',{
     },
     computed:{
     	dlLabel: function(){
-    		if(this.$root.state.issue.viewMode == 'pdf'){
+    		if(this.$root.state.content.issue.viewer == 'pdf'){
     			return 'PDF'
     		}
     		else{
@@ -294,17 +365,17 @@ Vue.component('headerNav',{
     template: `
 	<div class='headerNav'>
 	  <div @click="activeContentClicked('issues')">Explore Issues</div>
-	  <div @click="activeContentClicked('about')">About</div>
-	  <div @click="activeContentClicked('people')">Explore People</div>
+	  <div @click="activeContentClicked('abouts')">About</div>
+	  <div @click="activeContentClicked('personography')">Explore People</div>
 	  <input>Search</input>
 	</div>
 	`
 });
 
-Vue.component('view-mode-toggle',{
+Vue.component('viewerSelector',{
     created(){
-    	Event.$on('view-mode-toggled', (mode) =>{
-    		if(mode == 'tei'){
+    	Event.$on('viewerSelected', (viewer) =>{
+    		if(viewer == 'tei'){
     			this.$children[0].active=true;
     			this.$children[1].active=false;
     		}
@@ -332,8 +403,8 @@ Vue.component('view-mode-button',{
 	},
 	props: ['kind'],
 	methods: {
-	issueViewToggled: (to) => {
-		Event.$emit('view-mode-toggled', to);  	
+	issueViewToggled: (viewer) => {
+		Event.$emit('viewerSelected', viewer);  	
 		}
 	    
     },
@@ -487,8 +558,8 @@ Vue.component('pdf-viewer',{
     data() {
 		return {
 			scale: 1.3,
-	    	current_page: this.$root.state.issue.page,
-	    	current_issue: this.$root.state.issue.id
+	    	current_page: this.$root.state.content.issue.page,
+	    	current_issue: this.$root.state.content.issue.id
 		}
     },
     mounted(){
@@ -505,7 +576,7 @@ Vue.component('pdf-viewer',{
 	loadPdf: function(issue, page = 1, scale = 1.3) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
-	    if(this.$root.state.issue.viewMode == 'tei'){
+	    if(this.$root.state.content.issue.viewer == 'tei'){
 		return;
 	    }
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
@@ -562,8 +633,8 @@ Vue.component('pdf-viewer',{
 
 Vue.component('tei-markup',{
     created(){
-	Event.$on('view-mode-toggled', (to) => {
-	    if(to == 'tei'){
+	Event.$on('viewerSelected', (viewer) => {
+	    if(viewer == 'tei'){
 		this.id = this.$root.state.issue.id;
 		this.getTei(this.id);
 	    }
@@ -757,85 +828,6 @@ Vue.component('interIssueNav',{
 		`
 });
 
-Vue.component('author-section',{
-	data(){
-		return {
-			 modalActive:false,
-			personography:[],
-			chosen: '',
-		}
-	},
-	mounted() {
-		axios.get('/api/personography/summary/json').then(response => this.personography = response.data);
-	 },
-	template: `
-		<div class="authorSection">
-		
-			<div class="authorIntro"></div>
-			<div class="authorHeader">
-               	<div class="inBorder"></div>
-           		<div class="inText"><span class="swash">A</span>uthors</div>
-                <div class="inBorder"></div>
-           	</div>
-                            <div class="authorLegend">
-                <div class="legendHeader">View authors and their mentions</div>
-                <div class="legendBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-
-                <div class="legendIcons">
-                    <div class="contributingIcon">
-                        <div class="legend1">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Contributing Author</div>
-                            <div class="iconBottom">High Frequency</div>
-                        </div>
-                    </div>
-                    <div class="contributingIcon">
-                        <div class="legend2">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Mentioned Author</div>
-                            <div class="iconBottom">High Frequency</div>
-                        </div>
-                    </div>
-                    <div class="contributingIcon">
-                        <div class="legend3">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Mentioned Author</div>
-                            <div class="iconBottom">Medium Frequency</div>
-                        </div>
-                    </div>    
-                    <div class="contributingIcon">
-                        <div class="legend4">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Mentioned Author</div>
-                            <div class="iconBottom">Low Frequency</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-			<div class="authorLedgend"></div>
-			<div class="authorDirectory">
-				<div class="authorDirectory_inner">	
-				<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
-				</div>
-							<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
-
-			</div>
-
-			<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
-		</div>
-	`
-}) 
-
 Vue.component('author-modal',{
 		computed: {mentions: function(){'10'
 		return Math.floor(Math.random(1,100)*10);
@@ -959,7 +951,7 @@ new Vue({
 		abouts: 'about', // technical | credits
 		issue: {
 		    id: '18450104', // yyyy-mm-dd
-		    viewMode: 'pdf', // text|pdf
+		    viewer: 'pdf', // text|pdf
 		    page: 1, // int
 		},
 		personography: {
@@ -978,14 +970,14 @@ new Vue({
 	Event.$on('content', (name) => {
 	    this.state['meta']['content'] = name;
 	})
-	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to)
+	Event.$on('viewerSelected', (viewer) => this.state.content.issue.viewer = viewer)
 	Event.$on('activeContentChange', (content) => this.state.activeContent = content )
 	Event.$on('issueSelected', (id) => {
 	    this.state.issue.id = id;
 	    this.state.issue.page = 1;
 	})
 	Event.$on('pdf-pageChange', (page) => {
-    	    this.state.issue.page = page;
+    	    this.state.content.issue.page = page;
 	})
 	Event.$on('tei-biblChanged', (id) => this.state.issue.page = parseInt(id.pdf_index))
 	axios.get('/api/all-issues/json').then((response) => {
