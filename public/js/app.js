@@ -422,26 +422,25 @@ Vue.component('toc-item',{
 			}
 		},
 	     tocItemSelected: function() {
-		     this.showChildren();
-			 if(this.id.pdf_index >= 1){
-			     Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
-			 }
+		 this.showChildren();
+		 if(this.id.pdf_index >= 1){
+		     Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index))
+		 }
 		 page = 1;
-			if(this.id.pieces){
-			    for(key in this.id.pieces){
-				page = parseInt(this.id.pieces[key].pdf_index);
-			     	    Event.$emit("pdf-pageChange",parseInt(this.id.pieces[key].pdf_index))
-			     	break
-				}
-				
-			}
+		 if(this.id.pieces){
+		     for(key in this.id.pieces){
+			 page = parseInt(this.id.pieces[key].pdf_index);
+			 Event.$emit("pdf-pageChange",parseInt(this.id.pieces[key].pdf_index))
+			 break
+		     }
+		 }
 		 if(this.id.decls_id){
 		     if(!this.id.pdf_index){
 			 this.id.pdf_index = page;
 		     }
-			     Event.$emit("tei-biblChanged", this.id)
-		 	}
-		}
+		     Event.$emit("tei-biblChanged", this.id)
+		 }
+	     }
 	},
 	 template:`
 		<div class="tocItem" v-bind:class='id.type'>
@@ -610,8 +609,12 @@ Vue.component('tei-markup',{
     created(){
 	Event.$on('viewerSelected', (viewer) => {
 	    if(viewer == 'tei'){
-		this.id = this.$root.state.issue.id;
-		this.getTei(this.id);
+		this.id = this.$root.state.content.issue.id;
+		if(this.$root.state.content.issue.decls_id){
+		    this.getBibl(this.id, this.$root.state.content.issue.decls_id)
+		}else {
+		    this.getTei(this.id);
+		}
 	    }
 	}),
 	Event.$on('issueSelected', (id) => {
@@ -668,7 +671,7 @@ Vue.component('tei-markup',{
 		markdown:[],
 		issueText: '',
 		biblId: '',
-		biblData: {}
+		biblData: {},
 	    }
 	},
     template: `
@@ -928,6 +931,7 @@ new Vue({
 		    id: '18450104', // yyyy-mm-dd
 		    viewer: 'pdf', // text|pdf
 		    page: 1, // int
+		    decls_id: ''
 		},
 		personography: {
 		    filterString: '', // ie eapoe
@@ -954,7 +958,10 @@ new Vue({
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.content.issue.page = page;
 	})
-	Event.$on('tei-biblChanged', (id) => this.state.content.issue.page = parseInt(id.pdf_index))
+	Event.$on('tei-biblChanged', (id) => {
+	    this.state.content.issue.page = parseInt(id.pdf_index)
+	    this.state.content.issue.decls_id = id.decls_id
+	})
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
