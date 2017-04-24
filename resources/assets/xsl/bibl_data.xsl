@@ -127,6 +127,9 @@
                                     <personId>
                                         <xsl:value-of select="substring-after(@ref, '#')"/>
                                     </personId>
+                                    <personPieceMetaId>
+                                        <xsl:value-of select="string-join(('ppm',ancestor::fileDesc/publicationStmt/idno,parent::bibl/@xml:id,substring-after(@ref, '#')),'-')"/>
+                                    </personPieceMetaId>
                                 </person>
                             </xsl:for-each>
                         </sectionListPerson>
@@ -175,6 +178,9 @@
                                     <personId>
                                         <xsl:value-of select="substring-after(@ref, '#')"/>
                                     </personId>
+                                    <personPieceMetaId>
+                                        <xsl:value-of select="string-join(('ppm',ancestor::fileDesc/publicationStmt/idno,parent::bibl/@xml:id,substring-after(@ref, '#')),'-')"/>
+                                    </personPieceMetaId>
                                 </person>
                             </xsl:for-each>
                         </pieceListPerson>
