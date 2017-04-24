@@ -200,7 +200,14 @@ Vue.component('issueHeader', {
     },
     template: `
     	<a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
-    `
+	`,
+    methods: {
+	stateHref:function(){
+	    let iid   = Util.datePartsForIssueId(this.$root.state.issue.id);
+	    let format = this.$root.state.issue.viewMode
+	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
+	},
+    }
 })
 
 Vue.component('logo', {
@@ -265,7 +272,7 @@ Vue.component('abouts',{
 Vue.component('headerNav',{
     data() {
 	return {
-//	    content: this.$root.state['meta']['content'],
+	    content: this.$root.state.activeContent
 	}
     },
     computed:{
@@ -280,24 +287,15 @@ Vue.component('headerNav',{
     	}
     },
     methods: {
-	stateHref:function(){
-	    let iid   = Util.datePartsForIssueId(this.$root.state.issue.id);
-	    let format = this.$root.state.issue.viewMode
-	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
-	},
-	contextSelected: function(context) {
-	    if(context == 'issues'){
-		Event.$emit('activeModeChange', 'issue')
-	    }else if(context == 'about'){
-		Event.$emit('activeModeChange', 'meta')
-	    }
+	activeContentClicked: function(content) {
+	    Event.$emit('activeContentChange', content)
 	}
     },
     template: `
 	<div class='headerNav'>
-	  <div @click="contextSelected('issues')">Explore Issues</div>
-	  <div @click="contextSelected('about')">About</div>
-	  <div @click="contextSelected('people')">Explore People</div>
+	  <div @click="activeContentClicked('issues')">Explore Issues</div>
+	  <div @click="activeContentClicked('about')">About</div>
+	  <div @click="activeContentClicked('people')">Explore People</div>
 	  <input>Search</input>
 	</div>
 	`
@@ -981,7 +979,7 @@ new Vue({
 	    this.state['meta']['content'] = name;
 	})
 	Event.$on('view-mode-toggled', (to) => this.state.issue.viewMode = to)
-	Event.$on('activeModeChange', (mode) => this.state.active = mode )
+	Event.$on('activeContentChange', (content) => this.state.activeContent = content )
 	Event.$on('issueSelected', (id) => {
 	    this.state.issue.id = id;
 	    this.state.issue.page = 1;
