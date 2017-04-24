@@ -205,18 +205,14 @@ Vue.component('searchResult',{
     `
 })
 
-Vue.component('issue',{
+Vue.component('issueViewer',{
     template: `
-    <div class="issue">
-	<interIssueNav></interIssueNav>
-	<viewerSelector></viewerSelector>
 	<div class="viewer">
 	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
 	  <tei-markup v-if="viewer == 'tei'"></tei-markup>
 	</div>
-    </div>
 	`,
-    data() {
+        data() {
 	return {
 	    viewer: this.$root.state.content.issue.viewer,
 	}
@@ -228,6 +224,17 @@ Vue.component('issue',{
     },
 })
 
+Vue.component('issue',{
+    template: `
+    <div class="issue">
+	<interIssueNav></interIssueNav>
+	<viewerSelector></viewerSelector>
+	<issueHeader></issueHeader>
+	<issueViewer></issueViewer>
+    </div>
+	`,
+})
+
 Vue.component('issueHeader', {
     data() {
 	return {
@@ -235,11 +242,13 @@ Vue.component('issueHeader', {
 	}
     },
     template: `
-    	<a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
+	<div class="issueHeader">
+    	  <a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
+	</div>
 	`,
     methods: {
 	stateHref:function(){
-	    let iid   = Util.datePartsForIssueId(this.$root.state.issue.id);
+	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
 	    let format = this.$root.state.content.issue.viewer
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
@@ -521,7 +530,7 @@ Vue.component('pdf-viewer',{
 	this.loadPdf(this.current_issue, this.current_page,this.scale);
     },
     template: `
-      <div id="pdf-viewer" class="pdf-div">
+      <div id="pdf-viewer" class="pdf-viewer">
 	<button class="next-page" @click="changePage('prev')">Prev Page</button>
 	<zoom-slider></zoom-slider>
 	<button class="next-page" @click="changePage('next')">Next Page</button>
@@ -675,7 +684,7 @@ Vue.component('tei-markup',{
 	    }
 	},
     template: `
-      <div class='tei'>
+      <div class='tei-markup'>
         <div v-if="this.biblData" class='citation'>
         <div class="title">title: {{ this.biblData.title }}</div>
 	<div class="title-type">title type: {{ this.biblData.t_type }}</div>
