@@ -207,58 +207,23 @@ Vue.component('searchResult',{
 
 Vue.component('issue',{
     template: `
-	<div class="issue">
-	  <div id="tei" v-if="teiMode">
-	    <tei-markup></tei-markup>
+    <div class="issue">
+	<interIssueNav></interIssueNav>
+	<viewerSelector></viewerSelector>
+	<div class="viewer">
+	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
+	  <tei-markup v-if="viewer == 'tei'"></tei-markup>
 	</div>
-	  <interIssueNav></interIssueNav>
-	  <viewSelector></viewerSelector>
-	  <div class="mainInner">
-	    <button v-if="!teiMode" class="next-page" @click="changePage('prev')">Prev Page</button>
-	    <zoom-slider v-if='!teiMode'></zoom-slider>
-	    <button v-if="!teiMode" class="next-page" @click="changePage('next')">Next Page</button>
-	    <pdf-viewer v-if="!teiMode"></pdf-viewer>
-	  </div>
     </div>
 	`,
     data() {
 	return {
-	    teiMode: false,
-	}
-    },
-    methods: {
-	toggleVis: function (){
-	    this.$root.contrast = this.$root.contrast == 'highContrast' ? 'normal' : 'highContrast';
-	    Event.$emit('toggleContrast');
-	},
-	changePage: function (which) {
-	    page = this.$root.state.content.issue.page;
-	    switch (which) {
-	        case 'next':
-		    page += 1;
-		    break;
-	        case 'prev':
-		    page -= 1;
-		    break;
-	    default:
-		page = 1;
-	    }
-	    page = page <= 1 ? 1 : page;
-	    Event.$emit('pdf-pageChange', page);
-	},
-	modeActive: (mode) => {
-	    issueMode  = this.$root.state.content.issue.viewer;
-	    activeMode = this.$root.state.active == 'issue';
-	    if(mode == 'tei' && activeMode){
-		this.teiMode = true;
-	    }else if (mode == 'pdf' && activeMode){
-		this.teiMode = false;
-	    }
+	    viewer: this.$root.state.content.issue.viewer,
 	}
     },
     created() {
 	Event.$on('viewerSelected', (viewer) => {
-	    this.teiMode = viewer == 'tei' ? true : false;
+	    this.viewer = viewer
 	})
     },
 })
@@ -327,7 +292,6 @@ Vue.component('abouts',{
     	selectMe: function(about) {
 	    this.abouts = about;
 	    Event.$emit('aboutsSelected', this.abouts);
-//	    Event.$emit('activeModeChange', 'abouts');
 	}
     }
 })
@@ -379,28 +343,28 @@ Vue.component('viewerSelector',{
 
     },
     template: `
-	<div class='controlBar' v-if="this.$root.state.active == 'issue'">
-	<view-mode-button  kind="tei">Text</view-mode-button>
+	<div class='viewerSelector'>
+	<viewerSelectorButton  kind="tei">Text</viewerSelectorButton>
 	<span>&nbsp;|&nbsp; </span>
-	<view-mode-button kind='pdf'>PDF</view-mode-button>
+	<viewerSelectorButton kind='pdf'>PDF</viewerSelectorButton>
 	</div>
 	`
 });
 
-Vue.component('view-mode-button',{
+Vue.component('viewerSelectorButton',{
 	data(){
-		return {
-			active: false,
-		}
+	    return {
+		active: false,
+	    }
 	},
 	props: ['kind'],
 	methods: {
-	issueViewToggled: (viewer) => {
+	    viewerSelected: (viewer) => {
 		Event.$emit('viewerSelected', viewer);  	
-		}
+	    }
 	    
-    },
-	template: `<span v-bind:class="[{toggled: active}, kind]"  @click="issueViewToggled(kind)"><slot></slot></span>`
+	},
+    template: `<span v-bind:class="[{toggled: active}, kind]"  @click="viewerSelected(kind)"><slot></slot></span>`
 })
 
 
@@ -558,13 +522,32 @@ Vue.component('pdf-viewer',{
 	this.loadPdf(this.current_issue, this.current_page,this.scale);
     },
     template: `
-       <div id="pdf-viewer" class="pdf-div"><canvas id="pdf" class="pdf-canvas"></canvas></div>
+      <div id="pdf-viewer" class="pdf-div">
+	<button class="next-page" @click="changePage('prev')">Prev Page</button>
+	<zoom-slider></zoom-slider>
+	<button class="next-page" @click="changePage('next')">Next Page</button>
+	<canvas id="pdf" class="pdf-canvas"></canvas>
+      </div>
 	`,
     methods: {
     // reload: function(scale = this.scale){
     // 	page.getViewport(scale);
     // },
-
+	changePage: function (direction) {
+	    page = this.$root.state.content.issue.page;
+	    switch (direction) {
+	        case 'next':
+		    page += 1;
+		    break;
+	        case 'prev':
+		    page -= 1;
+		    break;
+	    default:
+		page = 1;
+	    }
+	    page = page <= 1 ? 1 : page;
+	    Event.$emit('pdf-pageChange', page);
+	},
 	loadPdf: function(issue, page = 1, scale = 1.3) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
@@ -674,9 +657,9 @@ Vue.component('tei-markup',{
 	}
     },
     mounted() {
-	this.issueText = this.getTei(this.$root.state.issue.id);
-	this.id = this.$root.state.issue.id
-	this.page = this.$root.state.issue.page
+	this.issueText = this.getTei(this.$root.state.content.issue.id);
+	this.id = this.$root.state.content.issue.id
+	this.page = this.$root.state.content.issue.page
     },
 	data(){
 	    return{
