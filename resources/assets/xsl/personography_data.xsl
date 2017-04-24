@@ -180,7 +180,10 @@
                                     </issueId>
                                     <pieceId>
                                         <xsl:value-of select="parent::bibl/@xml:id"/>
-                                    </pieceId>                                    
+                                    </pieceId>
+                                    <personPieceMetaId>
+                                        <xsl:value-of select="string-join(('ppm',ancestor::fileDesc/publicationStmt/idno,parent::bibl/@xml:id,$xmlid),'-')"/>
+                                    </personPieceMetaId>                                    
                                 </bibl>
                             </xsl:if>
                         </xsl:for-each>
@@ -196,6 +199,9 @@
                                             select="substring-after(ancestor::div[@decls][1]/@decls, '#')"
                                         />
                                     </pieceId>
+                                    <personPieceMetaId>
+                                        <xsl:value-of select="string-join(('ppm',ancestor::TEI//fileDesc/publicationStmt/idno,substring-after(ancestor::div[@decls][1]/@decls, '#'),$xmlid),'-')"/>
+                                    </personPieceMetaId>
                                 </bibl>
                             </xsl:if>
                         </xsl:for-each>
