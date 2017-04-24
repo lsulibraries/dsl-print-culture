@@ -381,9 +381,9 @@ Vue.component('intraIssueNav',{
 		})
 	},
 	template:`
-		<div v-if='this.$root.state.active=="issue"' class='intraIssueNav'>
-                <div class='tocDropdown'>Table of Contents</div>
-                <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
+	<div class='intraIssueNav'>
+          <div class='tocDropdown'>Table of Contents</div>
+          <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
         </div>
 			`
 })
@@ -782,7 +782,7 @@ Vue.component('interIssueNav',{
 	}
     },
 	template: `
-		<div v-if="hasData && this.$root.state.active == 'issue'" class="interIssueNav">
+		<div v-if="hasData" class="interIssueNav">
 			<div class="issueMask"></div>
 				<div class="issueIndex">
 					<div class="singleIndex">
@@ -948,13 +948,13 @@ new Vue({
 	Event.$on('viewerSelected', (viewer) => this.state.content.issue.viewer = viewer)
 	Event.$on('activeContentChange', (content) => this.state.activeContent = content )
 	Event.$on('issueSelected', (id) => {
-	    this.state.issue.id = id;
-	    this.state.issue.page = 1;
+	    this.state.content.issue.id = id;
+	    this.state.content.issue.page = 1;
 	})
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.content.issue.page = page;
 	})
-	Event.$on('tei-biblChanged', (id) => this.state.issue.page = parseInt(id.pdf_index))
+	Event.$on('tei-biblChanged', (id) => this.state.content.issue.page = parseInt(id.pdf_index))
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
