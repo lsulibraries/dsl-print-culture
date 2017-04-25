@@ -10,7 +10,8 @@
     <xsl:template match="/">
         <personPieceMeta>
             <xsl:apply-templates select="//listBibl//bibl/author"/>
-            <xsl:apply-templates select="//body//persName[@ref]"></xsl:apply-templates>
+            <xsl:apply-templates select="//body//div[@decls]"/>
+            <!-- <xsl:apply-templates select="//body//persName[@ref]"/> -->
         </personPieceMeta>
     </xsl:template>
     
@@ -74,7 +75,13 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="body//persName[@ref]">
+    <xsl:template match="body//div[@decls]">
+        <xsl:for-each-group select=".//persName[@ref]" group-by="@ref">
+            <xsl:call-template name="persName"/>
+        </xsl:for-each-group>
+    </xsl:template>
+    
+    <xsl:template name="persName">
         <xsl:variable name="issueId" select="//fileDesc/publicationStmt/idno"/>
         <xsl:variable name="div" select="ancestor::div[@decls][1]"/>
         <xsl:variable name="textId" select="$div/@decls"/>
