@@ -45,8 +45,15 @@
             </personName>
             <xsl:if test="@status='supplied' or @status='inferred'">
                 <xsl:if test="//text//div[@decls eq $textId]/byline/persName">
+                    <xsl:variable name="pseudo" select="//text//div[@decls eq $textId]/byline/persName"/>
                     <personPiecePseudo>
-                        <xsl:value-of select="//text//div[@decls eq $textId]/byline/persName"/>
+                        <xsl:for-each select="tokenize($pseudo,' ')">
+                            <xsl:value-of select="string-join((
+                                upper-case(substring(., 1, 1)),
+                                lower-case((substring(.,2))),
+                                ' '),
+                                '')"/>
+                        </xsl:for-each>
                     </personPiecePseudo>
                 </xsl:if>
             </xsl:if>
@@ -114,4 +121,5 @@
             </personPieceRole>
         </xsl:element>
     </xsl:template>
-</xsl:stylesheet>
+    
+    </xsl:stylesheet>
