@@ -28,7 +28,7 @@
                 </xsl:for-each-group>
             </xsl:variable>
             <xsl:variable name="totalmentions">
-                <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
+                <xsl:for-each-group select="$documents//body//persName[@ref][not(parent::byline)]" group-by="@ref">
                     <xsl:if test="substring-after(@ref, '#') eq $xmlid">
                         <xsl:value-of select="count(current-group())"/>
                     </xsl:if>
@@ -187,7 +187,7 @@
                                 </bibl>
                             </xsl:if>
                         </xsl:for-each>
-                        <xsl:for-each select="$documents//body//persName">
+                        <xsl:for-each select="$documents//body//persName[@ref][not(parent::byline)]">
                             <xsl:if test="substring-after(@ref, '#') eq $xmlid">
                                 <bibl>
                                     <issueId>
