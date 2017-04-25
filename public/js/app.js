@@ -116,7 +116,7 @@ Vue.component('personography',{
 	    personography:[],
 	    chosen: '',
 	}
-    }
+    },
     template: `
         <div class="personography">
 	  <personFilter></personFilter>
@@ -127,12 +127,17 @@ Vue.component('personography',{
 
 Vue.component('personIndex', {
     template: `
-	<div class='personIndex' v-if="this.personIndex">
-          <person v-for="personObject in this.personIndex" person="personObject"></person>
+	<div class='personIndex' v-if="this.index">
+        <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
         </div>
 	`,
     created() {
-	axios.get('/api/personography/summary/json').then(response => this.personIndex = response.data);
+	axios.get('/api/personography/summary/json').then(response => this.index = response.data);
+    },
+    data() {
+	return {
+	    index: ''
+	}
     }
 })
 
@@ -144,8 +149,44 @@ Vue.component('personFilter', {
 
 Vue.component('person', {
     template: `
-	<div class='person'>Person...</div>
-    `
+      <div class='person'>
+	<div class="personName" @click="toggleBibls">{{meta.personMeta.personName}}</div>
+	<div class="personRole">{{meta.personMeta.personRole}}</div>
+	<div class="personViaf">{{meta.personMeta.personViaf}}</div>
+	<div class="personListBibl">
+	<personBibl v-if="showBibls" v-for="bibl in meta.personListBibl" :personBibl="bibl"></personBibl>
+	</div>
+      </div>
+	`,
+    props: ['meta'],
+    data() {
+	return {
+	    showBibls: false
+	}
+    },
+    methods: {
+	toggleBibls: function () {
+	    this.showBibls = !this.showBibls
+	}
+    }
+})
+
+Vue.component('personBibl', {
+    template: `
+      <div class="personBibl">
+	<div>hello</div>
+      </div>
+	`,
+    props: ['personBibl'],
+    created(){
+	ppm_url = '/api/broadwayjournal/' + this.personBibl.issueId + '/ppm';
+	axios.get(ppm_url).then(response => this.ppm = response.data[this.personBibl.personPieceMetaId]);
+    },
+    data(){
+	return {
+	    ppm: {}
+	}
+    }
 })
 
 Vue.component('searchResults',{
