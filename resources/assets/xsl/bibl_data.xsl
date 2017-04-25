@@ -42,7 +42,7 @@
                     <xsl:choose>
                         <xsl:when test="@ref">
                             <xsl:variable name="personId" select="substring-after(@ref, '#')"/>
-                            <person>
+                            <xsl:element name="{$personId}">
                                 <personId>
                                     <xsl:value-of select="$personId"/>
                                 </personId>
@@ -59,20 +59,23 @@
                                         <xsl:text>Publisher</xsl:text>
                                     </xsl:if>
                                 </personIssueRole>
-                            </person>
+                            </xsl:element>
                         </xsl:when>
                         <xsl:otherwise>
-                            <person>
-                                <personName>
-                                    <xsl:value-of select="."/>
-                                </personName>
-                                <xsl:if
-                                    test="parent::respStmt/resp[@ref = 'http://id.loc.gov/vocabulary/relators/prt.html']">
+                            <xsl:if
+                                test="parent::respStmt/resp[@ref = 'http://id.loc.gov/vocabulary/relators/prt.html']">
+                                <printer>
+                                    <personName>
+                                        <xsl:value-of select="."/>
+                                    </personName>
                                     <personIssueRole>
                                         <xsl:text>Printer</xsl:text>
                                     </personIssueRole>
-                                </xsl:if>
-                            </person>
+                                </printer>
+                            </xsl:if>
+
+
+
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:for-each>
@@ -123,14 +126,14 @@
                     <xsl:if test="author">
                         <sectionListPerson>
                             <xsl:for-each select="author">
-                                <person>
+                                <xsl:element name="{substring-after(@ref, '#')}">
                                     <personId>
                                         <xsl:value-of select="substring-after(@ref, '#')"/>
                                     </personId>
                                     <personPieceMetaId>
                                         <xsl:value-of select="string-join(('ppm',ancestor::fileDesc/publicationStmt/idno,parent::bibl/@xml:id,substring-after(@ref, '#')),'-')"/>
                                     </personPieceMetaId>
-                                </person>
+                                </xsl:element>
                             </xsl:for-each>
                         </sectionListPerson>
                     </xsl:if>
@@ -174,14 +177,14 @@
                     <xsl:if test="author">
                         <pieceListPerson>
                             <xsl:for-each select="author">
-                                <person>
+                                <xsl:element name="{substring-after(@ref, '#')}">
                                     <personId>
                                         <xsl:value-of select="substring-after(@ref, '#')"/>
                                     </personId>
                                     <personPieceMetaId>
                                         <xsl:value-of select="string-join(('ppm',ancestor::fileDesc/publicationStmt/idno,parent::bibl/@xml:id,substring-after(@ref, '#')),'-')"/>
                                     </personPieceMetaId>
-                                </person>
+                                </xsl:element>
                             </xsl:for-each>
                         </pieceListPerson>
                     </xsl:if>
