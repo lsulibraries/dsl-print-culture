@@ -11,7 +11,6 @@
         <personPieceMeta>
             <xsl:apply-templates select="//listBibl//bibl/author"/>
             <xsl:apply-templates select="//body//div[@decls]"/>
-            <!-- <xsl:apply-templates select="//body//persName[@ref]"/> -->
         </personPieceMeta>
     </xsl:template>
     
@@ -76,7 +75,7 @@
     </xsl:template>
     
     <xsl:template match="body//div[@decls]">
-        <xsl:for-each-group select=".//persName[@ref]" group-by="@ref">
+        <xsl:for-each-group select=".//persName[@ref][not(parent::byline)]" group-by="@ref">
             <xsl:call-template name="persName"/>
         </xsl:for-each-group>
     </xsl:template>
