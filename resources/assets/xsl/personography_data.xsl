@@ -7,12 +7,12 @@
 
     <xsl:template match="/">
         <personography>
-            <personIndex class="Authors">
+            <personIndex>
                 <xsl:apply-templates select="TEI/text/body/listPerson[@type = 'Authors']"/>
             </personIndex>
-            <personIndex class="ProjectStaff">
+            <credits>
                 <xsl:apply-templates select="TEI/text/body/listPerson[@type = 'ProjectStaff']"/>
-            </personIndex>
+            </credits>
         </personography>
     </xsl:template>
 
