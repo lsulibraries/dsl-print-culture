@@ -299,7 +299,10 @@ Vue.component('issueHeader', {
             <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
           </div>
 	  <div class="pieceMeta" v-if="this.bibl_data[this.biblId]">
-        <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
+            <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
+	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
+	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
+	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
           </div>
     	  <a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
 	</div>
@@ -310,6 +313,15 @@ Vue.component('issueHeader', {
 		return ''
 	    }
 	    return this.bibl_data[this.biblId].pieceMeta[attribute]
+	},
+	authorMeta: function (attribute){
+	    if(!this.bibl_data[this.biblId].pieceMeta){
+		return
+	    }
+	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
+	    ppm = this.ppm[ppmId]
+	    return ppm[attribute]
+
 	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
