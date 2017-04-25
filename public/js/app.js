@@ -48,17 +48,48 @@ Vue.component('vue-header',{
     }
 })
 
-Vue.component('headerTitle',{
-    template: `
-	<div class="headerTitle">The Broadway Journal</div>
-    `
-})
-
 Vue.component('headerLogo',{
     template: `
 	<div class="headerLogo">
           <img src="images/libraries_logo.png"></img>
         </div>
+    `
+})
+
+Vue.component('headerNav',{
+    data() {
+	return {
+	    content: this.$root.state.activeContent
+	}
+    },
+    computed:{
+    	dlLabel: function(){
+    	    if(this.$root.state.content.issue.viewer == 'pdf'){
+    		return 'PDF'
+    	    }
+    	    else{
+    		return 'TEI'
+    	    }
+    	}
+    },
+    methods: {
+	activeContentClicked: function(content) {
+	    Event.$emit('activeContentChange', content)
+	}
+    },
+    template: `
+	<div class='headerNav'>
+	  <div @click="activeContentClicked('issues')">Explore Issues</div>
+	  <div @click="activeContentClicked('abouts')">About</div>
+	  <div @click="activeContentClicked('personography')">Explore People</div>
+	  <input>Search</input>
+	</div>
+	`
+});
+
+Vue.component('headerTitle',{
+    template: `
+	<div class="headerTitle">The Broadway Journal</div>
     `
 })
 
@@ -305,37 +336,6 @@ Vue.component('abouts',{
     }
 })
 
-Vue.component('headerNav',{
-    data() {
-	return {
-	    content: this.$root.state.activeContent
-	}
-    },
-    computed:{
-    	dlLabel: function(){
-    		if(this.$root.state.content.issue.viewer == 'pdf'){
-    			return 'PDF'
-    		}
-    		else{
-    			return 'TEI'
-    		}
-    		
-    	}
-    },
-    methods: {
-	activeContentClicked: function(content) {
-	    Event.$emit('activeContentChange', content)
-	}
-    },
-    template: `
-	<div class='headerNav'>
-	  <div @click="activeContentClicked('issues')">Explore Issues</div>
-	  <div @click="activeContentClicked('abouts')">About</div>
-	  <div @click="activeContentClicked('personography')">Explore People</div>
-	  <input>Search</input>
-	</div>
-	`
-});
 
 Vue.component('viewerSelector',{
     created(){
