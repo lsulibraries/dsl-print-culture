@@ -275,7 +275,7 @@ Vue.component('issueHeader', {
     data() {
 	return {
 	    dlLabel: 'Hello Download',
-	    bibl_data: {},
+	    bibl_data: false,
 	    ppm: '',
 	    biblId: 's1',
 	}
@@ -298,6 +298,9 @@ Vue.component('issueHeader', {
 	    axios.get(ppm_url).then(response => this.ppm = response.data);
 	    this.biblId = bibl.decls_id
 	})
+	this.biblId = this.$root.state.content.issue.decls_id
+	this.setPpm()
+	this.setBiblData()
     },
     template: `
 	<div class="issueHeader" v-if="this.bibl_data">
@@ -321,6 +324,14 @@ Vue.component('issueHeader', {
 	</div>
 	`,
     methods: {
+	setBiblData: function (){
+	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+	},
+	setPpm: function (){
+	    ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
+	    axios.get(ppm_url).then(response => this.ppm = response.data);
+	},
 	pieceMeta: function (attribute){
 	    if(this.bibl_data[this.biblId].sectionMeta){
 		return ''
@@ -367,7 +378,7 @@ Vue.component('issueHeader', {
 	}
     },
     mounted() {
-	Event.$emit('issueSelected', this.$root.state.content.issue.id)
+//	Event.$emit('issueSelected', this.$root.state.content.issue.id)
     }
 })
 
@@ -605,7 +616,8 @@ Vue.component('pdf-viewer',{
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.current_issue = bibl.issueId
-	    this.loadPdf(this.current_issue, bibl.pdf_index);
+	    this.current_page = bibl.pdf_index
+//	    this.loadPdf(this.current_issue, bibl.pdf_index);
 	})
     },
     data() {
