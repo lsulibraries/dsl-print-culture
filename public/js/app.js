@@ -116,88 +116,24 @@ Vue.component('personography',{
 	    personography:[],
 	    chosen: '',
 	}
-    },
-    mounted() {
-	axios.get('/api/personography/summary/json').then(response => this.personography = response.data);
-    },
+    }
     template: `
-        <div class="personography">___________personography____________
+        <div class="personography">
 	  <personFilter></personFilter>
-	<personIndex></personIndex>
-			<div class="authorSection">
-		
-			<div class="authorIntro"></div>
-			<div class="authorHeader">
-               	<div class="inBorder"></div>
-           		<div class="inText"><span class="swash">A</span>uthors</div>
-                <div class="inBorder"></div>
-           	</div>
-                            <div class="authorLegend">
-                <div class="legendHeader">View authors and their mentions</div>
-                <div class="legendBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-
-                <div class="legendIcons">
-                    <div class="contributingIcon">
-                        <div class="legend1">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Contributing Author</div>
-                            <div class="iconBottom">High Frequency</div>
-                        </div>
-                    </div>
-                    <div class="contributingIcon">
-                        <div class="legend2">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Mentioned Author</div>
-                            <div class="iconBottom">High Frequency</div>
-                        </div>
-                    </div>
-                    <div class="contributingIcon">
-                        <div class="legend3">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Mentioned Author</div>
-                            <div class="iconBottom">Medium Frequency</div>
-                        </div>
-                    </div>    
-                    <div class="contributingIcon">
-                        <div class="legend4">
-                            <div class="innerIcon"></div>
-                        </div>
-                        <div class="legendLabels">
-                            <div class="iconTop">Mentioned Author</div>
-                            <div class="iconBottom">Low Frequency</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-			<div class="authorLedgend"></div>
-			<div class="authorDirectory">
-				<div class="authorDirectory_inner">	
-				<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
-				</div>
-							<author-preview :authID='chosen' :authInfo="personography[chosen]"></author-preview>
-
-			</div>
-
-			<author-modal :authID='chosen' :authInfo="personography[chosen]"></author-modal>
-		</div>
-	</div>
+	  <personIndex></personIndex>
+        </div>
     `
 })
 
 Vue.component('personIndex', {
     template: `
-	<div class='personIndex'>Person Index...
-     	  <person></person>
+	<div class='personIndex' v-if="this.personIndex">
+          <person v-for="personObject in this.personIndex" person="personObject"></person>
         </div>
-    `
+	`,
+    created() {
+	axios.get('/api/personography/summary/json').then(response => this.personIndex = response.data);
+    }
 })
 
 Vue.component('personFilter', {
