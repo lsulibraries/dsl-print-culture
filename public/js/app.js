@@ -616,35 +616,24 @@ Vue.component('pdf-viewer',{
 
 Vue.component('tei-markup',{
     created(){
-	Event.$on('viewerSelected', (viewer) => {
-	    if(viewer == 'tei'){
-		this.id = this.$root.state.content.issue.id;
-		if(this.$root.state.content.issue.decls_id){
-		    this.getBibl(this.id, this.$root.state.content.issue.decls_id)
-		}else {
-		    this.getTei(this.id);
-		}
-	    }
-	}),
 	Event.$on('issueSelected', (id) => {
 	    this.id = id;
-	    this.getTei(this.id);
+	    this.getText();
 	}),
 	Event.$on("tei-biblChanged", (bibl) => {
-	    this.bibl = bibl.decls_id;
-	    this.getBibl(this.id, this.bibl);
+	    this.biblId = bibl.decls_id;
+	    this.getText(this.bibl);
 	})
     },
     methods: {
-	getTei: function(id){
-	    url = '/api/broadwayjournal/'+ id + '/issue-text';
-	    axios.get(url).then(response => this.issueText = response.data);
-	},
-	getBibl: function(issueId, biblId){
-	    this.biblId = biblId;
-	    this.getTocEntry(issueId, biblId);
-	    url = '/api/broadwayjournal/'+ issueId + '/piece-text/' + biblId;
-	    axios.get(url).then(response => this.issueText = response.data);
+	getText: function(){
+	    if(this.biblId){
+		url = '/api/broadwayjournal/'+ this.id + '/piece-text/' + this.biblId;
+		axios.get(url).then(response => this.issueText = response.data);
+	    }else {
+		url = '/api/broadwayjournal/'+ this.id + '/issue-text';
+		axios.get(url).then(response => this.issueText = response.data);
+	    }
 	},
 	getTocEntry: function(issueId, itemId){
 
@@ -669,9 +658,12 @@ Vue.component('tei-markup',{
 	}
     },
     mounted() {
-	this.issueText = this.getTei(this.$root.state.content.issue.id);
+
 	this.id = this.$root.state.content.issue.id
+	this.biblId = this.$root.state.content.issue.decls_id
 	this.page = this.$root.state.content.issue.page
+	this.getText()
+
     },
 	data(){
 	    return{
