@@ -6,12 +6,14 @@
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:template match="/">
-        <personIndex class="Authors">
-            <xsl:apply-templates select="TEI/text/body/listPerson[@type='Authors']"/>
-        </personIndex>
-        <personIndex class="ProjectStaff">
-            <xsl:apply-templates select="TEI/text/body/listPerson[@type='ProjectStaff']"/>
-        </personIndex>
+        <personography>
+            <personIndex class="Authors">
+                <xsl:apply-templates select="TEI/text/body/listPerson[@type = 'Authors']"/>
+            </personIndex>
+            <personIndex class="ProjectStaff">
+                <xsl:apply-templates select="TEI/text/body/listPerson[@type = 'ProjectStaff']"/>
+            </personIndex>
+        </personography>
     </xsl:template>
 
     <xsl:variable name="documents" select="collection('Issues')"/>
@@ -28,7 +30,7 @@
                 </xsl:for-each-group>
             </xsl:variable>
             <xsl:variable name="totalmentions">
-                <xsl:for-each-group select="$documents//body//persName" group-by="@ref">
+                <xsl:for-each-group select="$documents//body//persName[@ref][not(parent::byline)]" group-by="@ref">
                     <xsl:if test="substring-after(@ref, '#') eq $xmlid">
                         <xsl:value-of select="count(current-group())"/>
                     </xsl:if>
@@ -173,38 +175,45 @@
                     <personListBibl>
                         <xsl:for-each select="$documents//listBibl//author">
                             <xsl:if test="substring-after(@ref, '#') eq $xmlid">
-                                <bibl>
+                                <xsl:variable name="issueId" select="ancestor::fileDesc/publicationStmt/idno"/>
+                                <xsl:variable name="pieceId" select="parent::bibl/@xml:id"/>
+                                <xsl:element name="{string-join(('bibl',$issueId,$pieceId),'-')}">
                                     <issueId>
                                         <xsl:value-of
-                                            select="ancestor::fileDesc/publicationStmt/idno"/>
+                                            select="$issueId"/>
                                     </issueId>
                                     <pieceId>
-                                        <xsl:value-of select="parent::bibl/@xml:id"/>
+                                        <xsl:value-of select="$pieceId"/>
                                     </pieceId>
                                     <personPieceMetaId>
-                                        <xsl:value-of select="string-join(('ppm',ancestor::fileDesc/publicationStmt/idno,parent::bibl/@xml:id,$xmlid),'-')"/>
+                                        <xsl:value-of select="string-join(('ppm',$issueId,$pieceId,$xmlid),'-')"/>
                                     </personPieceMetaId>                                    
-                                </bibl>
+                                </xsl:element>
                             </xsl:if>
                         </xsl:for-each>
-                        <xsl:for-each select="$documents//body//persName">
+                        <xsl:for-each-group select="$documents//body//persName[@ref][not(parent::byline)]" group-by="@ref">
                             <xsl:if test="substring-after(@ref, '#') eq $xmlid">
-                                <bibl>
+                                <xsl:variable name="issueId" select="ancestor::TEI//fileDesc/publicationStmt/idno"/>
+                                <xsl:variable name="pieceId" select="substring-after(ancestor::div[@decls][1]/@decls, '#')"/>
+                                <xsl:element name="{string-join(('bibl',$issueId,$pieceId),'-')}">
                                     <issueId>
-                                        <xsl:value-of
-                                            select="ancestor::TEI//fileDesc/publicationStmt/idno"/>
+                                        <xsl:value-of select="$issueId"/>
                                     </issueId>
                                     <pieceId>
-                                        <xsl:value-of
-                                            select="substring-after(ancestor::div[@decls][1]/@decls, '#')"
-                                        />
+                                        <xsl:value-of select="$pieceId" />
                                     </pieceId>
                                     <personPieceMetaId>
-                                        <xsl:value-of select="string-join(('ppm',ancestor::TEI//fileDesc/publicationStmt/idno,substring-after(ancestor::div[@decls][1]/@decls, '#'),$xmlid),'-')"/>
+                                        <xsl:value-of select="string-join(('ppm',$issueId,$pieceId,$xmlid),'-')"/>
                                     </personPieceMetaId>
-                                </bibl>
+                                    <xsl:if test="count(current-group()) > 1">
+                                        
+                                    <personPieceTotalMention>
+                                        <xsl:value-of select="count(current-group())"/>
+                                    </personPieceTotalMention>
+                                    </xsl:if>
+                                </xsl:element>
                             </xsl:if>
-                        </xsl:for-each>
+                        </xsl:for-each-group>
                     </personListBibl>
                 </xsl:if>
 
