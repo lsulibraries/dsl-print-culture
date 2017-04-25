@@ -61,22 +61,20 @@
                                 </personIssueRole>
                             </xsl:element>
                         </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:if
-                                test="parent::respStmt/resp[@ref = 'http://id.loc.gov/vocabulary/relators/prt.html']">
-                                <printer>
+                        <xsl:when test="contains(text(),'John Douglas')">
+                                <jdouglas>
+                                    <personId>
+                                        <xsl:text>jdouglas</xsl:text>
+                                    </personId>
                                     <personName>
                                         <xsl:value-of select="."/>
                                     </personName>
                                     <personIssueRole>
                                         <xsl:text>Printer</xsl:text>
                                     </personIssueRole>
-                                </printer>
-                            </xsl:if>
-
-
-
-                        </xsl:otherwise>
+                                </jdouglas>
+                        </xsl:when>
+                        
                     </xsl:choose>
                 </xsl:for-each>
             </issueListPerson>
