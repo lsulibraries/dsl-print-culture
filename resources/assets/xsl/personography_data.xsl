@@ -6,13 +6,16 @@
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:template match="/">
-        <div>
-            <xsl:apply-templates select="TEI/text/body/listPerson"/>
-        </div>
+        <personIndex class="Authors">
+            <xsl:apply-templates select="TEI/text/body/listPerson[@type='Authors']"/>
+        </personIndex>
+        <personIndex class="ProjectStaff">
+            <xsl:apply-templates select="TEI/text/body/listPerson[@type='ProjectStaff']"/>
+        </personIndex>
     </xsl:template>
 
     <xsl:variable name="documents" select="collection('Issues')"/>
-
+    
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
             
@@ -31,97 +34,181 @@
                     </xsl:if>
                 </xsl:for-each-group>
             </xsl:variable>
-            
+    
             <xsl:element name="{$xmlid}">
-                <name>
-                    <xsl:value-of select="persName[not(@type='pseudo')]"/>
-                </name>
-                <init>
-                    <xsl:for-each select="tokenize(persName[not(@type='pseudo')], '\s')">
-                        <xsl:choose>
-                            <xsl:when test="matches(., 'Sir')"/>
-                            <xsl:when test="matches(., 'Lady')"/>
-                            <xsl:when test="matches(., 'Mr.')"/>
-                            <xsl:when test="matches(., 'Mrs.')"/>
-                            <xsl:when test="matches(., 'Miss')"/>
-                            <xsl:when test="matches(., 'Sr.')"/>
-                            <xsl:when test="matches(., 'Jr.')"/>
-                            <xsl:when test="matches(., '\(+')"/>
-                            <xsl:otherwise>
-                                <xsl:value-of select="substring(., 1, 1)"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                <personMeta>
+                    <personId>
+                        <xsl:value-of select="$xmlid"/>
+                    </personId>
+                    <personName>
+                        <xsl:value-of select="persName[not(@type = 'pseudo')]"/>
+                    </personName>
+                    <personInit>
+                        <xsl:for-each select="tokenize(persName[not(@type = 'pseudo')], '\s')">
+                            <xsl:choose>
+                                <xsl:when test="matches(., 'Sir')"/>
+                                <xsl:when test="matches(., 'Lady')"/>
+                                <xsl:when test="matches(., 'Mr.')"/>
+                                <xsl:when test="matches(., 'Mrs.')"/>
+                                <xsl:when test="matches(., 'Miss')"/>
+                                <xsl:when test="matches(., 'Sr.')"/>
+                                <xsl:when test="matches(., 'Jr.')"/>
+                                <xsl:when test="matches(., '\(+')"/>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="substring(., 1, 1)"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:for-each>
+                    </personInit>
+                    <xsl:for-each select="persName[@type = 'pseudo']">
+                        <personPseudo>
+                            <xsl:value-of select="."/>
+                        </personPseudo>
                     </xsl:for-each>
-                </init>
-                <xsl:for-each select="persName[@type='pseudo']">
-                    <pseudo>
-                        <xsl:value-of select="."/>
-                    </pseudo>
-                </xsl:for-each>
-                <xsl:if test="@role">
-                    <role>
-                        <xsl:value-of select="@role"/>
-                    </role>
-                </xsl:if>
-                <xsl:if test="persName/@ref">
-                    <viaf>
-                        <xsl:value-of select="persName/@ref"/>
-                    </viaf>
+                    <xsl:if test="@role">
+                        <personRole>
+                            <xsl:value-of select="@role"/>
+                        </personRole>
+                    </xsl:if>
+                    <xsl:if test="persName/@ref">
+                        <personViaf>
+                            <xsl:value-of select="persName/@ref"/>
+                        </personViaf>
+                    </xsl:if>
+
+                    <xsl:if test="birth or death or affiliation">
+                        <personBio>
+                            <xsl:if test="birth">
+                                <personBirth>
+                                    <xsl:text>Born</xsl:text>
+                                    <xsl:for-each select="birth/@when">
+                                        <xsl:text> </xsl:text>
+                                        <xsl:choose>
+                                            <xsl:when test="starts-with(., '-')">
+                                                <xsl:value-of select="abs(number(.))"/>
+                                                <xsl:text> B.C.</xsl:text>
+                                            </xsl:when>
+                                            <xsl:when test="string-length(.) eq 10">
+                                                <xsl:value-of
+                                                  select="format-date(., '[MNn] [D], [Y]')"/>
+                                            </xsl:when>
+                                            <xsl:when test="string-length(.) eq 7">
+                                                <xsl:value-of
+                                                  select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"
+                                                />
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="."/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:for-each>
+                                    <xsl:choose>
+                                        <xsl:when test="birth/placeName">
+                                            <xsl:text> in </xsl:text>
+                                            <xsl:value-of select="birth/placeName"/>
+                                        </xsl:when>
+                                    </xsl:choose>
+                                    <xsl:text>.</xsl:text>
+                                </personBirth>
+                            </xsl:if>
+                            <xsl:if test="death">
+                                <personDeath>
+                                    <xsl:text>Died</xsl:text>
+                                    <xsl:for-each select="death/@when">
+                                        <xsl:text> </xsl:text>
+                                        <xsl:choose>
+                                            <xsl:when test="starts-with(., '-')">
+                                                <xsl:value-of select="abs(number(.))"/>
+                                                <xsl:text> B.C.</xsl:text>
+                                            </xsl:when>
+                                            <xsl:when test="string-length(.) eq 10">
+                                                <xsl:value-of
+                                                  select="format-date(., '[MNn] [D], [Y]')"/>
+                                            </xsl:when>
+                                            <xsl:when test="string-length(.) eq 7">
+                                                <xsl:value-of
+                                                  select="format-date(xs:date(concat(., '-01')), '[MNn] [Y]')"
+                                                />
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="."/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:for-each>
+                                    <xsl:choose>
+                                        <xsl:when test="death/placeName">
+                                            <xsl:text> in </xsl:text>
+                                            <xsl:value-of select="death/placeName"/>
+                                        </xsl:when>
+                                    </xsl:choose>
+                                    <xsl:text>.</xsl:text>
+                                </personDeath>
+                            </xsl:if>
+                            <xsl:if test="../@type = 'ProjectStaff'">
+                                <personAffiliation>
+                                    <xsl:value-of select="affiliation"/>
+                                </personAffiliation>
+                                <personNote>
+                                    <xsl:value-of select="note"/>
+                                </personNote>
+                            </xsl:if>
+                        </personBio>
+                    </xsl:if>
+
+                    <xsl:if test="string-length($totalcontribs) != 0">
+                        <personTotalContrib>
+                            <xsl:value-of select="$totalcontribs"/>
+                        </personTotalContrib>
+                    </xsl:if>
+
+                    <xsl:if test="string-length($totalmentions) != 0">
+                        <personTotalMention>
+                            <xsl:value-of select="$totalmentions"/>
+                        </personTotalMention>
+                    </xsl:if>
+                </personMeta>
+
+
+                <xsl:if test="string-length($totalmentions) or string-length($totalcontribs) != 0">
+                    <personListBibl>
+                        <xsl:for-each select="$documents//listBibl//author">
+                            <xsl:if test="substring-after(@ref, '#') eq $xmlid">
+                                <bibl>
+                                    <issueId>
+                                        <xsl:value-of
+                                            select="ancestor::fileDesc/publicationStmt/idno"/>
+                                    </issueId>
+                                    <pieceId>
+                                        <xsl:value-of select="parent::bibl/@xml:id"/>
+                                    </pieceId>
+                                    <personPieceMetaId>
+                                        <xsl:value-of select="string-join(('ppm',ancestor::fileDesc/publicationStmt/idno,parent::bibl/@xml:id,$xmlid),'-')"/>
+                                    </personPieceMetaId>                                    
+                                </bibl>
+                            </xsl:if>
+                        </xsl:for-each>
+                        <xsl:for-each select="$documents//body//persName">
+                            <xsl:if test="substring-after(@ref, '#') eq $xmlid">
+                                <bibl>
+                                    <issueId>
+                                        <xsl:value-of
+                                            select="ancestor::TEI//fileDesc/publicationStmt/idno"/>
+                                    </issueId>
+                                    <pieceId>
+                                        <xsl:value-of
+                                            select="substring-after(ancestor::div[@decls][1]/@decls, '#')"
+                                        />
+                                    </pieceId>
+                                    <personPieceMetaId>
+                                        <xsl:value-of select="string-join(('ppm',ancestor::TEI//fileDesc/publicationStmt/idno,substring-after(ancestor::div[@decls][1]/@decls, '#'),$xmlid),'-')"/>
+                                    </personPieceMetaId>
+                                </bibl>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </personListBibl>
                 </xsl:if>
 
-                <xsl:if test="string-length($totalcontribs) != 0">
-                    <issue_contribs>
-                        <xsl:for-each select="$documents">
-                            <xsl:for-each-group select="//listBibl//author" group-by="@ref">
-                                <xsl:choose>
-                                    <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                        <issue>
-                                            <num>
-                                                <xsl:value-of select="count(current-group())"/>
-                                            </num>
-                                            <idno>
-                                                <xsl:value-of select="//publicationStmt/idno"/>
-                                            </idno>
-                                        </issue>
-                                    </xsl:when>
-                                    <xsl:otherwise/>
-                                </xsl:choose>
-                            </xsl:for-each-group>
-                        </xsl:for-each>
-                    </issue_contribs>
-                    <total_contribs>
-                        <num>
-                            <xsl:value-of select="$totalcontribs"/>
-                        </num>
-                    </total_contribs>
-                </xsl:if>
-                
-                <xsl:if test="string-length($totalmentions) != 0">
-                    <issue_mentions>
-                        <xsl:for-each select="$documents">
-                            <xsl:for-each-group select="//body//persName" group-by="@ref">
-                                <xsl:choose>
-                                    <xsl:when test="substring-after(@ref, '#') eq $xmlid">
-                                        <issue>
-                                            <num>
-                                                <xsl:value-of select="count(current-group())"/>
-                                            </num>
-                                            <idno>
-                                                <xsl:value-of select="//publicationStmt/idno"/>
-                                            </idno>
-                                        </issue>
-                                    </xsl:when>
-                                    <xsl:otherwise/>
-                                </xsl:choose>
-                            </xsl:for-each-group>
-                        </xsl:for-each>
-                    </issue_mentions>
-                    <total_mentions>
-                        <num>
-                            <xsl:value-of select="$totalmentions"/>
-                        </num>
-                    </total_mentions>
-                </xsl:if>
+
             </xsl:element>
         </xsl:for-each>
     </xsl:template>

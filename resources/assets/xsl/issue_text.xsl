@@ -136,12 +136,4 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="pb">
-        <div class="pagebreak" id="#page{@n}"></div>
-    </xsl:template>
-    
-    <xsl:template match="cb">
-        <div class="columnbreak"></div>
-    </xsl:template>
-
 </xsl:stylesheet>
