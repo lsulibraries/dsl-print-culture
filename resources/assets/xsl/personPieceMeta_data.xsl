@@ -50,9 +50,11 @@
                         <xsl:for-each select="tokenize($pseudo,' ')">
                             <xsl:value-of select="string-join((
                                 upper-case(substring(., 1, 1)),
-                                lower-case((substring(.,2))),
-                                ' '),
+                                lower-case((substring(.,2)))),
                                 '')"/>
+                            <xsl:if test="position() != last()">
+                                <xsl:text> </xsl:text>
+                            </xsl:if>
                         </xsl:for-each>
                     </personPiecePseudo>
                 </xsl:if>
