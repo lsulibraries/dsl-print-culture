@@ -269,20 +269,80 @@ Vue.component('issue',{
 Vue.component('issueHeader', {
     data() {
 	return {
-	    dlLabel: 'Hello Download'
+	    dlLabel: 'Hello Download',
+	    bibl_data: {},
+	    ppm: '',
+	    biblId: 's1',
 	}
     },
+    created() {
+	Event.$on('tei-biblChanged', (bibl_obj) => {
+	    ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
+	    axios.get(ppm_url).then(response => this.ppm = response.data);
+	    this.biblId = bibl_obj.decls_id
+	})
+	Event.$on('issueSelected', (id) => {
+	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+	})
+    },
     template: `
-	<div class="issueHeader">
+	<div class="issueHeader" v-if="this.bibl_data">
+	  <div class="bibl">
+  	    <div class="issueMeta" v-if="this.bibl_data.issueMeta">
+	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
+	      <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
+	      <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
+	    </div>
+	  </div>
+	  <div class="sectionMeta">
+            <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
+          </div>
+	  <div class="pieceMeta" v-if="this.bibl_data[this.biblId]">
+        <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
+          </div>
     	  <a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
 	</div>
 	`,
     methods: {
+	pieceMeta: function (attribute){
+	    if(this.bibl_data[this.biblId].sectionMeta){
+		return ''
+	    }
+	    return this.bibl_data[this.biblId].pieceMeta[attribute]
+	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
 	    let format = this.$root.state.content.issue.viewer
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
+	sectionTitle: function(biblId) {
+	    bibl = this.bibl_data[biblId]
+
+	    if(this.biblIsSection(biblId)){
+		return bibl.sectionMeta.sectionTitle
+		
+	    }else if(this.biblBelongsToSection(biblId)){
+		return this.bibl_data[bibl.sectionId].sectionMeta.sectionTitle
+	    }else{
+		return ''
+	    }
+	},
+	biblIsSection: function(biblId) {
+	    if(this.bibl_data[biblId].sectionMeta){
+		return true
+	    }
+	    return false
+	},
+	biblBelongsToSection: function(biblId) {
+	    if(this.bibl_data[biblId].sectionId){
+		return true
+	    }
+	    return false
+	}
+    },
+    mounted() {
+	Event.$emit('issueSelected', this.$root.state.content.issue.id)
     }
 })
 

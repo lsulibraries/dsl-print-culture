@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personPieceMeta>
+   <ppm-18450208-p1-eapoe>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+   </ppm-18450208-p1-eapoe>
+   <ppm-18450208-p2-eapoe>
+      <issueId>18450208</issueId>
+      <pieceId>p2</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+   </ppm-18450208-p2-eapoe>
+   <ppm-18450208-p3-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p3</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p3-anon>
+   <ppm-18450208-p4-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p4</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p4-anon>
+   <ppm-18450208-p5-wpage>
+      <issueId>18450208</issueId>
+      <pieceId>p5</pieceId>
+      <personId>wpage</personId>
+      <personName>William Page</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested.</authorShip>
+   </ppm-18450208-p5-wpage>
+   <ppm-18450208-p6-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p6</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p6-anon>
+   <ppm-18450208-p7-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p7</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p7-anon>
+   <ppm-18450208-p8-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p8</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p8-anon>
+   <ppm-18450208-p9-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p9</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p9-anon>
+   <ppm-18450208-p10-eapoe>
+      <issueId>18450208</issueId>
+      <pieceId>p10</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPiecePseudo>EDGAR A. POE</personPiecePseudo>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+   </ppm-18450208-p10-eapoe>
+   <ppm-18450208-p11-rhschoolcrot>
+      <issueId>18450208</issueId>
+      <pieceId>p11</pieceId>
+      <personId>rhschoolcrot</personId>
+      <personName/>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested.</authorShip>
+   </ppm-18450208-p11-rhschoolcrot>
+   <ppm-18450208-p12-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p12</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p12-anon>
+   <ppm-18450208-p13-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p13</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p13-anon>
+   <ppm-18450208-p14-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p14</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p14-anon>
+   <ppm-18450208-p15-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p15</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p15-anon>
+   <ppm-18450208-p16-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p16-anon>
+   <ppm-18450208-p17-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p17</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p17-anon>
+   <ppm-18450208-p18-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p18</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p18-anon>
+   <ppm-18450208-p19-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p19</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p19-anon>
+   <ppm-18450208-p20-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p20</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p20-anon>
+   <ppm-18450208-p21-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p21</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p21-anon>
+   <ppm-18450208-p22-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p22</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p22-anon>
+   <ppm-18450208-p23-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p23</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p23-anon>
+   <ppm-18450208-p24-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p24</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p24-anon>
+   <ppm-18450208-s7-anon>
+      <issueId>18450208</issueId>
+      <sectionId>s7</sectionId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-s7-anon>
+   <ppm-18450208-p25-anon>
+      <issueId>18450208</issueId>
+      <pieceId>p25</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450208-p25-anon>
+   <ppm-18450208-p26-jbisco>
+      <issueId>18450208</issueId>
+      <pieceId>p26</pieceId>
+      <personId>jbisco</personId>
+      <personName>John Bisco</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+   </ppm-18450208-p26-jbisco>
+</personPieceMeta>

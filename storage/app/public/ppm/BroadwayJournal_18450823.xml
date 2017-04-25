@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personPieceMeta>
+   <ppm-18450823-p1-asphelps>
+      <issueId>18450823</issueId>
+      <pieceId>p1</pieceId>
+      <personId>asphelps</personId>
+      <personName>A. S. Phelps</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with high certainty.</authorShip>
+   </ppm-18450823-p1-asphelps>
+   <ppm-18450823-p2-eapoe>
+      <issueId>18450823</issueId>
+      <pieceId>p2</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with high certainty.</authorShip>
+   </ppm-18450823-p2-eapoe>
+   <ppm-18450823-p3-t>
+      <issueId>18450823</issueId>
+      <pieceId>p3</pieceId>
+      <personId>t</personId>
+      <personName>T.</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450823-p3-t>
+   <ppm-18450823-p4-frobinson>
+      <issueId>18450823</issueId>
+      <pieceId>p4</pieceId>
+      <personId>frobinson</personId>
+      <personName>Fayette Robinson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with low certainty.</authorShip>
+   </ppm-18450823-p4-frobinson>
+   <ppm-18450823-p5-anon>
+      <issueId>18450823</issueId>
+      <pieceId>p5</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450823-p5-anon>
+   <ppm-18450823-p6-fbathos>
+      <issueId>18450823</issueId>
+      <pieceId>p6</pieceId>
+      <personId>fbathos</personId>
+      <personName>Fidelius Bathos</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with low certainty.</authorShip>
+   </ppm-18450823-p6-fbathos>
+   <ppm-18450823-p7-eapoe>
+      <issueId>18450823</issueId>
+      <pieceId>p7</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450823-p7-eapoe>
+   <ppm-18450823-p8-eapoe>
+      <issueId>18450823</issueId>
+      <pieceId>p8</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450823-p8-eapoe>
+   <ppm-18450823-p9-eapoe>
+      <issueId>18450823</issueId>
+      <pieceId>p9</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450823-p9-eapoe>
+   <ppm-18450823-p10-eapoe>
+      <issueId>18450823</issueId>
+      <pieceId>p10</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450823-p10-eapoe>
+   <ppm-18450823-p11-eapoe>
+      <issueId>18450823</issueId>
+      <pieceId>p11</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450823-p11-eapoe>
+   <ppm-18450823-p12-anon>
+      <issueId>18450823</issueId>
+      <pieceId>p12</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450823-p12-anon>
+   <ppm-18450823-p13-hcwatson>
+      <issueId>18450823</issueId>
+      <pieceId>p13</pieceId>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+   </ppm-18450823-p13-hcwatson>
+   <ppm-18450823-p14-eapoe>
+      <issueId>18450823</issueId>
+      <pieceId>p14</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450823-p14-eapoe>
+</personPieceMeta>

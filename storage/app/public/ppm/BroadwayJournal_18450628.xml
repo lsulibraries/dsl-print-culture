@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personPieceMeta>
+   <ppm-18450628-p1-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p1</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p1-anon>
+   <ppm-18450628-p2-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p2</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p2-anon>
+   <ppm-18450628-p3-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p3</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p3-anon>
+   <ppm-18450628-p4-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p4</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p4-anon>
+   <ppm-18450628-p8-hcl>
+      <issueId>18450628</issueId>
+      <pieceId>p8</pieceId>
+      <personId>hcl</personId>
+      <personName>H. C. L.</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p8-hcl>
+   <ppm-18450628-p9-eapoe>
+      <issueId>18450628</issueId>
+      <pieceId>p9</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450628-p9-eapoe>
+   <ppm-18450628-p10-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p10</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p10-anon>
+   <ppm-18450628-p11-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p11</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p11-anon>
+   <ppm-18450628-p12-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p12</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p12-anon>
+   <ppm-18450628-p13-hcwatson>
+      <issueId>18450628</issueId>
+      <pieceId>p13</pieceId>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+   </ppm-18450628-p13-hcwatson>
+   <ppm-18450628-p14-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p14</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p14-anon>
+   <ppm-18450628-p15-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p15</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p15-anon>
+   <ppm-18450628-p16-amhall>
+      <issueId>18450628</issueId>
+      <pieceId>p16</pieceId>
+      <personId>amhall</personId>
+      <personName>Anna Maria Fielding Hall</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with high certainty.</authorShip>
+   </ppm-18450628-p16-amhall>
+   <ppm-18450628-p17-anon>
+      <issueId>18450628</issueId>
+      <pieceId>p17</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450628-p17-anon>
+</personPieceMeta>

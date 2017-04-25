@@ -60,6 +60,16 @@ class IssuesController extends Controller
         return response()->json($xml);// response()->json($toc);
     }
 
+    function bibl_data($id){
+        $xml = simplexml_load_string(Storage::get('public/bibl_data/' . $this->getFilenameForID($id)));
+        return response()->json($xml);// response()->json($toc);
+    }
+
+    function ppm($id){
+        $xml = simplexml_load_string(Storage::get('public/ppm/' . $this->getFilenameForID($id)));
+        return response()->json($xml);// response()->json($toc);
+    }
+        
     function issueText($id){
         $xml = Storage::get('public/issues/' . $this->getFilenameForID($id));
         return $xml;// response()->json($toc);
