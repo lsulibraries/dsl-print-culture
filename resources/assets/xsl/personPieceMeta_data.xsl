@@ -10,6 +10,7 @@
     <xsl:template match="/">
         <personPieceMeta>
             <xsl:apply-templates select="//listBibl//bibl/author"/>
+            <xsl:apply-templates select="//body//persName[@ref]"></xsl:apply-templates>
         </personPieceMeta>
     </xsl:template>
     
@@ -70,6 +71,41 @@
                     <xsl:text>)</xsl:text>
                 </xsl:if>
             </authorShip>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="body//persName[@ref]">
+        <xsl:variable name="issueId" select="//fileDesc/publicationStmt/idno"/>
+        <xsl:variable name="div" select="ancestor::div[@decls][1]"/>
+        <xsl:variable name="textId" select="$div/@decls"/>
+        <xsl:variable name="biblId" select="substring-after($textId,'#')"/>
+        <xsl:variable name="authorId" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="personPieceId" select="string-join(('ppm',$issueId,$biblId,$authorId),'-')"/>
+        <xsl:variable name="authorName" select="$personography//listPerson/person[@xml:id eq $authorId]/persName[not(@type = 'pseudo')]"/>
+        
+        <xsl:element name="{$personPieceId}">
+            <issueId>
+                <xsl:value-of select="$issueId"/>
+            </issueId>
+            <xsl:if test="contains($biblId,'s')">
+                <sectionId>
+                    <xsl:value-of select="$biblId"/>
+                </sectionId>
+            </xsl:if>
+            <xsl:if test="contains($biblId,'p')">
+                <pieceId>
+                    <xsl:value-of select="$biblId"/>
+                </pieceId>
+            </xsl:if>
+            <personId>
+                <xsl:value-of select="$authorId"/>
+            </personId>
+            <personName>
+                <xsl:value-of select="$authorName"/>
+            </personName>
+            <personPieceRole>
+                <xsl:text>Mentioned</xsl:text>
+            </personPieceRole>
         </xsl:element>
     </xsl:template>
 </xsl:stylesheet>
