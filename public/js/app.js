@@ -303,24 +303,17 @@ Vue.component('issueHeader', {
 	}
     },
     created() {
-	Event.$on('tei-biblChanged', (bibl_obj) => {
-	    ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
-	    axios.get(ppm_url).then(response => this.ppm = response.data);
-	    this.biblId = bibl_obj.decls_id
-	})
 	Event.$on('issueSelected', (id) => {
 	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
 	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
 	    this.biblId = this.firstSection()
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
-	    bibl_url = '/api/broadwayjournal/' + bibl.issueId + '/bibl_data';
-	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
-
-	    ppm_url = '/api/broadwayjournal/' + bibl.issueId + '/ppm';
-	    axios.get(ppm_url).then(response => this.ppm = response.data);
 	    this.biblId = bibl.decls_id
+	    this.setPpm()
+	    this.setBiblData()
 	})
+
 	this.biblId = this.$root.state.content.issue.decls_id
 	this.setPpm()
 	this.setBiblData()
@@ -576,7 +569,8 @@ Vue.component('toc-item',{
 		     if(!this.id.pdf_index){
 			 this.id.pdf_index = page;
 		     }
-		     Event.$emit("tei-biblChanged", this.id)
+		     this.id.issueId = this.$root.state.content.issue.id
+		     Event.$emit("issueBiblSelected", this.id)
 		 }
 	     }
 	},
@@ -602,7 +596,7 @@ Vue.component('child-piece',{
 	 methods:{
 		tocItemSelected: function() {
 		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
-		    Event.$emit("tei-biblChanged", this.id)
+		    Event.$emit("issueBiblSelected", this.id)
 		}
 	},
 	template:`
@@ -752,12 +746,9 @@ Vue.component('tei-markup',{
     created(){
 	Event.$on('issueSelected', (id) => {
 	    this.id = id;
+	    this.biblId = false
 	    this.getText();
 	}),
-	Event.$on("tei-biblChanged", (bibl) => {
-	    this.biblId = bibl.decls_id;
-	    this.getText(this.biblId);
-	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.biblId = bibl.decls_id
 	    this.id = bibl.issueId
@@ -1083,14 +1074,13 @@ new Vue({
 	    this.state.content.issue.id = id;
 	    this.state.content.issue.page = 1;
 	})
+	Event.$on('issueBiblSelected', (bibl) => {
+	    this.state.content.issue.id = bibl.issueId;
+	    this.state.content.issue.decls_id = bibl.decls_id
+	})
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.content.issue.page = page;
-	})
-	Event.$on('tei-biblChanged', (id) => {
-	    this.state.content.issue.page = parseInt(id.pdf_index)
-	    this.state.content.issue.decls_id = id.decls_id
-	})
-	
+	})	
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
