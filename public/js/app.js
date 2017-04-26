@@ -34,6 +34,8 @@ Vue.component('container', {
 Vue.component('vue-header',{
     template: `
         <div class="header">
+        	<headerLogo></headerLogo>
+
        		<headerTitle></headerTitle>
 			<div class="contrast" @click='toggleContrast'>
 				<div class="contrastTitle">High Contrast</div>
@@ -42,8 +44,8 @@ Vue.component('vue-header',{
 						<div class="contrastOn">On</div>				
 					</div>				
 			</div>
-        	<headerLogo></headerLogo>
 	  		<headerNav></headerNav>
+	  		<div class="searchInput">	  <input></input></div>
         </div>
 	`,
     methods: {
@@ -85,10 +87,9 @@ Vue.component('headerNav',{
     },
     template: `
 	<div class='headerNav'>
-	  <div @click="activeContentClicked('issues')">Explore Issues</div>
+	  <div @click="activeContentClicked('issues')">Issues</div>
 	  <div @click="activeContentClicked('abouts')">About</div>
-	  <div @click="activeContentClicked('personography')">Explore People</div>
-	  <input></input>
+	  <div @click="activeContentClicked('personography')">People</div>
 	</div>
 	`
 });
@@ -405,9 +406,9 @@ Vue.component('abouts',{
       <div class="abouts">
 
         <logo></logo>
-	<div @click="selectMe('about')">About</div>
-	<div @click="selectMe('tech')">Technical</div>
-	<div @click="selectMe('credit')">Credits</div>
+	<div class="about" @click="selectMe('about')">About</div>
+	<div class="technical" @click="selectMe('tech')">Technical</div>
+	<div class="credits"  @click="selectMe('credit')">Credits</div>
 	<div v-if="this.abouts == 'about'">
 	
 	        {{ aboutText[0] }}
