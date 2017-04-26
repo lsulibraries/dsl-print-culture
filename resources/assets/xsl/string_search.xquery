@@ -41,7 +41,6 @@ return
             <pieceTitle>{$pieceTitle}</pieceTitle>
         </pieceMeta>
         <context>...{$context}...</context>
-        <test>{$posBegin} to {$posEnd}</test>        
     </searchResult>
 }
 
