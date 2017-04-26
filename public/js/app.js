@@ -138,13 +138,25 @@ Vue.component('personIndex', {
 
 Vue.component('personFilter', {
     template: `
-	<div class='personFilter'>Person Filter...</div>
-    `
+	<div class='personFilter'>
+	  <input @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
+        </div>
+	`,
+    methods: {
+	updateFilterString: function () {
+	    Event.$emit('filterStringUpdated', this.filterString)
+	}
+    },
+    data() {
+	return {
+	    filterString: ''
+	}
+    }
 })
 
 Vue.component('person', {
     template: `
-      <div class='person'>
+      <div class='person' v-if="this.passesFilter()">
 	<div class="personName" @click="toggleBibls">{{meta.personMeta.personName}}</div>
 	<div class="personRole">{{meta.personMeta.personRole}}</div>
 	<div class="personViaf">{{meta.personMeta.personViaf}}</div>
@@ -156,13 +168,29 @@ Vue.component('person', {
     props: ['meta'],
     data() {
 	return {
-	    showBibls: false
+	    showBibls: false,
+	    filterString: ''
 	}
     },
     methods: {
 	toggleBibls: function () {
 	    this.showBibls = !this.showBibls
-	}
+	},
+	passesFilter: function () {
+	    if(this.filterString.length < 1){
+		return true
+	    }
+
+	    if(this.meta.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
+		return true
+	    }
+	    return false
+	},
+    },
+    created() {
+	Event.$on('filterStringUpdated', (filterString) => {
+	    this.filterString = filterString
+	})
     }
 })
 
