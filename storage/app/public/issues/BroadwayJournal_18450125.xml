@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18450125</div>
    <div class="front">
       
       <div class="ab">THE BROADWAY JOURNAL.
@@ -25,9 +26,11 @@
       
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Reviews</div>
          <div class="head">REVIEWS.</div>
          
          <div class="piece" id="#p1">
+            <div class="biblTitle">Hints on the Re-organization of the Navy</div>
             <div class="ab">Hints on the Re-organization of the Navy. New York: Wiley
                
                <br></br>and Putnam.
@@ -212,6 +215,7 @@
          
          
          <div class="piece" id="#p2">
+            <div class="biblTitle">The Natural Boundaries of the Empires, and a New View of Colonization</div>
             <div class="ab">The Natural Boundaries or Empires, and a New View of Colo-
                
                <br></br>nization. By John Finch, Esq., Corresponding Member of the
@@ -647,6 +651,7 @@
          
          
          <div class="piece" id="#p3">
+            <div class="biblTitle">St. Ignatius and His First Companions</div>
             <div class="ab">St. Ignatius and his First Companions. By the Rev. Charles Con-
                
                <br></br>stantine Pise, D.D. Edward Dunigan, 151 Fulton street, 1845.
@@ -771,6 +776,7 @@
          
          
          <div class="piece" id="#p4">
+            <div class="biblTitle">Vestiges of the Natural History of Creation</div>
             <div class="ab">Vestiges or the Natural History of Creation. Wiley &amp; Put-
                
                <br></br>nam, 1845.	12mo. pp. 291.
@@ -935,6 +941,7 @@
          
          
          <div class="piece" id="#p5">
+            <div class="biblTitle">Conversations on Some of the Old Poets</div>
             <div class="ab">Conversations on Some of the Old Poets. By James Russell
                
                <br></br>Lowell. Cambridge • Published by John Owen, 1845.
@@ -1115,6 +1122,7 @@
       
       
       <div class="piece" id="#p6">
+         <div class="biblTitle">American Prose Writers, No. 3, John Waters</div>
          <div class="head">AMERICAN PROSE WRITERS.</div>
          
          <div class="ab">        NO. 3.
@@ -1324,9 +1332,11 @@
       
       
       <div class="section" id="#s2">
+         <div class="biblTitle">Chronology</div>
          <div class="head">CHRONOLOGY.</div>
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">The Origin of Manhattan, Hell Gate, Etc.</div>
             <div class="head">THE ORIGIN OF MANHATTAN, HELL GATE, ETC.</div>
             
             <p>It is characteristic of the American people to look forward,
@@ -1409,6 +1419,7 @@
          
          
          <div class="piece" id="#p8">
+            <div class="biblTitle">Singular Anecdote of a Cat</div>
             <div class="head">SINGULAR ANECDOTE OF A CAT.</div>
             
             <p>During a hard snow storm last winter, a kitten with a
@@ -1445,6 +1456,7 @@
       
       
       <div class="piece" id="#p9">
+         <div class="biblTitle">"Mi Boy" and "The Brigadier"</div>
          
          <p>We gave last week a column or two to the peculiarities of Mr. Willis as a prose writer;
             we present the public this
@@ -1479,10 +1491,12 @@
       
       
       <div class="section" id="#s3">
+         <div class="biblTitle">Original Poetry</div>
          
          <div class="head">Original Poetry.</div>
          
          <div class="piece" id="p10">
+            <div class="biblTitle"></div>
             <div class="head">NOW IS ALWAYS BEST.</div>
             
             <div class="lg">
@@ -1631,6 +1645,7 @@
          
          
          <div class="piece" id="#p11">
+            <div class="biblTitle">An Epigram, On Certain Conservatives</div>
             <div class="head">AN EPIGRAM,
                On Certain Conservatives.
             </div>
@@ -1656,9 +1671,11 @@
       
       
       <div class="section" id="#s4">
+         <div class="biblTitle">The Fine Arts</div>
          <div class="head">The Fine Arts.</div>
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">Horace Kneeland</div>
             <p>Horace Kneeland, the sculptor, has in his studio in the
                Granite Building corner of Chambers street and Broadway,
                two remarkably fine busts, which for integrity of expression
@@ -1677,6 +1694,7 @@
          
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">The American Art-Union</div>
             <p>The American Art-Union have selected for the subject of
                their next engraving, a picture by Durand, in the possession
                of Mr. Paulding, representing the capture of Major Andre.
@@ -1687,6 +1705,7 @@
       
       
       <div class="piece" id="#p14">
+         <div class="biblTitle">The Drama</div>
          <div class="head">The Drama.</div>
          
          <p>A good natured friend, who seems to labor under a very
@@ -1791,6 +1810,7 @@
       
       
       <div class="piece" id="#p15">
+         <div class="biblTitle">Operas and Concerts</div>
          <div class="head">OPERAS AND CONCERTS.</div>
          
          <p>After a short, but highly successful, musical season, we
@@ -1909,6 +1929,7 @@
       
       
       <div class="piece" id="#p16">
+         <div class="biblTitle">Places Worth Visiting</div>
          <div class="head">PLACES WORTH VISITING.</div>
          
          <p>The sights best worth seeing in New York, may be visited
@@ -2003,9 +2024,11 @@
       
       
       <div class="section" id="#s5">
+         <div class="biblTitle">Illustrated Magazines</div>
          <div class="head">ILLUSTRATED MAGAZINES.</div>
          
          <div class="piece" id="#p17">
+            <div class="biblTitle">Godey's Magazine and Lady's Book</div>
             <p>Godey’s Magazine and Lady’s Book, Edited by Mrs. Sarah J.
                Hale, Morton M’Michael and Louis A. Godey, presents an imposing
                array of Editors; but when taken in consideration with the list of
@@ -2033,6 +2056,7 @@
          
          
          <div class="piece" id="#p18">
+            <div class="biblTitle">Graham's Magazine of Literature and Art</div>
             <p>Graham’s Magazine of Literature and Art, Edited by the
                proprietor, Geo. R. Graham, has but five ladies and thirteen gentlemen, for contributors to the February number. It has three engravings, in line, and a something which is called a portrait of Edgar A.
                Poe. It is poor as a work of art, and something much worse as a
@@ -2056,6 +2080,7 @@
          
          
          <div class="piece" id="#p19">
+            <div class="biblTitle">The Columbian Lady's and Gentleman's Magazine</div>
             <p>The Columbian Lady’s and Gentleman’s Magazine, Edited by
                John Inman and Robert A. West, contains four engravings of which
                we have already given an opinion. The plate of fashions for February presents some very curious figures, particularly the gentleman in a
@@ -2108,9 +2133,11 @@
       
       
       <div class="section" id="#s6">
+         <div class="biblTitle">Literary Notices</div>
          <div class="head">LITERARY NOTICES.</div>
          
          <div class="piece" id="#p20">
+            <div class="biblTitle">The Life and Correspondence of Thomas Arnold</div>
             <div class="ab">The Life and Correspondence of Thomas Arnold, D.D. late Head Master of
                
                <br></br>Rugby School, and Regius Professor of Modern History in the University
@@ -2141,6 +2168,7 @@
          
          
          <div class="piece" id="#p21">
+            <div class="biblTitle">Oneota, or the Red Race of America</div>
             <div class="ab">Oneota, or the Red Race of America—their History, Tradition, Customs,
                
                <br></br>Poetry, Picture-Writing, &amp;c., in Extracts from Notes, Journals, and other
@@ -2168,6 +2196,7 @@
          
          
          <div class="piece" id="p22">
+            <div class="biblTitle"></div>
             <div class="ab">The Southern Quarterly Review. No. XII. Charleston, S. C.</div>
             
             <p>This is a very respectable looking periodical, hardly if at all infeferior to the North American, or any of the foreign Quarterlies, in its
@@ -2206,6 +2235,7 @@
          
          
          <div class="piece" id="#p23">
+            <div class="biblTitle">The Waif</div>
             <div class="ab">The Waif—A Collection of Poems.
                
                <br></br>Poems by James R. Lowell.
@@ -2238,6 +2268,7 @@
          
          
          <div class="piece" id="#p24">
+            <div class="biblTitle">Dunigan's Illustrated Edition of the Bible</div>
             <div class="ab">Dunigan's Illustrated Edition of the Bible, according to the Douay and 
                
                <br></br>Rheimish Versions—Nos. 15 and 16.
@@ -2254,6 +2285,7 @@
       
       
       <div class="piece" id="p25">
+         <div class="biblTitle"></div>
          <div class="head">LITERARY INTELLIGENCE.</div>
          
          <p>Silas Jones, Esq., the author of an Introduction to the
@@ -2279,9 +2311,11 @@
       
       
       <div class="section" id="#s7">
+         <div class="biblTitle">Varieties</div>
          <div class="head">VARIETIES.</div>
          
          <div class="piece" id="#p26">
+            <div class="biblTitle">The Meanness of English Life</div>
             <div class="head">THE MEANNESSES OF ENGLISH LIFE.</div>
             
             <p>English travellers choose to express a good deal of horror
@@ -2381,6 +2415,7 @@
          
          
          <div class="piece" id="#p27">
+            <div class="biblTitle">Letter from an Anxious Father</div>
             <div class="head">LETTER FROM AN ANXIOUS FATHER.</div>
             
             <div class="ab">To the Editor of the Broadway Journal.</div>
@@ -2479,6 +2514,7 @@
          
          
          <div class="piece" id="#p28">
+            <div class="biblTitle">Notice to Readers and Correspondents</div>
             
             <p>Notice to Readers and Correspondents.—Many thanks to our
                Hartford Correspondent for his valuable suggestions.
@@ -2500,6 +2536,7 @@
          
          
          <div class="section" id="#s8">
+            <div class="biblTitle">Advertisements</div>
             
             
             <div>
@@ -2916,6 +2953,7 @@
          
          
          <div class="piece" id="#p29">
+            <div class="biblTitle">Prospectus of the Broadway Journal</div>
             
             <div class="ab">Prospectus of the Broadway Journal,
                

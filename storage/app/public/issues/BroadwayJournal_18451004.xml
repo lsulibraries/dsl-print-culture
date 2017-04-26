@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18451004</div>
    <div class="front">
       
       <div class="ab">
@@ -16,6 +17,7 @@
       
       
       <div class="piece" id="#p1">
+         <div class="biblTitle">Lines</div>
          <div class="head">Lines.</div>
          
          <div class="lg">
@@ -82,6 +84,7 @@
       </div>
       
       <div class="piece" id="#p2">
+         <div class="biblTitle">The Gift of Prophecy</div>
          <div class="head">The Gift of Prophecy.</div>
          
          <p>Our life is hid. Shadows dark as the raven’s wing
@@ -203,6 +206,7 @@
       </div>
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">Pictures</div>
          <div class="head">Pictures.</div>
          
          <div class="byline">BY 
@@ -309,6 +313,7 @@
       </div>
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">The Island of the Fay</div>
          <div class="head">The Island of the Fay.</div>
          
          <div class="cit">
@@ -540,6 +545,7 @@
       </div>
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">Myrrha</div>
          <div class="head">Myrrha</div>
          
          <div class="lg">
@@ -578,9 +584,11 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          <div class="head">Critical Notices.</div>
          
          <div class="piece" id="#p6">
+            <div class="biblTitle">The Wigwam and the Cabin</div>
             <p>Wiley &amp; Putnam's Library of American Books. No IV.
                The Wigwam and the Cabin. By William Gilmore
                Simms.
@@ -776,6 +784,7 @@
          </div>
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">Bubbles from the Brunnen of Nassau</div>
             <p>Wiley &amp; Putnam's Library of Choice Heading, No. XXIV.
                Bubbles from the Brunnen of Nassau. By An Old
                Man.
@@ -819,6 +828,7 @@
          </div>
          
          <div class="piece" id="#p8">
+            <div class="biblTitle">Lady Mary; or Not of the World</div>
             <p>Lady Mary; or Not of the World. By the Rev. Chas.
                B. Tayler, M. A., Author of “The Records of a Good
                Man's Life," etc. New-York: Stanford if Swords,
@@ -835,6 +845,7 @@
          </div>
          
          <div class="piece" id="#p9">
+            <div class="biblTitle">Sermons on Certain of the Less Prominent Facts and References in Sacred Story</div>
             <p>Sermons on Certain of the Less Prominent Facts and
                References in Sacred Story. By Henry Melvill, D. 
                D., Principal of the East India College, and Chaplain
@@ -855,6 +866,7 @@
          </div>
          
          <div class="piece" id="#p10">
+            <div class="biblTitle">A Latin Grammar</div>
             <p>A Latin Grammar, Comprising all the Rules and Observations necessary to an Accurate Knowledge of the Latin 
                Classics. By James Ross, LL. D. With Latin Idioms 
                and a New Prosody, and other Important Additions and 
@@ -915,6 +927,7 @@
          </div>
          
          <div class="piece" id="#p11">
+            <div class="biblTitle">Blackwood's Magazine for September</div>
             <p>Blackwood's Magazine for September, has been re-published by Leonard Scott 4c Co. It has several interesting
                articles—among which are “English Landscape”; “The 
                Historical Romance”; “A Few Words for Bettina”; and 
@@ -924,6 +937,7 @@
          </div>
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">The Book of Useful Knowledge</div>
             <p>The Book of Useful Knowledge. A Cyclopædia of Several Thousand Practical Receipts etc. in the Arts, Manufactures and Trades, including Medicine, Pharmacy 
                and Domestic Economy, etc. etc. By Arnold James Cooley, Illustrated with Numerous Engravings. New York:
                D. Appleton &amp; Co.
@@ -936,6 +950,7 @@
          </div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">The Treasury of History NO. IX</div>
             <p>The Treasury of History. New York: Daniel Adee.</p>
             
             <p>This is Maunder’s noted work. To be completed in 12
@@ -944,6 +959,7 @@
          </div>
          
          <div class="piece" id="#p14">
+            <div class="biblTitle">The Young Man's Mentor on His Entrance into Life</div>
             <p>The Young Man’s Mentor on his Entrance into Life; 
                "With Rules for his general Conduct after leaving School, 
                etc. etc. By A Friend to American Youth, New York:
@@ -952,6 +968,7 @@
          </div>
          
          <div class="piece" id="#p15">
+            <div class="biblTitle">Simms' Monthly Magazine for September</div>
             <p>Simms Monthly Magazine for September is, as usual,
                excellent. It contains, among other able papers, the conclusion of “The Epochs and Events of American History
                as suited to the Purposes of Art in Fiction"—No. 3 of “A 
@@ -986,6 +1003,7 @@
          </div>
          
          <div class="piece" id="#p16">
+            <div class="biblTitle">Godey's Magazine for October</div>
             <p>Godey's Magazine for October, has a good engraving
                of “The Battle of Concord Bridge” from a painting by
                Frankenstein—also a clean-looking plate by Ellis, illustrating the Scriptural words, “Behold the place where
@@ -1009,6 +1027,7 @@
          </div>
          
          <div class="piece" id="#p17">
+            <div class="biblTitle">Graham's Magazine for October</div>
             <p>Graham's Magazine for October, has a portrait and biography of Robert Morris, the gentlemanly editor of the
                Philadelphia “Inquirer.” This is the best likeness of the 
                series. There is also a spirited engraving of a Maunitarri Warrior. Grund contributes an interesting paper on 
@@ -1039,6 +1058,7 @@
          </div>
          
          <div class="piece" id="#p18">
+            <div class="biblTitle">The Aristidean for September</div>
             <p>The Aristidean for September looks and speaks remarkably well. Its papers are all pointed and forcible.
                “Travels in Texas” is one of the most interesting sketches we have seen in a year, and puts us in mind of the vigorous add imaginative “Jack Long" and the “San Saba Hills.” There is a scorching review of Hirst’s Poems—a good thing for everybody but Mr. Hirst;—this is
                a very laughable article. “Tourists in America’ is also
@@ -1081,6 +1101,7 @@
          </div>
          
          <div class="piece" id="#p19">
+            <div class="biblTitle">A Popular Treatise</div>
             <p>A Popular Treatise, on the Science of Astrology, Embracing all that is Requisite for erecting a Horoscope, and
                resolving a Horary Question. New York: T.J.Coowen.
             </p>
@@ -1094,6 +1115,7 @@
          </div>
          
          <div class="piece" id="#p20">
+            <div class="biblTitle">Too Late for Notice</div>
             <p>As we were going to press we received from Messrs. 
                Lea &amp; Blanchard, of Philadelphia, the first volume of the 
                Historical Sketch of the Second War between the United 
@@ -1111,6 +1133,7 @@
       </div>
       
       <div class="piece" id="#p21">
+         <div class="biblTitle">Fairyland</div>
          <div class="head">Fairyland.</div>
          
          <div class="lg">
@@ -1210,6 +1233,7 @@
       </div>	
       
       <div class="piece" id="#p22">
+         <div class="biblTitle">The Fine Arts</div>
          <div class="head">The Fine Arts.</div>
          
          <p>After many pompous announcements, and laudatory paragraphs, the collection of Paintings at Bordentown came
@@ -1564,6 +1588,7 @@
       </div>
       
       <div class="piece" id="#p23">
+         <div class="biblTitle">The Drama</div>
          <div class="head">The Drama.</div>
          
          <p>NIBLO’S.—Mrs. Mowatt, we learn, has been here gathering fresh laurels in Juliet and other roles. We deeply
@@ -1633,6 +1658,7 @@
       </div>
       
       <div class="piece" id="#p24">
+         <div class="biblTitle">Musical Department</div>
          <div class="head">Musical Department.</div>
          
          <p>SACRED MUSIC SOCIETY.—This Society performed the
@@ -1819,9 +1845,11 @@
       </div>
       
       <div class="section" id="#s2">
+         <div class="biblTitle">Editorial Miscellany</div>
          <div class="head">Editorial Miscellany.</div>
          
          <div class="piece" id="#p25">
+            <div class="biblTitle">Thomas Dunn English</div>
             <p>THOMAS DUNN ENGLISH, the editor of the “Aristidean,”
                wrote for the “New Mirror,” a short time after it was 
                established, a poem called “Ben Bolt” to which he appended his initials. From its simplicity of diction and
@@ -2015,6 +2043,7 @@
          </div>
          
          <div class="piece" id="#p26">
+            <div class="biblTitle">A Proper Nationality in American Letters</div>
             <p>Much has been said, of late, about the necessity of
                maintaining a proper nationality in American Letters;
                but what this nationality is, or what is to be gained by
@@ -2100,6 +2129,7 @@
          </div>
          
          <div class="piece" id="#p27">
+            <div class="biblTitle">The Whittier and Bulwer Parallel</div>
             <p>A FRIEND “who knows,” writing to us in reference to
                the Whittier and Bulwer parallel, says,
             </p>
@@ -2117,6 +2147,7 @@
          </div>
          
          <div class="piece" id="#p28">
+            <div class="biblTitle">Mr. William W. Lord</div>
             <p>THE UNWORTHY cabal lately entered into by some of
                our most “influential” citizens, to foist upon the public
                attention, through a concerted movement of puffs anticipatory, a collection of rather indifferent and very unoriginal verses by one Mr. William W. Lord, has met,
@@ -2156,6 +2187,7 @@
          </div>
          
          <div class="piece" id="#p29">
+            <div class="biblTitle">The Natural History Department of the Exploring Expedition</div>
             <p>THERE IS a rumor that the plates of the Natural History Department of the Exploring Expedition book are in
                course of preparation either in London or Pans. Have
                we no artists at home—or no soul to sustain them?
@@ -2166,6 +2198,7 @@
          </div>
          
          <div class="piece" id="#p30">
+            <div class="biblTitle">American Books of Exceeding Merit</div>
             <p>AMONG THE American books of exceeding merit which,
                through accident, have been nearly overlooked, we may
                mention “George Balcombe,” a novel by Judge Beverly 
@@ -2176,6 +2209,7 @@
          </div>
          
          <div class="piece" id="#p31">
+            <div class="biblTitle">Contributors to the Broadway Journal</div>
             <p>IN OUR LIST, last week, of contributors to “The Broadway Journal,” we made some important omissions. We
                have published original articles from Mrs. Osgood, Mrs.
                Ellet, Mrs. Kirkland, Mrs. R. S. Nichols, Mrs. Child,
@@ -2190,6 +2224,7 @@
          </div>
          
          <div class="piece" id="#p32">
+            <div class="biblTitle">Tales of Edgar A. Poe</div>
             <p>IN A VERY complimentary notice, by Miss Fuller, of
                “Tales by Edgar A. Poe,” the critic objects to the phrases “he had many books but rarely employed them”—
                and “his results, brought about by the very soul and
@@ -2201,6 +2236,7 @@
          </div>
          
          <div class="piece" id="#p33">
+            <div class="biblTitle">A Portrait of Pope Paul V.</div>
             <p>THE LONDON BUILDER, speaking of extraordinary mosaics, mentions an exquisite specimen—a portrait of Pope
                Paul V., in which the face alone consists of more than a
                million and a half of fragments, each no larger than a
@@ -2216,6 +2252,7 @@
          </div>
          
          <div class="piece" id="#p34">
+            <div class="biblTitle">Library of American Books</div>
             <p>WE ARE DELIGHTED to hear that Wiley and Putnam’s
                “Library of American Books,” is meeting with unequivocal success. We had feared that Americans would
                condescend to read nothing less than English. Even of
@@ -2225,6 +2262,7 @@
          </div>
          
          <div class="piece" id="#p35">
+            <div class="biblTitle">Mr. William Jones' Articles</div>
             <p>The editor of “Graham’s Magazine" assures us that
                certainly he has paid, (according to Dr. Griswold’s contract.) for Mr. William Jones’articles—hut that he (Mr.
                
@@ -2234,6 +2272,7 @@
          </div>
          
          <div class="piece" id="#p36">
+            <div class="biblTitle">To Correspondents</div>
             <p>TO CORRESPONDENTS.—Shall we not
                again hear from M. O.? Her many
                excellences are appreciated by no one
@@ -2244,6 +2283,7 @@
       </div>
       
       <div class="section" id="#s3">
+         <div class="biblTitle">Advertisements</div>
          
          <div>
             <div class="head">PAINE &amp; BURGESS

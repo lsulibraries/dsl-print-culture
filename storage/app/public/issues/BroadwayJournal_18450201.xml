@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18450201</div>
    <div class="front">
       
       <div class="ab">                          THE BROADWAY JOURNAL.
@@ -19,9 +20,11 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Reviews</div>
          <div class="head">REVIEWS.</div>
          
          <div class="piece" id="#p1">
+            <div class="biblTitle">A Course of English Reading</div>
             <p>A Course of English Reading, adapted to every taste and capacity,
                with Anecdotes of Men of Genius.By the Rev. James Pycroft,
                B. A., with additions by J. G. Coggswell. New York, Wiley &amp; Putnam, 1845.
@@ -343,7 +346,8 @@
             </p>
          </div>
          
-         <div class="piece" id="#p2"> 
+         <div class="piece" id="#p2">
+            <div class="biblTitle">The Chimes, A Goblin Story</div> 
             <p>The Chimes, A Goblin Story. By Charles Dickens, Esq. New York, 
                E. Winchester. Republished.
             </p>
@@ -500,6 +504,7 @@
          </div>
          
          <div class="piece" id="#p3">
+            <div class="biblTitle">The Natural Boundaries of Empires, and a New View of Colonization</div>
             <p>The Natural Boundaries of Empires, and a New View of Colonization. By John Finch, Esq., Corresponding Member of the
                Literary and Historical Society of Quebec, and of the Natural History Societies of Montreal, New York, New Brunswick, Delaware,
                etc. London: Longmans, 1844. Imported by Wiley &amp; Putnam.
@@ -716,6 +721,7 @@
       
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">American Prose Writers</div>
          <div class="head">AMERICAN PROSE WRITERS.
             NO. 3.
             R. H. Dana.
@@ -992,6 +998,7 @@
       
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">Barbarities of the Theatre</div>
          <div class="head">BARBARITIES OF THE THEATRE.</div>
          
          <p>Dullness and absurdity are not the only or the least causes
@@ -1107,6 +1114,7 @@
       </div>
       
       <div class="piece" id="#p6">
+         <div class="biblTitle">National Nomenclature</div>
          <div class="head">NATIONAL NOMENCLATURE.</div>
          
          <p>Our countrymen are very much in the habit of pointing to
@@ -1175,7 +1183,8 @@
          </p>
       </div>
       
-      <div class="piece" id="#p7"> 
+      <div class="piece" id="#p7">
+         <div class="biblTitle">The Devices of Beggary</div> 
          <div class="head">THE DEVICES OF BEGGARY.</div>
          
          <p>Mr. Bumble, the beadle in Oliver Twist, was very indignant at a pauper, who went and starved himself to death, on
@@ -1276,9 +1285,11 @@
       
       
       <div class="section" id="#s2">
+         <div class="biblTitle">Original Poetry</div>
          <div class="head">Original Poetry.</div>
          
          <div class="piece" id="#p8">
+            <div class="biblTitle">The Ring</div>
             <div class="head">THE RING.
                (TRANSLATED FROM THE GERMAN OF LUDWIG UHLER.)
             </div>
@@ -1372,6 +1383,7 @@
       </div>
       
       <div class="piece" id="#p9">
+         <div class="biblTitle">The Drama</div>
          <div class="head">The Drama.</div>
          
          <p>The Chatham.—Chatham street has been a favorite location for theatres during the past twenty-five years. Since
@@ -1503,9 +1515,11 @@
       
       
       <div class="section" id="#s3">
+         <div class="biblTitle">Varieties</div>
          <div class="head">VARIETIES.</div>
          
          <div class="piece" id="#p10">
+            <div class="biblTitle">Letter from Dr. A. Sidney Doane</div>
             <div class="head">LETTER FROM DR. A. SIDNEY DOANE.</div>
             
             <div class="ab">New York, Jan. 23, 1845.
@@ -1611,6 +1625,7 @@
          </div>
          
          <div class="piece" id="#p11">
+            <div class="biblTitle">The Mozart-Institute of Frankfurt-on-the-Maine</div>
             <div class="head">THE MOZART-INSTITUTE OF FRANKFORT - ON - THE - MAINE.</div>
             
             <p>On the loth of February, 1828, a society of Amateurs was
@@ -1686,6 +1701,7 @@
          </div>
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">Places Worth Visiting</div>
             <div class="head">PLACES WORTH VISITING.</div>
             
             <p>The Governor’s Room in the City Hall.—The suite of
@@ -1733,6 +1749,7 @@
          </div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">Wall Street Architecture</div>
             <div class="head">WALL STREET ARCHITECTURE.</div>
             
             <p>A block of brick stores has just been built upon the site
@@ -1758,6 +1775,7 @@
          </div>
          
          <div class="piece" id="#p14">
+            <div class="biblTitle">Catalogue of the Mercantile Library</div>
             <p>Catalogue of the Mercantile Library in New York,
                1844.—The library of this all-important institution now contains 21,000 volumes, the use of which can be had for the
                mere trifle of two dollars the year. We are surprised to
@@ -1779,6 +1797,7 @@
          </div>
          
          <div class="piece" id="#p15">
+            <div class="biblTitle">The Difference</div>
             <p>The Difference.—The Chimes, by Dickens, was sold in
                London at a dollar and a quarter; it is sold here at a sixpence. The London edition is better printed, of course,
                and better bound, with gilt edges, and illustrations; but the
@@ -1811,9 +1830,11 @@
       
       
       <div class="section" id="#s4">
+         <div class="biblTitle">Bits of News</div>
          <div class="head">BITS OF NEWS.</div>
          
          <div class="piece" id="#p16">
+            <div class="biblTitle">Mayor Harper has refused</div>
             <p>Mayor Harper has refused to sign the bill, giving the
                use of the Rotunda, in the Park, to the New York Gallery of
                Fine Arts, because he thinks it would be establishing a bad
@@ -1824,6 +1845,7 @@
          </div>
          
          <div class="piece" id="#p17">
+            <div class="biblTitle">John P. Ridner, Esq.</div>
             <p>John P. Ridner, Esq. of this city, for several years the superintendent of the Apollo Association, has recently been appointed an honorary secretary of the Art-Union of London,
                and is authorised to receive subscriptions for that institution.
                The engraving to be distributed by that association to the
@@ -1835,6 +1857,7 @@
          </div>
          
          <div class="piece" id="#p18">
+            <div class="biblTitle">The Harpers</div>
             <p>The Harpers, it is said, are going to publish a new work
                by Cornelius Matthews, in April, to be called “Little Abel
                and Great Manhattan.”
@@ -1842,12 +1865,14 @@
          </div>
          
          <div class="piece" id="#p19">
+            <div class="biblTitle">Mr. Prescott is engaged upon a new work</div>
             <p>Mr. Prescott is engaged upon a new work, the “Conquest of Peru,” which will probably equal in interest his
                last publication.
             </p>
          </div>
          
          <div class="piece" id="#p20">
+            <div class="biblTitle">Simms's Monthly Magazine</div>
             <p>Simms’s Monthly Magazine has just made its appearance
                from the Charleston press. It professes to be a Southern and
                Western Review, and the first article in it is called “Americanism in Literature,” which is chiefly remarkable for containing nothing in relation to that subject. There are papers
@@ -1862,6 +1887,7 @@
          </div>
          
          <div class="piece" id="#p21">
+            <div class="biblTitle">It is said that Bishops</div>
             <p>It is said that Bishops are going out of fashion. Several
                ladies have been seen in Broadway without these appendages.
             </p>
@@ -1870,9 +1896,11 @@
       
       
       <div class="section" id="#s5">
+         <div class="biblTitle">Literary Notices</div>
          <div class="head">LITERARY NOTICES.</div>
          
-         <div class="piece" id="#p22"> 
+         <div class="piece" id="#p22">
+            <div class="biblTitle">Appleton's Historical Library</div> 
             <p>Appleton’s Historical Library. History of France, from the earliest period
                to the present time. By M. Michelet. Translated by G. H. Smith, F.G.S.
                D. Appleton A Co., 200 Broadway. No. 1, pp. 158. Price 25 cents.
@@ -1893,6 +1921,7 @@
          </div>
          
          <div class="piece" id="#p23">
+            <div class="biblTitle">Forest Life</div>
             <p>Forest Life. By Mrs. Mary Clavers, in two volumes. Farmer &amp; Daggers,
                30 Ann Street.
             </p>
@@ -1915,6 +1944,7 @@
          </div>
          
          <div class="piece" id="#p24">
+            <div class="biblTitle">Uncle Peter's Fairy Tales</div>
             <p>Uncle Peter’s Fairy Tales. Farmer &amp; Daggers, 30 Ann Street.</p>
             
             <p>This little book was designed for English children between the ages
@@ -1932,6 +1962,7 @@
          </div>
          
          <div id="#25">
+            <div class="biblTitle"></div>
             <p>Poor Jack, Illustrated with Wood Cuts from designs by Stansfield: Farmer
                &amp; Daggers, 30 Ann Street.
             </p>
@@ -1951,6 +1982,7 @@
          </div>
          
          <div class="piece" id="#p26">
+            <div class="biblTitle">Lawrie Todd</div>
             <p>Lawrie Todd. By John Galt, with an original preface by Grant Thorburn.
                New York : Farmer &amp;c Daggers, 1845.
             </p>
@@ -1976,6 +2008,7 @@
          </div>
          
          <div class="piece" id="#p27">
+            <div class="biblTitle">The Book of British Ballads</div>
             <p>The Book of British Ballads. New York: James W. Judd &amp; Co., New
                World Press.
             </p>
@@ -1992,6 +2025,7 @@
          </div>
          
          <div class="piece" id="#p28">
+            <div class="biblTitle">Mike Martin, or the Last of the Highwaymen</div>
             <p>Mike Martin, or the Last of the Highwaymen. By F. A. Durivage.
                Boston: Charles H. Brainard &amp; Co., 1845.
             </p>
@@ -2009,6 +2043,7 @@
          </div>
          
          <div class="piece" id="#p29">
+            <div class="biblTitle">Punch's Snapdragon</div>
             <p>Punch’s Snapdragon. Farmer &amp; Daggers, 30 Ann Street.</p>
             
             <p>Some two or three hundred years hence, Punch will be looked upon
@@ -2021,6 +2056,7 @@
          </div>
          
          <div class="piece" id="#p30">
+            <div class="biblTitle">Manners and Customs of Nations</div>
             <p>Manners and Customs of Nations. Parley’s Cabinet Library, Part I. John
                Allen, 139 Nassau St. New-York.
             </p>
@@ -2033,6 +2069,7 @@
          </div>
          
          <div class="piece" id="#p31">
+            <div class="biblTitle">The Southern Quarterly Review</div>
             <p>The Southern Quarterly Review for January, contains the following
                articles:
             </p>
@@ -2046,6 +2083,7 @@
          </div>   
          
          <div class="piece" id="#p32">
+            <div class="biblTitle">Chemistry, as exemplifying the Wisdom and Beneficence of God</div>
             <p>Chemistry, as exemplifing the Wisdom and Beneficence of God. By Geo.
                Fownes, Ph. D., F. R.S., etc. In 1 vol. small 8vo. Price 50 cents. Wiley
                and Putnam.
@@ -2063,6 +2101,7 @@
       
       
       <div class="piece" id="#p33">
+         <div class="biblTitle">The Concert Room</div>
          <div class="head">THE CONCERT ROOM.</div>
          
          <p>The New York Vocal Society.—After endeavoring to correct existing abuses, the next duty of a journalist is to call the attention of
@@ -2149,6 +2188,7 @@
       
       
       <div class="piece" id="#p34">
+         <div class="biblTitle">Correspondence</div>
          <div class="head">CORRESPONDENCE.</div>
          
          <div class="ab">Dear Mr. Editor.</div>
@@ -2187,6 +2227,7 @@
       </div>
       
       <div class="piece" id="#p35">
+         <div class="biblTitle">A Painter's Sketch</div>
          <div class="head">A PAINTER’S SKETCH.</div>
          
          <div class="lg">
@@ -2269,6 +2310,7 @@
       </div>
       
       <div class="piece" id="#p36">
+         <div class="biblTitle">Notice to Readers and Correspondents</div>
          <p>Notice to Readers and Correspondents.—Our promised Engraving of " a Suspended Bishop,” ice are compelled to omit this week
             in consequence of an accident to the artist who had it in hand. It will
             be given next week.
@@ -2289,6 +2331,7 @@
       
       
       <div class="section" id="#s6">
+         <div class="biblTitle">Advertisements</div>
          <div>
             <div class="head">HUNT’S MERCHANTS’ MAGAZINE
                and commercial review.
@@ -2672,6 +2715,7 @@
       </div>
       
       <div class="piece" id="#p37">
+         <div class="biblTitle">Prospectus of the Broadway Journal</div>
          <div class="head">Prospectus of the Broadway Journal.</div>
          
          <div class="ab">To be Published every Saturday.</div>

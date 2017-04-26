@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18450621</div>
    <div class="front">
       
       <div>
@@ -27,6 +28,7 @@
       
       
       <div class="piece" id="#p1">
+         <div class="biblTitle">The Adventures of a Gentleman in Search of a Dinner.</div>
          
          <div class="head">THE ADVENTURES OF A GENTLEMAN IN SEARCH OF A DINNER.</div>
          
@@ -485,6 +487,7 @@
       
       
       <div class="piece" id="#p2">
+         <div class="biblTitle">Morella</div>
          <div class="head">MORELLA.</div>
          
          <p>Avro KaΘ’ avro μεΘ' avrov, μovo εidες aiεi ov.
@@ -701,6 +704,7 @@
       
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">A Holiday on the Hudson</div>
          <div class="head">A Holiday on the Hudson</div>
          
          <p>A Holiday on the Hudson.—Last Monday was a redletter day in the lives of four or five hundred happy souls, who
@@ -749,6 +753,7 @@
       
       
       <div class="section" id="#s4">
+         <div class="biblTitle">Two Noble Poems</div>
          
          <p>[The two noble poems subjoined have already appeared in
             print—although we are unable to say in what work they originated. They are the composition of one of our most justly
@@ -761,6 +766,7 @@
          
          
          <div class="section" id="#s4p1">
+            <div class="biblTitle">The Ideal</div>
             <div class="head">THE IDEAL.</div>
             
             <div class="lg">
@@ -866,6 +872,7 @@
          
          
          <div class="section" id="#s4p2">
+            <div class="biblTitle">The Ideal Found</div>
             <div class="head">THE IDEAL FOUND.</div>
             
             <div class="lg">
@@ -962,6 +969,7 @@
       
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">A Just View of a Bad Habit.</div>
          <div class="head">A JUST VIEW OF A BAD HABIT.</div>
          
          <p>We find the following very sensible remarks, in a late number of the Charleston Mercury, and we copy them to give currency to such excellent sentiments. But we must resist the
@@ -1034,6 +1042,7 @@
       
       
       <div class="piece" id="#p6">
+         <div class="biblTitle">The Heart of Man</div>
          <div class="head">THE HEART OF MAN.</div>
          
          <div class="ab">SUGGESTED BY A FRAGMENT OF F. SIELER.</div>
@@ -1121,6 +1130,7 @@
       
       
       <div class="piece" id="#p7">
+         <div class="biblTitle">Thorwaldsen’s Statue of Byron</div>
          <div class="head">THORWALDSEN’S STATUE OF BYRON.</div>
          
          <p>We copy the annexed account of this interesting work of
@@ -1206,9 +1216,11 @@
       
       
       <div class="section" id="#s8">
+         <div class="biblTitle">Reviews</div>
          <div class="head">REVIEWS.</div>
          
          <div class="section" id="#s8p1">
+            <div class="biblTitle">An Essay on the Philosophy of Medical Science</div>
             
             <p>An Essay on the Philosophy of Medical Science, by Elisha
                Bartlett, M. D., &amp;c.—Philadelphia, Lea &amp; Blanchard, 1844.
@@ -1355,6 +1367,7 @@
          
          
          <div class="section" id="#s8p2">
+            <div class="biblTitle">Plato Contra Atheos</div>
             <p>PLATO CONTRA ATHEOS.—Plato against the Atheists; or the Tenth
                Book of the Dialogue on Laws, accompanied with Critical Notes,
                and followed by Extended Dissertations on some of the Main
@@ -1487,6 +1500,7 @@
          
          
          <div class="section" id="#s8p3">
+            <div class="biblTitle">Harper's Illuminated and Illustrated Edition of Shakespeare</div>
             
             <p>Harper's Illuminated and Illustrated Edition of Shakespeare. Nos. 55 &amp; 56 : Containing parts of “ As You Like It,”
                and “ Midsummer Night’s Dream.” Price 25cts.
@@ -1708,6 +1722,7 @@
          
          
          <div class="section" id="#s8p4">
+            <div class="biblTitle">A Pilgrimage to Treves</div>
             
             <p>A Pilgrimage to Treves, through the Valley of the Meuse and
                the Forest of Ardennes in the year 1844. Harper &amp; Brothers,
@@ -1844,9 +1859,11 @@
       </div>
       
       <div class="section" id="#s9">
+         <div class="biblTitle">New Works Lately Received</div>
          <div class="head">NEW WORKS LATELY RECEIVED.</div>
          
          <div class="section" id="#s9p1">
+            <div class="biblTitle">Satanstoe, or the Littlepage Manuscripts</div>
             
             <p>Satanstoe, or the Littlepage Manuscripts. A Tale of the Colony:
                by J. Fennimore Cooper. In 2 vols. New-York: Burgess,
@@ -1881,7 +1898,8 @@
             </p>
          </div>          
          
-         <div class="section" id="#s9p2">  
+         <div class="section" id="#s9p2">
+            <div class="biblTitle">Notes, Explanatory and Practical, on the Epistles of Paul</div>  
             
             <p>Notes, Explanatory and Practical, on the Epistles of Paul to the
                Ephesians, Philipians, and Colossians. By Albert Barues. New
@@ -1900,6 +1918,7 @@
          
          
          <div class="section" id="#s9p3">
+            <div class="biblTitle">De Rohan; or The Court Conspirator.</div>
             
             <p>De Rohan; or The Court Conspirator. An Historical Romance.
                By M. Eugene Sue. author of “ The Mysteries of Paris,” etc. 
@@ -1921,6 +1940,7 @@
          
          
          <div class="section" id="#s9p4">
+            <div class="biblTitle">Ocean Work, Ancient and Modern</div>
             
             <p>Ocean Work, Ancient and Modern: or, Evenings on Sea and Land.
                By J. Hall Wright, author of “ Breakfast-table Scenes.” (Science.) New York, Appleton &amp; Co.
@@ -1937,6 +1957,7 @@
          
          
          <div class="section" id="#s9p5">
+            <div class="biblTitle">The Age of Elizabeth</div>
             
             <p>The Age of Elizabeth. By William Howitt. No. 13 of Wiley &amp;
                Putnam’s Library of choice reading. _Wiley &amp; Putnam. Price
@@ -1953,6 +1974,7 @@
          
          
          <div class="section" id="#s9p6">
+            <div class="biblTitle">The Blind Girl, with Other Tales</div>
             
             <p>The Blind Girl, with Other Tales: by Emma C. Embury. New
                York : Harper &amp; Brothers.
@@ -1971,6 +1993,7 @@
          
          
          <div class="section" id="#s9p7">
+            <div class="biblTitle">The Dutchman's Fireside</div>
             
             <p>The Dutchman’s Fireside : a Tale, by the author of “ Letters
                from the South,” “ John Bull in America,” “ The Backwoodsman,” &amp;c. Two volumes in one, New York; Harper &amp;
@@ -1987,6 +2010,7 @@
          
          
          <div class="section" id="#s9p8">
+            <div class="biblTitle">A System of Latin Versification</div>
             
             <p>A System of Latin Versification: in a series of Progressive
                Exercises, including specimens of Translation from English and 
@@ -2005,6 +2029,7 @@
          
          
          <div class="section" id="#s9p9">
+            <div class="biblTitle">The Gambler's Wife</div>
             
             <p>The Gambler's Wife. A Novel. By the Author of the “ Young
                Prima Donna,” “The Belle of the Family,” “The Old Dower
@@ -2019,6 +2044,7 @@
          
          
          <div class="section" id="#s9p10">
+            <div class="biblTitle">The Smuggler and Other Books</div>
             
             <p>The Smuggler, a Tale, by G. P. R. James. No. 56 of
                Harper's Library of Select Novels. The Mysteries of Berlin, Part 4, published by W. H. Collyer. An Encyclopaedia of Domestic Economy, Part 5 : Harper &amp; Brothers.
@@ -2033,6 +2059,7 @@
       
       
       <div class="piece" id="#p10">
+         <div class="biblTitle">Number One’s</div>
          <div class="head">NUMBER ONE’S.</div>
          
          <p>We have received the first number of three new weekly
@@ -2072,9 +2099,11 @@
       
       
       <div class="section" id="#s11">
+         <div class="biblTitle">The Fine Arts</div>
          <div class="head">THE FINE ARTS.</div>
          
          <div class="section" id="#s11p1">
+            <div class="biblTitle">We Have Seen a Proof Impression</div>
             
             <p>We have seen a proof impression of an engraving by Smillie
                and Hinshelwood, intended for part five of Martin’s edition of
@@ -2116,6 +2145,7 @@
          
          
          <div class="section" id="#s11p2">
+            <div class="biblTitle">A New Painting</div>
             
             <p>A new Painting, by C. Deas, has lately been added to the
                Exhibition of the American Art-Union. It represents a party
@@ -2126,6 +2156,7 @@
          
          
          <div class="section" id="#s11p3">
+            <div class="biblTitle">Mr. E. L. Carey</div>
             
             <p>Mr. E. L. Carey.—Philadelphia and the whole circle of
                American artists, have met with a great loss in the death of
@@ -2147,6 +2178,7 @@
          
          
          <div class="section" id="#s11p4">
+            <div class="biblTitle">Horace Kneeland</div>
             
             <p>Horace Kneeland.—We are happy to learn that this deserving artist has received a very liberal order from a few gentlemen of this City, Philadelphia and Boston, for another
                equestrian statue of Washington, which is to be cast in bronze.
@@ -2170,6 +2202,7 @@
       </div>
       
       <div class="piece" id="#p16">
+         <div class="biblTitle">The Concert Room</div>
          <div class="head">THE CONCERT ROOM.</div>
          
          <p>New York Philharmonic Society vs. the Musical
@@ -2349,6 +2382,7 @@
       
       
       <div class="piece" id="#p17">
+         <div class="biblTitle">To Correspondents</div>
          <div class="ab">To Correspondents.—We are greatly indebted to the author of
             
             <br></br>the Correspondence between a Mother and Governess—also to A.
@@ -2363,6 +2397,7 @@
       
       
       <div class="section" id="#s14">
+         <div class="biblTitle">Advertisements</div>
          
          <div>
             <div class="ab">VANDENHOFF’S ELOCUTION.
@@ -3240,6 +3275,7 @@
       
       
       <div class="piece" id="#p15">
+         <div class="biblTitle">Agents for The Broadway Journal</div>
          <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
          
          <div class="ab">

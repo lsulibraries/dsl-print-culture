@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18450301</div>
    <div class="front">
       
       <div class="ab">
@@ -31,9 +32,11 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Reviews</div>
          <div class="head">REVIEWS.</div>
          
          <div class="piece" id="#p1">
+            <div class="biblTitle">The Sanitary Condition of the Laboring Population of New York</div>
             
             <p>The Sanitary Condition of the Laboring Population of New
                York. With suggestions for its improvement. A discourse (with
@@ -166,6 +169,7 @@
          </div>
          
          <div class="piece" id="#p2">
+            <div class="biblTitle">Prescott’s Ferdinand and Isabella</div>
             
             <div class="head">Prescott’s Ferdinand and Isabella.</div>
             
@@ -251,6 +255,7 @@
          </div>
          
          <div class="piece" id="#p3">
+            <div class="biblTitle">Woman in the Nineteenth Century</div>
             
             <p>Woman in the Nineteenth Century. By S. Margaret Fuller. New York, 
                Greeley &amp; McElrath. 1845. Price 60 cents.
@@ -416,6 +421,7 @@
       </div>  
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">The Art of the Use of Color in Imitation in Painting. No. III</div>
          
          <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING.
             NO. III.
@@ -666,6 +672,7 @@
       </div>
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">Gambling</div>
          
          <div class="head">GAMBLING.</div>
          
@@ -819,6 +826,7 @@
       </div>
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">Gambling</div>
          
          <div class="head">THE NEW YORK GALLERY OF FINE ARTS.</div>
          
@@ -922,10 +930,12 @@
       </div>
       
       <div class="section" id="#s2">
+         <div class="biblTitle">Original poetry</div>
          
          <div class="head">Original Poetry</div>
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">The Pilgramage to Kevlaar</div>
             
             <div class="head">THE PILGRIMAGE TO KEVLAAR.</div>
             
@@ -1122,6 +1132,7 @@
       
       
       <div class="piece" id="#p8">
+         <div class="biblTitle">The Great Tower of Tarudant</div>
          
          <div class="head">THE GREAT TOWER OF TARUDANT.</div>
          
@@ -1333,6 +1344,7 @@
       </div>
       
       <div class="piece" id="#p9">
+         <div class="biblTitle">Indian Names of the Islands and Bay of New York</div>
          
          <div class="head">INDIAN NAMES OF THE ISLANDS AND BAY OF NEW YORK.</div>
          
@@ -1566,6 +1578,7 @@
       </div>
       
       <div class="piece" id="#p10">
+         <div class="biblTitle">Graham's Magazine</div>
          
          <div class="head">GRAHAM'S MAGAZINE.</div>
          
@@ -1645,6 +1658,7 @@
       </div>
       
       <div class="piece" id="#p11">
+         <div class="biblTitle">The Lost Boy</div>
          
          <div class="head">THE LOST BOY.</div>
          
@@ -1781,10 +1795,12 @@
       </div>
       
       <div class="section" id="#s3">
+         <div class="biblTitle">The Concert Room</div>
          
          <div class="head">THE CONCERT ROOM.</div>
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">Mr. George Loder's Concert</div>
             <div class="head">MR. GEORGE LODER'S CONCERT.</div>
             
             <p>This much talked-of and long expected Concert was given at the
@@ -1894,6 +1910,7 @@
          </div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">The Sacred Music Society</div>
             
             <div class="head">THE SACRED MUSIC SOCIETY.</div>
             
@@ -2022,6 +2039,7 @@
       </div>
       
       <div class="piece" id="#p14">
+         <div class="biblTitle">Musical Review</div>
          
          <div class="head">MUSICAL REVIEW.</div>
          
@@ -2091,10 +2109,12 @@
       </div>
       
       <div class="section" id="#s4">
+         <div class="biblTitle">Literary Notices</div>
          
          <div class="head">LITERARY NOTICES.</div>
          
          <div class="piece" id="#p15">
+            <div class="biblTitle">A Manual of Ancient and Modern History</div>
             
             <p>A Manual of Ancient and Modern History. By W. C. Taylor, L.L.D., M.R.
                A.S., of Trinity College, Dublin. Revised, with a chapter on tne History
@@ -2166,6 +2186,7 @@
          </div>
          
          <div class="piece" id="#p16">
+            <div class="biblTitle">The Nun, or Life in a Convent</div>
             
             <p>The Nune, or Life in a Convent, By one of the Sisterhood, first American
                from the fifth London edition. Fanner &amp; Daggers, 30 Ann st.
@@ -2175,6 +2196,7 @@
       </div>
       
       <div class="piece" id="#p17">
+         <div class="biblTitle">General Intelligence</div>
          
          <div class="head">GENERAL INTELLIGENCE.</div>
          
@@ -2240,6 +2262,7 @@
       </div>     
       
       <div class="piece" id="#p18">
+         <div class="biblTitle">Chirography</div>
          
          <p>CHIROGRAPHY.—The point of perfection in any art or
             science is difficult to determine; since almost every day heralds an
@@ -2258,6 +2281,7 @@
       </div>
       
       <div class="piece" id="#p19">
+         <div class="biblTitle">Mr. Disbrow's Riding School</div>
          
          <p>MR. DISBROW’S RIDING SCHOOL.—We conceive that we are rendering
             a service to the public, in recommending to their favorable notice the
@@ -2278,6 +2302,7 @@
       </div>
       
       <div class="piece" id="#p20">
+         <div class="biblTitle">Notices to Correspondents</div>
          
          <p>NOTICES TO CORRESPONDENTS.—The communication by R. H. will appear next week; we shall be glad to hear from him often.</p>
          
@@ -2296,6 +2321,7 @@
       
       
       <div class="section" id="#s6">
+         <div class="biblTitle">Advertisements</div>
          
          <div>
             
@@ -2663,6 +2689,7 @@
       </div>
       
       <div class="piece" id="#p21">
+         <div class="biblTitle">Prospectus of the Broadway Journal</div>
          
          <div class="head">Prospectus of the Broadway Journal.</div>
          

@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18451101</div>
    <div class="front">
       
       <div class="ab">THE BROADWAY JOURNAL.
@@ -19,6 +20,7 @@
       
       
       <div class="piece" id="#p1">
+         <div class="biblTitle">To The Public</div>
          <p>To the Public.—Edgar A. Poe, Esq. having purchased my interest in “The Broadway Journal,” is now sole
             proprietor of the same. All persons indebted to the paper will please make settlement with him.
          </p>
@@ -30,6 +32,7 @@
       </div>       
       
       <div class="piece" id="#p2">
+         <div class="biblTitle">Sonnet</div>
          <div class="head">Sonnet</div>
          
          <div class="lg">
@@ -68,6 +71,7 @@
       </div>
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">Some Words with a Mummy</div>
          <div class="head">Some Words with a Mummy.</div>
          
          <p>The symposium of the preceding evening had been a
@@ -859,6 +863,7 @@
       </div>
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">Autumn</div>
          <div class="head">Autumn.</div>
          
          <div class="lg">
@@ -901,9 +906,11 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          <div class="head">Critical Notices.</div> 
          
          <div class="piece" id="#p5">
+            <div class="biblTitle">Alice Ray: A Romance in Rhyme</div>
             <p>Alice Ray: a Romance in Rhyme. By Mrs. Sarah Jo-
                sepha Hale, Author of “Northwood" &amp;c. &amp;c. Phila-
                delphia.
@@ -1082,6 +1089,7 @@
          </div>
          
          <div class="piece" id="#p6">
+            <div class="biblTitle">Wiley and Putnam's Foreign Library</div>
             <p>Wiley &amp; Putnam's Foreign Library, No. 1. Memoirs
                of Benevenuto Cellini, a Florentine Artist; written by
                Himself. Containing a Variety of Information respecting the Arts and the History of the Sixteenth Century. With the Notes and Observations of G. P. Carpani. Translated by Thomas Roscoe, Esq. Vol. 1.
@@ -1108,6 +1116,7 @@
          </div>
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">Appleton's Literary Miscellany</div>
             <p>Appleton’s Literary Miscellany, a Series of Books for
                Popular Reading. Nos. 2 and 3. I Promessi Sposi—
                The Betrothed, by Alessandro Manzoni. A New
@@ -1140,6 +1149,7 @@
          </div>
          
          <div class="piece" id="#p8">
+            <div class="biblTitle">Appleton's Miscellany</div>
             <p>Appleton’s Miscellany. No. 4. Memoirs of an American.
                Lady, with Sketches of Manners and Scenery in America, as they existed previous to the Revolution. By
                Mrs. Grant, Author of "Letters from the Mountains,"
@@ -1168,6 +1178,7 @@
          </div>
          
          <div class="piece" id="#p9">
+            <div class="biblTitle">The Medici Series of Italian Prose</div>
             <p>The Medici Series of Italian Prose. The Autobiography
                of Alfieri. Translated and edited by C. Edwards Lester. New-York: Paine if Burgess.
             </p>
@@ -1188,6 +1199,7 @@
          </div>
          
          <div class="piece" id="#p10">
+            <div class="biblTitle">Saxton's and Kelt's Library</div>
             <p>Saxton &amp; Kelt's Library of Select Literature, No. 3.—
                Lights and Shadows of Scottish Life. By Professor
                Wilson, Author of the “Trials of Margaret Lindsay,"
@@ -1204,6 +1216,7 @@
          </div>
          
          <div class="piece" id="#p11">
+            <div class="biblTitle">The Mysteries of Tobacco</div>
             <p>The Mysteries of Tobacco, By the Rev. Benjamin J.
                Lane, with an Introductory Letter to the Hon. John
                Quincy Adams, LL. D., by the Rev. Samuel Hanson
@@ -1218,6 +1231,7 @@
          </div>
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">Love and Matrimony</div>
             <p>Love and Matrimony: A Letter to a Betrothed Sister, by
                a Lady of Baltimore. Baltimore: J. Murphy. For
                sale in New York by Win. Taylor, Astor House.
@@ -1229,6 +1243,7 @@
          </div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">Harper's Illuminated and New Pictorial Bible</div>
             <p>Harper's Illuminated and New Pictorial Bible. No. 41.</p>
             
             <p>This number concludes the Apocrypha and commences
@@ -1237,6 +1252,7 @@
          </div>
          
          <div class="piece" id="#p14">
+            <div class="biblTitle">The Wandering Jew</div>
             <p>The Wandering Jew. Superbly Illustrated by the Most
                Eminent Artists of Paris. New York: Harper if Brothers.
             </p>
@@ -1249,6 +1265,7 @@
          </div>
          
          <div class="piece" id="#p15">
+            <div class="biblTitle">History of the United States</div>
             <p>History of the United States, for the Use of Schools. By
                Marcius Wilson. New-York: Caleb Bartlett, 225 Pearl
                street.
@@ -1261,6 +1278,7 @@
          
          
          <div class="piece" id="#p16">
+            <div class="biblTitle">The Swedenborg Library</div>
             <p>The Swedenborg Library. Edited by Professor George
                Bush. New-York: John Allen.
             </p>
@@ -1272,6 +1290,7 @@
          </div>
          
          <div class="piece" id="#p17">
+            <div class="biblTitle">Harper's Illuminated and Illustrated Shakspeare</div>
             <p>Harper's Illuminated and Illustrated Shakspeare.</p>
             
             <p>Of this elegant serial, Nos. 69 and 70 are published—
@@ -1280,6 +1299,7 @@
          </div>
          
          <div class="piece" id="#p18">
+            <div class="biblTitle">Simms' Magazine</div>
             <p>Simms' Magazine, for October, is perhaps not quite so
                good as usual—the editor’s absence will account for it.
                Nevertheless there are some papers of sterling value.
@@ -1292,6 +1312,7 @@
          </div>
          
          <div class="piece" id="#p19">
+            <div class="biblTitle">Graham's Magazine</div>
             <p>Graham's Magazine, for November, has three good steel
                engravings (two of them admirable) with contributions
                from Mrs. Sigourney, Fanny Forrester, Mrs. Osgood, Horace Greeley, Longfellow, Street, Whipple, Grund, Graham, Peterson, Chivers and Poe. Mr. Longfellow’s poem,
@@ -1302,6 +1323,7 @@
          </div>
          
          <div class="piece" id="#p20">
+            <div class="biblTitle">Godey's Lady's Book</div>
             <p>Godey's Lady's Book, for November, has also three
                plates (including a colored one of “The Polka Fashions.”)
                The leading engraving—The Indian Captive, from a design by Darlcy—is meritorious. The contributions are by
@@ -1311,6 +1333,7 @@
          </div>
          
          <div class="piece" id="#p21">
+            <div class="biblTitle">Arthur's Magazine</div>
             <p>Arthur's Magazine, for November, opens with a modification of Chapman’s fine design illustrating “The Paint
                King —there is also another plate. The contributions,
                although by writers comparatively little known, are respectable. The publishers propose making many improvements next year.
@@ -1318,6 +1341,7 @@
          </div>
          
          <div class="piece" id="#p22">
+            <div class="biblTitle">The Columbian Magazine</div>
             <p>The Columbian Magazine, for November, commences
                with a wretched mezzotint by Doney—who has done some
                very fine things in his day. The second plate is better.
@@ -1330,6 +1354,7 @@
          </div>
          
          <div class="piece" id="#p23">
+            <div class="biblTitle">Blackwood</div>
             <p>Blackwood, for October, (the American edition) has been
                issued by Leonard Scott &amp; Co. Its papers are even unusually pungent.
             </p>
@@ -1337,6 +1362,7 @@
       </div>
       
       <div class="piece" id="#p24">
+         <div class="biblTitle">To Helen</div>
          <div class="head">To helen.</div>
          
          <div class="lg">
@@ -1396,9 +1422,11 @@
       </div>
       
       <div class="section" id="#s2">
+         <div class="biblTitle">The Drama</div>
          <div class="head">The Drama.</div>
          
          <div class="piece" id="#p25">
+            <div class="biblTitle">The Subjoined Comments on Mr. Murdoch</div>
             <p>The subjoined comments on Mr. Murdoch were furnished us by a friend whose judgment we respect. The first
                three paragraphs were intended for last week’s Journal,
                but accidentally omitted—the dates, of course, refer to
@@ -1496,6 +1524,7 @@
          </div>
          
          <div class="piece" id="#p26">
+            <div class="biblTitle">We Have Before Us</div>
             <p>We have before us a letter from Miss Eliza Cook, in
                which she says “I need not tell you how much I admire and estimate your bright countrywoman, Miss Cushman. We are friends, and, I trust, will long be such.—
                She is gathering golden opinions from the English, and
@@ -1504,6 +1533,7 @@
          </div>
          
          <div class="piece" id="#p27">
+            <div class="biblTitle">The Well-Known Company of Rats</div>
             <p>The well-known company of rats at the Park Theatre, understand, it is said, their cue perfectly. It is worth
                the price of admission to see their performance. By long
                training they know precisely the time when the curtain
@@ -1518,6 +1548,7 @@
          </div>
          
          <div class="piece" id="#p28">
+            <div class="biblTitle">Cruikshank's Table-Book</div>
             <p>“Cruikshank’s Table-Book” has a pleasant paper, setting forth some of the secrets of ‘ advertising patronage’
                and the use that may be made of orders to the theatre,
                (a privilege of the London press not adopted here,) in
@@ -1553,6 +1584,7 @@
       </div>
       
       <div class="piece" id="#p29">
+         <div class="biblTitle">Dirge for a Maiden Buried in a Forest</div>
          <div class="head">Dirge
             FOR A MAIDEN BURIED IN A FOREST.
          </div>
@@ -1666,6 +1698,7 @@
       </div>
       
       <div class="piece" id="#p30">
+         <div class="biblTitle">The Fine Arts</div>
          <div class="head">The Fine Arts.</div> 
          
          <p>La Sortie du Bain.—In New York there has been
@@ -1711,6 +1744,7 @@
       
       
       <div class="piece" id="#p31">
+         <div class="biblTitle">Epigrams</div>
          <div class="head">Epigrams.</div>
          
          <div class="ab">From the Portuguese.</div>
@@ -1767,6 +1801,7 @@
       </div>
       
       <div class="piece" id="#p32">
+         <div class="biblTitle">Musical Department</div>
          <div class="head">Musical Department.</div>
          
          <p>Leopold de Meyer made his fourth appearance on
@@ -1867,6 +1902,7 @@
       
       
       <div class="piece" id="#p34">
+         <div class="biblTitle">Editorial Miscellany</div>
          <div class="head">Editorial Miscellany.</div>
          
          <p>We take the following paragraph from "The Sunday
@@ -2183,6 +2219,7 @@
       </div>
       
       <div class="section" id="#s4">
+         <div class="biblTitle">Advertisements</div>
          <div>
             <div class="head">SPLENDID FESTIVAL CONCERT.</div>
             
@@ -2796,6 +2833,7 @@
       </div>
       
       <div class="piece" id="#p33">
+         <div class="biblTitle">The Broadway Journal</div>
          <div class="head">THE BROADWAY JOURNAL</div>
          
          <div class="ab">Edgar A. Poe,	: : : : : : : : : : : : : Editor and Proprietor.</div>

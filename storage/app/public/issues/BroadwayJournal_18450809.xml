@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18450809</div>
    <div class="front">
       
       <div class="ab">THE BROADWAY JOURNAL.
@@ -25,6 +26,7 @@
       
       
       <div class="piece" id="#p1">
+         <div class="biblTitle">Eulalie--A Song</div>
          <div class="head">Eulalie—A Song.</div>
          
          <div class="lg">
@@ -82,6 +84,7 @@
       
       
       <div class="piece" id="#p2">
+         <div class="biblTitle">More Words with Alcibiades</div>
          <div class="head">More Words with Alcibiades.</div>
          
          <p>Since the night I supped with Alcibiades, or rather since the
@@ -495,6 +498,7 @@
       
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">Greek Mariner's Song</div>
          <div class="head">Greek Mariner’s Song.</div>
          
          
@@ -540,6 +544,7 @@
       
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">The Man That Was Used Up</div>
          
          <div class="head">The Man That Was Used Up.</div>
          
@@ -989,9 +994,11 @@
       
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          <div class="head">Critical Notices.</div>
          
          <div class="piece" id="#p5">
+            <div class="biblTitle">Wiley and Putnam's Library of Choice Reading</div>
             <div class="ab">Wiley and Putnam's Library of Choice Reading. No. XVI.
                
                <br></br>Prose and Verse. By Thomas Hood. Part I. New-York:
@@ -1775,6 +1782,7 @@
          
          
          <div class="piece" id="#p6">
+            <div class="biblTitle">Ettore Fieramosca, or The Challenge of Barletta</div>
             <div class="ab">Ettore Fieramosca, or The Challenge of Barletta, an Histor-
                
                <br></br>ical Romance of the Times of the Medici, by Massino D’
@@ -1821,6 +1829,7 @@
          
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">A Cyclopedia of Several Thousand Practical Receipts</div>
             <div class="ab">A Cyclopcedia of Several Thousand Practical Receipts, and
                
                <br></br>Collateral Information in the Arts, Manufactures, and
@@ -1847,6 +1856,7 @@
          
          
          <div class="piece" id="#p8">
+            <div class="biblTitle">The Parting Spirit's Address to his Mother</div>
             <div class="ab">The Parting Spirit's Address to his Mother. By William
                
                <br></br>Edward Wyatt, D. D., Rector of St. Paul's Parish, Balti-
@@ -1860,6 +1870,7 @@
          
          
          <div class="piece" id="#p9">
+            <div class="biblTitle">Wiley and Putnam's Library of American Books</div>
             <div class="ab">Wiley and Putnam's Library of American Books. No. III.
                
                <br></br>Letters from Italy. By J. T. Headley. Wiley and Put-
@@ -1953,6 +1964,7 @@
          
          
          <div class="piece" id="#p10">
+            <div class="biblTitle">Hunt's Merchants' Magazine and Commercial Review</div>
             <div class="ab">Hunt's Merchants' Magazine and Commercial Review. Au-
                
                <br></br>gust, 1S45. New- York: Freeman Hunt.
@@ -2000,6 +2012,7 @@
          
          
          <div class="piece" id="#p11">
+            <div class="biblTitle">Godey's Lady's Book, for August</div>
             <div class="ab">Godey's Lady's Book, for August,</div>
             
             <p>Has been issued for some days. It contains three engravings—one a very good one, (Scene on the Schuylkill)—and
@@ -2011,9 +2024,11 @@
       
       
       <div class="section" id="#s4">
+         <div class="biblTitle">Musical Department</div>
          <div class="head">Musical Department.</div>
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">French Opera</div>
             <p>French Opera.—Auber’s grand opera of La Muette de
                Portici was produced at the Park Theatre on Monday evening last. This work, when it was first produced, created an
                extraordinary sensation throughout Europe. Its melodies
@@ -2233,6 +2248,7 @@
          </div>
          
          <div class="piece" id="#p19">
+            <div class="biblTitle">Musical and Theatrical Items</div>
             <div class="head">MUSICAL AND THEATRICAL ITEMS.</div>
             
             <p>We have every reason to believe that the ensuing season
@@ -2322,9 +2338,11 @@
       
       
       <div class="section" id="#s2">
+         <div class="biblTitle">Editorial Miscellany</div>
          <div class="head">Editorial Miscellany.</div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">Mess. Wm. D. Ticknor and Co.</div>
             <p>Mess. Wm. D. Ticknor &amp; Co., of Boston, have in press
                and will soon publish a volume of Poems by Mrs. Mary E.
                Hewitt, of this city. Mrs. Hewitt has written numerous
@@ -2344,6 +2362,7 @@
          
          
          <div class="piece" id="#p14">
+            <div class="biblTitle">Great Preparations</div>
             <p>Great preparations are being made in the way of giftbooks for the holidays. “The Missionary Memorial" is the
                title of a very elegant volume to be edited by Mr. Saunders,
                of this city. It is to be superbly printed on the finest paper,
@@ -2383,6 +2402,7 @@
          
          
          <div class="piece" id="#p15">
+            <div class="biblTitle">The Corporation of Harvard University</div>
             <p>The Corporation of Harvard University have invited, or
                voted to invite, the Hon. Edward Everett to assume the Presidency of the College. It is presumed he will accept the invitation.
             </p>
@@ -2390,6 +2410,7 @@
          
          
          <div class="piece" id="#p16">
+            <div class="biblTitle">In the "Times"</div>
             <p>In the “Times,” published at Columbus, Ga., we meet
                with a very remarkable story entitled “The Little Governess
                and the Authoress." The narrative itself has great interest;
@@ -2405,6 +2426,7 @@
          
          
          <div class="piece" id="#p17">
+            <div class="biblTitle">We Find the Following in the Express</div>
             <p>We find the following in the Express (of this city,) where
                it is accredited to the New-York Correspondent of the Cincinnati Gazette:
             </p>
@@ -2441,6 +2463,7 @@
       
       
       <div class="section" id="#s3">
+         <div class="biblTitle">Advertisements</div>
          
          
          <div>
@@ -2929,6 +2952,7 @@
       
       
       <div class="piece" id="#p18">
+         <div class="biblTitle">Agents for the Broadway Journal</div>
          <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
          
          <div class="ab">Redding &amp; Co. ..................Boston, Mass.

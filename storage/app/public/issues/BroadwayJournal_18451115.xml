@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18451115</div>
    <div class="front">
       
       <div class="ab">
@@ -16,6 +17,7 @@
       
       
       <div class="piece" id="#p1">
+         <div class="biblTitle">Sonnet: On Seeing the Ivory Statue of Christ</div>
          
          <div class="head">Sonnet. ON SEEING THE IVORY STATUS OF CHRIST.</div>
          
@@ -57,6 +59,7 @@
       </div>
       
       <div class="piece" id="#p2">
+         <div class="biblTitle">A New Mode of Collecting a Library</div>
          
          <div class="head">A New Mode of Collecting a Library.</div>
          
@@ -209,6 +212,7 @@
       </div>
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">The American Pioneer</div>
          <div class="head">THE AMERICAN PIONEER.</div>
          
          <div class="lg">
@@ -293,6 +297,7 @@
       </div>
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">Fancies</div>
          <div class="head">Fancies</div>
          
          <p>The Past—the Present—the Future. The shadowy phantom that broodeth over the by-gone—the stern spirit of the things that be—the dread spectre of the tocome.</p>
@@ -366,6 +371,7 @@
       </div>
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">The Autumnal Leaf</div>
          <div class="head">The Autumnal Leaf</div>
          
          <div class="lg">
@@ -452,9 +458,11 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          <div class="head">Critical Notices.</div>
          
          <div class="piece" id="#p6">
+            <div class="biblTitle">The Artist, the Merchant, and the Statesman</div>
             
             <p>The Artist, the Merchant, and the Statesman. By C. Edwards Lester. Vol. 1. New-York: Paine &amp; Burgess, 62 John-street.</p>
             
@@ -629,6 +637,7 @@
          </div>
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">Specimens of English Dramatic Poets</div>
             
             <p>Specimens of English Dramatic Poets, who lived about the time of Shakspeare. With
                Notes: By Charles Lamb. In two Volumes. Wiley &amp; Putnam's Library of Choice
@@ -872,6 +881,7 @@
          </div>
          
          <div class="piece" id="#p8">
+            <div class="biblTitle">Memoirs of Benvenuto Cellini</div>
             
             <p>Wiley &amp; Putnam's Foreign Library. No. 1. Vol. 11. Memoirs of Benvenuto
                Cellini. Written by Himself. Translated by Thomas Roscoe, Esq..
@@ -949,6 +959,7 @@
          </div>
          
          <div class="piece" id="#p9">
+            <div class="biblTitle">New Books Received</div>
             
             <p>New Books received, to be noticed more fully in our next:</p>
             
@@ -1012,6 +1023,7 @@
       </div>
       
       <div class="piece" id="#p10">
+         <div class="biblTitle">Song</div>
          <div class="head">Song.</div>
          
          <div class="lg">
@@ -1077,6 +1089,7 @@
       </div>
       
       <div class="piece" id="p11">
+         <div class="biblTitle"></div>
          <div class="head">The Drama.</div>
          
          <p>By a certain fluttering in the Press, we can discern as clearly as by the spreading
@@ -1165,6 +1178,7 @@
       </div>
       
       <div class="piece" id="#p12">
+         <div class="biblTitle">Musical Department</div>
          <div class="head">Musical Department.</div>
          
          <p>Another leaf has again been added to Leopold De Meyer’s wreath of
@@ -1297,6 +1311,7 @@
       </div>
       
       <div class="piece" id="#p13">
+         <div class="biblTitle">Editorial Miscellany</div>
          <div class="head">Editorial Miscellany.</div>
          
          <p>The Churchman and Dr. Cheever.—The Churchman is no friend to Dr. Cheever, his theology and his opinions, and from our own reflections, we can easily understand how a difference may arise in the premises. But we can
@@ -1549,6 +1564,7 @@
       </div>
       
       <div class="section" id="#s2">
+         <div class="biblTitle">Advertisements</div>
          <div>
             <div class="head">WILEY &amp; PUTNAM</div>
             

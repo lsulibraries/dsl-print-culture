@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18451018</div>
    <div class="front">
       
       <div class="ab">
@@ -15,6 +16,7 @@
                    
       
       <div class="piece" id="#p1">
+         <div class="biblTitle">Stanzas</div>
          <div class="head">Stanzas.</div>
          
          <div class="lg">
@@ -61,6 +63,7 @@
       </div>
       
       <div class="piece" id="#p2">
+         <div class="biblTitle">King Pest</div>
          <div class="head">King Pest.
             A TALE CONTAINING AN ALLEGORY.
          </div>
@@ -574,6 +577,7 @@
       </div>
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">The Unattainable</div>
          <div class="head">The Unattainable.</div>
          
          <div class="lg">
@@ -674,6 +678,7 @@
       </div>
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">The Two Sailor Monkeys</div>
          <div class="head">The Two Sailor Monkeys.</div>
          
          <p>The first of these sailed on board a frigate, and, though
@@ -795,6 +800,7 @@
       </div>
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">To a Spirit</div>
          <div class="head">To a Spirit.</div> 
          
          <div class="lg">
@@ -933,6 +939,7 @@
       </div>
       
       <div class="piece" id="#p6">
+         <div class="biblTitle">A Mountain Village</div>
          <div class="head">A Mountain Village.</div>
          
          <p>THE eastern extremity of the Taurus Mountains in
@@ -1010,6 +1017,7 @@
       </div>
       
       <div class="piece" id="#p7">
+         <div class="biblTitle">The Wife's Prayer</div>
          <div class="head">The Wife's Prayer.</div>
          
          <div class="lg">
@@ -1068,6 +1076,7 @@
       </div>
       
       <div class="piece" id="#p8">
+         <div class="biblTitle">The Bishop and His House-Keeper</div>
          <div class="head">The Bishop and his house-Keeper.</div>
          
          <p>In a city in the south of France, which we will not
@@ -1273,13 +1282,16 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          <div class="head">Critical Notices.</div>
          
          <div class="piece" id="#p9">
+            <div class="biblTitle">The Editor's Temporary Absence</div>
             <p>The editor’s temporary absence from the city, will account to our publishing friends for present neglect of several new works. These will be attended to on his return.</p>
          </div>
          
          <div class="piece" id="#p10">
+            <div class="biblTitle">Big Abel and the Little Manhattan</div>
             
             <p>Wiley &amp; Putnam's Library of American Books. No.
                VIII. Big Abel and The Little Manhattan. By Cornelius Mathews.
@@ -1420,6 +1432,9 @@
          </div>
          
          <div class="piece" id="#p11">
+            <div class="biblTitle">Selections from the Works of Taylor, Latimer, Hall, Milton, Barrow, South, Brown,
+               Fuller and Bacon
+            </div>
             <p>Wiley &amp; Putnam’s Library of Choice Reading. No.
                XXVI. Selections from the Works of Taylor, Latimer, Hall, Milton, Barrow, South, Brown, Fuller and
                Bacon. By Basil Montagu, Esq., M. A. First American from the Fifth London Edition.
@@ -1449,6 +1464,7 @@
          </div>
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">Praise and Principle</div>
             <p>Praise and Principle; or For What Shall I live. By
                the author of “Conquest and Self Conquest” New-
                York: Harper if Brothers.
@@ -1478,6 +1494,7 @@
          </div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">Littell's Living Age</div>
             <p>Littell's Living Age. No 73.</p>
             
             <p>Mr. Littell is the compiler of a valuable miscellany
@@ -1492,6 +1509,7 @@
          </div>
          
          <div class="piece" id="#p14">
+            <div class="biblTitle">"Foreign Library"</div>
             <p>Wiley if Putnam's “Foreign Library."</p>
             
             <p>A Prospectus has been issued of this new undertaking,
@@ -1515,6 +1533,7 @@
       </div>
       
       <div class="piece" id="#p15">
+         <div class="biblTitle">The Fine Arts</div>
          <div class="head">The Fine Arts.</div>
          
          <p>We are indebted to the kindness of Mr. C. Edwards
@@ -1676,6 +1695,7 @@
       </div>
       
       <div class="piece" id="#p16">
+         <div class="biblTitle">Musical Department</div>
          <div class="head">Musical Department.</div>
          
          <p>GRAND ORATORIO AT THE TABERNACLE.—Beethoven’s
@@ -1840,6 +1860,7 @@
       
       
       <div class="piece" id="#p17">
+         <div class="biblTitle">Items</div>
          <div class="head">Items.</div>
          
          <p>WORCHESTER'S PIANO FORTE MANUFACTORY.—Having
@@ -2042,6 +2063,7 @@
       </div>
       
       <div class="piece" id="#p18">
+         <div class="biblTitle">The Drama</div>
          <div class="head">The Drama.</div>
          
          <p>MR. MURDOCH.—Our readers will recollect the commendation bestowed by us on certain Shakespearian recitations at the Society Library in the spring of the present year. There were not a few persons of discrimination and taste who discerned in their deliverer, Mr. Murdoch, the elements and capabilities of a first rate performer. Their faith will be dashed or confirmed by the
@@ -2090,6 +2112,7 @@
       </div>
       
       <div class="piece" id="#p19">
+         <div class="biblTitle">Editorial Miscellany</div>
          <div class="head">Editorial Miscellany.</div> 
          
          <p>IF ANY inference may be drawn from the constant issues of the press, poetry is ascending in America to a
@@ -2127,7 +2150,9 @@
       
       
       
-      <div class="section" id="#s2"></div>
+      <div class="section" id="#s2">
+         <div class="biblTitle">Advertisements</div>
+      </div>
       
       <div>
          <div class="head">JUST PUBLISHED,</div>

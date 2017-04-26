@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18450208</div>
    <div class="front">
       
       <div class="ab">THE BROADWAY JOURNAL.
@@ -31,10 +32,12 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Reviews</div>
          
          <div class="head">REVIEWS.</div>
          
          <div class="piece" id="#p1">
+            <div class="biblTitle">Poems by Sir Edward Lytton Bulwer</div>
             
             <p>Poems by Sir Edward Lytton Bulwer. Edited by C. Donald
                Macleod. New York: Farmer &amp; Daggers, 1845.
@@ -284,6 +287,7 @@
          </div>
          
          <div class="piece" id="p2">
+            <div class="biblTitle"></div>
             
             <p>Why a National Literature cannot flourish in the United
                States of North America. By Joseph Rocchietti. Turner &amp;
@@ -468,6 +472,7 @@
       </div>
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">American Illustrated Books</div>
          
          <div class="head"> AMERICAN ILLUSTRATED BOOKS.</div>
          
@@ -654,6 +659,7 @@
       </div>
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">The Navy</div>
          
          <div class="head">THE NAVY.</div>
          
@@ -793,10 +799,14 @@
       </div>
       
       <div class="section" id="#s3">
+         <div class="biblTitle">The Fine Arts</div>
          
          <div class="head">The Fine Arts</div>
          
          <div class="piece" id="#p5">
+            <div class="biblTitle">The Art of the Use of Color in Imitation in Painting, No.
+               1
+            </div>
             
             <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING, NO. 1.</div>
             
@@ -1084,6 +1094,7 @@
          </div>
          
          <div class="piece" id="#p6">
+            <div class="biblTitle">A New Discovery in Art</div>
             
             <div class="head">A NEW DISCOVERY IN ART.</div>
             
@@ -1235,6 +1246,7 @@
          </div>
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">Valentines</div>
             
             <p>Valentines.—Mr. Coleman has got the prettiest collec tion of Valentines that we have ever seen; some of them
                 are very brilliantly illuminated with all manner of ingenious
@@ -1258,6 +1270,7 @@
       
       
       <div class="piece" id="#p8">
+         <div class="biblTitle">The Bishop</div>
          
          <div class="head">THE BISHOP.</div>
          
@@ -1314,10 +1327,12 @@
       
       
       <div class="section" id="#s4">
+         <div class="biblTitle">Original Poetry</div>
          
          <div class="head">Original Poetry.</div>
          
          <div class="piece" id="#p9">
+            <div class="biblTitle">The Two Paths</div>
             
             <div class="head">THE TWO PATHS.</div>
             
@@ -1368,6 +1383,7 @@
          </div>
          
          <div class="piece" id="#p10">
+            <div class="biblTitle">The Raven</div>
             
             <div class="note" type="headnote">
                <p>We copy the following poem from the American Review, the new
@@ -1658,6 +1674,7 @@
       
       
       <div class="piece" id="#p11">
+         <div class="biblTitle">Chronology</div>
          
          <div class="head">CHRONOLOGY.</div>
          
@@ -1749,6 +1766,7 @@
       
       
       <div class="piece" id="#p12">
+         <div class="biblTitle">The Concert Room</div>
          
          <div class="head">THE CONCERT ROOM.</div>
          
@@ -1856,10 +1874,12 @@
       </div>
       
       <div class="section" id="#s5">
+         <div class="biblTitle">Varieties</div>
          
          <div class="head">VARIETIES.</div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">The Curse of Criticism</div>
             
             <div class="head">THE CURSE OF CRITICISM.</div>
             
@@ -1902,6 +1922,7 @@
          
          
          <div class="piece" id="#p14">
+            <div class="biblTitle">A New Washington Monument</div>
             
             <div class="head">A NEW WASHINGTON MONUMENT.</div>
             
@@ -1953,6 +1974,7 @@
          </div>
          
          <div class="piece" id="#p15">
+            <div class="biblTitle">The Snow</div>
             
             <div class="head">THE SNOW.</div>
             
@@ -2000,6 +2022,7 @@
       
       
       <div class="piece" id="#p16">
+         <div class="biblTitle">The Magazines</div>
          
          <div class="head">THE MAGAZINES.</div>
          
@@ -2122,10 +2145,12 @@
       
       
       <div class="section" id="#s6">
+         <div class="biblTitle">Literary Notices</div>
          
          <div class="head">LITERARY NOTICES.</div>
          
          <div class="piece" id="#p17">
+            <div class="biblTitle">The Treasury of History, No. 2</div>
             
             <p>The Treasury of History, No. 2. Price 2ft cents. Daniel Adee, 107 Fulton street.</p>
             
@@ -2138,6 +2163,7 @@
          
          
          <div class="piece" id="#p18">
+            <div class="biblTitle">A Chaunt of Life and other Poems</div>
             
             <p>A Chaunt of Life and other Poems, with Sketches and Essays, by Ralph Hoyt, in Six
                Parts. Part 1. 1844.
@@ -2155,6 +2181,7 @@
          
          
          <div class="piece" id="#p19">
+            <div class="biblTitle">Catlin's New Work</div>
             
             <p>Catlin’s New Work. North American Indian Portfolio, containing Hunting Scenes. Amusements, Scenery and Costume of the Indians of the
                Rocky
@@ -2169,6 +2196,7 @@
          </div>
          
          <div class="piece" id="#p20">
+            <div class="biblTitle">Rome as seen by a New Yorker in 1843-4</div>
             
             <p>Rome as seen by a New Yorker in 1843-4. New York and London: Wiley and Putnam.
                1845.
@@ -2192,6 +2220,7 @@
          </div>
          
          <div class="piece" id="#p21">
+            <div class="biblTitle">The Wonderful Adventures of Baron Munchausen</div>
             
             <p>The Wonderful Adventures of Baron Munchausen. New York: Farmer and Daggers, 30 Ann
                street.
@@ -2208,6 +2237,7 @@
          
          
          <div class="piece" id="#p22">
+            <div class="biblTitle">Blackwood's Magazine, for January</div>
             
             <p>Blackwood's Magazine, for January. Republished by Leonard Scott &amp; Co., 112 Fulton
                street.
@@ -2221,6 +2251,7 @@
          </div>
          
          <div class="piece" id="#p23">
+            <div class="biblTitle">The Southern Quarterly Review. No 13</div>
             
             <p>The Southern Quarterly Review. No 13. January, 1845. Charleston.</p>
             
@@ -2257,6 +2288,7 @@
       
       
       <div class="piece" id="#p24">
+         <div class="biblTitle">Musical Intelligence</div>
          
          <div class="head">MUSICAL INTELLIGENCE.</div>
          
@@ -2299,16 +2331,19 @@
       
       
       <div class="section" id="#s7">
+         <div class="biblTitle">Bits of News</div>
          
          <div class="head">BITS OF NEWS.</div>
          
          <div class="piece" id="#p27">
+            <div class="biblTitle">Longfellow's Poets</div>
             
             <p>Longfellow’s Poets and Poetry of Europe will be published in about six weeks.</p>
             
          </div>
          
          <div class="piece" id="#pg28">
+            <div class="biblTitle"></div>
             
             <p>Carey and Hart have in press a new work of native humor by the
                author of Major Jones’s Courtship, which will be illustrated by Darley
@@ -2320,6 +2355,7 @@
          </div>
          
          <div class="piece" id="#p29">
+            <div class="biblTitle">Mr. Petre</div>
             
             <p>Mr. Petre, the British Consul in Philadelphia, a gentleman hardly more distinguished
                for his fine social qualities than for his profound
@@ -2331,6 +2367,7 @@
          </div>
          
          <div class="piece" id="#p30">
+            <div class="biblTitle">A New Edition of Carlyle</div>
             
             <p>A New Edition of Carlyle.—Carey and Hart have in press, a complete
                edition of the Critical and Miscellaneous Writings of Thomas Carlyle,
@@ -2341,6 +2378,7 @@
          </div>
          
          <div class="piece" id="#p31">
+            <div class="biblTitle">Powers, the sculptor</div>
             
             <p>Powers, the sculptor, has nearly finished a work for a distinguished gentleman in
                Philadelphia, which is said by good critics in Italy very much to surpass his Eve.
@@ -2349,6 +2387,7 @@
          </div>
          
          <div class="piece" id="#p32">
+            <div class="biblTitle">The Harpers</div>
             
             <p>The Harpers will publish, in a few days, a new edition of Halleck’s
                Poems, which will contain, it is said, some pieces never before published.
@@ -2357,6 +2396,7 @@
          </div>
          
          <div class="piece" id="#p33">
+            <div class="biblTitle">The Landing of the Norsemen in America</div>
             
             <p>Leutze is engaged on the greatest of all his pictures, the Landing of
                the Norsemen in America. One of the most celebrated of the living
@@ -2372,6 +2412,7 @@
       
       
       <div class="piece" id="#p25">
+         <div class="biblTitle">To Readers and Correspondents</div>
          
          <p>To Readers and Correspondents.—There are a good many enquiries
             as to the success of our undertaking, for which we are extremely grateful. Many of our good friends, we are informed, are waiting to
@@ -2450,6 +2491,7 @@
       
       
       <div class="section" id="#s8">
+         <div class="biblTitle">Advertisements</div>
          
          <div>
             
@@ -2819,6 +2861,7 @@
       </div>
       
       <div class="piece" id="p26">
+         <div class="biblTitle"></div>
          
          <div class="head">Prospectus of the Broadway Journal. To be Published every Saturday.</div>
          

@@ -1,4 +1,5 @@
 <div>
+   <div class="issueId">18450920</div>
    <div class="front">
       
       <div class="ab">
@@ -16,6 +17,7 @@
       
       
       <div class="piece" id="#p1">
+         <div class="biblTitle">Soul-Shadows</div>
          <div class="head">Soul-Shadows.</div>
          
          <div class="lg">
@@ -100,6 +102,7 @@
       </div>
       
       <div class="piece" id="#p2">
+         <div class="biblTitle">The Landscape Garden</div>
          <div class="head">The Landscape Garden.</div>
          
          <div class="lg">
@@ -355,6 +358,7 @@
       </div>
       
       <div class="piece" id="#p3">
+         <div class="biblTitle">To---</div>
          <div class="head">To ----------</div>
          
          <div class="lg">
@@ -385,6 +389,7 @@
       </div>
       
       <div class="piece" id="#p4">
+         <div class="biblTitle">The Magnetizer; or, Ready for Any Body</div>
          
          <div class="head">The Magnetizer; or, Ready for Any Body. BY THE AUTHOR OF “ THE VISION OF
             RUBETA.”
@@ -726,6 +731,7 @@
       </div>
       
       <div class="piece" id="#p5">
+         <div class="biblTitle">Song</div>
          <div class="head">Song.</div>
          
          <div class="lg">
@@ -774,6 +780,7 @@
       </div>
       
       <div class="piece" id="#p6">
+         <div class="biblTitle">A Tale of Jerusalem</div>
          <div class="head">A Tale of Jerusalem.</div>
          
          <div class="lg">
@@ -945,9 +952,11 @@
       </div>
       
       <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          <div class="head">Critical Notices.</div>
          
          <div class="piece" id="#p7">
+            <div class="biblTitle">The American Shepherd</div>
             
             <p>The American Shepherd: being a Complete History of Sheep, with their Breeds,
                Management, and Diseases. By L. A. Morrell. Illustrated with Drawings of the
@@ -966,6 +975,7 @@
          </div>
          
          <div class="piece" id="#p8">
+            <div class="biblTitle">The Bosom Friend</div>
             
             <p>The Bosom Friend. A Novel by the Author of “The Gambler’s Wife," “The
                Young Prima Donna," etc. etc. New York: Harper &amp; Brothers.
@@ -977,6 +987,7 @@
          </div>
          
          <div class="piece" id="#p9">
+            <div class="biblTitle">The Wandering Jew</div>
             
             <p>The Wandering Jew. By M. Eugène Sue. New York: Harper &amp; Brothers.</p>
             
@@ -986,6 +997,7 @@
          </div>
          
          <div class="piece" id="#p10">
+            <div class="biblTitle">A Cyclopædia of Several Thousand Practical Receipts and Collateral Information</div>
             
             <p>A Cyclopædia of several Thousand Practical Receipts and Collateral Information,
                in the Arts, Manufactures, and Trades, including Medicine, Pharmacy, and Domestic Economy. Designed as a Compendious Book of Reference for the Manufacturer, Tradesman, Amateur, and Heads of Families. By Arnold James Cooley. Illustrated with numerous Engravings. New York: D.
@@ -999,6 +1011,7 @@
          </div>
          
          <div class="piece" id="#p11">
+            <div class="biblTitle">Agnes Serle</div>
             
             <p>Agnes Serle. A Novel. By Miss Ellen Pickering, author of “Nan Darrell," “The
                Fright,” etc. etc. New York: E. Ferrett &amp; Co.
@@ -1015,6 +1028,7 @@
          
          
          <div class="piece" id="#p12">
+            <div class="biblTitle">Gowans' Bibliotheca Americana. No 1</div>
             
             <p>Gowans' Bibliotheca Americana. No 1.—A Brief Description of New York, formerly
                called New Netherlands, with the Places thereunto adjoining. Likewise a brief
@@ -1045,6 +1059,7 @@
          </div>
          
          <div class="piece" id="#p13">
+            <div class="biblTitle">The Democratic Review, for September</div>
             
             <p>The Democratic Review, for September, is particularly strong—containing a good
                article on Lyell’s late work; “La Vendetta,” a clever tale by Fanny Kemble; “The
@@ -1188,6 +1203,7 @@
          </div>
          
          <div class="piece" id="#p14">
+            <div class="biblTitle">The American Review for September</div>
             
             <p>The American Review for September contains, among other able papers, one of
                especial value by Hon. J. R. Ingersoll on the National Institute—also an article
@@ -1304,6 +1320,7 @@
          </div>
          
          <div class="piece" id="#p15">
+            <div class="biblTitle">Essays of Elia</div>
             
             <p>Wiley and Putnam's Library of Choice Reading. No. XXIII. Essays of Elia. By
                Charles Lamb. Second Series.
@@ -1316,9 +1333,11 @@
       </div>
       
       <div class="section" id="#s2">
+         <div class="biblTitle">The Fine Arts</div>
          <div class="head">The Fine Arts.</div>
          
          <div class="piece" id="#p16">
+            <div class="biblTitle">The National Gallery at the Rotunda</div>
             <p>The National Gallery at the Rotunda.—In our last we promised to undertake an apparently invidious, and a really difficult task—in short, to
                criticise the works of living painters. In all the so-called criticisms which it
                has been our painful experience to peruse in the different newspapers of the
@@ -1437,6 +1456,7 @@
          </div>
          
          <div class="piece" id="#p17">
+            <div class="biblTitle">Joseph Buonaparte's collection of pictures at Bordentown</div>
             
             <p>Joseph Buonaparte's collection of pictures at Bordentown.—The sale
                of this collection of paintings by old and modern masters, took place at
@@ -1448,6 +1468,7 @@
       </div>
       
       <div class="piece" id="#p18">
+         <div class="biblTitle">Musical Department</div>
          <div class="head">Musical Department.</div>
          
          <p>Park Theatre.—First Appearance of the new Opera Company.—On Monday evening a very
@@ -1558,6 +1579,7 @@
       </div>
       
       <div class="piece" id="#p19">
+         <div class="biblTitle">The Drama</div>
          <div class="head">The Drama.</div>
          
          <p>We continue our extracts from Mr. Murdock’s entertaining MS. “The
@@ -1711,9 +1733,11 @@
       </div>
       
       <div class="section" id="#s3">
+         <div class="biblTitle">Editorial Miscellany</div>
          <div class="head">Editorial Miscellany.</div>
          
          <div class="piece" id="#p20">
+            <div class="biblTitle">The Broken-Hearted</div>
             
             <p>In a Tale called “The Broken-Hearted, a Touching Incident of Real
                Life, by John G. Whittier,” which we find in a “Philadelphia Saturday Courier” of
@@ -1824,6 +1848,7 @@
          </div>
          
          <div class="piece" id="#p21">
+            <div class="biblTitle">Professor Horncastle</div>
             
             <p>Professor Horncastle gave his first entertainment, in this country, at the
                Society Library, last week. We were unable to attend his performance.
@@ -1854,6 +1879,7 @@
          </div>
          
          <div class="piece" id="#p22">
+            <div class="biblTitle">The Mesmeric Journals</div>
             
             <p>The Mesmeric journals, and some others, are still making a to-do about the
                tenability of Mr. Vankirk’s doctrines as broached in a late Magazine paper of our
@@ -1895,6 +1921,7 @@
          </div>
          
          <div class="piece" id="#p23">
+            <div class="biblTitle">Mr. Simms' Monthly Magazine</div>
             
             <p>A correspondent of Mr. Simms’ Monthly Magazine makes some odd mistakes in giving
                that work an account of literary people and literary doings in New York. Some
@@ -1911,11 +1938,13 @@
          </div>
          
          <div class="piece" id="#p24">
+            <div class="biblTitle">Emerson's Arithmetic</div>
             
             <p>Emerson’s Arithmetic has been translated into modern Greek.</p>
          </div>
          
          <div class="piece" id="#p25">
+            <div class="biblTitle">Frederica Bremer</div>
             
             <p>Frederica Bremer, the gifted Swedish novelist, will not come here, as she intended, this summer, her visit being necessarily postponed till
                another year, by the illness of a near friend.
@@ -1923,6 +1952,7 @@
          </div>
          
          <div class="piece" id="#p26">
+            <div class="biblTitle">A Suit for Libel</div>
             
             <p>A suit for libel has been instituted against J. Fenimore Cooper, by the Rev. Mr.
                Tiffany of Cooperstown.
@@ -1930,6 +1960,7 @@
          </div>
          
          <div class="piece" id="#p27">
+            <div class="biblTitle">Six Octave Piano Fortes</div>
             
             <p>We call the attention of our readers to some beautiful six octave piano fortes,
                now in the store of Mr. Chambers, 385 Broadway. They are well finished, possess a beautiful quality of tone, with great power and delicacy of
@@ -1940,6 +1971,7 @@
          </div>
          
          <div class="piece" id="#p28">
+            <div class="biblTitle">Von Raumer</div>
             
             <p>The work of Von Raumer, the Prussian traveller and critic, on the United States,
                has appeared, and its table of contents is said to be of great promise. A
@@ -1955,6 +1987,7 @@
          </div>
          
          <div class="piece" id="#p29">
+            <div class="biblTitle">Lewis J. Cist</div>
             
             <p>We learn from Messrs. Robinson and Jones that the subscription papers for the
                volume of Poems, by Lewis J. Cist, have been very well filled, and that the work
@@ -1965,6 +1998,7 @@
          </div>
          
          <div class="piece" id="#p30">
+            <div class="biblTitle">Mr. William Fairman</div>
             
             <p>Mr. William Fairman, of this city, bas become, for the present, interested in the conduct of the “Broadway Journal." He is about taking a tour
                through some of the States, for the purpose of promoting the general interests of
@@ -1974,6 +2008,7 @@
       </div>
       
       <div class="section" id="#s4">
+         <div class="biblTitle">Advertisements</div>
          <div>
             
             <p>THE MISSES SEDGWICK’S BOARDING and DAY SCHOOL re-opened on Wednesday the 10th of
