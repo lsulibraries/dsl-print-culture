@@ -304,9 +304,10 @@ Vue.component('issueHeader', {
     },
     created() {
 	Event.$on('issueSelected', (id) => {
+	    this.biblId = this.firstSection()
 	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
 	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
-	    this.biblId = this.firstSection()
+	    this.setPpm()
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.biblId = bibl.decls_id
@@ -337,9 +338,13 @@ Vue.component('issueHeader', {
 	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
           </div>
     	<a v-bind:href='stateHref()' download>Download {{this.dlLabel()}}</a>
+	<drawer v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
 	</div>
 	`,
     methods: {
+	drawerIsAvailable: function() {
+	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
+	},
 	dlLabel: function(){
     	    if(this.$root.state.content.issue.viewer == 'pdf'){
     		return 'PDF'
@@ -405,6 +410,28 @@ Vue.component('issueHeader', {
     },
     mounted() {
 //	Event.$emit('issueSelected', this.$root.state.content.issue.id)
+    }
+})
+
+Vue.component('drawer', {
+    template: `
+	<div class="drawer" v-if="this.showDrawer">
+	  <personBibl v-if="showBibls" v-for="bibl in authorBibls.personListBibl" :personBibl="bibl"></personBibl>
+        </div>
+	`,
+    props: ['authorId'],
+    created() {
+	axios.get('/api/personography/summary/json').then(response => {
+	    this.personography = response.data
+	    this.authorBibls = this.personography[0][authorId]
+	})
+
+    },
+    data() {
+	return {
+	    personography: {},
+	    authorBibls: {}
+	}
     }
 })
 
@@ -596,6 +623,7 @@ Vue.component('child-piece',{
 	 methods:{
 		tocItemSelected: function() {
 		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
+		    this.id.issueId = this.$root.state.content.issue.id
 		    Event.$emit("issueBiblSelected", this.id)
 		}
 	},
@@ -634,7 +662,7 @@ Vue.component('pdf-viewer',{
 	    this.loadPdf(this.current_issue, this.current_page);
 	}),
 	Event.$on('issueSelected', (id) => {
-	//    this.current_page = 1;
+	    this.current_page = 1;
 	    this.current_issue = id;
 	    this.loadPdf(this.current_issue, this.current_page);
 	}),
@@ -746,7 +774,7 @@ Vue.component('tei-markup',{
     created(){
 	Event.$on('issueSelected', (id) => {
 	    this.id = id;
-	    this.biblId = false
+	    this.biblId = ''
 	    this.getText();
 	}),
 	Event.$on('issueBiblSelected', (bibl) => {
@@ -1073,6 +1101,7 @@ new Vue({
 	Event.$on('issueSelected', (id) => {
 	    this.state.content.issue.id = id;
 	    this.state.content.issue.page = 1;
+	    this.state.content.issue.decls_id = '';
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.state.content.issue.id = bibl.issueId;
