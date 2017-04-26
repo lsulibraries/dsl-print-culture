@@ -5,9 +5,11 @@
 
     <xsl:output omit-xml-declaration="yes" method="xhtml" indent="yes" />
 
-    <xsl:template match="/">
-        
+    <xsl:template match="/">    
         <div>
+            <div class="issueId">
+                <xsl:apply-templates select="TEI/teiHeader/fileDesc/publicationStmt/idno"/>
+            </div>
             <div class="front">
                 <xsl:apply-templates select="TEI/text/front"/>
             </div>
@@ -18,9 +20,12 @@
                 <xsl:apply-templates select="TEI/text/back"/>
             </div>
         </div>
-        
     </xsl:template>
 
+    <xsl:template match="TEI/teiHeader/fileDesc/publicationStmt/idno">
+        <xsl:value-of select="."/>
+    </xsl:template>
+    
     <xsl:template match="div" >
         <xsl:element name="div">
             <xsl:choose>
