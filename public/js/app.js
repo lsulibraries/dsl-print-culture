@@ -209,7 +209,7 @@ Vue.component('personBibl', {
 	    <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
  	  </div>
 	  <div class="pieceMeta" v-if="this.bibl_data[ppm.pieceId]">
-	    <div class="pieceSection" v-if="this.bibl_data[ppm.pieceId].sectionId">{{this.bibl_data[this.bibl_data[ppm.pieceId].sectionId].sectionMeta.sectionTitle}}</div>
+	<div class="pieceSection" v-if="this.bibl_data[ppm.pieceId].sectionId">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
 	    <div class="pieceTitle" @click="goToPiece">{{this.bibl_data[ppm.pieceId].pieceMeta.pieceTitle}}</div>
 	    <div class="pieceAuthorShip">{{this.ppm.authorShip}}</div>
 	    <div class="personPiecePseudo" v-if="this.ppm.personPiecePseudo">{{this.ppm.personPiecePseudo}}</div>
@@ -243,6 +243,16 @@ Vue.component('personBibl', {
 		pdf_index: this.bibl_data[this.ppm.pieceId].pieceMeta.piecePdfIndex,
 		decls_id: this.ppm.pieceId
 	    })
+	},
+	sectionTitle: function(biblId) {
+	    bibl = this.bibl_data[biblId]
+	    if(!bibl){
+		return "bibl " + biblId + "doesn't exist"
+	    }
+	    if(!bibl.sectionMeta){
+		return "sectionMeta is missing!"
+	    }
+	    return bibl.sectionMeta.sectionTitle
 	}
     }
 })
@@ -394,7 +404,9 @@ Vue.component('issueHeader', {
 	},
 	sectionTitle: function(biblId) {
 	    bibl = this.bibl_data[biblId]
-
+	    if(!bibl.sectionMeta){
+		return "sectionMeta is missing!"
+	    }
 	    if(this.biblIsSection(biblId)){
 		return bibl.sectionMeta.sectionTitle
 		
