@@ -117,7 +117,7 @@ input:focus {
 }
 
 .contrastOn, .contrastOff {
-  padding: 5px 10px 5px 10px;
+  padding: 2px 10px 2px 10px;
 }
 
 .contrastSwitch {
@@ -132,7 +132,7 @@ input:focus {
 }
 
 .content {
-  margin: 40px;
+  padding: 40px;
 }
 
 .searchInput {
@@ -143,6 +143,10 @@ input:focus {
 }
 
 /*BEGIN High Contrast Mode*/
+.highContrast .content {
+  background: #29303a;
+  color: white;
+}
 .highContrast .contrastOff {
   background: white;
   color: #474747;
