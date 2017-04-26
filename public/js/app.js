@@ -1,204 +1,836 @@
-// import Vue from 'vue'
- // import VuePDFViewer from 'vue-pdf-viewer'
-
-
-
-
-Vue.component('top-menu',{
-	data() {return {
-				topMenuActives: ''
-		}
-	},
-	methods: {
-		selectMe: function(which) {
-						if(which == 'about') { this.topMenuActives = [true,false,false];}
-						if(which == 'tech') { this.topMenuActives = [false,true,false];}
-						if(which == 'cred'){ this.topMenuActives =[false,false,true];}
-						//Event.$emit('topMenuEvent', this.topMenuActives);
-						this.$parent.$children[2].topMenuActives=this.topMenuActives;
-						}
-	},
-	template: `
-				<div class='topMenu'>
-					<a href="about" v-bind:class="{ viewTop: topMenuActives[0] }" @click="selectMe('about')">About</a>
-					<a href="technical" v-bind:class="{ viewTop: topMenuActives[1] }" @click="selectMe('tech')">Technical</a>
-					<a href="credits" v-bind:class="{ viewTop: topMenuActives[2] }" @click="selectMe('cred')">Credits</a>
-				</div>
-			` 
+window.Event = new Vue();
+window.Util  = new Vue({
+    methods: {
+	datePartsForIssueId: function(id){
+	    let ret       = {};
+	    ret.year  = id.slice(0,4);
+	    ret.month = id.slice(4,6);
+	    ret.day   = id.slice(-2);
+	    return ret;
+	}
+    }
 });
 
-Vue.component('control-button',{
-	data(){
-		return {
-			isActive: false
-		}
+Vue.component('container', {
+    created() {
+	Event.$on('toggleContrast', () => {
+	    this.contrast = this.$root.state.contrast;
+	})
+    },
+    methods: {
+	contrastString: function () {
+	    return this.$root.state.contrast + 'Contrast'
+	}
+    },
+    template: `
+        <div id="container" v-bind:class="contrastString()">
+          <vue-header></vue-header>
+	  <vue-content></vue-content>
+	  <vue-footer></vue-footer>
+	</div>
+	`,
+})
+
+Vue.component('vue-header',{
+    template: `
+        <div class="header">
+	  <button @click='toggleContrast'>Vis</button>
+          <headerLogo></headerLogo>
+	  <headerNav></headerNav>
+          <headerTitle></headerTitle>
+        </div>
+	`,
+    methods: {
+	toggleContrast: function (){
+	    this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
+	    Event.$emit('toggleContrast');
 	},
-	methods: {	
-		selectMe: function() {
-					this.$parent.whichview = this.$el.innerText;
-					this.isActive = true;
-					for(each in this.$parent.$children){
-						this.$parent.$children[each].isActive = (this.$parent.$children[each].$el.innerText == this.$el.innerText)
-						}
-					}
+    }
+})
+
+Vue.component('headerLogo',{
+    template: `
+	<div class="headerLogo">
+          <img src="images/libraries_logo.png"></img>
+        </div>
+    `
+})
+
+Vue.component('headerNav',{
+    data() {
+	return {
+	    content: this.$root.state.activeContent
+	}
+    },
+    methods: {
+	activeContentClicked: function(content) {
+	    Event.$emit('activeContentChange', content)
 	},
-	template: `
-		<div  class="documentToggle" @click="selectMe()">
-				<div class="labelToggle"><slot></slot></div>
-				<div v-bind:class="{viewing: isActive}" class="indicatorToggle"></div>
-		</div>
+	showSearch: function () {
+	    return this.$root.state.activeContent == 'issues'
+	}
+    },
+    template: `
+	<div class='headerNav'>
+	  <div @click="activeContentClicked('issues')">Explore Issues</div>
+	  <div @click="activeContentClicked('abouts')">About</div>
+	  <div @click="activeContentClicked('personography')">Explore People</div>
+	  <div class="issueSearch" v-if="this.showSearch()">
+	    <input>Search all issues</input>
+	  </div>
+	</div>
 	`
 });
 
-Vue.component('control-bar',{
-	data() {return {
-				whichview:'TEI',
-					}
+Vue.component('headerTitle',{
+    template: `
+	<div class="headerTitle">The Broadway Journal</div>
+    `
+})
+
+Vue.component('vue-footer',{
+    template: `<div class='footer'>
+    </div>`
+})
+
+Vue.component('vue-content',{
+    template: `
+        <div class="content">
+	  <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
+	  <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
+	  <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
+	  <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
+        </div>
+	`,
+})
+
+Vue.component('personography',{
+    data(){
+	return {
+	    modalActive:false,
+	    personography:[],
+	    chosen: '',
+	}
+    },
+    template: `
+        <div class="personography">
+	  <personFilter></personFilter>
+	  <personIndex></personIndex>
+        </div>
+    `
+})
+
+Vue.component('personIndex', {
+    template: `
+	<div class='personIndex' v-if="this.index">
+        <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
+        </div>
+	`,
+    created() {
+	axios.get('/api/personography/summary/json').then(response => this.index = response.data);
+    },
+    data() {
+	return {
+	    index: ''
+	}
+    }
+})
+
+Vue.component('personFilter', {
+    template: `
+	<div class='personFilter'>Person Filter...</div>
+    `
+})
+
+Vue.component('person', {
+    template: `
+      <div class='person'>
+	<div class="personName" @click="toggleBibls">{{meta.personMeta.personName}}</div>
+	<div class="personRole">{{meta.personMeta.personRole}}</div>
+	<div class="personViaf">{{meta.personMeta.personViaf}}</div>
+	<div class="personListBibl">
+	<personBibl v-if="showBibls" v-for="bibl in meta.personListBibl" :personBibl="bibl"></personBibl>
+	</div>
+      </div>
+	`,
+    props: ['meta'],
+    data() {
+	return {
+	    showBibls: false
+	}
+    },
+    methods: {
+	toggleBibls: function () {
+	    this.showBibls = !this.showBibls
+	}
+    }
+})
+
+Vue.component('personBibl', {
+    template: `
+	<div class="personBibl">
+          <div class="issueMeta" v-if="this.bibl_data.issueMeta">
+	    <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
+	    <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
+ 	  </div>
+	  <div class="pieceMeta" v-if="this.bibl_data[ppm.pieceId]">
+	    <div class="pieceSection" v-if="this.bibl_data[ppm.pieceId].sectionId">{{this.bibl_data[this.bibl_data[ppm.pieceId].sectionId].sectionMeta.sectionTitle}}</div>
+	    <div class="pieceTitle" @click="goToPiece">{{this.bibl_data[ppm.pieceId].pieceMeta.pieceTitle}}</div>
+	    <div class="pieceAuthorShip">{{this.ppm.authorShip}}</div>
+	    <div class="personPiecePseudo" v-if="this.ppm.personPiecePseudo">{{this.ppm.personPiecePseudo}}</div>
+	    <div class="personPieceRole">{{this.ppm.personPieceRole}}</div>
+          </div>
+        </div>
+	`,
+    props: ['personBibl'],
+    created(){
+	ppm_url = '/api/broadwayjournal/' + this.personBibl.issueId + '/ppm';
+	axios.get(ppm_url).then(response => this.ppm = response.data[this.personBibl.personPieceMetaId]);
+
+	bibl_url = '/api/broadwayjournal/' + this.personBibl.issueId + '/bibl_data';
+	axios.get(bibl_url).then(response => this.bibl_data = response.data);
+    },
+    data(){
+	return {
+	    ppm: {},
+	    bibl_data: {}
+	}
+    },
+    methods: {
+	goToPiece: function () {
+	    this.$root.state.content.issue.id = this.ppm.issueId
+	    this.$root.state.content.issue.decls_id = this.ppm.pieceId
+	    this.$root.state.content.issue.page = parseInt(this.bibl_data[this.ppm.pieceId].pieceMeta.piecePdfIndex)
+
+	    Event.$emit('activeContentChange', 'issues')
+	    Event.$emit('issueBiblSelected', {
+		issueId: this.ppm.issueId,
+		pdf_index: this.bibl_data[this.ppm.pieceId].pieceMeta.piecePdfIndex,
+		decls_id: this.ppm.pieceId
+	    })
+	}
+    }
+})
+
+Vue.component('searchResults',{
+    template: `
+	<div class="searchResults">___________SEARCH RESULTS____________
+          <searchResult></searchResult> ...
+        </div>
+	
+    `
+})
+
+Vue.component('searchResult',{
+    props: ['issueId', 'pieceId'],
+    methods: {
+	resultClicked: function(){
+	    console.log('resultClicked ' + this.issueId + this.pieceId)
+	}
+    },
+    template: `
+	<div class="searchResult">___________SEARCH RESULT____________
+	<div class="context"></div>
+	<div class="pieceTitle" @click="resultClicked">Click me</div>
+	</div>
+    `
+})
+
+Vue.component('issueViewer',{
+    template: `
+	<div class="viewer">
+	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
+	  <tei-markup v-if="viewer == 'tei'"></tei-markup>
+	</div>
+	`,
+        data() {
+	return {
+	    viewer: this.$root.state.content.issue.viewer,
+	}
+    },
+    created() {
+	Event.$on('viewerSelected', (viewer) => {
+	    this.viewer = viewer
+	})
+    },
+})
+
+Vue.component('issue',{
+    template: `
+    <div class="issue">
+	<interIssueNav></interIssueNav>
+	<viewerSelector></viewerSelector>
+	<issueHeader></issueHeader>
+	<issueViewer></issueViewer>
+    </div>
+	`,
+})
+
+Vue.component('issueHeader', {
+    data() {
+	return {
+	    bibl_data: false,
+	    ppm: '',
+	    biblId: 's1',
+	}
+    },
+    created() {
+	Event.$on('tei-biblChanged', (bibl_obj) => {
+	    ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
+	    axios.get(ppm_url).then(response => this.ppm = response.data);
+	    this.biblId = bibl_obj.decls_id
+	})
+	Event.$on('issueSelected', (id) => {
+	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+	    this.biblId = this.firstSection()
+	})
+	Event.$on('issueBiblSelected', (bibl) => {
+	    bibl_url = '/api/broadwayjournal/' + bibl.issueId + '/bibl_data';
+	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+
+	    ppm_url = '/api/broadwayjournal/' + bibl.issueId + '/ppm';
+	    axios.get(ppm_url).then(response => this.ppm = response.data);
+	    this.biblId = bibl.decls_id
+	})
+	this.biblId = this.$root.state.content.issue.decls_id
+	this.setPpm()
+	this.setBiblData()
+    },
+    template: `
+	<div class="issueHeader" v-if="this.bibl_data">
+	  <div class="bibl">
+  	    <div class="issueMeta" v-if="this.bibl_data.issueMeta">
+	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
+	      <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
+	      <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
+	    </div>
+	  </div>
+	  <div class="sectionMeta">
+            <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
+          </div>
+	  <div class="pieceMeta" v-if="this.bibl_data[this.biblId]">
+            <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
+	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
+	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
+	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
+          </div>
+    	<a v-bind:href='stateHref()' download>Download {{this.dlLabel()}}</a>
+	</div>
+	`,
+    methods: {
+	dlLabel: function(){
+    	    if(this.$root.state.content.issue.viewer == 'pdf'){
+    		return 'PDF'
+    	    }
+    	    else{
+    		return 'TEI'
+    	    }
+    	},
+	firstSection: function (){
+	    return 's1'
 	},
-	methods: {
-		setView: function() { this.$parent.$children[4].whichview = this.whichview; },
+	setBiblData: function (){
+	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
 	},
-	template: `
-				<div class='controlBar'  @click='setView()'>
-					<control-button class="teiToggle">TEI</control-button>
-					<control-button class="pdfToggle">PDF</control-button>
-					<control-button class="txtToggle">TXT</control-button>
-				</div>
-			`
+	setPpm: function (){
+	    ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
+	    axios.get(ppm_url).then(response => this.ppm = response.data);
+	},
+	pieceMeta: function (attribute){
+	    if(this.bibl_data[this.biblId].sectionMeta){
+		return ''
+	    }
+	    return this.bibl_data[this.biblId].pieceMeta[attribute]
+	},
+	authorMeta: function (attribute){
+	    if(!this.bibl_data[this.biblId].pieceMeta){
+		return
+	    }
+	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
+	    ppm = this.ppm[ppmId]
+	    return ppm[attribute]
+	},
+	stateHref:function(){
+	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
+	    let format = this.$root.state.content.issue.viewer
+	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
+	},
+	sectionTitle: function(biblId) {
+	    bibl = this.bibl_data[biblId]
+
+	    if(this.biblIsSection(biblId)){
+		return bibl.sectionMeta.sectionTitle
+		
+	    }else if(this.biblBelongsToSection(biblId)){
+		return this.bibl_data[bibl.sectionId].sectionMeta.sectionTitle
+	    }else{
+		return ''
+	    }
+	},
+	biblIsSection: function(biblId) {
+	    if(this.bibl_data[biblId].sectionMeta){
+		return true
+	    }
+	    return false
+	},
+	biblBelongsToSection: function(biblId) {
+	    if(this.bibl_data[biblId].sectionId){
+		return true
+	    }
+	    return false
+	}
+    },
+    mounted() {
+//	Event.$emit('issueSelected', this.$root.state.content.issue.id)
+    }
+})
+
+Vue.component('logo', {
+    template: `
+	<div class="logo" v-if="this.$root.state.active != 'issue'">
+	  <div class="logoThe">The</div>
+	  <div class="logoBroadway">Broadway</div>
+	  <div class="logoJournal">Journal</div>
+	  <div class="logoSubtitle">A Digital Edition</div>
+	</div>
+    `
+})
+
+Vue.component('abouts',{
+    template: `
+
+      <div class="abouts">
+
+        <logo></logo>
+	<div @click="selectMe('about')">About</div>
+	<div @click="selectMe('tech')">Technical</div>
+	<div @click="selectMe('credit')">Credits</div>
+	<div v-if="this.abouts == 'about'">
+	
+	        {{ aboutText[0] }}
+	        <br/>
+	        {{ aboutText[1] }}
+        </div>
+	      <div v-if="this.abouts == 'tech'">
+	        <li v-for="each in techText"  v-text="each"></li>
+	      </div>
+	      <div v-if="this.abouts == 'credit'">
+	        <li v-for="each in creditText" v-text="each"></li>
+	      </div>
+	    </div>
+	`,
+    data() {
+	return {
+	    abouts: this.$root.state.content.abouts,
+	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
+	    creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
+	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
+	}
+    },
+    methods: {
+    	selectMe: function(about) {
+	    this.abouts = about;
+	    Event.$emit('aboutsSelected', this.abouts);
+	}
+    }
+})
+
+
+Vue.component('viewerSelector',{
+    created(){
+    	Event.$on('viewerSelected', (viewer) =>{
+    		if(viewer == 'tei'){
+    			this.$children[0].active=true;
+    			this.$children[1].active=false;
+    		}
+    		else{
+    			this.$children[0].active=false;
+    			this.$children[1].active=true;
+    		}	
+    	})
+
+    },
+    template: `
+	<div class='viewerSelector'>
+	<viewerSelectorButton  kind="tei">Text</viewerSelectorButton>
+	<span>&nbsp;|&nbsp; </span>
+	<viewerSelectorButton kind='pdf'>PDF</viewerSelectorButton>
+	</div>
+	`
 });
 
-
-Vue.component('title-bar',{
-	mounted() {console.log(this.$root.iframethis)},
-	computed:{frame: function(){return this.$root.iframethis}},
-	template: `
-			<div class="titleBar">
-				<a v-bind:href="frame" class="sizeToggle">{{this.$root.iframethis}}</a>
-			</div>
-			`
-});
-
-Vue.component('main-window',{
-	data() {return {source:'',
-					topMenuActives: [true,false,false],
-					aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-					creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
-					techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
-					whichview: ''
-				}
-			},
-	props: {src:this.source},
-	template: `
-	 		<div class="mainWindow">
-	 			<img src="/images/logo.png"></img>
-				<div class="logoSubtitle">The Broadway Journal</div>
-	 			<div class="mainCenter">
-	 			<div class="logoTitle">
-				<div class="logoThe">The</div> <div class="logoBroadway">Broadway</div> <div class="logoJournal">Journal</div>
-				<div class="logoSubtitle">A Digital Augmented Edition</div>
-				</div>
-
-				<div class="hrMain"></div>
-					
-				<top-menu></top-menu>
-
-				<div v-if="topMenuActives[0]">
-					{{ aboutText[0] }}
-					<br><br>
-					{{ aboutText[1] }}
-				</div>
-				
-				<div class="authorsButton">Authors</div>
-				
-
-				<div v-if="topMenuActives[1]">
-					<li v-for="each in techText"  v-text="each"></li>
-				</div>
-
-				<div v-if="topMenuActives[2]">
-					<li v-for="each in creditText" v-text="each"></li>
-				</div>
-						
-	 			
-	 			<div class="mainInner">
-					<div id="tei" v-if="whichview=='TEI'">___Hello TEI frame____				
-						<issue-toc class="navigationIssue" :src=this.$root.iframethis>Table of Contents</issue-toc>
-						<tei-markup :src=this.$root.iframethis></tei-markup>
-						<iframe  :src=this.$root.iframethis></iframe>
-					</div>
-
-					<div id="pdf" v-if="whichview=='PDF' ">___hello PDF canvas____
-						<canvas></canvas>
-					</div>
-
-				</div>
-			</div>
-			`
-});
-
-Vue.component('issue-toc',{
+Vue.component('viewerSelectorButton',{
 	data(){
-		return { tocContent:[], tocPath:'', tocActive:false }
+	    return {
+		active: false,
+	    }
 	},
-	props: {src:''},
+	props: ['kind'],
 	methods: {
-		tocPathCalc: function(){
-			this.tocPath= this.src + '/toc'; //slice(18)
-			axios.get(this.tocPath).then(response => this.tocContent = response.data);
-			this.tocActive=true;
-		}
+	    viewerSelected: (viewer) => {
+		Event.$emit('viewerSelected', viewer);  	
+	    }
+	    
+	},
+    template: `<span v-bind:class="[{toggled: active}, kind]"  @click="viewerSelected(kind)"><slot></slot></span>`
+})
+
+
+Vue.component('intraIssueNav',{
+	data(){
+		return { issueID:'', tocContent:[]
+	    }
+	},
+	created() {
+		Event.$on('issueSelected', (id) => {
+			this.issueID = id;
+			url= '/api/broadwayjournal/' + this.issueID + '/toc';
+			axios.get(url).then(response => this.tocContent = response.data);
+		})
+	},
+	template:`
+	<div class='intraIssueNav'>
+          <div class='tocDropdown'>Table of Contents</div>
+          <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
+        </div>
+			`
+})
+
+Vue.component('toc-item',{
+	 data(){
+	 	return { toggled:false} 
 	 },
+	 props:['id'],
+	 methods:{
+	    showChildren: function(){
+		if(this.toggled==false){
+		    //turn on this.$children
+		    for (each in this.$children){
+			this.$children[each].meSeen=true;
+			this.toggled=true;
+		    }
+		    //turn off everyone else's children
+		    for(one in this.$parent.$children){
+			//create new check for toc
+
+			if (this.$parent.$children[one].id != this.id){
+			    for(two in this.$parent.$children[one].$children){
+				this.$parent.$children[one].$children[two].meSeen=false;
+				//remove activeMonth from everyone else
+				this.$parent.$children[one].toggled=false;
+			    }							}
+			}
+		    }
+		    else{
+			//turn off this.children
+			for (each in this.$children){
+					this.$children[each].meSeen=false;
+					this.toggled=false;
+					}
+			}
+		},
+	     tocItemSelected: function() {
+		 this.showChildren();
+		 if(this.id.pdf_index >= 1){
+		     Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index))
+		 }
+		 page = 1;
+		 if(this.id.pieces){
+		     for(key in this.id.pieces){
+			 page = parseInt(this.id.pieces[key].pdf_index);
+			 Event.$emit("pdf-pageChange",parseInt(this.id.pieces[key].pdf_index))
+			 break
+		     }
+		 }
+		 if(this.id.decls_id){
+		     if(!this.id.pdf_index){
+			 this.id.pdf_index = page;
+		     }
+		     Event.$emit("tei-biblChanged", this.id)
+		 }
+	     }
+	},
 	 template:`
-	<div>
-	 	<div v-if='tocActive' v-for="heading in this.tocContent" v-text='heading'></div>
-	 	<div class="issueToc" @click='tocPathCalc()'>Click for TOC</div>
-	 </div>
+		<div class="tocItem" v-bind:class='id.type'>
+	    	<div class='tocToggle' @click='tocItemSelected'>
+            	<div class="tocTitle">{{id.title}}</div>
+            	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
+            	<div v-if='id.start' class="pageNumber"></div>
+	    	</div>
+	    	<child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
+
+        </div>
 	 `
 });
 
-Vue.component('tei-markup',{
+
+Vue.component('child-piece',{
 	data(){
-		return{
-			page:1,
-			markdown:[]
+		return { meSeen:false }
+	},
+	props:['id','pieceIndex'],
+	 methods:{
+		tocItemSelected: function() {
+		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
+		    Event.$emit("tei-biblChanged", this.id)
 		}
 	},
-	props: {src:''},
-	mounted() {
-		//axios.get(this.src).then(response => this.markdown = response.data);
-	 },
-	template: `<div class='teiMarkup'>pageNum:{{page}}<div>`
+	template:`
+		<div v-if="meSeen" class="childPiece" @click='tocItemSelected'>
+			<div class="childPieceTitle">{{id.title}}</div>
+            <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
+		<div>
+	`
+
+})
+
+Vue.component('zoom-slider',{
+	data(){
+		return{ 
+			zoomLevel: 1.3
+		}
+	},
+	methods:{
+		zoomUpdate: function(){
+			Event.$emit('zoomUpdate', this.zoomLevel,this.$root.state.issue.page)
+	}
+
+	},
+	template:`<input class='zoom' id='zoomSlider' min='0' max='2.0' step='0.1' v-model="zoomLevel" @change='zoomUpdate(this.zoomLevel)' type='range'></input>`
+})
+
+Vue.component('pdf-viewer',{
+    created(){
+	Event.$on('zoomUpdate',(level,page)=>{
+    	    this.scale = level;
+    	    this.loadPdf(this.current_issue, page,this.scale);
+	}),
+	Event.$on('nextPage', (page) => {
+	    this.current_page += 1;
+	    this.loadPdf(this.current_issue, this.current_page);
+	}),
+	Event.$on('issueSelected', (id) => {
+	//    this.current_page = 1;
+	    this.current_issue = id;
+	    this.loadPdf(this.current_issue, this.current_page);
+	}),
+	Event.$on('pdf-pageChange', (page) => {
+	    this.loadPdf(this.current_issue, page);
+	})
+	Event.$on('issueBiblSelected', (bibl) => {
+	    this.current_issue = bibl.issueId
+	    this.current_page = bibl.pdf_index
+//	    this.loadPdf(this.current_issue, bibl.pdf_index);
+	})
+    },
+    data() {
+	return {
+	    scale: 1.3,
+	    current_page: this.$root.state.content.issue.page,
+	    current_issue: this.$root.state.content.issue.id
+	}
+    },
+    mounted(){
+	this.loadPdf(this.current_issue, this.current_page, this.scale);
+    },
+    template: `
+      <div id="pdf-viewer" class="pdf-viewer">
+	<button class="next-page" @click="changePage('prev')">Prev Page</button>
+	<zoom-slider></zoom-slider>
+	<button class="next-page" @click="changePage('next')">Next Page</button>
+	<canvas id="pdf" class="pdf-canvas"></canvas>
+      </div>
+	`,
+    methods: {
+    // reload: function(scale = this.scale){
+    // 	page.getViewport(scale);
+    // },
+	changePage: function (direction) {
+	    page = this.$root.state.content.issue.page;
+	    switch (direction) {
+	        case 'next':
+		    page += 1;
+		    break;
+	        case 'prev':
+		    page -= 1;
+		    break;
+	    default:
+		page = 1;
+	    }
+	    page = page <= 1 ? 1 : page;
+	    Event.$emit('pdf-pageChange', page);
+	},
+	loadPdf: function(issue, page = 1, scale = 1.3) { 
+	// If absolute URL from the remote server is provided, configure the CORS
+	// header on that server.
+	    if(this.$root.state.content.issue.viewer == 'tei'){
+		return;
+	    }
+	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
+	//console.log('$pdf');
+
+	// var pdfData = atob($pdf);
+
+	// Disable workers to avoid yet another cross-origin issue (workers need
+	// the URL of the script to be loaded, and dynamically loading a cross-origin
+	// script does not work).
+	// PDFJS.disableWorker = true;
+
+	// The workerSrc property shall be specified.
+	PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+
+	// Asynchronous download of PDF
+	var loadingTask = PDFJS.getDocument(url);
+	loadingTask.promise.then(function(pdf) {
+	    //console.log('PDF loaded');
+	    if(page > pdf.pdfInfo.numPages){
+		return;
+	    }
+	    // Fetch the first page
+	    var pageNumber = parseInt(page);
+	    pdf.getPage(pageNumber).then(function(page) {
+		//console.log('Page loaded');
+		//scale = 1.3
+		
+		var viewport = page.getViewport(scale);
+
+		// Prepare canvas using PDF page dimensions
+		var canvas = document.getElementById('pdf');
+		var context = canvas.getContext('2d');
+		canvas.height = 1014//viewport.height;
+		canvas.width = 735// viewport.width;
+
+		// Render PDF page into canvas context
+		var renderContext = {
+		    canvasContext: context,
+		    viewport: viewport
+		};
+		var renderTask = page.render(renderContext);
+		renderTask.then(function () {
+		    //console.log('Page rendered');
+		});
+	    });
+	}, function (reason) {
+	    // PDF loading error
+	    console.error(reason);
+	});
+	},
+    }
+})
+
+Vue.component('tei-markup',{
+    created(){
+	Event.$on('issueSelected', (id) => {
+	    this.id = id;
+	    this.getText();
+	}),
+	Event.$on("tei-biblChanged", (bibl) => {
+	    this.biblId = bibl.decls_id;
+	    this.getText(this.biblId);
+	})
+	Event.$on('issueBiblSelected', (bibl) => {
+	    this.biblId = bibl.decls_id
+	    this.id = bibl.issueId
+	    this.getText(this.biblId);
+	})
+	this.id = this.$root.state.content.issue.id
+	this.biblId = this.$root.state.content.issue.decls_id
+	this.page = this.$root.state.content.issue.page
+	this.getText()
+    },
+    methods: {
+	getText: function(){
+	    if(this.biblId){
+		url = '/api/broadwayjournal/'+ this.id + '/piece-text/' + this.biblId;
+		axios.get(url).then(response => this.issueText = response.data);
+	    }else {
+		url = '/api/broadwayjournal/'+ this.id + '/issue-text';
+		axios.get(url).then(response => this.issueText = response.data);
+	    }
+	},
+	getTocEntry: function(issueId, itemId){
+
+	    url = '/api/broadwayjournal/' + issueId + '/toc';
+            axios.get(url).then((response) => {
+		bibl = response.data
+		for (item in bibl.toc){
+		    if(item == itemId){
+			this.biblData = bibl.toc[item]
+			return
+		    }
+		    if(bibl.toc[item].pieces){
+			for (piece in bibl.toc[item].pieces){
+			    if(piece == itemId){
+				this.biblData = bibl.toc[item].pieces.piece
+				return
+			    }
+			}
+		    }
+		}
+	    });
+	}
+    },
+    mounted() {
+
+
+    },
+	data(){
+	    return{
+		id: '',
+		page:'',
+		markdown:[],
+		issueText: '',
+		biblId: '',
+		biblData: {},
+	    }
+	},
+    template: `
+      <div class='tei-markup'>
+	<div class='teiMarkup' v-html="this.issueText"><div>
+      </div>
+	`
 })
 
 Vue.component('issue-month',{
 	data(){
-		return { toggled: false,
-			issues: this.$parent.$root.paths[this.list]
-		}
+	    return {
+		toggled: false,
+		monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
+	    }
 	},
-	props: {month: '',	list: '' },
-	methods: { 
-		showChildren: function(){
-			if(this.toggled==false){
-			//turn on this.$children
-				for (each in this.$children){
-					this.$children[each].meSeen=true;
-					this.toggled=true;
-				}
-			//turn off everyone else's children
-				for(one in this.$parent.$children){
-							if (this.$parent.$children[one].list != this.list){
-								for(two in this.$parent.$children[one].$children){
-								this.$parent.$children[one].$children[two].meSeen=false;
-								//remove activeMonth from everyone else
-								this.$parent.$children[one].toggled=false;
-								 }
-							}
-					}
+	props: {month: '',	list: ''},
+	created(){
+		Event.$on('issueSelected',(id) =>{
+			for(each in this.$children){	
+				if(this.$children[each].id==id){
+	    			this.$children[each].toggled=true;
+	    		}else{this.$children[each].toggled=false;}
 			}
-			else{
-				//turn off this.children
-				for (each in this.$children){
+		})
+	},
+	methods: {
+	    showChildren: function(){
+		if(this.toggled==false){
+		    //turn on this.$children
+		    for (each in this.$children){
+			this.$children[each].meSeen=true;
+			this.toggled=true;
+		    }
+		    //turn off everyone else's children
+		    for(one in this.$parent.$children){
+			if (this.$parent.$children[one].list != this.list){
+			    for(two in this.$parent.$children[one].$children){
+				this.$parent.$children[one].$children[two].meSeen=false;
+				//remove activeMonth from everyone else
+				this.$parent.$children[one].toggled=false;
+			    }							}
+			}
+		    }
+		    else{
+			//turn off this.children
+			for (each in this.$children){
 					this.$children[each].meSeen=false;
 					this.toggled=false;
 					}
@@ -210,226 +842,244 @@ Vue.component('issue-month',{
 						<div class="singleText" >{{this.month}}</div>
 						<div class="indicatorIndex"></div>
 					</div>
-					<index-child :href="each" v-for="each in this.issues" ></index-child>
+					<index-child :id="each" v-for="each in this.list"></index-child>
 				</div>`
 });
 
 Vue.component('index-child',{
-	data() {
-		return { meSeen:false }
-	},
-	props: ['href'],
-	methods: { fillIframe: function(){ 
-					this.$root.iframethis = this.href; 
-					this.$root.$children[0].whichview='TEI';
-					this.$root.$children[0].setView();
-					this.$root.$children[0].$children[0].selectMe();
-					this.$root.$children[1].$children[0].tocActive=true;
-				}
-	},
-	template:	`<div v-if="meSeen" @click="fillIframe()" class="childIndex">
-					<div class="childText" v-text="this.href.slice(-2)"></div>
-				</div>`
+    data() {
+	return { meSeen:false,toggled:false }
+    },
+    props: ['id'],
+    methods: {
+	selectIssue: function(id){
+	    Event.$emit('issueSelected', id);
+	}
+    },
+    template: `
+	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
+	  <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
+	</div>`
 });
 
-Vue.component('issue-bar',{
-	 data(){
-	 	return {months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
-	 			lists: ['childrenJan45','childrenFeb45','childrenMar45','childrenApr45','childrenMay45','childrenJun45','childrenJul45','childrenAug45','childrenSep45','childrenOct45','childrenNov45','childrenDec45','childrenJan46']
-		 }
-	 },
+Vue.component('interIssueNav',{
+    data(){
+	return {
+	    months:['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],
+	    hasData: this.$root.journals ? true : false
+	}
+    },
+    methods:{
+	lookupMonth: function(month){
+	    monthConvert = {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'}
+	    return monthConvert[month]
+	},
+	lookup: function(month, year){
+	    intMonth = this.lookupMonth(month);
+	    ret = []
+	    for(j in this.$root.journals){
+		tmp = this.$root.journals[j]
+		if(tmp.month == intMonth && tmp.year == year){
+		    ret.push(tmp.id)
+		}
+	    }
+	    return ret
+	}
+    },
 	template: `
-		<div class="issueBar">
+		<div v-if="hasData" class="interIssueNav">
 			<div class="issueMask"></div>
 				<div class="issueIndex">
-					<div class="singleIndex" href="">
+					<div class="singleIndex">
 						<div class="yearText">1845</div>
 						<div class="indicatorYear"></div>
 					</div>
-					<issue-month  :month='months[0]' :list='lists[0]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[1]' :list='lists[1]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[2]' :list='lists[2]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[3]' :list='lists[3]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[4]' :list='lists[4]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[5]' :list='lists[5]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[6]' :list='lists[6]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[7]' :list='lists[7]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[8]' :list='lists[8]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[9]' :list='lists[9]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[10]' :list='lists[10]' class="singleIndex"></issue-month>
-					<issue-month  :month='months[11]' :list='lists[11]' class="singleIndex"></issue-month>
+	<issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" :month="month"></issue-month>
 				</div>
 				<div class="issueIndex">
-					<div class="singleIndex" href="">
+					<div class="singleIndex">
 						<div class="yearText">1846</div>
 						<div class="indicatorYear"></div>
-				</div>
-				<issue-month :month='months[0]' :list='lists[12]' class="singleIndex"></issue-month>
+	</div>
+	<issue-month :month='this.months[0]' :list='lookup("JAN","1846")' class="singleIndex"></issue-month>
 			</div>
-		</div>
+	<intraIssueNav></intraIssueNav>	
+    </div>
 		`
 });
 
+Vue.component('author-modal',{
+		computed: {mentions: function(){'10'
+		return Math.floor(Math.random(1,100)*10);
+		},
+		contribs: function(){'10'
+		return Math.floor(Math.random(1,100)*10);
+		}
 
-Vue.component('author-section',{
-	data(){
-		return {
-			personography:[],
-			chosen: ''
+	},
+	methods:{
+		closeModal: function(){
+			this.$parent.modalActive=false;
+
 		}
 	},
-	mounted() {
-		axios.get('/api/personography/summary/json').then(response => this.personography = response.data);
-	 },
+	props:['authInfo','authID'],
 	template: `
-				<div class="authorSection">
-					<div class="authorIntro"></div>
-					<div class="authorHeader">
-		                	        <div class="inBorder"></div>
-                		        	<div class="inText"><span class="swash">A</span>uthors</div>
-		                        	<div class="inBorder"></div>
-                	        	</div>
-					<div class="authorLedgend"></div>
-					<div class="authorDirectory">
-						<author-node v-for="(each,index) in personography" :authInfo="personography[index]" :authID='index'></author-node>
-					</div>
-					<author-card  :authID='chosen' :authInfo="personography[chosen]"></author-card>
-				</div>
-	`
+
+		<transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">  
+
+			<div class="modalContent">
+			<div   v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
+			<div v-if='this.$parent.chosen.length  && this.authInfo.totalMentions'  class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>
+			<div v-if='this.$parent.chosen.length  && this.authInfo.totalContribs' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>
+						<div @click='closeModal()' class="closeModal">Close</button>
+
+			</div>
+		</div>
+					</transition>
+
+			`
 })
 
 Vue.component('author-node',{
-	methods:{	
-		choose: function(childAuthID){
-			this.$parent.chosen=this.authID;
-			this.$parent.cardActive=true;
+	methods:{
+		modalClick: function(data){
+		    this.$parent.chosen=this.authID;
+		    this.$parent.modalActive=true;
+		},
+		cardHover: function(data){
+		    this.$parent.chosen=this.authID;
 		}
 	},
 	computed:{ authHref: function() {var path = 'author-' + this.authID; return path}
 	},
 	props: ['authInfo','authID'],
 	template: `
-				<div class="node"><a v-bind:class="this.authInfo['role']" v-bind:href="authHref"  @click='choose(authID)'>{{this.authInfo['init']}}</a></div>
+		<div class="node" @click='modalClick(authID)' @mouseover='cardHover(authID)'>
+			<div v-bind:class="this.authInfo['role']" v-bind:href="authHref" >{{this.authInfo['init']}}</div>
+		</div>
 	`
 })
 
-Vue.component('author-card',{
+Vue.component('author-preview',{
 	props: ['authID','authInfo'],
 	template: `
-				<div class="authorCard">
-					<div  v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}<div>
-				</div>
+		<div class="authorCard">
+			<transition name="fade">
+			<div  v-if='this.$parent.chosen.length'>{{this.authInfo.name}}</div>
+			</transition>
+		</div>
 	`
 })
 
 Vue.component('footer-bar',{
-	template: `<div>
-					<div class="issueFooter"></div>
-					<div class="footerBar">
-					<img src="/images/cc_logo.png" class="ccLogo"></img> 
-					<div class="ccText">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <br>Contact the <a href="mailto:dsl@lsu.edu" target="_blank">Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div>
-				</div>`
-});
-
-//window.Event = new Vue();
-
-new Vue({
-	el:'#container',
-	data: {	
-			journals:[],
-			iframethis: '',
-			paths: {'childrenJan45': ['http://52.40.88.89/broadwayjournal/issue/1845/01/04', 'http://52.40.88.89/broadwayjournal/issue/1845/01/11', 'http://52.40.88.89/broadwayjournal/issue/1845/01/18', 'http://52.40.88.89/broadwayjournal/issue/1845/01/25'],
-			'childrenFeb45': ['http://52.40.88.89/broadwayjournal/issue/1845/02/01', 'http://52.40.88.89/broadwayjournal/issue/1845/02/08', 'http://52.40.88.89/broadwayjournal/issue/1845/02/15', 'http://52.40.88.89/broadwayjournal/issue/1845/02/22'],
-			'childrenMar45': ['http://52.40.88.89/broadwayjournal/issue/1845/03/01', 'http://52.40.88.89/broadwayjournal/issue/1845/03/08', 'http://52.40.88.89/broadwayjournal/issue/1845/03/15', 'http://52.40.88.89/broadwayjournal/issue/1845/03/22', 'http://52.40.88.89/broadwayjournal/issue/1845/03/29'],
-			'childrenApr45': ['http://52.40.88.89/broadwayjournal/issue/1845/04/05', 'http://52.40.88.89/broadwayjournal/issue/1845/04/12', 'http://52.40.88.89/broadwayjournal/issue/1845/04/19', 'http://52.40.88.89/broadwayjournal/issue/1845/04/26'],
-			'childrenMay45': ['http://52.40.88.89/broadwayjournal/issue/1845/05/03', 'http://52.40.88.89/broadwayjournal/issue/1845/05/10', 'http://52.40.88.89/broadwayjournal/issue/1845/05/17', 'http://52.40.88.89/broadwayjournal/issue/1845/05/24', 'http://52.40.88.89/broadwayjournal/issue/1845/05/31'],
-			'childrenJun45': ['http://52.40.88.89/broadwayjournal/issue/1845/06/07', 'http://52.40.88.89/broadwayjournal/issue/1845/06/14', 'http://52.40.88.89/broadwayjournal/issue/1845/06/21', 'http://52.40.88.89/broadwayjournal/issue/1845/06/28'],
-			'childrenJul45': ['http://52.40.88.89/broadwayjournal/issue/1845/07/12', 'http://52.40.88.89/broadwayjournal/issue/1845/07/19', 'http://52.40.88.89/broadwayjournal/issue/1845/07/26'],
-			'childrenAug45': ['http://52.40.88.89/broadwayjournal/issue/1845/08/02', 'http://52.40.88.89/broadwayjournal/issue/1845/08/09', 'http://52.40.88.89/broadwayjournal/issue/1845/08/16', 'http://52.40.88.89/broadwayjournal/issue/1845/08/23', 'http://52.40.88.89/broadwayjournal/issue/1845/08/30'],
-			'childrenSep45': ['http://52.40.88.89/broadwayjournal/issue/1845/09/06', 'http://52.40.88.89/broadwayjournal/issue/1845/09/13', 'http://52.40.88.89/broadwayjournal/issue/1845/09/20', 'http://52.40.88.89/broadwayjournal/issue/1845/09/27'],
-			'childrenOct45': ['http://52.40.88.89/broadwayjournal/issue/1845/10/04', 'http://52.40.88.89/broadwayjournal/issue/1845/10/11', 'http://52.40.88.89/broadwayjournal/issue/1845/10/18', 'http://52.40.88.89/broadwayjournal/issue/1845/10/25'],
-			'childrenNov45': ['http://52.40.88.89/broadwayjournal/issue/1845/11/01', 'http://52.40.88.89/broadwayjournal/issue/1845/11/08', 'http://52.40.88.89/broadwayjournal/issue/1845/11/15', 'http://52.40.88.89/broadwayjournal/issue/1845/11/22', 'http://52.40.88.89/broadwayjournal/issue/1845/11/29'],
-			'childrenDec45': ['http://52.40.88.89/broadwayjournal/issue/1845/12/06', 'http://52.40.88.89/broadwayjournal/issue/1845/12/13', 'http://52.40.88.89/broadwayjournal/issue/1845/12/20', 'http://52.40.88.89/broadwayjournal/issue/1845/12/27'],
-			'childrenJan46': ['http://52.40.88.89/broadwayjournal/issue/1846/01/03']
+	data() {
+		return{
+			fText: ['This work is licensed under a ','Creative Commons Attribution 4.0 International License','. ','Contact the ','Digital Scholarship Lab',' at LSU Libraries with any questions or comments.']
 		}
 	},
-
-    mounted() {
-	// If absolute URL from the remote server is provided, configure the CORS
-// header on that server.
-
-var url = '/storage/BroadwayJournal_18450201.pdf';
-//console.log('$pdf');
-
-// var pdfData = atob($pdf);
-
-// Disable workers to avoid yet another cross-origin issue (workers need
-// the URL of the script to be loaded, and dynamically loading a cross-origin
-// script does not work).
-// PDFJS.disableWorker = true;
-
-// The workerSrc property shall be specified.
-PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
-
-// Asynchronous download of PDF
-var loadingTask = PDFJS.getDocument(url);
-loadingTask.promise.then(function(pdf) {
-  console.log('PDF loaded');
-  
-  // Fetch the first page
-  var pageNumber = 1;
-  pdf.getPage(pageNumber).then(function(page) {
-    console.log('Page loaded');
-    
-    var scale = 1.5;
-    var viewport = page.getViewport(scale);
-
-    // Prepare canvas using PDF page dimensions
-    var canvas = document.getElementById('the-canvas');
-    var context = canvas.getContext('2d');
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    // Render PDF page into canvas context
-    var renderContext = {
-      canvasContext: context,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-    renderTask.then(function () {
-      console.log('Page rendered');
-    });
-  });
-}, function (reason) {
-  // PDF loading error
-  console.error(reason);
+	template: `
+		<div>
+			<div class="issueFooter"></div>
+			<div class="footerBar">
+				<div class="ccText">
+					{{fText[0]}}
+					<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">{{fText[1]}}</a>
+					{{fText[2]}}
+					<br>
+					{{fText[3]}}
+					<a href="mailto:dsl@lsu.edu" target="_blank">{{fText[4]}}</a>
+					{{fText[5]}}
+				</div>
+			</div>
+		</div>`
 });
 
+window.Event = new Vue();
 
-	 		axios.get('/broadwayjournal/issues').then(response => this.journals = response.data);
-	 		this.$children[1].whichview= 'TEI';
+new Vue({
+	el:'#vue-root',
+    methods: {
+	getTocEntry: function(issueId, itemId){
 
-	 		if(	this.$el._prevClass.includes('author-')){
-	 			this.$children[4].chosen = this.$el._prevClass.slice(7)
-	 		}
-	 		if(this.$el._prevClass == 'context-about'){
-	 			this.$children[1].topMenuActives=[true,false,false]
-	 		}
-	 		if(this.$el._prevClass == 'context-technical'){
-	 			this.$children[1].topMenuActives=[false,true,false]
-	 		}
-	 		if(this.$el._prevClass == 'context-credits'){
-	 			this.$children[1].topMenuActives=[false,false,true]
-	 		}
-			if(this.$el._prevClass.includes('issue')){
-	 			this.$children[1].whichview= 'TEI';
-	 			var splits=this.$el._prevClass.split('-');
-	 			var spliced = 'http://52.40.88.89/broadwayjournal/issue/' + '18' + splits[3] + '/' + splits[1] + '/' + splits[2];		
-	 			this.iframethis=spliced
-	 		}
-	 		else{
-	 			this.$children[3].$children[0].showChildren();
-	 		}
-	 	}
+	    url = '/api/broadwayjournal/' + issueId + '/toc';
+            axios.get(url).then((response) => {
+		bibl = response.data
+		for (item in bibl.toc){
+		    if(item == itemId){
+			return bibl.toc[item]
+		    }
+		    if(bibl.toc[item].pieces){
+			for (piece in bibl.toc[item].pieces){
+			    if(piece == itemId){
+				return bibl.toc[item].pieces.piece
+			    }
+			}
+		    }
+		}
+	    });
+	}
+    },
+    data: {
+	journals:[],
+	years: [],
+	state: {
+	    activeContent: 'abouts', // issue| personography | search
+	    content: {
+		abouts: 'about', // technical | credits
+		issue: {
+		    id: '18450104', // yyyy-mm-dd
+		    viewer: 'pdf', // text|pdf
+		    page: 1, // int
+		    decls_id: ''
+		},
+		personography: {
+		    filterString: '', // ie eapoe
+		},
+		searchResults:{
+		    filter:'', // alpha | by date
+		    query: '', //eapoe
+		},
+
+	    },
+	    contrast: 'normal', // high
+	}		
+    },
+    created() {
+	Event.$on('aboutsSelected', (about) => {
+	    this.state.content.abouts = about;
+	})
+	Event.$on('viewerSelected', (viewer) => this.state.content.issue.viewer = viewer)
+	Event.$on('activeContentChange', (content) => this.state.activeContent = content )
+	Event.$on('issueSelected', (id) => {
+	    this.state.content.issue.id = id;
+	    this.state.content.issue.page = 1;
+	})
+	Event.$on('pdf-pageChange', (page) => {
+    	    this.state.content.issue.page = page;
+	})
+	Event.$on('tei-biblChanged', (id) => {
+	    this.state.content.issue.page = parseInt(id.pdf_index)
+	    this.state.content.issue.decls_id = id.decls_id
+	})
+	
+	axios.get('/api/all-issues/json').then((response) => {
+	    this.journals = response.data;
+
+	    for (issue in this.journals){
+		id = this.journals[issue]
+		let iid   = Util.datePartsForIssueId(id);
+		this.journals[issue] = {
+		    'id':id,
+		    'year': iid.year,
+		    'month': iid.month,
+		    'day': iid.day,
+		}
+		if(this.years.indexOf(iid.year) == -1){
+		    this.years.push(iid.year)
+		}
+	    }
+	});
+    },
 });
 

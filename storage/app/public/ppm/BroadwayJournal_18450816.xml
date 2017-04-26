@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personPieceMeta>
+   <ppm-18450816-p1-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p1</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with high certainty.</authorShip>
+   </ppm-18450816-p1-eapoe>
+   <ppm-18450816-p2-fwthomas>
+      <issueId>18450816</issueId>
+      <pieceId>p2</pieceId>
+      <personId>fwthomas</personId>
+      <personName>Frederick William Thomas</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with high certainty.</authorShip>
+   </ppm-18450816-p2-fwthomas>
+   <ppm-18450816-p3-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p3</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPiecePseudo>P.</personPiecePseudo>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p3-eapoe>
+   <ppm-18450816-p4-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p4</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is attested, with high certainty.</authorShip>
+   </ppm-18450816-p4-eapoe>
+   <ppm-18450816-p5-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p5</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p5-eapoe>
+   <ppm-18450816-p6-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p6</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p6-eapoe>
+   <ppm-18450816-p7-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p7</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p7-eapoe>
+   <ppm-18450816-p8-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p8</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p8-eapoe>
+   <ppm-18450816-p9-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p9</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p9-eapoe>
+   <ppm-18450816-p10-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p10</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p10-eapoe>
+   <ppm-18450816-p11-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p11</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p11-eapoe>
+   <ppm-18450816-p12-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p12</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p12-eapoe>
+   <ppm-18450816-p13-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p13</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p13-eapoe>
+   <ppm-18450816-p14-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p14</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p14-eapoe>
+   <ppm-18450816-p15-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p15</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p15-eapoe>
+   <ppm-18450816-p16-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p16</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p16-eapoe>
+   <ppm-18450816-p17-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p17</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p17-eapoe>
+   <ppm-18450816-p18-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p18</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p18-eapoe>
+   <ppm-18450816-p19-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p19</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p19-eapoe>
+   <ppm-18450816-p20-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p20</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p20-eapoe>
+   <ppm-18450816-p21-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p21</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p21-eapoe>
+   <ppm-18450816-p22-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p22</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p22-eapoe>
+   <ppm-18450816-p23-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p23</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p23-eapoe>
+   <ppm-18450816-p24-anon>
+      <issueId>18450816</issueId>
+      <pieceId>p24</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450816-p24-anon>
+   <ppm-18450816-p25-anon>
+      <issueId>18450816</issueId>
+      <pieceId>p25</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450816-p25-anon>
+   <ppm-18450816-p26-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p26</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p26-eapoe>
+   <ppm-18450816-p27-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p27</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p27-eapoe>
+   <ppm-18450816-p28-anon>
+      <issueId>18450816</issueId>
+      <pieceId>p28</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is unknown.</authorShip>
+   </ppm-18450816-p28-anon>
+   <ppm-18450816-p29-hcwatson>
+      <issueId>18450816</issueId>
+      <pieceId>p29</pieceId>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+   </ppm-18450816-p29-hcwatson>
+   <ppm-18450816-p30-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p30</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p30-eapoe>
+   <ppm-18450816-p31-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p31</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p31-eapoe>
+   <ppm-18450816-p32-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p32</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p32-eapoe>
+   <ppm-18450816-p33-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p33</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p33-eapoe>
+   <ppm-18450816-p34-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p34</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p34-eapoe>
+   <ppm-18450816-p35-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p35</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p35-eapoe>
+   <ppm-18450816-p36-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p36</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p36-eapoe>
+   <ppm-18450816-p37-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p37</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p37-eapoe>
+   <ppm-18450816-p38-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p38</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p38-eapoe>
+   <ppm-18450816-p39-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p39</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p39-eapoe>
+   <ppm-18450816-p40-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p40</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p40-eapoe>
+   <ppm-18450816-p41-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p41</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p41-eapoe>
+   <ppm-18450816-p42-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p42</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p42-eapoe>
+   <ppm-18450816-p43-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p43</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+   </ppm-18450816-p43-eapoe>
+   <ppm-18450816-p44-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p44</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p44-eapoe>
+   <ppm-18450816-p45-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p45</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p45-eapoe>
+   <ppm-18450816-p46-eapoe>
+      <issueId>18450816</issueId>
+      <pieceId>p46</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+   </ppm-18450816-p46-eapoe>
+</personPieceMeta>
