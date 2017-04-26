@@ -422,22 +422,27 @@ Vue.component('issueHeader', {
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer" v-if="this.showDrawer">
-	  <personBibl v-if="showBibls" v-for="bibl in authorBibls.personListBibl" :personBibl="bibl"></personBibl>
+	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">Actuate Drawer</div>
+	  <personBibl v-if="showBibls" v-for="bibl in this.authorBibls.personListBibl" :personBibl="bibl"></personBibl>
         </div>
 	`,
     props: ['authorId'],
     created() {
 	axios.get('/api/personography/summary/json').then(response => {
 	    this.personography = response.data
-	    this.authorBibls = this.personography[0][authorId]
+	    this.authorBibls = this.personography.personIndex[0][this.authorId]
+	})
+	Event.$on('issueBiblSelected', (bibl) => {
+	    this.showBibls = false
+	    this.authorBibls = this.personography.personIndex[0][this.authorId]
 	})
 
     },
     data() {
 	return {
 	    personography: {},
-	    authorBibls: {}
+	    authorBibls: {},
+	    showBibls: false
 	}
     }
 })
