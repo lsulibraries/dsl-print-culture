@@ -527,17 +527,27 @@ Vue.component('viewerSelectorButton',{
 
 
 Vue.component('intraIssueNav',{
-	data(){
-		return { issueID:'', tocContent:[]
-	    }
-	},
-	created() {
-		Event.$on('issueSelected', (id) => {
-			this.issueID = id;
-			url= '/api/broadwayjournal/' + this.issueID + '/toc';
-			axios.get(url).then(response => this.tocContent = response.data);
-		})
-	},
+    data(){
+	return {
+	    issueID: this.$root.state.content.issue.id,
+	    tocContent: {}
+	}
+    },
+    created() {
+	this.issueID = this.$root.state.content.issue.id
+	this.setTocContent()
+	
+	Event.$on('issueSelected', (id) => {
+	    this.issueID = id;
+	    this.setTocContent()
+	})
+    },
+    methods: {
+	setTocContent: function () {
+	    url= '/api/broadwayjournal/' + this.issueID + '/toc';
+	    axios.get(url).then(response => this.tocContent = response.data);
+	}
+    },
 	template:`
 	<div class='intraIssueNav'>
           <div class='tocDropdown'>Table of Contents</div>
@@ -1071,11 +1081,11 @@ new Vue({
 	journals:[],
 	years: [],
 	state: {
-	    activeContent: 'abouts', // issue| personography | search
+	    activeContent: 'abouts', // issues | personography | search
 	    content: {
 		abouts: 'about', // technical | credits
 		issue: {
-		    id: '18450104', // yyyy-mm-dd
+		    id: '18450201',//'18450104', // yyyy-mm-dd
 		    viewer: 'pdf', // text|pdf
 		    page: 1, // int
 		    decls_id: ''
