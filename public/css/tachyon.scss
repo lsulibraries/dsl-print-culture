@@ -42,15 +42,98 @@ $primary-accent-color3:  rgba(254, 114, 81, 0.5);
 	transition: all $sec ease;  
 }
 
+
+@mixin flexCenter{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
 body {
 	margin: 0px;
+  font-family: Roboto;
+  font-size: 12px;
 }
 
 .header{
-	 @include transition-duration;
+	 @include flexbox;
+   justify-content: space-between;
+    border-bottom: 1px solid black;   
+}
+
+
+.headerLogo{
+    @include flexCenter;  
 }
 
 .headerLogo img{
 	width: 120px;
     height: auto;
 }
+
+.headerTitle {
+    @include flexCenter;
+    font-size: 12px;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.header button::after{
+  content:'on';
+}
+
+.headerNav{
+    @include flexCenter;
+}
+
+.headerNav div{
+  margin-left: 10px;
+}
+
+input{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contrast, .contrastSwitch {
+  @include flexCenter;
+}
+
+.contrastOn, .contrastOff{
+  text-transform: uppercase;
+  padding: 5px;
+
+}
+
+.contrastSwitch {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 5px;
+    overflow: hidden;    
+}
+
+.contrastOff{
+  background: black;
+  color: white;
+}
+
+/*BEGIN High Contrast Mode*/
+.highContrast{
+
+    .contrastOff{
+      background: white;
+      color: black;
+    }
+
+    .contrastOn{
+    background: black;
+    color: white;
+    }
+
+}
+/*END High Contrast Mode*/  

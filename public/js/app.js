@@ -34,10 +34,16 @@ Vue.component('container', {
 Vue.component('vue-header',{
     template: `
         <div class="header">
-	  <button @click='toggleContrast'>Vis</button>
-          <headerLogo></headerLogo>
-	  <headerNav></headerNav>
-          <headerTitle></headerTitle>
+       		<headerTitle></headerTitle>
+			<div class="contrast" @click='toggleContrast'>
+				<div class="contrastTitle">High Contrast</div>
+					<div class="contrastSwitch">
+						<div class="contrastOff">Off</div>
+						<div class="contrastOn">On</div>				
+					</div>				
+			</div>
+        	<headerLogo></headerLogo>
+	  		<headerNav></headerNav>
         </div>
 	`,
     methods: {
@@ -82,7 +88,7 @@ Vue.component('headerNav',{
 	  <div @click="activeContentClicked('issues')">Explore Issues</div>
 	  <div @click="activeContentClicked('abouts')">About</div>
 	  <div @click="activeContentClicked('personography')">Explore People</div>
-	  <input>Search</input>
+	  <input></input>
 	</div>
 	`
 });
