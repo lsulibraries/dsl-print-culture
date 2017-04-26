@@ -45,7 +45,7 @@ Vue.component('vue-header',{
 					</div>				
 			</div>
 	  		<headerNav></headerNav>
-	  		<div class="searchInput">	  <input></input></div>
+	  		<div class="searchInput">	  <input value="Search"  onfocus="if(this.value == 'Search') { this.value = ''; }" ></input></div>
         </div>
 	`,
     methods: {
@@ -87,16 +87,18 @@ Vue.component('headerNav',{
     },
     template: `
 	<div class='headerNav'>
-	  <div @click="activeContentClicked('issues')">Issues</div>
-	  <div @click="activeContentClicked('abouts')">About</div>
-	  <div @click="activeContentClicked('personography')">People</div>
+	  <div @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
+	  <div @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>
+ About</div>
+	  <div @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>
+People</div>
 	</div>
 	`
 });
 
 Vue.component('headerTitle',{
     template: `
-	<div class="headerTitle">The Broadway Journal</div>
+	<div class="headerTitle">The<br>Broadway<br>Journal</div>
     `
 })
 
