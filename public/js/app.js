@@ -35,7 +35,6 @@ Vue.component('vue-header',{
     template: `
         <div class="header">
         	<headerLogo></headerLogo>
-
        		<headerTitle></headerTitle>
 			<div class="contrast" @click='toggleContrast'>
 				<div class="contrastTitle">High Contrast</div>
@@ -58,9 +57,9 @@ Vue.component('vue-header',{
 
 Vue.component('headerLogo',{
     template: `
-	<div class="headerLogo">
+	<a href="http://lib.lsu.edu"  class="headerLogo"><div>
           <img src="images/libraries_logo.png"></img>
-        </div>
+        </div></a>
     `
 })
 
@@ -98,7 +97,7 @@ People</div>
 
 Vue.component('headerTitle',{
     template: `
-	<div class="headerTitle">The<br>Broadway<br>Journal</div>
+	<a href="." class="headerTitle">The<br>Broadway<br>Journal</a>
     `
 })
 
