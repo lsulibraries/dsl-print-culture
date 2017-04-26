@@ -1,4 +1,7 @@
 declare default element namespace "http://www.tei-c.org/ns/1.0";
+(:declare namespace functx = "http://www.functx.com";:)
+
+
 
 <searchResults>
 
@@ -12,7 +15,7 @@ let $pieceId := substring-after($piece/ancestor::div[@decls][1]/@decls,'#')
     let $pieceTitle := $bibl/title/text()
         
 let $search_string := 'Bishop'
-where fn:contains($piece,$search_string)
+where fn:contains(upper-case($piece),upper-case($search_string))
 return 
     <searchResult>
         <issueMeta>
