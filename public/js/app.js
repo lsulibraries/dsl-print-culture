@@ -34,10 +34,17 @@ Vue.component('container', {
 Vue.component('vue-header',{
     template: `
         <div class="header">
-	  <button @click='toggleContrast'>Vis</button>
-          <headerLogo></headerLogo>
-	  <headerNav></headerNav>
-          <headerTitle></headerTitle>
+        	<headerLogo></headerLogo>
+       		<headerTitle></headerTitle>
+			<div class="contrast" @click='toggleContrast'>
+				<div class="contrastTitle">High Contrast</div>
+					<div class="contrastSwitch">
+						<div class="contrastOff">Off</div>
+						<div class="contrastOn">On</div>				
+					</div>				
+			</div>
+	  		<headerNav></headerNav>
+	  		<div class="searchInput">	  <input value="Search"  onfocus="if(this.value == 'Search') { this.value = ''; }" ></input></div>
         </div>
 	`,
     methods: {
@@ -50,9 +57,9 @@ Vue.component('vue-header',{
 
 Vue.component('headerLogo',{
     template: `
-	<div class="headerLogo">
+	<a href="http://lib.lsu.edu"  class="headerLogo"><div>
           <img src="images/libraries_logo.png"></img>
-        </div>
+        </div></a>
     `
 })
 
@@ -72,19 +79,19 @@ Vue.component('headerNav',{
     },
     template: `
 	<div class='headerNav'>
-	  <div @click="activeContentClicked('issues')">Explore Issues</div>
-	  <div @click="activeContentClicked('abouts')">About</div>
-	  <div @click="activeContentClicked('personography')">Explore People</div>
-	  <div class="issueSearch" v-if="this.showSearch()">
-	    <input>Search all issues</input>
-	  </div>
+
+	  <div @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
+	  <div @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>
+ About</div>
+	  <div @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>
+People</div>
 	</div>
 	`
 });
 
 Vue.component('headerTitle',{
     template: `
-	<div class="headerTitle">The Broadway Journal</div>
+	<a href="." class="headerTitle">The<br>Broadway<br>Journal</a>
     `
 })
 
@@ -452,9 +459,9 @@ Vue.component('abouts',{
       <div class="abouts">
 
         <logo></logo>
-	<div @click="selectMe('about')">About</div>
-	<div @click="selectMe('tech')">Technical</div>
-	<div @click="selectMe('credit')">Credits</div>
+	<div class="about" @click="selectMe('about')">About</div>
+	<div class="technical" @click="selectMe('tech')">Technical</div>
+	<div class="credits"  @click="selectMe('credit')">Credits</div>
 	<div v-if="this.abouts == 'about'">
 	
 	        {{ aboutText[0] }}
