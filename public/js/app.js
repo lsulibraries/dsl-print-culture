@@ -62,19 +62,12 @@ Vue.component('headerNav',{
 	    content: this.$root.state.activeContent
 	}
     },
-    computed:{
-    	dlLabel: function(){
-    	    if(this.$root.state.content.issue.viewer == 'pdf'){
-    		return 'PDF'
-    	    }
-    	    else{
-    		return 'TEI'
-    	    }
-    	}
-    },
     methods: {
 	activeContentClicked: function(content) {
 	    Event.$emit('activeContentChange', content)
+	},
+	showSearch: function () {
+	    return this.$root.state.activeContent == 'issues'
 	}
     },
     template: `
@@ -82,7 +75,9 @@ Vue.component('headerNav',{
 	  <div @click="activeContentClicked('issues')">Explore Issues</div>
 	  <div @click="activeContentClicked('abouts')">About</div>
 	  <div @click="activeContentClicked('personography')">Explore People</div>
-	  <input>Search</input>
+	  <div class="issueSearch" v-if="this.showSearch()">
+	    <input>Search all issues</input>
+	  </div>
 	</div>
 	`
 });
@@ -274,7 +269,6 @@ Vue.component('issue',{
 Vue.component('issueHeader', {
     data() {
 	return {
-	    dlLabel: 'Hello Download',
 	    bibl_data: false,
 	    ppm: '',
 	    biblId: 's1',
@@ -289,6 +283,7 @@ Vue.component('issueHeader', {
 	Event.$on('issueSelected', (id) => {
 	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
 	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+	    this.biblId = this.firstSection()
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    bibl_url = '/api/broadwayjournal/' + bibl.issueId + '/bibl_data';
@@ -320,10 +315,21 @@ Vue.component('issueHeader', {
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
 	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
           </div>
-    	  <a v-bind:href='stateHref()' download>Download {{dlLabel}}</a>
+    	<a v-bind:href='stateHref()' download>Download {{this.dlLabel()}}</a>
 	</div>
 	`,
     methods: {
+	dlLabel: function(){
+    	    if(this.$root.state.content.issue.viewer == 'pdf'){
+    		return 'PDF'
+    	    }
+    	    else{
+    		return 'TEI'
+    	    }
+    	},
+	firstSection: function (){
+	    return 's1'
+	},
 	setBiblData: function (){
 	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
 	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
@@ -345,7 +351,6 @@ Vue.component('issueHeader', {
 	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
 	    ppm = this.ppm[ppmId]
 	    return ppm[attribute]
-
 	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
@@ -730,6 +735,10 @@ Vue.component('tei-markup',{
 	    this.id = bibl.issueId
 	    this.getText(this.biblId);
 	})
+	this.id = this.$root.state.content.issue.id
+	this.biblId = this.$root.state.content.issue.decls_id
+	this.page = this.$root.state.content.issue.page
+	this.getText()
     },
     methods: {
 	getText: function(){
@@ -765,10 +774,6 @@ Vue.component('tei-markup',{
     },
     mounted() {
 
-	this.id = this.$root.state.content.issue.id
-	this.biblId = this.$root.state.content.issue.decls_id
-	this.page = this.$root.state.content.issue.page
-	this.getText()
 
     },
 	data(){
@@ -783,15 +788,6 @@ Vue.component('tei-markup',{
 	},
     template: `
       <div class='tei-markup'>
-        <div v-if="this.biblData" class='citation'>
-        <div class="title">title: {{ this.biblData.title }}</div>
-	<div class="title-type">title type: {{ this.biblData.t_type }}</div>
-	<div class="author-name">author: {{ this.biblData.auth_name }}</div>
-	<div class="author-certainty">author certainty: {{ this.biblData.auth_cert }}</div>
-	<div class="author-status">author status: {{ this.biblData.auth_stat }}</div>
-	<div class="page" v-if="this.biblData.page">page: {{ this.biblData.page }}</div>
-	<div class="page" v-if="this.biblData.pages">pages: {{ this.biblData.pages }}</div>
-        </div>
 	<div class='teiMarkup' v-html="this.issueText"><div>
       </div>
 	`
