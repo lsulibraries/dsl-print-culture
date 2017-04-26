@@ -30,15 +30,17 @@
         <xsl:element name="div">
             <xsl:choose>
                 <xsl:when test="contains(@decls, 's')">
-                    <xsl:attribute name="class">section</xsl:attribute>
-                </xsl:when>
+                    <xsl:attribute name="class">section</xsl:attribute></xsl:when>
                 <xsl:when test="contains(@decls, 'p')">
-                    <xsl:attribute name="class">piece</xsl:attribute>
-                </xsl:when>
+                    <xsl:attribute name="class">piece</xsl:attribute></xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
             <xsl:if test="@decls">
-                <xsl:attribute name="id" select="@decls"/>
+                <xsl:variable name="decls" select="@decls"/>
+                <xsl:attribute name="id" select="$decls"/>
+                <div class="biblTitle">
+                    <xsl:value-of select="//listBibl//bibl[@xml:id eq substring-after($decls,'#')]/title/text()"/>
+                </div>
             </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
