@@ -163,8 +163,8 @@ Vue.component('personFilter', {
 
 Vue.component('person', {
     template: `
-      <div class='person' v-if="this.passesFilter()">
-	<div class="personName" @click="toggleBibls">{{meta.personMeta.personName}}</div>
+      <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="meta.personMeta.personRole">
+	<div class="personName">{{meta.personMeta.personName}}</div>
 	<div class="personRole">{{meta.personMeta.personRole}}</div>
 	<div class="personViaf">{{meta.personMeta.personViaf}}</div>
 	<div class="personListBibl">

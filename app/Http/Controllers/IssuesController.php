@@ -26,6 +26,12 @@ class IssuesController extends Controller
         return response()->json($issues);
     }
 
+    function search($searchString){
+        $cmd = "java -cp /vagrant/saxon9he.jar net.sf.saxon.Query -o:/tmp/results.xml  -q:/var/www/dsl-print-cultur/resources/assets/xsl/string_search.xquery search_string=$searchString";
+        exec($cmd);
+        $xml = simplexml_load_string(file_get_contents('/tmp/results.xml'));
+        return response()->json($xml);
+    }
     
     function download($year, $month, $day, $format){
         $fileFormat = $format == 'tei' ? 'xml' : $format;

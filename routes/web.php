@@ -64,6 +64,8 @@ Route::get('/api/personography/summary/json', 'PersonographyController@summary_j
 
 Route::get('/api/personography/summary', 'PersonographyController@summary');
 
+Route::get('/api/issue/search/{searchString}', 'IssuesController@search');
+
 Route::get('/issue-{month}-{day}-{year}', 'IssuesController@mainWindow');
 
 Route::get('/author-{authID}', 'PersonographyController@authorNav');
