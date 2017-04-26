@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700';
+
+
+$document-color: #eee3cf;
+$background-document-color: #faeee2;
+$background-authors-color: #29303a;
+$primary-accent-color: #fe7251;
+$primary-accent-color-HC: #000000;
+$secondary-accent-color: #322e2b;
+$document-text-color: #666666;
+$document-divide-color: rgba(250, 238, 226, 0.09);
+$document-outer-border: #d0c7be;
+$hr-color: rgba(250, 238, 226, 0.3);
+$primary-accent-color2:  rgba(254, 114, 81, 0.75);
+$primary-accent-color-HC2:  #000000;
+$primary-accent-color-HC3:  #000000;
+$primary-accent-color3:  rgba(254, 114, 81, 0.5);
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin transform($deg){
+    -ms-transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+    transform: rotate($deg);
+}
+
+@mixin transition-duration($sec){
+    -webkit-transition-duration: $sec;
+    transition-duration: $sec;
+}
+
+@mixin transition($sec){
+	-webkit-transition: all $sec ease;
+	-moz-transition: all $sec ease;
+	-ms-transition: all $sec ease; 
+	transition: all $sec ease;  
+}
+
+body {
+	margin: 0px;
+}
+
+.header{
+	 @include transition-duration;
+}
+
+.headerLogo img{
+	width: 120px;
+    height: auto;
+}
