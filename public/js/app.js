@@ -294,9 +294,11 @@ Vue.component('issue',{
     template: `
     <div class="issue">
 	<interIssueNav></interIssueNav>
-	<viewerSelector></viewerSelector>
-	<issueHeader></issueHeader>
-	<issueViewer></issueViewer>
+	<div class="issueBody">
+	  <viewerSelector></viewerSelector>
+	  <issueHeader></issueHeader>
+	  <issueViewer></issueViewer>
+	</div>
     </div>
 	`,
 })
