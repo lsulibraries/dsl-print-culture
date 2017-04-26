@@ -171,13 +171,19 @@ input:focus {
     align-items: center;
 }
 
+.issue{
+  @include flexbox;
+}
+
+
+
 /*BEGIN High Contrast Mode*/
 .highContrast{
 
-.content {
-    background: #29303a;
-    color: white;
-}
+    .content {
+        background: #29303a;
+        color: white;
+    }
 
     .contrastOff{
       background: white;
