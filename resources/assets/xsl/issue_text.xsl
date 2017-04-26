@@ -5,9 +5,11 @@
 
     <xsl:output omit-xml-declaration="yes" method="xhtml" indent="yes" />
 
-    <xsl:template match="/">
-        
+    <xsl:template match="/">    
         <div>
+            <div class="issueId">
+                <xsl:apply-templates select="TEI/teiHeader/fileDesc/publicationStmt/idno"/>
+            </div>
             <div class="front">
                 <xsl:apply-templates select="TEI/text/front"/>
             </div>
@@ -18,22 +20,27 @@
                 <xsl:apply-templates select="TEI/text/back"/>
             </div>
         </div>
-        
     </xsl:template>
 
+    <xsl:template match="TEI/teiHeader/fileDesc/publicationStmt/idno">
+        <xsl:value-of select="."/>
+    </xsl:template>
+    
     <xsl:template match="div" >
         <xsl:element name="div">
             <xsl:choose>
                 <xsl:when test="contains(@decls, 's')">
-                    <xsl:attribute name="class">section</xsl:attribute>
-                </xsl:when>
+                    <xsl:attribute name="class">section</xsl:attribute></xsl:when>
                 <xsl:when test="contains(@decls, 'p')">
-                    <xsl:attribute name="class">piece</xsl:attribute>
-                </xsl:when>
+                    <xsl:attribute name="class">piece</xsl:attribute></xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
             <xsl:if test="@decls">
-                <xsl:attribute name="id" select="@decls"/>
+                <xsl:variable name="decls" select="@decls"/>
+                <xsl:attribute name="id" select="$decls"/>
+                <div class="biblTitle">
+                    <xsl:value-of select="//listBibl//bibl[@xml:id eq substring-after($decls,'#')]/title/text()"/>
+                </div>
             </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
