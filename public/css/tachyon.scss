@@ -309,6 +309,16 @@ input:focus {
     padding-left: 5px;
 }
 
+.issueVol, .issueNum {
+    background: #474747;
+    color: white;
+    padding: 5px;
+    margin-top: 1px;
+    border-radius: 2px;
+    width: 45px;
+    font-size: 0.9em;
+}
+
 /*BEGIN Personograpy*/
 
 .personIndex {
@@ -357,6 +367,24 @@ input:focus {
     font-weight: 800;
     font-size: 0.8em;
     text-transform: uppercase;
+}
+
+.personBibl {
+    @include flexbox;
+    background: #ffffff;
+    color: #474747;
+    margin: 20px -20px -20px -20px;
+    padding: 20px 20px 40px 20px;
+    border-top: 1px dashed #fe7251;
+    align-items: center;
+}
+
+.pieceMeta {
+.pieceTitle {
+    font-size: 1.5em;
+}  
+    margin-left: 7px;
+    line-height: 15px;    
 }
 
 /*BEGIN SEARCH RESULTS*/
