@@ -17,6 +17,8 @@ $primary-accent-color-HC2:  #000000;
 $primary-accent-color-HC3:  #000000;
 $primary-accent-color3:  rgba(254, 114, 81, 0.5);
 
+$dark-border-color: #5c5c5c;
+
 @mixin flexbox {
   display: -webkit-box;
   display: -moz-box;
@@ -161,7 +163,8 @@ input:focus {
 }
 
 .content{
-  padding: 40px;
+    background: $light-border-color;  
+    font-size: 14px;    
 }
 
 .searchInput {
@@ -171,12 +174,38 @@ input:focus {
     align-items: center;
 }
 
+.abouts {
+    padding: 40px;
+}
+
+
 .issue{
   @include flexbox;
 }
 
+.interIssueNav{
+    @include flexbox;
+    position: relative;
+    left: 5px;
+    background: white;
+    top: 5px;
+    padding: 10px;
+    font-weight: 700;
+    flex-wrap: wrap;    
+}
+
+.tocDropdown {
+    font-size: 1.2em;
+}
+
+.tocItem {
+    padding: 5px;
+}
 
 
+.author{
+      font-weight: 500;
+}
 /*BEGIN High Contrast Mode*/
 .highContrast{
 
@@ -194,6 +223,7 @@ input:focus {
     background: $document-text-color;
     color: white;
     }
+
 
 }
 /*END High Contrast Mode*/  

@@ -132,7 +132,8 @@ input:focus {
 }
 
 .content {
-  padding: 40px;
+  background: #e9e9e9;
+  font-size: 14px;
 }
 
 .searchInput {
@@ -142,12 +143,43 @@ input:focus {
   align-items: center;
 }
 
+.abouts {
+  padding: 40px;
+}
+
 .issue {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+}
+
+.interIssueNav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  left: 5px;
+  background: white;
+  top: 5px;
+  padding: 10px;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+
+.tocDropdown {
+  font-size: 1.2em;
+}
+
+.tocItem {
+  padding: 5px;
+}
+
+.author {
+  font-weight: 500;
 }
 
 /*BEGIN High Contrast Mode*/
