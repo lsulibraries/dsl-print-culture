@@ -45,8 +45,8 @@ Vue.component('vue-header',{
 	  </div>
 	  <headerNav></headerNav>
 	  <div class="searchInput">
-	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }"></input>
-	    <button value="search" @click="searchSubmitted"></button>
+	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
+	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,

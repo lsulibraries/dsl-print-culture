@@ -161,6 +161,11 @@ input:focus {
   letter-spacing: -0.4vw;
   line-height: 4.7vw;
   color: #fe7251;
+  padding: 200px 200px 0px 200px;
+}
+
+.about {
+  margin-left: 200px;
 }
 
 .about, .technical, .credits {
@@ -181,6 +186,8 @@ input:focus {
   background: white;
   padding: 20px;
   font-size: 1.5em;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .logoSubtitle {
@@ -218,6 +225,7 @@ input:focus {
   content: 'issue navigation';
   font-size: 2em;
   text-transform: uppercase;
+  line-height: .9em;
 }
 
 .issue::before {
@@ -236,6 +244,7 @@ input:focus {
   font-size: 2em;
   border-bottom: 1px dashed #e9e9e9;
   text-transform: uppercase;
+  line-height: .9em;
 }
 
 .tocItem {
@@ -379,7 +388,13 @@ input:focus {
   margin: 20px 0px 20px 0px;
 }
 
-/*BEGIN Personograpy*/
+button.searchSubmit {
+  background: none;
+  border: none;
+  color: #474747;
+}
+
+/*BEGIN Personography*/
 .personIndex {
   display: -webkit-box;
   display: -moz-box;
