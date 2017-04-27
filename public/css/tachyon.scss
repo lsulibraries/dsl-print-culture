@@ -285,6 +285,34 @@ input:focus {
 .intraIssueNav {
     width: 100%;
 }
+
+/*BEGIN SEARCH RESULTS*/
+
+.searchResults::before {
+    content: 'SEARCH RESULTS';
+    font-size: 3em;
+}
+
+.searchResult {
+    background: $light-border-color;
+    margin-bottom: 5px;
+    padding: 30px;
+}
+
+.pieceTitle {
+    font-size: 2em;
+}
+
+.context {
+    font-size: 1.2em;
+}
+
+span.searchHit {
+    background: yellow;
+}
+
+/*END SEARCH RESULTS*/
+
 /*BEGIN High Contrast Mode*/
 .highContrast{
 
