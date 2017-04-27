@@ -3,6 +3,10 @@ input:focus {
   outline: none !important;
 }
 
+.biblTitle {
+  display: none;
+}
+
 body {
   margin: 0px;
   font-family: Roboto;
@@ -326,6 +330,16 @@ input:focus {
   border-radius: 2px;
   width: 45px;
   font-size: 0.9em;
+}
+
+.teiMarkup {
+  font-size: 1.2em;
+}
+
+.head {
+  font-weight: 700;
+  border-bottom: 1px solid #c0c0c0;
+  margin: 20px 0px 20px 0px;
 }
 
 /*BEGIN Personograpy*/
