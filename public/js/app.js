@@ -143,6 +143,7 @@ Vue.component('personIndex', {
     template: `
 	<div class='personIndex' v-if="this.index">
         <person v-for="personObject in this.index.personIndex" :meta="personObject"></person>
+        <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
         </div>
 	`,
     created() {
@@ -842,6 +843,7 @@ Vue.component('pdf-viewer',{
 		// Prepare canvas using PDF page dimensions
 		var canvas = document.getElementById('pdf');
 		var context = canvas.getContext('2d');
+
 		canvas.height = viewport.height; //1014
 		canvas.width = viewport.width; //735
 
