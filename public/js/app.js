@@ -334,7 +334,7 @@ Vue.component('issueViewer',{
     template: `
 	<div class="viewer">
 	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
-	  <tei-markup v-if="viewer == 'tei'"></tei-markup>
+	  <tei-markup v-if="viewer == 'text'"></tei-markup>
 	</div>
 	`,
         data() {
@@ -582,7 +582,7 @@ Vue.component('viewerSelector',{
 	    return viewerType == this.active
 	},
 	toggleViewer: function(){
-	    this.active = this.active == 'pdf' ? 'tei' : 'pdf'
+	    this.active = this.active == 'pdf' ? 'text' : 'pdf'
 	    Event.$emit('viewerSelected', this.active)
 	}
     },
@@ -809,7 +809,7 @@ Vue.component('pdf-viewer',{
 	loadPdf: function(issue, page = 1, scale = 1.3) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
-	    if(this.$root.state.content.issue.viewer == 'tei'){
+	    if(this.$root.state.content.issue.viewer == 'text'){
 		return;
 	    }
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
@@ -1178,7 +1178,7 @@ new Vue({
 		abouts: 'about', // technical | credits
 		issue: {
 		    id: '18450201',//'18450104', // yyyy-mm-dd
-		    viewer: 'pdf', // text|pdf
+		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: ''
 		},
