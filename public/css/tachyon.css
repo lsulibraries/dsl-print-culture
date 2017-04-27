@@ -160,6 +160,11 @@ input:focus {
   letter-spacing: -0.4vw;
   line-height: 4.7vw;
   color: #fe7251;
+  padding: 200px 200px 0px 200px;
+}
+
+.about {
+  margin-left: 200px;
 }
 
 .about, .technical, .credits {
@@ -180,6 +185,8 @@ input:focus {
   background: white;
   padding: 20px;
   font-size: 1.5em;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .logoSubtitle {
