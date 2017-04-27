@@ -1071,7 +1071,7 @@
             <personId>jaddison</personId>
             <personName>Joseph Addison</personName>
             <personInit>JA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/7413288</personViaf>
             <personBio>
                <personBirth>Born May 1, 1672 in Milston, England.</personBirth>
@@ -1084,7 +1084,7 @@
             <personId>dadee</personId>
             <personName>Daniel Adee</personName>
             <personInit>DA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/22000087</personViaf>
             <personBio>
                <personBirth>Born 1819 in Pleasant Valley, New York.</personBirth>
@@ -1097,7 +1097,7 @@
             <personId>whainsworth</personId>
             <personName>William Harrison Ainsworth</personName>
             <personInit>WHA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/46894596</personViaf>
             <personBio>
                <personBirth>Born February 4, 1805 in Manchester, England.</personBirth>
@@ -1110,7 +1110,7 @@
             <personId>alolo</personId>
             <personName>Alolo</personName>
             <personInit>A</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -1126,7 +1126,7 @@
             <personId>jakerly</personId>
             <personName>J. Akerly</personName>
             <personInit>JA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </jakerly>
       <jaldrich>
@@ -1134,7 +1134,7 @@
             <personId>jaldrich</personId>
             <personName>James Aldrich</personName>
             <personInit>JA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/250318824</personViaf>
             <personBio>
                <personBirth>Born July 14, 1810 in Mattituck, New York.</personBirth>
@@ -1147,7 +1147,7 @@
             <personId>dalighieri</personId>
             <personName>Dante Alighieri</personName>
             <personInit>DA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/97105654</personViaf>
             <personBio>
                <personBirth>Born 1265 in Florence, Republic of Florence.</personBirth>
@@ -1160,7 +1160,7 @@
             <personId>aalison</personId>
             <personName>Sir Archibald Alison</personName>
             <personInit>AA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/69703133</personViaf>
             <personBio>
                <personBirth>Born December 29, 1792 in Kenley, England.</personBirth>
@@ -1173,7 +1173,7 @@
             <personId>pallen</personId>
             <personName>Paul Allen</personName>
             <personInit>PA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/34589661</personViaf>
             <personBio>
                <personBirth>Born February 15, 1775 in Providence, Rhode Island.</personBirth>
@@ -1186,7 +1186,7 @@
             <personId>earam</personId>
             <personName>Eugene Aram</personName>
             <personInit>EA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/52043684</personViaf>
             <personBio>
                <personBirth>Born 1704 in Ramsgill, England.</personBirth>
@@ -1199,7 +1199,7 @@
             <personId>wsarcher</personId>
             <personName>William Segar Archer</personName>
             <personInit>WSA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/70326046</personViaf>
             <personBio>
                <personBirth>Born March 5, 1789 in Amelia County, Virginia.</personBirth>
@@ -1212,7 +1212,7 @@
             <personId>aristides</personId>
             <personName>Aristides</personName>
             <personInit>A</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/61392255</personViaf>
             <personBio>
                <personBirth>Born 530 B.C..</personBirth>
@@ -1225,7 +1225,7 @@
             <personId>bvarnim</personId>
             <personName>Bettina von Arnim</personName>
             <personInit>BvA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/7386152</personViaf>
             <personBio>
                <personBirth>Born April 4, 1785 in Frankfort, Germany.</personBirth>
@@ -1238,7 +1238,7 @@
             <personId>tarnold</personId>
             <personName>Thomas Arnold</personName>
             <personInit>TA</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/14778656</personViaf>
             <personBio>
                <personBirth>Born June 13, 1795 in Isle of Wight, England.</personBirth>
@@ -1251,7 +1251,7 @@
             <personId>pb</personId>
             <personName>P. B.</personName>
             <personInit>PB</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -1267,7 +1267,7 @@
             <personId>rbacon</personId>
             <personName>Roger Bacon</personName>
             <personInit>RB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/120688673</personViaf>
             <personBio>
                <personBirth>Born 1219 in Ilchester, England.</personBirth>
@@ -1280,7 +1280,7 @@
             <personId>ddbarnard</personId>
             <personName>Daniel Dewey Barnard</personName>
             <personInit>DDB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/13703232/</personViaf>
             <personBio>
                <personBirth>Born July 16, 1797 in Sheffield, Massachusetts.</personBirth>
@@ -1293,7 +1293,7 @@
             <personId>clbarritt</personId>
             <personName>C. L. Barritt</personName>
             <personInit>CLB</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -1309,7 +1309,7 @@
             <personId>bbates</personId>
             <personName>Barnabas Bates</personName>
             <personInit>BB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/29089795</personViaf>
             <personBio>
                <personBirth>Born February 2, 1787 in England.</personBirth>
@@ -1322,7 +1322,7 @@
             <personId>fbathos</personId>
             <personName>Fidelius Bathos</personName>
             <personInit>FB</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -1338,7 +1338,7 @@
             <personId>jbeattie</personId>
             <personName>James Beattie</personName>
             <personInit>JB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/14766002</personViaf>
             <personBio>
                <personBirth>Born October 25, 1735 in Laurencekirk, Scotland.</personBirth>
@@ -1351,7 +1351,7 @@
             <personId>cbell</personId>
             <personName>Charles Bell</personName>
             <personInit>CB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/2619993/</personViaf>
             <personBio>
                <personBirth>Born November 12, 1774 in Edinburgh, Scotland.</personBirth>
@@ -1364,7 +1364,7 @@
             <personId>pbenjamin</personId>
             <personName>Park Benjamin Sr.</personName>
             <personInit>PB</personInit>
-            <personRole>MentionedAuthor ContributingAuthor</personRole>
+            <personRole>Mentioned Contributing</personRole>
             <personViaf>http://viaf.org/viaf/48313754/</personViaf>
             <personBio>
                <personBirth>Born August 14, 1809 in Demerara, British Guiana.</personBirth>
@@ -1385,7 +1385,7 @@
             <personId>jmberrien</personId>
             <personName>John Macpherson Berrien</personName>
             <personInit>JMB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/4029377/</personViaf>
             <personBio>
                <personBirth>Born August 23, 1781 in Rocky Hill, New Jersey.</personBirth>
@@ -1398,7 +1398,7 @@
             <personId>hjbertini</personId>
             <personName>Henri Jérôme Bertini</personName>
             <personInit>HJB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/12570065</personViaf>
             <personBio>
                <personBirth>Born October 28, 1798 in London, England.</personBirth>
@@ -1411,7 +1411,7 @@
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personInit>JB</personInit>
-            <personRole>ContributingAuthor Editor</personRole>
+            <personRole>Contributing Editor</personRole>
             <personTotalContrib>5</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -1447,7 +1447,7 @@
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personInit>CFB</personInit>
-            <personRole>ContributingAuthor Editor</personRole>
+            <personRole>Contributing Editor</personRole>
             <personViaf>http://viaf.org/viaf/76168680</personViaf>
             <personBio>
                <personBirth>Born December 3, 1804 in Nantucket, Massachusetts.</personBirth>
@@ -1703,7 +1703,7 @@
             <personId>cpbronson</personId>
             <personName>Charles P. Bronson</personName>
             <personInit>CPB</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/54080038</personViaf>
             <personBio>
                <personBirth>Born May 3, 1800 in Litchfield, Connecticut.</personBirth>
@@ -1716,7 +1716,7 @@
             <personId>cbbrown</personId>
             <personName>Charles Brockdon Brown</personName>
             <personInit>CBB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personBio>
                <personBirth>Born January 17, 1771 in Philadelphia, Pennsylvania.</personBirth>
                <personDeath>Died February 22, 1810 in Philadelphia, Pennsylvania.</personDeath>
@@ -1728,7 +1728,7 @@
             <personId>gbush</personId>
             <personName>George Bush</personName>
             <personInit>GB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/35315106</personViaf>
             <personBio>
                <personBirth>Born June 12, 1796 in Norwich, Vermont.</personBirth>
@@ -1741,7 +1741,7 @@
             <personId>wcbryant</personId>
             <personName>William Cullen Bryant</personName>
             <personInit>WCB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24640113</personViaf>
             <personBio>
                <personBirth>Born November 3, 1794 in Cummington, Massachusetts.</personBirth>
@@ -1754,7 +1754,7 @@
             <personId>fburney</personId>
             <personName>Fanny Burney</personName>
             <personInit>FB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/95297439</personViaf>
             <personBio>
                <personBirth>Born June 13, 1752 in Lynn Regis (now King's Lynn), England.</personBirth>
@@ -1767,7 +1767,7 @@
             <personId>ehburrington</personId>
             <personName>Edwin Henry Burrington</personName>
             <personInit>EHB</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personBio>
                <personBirth>Born 1821 in Devon, England.</personBirth>
                <personDeath>Died January 1892 in Bridgewater, Somerset, England.</personDeath>
@@ -1787,7 +1787,7 @@
             <personId>c</personId>
             <personName>C.</personName>
             <personInit>C</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </c>
       <tcampbell>
@@ -1795,7 +1795,7 @@
             <personId>tcampbell</personId>
             <personName>Thomas Campbell</personName>
             <personInit>TC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39510901</personViaf>
             <personBio>
                <personBirth>Born July 27, 1777 in Glasgow, Scotland.</personBirth>
@@ -1808,7 +1808,7 @@
             <personId>ecantwell</personId>
             <personName>Edward Cantwell</personName>
             <personInit>EC</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/78342846</personViaf>
          </personMeta>
       </ecantwell>
@@ -1817,7 +1817,7 @@
             <personId>tcarlyle</personId>
             <personName>Thomas Carlyle</personName>
             <personInit>TC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39390702</personViaf>
             <personBio>
                <personBirth>Born December 4, 1795 in Ecclefechan, Scotland.</personBirth>
@@ -1830,7 +1830,7 @@
             <personId>rcarter</personId>
             <personName>Robert Carter</personName>
             <personInit>RC</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/4919133</personViaf>
             <personBio>
                <personBirth>Born February 5, 1819 in Albany, New York.</personBirth>
@@ -1866,7 +1866,7 @@
             <personId>fcatherwood</personId>
             <personName>Frederick Catherwood</personName>
             <personInit>FC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100283356</personViaf>
             <personBio>
                <personBirth>Born February 27, 1799 in London, England.</personBirth>
@@ -1879,7 +1879,7 @@
             <personId>gcatlin</personId>
             <personName>George Catlin</personName>
             <personInit>GC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/88688790</personViaf>
             <personBio>
                <personBirth>Born July 26, 1796 in Wilkes-Barre, Pennsylvania.</personBirth>
@@ -1892,7 +1892,7 @@
             <personId>wcarleton</personId>
             <personName>William Carleton</personName>
             <personInit>WC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/44383913</personViaf>
             <personBio>
                <personBirth>Born February 20, 1794 in Prolusk (Prillisk), Ireland.</personBirth>
@@ -1905,7 +1905,7 @@
             <personId>cdcennini</personId>
             <personName>Cennino Cennini</personName>
             <personInit>CC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100207316</personViaf>
             <personBio>
                <personBirth>Born in Colle di Val d'Elsa, Italy.</personBirth>
@@ -1917,7 +1917,7 @@
             <personId>wechanning</personId>
             <personName>William Ellery Channing</personName>
             <personInit>WEC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100283356</personViaf>
             <personBio>
                <personBirth>Born April 7, 1780 in Newport, Rhode Island.</personBirth>
@@ -1930,7 +1930,7 @@
             <personId>lmchild</personId>
             <personName>Lydia Maria Child</personName>
             <personInit>LMC</personInit>
-            <personRole>ContributingAuthor MentionedAuthor</personRole>
+            <personRole>Contributing Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/73891035</personViaf>
             <personBio>
                <personBirth>Born February 11, 1802 in Medford, Massachusetts.</personBirth>
@@ -1956,7 +1956,7 @@
             <personId>thchivers</personId>
             <personName>Thomas Holley Chivers</personName>
             <personInit>THC</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/77109718</personViaf>
             <personBio>
                <personBirth>Born October 18, 1809 in Digby Manor, Washington, Georgia.</personBirth>
@@ -1982,7 +1982,7 @@
             <personId>rchoate</personId>
             <personName>Rufus Choate</personName>
             <personInit>RC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/33288487</personViaf>
             <personBio>
                <personBirth>Born October 1, 1799 in Ipswich, Massachusetts.</personBirth>
@@ -1995,7 +1995,7 @@
             <personId>cchurchill</personId>
             <personName>Charles Churchill</personName>
             <personInit>CC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personBio>
                <personBirth>Born 1732 in London, England.</personBirth>
                <personDeath>Died November 4, 1764 in Boulogne-sur-Mer, France.</personDeath>
@@ -2007,7 +2007,7 @@
             <personId>ljcist</personId>
             <personName>Lewis J. Cist</personName>
             <personInit>LJC</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/37320758</personViaf>
             <personBio>
                <personBirth>Born November 20, 1818 in Harmony, Pennsylvania.</personBirth>
@@ -2020,7 +2020,7 @@
             <personId>hhclements</personId>
             <personName>H. H. Clements</personName>
             <personInit>HHC</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/7051320</personViaf>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
@@ -2037,7 +2037,7 @@
             <personId>tlclingman</personId>
             <personName>Thomas Lanier Clingman</personName>
             <personInit>TLC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/72235020</personViaf>
             <personBio>
                <personBirth>Born July 27, 1812 in Huntsville (now Yadkin County), North Carolina.</personBirth>
@@ -2050,7 +2050,7 @@
             <personId>wcobbett</personId>
             <personName>William Cobbett</personName>
             <personInit>WC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/308908160</personViaf>
             <personBio>
                <personBirth>Born March 9, 1763 in Farnham, England.</personBirth>
@@ -2063,7 +2063,7 @@
             <personId>jgcogswell</personId>
             <personName>Joseph Green Cogswell</personName>
             <personInit>JGC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/54014707</personViaf>
             <personBio>
                <personBirth>Born September 27, 1786 in Ipswich, Massachusetts.</personBirth>
@@ -2076,7 +2076,7 @@
             <personId>stcoleridge</personId>
             <personName>Samuel Taylor Coleridge</personName>
             <personInit>STC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24599809</personViaf>
             <personBio>
                <personBirth>Born October 21, 1772 in Ottery St Mary, England.</personBirth>
@@ -2089,7 +2089,7 @@
             <personId>jcollamer</personId>
             <personName>Jacob Collamer</personName>
             <personInit>JC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/26147987</personViaf>
             <personBio>
                <personBirth>Born January 8, 1791 in Troy, New York.</personBirth>
@@ -2102,7 +2102,7 @@
             <personId>colman</personId>
             <personName>Miss Colman</personName>
             <personInit>C</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -2118,7 +2118,7 @@
             <personId>ghcolton</personId>
             <personName>George Hooker Colton</personName>
             <personInit>GHC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/54035923</personViaf>
             <personBio>
                <personBirth>Born October 27, 1818 in Westford, New York.</personBirth>
@@ -2131,7 +2131,7 @@
             <personId>ppcooke</personId>
             <personName>Philip Pendleton Cooke</personName>
             <personInit>PPC</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/103025986</personViaf>
             <personBio>
                <personBirth>Born October 26, 1816 in Martinsburg, Virginia.</personBirth>
@@ -2152,7 +2152,7 @@
             <personId>acowley</personId>
             <personName>Abraham Cowley</personName>
             <personInit>AC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/95254963</personViaf>
             <personBio>
                <personBirth>Born 1618 in London, England.</personBirth>
@@ -2165,7 +2165,7 @@
             <personId>wcowper</personId>
             <personName>William Cowper</personName>
             <personInit>WC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/32009788</personViaf>
             <personBio>
                <personBirth>Born November 26, 1731 in Berkhamsted, England.</personBirth>
@@ -2178,7 +2178,7 @@
             <personId>whcrome</personId>
             <personName>William Henry Crome</personName>
             <personInit>WHC</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/95732761</personViaf>
             <personBio>
                <personBirth>Born 1806.</personBirth>
@@ -2198,7 +2198,7 @@
             <personId>acunningham</personId>
             <personName>Allan Cunningham</personName>
             <personInit>AC</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/79253486</personViaf>
             <personBio>
                <personBirth>Born December 7, 1784 in Kier, Scotland.</personBirth>
@@ -2211,7 +2211,7 @@
             <personId>gfd</personId>
             <personName>G. F. D.</personName>
             <personInit>GFD</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </gfd>
       <sd>
@@ -2219,7 +2219,7 @@
             <personId>sd</personId>
             <personName>S. D.</personName>
             <personInit>SD</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -2235,7 +2235,7 @@
             <personId>rhdana</personId>
             <personName>Richard Henry Dana, Sr.</personName>
             <personInit>RHD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/5810312</personViaf>
             <personBio>
                <personBirth>Born November 15, 1797 in Cambridge, Massachusetts.</personBirth>
@@ -2248,7 +2248,7 @@
             <personId>ldavinci</personId>
             <personName>Leonardo da Vinci</personName>
             <personInit>LdV</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24604287</personViaf>
             <personBio>
                <personBirth>Born April 15, 1452 in Vinci, Republic of Florence.</personBirth>
@@ -2261,7 +2261,7 @@
             <personId>adavezac</personId>
             <personName>Auguste Davezac</personName>
             <personInit>AD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/21752864</personViaf>
             <personBio>
                <personBirth>Born May 30, 1780 in Aux Cayes, Haiti.</personBirth>
@@ -2274,7 +2274,7 @@
             <personId>hdavy</personId>
             <personName>Humphry Davy</personName>
             <personInit>HD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/29630108</personViaf>
             <personBio>
                <personBirth>Born December 17, 1778 in Penzance, England.</personBirth>
@@ -2287,7 +2287,7 @@
             <personId>jdbdebow</personId>
             <personName>James Dunwoody Brownson DeBow</personName>
             <personInit>JDBD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/56169127</personViaf>
             <personBio>
                <personBirth>Born July 20, 1820 in Charleston, South Carolina.</personBirth>
@@ -2300,7 +2300,7 @@
             <personId>ddefoe</personId>
             <personName>Daniel Defoe</personName>
             <personInit>DD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39375774</personViaf>
             <personBio>
                <personBirth>Born 1660 in London, England.</personBirth>
@@ -2313,7 +2313,7 @@
             <personId>hsdegrove</personId>
             <personName>Mrs. H. S. De Grove</personName>
             <personInit>HSDG</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -2329,7 +2329,7 @@
             <personId>cdickens</personId>
             <personName>Charles John Huffam Dickens</personName>
             <personInit>CJHD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/88666393</personViaf>
             <personBio>
                <personBirth>Born February 7, 1812 in Landport, England.</personBirth>
@@ -2342,7 +2342,7 @@
             <personId>bdisraeli</personId>
             <personName>Benjamin Disraeli</personName>
             <personInit>BD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/49233448</personViaf>
             <personBio>
                <personBirth>Born December 21, 1804 in London, England.</personBirth>
@@ -2355,7 +2355,7 @@
             <personId>asdoane</personId>
             <personName>Augustus Sidney Doane</personName>
             <personInit>ASD</personInit>
-            <personRole>MentionedAuthor Correspondent</personRole>
+            <personRole>Mentioned Correspondent</personRole>
             <personViaf>http://viaf.org/viaf/70425582</personViaf>
             <personBio>
                <personBirth>Born April 2, 1808 in Boston, Massachusetts.</personBirth>
@@ -2376,7 +2376,7 @@
             <personId>pdoddridge</personId>
             <personName>Philip Doddridge</personName>
             <personInit>PD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39427796</personViaf>
             <personBio>
                <personBirth>Born June 26, 1702 in London, England.</personBirth>
@@ -2389,7 +2389,7 @@
             <personId>jdryden</personId>
             <personName>John Dryden</personName>
             <personInit>JD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/68937979</personViaf>
             <personBio>
                <personBirth>Born August 19, 1631 in Aldwincle, England.</personBirth>
@@ -2402,7 +2402,7 @@
             <personId>gdsdubartas</personId>
             <personName>Guillaume de Saluste Du Bartas</personName>
             <personInit>GdSDB</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/73852818</personViaf>
             <personBio>
                <personBirth>Born 1544 in Monfort, France.</personBirth>
@@ -2415,7 +2415,7 @@
             <personId>adumas</personId>
             <personName>Alexandre Dumas</personName>
             <personInit>AD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/51688902</personViaf>
             <personBio>
                <personBirth>Born July 24, 1802 in Villers-Cotterêts, France.</personBirth>
@@ -2428,7 +2428,7 @@
             <personId>fadurivage</personId>
             <personName>Francis Alexander Durivage</personName>
             <personInit>FAD</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/15110811</personViaf>
             <personBio>
                <personBirth>Born April 7, 1814 in Boston, Massachusetts.</personBirth>
@@ -2441,7 +2441,7 @@
             <personId>eaduyckinck</personId>
             <personName>Evert Augustus Duyckinck</personName>
             <personInit>EAD</personInit>
-            <personRole>MentionedAuthor ContributingAuthor</personRole>
+            <personRole>Mentioned Contributing</personRole>
             <personViaf>http://viaf.org/viaf/1062022</personViaf>
             <personBio>
                <personBirth>Born November 23, 1816 in New York, New York.</personBirth>
@@ -2462,7 +2462,7 @@
             <personId>edyer</personId>
             <personName>Sir Edward Dyer</personName>
             <personInit>ED</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/18580778</personViaf>
             <personBio>
                <personBirth>Born October 1543 in Somerset, England.</personBirth>
@@ -2475,7 +2475,7 @@
             <personId>e</personId>
             <personName>E.</personName>
             <personInit>E</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </e>
       <ceames>
@@ -2483,7 +2483,7 @@
             <personId>ceames</personId>
             <personName>Charles Eames</personName>
             <personInit>CE</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/53517374</personViaf>
             <personBio>
                <personBirth>Born 1812.</personBirth>
@@ -2496,7 +2496,7 @@
             <personId>cleastlake</personId>
             <personName>Sir Charles Lock Eastlake</personName>
             <personInit>CLE</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/61676654</personViaf>
             <personBio>
                <personBirth>Born November 17, 1793 in Plymouth, England.</personBirth>
@@ -2509,7 +2509,7 @@
             <personId>medgeworth</personId>
             <personName>Maria Edgeworth</personName>
             <personInit>ME</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/71477273</personViaf>
             <personBio>
                <personBirth>Born January 1, 1768 in Black Bourton, England.</personBirth>
@@ -2522,7 +2522,7 @@
             <personId>efellet</personId>
             <personName>Elizabeth Fries Ellet</personName>
             <personInit>EFE</personInit>
-            <personRole>ContributingAuthor MentionedAuthor</personRole>
+            <personRole>Contributing Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/10224727</personViaf>
             <personBio>
                <personBirth>Born October 18, 1818 in Sodus Point, New York.</personBirth>
@@ -2548,7 +2548,7 @@
             <personId>cwelmi</personId>
             <personName>C. Wilkins Elmi</personName>
             <personInit>CWE</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </cwelmi>
       <ecembury>
@@ -2556,7 +2556,7 @@
             <personId>ecembury</personId>
             <personName>Emma Catherine Embury</personName>
             <personInit>ECE</personInit>
-            <personRole>MentionedAuthor ContributingAuthor</personRole>
+            <personRole>Mentioned Contributing</personRole>
             <personViaf>http://viaf.org/viaf/18626354</personViaf>
             <personBio>
                <personBirth>Born February 25, 1806 in New York, New York.</personBirth>
@@ -2577,7 +2577,7 @@
             <personId>rwemerson</personId>
             <personName>Ralph Waldo Emerson</personName>
             <personInit>RWE</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/27079964</personViaf>
             <personBio>
                <personBirth>Born May 25, 1803 in Boston, Massachusetts.</personBirth>
@@ -2590,7 +2590,7 @@
             <personId>tdenglish</personId>
             <personName>Thomas Dunn English</personName>
             <personInit>TDE</personInit>
-            <personRole>MentionedAuthor ContributingAuthor</personRole>
+            <personRole>Mentioned Contributing</personRole>
             <personViaf>http://viaf.org/viaf/50560346</personViaf>
             <personBio>
                <personBirth>Born June 29, 1819 in Philadelphia, Pennsylvania.</personBirth>
@@ -2616,7 +2616,7 @@
             <personId>aheverett</personId>
             <personName>Alexander Hill Everett</personName>
             <personInit>AHE</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/19781597</personViaf>
             <personBio>
                <personBirth>Born March 19, 1792 in Boston, Massachusetts.</personBirth>
@@ -2629,7 +2629,7 @@
             <personId>hf</personId>
             <personName>H. F.</personName>
             <personInit>HF</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </hf>
       <jfinch>
@@ -2637,7 +2637,7 @@
             <personId>jfinch</personId>
             <personName>John Finch</personName>
             <personInit>JF</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/211157901</personViaf>
          </personMeta>
       </jfinch>
@@ -2646,7 +2646,7 @@
             <personId>gfield</personId>
             <personName>George Field</personName>
             <personInit>GF</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/45929525</personViaf>
             <personBio>
                <personBirth>Born 1777 in Berkhamsted, England.</personBirth>
@@ -2659,7 +2659,7 @@
             <personId>hfish</personId>
             <personName>Hamilton Fish</personName>
             <personInit>HF</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/232585893</personViaf>
             <personBio>
                <personBirth>Born August 3, 1808 in New York, New York.</personBirth>
@@ -2672,7 +2672,7 @@
             <personId>jflaxman</personId>
             <personName>John Flaxman</personName>
             <personInit>JF</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17260670</personViaf>
             <personBio>
                <personBirth>Born July 6, 1755 in York, England.</personBirth>
@@ -2685,7 +2685,7 @@
             <personId>afletcher</personId>
             <personName>Alexander Fletcher</personName>
             <personInit>AF</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/5275198</personViaf>
             <personBio>
                <personBirth>Born April 8, 1787.</personBirth>
@@ -2698,7 +2698,7 @@
             <personId>jfroissart</personId>
             <personName>Jean (Jehan) Froissart</personName>
             <personInit>JF</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100178580</personViaf>
             <personBio>
                <personBirth>Born 1337 in Valenciennes, Holy Roman Empire.</personBirth>
@@ -2711,7 +2711,7 @@
             <personId>smfuller</personId>
             <personName>Sarah Margaret Fuller</personName>
             <personInit>SMF</personInit>
-            <personRole>MentionedAuthor ContributingAuthor</personRole>
+            <personRole>Mentioned Contributing</personRole>
             <personViaf>http://viaf.org/viaf/9866789</personViaf>
             <personBio>
                <personBirth>Born May 23, 1810 in Cambridge, Massachusetts.</personBirth>
@@ -2724,7 +2724,7 @@
             <personId>ogoldsmith</personId>
             <personName>Oliver Goldsmith</personName>
             <personInit>OG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100167171</personViaf>
             <personBio>
                <personBirth>Born November 10, 1728 in Kingdom of Ireland.</personBirth>
@@ -2737,7 +2737,7 @@
             <personId>gcfullerton</personId>
             <personName>Lady Georgiana Charlotte Leveson-Gower Fullerton</personName>
             <personInit>GCLF</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/76348624</personViaf>
             <personBio>
                <personBirth>Born September 23, 1812 in Staffordshire, England.</personBirth>
@@ -2750,7 +2750,7 @@
             <personId>fgaleota</personId>
             <personName>Fabio Mario Galeota</personName>
             <personInit>FMG</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/65144476</personViaf>
             <personBio>
                <personBirth>Born 1499 in Naples, Italy.</personBirth>
@@ -2771,7 +2771,7 @@
             <personId>wdgallgaher</personId>
             <personName>William Davis Gallagher</personName>
             <personInit>WDG</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/78631456</personViaf>
             <personBio>
                <personBirth>Born August 21, 1808 in Philadelphia, Pennsylvania.</personBirth>
@@ -2784,7 +2784,7 @@
             <personId>agallatin</personId>
             <personName>Abraham Alfonse Albert Gallatin</personName>
             <personInit>AAAG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/15580820</personViaf>
             <personBio>
                <personBirth>Born January 29, 1761 in Geneva, Republic of Switzerland.</personBirth>
@@ -2797,7 +2797,7 @@
             <personId>jgalt</personId>
             <personName>John Galt</personName>
             <personInit>JG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/61562976</personViaf>
             <personBio>
                <personBirth>Born May 2, 1779 in Irvine, Scotland.</personBirth>
@@ -2810,7 +2810,7 @@
             <personId>egibbon</personId>
             <personName>Edward Gibbon</personName>
             <personInit>EG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24601933</personViaf>
          </personMeta>
       </egibbon>
@@ -2819,7 +2819,7 @@
             <personId>wg</personId>
             <personName>W. G.</personName>
             <personInit>WG</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -2835,7 +2835,7 @@
             <personId>wgibson</personId>
             <personName>William Gibson</personName>
             <personInit>WG</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personBio>
                <personBirth>Born 1826.</personBirth>
                <personDeath>Died 1887.</personDeath>
@@ -2860,7 +2860,7 @@
             <personId>wmgillespie</personId>
             <personName>William Mitchell Gillespie</personName>
             <personInit>WMG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/36021110</personViaf>
             <personBio>
                <personBirth>Born 1816.</personBirth>
@@ -2894,7 +2894,7 @@
             <personId>wgodwin</personId>
             <personName>William Godwin</personName>
             <personInit>WG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/68929729</personViaf>
             <personBio>
                <personBirth>Born March 3, 1756 in Wisbech, England.</personBirth>
@@ -2907,7 +2907,7 @@
             <personId>jwvgoethe</personId>
             <personName>Johann Wolfgang von Goethe</personName>
             <personInit>JWvG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24602065</personViaf>
             <personBio>
                <personBirth>Born August 28, 1749 in Frankfurt-am-Main, Holy Roman Empire.</personBirth>
@@ -2920,7 +2920,7 @@
             <personId>sggoodrich</personId>
             <personName>Samuel Griswold Goodrich</personName>
             <personInit>SGG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/88993961</personViaf>
             <personBio>
                <personBirth>Born August 19, 1793 in Ridgefield, Connecticut.</personBirth>
@@ -2933,7 +2933,7 @@
             <personId>cgfgore</personId>
             <personName>Catherine Grace Frances Gore</personName>
             <personInit>CGFG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/74020526</personViaf>
             <personBio>
                <personBirth>Born February 12, 1798 in London, England.</personBirth>
@@ -2946,7 +2946,7 @@
             <personId>ecjgray</personId>
             <personName>Elizabeth Caroline Johnstone Gray</personName>
             <personInit>ECJG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/59433323</personViaf>
             <personBio>
                <personBirth>Born 1800.</personBirth>
@@ -2959,7 +2959,7 @@
             <personId>hgreeley</personId>
             <personName>Horace Greeley</personName>
             <personInit>HG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24772897</personViaf>
             <personBio>
                <personBirth>Born February 3, 1811 in Amherst, New Hampshire.</personBirth>
@@ -2972,7 +2972,7 @@
             <personId>jhgreen</personId>
             <personName>Jonathan Harrington Green</personName>
             <personInit>JHG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/59433323</personViaf>
             <personBio>
                <personBirth>Born 1813 in Ohio.</personBirth>
@@ -2985,7 +2985,7 @@
             <personId>rwgriswold</personId>
             <personName>Rufus Wilmot Griswold</personName>
             <personInit>RWG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17212832</personViaf>
             <personBio>
                <personBirth>Born February 13, 1815 in Vermont.</personBirth>
@@ -2998,7 +2998,7 @@
             <personId>gguidiccioni</personId>
             <personName>Giovanni Guidiccioni</personName>
             <personInit>GG</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/88331</personViaf>
             <personBio>
                <personBirth>Born 1500 in Lucca, Italy.</personBirth>
@@ -3011,7 +3011,7 @@
             <personId>jgwilt</personId>
             <personName>Joseph Gwilt</personName>
             <personInit>JG</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/44695741</personViaf>
          </personMeta>
       </jgwilt>
@@ -3020,7 +3020,7 @@
             <personId>h</personId>
             <personName>H.</personName>
             <personInit>H</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </h>
       <bh>
@@ -3028,7 +3028,7 @@
             <personId>bh</personId>
             <personName>B. H.</personName>
             <personInit>BH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -3044,7 +3044,7 @@
             <personId>eh</personId>
             <personName>E. H.</personName>
             <personInit>EH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </eh>
       <phaedi>
@@ -3052,7 +3052,7 @@
             <personId>phaedi</personId>
             <personName>Pater Haedi</personName>
             <personInit>PH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -3068,7 +3068,7 @@
             <personId>sjhale</personId>
             <personName>Sarah Josepha Hale</personName>
             <personInit>SJH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/72222129</personViaf>
             <personBio>
                <personBirth>Born October 24, 1788 in Newport, New Hampshire.</personBirth>
@@ -3089,7 +3089,7 @@
             <personId>amhall</personId>
             <personName>Anna Maria Fielding Hall</personName>
             <personInit>AMFH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/59344020</personViaf>
             <personBio>
                <personBirth>Born January 6, 1800 in Dublin, Ireland.</personBirth>
@@ -3110,7 +3110,7 @@
             <personId>cfhall</personId>
             <personName>Charles Francis Hall</personName>
             <personInit>CFH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/73843730</personViaf>
          </personMeta>
       </cfhall>
@@ -3119,7 +3119,7 @@
             <personId>jhall</personId>
             <personName>Joseph Hall</personName>
             <personInit>JH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/61678894</personViaf>
             <personBio>
                <personBirth>Born July 1, 1574 in Prestop Park, Leicestershire, England.</personBirth>
@@ -3132,7 +3132,7 @@
             <personId>schall</personId>
             <personName>Samuel Carter Hall</personName>
             <personInit>SCH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/67216250</personViaf>
             <personBio>
                <personBirth>Born May 9, 1800 in Waterford, Ireland.</personBirth>
@@ -3145,7 +3145,7 @@
             <personId>fghalleck</personId>
             <personName>Fitz-Greene Halleck</personName>
             <personInit>FH</personInit>
-            <personRole>ContributingAuthor MentionedAuthor</personRole>
+            <personRole>Contributing Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/59331019</personViaf>
             <personBio>
                <personBirth>Born July 8, 1790 in Guilford, Connecticut.</personBirth>
@@ -3166,7 +3166,7 @@
             <personId>wthamilton</personId>
             <personName>William T. Hamilton</personName>
             <personInit>WTH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/70395367</personViaf>
             <personBio>
                <personBirth>Born 1796.</personBirth>
@@ -3179,7 +3179,7 @@
             <personId>jjhardin</personId>
             <personName>John Jay Hardin</personName>
             <personInit>JJH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/14635705</personViaf>
             <personBio>
                <personBirth>Born January 6, 1810 in Frankfort, Kentucky.</personBirth>
@@ -3192,7 +3192,7 @@
             <personId>whauff</personId>
             <personName>Wilhelm Hauff</personName>
             <personInit>WH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/9931960</personViaf>
             <personBio>
                <personBirth>Born November 29, 1802 in Stuttgart, Germany.</personBirth>
@@ -3205,7 +3205,7 @@
             <personId>drhay</personId>
             <personName>David Ramsay Hay</personName>
             <personInit>DRH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/2860461</personViaf>
             <personBio>
                <personBirth>Born March 1798 in Edinburgh, Scotland.</personBirth>
@@ -3218,7 +3218,7 @@
             <personId>brhaydon</personId>
             <personName>Benjamin Robert Haydon</personName>
             <personInit>BRH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/29662326</personViaf>
             <personBio>
                <personBirth>Born January 26, 1786 in Plymouth, England.</personBirth>
@@ -3231,7 +3231,7 @@
             <personId>whazlitt</personId>
             <personName>William Hazlitt</personName>
             <personInit>WH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/87145187</personViaf>
          </personMeta>
       </whazlitt>
@@ -3240,7 +3240,7 @@
             <personId>jtheadley</personId>
             <personName>Joel Tyler Headley</personName>
             <personInit>JTH</personInit>
-            <personRole>MentionedAuthor ContributingAuthor</personRole>
+            <personRole>Mentioned Contributing</personRole>
             <personViaf>http://viaf.org/viaf/33241832</personViaf>
             <personBio>
                <personBirth>Born December 30, 1813 in Walton, New York.</personBirth>
@@ -3261,7 +3261,7 @@
             <personId>cahelvetius</personId>
             <personName>Claude Adrien Helvétius</personName>
             <personInit>CAH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100185545</personViaf>
             <personBio>
                <personBirth>Born January 26, 1715 in Paris, France.</personBirth>
@@ -3274,7 +3274,7 @@
             <personId>fhemans</personId>
             <personName>Felicia Dorothea Hemans</personName>
             <personInit>FDH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17397168</personViaf>
             <personBio>
                <personBirth>Born September 25, 1793 in Liverpool, England.</personBirth>
@@ -3287,7 +3287,7 @@
             <personId>herodotus</personId>
             <personName>Herodotus</personName>
             <personInit>H</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100225976</personViaf>
             <personBio>
                <personBirth>Born 484 B.C. in Halicarnassus, Persian Empire.</personBirth>
@@ -3300,7 +3300,7 @@
             <personId>wheseltine</personId>
             <personName>William Heseltine</personName>
             <personInit>WH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </wheseltine>
       <mehewitt>
@@ -3308,7 +3308,7 @@
             <personId>mehewitt</personId>
             <personName>Mary Elizabeth Hewitt</personName>
             <personInit>MEH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/60556692</personViaf>
             <personBio>
                <personBirth>Born March 20, 1807 in Malden, Massachusetts.</personBirth>
@@ -3349,7 +3349,7 @@
             <personId>jheywood</personId>
             <personName>John Heywood</personName>
             <personInit>JH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/41859470</personViaf>
             <personBio>
                <personBirth>Born 1497 in England.</personBirth>
@@ -3362,7 +3362,7 @@
             <personId>hbhirst</personId>
             <personName>Henry Beck Hirst</personName>
             <personInit>HBH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/76152035</personViaf>
             <personBio>
                <personBirth>Born August 23, 1817 in Philadelphia, Pennsylvania.</personBirth>
@@ -3393,7 +3393,7 @@
             <personId>gfholmes</personId>
             <personName>George Frederick Holmes</personName>
             <personInit>GFH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/75589537</personViaf>
             <personBio>
                <personBirth>Born 1820 in Georgetown, British Guyana.</personBirth>
@@ -3406,7 +3406,7 @@
             <personId>thood</personId>
             <personName>Thomas Hood</personName>
             <personInit>TH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17247761</personViaf>
             <personBio>
                <personBirth>Born May 23, 1799 in London, England.</personBirth>
@@ -3419,7 +3419,7 @@
             <personId>uhorn</personId>
             <personName>Ulric Horn</personName>
             <personInit>UH</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </uhorn>
       <ghorne>
@@ -3427,7 +3427,7 @@
             <personId>ghorne</personId>
             <personName>George Horne</personName>
             <personInit>GH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/71474094</personViaf>
             <personBio>
                <personBirth>Born November 1, 1730 in Otham, England.</personBirth>
@@ -3448,7 +3448,7 @@
             <personId>fhoward</personId>
             <personName>Frank Howard</personName>
             <personInit>FH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/59361412</personViaf>
             <personBio>
                <personBirth>Born 1805 in London, England.</personBirth>
@@ -3461,7 +3461,7 @@
             <personId>rhoyt</personId>
             <personName>Ralph Hoyt</personName>
             <personInit>RH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/55862847</personViaf>
             <personBio>
                <personBirth>Born 1806.</personBirth>
@@ -3474,7 +3474,7 @@
             <personId>dhume</personId>
             <personName>David Hume</personName>
             <personInit>DH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/49226972</personViaf>
          </personMeta>
       </dhume>
@@ -3483,7 +3483,7 @@
             <personId>fhunt</personId>
             <personName>Freeman Hunt</personName>
             <personInit>FH</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/6496622</personViaf>
             <personBio>
                <personBirth>Born 1804.</personBirth>
@@ -3496,7 +3496,7 @@
             <personId>amide</personId>
             <personName>Abijah Metcalf Ide, Jr.</personName>
             <personInit>AMI</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personBio>
                <personBirth>Born February 2, 1825 in Attleboro, Massachusetts.</personBirth>
                <personDeath>Died May 22, 1873.</personDeath>
@@ -3526,7 +3526,7 @@
             <personId>jringersoll</personId>
             <personName>Joseph Reed Ingersoll</personName>
             <personInit>JRI</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/48200021</personViaf>
             <personBio>
                <personBirth>Born June 14, 1786.</personBirth>
@@ -3539,7 +3539,7 @@
             <personId>jinman</personId>
             <personName>John Inman</personName>
             <personInit>JI</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/46681078</personViaf>
             <personBio>
                <personBirth>Born 1805.</personBirth>
@@ -3552,7 +3552,7 @@
             <personId>eirving</personId>
             <personName>Edward Irving</personName>
             <personInit>EI</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/37687636</personViaf>
             <personBio>
                <personBirth>Born August 4, 1792 in Annan, Scotland.</personBirth>
@@ -3565,7 +3565,7 @@
             <personId>j</personId>
             <personName>J.</personName>
             <personInit>J</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </j>
       <gjones>
@@ -3573,7 +3573,7 @@
             <personId>gjones</personId>
             <personName>George Jones</personName>
             <personInit>GJ</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://www.viaf.org/viaf/43864654</personViaf>
             <personBio>
                <personBirth>Born May 10, 1810 in London, England.</personBirth>
@@ -3586,7 +3586,7 @@
             <personId>sjohnson</personId>
             <personName>Samuel Johnson</personName>
             <personInit>SJ</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/7406725</personViaf>
             <personBio>
                <personBirth>Born September 18, 1709 in Lichfield, England.</personBirth>
@@ -3599,7 +3599,7 @@
             <personId>wajones</personId>
             <personName>William Alfred Jones</personName>
             <personInit>WAJ</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/31091349</personViaf>
             <personBio>
                <personBirth>Born June 26, 1817 in New York, New York.</personBirth>
@@ -3620,7 +3620,7 @@
             <personId>k</personId>
             <personName>K.</personName>
             <personInit>K</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </k>
       <tkeightley>
@@ -3628,7 +3628,7 @@
             <personId>tkeightley</personId>
             <personName>Thomas Keightley</personName>
             <personInit>TK</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24954462</personViaf>
             <personBio>
                <personBirth>Born October 17, 1789 in Dublin, Ireland.</personBirth>
@@ -3641,7 +3641,7 @@
             <personId>jpkennedy</personId>
             <personName>John Pendleton Kennedy</personName>
             <personInit>JPK</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/15290449</personViaf>
             <personBio>
                <personBirth>Born October 25, 1795 in Baltimore, Maryland.</personBirth>
@@ -3654,7 +3654,7 @@
             <personId>cmketeltas</personId>
             <personName>Caroline M. Keteltas</personName>
             <personInit>CMK</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </cmketeltas>
       <cking>
@@ -3662,7 +3662,7 @@
             <personId>cking</personId>
             <personName>Charles King</personName>
             <personInit>CK</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/67936599</personViaf>
             <personBio>
                <personBirth>Born March 16, 1867 in New York, New York.</personBirth>
@@ -3675,7 +3675,7 @@
             <personId>tbking</personId>
             <personName>Thomas Butler King</personName>
             <personInit>TBK</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/53160666</personViaf>
             <personBio>
                <personBirth>Born August 27, 1800 in Palmer, Massachusetts.</personBirth>
@@ -3688,7 +3688,7 @@
             <personId>cmkirkland</personId>
             <personName>Caroline Mathilda Stansbury Kirkland</personName>
             <personInit>CMSK</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/45095811</personViaf>
             <personBio>
                <personBirth>Born January 11, 1801 in New York, New York.</personBirth>
@@ -3701,7 +3701,7 @@
             <personId>hcl</personId>
             <personName>H. C. L.</personName>
             <personInit>HCL</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -3722,7 +3722,7 @@
             <personId>l</personId>
             <personName>L.</personName>
             <personInit>L</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </l>
       <flanaterzi>
@@ -3730,7 +3730,7 @@
             <personId>flanaterzi</personId>
             <personName>Francesco Lana de Terzi</personName>
             <personInit>FLdT</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/27801240</personViaf>
             <personBio>
                <personBirth>Born 1631 in Brescia, Lombardy.</personBirth>
@@ -3743,7 +3743,7 @@
             <personId>clanman</personId>
             <personName>Charles Lanman</personName>
             <personInit>CL</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/15148068</personViaf>
             <personBio>
                <personBirth>Born June 14, 1819 in Monroe, Michigan.</personBirth>
@@ -3756,7 +3756,7 @@
             <personId>llanzi</personId>
             <personName>Luigi Lanzi</personName>
             <personInit>LL</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/78760428</personViaf>
          </personMeta>
       </llanzi>
@@ -3765,7 +3765,7 @@
             <personId>mllawson</personId>
             <personName>Mary L. Lawson</personName>
             <personInit>MLL</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -3781,7 +3781,7 @@
             <personId>eleslie</personId>
             <personName>Eliza Leslie</personName>
             <personInit>EL</personInit>
-            <personRole>Mentioned Author</personRole>
+            <personRole>Mentioned </personRole>
             <personViaf>http://viaf.org/viaf/56963085</personViaf>
             <personBio>
                <personBirth>Born November 15, 1787 in Philadelphia, Pennsylvania.</personBirth>
@@ -3794,7 +3794,7 @@
             <personId>jlocke</personId>
             <personName>John Locke</personName>
             <personInit>JL</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/34459614</personViaf>
             <personBio>
                <personBirth>Born August 29, 1632 in Wrington, England.</personBirth>
@@ -3807,7 +3807,7 @@
             <personId>hwlongfellow</personId>
             <personName>Henry Wadsworth Longfellow</personName>
             <personInit>HWL</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/54150826</personViaf>
             <personBio>
                <personBirth>Born February 27, 1807 in Portland, Maine.</personBirth>
@@ -3820,7 +3820,7 @@
             <personId>jrlowell</personId>
             <personName>James Russell Lowell</personName>
             <personInit>JRL</personInit>
-            <personRole>ContributingAuthor MentionedAuthor</personRole>
+            <personRole>Contributing Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/29549920</personViaf>
             <personBio>
                <personBirth>Born February 22, 1819 in Cambridge, Massachusetts.</personBirth>
@@ -3856,7 +3856,7 @@
             <personId>mwlowell</personId>
             <personName>Maria White Lowell</personName>
             <personInit>MWL</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/63040126</personViaf>
             <personBio>
                <personBirth>Born July 8, 1824 in Watertown, Massachusetts.</personBirth>
@@ -3887,7 +3887,7 @@
             <personId>aclynch</personId>
             <personName>Anne C. Lynch</personName>
             <personInit>ACL</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/51542839</personViaf>
             <personBio>
                <personBirth>Born November 11, 1815 in Bennington, Vermont.</personBirth>
@@ -3918,7 +3918,7 @@
             <personId>eblytton</personId>
             <personName>Edward George Earle Bulwer Lytton</personName>
             <personInit>EGEBL</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/99871326</personViaf>
             <personBio>
                <personBirth>Born May 25, 1803 in London, England.</personBirth>
@@ -3931,7 +3931,7 @@
             <personId>im</personId>
             <personName>I. M.</personName>
             <personInit>IM</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </im>
       <tbmacaulay>
@@ -3939,7 +3939,7 @@
             <personId>tbmacaulay</personId>
             <personName>Thomas Babington Macaulay</personName>
             <personInit>TBM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/56618365</personViaf>
             <personBio>
                <personBirth>Born October 25, 1800 in Leicestershire, England.</personBirth>
@@ -3952,7 +3952,7 @@
             <personId>cdmacleod</personId>
             <personName>C. Donald Macleod</personName>
             <personInit>CDM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </cdmacleod>
       <jjmapes>
@@ -3960,7 +3960,7 @@
             <personId>jjmapes</personId>
             <personName>James Jay Mapes</personName>
             <personInit>JJM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/60658410</personViaf>
             <personBio>
                <personBirth>Born May 29, 1806 in New York, New York.</personBirth>
@@ -3973,7 +3973,7 @@
             <personId>fmarryat</personId>
             <personName>Frederick Marryat</personName>
             <personInit>FM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39380934</personViaf>
             <personBio>
                <personBirth>Born July 10, 1792 in London, England.</personBirth>
@@ -3986,7 +3986,7 @@
             <personId>gpmarsh</personId>
             <personName>George Perkins Marsh</personName>
             <personInit>GPM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17288270</personViaf>
             <personBio>
                <personBirth>Born March 15, 1801 in Woodstock, Vermont.</personBirth>
@@ -3999,7 +3999,7 @@
             <personId>hmartineau</personId>
             <personName>Harriet Martineau</personName>
             <personInit>HM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/14785544</personViaf>
          </personMeta>
       </hmartineau>
@@ -4008,7 +4008,7 @@
             <personId>wmason</personId>
             <personName>William Mason</personName>
             <personInit>WM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/95718679</personViaf>
          </personMeta>
       </wmason>
@@ -4017,7 +4017,7 @@
             <personId>cmathews</personId>
             <personName>Cornelius Mathews</personName>
             <personInit>CM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/60326256</personViaf>
             <personBio>
                <personBirth>Born October 28, 1817 in Port Chester, New York.</personBirth>
@@ -4030,7 +4030,7 @@
             <personId>abmeek</personId>
             <personName>Alexander Beaufort Meek</personName>
             <personInit>ABM</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/31083817</personViaf>
             <personBio>
                <personBirth>Born July 17, 1814 in Columbia, South Carolina.</personBirth>
@@ -4051,7 +4051,7 @@
             <personId>jmichelet</personId>
             <personName>Jules Michelet</personName>
             <personInit>JM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/41844048</personViaf>
             <personBio>
                <personBirth>Born August 21, 1798 in Paris, France.</personBirth>
@@ -4064,7 +4064,7 @@
             <personId>tmiddleton</personId>
             <personName>Thomas Middleton</personName>
             <personInit>TM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/292459958</personViaf>
             <personBio>
                <personBirth>Born 1580 in London, England.</personBirth>
@@ -4077,7 +4077,7 @@
             <personId>ghmildeberger</personId>
             <personName>G. H. Mildeberger</personName>
             <personInit>GHM</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -4093,7 +4093,7 @@
             <personId>jmiller</personId>
             <personName>Joseph Miller</personName>
             <personInit>JM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/65506759</personViaf>
             <personBio>
                <personBirth>Born 1684.</personBirth>
@@ -4106,7 +4106,7 @@
             <personId>jmilton</personId>
             <personName>John Milton</personName>
             <personInit>JM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17226855</personViaf>
             <personBio>
                <personBirth>Born December 9, 1608 in London, England.</personBirth>
@@ -4119,7 +4119,7 @@
             <personId>tmoore</personId>
             <personName>Thomas Moore</personName>
             <personInit>TM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/24616222</personViaf>
             <personBio>
                <personBirth>Born May 28, 1779 in Dublin, Ireland.</personBirth>
@@ -4132,7 +4132,7 @@
             <personId>hmore</personId>
             <personName>Hannah More</personName>
             <personInit>HM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/51802053</personViaf>
             <personBio>
                <personBirth>Born February 2, 1745 in Fishponds, England.</personBirth>
@@ -4145,7 +4145,7 @@
             <personId>ejmorris</personId>
             <personName>Edward Joy Morris</personName>
             <personInit>EJM</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/50802161</personViaf>
             <personBio>
                <personBirth>Born July 16, 1815 in Philadelphia, Pennsylvania.</personBirth>
@@ -4158,7 +4158,7 @@
             <personId>jemurdoch</personId>
             <personName>James Edward Murdoch</personName>
             <personInit>JEM</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/65658859</personViaf>
             <personBio>
                <personBirth>Born January 25, 1811 in Philadelphia, Pennsylvania.</personBirth>
@@ -4179,7 +4179,7 @@
             <personId>jneal</personId>
             <personName>John Neal</personName>
             <personInit>JN</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/13102559</personViaf>
             <personBio>
                <personBirth>Born August 25, 1793 in Portland, Maine.</personBirth>
@@ -4192,7 +4192,7 @@
             <personId>mgnichols</personId>
             <personName>Mary Sargeant Gove Nichols</personName>
             <personInit>MSGN</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/290135283</personViaf>
             <personBio>
                <personBirth>Born August 10, 1810 in Goffstown, New Hampshire.</personBirth>
@@ -4213,7 +4213,7 @@
             <personId>llnoble</personId>
             <personName>Lewis L. Noble</personName>
             <personInit>LLN</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </llnoble>
       <btonderdonk>
@@ -4221,7 +4221,7 @@
             <personId>btonderdonk</personId>
             <personName>Benjamin Treadwell Onderdonk</personName>
             <personInit>BTO</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/55545295</personViaf>
             <personBio>
                <personBirth>Born July 15, 1791 in New York, New York.</personBirth>
@@ -4234,7 +4234,7 @@
             <personId>aaopie</personId>
             <personName>Amelia Alderson Opie</personName>
             <personInit>AAO</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39410771</personViaf>
             <personBio>
                <personBirth>Born November 12, 1769 in Norwich, England.</personBirth>
@@ -4247,7 +4247,7 @@
             <personId>losborn</personId>
             <personName>Laughton Osborn</personName>
             <personInit>LO</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/18836680</personViaf>
             <personBio>
                <personBirth>Born 1809 in New York, New York.</personBirth>
@@ -4268,7 +4268,7 @@
             <personId>fsosgood</personId>
             <personName>Frances Sargent Osgood</personName>
             <personInit>FSO</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/74673685</personViaf>
             <personBio>
                <personBirth>Born June 18, 1811 in Boston, Massachusetts.</personBirth>
@@ -4309,7 +4309,7 @@
             <personId>outis</personId>
             <personName>Mr. Outis</personName>
             <personInit>O</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </outis>
       <map>
@@ -4333,7 +4333,7 @@
             <personId>wpage</personId>
             <personName>William Page</personName>
             <personInit>WP</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/43289647</personViaf>
             <personBio>
                <personBirth>Born January 23, 1811 in Albany, New York.</personBirth>
@@ -4375,7 +4375,7 @@
             <personId>tparnell</personId>
             <personName>Thomas Parnell</personName>
             <personInit>TP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/32041540</personViaf>
          </personMeta>
       </tparnell>
@@ -4384,7 +4384,7 @@
             <personId>ehpatterson</personId>
             <personName>Edwin Howard Norton Patterson</personName>
             <personInit>EHNP</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personBio>
                <personBirth>Born January 27, 1828 in Winchester, Virginia.</personBirth>
                <personDeath>Died April 21, 1880 in Colorado.</personDeath>
@@ -4396,7 +4396,7 @@
             <personId>jpaul</personId>
             <personName>Jean Paul</personName>
             <personInit>JP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/64011067</personViaf>
             <personBio>
                <personBirth>Born March 21, 1763 in Wunsiedel, Holy Roman Empire.</personBirth>
@@ -4409,7 +4409,7 @@
             <personId>cperabeau</personId>
             <personName>Charles Perabeau</personName>
             <personInit>CP</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -4425,7 +4425,7 @@
             <personId>asphelps</personId>
             <personName>A. S. Phelps</personName>
             <personInit>ASP</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -4441,7 +4441,7 @@
             <personId>tpicton</personId>
             <personName>Thomas Picton</personName>
             <personInit>TP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/21147179</personViaf>
             <personBio>
                <personBirth>Born 1822.</personBirth>
@@ -4454,7 +4454,7 @@
             <personId>apike</personId>
             <personName>Albert Pike</personName>
             <personInit>AP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/12428852</personViaf>
             <personBio>
                <personBirth>Born December 29, 1809 in Boston, Massachusetts.</personBirth>
@@ -4467,7 +4467,7 @@
             <personId>ecpinkney</personId>
             <personName>Edward Coote Pinkney</personName>
             <personInit>ECP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/49081698</personViaf>
             <personBio>
                <personBirth>Born October 1, 1802 in Londong, England.</personBirth>
@@ -4482,7 +4482,7 @@
             <personInit>EAP</personInit>
             <personPseudo>Littleton Barry</personPseudo>
             <personPseudo>E.T.S.G. or Edward S.T. Grey</personPseudo>
-            <personRole>ContributingAuthor MentionedAuthor Editor</personRole>
+            <personRole>Contributing Mentioned Editor</personRole>
             <personViaf>http://viaf.org/viaf/60351476</personViaf>
             <personBio>
                <personBirth>Born January 19, 1809 in Boston, Massachusetts.</personBirth>
@@ -6048,7 +6048,7 @@
             <personId>apope</personId>
             <personName>Alexander Pope</personName>
             <personInit>AP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/61551003</personViaf>
             <personBio>
                <personBirth>Born May 21, 1688 in London, England.</personBirth>
@@ -6061,7 +6061,7 @@
             <personId>jporter</personId>
             <personName>Jane Porter</personName>
             <personInit>JP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/51964829</personViaf>
             <personBio>
                <personBirth>Born January 17, 1776 in Durham, England.</personBirth>
@@ -6074,7 +6074,7 @@
             <personId>whprescott</personId>
             <personName>William Hickling Prescott</personName>
             <personInit>WHP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/14775490</personViaf>
             <personBio>
                <personBirth>Born May 4, 1796 in Salem, Massachusetts.</personBirth>
@@ -6087,7 +6087,7 @@
             <personId>awpugin</personId>
             <personName>Augustus Welby Northmore Pugin</personName>
             <personInit>AWNP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17247761</personViaf>
             <personBio>
                <personBirth>Born March 1, 1812 in London, England.</personBirth>
@@ -6100,7 +6100,7 @@
             <personId>jpycroft</personId>
             <personName>James Pycroft</personName>
             <personInit>JP</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39751793</personViaf>
          </personMeta>
       </jpycroft>
@@ -6109,7 +6109,7 @@
             <personId>r</personId>
             <personName>R.</personName>
             <personInit>R</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -6125,7 +6125,7 @@
             <personId>mkreid</personId>
             <personName>Marion Kirkland Reid</personName>
             <personInit>MKR</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://www.viaf.org/viaf/64402657</personViaf>
             <personBio>
                <personBirth>Born March 25, 1815 in Glasgow, Scotland.</personBirth>
@@ -6138,7 +6138,7 @@
             <personId>jreynolds</personId>
             <personName>Sir Joshua Reynolds</personName>
             <personInit>JR</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/27081216</personViaf>
          </personMeta>
       </jreynolds>
@@ -6147,7 +6147,7 @@
             <personId>dlrichardson</personId>
             <personName>David Lester Richardson</personName>
             <personInit>DLR</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/72944734</personViaf>
             <personBio>
                <personBirth>Born 1801 in Marylebone, England.</personBirth>
@@ -6160,7 +6160,7 @@
             <personId>acmritchie</personId>
             <personName>Anna Cora Ogden Mowatt Ritchie</personName>
             <personInit>ACOMR</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/33288782</personViaf>
             <personBio>
                <personBirth>Born March 5, 1819 in Bordeaux, France.</personBirth>
@@ -6173,7 +6173,7 @@
             <personId>frobinson</personId>
             <personName>Fayette Robinson</personName>
             <personInit>FR</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/27442969</personViaf>
             <personBio>
                <personDeath>Died 1859.</personDeath>
@@ -6198,7 +6198,7 @@
             <personId>jrochietti</personId>
             <personName>Joseph Rocchietti</personName>
             <personInit>JR</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/19581167</personViaf>
             <personBio>
                <personBirth>Born 1798.</personBirth>
@@ -6211,7 +6211,7 @@
             <personId>ebrodman</personId>
             <personName>E. B. Rodman</personName>
             <personInit>EBR</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </ebrodman>
       <srogers>
@@ -6219,7 +6219,7 @@
             <personId>srogers</personId>
             <personName>Samuel Rogers</personName>
             <personInit>SR</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/34584260</personViaf>
             <personBio>
                <personBirth>Born July 30, 1763 in Newington Green, England.</personBirth>
@@ -6232,7 +6232,7 @@
             <personId>fmrowan</personId>
             <personName>Frederica Maclean Rowan</personName>
             <personInit>FMR</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/7254636</personViaf>
             <personBio>
                <personBirth>Born April 22, 1814 in West Indies.</personBirth>
@@ -6245,7 +6245,7 @@
             <personId>nrowe</personId>
             <personName>Nicholas Rowe</personName>
             <personInit>NR</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/19751395</personViaf>
          </personMeta>
       </nrowe>
@@ -6254,7 +6254,7 @@
             <personId>rsrowley</personId>
             <personName>R. S. Rowley</personName>
             <personInit>RSR</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -6275,7 +6275,7 @@
             <personId>fschiller</personId>
             <personName>Johann Christoph Friedrich von Schiller</personName>
             <personInit>JCFvS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/96994450</personViaf>
             <personBio>
                <personBirth>Born November 10, 1759 in Marbach am Neckar, Holy Roman Empire.</personBirth>
@@ -6288,7 +6288,7 @@
             <personId>hrschoolcraft</personId>
             <personName>Henry Rowe Schoolcraft</personName>
             <personInit>HRS</personInit>
-            <personRole>ContributingAuthor MentionedAuthor</personRole>
+            <personRole>Contributing Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/7451014</personViaf>
             <personBio>
                <personBirth>Born March 28, 1793 in Guilderland, New York.</personBirth>
@@ -6314,7 +6314,7 @@
             <personId>gcscott</personId>
             <personName>Genio Columbus Scott</personName>
             <personInit>GCS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/77849688</personViaf>
          </personMeta>
       </gcscott>
@@ -6323,7 +6323,7 @@
             <personId>wscott</personId>
             <personName>Sir Walter Scott</personName>
             <personInit>WS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/95207079</personViaf>
             <personBio>
                <personBirth>Born August 15, 1771 in Edinburgh, Scotland.</personBirth>
@@ -6336,7 +6336,7 @@
             <personId>waseeley</personId>
             <personName>W. A. Seeley</personName>
             <personInit>WAS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </waseeley>
       <wshakespeare>
@@ -6344,7 +6344,7 @@
             <personId>wshakespeare</personId>
             <personName>William Shakespeare</personName>
             <personInit>WS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/96994048</personViaf>
             <personBio>
                <personBirth>Born April 23, 1564 in Stratford-upon-Avon, England.</personBirth>
@@ -6357,7 +6357,7 @@
             <personId>pbshelley</personId>
             <personName>Percy Bysshe Shelley</personName>
             <personInit>PBS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/95159449</personViaf>
             <personBio>
                <personBirth>Born August 4, 1792 in Horsham, England.</personBirth>
@@ -6370,7 +6370,7 @@
             <personId>lhsigourney</personId>
             <personName>Lydia Huntley Sigourney</personName>
             <personInit>LHS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/67241256</personViaf>
             <personBio>
                <personBirth>Born September 1, 1791 in Norwich, Connecticut.</personBirth>
@@ -6383,7 +6383,7 @@
             <personId>wgsimms</personId>
             <personName>William Gilmore Simms</personName>
             <personInit>WGS</personInit>
-            <personRole>ContributingAuthor MentionedAuthor</personRole>
+            <personRole>Contributing Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/39392170</personViaf>
             <personBio>
                <personBirth>Born April 17, 1806 in Charleston, South Carolina.</personBirth>
@@ -6434,7 +6434,7 @@
             <personId>ssmith</personId>
             <personName>Sydney Smith</personName>
             <personInit>SS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/13103803</personViaf>
          </personMeta>
       </ssmith>
@@ -6443,7 +6443,7 @@
             <personId>tgsmollett</personId>
             <personName>Tobias George Smollett</personName>
             <personInit>TGS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/68935985</personViaf>
          </personMeta>
       </tgsmollett>
@@ -6452,7 +6452,7 @@
             <personId>sophocles</personId>
             <personName>Sophocles</personName>
             <personInit>S</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/101760867</personViaf>
          </personMeta>
       </sophocles>
@@ -6461,7 +6461,7 @@
             <personId>apstanley</personId>
             <personName>Arthur Penrhyn Stanley</personName>
             <personInit>APS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/54137873</personViaf>
             <personBio>
                <personBirth>Born December 13, 1815 in Alderley Edge, England.</personBirth>
@@ -6474,7 +6474,7 @@
             <personId>ahstephens</personId>
             <personName>Alexander Hamilton Stephens</personName>
             <personInit>AHS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/22949859</personViaf>
             <personBio>
                <personBirth>Born February 11, 1812 in Crawfordville, Georgia.</personBirth>
@@ -6487,7 +6487,7 @@
             <personId>strabo</personId>
             <personName>Strabo</personName>
             <personInit>S</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/100219883</personViaf>
             <personBio>
                <personBirth>Born 64 B.C. in Amaseia, Pontus.</personBirth>
@@ -6500,7 +6500,7 @@
             <personId>esue</personId>
             <personName>Eugene Sue</personName>
             <personInit>ES</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/66473859</personViaf>
             <personBio>
                <personBirth>Born January 26, 1804.</personBirth>
@@ -6513,7 +6513,7 @@
             <personId>ajsullivan</personId>
             <personName>Arabella Jane Sullivan</personName>
             <personInit>AJS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/67194114</personViaf>
             <personBio>
                <personBirth>Born 1796.</personBirth>
@@ -6526,7 +6526,7 @@
             <personId>jswift</personId>
             <personName>Jonathan Swift</personName>
             <personInit>JS</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/14777110</personViaf>
          </personMeta>
       </jswift>
@@ -6535,7 +6535,7 @@
             <personId>t</personId>
             <personName>T.</personName>
             <personInit>T</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -6551,7 +6551,7 @@
             <personId>wbstaylor</personId>
             <personName>William Benjamin Sarsfield Taylor</personName>
             <personInit>WBST</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/62338567</personViaf>
             <personBio>
                <personBirth>Born 1781.</personBirth>
@@ -6564,7 +6564,7 @@
             <personId>jltellkampf</personId>
             <personName>Johann Ludwig Tellkampf</personName>
             <personInit>JLT</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/77046838</personViaf>
             <personBio>
                <personBirth>Born January 28, 1808 in Buckeberg, Germany.</personBirth>
@@ -6577,7 +6577,7 @@
             <personId>wmthackeray</personId>
             <personName>William Makepeace Thackeray</personName>
             <personInit>WMT</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/95208604</personViaf>
             <personBio>
                <personBirth>Born July 18, 1811 in Calcutta, British India.</personBirth>
@@ -6590,7 +6590,7 @@
             <personId>fwthomas</personId>
             <personName>Frederick William Thomas</personName>
             <personInit>FWT</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/9699484</personViaf>
             <personBio>
                <personBirth>Born October 25, 1806 in Providence, Rhode Island.</personBirth>
@@ -6616,7 +6616,7 @@
             <personId>gthorburn</personId>
             <personName>Grant Thorburn</personName>
             <personInit>GT</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/5309233</personViaf>
             <personBio>
                <personBirth>Born February 18, 1773 in Westhouses, Scotland.</personBirth>
@@ -6629,7 +6629,7 @@
             <personId>gtroost</personId>
             <personName>Gerard Troost</personName>
             <personInit>GT</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/19530779</personViaf>
             <personBio>
                <personBirth>Born March 5, 1776 in 's-Hertogenbosch, Netherlands.</personBirth>
@@ -6642,7 +6642,7 @@
             <personId>mhtrowbridge</personId>
             <personName>Marcus H. Trowbridge</personName>
             <personInit>MHT</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -6658,7 +6658,7 @@
             <personId>jtrumbull</personId>
             <personName>John Trumbull</personName>
             <personInit>JT</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/12557753</personViaf>
             <personBio>
                <personBirth>Born April 24, 1750 in Watertown, Connecticut.</personBirth>
@@ -6671,7 +6671,7 @@
             <personId>httuckerman</personId>
             <personName>Henry Theodore Tuckerman</personName>
             <personInit>HTT</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/42895727</personViaf>
             <personBio>
                <personBirth>Born August 20, 1813 in Boston, Massachusetts.</personBirth>
@@ -6684,7 +6684,7 @@
             <personId>wwturner</personId>
             <personName>William Wadden Turner</personName>
             <personInit>WWT</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/59474663</personViaf>
             <personBio>
                <personBirth>Born October 23, 1810 in London, England.</personBirth>
@@ -6718,7 +6718,7 @@
             <personId>W</personId>
             <personName>W.</personName>
             <personInit>W</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
          </personMeta>
       </W>
       <wrwallace>
@@ -6726,7 +6726,7 @@
             <personId>wrwallace</personId>
             <personName>William Ross Wallace</personName>
             <personInit>WRW</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/59474663</personViaf>
             <personBio>
                <personBirth>Born 1819 in Lexington, Kentucky.</personBirth>
@@ -6739,7 +6739,7 @@
             <personId>ewaller</personId>
             <personName>Edmund Waller</personName>
             <personInit>EW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/47109686</personViaf>
          </personMeta>
       </ewaller>
@@ -6748,7 +6748,7 @@
             <personId>gbwallis</personId>
             <personName>George B. Wallis</personName>
             <personInit>GBW</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/100800323</personViaf>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
@@ -6765,7 +6765,7 @@
             <personId>hwalpole</personId>
             <personName>Horace Walpole</personName>
             <personInit>HW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17231985</personViaf>
             <personBio>
                <personBirth>Born September 24, 1717 in London, England.</personBirth>
@@ -6778,7 +6778,7 @@
             <personId>iwalton</personId>
             <personName>Izaak Walton</personName>
             <personInit>IW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/73863052</personViaf>
             <personBio>
                <personBirth>Born 1594.</personBirth>
@@ -6791,7 +6791,7 @@
             <personId>jwaters</personId>
             <personName>John Waters</personName>
             <personInit>JW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </jwaters>
       <hcwatson>
@@ -6799,7 +6799,7 @@
             <personId>hcwatson</personId>
             <personName>Henry Cood Watson</personName>
             <personInit>HCW</personInit>
-            <personRole>ContributingAuthor Editor</personRole>
+            <personRole>Contributing Editor</personRole>
             <personViaf>http://viaf.org/viaf/60433825</personViaf>
             <personBio>
                <personBirth>Born 1816 in London, England.</personBirth>
@@ -6985,7 +6985,7 @@
             <personId>dwebster</personId>
             <personName>Daniel Webster</personName>
             <personInit>DW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/4944460</personViaf>
             <personBio>
                <personBirth>Born January 18, 1782 in Salisbury, New Hampshire.</personBirth>
@@ -6998,7 +6998,7 @@
             <personId>hhweld</personId>
             <personName>Horatio Hastings Weld</personName>
             <personInit>HHW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17069432</personViaf>
             <personBio>
                <personBirth>Born February 4, 1811 in Boston, Massachusetts.</personBirth>
@@ -7011,7 +7011,7 @@
             <personId>mgwells</personId>
             <personName>Mary G. Wells</personName>
             <personInit>MGW</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personBio>
                <personBirth>Born 1819 in Boston, Massachusetts.</personBirth>
                <personDeath>Died January 23, 1889.</personDeath>
@@ -7023,7 +7023,7 @@
             <personId>epwhipple</personId>
             <personName>Edwin Percy Whipple</personName>
             <personInit>EPW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/18042169</personViaf>
             <personBio>
                <personBirth>Born March 8, 1819 in Gloucester, Massachusetts.</personBirth>
@@ -7036,7 +7036,7 @@
             <personId>dkwhitaker</personId>
             <personName>Daniel Kimball Whitaker</personName>
             <personInit>DKW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/29401758</personViaf>
             <personBio>
                <personBirth>Born April 30, 1801 in Sharon, Connecticut.</personBirth>
@@ -7049,7 +7049,7 @@
             <personId>wwhitman</personId>
             <personName>Walter Whitman</personName>
             <personInit>WW</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/2478331</personViaf>
             <personBio>
                <personBirth>Born May 31, 1819 in West Hills, New York.</personBirth>
@@ -7075,7 +7075,7 @@
             <personId>npwillis</personId>
             <personName>Nathaniel Parker Willis</personName>
             <personInit>NPW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/189826</personViaf>
             <personBio>
                <personBirth>Born January 20, 1806 in Portland, Maine.</personBirth>
@@ -7088,7 +7088,7 @@
             <personId>hwilson</personId>
             <personName>Harry Wilson</personName>
             <personInit>HW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
          </personMeta>
       </hwilson>
       <jwilson>
@@ -7096,7 +7096,7 @@
             <personId>jwilson</personId>
             <personName>John Wilson</personName>
             <personInit>JW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/47566585</personViaf>
             <personBio>
                <personBirth>Born May 18, 1785 in Paisley, Scotland.</personBirth>
@@ -7109,7 +7109,7 @@
             <personId>rcwinthrop</personId>
             <personName>Robert Charles Winthrop</personName>
             <personInit>RCW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/76690634</personViaf>
             <personBio>
                <personBirth>Born May 12, 1809 in Boston, Massachusetts.</personBirth>
@@ -7122,7 +7122,7 @@
             <personId>wwordsworth</personId>
             <personName>William Wordsworth</personName>
             <personInit>WW</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/35723133</personViaf>
             <personBio>
                <personBirth>Born April 7, 1770 in Cockermouth, England.</personBirth>
@@ -7135,7 +7135,7 @@
             <personId>xenophon</personId>
             <personName>Xénophon</personName>
             <personInit>X</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/89597697</personViaf>
          </personMeta>
       </xenophon>
@@ -7144,7 +7144,7 @@
             <personId>lsy</personId>
             <personName>L. S. Y.</personName>
             <personInit>LSY</personInit>
-            <personRole>ContributingAuthor</personRole>
+            <personRole>Contributing</personRole>
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
@@ -7160,7 +7160,7 @@
             <personId>hzschokke</personId>
             <personName>Johann Heinrich Daniel Zschokke</personName>
             <personInit>JHDZ</personInit>
-            <personRole>MentionedAuthor</personRole>
+            <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/56743380</personViaf>
             <personBio>
                <personBirth>Born March 22, 1771 in Magdeburg, Prussia.</personBirth>
@@ -7169,7 +7169,7 @@
          </personMeta>
       </hzschokke>
    </personIndex>
-   <personIndex>
+   <credits>
       <lcoats>
          <personMeta>
             <personId>lcoats</personId>
@@ -7307,5 +7307,5 @@
             </personBio>
          </personMeta>
       </jflanders>
-   </personIndex>
+   </credits>
 </personography>
