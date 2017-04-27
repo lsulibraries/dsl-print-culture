@@ -41,6 +41,17 @@
                 <div class="biblTitle">
                     <xsl:value-of select="//listBibl//bibl[@xml:id eq substring-after($decls,'#')]/title/text()"/>
                 </div>
+                <xsl:for-each
+                    select="//listBibl//bibl[@xml:id eq substring-after($decls, '#')]/biblScope">
+                    <div class="biblPage">
+                        <xsl:if test="@from">
+                            <xsl:value-of select="@from"/>
+                        </xsl:if>
+                        <xsl:if test="@n">
+                            <xsl:value-of select="@n"/>
+                        </xsl:if>
+                    </div>
+                </xsl:for-each>
             </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
