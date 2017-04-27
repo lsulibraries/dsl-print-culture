@@ -217,7 +217,7 @@ Vue.component('person', {
 Vue.component('personBibl', {
     template: `
 	<div class="personBibl" v-if="this.dataLoaded()">
-          <div class="issueMeta" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
+          <div class="issueMeta">
 	    <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
 	    <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
  	  </div>
@@ -368,8 +368,8 @@ Vue.component('issue',{
 Vue.component('issueHeader', {
     data() {
 	return {
-	    bibl_data: false,
-	    ppm: '',
+	    bibl_data: {},
+	    ppm: {},
 	    biblId: 's1',
 	}
     },
@@ -382,6 +382,7 @@ Vue.component('issueHeader', {
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.biblId = bibl.decls_id
+	    this.ppm = this.bibl_data = undefined
 	    this.setPpm()
 	    this.setBiblData()
 	})
@@ -391,7 +392,7 @@ Vue.component('issueHeader', {
 	this.setBiblData()
     },
     template: `
-	<div class="issueHeader" v-if="!this.$root.empty(this.bibl_data)">
+	<div class="issueHeader" v-if="this.dataLoaded()">
 	  <div class="bibl">
   	    <div class="issueMeta" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
 	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
@@ -413,6 +414,9 @@ Vue.component('issueHeader', {
 	</div>
 	`,
     methods: {
+	dataLoaded: function () {
+	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
+	},
 	drawerIsAvailable: function() {
 	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
 	},
