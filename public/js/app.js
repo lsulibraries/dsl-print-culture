@@ -142,7 +142,7 @@ Vue.component('personography',{
 Vue.component('personIndex', {
     template: `
 	<div class='personIndex' v-if="this.index">
-        <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
+        <person v-for="personObject in this.index.personIndex" :meta="personObject"></person>
         </div>
 	`,
     created() {
@@ -492,11 +492,11 @@ Vue.component('drawer', {
     created() {
 	axios.get('/api/personography/summary/json').then(response => {
 	    this.personography = response.data
-	    this.authorBibls = this.personography.personIndex[0][this.authorId]
+	    this.authorBibls = this.personography.personIndex[this.authorId]
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.showBibls = false
-	    this.authorBibls = this.personography.personIndex[0][this.authorId]
+	    this.authorBibls = this.personography.personIndex[this.authorId]
 	})
 
     },
@@ -1201,6 +1201,7 @@ new Vue({
 	    this.state.content.issue.id = id;
 	    this.state.content.issue.page = 1;
 	    this.state.content.issue.decls_id = '';
+	    this.state.content.searchString = '';
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.state.content.issue.id = bibl.issueId
