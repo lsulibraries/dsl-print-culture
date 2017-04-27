@@ -664,7 +664,7 @@ Vue.component('child-piece',{
 		}
 	},
 	template:`
-		<div v-if="meSeen" class="childPiece" @click='tocItemSelected'>
+		<div class="childPiece" @click='tocItemSelected'>
 			<div class="childPieceTitle">{{id.title}}</div>
             <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
 		<div>
