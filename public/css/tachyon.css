@@ -317,13 +317,33 @@ input:focus {
   flex-grow: 1;
 }
 
-.person .contributing {
+.Contributing .personName {
   color: white;
 }
 
 .personName {
   font-size: 1.5em;
   font-weight: 700;
+}
+
+.Contributing .personRole {
+  background: white;
+  color: #fe7251;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.Mentioned .personRole {
+  background: #474747;
+  color: #fe7251;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
 }
 
 /*BEGIN SEARCH RESULTS*/
