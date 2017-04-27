@@ -69,7 +69,7 @@
                     </xsl:for-each>
                     <xsl:if test="@role">
                         <personRole>
-                            <xsl:value-of select="@role"/>
+                            <xsl:value-of select="replace(@role,'Author','')"/>
                         </personRole>
                     </xsl:if>
                     <xsl:if test="persName/@ref">
