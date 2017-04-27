@@ -183,8 +183,48 @@ input:focus {
 
 .abouts {
     padding: 40px;
+    background: url(http://i.imgur.com/gHkl0bM.jpg);
+    height: calc(100% - 127px);
+    background-size: cover;
 }
 
+.logo {
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.4vw;
+    line-height: 4.7vw;
+    color: $primary-accent-color;
+}
+
+.about, .technical, .credits {
+    background: #fe7251;
+    margin-top: -20px;
+    color: white;
+    position: relative;
+    padding: 20px;
+    text-transform: uppercase;
+    top: 21px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.abouts > div:nth-last-child(1) {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+
+.logoSubtitle {
+    background: #fe7251;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0em;
+    padding-left: 1vw;
+}
 
 .issue{
   @include flexbox;
