@@ -303,6 +303,42 @@ input:focus {
     color: black;
 }
 
+.childPieceTitle {
+    font-weight: 500;
+    border-left: 2px solid $document-text-color;
+    padding-left: 5px;
+}
+
+/*BEGIN Personograpy*/
+
+.personIndex {
+    @include flexbox;
+    flex-wrap: wrap;
+}
+
+.personFilter input {
+    width: 100%;
+    font-size: 2em;
+    height: 140px;
+    padding: 40px;
+}
+
+.person {
+    background: $primary-accent-color;
+    margin: 0px 1px 1px 0px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.person .contributing{
+  color: white;
+}
+
+.personName {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
 /*BEGIN SEARCH RESULTS*/
 
 .searchResults::before {
