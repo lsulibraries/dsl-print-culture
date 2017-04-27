@@ -65,8 +65,7 @@ body {
 
 .header{
 	 @include flexbox;
-    border-bottom: 1px solid $light-border-color;   
-    position: relative;
+   position: relative;
 }
 
 .header a{
@@ -185,13 +184,13 @@ input:focus {
 
 .interIssueNav{
     @include flexbox;
-    position: relative;
-    left: 5px;
+    align-content: flex-start;    
+    margin: 1px 0px 0px 0px;
     background: white;
-    top: 5px;
-    padding: 10px;
+    padding: 20px;
     font-weight: 700;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;  
+    width: 30%;    
 }
 
 .tocDropdown {
@@ -205,6 +204,60 @@ input:focus {
 
 .author{
       font-weight: 500;
+}
+
+.issueIndex {
+    margin-bottom: 10px;
+}
+
+.issueBody {
+    background: white;
+    margin-top: 1;
+    margin-left: 1px;
+    flex-grow: 2;    
+    padding: 40px;
+    width: 70%;    
+}
+
+
+
+.singleText {
+    background: $light-border-color;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+.singleIndex:nth-child(1) {
+    width: 100%;
+}
+
+.issueIndex {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+}
+
+.singleIndex.activeMonth {
+
+    @include flexbox;
+    background: $primary-accent-color; 
+    color: $primary-accent-color;
+}
+
+.singleText {
+    background: $light-border-color;
+    padding: 13px;
+    margin: 1px;
+    width: 40px;
+}
+
+.childIndex {
+    @include flexCenter;
+    background: $primary-accent-color;
+    margin-bottom: 1px;
+    padding: 10px 15px 10px 15px;
+    color: white;
 }
 /*BEGIN High Contrast Mode*/
 .highContrast{

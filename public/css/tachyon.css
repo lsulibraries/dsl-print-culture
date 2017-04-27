@@ -12,7 +12,6 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  border-bottom: 1px solid #e9e9e9;
   position: relative;
 }
 
@@ -161,13 +160,13 @@ input:focus {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  position: relative;
-  left: 5px;
+  align-content: flex-start;
+  margin: 1px 0px 0px 0px;
   background: white;
-  top: 5px;
-  padding: 10px;
+  padding: 20px;
   font-weight: 700;
   flex-wrap: wrap;
+  width: 30%;
 }
 
 .tocDropdown {
@@ -180,6 +179,67 @@ input:focus {
 
 .author {
   font-weight: 500;
+}
+
+.issueIndex {
+  margin-bottom: 10px;
+}
+
+.issueBody {
+  background: white;
+  margin-top: 1;
+  margin-left: 1px;
+  flex-grow: 2;
+  padding: 40px;
+  width: 70%;
+}
+
+.singleText {
+  background: #e9e9e9;
+  padding: 5px;
+  margin-bottom: 1px;
+}
+
+.singleIndex:nth-child(1) {
+  width: 100%;
+}
+
+.issueIndex {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.singleIndex.activeMonth {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  background: #fe7251;
+  color: #fe7251;
+}
+
+.singleText {
+  background: #e9e9e9;
+  padding: 13px;
+  margin: 1px;
+  width: 40px;
+}
+
+.childIndex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fe7251;
+  margin-bottom: 1px;
+  padding: 10px 15px 10px 15px;
+  color: white;
 }
 
 /*BEGIN High Contrast Mode*/
