@@ -27,7 +27,8 @@ class IssuesController extends Controller
     }
 
     function search($searchString){
-        $cmd = "java -cp /vagrant/saxon9he.jar net.sf.saxon.Query -o:/tmp/results.xml  -q:/var/www/dsl-print-cultur/resources/assets/xsl/string_search.xquery search_string=$searchString";
+        $outfile = '/tmp/results.xml';
+        $cmd = "sh " . storage_path('app/public/search.sh') . " " . $outfile . " " . $searchString;
         exec($cmd);
         $xml = simplexml_load_string(file_get_contents('/tmp/results.xml'));
         return response()->json($xml);

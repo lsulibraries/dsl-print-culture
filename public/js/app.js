@@ -272,14 +272,14 @@ Vue.component('personBibl', {
 Vue.component('searchResults',{
     template: `
 	<div class="searchResults">
-          <searchResult v-for="result in results" :result="result"></searchResult>
+        <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
         </div>
 	
     `,
     data(){
 	return {
 	    results: {},
-	    searchString: 'bishop' //this.$root.state.content.searchString
+	    searchString: this.$root.state.content.searchString
 	}
     },
     created() {
@@ -298,16 +298,33 @@ Vue.component('searchResults',{
 })
 
 Vue.component('searchResult',{
-    props: ['issueId', 'pieceId'],
+    props: ['result', 'searchString'],
     methods: {
 	resultClicked: function(){
-	    console.log('resultClicked ' + this.issueId + this.pieceId)
+	    this.$root.state.content.issue.id = this.result.issueMeta.issueId
+	    this.$root.state.content.issue.decls_id = this.result.pieceMeta.pieceId
+
+	    Event.$emit('activeContentChange', 'issues')
+	    Event.$emit('issueBiblSelected', {
+		issueId: this.result.issueMeta.issueId,
+		pdf_index: 1,
+		decls_id: this.result.pieceMeta.pieceId
+	    })
+	},
+	pieceTitle: function() {
+	    if(Object.keys(this.result.pieceMeta.pieceTitle).length === 0 && this.result.pieceMeta.pieceTitle.constructor === Object){
+		return "---No title found---"
+	    }
+	    return this.result.pieceMeta.pieceTitle
+	},
+	highlightResult: function(){
+	    return this.result.context.toLowerCase().replace(this.searchString, '<span class="searchHit">' + this.searchString +'</span>')
 	}
     },
     template: `
-	<div class="searchResult">
-	<div class="context"></div>
-	<div class="pieceTitle" @click="resultClicked">Click me</div>
+	<div class="searchResult" @click="resultClicked">
+	<div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
+	  <div class="context" v-html="highlightResult()"></div>
 	</div>
     `
 })
@@ -1180,7 +1197,7 @@ new Vue({
     	    this.state.content.issue.page = page;
 	})
 	Event.$on('searchSubmitted', (searchString) => {
-	    this.searchString = searchString
+	    this.state.content.searchString = searchString
 	})
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
