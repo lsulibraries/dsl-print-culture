@@ -878,6 +878,13 @@ Vue.component('tei-markup',{
 	this.getText()
     },
     methods: {
+	highlightText: function(){
+	    needle = this.$root.state.content.searchString
+	    if(needle.length < 1){
+		return this.issueText
+	    }
+	    return this.issueText.toLowerCase().replace(needle, '<span class="searchHit">' + needle +'</span>')
+	},
 	getText: function(){
 	    if(this.biblId){
 		url = '/api/broadwayjournal/'+ this.id + '/piece-text/' + this.biblId;
@@ -925,7 +932,7 @@ Vue.component('tei-markup',{
 	},
     template: `
       <div class='tei-markup'>
-	<div class='teiMarkup' v-html="this.issueText"><div>
+	<div class='teiMarkup' v-html="this.highlightText()"><div>
       </div>
 	`
 })
