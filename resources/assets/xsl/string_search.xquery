@@ -24,18 +24,22 @@ let $page1 := xs:integer($issue//div[@id = '#p1']/div[@class='biblPage']) - 1
 let $pdfIndex := xs:integer($piece/div[@class='biblPage']) - $page1    
         
 (: calculate context to show :)    
-let $posBegin :=  
-    string-length(substring-before($text, $search_string)) + 1
-let $posEnd :=
-    string-length(substring-before($text, $search_string)) +
-    string-length($search_string)
-let $contextStart := 
-    if ($posBegin > 100) then $posBegin - 100
+let $hitBegin := string-length(substring-before(upper-case($text),upper-case($search_string))) + 1
+let $hitLength := string-length($search_string)
+let $beforeBegin := 
+    if ($hitBegin > 100) then $hitBegin - 100
     else 1
-let $contextLength := 
-    string-length($search_string) + 200
-let $context :=
-    substring($text,$contextStart,$contextLength)
+let $beforeLength := $hitBegin - $beforeBegin
+let $afterBegin := $hitBegin + $hitLength
+let $afterLength := 200 - $beforeLength
+
+
+let $contextBefore :=
+    substring($text,$beforeBegin,$beforeLength)
+let $searchHit := 
+    substring($text,$hitBegin,$hitLength)
+let $contextAfter := 
+    substring($text,$afterBegin,$afterLength)
 
 (: return search results list :)
 return 
@@ -48,7 +52,8 @@ return
             <piecePdfIndex>{$pdfIndex}</piecePdfIndex>
             <pieceTitle>{$pieceTitle}</pieceTitle>
         </pieceMeta>
-        <context>...{$context}...</context>
+        <context>...{$contextBefore}<span class='searchHit'>{$searchHit}</span>{$contextAfter}...</context>
+        
     </searchResult>
 }
 
