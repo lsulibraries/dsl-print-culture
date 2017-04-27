@@ -221,6 +221,7 @@ input:focus {
 
 .tocItem {
     padding: 5px;
+    cursor: pointer;
 }
 
 
@@ -307,6 +308,17 @@ input:focus {
     font-weight: 500;
     border-left: 2px solid $document-text-color;
     padding-left: 5px;
+    @include transition(.5s);
+}
+
+.piece{
+    @include transition(.5s);
+}
+
+.childPieceTitle:hover, .piece:hover{
+  padding-left: 10px;
+  @include transition(0s);
+      color: $primary-accent-color;
 }
 
 .issueVol, .issueNum {
@@ -333,7 +345,7 @@ input:focus {
     padding: 40px;
 }
 
-.person {
+.personIndex .person {
     background: $primary-accent-color;
     margin: 0px 1px 1px 0px;
     padding: 20px;

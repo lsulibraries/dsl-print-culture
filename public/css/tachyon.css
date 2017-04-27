@@ -195,6 +195,7 @@ input:focus {
 
 .tocItem {
   padding: 5px;
+  cursor: pointer;
 }
 
 .author {
@@ -291,6 +292,26 @@ input:focus {
   font-weight: 500;
   border-left: 2px solid #474747;
   padding-left: 5px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.piece {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.childPieceTitle:hover, .piece:hover {
+  padding-left: 10px;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
+  color: #fe7251;
 }
 
 .issueVol, .issueNum {
@@ -320,7 +341,7 @@ input:focus {
   padding: 40px;
 }
 
-.person {
+.personIndex .person {
   background: #fe7251;
   margin: 0px 1px 1px 0px;
   padding: 20px;
