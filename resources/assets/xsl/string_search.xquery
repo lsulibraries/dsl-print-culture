@@ -4,8 +4,9 @@ declare variable $search_string as xs:string+ external;
 <searchResults>
 
 {
-(: get search string input == PLACEHOLDER :)
-(:let $search_string := 'Bishop' :)
+
+(: fake search_string for testing... :)
+(: let $search_string := 'bishop' :)
 
 (: match search string within text :)
 for $issue in collection('issue_text')
@@ -17,7 +18,11 @@ let $piece := $text/ancestor::div[@class='piece' or @class='section'][1]
 let $issueId := $issue//div[@class='issueId']/text()
 let $pieceId := substring-after($piece/@id,'#')
 let $pieceTitle := $piece/div[@class='biblTitle']/text()
-    
+
+(: calculate pdfIndex :)
+let $page1 := xs:integer($issue//div[@id = '#p1']/div[@class='biblPage']) - 1
+let $pdfIndex := xs:integer($piece/div[@class='biblPage']) - $page1    
+        
 (: calculate context to show :)    
 let $posBegin :=  
     string-length(substring-before($text, $search_string)) + 1
@@ -40,6 +45,7 @@ return
         </issueMeta>
         <pieceMeta>
             <pieceId>{$pieceId}</pieceId>
+            <piecePdfIndex>{$pdfIndex}</piecePdfIndex>
             <pieceTitle>{$pieceTitle}</pieceTitle>
         </pieceMeta>
         <context>...{$context}...</context>

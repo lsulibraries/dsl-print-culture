@@ -6,7 +6,7 @@
             <personId>anon</personId>
             <personName>Anonymous</personName>
             <personInit>A</personInit>
-            <personTotalContrib>211</personTotalContrib>
+            <personTotalContrib>196</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450315-p10>
@@ -359,31 +359,6 @@
                <pieceId>p12</pieceId>
                <personPieceMetaId>ppm-18450215-p12-anon</personPieceMetaId>
             </bibl-18450215-p12>
-            <bibl-18450215-p15>
-               <issueId>18450215</issueId>
-               <pieceId>p15</pieceId>
-               <personPieceMetaId>ppm-18450215-p15-anon</personPieceMetaId>
-            </bibl-18450215-p15>
-            <bibl-18450215-p16>
-               <issueId>18450215</issueId>
-               <pieceId>p16</pieceId>
-               <personPieceMetaId>ppm-18450215-p16-anon</personPieceMetaId>
-            </bibl-18450215-p16>
-            <bibl-18450215-p17>
-               <issueId>18450215</issueId>
-               <pieceId>p17</pieceId>
-               <personPieceMetaId>ppm-18450215-p17-anon</personPieceMetaId>
-            </bibl-18450215-p17>
-            <bibl-18450215-p18>
-               <issueId>18450215</issueId>
-               <pieceId>p18</pieceId>
-               <personPieceMetaId>ppm-18450215-p18-anon</personPieceMetaId>
-            </bibl-18450215-p18>
-            <bibl-18450215-p19>
-               <issueId>18450215</issueId>
-               <pieceId>p19</pieceId>
-               <personPieceMetaId>ppm-18450215-p19-anon</personPieceMetaId>
-            </bibl-18450215-p19>
             <bibl-18450215-s6>
                <issueId>18450215</issueId>
                <pieceId>s6</pieceId>
@@ -644,36 +619,6 @@
                <pieceId>p18</pieceId>
                <personPieceMetaId>ppm-18450621-p18-anon</personPieceMetaId>
             </bibl-18450621-p18>
-            <bibl-18450308-p2>
-               <issueId>18450308</issueId>
-               <pieceId>p2</pieceId>
-               <personPieceMetaId>ppm-18450308-p2-anon</personPieceMetaId>
-            </bibl-18450308-p2>
-            <bibl-18450308-p10>
-               <issueId>18450308</issueId>
-               <pieceId>p10</pieceId>
-               <personPieceMetaId>ppm-18450308-p10-anon</personPieceMetaId>
-            </bibl-18450308-p10>
-            <bibl-18450308-p11>
-               <issueId>18450308</issueId>
-               <pieceId>p11</pieceId>
-               <personPieceMetaId>ppm-18450308-p11-anon</personPieceMetaId>
-            </bibl-18450308-p11>
-            <bibl-18450308-p12>
-               <issueId>18450308</issueId>
-               <pieceId>p12</pieceId>
-               <personPieceMetaId>ppm-18450308-p12-anon</personPieceMetaId>
-            </bibl-18450308-p12>
-            <bibl-18450308-p13>
-               <issueId>18450308</issueId>
-               <pieceId>p13</pieceId>
-               <personPieceMetaId>ppm-18450308-p13-anon</personPieceMetaId>
-            </bibl-18450308-p13>
-            <bibl-18450308-p16>
-               <issueId>18450308</issueId>
-               <pieceId>p16</pieceId>
-               <personPieceMetaId>ppm-18450308-p16-anon</personPieceMetaId>
-            </bibl-18450308-p16>
             <bibl-18450308-p17>
                <issueId>18450308</issueId>
                <pieceId>p17</pieceId>
@@ -694,31 +639,16 @@
                <pieceId>p20</pieceId>
                <personPieceMetaId>ppm-18450308-p20-anon</personPieceMetaId>
             </bibl-18450308-p20>
-            <bibl-18450308-p21>
-               <issueId>18450308</issueId>
-               <pieceId>p21</pieceId>
-               <personPieceMetaId>ppm-18450308-p21-anon</personPieceMetaId>
-            </bibl-18450308-p21>
-            <bibl-18450308-p22>
-               <issueId>18450308</issueId>
-               <pieceId>p22</pieceId>
-               <personPieceMetaId>ppm-18450308-p22-anon</personPieceMetaId>
-            </bibl-18450308-p22>
-            <bibl-18450308-p23>
-               <issueId>18450308</issueId>
-               <pieceId>p23</pieceId>
-               <personPieceMetaId>ppm-18450308-p23-anon</personPieceMetaId>
-            </bibl-18450308-p23>
-            <bibl-18450308-p24>
-               <issueId>18450308</issueId>
-               <pieceId>p24</pieceId>
-               <personPieceMetaId>ppm-18450308-p24-anon</personPieceMetaId>
-            </bibl-18450308-p24>
             <bibl-18450308-p27>
                <issueId>18450308</issueId>
                <pieceId>p27</pieceId>
                <personPieceMetaId>ppm-18450308-p27-anon</personPieceMetaId>
             </bibl-18450308-p27>
+            <bibl-18450308-p29>
+               <issueId>18450308</issueId>
+               <pieceId>p29</pieceId>
+               <personPieceMetaId>ppm-18450308-p29-anon</personPieceMetaId>
+            </bibl-18450308-p29>
             <bibl-18450927-p23>
                <issueId>18450927</issueId>
                <pieceId>p23</pieceId>
@@ -754,11 +684,6 @@
                <pieceId>p15</pieceId>
                <personPieceMetaId>ppm-18450201-p15-anon</personPieceMetaId>
             </bibl-18450201-p15>
-            <bibl-18450201-s4>
-               <issueId>18450201</issueId>
-               <pieceId>s4</pieceId>
-               <personPieceMetaId>ppm-18450201-s4-anon</personPieceMetaId>
-            </bibl-18450201-s4>
             <bibl-18450201-p22>
                <issueId>18450201</issueId>
                <pieceId>p22</pieceId>
@@ -1090,7 +1015,15 @@
                <personBirth>Born 1819 in Pleasant Valley, New York.</personBirth>
                <personDeath>Died 1892 in New York.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p17>
+               <issueId>18450208</issueId>
+               <pieceId>p17</pieceId>
+               <personPieceMetaId>ppm-18450208-p17-dadee</personPieceMetaId>
+            </bibl-18450208-p17>
+         </personListBibl>
       </dadee>
       <whainsworth>
          <personMeta>
@@ -1103,7 +1036,15 @@
                <personBirth>Born February 4, 1805 in Manchester, England.</personBirth>
                <personDeath>Died January 3, 1882 in Reigate, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-whainsworth</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </whainsworth>
       <alolo>
          <personMeta>
@@ -1127,7 +1068,16 @@
             <personName>J. Akerly</personName>
             <personInit>JA</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p18>
+               <issueId>18450315</issueId>
+               <pieceId>p18</pieceId>
+               <personPieceMetaId>ppm-18450315-p18-jakerly</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-p18>
+         </personListBibl>
       </jakerly>
       <jaldrich>
          <personMeta>
@@ -1140,7 +1090,16 @@
                <personBirth>Born July 14, 1810 in Mattituck, New York.</personBirth>
                <personDeath>Died September 9, 1856.</personDeath>
             </personBio>
+            <personTotalMention>15</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p2>
+               <issueId>18450315</issueId>
+               <pieceId>p2</pieceId>
+               <personPieceMetaId>ppm-18450315-p2-jaldrich</personPieceMetaId>
+               <personPieceTotalMention>15</personPieceTotalMention>
+            </bibl-18450315-p2>
+         </personListBibl>
       </jaldrich>
       <dalighieri>
          <personMeta>
@@ -1166,7 +1125,16 @@
                <personBirth>Born December 29, 1792 in Kenley, England.</personBirth>
                <personDeath>Died May 23, 1867 in Glasgow, Scotland.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p16>
+               <issueId>18450208</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450208-p16-aalison</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-p16>
+         </personListBibl>
       </aalison>
       <pallen>
          <personMeta>
@@ -1179,7 +1147,15 @@
                <personBirth>Born February 15, 1775 in Providence, Rhode Island.</personBirth>
                <personDeath>Died August 18, 1826.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p3>
+               <issueId>18450308</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450308-p3-pallen</personPieceMetaId>
+            </bibl-18450308-p3>
+         </personListBibl>
       </pallen>
       <earam>
          <personMeta>
@@ -1192,7 +1168,15 @@
                <personBirth>Born 1704 in Ramsgill, England.</personBirth>
                <personDeath>Died August 6, 1759 in York, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-earam</personPieceMetaId>
+            </bibl-18450315-s4>
+         </personListBibl>
       </earam>
       <wsarcher>
          <personMeta>
@@ -1205,7 +1189,16 @@
                <personBirth>Born March 5, 1789 in Amelia County, Virginia.</personBirth>
                <personDeath>Died March 28, 1855 in Amelia County, Virginia.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-wsarcher</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </wsarcher>
       <aristides>
          <personMeta>
@@ -1218,8 +1211,29 @@
                <personBirth>Born 530 B.C..</personBirth>
                <personDeath>Died 468 B.C..</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p14>
+               <issueId>18450215</issueId>
+               <pieceId>p14</pieceId>
+               <personPieceMetaId>ppm-18450215-p14-aristides</personPieceMetaId>
+            </bibl-18450215-p14>
+         </personListBibl>
       </aristides>
+      <aristotle>
+         <personMeta>
+            <personId>aristotle</personId>
+            <personName>Aristotle</personName>
+            <personInit>A</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/7524651</personViaf>
+            <personBio>
+               <personBirth>Born 384 B.C. in Stagira, Northern Greece.</personBirth>
+               <personDeath>Died 322 B.C. in Euboea, Greece.</personDeath>
+            </personBio>
+         </personMeta>
+      </aristotle>
       <bvarnim>
          <personMeta>
             <personId>bvarnim</personId>
@@ -1231,7 +1245,15 @@
                <personBirth>Born April 4, 1785 in Frankfort, Germany.</personBirth>
                <personDeath>Died January 20, 1859 in Berlin, Germany.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p15>
+               <issueId>18450308</issueId>
+               <pieceId>p15</pieceId>
+               <personPieceMetaId>ppm-18450308-p15-bvarnim</personPieceMetaId>
+            </bibl-18450308-p15>
+         </personListBibl>
       </bvarnim>
       <tarnold>
          <personMeta>
@@ -1244,7 +1266,16 @@
                <personBirth>Born June 13, 1795 in Isle of Wight, England.</personBirth>
                <personDeath>Died June 12, 1842 in Rugby, England.</personDeath>
             </personBio>
+            <personTotalMention>4</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-tarnold</personPieceMetaId>
+               <personPieceTotalMention>4</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </tarnold>
       <pb>
          <personMeta>
@@ -1273,8 +1304,29 @@
                <personBirth>Born 1219 in Ilchester, England.</personBirth>
                <personDeath>Died 1292 in Oxford, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p10>
+               <issueId>18450315</issueId>
+               <pieceId>p10</pieceId>
+               <personPieceMetaId>ppm-18450315-p10-rbacon</personPieceMetaId>
+            </bibl-18450315-p10>
+         </personListBibl>
       </rbacon>
+      <gbancroft>
+         <personMeta>
+            <personId>gbancroft</personId>
+            <personName>George Bancroft</personName>
+            <personInit>GB</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/39386684</personViaf>
+            <personBio>
+               <personBirth>Born October 3, 1800 in Worchester, Massachusetts.</personBirth>
+               <personDeath>Died January 17, 1891 in Washington, D.C..</personDeath>
+            </personBio>
+         </personMeta>
+      </gbancroft>
       <ddbarnard>
          <personMeta>
             <personId>ddbarnard</personId>
@@ -1286,7 +1338,16 @@
                <personBirth>Born July 16, 1797 in Sheffield, Massachusetts.</personBirth>
                <personDeath>Died April 24, 1861 in Albany, New York.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-ddbarnard</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </ddbarnard>
       <clbarritt>
          <personMeta>
@@ -1315,7 +1376,15 @@
                <personBirth>Born February 2, 1787 in England.</personBirth>
                <personDeath>Died October 11, 1854 in United States.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p12>
+               <issueId>18450215</issueId>
+               <pieceId>p12</pieceId>
+               <personPieceMetaId>ppm-18450215-p12-bbates</personPieceMetaId>
+            </bibl-18450215-p12>
+         </personListBibl>
       </bbates>
       <fbathos>
          <personMeta>
@@ -1344,7 +1413,15 @@
                <personBirth>Born October 25, 1735 in Laurencekirk, Scotland.</personBirth>
                <personDeath>Died August 18, 1803 in Aberdeen, Scotland.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-jbeattie</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </jbeattie>
       <cbell>
          <personMeta>
@@ -1357,7 +1434,15 @@
                <personBirth>Born November 12, 1774 in Edinburgh, Scotland.</personBirth>
                <personDeath>Died April 28, 1842 in Worcester, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-s7>
+               <issueId>18450308</issueId>
+               <pieceId>s7</pieceId>
+               <personPieceMetaId>ppm-18450308-s7-cbell</personPieceMetaId>
+            </bibl-18450308-s7>
+         </personListBibl>
       </cbell>
       <pbenjamin>
          <personMeta>
@@ -1371,6 +1456,7 @@
                <personDeath>Died September 12, 1864 in Long Island, New York.</personDeath>
             </personBio>
             <personTotalContrib>1</personTotalContrib>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450920-p1>
@@ -1378,6 +1464,11 @@
                <pieceId>p1</pieceId>
                <personPieceMetaId>ppm-18450920-p1-pbenjamin</personPieceMetaId>
             </bibl-18450920-p1>
+            <bibl-18450315-p1>
+               <issueId>18450315</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450315-p1-pbenjamin</personPieceMetaId>
+            </bibl-18450315-p1>
          </personListBibl>
       </pbenjamin>
       <jmberrien>
@@ -1391,7 +1482,16 @@
                <personBirth>Born August 23, 1781 in Rocky Hill, New Jersey.</personBirth>
                <personDeath>Died January 1, 1856 in Savannah, Georgia.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-jmberrien</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </jmberrien>
       <hjbertini>
          <personMeta>
@@ -1404,7 +1504,16 @@
                <personBirth>Born October 28, 1798 in London, England.</personBirth>
                <personDeath>Died September 30, 1876 in Meylan, France.</personDeath>
             </personBio>
+            <personTotalMention>4</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p13>
+               <issueId>18450315</issueId>
+               <pieceId>p13</pieceId>
+               <personPieceMetaId>ppm-18450315-p13-hjbertini</personPieceMetaId>
+               <personPieceTotalMention>4</personPieceTotalMention>
+            </bibl-18450315-p13>
+         </personListBibl>
       </hjbertini>
       <jbisco>
          <personMeta>
@@ -1412,7 +1521,7 @@
             <personName>John Bisco</personName>
             <personInit>JB</personInit>
             <personRole>Contributing Editor</personRole>
-            <personTotalContrib>5</personTotalContrib>
+            <personTotalContrib>4</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450208-p26>
@@ -1420,11 +1529,6 @@
                <pieceId>p26</pieceId>
                <personPieceMetaId>ppm-18450208-p26-jbisco</personPieceMetaId>
             </bibl-18450208-p26>
-            <bibl-18450308-p29>
-               <issueId>18450308</issueId>
-               <pieceId>p29</pieceId>
-               <personPieceMetaId>ppm-18450308-p29-jbisco</personPieceMetaId>
-            </bibl-18450308-p29>
             <bibl-18450201-p37>
                <issueId>18450201</issueId>
                <pieceId>p37</pieceId>
@@ -1442,6 +1546,19 @@
             </bibl-18451206-p20>
          </personListBibl>
       </jbisco>
+      <fbremer>
+         <personMeta>
+            <personId>fbremer</personId>
+            <personName>Fredrika Bremer</personName>
+            <personInit>FB</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/24616251</personViaf>
+            <personBio>
+               <personBirth>Born August 17, 1801 in Abo, Sweden.</personBirth>
+               <personDeath>Died December 31, 1865 in Arsta Castle, Sweden.</personDeath>
+            </personBio>
+         </personMeta>
+      </fbremer>
       <cfbriggs>
          <personMeta>
             <personId>cfbriggs</personId>
@@ -1453,7 +1570,8 @@
                <personBirth>Born December 3, 1804 in Nantucket, Massachusetts.</personBirth>
                <personDeath>Died June 20, 1877 in Brooklyn, New York.</personDeath>
             </personBio>
-            <personTotalContrib>48</personTotalContrib>
+            <personTotalContrib>54</personTotalContrib>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450517-p4>
@@ -1531,6 +1649,11 @@
                <pieceId>p21</pieceId>
                <personPieceMetaId>ppm-18450301-p21-cfbriggs</personPieceMetaId>
             </bibl-18450301-p21>
+            <bibl-18450215-p1>
+               <issueId>18450215</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450215-p1-cfbriggs</personPieceMetaId>
+            </bibl-18450215-p1>
             <bibl-18450215-p2>
                <issueId>18450215</issueId>
                <pieceId>p2</pieceId>
@@ -1551,11 +1674,36 @@
                <pieceId>p14</pieceId>
                <personPieceMetaId>ppm-18450215-p14-cfbriggs</personPieceMetaId>
             </bibl-18450215-p14>
+            <bibl-18450215-s5>
+               <issueId>18450215</issueId>
+               <pieceId>s5</pieceId>
+               <personPieceMetaId>ppm-18450215-s5-cfbriggs</personPieceMetaId>
+            </bibl-18450215-s5>
             <bibl-18450308-p1>
                <issueId>18450308</issueId>
                <pieceId>p1</pieceId>
                <personPieceMetaId>ppm-18450308-p1-cfbriggs</personPieceMetaId>
             </bibl-18450308-p1>
+            <bibl-18450308-p2>
+               <issueId>18450308</issueId>
+               <pieceId>p2</pieceId>
+               <personPieceMetaId>ppm-18450308-p2-cfbriggs</personPieceMetaId>
+            </bibl-18450308-p2>
+            <bibl-18450308-p11>
+               <issueId>18450308</issueId>
+               <pieceId>p11</pieceId>
+               <personPieceMetaId>ppm-18450308-p11-cfbriggs</personPieceMetaId>
+            </bibl-18450308-p11>
+            <bibl-18450308-p12>
+               <issueId>18450308</issueId>
+               <pieceId>p12</pieceId>
+               <personPieceMetaId>ppm-18450308-p12-cfbriggs</personPieceMetaId>
+            </bibl-18450308-p12>
+            <bibl-18450308-p13>
+               <issueId>18450308</issueId>
+               <pieceId>p13</pieceId>
+               <personPieceMetaId>ppm-18450308-p13-cfbriggs</personPieceMetaId>
+            </bibl-18450308-p13>
             <bibl-18450531-p6>
                <issueId>18450531</issueId>
                <pieceId>p6</pieceId>
@@ -1696,6 +1844,11 @@
                <pieceId>p8</pieceId>
                <personPieceMetaId>ppm-18450412-p8-cfbriggs</personPieceMetaId>
             </bibl-18450412-p8>
+            <bibl-18450308-p3>
+               <issueId>18450308</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450308-p3-cfbriggs</personPieceMetaId>
+            </bibl-18450308-p3>
          </personListBibl>
       </cfbriggs>
       <cpbronson>
@@ -1723,6 +1876,32 @@
             </personBio>
          </personMeta>
       </cbbrown>
+      <ebbrowning>
+         <personMeta>
+            <personId>ebbrowning</personId>
+            <personName>Elizabeth Barrett Browning</personName>
+            <personInit>EBB</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/66464493</personViaf>
+            <personBio>
+               <personBirth>Born March 6, 1806 in Kelloe, Durham, England.</personBirth>
+               <personDeath>Died June 29, 1861 in Florence, Italy.</personDeath>
+            </personBio>
+         </personMeta>
+      </ebbrowning>
+      <jsbuckingham>
+         <personMeta>
+            <personId>jsbuckingham</personId>
+            <personName>James Silk Buckingham</personName>
+            <personInit>JSB</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/54910363</personViaf>
+            <personBio>
+               <personBirth>Born August 25, 1786 in Flushing, Cornwall, England.</personBirth>
+               <personDeath>Died June 30, 1855 in London, England.</personDeath>
+            </personBio>
+         </personMeta>
+      </jsbuckingham>
       <gbush>
          <personMeta>
             <personId>gbush</personId>
@@ -1734,7 +1913,15 @@
                <personBirth>Born June 12, 1796 in Norwich, Vermont.</personBirth>
                <personDeath>Died September 19, 1859 in Rochester, New York.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p22>
+               <issueId>18450315</issueId>
+               <pieceId>p22</pieceId>
+               <personPieceMetaId>ppm-18450315-p22-gbush</personPieceMetaId>
+            </bibl-18450315-p22>
+         </personListBibl>
       </gbush>
       <wcbryant>
          <personMeta>
@@ -1747,7 +1934,16 @@
                <personBirth>Born November 3, 1794 in Cummington, Massachusetts.</personBirth>
                <personDeath>Died June 12, 1878 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>5</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p16>
+               <issueId>18450208</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450208-p16-wcbryant</personPieceMetaId>
+               <personPieceTotalMention>5</personPieceTotalMention>
+            </bibl-18450208-p16>
+         </personListBibl>
       </wcbryant>
       <fburney>
          <personMeta>
@@ -1760,7 +1956,15 @@
                <personBirth>Born June 13, 1752 in Lynn Regis (now King's Lynn), England.</personBirth>
                <personDeath>Died January 6, 1840 in Bath, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-fburney</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </fburney>
       <ehburrington>
          <personMeta>
@@ -1801,7 +2005,15 @@
                <personBirth>Born July 27, 1777 in Glasgow, Scotland.</personBirth>
                <personDeath>Died June 15, 1844 in Boulogne, France.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-tcampbell</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </tcampbell>
       <ecantwell>
          <personMeta>
@@ -1823,7 +2035,16 @@
                <personBirth>Born December 4, 1795 in Ecclefechan, Scotland.</personBirth>
                <personDeath>Died February 5, 1881 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p30>
+               <issueId>18450208</issueId>
+               <pieceId>p30</pieceId>
+               <personPieceMetaId>ppm-18450208-p30-tcarlyle</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-p30>
+         </personListBibl>
       </tcarlyle>
       <rcarter>
          <personMeta>
@@ -1872,7 +2093,15 @@
                <personBirth>Born February 27, 1799 in London, England.</personBirth>
                <personDeath>Died September 27, 1854 in Atlantic Ocean.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-fcatherwood</personPieceMetaId>
+            </bibl-18450208-s8>
+         </personListBibl>
       </fcatherwood>
       <gcatlin>
          <personMeta>
@@ -1885,7 +2114,15 @@
                <personBirth>Born July 26, 1796 in Wilkes-Barre, Pennsylvania.</personBirth>
                <personDeath>Died December 23, 1872 in Jersey City, New Jersey.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p19>
+               <issueId>18450208</issueId>
+               <pieceId>p19</pieceId>
+               <personPieceMetaId>ppm-18450208-p19-gcatlin</personPieceMetaId>
+            </bibl-18450208-p19>
+         </personListBibl>
       </gcatlin>
       <wcarleton>
          <personMeta>
@@ -1898,7 +2135,16 @@
                <personBirth>Born February 20, 1794 in Prolusk (Prillisk), Ireland.</personBirth>
                <personDeath>Died January 30, 1869 in Dublin, Ireland.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p23>
+               <issueId>18450315</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450315-p23-wcarleton</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-p23>
+         </personListBibl>
       </wcarleton>
       <cdcennini>
          <personMeta>
@@ -1910,7 +2156,15 @@
             <personBio>
                <personBirth>Born in Colle di Val d'Elsa, Italy.</personBirth>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-s7>
+               <issueId>18450308</issueId>
+               <pieceId>s7</pieceId>
+               <personPieceMetaId>ppm-18450308-s7-cdcennini</personPieceMetaId>
+            </bibl-18450308-s7>
+         </personListBibl>
       </cdcennini>
       <wechanning>
          <personMeta>
@@ -1923,7 +2177,16 @@
                <personBirth>Born April 7, 1780 in Newport, Rhode Island.</personBirth>
                <personDeath>Died October 2, 1842 in Old Bennington, Vermont.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p1>
+               <issueId>18450315</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450315-p1-wechanning</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-p1>
+         </personListBibl>
       </wechanning>
       <lmchild>
          <personMeta>
@@ -1936,19 +2199,20 @@
                <personBirth>Born February 11, 1802 in Medford, Massachusetts.</personBirth>
                <personDeath>Died October 20, 1880 in Wayland, Massachusetts.</personDeath>
             </personBio>
-            <personTotalContrib>2</personTotalContrib>
+            <personTotalContrib>1</personTotalContrib>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
          <personListBibl>
-            <bibl-18450215-p1>
-               <issueId>18450215</issueId>
-               <pieceId>p1</pieceId>
-               <personPieceMetaId>ppm-18450215-p1-lmchild</personPieceMetaId>
-            </bibl-18450215-p1>
             <bibl-18450215-p4>
                <issueId>18450215</issueId>
                <pieceId>p4</pieceId>
                <personPieceMetaId>ppm-18450215-p4-lmchild</personPieceMetaId>
             </bibl-18450215-p4>
+            <bibl-18450308-p3>
+               <issueId>18450308</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450308-p3-lmchild</personPieceMetaId>
+            </bibl-18450308-p3>
          </personListBibl>
       </lmchild>
       <thchivers>
@@ -1988,7 +2252,16 @@
                <personBirth>Born October 1, 1799 in Ipswich, Massachusetts.</personBirth>
                <personDeath>Died July 13, 1859 in Halifax, Nova Scotia.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-rchoate</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </rchoate>
       <cchurchill>
          <personMeta>
@@ -2000,7 +2273,15 @@
                <personBirth>Born 1732 in London, England.</personBirth>
                <personDeath>Died November 4, 1764 in Boulogne-sur-Mer, France.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p19>
+               <issueId>18450215</issueId>
+               <pieceId>p19</pieceId>
+               <personPieceMetaId>ppm-18450215-p19-cchurchill</personPieceMetaId>
+            </bibl-18450215-p19>
+         </personListBibl>
       </cchurchill>
       <ljcist>
          <personMeta>
@@ -2043,7 +2324,16 @@
                <personBirth>Born July 27, 1812 in Huntsville (now Yadkin County), North Carolina.</personBirth>
                <personDeath>Died November 3, 1897 in Morganton, North Carolina.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-tlclingman</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </tlclingman>
       <wcobbett>
          <personMeta>
@@ -2056,7 +2346,15 @@
                <personBirth>Born March 9, 1763 in Farnham, England.</personBirth>
                <personDeath>Died June 18, 1835 in Normandy, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p9>
+               <issueId>18450215</issueId>
+               <pieceId>p9</pieceId>
+               <personPieceMetaId>ppm-18450215-p9-wcobbett</personPieceMetaId>
+            </bibl-18450215-p9>
+         </personListBibl>
       </wcobbett>
       <jgcogswell>
          <personMeta>
@@ -2082,7 +2380,16 @@
                <personBirth>Born October 21, 1772 in Ottery St Mary, England.</personBirth>
                <personDeath>Died July 25, 1834 in Highgate, England.</personDeath>
             </personBio>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p22>
+               <issueId>18450208</issueId>
+               <pieceId>p22</pieceId>
+               <personPieceMetaId>ppm-18450208-p22-stcoleridge</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450208-p22>
+         </personListBibl>
       </stcoleridge>
       <jcollamer>
          <personMeta>
@@ -2095,7 +2402,16 @@
                <personBirth>Born January 8, 1791 in Troy, New York.</personBirth>
                <personDeath>Died November 9, 1865 in Woodstock, Vermont.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-jcollamer</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </jcollamer>
       <colman>
          <personMeta>
@@ -2124,7 +2440,15 @@
                <personBirth>Born October 27, 1818 in Westford, New York.</personBirth>
                <personDeath>Died December 1, 1847.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-ghcolton</personPieceMetaId>
+            </bibl-18450208-s8>
+         </personListBibl>
       </ghcolton>
       <ppcooke>
          <personMeta>
@@ -2171,7 +2495,15 @@
                <personBirth>Born November 26, 1731 in Berkhamsted, England.</personBirth>
                <personDeath>Died April 25, 1800 in East Dereham, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-wcowper</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </wcowper>
       <whcrome>
          <personMeta>
@@ -2241,7 +2573,16 @@
                <personBirth>Born November 15, 1797 in Cambridge, Massachusetts.</personBirth>
                <personDeath>Died February 2, 1879.</personDeath>
             </personBio>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-rhdana</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450215-p3>
+         </personListBibl>
       </rhdana>
       <ldavinci>
          <personMeta>
@@ -2267,7 +2608,15 @@
                <personBirth>Born May 30, 1780 in Aux Cayes, Haiti.</personBirth>
                <personDeath>Died February 15, 1851 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p17>
+               <issueId>18450315</issueId>
+               <pieceId>p17</pieceId>
+               <personPieceMetaId>ppm-18450315-p17-adavezac</personPieceMetaId>
+            </bibl-18450315-p17>
+         </personListBibl>
       </adavezac>
       <hdavy>
          <personMeta>
@@ -2280,7 +2629,15 @@
                <personBirth>Born December 17, 1778 in Penzance, England.</personBirth>
                <personDeath>Died May 29, 1829 in Geneva, Switzerland.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p9>
+               <issueId>18450308</issueId>
+               <pieceId>p9</pieceId>
+               <personPieceMetaId>ppm-18450308-p9-hdavy</personPieceMetaId>
+            </bibl-18450308-p9>
+         </personListBibl>
       </hdavy>
       <jdbdebow>
          <personMeta>
@@ -2335,7 +2692,15 @@
                <personBirth>Born February 7, 1812 in Landport, England.</personBirth>
                <personDeath>Died June 9, 1870 in Higham, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-cdickens</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </cdickens>
       <bdisraeli>
          <personMeta>
@@ -2348,7 +2713,16 @@
                <personBirth>Born December 21, 1804 in London, England.</personBirth>
                <personDeath>Died April 19, 1881 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-bdisraeli</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-p1>
+         </personListBibl>
       </bdisraeli>
       <asdoane>
          <personMeta>
@@ -2362,6 +2736,7 @@
                <personDeath>Died January 27, 1852 in Staten Island, New York.</personDeath>
             </personBio>
             <personTotalContrib>1</personTotalContrib>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450201-p10>
@@ -2369,6 +2744,11 @@
                <pieceId>p10</pieceId>
                <personPieceMetaId>ppm-18450201-p10-asdoane</personPieceMetaId>
             </bibl-18450201-p10>
+            <bibl-18450208-p4>
+               <issueId>18450208</issueId>
+               <pieceId>p4</pieceId>
+               <personPieceMetaId>ppm-18450208-p4-asdoane</personPieceMetaId>
+            </bibl-18450208-p4>
          </personListBibl>
       </asdoane>
       <pdoddridge>
@@ -2384,6 +2764,13 @@
             </personBio>
          </personMeta>
       </pdoddridge>
+      <jdouglas>
+         <personMeta>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
+            <personInit>JD</personInit>
+         </personMeta>
+      </jdouglas>
       <jdryden>
          <personMeta>
             <personId>jdryden</personId>
@@ -2395,7 +2782,16 @@
                <personBirth>Born August 19, 1631 in Aldwincle, England.</personBirth>
                <personDeath>Died May 12, 1700.</personDeath>
             </personBio>
+            <personTotalMention>4</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p6>
+               <issueId>18450315</issueId>
+               <pieceId>p6</pieceId>
+               <personPieceMetaId>ppm-18450315-p6-jdryden</personPieceMetaId>
+               <personPieceTotalMention>4</personPieceTotalMention>
+            </bibl-18450315-p6>
+         </personListBibl>
       </jdryden>
       <gdsdubartas>
          <personMeta>
@@ -2408,7 +2804,15 @@
                <personBirth>Born 1544 in Monfort, France.</personBirth>
                <personDeath>Died July 1590 in Mauvezin, France.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-gdsdubartas</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </gdsdubartas>
       <adumas>
          <personMeta>
@@ -2421,7 +2825,15 @@
                <personBirth>Born July 24, 1802 in Villers-Cotterêts, France.</personBirth>
                <personDeath>Died December 5, 1870 in Puys, France.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p9>
+               <issueId>18450308</issueId>
+               <pieceId>p9</pieceId>
+               <personPieceMetaId>ppm-18450308-p9-adumas</personPieceMetaId>
+            </bibl-18450308-p9>
+         </personListBibl>
       </adumas>
       <fadurivage>
          <personMeta>
@@ -2448,6 +2860,7 @@
                <personDeath>Died August 13, 1878 in New York, New York.</personDeath>
             </personBio>
             <personTotalContrib>1</personTotalContrib>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450201-p5>
@@ -2455,6 +2868,11 @@
                <pieceId>p5</pieceId>
                <personPieceMetaId>ppm-18450201-p5-eaduyckinck</personPieceMetaId>
             </bibl-18450201-p5>
+            <bibl-18450208-p16>
+               <issueId>18450208</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450208-p16-eaduyckinck</personPieceMetaId>
+            </bibl-18450208-p16>
          </personListBibl>
       </eaduyckinck>
       <edyer>
@@ -2489,7 +2907,16 @@
                <personBirth>Born 1812.</personBirth>
                <personDeath>Died 1867.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p21>
+               <issueId>18450315</issueId>
+               <pieceId>p21</pieceId>
+               <personPieceMetaId>ppm-18450315-p21-ceames</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-p21>
+         </personListBibl>
       </ceames>
       <cleastlake>
          <personMeta>
@@ -2502,7 +2929,15 @@
                <personBirth>Born November 17, 1793 in Plymouth, England.</personBirth>
                <personDeath>Died December 24, 1865 in Pisa, Italy.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-cleastlake</personPieceMetaId>
+            </bibl-18450315-s4>
+         </personListBibl>
       </cleastlake>
       <medgeworth>
          <personMeta>
@@ -2515,7 +2950,15 @@
                <personBirth>Born January 1, 1768 in Black Bourton, England.</personBirth>
                <personDeath>Died May 22, 1849 in Edgeworthstown, Ireland.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-medgeworth</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </medgeworth>
       <efellet>
          <personMeta>
@@ -2529,6 +2972,7 @@
                <personDeath>Died June 3, 1877 in New York, New York.</personDeath>
             </personBio>
             <personTotalContrib>2</personTotalContrib>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18451101-p2>
@@ -2541,6 +2985,12 @@
                <pieceId>p1</pieceId>
                <personPieceMetaId>ppm-18451004-p1-efellet</personPieceMetaId>
             </bibl-18451004-p1>
+            <bibl-18450215-p13>
+               <issueId>18450215</issueId>
+               <pieceId>p13</pieceId>
+               <personPieceMetaId>ppm-18450215-p13-efellet</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450215-p13>
          </personListBibl>
       </efellet>
       <cwelmi>
@@ -2549,7 +2999,15 @@
             <personName>C. Wilkins Elmi</personName>
             <personInit>CWE</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p16>
+               <issueId>18450208</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450208-p16-cwelmi</personPieceMetaId>
+            </bibl-18450208-p16>
+         </personListBibl>
       </cwelmi>
       <ecembury>
          <personMeta>
@@ -2562,9 +3020,14 @@
                <personBirth>Born February 25, 1806 in New York, New York.</personBirth>
                <personDeath>Died February 10, 1863 in New York, New York.</personDeath>
             </personBio>
-            <personTotalContrib>1</personTotalContrib>
+            <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
+            <bibl-18450308-p5>
+               <issueId>18450308</issueId>
+               <pieceId>p5</pieceId>
+               <personPieceMetaId>ppm-18450308-p5-ecembury</personPieceMetaId>
+            </bibl-18450308-p5>
             <bibl-18450412-p9>
                <issueId>18450412</issueId>
                <pieceId>p9</pieceId>
@@ -2583,7 +3046,15 @@
                <personBirth>Born May 25, 1803 in Boston, Massachusetts.</personBirth>
                <personDeath>Died April 27, 1882 in Concord, Massachusetts.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p30>
+               <issueId>18450208</issueId>
+               <pieceId>p30</pieceId>
+               <personPieceMetaId>ppm-18450208-p30-rwemerson</personPieceMetaId>
+            </bibl-18450208-p30>
+         </personListBibl>
       </rwemerson>
       <tdenglish>
          <personMeta>
@@ -2597,6 +3068,7 @@
                <personDeath>Died April 1, 1902 in Newark, New Jersey.</personDeath>
             </personBio>
             <personTotalContrib>2</personTotalContrib>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450927-p3>
@@ -2609,6 +3081,12 @@
                <pieceId>p5</pieceId>
                <personPieceMetaId>ppm-18450222-p5-tdenglish</personPieceMetaId>
             </bibl-18450222-p5>
+            <bibl-18450215-p14>
+               <issueId>18450215</issueId>
+               <pieceId>p14</pieceId>
+               <personPieceMetaId>ppm-18450215-p14-tdenglish</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450215-p14>
          </personListBibl>
       </tdenglish>
       <aheverett>
@@ -2652,7 +3130,16 @@
                <personBirth>Born 1777 in Berkhamsted, England.</personBirth>
                <personDeath>Died September 28, 1854 in Isleworth, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-gfield</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-s4>
+         </personListBibl>
       </gfield>
       <hfish>
          <personMeta>
@@ -2665,7 +3152,16 @@
                <personBirth>Born August 3, 1808 in New York, New York.</personBirth>
                <personDeath>Died September 7, 1893 in Garrison, New York.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-hfish</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </hfish>
       <jflaxman>
          <personMeta>
@@ -2678,7 +3174,15 @@
                <personBirth>Born July 6, 1755 in York, England.</personBirth>
                <personDeath>Died December 7, 1826.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-s7>
+               <issueId>18450308</issueId>
+               <pieceId>s7</pieceId>
+               <personPieceMetaId>ppm-18450308-s7-jflaxman</personPieceMetaId>
+            </bibl-18450308-s7>
+         </personListBibl>
       </jflaxman>
       <afletcher>
          <personMeta>
@@ -2691,7 +3195,15 @@
                <personBirth>Born April 8, 1787.</personBirth>
                <personDeath>Died September 30, 1860.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-s8>
+               <issueId>18450215</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450215-s8-afletcher</personPieceMetaId>
+            </bibl-18450215-s8>
+         </personListBibl>
       </afletcher>
       <jfroissart>
          <personMeta>
@@ -2717,7 +3229,16 @@
                <personBirth>Born May 23, 1810 in Cambridge, Massachusetts.</personBirth>
                <personDeath>Died July 19, 1850 in Fire Island, New York.</personDeath>
             </personBio>
+            <personTotalMention>11</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p1>
+               <issueId>18450215</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450215-p1-smfuller</personPieceMetaId>
+               <personPieceTotalMention>11</personPieceTotalMention>
+            </bibl-18450215-p1>
+         </personListBibl>
       </smfuller>
       <ogoldsmith>
          <personMeta>
@@ -2730,7 +3251,15 @@
                <personBirth>Born November 10, 1728 in Kingdom of Ireland.</personBirth>
                <personDeath>Died April 4, 1774 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-ogoldsmith</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </ogoldsmith>
       <gcfullerton>
          <personMeta>
@@ -2743,7 +3272,15 @@
                <personBirth>Born September 23, 1812 in Staffordshire, England.</personBirth>
                <personDeath>Died January 19, 1885 in Bournemouth, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-gcfullerton</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </gcfullerton>
       <fgaleota>
          <personMeta>
@@ -2803,7 +3340,15 @@
                <personBirth>Born May 2, 1779 in Irvine, Scotland.</personBirth>
                <personDeath>Died April 11, 1839 in Greenock, Scotland.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-jgalt</personPieceMetaId>
+            </bibl-18450315-s4>
+         </personListBibl>
       </jgalt>
       <egibbon>
          <personMeta>
@@ -2866,7 +3411,16 @@
                <personBirth>Born 1816.</personBirth>
                <personDeath>Died 1868.</personDeath>
             </personBio>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p20>
+               <issueId>18450208</issueId>
+               <pieceId>p20</pieceId>
+               <personPieceMetaId>ppm-18450208-p20-wmgillespie</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450208-p20>
+         </personListBibl>
       </wmgillespie>
       <jgiven>
          <personMeta>
@@ -2875,6 +3429,7 @@
             <personInit>JG</personInit>
             <personRole>Correspondent</personRole>
             <personTotalContrib>2</personTotalContrib>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450315-p7>
@@ -2887,6 +3442,12 @@
                <pieceId>p6</pieceId>
                <personPieceMetaId>ppm-18450308-p6-jgiven</personPieceMetaId>
             </bibl-18450308-p6>
+            <bibl-18450315-p7>
+               <issueId>18450315</issueId>
+               <pieceId>p7</pieceId>
+               <personPieceMetaId>ppm-18450315-p7-jgiven</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450315-p7>
          </personListBibl>
       </jgiven>
       <wgodwin>
@@ -2900,7 +3461,15 @@
                <personBirth>Born March 3, 1756 in Wisbech, England.</personBirth>
                <personDeath>Died April 7, 1836 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-wgodwin</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </wgodwin>
       <jwvgoethe>
          <personMeta>
@@ -2913,7 +3482,15 @@
                <personBirth>Born August 28, 1749 in Frankfurt-am-Main, Holy Roman Empire.</personBirth>
                <personDeath>Died March 22, 1832 in Weimar, German Confederation.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p5>
+               <issueId>18450208</issueId>
+               <pieceId>p5</pieceId>
+               <personPieceMetaId>ppm-18450208-p5-jwvgoethe</personPieceMetaId>
+            </bibl-18450208-p5>
+         </personListBibl>
       </jwvgoethe>
       <sggoodrich>
          <personMeta>
@@ -2926,7 +3503,15 @@
                <personBirth>Born August 19, 1793 in Ridgefield, Connecticut.</personBirth>
                <personDeath>Died May 9, 1860 in New York.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-sggoodrich</personPieceMetaId>
+            </bibl-18450315-s4>
+         </personListBibl>
       </sggoodrich>
       <cgfgore>
          <personMeta>
@@ -2939,7 +3524,15 @@
                <personBirth>Born February 12, 1798 in London, England.</personBirth>
                <personDeath>Died January 29, 1861.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p23>
+               <issueId>18450315</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450315-p23-cgfgore</personPieceMetaId>
+            </bibl-18450315-p23>
+         </personListBibl>
       </cgfgore>
       <ecjgray>
          <personMeta>
@@ -2952,7 +3545,15 @@
                <personBirth>Born 1800.</personBirth>
                <personDeath>Died 1887.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p23>
+               <issueId>18450208</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450208-p23-ecjgray</personPieceMetaId>
+            </bibl-18450208-p23>
+         </personListBibl>
       </ecjgray>
       <hgreeley>
          <personMeta>
@@ -2965,7 +3566,16 @@
                <personBirth>Born February 3, 1811 in Amherst, New Hampshire.</personBirth>
                <personDeath>Died November 29, 1872 in Pleasantville, New York.</personDeath>
             </personBio>
+            <personTotalMention>6</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p9>
+               <issueId>18450215</issueId>
+               <pieceId>p9</pieceId>
+               <personPieceMetaId>ppm-18450215-p9-hgreeley</personPieceMetaId>
+               <personPieceTotalMention>6</personPieceTotalMention>
+            </bibl-18450215-p9>
+         </personListBibl>
       </hgreeley>
       <jhgreen>
          <personMeta>
@@ -2978,7 +3588,16 @@
                <personBirth>Born 1813 in Ohio.</personBirth>
                <personDeath>Died 1887.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p11>
+               <issueId>18450308</issueId>
+               <pieceId>p11</pieceId>
+               <personPieceMetaId>ppm-18450308-p11-jhgreen</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450308-p11>
+         </personListBibl>
       </jhgreen>
       <rwgriswold>
          <personMeta>
@@ -2991,7 +3610,16 @@
                <personBirth>Born February 13, 1815 in Vermont.</personBirth>
                <personDeath>Died August 27, 1857 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p13>
+               <issueId>18450215</issueId>
+               <pieceId>p13</pieceId>
+               <personPieceMetaId>ppm-18450215-p13-rwgriswold</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450215-p13>
+         </personListBibl>
       </rwgriswold>
       <gguidiccioni>
          <personMeta>
@@ -3125,7 +3753,15 @@
                <personBirth>Born July 1, 1574 in Prestop Park, Leicestershire, England.</personBirth>
                <personDeath>Died September 8, 1656 in Heigham, Norfolk, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p4>
+               <issueId>18450315</issueId>
+               <pieceId>p4</pieceId>
+               <personPieceMetaId>ppm-18450315-p4-jhall</personPieceMetaId>
+            </bibl-18450315-p4>
+         </personListBibl>
       </jhall>
       <schall>
          <personMeta>
@@ -3152,6 +3788,7 @@
                <personDeath>Died November 19, 1867 in Guilford, Connecticut.</personDeath>
             </personBio>
             <personTotalContrib>1</personTotalContrib>
+            <personTotalMention>31</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18451129-p6>
@@ -3159,6 +3796,17 @@
                <pieceId>p6</pieceId>
                <personPieceMetaId>ppm-18451129-p6-fghalleck</personPieceMetaId>
             </bibl-18451129-p6>
+            <bibl-18450315-p1>
+               <issueId>18450315</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450315-p1-fghalleck</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450315-p1>
+            <bibl-18450308-p3>
+               <issueId>18450308</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450308-p3-fghalleck</personPieceMetaId>
+            </bibl-18450308-p3>
          </personListBibl>
       </fghalleck>
       <wthamilton>
@@ -3185,7 +3833,16 @@
                <personBirth>Born January 6, 1810 in Frankfort, Kentucky.</personBirth>
                <personDeath>Died February 23, 1847 in Buena Vista, Mexico.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-jjhardin</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </jjhardin>
       <whauff>
          <personMeta>
@@ -3224,7 +3881,15 @@
                <personBirth>Born January 26, 1786 in Plymouth, England.</personBirth>
                <personDeath>Died June 22, 1846.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-s7>
+               <issueId>18450308</issueId>
+               <pieceId>s7</pieceId>
+               <personPieceMetaId>ppm-18450308-s7-brhaydon</personPieceMetaId>
+            </bibl-18450308-s7>
+         </personListBibl>
       </brhaydon>
       <whazlitt>
          <personMeta>
@@ -3233,7 +3898,15 @@
             <personInit>WH</personInit>
             <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/87145187</personViaf>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p5>
+               <issueId>18450315</issueId>
+               <pieceId>p5</pieceId>
+               <personPieceMetaId>ppm-18450315-p5-whazlitt</personPieceMetaId>
+            </bibl-18450315-p5>
+         </personListBibl>
       </whazlitt>
       <jtheadley>
          <personMeta>
@@ -3247,6 +3920,7 @@
                <personDeath>Died January 16, 1897 in Newburgh, New York.</personDeath>
             </personBio>
             <personTotalContrib>1</personTotalContrib>
+            <personTotalMention>8</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18451206-p3>
@@ -3254,6 +3928,12 @@
                <pieceId>p3</pieceId>
                <personPieceMetaId>ppm-18451206-p3-jtheadley</personPieceMetaId>
             </bibl-18451206-p3>
+            <bibl-18450315-p23>
+               <issueId>18450315</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450315-p23-jtheadley</personPieceMetaId>
+               <personPieceTotalMention>8</personPieceTotalMention>
+            </bibl-18450315-p23>
          </personListBibl>
       </jtheadley>
       <cahelvetius>
@@ -3267,7 +3947,15 @@
                <personBirth>Born January 26, 1715 in Paris, France.</personBirth>
                <personDeath>Died December 26, 1771 in Paris, France.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-cahelvetius</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </cahelvetius>
       <fhemans>
          <personMeta>
@@ -3280,7 +3968,15 @@
                <personBirth>Born September 25, 1793 in Liverpool, England.</personBirth>
                <personDeath>Died May 16, 1835 in Dublin, Ireland.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-fhemans</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </fhemans>
       <herodotus>
          <personMeta>
@@ -3301,7 +3997,15 @@
             <personName>William Heseltine</personName>
             <personInit>WH</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p12>
+               <issueId>18450308</issueId>
+               <pieceId>p12</pieceId>
+               <personPieceMetaId>ppm-18450308-p12-wheseltine</personPieceMetaId>
+            </bibl-18450308-p12>
+         </personListBibl>
       </wheseltine>
       <mehewitt>
          <personMeta>
@@ -3399,7 +4103,15 @@
                <personBirth>Born 1820 in Georgetown, British Guyana.</personBirth>
                <personDeath>Died 1897 in Charlottesville, Virginia.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p23>
+               <issueId>18450208</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450208-p23-gfholmes</personPieceMetaId>
+            </bibl-18450208-p23>
+         </personListBibl>
       </gfholmes>
       <thood>
          <personMeta>
@@ -3412,7 +4124,16 @@
                <personBirth>Born May 23, 1799 in London, England.</personBirth>
                <personDeath>Died May 3, 1845 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>5</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p13>
+               <issueId>18450215</issueId>
+               <pieceId>p13</pieceId>
+               <personPieceMetaId>ppm-18450215-p13-thood</personPieceMetaId>
+               <personPieceTotalMention>5</personPieceTotalMention>
+            </bibl-18450215-p13>
+         </personListBibl>
       </thood>
       <uhorn>
          <personMeta>
@@ -3433,7 +4154,15 @@
                <personBirth>Born November 1, 1730 in Otham, England.</personBirth>
                <personDeath>Died January 17, 1792 in Bath, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p23>
+               <issueId>18450315</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450315-p23-ghorne</personPieceMetaId>
+            </bibl-18450315-p23>
+         </personListBibl>
       </ghorne>
       <horus>
          <personMeta>
@@ -3456,6 +4185,19 @@
             </personBio>
          </personMeta>
       </fhoward>
+      <mhowitt>
+         <personMeta>
+            <personId>mhowitt</personId>
+            <personName>Mary Botham Howitt</personName>
+            <personInit>MBH</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/42648131</personViaf>
+            <personBio>
+               <personBirth>Born March 12, 1799 in Coleford, Gloucestershire, England.</personBirth>
+               <personDeath>Died January 30, 1888 in Rome, Italy.</personDeath>
+            </personBio>
+         </personMeta>
+      </mhowitt>
       <rhoyt>
          <personMeta>
             <personId>rhoyt</personId>
@@ -3467,7 +4209,16 @@
                <personBirth>Born 1806.</personBirth>
                <personDeath>Died 1878.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p18>
+               <issueId>18450208</issueId>
+               <pieceId>p18</pieceId>
+               <personPieceMetaId>ppm-18450208-p18-rhoyt</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-p18>
+         </personListBibl>
       </rhoyt>
       <dhume>
          <personMeta>
@@ -3489,7 +4240,16 @@
                <personBirth>Born 1804.</personBirth>
                <personDeath>Died 1858.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-fhunt</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </fhunt>
       <amide>
          <personMeta>
@@ -3532,7 +4292,16 @@
                <personBirth>Born June 14, 1786.</personBirth>
                <personDeath>Died February 20, 1868 in Philadelphia, Pennsylvania.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-jringersoll</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </jringersoll>
       <jinman>
          <personMeta>
@@ -3545,7 +4314,15 @@
                <personBirth>Born 1805.</personBirth>
                <personDeath>Died 1850.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p17>
+               <issueId>18450208</issueId>
+               <pieceId>p17</pieceId>
+               <personPieceMetaId>ppm-18450208-p17-jinman</personPieceMetaId>
+            </bibl-18450208-p17>
+         </personListBibl>
       </jinman>
       <eirving>
          <personMeta>
@@ -3558,8 +4335,29 @@
                <personBirth>Born August 4, 1792 in Annan, Scotland.</personBirth>
                <personDeath>Died December 7, 1834 in Edinburgh, Scotland.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p23>
+               <issueId>18450315</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450315-p23-eirving</personPieceMetaId>
+            </bibl-18450315-p23>
+         </personListBibl>
       </eirving>
+      <wirving>
+         <personMeta>
+            <personId>wirving</personId>
+            <personName>Washington Irving</personName>
+            <personInit>WI</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/295999941</personViaf>
+            <personBio>
+               <personBirth>Born April 3, 1783 in New York City, New York.</personBirth>
+               <personDeath>Died November 28, 1859 in Sunnyside, New York.</personDeath>
+            </personBio>
+         </personMeta>
+      </wirving>
       <j>
          <personMeta>
             <personId>j</personId>
@@ -3579,7 +4377,15 @@
                <personBirth>Born May 10, 1810 in London, England.</personBirth>
                <personDeath>Died December 30, 1879 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p14>
+               <issueId>18450215</issueId>
+               <pieceId>p14</pieceId>
+               <personPieceMetaId>ppm-18450215-p14-gjones</personPieceMetaId>
+            </bibl-18450215-p14>
+         </personListBibl>
       </gjones>
       <sjohnson>
          <personMeta>
@@ -3634,7 +4440,16 @@
                <personBirth>Born October 17, 1789 in Dublin, Ireland.</personBirth>
                <personDeath>Died November 4, 1872 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-tkeightley</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450315-s4>
+         </personListBibl>
       </tkeightley>
       <jpkennedy>
          <personMeta>
@@ -3647,7 +4462,16 @@
                <personBirth>Born October 25, 1795 in Baltimore, Maryland.</personBirth>
                <personDeath>Died August 18, 1870 in Newport, Rhode Island.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-jpkennedy</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </jpkennedy>
       <cmketeltas>
          <personMeta>
@@ -3655,7 +4479,15 @@
             <personName>Caroline M. Keteltas</personName>
             <personInit>CMK</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p12>
+               <issueId>18450308</issueId>
+               <pieceId>p12</pieceId>
+               <personPieceMetaId>ppm-18450308-p12-cmketeltas</personPieceMetaId>
+            </bibl-18450308-p12>
+         </personListBibl>
       </cmketeltas>
       <cking>
          <personMeta>
@@ -3668,7 +4500,15 @@
                <personBirth>Born March 16, 1867 in New York, New York.</personBirth>
                <personDeath>Died 1867 in Frascati, Italy.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p24>
+               <issueId>18450315</issueId>
+               <pieceId>p24</pieceId>
+               <personPieceMetaId>ppm-18450315-p24-cking</personPieceMetaId>
+            </bibl-18450315-p24>
+         </personListBibl>
       </cking>
       <tbking>
          <personMeta>
@@ -3681,7 +4521,16 @@
                <personBirth>Born August 27, 1800 in Palmer, Massachusetts.</personBirth>
                <personDeath>Died May 10, 1864 in Waresboro, Georgia.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-tbking</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </tbking>
       <cmkirkland>
          <personMeta>
@@ -3694,8 +4543,30 @@
                <personBirth>Born January 11, 1801 in New York, New York.</personBirth>
                <personDeath>Died April 6, 1864 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-cmkirkland</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-s4>
+         </personListBibl>
       </cmkirkland>
+      <cknight>
+         <personMeta>
+            <personId>cknight</personId>
+            <personName>Charles Knight</personName>
+            <personInit>CK</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/22279835</personViaf>
+            <personBio>
+               <personBirth>Born March 15, 1791 in Windsor, Berkshire, England.</personBirth>
+               <personDeath>Died March 9, 1873 in Addlestone, Surrey, England.</personDeath>
+            </personBio>
+         </personMeta>
+      </cknight>
       <hcl>
          <personMeta>
             <personId>hcl</personId>
@@ -3736,7 +4607,15 @@
                <personBirth>Born 1631 in Brescia, Lombardy.</personBirth>
                <personDeath>Died February 22, 1687 in Brescia, Lombardy.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p10>
+               <issueId>18450315</issueId>
+               <pieceId>p10</pieceId>
+               <personPieceMetaId>ppm-18450315-p10-flanaterzi</personPieceMetaId>
+            </bibl-18450315-p10>
+         </personListBibl>
       </flanaterzi>
       <clanman>
          <personMeta>
@@ -3749,7 +4628,16 @@
                <personBirth>Born June 14, 1819 in Monroe, Michigan.</personBirth>
                <personDeath>Died March 4, 1895 in Georgetown, D.C..</personDeath>
             </personBio>
+            <personTotalMention>13</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-clanman</personPieceMetaId>
+               <personPieceTotalMention>13</personPieceTotalMention>
+            </bibl-18450215-p3>
+         </personListBibl>
       </clanman>
       <llanzi>
          <personMeta>
@@ -3758,7 +4646,15 @@
             <personInit>LL</personInit>
             <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/78760428</personViaf>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-llanzi</personPieceMetaId>
+            </bibl-18450315-s4>
+         </personListBibl>
       </llanzi>
       <mllawson>
          <personMeta>
@@ -3800,7 +4696,16 @@
                <personBirth>Born August 29, 1632 in Wrington, England.</personBirth>
                <personDeath>Died October 28, 1704 in High Laver, England.</personDeath>
             </personBio>
+            <personTotalMention>4</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315->
+               <issueId>18450315</issueId>
+               <pieceId/>
+               <personPieceMetaId>ppm-18450315--jlocke</personPieceMetaId>
+               <personPieceTotalMention>4</personPieceTotalMention>
+            </bibl-18450315->
+         </personListBibl>
       </jlocke>
       <hwlongfellow>
          <personMeta>
@@ -3813,7 +4718,21 @@
                <personBirth>Born February 27, 1807 in Portland, Maine.</personBirth>
                <personDeath>Died March 24, 1882 in Cambridge, Massachusetts.</personDeath>
             </personBio>
+            <personTotalMention>261</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p2>
+               <issueId>18450315</issueId>
+               <pieceId>p2</pieceId>
+               <personPieceMetaId>ppm-18450315-p2-hwlongfellow</personPieceMetaId>
+               <personPieceTotalMention>26</personPieceTotalMention>
+            </bibl-18450315-p2>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-hwlongfellow</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </hwlongfellow>
       <jrlowell>
          <personMeta>
@@ -3827,6 +4746,7 @@
                <personDeath>Died August 12, 1891 in Cambridge, Massachusetts.</personDeath>
             </personBio>
             <personTotalContrib>4</personTotalContrib>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450125-p10>
@@ -3849,6 +4769,12 @@
                <pieceId>p8</pieceId>
                <personPieceMetaId>ppm-18450308-p8-jrlowell</personPieceMetaId>
             </bibl-18450308-p8>
+            <bibl-18450215-p10>
+               <issueId>18450215</issueId>
+               <pieceId>p10</pieceId>
+               <personPieceMetaId>ppm-18450215-p10-jrlowell</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450215-p10>
          </personListBibl>
       </jrlowell>
       <mwlowell>
@@ -3924,7 +4850,16 @@
                <personBirth>Born May 25, 1803 in London, England.</personBirth>
                <personDeath>Died January 18, 1873 in Torquay, England.</personDeath>
             </personBio>
+            <personTotalMention>16</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-eblytton</personPieceMetaId>
+               <personPieceTotalMention>16</personPieceTotalMention>
+            </bibl-18450315-s4>
+         </personListBibl>
       </eblytton>
       <im>
          <personMeta>
@@ -3945,7 +4880,16 @@
                <personBirth>Born October 25, 1800 in Leicestershire, England.</personBirth>
                <personDeath>Died December 28, 1859 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p9>
+               <issueId>18450215</issueId>
+               <pieceId>p9</pieceId>
+               <personPieceMetaId>ppm-18450215-p9-tbmacaulay</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450215-p9>
+         </personListBibl>
       </tbmacaulay>
       <cdmacleod>
          <personMeta>
@@ -3953,7 +4897,16 @@
             <personName>C. Donald Macleod</personName>
             <personInit>CDM</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>22</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-cdmacleod</personPieceMetaId>
+               <personPieceTotalMention>22</personPieceTotalMention>
+            </bibl-18450208-p1>
+         </personListBibl>
       </cdmacleod>
       <jjmapes>
          <personMeta>
@@ -3966,7 +4919,16 @@
                <personBirth>Born May 29, 1806 in New York, New York.</personBirth>
                <personDeath>Died January 10, 1866 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p15>
+               <issueId>18450315</issueId>
+               <pieceId>p15</pieceId>
+               <personPieceMetaId>ppm-18450315-p15-jjmapes</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450315-p15>
+         </personListBibl>
       </jjmapes>
       <fmarryat>
          <personMeta>
@@ -3979,7 +4941,15 @@
                <personBirth>Born July 10, 1792 in London, England.</personBirth>
                <personDeath>Died August 9, 1848 in Langham, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-fmarryat</personPieceMetaId>
+            </bibl-18450315-s4>
+         </personListBibl>
       </fmarryat>
       <gpmarsh>
          <personMeta>
@@ -3992,7 +4962,16 @@
                <personBirth>Born March 15, 1801 in Woodstock, Vermont.</personBirth>
                <personDeath>Died July 23, 1882 in Reggello, Italy.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-gpmarsh</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </gpmarsh>
       <hmartineau>
          <personMeta>
@@ -4057,7 +5036,16 @@
                <personBirth>Born August 21, 1798 in Paris, France.</personBirth>
                <personDeath>Died February 9, 1874 in Hyères, France.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-jmichelet</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </jmichelet>
       <tmiddleton>
          <personMeta>
@@ -4099,7 +5087,15 @@
                <personBirth>Born 1684.</personBirth>
                <personDeath>Died 1738.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p3>
+               <issueId>18450308</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450308-p3-jmiller</personPieceMetaId>
+            </bibl-18450308-p3>
+         </personListBibl>
       </jmiller>
       <jmilton>
          <personMeta>
@@ -4112,7 +5108,15 @@
                <personBirth>Born December 9, 1608 in London, England.</personBirth>
                <personDeath>Died November 8, 1674 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p9>
+               <issueId>18450308</issueId>
+               <pieceId>p9</pieceId>
+               <personPieceMetaId>ppm-18450308-p9-jmilton</personPieceMetaId>
+            </bibl-18450308-p9>
+         </personListBibl>
       </jmilton>
       <tmoore>
          <personMeta>
@@ -4138,7 +5142,15 @@
                <personBirth>Born February 2, 1745 in Fishponds, England.</personBirth>
                <personDeath>Died September 7, 1833 in Clifton, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p4>
+               <issueId>18450215</issueId>
+               <pieceId>p4</pieceId>
+               <personPieceMetaId>ppm-18450215-p4-hmore</personPieceMetaId>
+            </bibl-18450215-p4>
+         </personListBibl>
       </hmore>
       <ejmorris>
          <personMeta>
@@ -4151,7 +5163,16 @@
                <personBirth>Born July 16, 1815 in Philadelphia, Pennsylvania.</personBirth>
                <personDeath>Died October 31, 1881 in Philadelphia, Pennsylvania.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-ejmorris</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </ejmorris>
       <jemurdoch>
          <personMeta>
@@ -4185,7 +5206,16 @@
                <personBirth>Born August 25, 1793 in Portland, Maine.</personBirth>
                <personDeath>Died June 20, 1876 in Portland, Maine.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p3>
+               <issueId>18450308</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450308-p3-jneal</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450308-p3>
+         </personListBibl>
       </jneal>
       <mgnichols>
          <personMeta>
@@ -4214,7 +5244,15 @@
             <personName>Lewis L. Noble</personName>
             <personInit>LLN</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-llnoble</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </llnoble>
       <btonderdonk>
          <personMeta>
@@ -4227,7 +5265,16 @@
                <personBirth>Born July 15, 1791 in New York, New York.</personBirth>
                <personDeath>Died April 30, 1861 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-btonderdonk</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450215-p3>
+         </personListBibl>
       </btonderdonk>
       <aaopie>
          <personMeta>
@@ -4240,7 +5287,15 @@
                <personBirth>Born November 12, 1769 in Norwich, England.</personBirth>
                <personDeath>Died December 2, 1853 in Norwich, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p23>
+               <issueId>18450315</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450315-p23-aaopie</personPieceMetaId>
+            </bibl-18450315-p23>
+         </personListBibl>
       </aaopie>
       <losborn>
          <personMeta>
@@ -4310,7 +5365,16 @@
             <personName>Mr. Outis</personName>
             <personInit>O</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p2>
+               <issueId>18450315</issueId>
+               <pieceId>p2</pieceId>
+               <personPieceMetaId>ppm-18450315-p2-outis</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450315-p2>
+         </personListBibl>
       </outis>
       <map>
          <personMeta>
@@ -4402,8 +5466,29 @@
                <personBirth>Born March 21, 1763 in Wunsiedel, Holy Roman Empire.</personBirth>
                <personDeath>Died November 14, 1825 in Bayreuth, German Confederation.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p3>
+               <issueId>18450315</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450315-p3-jpaul</personPieceMetaId>
+            </bibl-18450315-p3>
+         </personListBibl>
       </jpaul>
+      <jkpaulding>
+         <personMeta>
+            <personId>jkpaulding</personId>
+            <personName>James Kirke Paulding</personName>
+            <personInit>JKP</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/34695581</personViaf>
+            <personBio>
+               <personBirth>Born August 22, 1778 in Pleasant Valley, New York.</personBirth>
+               <personDeath>Died April 6, 1860 in Hyde Park, New York.</personDeath>
+            </personBio>
+         </personMeta>
+      </jkpaulding>
       <cperabeau>
          <personMeta>
             <personId>cperabeau</personId>
@@ -4447,7 +5532,15 @@
                <personBirth>Born 1822.</personBirth>
                <personDeath>Died 1891.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p14a>
+               <issueId>18450315</issueId>
+               <pieceId>p14a</pieceId>
+               <personPieceMetaId>ppm-18450315-p14a-tpicton</personPieceMetaId>
+            </bibl-18450315-p14a>
+         </personListBibl>
       </tpicton>
       <apike>
          <personMeta>
@@ -4460,7 +5553,15 @@
                <personBirth>Born December 29, 1809 in Boston, Massachusetts.</personBirth>
                <personDeath>Died April 2, 1891 in Washington, D.C..</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p13>
+               <issueId>18450308</issueId>
+               <pieceId>p13</pieceId>
+               <personPieceMetaId>ppm-18450308-p13-apike</personPieceMetaId>
+            </bibl-18450308-p13>
+         </personListBibl>
       </apike>
       <ecpinkney>
          <personMeta>
@@ -4473,22 +5574,29 @@
                <personBirth>Born October 1, 1802 in Londong, England.</personBirth>
                <personDeath>Died April 11, 1828 in Baltimore, Maryland.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p3>
+               <issueId>18450308</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450308-p3-ecpinkney</personPieceMetaId>
+            </bibl-18450308-p3>
+         </personListBibl>
       </ecpinkney>
       <eapoe>
          <personMeta>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personInit>EAP</personInit>
-            <personPseudo>Littleton Barry</personPseudo>
-            <personPseudo>E.T.S.G. or Edward S.T. Grey</personPseudo>
             <personRole>Contributing Mentioned Editor</personRole>
             <personViaf>http://viaf.org/viaf/60351476</personViaf>
             <personBio>
                <personBirth>Born January 19, 1809 in Boston, Massachusetts.</personBirth>
                <personDeath>Died October 7, 1849 in Baltimore, Maryland.</personDeath>
             </personBio>
-            <personTotalContrib>3091</personTotalContrib>
+            <personTotalContrib>3171</personTotalContrib>
+            <personTotalMention>13</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450315-p1>
@@ -5501,6 +6609,11 @@
                <pieceId>p9</pieceId>
                <personPieceMetaId>ppm-18450308-p9-eapoe</personPieceMetaId>
             </bibl-18450308-p9>
+            <bibl-18450308-p10>
+               <issueId>18450308</issueId>
+               <pieceId>p10</pieceId>
+               <personPieceMetaId>ppm-18450308-p10-eapoe</personPieceMetaId>
+            </bibl-18450308-p10>
             <bibl-18450308-p14>
                <issueId>18450308</issueId>
                <pieceId>p14</pieceId>
@@ -5511,6 +6624,11 @@
                <pieceId>p15</pieceId>
                <personPieceMetaId>ppm-18450308-p15-eapoe</personPieceMetaId>
             </bibl-18450308-p15>
+            <bibl-18450308-p16>
+               <issueId>18450308</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450308-p16-eapoe</personPieceMetaId>
+            </bibl-18450308-p16>
             <bibl-18450308-p28>
                <issueId>18450308</issueId>
                <pieceId>p28</pieceId>
@@ -5756,6 +6874,36 @@
                <pieceId>p14</pieceId>
                <personPieceMetaId>ppm-18450201-p14-eapoe</personPieceMetaId>
             </bibl-18450201-p14>
+            <bibl-18450201-p16>
+               <issueId>18450201</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450201-p16-eapoe</personPieceMetaId>
+            </bibl-18450201-p16>
+            <bibl-18450201-p17>
+               <issueId>18450201</issueId>
+               <pieceId>p17</pieceId>
+               <personPieceMetaId>ppm-18450201-p17-eapoe</personPieceMetaId>
+            </bibl-18450201-p17>
+            <bibl-18450201-p18>
+               <issueId>18450201</issueId>
+               <pieceId>p18</pieceId>
+               <personPieceMetaId>ppm-18450201-p18-eapoe</personPieceMetaId>
+            </bibl-18450201-p18>
+            <bibl-18450201-p19>
+               <issueId>18450201</issueId>
+               <pieceId>p19</pieceId>
+               <personPieceMetaId>ppm-18450201-p19-eapoe</personPieceMetaId>
+            </bibl-18450201-p19>
+            <bibl-18450201-p20>
+               <issueId>18450201</issueId>
+               <pieceId>p20</pieceId>
+               <personPieceMetaId>ppm-18450201-p20-eapoe</personPieceMetaId>
+            </bibl-18450201-p20>
+            <bibl-18450201-p21>
+               <issueId>18450201</issueId>
+               <pieceId>p21</pieceId>
+               <personPieceMetaId>ppm-18450201-p21-eapoe</personPieceMetaId>
+            </bibl-18450201-p21>
             <bibl-18451115-p2>
                <issueId>18451115</issueId>
                <pieceId>p2</pieceId>
@@ -6041,6 +7189,12 @@
                <pieceId>p22</pieceId>
                <personPieceMetaId>ppm-18450412-p22-eapoe</personPieceMetaId>
             </bibl-18450412-p22>
+            <bibl-18450315-p2>
+               <issueId>18450315</issueId>
+               <pieceId>p2</pieceId>
+               <personPieceMetaId>ppm-18450315-p2-eapoe</personPieceMetaId>
+               <personPieceTotalMention>13</personPieceTotalMention>
+            </bibl-18450315-p2>
          </personListBibl>
       </eapoe>
       <apope>
@@ -6067,7 +7221,15 @@
                <personBirth>Born January 17, 1776 in Durham, England.</personBirth>
                <personDeath>Died May 24, 1850 in Bristol, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-jporter</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </jporter>
       <whprescott>
          <personMeta>
@@ -6093,7 +7255,16 @@
                <personBirth>Born March 1, 1812 in London, England.</personBirth>
                <personDeath>Died September 14, 1852 in Ramsgate, England.</personDeath>
             </personBio>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p2>
+               <issueId>18450308</issueId>
+               <pieceId>p2</pieceId>
+               <personPieceMetaId>ppm-18450308-p2-awpugin</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450308-p2>
+         </personListBibl>
       </awpugin>
       <jpycroft>
          <personMeta>
@@ -6131,7 +7302,16 @@
                <personBirth>Born March 25, 1815 in Glasgow, Scotland.</personBirth>
                <personDeath>Died March 9, 1902 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-mkreid</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-s4>
+         </personListBibl>
       </mkreid>
       <jreynolds>
          <personMeta>
@@ -6166,7 +7346,15 @@
                <personBirth>Born March 5, 1819 in Bordeaux, France.</personBirth>
                <personDeath>Died July 21, 1870 in Twickenham, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p14a>
+               <issueId>18450315</issueId>
+               <pieceId>p14a</pieceId>
+               <personPieceMetaId>ppm-18450315-p14a-acmritchie</personPieceMetaId>
+            </bibl-18450315-p14a>
+         </personListBibl>
       </acmritchie>
       <frobinson>
          <personMeta>
@@ -6176,7 +7364,8 @@
             <personRole>Contributing</personRole>
             <personViaf>http://viaf.org/viaf/27442969</personViaf>
             <personBio>
-               <personDeath>Died 1859.</personDeath>
+               <personBirth>Born in Virginia.</personBirth>
+               <personDeath>Died March 26, 1859 in New York City, New York.</personDeath>
             </personBio>
             <personTotalContrib>2</personTotalContrib>
          </personMeta>
@@ -6204,7 +7393,16 @@
                <personBirth>Born 1798.</personBirth>
                <personDeath>Died 1879.</personDeath>
             </personBio>
+            <personTotalMention>7</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208->
+               <issueId>18450208</issueId>
+               <pieceId/>
+               <personPieceMetaId>ppm-18450208--jrochietti</personPieceMetaId>
+               <personPieceTotalMention>7</personPieceTotalMention>
+            </bibl-18450208->
+         </personListBibl>
       </jrochietti>
       <ebrodman>
          <personMeta>
@@ -6225,7 +7423,15 @@
                <personBirth>Born July 30, 1763 in Newington Green, England.</personBirth>
                <personDeath>Died December 18, 1855 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-srogers</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </srogers>
       <fmrowan>
          <personMeta>
@@ -6238,7 +7444,16 @@
                <personBirth>Born April 22, 1814 in West Indies.</personBirth>
                <personDeath>Died October 23, 1892 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-fmrowan</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </fmrowan>
       <nrowe>
          <personMeta>
@@ -6270,6 +7485,19 @@
             </bibl-18451206-p16>
          </personListBibl>
       </rsrowley>
+      <aroyall>
+         <personMeta>
+            <personId>aroyall</personId>
+            <personName>Anne Newport Royall</personName>
+            <personInit>ANR</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/43080208</personViaf>
+            <personBio>
+               <personBirth>Born June 11, 1769 in Baltimore, Maryland.</personBirth>
+               <personDeath>Died October 1, 1854 in Washington, D.C..</personDeath>
+            </personBio>
+         </personMeta>
+      </aroyall>
       <fschiller>
          <personMeta>
             <personId>fschiller</personId>
@@ -6295,6 +7523,7 @@
                <personDeath>Died December 10, 1864.</personDeath>
             </personBio>
             <personTotalContrib>2</personTotalContrib>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
          <personListBibl>
             <bibl-18450125-p7>
@@ -6307,6 +7536,12 @@
                <pieceId>p9</pieceId>
                <personPieceMetaId>ppm-18450301-p9-hrschoolcraft</personPieceMetaId>
             </bibl-18450301-p9>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-hrschoolcraft</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
          </personListBibl>
       </hrschoolcraft>
       <gcscott>
@@ -6316,7 +7551,16 @@
             <personInit>GCS</personInit>
             <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/77849688</personViaf>
+            <personTotalMention>4</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p6>
+               <issueId>18450315</issueId>
+               <pieceId>p6</pieceId>
+               <personPieceMetaId>ppm-18450315-p6-gcscott</personPieceMetaId>
+               <personPieceTotalMention>4</personPieceTotalMention>
+            </bibl-18450315-p6>
+         </personListBibl>
       </gcscott>
       <wscott>
          <personMeta>
@@ -6329,7 +7573,16 @@
                <personBirth>Born August 15, 1771 in Edinburgh, Scotland.</personBirth>
                <personDeath>Died September 21, 1832 in Abbotsford, Scotland.</personDeath>
             </personBio>
+            <personTotalMention>5</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-wscott</personPieceMetaId>
+               <personPieceTotalMention>5</personPieceTotalMention>
+            </bibl-18450208-p1>
+         </personListBibl>
       </wscott>
       <waseeley>
          <personMeta>
@@ -6337,7 +7590,16 @@
             <personName>W. A. Seeley</personName>
             <personInit>WAS</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p9>
+               <issueId>18450308</issueId>
+               <pieceId>p9</pieceId>
+               <personPieceMetaId>ppm-18450308-p9-waseeley</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450308-p9>
+         </personListBibl>
       </waseeley>
       <wshakespeare>
          <personMeta>
@@ -6350,7 +7612,16 @@
                <personBirth>Born April 23, 1564 in Stratford-upon-Avon, England.</personBirth>
                <personDeath>Died April 23, 1616 in Startford-upon-Avon, England.</personDeath>
             </personBio>
+            <personTotalMention>4</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208->
+               <issueId>18450208</issueId>
+               <pieceId/>
+               <personPieceMetaId>ppm-18450208--wshakespeare</personPieceMetaId>
+               <personPieceTotalMention>4</personPieceTotalMention>
+            </bibl-18450208->
+         </personListBibl>
       </wshakespeare>
       <pbshelley>
          <personMeta>
@@ -6363,7 +7634,15 @@
                <personBirth>Born August 4, 1792 in Horsham, England.</personBirth>
                <personDeath>Died July 8, 1822 in Gulf of La Spezia, Kingdom of Sardinia.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-pbshelley</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </pbshelley>
       <lhsigourney>
          <personMeta>
@@ -6376,7 +7655,16 @@
                <personBirth>Born September 1, 1791 in Norwich, Connecticut.</personBirth>
                <personDeath>Died June 10, 1865 in Hartford, Connecticut.</personDeath>
             </personBio>
+            <personTotalMention>3</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-lhsigourney</personPieceMetaId>
+               <personPieceTotalMention>3</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </lhsigourney>
       <wgsimms>
          <personMeta>
@@ -6454,7 +7742,15 @@
             <personInit>S</personInit>
             <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/101760867</personViaf>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p25>
+               <issueId>18450308</issueId>
+               <pieceId>p25</pieceId>
+               <personPieceMetaId>ppm-18450308-p25-sophocles</personPieceMetaId>
+            </bibl-18450308-p25>
+         </personListBibl>
       </sophocles>
       <apstanley>
          <personMeta>
@@ -6467,7 +7763,15 @@
                <personBirth>Born December 13, 1815 in Alderley Edge, England.</personBirth>
                <personDeath>Died July 18, 1881 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-apstanley</personPieceMetaId>
+            </bibl-18450208-s8>
+         </personListBibl>
       </apstanley>
       <ahstephens>
          <personMeta>
@@ -6480,7 +7784,16 @@
                <personBirth>Born February 11, 1812 in Crawfordville, Georgia.</personBirth>
                <personDeath>Died March 4, 1883.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-ahstephens</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </ahstephens>
       <strabo>
          <personMeta>
@@ -6493,7 +7806,16 @@
                <personBirth>Born 64 B.C. in Amaseia, Pontus.</personBirth>
                <personDeath>Died 0024.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p10>
+               <issueId>18450315</issueId>
+               <pieceId>p10</pieceId>
+               <personPieceMetaId>ppm-18450315-p10-strabo</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450315-p10>
+         </personListBibl>
       </strabo>
       <esue>
          <personMeta>
@@ -6506,7 +7828,15 @@
                <personBirth>Born January 26, 1804.</personBirth>
                <personDeath>Died August 3, 1857.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p1>
+               <issueId>18450308</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450308-p1-esue</personPieceMetaId>
+            </bibl-18450308-p1>
+         </personListBibl>
       </esue>
       <ajsullivan>
          <personMeta>
@@ -6519,7 +7849,15 @@
                <personBirth>Born 1796.</personBirth>
                <personDeath>Died 1839.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p1>
+               <issueId>18450208</issueId>
+               <pieceId>p1</pieceId>
+               <personPieceMetaId>ppm-18450208-p1-ajsullivan</personPieceMetaId>
+            </bibl-18450208-p1>
+         </personListBibl>
       </ajsullivan>
       <jswift>
          <personMeta>
@@ -6557,7 +7895,15 @@
                <personBirth>Born 1781.</personBirth>
                <personDeath>Died 1850.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-s7>
+               <issueId>18450308</issueId>
+               <pieceId>s7</pieceId>
+               <personPieceMetaId>ppm-18450308-s7-wbstaylor</personPieceMetaId>
+            </bibl-18450308-s7>
+         </personListBibl>
       </wbstaylor>
       <jltellkampf>
          <personMeta>
@@ -6583,7 +7929,16 @@
                <personBirth>Born July 18, 1811 in Calcutta, British India.</personBirth>
                <personDeath>Died December 24, 1863 in London, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-wmthackeray</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450215-p3>
+         </personListBibl>
       </wmthackeray>
       <fwthomas>
          <personMeta>
@@ -6624,6 +7979,19 @@
             </personBio>
          </personMeta>
       </gthorburn>
+      <fmtrollope>
+         <personMeta>
+            <personId>fmtrollope</personId>
+            <personName>Frances Milton Trollope</personName>
+            <personInit>FMT</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/34551336</personViaf>
+            <personBio>
+               <personBirth>Born March 10, 1779 in Stapleton, Bristol, England.</personBirth>
+               <personDeath>Died October 6, 1863 in Florence, Italy.</personDeath>
+            </personBio>
+         </personMeta>
+      </fmtrollope>
       <gtroost>
          <personMeta>
             <personId>gtroost</personId>
@@ -6635,7 +8003,15 @@
                <personBirth>Born March 5, 1776 in 's-Hertogenbosch, Netherlands.</personBirth>
                <personDeath>Died August 14, 1850 in Nashville, Tennessee.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-gtroost</personPieceMetaId>
+            </bibl-18450208-s8>
+         </personListBibl>
       </gtroost>
       <mhtrowbridge>
          <personMeta>
@@ -6677,7 +8053,15 @@
                <personBirth>Born August 20, 1813 in Boston, Massachusetts.</personBirth>
                <personDeath>Died December 17, 1871 in New York, New York.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p16>
+               <issueId>18450208</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450208-p16-httuckerman</personPieceMetaId>
+            </bibl-18450208-p16>
+         </personListBibl>
       </httuckerman>
       <wwturner>
          <personMeta>
@@ -6690,7 +8074,15 @@
                <personBirth>Born October 23, 1810 in London, England.</personBirth>
                <personDeath>Died November 29, 1859 in Washington, D.C..</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-wwturner</personPieceMetaId>
+            </bibl-18450208-s8>
+         </personListBibl>
       </wwturner>
       <saw>
          <personMeta>
@@ -6771,7 +8163,15 @@
                <personBirth>Born September 24, 1717 in London, England.</personBirth>
                <personDeath>Died March 2, 1797.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p12>
+               <issueId>18450308</issueId>
+               <pieceId>p12</pieceId>
+               <personPieceMetaId>ppm-18450308-p12-hwalpole</personPieceMetaId>
+            </bibl-18450308-p12>
+         </personListBibl>
       </hwalpole>
       <iwalton>
          <personMeta>
@@ -6784,7 +8184,15 @@
                <personBirth>Born 1594.</personBirth>
                <personDeath>Died December 15, 1683 in Winchester, England.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p3>
+               <issueId>18450215</issueId>
+               <pieceId>p3</pieceId>
+               <personPieceMetaId>ppm-18450215-p3-iwalton</personPieceMetaId>
+            </bibl-18450215-p3>
+         </personListBibl>
       </iwalton>
       <jwaters>
          <personMeta>
@@ -6792,7 +8200,15 @@
             <personName>John Waters</personName>
             <personInit>JW</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450308-p13>
+               <issueId>18450308</issueId>
+               <pieceId>p13</pieceId>
+               <personPieceMetaId>ppm-18450308-p13-jwaters</personPieceMetaId>
+            </bibl-18450308-p13>
+         </personListBibl>
       </jwaters>
       <hcwatson>
          <personMeta>
@@ -6805,7 +8221,7 @@
                <personBirth>Born 1816 in London, England.</personBirth>
                <personDeath>Died 1875.</personDeath>
             </personBio>
-            <personTotalContrib>331</personTotalContrib>
+            <personTotalContrib>371</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450517-p16>
@@ -6903,6 +8319,26 @@
                <pieceId>p19</pieceId>
                <personPieceMetaId>ppm-18450809-p19-hcwatson</personPieceMetaId>
             </bibl-18450809-p19>
+            <bibl-18450308-p21>
+               <issueId>18450308</issueId>
+               <pieceId>p21</pieceId>
+               <personPieceMetaId>ppm-18450308-p21-hcwatson</personPieceMetaId>
+            </bibl-18450308-p21>
+            <bibl-18450308-p22>
+               <issueId>18450308</issueId>
+               <pieceId>p22</pieceId>
+               <personPieceMetaId>ppm-18450308-p22-hcwatson</personPieceMetaId>
+            </bibl-18450308-p22>
+            <bibl-18450308-p23>
+               <issueId>18450308</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450308-p23-hcwatson</personPieceMetaId>
+            </bibl-18450308-p23>
+            <bibl-18450308-p24>
+               <issueId>18450308</issueId>
+               <pieceId>p24</pieceId>
+               <personPieceMetaId>ppm-18450308-p24-hcwatson</personPieceMetaId>
+            </bibl-18450308-p24>
             <bibl-18450308-p25>
                <issueId>18450308</issueId>
                <pieceId>p25</pieceId>
@@ -6991,7 +8427,16 @@
                <personBirth>Born January 18, 1782 in Salisbury, New Hampshire.</personBirth>
                <personDeath>Died October 24, 1852 in Marshfield, Massachusetts.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-dwebster</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </dwebster>
       <hhweld>
          <personMeta>
@@ -7004,7 +8449,15 @@
                <personBirth>Born February 4, 1811 in Boston, Massachusetts.</personBirth>
                <personDeath>Died August 27, 1888 in Riverton, New Jersey.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p6>
+               <issueId>18450315</issueId>
+               <pieceId>p6</pieceId>
+               <personPieceMetaId>ppm-18450315-p6-hhweld</personPieceMetaId>
+            </bibl-18450315-p6>
+         </personListBibl>
       </hhweld>
       <mgwells>
          <personMeta>
@@ -7029,7 +8482,15 @@
                <personBirth>Born March 8, 1819 in Gloucester, Massachusetts.</personBirth>
                <personDeath>Died June 16, 1886 in Cambridge, Massachusetts.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p16>
+               <issueId>18450208</issueId>
+               <pieceId>p16</pieceId>
+               <personPieceMetaId>ppm-18450208-p16-epwhipple</personPieceMetaId>
+            </bibl-18450208-p16>
+         </personListBibl>
       </epwhipple>
       <dkwhitaker>
          <personMeta>
@@ -7042,7 +8503,15 @@
                <personBirth>Born April 30, 1801 in Sharon, Connecticut.</personBirth>
                <personDeath>Died April 10, 1881 in New Orleans, Louisiana.</personDeath>
             </personBio>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p23>
+               <issueId>18450208</issueId>
+               <pieceId>p23</pieceId>
+               <personPieceMetaId>ppm-18450208-p23-dkwhitaker</personPieceMetaId>
+            </bibl-18450208-p23>
+         </personListBibl>
       </dkwhitaker>
       <wwhitman>
          <personMeta>
@@ -7081,7 +8550,16 @@
                <personBirth>Born January 20, 1806 in Portland, Maine.</personBirth>
                <personDeath>Died January 20, 1867.</personDeath>
             </personBio>
+            <personTotalMention>8</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-p6>
+               <issueId>18450315</issueId>
+               <pieceId>p6</pieceId>
+               <personPieceMetaId>ppm-18450315-p6-npwillis</personPieceMetaId>
+               <personPieceTotalMention>8</personPieceTotalMention>
+            </bibl-18450315-p6>
+         </personListBibl>
       </npwillis>
       <hwilson>
          <personMeta>
@@ -7089,7 +8567,15 @@
             <personName>Harry Wilson</personName>
             <personInit>HW</personInit>
             <personRole>Mentioned</personRole>
+            <personTotalMention>1</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450315-s4>
+               <issueId>18450315</issueId>
+               <pieceId>s4</pieceId>
+               <personPieceMetaId>ppm-18450315-s4-hwilson</personPieceMetaId>
+            </bibl-18450315-s4>
+         </personListBibl>
       </hwilson>
       <jwilson>
          <personMeta>
@@ -7102,7 +8588,16 @@
                <personBirth>Born May 18, 1785 in Paisley, Scotland.</personBirth>
                <personDeath>Died April 3, 1854 in Edinburgh, Scotland.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-p22>
+               <issueId>18450208</issueId>
+               <pieceId>p22</pieceId>
+               <personPieceMetaId>ppm-18450208-p22-jwilson</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-p22>
+         </personListBibl>
       </jwilson>
       <rcwinthrop>
          <personMeta>
@@ -7115,8 +8610,30 @@
                <personBirth>Born May 12, 1809 in Boston, Massachusetts.</personBirth>
                <personDeath>Died November 16, 1894 in Boston, Massachusetts.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450208-s8>
+               <issueId>18450208</issueId>
+               <pieceId>s8</pieceId>
+               <personPieceMetaId>ppm-18450208-s8-rcwinthrop</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450208-s8>
+         </personListBibl>
       </rcwinthrop>
+      <mwollstonecraft>
+         <personMeta>
+            <personId>mwollstonecraft</personId>
+            <personName>Mary Wollstonecraft</personName>
+            <personInit>MW</personInit>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/51697482</personViaf>
+            <personBio>
+               <personBirth>Born April 27, 1759 in London, England.</personBirth>
+               <personDeath>Died September 10, 1797 in London, England.</personDeath>
+            </personBio>
+         </personMeta>
+      </mwollstonecraft>
       <wwordsworth>
          <personMeta>
             <personId>wwordsworth</personId>
@@ -7128,7 +8645,16 @@
                <personBirth>Born April 7, 1770 in Cockermouth, England.</personBirth>
                <personDeath>Died April 23, 1850 in Cumberland, England.</personDeath>
             </personBio>
+            <personTotalMention>2</personTotalMention>
          </personMeta>
+         <personListBibl>
+            <bibl-18450215-p2>
+               <issueId>18450215</issueId>
+               <pieceId>p2</pieceId>
+               <personPieceMetaId>ppm-18450215-p2-wwordsworth</personPieceMetaId>
+               <personPieceTotalMention>2</personPieceTotalMention>
+            </bibl-18450215-p2>
+         </personListBibl>
       </wwordsworth>
       <xenophon>
          <personMeta>
