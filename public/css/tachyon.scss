@@ -193,8 +193,26 @@ input:focus {
     width: 30%;    
 }
 
+.interIssueNav::before{
+  content:'issue navigation';
+}
+
+.issue::before{
+    background: black;
+    content: 'Issues';
+    width: 10px;
+    color: white;
+    word-wrap: break-word;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+
 .tocDropdown {
     font-size: 1.2em;
+    border-bottom: 1px dashed $light-border-color;    
 }
 
 .tocItem {
@@ -229,6 +247,10 @@ input:focus {
 
 .singleIndex:nth-child(1) {
     width: 100%;
+    font-size: 1.2em;
+    color: #979797;
+    border-bottom: 1px dashed #e9e9e9;
+    margin-bottom: 5px;
 }
 
 .issueIndex {
@@ -258,6 +280,10 @@ input:focus {
     margin-bottom: 1px;
     padding: 10px 15px 10px 15px;
     color: white;
+}
+
+.intraIssueNav {
+    width: 100%;
 }
 /*BEGIN High Contrast Mode*/
 .highContrast{
