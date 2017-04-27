@@ -569,8 +569,11 @@ Vue.component('viewerSelector',{
     },
     template: `
 	<div class='viewerSelector' @click="toggleViewer">
-  	  <div class="viewerOption" v-bind:class="isActive('tei')">Text</div>
-	  <div class="viewerOption" v-bind:class="isActive('pdf')">PDF</div>
+            <div class="viewerTitle">Change Viewer</div>
+            <div class="viewerSwitch">
+              <div class="viewerText" v-bind:class="isActive('tei')">Text</div>
+              <div class="viewerPdf" v-bind:class="isActive('pdf')">PDF</div>
+            </div>
 	</div>
 	`,
     methods: {
