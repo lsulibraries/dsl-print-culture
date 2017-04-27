@@ -318,10 +318,12 @@ input:focus {
     @include transition(.5s);
 }
 
+.intraIssueNav{
 .childPieceTitle:hover, .piece:hover{
   padding-left: 10px;
   @include transition(0s);
       color: $primary-accent-color;
+}
 }
 
 .issueVol, .issueNum {

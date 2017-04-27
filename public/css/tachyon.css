@@ -1,5 +1,4 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
-
 input:focus {
   outline: none !important;
 }
@@ -310,7 +309,7 @@ input:focus {
   transition: all 0.5s ease;
 }
 
-.childPieceTitle:hover, .piece:hover {
+.intraIssueNav .childPieceTitle:hover, .intraIssueNav .piece:hover {
   padding-left: 10px;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
