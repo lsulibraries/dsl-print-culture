@@ -195,6 +195,9 @@ input:focus {
 
 .interIssueNav::before{
   content:'issue navigation';
+  font-size: 2em;  
+    text-transform: uppercase;
+
 }
 
 .issue::before{
@@ -211,8 +214,9 @@ input:focus {
 
 
 .tocDropdown {
-    font-size: 1.2em;
-    border-bottom: 1px dashed $light-border-color;    
+    font-size: 2em;
+    border-bottom: 1px dashed $light-border-color;
+    text-transform: uppercase;    
 }
 
 .tocItem {
@@ -228,15 +232,24 @@ input:focus {
     margin-bottom: 10px;
 }
 
+.issueIndex > div{
+  @include transition(.5);
+}
+
 .issueBody {
     background: white;
     margin-top: 1;
     margin-left: 1px;
     flex-grow: 2;    
-    padding: 40px;
+    padding: 20px;
     width: 70%;    
 }
 
+.issueDate{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 
 .singleText {
@@ -286,17 +299,23 @@ input:focus {
     width: 100%;
 }
 
+.active.childText {
+    color: black;
+}
+
 /*BEGIN SEARCH RESULTS*/
 
 .searchResults::before {
-    content: 'SEARCH RESULTS';
-    font-size: 3em;
+    content: 'Search Results';
+    font-size: 2em;
+    padding: 20px;    
 }
 
 .searchResult {
     background: $light-border-color;
     margin-bottom: 5px;
     padding: 30px;
+    border-top: 1px solid white;    
 }
 
 .pieceTitle {
