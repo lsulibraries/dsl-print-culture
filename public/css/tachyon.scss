@@ -249,6 +249,7 @@ input:focus {
   content:'issue navigation';
   font-size: 2em;  
     text-transform: uppercase;
+    line-height: .9em;    
 
 }
 
@@ -268,6 +269,8 @@ input:focus {
     font-size: 2em;
     border-bottom: 1px dashed $light-border-color;
     text-transform: uppercase;    
+
+    line-height: .9em;    
 }
 
 .tocItem {
@@ -394,7 +397,13 @@ input:focus {
     margin: 20px 0px 20px 0px;
 }
 
-/*BEGIN Personograpy*/
+button.searchSubmit {
+    background: none;
+    border: none;
+    color: $document-text-color;
+}
+
+/*BEGIN Personography*/
 
 .personIndex {
     @include flexbox;
