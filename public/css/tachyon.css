@@ -195,6 +195,7 @@ input:focus {
 
 .tocItem {
   padding: 5px;
+  cursor: pointer;
 }
 
 .author {
@@ -291,6 +292,36 @@ input:focus {
   font-weight: 500;
   border-left: 2px solid #474747;
   padding-left: 5px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.piece {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.childPieceTitle:hover, .piece:hover {
+  padding-left: 10px;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
+  color: #fe7251;
+}
+
+.issueVol, .issueNum {
+  background: #474747;
+  color: white;
+  padding: 5px;
+  margin-top: 1px;
+  border-radius: 2px;
+  width: 45px;
+  font-size: 0.9em;
 }
 
 /*BEGIN Personograpy*/
@@ -310,20 +341,62 @@ input:focus {
   padding: 40px;
 }
 
-.person {
+.personIndex .person {
   background: #fe7251;
   margin: 0px 1px 1px 0px;
   padding: 20px;
   flex-grow: 1;
 }
 
-.person .contributing {
+.Contributing .personName {
   color: white;
 }
 
 .personName {
   font-size: 1.5em;
   font-weight: 700;
+}
+
+.Contributing .personRole {
+  background: white;
+  color: #fe7251;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.Mentioned .personRole {
+  background: #474747;
+  color: #fe7251;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.personBibl {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  background: #ffffff;
+  color: #474747;
+  margin: 20px -20px -20px -20px;
+  padding: 20px 20px 40px 20px;
+  border-top: 1px dashed #fe7251;
+  align-items: center;
+}
+
+.pieceMeta {
+  margin-left: 7px;
+  line-height: 15px;
+}
+.pieceMeta .pieceTitle {
+  font-size: 1.5em;
 }
 
 /*BEGIN SEARCH RESULTS*/
