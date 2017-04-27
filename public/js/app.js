@@ -34,17 +34,20 @@ Vue.component('container', {
 Vue.component('vue-header',{
     template: `
         <div class="header">
-        	<headerLogo></headerLogo>
-       		<headerTitle></headerTitle>
-			<div class="contrast" @click='toggleContrast'>
-				<div class="contrastTitle">High Contrast</div>
-					<div class="contrastSwitch">
-						<div class="contrastOff">Off</div>
-						<div class="contrastOn">On</div>				
-					</div>				
-			</div>
-	  		<headerNav></headerNav>
-	  		<div class="searchInput">	  <input value="Search"  onfocus="if(this.value == 'Search') { this.value = ''; }" ></input></div>
+          <headerLogo></headerLogo>
+       	  <headerTitle></headerTitle>
+	  <div class="contrast" @click='toggleContrast'>
+	    <div class="contrastTitle">High Contrast</div>
+	    <div class="contrastSwitch">
+	      <div class="contrastOff">Off</div>
+	      <div class="contrastOn">On</div>				
+	    </div>				
+	  </div>
+	  <headerNav></headerNav>
+	  <div class="searchInput">
+	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }"></input>
+	    <button value="search" @click="searchSubmitted"></button>
+	  </div>
         </div>
 	`,
     methods: {
@@ -52,6 +55,15 @@ Vue.component('vue-header',{
 	    this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
 	    Event.$emit('toggleContrast');
 	},
+	searchSubmitted: function (){
+	    Event.$emit('activeContentChange', 'search')
+	    Event.$emit('searchSubmitted', this.searchString)
+	}
+    },
+    data(){
+	return {
+	    searchString: ''
+	}
     }
 })
 
@@ -259,11 +271,30 @@ Vue.component('personBibl', {
 
 Vue.component('searchResults',{
     template: `
-	<div class="searchResults">___________SEARCH RESULTS____________
-          <searchResult></searchResult> ...
+	<div class="searchResults">
+          <searchResult v-for="result in results" :result="result"></searchResult>
         </div>
 	
-    `
+    `,
+    data(){
+	return {
+	    results: {},
+	    searchString: 'bishop' //this.$root.state.content.searchString
+	}
+    },
+    created() {
+	this.executeSearch()
+	Event.$on('searchSubmitted', (searchString) => {
+	    this.searchString = searchString
+	    this.executeSearch()
+	})
+    },
+    methods: {
+	executeSearch: function() {
+	    search_url = '/api/broadwayjournal/issue/search/' + this.searchString;
+	    axios.get(search_url).then(response => this.results = response.data);	    
+	}
+    }
 })
 
 Vue.component('searchResult',{
@@ -274,7 +305,7 @@ Vue.component('searchResult',{
 	}
     },
     template: `
-	<div class="searchResult">___________SEARCH RESULT____________
+	<div class="searchResult">
 	<div class="context"></div>
 	<div class="pieceTitle" @click="resultClicked">Click me</div>
 	</div>
@@ -1123,7 +1154,7 @@ new Vue({
 		    filter:'', // alpha | by date
 		    query: '', //eapoe
 		},
-
+		searchString: ''
 	    },
 	    contrast: 'normal', // high
 	}		
@@ -1133,19 +1164,24 @@ new Vue({
 	    this.state.content.abouts = about;
 	})
 	Event.$on('viewerSelected', (viewer) => this.state.content.issue.viewer = viewer)
-	Event.$on('activeContentChange', (content) => this.state.activeContent = content )
+	Event.$on('activeContentChange', (content) => {
+	    this.state.activeContent = content
+	})
 	Event.$on('issueSelected', (id) => {
 	    this.state.content.issue.id = id;
 	    this.state.content.issue.page = 1;
 	    this.state.content.issue.decls_id = '';
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
-	    this.state.content.issue.id = bibl.issueId;
+	    this.state.content.issue.id = bibl.issueId
 	    this.state.content.issue.decls_id = bibl.decls_id
 	})
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.content.issue.page = page;
-	})	
+	})
+	Event.$on('searchSubmitted', (searchString) => {
+	    this.searchString = searchString
+	})
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
