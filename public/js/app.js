@@ -563,24 +563,30 @@ Vue.component('abouts',{
 Vue.component('viewerSelector',{
     created(){
     	Event.$on('viewerSelected', (viewer) =>{
-    		if(viewer == 'tei'){
-    			this.$children[0].active=true;
-    			this.$children[1].active=false;
-    		}
-    		else{
-    			this.$children[0].active=false;
-    			this.$children[1].active=true;
-    		}	
+	    this.active = viewer
     	})
 
     },
     template: `
-	<div class='viewerSelector'>
-	<viewerSelectorButton  kind="tei">Text</viewerSelectorButton>
-	<span>&nbsp;|&nbsp; </span>
-	<viewerSelectorButton kind='pdf'>PDF</viewerSelectorButton>
+	<div class='viewerSelector' @click="toggleViewer">
+  	  <div class="viewerOption" v-bind:class="isActive('tei')">Text</div>
+	  <div class="viewerOption" v-bind:class="isActive('pdf')">PDF</div>
 	</div>
-	`
+	`,
+    methods: {
+	isActive: function(viewerType){
+	    return viewerType == this.active
+	},
+	toggleViewer: function(){
+	    this.active = this.active == 'pdf' ? 'tei' : 'pdf'
+	    Event.$emit('viewerSelected', this.active)
+	}
+    },
+    data(){
+	return {
+	    active: this.$root.state.content.issue.viewer
+	}
+    }
 });
 
 Vue.component('viewerSelectorButton',{
