@@ -1,7 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
-
 input:focus {
   outline: none !important;
+}
+
+.biblTitle, .issueId, .biblPage {
+  display: none;
 }
 
 body {
@@ -52,10 +55,6 @@ body {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-}
-
-.header button::after {
-  content: 'on';
 }
 
 .headerNav {
@@ -310,7 +309,7 @@ input:focus {
   transition: all 0.5s ease;
 }
 
-.childPieceTitle:hover, .piece:hover {
+.intraIssueNav .childPieceTitle:hover, .intraIssueNav .piece:hover {
   padding-left: 10px;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
@@ -327,6 +326,16 @@ input:focus {
   border-radius: 2px;
   width: 45px;
   font-size: 0.9em;
+}
+
+.teiMarkup {
+  font-size: 1.2em;
+}
+
+.head {
+  font-weight: 700;
+  border-bottom: 1px solid #c0c0c0;
+  margin: 20px 0px 20px 0px;
 }
 
 /*BEGIN Personograpy*/

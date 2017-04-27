@@ -60,6 +60,10 @@ input:focus {
     outline: none !important;
   }
 
+.biblTitle, .issueId, .biblPage{
+  display:none;
+}  
+
 body {
 	margin: 0px;
   font-family: Roboto;
@@ -95,9 +99,6 @@ body {
 
 }
 
-.header button::after{
-  content:'on';
-}
 
 .headerNav{
     @include flexCenter;
@@ -318,10 +319,12 @@ input:focus {
     @include transition(.5s);
 }
 
+.intraIssueNav{
 .childPieceTitle:hover, .piece:hover{
   padding-left: 10px;
   @include transition(0s);
       color: $primary-accent-color;
+}
 }
 
 .issueVol, .issueNum {
@@ -332,6 +335,16 @@ input:focus {
     border-radius: 2px;
     width: 45px;
     font-size: 0.9em;
+}
+
+.teiMarkup {
+    font-size: 1.2em;
+}
+
+.head {
+    font-weight: 700;
+    border-bottom: 1px solid#c0c0c0;
+    margin: 20px 0px 20px 0px;
 }
 
 /*BEGIN Personograpy*/
