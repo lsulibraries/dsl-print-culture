@@ -287,6 +287,45 @@ input:focus {
   color: black;
 }
 
+.childPieceTitle {
+  font-weight: 500;
+  border-left: 2px solid #474747;
+  padding-left: 5px;
+}
+
+/*BEGIN Personograpy*/
+.personIndex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personFilter input {
+  width: 100%;
+  font-size: 2em;
+  height: 140px;
+  padding: 40px;
+}
+
+.person {
+  background: #fe7251;
+  margin: 0px 1px 1px 0px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.person .contributing {
+  color: white;
+}
+
+.personName {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
 /*BEGIN SEARCH RESULTS*/
 .searchResults::before {
   content: 'Search Results';
