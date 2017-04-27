@@ -1,9 +1,11 @@
+declare namespace xs = "http://www.w3.org/2001/XMLSchema";
+declare variable $search_string as xs:string+ external;
 
 <searchResults>
 
 {
 (: get search string input == PLACEHOLDER :)
-let $search_string := 'Bishop'
+(:let $search_string := 'Bishop' :)
 
 (: match search string within text :)
 for $issue in collection('issue_text')

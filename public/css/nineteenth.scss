@@ -1,0 +1,977 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700';
+
+
+$document-color: #eee3cf;
+$background-document-color: #faeee2;
+$background-authors-color: #29303a;
+$primary-accent-color: #fe7251;
+$primary-accent-color-HC: #000000;
+$secondary-accent-color: #322e2b;
+$document-text-color: #666666;
+$document-divide-color: rgba(250, 238, 226, 0.09);
+$document-outer-border: #d0c7be;
+$hr-color: rgba(250, 238, 226, 0.3);
+$primary-accent-color2:  rgba(254, 114, 81, 0.75);
+$primary-accent-color-HC2:  #000000;
+$primary-accent-color-HC3:  #000000;
+$primary-accent-color3:  rgba(254, 114, 81, 0.5);
+
+
+@mixin transform($deg){
+    -ms-transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+    transform: rotate($deg);
+}
+
+@mixin transition-duration($sec){
+    -webkit-transition-duration: $sec;
+    transition-duration: $sec;
+}
+
+@mixin transition($sec){
+-webkit-transition: all $sec ease;
+-moz-transition: all $sec ease;
+-ms-transition: all $sec ease; 
+transition: all $sec ease;  
+}
+
+@mixin columns($num){
+    -webkit-column-count: ($num);
+    -moz-column-count: ($num);
+    column-count: ($num);
+}
+
+
+body{
+    font-family: Adobe Caslon Pro, adobe-caslon-pro, serif;
+    margin: 0px;
+    background: $background-authors-color;
+}
+
+.documentSection {
+    background: $background-document-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0px; /*centers section*/    
+    position: relative;
+}
+
+.documentOverflow{
+    background: $background-authors-color;  
+    position: absolute;
+    bottom: 0px;
+    height: 140px;
+    width: 100%;
+    left: 0px;
+}
+
+.documentUnder {
+    border: 40px solid $document-outer-border;
+    width: calc(100% - 33px);
+    max-width: 800px;
+    z-index: 0;
+    min-height: 840px;
+    position: absolute;
+    margin-top: 54px;
+    left: calc(50% - 444px);
+    top: 0px;
+    height: calc(100% - 200px);    
+} /*1011 to  1001 wide, error*/
+
+.swash{
+    font-style: italic;
+    font-feature-settings: "swsh";
+    font-size: 2em;
+}
+
+.author{
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.authorSection{
+    background: $background-authors-color;
+    color: $document-color;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.mainColumn{
+    background: $document-color;
+    border: 14px solid $background-authors-color;   
+    width: calc(100% - 33px);
+    max-width: 800px;
+    z-index: 1;
+    min-height: 1000px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 100px; /*helps center because issueIndex*/
+}
+
+.mainColumn::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 1px solid $document-text-color;
+}
+
+.logoThe {
+    font-style: italic;
+    position: relative;
+    right: 110px;
+    font-size: 20px;
+}
+
+.logoBroadway, .logoJournal{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.controlBar{
+    height: 10px;
+    display: flex;
+    font-size: 12px;
+}
+
+.hrMain {
+    width: 50px;
+    height: 2px;
+    background: $document-text-color;
+    margin: 30px auto;
+}
+
+.mainWindow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1060px;
+    color: $document-text-color;
+    font-size: 11px;
+    overflow: auto;
+}
+
+.logoTitle{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 20px;
+    display: flex;
+}
+
+.logoSubtitle {
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 1px;
+    left: 4px;
+    letter-spacing: .5px;
+    position: relative;
+}
+
+.mainCenter{
+}
+
+.content{
+    width:300px;
+}
+
+.footerBar{
+    height: 80px;
+}
+
+.documentFooter{
+    background: $secondary-accent-color;
+}
+
+.documentInner{
+    border: 1px solid $document-text-color;
+    margin: 5px;
+}
+
+.issueBar {
+    width: 109px;
+    position: relative;
+    font-family: Roboto;
+    z-index: 0;
+        min-width: 109px;
+}
+
+.activeMonth {
+    @include transition-duration(.2s);
+ }
+
+.singleIndex {
+    color: $document-text-color;
+    cursor: pointer;
+}
+
+.singleText{
+    @include transform(-45deg);
+    @include transition-duration(.2s);
+    color: $document-text-color;
+    position: relative;
+    top: 80px;
+    padding-right: 10px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 11px;
+    text-align: right;
+    background: $background-authors-color;
+}
+
+.yearText{
+    @extend .singleText;
+    background: $background-authors-color;
+    color: #ffffff;
+    font-weight: 900;
+    cursor: default;
+}
+
+.childIndex {
+    @include transition-duration(.2s);
+    @include transform(-45deg);     
+    color: $document-text-color;
+    position: relative;
+    padding-left: 0px;
+    top: 80px;
+    background: $background-document-color;
+}
+
+.childText {
+    @include transition-duration(.2s);
+    margin-right: 28px;
+    padding: 5px;
+    color: $background-document-color;
+    font-weight: 900;
+    margin-bottom: 13px;
+    background: $primary-accent-color;
+    text-align: right;
+}
+
+.issueIndex {
+    position: relative;
+    right: 33px;
+    background: none;
+    z-index: 3;
+    top: 100px;     
+}
+
+.issueIndex:nth-child(3){
+    z-index:2; /*makes DEC clickable*/
+}
+
+.childIndex:hover .childText{
+    @include transition-duration(0s);
+    color: $background-document-color;
+    margin-right: 0px;
+}
+
+.singleIndex:hover .singleText{
+    color: $background-document-color;
+    @include transition-duration(0s);
+}
+
+.activeMonth .singleText {
+    color: $background-document-color;
+    @include transition-duration(0s);
+}
+
+.childIndex:nth-child(1) .childText{
+margin-top:1px;
+}
+
+.childIndex:nth-last-child(1) .childText{
+margin-bottom: 12px;
+}
+
+.topMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.topMenu div {
+    text-decoration: none;
+    color: $document-text-color;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.authorsButton {
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid $document-text-color;
+    padding: 10px;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.authorHeader{
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    display: flex;    
+    justify-content: center;    
+}
+
+.inBorder {
+    height: 1px;
+    background: $hr-color;
+    width: 500px;
+    position: relative;
+    top: 30px;
+    margin: 0px 20px;
+}
+
+.nav {
+    width: 100%;
+    height: 43px;
+    background: $background-document-color;
+    border-bottom: 1px solid $document-outer-border;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;     
+}
+
+.node {
+    width: 46.94px;
+    background: $primary-accent-color;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    padding: 7px 11px 3px 11px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+    color: $background-authors-color;
+
+}
+
+
+
+.node a {
+    background: $primary-accent-color;
+    color: $background-authors-color;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+.node .ContributingAuthor {
+    color: $background-document-color;
+}
+
+.authorDirectory{
+    display: flex;
+    max-width: 1135px;
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navigationIssue {
+    position: absolute;
+    left: calc(50% - 605px);
+    z-index: 1;
+    display: flex;
+    top: 54px;
+    width: 200px;
+    flex-direction: column;
+    text-align: right;
+    max-height: 972px;
+}
+
+.tocItem {
+    color: $document-text-color;
+    font-size: 12px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: flex-start;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    flex-direction: column;
+    margin-right: 40px;
+    position: relative;
+    background: $background-document-color;
+    @include transition-duration(.2s); 
+
+}
+
+.pageNumber {
+    margin-left: 12px;
+    border-radius: 2px;
+    background: #d0c7be;
+    padding: 3px;
+    font-weight: 900;
+    color: $background-document-color;
+    display:    none;
+}
+
+.ccText {
+    font-size: 8px;
+    margin-left: 15px;
+}
+
+  .tocDropdown{
+    display:none;
+  }
+
+.libLogo img{
+    height: 20px;
+    width: auto;
+    margin-left: 20px;  
+    margin-top: 6px;    
+}
+
+.authorLegend{
+    max-width: 1135px;
+    align-self: center;
+    font-size: 12px;
+    letter-spacing: .3px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+.legendHeader {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.legendIcons{
+    display:flex;
+    margin-top: 24px;
+    margin-bottom: 24px;    
+flex-wrap: wrap;    
+}
+
+.legend1 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid $primary-accent-color;
+    overflow: hidden;
+    border-radius: 1px;
+    margin-right: 5px;    
+    background: $background-document-color;    
+}
+
+.legend2{
+    @extend .legend1;
+    background: $background-authors-color;
+}
+
+.legend3{
+    @extend .legend2;
+    border: 2px solid $primary-accent-color2;
+    .innerIcon{
+        background: $primary-accent-color2;
+    }
+}
+
+.legend4{
+    @extend .legend2;
+    border: 2px solid $primary-accent-color3;
+    .innerIcon{
+        background: $primary-accent-color3;
+    }
+}
+
+.innerIcon{
+    height: 43px;
+    width: 35px;
+    background: $primary-accent-color;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top: -20px;
+    left: -14px;
+}
+
+.contributingIcon{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;   
+    margin-right: 60px;    
+}
+
+.iconTop {
+    font-weight: 600;
+}
+
+.iconBottom {
+    font-style: italic;
+}
+
+.dropCap {
+    float: left;
+    font-family: Georgia;
+    font-size: 45px;
+    line-height: 25px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+
+.indent{
+  text-indent: 40px;
+  margin-top: 0px;  
+}
+
+.authorCard{
+    @extend .authorLegend;
+    width: 170px;
+    height: 300px;
+    align-self: flex-start;
+    border: 1px solid $hr-color;
+    padding: 10px;
+    bottom: 290px;
+    background: #29303a;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tei{
+    margin:20px;
+    height: 100%;
+    margin-top: 50px;    
+    font-size:18px;
+    font-family: Roboto;    
+}
+
+.front {
+    font-weight: 700;
+}
+
+.head {
+    font-weight: 700;
+    border-bottom: 2px solid grey;
+}
+
+.cit {
+    margin-bottom: 30px;
+}
+
+.citation {
+    margin-bottom: 30px;
+}
+
+#tei + .mainCenter{
+  display:none;
+}
+
+/*.piece {
+    @include columns(2);
+}*/
+
+.childPiece {
+    margin-bottom: 1px;
+    padding: 5px 10px 5px 0px;
+    position: relative;
+    font-size: 1em;
+    letter-spacing: 0px;
+    border-right: 6px solid #d0c7be;
+    @include transition-duration(0.2s);
+line-height: 12px;
+}
+
+.childPiece:hover{
+    border-right: 10px solid $primary-accent-color;
+    @include transition-duration(0s);
+
+}
+
+.topMenu a {
+    text-decoration: none;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 15px;
+    display: flex;
+    padding-bottom: 22px;
+    height: 100%;
+    color: #faeee2;
+    background: #29303a;
+    justify-content: center;
+    align-items: center;
+}
+
+.topMenu div{
+    cursor: pointer;
+}
+
+.controlBar span{
+    cursor: pointer;
+}
+
+@media (max-width: 1200px){
+.tocItem {
+    display:none;
+    color: #666666;
+    font-size: 10px;
+    font-family: roboto;
+    padding: 20px;
+    position: relative;
+    width: 125px;
+    align-items: center;
+    text-align: end;
+    background: $background-document-color;
+    justify-content: flex-end;
+    left: -12px;
+    top: 3px;
+    line-height: 10px;    
+    
+    }   
+
+    .navigationIssue {
+        position: absolute;
+        left: calc(50% - 370px);
+        z-index: 2;
+        letter-spacing: 0px;
+        display: flex;
+        height: 14px;
+        border-right: 2px solid #d0c7be;
+        border-left: 2px solid #d0c7be;
+        border-bottom: 2px solid $background-document-color;
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+        top: 80px;
+        text-align: center;
+        background: $primary-accent-color;
+    }
+
+    .tocDropdown {
+        display: block;
+        text-transform: uppercase;
+        font-size: 8px;
+        letter-spacing: 1px;
+        padding-top: 2px;
+        font-family: roboto;
+        color: white;
+    }
+
+    .navigationIssue:hover .tocItem{
+        display: flex;
+    }
+
+}
+
+.authorModal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background: rgba(0, 0, 0, 0.87);
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+.modalContent{
+    width:500px;
+}
+
+.closeModal {
+    padding: 20px;
+    background: $primary-accent-color;
+    border-radius: 50px;
+    text-align: center;
+    font-family: roboto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.fade-enter-active{
+  transition: opacity .5s;
+
+}
+.fade-leave-active {
+  transition: opacity 0s;
+
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
+}
+
+.authorDirectory_inner {
+    width: calc(100% - 200px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tocToggle{
+    padding: 7px;
+    border-bottom: 1px dashed #d0c7be;
+    margin-bottom: 1px;
+    font-weight: 900;
+}
+
+@media (max-width: 1000px){
+
+.navigationIssue {
+    position: absolute;
+    left: 8%;
+    z-index: 2;
+    letter-spacing: 0px;
+    display: flex;
+    height: 14px;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+    border-right: 2px solid $background-document-color;
+    border-left: 2px solid $background-document-color;
+    border-bottom: 2px solid $background-document-color;
+    top: 12px;
+    text-align: center;
+    background: $primary-accent-color;
+}
+
+.documentUnder{
+    display: none;
+}
+
+.childIndex, .singleText, .yearText{    
+    @include transform(0deg);
+}
+
+.childIndex:nth-last-child(1) .childText{
+    margin-bottom: 0px;
+}
+
+.singleText, .yearText{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-bottom: 1px solid $document-divide-color;
+    padding: 10px;    
+}
+
+.childText{
+    border-bottom: 1px solid $document-divide-color;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.childIndex{
+    margin: 0px;
+}
+
+.childIndex:hover .childText{
+    margin-right: 10px;
+}
+
+.issueBar{
+
+        min-width: 60px;
+        width: 60px;     
+}
+
+.issueIndex{
+    right: 2px;
+    top: -68px;
+}
+
+.mainColumn{
+        width: calc(100% + 486px);
+    margin-left: 12px;
+    margin-top: 12px;   
+}
+
+
+
+}
+
+.highContrast{
+
+
+body{
+    background: $background-authors-color;
+}
+
+.documentSection {
+    background: $background-document-color;
+}
+
+
+
+.documentUnder {
+    border: 40px solid $document-outer-border;
+
+} /*1011 to  1001 wide, error*/
+
+
+
+.authorSection{
+    background: $background-authors-color;
+    color: $document-color;
+}
+
+.mainColumn{
+    background: $document-color;
+}
+
+.mainColumn::after {
+  border: 1px solid $document-text-color;
+}
+
+
+
+.hrMain {
+    background: $document-text-color;
+}
+
+.mainWindow{
+    color: $document-text-color;
+}
+
+.documentFooter{
+    background: $secondary-accent-color;
+}
+
+.documentInner{
+    border: 1px solid $document-text-color;
+}
+
+.singleIndex {
+    color: $document-text-color;
+}
+
+.singleText{
+    color: $document-text-color;
+    background: $background-authors-color;
+}
+
+.yearText{
+    background: $background-authors-color;
+    color: #ffffff;
+}
+
+.childIndex {
+    color: $document-text-color;
+    background: $background-document-color;
+}
+
+.childText {
+    color: $background-document-color;
+    background: $primary-accent-color-HC;
+}
+
+
+.childIndex:hover .childText{
+    color: $background-document-color;
+}
+
+.singleIndex:hover .singleText{
+    color: $background-document-color;
+}
+
+.activeMonth .singleText {
+    color: $background-document-color;
+}
+
+
+.topMenu div {
+    color: $document-text-color;
+}
+
+.authorsButton {
+    border: 1px solid $document-text-color;
+}
+
+.inBorder {
+    background: $hr-color;
+}
+
+.nav {
+    background: $background-document-color;
+    border-bottom: 1px solid $document-outer-border;
+}
+
+.node {
+    background: $primary-accent-color-HC;
+    color: $background-authors-color;
+}
+
+
+
+.node a {
+    background: $primary-accent-color-HC;
+    color: $background-authors-color;
+}
+
+
+.node .ContributingAuthor {
+    color: $background-document-color;
+}
+
+
+.tocItem {
+    color: $document-text-color;
+    background: $background-document-color;
+    @include transition-duration(.2s); 
+
+}
+
+.pageNumber {
+    background: #d0c7be;
+    color: $background-document-color;
+
+}
+
+
+.legend1 {
+    border: 2px solid $primary-accent-color-HC;
+    background: $background-document-color;    
+}
+
+.legend2{
+    background: $background-authors-color;
+}
+
+.legend3{
+    border: 2px solid $primary-accent-color-HC2;
+    .innerIcon{
+        background: $primary-accent-color-HC2;
+    }
+}
+
+.legend4{
+    border: 2px solid $primary-accent-color-HC3;
+    .innerIcon{
+        background: $primary-accent-color-HC3;
+    }
+}
+
+
+
+.singleText, .yearText{
+    border-bottom: 1px solid $document-divide-color;
+  }
+
+.childText{
+    border-bottom: 1px solid $document-divide-color;
+}
+
+}
+

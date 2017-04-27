@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+   <head>
+      <title>The Broadway Journal</title>
+      <volume>2</volume>
+      <number>4</number>
+      <date>August 2, 1845</date>
+      <editor>Edgar Allan Poe</editor>
+      <editor>Henry Cood Watson</editor>
+      <publisher>John Bisco</publisher>
+      <printer>[?}</printer>
+   </head>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>To Isa Singing</title>
+         <t_type>attested</t_type>
+         <auth_id>thchivers</auth_id>
+         <auth_name>Thomas Holley Chivers</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>49</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>The Business Man</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>49</start>
+         <end>52</end>
+         <pages>49-52</pages>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Song</title>
+         <t_type>attested</t_type>
+         <auth_id>ehburrington</auth_id>
+         <auth_name>Edwin Henry Burrington</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>52</page>
+         <pdf_index>4</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>William Wirt</title>
+         <t_type>attested</t_type>
+         <auth_id>fwthomas</auth_id>
+         <auth_name>Frederick William Thomas</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>52</start>
+         <end>54</end>
+         <pages>52-54</pages>
+         <pdf_index>4</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Sonnet-To Science</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>54</page>
+         <pdf_index>6</pdf_index>
+      </p5>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p6>
+               <decls_id>p6</decls_id>
+               <type>piece</type>
+               <title>The Lost Pleiad</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>55</start>
+               <end>56</end>
+               <pages>55-56</pages>
+               <pdf_index>7</pdf_index>
+            </p6>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's Library of Choice Reading</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>56</page>
+               <pdf_index>8</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>The Fortune Hunter</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>56</start>
+               <end>57</end>
+               <pages>56-57</pages>
+               <pdf_index>8</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's Library of Choice Reading</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>The Waverley Novels</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Pictorial History of the World</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Godolphin Arabian</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Praise and Principle</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>The Wandering Jew</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>Mrs. Caudle's Curtain Lectures</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>Blackwood's Edinburgh Magazine</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Breach of Promise</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>Life in Dalecarlia</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>57</page>
+               <pdf_index>9</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>An Encyclopedia of Domestic Economy</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>58</page>
+               <pdf_index>10</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>The Treasury of History</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>58</page>
+               <pdf_index>10</pdf_index>
+            </p20>
+         </pieces>
+      </s1>
+      <p21>
+         <decls_id>p21</decls_id>
+         <type>piece</type>
+         <title>Bridal Ballad</title>
+         <t_type>derived</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>58</page>
+         <pdf_index>10</pdf_index>
+      </p21>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Musical Department</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>French Opera</title>
+               <t_type>derived</t_type>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <start>58</start>
+               <end>59</end>
+               <pages>58-59</pages>
+               <pdf_index>10</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>An Apology for Church Music</title>
+               <t_type>derived</t_type>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <start>59</start>
+               <end>60</end>
+               <pages>59-60</pages>
+               <pdf_index>11</pdf_index>
+            </p23>
+         </pieces>
+      </s2>
+      <p24>
+         <decls_id>p24</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>60</page>
+         <pdf_index>12</pdf_index>
+      </p24>
+      <p27>
+         <decls_id>p27</decls_id>
+         <type>piece</type>
+         <title>Editorial Miscellany</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>medium</auth_cert>
+         <start>60</start>
+         <end>63</end>
+         <pages>60-63</pages>
+         <pdf_index>12</pdf_index>
+      </p27>
+      <p25>
+         <decls_id>p25</decls_id>
+         <type>piece</type>
+         <title>To Correspondents</title>
+         <t_type>derived</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>low</auth_cert>
+         <page>63</page>
+         <pdf_index>15</pdf_index>
+      </p25>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <start>63</start>
+         <end>64</end>
+         <pages>63-64</pages>
+         <pdf_index>15</pdf_index>
+      </s4>
+      <p26>
+         <decls_id>p26</decls_id>
+         <type>piece</type>
+         <title>Agents for the Broadway Journal</title>
+         <t_type>attested</t_type>
+         <page>64</page>
+         <pdf_index>16</pdf_index>
+      </p26>
+   </toc>
+</div>

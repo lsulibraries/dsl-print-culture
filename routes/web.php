@@ -16,11 +16,21 @@ Route::get('/', function () {
     	]);
 });
 
+Route::get('/broadwayjournal/issue/{year}/{month}/{day}/pdf', 'IssuesController@pdf');
+
 Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@index');
 
-Route::get('/broadwayjournal/issue/{year}/{month}/{day}', 'IssuesController@show');
+Route::get('/broadwayjournal/issue/{year}/{month}/{day}/{format}', 'IssuesController@download');
 
-Route::get('/broadwayjournal/issue/{year}/{month}/{day}/toc', 'IssuesController@toc');
+Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
+
+Route::get('/api/broadwayjournal/{id}/bibl_data', 'IssuesController@bibl_data');
+
+Route::get('/api/broadwayjournal/{id}/ppm', 'IssuesController@ppm');
+
+Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText');
+
+Route::get('/api/broadwayjournal/{id}/piece-text/{pid}', 'IssuesController@pieceText');
 
 Route::get('/broadwayjournal/', function () {
  	return "<html><head/><body><script type='text/javascript'>
@@ -46,27 +56,15 @@ Route::get('/broadwayjournal/', function () {
 </script></body></html>";
 });
 
-Route::get('/about', function () {
-    return view('welcome',[
-    	'route'=>'context-about'
-    	]);
-});
+Route::get('/api/all-issues/json', 'IssuesController@all_json');
 
-Route::get('/technical', function () {
-    return view('welcome',[
-    	'route'=>'context-technical'
-    	]);
-});
-
-Route::get('/credits', function () {
-    return view('welcome',[
-    	'route'=>'context-credits'
-    	]);
-});
+Route::get('/api/all-issues-grouped/json', 'IssuesController@all_grouped_json');
 
 Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
 
 Route::get('/api/personography/summary', 'PersonographyController@summary');
+
+Route::get('/api/broadwayjournal/issue/search/{searchString}', 'IssuesController@search');
 
 Route::get('/issue-{month}-{day}-{year}', 'IssuesController@mainWindow');
 

@@ -21,29 +21,80 @@ class IssuesController extends Controller
         return response()->json($issues);
     }
 
-    function show($year, $month, $day){
-        $id = $year . $month . $day;
-
-	$url = 'app/public/broadway-tei/tei/' . $this->getFilenameForID($id);
-	$xml = Storage::get($this->getFilePathForID($id));
-	return response()->file(storage_path($url));
+    function all_json($year = NULL, $month = NULL, $day = NULL){
+        $issues = $this->getIssues($year, $month, $day);
+        return response()->json($issues);
     }
 
-    function toc($year, $month, $day){
-        $id  = $year . $month . $day;
-        $xml = new \SimpleXMLElement(
-            Storage::get($this->getFilePathForID($id))
-        );
-        $toc = [];
-//        foreach($xml->xpath("//bibl[@type='section']") as $section){
-        foreach($xml->teiHeader->fileDesc->sourceDesc->listBibl->bibl as $bibl){
-            $toc[] = (string)$bibl->title;
-        }
-        return response()->json($toc);
+    function search($searchString){
+        $outfile = '/tmp/results.xml';
+        $cmd = "sh " . storage_path('app/public/search.sh') . " " . $outfile . " " . $searchString;
+        exec($cmd);
+        $xml = simplexml_load_string(file_get_contents('/tmp/results.xml'));
+        return response()->json($xml);
     }
     
-    private function getFilenameForID($id){
-      return $this->file_prefix . $id . '.xml';
+    function download($year, $month, $day, $format){
+        $fileFormat = $format == 'tei' ? 'xml' : $format;
+        $id = $year . $month . $day;
+            $url = "app/public/broadway-tei/$format/" . $this->getFilenameForID($id,$fileFormat);
+            $xml = Storage::get($this->getFilePathForID($id));
+            return response()->file(storage_path($url));
+    }
+
+    function all_grouped_json($year = NULL, $month = NULL, $day = NULL){
+        $issues = $this->getIssues($year, $month, $day);
+        $ret = array();
+        $out = '';
+        foreach($issues as $issue){
+            $year  = substr($issue, 0, 4);
+            $month = substr($issue, 4, 2);
+            $d   = substr($issue, 6, 2);
+
+            if(!array_key_exists($year, $ret)){
+                $ret[$year] = array();
+            }
+            if(!array_key_exists($month, $ret[$year])){
+                $ret[$year][$month] = array();
+            }
+            $ret[$year][$month][] = $d;
+        }
+        return response()->json($ret);
+    }
+    
+    function toc($id){
+        $xml = simplexml_load_string(Storage::get('public/toc/' . $this->getFilenameForID($id)));
+        return response()->json($xml);// response()->json($toc);
+    }
+
+    function bibl_data($id){
+        $xml = simplexml_load_string(Storage::get('public/bibl_data/' . $this->getFilenameForID($id)));
+        return response()->json($xml);// response()->json($toc);
+    }
+
+    function ppm($id){
+        $xml = simplexml_load_string(Storage::get('public/ppm/' . $this->getFilenameForID($id)));
+        return response()->json($xml);// response()->json($toc);
+    }
+        
+    function issueText($id){
+        $xml = Storage::get('public/issues/' . $this->getFilenameForID($id));
+        return $xml;// response()->json($toc);
+    }
+
+    
+    function pieceText($id, $pid){
+        $issue =  simplexml_load_string(Storage::get('public/issues/' . $this->getFilenameForID($id)));
+        $piece = $issue->xpath("//div[@id='#$pid']");
+        $txt   = '';
+        foreach($piece as $pisces){
+            $txt .= $pisces->asXML();
+        }
+        return response($txt);
+    }
+    
+    private function getFilenameForID($id, $format = 'xml'){
+      return $this->file_prefix . $id . '.' . $format;
     }
 
     private function getFilePathForID($id){
@@ -60,10 +111,7 @@ class IssuesController extends Controller
         if(strlen($filter) && !strstr($id, $filter)){
           continue;
         }
-        $date  = $this->timestampForID($id);
-        $uri   = $this->teiForID($id, 'uri');
-        $path  = $this->teiForID($id, 'path');
-        $out[] = compact('date', 'uri', 'path');
+        $out[] = $id;
       }
       return $out;
     }
@@ -90,4 +138,11 @@ class IssuesController extends Controller
     private function parseFileNameForID($filename){
       return explode('.', explode('_', $filename)[1])[0];
     }
+
+    public function pdf($year, $month, $day) {
+        
+        $pdf = Storage::url("BroadwayJournal_$year$month$day.pdf");
+        return view('welcome', ['pdf' => $pdf, 'route' => 'hello ROUTE']);
+    }
+
 }
