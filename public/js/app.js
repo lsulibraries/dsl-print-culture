@@ -45,9 +45,8 @@ Vue.component('vue-header',{
 	  </div>
 	  <headerNav></headerNav>
 	  <div class="searchInput">
-	    <button value="search" @click="searchSubmitted" class="searchSubmit"><i class="fa fa-search" aria-hidden="true"></i>
-</button><input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
-	    
+	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
+	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
@@ -144,6 +143,7 @@ Vue.component('personIndex', {
     template: `
 	<div class='personIndex' v-if="this.index">
         <person v-for="personObject in this.index.personIndex" :meta="personObject"></person>
+        <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
         </div>
 	`,
     created() {
@@ -334,7 +334,7 @@ Vue.component('issueViewer',{
     template: `
 	<div class="viewer">
 	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
-	  <tei-markup v-if="viewer == 'tei'"></tei-markup>
+	  <tei-markup v-if="viewer == 'text'"></tei-markup>
 	</div>
 	`,
         data() {
@@ -570,8 +570,11 @@ Vue.component('viewerSelector',{
     },
     template: `
 	<div class='viewerSelector' @click="toggleViewer">
-  	  <div class="viewerOption" v-bind:class="isActive('tei')">Text</div>
-	  <div class="viewerOption" v-bind:class="isActive('pdf')">PDF</div>
+            <div class="viewerTitle">Change Viewer</div>
+            <div class="viewerSwitch">
+              <div class="viewerText" v-bind:class="isActive('tei')">Text</div>
+              <div class="viewerPdf" v-bind:class="isActive('pdf')">PDF</div>
+            </div>
 	</div>
 	`,
     methods: {
@@ -579,7 +582,7 @@ Vue.component('viewerSelector',{
 	    return viewerType == this.active
 	},
 	toggleViewer: function(){
-	    this.active = this.active == 'pdf' ? 'tei' : 'pdf'
+	    this.active = this.active == 'pdf' ? 'text' : 'pdf'
 	    Event.$emit('viewerSelected', this.active)
 	}
     },
@@ -735,11 +738,11 @@ Vue.component('zoom-slider',{
 	},
 	methods:{
 		zoomUpdate: function(){
-			Event.$emit('zoomUpdate', this.zoomLevel,this.$root.state.issue.page)
+			Event.$emit('zoomUpdate', this.zoomLevel,this.$root.state.content.issue.page)
 	}
 
 	},
-	template:`<input class='zoom' id='zoomSlider' min='0' max='2.0' step='0.1' v-model="zoomLevel" @change='zoomUpdate(this.zoomLevel)' type='range'></input>`
+	template:`<input class='zoom' id='zoomSlider' min='1.3' max='3.0' step='0.1' v-model="zoomLevel" @change='zoomUpdate(this.zoomLevel)' type='range'></input>`
 })
 
 Vue.component('pdf-viewer',{
@@ -806,7 +809,7 @@ Vue.component('pdf-viewer',{
 	loadPdf: function(issue, page = 1, scale = 1.3) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
-	    if(this.$root.state.content.issue.viewer == 'tei'){
+	    if(this.$root.state.content.issue.viewer == 'text'){
 		return;
 	    }
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
@@ -840,8 +843,9 @@ Vue.component('pdf-viewer',{
 		// Prepare canvas using PDF page dimensions
 		var canvas = document.getElementById('pdf');
 		var context = canvas.getContext('2d');
-		canvas.height = 1014//viewport.height;
-		canvas.width = 735// viewport.width;
+
+		canvas.height = viewport.height; //1014
+		canvas.width = viewport.width; //735
 
 		// Render PDF page into canvas context
 		var renderContext = {
@@ -1174,7 +1178,7 @@ new Vue({
 		abouts: 'about', // technical | credits
 		issue: {
 		    id: '18450201',//'18450104', // yyyy-mm-dd
-		    viewer: 'pdf', // text|pdf
+		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: ''
 		},
