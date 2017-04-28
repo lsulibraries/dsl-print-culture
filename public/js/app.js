@@ -321,14 +321,15 @@ Vue.component('searchResult',{
 	    }
 	    return this.result.pieceMeta.pieceTitle
 	},
-	highlightResult: function(){
-	    return this.result.context.toLowerCase().replace(this.searchString, '<span class="searchHit">' + this.searchString +'</span>')
-	}
     },
     template: `
 	<div class="searchResult" @click="resultClicked">
-	<div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
-	  <div class="context" v-html="highlightResult()"></div>
+	  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
+	  <div class="context">
+	    <span class="contextBefore">{{this.result.contextBefore}}</span>
+	    <span class="searchHit">{{this.result.hit}}</span>
+	    <span class="contextAfter">{{this.result.contextAfter}}</span>
+	  </div>
 	</div>
     `
 })
@@ -368,6 +369,17 @@ Vue.component('issue',{
 Vue.component('issueHeader', {
     data() {
 	return {
+	    authorShipLegend: `Author will have 2-3 attributes: status, cert, and ref.
+
+Status: identify as “supplied” (journal doesn’t say but you found it elsewhere), “attested” (the journal says), “unknown” (anonymous), or “inferred” (journal provides a byline that doesn’t provide full name, but makes it obvious, e.g. “EAP”).
+
+If  you have only a pen name, but you know the author's real name, the author status should be "inferred," and the certainty will be "high," "medium," or "low," depending on what you've found in your research. The name in the ref should be the author's real name.
+
+If an article only has initials for a byline and you can't find a reasonable full-name match for the initials, the author status will be "unknown," but you will use the initials of the author instead of "anon" in the ref.
+
+Certainty: identify cert as “high,” “medium,” or “low.”
+If the author is anonymous DO NOT provide certainty.`,
+	    showAuthorShipLegend: false,
 	    bibl_data: {},
 	    ppm: {},
 	    biblId: 's1',
@@ -407,7 +419,11 @@ Vue.component('issueHeader', {
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
-	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
+	  <div class="pieceAuthorShip" @mouseover="showAuthorShipLegend = true" @mouseleave="showAuthorShipLegend = false">
+	    <div class="authorShipOrigin">{{this.authorShipMeta('authorStatus')}}</div>
+	    <div class="authorShipCertainty">{{this.authorShipMeta('authorCertainty')}}</div>
+	  </div>
+	<div class="authorShipLegend" v-if="showAuthorShipLegend">{{this.authorShipLegend}}</div>
           </div>
     	<a class="downloadLink" v-bind:href='stateHref()' download>
     	<div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
@@ -455,6 +471,14 @@ Vue.component('issueHeader', {
 	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
 	    ppm = this.ppm[ppmId]
 	    return ppm[attribute]
+	},
+	authorShipMeta: function (attribute){
+	    if(!this.bibl_data[this.biblId].pieceMeta){
+		return
+	    }
+	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
+	    ppm = this.ppm[ppmId]
+	    return ppm.authorShip[attribute]
 	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);

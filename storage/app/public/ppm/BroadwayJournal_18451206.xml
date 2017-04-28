@@ -6,7 +6,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18451206-p1-eapoe>
    <ppm-18451206-p2-wgsimms>
       <issueId>18451206</issueId>
@@ -14,7 +17,10 @@
       <personId>wgsimms</personId>
       <personName>William Gilmore Simms</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-p2-wgsimms>
    <ppm-18451206-p3-jtheadley>
       <issueId>18451206</issueId>
@@ -22,7 +28,10 @@
       <personId>jtheadley</personId>
       <personName>Joel Tyler Headley</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-p3-jtheadley>
    <ppm-18451206-p4-fgaleota>
       <issueId>18451206</issueId>
@@ -30,7 +39,10 @@
       <personId>fgaleota</personId>
       <personName>Fabio Mario Galeota</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-p4-fgaleota>
    <ppm-18451206-p5-eapoe>
       <issueId>18451206</issueId>
@@ -38,7 +50,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-p5-eapoe>
    <ppm-18451206-p6-amide>
       <issueId>18451206</issueId>
@@ -47,7 +62,10 @@
       <personName>Abijah Metcalf Ide, Jr.</personName>
       <personPiecePseudo>A. M. Ide</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18451206-p6-amide>
    <ppm-18451206-p7-anon>
       <issueId>18451206</issueId>
@@ -55,7 +73,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451206-p7-anon>
    <ppm-18451206-p8-hcl>
       <issueId>18451206</issueId>
@@ -63,7 +83,9 @@
       <personId>hcl</personId>
       <personName>H. C. L.</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451206-p8-hcl>
    <ppm-18451206-s1-anon>
       <issueId>18451206</issueId>
@@ -71,7 +93,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451206-s1-anon>
    <ppm-18451206-p16-rsrowley>
       <issueId>18451206</issueId>
@@ -79,7 +103,10 @@
       <personId>rsrowley</personId>
       <personName>R. S. Rowley</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18451206-p16-rsrowley>
    <ppm-18451206-p17-anon>
       <issueId>18451206</issueId>
@@ -87,7 +114,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451206-p17-anon>
    <ppm-18451206-p18-hsdegrove>
       <issueId>18451206</issueId>
@@ -95,7 +124,10 @@
       <personId>hsdegrove</personId>
       <personName>Mrs. H. S. De Grove</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-p18-hsdegrove>
    <ppm-18451206-p19-thchivers>
       <issueId>18451206</issueId>
@@ -103,7 +135,10 @@
       <personId>thchivers</personId>
       <personName>Thomas Holley Chivers</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-p19-thchivers>
    <ppm-18451206-s2-eapoe>
       <issueId>18451206</issueId>
@@ -111,7 +146,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-s2-eapoe>
    <ppm-18451206-p20-jbisco>
       <issueId>18451206</issueId>
@@ -119,7 +157,10 @@
       <personId>jbisco</personId>
       <personName>John Bisco</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451206-p20-jbisco>
    <ppm-18451206-p21-eapoe>
       <issueId>18451206</issueId>
@@ -127,6 +168,9 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18451206-p21-eapoe>
 </personPieceMeta>

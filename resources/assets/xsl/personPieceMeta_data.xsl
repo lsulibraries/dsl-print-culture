@@ -63,21 +63,16 @@
                 <xsl:text>Contributor</xsl:text>
             </personPieceRole>
             <authorShip>
-                <xsl:text>Authorship is </xsl:text><xsl:value-of select="@status"/>
-                <xsl:choose>
-                    <xsl:when test="@cert">
-                        <xsl:text>, with </xsl:text>
-                        <xsl:value-of select="@cert"/>
-                        <xsl:text> certainty.</xsl:text>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>.</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
+                <authorStatus><xsl:value-of select="@status"/></authorStatus>
+                <xsl:if test="@cert">
+                    <authorCertainty><xsl:value-of select="@cert"/></authorCertainty>
+                </xsl:if>
                 <xsl:if test="contains($bibl/note,'ref=')">
-                    <xsl:text>(Reference: </xsl:text>
-                    <xsl:value-of select="substring-before(substring-after($bibl/note,'ref=&quot;'),'&quot;)')"/>
-                    <xsl:text>)</xsl:text>
+                    <authorReference>
+                        <xsl:text>(Reference: </xsl:text>
+                        <xsl:value-of select="substring-before(substring-after($bibl/note,'ref=&quot;'),'&quot;)')"/>
+                        <xsl:text>)</xsl:text>
+                    </authorReference>
                 </xsl:if>
             </authorShip>
         </xsl:element>

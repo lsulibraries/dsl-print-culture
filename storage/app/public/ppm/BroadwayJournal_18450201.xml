@@ -6,7 +6,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p1-anon>
    <ppm-18450201-p2-anon>
       <issueId>18450201</issueId>
@@ -14,7 +16,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p2-anon>
    <ppm-18450201-p3-anon>
       <issueId>18450201</issueId>
@@ -22,7 +26,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p3-anon>
    <ppm-18450201-p4-wajones>
       <issueId>18450201</issueId>
@@ -30,7 +36,10 @@
       <personId>wajones</personId>
       <personName>William Alfred Jones</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is inferred, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450201-p4-wajones>
    <ppm-18450201-p5-eaduyckinck>
       <issueId>18450201</issueId>
@@ -38,7 +47,10 @@
       <personId>eaduyckinck</personId>
       <personName>Evert Augustus Duyckinck</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is inferred, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450201-p5-eaduyckinck>
    <ppm-18450201-p6-eapoe>
       <issueId>18450201</issueId>
@@ -46,7 +58,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450201-p6-eapoe>
    <ppm-18450201-p7-eapoe>
       <issueId>18450201</issueId>
@@ -54,7 +69,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450201-p7-eapoe>
    <ppm-18450201-p8-mwlowell>
       <issueId>18450201</issueId>
@@ -62,7 +80,10 @@
       <personId>mwlowell</personId>
       <personName>Maria White Lowell</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450201-p8-mwlowell>
    <ppm-18450201-p9-eapoe>
       <issueId>18450201</issueId>
@@ -70,7 +91,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450201-p9-eapoe>
    <ppm-18450201-p10-asdoane>
       <issueId>18450201</issueId>
@@ -78,7 +102,10 @@
       <personId>asdoane</personId>
       <personName>Augustus Sidney Doane</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450201-p10-asdoane>
    <ppm-18450201-p11-cperabeau>
       <issueId>18450201</issueId>
@@ -86,7 +113,10 @@
       <personId>cperabeau</personId>
       <personName>Charles Perabeau</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450201-p11-cperabeau>
    <ppm-18450201-p12-eapoe>
       <issueId>18450201</issueId>
@@ -94,7 +124,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450201-p12-eapoe>
    <ppm-18450201-p13-eapoe>
       <issueId>18450201</issueId>
@@ -102,7 +135,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450201-p13-eapoe>
    <ppm-18450201-p14-eapoe>
       <issueId>18450201</issueId>
@@ -110,7 +146,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450201-p14-eapoe>
    <ppm-18450201-p15-anon>
       <issueId>18450201</issueId>
@@ -118,23 +157,85 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p15-anon>
-   <ppm-18450201-s4-anon>
+   <ppm-18450201-p16-eapoe>
       <issueId>18450201</issueId>
-      <sectionId>s4</sectionId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <pieceId>p16</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450201-s4-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18450201-p16-eapoe>
+   <ppm-18450201-p17-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p17</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18450201-p17-eapoe>
+   <ppm-18450201-p18-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p18</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18450201-p18-eapoe>
+   <ppm-18450201-p19-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p19</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18450201-p19-eapoe>
+   <ppm-18450201-p20-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p20</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18450201-p20-eapoe>
+   <ppm-18450201-p21-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p21</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18450201-p21-eapoe>
    <ppm-18450201-p22-anon>
       <issueId>18450201</issueId>
       <pieceId>p22</pieceId>
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p22-anon>
    <ppm-18450201-p23-anon>
       <issueId>18450201</issueId>
@@ -142,7 +243,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p23-anon>
    <ppm-18450201-p24-anon>
       <issueId>18450201</issueId>
@@ -150,7 +253,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p24-anon>
    <ppm-18450201-p25-anon>
       <issueId>18450201</issueId>
@@ -158,7 +263,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p25-anon>
    <ppm-18450201-p26-anon>
       <issueId>18450201</issueId>
@@ -166,7 +273,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p26-anon>
    <ppm-18450201-p27-anon>
       <issueId>18450201</issueId>
@@ -174,7 +283,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p27-anon>
    <ppm-18450201-p28-anon>
       <issueId>18450201</issueId>
@@ -182,7 +293,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p28-anon>
    <ppm-18450201-p29-anon>
       <issueId>18450201</issueId>
@@ -190,7 +303,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p29-anon>
    <ppm-18450201-p30-anon>
       <issueId>18450201</issueId>
@@ -198,7 +313,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p30-anon>
    <ppm-18450201-p31-anon>
       <issueId>18450201</issueId>
@@ -206,7 +323,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p31-anon>
    <ppm-18450201-p32-anon>
       <issueId>18450201</issueId>
@@ -214,7 +333,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p32-anon>
    <ppm-18450201-p33-anon>
       <issueId>18450201</issueId>
@@ -222,7 +343,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p33-anon>
    <ppm-18450201-p34-map>
       <issueId>18450201</issueId>
@@ -230,7 +353,10 @@
       <personId>map</personId>
       <personName>Mary Ann P.</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450201-p34-map>
    <ppm-18450201-p35-whcrome>
       <issueId>18450201</issueId>
@@ -238,7 +364,10 @@
       <personId>whcrome</personId>
       <personName>William Henry Crome</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450201-p35-whcrome>
    <ppm-18450201-p36-anon>
       <issueId>18450201</issueId>
@@ -246,7 +375,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450201-p36-anon>
    <ppm-18450201-p37-jbisco>
       <issueId>18450201</issueId>
@@ -254,6 +385,9 @@
       <personId>jbisco</personId>
       <personName>John Bisco</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450201-p37-jbisco>
 </personPieceMeta>
