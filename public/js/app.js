@@ -224,7 +224,10 @@ Vue.component('personBibl', {
 	  <div class="pieceMeta" v-if="!this.$root.empty(this.ppm.pieceId)">
 	<div class="pieceSection" v-if="!this.$root.empty(this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId))">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
 	    <div class="pieceTitle" @click="goToPiece">{{this.bibl_data[ppm.pieceId].pieceMeta.pieceTitle}}</div>
-	    <div class="pieceAuthorShip">{{this.ppm.authorShip}}</div>
+	    <div class="pieceAuthorShip">
+	      <div class="authorCertainty">{{this.ppm.authorShip.authorCertainty}}</div>
+	      <div class="authorStatus">{{this.ppm.authorShip.authorStatus}}</div>
+            </div>
 	    <div class="personPiecePseudo" v-if="this.ppm.personPiecePseudo">{{this.ppm.personPiecePseudo}}</div>
 	    <div class="personPieceRole">{{this.ppm.personPieceRole}}</div>
           </div>
