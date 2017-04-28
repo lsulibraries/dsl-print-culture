@@ -321,14 +321,15 @@ Vue.component('searchResult',{
 	    }
 	    return this.result.pieceMeta.pieceTitle
 	},
-	highlightResult: function(){
-	    return this.result.context.toLowerCase().replace(this.searchString, '<span class="searchHit">' + this.searchString +'</span>')
-	}
     },
     template: `
 	<div class="searchResult" @click="resultClicked">
-	<div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
-	  <div class="context" v-html="highlightResult()"></div>
+	  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
+	  <div class="context">
+	    <span class="contextBefore">{{this.result.contextBefore}}</span>
+	    <span class="searchHit">{{this.result.hit}}</span>
+	    <span class="contextAfter">{{this.result.contextAfter}}</span>
+	  </div>
 	</div>
     `
 })
