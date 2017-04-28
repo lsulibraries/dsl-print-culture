@@ -28,7 +28,7 @@ Route::get('/api/broadwayjournal/{id}/bibl_data', 'IssuesController@bibl_data');
 
 Route::get('/api/broadwayjournal/{id}/ppm', 'IssuesController@ppm');
 
-Route::get('/api/broadwayjournal/abouts/credits', 'IssuesController@credits');
+Route::get('/api/broadwayjournal/abouts/{about}', 'IssuesController@abouts');
 
 Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText');
 

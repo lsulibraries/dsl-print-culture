@@ -579,15 +579,8 @@ Vue.component('abouts',{
 	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">About</div>
 	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Technical</div>
 	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Credits</div>
-	<div v-if="this.abouts == 'about'">
-	
-	        {{ aboutText[0] }}
-	        <br/>
-	        {{ aboutText[1] }}
-        </div>
-	<div v-if="this.abouts == 'tech'">
-	  <li v-for="each in techText"  v-text="each"></li>
-	</div>
+	<div v-if="this.abouts == 'about' && this.aboutText.length > 1" v-html="this.aboutText"></div>
+	<div v-if="this.abouts == 'tech' && this.techText.length > 1" v-html="this.techText"></div>
 	<div v-if="this.abouts == 'credits'">
           <creditsPersonList></creditsPersonList>
         </div>
@@ -596,16 +589,31 @@ Vue.component('abouts',{
     data() {
 	return {
 	    abouts: this.$root.state.content.abouts,
-	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
+	    aboutText: '',
+	    techText: ''
 	}
     },
     methods: {
     	selectMe: function(about) {
 	    this.abouts = about;
+	    this.fetchAbout(about);
 	    Event.$emit('aboutsSelected', this.abouts);
+	},
+	fetchAbout: function(about){
+	    if(about == 'tech'){
+		url = '/api/broadwayjournal/abouts/tech'
+		axios.get(url).then(response => this.techText = response.data);
+	    }
+	    if(about == 'tech'){
+		url = '/api/broadwayjournal/abouts/about'
+		axios.get(url).then(response => this.aboutText = response.data);
+	    }
 	}
-    }
+    },
+    created() {
+	url = '/api/broadwayjournal/abouts/about'
+	axios.get(url).then(response => this.aboutText = response.data);
+    },
 })
 
 Vue.component('creditsPersonList', {
