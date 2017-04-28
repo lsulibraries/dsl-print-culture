@@ -834,6 +834,17 @@ span.searchHit {
   font-weight: 700;
 }
 
+.creditsPersonAffiliation {
+    background: #fe7251;
+    color: white;
+    text-transform: uppercase;
+    padding: 4px;
+    font-size: 0.6em;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
 /*BEGIN High Contrast Mode*/
 .highContrast .content {
   background: #29303a;
@@ -847,5 +858,3 @@ span.searchHit {
   background: #474747;
   color: white;
 }
-
-/*END High Contrast Mode*/
