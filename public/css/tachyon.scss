@@ -814,6 +814,7 @@ background:  $primary-accent-color;
     padding: 23px;
     position: relative;
     margin-top: 5px;
+    overflow: hidden;    
 }
 
 .viewerTitle {
@@ -849,7 +850,7 @@ background:  $primary-accent-color;
 
 .viewerSwitch {
     display: flex;
-    margin: 0px -22px -23px -23px;
+    margin: 0px -23px -23px -23px;
     position: relative;
     height: 50px;
     justify-content: center;
@@ -859,6 +860,18 @@ background:  $primary-accent-color;
     text-transform: uppercase;
     font-size: 0.8em;    
     cursor: pointer;
+}
+
+.pdfSelected{
+  .viewerText{
+    color: $document-text-color;
+    background: white;
+  }
+
+  .viewerPdf{
+    color: white;
+    background: $document-text-color;
+  }
 }
 
 /*credits*/

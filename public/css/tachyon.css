@@ -769,6 +769,7 @@ span.searchHit {
   padding: 23px;
   position: relative;
   margin-top: 5px;
+  overflow: hidden;
 }
 
 .viewerTitle {
@@ -803,7 +804,7 @@ span.searchHit {
 
 .viewerSwitch {
   display: flex;
-  margin: 0px -22px -23px -23px;
+  margin: 0px -23px -23px -23px;
   position: relative;
   height: 50px;
   justify-content: center;
@@ -813,6 +814,15 @@ span.searchHit {
   text-transform: uppercase;
   font-size: 0.8em;
   cursor: pointer;
+}
+
+.pdfSelected .viewerText, .pdfSelected .viewerPdf {
+  color: #474747;
+  background: white;
+}
+.pdfSelected .viewerPdf {
+  color: white;
+  background: #474747;
 }
 
 /*credits*/
