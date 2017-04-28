@@ -781,8 +781,54 @@ float: left;
 
 .issueHeader .drawer .pieceMeta {
     margin-bottom: 0px;
+
+
+.viewerSelector {
+    float: left;
+    margin-right: 15px;
+    border-radius: 4px;
+    border: 1px solid $document-text-color;
+    padding: 23px;
+    position: relative;
+    margin-top: 5px;
 }
 
+.viewerTitle {
+    text-transform: uppercase;
+    position: relative;
+    top: -16px;
+    height: 5px;
+    font-size: 0.9em;
+}
+
+.viewerText {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $document-text-color;
+    color: white;
+}
+
+.viewerPdf{
+    @extend .viewerText;
+    background: white;
+    color: $document-text-color;
+}
+
+.viewerSwitch {
+    display: flex;
+    margin: 0px -22px -23px -23px;
+    position: relative;
+    height: 50px;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    border-top: 1px solid $light-border-color;
+    text-transform: uppercase;
+}
 
 /*BEGIN High Contrast Mode*/
 .highContrast{
