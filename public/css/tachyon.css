@@ -331,6 +331,11 @@ input:focus {
   width: 40px;
 }
 
+.singleText:hover {
+  background: #474747;
+  color: white;
+}
+
 .childIndex {
   display: -webkit-box;
   display: -moz-box;

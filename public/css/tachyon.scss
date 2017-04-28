@@ -348,6 +348,12 @@ input:focus {
     padding: 13px;
     margin: 1px;
     width: 40px;
+    cursor: pointer;
+}
+
+.singleText:hover {
+  background: $document-text-color;
+  color: white;
 }
 
 .childIndex {
