@@ -410,7 +410,10 @@ Vue.component('issueHeader', {
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
 	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
           </div>
-    	<a v-bind:href='stateHref()' download>Download {{this.dlLabel()}}</a>
+    	<a class="downloadLink" v-bind:href='stateHref()' download>
+    	<div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
+    	<div class="downloadText">Download {{this.dlLabel()}}</div>
+    	</a>
 	<drawer v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
 	</div>
 	`,
@@ -493,7 +496,14 @@ Vue.component('issueHeader', {
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">Actuate Drawer</div>
+	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">
+		<div class="drawerIcon">
+			<i class="fa fa-list" aria-hidden="true"></i>
+		</div>
+    	<div class="drawerText">
+    		More from this author
+		</div>
+	</div>
 	  <personBibl v-if="showBibls" v-for="bibl in this.authorBibls.personListBibl" :personBibl="bibl"></personBibl>
         </div>
 	`,
