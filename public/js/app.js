@@ -382,7 +382,6 @@ If an article only has initials for a byline and you can't find a reasonable ful
 
 Certainty: identify cert as “high,” “medium,” or “low.”
 If the author is anonymous DO NOT provide certainty.`,
-	    showAuthorShipLegend: false,
 	    bibl_data: {},
 	    ppm: {},
 	    biblId: 's1',
@@ -422,11 +421,11 @@ If the author is anonymous DO NOT provide certainty.`,
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
-	  <div class="pieceAuthorShip" @mouseover="showAuthorShipLegend = true" @mouseleave="showAuthorShipLegend = false">
+	  <div class="pieceAuthorShip">
 	    <div class="authorShipOrigin">{{this.authorShipMeta('authorStatus')}}</div>
 	    <div class="authorShipCertainty">{{this.authorShipMeta('authorCertainty')}}</div>
 	  </div>
-	<div class="authorShipLegend" v-if="showAuthorShipLegend">{{this.authorShipLegend}}</div>
+	<div class="authorShipLegend">{{this.authorShipLegend}}</div>
           </div>
     	<a class="downloadLink" v-bind:href='stateHref()' download>
     	<div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
@@ -614,10 +613,10 @@ Vue.component('viewerSelector',{
     },
     template: `
 	<div class='viewerSelector' @click="toggleViewer">
-            <div class="viewerTitle">Change Viewer</div>
+            <div class="viewerTitle">Toggle View</div>
             <div class="viewerSwitch">
-              <div class="viewerText" v-bind:class="isActive('tei')">Text</div>
-              <div class="viewerPdf" v-bind:class="isActive('pdf')">PDF</div>
+              <div class="viewerText">Text</div>
+              <div class="viewerPdf">PDF</div>
             </div>
 	</div>
 	`,
