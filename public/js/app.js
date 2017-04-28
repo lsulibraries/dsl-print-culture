@@ -527,7 +527,7 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">
+	<div class="drawer" v-bind:class="{active: showBibls}"><div class="drawerActuator" @click="showBibls = !showBibls">
 		<div class="drawerIcon">
 			<i class="fa fa-list" aria-hidden="true"></i>
 		</div>
