@@ -6,7 +6,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p1-cfbriggs>
    <ppm-18450222-p2->
       <issueId>18450222</issueId>
@@ -14,7 +18,10 @@
       <personId/>
       <personName/>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450222-p2->
    <ppm-18450222-p3-clbarritt>
       <issueId>18450222</issueId>
@@ -22,7 +29,10 @@
       <personId>clbarritt</personId>
       <personName>C. L. Barritt</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450222-p3-clbarritt>
    <ppm-18450222-p4-rcarter>
       <issueId>18450222</issueId>
@@ -31,7 +41,11 @@
       <personName>Robert Carter</personName>
       <personPiecePseudo>Robert Oliver</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is inferred, with high certainty.(Reference: wikipedia.org)</authorShip>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: wikipedia.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p4-rcarter>
    <ppm-18450222-p5-tdenglish>
       <issueId>18450222</issueId>
@@ -40,7 +54,11 @@
       <personName>Thomas Dunn English</personName>
       <personPiecePseudo>E.</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is inferred, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p5-tdenglish>
    <ppm-18450222-p6-anon>
       <issueId>18450222</issueId>
@@ -48,7 +66,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p6-anon>
    <ppm-18450222-p7-anon>
       <issueId>18450222</issueId>
@@ -56,7 +76,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p7-anon>
    <ppm-18450222-p8-anon>
       <issueId>18450222</issueId>
@@ -64,7 +86,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p8-anon>
    <ppm-18450222-p9-saw>
       <issueId>18450222</issueId>
@@ -72,7 +96,9 @@
       <personId>saw</personId>
       <personName>S. A. W.</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p9-saw>
    <ppm-18450222-p10-mehewitt>
       <issueId>18450222</issueId>
@@ -80,7 +106,10 @@
       <personId>mehewitt</personId>
       <personName>Mary Elizabeth Hewitt</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450222-p10-mehewitt>
    <ppm-18450222-p11-cfbriggs>
       <issueId>18450222</issueId>
@@ -88,7 +117,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p11-cfbriggs>
    <ppm-18450222-p12-anon>
       <issueId>18450222</issueId>
@@ -96,7 +129,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p12-anon>
    <ppm-18450222-p13-anon>
       <issueId>18450222</issueId>
@@ -104,7 +139,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p13-anon>
    <ppm-18450222-p14-anon>
       <issueId>18450222</issueId>
@@ -112,7 +149,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p14-anon>
    <ppm-18450222-p15-cfbriggs>
       <issueId>18450222</issueId>
@@ -120,7 +159,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p15-cfbriggs>
    <ppm-18450222-p16-cfbriggs>
       <issueId>18450222</issueId>
@@ -128,7 +171,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p16-cfbriggs>
    <ppm-18450222-p17-cfbriggs>
       <issueId>18450222</issueId>
@@ -136,7 +183,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p17-cfbriggs>
    <ppm-18450222-p18-cfbriggs>
       <issueId>18450222</issueId>
@@ -144,7 +195,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p18-cfbriggs>
    <ppm-18450222-p19-cfbriggs>
       <issueId>18450222</issueId>
@@ -152,7 +207,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p19-cfbriggs>
    <ppm-18450222-p20-cfbriggs>
       <issueId>18450222</issueId>
@@ -160,7 +219,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p20-cfbriggs>
    <ppm-18450222-p21-cfbriggs>
       <issueId>18450222</issueId>
@@ -168,7 +231,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p21-cfbriggs>
    <ppm-18450222-p22-cfbriggs>
       <issueId>18450222</issueId>
@@ -176,7 +243,11 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450222-p22-cfbriggs>
    <ppm-18450222-p23-hcwatson>
       <issueId>18450222</issueId>
@@ -184,7 +255,10 @@
       <personId>hcwatson</personId>
       <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18450222-p23-hcwatson>
    <ppm-18450222-p24-anon>
       <issueId>18450222</issueId>
@@ -192,7 +266,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450222-p24-anon>
    <ppm-18450222-p25-cfbriggs>
       <issueId>18450222</issueId>
@@ -200,7 +276,10 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18450222-p25-cfbriggs>
    <ppm-18450222-p26-cfbriggs>
       <issueId>18450222</issueId>
@@ -208,6 +287,9 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18450222-p26-cfbriggs>
 </personPieceMeta>
