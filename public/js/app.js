@@ -426,8 +426,8 @@ If the author is anonymous DO NOT provide certainty.`,
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
             <div class="pieceAuthorRole" v-if="this.authorMeta('personPieceRole')">{{this.authorMeta('personPieceRole')}}</div>
 	  <div class="pieceAuthorShip">
-	    <div class="authorShipOrigin" v-if="this.authorShipMeta('authorStatus')">{{this.authorShipMeta('authorStatus')}}</div>
-	    <div class="authorShipCertainty" v-if="this.authorShipMeta('authorCertainty')">{{this.authorShipMeta('authorCertainty')}}</div>
+	    <div class="authorShipOrigin" v-if="this.authorShipMeta('authorStatus') && this.showCertaintyStatus()">{{this.authorShipMeta('authorStatus')}}</div>
+	    <div class="authorShipCertainty" v-if="this.authorShipMeta('authorCertainty') && this.showCertaintyStatus()">{{this.authorShipMeta('authorCertainty')}}</div>
 	  </div>
 	<div class="authorShipLegend">{{this.authorShipLegend}}</div>
           </div>
@@ -437,6 +437,11 @@ If the author is anonymous DO NOT provide certainty.`,
     methods: {
 	dataLoaded: function () {
 	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
+	},
+	showCertaintyStatus: function () {
+	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
+	    ppm = this.ppm[ppmId]
+	    return ppm.authorShip.authorCertainty != 'high' || ppm.authorShip.authorStatus !== 'attested'
 	},
 	drawerIsAvailable: function() {
 	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
