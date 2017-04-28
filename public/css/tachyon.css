@@ -807,6 +807,15 @@ span.searchHit {
   cursor: pointer;
 }
 
+/*credits*/
+.creditsPerson {
+  margin-bottom: 20px;
+}
+
+.creditsPersonName {
+  font-weight: 700;
+}
+
 /*BEGIN High Contrast Mode*/
 .highContrast .content {
   background: #29303a;
