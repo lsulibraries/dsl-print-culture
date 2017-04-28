@@ -757,6 +757,7 @@ span.searchHit {
   top: -16px;
   height: 5px;
   font-size: 0.9em;
+  font-weight: 700;
 }
 
 .viewerText, .viewerPdf {
