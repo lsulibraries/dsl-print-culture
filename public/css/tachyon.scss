@@ -39,10 +39,10 @@ $dark-border-color: #5c5c5c;
 }
 
 @mixin transition($sec){
-	-webkit-transition: all $sec ease;
-	-moz-transition: all $sec ease;
-	-ms-transition: all $sec ease; 
-	transition: all $sec ease;  
+  -webkit-transition: all $sec ease;
+  -moz-transition: all $sec ease;
+  -ms-transition: all $sec ease; 
+  transition: all $sec ease;  
 }
 
 
@@ -65,14 +65,14 @@ input:focus {
 }  
 
 body {
-	margin: 0px;
+  margin: 0px;
   font-family: Roboto;
   font-size: 12px;
     color: $document-text-color;  
 }
 
 .header{
-	 @include flexbox;
+   @include flexbox;
    position: relative;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .headerLogo img{
-	width: 120px;
+  width: 120px;
     height: auto;
 }
 
@@ -415,6 +415,26 @@ button.searchSubmit {
 .personography {
     padding-left: 40px;
     position: relative;
+
+    .authorCertainty {
+  background: #fe7251;
+    float: left;
+    color: white;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 2px 4px 2px 4px;
+    border-radius: 2px;
+    }
+
+    .authorStatus{
+    @extend .authorCertainty;
+    }
+
+    .personPieceRole{
+    @extend .authorCertainty;
+    }    
 }
 
 .personography::before {
@@ -601,8 +621,6 @@ span.searchHit {
     background: yellow;
 }
 
-.issueHeader {
-
 .authorShipOrigin {
     float: left;
     background: #fe7251;
@@ -620,6 +638,10 @@ span.searchHit {
 .authorShipCertainty {
     @extend .authorShipOrigin;
 }
+
+.issueHeader {
+
+
 
 .pieceMeta{
       margin-bottom: 30px;
@@ -654,7 +676,17 @@ float: left;
 
 }
 
-
+.pieceAuthorRole {
+    background: $primary-accent-color;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 2px 4px 2px 4px;
+    border-radius: 3px;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;    
+}
 
 .drawer{
 
