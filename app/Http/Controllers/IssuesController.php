@@ -26,6 +26,11 @@ class IssuesController extends Controller
         return response()->json($issues);
     }
 
+    function credits(){
+        $xml = simplexml_load_string(Storage::get('public/credits.xml'));
+        return response()->json($xml);
+    }
+
     function search($searchString){
         $outfile = '/tmp/results.xml';
         $cmd = "sh " . storage_path('app/public/search.sh') . " " . $outfile . " " . $searchString;
