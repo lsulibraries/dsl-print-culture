@@ -493,6 +493,7 @@ button.searchSubmit {
 }
 
 .pieceMeta {
+  position: relative;
   margin-left: 7px;
   line-height: 15px;
 }
@@ -595,16 +596,31 @@ span.searchHit {
   background: yellow;
 }
 
+.issueHeader .authorShipOrigin, .issueHeader .authorShipCertainty {
+  float: left;
+  background: #fe7251;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  position: relative;
+  top: -2px;
+  border-radius: 2px;
+  margin: 0px 0px 0px 2px;
+}
+.issueHeader .pieceMeta {
+  margin-bottom: 30px;
+}
 .issueHeader .pieceTitle {
   font-size: 2em;
   margin: 20px 20px 5px 0px;
   line-height: 1em;
 }
 .issueHeader .pieceAuthor, .issueHeader .pieceAuthorRole {
-  display: inline;
+  float: left;
 }
 .issueHeader .pieceAuthorShip {
-  margin-top: 20px;
+  display: inline;
 }
 .issueHeader .pieceAuthorRole {
   background: #fe7251;
@@ -615,13 +631,14 @@ span.searchHit {
   border-radius: 3px;
   position: relative;
   top: -2px;
+  margin-left: 5px;
 }
 
 .drawer {
   margin-bottom: 40px;
 }
 .drawer .personBibl:hover {
-  background: rgba(254, 114, 81, 0.75);
+  background: #be553c;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
@@ -654,6 +671,22 @@ span.searchHit {
 }
 .drawer .pieceTitle {
   font-size: 1.5em;
+}
+
+.authorShipLegend {
+  display: none;
+}
+
+.pieceAuthorShip:hover + .authorshipLegend, .authorshipLegend:hover {
+  display: block;
+  position: absolute;
+  width: 250px;
+  left: 290px;
+  top: 0px;
+  background: white;
+  padding: 22px;
+  border: 1px solid #e9e9e9;
+  border-radius: 2px;
 }
 
 /*END SEARCH RESULTS*/
