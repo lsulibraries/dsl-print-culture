@@ -641,6 +641,18 @@ span.searchHit {
 
 .issueHeader {
 
+ .issueVol, .issueNum {
+    background: #fe7251;
+    color: #ffffff;
+    padding: 7px;
+    margin-top: 2px;
+    width: 45px;
+    font-weight: 700;
+    font-size: 0.9em;
+    float: left;
+    margin-right: 2px;
+    border-radius: 4px;
+  }    
 
 
 .pieceMeta{

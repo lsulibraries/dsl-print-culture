@@ -620,6 +620,18 @@ span.searchHit {
   margin: 0px 0px 0px 2px;
 }
 
+.issueHeader .issueVol, .issueHeader .issueNum {
+  background: #fe7251;
+  color: #ffffff;
+  padding: 7px;
+  margin-top: 2px;
+  width: 45px;
+  font-weight: 700;
+  font-size: 0.9em;
+  float: left;
+  margin-right: 2px;
+  border-radius: 4px;
+}
 .issueHeader .pieceMeta {
   margin-bottom: 30px;
 }
@@ -742,3 +754,5 @@ span.searchHit {
   background: #474747;
   color: white;
 }
+
+/*END High Contrast Mode*/
