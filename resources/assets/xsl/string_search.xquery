@@ -51,7 +51,7 @@ return
             <piecePdfIndex>{$pdfIndex}</piecePdfIndex>
             <pieceTitle>{$pieceTitle}</pieceTitle>
         </pieceMeta>
-        <context>...{$contextBefore}<span class='searchHit'>{$searchHit}</span>{$contextAfter}...</context>
+        <contextBefore>...{$contextBefore}</contextBefore><hit>{$searchHit}</hit><contextAfter>{$contextAfter}...</contextAfter>
         
     </searchResult>
 }
