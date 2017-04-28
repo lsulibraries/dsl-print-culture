@@ -329,6 +329,12 @@ input:focus {
   padding: 13px;
   margin: 1px;
   width: 40px;
+  cursor: pointer;
+}
+
+.singleText:hover {
+  background: #474747;
+  color: white;
 }
 
 .childIndex {
@@ -342,6 +348,12 @@ input:focus {
   background: #fe7251;
   margin-bottom: 1px;
   padding: 10px 15px 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.childIndex:hover {
+  background: #474747;
   color: white;
 }
 
@@ -792,6 +804,16 @@ span.searchHit {
   border-top: 1px solid #e9e9e9;
   text-transform: uppercase;
   font-size: 0.8em;
+  cursor: pointer;
+}
+
+/*credits*/
+.creditsPerson {
+  margin-bottom: 20px;
+}
+
+.creditsPersonName {
+  font-weight: 700;
 }
 
 /*BEGIN High Contrast Mode*/

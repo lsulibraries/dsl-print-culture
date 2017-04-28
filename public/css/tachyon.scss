@@ -348,6 +348,12 @@ input:focus {
     padding: 13px;
     margin: 1px;
     width: 40px;
+    cursor: pointer;
+}
+
+.singleText:hover {
+  background: $document-text-color;
+  color: white;
 }
 
 .childIndex {
@@ -356,6 +362,12 @@ input:focus {
     margin-bottom: 1px;
     padding: 10px 15px 10px 15px;
     color: white;
+    cursor: pointer;
+}
+
+.childIndex:hover{
+  background: $document-text-color;
+  color: white;
 }
 
 .intraIssueNav {
@@ -835,6 +847,16 @@ float: left;
     border-top: 1px solid $light-border-color;
     text-transform: uppercase;
     font-size: 0.8em;    
+    cursor: pointer;
+}
+
+/*credits*/
+.creditsPerson {
+    margin-bottom: 20px;
+}
+
+.creditsPersonName {
+    font-weight: 700;
 }
 
 /*BEGIN High Contrast Mode*/
