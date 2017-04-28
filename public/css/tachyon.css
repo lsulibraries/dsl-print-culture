@@ -620,6 +620,18 @@ span.searchHit {
   margin: 0px 0px 0px 2px;
 }
 
+.issueHeader .issueVol, .issueHeader .issueNum {
+  background: #fe7251;
+  color: #ffffff;
+  padding: 7px;
+  margin-top: 2px;
+  width: 45px;
+  font-weight: 700;
+  font-size: 0.9em;
+  float: left;
+  margin-right: 2px;
+  border-radius: 4px;
+}
 .issueHeader .pieceMeta {
   margin-bottom: 30px;
 }
@@ -660,6 +672,17 @@ span.searchHit {
 
 .drawer {
   margin-bottom: 40px;
+}
+.drawer .authorCertainty, .drawer .authorStatus, .drawer .personPieceRole {
+  background: white;
+  float: left;
+  color: #fe7251;
+  margin-top: 2px;
+  margin-right: 2px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  border-radius: 2px;
 }
 .drawer .personBibl:hover {
   background: #be553c;
@@ -714,6 +737,56 @@ span.searchHit {
 }
 
 /*END SEARCH RESULTS*/
+.issueHeader .drawer .pieceMeta {
+  margin-bottom: 0px;
+}
+
+.viewerSelector {
+  float: left;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: 1px solid #474747;
+  padding: 23px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.viewerTitle {
+  text-transform: uppercase;
+  position: relative;
+  top: -16px;
+  height: 5px;
+  font-size: 0.9em;
+}
+
+.viewerText, .viewerPdf {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #474747;
+  color: white;
+}
+
+.viewerPdf {
+  background: white;
+  color: #474747;
+}
+
+.viewerSwitch {
+  display: flex;
+  margin: 0px -22px -23px -23px;
+  position: relative;
+  height: 50px;
+  justify-content: center;
+  font-weight: 700;
+  align-items: center;
+  border-top: 1px solid #e9e9e9;
+  text-transform: uppercase;
+}
+
 /*BEGIN High Contrast Mode*/
 .highContrast .content {
   background: #29303a;

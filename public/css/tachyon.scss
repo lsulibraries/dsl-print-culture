@@ -417,7 +417,7 @@ button.searchSubmit {
     position: relative;
 
     .authorCertainty {
-  background: #fe7251;
+     background: #fe7251;
     float: left;
     color: white;
     margin-top: 2px;
@@ -641,6 +641,18 @@ span.searchHit {
 
 .issueHeader {
 
+ .issueVol, .issueNum {
+    background: #fe7251;
+    color: #ffffff;
+    padding: 7px;
+    margin-top: 2px;
+    width: 45px;
+    font-weight: 700;
+    font-size: 0.9em;
+    float: left;
+    margin-right: 2px;
+    border-radius: 4px;
+  }    
 
 
 .pieceMeta{
@@ -676,6 +688,7 @@ float: left;
 
 }
 
+
 .pieceAuthorRole {
     background: $primary-accent-color;
     color: white;
@@ -693,6 +706,27 @@ float: left;
 
 
     margin-bottom: 40px;
+
+    .authorCertainty {
+     background: white;
+    float: left;
+    color:  $primary-accent-color;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 2px 4px 2px 4px;
+    border-radius: 2px;
+    }
+
+    .authorStatus{
+    @extend .authorCertainty;
+    }
+
+    .personPieceRole{
+    @extend .authorCertainty;
+    }    
+
   .personBibl:hover {
     background:$primary-accent-color2;
     @include transition(0s);    
@@ -744,6 +778,57 @@ float: left;
     border-radius: 2px;  
 }
 /*END SEARCH RESULTS*/
+
+.issueHeader .drawer .pieceMeta {
+    margin-bottom: 0px;
+
+
+.viewerSelector {
+    float: left;
+    margin-right: 15px;
+    border-radius: 4px;
+    border: 1px solid $document-text-color;
+    padding: 23px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.viewerTitle {
+    text-transform: uppercase;
+    position: relative;
+    top: -16px;
+    height: 5px;
+    font-size: 0.9em;
+}
+
+.viewerText {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $document-text-color;
+    color: white;
+}
+
+.viewerPdf{
+    @extend .viewerText;
+    background: white;
+    color: $document-text-color;
+}
+
+.viewerSwitch {
+    display: flex;
+    margin: 0px -22px -23px -23px;
+    position: relative;
+    height: 50px;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    border-top: 1px solid $light-border-color;
+    text-transform: uppercase;
+}
 
 /*BEGIN High Contrast Mode*/
 .highContrast{
