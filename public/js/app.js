@@ -643,7 +643,7 @@ Vue.component('viewerSelector',{
 
     },
     template: `
-	<div class='viewerSelector' @click="toggleViewer">
+	<div class='viewerSelector' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">
             <div class="viewerTitle">Toggle View</div>
             <div class="viewerSwitch">
               <div class="viewerText">
@@ -663,13 +663,15 @@ Vue.component('viewerSelector',{
 	    return viewerType == this.active
 	},
 	toggleViewer: function(){
+	    this.pdfSelected = !this.pdfSelected
 	    this.active = this.active == 'pdf' ? 'text' : 'pdf'
 	    Event.$emit('viewerSelected', this.active)
 	}
     },
     data(){
 	return {
-	    active: this.$root.state.content.issue.viewer
+	    active: this.$root.state.content.issue.viewer,
+	    pdfSelected: false
 	}
     }
 });
