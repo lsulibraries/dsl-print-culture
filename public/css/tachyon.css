@@ -162,7 +162,6 @@ input:focus {
 .abouts {
   padding: 40px;
   background: url(http://i.imgur.com/gHkl0bM.jpg);
-  height: calc(100% - 127px);
   background-size: cover;
 }
 
@@ -407,6 +406,26 @@ button.searchSubmit {
 }
 
 /*BEGIN Personography*/
+.personography {
+  padding-left: 40px;
+  position: relative;
+}
+
+.personography::before {
+  background: black;
+  content: 'Personography';
+  width: 10px;
+  color: white;
+  word-wrap: break-word;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+}
+
 .personIndex {
   display: -webkit-box;
   display: -moz-box;
@@ -596,6 +615,45 @@ span.searchHit {
   border-radius: 3px;
   position: relative;
   top: -2px;
+}
+
+.drawer {
+  margin-bottom: 40px;
+}
+.drawer .personBibl:hover {
+  background: rgba(254, 114, 81, 0.75);
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
+}
+.drawer .personBibl {
+  background: #fe7251;
+  color: white;
+  font-size: 0.9em;
+  padding: 20px;
+  border-top: 1px dashed #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.drawer .issueVol, .drawer .issueNum {
+  background: #ffffff;
+  color: #fe7251;
+  padding: 5px;
+  margin-top: 1px;
+  border-radius: 2px;
+  width: 45px;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.drawer .pieceTitle, .drawer .issueHeader, .drawer .pieceAuthorShip {
+  margin: 0px;
+}
+.drawer .pieceTitle {
+  font-size: 1.5em;
 }
 
 /*END SEARCH RESULTS*/

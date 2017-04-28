@@ -188,7 +188,6 @@ input:focus {
 .abouts {
     padding: 40px;
     background: url(http://i.imgur.com/gHkl0bM.jpg);
-    height: calc(100% - 127px);
     background-size: cover;
 }
 
@@ -271,6 +270,8 @@ input:focus {
     text-align: center;
     font-weight: 700;
 }
+
+
 
 .tocDropdown {
     font-size: 2em;
@@ -411,6 +412,25 @@ button.searchSubmit {
 }
 
 /*BEGIN Personography*/
+.personography {
+    padding-left: 40px;
+    position: relative;
+}
+
+.personography::before {
+    background: black;
+    content: 'Personography';
+    width: 10px;
+    color: white;
+    word-wrap: break-word;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
 
 .personIndex {
     @include flexbox;
@@ -549,6 +569,8 @@ a.downloadLink {
     padding: 9px;
 }
 
+
+
 /*BEGIN SEARCH RESULTS*/
 
 .searchResults::before {
@@ -603,6 +625,48 @@ span.searchHit {
     top: -2px;
 }
 
+}
+
+
+
+.drawer{
+
+
+
+    margin-bottom: 40px;
+  .personBibl:hover {
+    background:$primary-accent-color2;
+    @include transition(0s);    
+}
+
+    .personBibl {
+    background: #fe7251;
+    color: white;
+    font-size: 0.9em;
+    padding: 20px;
+    border-top: 1px dashed #ffffff;    
+    cursor: pointer;
+    @include transition(0.5s);    
+    }
+
+    .issueVol, .issueNum {
+    background: #ffffff;
+    color: #fe7251;
+    padding: 5px;
+    margin-top: 1px;
+    border-radius: 2px;
+    width: 45px;
+    font-weight: 700;
+    font-size: 0.9em;
+    }    
+
+    .pieceTitle, .issueHeader, .pieceAuthorShip {
+    margin: 0px;
+    }    
+
+    .pieceTitle{
+      font-size:1.5em;
+    }
 }
 /*END SEARCH RESULTS*/
 
