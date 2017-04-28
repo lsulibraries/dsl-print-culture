@@ -990,7 +990,9 @@ Vue.component('tei-markup',{
 	    if(needle.length < 1){
 		return this.issueText
 	    }
-	    return this.issueText.toLowerCase().replace(needle, '<span class="searchHit">' + needle +'</span>')
+	    //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
+	    pattern = new RegExp('('+needle+')', 'gi')
+	    return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>")
 	},
 	getText: function(){
 	    if(this.biblId){
