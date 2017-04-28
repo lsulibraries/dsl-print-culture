@@ -412,6 +412,10 @@ If the author is anonymous DO NOT provide certainty.`,
 	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
 	      <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
 	      <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
+    	  <a class="downloadLink" v-bind:href='stateHref()' download>
+          <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
+          <div class="downloadText">Download {{this.dlLabel()}}</div>
+    	  </a>	      
 	    </div>
 	  </div>
 	  <div class="sectionMeta">
@@ -427,10 +431,6 @@ If the author is anonymous DO NOT provide certainty.`,
 	  </div>
 	<div class="authorShipLegend">{{this.authorShipLegend}}</div>
           </div>
-    	<a class="downloadLink" v-bind:href='stateHref()' download>
-    	<div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
-    	<div class="downloadText">Download {{this.dlLabel()}}</div>
-    	</a>
 	<drawer v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
 	</div>
 	`,
@@ -646,8 +646,15 @@ Vue.component('viewerSelector',{
 	<div class='viewerSelector' @click="toggleViewer">
             <div class="viewerTitle">Toggle View</div>
             <div class="viewerSwitch">
-              <div class="viewerText">Text</div>
-              <div class="viewerPdf">PDF</div>
+              <div class="viewerText">
+                <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>            
+              	<div class="viewerTextLabel">Text</div>
+          	  </div>
+              <div class="viewerPdf">
+                <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</div>            
+                <div class="viewerPdfLabel">PDF</div>
+              </div>
             </div>
 	</div>
 	`,

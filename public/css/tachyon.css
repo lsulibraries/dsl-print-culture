@@ -757,6 +757,7 @@ span.searchHit {
   top: -16px;
   height: 5px;
   font-size: 0.9em;
+  font-weight: 700;
 }
 
 .viewerText, .viewerPdf {
@@ -768,11 +769,16 @@ span.searchHit {
   align-items: center;
   background: #474747;
   color: white;
+  flex-direction: column;
 }
 
 .viewerPdf {
   background: white;
   color: #474747;
+}
+
+.viewerTextIcon, .viewerPdfIcon {
+  font-size: 1.5em;
 }
 
 .viewerSwitch {
@@ -785,6 +791,7 @@ span.searchHit {
   align-items: center;
   border-top: 1px solid #e9e9e9;
   text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 /*BEGIN High Contrast Mode*/

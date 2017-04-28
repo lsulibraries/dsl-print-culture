@@ -782,7 +782,7 @@ float: left;
 .issueHeader .drawer .pieceMeta {
     margin-bottom: 0px;
 
-
+}
 .viewerSelector {
     float: left;
     margin-right: 15px;
@@ -799,6 +799,7 @@ float: left;
     top: -16px;
     height: 5px;
     font-size: 0.9em;
+  font-weight: 700;    
 }
 
 .viewerText {
@@ -810,12 +811,17 @@ float: left;
     align-items: center;
     background: $document-text-color;
     color: white;
+    flex-direction: column;    
 }
 
 .viewerPdf{
     @extend .viewerText;
     background: white;
     color: $document-text-color;
+}
+
+.viewerTextIcon, .viewerPdfIcon {
+    font-size: 1.5em;
 }
 
 .viewerSwitch {
@@ -828,6 +834,7 @@ float: left;
     align-items: center;
     border-top: 1px solid $light-border-color;
     text-transform: uppercase;
+    font-size: 0.8em;    
 }
 
 /*BEGIN High Contrast Mode*/
