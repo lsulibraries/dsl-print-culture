@@ -536,7 +536,7 @@ position: relative;
 a.downloadLink {
     background: #fe7251;
     width: 150px;
-    height: 30px;
+    height: 29px;
     align-items: center;
     color: #ffffff;
     overflow: hidden;
@@ -653,6 +653,10 @@ span.searchHit {
 
 .issueHeader {
 
+.issueHeader .pieceAuthor {
+    font-size: 1.4em;
+}
+
  .issueVol, .issueNum {
     background: #fe7251;
     color: #ffffff;
@@ -700,6 +704,13 @@ float: left;
 
 }
 
+
+.personBibl{
+   .issueVol, .issueNum {
+float:none;
+background:  $primary-accent-color;
+  }    
+}
 
 .pieceAuthorRole {
     background: $primary-accent-color;

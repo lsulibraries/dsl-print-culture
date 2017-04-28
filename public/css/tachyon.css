@@ -527,7 +527,7 @@ button.searchSubmit {
 a.downloadLink {
   background: #fe7251;
   width: 150px;
-  height: 30px;
+  height: 29px;
   align-items: center;
   color: #ffffff;
   overflow: hidden;
@@ -632,6 +632,9 @@ span.searchHit {
   margin: 0px 0px 0px 2px;
 }
 
+.issueHeader .issueHeader .pieceAuthor {
+  font-size: 1.4em;
+}
 .issueHeader .issueVol, .issueHeader .issueNum {
   background: #fe7251;
   color: #ffffff;
@@ -668,6 +671,11 @@ span.searchHit {
   position: relative;
   top: -2px;
   margin-left: 5px;
+}
+
+.personBibl .issueVol, .personBibl .issueNum {
+  float: none;
+  background: #fe7251;
 }
 
 .pieceAuthorRole {
