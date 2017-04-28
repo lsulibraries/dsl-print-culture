@@ -419,7 +419,10 @@ If the author is anonymous DO NOT provide certainty.`,
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
-	    <div class="pieceAuthorShip" @mouseover="showAuthorShipLegend = true" @mouseleave="showAuthorShipLegend = false">{{this.authorMeta('authorShip')}}</div>
+	  <div class="pieceAuthorShip" @mouseover="showAuthorShipLegend = true" @mouseleave="showAuthorShipLegend = false">
+	    <div class="authorShipOrigin">{{this.authorShipMeta('authorStatus')}}</div>
+	    <div class="authorShipCertainty">{{this.authorShipMeta('authorCertainty')}}</div>
+	  </div>
 	<div class="authorShipLegend" v-if="showAuthorShipLegend">{{this.authorShipLegend}}</div>
           </div>
     	<a class="downloadLink" v-bind:href='stateHref()' download>
@@ -468,6 +471,14 @@ If the author is anonymous DO NOT provide certainty.`,
 	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
 	    ppm = this.ppm[ppmId]
 	    return ppm[attribute]
+	},
+	authorShipMeta: function (attribute){
+	    if(!this.bibl_data[this.biblId].pieceMeta){
+		return
+	    }
+	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
+	    ppm = this.ppm[ppmId]
+	    return ppm.authorShip[attribute]
 	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
