@@ -615,8 +615,15 @@ Vue.component('viewerSelector',{
 	<div class='viewerSelector' @click="toggleViewer">
             <div class="viewerTitle">Toggle View</div>
             <div class="viewerSwitch">
-              <div class="viewerText">Text</div>
-              <div class="viewerPdf">PDF</div>
+              <div class="viewerText">
+                <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>            
+              	<div class="viewerTextLabel">Text</div>
+          	  </div>
+              <div class="viewerPdf">
+                <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</div>            
+                <div class="viewerPdfLabel">PDF</div>
+              </div>
             </div>
 	</div>
 	`,
