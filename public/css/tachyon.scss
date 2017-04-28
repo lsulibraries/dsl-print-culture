@@ -362,6 +362,12 @@ input:focus {
     margin-bottom: 1px;
     padding: 10px 15px 10px 15px;
     color: white;
+    cursor: pointer;
+}
+
+.childIndex:hover{
+  background: $document-text-color;
+  color: white;
 }
 
 .intraIssueNav {
@@ -841,6 +847,7 @@ float: left;
     border-top: 1px solid $light-border-color;
     text-transform: uppercase;
     font-size: 0.8em;    
+    cursor: pointer;
 }
 
 /*BEGIN High Contrast Mode*/
