@@ -576,9 +576,9 @@ Vue.component('abouts',{
       <div class="abouts">
 
         <logo></logo>
-	<div class="about" @click="selectMe('about')">About</div>
-	<div class="technical" @click="selectMe('tech')">Technical</div>
-	<div class="credits"  @click="selectMe('credits')">Credits</div>
+	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">About</div>
+	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Technical</div>
+	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Credits</div>
 	<div v-if="this.abouts == 'about'">
 	
 	        {{ aboutText[0] }}
