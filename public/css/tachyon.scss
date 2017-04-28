@@ -478,6 +478,77 @@ button.searchSubmit {
     line-height: 15px;    
 }
 
+a.downloadLink {
+    background: #fe7251;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.downloadIcon {
+    height: 100%;
+    width: 30px;
+    border-right: 1px dashed white;
+    background: #fe7251;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float:left;
+}
+
+
+
+.downloadText {
+    padding: 9px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.drawerActuator {
+    cursor: pointer;
+    background: #fe7251;
+    width: 205px;
+    height: 30px;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.drawerIcon {
+    height: 100%;
+    width: 30px;
+    border-right: 1px dashed white;
+    background: #fe7251;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+
+.drawerText {
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 35px;
+    padding: 9px;
+}
+
 /*BEGIN SEARCH RESULTS*/
 
 .searchResults::before {
@@ -510,6 +581,7 @@ span.searchHit {
   .pieceTitle {
   font-size: 2em;
   margin: 20px 20px 5px 0px;
+  line-height: 1em;    
 }
 
 .pieceAuthor, .pieceAuthorRole{
