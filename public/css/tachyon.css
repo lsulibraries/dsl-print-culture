@@ -661,6 +661,17 @@ span.searchHit {
 .drawer {
   margin-bottom: 40px;
 }
+.drawer .authorCertainty, .drawer .authorStatus, .drawer .personPieceRole {
+  background: white;
+  float: left;
+  color: #fe7251;
+  margin-top: 2px;
+  margin-right: 2px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  border-radius: 2px;
+}
 .drawer .personBibl:hover {
   background: #be553c;
   -webkit-transition: all 0s ease;
@@ -714,6 +725,10 @@ span.searchHit {
 }
 
 /*END SEARCH RESULTS*/
+.issueHeader .drawer .pieceMeta {
+  margin-bottom: 0px;
+}
+
 /*BEGIN High Contrast Mode*/
 .highContrast .content {
   background: #29303a;
@@ -727,5 +742,3 @@ span.searchHit {
   background: #474747;
   color: white;
 }
-
-/*END High Contrast Mode*/
