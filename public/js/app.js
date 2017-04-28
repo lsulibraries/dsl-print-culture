@@ -216,13 +216,13 @@ Vue.component('person', {
 
 Vue.component('personBibl', {
     template: `
-	<div class="personBibl">
-          <div class="issueMeta" v-if="this.bibl_data.issueMeta">
+	<div class="personBibl" v-if="this.dataLoaded()">
+          <div class="issueMeta">
 	    <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
 	    <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
  	  </div>
-	  <div class="pieceMeta" v-if="this.bibl_data[ppm.pieceId]">
-	<div class="pieceSection" v-if="this.bibl_data[ppm.pieceId].sectionId">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
+	  <div class="pieceMeta" v-if="!this.$root.empty(this.ppm.pieceId)">
+	<div class="pieceSection" v-if="!this.$root.empty(this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId))">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
 	    <div class="pieceTitle" @click="goToPiece">{{this.bibl_data[ppm.pieceId].pieceMeta.pieceTitle}}</div>
 	    <div class="pieceAuthorShip">{{this.ppm.authorShip}}</div>
 	    <div class="personPiecePseudo" v-if="this.ppm.personPiecePseudo">{{this.ppm.personPiecePseudo}}</div>
@@ -245,6 +245,9 @@ Vue.component('personBibl', {
 	}
     },
     methods: {
+	dataLoaded: function () {
+	    return !this.$root.empty(this.ppm) && !this.$root.empty(this.bibl_data)
+	},
 	goToPiece: function () {
 	    this.$root.state.content.issue.id = this.ppm.issueId
 	    this.$root.state.content.issue.decls_id = this.ppm.pieceId
@@ -262,7 +265,7 @@ Vue.component('personBibl', {
 	    if(!bibl){
 		return "bibl " + biblId + "doesn't exist"
 	    }
-	    if(!bibl.sectionMeta){
+	    if(this.$root.empty(bibl.sectionMeta)){
 		return "sectionMeta is missing!"
 	    }
 	    return bibl.sectionMeta.sectionTitle
@@ -313,7 +316,7 @@ Vue.component('searchResult',{
 	    })
 	},
 	pieceTitle: function() {
-	    if(Object.keys(this.result.pieceMeta.pieceTitle).length === 0 && this.result.pieceMeta.pieceTitle.constructor === Object){
+	    if(this.$root.empty(this.result.pieceMeta.pieceTitle)){
 		return "---No title found---"
 	    }
 	    return this.result.pieceMeta.pieceTitle
@@ -365,8 +368,8 @@ Vue.component('issue',{
 Vue.component('issueHeader', {
     data() {
 	return {
-	    bibl_data: false,
-	    ppm: '',
+	    bibl_data: {},
+	    ppm: {},
 	    biblId: 's1',
 	}
     },
@@ -379,6 +382,7 @@ Vue.component('issueHeader', {
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.biblId = bibl.decls_id
+	    this.ppm = this.bibl_data = undefined
 	    this.setPpm()
 	    this.setBiblData()
 	})
@@ -388,9 +392,9 @@ Vue.component('issueHeader', {
 	this.setBiblData()
     },
     template: `
-	<div class="issueHeader" v-if="this.bibl_data">
+	<div class="issueHeader" v-if="this.dataLoaded()">
 	  <div class="bibl">
-  	    <div class="issueMeta" v-if="this.bibl_data.issueMeta">
+  	    <div class="issueMeta" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
 	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
 	      <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
 	      <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
@@ -399,7 +403,7 @@ Vue.component('issueHeader', {
 	  <div class="sectionMeta">
             <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
           </div>
-	  <div class="pieceMeta" v-if="this.bibl_data[this.biblId]">
+	  <div class="pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId])">
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
@@ -410,6 +414,9 @@ Vue.component('issueHeader', {
 	</div>
 	`,
     methods: {
+	dataLoaded: function () {
+	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
+	},
 	drawerIsAvailable: function() {
 	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
 	},
@@ -1149,6 +1156,15 @@ window.Event = new Vue();
 new Vue({
 	el:'#vue-root',
     methods: {
+	empty: function (o) {
+	    if(o === undefined){
+		return true
+	    }
+	    if(Object.keys(o).length === 0 && o.constructor === Object){
+		return true
+	    }
+	    return false
+	},
 	getTocEntry: function(issueId, itemId){
 
 	    url = '/api/broadwayjournal/' + issueId + '/toc';
