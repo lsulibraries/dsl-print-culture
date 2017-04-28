@@ -369,6 +369,17 @@ Vue.component('issue',{
 Vue.component('issueHeader', {
     data() {
 	return {
+	    authorShipLegend: `Author will have 2-3 attributes: status, cert, and ref.
+
+Status: identify as “supplied” (journal doesn’t say but you found it elsewhere), “attested” (the journal says), “unknown” (anonymous), or “inferred” (journal provides a byline that doesn’t provide full name, but makes it obvious, e.g. “EAP”).
+
+If  you have only a pen name, but you know the author's real name, the author status should be "inferred," and the certainty will be "high," "medium," or "low," depending on what you've found in your research. The name in the ref should be the author's real name.
+
+If an article only has initials for a byline and you can't find a reasonable full-name match for the initials, the author status will be "unknown," but you will use the initials of the author instead of "anon" in the ref.
+
+Certainty: identify cert as “high,” “medium,” or “low.”
+If the author is anonymous DO NOT provide certainty.`,
+	    showAuthorShipLegend: false,
 	    bibl_data: {},
 	    ppm: {},
 	    biblId: 's1',
@@ -408,7 +419,8 @@ Vue.component('issueHeader', {
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
-	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
+	    <div class="pieceAuthorShip" @mouseover="showAuthorShipLegend = true" @mouseleave="showAuthorShipLegend = false">{{this.authorMeta('authorShip')}}</div>
+	<div class="authorShipLegend" v-if="showAuthorShipLegend">{{this.authorShipLegend}}</div>
           </div>
     	<a class="downloadLink" v-bind:href='stateHref()' download>
     	<div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
