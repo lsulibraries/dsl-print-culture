@@ -424,10 +424,10 @@ If the author is anonymous DO NOT provide certainty.`,
 	  <div class="pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId])">
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
-	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
+            <div class="pieceAuthorRole" v-if="this.authorMeta('personPieceRole')">{{this.authorMeta('personPieceRole')}}</div>
 	  <div class="pieceAuthorShip">
-	    <div class="authorShipOrigin">{{this.authorShipMeta('authorStatus')}}</div>
-	    <div class="authorShipCertainty">{{this.authorShipMeta('authorCertainty')}}</div>
+	    <div class="authorShipOrigin" v-if="this.authorShipMeta('authorStatus')">{{this.authorShipMeta('authorStatus')}}</div>
+	    <div class="authorShipCertainty" v-if="this.authorShipMeta('authorCertainty')">{{this.authorShipMeta('authorCertainty')}}</div>
 	  </div>
 	<div class="authorShipLegend">{{this.authorShipLegend}}</div>
           </div>
@@ -472,6 +472,9 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
 	    ppm = this.ppm[ppmId]
+	    if(this.$root.empty(ppm[attribute])){
+		return false
+	    }
 	    return ppm[attribute]
 	},
 	authorShipMeta: function (attribute){
