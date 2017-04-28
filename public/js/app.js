@@ -605,11 +605,11 @@ Vue.component('abouts',{
 	    Event.$emit('aboutsSelected', this.abouts);
 	},
 	fetchAbout: function(about){
-	    if(about == 'tech'){
+	    if(about == 'tech' && this.techText.length < 1){
 		url = '/api/broadwayjournal/abouts/tech'
 		axios.get(url).then(response => this.techText = response.data);
 	    }
-	    if(about == 'tech'){
+	    if(about == 'about'  && this.aboutText.length < 1){
 		url = '/api/broadwayjournal/abouts/about'
 		axios.get(url).then(response => this.aboutText = response.data);
 	    }
