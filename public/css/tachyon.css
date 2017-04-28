@@ -1,5 +1,4 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
-
 input:focus {
   outline: none !important;
 }
@@ -91,6 +90,19 @@ body {
   justify-content: center;
   align-items: center;
   padding: 16px 20px 16px 20px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.headerNav > div:hover {
+  color: white;
+  background: #fe7251;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 input {
@@ -161,7 +173,7 @@ input:focus {
   letter-spacing: -0.4vw;
   line-height: 4.7vw;
   color: #fe7251;
-  padding: 200px 200px 0px 200px;
+  padding: 130px 200px 0px 200px;
 }
 
 .about {
@@ -493,6 +505,27 @@ button.searchSubmit {
 
 span.searchHit {
   background: yellow;
+}
+
+.issueHeader .pieceTitle {
+  font-size: 2em;
+  margin: 20px 20px 8px 0px;
+}
+.issueHeader .pieceAuthor, .issueHeader .pieceAuthorRole {
+  display: inline;
+}
+.issueHeader .pieceAuthorShip {
+  margin-top: 20px;
+}
+.issueHeader .pieceAuthorRole {
+  background: #fe7251;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px;
+  border-radius: 3px;
+  position: relative;
+  top: -2px;
 }
 
 /*END SEARCH RESULTS*/
