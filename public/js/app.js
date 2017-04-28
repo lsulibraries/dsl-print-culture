@@ -485,6 +485,9 @@ If the author is anonymous DO NOT provide certainty.`,
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
 	    let format = this.$root.state.content.issue.viewer
+	    if(format == 'text'){
+		format = 'tei'
+	    }
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
 	sectionTitle: function(biblId) {
