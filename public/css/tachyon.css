@@ -527,7 +527,7 @@ button.searchSubmit {
 a.downloadLink {
   background: #fe7251;
   width: 150px;
-  height: 30px;
+  height: 29px;
   align-items: center;
   color: #ffffff;
   overflow: hidden;
@@ -632,6 +632,9 @@ span.searchHit {
   margin: 0px 0px 0px 2px;
 }
 
+.issueHeader .issueHeader .pieceAuthor {
+  font-size: 1.4em;
+}
 .issueHeader .issueVol, .issueHeader .issueNum {
   background: #fe7251;
   color: #ffffff;
@@ -668,6 +671,11 @@ span.searchHit {
   position: relative;
   top: -2px;
   margin-left: 5px;
+}
+
+.personBibl .issueVol, .personBibl .issueNum {
+  float: none;
+  background: #fe7251;
 }
 
 .pieceAuthorRole {
@@ -761,6 +769,7 @@ span.searchHit {
   padding: 23px;
   position: relative;
   margin-top: 5px;
+  overflow: hidden;
 }
 
 .viewerTitle {
@@ -795,7 +804,7 @@ span.searchHit {
 
 .viewerSwitch {
   display: flex;
-  margin: 0px -22px -23px -23px;
+  margin: 0px -23px -23px -23px;
   position: relative;
   height: 50px;
   justify-content: center;
@@ -807,6 +816,15 @@ span.searchHit {
   cursor: pointer;
 }
 
+.pdfSelected .viewerText, .pdfSelected .viewerPdf {
+  color: #474747;
+  background: white;
+}
+.pdfSelected .viewerPdf {
+  color: white;
+  background: #474747;
+}
+
 /*credits*/
 .creditsPerson {
   margin-bottom: 20px;
@@ -814,6 +832,17 @@ span.searchHit {
 
 .creditsPersonName {
   font-weight: 700;
+}
+
+.creditsPersonAffiliation {
+    background: #fe7251;
+    color: white;
+    text-transform: uppercase;
+    padding: 4px;
+    font-size: 0.6em;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 /*BEGIN High Contrast Mode*/
@@ -829,5 +858,3 @@ span.searchHit {
   background: #474747;
   color: white;
 }
-
-/*END High Contrast Mode*/

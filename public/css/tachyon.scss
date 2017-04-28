@@ -536,7 +536,7 @@ position: relative;
 a.downloadLink {
     background: #fe7251;
     width: 150px;
-    height: 30px;
+    height: 29px;
     align-items: center;
     color: #ffffff;
     overflow: hidden;
@@ -653,6 +653,10 @@ span.searchHit {
 
 .issueHeader {
 
+.issueHeader .pieceAuthor {
+    font-size: 1.4em;
+}
+
  .issueVol, .issueNum {
     background: #fe7251;
     color: #ffffff;
@@ -700,6 +704,13 @@ float: left;
 
 }
 
+
+.personBibl{
+   .issueVol, .issueNum {
+float:none;
+background:  $primary-accent-color;
+  }    
+}
 
 .pieceAuthorRole {
     background: $primary-accent-color;
@@ -803,6 +814,7 @@ float: left;
     padding: 23px;
     position: relative;
     margin-top: 5px;
+    overflow: hidden;    
 }
 
 .viewerTitle {
@@ -838,7 +850,7 @@ float: left;
 
 .viewerSwitch {
     display: flex;
-    margin: 0px -22px -23px -23px;
+    margin: 0px -23px -23px -23px;
     position: relative;
     height: 50px;
     justify-content: center;
@@ -850,6 +862,18 @@ float: left;
     cursor: pointer;
 }
 
+.pdfSelected{
+  .viewerText{
+    color: $document-text-color;
+    background: white;
+  }
+
+  .viewerPdf{
+    color: white;
+    background: $document-text-color;
+  }
+}
+
 /*credits*/
 .creditsPerson {
     margin-bottom: 20px;
@@ -857,6 +881,17 @@ float: left;
 
 .creditsPersonName {
     font-weight: 700;
+}
+
+.creditsPersonAffiliation {
+    background: #fe7251;
+    color: white;
+    text-transform: uppercase;
+    padding: 4px;
+    font-size: 0.6em;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 /*BEGIN High Contrast Mode*/
