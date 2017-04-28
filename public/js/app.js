@@ -572,26 +572,25 @@ Vue.component('abouts',{
         <logo></logo>
 	<div class="about" @click="selectMe('about')">About</div>
 	<div class="technical" @click="selectMe('tech')">Technical</div>
-	<div class="credits"  @click="selectMe('credit')">Credits</div>
+	<div class="credits"  @click="selectMe('credits')">Credits</div>
 	<div v-if="this.abouts == 'about'">
 	
 	        {{ aboutText[0] }}
 	        <br/>
 	        {{ aboutText[1] }}
         </div>
-	      <div v-if="this.abouts == 'tech'">
-	        <li v-for="each in techText"  v-text="each"></li>
-	      </div>
-	      <div v-if="this.abouts == 'credit'">
-	        <li v-for="each in creditText" v-text="each"></li>
-	      </div>
+	<div v-if="this.abouts == 'tech'">
+	  <li v-for="each in techText"  v-text="each"></li>
+	</div>
+	<div v-if="this.abouts == 'credits'">
+          <creditsPersonList></creditsPersonList>
+        </div>
 	    </div>
 	`,
     data() {
 	return {
 	    abouts: this.$root.state.content.abouts,
 	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-	    creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
 	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
 	}
     },
@@ -603,6 +602,38 @@ Vue.component('abouts',{
     }
 })
 
+Vue.component('creditsPersonList', {
+    template: `
+	<div class="creditsPersonsList">
+	  <creditsPerson v-for="person in creditsData.personList" :person="person"></creditsPerson>
+        </div>
+	`,
+    methods: {
+	dataLoaded: function() {
+	    return this.$root.empty(this.creditsData)
+	}
+    },
+    created() {
+	url = '/api/broadwayjournal/abouts/credits'
+	axios.get(url).then(response => this.creditsData = response.data);
+    },
+    data() {
+	return {
+	    creditsData: {}
+	}
+    }
+})
+
+Vue.component('creditsPerson', {
+    template: `
+	<div class="creditsPerson">
+	  <div class="creditsPersonName">{{person.personMeta.personName}}</div>
+	  <div class="creditsPersonAffiliation">{{person.personMeta.personBio.personAffiliation}}</div>
+ 	  <div class="creditsPersonNote">{{person.personMeta.personBio.personNote}}</div>
+        </div>
+	`,
+    props: ['person']
+})
 
 Vue.component('viewerSelector',{
     created(){
