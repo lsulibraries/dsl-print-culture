@@ -6,7 +6,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p1-anon>
    <ppm-18450628-p2-anon>
       <issueId>18450628</issueId>
@@ -14,7 +16,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p2-anon>
    <ppm-18450628-p3-anon>
       <issueId>18450628</issueId>
@@ -22,7 +26,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p3-anon>
    <ppm-18450628-p4-anon>
       <issueId>18450628</issueId>
@@ -30,7 +36,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p4-anon>
    <ppm-18450628-p8-hcl>
       <issueId>18450628</issueId>
@@ -38,7 +46,9 @@
       <personId>hcl</personId>
       <personName>H. C. L.</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p8-hcl>
    <ppm-18450628-p9-eapoe>
       <issueId>18450628</issueId>
@@ -46,7 +56,11 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450628-p9-eapoe>
    <ppm-18450628-p10-anon>
       <issueId>18450628</issueId>
@@ -54,7 +68,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p10-anon>
    <ppm-18450628-p11-anon>
       <issueId>18450628</issueId>
@@ -62,7 +78,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p11-anon>
    <ppm-18450628-p12-anon>
       <issueId>18450628</issueId>
@@ -70,7 +88,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p12-anon>
    <ppm-18450628-p13-hcwatson>
       <issueId>18450628</issueId>
@@ -78,7 +98,10 @@
       <personId>hcwatson</personId>
       <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18450628-p13-hcwatson>
    <ppm-18450628-p14-anon>
       <issueId>18450628</issueId>
@@ -86,7 +109,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p14-anon>
    <ppm-18450628-p15-anon>
       <issueId>18450628</issueId>
@@ -94,7 +119,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p15-anon>
    <ppm-18450628-p16-amhall>
       <issueId>18450628</issueId>
@@ -102,7 +129,10 @@
       <personId>amhall</personId>
       <personName>Anna Maria Fielding Hall</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450628-p16-amhall>
    <ppm-18450628-p17-anon>
       <issueId>18450628</issueId>
@@ -110,6 +140,8 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450628-p17-anon>
 </personPieceMeta>

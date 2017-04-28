@@ -4,6 +4,7 @@ declare variable $search_string as xs:string+ external;
 <searchResults>
 
 {
+
 (: fake search_string for testing... :)
 (: let $search_string := 'bishop' :)
 

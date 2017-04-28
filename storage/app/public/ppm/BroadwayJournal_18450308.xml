@@ -6,23 +6,34 @@
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450308-p1-cfbriggs>
-   <ppm-18450308-p2-anon>
+   <ppm-18450308-p2-cfbriggs>
       <issueId>18450308</issueId>
       <pieceId>p2</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p2-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450308-p2-cfbriggs>
    <ppm-18450308-p3-eapoe>
       <issueId>18450308</issueId>
       <pieceId>p3</pieceId>
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is inferred, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450308-p3-eapoe>
    <ppm-18450308-p4-wpage>
       <issueId>18450308</issueId>
@@ -30,23 +41,33 @@
       <personId>wpage</personId>
       <personName>William Page</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450308-p4-wpage>
-   <ppm-18450308-p5-rhertzman>
+   <ppm-18450308-p5-ecembury>
       <issueId>18450308</issueId>
       <pieceId>p5</pieceId>
-      <personId>rhertzman</personId>
-      <personName/>
+      <personId>ecembury</personId>
+      <personName>Emma Catherine Embury</personName>
+      <personPiecePseudo>Rudolph Hertzman</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
-   </ppm-18450308-p5-rhertzman>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450308-p5-ecembury>
    <ppm-18450308-p6-jgiven>
       <issueId>18450308</issueId>
       <pieceId>p6</pieceId>
       <personId>jgiven</personId>
       <personName>James Given</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450308-p6-jgiven>
    <ppm-18450308-p7-eapoe>
       <issueId>18450308</issueId>
@@ -54,7 +75,11 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450308-p7-eapoe>
    <ppm-18450308-p8-jrlowell>
       <issueId>18450308</issueId>
@@ -62,7 +87,10 @@
       <personId>jrlowell</personId>
       <personName>James Russell Lowell</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450308-p8-jrlowell>
    <ppm-18450308-p9-eapoe>
       <issueId>18450308</issueId>
@@ -70,47 +98,71 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450308-p9-eapoe>
-   <ppm-18450308-p10-anon>
+   <ppm-18450308-p10-eapoe>
       <issueId>18450308</issueId>
       <pieceId>p10</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p10-anon>
-   <ppm-18450308-p11-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450308-p10-eapoe>
+   <ppm-18450308-p11-cfbriggs>
       <issueId>18450308</issueId>
       <pieceId>p11</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p11-anon>
-   <ppm-18450308-p12-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450308-p11-cfbriggs>
+   <ppm-18450308-p12-cfbriggs>
       <issueId>18450308</issueId>
       <pieceId>p12</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p12-anon>
-   <ppm-18450308-p13-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450308-p12-cfbriggs>
+   <ppm-18450308-p13-cfbriggs>
       <issueId>18450308</issueId>
       <pieceId>p13</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p13-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450308-p13-cfbriggs>
    <ppm-18450308-p14-eapoe>
       <issueId>18450308</issueId>
       <pieceId>p14</pieceId>
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450308-p14-eapoe>
    <ppm-18450308-p15-eapoe>
       <issueId>18450308</issueId>
@@ -118,23 +170,33 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18450308-p15-eapoe>
-   <ppm-18450308-p16-anon>
+   <ppm-18450308-p16-eapoe>
       <issueId>18450308</issueId>
       <pieceId>p16</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p16-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450308-p16-eapoe>
    <ppm-18450308-p17-anon>
       <issueId>18450308</issueId>
       <pieceId>p17</pieceId>
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450308-p17-anon>
    <ppm-18450308-p18-anon>
       <issueId>18450308</issueId>
@@ -142,7 +204,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450308-p18-anon>
    <ppm-18450308-p19-anon>
       <issueId>18450308</issueId>
@@ -150,7 +214,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450308-p19-anon>
    <ppm-18450308-p20-anon>
       <issueId>18450308</issueId>
@@ -158,47 +224,64 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450308-p20-anon>
-   <ppm-18450308-p21-anon>
+   <ppm-18450308-p21-hcwatson>
       <issueId>18450308</issueId>
       <pieceId>p21</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p21-anon>
-   <ppm-18450308-p22-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450308-p21-hcwatson>
+   <ppm-18450308-p22-hcwatson>
       <issueId>18450308</issueId>
       <pieceId>p22</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p22-anon>
-   <ppm-18450308-p23-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450308-p22-hcwatson>
+   <ppm-18450308-p23-hcwatson>
       <issueId>18450308</issueId>
       <pieceId>p23</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p23-anon>
-   <ppm-18450308-p24-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450308-p23-hcwatson>
+   <ppm-18450308-p24-hcwatson>
       <issueId>18450308</issueId>
       <pieceId>p24</pieceId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450308-p24-anon>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450308-p24-hcwatson>
    <ppm-18450308-p25-hcwatson>
       <issueId>18450308</issueId>
       <pieceId>p25</pieceId>
       <personId>hcwatson</personId>
       <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18450308-p25-hcwatson>
    <ppm-18450308-p26-horace>
       <issueId>18450308</issueId>
@@ -206,7 +289,9 @@
       <personId>horace</personId>
       <personName/>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+      </authorShip>
    </ppm-18450308-p26-horace>
    <ppm-18450308-p27-anon>
       <issueId>18450308</issueId>
@@ -214,22 +299,639 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450308-p27-anon>
    <ppm-18450308-p28-eapoe>
       <issueId>18450308</issueId>
       <pieceId>p28</pieceId>
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
+      <personPiecePseudo>E. A. P.</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is inferred.</authorShip>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450308-p28-eapoe>
-   <ppm-18450308-p29-jbisco>
+   <ppm-18450308-p29-anon>
       <issueId>18450308</issueId>
       <pieceId>p29</pieceId>
-      <personId>jbisco</personId>
-      <personName>John Bisco</personName>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested.</authorShip>
-   </ppm-18450308-p29-jbisco>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450308-p29-anon>
+   <ppm-18450308-p1-smfuller>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>smfuller</personId>
+      <personName>Sarah Margaret Fuller</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-smfuller>
+   <ppm-18450308-p1-wscott>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wscott</personId>
+      <personName>Sir Walter Scott</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-wscott>
+   <ppm-18450308-p1-wechanning>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wechanning</personId>
+      <personName>William Ellery Channing</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-wechanning>
+   <ppm-18450308-p1-esue>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>esue</personId>
+      <personName>Eugene Sue</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-esue>
+   <ppm-18450308-p2-awpugin>
+      <issueId>18450308</issueId>
+      <pieceId>p2</pieceId>
+      <personId>awpugin</personId>
+      <personName>Augustus Welby Northmore Pugin</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p2-awpugin>
+   <ppm-18450308-p3-hwlongfellow>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>hwlongfellow</personId>
+      <personName>Henry Wadsworth Longfellow</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-hwlongfellow>
+   <ppm-18450308-p3-thood>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>thood</personId>
+      <personName>Thomas Hood</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-thood>
+   <ppm-18450308-p3-npwillis>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>npwillis</personId>
+      <personName>Nathaniel Parker Willis</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-npwillis>
+   <ppm-18450308-p3-jrlowell>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jrlowell</personId>
+      <personName>James Russell Lowell</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jrlowell>
+   <ppm-18450308-p3-wcbryant>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>wcbryant</personId>
+      <personName>William Cullen Bryant</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-wcbryant>
+   <ppm-18450308-p3-rhdana>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>rhdana</personId>
+      <personName>Richard Henry Dana, Sr.</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-rhdana>
+   <ppm-18450308-p3-fghalleck>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>fghalleck</personId>
+      <personName>Fitz-Greene Halleck</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-fghalleck>
+   <ppm-18450308-p3-cfbriggs>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-cfbriggs>
+   <ppm-18450308-p3-jaldrich>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jaldrich</personId>
+      <personName>James Aldrich</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jaldrich>
+   <ppm-18450308-p3-rwgriswold>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>rwgriswold</personId>
+      <personName>Rufus Wilmot Griswold</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-rwgriswold>
+   <ppm-18450308-p3-aldrich>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>aldrich</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-aldrich>
+   <ppm-18450308-p3-jneal>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jneal</personId>
+      <personName>John Neal</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jneal>
+   <ppm-18450308-p3-pallen>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>pallen</personId>
+      <personName>Paul Allen</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-pallen>
+   <ppm-18450308-p3-ecpinkney>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>ecpinkney</personId>
+      <personName>Edward Coote Pinkney</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-ecpinkney>
+   <ppm-18450308-p3-lmchild>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>lmchild</personId>
+      <personName>Lydia Maria Child</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-lmchild>
+   <ppm-18450308-p3-eapoe>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-eapoe>
+   <ppm-18450308-p3-stcoleridge>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>stcoleridge</personId>
+      <personName>Samuel Taylor Coleridge</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-stcoleridge>
+   <ppm-18450308-p3-bdisraeli>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>bdisraeli</personId>
+      <personName>Benjamin Disraeli</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-bdisraeli>
+   <ppm-18450308-p3-jmiller>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jmiller</personId>
+      <personName>Joseph Miller</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jmiller>
+   <ppm-18450308-p1-smfuller>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>smfuller</personId>
+      <personName>Sarah Margaret Fuller</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-smfuller>
+   <ppm-18450308-p1-wscott>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wscott</personId>
+      <personName>Sir Walter Scott</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-wscott>
+   <ppm-18450308-p1-wechanning>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wechanning</personId>
+      <personName>William Ellery Channing</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-wechanning>
+   <ppm-18450308-p1-esue>
+      <issueId>18450308</issueId>
+      <pieceId>p1</pieceId>
+      <personId>esue</personId>
+      <personName>Eugene Sue</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p1-esue>
+   <ppm-18450308-p2-awpugin>
+      <issueId>18450308</issueId>
+      <pieceId>p2</pieceId>
+      <personId>awpugin</personId>
+      <personName>Augustus Welby Northmore Pugin</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p2-awpugin>
+   <ppm-18450308-p3-hwlongfellow>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>hwlongfellow</personId>
+      <personName>Henry Wadsworth Longfellow</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-hwlongfellow>
+   <ppm-18450308-p3-thood>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>thood</personId>
+      <personName>Thomas Hood</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-thood>
+   <ppm-18450308-p3-npwillis>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>npwillis</personId>
+      <personName>Nathaniel Parker Willis</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-npwillis>
+   <ppm-18450308-p3-jrlowell>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jrlowell</personId>
+      <personName>James Russell Lowell</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jrlowell>
+   <ppm-18450308-p3-wcbryant>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>wcbryant</personId>
+      <personName>William Cullen Bryant</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-wcbryant>
+   <ppm-18450308-p3-rhdana>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>rhdana</personId>
+      <personName>Richard Henry Dana, Sr.</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-rhdana>
+   <ppm-18450308-p3-fghalleck>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>fghalleck</personId>
+      <personName>Fitz-Greene Halleck</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-fghalleck>
+   <ppm-18450308-p3-cfbriggs>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-cfbriggs>
+   <ppm-18450308-p3-jaldrich>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jaldrich</personId>
+      <personName>James Aldrich</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jaldrich>
+   <ppm-18450308-p3-rwgriswold>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>rwgriswold</personId>
+      <personName>Rufus Wilmot Griswold</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-rwgriswold>
+   <ppm-18450308-p3-aldrich>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>aldrich</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-aldrich>
+   <ppm-18450308-p3-jneal>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jneal</personId>
+      <personName>John Neal</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jneal>
+   <ppm-18450308-p3-pallen>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>pallen</personId>
+      <personName>Paul Allen</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-pallen>
+   <ppm-18450308-p3-ecpinkney>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>ecpinkney</personId>
+      <personName>Edward Coote Pinkney</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-ecpinkney>
+   <ppm-18450308-p3-lmchild>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>lmchild</personId>
+      <personName>Lydia Maria Child</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-lmchild>
+   <ppm-18450308-p3-eapoe>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-eapoe>
+   <ppm-18450308-p3-stcoleridge>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>stcoleridge</personId>
+      <personName>Samuel Taylor Coleridge</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-stcoleridge>
+   <ppm-18450308-p3-bdisraeli>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>bdisraeli</personId>
+      <personName>Benjamin Disraeli</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-bdisraeli>
+   <ppm-18450308-p3-jmiller>
+      <issueId>18450308</issueId>
+      <pieceId>p3</pieceId>
+      <personId>jmiller</personId>
+      <personName>Joseph Miller</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p3-jmiller>
+   <ppm-18450308-p6-jgiven>
+      <issueId>18450308</issueId>
+      <pieceId>p6</pieceId>
+      <personId>jgiven</personId>
+      <personName>James Given</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p6-jgiven>
+   <ppm-18450308-p9-waseeley>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>waseeley</personId>
+      <personName>W. A. Seeley</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-waseeley>
+   <ppm-18450308-p9-jmilton>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>jmilton</personId>
+      <personName>John Milton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-jmilton>
+   <ppm-18450308-p9-tbmacaulay>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>tbmacaulay</personId>
+      <personName>Thomas Babington Macaulay</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-tbmacaulay>
+   <ppm-18450308-p9-adumas>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>adumas</personId>
+      <personName>Alexandre Dumas</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-adumas>
+   <ppm-18450308-p9-hdavy>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>hdavy</personId>
+      <personName>Humphry Davy</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-hdavy>
+   <ppm-18450308-p11-jhgreen>
+      <issueId>18450308</issueId>
+      <pieceId>p11</pieceId>
+      <personId>jhgreen</personId>
+      <personName>Jonathan Harrington Green</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p11-jhgreen>
+   <ppm-18450308-p12-cmketeltas>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>cmketeltas</personId>
+      <personName>Caroline M. Keteltas</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-cmketeltas>
+   <ppm-18450308-p12-wheseltine>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>wheseltine</personId>
+      <personName>William Heseltine</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-wheseltine>
+   <ppm-18450308-p12-wshakespeare>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>wshakespeare</personId>
+      <personName>William Shakespeare</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-wshakespeare>
+   <ppm-18450308-p12-hwalpole>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>hwalpole</personId>
+      <personName>Horace Walpole</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-hwalpole>
+   <ppm-18450308-p12-jdryden>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>jdryden</personId>
+      <personName>John Dryden</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-jdryden>
+   <ppm-18450308-p13-apike>
+      <issueId>18450308</issueId>
+      <pieceId>p13</pieceId>
+      <personId>apike</personId>
+      <personName>Albert Pike</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p13-apike>
+   <ppm-18450308-p13-jwaters>
+      <issueId>18450308</issueId>
+      <pieceId>p13</pieceId>
+      <personId>jwaters</personId>
+      <personName>John Waters</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p13-jwaters>
+   <ppm-18450308-p14-eblytton>
+      <issueId>18450308</issueId>
+      <pieceId>p14</pieceId>
+      <personId>eblytton</personId>
+      <personName>Edward George Earle Bulwer Lytton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p14-eblytton>
+   <ppm-18450308-p14-cdmacleod>
+      <issueId>18450308</issueId>
+      <pieceId>p14</pieceId>
+      <personId>cdmacleod</personId>
+      <personName>C. Donald Macleod</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p14-cdmacleod>
+   <ppm-18450308-p15-bvarnim>
+      <issueId>18450308</issueId>
+      <pieceId>p15</pieceId>
+      <personId>bvarnim</personId>
+      <personName>Bettina von Arnim</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p15-bvarnim>
+   <ppm-18450308-p9-waseeley>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>waseeley</personId>
+      <personName>W. A. Seeley</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-waseeley>
+   <ppm-18450308-p9-jmilton>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>jmilton</personId>
+      <personName>John Milton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-jmilton>
+   <ppm-18450308-p9-tbmacaulay>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>tbmacaulay</personId>
+      <personName>Thomas Babington Macaulay</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-tbmacaulay>
+   <ppm-18450308-p9-adumas>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>adumas</personId>
+      <personName>Alexandre Dumas</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-adumas>
+   <ppm-18450308-p9-hdavy>
+      <issueId>18450308</issueId>
+      <pieceId>p9</pieceId>
+      <personId>hdavy</personId>
+      <personName>Humphry Davy</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p9-hdavy>
+   <ppm-18450308-p11-jhgreen>
+      <issueId>18450308</issueId>
+      <pieceId>p11</pieceId>
+      <personId>jhgreen</personId>
+      <personName>Jonathan Harrington Green</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p11-jhgreen>
+   <ppm-18450308-p12-cmketeltas>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>cmketeltas</personId>
+      <personName>Caroline M. Keteltas</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-cmketeltas>
+   <ppm-18450308-p12-wheseltine>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>wheseltine</personId>
+      <personName>William Heseltine</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-wheseltine>
+   <ppm-18450308-p12-wshakespeare>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>wshakespeare</personId>
+      <personName>William Shakespeare</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-wshakespeare>
+   <ppm-18450308-p12-hwalpole>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>hwalpole</personId>
+      <personName>Horace Walpole</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-hwalpole>
+   <ppm-18450308-p12-jdryden>
+      <issueId>18450308</issueId>
+      <pieceId>p12</pieceId>
+      <personId>jdryden</personId>
+      <personName>John Dryden</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p12-jdryden>
+   <ppm-18450308-p13-apike>
+      <issueId>18450308</issueId>
+      <pieceId>p13</pieceId>
+      <personId>apike</personId>
+      <personName>Albert Pike</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p13-apike>
+   <ppm-18450308-p13-jwaters>
+      <issueId>18450308</issueId>
+      <pieceId>p13</pieceId>
+      <personId>jwaters</personId>
+      <personName>John Waters</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p13-jwaters>
+   <ppm-18450308-p14-eblytton>
+      <issueId>18450308</issueId>
+      <pieceId>p14</pieceId>
+      <personId>eblytton</personId>
+      <personName>Edward George Earle Bulwer Lytton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p14-eblytton>
+   <ppm-18450308-p14-cdmacleod>
+      <issueId>18450308</issueId>
+      <pieceId>p14</pieceId>
+      <personId>cdmacleod</personId>
+      <personName>C. Donald Macleod</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p14-cdmacleod>
+   <ppm-18450308-p15-bvarnim>
+      <issueId>18450308</issueId>
+      <pieceId>p15</pieceId>
+      <personId>bvarnim</personId>
+      <personName>Bettina von Arnim</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p15-bvarnim>
+   <ppm-18450308-p25-sophocles>
+      <issueId>18450308</issueId>
+      <pieceId>p25</pieceId>
+      <personId>sophocles</personId>
+      <personName>Sophocles</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-p25-sophocles>
+   <ppm-18450308-s7-brhaydon>
+      <issueId>18450308</issueId>
+      <sectionId>s7</sectionId>
+      <personId>brhaydon</personId>
+      <personName>Benjamin Robert Haydon</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-s7-brhaydon>
+   <ppm-18450308-s7-cdcennini>
+      <issueId>18450308</issueId>
+      <sectionId>s7</sectionId>
+      <personId>cdcennini</personId>
+      <personName>Cennino Cennini</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-s7-cdcennini>
+   <ppm-18450308-s7-cbell>
+      <issueId>18450308</issueId>
+      <sectionId>s7</sectionId>
+      <personId>cbell</personId>
+      <personName>Charles Bell</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-s7-cbell>
+   <ppm-18450308-s7-wbstaylor>
+      <issueId>18450308</issueId>
+      <sectionId>s7</sectionId>
+      <personId>wbstaylor</personId>
+      <personName>William Benjamin Sarsfield Taylor</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-s7-wbstaylor>
+   <ppm-18450308-s7-jflaxman>
+      <issueId>18450308</issueId>
+      <sectionId>s7</sectionId>
+      <personId>jflaxman</personId>
+      <personName>John Flaxman</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450308-s7-jflaxman>
 </personPieceMeta>

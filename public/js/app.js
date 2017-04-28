@@ -45,8 +45,8 @@ Vue.component('vue-header',{
 	  </div>
 	  <headerNav></headerNav>
 	  <div class="searchInput">
-	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }"></input>
-	    <button value="search" @click="searchSubmitted"></button>
+	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
+	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
@@ -142,6 +142,7 @@ Vue.component('personography',{
 Vue.component('personIndex', {
     template: `
 	<div class='personIndex' v-if="this.index">
+        <person v-for="personObject in this.index.personIndex" :meta="personObject"></person>
         <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
         </div>
 	`,
@@ -215,13 +216,13 @@ Vue.component('person', {
 
 Vue.component('personBibl', {
     template: `
-	<div class="personBibl">
-          <div class="issueMeta" v-if="this.bibl_data.issueMeta">
+	<div class="personBibl" v-if="this.dataLoaded()">
+          <div class="issueMeta">
 	    <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
 	    <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
  	  </div>
-	  <div class="pieceMeta" v-if="this.bibl_data[ppm.pieceId]">
-	<div class="pieceSection" v-if="this.bibl_data[ppm.pieceId].sectionId">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
+	  <div class="pieceMeta" v-if="!this.$root.empty(this.ppm.pieceId)">
+	<div class="pieceSection" v-if="!this.$root.empty(this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId))">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
 	    <div class="pieceTitle" @click="goToPiece">{{this.bibl_data[ppm.pieceId].pieceMeta.pieceTitle}}</div>
 	    <div class="pieceAuthorShip">{{this.ppm.authorShip}}</div>
 	    <div class="personPiecePseudo" v-if="this.ppm.personPiecePseudo">{{this.ppm.personPiecePseudo}}</div>
@@ -244,6 +245,9 @@ Vue.component('personBibl', {
 	}
     },
     methods: {
+	dataLoaded: function () {
+	    return !this.$root.empty(this.ppm) && !this.$root.empty(this.bibl_data)
+	},
 	goToPiece: function () {
 	    this.$root.state.content.issue.id = this.ppm.issueId
 	    this.$root.state.content.issue.decls_id = this.ppm.pieceId
@@ -261,7 +265,7 @@ Vue.component('personBibl', {
 	    if(!bibl){
 		return "bibl " + biblId + "doesn't exist"
 	    }
-	    if(!bibl.sectionMeta){
+	    if(this.$root.empty(bibl.sectionMeta)){
 		return "sectionMeta is missing!"
 	    }
 	    return bibl.sectionMeta.sectionTitle
@@ -312,19 +316,20 @@ Vue.component('searchResult',{
 	    })
 	},
 	pieceTitle: function() {
-	    if(Object.keys(this.result.pieceMeta.pieceTitle).length === 0 && this.result.pieceMeta.pieceTitle.constructor === Object){
+	    if(this.$root.empty(this.result.pieceMeta.pieceTitle)){
 		return "---No title found---"
 	    }
 	    return this.result.pieceMeta.pieceTitle
 	},
-	highlightResult: function(){
-	    return this.result.context.toLowerCase().replace(this.searchString, '<span class="searchHit">' + this.searchString +'</span>')
-	}
     },
     template: `
 	<div class="searchResult" @click="resultClicked">
-	<div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
-	  <div class="context" v-html="highlightResult()"></div>
+	  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
+	  <div class="context">
+	    <span class="contextBefore">{{this.result.contextBefore}}</span>
+	    <span class="searchHit">{{this.result.hit}}</span>
+	    <span class="contextAfter">{{this.result.contextAfter}}</span>
+	  </div>
 	</div>
     `
 })
@@ -333,7 +338,7 @@ Vue.component('issueViewer',{
     template: `
 	<div class="viewer">
 	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
-	  <tei-markup v-if="viewer == 'tei'"></tei-markup>
+	  <tei-markup v-if="viewer == 'text'"></tei-markup>
 	</div>
 	`,
         data() {
@@ -364,8 +369,19 @@ Vue.component('issue',{
 Vue.component('issueHeader', {
     data() {
 	return {
-	    bibl_data: false,
-	    ppm: '',
+	    authorShipLegend: `Author will have 2-3 attributes: status, cert, and ref.
+
+Status: identify as “supplied” (journal doesn’t say but you found it elsewhere), “attested” (the journal says), “unknown” (anonymous), or “inferred” (journal provides a byline that doesn’t provide full name, but makes it obvious, e.g. “EAP”).
+
+If  you have only a pen name, but you know the author's real name, the author status should be "inferred," and the certainty will be "high," "medium," or "low," depending on what you've found in your research. The name in the ref should be the author's real name.
+
+If an article only has initials for a byline and you can't find a reasonable full-name match for the initials, the author status will be "unknown," but you will use the initials of the author instead of "anon" in the ref.
+
+Certainty: identify cert as “high,” “medium,” or “low.”
+If the author is anonymous DO NOT provide certainty.`,
+	    showAuthorShipLegend: false,
+	    bibl_data: {},
+	    ppm: {},
 	    biblId: 's1',
 	}
     },
@@ -378,6 +394,7 @@ Vue.component('issueHeader', {
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.biblId = bibl.decls_id
+	    this.ppm = this.bibl_data = undefined
 	    this.setPpm()
 	    this.setBiblData()
 	})
@@ -387,9 +404,9 @@ Vue.component('issueHeader', {
 	this.setBiblData()
     },
     template: `
-	<div class="issueHeader" v-if="this.bibl_data">
+	<div class="issueHeader" v-if="this.dataLoaded()">
 	  <div class="bibl">
-  	    <div class="issueMeta" v-if="this.bibl_data.issueMeta">
+  	    <div class="issueMeta" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
 	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
 	      <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
 	      <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
@@ -398,17 +415,27 @@ Vue.component('issueHeader', {
 	  <div class="sectionMeta">
             <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
           </div>
-	  <div class="pieceMeta" v-if="this.bibl_data[this.biblId]">
+	  <div class="pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId])">
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
 	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
-	    <div class="pieceAuthorShip">{{this.authorMeta('authorShip')}}</div>
+	  <div class="pieceAuthorShip" @mouseover="showAuthorShipLegend = true" @mouseleave="showAuthorShipLegend = false">
+	    <div class="authorShipOrigin">{{this.authorShipMeta('authorStatus')}}</div>
+	    <div class="authorShipCertainty">{{this.authorShipMeta('authorCertainty')}}</div>
+	  </div>
+	<div class="authorShipLegend" v-if="showAuthorShipLegend">{{this.authorShipLegend}}</div>
           </div>
-    	<a v-bind:href='stateHref()' download>Download {{this.dlLabel()}}</a>
+    	<a class="downloadLink" v-bind:href='stateHref()' download>
+    	<div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
+    	<div class="downloadText">Download {{this.dlLabel()}}</div>
+    	</a>
 	<drawer v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
 	</div>
 	`,
     methods: {
+	dataLoaded: function () {
+	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
+	},
 	drawerIsAvailable: function() {
 	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
 	},
@@ -444,6 +471,14 @@ Vue.component('issueHeader', {
 	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
 	    ppm = this.ppm[ppmId]
 	    return ppm[attribute]
+	},
+	authorShipMeta: function (attribute){
+	    if(!this.bibl_data[this.biblId].pieceMeta){
+		return
+	    }
+	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
+	    ppm = this.ppm[ppmId]
+	    return ppm.authorShip[attribute]
 	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
@@ -484,7 +519,14 @@ Vue.component('issueHeader', {
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">Actuate Drawer</div>
+	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">
+		<div class="drawerIcon">
+			<i class="fa fa-list" aria-hidden="true"></i>
+		</div>
+    	<div class="drawerText">
+    		More from this author
+		</div>
+	</div>
 	  <personBibl v-if="showBibls" v-for="bibl in this.authorBibls.personListBibl" :personBibl="bibl"></personBibl>
         </div>
 	`,
@@ -492,11 +534,11 @@ Vue.component('drawer', {
     created() {
 	axios.get('/api/personography/summary/json').then(response => {
 	    this.personography = response.data
-	    this.authorBibls = this.personography.personIndex[0][this.authorId]
+	    this.authorBibls = this.personography.personIndex[this.authorId]
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.showBibls = false
-	    this.authorBibls = this.personography.personIndex[0][this.authorId]
+	    this.authorBibls = this.personography.personIndex[this.authorId]
 	})
 
     },
@@ -569,8 +611,11 @@ Vue.component('viewerSelector',{
     },
     template: `
 	<div class='viewerSelector' @click="toggleViewer">
-  	  <div class="viewerOption" v-bind:class="isActive('tei')">Text</div>
-	  <div class="viewerOption" v-bind:class="isActive('pdf')">PDF</div>
+            <div class="viewerTitle">Change Viewer</div>
+            <div class="viewerSwitch">
+              <div class="viewerText" v-bind:class="isActive('tei')">Text</div>
+              <div class="viewerPdf" v-bind:class="isActive('pdf')">PDF</div>
+            </div>
 	</div>
 	`,
     methods: {
@@ -578,7 +623,7 @@ Vue.component('viewerSelector',{
 	    return viewerType == this.active
 	},
 	toggleViewer: function(){
-	    this.active = this.active == 'pdf' ? 'tei' : 'pdf'
+	    this.active = this.active == 'pdf' ? 'text' : 'pdf'
 	    Event.$emit('viewerSelected', this.active)
 	}
     },
@@ -734,11 +779,11 @@ Vue.component('zoom-slider',{
 	},
 	methods:{
 		zoomUpdate: function(){
-			Event.$emit('zoomUpdate', this.zoomLevel,this.$root.state.issue.page)
+			Event.$emit('zoomUpdate', this.zoomLevel,this.$root.state.content.issue.page)
 	}
 
 	},
-	template:`<input class='zoom' id='zoomSlider' min='0' max='2.0' step='0.1' v-model="zoomLevel" @change='zoomUpdate(this.zoomLevel)' type='range'></input>`
+	template:`<input class='zoom' id='zoomSlider' min='1.3' max='3.0' step='0.1' v-model="zoomLevel" @change='zoomUpdate(this.zoomLevel)' type='range'></input>`
 })
 
 Vue.component('pdf-viewer',{
@@ -805,7 +850,7 @@ Vue.component('pdf-viewer',{
 	loadPdf: function(issue, page = 1, scale = 1.3) { 
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
-	    if(this.$root.state.content.issue.viewer == 'tei'){
+	    if(this.$root.state.content.issue.viewer == 'text'){
 		return;
 	    }
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
@@ -839,8 +884,9 @@ Vue.component('pdf-viewer',{
 		// Prepare canvas using PDF page dimensions
 		var canvas = document.getElementById('pdf');
 		var context = canvas.getContext('2d');
-		canvas.height = 1014//viewport.height;
-		canvas.width = 735// viewport.width;
+
+		canvas.height = viewport.height; //1014
+		canvas.width = viewport.width; //735
 
 		// Render PDF page into canvas context
 		var renderContext = {
@@ -1144,6 +1190,15 @@ window.Event = new Vue();
 new Vue({
 	el:'#vue-root',
     methods: {
+	empty: function (o) {
+	    if(o === undefined){
+		return true
+	    }
+	    if(Object.keys(o).length === 0 && o.constructor === Object){
+		return true
+	    }
+	    return false
+	},
 	getTocEntry: function(issueId, itemId){
 
 	    url = '/api/broadwayjournal/' + issueId + '/toc';
@@ -1173,7 +1228,7 @@ new Vue({
 		abouts: 'about', // technical | credits
 		issue: {
 		    id: '18450201',//'18450104', // yyyy-mm-dd
-		    viewer: 'pdf', // text|pdf
+		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: ''
 		},
@@ -1201,6 +1256,7 @@ new Vue({
 	    this.state.content.issue.id = id;
 	    this.state.content.issue.page = 1;
 	    this.state.content.issue.decls_id = '';
+	    this.state.content.searchString = '';
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.state.content.issue.id = bibl.issueId

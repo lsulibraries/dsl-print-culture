@@ -56,6 +56,14 @@ $dark-border-color: #5c5c5c;
   align-items: center;
 }
 
+input:focus {
+    outline: none !important;
+  }
+
+.biblTitle, .issueId, .biblPage{
+  display:none;
+}  
+
 body {
 	margin: 0px;
   font-family: Roboto;
@@ -91,9 +99,6 @@ body {
 
 }
 
-.header button::after{
-  content:'on';
-}
 
 .headerNav{
     @include flexCenter;
@@ -122,7 +127,14 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 20px 16px 20px;
+    @include transition(0.5s);
 }
+
+.headerNav > div:hover {
+    color: white;
+    background:  $primary-accent-color;
+      @include transition(0s);
+  }
 
 input {
     border: 1px solid $light-border-color;
@@ -175,8 +187,54 @@ input:focus {
 
 .abouts {
     padding: 40px;
+    background: url(http://i.imgur.com/gHkl0bM.jpg);
+    background-size: cover;
 }
 
+.logo {
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.4vw;
+    line-height: 4.7vw;
+    color: $primary-accent-color;
+    padding: 130px 200px 0px 200px;    
+}
+
+.about{
+  margin-left: 200px;
+}
+
+.about, .technical, .credits {
+    background: #fe7251;
+    margin-top: -20px;
+    color: white;
+    position: relative;
+    padding: 20px;
+    text-transform: uppercase;
+    top: 21px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.abouts > div:nth-last-child(1) {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    font-size: 1.5em;
+    margin-left: 200px;
+    margin-right: 200px;    
+}
+
+
+.logoSubtitle {
+    background: #fe7251;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0em;
+    padding-left: 1vw;
+}
 
 .issue{
   @include flexbox;
@@ -195,6 +253,10 @@ input:focus {
 
 .interIssueNav::before{
   content:'issue navigation';
+  font-size: 2em;  
+    text-transform: uppercase;
+    line-height: .9em;    
+
 }
 
 .issue::before{
@@ -210,13 +272,18 @@ input:focus {
 }
 
 
+
 .tocDropdown {
-    font-size: 1.2em;
-    border-bottom: 1px dashed $light-border-color;    
+    font-size: 2em;
+    border-bottom: 1px dashed $light-border-color;
+    text-transform: uppercase;    
+
+    line-height: .9em;    
 }
 
 .tocItem {
     padding: 5px;
+    cursor: pointer;
 }
 
 
@@ -228,15 +295,24 @@ input:focus {
     margin-bottom: 10px;
 }
 
+.issueIndex > div{
+  @include transition(.5);
+}
+
 .issueBody {
     background: white;
     margin-top: 1;
     margin-left: 1px;
     flex-grow: 2;    
-    padding: 40px;
+    padding: 20px;
     width: 70%;    
 }
 
+.issueDate{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 
 .singleText {
@@ -286,17 +362,228 @@ input:focus {
     width: 100%;
 }
 
+.active.childText {
+    color: black;
+}
+
+.childPieceTitle {
+    font-weight: 500;
+    border-left: 2px solid $document-text-color;
+    padding-left: 5px;
+    @include transition(.5s);
+}
+
+.piece{
+    @include transition(.5s);
+}
+
+.intraIssueNav{
+.childPieceTitle:hover, .piece:hover{
+  padding-left: 10px;
+  @include transition(0s);
+      color: $primary-accent-color;
+}
+}
+
+.issueVol, .issueNum {
+    background: #474747;
+    color: white;
+    padding: 5px;
+    margin-top: 1px;
+    border-radius: 2px;
+    width: 45px;
+    font-size: 0.9em;
+}
+
+.teiMarkup {
+    font-size: 1.2em;
+}
+
+.head {
+    font-weight: 700;
+    border-bottom: 1px solid#c0c0c0;
+    margin: 20px 0px 20px 0px;
+}
+
+button.searchSubmit {
+    background: none;
+    border: none;
+    color: $document-text-color;
+}
+
+/*BEGIN Personography*/
+.personography {
+    padding-left: 40px;
+    position: relative;
+}
+
+.personography::before {
+    background: black;
+    content: 'Personography';
+    width: 10px;
+    color: white;
+    word-wrap: break-word;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+
+.personIndex {
+    @include flexbox;
+    flex-wrap: wrap;
+}
+
+.personFilter input {
+    width: 100%;
+    font-size: 2em;
+    height: 140px;
+    padding: 40px;
+}
+
+.personIndex .person {
+    background: $primary-accent-color;
+    margin: 0px 1px 1px 0px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.Contributing .personName{
+  color: white;
+}
+
+.personName {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.Contributing .personRole {
+    background: white;
+    color:  $primary-accent-color;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.Mentioned .personRole {
+    background: $document-text-color;
+    color: $primary-accent-color;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.personBibl {
+    @include flexbox;
+    background: #ffffff;
+    color: #474747;
+    margin: 20px -20px -20px -20px;
+    padding: 20px 20px 40px 20px;
+    border-top: 1px dashed #fe7251;
+    align-items: center;
+}
+
+.pieceMeta {
+.pieceTitle {
+    font-size: 1.5em;
+}  
+    margin-left: 7px;
+    line-height: 15px;    
+}
+
+a.downloadLink {
+    background: #fe7251;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.downloadIcon {
+    height: 100%;
+    width: 30px;
+    border-right: 1px dashed white;
+    background: #fe7251;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float:left;
+}
+
+
+
+.downloadText {
+    padding: 9px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.drawerActuator {
+    cursor: pointer;
+    background: #fe7251;
+    width: 205px;
+    height: 30px;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.drawerIcon {
+    height: 100%;
+    width: 30px;
+    border-right: 1px dashed white;
+    background: #fe7251;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+
+.drawerText {
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 35px;
+    padding: 9px;
+}
+
+
+
 /*BEGIN SEARCH RESULTS*/
 
 .searchResults::before {
-    content: 'SEARCH RESULTS';
-    font-size: 3em;
+    content: 'Search Results';
+    font-size: 2em;
+    padding: 20px;    
 }
 
 .searchResult {
     background: $light-border-color;
     margin-bottom: 5px;
     padding: 30px;
+    border-top: 1px solid white;    
 }
 
 .pieceTitle {
@@ -311,6 +598,76 @@ span.searchHit {
     background: yellow;
 }
 
+.issueHeader {
+
+  .pieceTitle {
+  font-size: 2em;
+  margin: 20px 20px 5px 0px;
+  line-height: 1em;    
+}
+
+.pieceAuthor, .pieceAuthorRole{
+  display: inline;
+}
+
+.pieceAuthorShip {
+    margin-top: 20px;
+}
+
+.pieceAuthorRole {
+    background: $primary-accent-color;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 2px 4px 2px 4px;
+    border-radius: 3px;
+    position: relative;
+    top: -2px;
+}
+
+}
+
+
+
+.drawer{
+
+
+
+    margin-bottom: 40px;
+  .personBibl:hover {
+    background:$primary-accent-color2;
+    @include transition(0s);    
+}
+
+    .personBibl {
+    background: #fe7251;
+    color: white;
+    font-size: 0.9em;
+    padding: 20px;
+    border-top: 1px dashed #ffffff;    
+    cursor: pointer;
+    @include transition(0.5s);    
+    }
+
+    .issueVol, .issueNum {
+    background: #ffffff;
+    color: #fe7251;
+    padding: 5px;
+    margin-top: 1px;
+    border-radius: 2px;
+    width: 45px;
+    font-weight: 700;
+    font-size: 0.9em;
+    }    
+
+    .pieceTitle, .issueHeader, .pieceAuthorShip {
+    margin: 0px;
+    }    
+
+    .pieceTitle{
+      font-size:1.5em;
+    }
+}
 /*END SEARCH RESULTS*/
 
 /*BEGIN High Contrast Mode*/

@@ -6,7 +6,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451129-p1-anon>
    <ppm-18451129-p2-efellett>
       <issueId>18451129</issueId>
@@ -14,7 +16,10 @@
       <personId>efellett</personId>
       <personName/>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p2-efellett>
    <ppm-18451129-p3-eapoe>
       <issueId>18451129</issueId>
@@ -22,7 +27,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p3-eapoe>
    <ppm-18451129-p4-fsosgood>
       <issueId>18451129</issueId>
@@ -30,7 +38,10 @@
       <personId>fsosgood</personId>
       <personName>Frances Sargent Osgood</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p4-fsosgood>
    <ppm-18451129-p5-wwhitman>
       <issueId>18451129</issueId>
@@ -38,7 +49,10 @@
       <personId>wwhitman</personId>
       <personName>Walter Whitman</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p5-wwhitman>
    <ppm-18451129-p6-fghalleck>
       <issueId>18451129</issueId>
@@ -46,7 +60,10 @@
       <personId>fghalleck</personId>
       <personName>Fitz-Greene Halleck</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p6-fghalleck>
    <ppm-18451129-p7-wgsimms>
       <issueId>18451129</issueId>
@@ -54,7 +71,10 @@
       <personId>wgsimms</personId>
       <personName>William Gilmore Simms</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p7-wgsimms>
    <ppm-18451129-s1-eapoe>
       <issueId>18451129</issueId>
@@ -62,7 +82,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-s1-eapoe>
    <ppm-18451129-p26-wgsimms>
       <issueId>18451129</issueId>
@@ -70,7 +93,10 @@
       <personId>wgsimms</personId>
       <personName>William Gilmore Simms</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p26-wgsimms>
    <ppm-18451129-p27-abmeek>
       <issueId>18451129</issueId>
@@ -78,7 +104,10 @@
       <personId>abmeek</personId>
       <personName>Alexander Beaufort Meek</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p27-abmeek>
    <ppm-18451129-p28-hcwatson>
       <issueId>18451129</issueId>
@@ -86,7 +115,10 @@
       <personId>hcwatson</personId>
       <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
    </ppm-18451129-p28-hcwatson>
    <ppm-18451129-p29-anon>
       <issueId>18451129</issueId>
@@ -94,7 +126,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451129-p29-anon>
    <ppm-18451129-s2-eapoe>
       <issueId>18451129</issueId>
@@ -102,7 +136,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-s2-eapoe>
    <ppm-18451129-p30-jbisco>
       <issueId>18451129</issueId>
@@ -110,7 +147,10 @@
       <personId>jbisco</personId>
       <personName>John Bisco</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451129-p30-jbisco>
    <ppm-18451129-p31-anon>
       <issueId>18451129</issueId>
@@ -118,6 +158,8 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451129-p31-anon>
 </personPieceMeta>

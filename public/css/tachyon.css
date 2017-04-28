@@ -1,4 +1,12 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700";
+input:focus {
+  outline: none !important;
+}
+
+.biblTitle, .issueId, .biblPage {
+  display: none;
+}
+
 body {
   margin: 0px;
   font-family: Roboto;
@@ -49,10 +57,6 @@ body {
   font-weight: 700;
 }
 
-.header button::after {
-  content: 'on';
-}
-
 .headerNav {
   display: -webkit-box;
   display: -moz-box;
@@ -86,6 +90,19 @@ body {
   justify-content: center;
   align-items: center;
   padding: 16px 20px 16px 20px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.headerNav > div:hover {
+  color: white;
+  background: #fe7251;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 input {
@@ -144,6 +161,52 @@ input:focus {
 
 .abouts {
   padding: 40px;
+  background: url(http://i.imgur.com/gHkl0bM.jpg);
+  background-size: cover;
+}
+
+.logo {
+  font-size: 6vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.4vw;
+  line-height: 4.7vw;
+  color: #fe7251;
+  padding: 130px 200px 0px 200px;
+}
+
+.about {
+  margin-left: 200px;
+}
+
+.about, .technical, .credits {
+  background: #fe7251;
+  margin-top: -20px;
+  color: white;
+  position: relative;
+  padding: 20px;
+  text-transform: uppercase;
+  top: 21px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.abouts > div:nth-last-child(1) {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  font-size: 1.5em;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.logoSubtitle {
+  background: #fe7251;
+  color: white;
+  font-size: 0.8em;
+  letter-spacing: 0em;
+  padding-left: 1vw;
 }
 
 .issue {
@@ -171,6 +234,9 @@ input:focus {
 
 .interIssueNav::before {
   content: 'issue navigation';
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: .9em;
 }
 
 .issue::before {
@@ -186,12 +252,15 @@ input:focus {
 }
 
 .tocDropdown {
-  font-size: 1.2em;
+  font-size: 2em;
   border-bottom: 1px dashed #e9e9e9;
+  text-transform: uppercase;
+  line-height: .9em;
 }
 
 .tocItem {
   padding: 5px;
+  cursor: pointer;
 }
 
 .author {
@@ -202,13 +271,26 @@ input:focus {
   margin-bottom: 10px;
 }
 
+.issueIndex > div {
+  -webkit-transition: all 0.5 ease;
+  -moz-transition: all 0.5 ease;
+  -ms-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+}
+
 .issueBody {
   background: white;
   margin-top: 1;
   margin-left: 1px;
   flex-grow: 2;
-  padding: 40px;
+  padding: 20px;
   width: 70%;
+}
+
+.issueDate {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .singleText {
@@ -267,16 +349,238 @@ input:focus {
   width: 100%;
 }
 
+.active.childText {
+  color: black;
+}
+
+.childPieceTitle {
+  font-weight: 500;
+  border-left: 2px solid #474747;
+  padding-left: 5px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.piece {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.intraIssueNav .childPieceTitle:hover, .intraIssueNav .piece:hover {
+  padding-left: 10px;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
+  color: #fe7251;
+}
+
+.issueVol, .issueNum {
+  background: #474747;
+  color: white;
+  padding: 5px;
+  margin-top: 1px;
+  border-radius: 2px;
+  width: 45px;
+  font-size: 0.9em;
+}
+
+.teiMarkup {
+  font-size: 1.2em;
+}
+
+.head {
+  font-weight: 700;
+  border-bottom: 1px solid #c0c0c0;
+  margin: 20px 0px 20px 0px;
+}
+
+button.searchSubmit {
+  background: none;
+  border: none;
+  color: #474747;
+}
+
+/*BEGIN Personography*/
+.personography {
+  padding-left: 40px;
+  position: relative;
+}
+
+.personography::before {
+  background: black;
+  content: 'Personography';
+  width: 10px;
+  color: white;
+  word-wrap: break-word;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+}
+
+.personIndex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personFilter input {
+  width: 100%;
+  font-size: 2em;
+  height: 140px;
+  padding: 40px;
+}
+
+.personIndex .person {
+  background: #fe7251;
+  margin: 0px 1px 1px 0px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.Contributing .personName {
+  color: white;
+}
+
+.personName {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.Contributing .personRole {
+  background: white;
+  color: #fe7251;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.Mentioned .personRole {
+  background: #474747;
+  color: #fe7251;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.personBibl {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  background: #ffffff;
+  color: #474747;
+  margin: 20px -20px -20px -20px;
+  padding: 20px 20px 40px 20px;
+  border-top: 1px dashed #fe7251;
+  align-items: center;
+}
+
+.pieceMeta {
+  margin-left: 7px;
+  line-height: 15px;
+}
+.pieceMeta .pieceTitle {
+  font-size: 1.5em;
+}
+
+a.downloadLink {
+  background: #fe7251;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.downloadIcon {
+  height: 100%;
+  width: 30px;
+  border-right: 1px dashed white;
+  background: #fe7251;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.downloadText {
+  padding: 9px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.drawerActuator {
+  cursor: pointer;
+  background: #fe7251;
+  width: 205px;
+  height: 30px;
+  align-items: center;
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.drawerIcon {
+  height: 100%;
+  width: 30px;
+  border-right: 1px dashed white;
+  background: #fe7251;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.drawerText {
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 35px;
+  padding: 9px;
+}
+
 /*BEGIN SEARCH RESULTS*/
 .searchResults::before {
-  content: 'SEARCH RESULTS';
-  font-size: 3em;
+  content: 'Search Results';
+  font-size: 2em;
+  padding: 20px;
 }
 
 .searchResult {
   background: #e9e9e9;
   margin-bottom: 5px;
   padding: 30px;
+  border-top: 1px solid white;
 }
 
 .pieceTitle {
@@ -289,6 +593,67 @@ input:focus {
 
 span.searchHit {
   background: yellow;
+}
+
+.issueHeader .pieceTitle {
+  font-size: 2em;
+  margin: 20px 20px 5px 0px;
+  line-height: 1em;
+}
+.issueHeader .pieceAuthor, .issueHeader .pieceAuthorRole {
+  display: inline;
+}
+.issueHeader .pieceAuthorShip {
+  margin-top: 20px;
+}
+.issueHeader .pieceAuthorRole {
+  background: #fe7251;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  border-radius: 3px;
+  position: relative;
+  top: -2px;
+}
+
+.drawer {
+  margin-bottom: 40px;
+}
+.drawer .personBibl:hover {
+  background: rgba(254, 114, 81, 0.75);
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
+}
+.drawer .personBibl {
+  background: #fe7251;
+  color: white;
+  font-size: 0.9em;
+  padding: 20px;
+  border-top: 1px dashed #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.drawer .issueVol, .drawer .issueNum {
+  background: #ffffff;
+  color: #fe7251;
+  padding: 5px;
+  margin-top: 1px;
+  border-radius: 2px;
+  width: 45px;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.drawer .pieceTitle, .drawer .issueHeader, .drawer .pieceAuthorShip {
+  margin: 0px;
+}
+.drawer .pieceTitle {
+  font-size: 1.5em;
 }
 
 /*END SEARCH RESULTS*/

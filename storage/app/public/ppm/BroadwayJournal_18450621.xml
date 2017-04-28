@@ -6,7 +6,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450621-p1-eapoe>
    <ppm-18450621-p2-eapoe>
       <issueId>18450621</issueId>
@@ -14,7 +17,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450621-p2-eapoe>
    <ppm-18450621-p3-eapoe>
       <issueId>18450621</issueId>
@@ -22,7 +28,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450621-p3-eapoe>
    <ppm-18450621-s4p1-aclynch>
       <issueId>18450621</issueId>
@@ -31,7 +40,10 @@
       <personId>aclynch</personId>
       <personName>Anne C. Lynch</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450621-s4p1-aclynch>
    <ppm-18450621-s4p2-aclynch>
       <issueId>18450621</issueId>
@@ -40,7 +52,10 @@
       <personId>aclynch</personId>
       <personName>Anne C. Lynch</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450621-s4p2-aclynch>
    <ppm-18450621-p5-eapoe>
       <issueId>18450621</issueId>
@@ -48,16 +63,22 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18450621-p5-eapoe>
    <ppm-18450621-p6-eapoe>
       <issueId>18450621</issueId>
       <pieceId>p6</pieceId>
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
-      <personPiecePseudo>ULRIC HORN.</personPiecePseudo>
+      <personPiecePseudo>Ulric Horn.</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18450621-p6-eapoe>
    <ppm-18450621-p7-anon>
       <issueId>18450621</issueId>
@@ -65,7 +86,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-p7-anon>
    <ppm-18450621-s8p1-anon>
       <issueId>18450621</issueId>
@@ -74,7 +97,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s8p1-anon>
    <ppm-18450621-s8p2-eapoe>
       <issueId>18450621</issueId>
@@ -83,7 +108,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18450621-s8p2-eapoe>
    <ppm-18450621-s8p3-anon>
       <issueId>18450621</issueId>
@@ -92,7 +120,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s8p3-anon>
    <ppm-18450621-s8p4-eapoe>
       <issueId>18450621</issueId>
@@ -101,7 +131,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18450621-s8p4-eapoe>
    <ppm-18450621-s9p1-anon>
       <issueId>18450621</issueId>
@@ -110,7 +143,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p1-anon>
    <ppm-18450621-s9p2-anon>
       <issueId>18450621</issueId>
@@ -119,7 +154,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p2-anon>
    <ppm-18450621-s9p3-anon>
       <issueId>18450621</issueId>
@@ -128,7 +165,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p3-anon>
    <ppm-18450621-s9p4-anon>
       <issueId>18450621</issueId>
@@ -137,7 +176,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p4-anon>
    <ppm-18450621-s9p5-anon>
       <issueId>18450621</issueId>
@@ -146,7 +187,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p5-anon>
    <ppm-18450621-s9p6-anon>
       <issueId>18450621</issueId>
@@ -155,7 +198,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p6-anon>
    <ppm-18450621-s9p7-anon>
       <issueId>18450621</issueId>
@@ -164,7 +209,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p7-anon>
    <ppm-18450621-s9p8-anon>
       <issueId>18450621</issueId>
@@ -173,7 +220,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p8-anon>
    <ppm-18450621-s9p9-anon>
       <issueId>18450621</issueId>
@@ -182,7 +231,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p9-anon>
    <ppm-18450621-s9p10-anon>
       <issueId>18450621</issueId>
@@ -191,7 +242,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s9p10-anon>
    <ppm-18450621-p10-anon>
       <issueId>18450621</issueId>
@@ -199,7 +252,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-p10-anon>
    <ppm-18450621-s11p1-anon>
       <issueId>18450621</issueId>
@@ -208,7 +263,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s11p1-anon>
    <ppm-18450621-s11p2-anon>
       <issueId>18450621</issueId>
@@ -217,7 +274,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s11p2-anon>
    <ppm-18450621-s11p3-anon>
       <issueId>18450621</issueId>
@@ -226,7 +285,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s11p3-anon>
    <ppm-18450621-s11p4-anon>
       <issueId>18450621</issueId>
@@ -235,7 +296,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s11p4-anon>
    <ppm-18450621-p16-anon>
       <issueId>18450621</issueId>
@@ -243,7 +306,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-p16-anon>
    <ppm-18450621-p17-anon>
       <issueId>18450621</issueId>
@@ -251,7 +316,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-p17-anon>
    <ppm-18450621-s14-anon>
       <issueId>18450621</issueId>
@@ -259,7 +326,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-s14-anon>
    <ppm-18450621-p15-anon>
       <issueId>18450621</issueId>
@@ -267,7 +336,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-p15-anon>
    <ppm-18450621-p18-anon>
       <issueId>18450621</issueId>
@@ -275,6 +346,8 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18450621-p18-anon>
 </personPieceMeta>

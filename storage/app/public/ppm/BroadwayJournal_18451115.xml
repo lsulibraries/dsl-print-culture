@@ -6,7 +6,10 @@
       <personId>aclynch</personId>
       <personName>Anne C. Lynch</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451115-p1-aclynch>
    <ppm-18451115-p2-eapoe>
       <issueId>18451115</issueId>
@@ -14,7 +17,11 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18451115-p2-eapoe>
    <ppm-18451115-p3-sjhale>
       <issueId>18451115</issueId>
@@ -22,7 +29,10 @@
       <personId>sjhale</personId>
       <personName>Sarah Josepha Hale</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451115-p3-sjhale>
    <ppm-18451115-p4-rsrowley>
       <issueId>18451115</issueId>
@@ -30,7 +40,10 @@
       <personId>rsrowley</personId>
       <personName>R. S. Rowley</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451115-p4-rsrowley>
    <ppm-18451115-p5-ghmildeberger>
       <issueId>18451115</issueId>
@@ -38,7 +51,10 @@
       <personId>ghmildeberger</personId>
       <personName>G. H. Mildeberger</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451115-p5-ghmildeberger>
    <ppm-18451115-p6-eapoe>
       <issueId>18451115</issueId>
@@ -46,7 +62,11 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18451115-p6-eapoe>
    <ppm-18451115-p7-hcwatson>
       <issueId>18451115</issueId>
@@ -54,7 +74,11 @@
       <personId>hcwatson</personId>
       <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18451115-p7-hcwatson>
    <ppm-18451115-p8-eapoe>
       <issueId>18451115</issueId>
@@ -62,7 +86,11 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with high certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18451115-p8-eapoe>
    <ppm-18451115-p9-anon>
       <issueId>18451115</issueId>
@@ -70,7 +98,9 @@
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
    </ppm-18451115-p9-anon>
    <ppm-18451115-p10-mehewitt>
       <issueId>18451115</issueId>
@@ -78,7 +108,10 @@
       <personId>mehewitt</personId>
       <personName>Mary Elizabeth Hewitt</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is attested, with high certainty.</authorShip>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
    </ppm-18451115-p10-mehewitt>
    <ppm-18451115-p11-eapoe>
       <issueId>18451115</issueId>
@@ -86,7 +119,11 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with medium certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18451115-p11-eapoe>
    <ppm-18451115-p12-hcwatson>
       <issueId>18451115</issueId>
@@ -94,7 +131,10 @@
       <personId>hcwatson</personId>
       <personName>Henry Cood Watson</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
    </ppm-18451115-p12-hcwatson>
    <ppm-18451115-p13-eapoe>
       <issueId>18451115</issueId>
@@ -102,6 +142,10 @@
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is supplied, with low certainty.(Reference: eapoe.org)</authorShip>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
    </ppm-18451115-p13-eapoe>
 </personPieceMeta>
