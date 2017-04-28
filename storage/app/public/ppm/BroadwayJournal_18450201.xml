@@ -120,14 +120,54 @@
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>Authorship is unknown.</authorShip>
    </ppm-18450201-p15-anon>
-   <ppm-18450201-s4-anon>
+   <ppm-18450201-p16-eapoe>
       <issueId>18450201</issueId>
-      <sectionId>s4</sectionId>
-      <personId>anon</personId>
-      <personName>Anonymous</personName>
+      <pieceId>p16</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
-      <authorShip>Authorship is unknown.</authorShip>
-   </ppm-18450201-s4-anon>
+      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+   </ppm-18450201-p16-eapoe>
+   <ppm-18450201-p17-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p17</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+   </ppm-18450201-p17-eapoe>
+   <ppm-18450201-p18-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p18</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+   </ppm-18450201-p18-eapoe>
+   <ppm-18450201-p19-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p19</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+   </ppm-18450201-p19-eapoe>
+   <ppm-18450201-p20-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p20</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+   </ppm-18450201-p20-eapoe>
+   <ppm-18450201-p21-eapoe>
+      <issueId>18450201</issueId>
+      <pieceId>p21</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+   </ppm-18450201-p21-eapoe>
    <ppm-18450201-p22-anon>
       <issueId>18450201</issueId>
       <pieceId>p22</pieceId>

@@ -77,7 +77,7 @@
       <pieceId>p10</pieceId>
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
-      <personPiecePseudo>EDGAR A. POE</personPiecePseudo>
+      <personPiecePseudo>Edgar A. Poe</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>Authorship is supplied, with high certainty.</authorShip>
    </ppm-18450208-p10-eapoe>
@@ -217,4 +217,738 @@
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>Authorship is supplied, with high certainty.</authorShip>
    </ppm-18450208-p26-jbisco>
+   <ppm-18450208-p1-eblytton>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>eblytton</personId>
+      <personName>Edward George Earle Bulwer Lytton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-eblytton>
+   <ppm-18450208-p1-cdmacleod>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cdmacleod</personId>
+      <personName>C. Donald Macleod</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-cdmacleod>
+   <ppm-18450208-p1-fburney>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>fburney</personId>
+      <personName>Fanny Burney</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-fburney>
+   <ppm-18450208-p1-jporter>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>jporter</personId>
+      <personName>Jane Porter</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-jporter>
+   <ppm-18450208-p1-medgeworth>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>medgeworth</personId>
+      <personName>Maria Edgeworth</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-medgeworth>
+   <ppm-18450208-p1-wgodwin>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wgodwin</personId>
+      <personName>William Godwin</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-wgodwin>
+   <ppm-18450208-p1-wscott>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wscott</personId>
+      <personName>Sir Walter Scott</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-wscott>
+   <ppm-18450208-p1-bdisraeli>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>bdisraeli</personId>
+      <personName>Benjamin Disraeli</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-bdisraeli>
+   <ppm-18450208-p1-cdickens>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cdickens</personId>
+      <personName>Charles John Huffam Dickens</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-cdickens>
+   <ppm-18450208-p1-ajsullivan>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>ajsullivan</personId>
+      <personName>Arabella Jane Sullivan</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-ajsullivan>
+   <ppm-18450208-p1-gcfullerton>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>gcfullerton</personId>
+      <personName>Lady Georgiana Charlotte Leveson-Gower Fullerton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-gcfullerton>
+   <ppm-18450208-p1-cahelvetius>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cahelvetius</personId>
+      <personName>Claude Adrien Helvétius</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-cahelvetius>
+   <ppm-18450208-p1-whainsworth>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>whainsworth</personId>
+      <personName>William Harrison Ainsworth</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-whainsworth>
+   <ppm-18450208-p1-gdsdubartas>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>gdsdubartas</personId>
+      <personName>Guillaume de Saluste Du Bartas</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-gdsdubartas>
+   <ppm-18450208-p1-jrmazarin>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>jrmazarin</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-jrmazarin>
+   <ppm-18450208-p1-amchenier>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>amchenier</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-amchenier>
+   <ppm-18450208--jrochietti>
+      <issueId>18450208</issueId>
+      <personId>jrochietti</personId>
+      <personName>Joseph Rocchietti</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--jrochietti>
+   <ppm-18450208--jtheadley>
+      <issueId>18450208</issueId>
+      <personId>jtheadley</personId>
+      <personName>Joel Tyler Headley</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--jtheadley>
+   <ppm-18450208--jrocchietti>
+      <issueId>18450208</issueId>
+      <personId>jrocchietti</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--jrocchietti>
+   <ppm-18450208--wshakespeare>
+      <issueId>18450208</issueId>
+      <personId>wshakespeare</personId>
+      <personName>William Shakespeare</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--wshakespeare>
+   <ppm-18450208-p1-eblytton>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>eblytton</personId>
+      <personName>Edward George Earle Bulwer Lytton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-eblytton>
+   <ppm-18450208-p1-cdmacleod>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cdmacleod</personId>
+      <personName>C. Donald Macleod</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-cdmacleod>
+   <ppm-18450208-p1-fburney>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>fburney</personId>
+      <personName>Fanny Burney</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-fburney>
+   <ppm-18450208-p1-jporter>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>jporter</personId>
+      <personName>Jane Porter</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-jporter>
+   <ppm-18450208-p1-medgeworth>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>medgeworth</personId>
+      <personName>Maria Edgeworth</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-medgeworth>
+   <ppm-18450208-p1-wgodwin>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wgodwin</personId>
+      <personName>William Godwin</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-wgodwin>
+   <ppm-18450208-p1-wscott>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>wscott</personId>
+      <personName>Sir Walter Scott</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-wscott>
+   <ppm-18450208-p1-bdisraeli>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>bdisraeli</personId>
+      <personName>Benjamin Disraeli</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-bdisraeli>
+   <ppm-18450208-p1-cdickens>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cdickens</personId>
+      <personName>Charles John Huffam Dickens</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-cdickens>
+   <ppm-18450208-p1-ajsullivan>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>ajsullivan</personId>
+      <personName>Arabella Jane Sullivan</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-ajsullivan>
+   <ppm-18450208-p1-gcfullerton>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>gcfullerton</personId>
+      <personName>Lady Georgiana Charlotte Leveson-Gower Fullerton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-gcfullerton>
+   <ppm-18450208-p1-cahelvetius>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cahelvetius</personId>
+      <personName>Claude Adrien Helvétius</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-cahelvetius>
+   <ppm-18450208-p1-whainsworth>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>whainsworth</personId>
+      <personName>William Harrison Ainsworth</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-whainsworth>
+   <ppm-18450208-p1-gdsdubartas>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>gdsdubartas</personId>
+      <personName>Guillaume de Saluste Du Bartas</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-gdsdubartas>
+   <ppm-18450208-p1-jrmazarin>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>jrmazarin</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-jrmazarin>
+   <ppm-18450208-p1-amchenier>
+      <issueId>18450208</issueId>
+      <pieceId>p1</pieceId>
+      <personId>amchenier</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p1-amchenier>
+   <ppm-18450208--jrochietti>
+      <issueId>18450208</issueId>
+      <personId>jrochietti</personId>
+      <personName>Joseph Rocchietti</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--jrochietti>
+   <ppm-18450208--jtheadley>
+      <issueId>18450208</issueId>
+      <personId>jtheadley</personId>
+      <personName>Joel Tyler Headley</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--jtheadley>
+   <ppm-18450208--jrocchietti>
+      <issueId>18450208</issueId>
+      <personId>jrocchietti</personId>
+      <personName/>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--jrocchietti>
+   <ppm-18450208--wshakespeare>
+      <issueId>18450208</issueId>
+      <personId>wshakespeare</personId>
+      <personName>William Shakespeare</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208--wshakespeare>
+   <ppm-18450208-p4-asdoane>
+      <issueId>18450208</issueId>
+      <pieceId>p4</pieceId>
+      <personId>asdoane</personId>
+      <personName>Augustus Sidney Doane</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p4-asdoane>
+   <ppm-18450208-p5-jwvgoethe>
+      <issueId>18450208</issueId>
+      <pieceId>p5</pieceId>
+      <personId>jwvgoethe</personId>
+      <personName>Johann Wolfgang von Goethe</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p5-jwvgoethe>
+   <ppm-18450208-p5-jwvgoethe>
+      <issueId>18450208</issueId>
+      <pieceId>p5</pieceId>
+      <personId>jwvgoethe</personId>
+      <personName>Johann Wolfgang von Goethe</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p5-jwvgoethe>
+   <ppm-18450208-p16-httuckerman>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>httuckerman</personId>
+      <personName>Henry Theodore Tuckerman</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-httuckerman>
+   <ppm-18450208-p16-wcbryant>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>wcbryant</personId>
+      <personName>William Cullen Bryant</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-wcbryant>
+   <ppm-18450208-p16-cwelmi>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>cwelmi</personId>
+      <personName>C. Wilkins Elmi</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-cwelmi>
+   <ppm-18450208-p16-eapoe>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-eapoe>
+   <ppm-18450208-p16-eaduyckinck>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>eaduyckinck</personId>
+      <personName>Evert Augustus Duyckinck</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-eaduyckinck>
+   <ppm-18450208-p16-aalison>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>aalison</personId>
+      <personName>Sir Archibald Alison</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-aalison>
+   <ppm-18450208-p16-jtheadley>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>jtheadley</personId>
+      <personName>Joel Tyler Headley</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-jtheadley>
+   <ppm-18450208-p16-epwhipple>
+      <issueId>18450208</issueId>
+      <pieceId>p16</pieceId>
+      <personId>epwhipple</personId>
+      <personName>Edwin Percy Whipple</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p16-epwhipple>
+   <ppm-18450208-p17-dadee>
+      <issueId>18450208</issueId>
+      <pieceId>p17</pieceId>
+      <personId>dadee</personId>
+      <personName>Daniel Adee</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p17-dadee>
+   <ppm-18450208-p17-jinman>
+      <issueId>18450208</issueId>
+      <pieceId>p17</pieceId>
+      <personId>jinman</personId>
+      <personName>John Inman</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p17-jinman>
+   <ppm-18450208-p18-rhoyt>
+      <issueId>18450208</issueId>
+      <pieceId>p18</pieceId>
+      <personId>rhoyt</personId>
+      <personName>Ralph Hoyt</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p18-rhoyt>
+   <ppm-18450208-p19-gcatlin>
+      <issueId>18450208</issueId>
+      <pieceId>p19</pieceId>
+      <personId>gcatlin</personId>
+      <personName>George Catlin</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p19-gcatlin>
+   <ppm-18450208-p20-wmgillespie>
+      <issueId>18450208</issueId>
+      <pieceId>p20</pieceId>
+      <personId>wmgillespie</personId>
+      <personName>William Mitchell Gillespie</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p20-wmgillespie>
+   <ppm-18450208-p22-jwilson>
+      <issueId>18450208</issueId>
+      <pieceId>p22</pieceId>
+      <personId>jwilson</personId>
+      <personName>John Wilson</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p22-jwilson>
+   <ppm-18450208-p22-stcoleridge>
+      <issueId>18450208</issueId>
+      <pieceId>p22</pieceId>
+      <personId>stcoleridge</personId>
+      <personName>Samuel Taylor Coleridge</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p22-stcoleridge>
+   <ppm-18450208-p23-ecjgray>
+      <issueId>18450208</issueId>
+      <pieceId>p23</pieceId>
+      <personId>ecjgray</personId>
+      <personName>Elizabeth Caroline Johnstone Gray</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p23-ecjgray>
+   <ppm-18450208-p23-gfholmes>
+      <issueId>18450208</issueId>
+      <pieceId>p23</pieceId>
+      <personId>gfholmes</personId>
+      <personName>George Frederick Holmes</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p23-gfholmes>
+   <ppm-18450208-p23-dkwhitaker>
+      <issueId>18450208</issueId>
+      <pieceId>p23</pieceId>
+      <personId>dkwhitaker</personId>
+      <personName>Daniel Kimball Whitaker</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p23-dkwhitaker>
+   <ppm-18450208-p17-dadee>
+      <issueId>18450208</issueId>
+      <pieceId>p17</pieceId>
+      <personId>dadee</personId>
+      <personName>Daniel Adee</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p17-dadee>
+   <ppm-18450208-p17-jinman>
+      <issueId>18450208</issueId>
+      <pieceId>p17</pieceId>
+      <personId>jinman</personId>
+      <personName>John Inman</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p17-jinman>
+   <ppm-18450208-p18-rhoyt>
+      <issueId>18450208</issueId>
+      <pieceId>p18</pieceId>
+      <personId>rhoyt</personId>
+      <personName>Ralph Hoyt</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p18-rhoyt>
+   <ppm-18450208-p19-gcatlin>
+      <issueId>18450208</issueId>
+      <pieceId>p19</pieceId>
+      <personId>gcatlin</personId>
+      <personName>George Catlin</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p19-gcatlin>
+   <ppm-18450208-p20-wmgillespie>
+      <issueId>18450208</issueId>
+      <pieceId>p20</pieceId>
+      <personId>wmgillespie</personId>
+      <personName>William Mitchell Gillespie</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p20-wmgillespie>
+   <ppm-18450208-p22-jwilson>
+      <issueId>18450208</issueId>
+      <pieceId>p22</pieceId>
+      <personId>jwilson</personId>
+      <personName>John Wilson</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p22-jwilson>
+   <ppm-18450208-p22-stcoleridge>
+      <issueId>18450208</issueId>
+      <pieceId>p22</pieceId>
+      <personId>stcoleridge</personId>
+      <personName>Samuel Taylor Coleridge</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p22-stcoleridge>
+   <ppm-18450208-p23-ecjgray>
+      <issueId>18450208</issueId>
+      <pieceId>p23</pieceId>
+      <personId>ecjgray</personId>
+      <personName>Elizabeth Caroline Johnstone Gray</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p23-ecjgray>
+   <ppm-18450208-p23-gfholmes>
+      <issueId>18450208</issueId>
+      <pieceId>p23</pieceId>
+      <personId>gfholmes</personId>
+      <personName>George Frederick Holmes</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p23-gfholmes>
+   <ppm-18450208-p23-dkwhitaker>
+      <issueId>18450208</issueId>
+      <pieceId>p23</pieceId>
+      <personId>dkwhitaker</personId>
+      <personName>Daniel Kimball Whitaker</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p23-dkwhitaker>
+   <ppm-18450208-p27-hwlongfellow>
+      <issueId>18450208</issueId>
+      <pieceId>p27</pieceId>
+      <personId>hwlongfellow</personId>
+      <personName>Henry Wadsworth Longfellow</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p27-hwlongfellow>
+   <ppm-18450208-p30-tcarlyle>
+      <issueId>18450208</issueId>
+      <pieceId>p30</pieceId>
+      <personId>tcarlyle</personId>
+      <personName>Thomas Carlyle</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p30-tcarlyle>
+   <ppm-18450208-p30-rwemerson>
+      <issueId>18450208</issueId>
+      <pieceId>p30</pieceId>
+      <personId>rwemerson</personId>
+      <personName>Ralph Waldo Emerson</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p30-rwemerson>
+   <ppm-18450208-p32-fghalleck>
+      <issueId>18450208</issueId>
+      <pieceId>p32</pieceId>
+      <personId>fghalleck</personId>
+      <personName>Fitz-Greene Halleck</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p32-fghalleck>
+   <ppm-18450208-p27-hwlongfellow>
+      <issueId>18450208</issueId>
+      <pieceId>p27</pieceId>
+      <personId>hwlongfellow</personId>
+      <personName>Henry Wadsworth Longfellow</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p27-hwlongfellow>
+   <ppm-18450208-p30-tcarlyle>
+      <issueId>18450208</issueId>
+      <pieceId>p30</pieceId>
+      <personId>tcarlyle</personId>
+      <personName>Thomas Carlyle</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p30-tcarlyle>
+   <ppm-18450208-p30-rwemerson>
+      <issueId>18450208</issueId>
+      <pieceId>p30</pieceId>
+      <personId>rwemerson</personId>
+      <personName>Ralph Waldo Emerson</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p30-rwemerson>
+   <ppm-18450208-p32-fghalleck>
+      <issueId>18450208</issueId>
+      <pieceId>p32</pieceId>
+      <personId>fghalleck</personId>
+      <personName>Fitz-Greene Halleck</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-p32-fghalleck>
+   <ppm-18450208-s8-ghcolton>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>ghcolton</personId>
+      <personName>George Hooker Colton</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-ghcolton>
+   <ppm-18450208-s8-gpmarsh>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>gpmarsh</personId>
+      <personName>George Perkins Marsh</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-gpmarsh>
+   <ppm-18450208-s8-ddbarnard>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>ddbarnard</personId>
+      <personName>Daniel Dewey Barnard</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-ddbarnard>
+   <ppm-18450208-s8-jringersoll>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>jringersoll</personId>
+      <personName>Joseph Reed Ingersoll</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-jringersoll>
+   <ppm-18450208-s8-ejmorris>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>ejmorris</personId>
+      <personName>Edward Joy Morris</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-ejmorris>
+   <ppm-18450208-s8-tlclingman>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>tlclingman</personId>
+      <personName>Thomas Lanier Clingman</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-tlclingman>
+   <ppm-18450208-s8-jmberrien>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>jmberrien</personId>
+      <personName>John Macpherson Berrien</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-jmberrien>
+   <ppm-18450208-s8-dwebster>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>dwebster</personId>
+      <personName>Daniel Webster</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-dwebster>
+   <ppm-18450208-s8-rcwinthrop>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>rcwinthrop</personId>
+      <personName>Robert Charles Winthrop</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-rcwinthrop>
+   <ppm-18450208-s8-tbking>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>tbking</personId>
+      <personName>Thomas Butler King</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-tbking>
+   <ppm-18450208-s8-hfish>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>hfish</personId>
+      <personName>Hamilton Fish</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-hfish>
+   <ppm-18450208-s8-jpkennedy>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>jpkennedy</personId>
+      <personName>John Pendleton Kennedy</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-jpkennedy>
+   <ppm-18450208-s8-jcollamer>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>jcollamer</personId>
+      <personName>Jacob Collamer</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-jcollamer>
+   <ppm-18450208-s8-jjhardin>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>jjhardin</personId>
+      <personName>John Jay Hardin</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-jjhardin>
+   <ppm-18450208-s8-wsarcher>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>wsarcher</personId>
+      <personName>William Segar Archer</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-wsarcher>
+   <ppm-18450208-s8-rchoate>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>rchoate</personId>
+      <personName>Rufus Choate</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-rchoate>
+   <ppm-18450208-s8-ahstephens>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>ahstephens</personId>
+      <personName>Alexander Hamilton Stephens</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-ahstephens>
+   <ppm-18450208-s8-tarnold>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>tarnold</personId>
+      <personName>Thomas Arnold</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-tarnold>
+   <ppm-18450208-s8-apstanley>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>apstanley</personId>
+      <personName>Arthur Penrhyn Stanley</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-apstanley>
+   <ppm-18450208-s8-fmrowan>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>fmrowan</personId>
+      <personName>Frederica Maclean Rowan</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-fmrowan>
+   <ppm-18450208-s8-jmichelet>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>jmichelet</personId>
+      <personName>Jules Michelet</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-jmichelet>
+   <ppm-18450208-s8-hrschoolcraft>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>hrschoolcraft</personId>
+      <personName>Henry Rowe Schoolcraft</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-hrschoolcraft>
+   <ppm-18450208-s8-gtroost>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>gtroost</personId>
+      <personName>Gerard Troost</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-gtroost>
+   <ppm-18450208-s8-wwturner>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>wwturner</personId>
+      <personName>William Wadden Turner</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-wwturner>
+   <ppm-18450208-s8-fcatherwood>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>fcatherwood</personId>
+      <personName>Frederick Catherwood</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-fcatherwood>
+   <ppm-18450208-s8-fhunt>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>fhunt</personId>
+      <personName>Freeman Hunt</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-fhunt>
+   <ppm-18450208-s8-lhsigourney>
+      <issueId>18450208</issueId>
+      <sectionId>s8</sectionId>
+      <personId>lhsigourney</personId>
+      <personName>Lydia Huntley Sigourney</personName>
+      <personPieceRole>Mentioned</personPieceRole>
+   </ppm-18450208-s8-lhsigourney>
 </personPieceMeta>
