@@ -916,7 +916,6 @@ button.next-page, button.prev- {
   align-self: flex-start;
   background: none;
   border: none;
-  background: #fe7251;
   padding: 10px;
   color: white;
   font-weight: 700;
@@ -928,6 +927,10 @@ button.next-page, button.prev- {
 canvas#pdf {
   align-self: flex-start;
   width: 100%;
+}
+
+#pdf-viewer {
+  background: #474747;
 }
 
 /*BEGIN High Contrast Mode*/
