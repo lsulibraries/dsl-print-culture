@@ -46,11 +46,14 @@ Vue.component('vue-header',{
 	  <headerNav></headerNav>
 	  <div class="searchInput">
 	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
-	        <input @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
+	        <input @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
     methods: {
+	resetSearchString: function(){
+	    this.searchString = this.$root.state.content.searchString = ''
+	},
 	toggleContrast: function (){
 	    this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
 	    Event.$emit('toggleContrast');
