@@ -45,8 +45,8 @@ Vue.component('vue-header',{
 	  </div>
 	  <headerNav></headerNav>
 	<div class="searchInput">
-	<label for="fullTextSearchInput" class="visuallyhidden">Full Text Search: </label>
-	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i>Submit Search</button>
+	<label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
+	  	<button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
 	        <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
@@ -163,7 +163,7 @@ Vue.component('personIndex', {
 Vue.component('personFilter', {
     template: `
 	<div class='personFilter'>
-	<label for="personFilter">Filter people</label>
+	<label for="personFilter" v-if="this.$root.state.contrast == 'high'">Filter people</label>
 	  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
         </div>
 	`,
