@@ -339,10 +339,7 @@ Vue.component('searchResult',{
     template: `
 	<div class="searchResult" @click="resultClicked">
 	  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
-	  <div class="context">
-	    <span class="contextBefore">{{this.result.contextBefore}}</span>
-	    <span class="searchHit">{{this.result.hit}}</span>
-	    <span class="contextAfter">{{this.result.contextAfter}}</span>
+            <div class="context">{{this.result.contextBefore}}<span class="searchHit">{{this.result.hit}}</span>{{this.result.contextAfter}}
 	  </div>
 	</div>
     `
