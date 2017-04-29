@@ -429,9 +429,7 @@ If the author is anonymous DO NOT provide certainty.`,
     	  </a>	      
 	    </div>
 	  </div>
-	  <div class="sectionMeta">
-            <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
-          </div>
+
 	  <div class="pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId])">
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
