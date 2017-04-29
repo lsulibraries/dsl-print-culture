@@ -594,11 +594,6 @@ a.downloadLink {
 }
 
 /*BEGIN SEARCH RESULTS*/
-.searchResults::before {
-  content: 'Search Results';
-  font-size: 2em;
-  padding: 20px;
-}
 
 .searchResult {
   background: #e9e9e9;

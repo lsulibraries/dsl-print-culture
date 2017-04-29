@@ -46,11 +46,14 @@ Vue.component('vue-header',{
 	  <headerNav></headerNav>
 	  <div class="searchInput">
 	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
-	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
+	        <input @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
     methods: {
+	resetSearchString: function(){
+	    this.searchString = this.$root.state.content.searchString = ''
+	},
 	toggleContrast: function (){
 	    this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
 	    Event.$emit('toggleContrast');
@@ -279,7 +282,12 @@ Vue.component('personBibl', {
 Vue.component('searchResults',{
     template: `
 	<div class="searchResults">
-        <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
+	  <div class="searchResultsHeader" v-if="this.results.searchResult">
+	    <div class="searchResultsTitle">Search Results</div>
+            <div class="searchResultsCount">{{this.searchResultCount()}}</div>
+            <div class="searchResultsString">{{this.searchString}}</div>
+      	  </div>
+          <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
         </div>
 	
     `,
@@ -297,6 +305,9 @@ Vue.component('searchResults',{
 	})
     },
     methods: {
+	searchResultCount: function() {
+	    return this.results.searchResult.length
+	},
 	executeSearch: function() {
 	    search_url = '/api/broadwayjournal/issue/search/' + this.searchString;
 	    axios.get(search_url).then(response => this.results = response.data);	    
@@ -418,16 +429,14 @@ If the author is anonymous DO NOT provide certainty.`,
     	  </a>	      
 	    </div>
 	  </div>
-	  <div class="sectionMeta">
-            <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
-          </div>
+
 	  <div class="pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId])">
             <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
 	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
             <div class="pieceAuthorRole" v-if="this.authorMeta('personPieceRole')">{{this.authorMeta('personPieceRole')}}</div>
 	  <div class="pieceAuthorShip">
-	    <div class="authorShipOrigin" v-if="this.authorShipMeta('authorStatus')">{{this.authorShipMeta('authorStatus')}}</div>
-	    <div class="authorShipCertainty" v-if="this.authorShipMeta('authorCertainty')">{{this.authorShipMeta('authorCertainty')}}</div>
+	    <div class="authorShipOrigin" v-if="this.authorShipMeta('authorStatus') && this.showCertaintyStatus()">{{this.authorShipMeta('authorStatus')}}</div>
+	    <div class="authorShipCertainty" v-if="this.authorShipMeta('authorCertainty') && this.showCertaintyStatus()">{{this.authorShipMeta('authorCertainty')}}</div>
 	  </div>
 	<div class="authorShipLegend">{{this.authorShipLegend}}</div>
           </div>
@@ -437,6 +446,11 @@ If the author is anonymous DO NOT provide certainty.`,
     methods: {
 	dataLoaded: function () {
 	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
+	},
+	showCertaintyStatus: function () {
+	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
+	    ppm = this.ppm[ppmId]
+	    return ppm.authorShip.authorCertainty != 'high' || ppm.authorShip.authorStatus !== 'attested'
 	},
 	drawerIsAvailable: function() {
 	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
@@ -527,7 +541,7 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">
+	<div class="drawer" v-bind:class="{active: showBibls}"><div class="drawerActuator" @click="showBibls = !showBibls">
 		<div class="drawerIcon">
 			<i class="fa fa-list" aria-hidden="true"></i>
 		</div>
@@ -576,18 +590,11 @@ Vue.component('abouts',{
       <div class="abouts">
 
         <logo></logo>
-	<div class="about" @click="selectMe('about')">About</div>
-	<div class="technical" @click="selectMe('tech')">Technical</div>
-	<div class="credits"  @click="selectMe('credits')">Credits</div>
-	<div v-if="this.abouts == 'about'">
-	
-	        {{ aboutText[0] }}
-	        <br/>
-	        {{ aboutText[1] }}
-        </div>
-	<div v-if="this.abouts == 'tech'">
-	  <li v-for="each in techText"  v-text="each"></li>
-	</div>
+	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">About</div>
+	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
+	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
+	<div v-if="this.abouts == 'about' && this.aboutText.length > 1" v-html="this.aboutText"></div>
+	<div v-if="this.abouts == 'tech' && this.techText.length > 1" v-html="this.techText"></div>
 	<div v-if="this.abouts == 'credits'">
           <creditsPersonList></creditsPersonList>
         </div>
@@ -596,16 +603,31 @@ Vue.component('abouts',{
     data() {
 	return {
 	    abouts: this.$root.state.content.abouts,
-	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
+	    aboutText: '',
+	    techText: ''
 	}
     },
     methods: {
     	selectMe: function(about) {
 	    this.abouts = about;
+	    this.fetchAbout(about);
 	    Event.$emit('aboutsSelected', this.abouts);
+	},
+	fetchAbout: function(about){
+	    if(about == 'tech' && this.techText.length < 1){
+		url = '/api/broadwayjournal/abouts/tech'
+		axios.get(url).then(response => this.techText = response.data);
+	    }
+	    if(about == 'about'  && this.aboutText.length < 1){
+		url = '/api/broadwayjournal/abouts/about'
+		axios.get(url).then(response => this.aboutText = response.data);
+	    }
 	}
-    }
+    },
+    created() {
+	url = '/api/broadwayjournal/abouts/about'
+	axios.get(url).then(response => this.aboutText = response.data);
+    },
 })
 
 Vue.component('creditsPersonList', {
@@ -977,7 +999,9 @@ Vue.component('tei-markup',{
 	    if(needle.length < 1){
 		return this.issueText
 	    }
-	    return this.issueText.toLowerCase().replace(needle, '<span class="searchHit">' + needle +'</span>')
+	    //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
+	    pattern = new RegExp('('+needle+')', 'gi')
+	    return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>")
 	},
 	getText: function(){
 	    if(this.biblId){
