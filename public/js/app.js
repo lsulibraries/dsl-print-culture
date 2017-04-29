@@ -118,12 +118,12 @@ Vue.component('vue-footer',{
 Vue.component('vue-content',{
     template: `
         <div class="content">
-	  <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
-	  <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
-	  <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
-	  <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
+      <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
+      <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
+      <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
+      <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
         </div>
-	`,
+    `,
 })
 
 Vue.component('personography',{
@@ -351,8 +351,8 @@ Vue.component('searchResult',{
 Vue.component('issueViewer',{
     template: `
 	<div class="viewer">
-	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
-	  <tei-markup v-if="viewer == 'text'"></tei-markup>
+	  <transition name="fade"><pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer></transition>
+	  <transition name="fade"><tei-markup v-if="viewer == 'text'"></tei-markup></transition>
 	</div>
 	`,
         data() {

@@ -21,6 +21,8 @@ body {
   display: -webkit-flex;
   display: flex;
   position: relative;
+  z-index: 2;
+  background: white;
 }
 
 .header a {
@@ -896,3 +898,18 @@ span.searchHit {
 }
 
 /*END High Contrast Mode*/
+.fade-enter-active {
+  transition: transform 1s;
+}
+
+.fade-leave-active {
+  transition: opacity 0s;
+}
+
+.fade-enter {
+  transform: translateX(20px);
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
