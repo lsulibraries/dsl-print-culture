@@ -590,8 +590,8 @@ Vue.component('abouts',{
 	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">About</div>
 	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
 	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
-	<div v-if="this.abouts == 'about' && this.aboutText.length > 1" v-html="this.aboutText"></div>
-	<div v-if="this.abouts == 'tech' && this.techText.length > 1" v-html="this.techText"></div>
+	<div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
+	<div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
 	<div v-if="this.abouts == 'credits'">
           <creditsPersonList></creditsPersonList>
         </div>
@@ -600,30 +600,30 @@ Vue.component('abouts',{
     data() {
 	return {
 	    abouts: this.$root.state.content.abouts,
-	    aboutText: '',
-	    techText: ''
+	    aboutText: this.$root.xhrDataStore.abouts.about,
+	    techText: this.$root.xhrDataStore.abouts.tech
 	}
     },
     methods: {
     	selectMe: function(about) {
 	    this.abouts = about;
-	    this.fetchAbout(about);
 	    Event.$emit('aboutsSelected', this.abouts);
 	},
-	fetchAbout: function(about){
-	    if(about == 'tech' && this.techText.length < 1){
-		url = '/api/broadwayjournal/abouts/tech'
-		axios.get(url).then(response => this.techText = response.data);
-	    }
-	    if(about == 'about'  && this.aboutText.length < 1){
-		url = '/api/broadwayjournal/abouts/about'
-		axios.get(url).then(response => this.aboutText = response.data);
-	    }
-	}
     },
     created() {
-	url = '/api/broadwayjournal/abouts/about'
-	axios.get(url).then(response => this.aboutText = response.data);
+	if(this.$root.xhrDataStore.abouts.about.length > 1){
+	    this.aboutText = this.$root.xhrDataStore.abouts.about
+	}else{
+	    url = '/api/broadwayjournal/abouts/about'
+	    axios.get(url).then(response => this.aboutText = response.data);
+	}
+	if(this.$root.xhrDataStore.abouts.tech.length > 1){
+	    this.techText = this.$root.xhrDataStore.abouts.tech
+	}else{
+	    url = '/api/broadwayjournal/abouts/tech'
+	    axios.get(url).then(response => this.techText = response.data);
+	    console.log('fetching tech now')
+	}
     },
 })
 
@@ -639,8 +639,12 @@ Vue.component('creditsPersonList', {
 	}
     },
     created() {
-	url = '/api/broadwayjournal/abouts/credits'
-	axios.get(url).then(response => this.creditsData = response.data);
+	if(this.$root.empty(this.$root.xhrDataStore.abouts.credits)){
+	    url = '/api/broadwayjournal/abouts/credits'
+	    axios.get(url).then(response => this.creditsData = response.data);
+	}else{
+	    this.creditsData = this.$root.xhrDataStore.abouts.credits
+	}
     },
     data() {
 	return {
@@ -1311,7 +1315,14 @@ new Vue({
 		searchString: ''
 	    },
 	    contrast: 'normal', // high
-	}		
+	},
+	xhrDataStore: {
+	    abouts: {
+		about: '',
+		tech: '',
+		credits: {}
+	    }
+	}
     },
     created() {
 	Event.$on('aboutsSelected', (about) => {
@@ -1337,6 +1348,11 @@ new Vue({
 	Event.$on('searchSubmitted', (searchString) => {
 	    this.state.content.searchString = searchString
 	})
+	// get abouts data
+	axios.get('/api/broadwayjournal/abouts/credits').then(response => this.xhrDataStore.abouts.credits = response.data);
+	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
+	axios.get('/api/broadwayjournal/abouts/tech').then(response => this.xhrDataStore.abouts.tech = response.data);
+	
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
