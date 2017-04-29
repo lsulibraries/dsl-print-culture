@@ -282,7 +282,12 @@ Vue.component('personBibl', {
 Vue.component('searchResults',{
     template: `
 	<div class="searchResults">
-        <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
+	  <div class="searchResultsHeader" v-if="this.results.searchResult">
+	    <div class="searchResultsTitle">Search Results</div>
+            <div class="searchResultsCount">{{this.searchResultCount()}}</div>
+            <div class="searchResultsString">{{this.searchString}}</div>
+      	  </div>
+          <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
         </div>
 	
     `,
@@ -300,6 +305,9 @@ Vue.component('searchResults',{
 	})
     },
     methods: {
+	searchResultCount: function() {
+	    return this.results.searchResult.length
+	},
 	executeSearch: function() {
 	    search_url = '/api/broadwayjournal/issue/search/' + this.searchString;
 	    axios.get(search_url).then(response => this.results = response.data);	    
