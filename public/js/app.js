@@ -44,9 +44,10 @@ Vue.component('vue-header',{
 	    </div>				
 	  </div>
 	  <headerNav></headerNav>
-	  <div class="searchInput">
-	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
-	        <input @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
+	<div class="searchInput">
+	<label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
+	  	<button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
+	        <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
@@ -73,7 +74,7 @@ Vue.component('vue-header',{
 Vue.component('headerLogo',{
     template: `
 	<a href="http://lib.lsu.edu"  class="headerLogo"><div>
-          <img src="images/libraries_logo.png"></img>
+          <img src="images/libraries_logo.png" alt="LSU Libraries logo"></img>
         </div></a>
     `
 })
@@ -162,7 +163,8 @@ Vue.component('personIndex', {
 Vue.component('personFilter', {
     template: `
 	<div class='personFilter'>
-	  <input @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
+	<label for="personFilter" v-if="this.$root.state.contrast == 'high'">Filter people</label>
+	  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
         </div>
 	`,
     methods: {
