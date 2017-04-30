@@ -184,7 +184,7 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-	  <div class="personViaf">{{personMeta.personViaf}}</div>
+          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank">VIAF</div>
         </div>
 	`,
     props: ['personMeta']
