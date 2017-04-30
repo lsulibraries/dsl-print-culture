@@ -540,7 +540,7 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer" v-bind:class="{active: showBibls}"><div class="drawerActuator" @click="showBibls = !showBibls">
+	<div class="drawer" v-bind:class="{active: showBibls}"><div class="drawerActuator" @click="showBibls = !showBibls" v-if="!this.$root.empty(this.authorBibls.personListBibl) && Object.keys(this.authorBibls.personListBibl).length > 1">
 		<div class="drawerIcon">
 			<i class="fa fa-list" aria-hidden="true"></i>
 		</div>
