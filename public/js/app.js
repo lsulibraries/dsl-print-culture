@@ -254,23 +254,31 @@ Vue.component('biblSectionMeta', {
     props: ['sectionMeta']
 })
 
+Vue.component('biblPersonPieceMeta',{
+    template: `
+        <div class="personPieceMeta">
+          <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
+	  <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">
+            <div class="authorStatus">{{personPieceMeta.authorShip.authorStatus}}</div>
+            <div class="authorCertainty">{{personPieceMeta.authorShip.authorCertainty}}</div>
+	  </div>
+        </div>
+	`,
+    props: ['personPieceMeta']
+})
+
 Vue.component('biblPieceMeta', {
     template: `
 	<div class="pieceMeta">
 	  <div class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>
-	  <div class="pieceAuthorShip">
-	  <div class="authorCertainty"></div>
-	  <div class="authorStatus"></div>
-	  <div class="personPiecePseudo"></div>
-	  <div class="personPieceRole"></div>
         </div>
     `,
     props: ['pieceMeta', 'issueId'],
     methods: {
 	goToPiece: function () {
-	    this.$root.state.content.issue.id = this.ppm.issueId
-	    this.$root.state.content.issue.decls_id = this.ppm.pieceId
-	    this.$root.state.content.issue.page = parseInt(this.bibl_data[this.ppm.pieceId].pieceMeta.piecePdfIndex)
+	    this.$root.state.content.issue.id = this.issueId
+	    this.$root.state.content.issue.decls_id = this.pieceMeta.pieceId
+	    this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex)
 
 	    Event.$emit('activeContentChange', 'issues')
 	    Event.$emit('issueBiblSelected', {
@@ -285,12 +293,13 @@ Vue.component('biblPieceMeta', {
 Vue.component('personBibl', {
     template: `
 	<div class="personBibl">
-          <biblIssueMeta :issueMeta="bibl.issueMeta"></biblIssueMeta>
+          <biblIssueMeta v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMeta>
           <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
           <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
+          <biblPersonPieceMeta v-if="!this.$root.empty(bibl.personPieceMeta)" :personPieceMeta="bibl.personPieceMeta"></biblPersonPieceMeta>
         </div>
 	`,
-    props: ['bibl'],
+    props: ['bibl']
 })
 
 Vue.component('searchResults',{
