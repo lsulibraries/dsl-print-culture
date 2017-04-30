@@ -439,31 +439,28 @@ If the author is anonymous DO NOT provide certainty.`,
     template: `
 	<div class="issueHeader" v-if="this.dataLoaded()">
 	  <div class="bibl">
-  	    <div class="issueMeta" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
-	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
-	      <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
-	      <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
-    	  <a class="downloadLink" v-bind:href='stateHref()' download>
-          <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
-          <div class="downloadText">Download {{this.dlLabel()}}</div>
-    	  </a>	      
+  	    <div class="issue" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
+              <biblIssueMeta :issueMeta="this.bibl_data.issueMeta"></biblIssueMeta>
+              <a class="downloadLink" v-bind:href='stateHref()' download>
+                <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
+                <div class="downloadText">Download {{this.dlLabel()}}</div>
+    	      </a>	      
 	    </div>
-	  </div>
-
-	  <div class="pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId])">
-            <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
-	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
-            <div class="pieceAuthorRole" v-if="this.authorMeta('personPieceRole')">{{this.authorMeta('personPieceRole')}}</div>
-	  <div class="pieceAuthorShip">
-	    <div class="authorShipOrigin" v-if="this.authorShipMeta('authorStatus') && this.showCertaintyStatus()">{{this.authorShipMeta('authorStatus')}}</div>
-	    <div class="authorShipCertainty" v-if="this.authorShipMeta('authorCertainty') && this.showCertaintyStatus()">{{this.authorShipMeta('authorCertainty')}}</div>
-	  </div>
-	<div class="authorShipLegend">{{this.authorShipLegend}}</div>
           </div>
-	<drawer v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
+          <biblSectionMeta :sectionMeta="this.bibl_data[this.biblId].sectionMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId].sectionMeta)"></biblSectionMeta>
+	<biblPieceMeta :pieceMeta="this.bibl_data[this.biblId].pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId].pieceMeta)"></biblPieceMeta>
+	<personMeta :personMeta="this.$root.xhrDataStore.personography.personIndex[this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personId].personMeta"></personMeta>
+	<biblPersonPieceMeta  :personPieceMeta="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+	  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
+          <drawer  v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
 	</div>
 	`,
     methods: {
+	getPersonPieceMeta: function () {
+	    pid = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personId
+	    bid = 'bibl-' + this.bibl_data.issueMeta.issueId + '-' + this.biblId
+	    return this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta
+	},
 	dataLoaded: function () {
 	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
 	},
@@ -569,7 +566,7 @@ Vue.component('drawer', {
     		More from this author
 		</div>
 	</div>
-	  <personBibl v-if="showBibls" v-for="bibl in this.authorBibls.personListBibl" :personBibl="bibl"></personBibl>
+	<personBibl v-if="showBibls" v-for="bibl in this.$root.xhrDataStore.personography.personIndex[authorId].personListBibl" :personBibl="bibl"></personBibl>
         </div>
 	`,
     props: ['authorId'],
@@ -1326,7 +1323,7 @@ new Vue({
 		    id: '18450201',//'18450104', // yyyy-mm-dd
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
-		    decls_id: ''
+		    decls_id: 'p1'
 		},
 		personography: {
 		    filterString: '', // ie eapoe
