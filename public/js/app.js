@@ -146,7 +146,7 @@ Vue.component('personography',{
 Vue.component('personIndex', {
     template: `
 	<div class='personIndex' v-if="!this.$root.empty(this.index)">
-          <person v-for="personObject in this.index" :meta="personObject"></person>
+          <person v-for="personObj in this.index" :person="personObj"></person>
         </div>
 	`,
     data() {
@@ -178,19 +178,27 @@ Vue.component('personFilter', {
 	}
     }
 })
+Vue.component('personMeta', {
+    template: `
+	<div class="personMeta">
+	  <div class="personName">{{personMeta.personName}}</div>
+	  <div class="personRole">{{personMeta.personRole}}</div>
+	  <div class="personViaf">{{personMeta.personViaf}}</div>
+        </div>
+	`,
+    props: ['personMeta']
+})
 
 Vue.component('person', {
     template: `
-      <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="meta.personMeta.personRole">
-	<div class="personName">{{meta.personMeta.personName}}</div>
-	<div class="personRole">{{meta.personMeta.personRole}}</div>
-	<div class="personViaf">{{meta.personMeta.personViaf}}</div>
+      <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="person.personMeta.personRole">
+	<personMeta :personMeta="person.personMeta"></personMeta>
 	<div class="personListBibl">
-	<personBibl v-if="showBibls" v-for="bibl in meta.personListBibl" :personBibl="bibl"></personBibl>
+	<personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="personBibl"></personBibl>
 	</div>
       </div>
 	`,
-    props: ['meta'],
+    props: ['person'],
     data() {
 	return {
 	    showBibls: false,
@@ -219,27 +227,39 @@ Vue.component('person', {
     }
 })
 
-Vue.component('personBibl', {
+Vue.component('biblIssueMeta', {
     template: `
-	<div class="personBibl">
-          <div class="issueMeta">
-	    <div class="issueVol">Vol. {{this.personBibl.issueMeta.issueVol}}</div>
-	    <div class="issueNum">No. {{this.personBibl.issueMeta.issueNum}}</div>
- 	  </div>
-	  <div class="pieceMeta">
-	    <div class="pieceTitle" @click="goToPiece">{{this.personBibl.pieceMeta.pieceTitle}}</div>
-	    <div class="pieceAuthorShip">
-	      <div class="authorCertainty"></div>
-	      <div class="authorStatus"></div>
-            </div>
-	    <div class="personPiecePseudo"></div>
-	    <div class="personPieceRole"></div>
-          </div>
-        </div>
-	`,
-    props: ['personBibl'],
-    methods: {
+	<div class="issueMeta">
+	  <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>
+	  <div class="issueNum">No. {{issueMeta.issueNum}}</div>
+	</div>
+	
+    `,
+    props: ['issueMeta']
+})
 
+Vue.component('biblSectionMeta', {
+    template: `
+	<div class="sectionMeta">
+	<div class="sectionTitle">{{sectionMeta.sectionTitle}}</div>
+        </div>
+    `,
+    props: ['sectionMeta']
+})
+
+Vue.component('biblPieceMeta', {
+    template: `
+	<div class="pieceMeta">
+	  <div class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>
+	  <div class="pieceAuthorShip">
+	  <div class="authorCertainty"></div>
+	  <div class="authorStatus"></div>
+	  <div class="personPiecePseudo"></div>
+	  <div class="personPieceRole"></div>
+        </div>
+    `,
+    props: ['pieceMeta', 'issueId'],
+    methods: {
 	goToPiece: function () {
 	    this.$root.state.content.issue.id = this.ppm.issueId
 	    this.$root.state.content.issue.decls_id = this.ppm.pieceId
@@ -252,17 +272,18 @@ Vue.component('personBibl', {
 		decls_id: this.ppm.pieceId
 	    })
 	},
-	sectionTitle: function(biblId) {
-	    bibl = this.bibl_data[biblId]
-	    if(!bibl){
-		return "bibl " + biblId + "doesn't exist"
-	    }
-	    if(this.$root.empty(bibl.sectionMeta)){
-		return "sectionMeta is missing!"
-	    }
-	    return bibl.sectionMeta.sectionTitle
-	}
     }
+})
+
+Vue.component('personBibl', {
+    template: `
+	<div class="personBibl">
+          <biblIssueMeta :issueMeta="bibl.issueMeta"></biblIssueMeta>
+          <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
+          <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
+        </div>
+	`,
+    props: ['bibl'],
 })
 
 Vue.component('searchResults',{
