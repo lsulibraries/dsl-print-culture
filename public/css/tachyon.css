@@ -161,56 +161,6 @@ input:focus {
   align-items: center;
 }
 
-.abouts {
-  padding: 40px;
-  background: url(http://i.imgur.com/gHkl0bM.jpg);
-  background-size: cover;
-}
-
-.logo {
-  font-size: 6vw;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -0.4vw;
-  line-height: 4.7vw;
-  color: #fe7251;
-  padding: 130px 200px 0px 200px;
-}
-
-.about {
-  margin-left: 200px;
-}
-
-.about, .technical, .credits {
-  background: #fe7251;
-  margin-top: -20px;
-  color: white;
-  position: relative;
-  padding: 20px;
-  text-transform: uppercase;
-  top: 21px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  display: inline-block;
-}
-
-.abouts > div:nth-last-child(1) {
-  margin-top: 30px;
-  background: white;
-  padding: 20px;
-  font-size: 1.5em;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.logoSubtitle {
-  background: #fe7251;
-  color: white;
-  font-size: 0.8em;
-  letter-spacing: 0em;
-  padding-left: 1vw;
-}
-
 .issue {
   display: -webkit-box;
   display: -moz-box;
@@ -929,7 +879,7 @@ canvas#pdf {
   width: 100%;
 }
 
-#pdf-viewer {
+.viewer {
   background: #474747;
 }
 
