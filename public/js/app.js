@@ -180,6 +180,17 @@ Vue.component('personFilter', {
     }
 })
 
+Vue.component('personMeta', {
+    template: `
+	<div class="personMeta">
+	  <div class="personName">{{personMeta.personName}}</div>
+	  <div class="personRole">{{personMeta.personRole}}</div>
+          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank">VIAF</div>
+        </div>
+	`,
+    props: ['personMeta']
+})
+
 Vue.component('person', {
     template: `
       <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="meta.personMeta.personRole">
