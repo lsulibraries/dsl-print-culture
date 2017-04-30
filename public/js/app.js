@@ -44,9 +44,10 @@ Vue.component('vue-header',{
 	    </div>				
 	  </div>
 	  <headerNav></headerNav>
-	  <div class="searchInput">
-	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
-	        <input @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
+	<div class="searchInput">
+	<label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
+	  	<button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
+	        <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
@@ -73,7 +74,7 @@ Vue.component('vue-header',{
 Vue.component('headerLogo',{
     template: `
 	<a href="http://lib.lsu.edu"  class="headerLogo"><div>
-          <img src="images/libraries_logo.png"></img>
+          <img src="images/libraries_logo.png" alt="LSU Libraries logo"></img>
         </div></a>
     `
 })
@@ -86,6 +87,7 @@ Vue.component('headerNav',{
     },
     methods: {
 	activeContentClicked: function(content) {
+	    this.content = content
 	    Event.$emit('activeContentChange', content)
 	},
 	showSearch: function () {
@@ -95,10 +97,10 @@ Vue.component('headerNav',{
     template: `
 	<div class='headerNav'>
 
-	  <div @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
-	  <div @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>
+	<div v-bind:class="{active: this.content == 'issues'}" @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
+	  <div v-bind:class="{active: this.content == 'abouts'}" @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>
  About</div>
-	  <div @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>
+	  <div v-bind:class="{active: this.content == 'personography'}" @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>
 People</div>
 	</div>
 	`
@@ -162,7 +164,8 @@ Vue.component('personIndex', {
 Vue.component('personFilter', {
     template: `
 	<div class='personFilter'>
-	  <input @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
+	<label for="personFilter" v-if="this.$root.state.contrast == 'high'">Filter people</label>
+	  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
         </div>
 	`,
     methods: {
@@ -175,6 +178,17 @@ Vue.component('personFilter', {
 	    filterString: ''
 	}
     }
+})
+
+Vue.component('personMeta', {
+    template: `
+	<div class="personMeta">
+	  <div class="personName">{{personMeta.personName}}</div>
+	  <div class="personRole">{{personMeta.personRole}}</div>
+          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank">VIAF</div>
+        </div>
+	`,
+    props: ['personMeta']
 })
 
 Vue.component('person', {
@@ -339,10 +353,7 @@ Vue.component('searchResult',{
     template: `
 	<div class="searchResult" @click="resultClicked">
 	  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
-	  <div class="context">
-	    <span class="contextBefore">{{this.result.contextBefore}}</span>
-	    <span class="searchHit">{{this.result.hit}}</span>
-	    <span class="contextAfter">{{this.result.contextAfter}}</span>
+            <div class="context">{{this.result.contextBefore}}<span class="searchHit">{{this.result.hit}}</span>{{this.result.contextAfter}}
 	  </div>
 	</div>
     `
@@ -541,7 +552,7 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer" v-bind:class="{active: showBibls}"><div class="drawerActuator" @click="showBibls = !showBibls">
+	<div class="drawer" v-bind:class="{active: showBibls}"><div class="drawerActuator" @click="showBibls = !showBibls" v-if="!this.$root.empty(this.authorBibls.personListBibl) && Object.keys(this.authorBibls.personListBibl).length > 1">
 		<div class="drawerIcon">
 			<i class="fa fa-list" aria-hidden="true"></i>
 		</div>
@@ -593,8 +604,8 @@ Vue.component('abouts',{
 	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">About</div>
 	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
 	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
-	<div v-if="this.abouts == 'about' && this.aboutText.length > 1" v-html="this.aboutText"></div>
-	<div v-if="this.abouts == 'tech' && this.techText.length > 1" v-html="this.techText"></div>
+	<div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
+	<div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
 	<div v-if="this.abouts == 'credits'">
           <creditsPersonList></creditsPersonList>
         </div>
@@ -603,30 +614,30 @@ Vue.component('abouts',{
     data() {
 	return {
 	    abouts: this.$root.state.content.abouts,
-	    aboutText: '',
-	    techText: ''
+	    aboutText: this.$root.xhrDataStore.abouts.about,
+	    techText: this.$root.xhrDataStore.abouts.tech
 	}
     },
     methods: {
     	selectMe: function(about) {
 	    this.abouts = about;
-	    this.fetchAbout(about);
 	    Event.$emit('aboutsSelected', this.abouts);
 	},
-	fetchAbout: function(about){
-	    if(about == 'tech' && this.techText.length < 1){
-		url = '/api/broadwayjournal/abouts/tech'
-		axios.get(url).then(response => this.techText = response.data);
-	    }
-	    if(about == 'about'  && this.aboutText.length < 1){
-		url = '/api/broadwayjournal/abouts/about'
-		axios.get(url).then(response => this.aboutText = response.data);
-	    }
-	}
     },
     created() {
-	url = '/api/broadwayjournal/abouts/about'
-	axios.get(url).then(response => this.aboutText = response.data);
+	if(this.$root.xhrDataStore.abouts.about.length > 1){
+	    this.aboutText = this.$root.xhrDataStore.abouts.about
+	}else{
+	    url = '/api/broadwayjournal/abouts/about'
+	    axios.get(url).then(response => this.aboutText = response.data);
+	}
+	if(this.$root.xhrDataStore.abouts.tech.length > 1){
+	    this.techText = this.$root.xhrDataStore.abouts.tech
+	}else{
+	    url = '/api/broadwayjournal/abouts/tech'
+	    axios.get(url).then(response => this.techText = response.data);
+	    console.log('fetching tech now')
+	}
     },
 })
 
@@ -642,8 +653,12 @@ Vue.component('creditsPersonList', {
 	}
     },
     created() {
-	url = '/api/broadwayjournal/abouts/credits'
-	axios.get(url).then(response => this.creditsData = response.data);
+	if(this.$root.empty(this.$root.xhrDataStore.abouts.credits)){
+	    url = '/api/broadwayjournal/abouts/credits'
+	    axios.get(url).then(response => this.creditsData = response.data);
+	}else{
+	    this.creditsData = this.$root.xhrDataStore.abouts.credits
+	}
     },
     data() {
 	return {
@@ -1314,7 +1329,14 @@ new Vue({
 		searchString: ''
 	    },
 	    contrast: 'normal', // high
-	}		
+	},
+	xhrDataStore: {
+	    abouts: {
+		about: '',
+		tech: '',
+		credits: {}
+	    }
+	}
     },
     created() {
 	Event.$on('aboutsSelected', (about) => {
@@ -1340,6 +1362,11 @@ new Vue({
 	Event.$on('searchSubmitted', (searchString) => {
 	    this.state.content.searchString = searchString
 	})
+	// get abouts data
+	axios.get('/api/broadwayjournal/abouts/credits').then(response => this.xhrDataStore.abouts.credits = response.data);
+	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
+	axios.get('/api/broadwayjournal/abouts/tech').then(response => this.xhrDataStore.abouts.tech = response.data);
+	
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
