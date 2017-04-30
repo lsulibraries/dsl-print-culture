@@ -20,5 +20,9 @@ class PersonographyController extends Controller
         $xml  = simplexml_load_string($file);
         return response()->json($xml);
     }
-
+    public function personographyComprehensive(){
+        $file = file_get_contents(storage_path('app/public/personographyComprehensive.xml'));
+        $xml  = simplexml_load_string($file);
+        return response()->json($xml);
+    }
 }

@@ -145,19 +145,19 @@ Vue.component('personography',{
 
 Vue.component('personIndex', {
     template: `
-	<div class='personIndex' v-if="this.index">
-        <person v-for="personObject in this.index.personIndex" :meta="personObject"></person>
-        <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
+	<div class='personIndex' v-if="!this.$root.empty(this.index)">
+          <person v-for="personObject in this.index" :meta="personObject"></person>
         </div>
 	`,
-    created() {
-	axios.get('/api/personography/summary/json').then(response => this.index = response.data);
-    },
     data() {
 	return {
-	    index: ''
+	    index: {}
 	}
+    },
+    created(){
+	this.index = this.$root.xhrDataStore.personography.personIndex
     }
+    
 })
 
 Vue.component('personFilter', {
@@ -221,41 +221,25 @@ Vue.component('person', {
 
 Vue.component('personBibl', {
     template: `
-	<div class="personBibl" v-if="this.dataLoaded()">
+	<div class="personBibl">
           <div class="issueMeta">
-	    <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
-	    <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
+	    <div class="issueVol">Vol. {{this.personBibl.issueMeta.issueVol}}</div>
+	    <div class="issueNum">No. {{this.personBibl.issueMeta.issueNum}}</div>
  	  </div>
-	  <div class="pieceMeta" v-if="!this.$root.empty(this.ppm.pieceId)">
-	<div class="pieceSection" v-if="!this.$root.empty(this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId))">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
-	    <div class="pieceTitle" @click="goToPiece">{{this.bibl_data[ppm.pieceId].pieceMeta.pieceTitle}}</div>
+	  <div class="pieceMeta">
+	    <div class="pieceTitle" @click="goToPiece">{{this.personBibl.pieceMeta.pieceTitle}}</div>
 	    <div class="pieceAuthorShip">
-	      <div class="authorCertainty">{{this.ppm.authorShip.authorCertainty}}</div>
-	      <div class="authorStatus">{{this.ppm.authorShip.authorStatus}}</div>
+	      <div class="authorCertainty"></div>
+	      <div class="authorStatus"></div>
             </div>
-	    <div class="personPiecePseudo" v-if="this.ppm.personPiecePseudo">{{this.ppm.personPiecePseudo}}</div>
-	    <div class="personPieceRole">{{this.ppm.personPieceRole}}</div>
+	    <div class="personPiecePseudo"></div>
+	    <div class="personPieceRole"></div>
           </div>
         </div>
 	`,
     props: ['personBibl'],
-    created(){
-	ppm_url = '/api/broadwayjournal/' + this.personBibl.issueId + '/ppm';
-	axios.get(ppm_url).then(response => this.ppm = response.data[this.personBibl.personPieceMetaId]);
-
-	bibl_url = '/api/broadwayjournal/' + this.personBibl.issueId + '/bibl_data';
-	axios.get(bibl_url).then(response => this.bibl_data = response.data);
-    },
-    data(){
-	return {
-	    ppm: {},
-	    bibl_data: {}
-	}
-    },
     methods: {
-	dataLoaded: function () {
-	    return !this.$root.empty(this.ppm) && !this.$root.empty(this.bibl_data)
-	},
+
 	goToPiece: function () {
 	    this.$root.state.content.issue.id = this.ppm.issueId
 	    this.$root.state.content.issue.decls_id = this.ppm.pieceId
@@ -1323,7 +1307,8 @@ new Vue({
 		about: '',
 		tech: '',
 		credits: {}
-	    }
+	    },
+	    personography: {}
 	}
     },
     created() {
@@ -1354,7 +1339,8 @@ new Vue({
 	axios.get('/api/broadwayjournal/abouts/credits').then(response => this.xhrDataStore.abouts.credits = response.data);
 	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
 	axios.get('/api/broadwayjournal/abouts/tech').then(response => this.xhrDataStore.abouts.tech = response.data);
-	
+	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => this.xhrDataStore.personography = response.data);
+
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 

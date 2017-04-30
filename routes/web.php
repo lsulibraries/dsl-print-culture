@@ -64,6 +64,8 @@ Route::get('/api/all-issues-grouped/json', 'IssuesController@all_grouped_json');
 
 Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
 
+Route::get('/api/BroadwayJournal/personography/comprehensive/json', 'PersonographyController@personographyComprehensive');
+
 Route::get('/api/personography/summary', 'PersonographyController@summary');
 
 Route::get('/api/broadwayjournal/issue/search/{searchString}', 'IssuesController@search');
