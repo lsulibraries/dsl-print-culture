@@ -221,7 +221,7 @@ Vue.component('person', {
 		return true
 	    }
 
-	    if(this.meta.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
+	    if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
 		return true
 	    }
 	    return false
