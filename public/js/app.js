@@ -195,7 +195,7 @@ Vue.component('person', {
       <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="person.personMeta.personRole">
 	<personMeta :personMeta="person.personMeta"></personMeta>
 	<div class="personListBibl">
-	<personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="personBibl"></personBibl>
+	<personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
 	</div>
       </div>
 	`,
@@ -207,6 +207,12 @@ Vue.component('person', {
 	}
     },
     methods: {
+	deDupeBibls: function (bibl){
+	    if(Object.keys(bibl).length < 3){
+		return bibl[0]
+	    }
+	    return bibl
+	},
 	toggleBibls: function () {
 	    this.showBibls = !this.showBibls
 	},
