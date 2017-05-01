@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18451115</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>2</issueVol>
+      <issueNum>19</issueNum>
+      <issueDate>November 15, 1845</issueDate>
+      <issueListPerson>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </person>
+         <person>
+            <personName>Office of the Farmer and Mechanic</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </person>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Sonnet: On Seeing the Ivory Statue of Christ</pieceTitle>
+            <piecePage>283</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <aclynch>
+               <personName>Anne C. Lynch</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </aclynch>
+         </pieceListPerson>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>A New Mode of Collecting a Library</pieceTitle>
+            <piecePage>283-284</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The American Pioneer</pieceTitle>
+            <piecePage>284</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <sjhale>
+               <personName>Sarah Josepha Hale</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </sjhale>
+         </pieceListPerson>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Fancies</pieceTitle>
+            <piecePage>284-285</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <rsrowley>
+               <personName>R. S. Rowley</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </rsrowley>
+         </pieceListPerson>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The Autumnal Leaf</pieceTitle>
+            <piecePage>285-286</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <ghmildeberger>
+               <personName>G. H. Mildeberger</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </ghmildeberger>
+         </pieceListPerson>
+      </p5>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p6>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Artist, the Merchant, and the Statesman</pieceTitle>
+            <piecePage>286-287</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p6>
+      <p7>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Specimens of English Dramatic Poets</pieceTitle>
+            <piecePage>287-289</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p7>
+      <p8>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Memoirs of Benvenuto Cellini</pieceTitle>
+            <piecePage>289</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>New Books Received</pieceTitle>
+            <piecePage>289-290</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p9>
+      <p10>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Song</pieceTitle>
+            <piecePage>290</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <mehewitt>
+               <personName>Mary Elizabeth Hewitt</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </mehewitt>
+         </pieceListPerson>
+      </p10>
+      <p11>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>290-291</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p11>
+      <p12>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Musical Department</pieceTitle>
+            <piecePage>291-292</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p12>
+      <p13>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Editorial Miscellany</pieceTitle>
+            <piecePage>292-294</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p13>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>294-298</sectionPage>
+            <sectionPdfIndex>12</sectionPdfIndex>
+         </sectionMeta>
+      </s2>
+   </listBibl>
+</issue>

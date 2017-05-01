@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18450412</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>15</issueNum>
+      <issueDate>April 12, 1845</issueDate>
+      <issueListPerson>
+         <person>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </person>
+         <person>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </person>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>A Dictionary of Greek and Roman Antiquities</pieceTitle>
+            <piecePage>225</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Michelet's History of France</pieceTitle>
+            <piecePage>225-226</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
+      </p2>
+      <p3>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>A Plain System of Elocution</pieceTitle>
+            <piecePage>226</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p3>
+      <p4>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Shelley's Grave and Other Poems</pieceTitle>
+            <piecePage>226</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p4>
+      <p5>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The Chemistry of Animal and Vegetable Physiology</pieceTitle>
+            <piecePage>226</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p5>
+      <p6>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>A Grammar of the Greek Language</pieceTitle>
+            <piecePage>226</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p6>
+      <p7>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Phreno-Mnemotechny; or The Art of Memory</pieceTitle>
+            <piecePage>226</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p7>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Serials and Illustrated Works</sectionTitle>
+         </sectionMeta>
+      </s4>
+      <p8>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Serials and Illustrated Works</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Martin's Illustrated Family Bible</pieceTitle>
+            <piecePage>226-227</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
+      </p8>
+      <p24>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Serials and Illustrated Works</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>The Treasury of History</pieceTitle>
+            <piecePage>227</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p24>
+      <p25>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Serials and Illustrated Works</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Voyages Round the World</pieceTitle>
+            <piecePage>227</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p25>
+      <p26>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Serials and Illustrated Works</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>Life in Italy</pieceTitle>
+            <piecePage>227</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p26>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>Thoughts of a Silent Man</pieceTitle>
+            <piecePage>227-228</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <ecembury>
+               <personName>Emma Catherine Embury</personName>
+               <personPiecePseudo>Rudolph Hertzman</personPiecePseudo>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>inferred</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </ecembury>
+         </pieceListPerson>
+      </p9>
+      <p10>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>A Rare Collection of Polyglott Bibles</pieceTitle>
+            <piecePage>228-229</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p10>
+      <p11>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Anastatic Printing</pieceTitle>
+            <piecePage>229-231</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p11>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p12>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Love's Reply</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <fsosgood>
+               <personName>Frances Sargent Osgood</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </fsosgood>
+         </pieceListPerson>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Spring</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <fsosgood>
+               <personName>Frances Sargent Osgood</personName>
+               <personPiecePseudo>Violet Vane</personPiecePseudo>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>inferred</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </fsosgood>
+         </pieceListPerson>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The American Authors' Union</pieceTitle>
+            <piecePage>233-234</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p14>
+      <p15>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Estelle</pieceTitle>
+            <piecePage>234-235</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <mllawson>
+               <personName>Mary L. Lawson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </mllawson>
+         </pieceListPerson>
+      </p15>
+      <s5>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>The Magazines</sectionTitle>
+         </sectionMeta>
+      </s5>
+      <p16>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>The Magazines</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>The American Review</pieceTitle>
+            <piecePage>235</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p16>
+      <p27>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>The Magazines</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>The Southern Literary Messenger</pieceTitle>
+            <piecePage>235</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p27>
+      <p28>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>The Magazines</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>The Democratic Review</pieceTitle>
+            <piecePage>235-236</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p28>
+      <p29>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>The Magazines</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Hunt's Merchant Magazine</pieceTitle>
+            <piecePage>236</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p29>
+      <p17>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>The Antigone at Palmo's</pieceTitle>
+            <piecePage>236-237</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p17>
+      <p18>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Italian Opera</pieceTitle>
+            <piecePage>237</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p18>
+      <s6>
+         <sectionMeta/>
+      </s6>
+      <p19>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>First Lessons for the Piano-Forte</pieceTitle>
+            <piecePage>237</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p19>
+      <p20>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Stodart and Dunham's Piano Forte Manufactory</pieceTitle>
+            <piecePage>237-238</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p20>
+      <p21>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Fine Arts</pieceTitle>
+            <piecePage>238</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p21>
+      <p22>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>Literary Intelligence</pieceTitle>
+            <piecePage>238-239</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p22>
+      <p23>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Notices to Correspondents</pieceTitle>
+            <piecePage>239</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p23>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>239-240</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+         <sectionListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </sectionListPerson>
+      </s3>
+   </listBibl>
+</issue>

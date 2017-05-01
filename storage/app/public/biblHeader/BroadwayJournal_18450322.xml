@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18450322</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>12</issueNum>
+      <issueDate>March 22, 1845</issueDate>
+      <issueListPerson>
+         <person>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </person>
+         <person>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </person>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl/>
+</issue>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18451025</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>2</issueVol>
+      <issueNum>16</issueNum>
+      <issueDate>October 25, 1845</issueDate>
+      <issueListPerson>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </person>
+         <person>
+            <personName>[?]</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </person>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Sonnet</pieceTitle>
+            <piecePage>235</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>The Thousand-and-Second Tale of Scheherazade</pieceTitle>
+            <piecePage>235-240</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Sibyl</pieceTitle>
+            <piecePage>240-241</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <wg>
+               <personName>W. G.</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </wg>
+         </pieceListPerson>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Thread-Bare</pieceTitle>
+            <piecePage>241-243</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>To Isadore</pieceTitle>
+            <piecePage>243</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <amide>
+               <personName>Abijah Metcalf Ide, Jr.</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </amide>
+         </pieceListPerson>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Power of Words</pieceTitle>
+            <piecePage>243-244</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Lines</pieceTitle>
+            <piecePage>244-245</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <w>
+               <personName/>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </w>
+         </pieceListPerson>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Incidents of College Life</pieceTitle>
+            <piecePage>245-246</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <lsy>
+               <personName>L. S. Y.</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </lsy>
+         </pieceListPerson>
+      </p8>
+      <s1>
+         <sectionMeta/>
+      </s1>
+      <p9>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Songs of our Land and Other Poems</pieceTitle>
+            <piecePage>247-248</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p9>
+      <p10>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Morse's Cerographic Maps. No. 1</pieceTitle>
+            <piecePage>248</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p10>
+      <p11>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The Vision; or Hell, Purgatory and Paradise of Dante Alighieri</pieceTitle>
+            <piecePage>248</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p11>
+      <p12>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Appleton's Literary Miscellany</pieceTitle>
+            <piecePage>248</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p12>
+      <p13>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Graham's Magazine for November</pieceTitle>
+            <piecePage>248</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Editorial Miscellany</pieceTitle>
+            <piecePage>248</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p14>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>249-250</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s2>
+   </listBibl>
+</issue>

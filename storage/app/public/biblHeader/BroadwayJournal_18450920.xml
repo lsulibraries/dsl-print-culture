@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18450920</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>2</issueVol>
+      <issueNum>11</issueNum>
+      <issueDate>September 20, 1845</issueDate>
+      <issueListPerson>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </person>
+         <person>
+            <personName>[?]</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </person>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Soul-Shadows</pieceTitle>
+            <piecePage>161</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <pbenjamin>
+               <personName>Park Benjamin Sr.</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </pbenjamin>
+         </pieceListPerson>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>The Landscape Garden</pieceTitle>
+            <piecePage>162-164</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>To---</pieceTitle>
+            <piecePage>164</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Magnetizer; or, Ready for Any Body</pieceTitle>
+            <piecePage>164-166</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <losborn>
+               <personName>Laughton Osborn</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </losborn>
+         </pieceListPerson>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Song</pieceTitle>
+            <piecePage>166</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>A Tale of Jerusalem</pieceTitle>
+            <piecePage>166-167</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p6>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p7>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>The American Shepherd</pieceTitle>
+            <piecePage>167</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p7>
+      <p8>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Bosom Friend</pieceTitle>
+            <piecePage>167</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Wandering Jew</pieceTitle>
+            <piecePage>167</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>A Cyclopædia of Several Thousand Practical Receipts and Collateral Information</pieceTitle>
+            <piecePage>167</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Agnes Serle</pieceTitle>
+            <piecePage>167</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Gowans' Bibliotheca Americana. No 1</pieceTitle>
+            <piecePage>168</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>The Democratic Review, for September</pieceTitle>
+            <piecePage>168-169</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The American Review for September</pieceTitle>
+            <piecePage>169</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Essays of Elia</pieceTitle>
+            <piecePage>169</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p15>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p16>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>The National Gallery at the Rotunda</pieceTitle>
+            <piecePage>169-170</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Joseph Buonaparte's collection of pictures at Bordentown</pieceTitle>
+            <piecePage>170</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p17>
+      <p18>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Musical Department</pieceTitle>
+            <piecePage>170-171</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p18>
+      <p19>
+         <pieceMeta/>
+      </p19>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p20>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>The Broken-Hearted</pieceTitle>
+            <piecePage>173</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>Professor Horncastle</pieceTitle>
+            <piecePage>173-174</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>The Mesmeric Journals</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Mr. Simms' Monthly Magazine</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p23>
+      <p24>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Emerson's Arithmetic</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p24>
+      <p25>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Frederica Bremer</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p25>
+      <p26>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>A Suit for Libel</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p26>
+      <p27>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>Six Octave Piano Fortes</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p27>
+      <p28>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>Von Raumer</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p28>
+      <p29>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Lewis J. Cist</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p29>
+      <p30>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>Mr. William Fairman</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p30>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>174-175</sectionPage>
+            <sectionPdfIndex>14</sectionPdfIndex>
+         </sectionMeta>
+      </s4>
+   </listBibl>
+</issue>
