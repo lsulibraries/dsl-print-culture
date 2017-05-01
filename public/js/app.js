@@ -184,7 +184,7 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank">VIAF</div>
+          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-id-badge" aria-hidden="true"></i>VIAF</div>
         </div>
 	`,
     props: ['personMeta']
@@ -195,7 +195,7 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank">VIAF</div>
+          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-id-badge" aria-hidden="true"></i>VIAF</div>
         </div>
 	`,
     props: ['personMeta']
@@ -449,7 +449,8 @@ If the author is anonymous DO NOT provide certainty.`,
     },
     template: `
 	<div class="issueHeader" v-if="this.dataLoaded()">
-	  <div class="bibl">
+	  <div class="bibl">   <biblPieceMeta :pieceMeta="this.bibl_data[this.biblId].pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId].pieceMeta)"></biblPieceMeta>
+
   	    <div class="issue" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
               <biblIssueMeta :issueMeta="this.bibl_data.issueMeta"></biblIssueMeta>
               <a class="downloadLink" v-bind:href='stateHref()' download>
@@ -459,7 +460,6 @@ If the author is anonymous DO NOT provide certainty.`,
 	    </div>
           </div>
           <biblSectionMeta :sectionMeta="this.bibl_data[this.biblId].sectionMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId].sectionMeta)"></biblSectionMeta>
-	<biblPieceMeta :pieceMeta="this.bibl_data[this.biblId].pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId].pieceMeta)"></biblPieceMeta>
 	<personMeta :personMeta="this.$root.xhrDataStore.personography.personIndex[this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personId].personMeta"></personMeta>
 	<biblPersonPieceMeta  :personPieceMeta="this.getPersonPieceMeta()"></biblPersonPieceMeta>
 	  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
@@ -616,17 +616,20 @@ Vue.component('abouts',{
     template: `
 
       <div class="abouts">
+<div class="aboutToggle">
 
-        <logo></logo>
 	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">About</div>
 	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
 	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
-	<div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
-	<div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
-	<div v-if="this.abouts == 'credits'">
-          <creditsPersonList></creditsPersonList>
+</div>
+    <div class="aboutViewer">
+	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
+	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
+	   <div v-if="this.abouts == 'credits'">
+            <creditsPersonList></creditsPersonList>
         </div>
-	    </div>
+    </div>
+    </div>
 	`,
     data() {
 	return {
