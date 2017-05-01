@@ -81,7 +81,6 @@
                                     <xsl:copy-of select="$ppm/personPiecePseudo"/>
                                     <xsl:copy-of select="$ppm/personPieceRole"/>
                                     <xsl:copy-of select="$ppm/authorShip"/>
-                                    <xsl:copy-of select="$ppm/personPieceTotalMentions"/>
                                 </personPieceMeta>
                             </xsl:element>
                         </xsl:for-each>
