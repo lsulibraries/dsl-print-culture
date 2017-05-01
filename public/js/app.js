@@ -184,18 +184,7 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-id-badge" aria-hidden="true"></i>VIAF</div>
-        </div>
-	`,
-    props: ['personMeta']
-})
-
-Vue.component('personMeta', {
-    template: `
-	<div class="personMeta">
-	  <div class="personName">{{personMeta.personName}}</div>
-	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-id-badge" aria-hidden="true"></i>VIAF</div>
+          <div class="personViaf"><a  v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-id-badge" aria-hidden="true"></i>VIAF</a></div>
         </div>
 	`,
     props: ['personMeta']
@@ -293,9 +282,9 @@ Vue.component('biblPieceMeta', {
 
 	    Event.$emit('activeContentChange', 'issues')
 	    Event.$emit('issueBiblSelected', {
-		issueId: this.ppm.issueId,
-		pdf_index: this.bibl_data[this.ppm.pieceId].pieceMeta.piecePdfIndex,
-		decls_id: this.ppm.pieceId
+		issueId: this.issueId,
+		pdf_index: this.pieceMeta.piecePdfIndex,
+		decls_id: this.pieceMeta.pieceId
 	    })
 	},
     }
@@ -427,61 +416,85 @@ If the author is anonymous DO NOT provide certainty.`,
 	    bibl_data: {},
 	    ppm: {},
 	    biblId: 's1',
+	    issueHeaderData: {}
 	}
     },
     created() {
 	Event.$on('issueSelected', (id) => {
 	    this.biblId = this.firstSection()
-	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
-	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
-	    this.setPpm()
+	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
+	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+//	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+//	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+//	    this.setPpm()
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.biblId = bibl.decls_id
-	    this.ppm = this.bibl_data = undefined
-	    this.setPpm()
-	    this.setBiblData()
+	    this.getIssueHeaderData()
+//	    this.ppm = this.bibl_data = undefined
+//	    this.setPpm()
+//	    this.setBiblData()
 	})
 
 	this.biblId = this.$root.state.content.issue.decls_id
-	this.setPpm()
-	this.setBiblData()
+//	this.setPpm()
+	//	this.setBiblData()
+	this.getIssueHeaderData()
     },
     template: `
-	<div class="issueHeader" v-if="this.dataLoaded()">
-	  <div class="bibl">   <biblPieceMeta :pieceMeta="this.bibl_data[this.biblId].pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId].pieceMeta)"></biblPieceMeta>
-
-  	    <div class="issue" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
-              <biblIssueMeta :issueMeta="this.bibl_data.issueMeta"></biblIssueMeta>
+	<div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+	  <div class="bibl">
+  	    <div class="issue" v-if="!this.$root.empty(this.issueHeaderData.issueMeta)">
+              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>              
+              <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
               <a class="downloadLink" v-bind:href='stateHref()' download>
                 <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
                 <div class="downloadText">Download {{this.dlLabel()}}</div>
     	      </a>	      
 	    </div>
           </div>
-          <biblSectionMeta :sectionMeta="this.bibl_data[this.biblId].sectionMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId].sectionMeta)"></biblSectionMeta>
-	<personMeta :personMeta="this.$root.xhrDataStore.personography.personIndex[this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personId].personMeta"></personMeta>
-	<biblPersonPieceMeta  :personPieceMeta="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
+	<personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
+	<biblPersonPieceMeta  :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
 	  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
-          <drawer  v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
+          <drawer  v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
 	</div>
 	`,
     methods: {
+	getIssueHeaderData: function () {
+	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
+	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+	},
+	getPersonId: function() {
+	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)){
+		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)[0]
+	    }
+	    return false
+	    
+	},
+	getPersonMeta: function (){
+	    pid = this.getPersonId()
+	    if(!pid){
+		return false
+	    }
+	    personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+	    if(this.$root.empty(personMeta)){
+		return false
+	    }
+	    return personMeta
+	},
 	getPersonPieceMeta: function () {
-	    pid = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personId
-	    bid = 'bibl-' + this.bibl_data.issueMeta.issueId + '-' + this.biblId
-	    return this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta
-	},
-	dataLoaded: function () {
-	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
-	},
-	showCertaintyStatus: function () {
-	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
-	    ppm = this.ppm[ppmId]
-	    return ppm.authorShip.authorCertainty != 'high' || ppm.authorShip.authorStatus !== 'attested'
+	    pid = this.getPersonId()
+	    if(!pid){
+		return false
+	    }
+	    bid = 'bibl-' + this.issueHeaderData.issueMeta.issueId + '-' + this.biblId
+	    meta = this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta
+	    console.log(pid)
+	    return meta
 	},
 	drawerIsAvailable: function() {
-	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
+	    return this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId) || !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))
 	},
 	dlLabel: function(){
     	    if(this.$root.state.content.issue.viewer == 'pdf'){
@@ -508,25 +521,6 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    return this.bibl_data[this.biblId].pieceMeta[attribute]
 	},
-	authorMeta: function (attribute){
-	    if(!this.bibl_data[this.biblId].pieceMeta){
-		return
-	    }
-	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
-	    ppm = this.ppm[ppmId]
-	    if(this.$root.empty(ppm[attribute])){
-		return false
-	    }
-	    return ppm[attribute]
-	},
-	authorShipMeta: function (attribute){
-	    if(!this.bibl_data[this.biblId].pieceMeta){
-		return
-	    }
-	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
-	    ppm = this.ppm[ppmId]
-	    return ppm.authorShip[attribute]
-	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
 	    let format = this.$root.state.content.issue.viewer
@@ -550,7 +544,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	},
 	biblIsSection: function(biblId) {
-	    if(this.bibl_data[biblId].sectionMeta){
+	    if(this.issueHeaderData.listBibl[biblId].sectionMeta){
 		return true
 	    }
 	    return false
@@ -569,20 +563,24 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer" v-bind:class="{active: showBibls}"><div class="drawerActuator" @click="showBibls = !showBibls" v-if="!this.$root.empty(this.authorBibls.personListBibl) && Object.keys(this.authorBibls.personListBibl).length > 1">
-		<div class="drawerIcon">
-			<i class="fa fa-list" aria-hidden="true"></i>
-		</div>
-    	<div class="drawerText">
-    		More from this author
-		</div>
-	</div>
-	<personBibl v-if="showBibls" v-for="bibl in this.$root.xhrDataStore.personography.personIndex[authorId].personListBibl" :personBibl="bibl"></personBibl>
+	<div class="drawer" v-bind:class="{active: showBibls}">
+	  <div class="drawerActuator" @click="showBibls = !showBibls">
+	    <div class="drawerIcon">
+	      <i class="fa fa-list" aria-hidden="true"></i>
+	    </div>
+    	    <div class="drawerText">More from this author</div>
+	  </div>
+	  <personBibl v-if="showBibls && isBibls()" v-for="bibl in this.$root.xhrDataStore.personography.personIndex[authorId].personListBibl" :bibl="bibl"></personBibl>
         </div>
 	`,
     props: ['authorId'],
+    methods: {
+	isBibls: function (){
+	    return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl)
+	}
+    },
     created() {
-	axios.get('/api/personography/summary/json').then(response => {
+	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => {
 	    this.personography = response.data
 	    this.authorBibls = this.personography.personIndex[this.authorId]
 	})
@@ -769,6 +767,10 @@ Vue.component('intraIssueNav',{
 	
 	Event.$on('issueSelected', (id) => {
 	    this.issueID = id;
+	    this.setTocContent()
+	})
+	Event.$on('issueBiblSelected', (data) => {
+	    this.issueID = data.issueId;
 	    this.setTocContent()
 	})
     },

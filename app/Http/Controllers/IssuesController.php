@@ -21,6 +21,11 @@ class IssuesController extends Controller
         return response()->json($issues);
     }
 
+    function issueHeader($issueId) {
+        $xml = simplexml_load_string(Storage::get("public/biblHeader/BroadwayJournal_$issueId.xml"));
+        return response()->json($xml);        
+    }
+    
     function all_json($year = NULL, $month = NULL, $day = NULL){
         $issues = $this->getIssues($year, $month, $day);
         return response()->json($issues);
