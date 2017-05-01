@@ -444,8 +444,8 @@ If the author is anonymous DO NOT provide certainty.`,
     template: `
 	<div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
 	  <div class="bibl">
-  	    <div class="issue" v-if="!this.$root.empty(this.issueHeaderData.is sueMeta)">
-              
+  	    <div class="issue" v-if="!this.$root.empty(this.issueHeaderData.issueMeta)">
+              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>              
               <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
               <a class="downloadLink" v-bind:href='stateHref()' download>
                 <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
@@ -455,7 +455,6 @@ If the author is anonymous DO NOT provide certainty.`,
           </div>
           <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
 	<personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
-	<biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
 	<biblPersonPieceMeta  :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
 	  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
           <drawer  v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
