@@ -223,6 +223,17 @@ input:focus {
     font-weight: 700;
 }
 
+.content > .abouts::before{
+    background: black;
+    content: 'About';
+    width: 10px;
+    color: white;
+    word-wrap: break-word;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
 
 
 .tocDropdown {
@@ -983,18 +994,20 @@ canvas#pdf {
 
 .abouts{
     @include flexbox;
-
+    min-height: calc(100vh - 47px);
 }
 
 .aboutToggle{
 @include flexbox;
 flex-direction: column;
+background:white;
+    margin-top: 1px;
 }
 
 .aboutToggle > div {
     padding: 50px;
     background: white;
-    margin-top: 1px;
+    border-bottom: 1px solid $light-border-color;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -1009,6 +1022,40 @@ flex-direction: column;
 
 .aboutToggle .active {
     color: $primary-accent-color;
+}
+
+.headerNav > .active {
+    color:  $primary-accent-color;
+}
+
+.logoTitle {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 20px;
+    display: flex;
+    font-family: "Adobe Caslon Pro";
+}
+
+.logoThe {
+    font-style: italic;
+    position: relative;
+    font-size: 20px;
+}
+
+.logoBroadway, .logoJournal {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.logoSubtitle {
+    text-transform: uppercase;
+    left: 4px;
+    letter-spacing: .5px;
+    position: relative;
 }
 
 /*BEGIN High Contrast Mode*/

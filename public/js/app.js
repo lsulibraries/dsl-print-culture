@@ -184,7 +184,7 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a  v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-id-badge" aria-hidden="true"></i>VIAF</a></div>
+          <div class="personViaf"><a  v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a></div>
         </div>
 	`,
     props: ['personMeta']
@@ -621,6 +621,7 @@ Vue.component('abouts',{
 	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
 </div>
     <div class="aboutViewer">
+    <logo v-if="this.abouts == 'about'"></logo>
 	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
 	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
 	   <div v-if="this.abouts == 'credits'">
