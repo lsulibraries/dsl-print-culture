@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18450607</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>23</issueNum>
+      <issueDate>June 7, 1845</issueDate>
+      <issueListPerson>
+         <person>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </person>
+         <person>
+            <personName>J. R. Winser</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </person>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Fountains</pieceTitle>
+            <piecePage>353-354</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Magazine Writing--Peter Snook</pieceTitle>
+            <piecePage>354-357</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Assignation</pieceTitle>
+            <piecePage>357-360</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p3>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p4>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Song of the Flowers to the Sunbeam</pieceTitle>
+            <piecePage>360</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <mwlowell>
+               <personName>Maria White Lowell</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </mwlowell>
+         </pieceListPerson>
+      </p4>
+      <p5>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Astarte</pieceTitle>
+            <piecePage>360</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hbhirst>
+               <personName>Henry Beck Hirst</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </hbhirst>
+         </pieceListPerson>
+      </p5>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p6>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>Fleetwood, or The Stain of Birth</pieceTitle>
+            <piecePage>361-362</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p6>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p8>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>An Explanatory and Phonographic Pronouncing Dictionary of the English Language</pieceTitle>
+            <piecePage>362</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>Smith's Weekly Volume</pieceTitle>
+            <piecePage>362</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Manual of Orthopedic Surgery</pieceTitle>
+            <piecePage>362</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Richardsiana</pieceTitle>
+            <piecePage>362</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>The Bustle: A Philosophical and Moral Poem</pieceTitle>
+            <piecePage>362-363</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>The Complete Evangelist and The Quaker City</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The Mysteries of Berlin</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Eveline Neville</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>The Progress of Passion</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>The Crescent and the Cross</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Lives of Men of Letters and Science Who Flourished in the Time of George III</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Vital Christianity</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Kohlrausch's History of Germany, No. 5</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Sibyl's Book of Fate, The Young Bride's Book, and The Comic English Grammar</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>The Knickerbocker Sketch Book</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>De Rohan, the Court Conspirator</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p23>
+      <p24>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Magazines and Reviews</pieceTitle>
+            <piecePage>363-364</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p24>
+      <p25>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>The Fine Arts</pieceTitle>
+            <piecePage>364</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p25>
+      <p26>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>Musical Items</pieceTitle>
+            <piecePage>364</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>low</authorCertainty>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p26>
+      <p27>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>The Grave of L.E.L.</pieceTitle>
+            <piecePage>365</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p27>
+      <p28>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>A Perfect Lady</pieceTitle>
+            <piecePage>365-366</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p28>
+      <p29>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Miscellany</pieceTitle>
+            <piecePage>366</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p29>
+      <p30>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>List of New Books Published in England</pieceTitle>
+            <piecePage>366</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p30>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>367-368</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s4>
+      <p31>
+         <pieceMeta>
+            <pieceId>p31</pieceId>
+            <pieceTitle>Agents for the Broadway Journal</pieceTitle>
+            <piecePage>368</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+      </p31>
+   </listBibl>
+</issue>

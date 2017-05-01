@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18450201</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>5</issueNum>
+      <issueDate>February 1, 1845</issueDate>
+      <issueListPerson>
+         <person>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </person>
+         <person>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </person>
+         <person>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </person>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>A Course of English Reading</pieceTitle>
+            <piecePage>65-67</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>The Chimes, A Goblin Story</pieceTitle>
+            <piecePage>67-68</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p2>
+      <p3>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Natural Boundaries of Empires, and a New View of Colonization</pieceTitle>
+            <piecePage>68-69</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>American Prose Writers</pieceTitle>
+            <piecePage>69-71</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <wajones>
+               <personName>William Alfred Jones</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>inferred</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </wajones>
+         </pieceListPerson>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Barbarities of the Theatre</pieceTitle>
+            <piecePage>69-71</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eaduyckinck>
+               <personName>Evert Augustus Duyckinck</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>inferred</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eaduyckinck>
+         </pieceListPerson>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>National Nomenclature</pieceTitle>
+            <piecePage>72</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>The Devices of Beggary</pieceTitle>
+            <piecePage>72-73</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p7>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p8>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Ring</pieceTitle>
+            <piecePage>73</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <mwlowell>
+               <personName>Maria White Lowell</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </mwlowell>
+         </pieceListPerson>
+      </p8>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>73-74</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p9>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p10>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Letter from Dr. A. Sidney Doane</pieceTitle>
+            <piecePage>75</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <asdoane>
+               <personName>Augustus Sidney Doane</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </asdoane>
+         </pieceListPerson>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The Mozart-Institute of Frankfurt-on-the-Maine</pieceTitle>
+            <piecePage>75-76</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <cperabeau>
+               <personName>Charles Perabeau</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </cperabeau>
+         </pieceListPerson>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Places Worth Visiting</pieceTitle>
+            <piecePage>76</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Wall Street Architecture</pieceTitle>
+            <piecePage>76</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Catalogue of the Mercantile Library</pieceTitle>
+            <piecePage>76</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Difference</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p15>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <sectionListPerson>
+            <anon/>
+         </sectionListPerson>
+      </s4>
+      <p16>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Mayor Harper has refused</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>John P. Ridner, Esq.</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>The Harpers</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Mr. Prescott is engaged upon a new work</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Simms's Monthly Magazine</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>It is said that Bishops</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+      </p21>
+      <s5>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+      </s5>
+      <p22>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>Appleton's Historical Library</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Forest Life</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p23>
+      <p24>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Uncle Peter's Fairy Tales</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p24>
+      <p25>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Poor Jack</pieceTitle>
+            <piecePage>77</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p25>
+      <p26>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>Lawrie Todd</pieceTitle>
+            <piecePage>77-78</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p26>
+      <p27>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>The Book of British Ballads</pieceTitle>
+            <piecePage>78</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p27>
+      <p28>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>Mike Martin, or the Last of the Highwaymen</pieceTitle>
+            <piecePage>78</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p28>
+      <p29>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Punch's Snapdragon</pieceTitle>
+            <piecePage>78</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p29>
+      <p30>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>Manners and Customs of Nations</pieceTitle>
+            <piecePage>78</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p30>
+      <p31>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p31</pieceId>
+            <pieceTitle>The Southern Quarterly Review</pieceTitle>
+            <piecePage>78</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p31>
+      <p32>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p32</pieceId>
+            <pieceTitle>Chemistry, as exemplifying the Wisdom and Beneficence of God</pieceTitle>
+            <piecePage>78</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p32>
+      <p33>
+         <pieceMeta>
+            <pieceId>p33</pieceId>
+            <pieceTitle>The Concert Room</pieceTitle>
+            <piecePage>78-79</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p33>
+      <p34>
+         <pieceMeta>
+            <pieceId>p34</pieceId>
+            <pieceTitle>Correspondence</pieceTitle>
+            <piecePage>79</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <map>
+               <personName>Mary Ann P.</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </map>
+         </pieceListPerson>
+      </p34>
+      <p35>
+         <pieceMeta>
+            <pieceId>p35</pieceId>
+            <pieceTitle>A Painter's Sketch</pieceTitle>
+            <piecePage>79</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <whcrome>
+               <personName>William Henry Crome</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </whcrome>
+         </pieceListPerson>
+      </p35>
+      <p36>
+         <pieceMeta>
+            <pieceId>p36</pieceId>
+            <pieceTitle>Notice to Readers and Correspondents</pieceTitle>
+            <piecePage>79</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p36>
+      <s6>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>79-80</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s6>
+      <p37>
+         <pieceMeta>
+            <pieceId>p37</pieceId>
+            <pieceTitle>Prospectus of the Broadway Journal</pieceTitle>
+            <piecePage>80</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <jbisco>
+               <personName>John Bisco</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </jbisco>
+         </pieceListPerson>
+      </p37>
+   </listBibl>
+</issue>
