@@ -191,7 +191,7 @@ input:focus {
   line-height: .9em;
 }
 
-.issue::before {
+.content > .issue::before {
   background: black;
   content: 'Issues';
   width: 10px;
@@ -879,8 +879,33 @@ canvas#pdf {
   width: 100%;
 }
 
-.viewer {
+#pdf-viewer {
   background: #474747;
+}
+
+.Mentioned .personViaf a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  background: #474747;
+  padding: 5px;
+  color: #fe7251;
+  font-size: 0.8em;
+  border-radius: 5px;
+  position: relative;
+  top: 7px;
+}
+
+.Contributing .personViaf a {
+  text-decoration: none;
+  font-weight: 700;
+  background: white;
+  padding: 5px;
+  color: #fe7251;
+  font-size: 0.8em;
+  border-radius: 5px;
+  position: relative;
+  top: 7px;
 }
 
 /*BEGIN High Contrast Mode*/
