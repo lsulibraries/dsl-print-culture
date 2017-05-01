@@ -21,7 +21,7 @@ body {
   display: -webkit-flex;
   display: flex;
   position: relative;
-  z-index: 2;
+  z-index: 3;
   background: white;
 }
 
@@ -422,6 +422,16 @@ button.searchSubmit {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 140px;
+}
+
+.personFilter {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  background: white;
+  top: 0px;
 }
 
 .personFilter input {
@@ -429,6 +439,7 @@ button.searchSubmit {
   font-size: 2em;
   height: 140px;
   padding: 40px;
+  border: none;
 }
 
 .personIndex .person {
@@ -956,10 +967,6 @@ canvas#pdf {
 }
 
 /*BEGIN High Contrast Mode*/
-.highContrast .content {
-  background: #29303a;
-  color: white;
-}
 .highContrast .contrastOff {
   background: white;
   color: #474747;
@@ -967,6 +974,9 @@ canvas#pdf {
 .highContrast .contrastOn {
   background: #474747;
   color: white;
+}
+.highContrast .content {
+  font-size: 1.5em;
 }
 
 /*END High Contrast Mode*/
