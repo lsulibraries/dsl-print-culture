@@ -191,7 +191,7 @@ input:focus {
   line-height: .9em;
 }
 
-.issue::before {
+.content > .issue::before {
   background: black;
   content: 'Issues';
   width: 10px;
@@ -374,7 +374,7 @@ button.searchSubmit {
   padding-left: 40px;
   position: relative;
 }
-.personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole {
+.personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole, .personography .authorRole {
   background: #fe7251;
   float: left;
   color: white;
@@ -384,6 +384,20 @@ button.searchSubmit {
   font-size: 0.7em;
   padding: 2px 4px 2px 4px;
   border-radius: 2px;
+}
+.personography .sectionTitle {
+  margin-left: 60px;
+  font-weight: 700;
+}
+.personography .issueMeta {
+  float: left;
+  position: absolute;
+}
+.personography .pieceTitle, .personography .personPieceMeta {
+  margin-left: 60px;
+}
+.personography .pieceMeta {
+  margin-left: 0px;
 }
 
 .personography::before {
@@ -464,7 +478,8 @@ button.searchSubmit {
   margin: 20px -20px -20px -20px;
   padding: 20px 20px 40px 20px;
   border-top: 1px dashed #fe7251;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .pieceMeta {
@@ -702,7 +717,7 @@ span.searchHit {
 .drawer {
   margin-bottom: 40px;
 }
-.drawer .authorCertainty, .drawer .authorStatus, .drawer .personPieceRole {
+.drawer .authorCertainty, .drawer .personography .authorRole, .personography .drawer .authorRole, .drawer .authorStatus, .drawer .personPieceRole {
   background: white;
   float: left;
   color: #fe7251;
@@ -837,7 +852,9 @@ span.searchHit {
 
 /*credits*/
 .creditsPerson {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #e9e9e9;
 }
 
 .creditsPersonName {
@@ -845,11 +862,8 @@ span.searchHit {
 }
 
 .creditsPersonAffiliation {
-  background: #fe7251;
-  color: white;
-  text-transform: uppercase;
-  padding: 4px;
-  font-size: 0.6em;
+  padding-bottom: 4px;
+  font-size: 0.8em;
   border-radius: 4px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -879,8 +893,66 @@ canvas#pdf {
   width: 100%;
 }
 
-.viewer {
+#pdf-viewer {
   background: #474747;
+}
+
+.Mentioned .personViaf a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  color: #474747;
+  position: relative;
+  top: 7px;
+}
+
+.Contributing .personViaf a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  top: 7px;
+}
+
+.personViaf i {
+  margin-right: 5px;
+}
+
+.abouts {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.aboutToggle {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutToggle > div {
+  padding: 50px;
+  background: white;
+  margin-top: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.aboutViewer {
+  background: white;
+  margin: 1px;
+  padding: 20px;
+}
+
+.aboutToggle .active {
+  color: #fe7251;
 }
 
 /*BEGIN High Contrast Mode*/
