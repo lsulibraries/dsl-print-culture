@@ -34,7 +34,7 @@
                     </sectionMeta>
                     <xsl:if test="sectionMeta/sectionListPerson">
                         <sectionListPerson>
-                            <xsl:for-each select="sectionMeta/sectionListPerson/person">
+                            <xsl:for-each select="sectionMeta/sectionListPerson/*">
                                 <xsl:variable name="ppmId" select="personPieceMetaId"/>
                                 <xsl:variable name="ppm"
                                     select="$ppms/personPieceMeta/*[string(node-name(.)) eq $ppmId]"/>
@@ -68,7 +68,7 @@
                     </pieceMeta>
                     <xsl:if test="pieceMeta/pieceListPerson">
                         <pieceListPerson>
-                            <xsl:for-each select="pieceMeta/pieceListPerson/person">
+                            <xsl:for-each select="pieceMeta/pieceListPerson/*">
                                 <xsl:variable name="ppmId" select="personPieceMetaId"/>
                                 <xsl:variable name="ppm"
                                     select="$ppms/personPieceMeta/*[string(node-name(.)) eq $ppmId]"/>
