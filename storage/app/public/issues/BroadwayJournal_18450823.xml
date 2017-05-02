@@ -24,6 +24,7 @@
       
       <div class="piece" id="#p1">
          <div class="biblTitle">The Tablet of Love</div>
+         <div class="biblPage">97</div>
          
          <div class="head">The Tablet of Love.</div>
          
@@ -102,6 +103,7 @@
       
       <div class="piece" id="#p2">
          <div class="biblTitle">The Tell-Tale Heart</div>
+         <div class="biblPage">97</div>
          <div class="head">The Tell-Tale Heart.</div>
          
          <p>True!—nervous—very, very dreadfully nervous I had been
@@ -317,6 +319,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">To Florence</div>
+         <div class="biblPage">99</div>
          <div class="head">To Florence.</div>
          
          <div class="lg">
@@ -497,6 +500,7 @@
       
       <div class="piece" id="#p4">
          <div class="biblTitle">Alcibiades Again: Newspapers and Philosophy</div>
+         <div class="biblPage">99</div>
          <div class="head">Alcibiades Again.
             NEWSPAPERS AND PHILOSOPHY.
          </div>
@@ -703,6 +707,7 @@
       
       <div class="piece" id="#p5">
          <div class="biblTitle">The Whole Duty of Woman</div>
+         <div class="biblPage">101</div>
          <div class="head">The Whole Duty of Woman.
             <span class="anchor" id="a002">
                <a href="#n002"> Link </a>
@@ -937,6 +942,7 @@
       
       <div class="piece" id="#p6">
          <div class="biblTitle">A New York Ghost</div>
+         <div class="biblPage">101</div>
          <div class="head">A New York Ghost.</div>
          
          <p>The embodied ideas that spontaneously present themselves
@@ -1068,6 +1074,7 @@
          
          <div class="piece" id="#p7">
             <div class="biblTitle">The Poetical Writings of Mrs. Elizabeth Oakes Smith</div>
+            <div class="biblPage">103</div>
             <p>The Poetical Writings of Mrs. Elizabeth Oakes Smith.
                First Complete Edition. New- York: J. S. Redfield.
             </p>
@@ -1307,6 +1314,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">Wiley and Putnam's Library of Choice Reading</div>
+            <div class="biblPage">104</div>
             <p>Wiley &amp; Putnam's Library of Choice Reading. No. XIX.
                Prose and Verse. By Thomas Hood. Part II.
             </p>
@@ -1350,6 +1358,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">Dashes at Life with a Free Pencil</div>
+            <div class="biblPage">104</div>
             <p>Dashes at Life with a Free Pencil. By N. P. Willis. Part
                III. Loiterings of Travel. New York. I. S. Redfield.
             </p>
@@ -1374,6 +1383,7 @@
          
          <div class="piece" id="#p10">
             <div class="biblTitle">The Lone Star</div>
+            <div class="biblPage">104</div>
             <p>The Lone Star: A Tale of Texas. By I. Willmer Dallam.
                Founded upon Incidents in the History of Texas. New
                York: E. Ferrett &amp; Co.
@@ -1390,6 +1400,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">Harper's Illuminated and New Pictorial Bible</div>
+            <div class="biblPage">104</div>
             <p>Harper's Illuminated and New Pictorial Bible. No. 36.</p>
             
             <p>This work proceeds with undiminished spirit. We repeat that it is by far the best Bible ever published in America. The small wood cuts alone, in each number, are worth
@@ -1400,6 +1411,7 @@
       
       <div class="piece" id="#p12">
          <div class="biblTitle">The Fine Arts</div>
+         <div class="biblPage">104</div>
          <div class="head">The Fine Arts.</div>
          
          <p>The New-York Art Reunion.—The title of this Society
@@ -1575,6 +1587,7 @@
       
       <div class="piece" id="#p13">
          <div class="biblTitle">Musical Department</div>
+         <div class="biblPage">105</div>
          <div class="head">Musical Department.</div>
          
          <p>French Opera.—The French company repeated Meyerbeer’s celebrated Opera Robert le Diable, on Wednesday
@@ -2047,6 +2060,7 @@
       
       <div class="piece" id="#p14">
          <div class="biblTitle">Editorial Miscellany</div>
+         <div class="biblPage">109</div>
          <div class="head">Editorial Miscellany.</div>
          
          <p>A late number of “The New York Mirror” contains a
@@ -2285,6 +2299,7 @@
       
       <div class="section" id="#s4">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">111</div>
          <div>
             <div class="head">NEW AND BRILLIANT ORATORIO.</div>
             
@@ -2831,6 +2846,7 @@
       
       <div class="piece" id="#p15">
          <div class="biblTitle">Agents for the Broadway Journal</div>
+         <div class="biblPage">112</div>
          <div class="note" type="headnote">Our First Volume.—A few copies of the first volume of the Broadway
             Journal are for sale at the office, either in numbers or handsomely
             bound.

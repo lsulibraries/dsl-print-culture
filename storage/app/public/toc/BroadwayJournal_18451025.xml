@@ -43,7 +43,7 @@
          <auth_id>wg</auth_id>
          <auth_name>W. G.</auth_name>
          <auth_stat>attested</auth_stat>
-         <auth_cert>low</auth_cert>
+         <auth_cert>high</auth_cert>
          <start>240</start>
          <end>241</end>
          <pages>240-241</pages>
@@ -70,7 +70,7 @@
          <auth_id>amide</auth_id>
          <auth_name>Abijah Metcalf Ide, Jr.</auth_name>
          <auth_stat>supplied</auth_stat>
-         <auth_cert>medium</auth_cert>
+         <auth_cert>low</auth_cert>
          <page>243</page>
          <pdf_index>9</pdf_index>
       </p5>
@@ -121,16 +121,16 @@
          <type>piece</type>
          <title>Critical Notices</title>
          <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>medium</auth_cert>
          <pieces>
             <p9>
                <decls_id>p9</decls_id>
                <type>piece</type>
                <title>The Songs of our Land and Other Poems</title>
                <t_type>derived</t_type>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <auth_stat>supplied</auth_stat>
-               <auth_cert>high</auth_cert>
                <start>247</start>
                <end>248</end>
                <pages>247-248</pages>
@@ -141,10 +141,6 @@
                <type>piece</type>
                <title>Morse's Cerographic Maps. No. 1</title>
                <t_type>derived</t_type>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <auth_stat>supplied</auth_stat>
-               <auth_cert>medium</auth_cert>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p10>
@@ -153,10 +149,6 @@
                <type>piece</type>
                <title>The Vision; or Hell, Purgatory and Paradise of Dante Alighieri</title>
                <t_type>derived</t_type>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <auth_stat>supplied</auth_stat>
-               <auth_cert>medium</auth_cert>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p11>
@@ -165,9 +157,6 @@
                <type>piece</type>
                <title>Appleton's Literary Miscellany</title>
                <t_type>derived</t_type>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
-               <auth_stat>unknown</auth_stat>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p12>
@@ -176,18 +165,14 @@
                <type>piece</type>
                <title>Graham's Magazine for November</title>
                <t_type>derived</t_type>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <auth_stat>supplied</auth_stat>
-               <auth_cert>medium</auth_cert>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p13>
          </pieces>
       </s1>
-      <p14>
-         <decls_id>p14</decls_id>
-         <type>piece</type>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
          <title>Editorial Miscellany</title>
          <t_type>attested</t_type>
          <auth_id>eapoe</auth_id>
@@ -196,9 +181,9 @@
          <auth_cert>high</auth_cert>
          <page>248</page>
          <pdf_index>14</pdf_index>
-      </p14>
-      <s2>
-         <decls_id>s2</decls_id>
+      </s2>
+      <s3>
+         <decls_id>s3</decls_id>
          <type>section</type>
          <title>Advertisements</title>
          <t_type>derived</t_type>
@@ -206,6 +191,17 @@
          <end>250</end>
          <pages>249-250</pages>
          <pdf_index>15</pdf_index>
-      </s2>
+      </s3>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>Our First Volume</title>
+         <t_type>derived</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>250</page>
+         <pdf_index>16</pdf_index>
+      </p14>
    </toc>
 </div>

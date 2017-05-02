@@ -7,20 +7,21 @@
       <issueNum>8</issueNum>
       <issueDate>February 22, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
    <s1>
@@ -38,10 +39,10 @@
          <piecePage>113-114</piecePage>
          <piecePdfIndex>1</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p1-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p1>
@@ -53,10 +54,10 @@
          <piecePage>114-115</piecePage>
          <piecePdfIndex>2</piecePdfIndex>
          <pieceListPerson>
-            <person>
-               <personId/>
-               <personPieceMetaId>ppm-18450222-p2-</personPieceMetaId>
-            </person>
+            <wpage>
+               <personId>wpage</personId>
+               <personPieceMetaId>ppm-18450222-p2-wpage</personPieceMetaId>
+            </wpage>
          </pieceListPerson>
       </pieceMeta>
    </p2>
@@ -67,10 +68,10 @@
          <piecePage>115-117</piecePage>
          <piecePdfIndex>3</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <clbarritt>
                <personId>clbarritt</personId>
                <personPieceMetaId>ppm-18450222-p3-clbarritt</personPieceMetaId>
-            </person>
+            </clbarritt>
          </pieceListPerson>
       </pieceMeta>
    </p3>
@@ -81,10 +82,10 @@
          <piecePage>117-119</piecePage>
          <piecePdfIndex>5</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <rcarter>
                <personId>rcarter</personId>
                <personPieceMetaId>ppm-18450222-p4-rcarter</personPieceMetaId>
-            </person>
+            </rcarter>
          </pieceListPerson>
       </pieceMeta>
    </p4>
@@ -95,10 +96,10 @@
          <piecePage>119-120</piecePage>
          <piecePdfIndex>7</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <tdenglish>
                <personId>tdenglish</personId>
                <personPieceMetaId>ppm-18450222-p5-tdenglish</personPieceMetaId>
-            </person>
+            </tdenglish>
          </pieceListPerson>
       </pieceMeta>
    </p5>
@@ -109,10 +110,10 @@
          <piecePage>120-121</piecePage>
          <piecePdfIndex>8</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450222-p6-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p6>
@@ -130,10 +131,10 @@
          <piecePage>121-122</piecePage>
          <piecePdfIndex>9</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450222-p7-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p7>
@@ -144,10 +145,10 @@
          <piecePage>122</piecePage>
          <piecePdfIndex>10</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450222-p8-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p8>
@@ -165,10 +166,10 @@
          <piecePage>123</piecePage>
          <piecePdfIndex>11</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <saw>
                <personId>saw</personId>
                <personPieceMetaId>ppm-18450222-p9-saw</personPieceMetaId>
-            </person>
+            </saw>
          </pieceListPerson>
       </pieceMeta>
    </p9>
@@ -180,10 +181,10 @@
          <piecePage>123</piecePage>
          <piecePdfIndex>11</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <mehewitt>
                <personId>mehewitt</personId>
                <personPieceMetaId>ppm-18450222-p10-mehewitt</personPieceMetaId>
-            </person>
+            </mehewitt>
          </pieceListPerson>
       </pieceMeta>
    </p10>
@@ -194,10 +195,10 @@
          <piecePage>123-124</piecePage>
          <piecePdfIndex>11</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p11-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p11>
@@ -208,10 +209,10 @@
          <piecePage>124-125</piecePage>
          <piecePdfIndex>12</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450222-p12-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p12>
@@ -222,10 +223,10 @@
          <piecePage>125</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450222-p13-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p13>
@@ -243,10 +244,10 @@
          <piecePage>125</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450222-p14-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p14>
@@ -264,10 +265,10 @@
          <piecePage>125-126</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p15-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p15>
@@ -279,10 +280,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p16-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p16>
@@ -294,10 +295,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p17-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p17>
@@ -309,10 +310,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p18-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p18>
@@ -324,10 +325,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p19-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p19>
@@ -339,10 +340,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p20-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p20>
@@ -354,10 +355,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p21-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p21>
@@ -370,10 +371,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p22-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p22>
@@ -384,10 +385,10 @@
          <piecePage>126</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <hcwatson>
                <personId>hcwatson</personId>
                <personPieceMetaId>ppm-18450222-p23-hcwatson</personPieceMetaId>
-            </person>
+            </hcwatson>
          </pieceListPerson>
       </pieceMeta>
    </p23>
@@ -398,10 +399,10 @@
          <piecePage>126-127</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450222-p24-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p24>
@@ -412,10 +413,10 @@
          <piecePage>127</piecePage>
          <piecePdfIndex>15</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p25-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p25>
@@ -434,10 +435,10 @@
          <piecePage>128</piecePage>
          <piecePdfIndex>16</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450222-p26-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p26>

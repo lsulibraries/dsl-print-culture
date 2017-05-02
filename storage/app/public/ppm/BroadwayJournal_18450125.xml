@@ -178,9 +178,9 @@
          <authorStatus>unknown</authorStatus>
       </authorShip>
    </ppm-18450125-p16-anon>
-   <ppm-18450125-s5-cfbriggs>
+   <ppm-18450125-p17-cfbriggs>
       <issueId>18450125</issueId>
-      <sectionId>s5</sectionId>
+      <pieceId>p17</pieceId>
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
@@ -189,10 +189,10 @@
          <authorCertainty>high</authorCertainty>
          <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
-   </ppm-18450125-s5-cfbriggs>
-   <ppm-18450125-s6-cfbriggs>
+   </ppm-18450125-p17-cfbriggs>
+   <ppm-18450125-p18-cfbriggs>
       <issueId>18450125</issueId>
-      <sectionId>s6</sectionId>
+      <pieceId>p18</pieceId>
       <personId>cfbriggs</personId>
       <personName>Charles Frederick Briggs</personName>
       <personPieceRole>Contributor</personPieceRole>
@@ -201,7 +201,79 @@
          <authorCertainty>high</authorCertainty>
          <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
-   </ppm-18450125-s6-cfbriggs>
+   </ppm-18450125-p18-cfbriggs>
+   <ppm-18450125-p19-cfbriggs>
+      <issueId>18450125</issueId>
+      <pieceId>p19</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450125-p19-cfbriggs>
+   <ppm-18450125-p20-cfbriggs>
+      <issueId>18450125</issueId>
+      <pieceId>p20</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450125-p20-cfbriggs>
+   <ppm-18450125-p21-cfbriggs>
+      <issueId>18450125</issueId>
+      <pieceId>p21</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450125-p21-cfbriggs>
+   <ppm-18450125-p22-cfbriggs>
+      <issueId>18450125</issueId>
+      <pieceId>p22</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450125-p22-cfbriggs>
+   <ppm-18450125-p23-cfbriggs>
+      <issueId>18450125</issueId>
+      <pieceId>p23</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450125-p23-cfbriggs>
+   <ppm-18450125-p24-cfbriggs>
+      <issueId>18450125</issueId>
+      <pieceId>p24</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450125-p24-cfbriggs>
    <ppm-18450125-p25-anon>
       <issueId>18450125</issueId>
       <pieceId>p25</pieceId>
@@ -222,16 +294,26 @@
          <authorStatus>unknown</authorStatus>
       </authorShip>
    </ppm-18450125-p26-anon>
-   <ppm-18450125-p27-anon>
+   <ppm-18450125-p27-gsprudence>
       <issueId>18450125</issueId>
       <pieceId>p27</pieceId>
+      <personId>gsprudence</personId>
+      <personName/>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450125-p27-gsprudence>
+   <ppm-18450125-p30-anon>
+      <issueId>18450125</issueId>
+      <pieceId>p30</pieceId>
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>unknown</authorStatus>
       </authorShip>
-   </ppm-18450125-p27-anon>
+   </ppm-18450125-p30-anon>
    <ppm-18450125-p28-anon>
       <issueId>18450125</issueId>
       <pieceId>p28</pieceId>

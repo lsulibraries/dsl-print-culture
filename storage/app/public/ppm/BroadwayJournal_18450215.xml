@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <personPieceMeta>
-   <ppm-18450215-p1-cfbriggs>
+   <ppm-18450215-p1-lmchild>
       <issueId>18450215</issueId>
       <pieceId>p1</pieceId>
-      <personId>cfbriggs</personId>
-      <personName>Charles Frederick Briggs</personName>
+      <personId>lmchild</personId>
+      <personName>Lydia Maria Child</personName>
       <personPiecePseudo>L. M. C.</personPiecePseudo>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>inferred</authorStatus>
          <authorCertainty>high</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
-   </ppm-18450215-p1-cfbriggs>
+   </ppm-18450215-p1-lmchild>
    <ppm-18450215-p2-cfbriggs>
       <issueId>18450215</issueId>
       <pieceId>p2</pieceId>
@@ -22,7 +21,6 @@
       <authorShip>
          <authorStatus>supplied</authorStatus>
          <authorCertainty>low</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
    </ppm-18450215-p2-cfbriggs>
    <ppm-18450215-p3-cfbriggs>
@@ -34,7 +32,6 @@
       <authorShip>
          <authorStatus>supplied</authorStatus>
          <authorCertainty>low</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
    </ppm-18450215-p3-cfbriggs>
    <ppm-18450215-p4-lmchild>
@@ -67,7 +64,6 @@
       <authorShip>
          <authorStatus>supplied</authorStatus>
          <authorCertainty>high</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
    </ppm-18450215-p6-eapoe>
    <ppm-18450215-p7-jrlowell>
@@ -141,7 +137,6 @@
       <authorShip>
          <authorStatus>supplied</authorStatus>
          <authorCertainty>low</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
    </ppm-18450215-p13-cfbriggs>
    <ppm-18450215-p14-cfbriggs>
@@ -153,21 +148,58 @@
       <authorShip>
          <authorStatus>supplied</authorStatus>
          <authorCertainty>low</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
    </ppm-18450215-p14-cfbriggs>
-   <ppm-18450215-s5-cfbriggs>
+   <ppm-18450215-p15-anon>
       <issueId>18450215</issueId>
-      <sectionId>s5</sectionId>
-      <personId>cfbriggs</personId>
-      <personName>Charles Frederick Briggs</personName>
+      <pieceId>p15</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
-         <authorStatus>supplied</authorStatus>
-         <authorCertainty>high</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
+         <authorStatus>unknown</authorStatus>
       </authorShip>
-   </ppm-18450215-s5-cfbriggs>
+   </ppm-18450215-p15-anon>
+   <ppm-18450215-p16-anon>
+      <issueId>18450215</issueId>
+      <pieceId>p16</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450215-p16-anon>
+   <ppm-18450215-p17-anon>
+      <issueId>18450215</issueId>
+      <pieceId>p17</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450215-p17-anon>
+   <ppm-18450215-p18-anon>
+      <issueId>18450215</issueId>
+      <pieceId>p18</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450215-p18-anon>
+   <ppm-18450215-p19-anon>
+      <issueId>18450215</issueId>
+      <pieceId>p19</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450215-p19-anon>
    <ppm-18450215-s6-anon>
       <issueId>18450215</issueId>
       <sectionId>s6</sectionId>
@@ -228,690 +260,4 @@
          <authorStatus>unknown</authorStatus>
       </authorShip>
    </ppm-18450215-p26-anon>
-   <ppm-18450215-p1-smfuller>
-      <issueId>18450215</issueId>
-      <pieceId>p1</pieceId>
-      <personId>smfuller</personId>
-      <personName>Sarah Margaret Fuller</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p1-smfuller>
-   <ppm-18450215-p2-wmgillespie>
-      <issueId>18450215</issueId>
-      <pieceId>p2</pieceId>
-      <personId>wmgillespie</personId>
-      <personName>William Mitchell Gillespie</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p2-wmgillespie>
-   <ppm-18450215-p2-wwordsworth>
-      <issueId>18450215</issueId>
-      <pieceId>p2</pieceId>
-      <personId>wwordsworth</personId>
-      <personName>William Wordsworth</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p2-wwordsworth>
-   <ppm-18450215-p3-clanman>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>clanman</personId>
-      <personName>Charles Lanman</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-clanman>
-   <ppm-18450215-p3-llnoble>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>llnoble</personId>
-      <personName>Lewis L. Noble</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-llnoble>
-   <ppm-18450215-p3-rhdana>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>rhdana</personId>
-      <personName>Richard Henry Dana, Sr.</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-rhdana>
-   <ppm-18450215-p3-wcbryant>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wcbryant</personId>
-      <personName>William Cullen Bryant</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wcbryant>
-   <ppm-18450215-p3-hwlongfellow>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>hwlongfellow</personId>
-      <personName>Henry Wadsworth Longfellow</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-hwlongfellow>
-   <ppm-18450215-p3-stcoleridge>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>stcoleridge</personId>
-      <personName>Samuel Taylor Coleridge</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-stcoleridge>
-   <ppm-18450215-p3-jwilson>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>jwilson</personId>
-      <personName>John Wilson</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-jwilson>
-   <ppm-18450215-p3-wcowper>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wcowper</personId>
-      <personName>William Cowper</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wcowper>
-   <ppm-18450215-p3-ogoldsmith>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>ogoldsmith</personId>
-      <personName>Oliver Goldsmith</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-ogoldsmith>
-   <ppm-18450215-p3-jbeattie>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>jbeattie</personId>
-      <personName>James Beattie</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-jbeattie>
-   <ppm-18450215-p3-pbshelley>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>pbshelley</personId>
-      <personName>Percy Bysshe Shelley</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-pbshelley>
-   <ppm-18450215-p3-wscott>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wscott</personId>
-      <personName>Sir Walter Scott</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wscott>
-   <ppm-18450215-p3-srogers>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>srogers</personId>
-      <personName>Samuel Rogers</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-srogers>
-   <ppm-18450215-p3-tcampbell>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>tcampbell</personId>
-      <personName>Thomas Campbell</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-tcampbell>
-   <ppm-18450215-p3-fhemans>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>fhemans</personId>
-      <personName>Felicia Dorothea Hemans</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-fhemans>
-   <ppm-18450215-p3-btonderdonk>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>btonderdonk</personId>
-      <personName>Benjamin Treadwell Onderdonk</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-btonderdonk>
-   <ppm-18450215-p3-wmthackeray>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wmthackeray</personId>
-      <personName>William Makepeace Thackeray</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wmthackeray>
-   <ppm-18450215-p3-iwalton>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>iwalton</personId>
-      <personName>Izaak Walton</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-iwalton>
-   <ppm-18450215-p1-smfuller>
-      <issueId>18450215</issueId>
-      <pieceId>p1</pieceId>
-      <personId>smfuller</personId>
-      <personName>Sarah Margaret Fuller</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p1-smfuller>
-   <ppm-18450215-p2-wmgillespie>
-      <issueId>18450215</issueId>
-      <pieceId>p2</pieceId>
-      <personId>wmgillespie</personId>
-      <personName>William Mitchell Gillespie</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p2-wmgillespie>
-   <ppm-18450215-p2-wwordsworth>
-      <issueId>18450215</issueId>
-      <pieceId>p2</pieceId>
-      <personId>wwordsworth</personId>
-      <personName>William Wordsworth</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p2-wwordsworth>
-   <ppm-18450215-p3-clanman>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>clanman</personId>
-      <personName>Charles Lanman</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-clanman>
-   <ppm-18450215-p3-llnoble>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>llnoble</personId>
-      <personName>Lewis L. Noble</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-llnoble>
-   <ppm-18450215-p3-rhdana>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>rhdana</personId>
-      <personName>Richard Henry Dana, Sr.</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-rhdana>
-   <ppm-18450215-p3-wcbryant>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wcbryant</personId>
-      <personName>William Cullen Bryant</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wcbryant>
-   <ppm-18450215-p3-hwlongfellow>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>hwlongfellow</personId>
-      <personName>Henry Wadsworth Longfellow</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-hwlongfellow>
-   <ppm-18450215-p3-wwordsworth>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wwordsworth</personId>
-      <personName>William Wordsworth</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wwordsworth>
-   <ppm-18450215-p3-stcoleridge>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>stcoleridge</personId>
-      <personName>Samuel Taylor Coleridge</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-stcoleridge>
-   <ppm-18450215-p3-jwilson>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>jwilson</personId>
-      <personName>John Wilson</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-jwilson>
-   <ppm-18450215-p3-wcowper>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wcowper</personId>
-      <personName>William Cowper</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wcowper>
-   <ppm-18450215-p3-ogoldsmith>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>ogoldsmith</personId>
-      <personName>Oliver Goldsmith</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-ogoldsmith>
-   <ppm-18450215-p3-jbeattie>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>jbeattie</personId>
-      <personName>James Beattie</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-jbeattie>
-   <ppm-18450215-p3-pbshelley>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>pbshelley</personId>
-      <personName>Percy Bysshe Shelley</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-pbshelley>
-   <ppm-18450215-p3-wscott>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wscott</personId>
-      <personName>Sir Walter Scott</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wscott>
-   <ppm-18450215-p3-srogers>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>srogers</personId>
-      <personName>Samuel Rogers</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-srogers>
-   <ppm-18450215-p3-tcampbell>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>tcampbell</personId>
-      <personName>Thomas Campbell</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-tcampbell>
-   <ppm-18450215-p3-fhemans>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>fhemans</personId>
-      <personName>Felicia Dorothea Hemans</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-fhemans>
-   <ppm-18450215-p3-btonderdonk>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>btonderdonk</personId>
-      <personName>Benjamin Treadwell Onderdonk</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-btonderdonk>
-   <ppm-18450215-p3-wmthackeray>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>wmthackeray</personId>
-      <personName>William Makepeace Thackeray</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-wmthackeray>
-   <ppm-18450215-p3-iwalton>
-      <issueId>18450215</issueId>
-      <pieceId>p3</pieceId>
-      <personId>iwalton</personId>
-      <personName>Izaak Walton</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p3-iwalton>
-   <ppm-18450215-p4-wscott>
-      <issueId>18450215</issueId>
-      <pieceId>p4</pieceId>
-      <personId>wscott</personId>
-      <personName>Sir Walter Scott</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p4-wscott>
-   <ppm-18450215-p4-hmore>
-      <issueId>18450215</issueId>
-      <pieceId>p4</pieceId>
-      <personId>hmore</personId>
-      <personName>Hannah More</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p4-hmore>
-   <ppm-18450215-p4-wscott>
-      <issueId>18450215</issueId>
-      <pieceId>p4</pieceId>
-      <personId>wscott</personId>
-      <personName>Sir Walter Scott</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p4-wscott>
-   <ppm-18450215-p4-hmore>
-      <issueId>18450215</issueId>
-      <pieceId>p4</pieceId>
-      <personId>hmore</personId>
-      <personName>Hannah More</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p4-hmore>
-   <ppm-18450215-p9-hgreeley>
-      <issueId>18450215</issueId>
-      <pieceId>p9</pieceId>
-      <personId>hgreeley</personId>
-      <personName>Horace Greeley</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p9-hgreeley>
-   <ppm-18450215-p9-wcobbett>
-      <issueId>18450215</issueId>
-      <pieceId>p9</pieceId>
-      <personId>wcobbett</personId>
-      <personName>William Cobbett</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p9-wcobbett>
-   <ppm-18450215-p9-tbmacaulay>
-      <issueId>18450215</issueId>
-      <pieceId>p9</pieceId>
-      <personId>tbmacaulay</personId>
-      <personName>Thomas Babington Macaulay</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p9-tbmacaulay>
-   <ppm-18450215-p10-jrlowell>
-      <issueId>18450215</issueId>
-      <pieceId>p10</pieceId>
-      <personId>jrlowell</personId>
-      <personName>James Russell Lowell</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p10-jrlowell>
-   <ppm-18450215-p12-bbates>
-      <issueId>18450215</issueId>
-      <pieceId>p12</pieceId>
-      <personId>bbates</personId>
-      <personName>Barnabas Bates</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p12-bbates>
-   <ppm-18450215-p13-hwlongfellow>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>hwlongfellow</personId>
-      <personName>Henry Wadsworth Longfellow</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-hwlongfellow>
-   <ppm-18450215-p13-jaldrich>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>jaldrich</personId>
-      <personName>James Aldrich</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-jaldrich>
-   <ppm-18450215-p13-thood>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>thood</personId>
-      <personName>Thomas Hood</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-thood>
-   <ppm-18450215-p13-rwgriswold>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>rwgriswold</personId>
-      <personName>Rufus Wilmot Griswold</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-rwgriswold>
-   <ppm-18450215-p13-efellet>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>efellet</personId>
-      <personName>Elizabeth Fries Ellet</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-efellet>
-   <ppm-18450215-p12-bbates>
-      <issueId>18450215</issueId>
-      <pieceId>p12</pieceId>
-      <personId>bbates</personId>
-      <personName>Barnabas Bates</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p12-bbates>
-   <ppm-18450215-p13-hwlongfellow>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>hwlongfellow</personId>
-      <personName>Henry Wadsworth Longfellow</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-hwlongfellow>
-   <ppm-18450215-p13-jaldrich>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>jaldrich</personId>
-      <personName>James Aldrich</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-jaldrich>
-   <ppm-18450215-p13-thood>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>thood</personId>
-      <personName>Thomas Hood</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-thood>
-   <ppm-18450215-p13-rwgriswold>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>rwgriswold</personId>
-      <personName>Rufus Wilmot Griswold</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-rwgriswold>
-   <ppm-18450215-p13-efellet>
-      <issueId>18450215</issueId>
-      <pieceId>p13</pieceId>
-      <personId>efellet</personId>
-      <personName>Elizabeth Fries Ellet</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p13-efellet>
-   <ppm-18450215-p14-tdenglish>
-      <issueId>18450215</issueId>
-      <pieceId>p14</pieceId>
-      <personId>tdenglish</personId>
-      <personName>Thomas Dunn English</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p14-tdenglish>
-   <ppm-18450215-p14-gjones>
-      <issueId>18450215</issueId>
-      <pieceId>p14</pieceId>
-      <personId>gjones</personId>
-      <personName>George Jones</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p14-gjones>
-   <ppm-18450215-p14-aristides>
-      <issueId>18450215</issueId>
-      <pieceId>p14</pieceId>
-      <personId>aristides</personId>
-      <personName>Aristides</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p14-aristides>
-   <ppm-18450215-p14-btonderdonk>
-      <issueId>18450215</issueId>
-      <pieceId>p14</pieceId>
-      <personId>btonderdonk</personId>
-      <personName>Benjamin Treadwell Onderdonk</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p14-btonderdonk>
-   <ppm-18450215-p15-mkreid>
-      <issueId>18450215</issueId>
-      <pieceId>p15</pieceId>
-      <personId>mkreid</personId>
-      <personName>Marion Kirkland Reid</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p15-mkreid>
-   <ppm-18450215-p15-cmkirkland>
-      <issueId>18450215</issueId>
-      <pieceId>p15</pieceId>
-      <personId>cmkirkland</personId>
-      <personName>Caroline Mathilda Stansbury Kirkland</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p15-cmkirkland>
-   <ppm-18450215-p19-cchurchill>
-      <issueId>18450215</issueId>
-      <pieceId>p19</pieceId>
-      <personId>cchurchill</personId>
-      <personName>Charles Churchill</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p19-cchurchill>
-   <ppm-18450215-p15-mkreid>
-      <issueId>18450215</issueId>
-      <pieceId>p15</pieceId>
-      <personId>mkreid</personId>
-      <personName>Marion Kirkland Reid</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p15-mkreid>
-   <ppm-18450215-p15-cmkirkland>
-      <issueId>18450215</issueId>
-      <pieceId>p15</pieceId>
-      <personId>cmkirkland</personId>
-      <personName>Caroline Mathilda Stansbury Kirkland</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p15-cmkirkland>
-   <ppm-18450215-p19-cchurchill>
-      <issueId>18450215</issueId>
-      <pieceId>p19</pieceId>
-      <personId>cchurchill</personId>
-      <personName>Charles Churchill</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-p19-cchurchill>
-   <ppm-18450215-s8-tkeightley>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>tkeightley</personId>
-      <personName>Thomas Keightley</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-tkeightley>
-   <ppm-18450215-s8-gscolton>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>gscolton</personId>
-      <personName/>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-gscolton>
-   <ppm-18450215-s8-gpmarsh>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>gpmarsh</personId>
-      <personName>George Perkins Marsh</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-gpmarsh>
-   <ppm-18450215-s8-ddbarnard>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>ddbarnard</personId>
-      <personName>Daniel Dewey Barnard</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-ddbarnard>
-   <ppm-18450215-s8-jringersoll>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>jringersoll</personId>
-      <personName>Joseph Reed Ingersoll</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-jringersoll>
-   <ppm-18450215-s8-ejmorris>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>ejmorris</personId>
-      <personName>Edward Joy Morris</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-ejmorris>
-   <ppm-18450215-s8-tlclingman>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>tlclingman</personId>
-      <personName>Thomas Lanier Clingman</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-tlclingman>
-   <ppm-18450215-s8-jmberrien>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>jmberrien</personId>
-      <personName>John Macpherson Berrien</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-jmberrien>
-   <ppm-18450215-s8-dwebster>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>dwebster</personId>
-      <personName>Daniel Webster</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-dwebster>
-   <ppm-18450215-s8-rcwinthrop>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>rcwinthrop</personId>
-      <personName>Robert Charles Winthrop</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-rcwinthrop>
-   <ppm-18450215-s8-tbking>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>tbking</personId>
-      <personName>Thomas Butler King</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-tbking>
-   <ppm-18450215-s8-hfish>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>hfish</personId>
-      <personName>Hamilton Fish</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-hfish>
-   <ppm-18450215-s8-jpkennedy>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>jpkennedy</personId>
-      <personName>John Pendleton Kennedy</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-jpkennedy>
-   <ppm-18450215-s8-jcollamer>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>jcollamer</personId>
-      <personName>Jacob Collamer</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-jcollamer>
-   <ppm-18450215-s8-jjhardin>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>jjhardin</personId>
-      <personName>John Jay Hardin</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-jjhardin>
-   <ppm-18450215-s8-wsarcher>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>wsarcher</personId>
-      <personName>William Segar Archer</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-wsarcher>
-   <ppm-18450215-s8-rchoate>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>rchoate</personId>
-      <personName>Rufus Choate</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-rchoate>
-   <ppm-18450215-s8-ahstephens>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>ahstephens</personId>
-      <personName>Alexander Hamilton Stephens</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-ahstephens>
-   <ppm-18450215-s8-afletcher>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>afletcher</personId>
-      <personName>Alexander Fletcher</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-afletcher>
-   <ppm-18450215-s8-tarnold>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>tarnold</personId>
-      <personName>Thomas Arnold</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-tarnold>
-   <ppm-18450215-s8-astanley>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>astanley</personId>
-      <personName/>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-astanley>
-   <ppm-18450215-s8-fmrowan>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>fmrowan</personId>
-      <personName>Frederica Maclean Rowan</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-fmrowan>
-   <ppm-18450215-s8-jmichelet>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>jmichelet</personId>
-      <personName>Jules Michelet</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-jmichelet>
-   <ppm-18450215-s8-fhunt>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>fhunt</personId>
-      <personName>Freeman Hunt</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-fhunt>
-   <ppm-18450215-s8-lhsigourney>
-      <issueId>18450215</issueId>
-      <sectionId>s8</sectionId>
-      <personId>lhsigourney</personId>
-      <personName>Lydia Huntley Sigourney</personName>
-      <personPieceRole>Mentioned</personPieceRole>
-   </ppm-18450215-s8-lhsigourney>
 </personPieceMeta>

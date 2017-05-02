@@ -31,7 +31,7 @@
          <auth_id>frobinson</auth_id>
          <auth_name>Fay Robinson</auth_name>
          <auth_stat>attested</auth_stat>
-         <auth_cert>low</auth_cert>
+         <auth_cert>high</auth_cert>
          <start>65</start>
          <end>67</end>
          <pages>65-67</pages>

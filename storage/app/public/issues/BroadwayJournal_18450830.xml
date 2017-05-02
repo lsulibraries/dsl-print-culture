@@ -23,6 +23,7 @@
       
       <div class="piece" id="#p1">
          <div class="biblTitle">Slander</div>
+         <div class="biblPage">113</div>
          <div class="head">Slander,</div>
          
          <div class="lg">
@@ -110,6 +111,7 @@
       
       <div class="piece" id="#p2">
          <div class="biblTitle">William Wilson</div>
+         <div class="biblPage">113</div>
          <div class="head">William Wilson.</div>
          
          <div class="lg">
@@ -880,6 +882,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">Romance</div>
+         <div class="biblPage">119</div>
          <div class="head">Romance.</div>
          
          <div class="lg">
@@ -933,6 +936,7 @@
          
          <div class="piece" id="#p4">
             <div class="biblTitle">Wiley and Putnam's Library of Choice Reading</div>
+            <div class="biblPage">119</div>
             <p>Wiley and Putnam's Library of Choice Reading. No. XIX.
                Prose and Verse. By Thomas Hood. Part II.
             </p>
@@ -1134,6 +1138,7 @@
          
          <div class="piece" id="#p5">
             <div class="biblTitle">Wiley and Putnam's Library of Choice Reading</div>
+            <div class="biblPage">119</div>
             <p>Wiley &amp; Putnam's Library of Choice Reading. No. XX.
                The Indicator and Companion. By Leigh Hunt. Part II.
             </p>
@@ -1179,6 +1184,7 @@
          
          <div class="piece" id="#p6">
             <div class="biblTitle">Introductory Lectures on Modern History</div>
+            <div class="biblPage">121</div>
             <p>Introductory Lectures on Modern History, delivered in Lent
                Term, 1842, with the Inaugural Lecture delivered in December, 1841. By Thomas Arnold, D. D., Regius Professor of Modem History in the Univ rsity of Oxford, &amp;c.
                Edited from the Second London Edition, with a Preface
@@ -1207,6 +1213,7 @@
          
          <div class="piece" id="#p7">
             <div class="biblTitle">A Treatise in Domestic Economy</div>
+            <div class="biblPage">121</div>
             <p>A Treatise on Domestic Economy, for the Use of Young Ladies at Home and at School. By Miss Catherine E. Beecher. Revised Edition, with Numerous Additions and Illustrative Engravings. New-York: Harper &amp; Brothers.</p>
             
             <p>This volume is so well known, and so thoroughly appreciated, that we need only call attention to the issue of an improved edition. It is very generally adopted as a text-book
@@ -1217,6 +1224,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">Simms' Magazine</div>
+            <div class="biblPage">121</div>
             <p>Simms’ Magazine,
                For August, is capital. It contains several of the finest kind
                of Magazine papers, and is as ably edited as any journal of
@@ -1260,6 +1268,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">Harper's Illuminated and Illustrated Shakspeare</div>
+            <div class="biblPage">121</div>
             <p>Harper’s Illuminated and Illustrated Shakspeare.</p>
             
             <p>Nos. 63 and 64 are issued; embracing “ The Tempest,” and
@@ -1272,6 +1281,7 @@
          
          <div class="piece" id="#p10">
             <div class="biblTitle">The Mission, or Scenes in Africa</div>
+            <div class="biblPage">121</div>
             <p>The Mission, or Scenes in Africa. Written for Young People. By Capt. Marryat. New-York: D. Appleton &amp; Co.</p>
             
             <p>Captain Marryat is not surpassed by any writer of this age
@@ -1284,6 +1294,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">The Abbey of Innismoyle</div>
+            <div class="biblPage">121</div>
             <p>The Abbey of Innismoyle: A Story of Another Century. By
                the author of “Father Clement,"  " """The Decision,” etc., etc.
                Philadelphia: James M. Campbell. New-York: Saxton
@@ -1299,6 +1310,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">The Medici Series of Italian Prose</div>
+            <div class="biblPage">121</div>
             <p>The Medici Series of Italian Prose. Nos. 2 &amp; 3. The Florentine Histories, by Niccolo Machiavelli. In 2 vols. Translated and Edited by C. Edwards Lester. New-York:
                Paine &amp; Burgess.
             </p>
@@ -1320,6 +1332,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">A Latin Grammar</div>
+            <div class="biblPage">122</div>
             <p>A Latin Grammar, Comprising all the Rules and Observations necessary to an Accurate Knowledge of the Latin
                Classics. By James Ross, LL.D. With Latin Idioms,
                and a New Prosody, and Other Important Additions and
@@ -1336,6 +1349,7 @@
          
          <div class="piece" id="#p14">
             <div class="biblTitle">First Lessons in Latin</div>
+            <div class="biblPage">122</div>
             <p>First Lessons in Latin: a Series of Exercises, Analytical
                and Synthetical, in Latin Syntax: designed as an Introduction to Ross' Latin Grammar, but suited to any other
                Grammar of the Language.
@@ -1346,6 +1360,7 @@
          
          <div class="piece" id="#p15">
             <div class="biblTitle">The History of the Volunteers of 1782</div>
+            <div class="biblPage">122</div>
             <p>The History of The Volunteers of 1782. By Thomas Mc
                Nevin, Esq. New-York: R. Marlin &amp; Co.
             </p>
@@ -1357,6 +1372,7 @@
          
          <div class="piece" id="#p16">
             <div class="biblTitle">The Treasury of History</div>
+            <div class="biblPage">122</div>
             <p>The Treasury of History. New-York: Daniel Adee.</p>
             
             <p>We have repeatedly called attention to this valuable work
@@ -1367,6 +1383,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">Blackwood's Magazine</div>
+            <div class="biblPage">122</div>
             <p>Blackwood's Magazine,
                For August, has been republished by Messrs. Leonard Scott
                &amp; Co. in their usual prompt and accurate manner. The
@@ -1377,6 +1394,7 @@
          
          <div class="piece" id="#p18">
             <div class="biblTitle">Godey's Lady's Book</div>
+            <div class="biblPage">122</div>
             <p>Godey's Lady's Book,
                For September, opens with a very fair engraving by Welch
                from one of the finest paintings ever done by Sully. It appears in the Magazine as a fancy piece — but the heads are
@@ -1394,6 +1412,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">The Edinburgh Review</div>
+            <div class="biblPage">122</div>
             <p>The Edinburgh Review. No. CLXV. For July 1845.
                American Edition—Vol. XXIII, No. 1. New York: Leonard, Scott &amp; Co.
             </p>
@@ -1423,6 +1442,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">An Encyclopedia of Domestic Economy</div>
+            <div class="biblPage">122</div>
             <p>An Encyclopdia of Domestic Economy, comprising such
                subjects as are most immediately connected with Housekeeping, etc., etc. Illustrated with nearly 1000 engravings. To be completed in 12 numbers. New York: Harper and Brothers.
             </p>
@@ -1432,6 +1452,7 @@
          
          <div class="piece" id="#p21">
             <div class="biblTitle">Cosmos</div>
+            <div class="biblPage">122</div>
             <p>Cosmos: A Survey of the General Physical History of The
                Universe. By Alexander Von Humboldt. New York.
                Harper and Brothers.
@@ -1448,6 +1469,7 @@
          
          <div class="piece" id="#p22">
             <div class="biblTitle">Graham's Magazine</div>
+            <div class="biblPage">122</div>
             <p>Graham's Magazine,
                For September, opens with decidedly the finest steel engraving ever published in this country — at least in a Magazine.
                It is the work of Smillie and Hinshelwood—subject, a lake
@@ -1464,6 +1486,7 @@
          
          <div class="piece" id="#p23">
             <div class="biblTitle">Arthur's Magazine</div>
+            <div class="biblPage">122</div>
             <p>Arthur's Magazine,
                For September, was received at so late a day, that we are
                unable to do it justice this week. We shall recur to it. It
@@ -1478,6 +1501,7 @@
          
          <div class="piece" id="#p24">
             <div class="biblTitle">Sale of Pictures at Bordentown</div>
+            <div class="biblPage">122</div>
             <p>Sale of Pictures at Bordentown.—We mentioned, a
                week or two since, that the remaining portion of Joseph
                Bonaparte’s collection of pictures was to be disposed of at
@@ -1543,6 +1567,7 @@
          
          <div class="piece" id="#p25">
             <div class="biblTitle">One Thousand Pounds</div>
+            <div class="biblPage">123</div>
             <p>One Thousand Pounds are hereby offered to the Artist who shall
                produce the best Oil Painting of the Baptism of Christ by immersion in the River Jordan, to illustrate the accounts of the Evangelists:—Matthew, 3d chapter, 13th to 17th verses; Mark, 1st chapter,
                9th to 11th verses; Luke, 3d chapter, 21st to 23d verses; and the following lines from the first book of Milton’s “ Paradise Regained.”
@@ -1617,6 +1642,7 @@
       
       <div class="piece" id="#p26">
          <div class="biblTitle">The City in the Sea</div>
+         <div class="biblPage">123</div>
          <div class="head">The City in the Sea.</div>
          
          <div class="lg">
@@ -1736,6 +1762,7 @@
       
       <div class="piece" id="#p27">
          <div class="biblTitle">Musical Department</div>
+         <div class="biblPage">124</div>
          <div class="head">Musical Department.</div>
          
          <p>Mr. Sheppard, a Bass singer of considerable merit, as we
@@ -1797,6 +1824,7 @@
       
       <div class="piece" id="#p28">
          <div class="biblTitle">The Drama</div>
+         <div class="biblPage">124</div>
          <div class="head">The Drama.</div>
          
          <p>Under this head there is but little to observe. In NewYork, during the last fortnight, the theatres, without exception, have been unusually well attended. At the Park the
@@ -1871,6 +1899,7 @@
       
       <div class="piece" id="#p29">
          <div class="biblTitle">Editorial Miscellany</div>
+         <div class="biblPage">125</div>
          <div class="head">Editorial Miscellany.</div>
          
          <p>Carey &amp; Hart will publish in October “ Literature and
@@ -2107,6 +2136,7 @@
       
       <div class="section" id="#s3">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">126</div>
          <div>
             <div class="head">WEDDING, VISITING, and PROFESSIONAL
                CARDS,
@@ -2741,6 +2771,7 @@
       
       <div class="piece" id="#p30">
          <div class="biblTitle">Our First Volume</div>
+         <div class="biblPage">126</div>
          <div class="note" type="headnote">Our First Volume.—A few copies of the first volume of the Broadway
             Journal are for sale at the office, either in numbers or neatly bound.
          </div>

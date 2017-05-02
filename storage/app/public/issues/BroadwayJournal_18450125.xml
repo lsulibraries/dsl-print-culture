@@ -4,7 +4,7 @@
       
       <div class="ab">THE BROADWAY JOURNAL.
          
-         <br></br>VOL. 1. NEW YORK, SATURDAY, JANUARY 25, 1845. N° 4.
+         <br></br>VOL. 1.     NEW YORK, SATURDAY, JANUARY 25, 1845.     N° 4.
          
       </div>
       
@@ -31,6 +31,7 @@
          
          <div class="piece" id="#p1">
             <div class="biblTitle">Hints on the Re-organization of the Navy</div>
+            <div class="biblPage">49</div>
             <div class="ab">Hints on the Re-organization of the Navy. New York: Wiley
                
                <br></br>and Putnam.
@@ -215,7 +216,8 @@
          
          
          <div class="piece" id="#p2">
-            <div class="biblTitle">The Natural Boundaries of the Empires, and a New View of Colonization</div>
+            <div class="biblTitle">The Natural Boundaries of the Empires</div>
+            <div class="biblPage">50</div>
             <div class="ab">The Natural Boundaries or Empires, and a New View of Colo-
                
                <br></br>nization. By John Finch, Esq., Corresponding Member of the
@@ -652,6 +654,7 @@
          
          <div class="piece" id="#p3">
             <div class="biblTitle">St. Ignatius and His First Companions</div>
+            <div class="biblPage">52</div>
             <div class="ab">St. Ignatius and his First Companions. By the Rev. Charles Con-
                
                <br></br>stantine Pise, D.D. Edward Dunigan, 151 Fulton street, 1845.
@@ -777,6 +780,7 @@
          
          <div class="piece" id="#p4">
             <div class="biblTitle">Vestiges of the Natural History of Creation</div>
+            <div class="biblPage">52</div>
             <div class="ab">Vestiges or the Natural History of Creation. Wiley &amp; Put-
                
                <br></br>nam, 1845.	12mo. pp. 291.
@@ -942,9 +946,10 @@
          
          <div class="piece" id="#p5">
             <div class="biblTitle">Conversations on Some of the Old Poets</div>
+            <div class="biblPage">53</div>
             <div class="ab">Conversations on Some of the Old Poets. By James Russell
                
-               <br></br>Lowell. Cambridge • Published by John Owen, 1845.
+               <br></br>Lowell. Cambridge. Published by John Owen, 1845.
                
                <br></br>                   (Second Notice.)
             </div>
@@ -1067,7 +1072,7 @@
                of kingship over them. South, in one of his sermons, tells us of certain men whose souls are of no worth, but as salt to keep their bodies
                from putrifying. I fear that the soul is too often regarded in this sutler fashion. Why should men ever be afraid to die, but that they regard the spirit as secondary to that which is but its mere appendage
                and conveniency, its symbol, its word, its means of visibility? If the
-               soul lose this poor mansion of hers by the sudden conflagration of disease, or by the slow decay of age, is she therefore houseless and shelterless ? If she cast away this soiled and tattered garment, is she
+               soul lose this poor mansion of hers by the sudden conflagration of disease, or by the slow decay of age, is she therefore houseless and shelterless? If she cast away this soiled and tattered garment, is she
                therefore naked? A child looks forward to his new suit, and dons it
                joyfully; we cling to our rags and foulness. We should welcome
                Death as one who brings us tidings of the finding of long-lost titles to
@@ -1123,6 +1128,7 @@
       
       <div class="piece" id="#p6">
          <div class="biblTitle">American Prose Writers, No. 3, John Waters</div>
+         <div class="biblPage">55</div>
          <div class="head">AMERICAN PROSE WRITERS.</div>
          
          <div class="ab">        NO. 3.
@@ -1337,6 +1343,7 @@
          
          <div class="piece" id="#p7">
             <div class="biblTitle">The Origin of Manhattan, Hell Gate, Etc.</div>
+            <div class="biblPage">56</div>
             <div class="head">THE ORIGIN OF MANHATTAN, HELL GATE, ETC.</div>
             
             <p>It is characteristic of the American people to look forward,
@@ -1420,6 +1427,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">Singular Anecdote of a Cat</div>
+            <div class="biblPage">56</div>
             <div class="head">SINGULAR ANECDOTE OF A CAT.</div>
             
             <p>During a hard snow storm last winter, a kitten with a
@@ -1457,6 +1465,7 @@
       
       <div class="piece" id="#p9">
          <div class="biblTitle">"Mi Boy" and "The Brigadier"</div>
+         <div class="biblPage">57</div>
          
          <p>We gave last week a column or two to the peculiarities of Mr. Willis as a prose writer;
             we present the public this
@@ -1490,13 +1499,15 @@
       </div>
       
       
+      
       <div class="section" id="#s3">
          <div class="biblTitle">Original Poetry</div>
          
          <div class="head">Original Poetry.</div>
          
-         <div class="piece" id="p10">
-            <div class="biblTitle"></div>
+         <div class="piece" id="#p10">
+            <div class="biblTitle">Now is Always Best</div>
+            <div class="biblPage">58</div>
             <div class="head">NOW IS ALWAYS BEST.</div>
             
             <div class="lg">
@@ -1646,6 +1657,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">An Epigram, On Certain Conservatives</div>
+            <div class="biblPage">58</div>
             <div class="head">AN EPIGRAM,
                On Certain Conservatives.
             </div>
@@ -1676,6 +1688,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">Horace Kneeland</div>
+            <div class="biblPage">58</div>
             <p>Horace Kneeland, the sculptor, has in his studio in the
                Granite Building corner of Chambers street and Broadway,
                two remarkably fine busts, which for integrity of expression
@@ -1695,6 +1708,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">The American Art-Union</div>
+            <div class="biblPage">58</div>
             <p>The American Art-Union have selected for the subject of
                their next engraving, a picture by Durand, in the possession
                of Mr. Paulding, representing the capture of Major Andre.
@@ -1706,6 +1720,7 @@
       
       <div class="piece" id="#p14">
          <div class="biblTitle">The Drama</div>
+         <div class="biblPage">58</div>
          <div class="head">The Drama.</div>
          
          <p>A good natured friend, who seems to labor under a very
@@ -1811,6 +1826,7 @@
       
       <div class="piece" id="#p15">
          <div class="biblTitle">Operas and Concerts</div>
+         <div class="biblPage">59</div>
          <div class="head">OPERAS AND CONCERTS.</div>
          
          <p>After a short, but highly successful, musical season, we
@@ -1930,6 +1946,7 @@
       
       <div class="piece" id="#p16">
          <div class="biblTitle">Places Worth Visiting</div>
+         <div class="biblPage">60</div>
          <div class="head">PLACES WORTH VISITING.</div>
          
          <p>The sights best worth seeing in New York, may be visited
@@ -2029,6 +2046,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">Godey's Magazine and Lady's Book</div>
+            <div class="biblPage">60</div>
             <p>Godey’s Magazine and Lady’s Book, Edited by Mrs. Sarah J.
                Hale, Morton M’Michael and Louis A. Godey, presents an imposing
                array of Editors; but when taken in consideration with the list of
@@ -2054,9 +2072,9 @@
          </div>
          
          
-         
          <div class="piece" id="#p18">
             <div class="biblTitle">Graham's Magazine of Literature and Art</div>
+            <div class="biblPage">61</div>
             <p>Graham’s Magazine of Literature and Art, Edited by the
                proprietor, Geo. R. Graham, has but five ladies and thirteen gentlemen, for contributors to the February number. It has three engravings, in line, and a something which is called a portrait of Edgar A.
                Poe. It is poor as a work of art, and something much worse as a
@@ -2081,6 +2099,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">The Columbian Lady's and Gentleman's Magazine</div>
+            <div class="biblPage">61</div>
             <p>The Columbian Lady’s and Gentleman’s Magazine, Edited by
                John Inman and Robert A. West, contains four engravings of which
                we have already given an opinion. The plate of fashions for February presents some very curious figures, particularly the gentleman in a
@@ -2138,6 +2157,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">The Life and Correspondence of Thomas Arnold</div>
+            <div class="biblPage">61</div>
             <div class="ab">The Life and Correspondence of Thomas Arnold, D.D. late Head Master of
                
                <br></br>Rugby School, and Regius Professor of Modern History in the University
@@ -2169,6 +2189,7 @@
          
          <div class="piece" id="#p21">
             <div class="biblTitle">Oneota, or the Red Race of America</div>
+            <div class="biblPage">61</div>
             <div class="ab">Oneota, or the Red Race of America—their History, Tradition, Customs,
                
                <br></br>Poetry, Picture-Writing, &amp;c., in Extracts from Notes, Journals, and other
@@ -2195,8 +2216,9 @@
          
          
          
-         <div class="piece" id="p22">
-            <div class="biblTitle"></div>
+         <div class="piece" id="#p22">
+            <div class="biblTitle">The Southern Quarterly Review</div>
+            <div class="biblPage">61</div>
             <div class="ab">The Southern Quarterly Review. No. XII. Charleston, S. C.</div>
             
             <p>This is a very respectable looking periodical, hardly if at all infeferior to the North American, or any of the foreign Quarterlies, in its
@@ -2236,6 +2258,7 @@
          
          <div class="piece" id="#p23">
             <div class="biblTitle">The Waif</div>
+            <div class="biblPage">62</div>
             <div class="ab">The Waif—A Collection of Poems.
                
                <br></br>Poems by James R. Lowell.
@@ -2269,6 +2292,7 @@
          
          <div class="piece" id="#p24">
             <div class="biblTitle">Dunigan's Illustrated Edition of the Bible</div>
+            <div class="biblPage">62</div>
             <div class="ab">Dunigan's Illustrated Edition of the Bible, according to the Douay and 
                
                <br></br>Rheimish Versions—Nos. 15 and 16.
@@ -2284,8 +2308,9 @@
       
       
       
-      <div class="piece" id="p25">
-         <div class="biblTitle"></div>
+      <div class="piece" id="#p25">
+         <div class="biblTitle">Literary Intelligence</div>
+         <div class="biblPage">62</div>
          <div class="head">LITERARY INTELLIGENCE.</div>
          
          <p>Silas Jones, Esq., the author of an Introduction to the
@@ -2316,6 +2341,7 @@
          
          <div class="piece" id="#p26">
             <div class="biblTitle">The Meanness of English Life</div>
+            <div class="biblPage">62</div>
             <div class="head">THE MEANNESSES OF ENGLISH LIFE.</div>
             
             <p>English travellers choose to express a good deal of horror
@@ -2416,6 +2442,7 @@
          
          <div class="piece" id="#p27">
             <div class="biblTitle">Letter from an Anxious Father</div>
+            <div class="biblPage">62</div>
             <div class="head">LETTER FROM AN ANXIOUS FATHER.</div>
             
             <div class="ab">To the Editor of the Broadway Journal.</div>
@@ -2452,18 +2479,20 @@
                the present day cannot compare with the youths of the last century.
             </p>
             
-            <div class="ab">                                                        Your obedient servant.
-               
-               <br></br>                                                                   George S. Prudence.
-            </div>
+            <div class="ab">Your obedient servant.</div>
+            George S. Prudence.
             
-            <p>P. S. You will confer a favor on all parents, by showing up the evil
+            <div class="note">P. S. You will confer a favor on all parents, by showing up the evil
                influences of the whole brood of writers of the Charles O’Malley school,
                who, I fear, together with a very Harry Lorruqueer-ish young gentleman, from Dublin, with whom my boys have formed an intimacy, are
                doing much to give them an appetite for frolicking and high life.
-            </p>
-            
-            
+            </div>
+         </div>
+         
+         
+         <div class="piece" id="#p30">
+            <div class="biblTitle">To the Editor of the Broadway Journal</div>
+            <div class="biblPage">63</div>
             <div class="ab">To the Editor of the Broadway Journal:
                
                <br></br>   Dear Sir,
@@ -2510,495 +2539,489 @@
                Dream.
             </p>
          </div>
+      </div>
+      
+      
+      
+      <div class="piece" id="#p28">
+         <div class="biblTitle">Notice to Readers and Correspondents</div>
+         <div class="biblPage">63</div>
+         
+         <p>Notice to Readers and Correspondents.—Many thanks to our
+            Hartford Correspondent for his valuable suggestions.
+         </p>
+         
+         <p>The communication of “E. G. S." will appear in our next number.</p>
+         
+         <p>“G. H.” will find a communication at our publishing office.</p>
+         
+         <p>The Tale by “P. S.” is declined.</p>
+         
+         <p>“Matthew Truman" shall have a hearing next week.</p>
+         
+         <p>We shall give another wood-cut illustration in our next number, of a
+            very peculiar character—representing a “Suspended Bishop."
+         </p>
+      </div>
+      
+      
+      
+      <div class="section" id="#s8">
+         <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">63</div>
          
          
-         
-         <div class="piece" id="#p28">
-            <div class="biblTitle">Notice to Readers and Correspondents</div>
+         <div>
+            <div class="head">DR. ARNOLD’S LIFE AND CORRESPONDENCE.</div>
             
-            <p>Notice to Readers and Correspondents.—Many thanks to our
-               Hartford Correspondent for his valuable suggestions.
+            <p>D. APPLETON &amp; CO. have just published, THE LIFE
+               AND CORRESPONDENCE OF THOMAS ARNOLD, D.D.
+               By Rev. E. P. Stanley, M.A. From the Third English Edition, 2 vols.
+               8vo. in 1 vol. 12mo. Price $1 50.
             </p>
             
-            <p>The communication of “E. G. S." will appear in our next number.</p>
+            <p>The Life of Dr. Arnold will be found to be of unusual value and interest to all literary persons, Heads of Colleges and Seminaries of
+               Learning, Students and Teachers in public and private schools.
+            </p>
             
-            <p>“G. H.” will find a communication at our publishing office.</p>
+            <p>No considerable review in England, representing either the high or
+               low parties in Church or State—no weekly or daily publication has
+               failed to express the wonderful power and beauty of this volume of
+               Biography.
+            </p>
             
-            <p>The Tale by “P. S.” is declined.</p>
+            <p>NEW HISTORY OF THE FRENCH REVOLUTION. D. Appleton and Co. have recently published—History of the
+               French Revolution—its causes and consequences; by F. Maclean Rowan; 2 vols 18mo, cloth 75 cts., or 1 vol. 63 cts.
+            </p>
             
-            <p>“Matthew Truman" shall have a hearing next week.</p>
+            <p>“This work has many and valuable recommendations. Its compilation has been effected with care and good judgment; its style is essentially popular, its arrangements clear and methodical, and the
+               whole form as condensed, comprehensive, and succinct a history of the
+               most important event of this age, (both in itself and its consequences,)
+               as we remember to have seen in so brief a space.”—English Critic,
+               Sept. 16, 1844.
+            </p>
             
-            <p>We shall give another wood-cut illustration in our next number, of a
-               very peculiar character—representing a “Suspended Bishop."
+            <p>In a few days, Part 2, price 25 cents—
+               HISTORY OF FRANCE, from the earliest period;
+               translated from the French of M. Michelet, by G. H. Smith.
+            </p>
+            
+            <p>The celebrity of this work on the continent, and the want in English
+               literature of a good history of France, has induced the publishers to
+               introduce it to the American public at a price within the means of all.
             </p>
          </div>
          
          
          
-         <div class="section" id="#s8">
-            <div class="biblTitle">Advertisements</div>
+         <div>
+            <div class="head">DISEASES OF THE TEETH.</div>
             
+            <div class="ab">Washington, D. C., May, 1844.</div>
             
-            <div>
-               <div class="ab">DR. ARNOLD’S LIFE AND CORRESPONDENCE.</div>
+            <p>THE neglect of the Teeth is the cause of much suffering
+               and regret, and should not be disregarded by the most thoughtless.
+               The undersigned having received the benefit of Dr. A. G. Bigelow’s
+               professional skill, and believing him well qualified in the science of
+               Dental Surgery, and an accomplished and skillful operator, we most
+               cheerfully certify to the ease and safety with which Dr. B. performs
+               the various and important operations, so essential to the usefulness,
+               durability, and beauty of the Teeth.
+            </p>
+            
+            <div class="ab">      Hon. J. W. M. Berrien, Geo.                Hon. John B. Dawson, La.
                
-               <p>D. APPLETON &amp; CO. have just published, THE LIFE
-                  AND CORRESPONDENCE OF THOMAS ARNOLD, D.D.
-                  By Rev. E. P. Stanley, M.A. From the Third English Edition, 2 vols.
-                  8vo. in 1 vol. 12mo. Price $1 50.
-               </p>
+               <br></br>    Joshua Herrick, Me.	                       John H. Lumpkin, Geo.
                
-               <p>The Life of Dr. Arnold will be found to be of unusual value and interest to all literary persons, Heads of Colleges and Seminaries of
-                  Learning, Students and Teachers in public and private schools.
-               </p>
+               <br></br>     James Irvin, Pa.	                          J. Thompson, Miss.
                
-               <p>No considerable review in England, representing either the high or
-                  low parties in Church or State—no weekly or daily publication has
-                  failed to express the wonderful power and beauty of this volume of
-                  Biography.
-               </p>
-               
-               <p>NEW HISTORY OF THE FRENCH REVOLUTION. D. Appleton and Co. have recently published—History of the
-                  French Revolution—its causes and consequences; by F. Maclean Rowan; 2 vols 18mo, cloth 75 cts., or 1 vol. 63 cts.
-               </p>
-               
-               <p>“This work has many and valuable recommendations. Its compilation has been effected with care and good judgment; its style is essentially popular, its arrangements clear and methodical, and the
-                  whole form as condensed, comprehensive, and succinct a history of the
-                  most important event of this age, (both in itself and its consequences,)
-                  as we remember to have seen in so brief a space.”—English Critic,
-                  Sept. 16, 1844.
-               </p>
-               
-               <p>In a few days, Part 2, price 25 cents—
-                  HISTORY OF FRANCE, from the earliest period;
-                  translated from the French of M. Michelet, by G. H. Smith.
-               </p>
-               
-               <p>The celebrity of this work on the continent, and the want in English
-                  literature of a good history of France, has induced the publishers to
-                  introduce it to the American public at a price within the means of all.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="ab">DISEASES OF THE TEETH.
-                  
-                  <br></br>Washington, D. C., May, 1844.
-               </div>
-               
-               <p>THE neglect of the Teeth is the cause of much suffering
-                  and regret, and should not be disregarded by the most thoughtless.
-                  The undersigned having received the benefit of Dr. A. G. Bigelow’s
-                  professional skill, and believing him well qualified in the science of
-                  Dental Surgery, and an accomplished and skillful operator, we most
-                  cheerfully certify to the ease and safety with which Dr. B. performs
-                  the various and important operations, so essential to the usefulness,
-                  durability, and beauty of the Teeth.
-               </p>
-               
-               <div class="ab">      Hon. J. W. M. Berrien, Geo.                Hon. John B. Dawson, La.
-                  
-                  <br></br>    Joshua Herrick, Me.	                       John H. Lumpkin, Geo.
-                  
-                  <br></br>     James Irvin, Pa.	                          J. Thompson, Miss.
-                  
-                  <br></br>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York
-               </div>
-            </div>
-            
-            
-            
-            
-            <div>
-               <div class="ab">LEWIS KATEN, SIGN AND ORNAMENTAL PAINTER,
-                  
-                  <br></br>NO. 45 WILLIAM STREET,
-                  
-                  <br></br>(BASEMENT OF THE LEATHER MANUFACTURERS' BANK.)
-                  
-                  <br></br>Block Letter Signs, Transparencies, Banners, &amp;c., Executed in the
-                  
-                  <br></br>neatest manner.
-               </div>
-            </div>
-            
-            
-            
-            <div>
-               <div class="ab">GRAHAME’S UNITED STATES.</div>
-               
-               <p>THE HISTORY OF THE UNITED STATES OF
-                  NORTH AMERICA, from the plantation of the British Colonies
-                  till their revolt and Declaration of Independence. By James Grahame, Esq. In four volumes.
-               </p>
-               
-               <p>The work will be put to press as soon as two hundred and fifty
-                  copies are subscribed for. It will be printed in an elegant style, equal
-                  to the last London edition, in four volumes octavo, and delivered to
-                  subscribers at two dollars a volume, in extra cloth binding.
-               </p>
-               
-               <p>☞ Subscribers names received and the books delivered by
-                  WILEY &amp; PUTNAM, New York.
-               </p>
-            </div>
-            
-            
-            
-            
-            <div>
-               <div class="ab">The Exploring Expedition.</div>
-               
-               <p>LEA &amp; BLANCHARD are preparing for publication,
-                  and will shortly issue, the Narrative of the United States
-                  Exploring Expedition, during the years 1838, 1839, 1840, 1841, and
-                  1842, by CHARLES WILKES, U.S.N., Commander of the Expedition, etc., etc., in five magnificent large imperial octavo volumes,
-                  with an Atlas of Large and Extended Maps. Price Twenty-five
-                  Dollars to Subscribers, done up in beautiful Extra Cloth Binding.
-               </p>
-            </div>
-            
-            
-            
-            
-            <div>
-               <p>JOHN DOUGLAS,
-                  BOOK AND JOB PRINTER,
-                  NO. 68 ANN STREET, one door from Gold. Every description of Printing, both Letter-Press and Stereotype, executed
-                  with neatness, accuracy, and despatch, on terms which he feels confident will be satisfactory to those who employ him.
-               </p>
-               
-               <div class="ab">January 16, 1845.</div>
-            </div>
-            
-            
-            
-            
-            
-            
-            <div>
-               <div class="ab">GENEALOGY OF GEORGE WASHINGTON.</div>
-               
-               <p>THIS day is published by Wm. A. COLMAN, No. 203
-                  Broadway, the Genealogy of George Washington, the celebrated Patriot. It is beautifully engraved, splendidly printed in gold
-                  and colors, and illuminated with the armorial bearings of the Washington Family and its alliances for a period of many centuries past;
-                  exhibiting at one view a complete family history. A space is left sufficiently large for any person who may desire to have his arms emblazoned on this elegant work, before he has it framed. Price $1,50.
-               </p>
-               
-               <p>The Arms and Crests of individuals of all nations, found and emblazoned, equal in execution and correctness to the Herald’s College
-                  of London, at reasonable charges.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="ab">PROPOSALS FOR PUBLISHING BY SUBSCRIPTION,
-                  
-                  <br></br>TRANSACTIONS
-                  
-                  <br></br>OF THE
-                  
-                  <br></br>Ethnological Society of New York.
-                  
-                  <br></br>VOLUME I.
-               </div>
-               
-               <p>THIS volume will consist of articles by members of the
-                  Ethnological Society, relating to various topics of interest to the
-                  Antiquary and Philologist. It will consist of from four to five hundred
-                  pages 8vo., printed on good paper and in the best manner.
-               </p>
-               
-               <p>A number of engravings illustrative of the several papers, will accompany the volume.</p>
-               
-               <div class="ab">CONTENTS OF THE VOLUME.
-                  
-                  <br></br>Art. I. Notes on the Semi-civilized Nations of Mexico, Yucatan, and
-                  
-                  <br></br>       Central America. By Albert Gallatin.
-                  
-                  <br></br>Sec. 1st. Languages.—Vocabularies, grammar, derived and com-
-                  
-                  <br></br>       pounded words.
-                  
-                  <br></br>       2d. Numeration.—Vigintesimal.
-                  
-                  <br></br>       3d. Calendars and Astronomy.—Mexico, Yucatan, Chiapas.
-                  
-                  <br></br>            —Extent of Astronomical knowledge.
-                  
-                  <br></br>       4th. History and Chronology.—Paintings designating years;
-                  
-                  <br></br>            only four known.—Tradition; early writers discussed.—
-                  
-                  <br></br>            Uncertainty of dates and events.
-                  
-                  <br></br>       5th. Conjectures on origin of semi-civilization in Ameri-
-                  
-                  <br></br>             ca.—America inhabited at a very early date.—Astrono-
-                  
-                  <br></br>             my.—Agriculture.—Extinct race.
-                  
-                  <br></br>       No. 1. Appendix.—Grammatical notices.—Mexican, Tarasca,
-                  
-                  <br></br>            Ottomi, Maya, Guatemala, Huestaca.
-                  
-                  <br></br>       No. 2.	" Notes on Lord Kingsborough’s collection.
-                  
-                  <br></br>            —All paintings, but one, Mexican.—All but four relate to
-                  
-                  <br></br>            Mythology and Judicial Astrology.—Codices Borgianus
-                  
-                  <br></br>            and Vaticanus.
-                  
-                  <br></br>Art. II. An Essay on the Grave-Creek Mound in the Ohio Valley.—
-                  
-                  <br></br>            By Henry R. Schoolcraft, embracing:
-                  
-                  <br></br>       1st. A description of the Tumulus, its dimensions and mode of
-                  
-                  <br></br>            structure.
-                  
-                  <br></br>       2d. An accurate drawing and description of the Inscription found
-                  
-                  <br></br>            in one of the vaults.
-                  
-                  <br></br>       3d. Other antiquarian articles disclosed by the opening of that
-                  
-                  <br></br>            mound, or found in other parts of the Grave-Creek Valley
-                  
-                  <br></br>            and its neighborhood.
-                  
-                  <br></br>       4th. Conjectures upon the character of the Alphabet, and the
-                  
-                  <br></br>            probable era of the Inscription, &amp;c. The whole illustrated
-                  
-                  <br></br>            with carefully executed plates.
-                  
-                  <br></br>Art. III. A Dissertation on some curious evidences of an Era of An-
-                  
-                  <br></br>            cient Semi-civilization in the West, noticed in the progress
-                  
-                  <br></br>            of settlements in the Mississippi Valley and the Lakes. By
-                  
-                  <br></br>            Henry R. Schoolcraft.
-                  
-                  <br></br>       Description of some extensive Horticultural Beds and Furrows,
-                  
-                  <br></br>            found in the prairies and forests of the Lake Region, about
-                  
-                  <br></br>            the latitude of the sources of the Illinois and St. Joseph’s,
-                  
-                  <br></br>            with an engraving.
-                  
-                  <br></br>Art. IV. An account of Ancient Remains in Tennessee. By Gerard
-                  
-                  <br></br>            Troost, M. D., Prof. of Chemistry, Geology, &amp;c. in the
-                  
-                  <br></br>            University of Tennessee.
-                  
-                  <br></br>       1.	The Mummies found in the Saltpetre Caves, with conjectures
-                  
-                  <br></br>            as to their antiquity.
-                  
-                  <br></br>       2.	The ancient Burial Places.
-                  
-                  <br></br>       3.	Traces of Phallic Worship among a people once occupying that
-                  
-                  <br></br>            section of country.
-                  
-                  <br></br>Art. V. On the recent discoveries of Himyaritic Inscriptions, and the
-                  
-                  <br></br>            attempts made to decipher them. By Wm. W. Turner.
-                  
-                  <br></br>       Kingdom of the Himyarites.—Discovery of Inscriptions.
-                  
-                  <br></br>       Himyaritic Alphabet.—Alphabets found in Manuscripts.—
-                  
-                  <br></br>       Alphabets from the Inscriptions.—Ethiopic Alphabets.
-                  
-                  <br></br>       Himyaritic Language.—Ehkili Language.—General results.
-                  
-                  <br></br>Art. VI. A visit to the Lybio-Phoenician Monument at Dugga, near
-                  
-                  <br></br>            the site of ancient Carthage. By Frederic Catherwood.
-                  
-                  <br></br>       With an account of the inscription; and a view and ground
-                  
-                  <br></br>            plan of this ancient and interesting monument.
-                  
-                  <br></br>Art. VII. An Account of the Serreculies, or Serranalies, with hints re-
-                  
-                  <br></br>            specting several other tribes or families of people composing
-                  
-                  <br></br>            the Fullah nation, and those inhabiting the neighboring
-                  
-                  <br></br>            Counties of Western Nigritia. By Theodore Dwight, Jr.
-                  
-                  <br></br>       1. The statements of authors respecting the Serreculies.
-                  
-                  <br></br>       2. The Geography, History, Learning, Arts, &amp;c., of the Serrecu-
-                  
-                  <br></br>            lies. 
-                  
-                  <br></br>       3. Their Language.
-                  
-                  <br></br>       4.	Remarks on Neighboring Nations and Tribes.
-               </div>
-               
-               <p>Subscriptions received by BARTLETT &amp; WELFORD, Booksellers
-                  and Importers, 7 Astor House, New-York.
-               </p>
-            </div>
-            
-            
-            
-            
-            <div>
-               <p>PLUMBE DAGUERRIAN GALLERY
-                  AND PHOTOGRAPHIC DEPOT, 251 Broadway,
-                  Corner of Murray street, (Over Tenny’s Jewelry Store,) awarded
-                  the Medal, four first Premiums, and two “Highest Honors,” at the
-                  Exhibitions at Boston, New York, and Philadelphia, respectively, for
-                  the best pictures and apparatus ever exhibited.
-               </p>
-               
-               <p>Price of these superb Photographs reduced to that of ordinary ones
-                  at other places, so that no one need now sit for an inferior likeness on
-                  the score of economy.
-               </p>
-               
-               <p>N. B.—Imported German Cameras, also French and American Instruments of the very best quality, with plates, cases, chemical polishing materials, &amp;c., kept constantly on hand. All orders received
-                  promptly attended to.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="ab">Mrs. Sigourney’s Pictorial Reader.</div>
-               
-               <p>THE PICTORIAL READER, for the Use of Schools, consisting of Original Articles for the Instruction of Young Children.
-                  By Mrs. L. H. Sigourney. Being an Introduction to the Boy’s Reading Book and Girl’s Reading Book, by the same author. Illustrated
-                  by nearly One Hundred aed Fifty Engravings. A very interesting and
-                  instructive Book for Children, whether in school or out. Published by
-                                                    TURNER &amp; HAYDEN, No. 10 John Street,
-                                                             And for sale by all the Booksellers.
-               </p>
-            </div>
-            
-            
-            
-            
-            <div>
-               <p>The First Premium awarded five years by the American Institute for
-                  the best Specimen of Off-hand Penmanship.
-               </p>
-               
-               <div class="ab">GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,
-                  
-                  <br></br>NO. 189 BROADWAY, NEW YORK.
-               </div>
-               
-               <p>GOLDSMITH’S PREMIUM SYSTEM of Mercan-tile and Epistolary Writing, guaranteed to all
-                  (old and young)
-                  in 10 lessons of one hour each. Terms—Five Dollars.
-               </p>
-               
-               <p>Double Entry Book-Keeping, Fifteen Dollars, for a thorough
-                  course of instruction, including mercantile arithmetic, also Blanks and
-                  Stationary. Payable at the commencement.
-               </p>
-               
-               <p>Class Hours—9 A. M., 3, 5 3-4, and 8 P. M. daily for gentlemen,
-                  and from 11 to 1 o’clock for ladies. Private instruction given.
-               </p>
-               
-               <p>For sale “Goldsmith’s Gems of Penmanship,” elegantly bound.
-                  Price Five Dollars.
-               </p>
-               
-               <div class="ab">                                     From the Courier and Enquirer, July 27, 1844.</div>
-               
-               <p>Goldsmith’s Gems of Pennmanship.—The Chirographic art is
-                  much more important to mankind than it is generally considered, and
-                  Mr. Goldsmith may well claim to be considered at its head. The
-                  volume before us exhibits more taste and ingenuity, and higher proofs
-                  of manual dexterity than we have ever seen before.
-               </p>
-               
-               <div class="ab">                                     From the New York Express.</div>
-               
-               <p>Goldsmith’s Gems of Penmanship.—We have seen the original, as
-                  executed by his own hand, and a more beautiful, and indeed a more
-                  wonderful display of the power of that little instrument which is said
-                  to be “more potent than the sword,” we never witnessed before.
-               </p>
-            </div>
-            
-            
-            
-            <div>
-               <div class="ab">CHARLES PERABEAU, Professor of Music,
-                  
-                  <br></br>No. 9 Whitehall Street, New York.
-               </div>
+               <br></br>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York
             </div>
          </div>
          
          
-         
-         
-         <div class="piece" id="#p29">
-            <div class="biblTitle">Prospectus of the Broadway Journal</div>
+         <div>
+            <div class="head">LEWIS KATEN, SIGN AND ORNAMENTAL PAINTER,</div>
             
-            <div class="ab">Prospectus of the Broadway Journal,
+            <div class="ab">NO. 45 WILLIAM STREET,
                
-               <br></br>To be Published every Saturday.
+               <br></br>(BASEMENT OF THE LEATHER MANUFACTURERS' BANK.)
+               
+               <br></br>Block Letter Signs, Transparencies, Banners, &amp;c., Executed in the
+               
+               <br></br>neatest manner.
             </div>
+         </div>
+         
+         
+         <div>
+            <div class="head">GRAHAME’S UNITED STATES.</div>
             
-            <p>The Broadway Journal will differ from any of the weekly Periodicals now published in this city, as it will be made up entirely of
-               original matter, consisting of Essays, Criticisms on Art and Literature,
-               Domestic and Foreign Correspondence, and Literary and Scientific
-               Intelligence.
+            <p>THE HISTORY OF THE UNITED STATES OF
+               NORTH AMERICA, from the plantation of the British Colonies
+               till their revolt and Declaration of Independence. By James Grahame, Esq. In four volumes.
             </p>
             
-            <p>Illustrations will be given as often as good original Designs can
-               be procured, and drawings and plans of all new public buildings that
-               have either elegance or novelty to recommend them to notice. Particular attention will be given to this department, and no pains spared
-               to make it worthy of patronage.
+            <p>The work will be put to press as soon as two hundred and fifty
+               copies are subscribed for. It will be printed in an elegant style, equal
+               to the last London edition, in four volumes octavo, and delivered to
+               subscribers at two dollars a volume, in extra cloth binding.
             </p>
             
-            <p>Efficient aid has already been secured in the services of some of the
-               best writers in the country; but it is hoped that a free channel being opened through which true-hearted men may “let loose their
-               thoughts,” will be the means of drawing out some of the slumbering
-               talent amongst us which has not yet been seen afloat on the surface of
-               our periodical literature.
-            </p>
-            
-            <p>The Broadway Journal will espouse the cause of no political party, but will hold itself free to condemn or approve any men or measures, that a patriotic regard for the welfare of the country may dictate.
-               It will be printed on fine paper with clear type, in the Octavo form of
-               16 pages, double columns.
-            </p>
-            
-            <p>Terms $3,00 per annum—Single numbers 6 1-4 cts.</p>
-            
-            <p>A liberal discount to Periodical Agents.</p>
-            
-            <p>All Communications for the Editor must be addressed to the Editor
-               of the Broadway Journal, and all letters on business to
-                                       JOHN BISCO, Publisher, 153 Broadway.
+            <p>☞ Subscribers names received and the books delivered by
+               WILEY &amp; PUTNAM, New York.
             </p>
          </div>
          
          
          <div>
-            <div class="ab">John Douglas, Printer, 68 Ann Street.</div>
+            <div class="head">The Exploring Expedition.</div>
+            
+            <p>LEA &amp; BLANCHARD are preparing for publication,
+               and will shortly issue, the Narrative of the United States
+               Exploring Expedition, during the years 1838, 1839, 1840, 1841, and
+               1842, by CHARLES WILKES, U.S.N., Commander of the Expedition, etc., etc., in five magnificent large imperial octavo volumes,
+               with an Atlas of Large and Extended Maps. Price Twenty-five
+               Dollars to Subscribers, done up in beautiful Extra Cloth Binding.
+            </p>
          </div>
          
+         
+         <div>
+            <div class="head">JOHN DOUGLAS,
+               BOOK AND JOB PRINTER,
+            </div>
+            
+            <div class="ab">NO. 68 ANN STREET, one door from Gold. Every de-
+               
+               <br></br>scription of Printing, both Letter-Press and Stereotype, executed
+               
+               <br></br>with neatness, accuracy, and despatch, on terms which he feels con-
+               
+               <br></br>fident will be satisfactory to those who employ him.
+            </div>
+            
+            <div class="ab">January 16, 1845.</div>
+         </div>
+         
+         
+         
+         
+         <div>
+            <div class="head">GENEALOGY OF GEORGE WASHINGTON.</div>
+            
+            <p>THIS day is published by Wm. A. COLMAN, No. 203
+               Broadway, the Genealogy of George Washington, the celebrated Patriot. It is beautifully engraved, splendidly printed in gold
+               and colors, and illuminated with the armorial bearings of the Washington Family and its alliances for a period of many centuries past;
+               exhibiting at one view a complete family history. A space is left sufficiently large for any person who may desire to have his arms emblazoned on this elegant work, before he has it framed. Price $1,50.
+            </p>
+            
+            <p>The Arms and Crests of individuals of all nations, found and emblazoned, equal in execution and correctness to the Herald’s College
+               of London, at reasonable charges.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="note" type="headnote">PROPOSALS FOR PUBLISHING BY SUBSCRIPTION,
+               TRANSACTIONS
+               OF THE
+            </div>
+            
+            <div class="head">Ethnological Society of New York.</div>
+            
+            <div class="ab">VOLUME I.</div>
+            
+            <p>THIS volume will consist of articles by members of the
+               Ethnological Society, relating to various topics of interest to the
+               Antiquary and Philologist. It will consist of from four to five hundred
+               pages 8vo., printed on good paper and in the best manner.
+            </p>
+            
+            <p>A number of engravings illustrative of the several papers, will accompany the volume.</p>
+            
+            <div class="ab">CONTENTS OF THE VOLUME.
+               
+               <br></br>Art. I. Notes on the Semi-civilized Nations of Mexico, Yucatan, and
+               
+               <br></br>       Central America. By Albert Gallatin.
+               
+               <br></br>Sec. 1st. Languages.—Vocabularies, grammar, derived and com-
+               
+               <br></br>       pounded words.
+               
+               <br></br>       2d. Numeration.—Vigintesimal.
+               
+               <br></br>       3d. Calendars and Astronomy.—Mexico, Yucatan, Chiapas.
+               
+               <br></br>            —Extent of Astronomical knowledge.
+               
+               <br></br>       4th. History and Chronology.—Paintings designating years;
+               
+               <br></br>            only four known.—Tradition; early writers discussed.—
+               
+               <br></br>            Uncertainty of dates and events.
+               
+               <br></br>       5th. Conjectures on origin of semi-civilization in Ameri-
+               
+               <br></br>             ca.—America inhabited at a very early date.—Astrono-
+               
+               <br></br>             my.—Agriculture.—Extinct race.
+               
+               <br></br>       No. 1. Appendix.—Grammatical notices.—Mexican, Tarasca,
+               
+               <br></br>            Ottomi, Maya, Guatemala, Huestaca.
+               
+               <br></br>       No. 2.	" Notes on Lord Kingsborough’s collection.
+               
+               <br></br>            —All paintings, but one, Mexican.—All but four relate to
+               
+               <br></br>            Mythology and Judicial Astrology.—Codices Borgianus
+               
+               <br></br>            and Vaticanus.
+               
+               <br></br>Art. II. An Essay on the Grave-Creek Mound in the Ohio Valley.—
+               
+               <br></br>            By Henry R. Schoolcraft, embracing:
+               
+               <br></br>       1st. A description of the Tumulus, its dimensions and mode of
+               
+               <br></br>            structure.
+               
+               <br></br>       2d. An accurate drawing and description of the Inscription found
+               
+               <br></br>            in one of the vaults.
+               
+               <br></br>       3d. Other antiquarian articles disclosed by the opening of that
+               
+               <br></br>            mound, or found in other parts of the Grave-Creek Valley
+               
+               <br></br>            and its neighborhood.
+               
+               <br></br>       4th. Conjectures upon the character of the Alphabet, and the
+               
+               <br></br>            probable era of the Inscription, &amp;c. The whole illustrated
+               
+               <br></br>            with carefully executed plates.
+               
+               <br></br>Art. III. A Dissertation on some curious evidences of an Era of An-
+               
+               <br></br>            cient Semi-civilization in the West, noticed in the progress
+               
+               <br></br>            of settlements in the Mississippi Valley and the Lakes. By
+               
+               <br></br>            Henry R. Schoolcraft.
+               
+               <br></br>       Description of some extensive Horticultural Beds and Furrows,
+               
+               <br></br>            found in the prairies and forests of the Lake Region, about
+               
+               <br></br>            the latitude of the sources of the Illinois and St. Joseph’s,
+               
+               <br></br>            with an engraving.
+               
+               <br></br>Art. IV. An account of Ancient Remains in Tennessee. By Gerard
+               
+               <br></br>            Troost, M. D., Prof. of Chemistry, Geology, &amp;c. in the
+               
+               <br></br>            University of Tennessee.
+               
+               <br></br>       1.	The Mummies found in the Saltpetre Caves, with conjectures
+               
+               <br></br>            as to their antiquity.
+               
+               <br></br>       2.	The ancient Burial Places.
+               
+               <br></br>       3.	Traces of Phallic Worship among a people once occupying that
+               
+               <br></br>            section of country.
+               
+               <br></br>Art. V. On the recent discoveries of Himyaritic Inscriptions, and the
+               
+               <br></br>            attempts made to decipher them. By Wm. W. Turner.
+               
+               <br></br>       Kingdom of the Himyarites.—Discovery of Inscriptions.
+               
+               <br></br>       Himyaritic Alphabet.—Alphabets found in Manuscripts.—
+               
+               <br></br>       Alphabets from the Inscriptions.—Ethiopic Alphabets.
+               
+               <br></br>       Himyaritic Language.—Ehkili Language.—General results.
+               
+               <br></br>Art. VI. A visit to the Lybio-Phoenician Monument at Dugga, near
+               
+               <br></br>            the site of ancient Carthage. By Frederic Catherwood.
+               
+               <br></br>       With an account of the inscription; and a view and ground
+               
+               <br></br>            plan of this ancient and interesting monument.
+               
+               <br></br>Art. VII. An Account of the Serreculies, or Serranalies, with hints re-
+               
+               <br></br>            specting several other tribes or families of people composing
+               
+               <br></br>            the Fullah nation, and those inhabiting the neighboring
+               
+               <br></br>            Counties of Western Nigritia. By Theodore Dwight, Jr.
+               
+               <br></br>       1. The statements of authors respecting the Serreculies.
+               
+               <br></br>       2. The Geography, History, Learning, Arts, &amp;c., of the Serrecu-
+               
+               <br></br>            lies. 
+               
+               <br></br>       3. Their Language.
+               
+               <br></br>       4.	Remarks on Neighboring Nations and Tribes.
+            </div>
+            
+            <p>Subscriptions received by BARTLETT &amp; WELFORD, Booksellers
+               and Importers, 7 Astor House, New-York.
+            </p>
+         </div>
+         
+         
+         
+         
+         <div>
+            <div class="head">PLUMBE DAGUERRIAN GALLERY</div>
+            
+            <div class="ab">AND PHOTOGRAPHIC DEPOT, 251 Broadway,
+               
+               <br></br>Corner of Murray street, (Over Tenny’s Jewelry Store,) awarded
+               
+               <br></br>the Medal, four first Premiums, and two “Highest Honors,” at the
+               
+               <br></br>Exhibitions at Boston, New York, and Philadelphia, respectively, for
+               
+               <br></br>the best pictures and apparatus ever exhibited.
+            </div>
+            
+            <p>Price of these superb Photographs reduced to that of ordinary ones
+               at other places, so that no one need now sit for an inferior likeness on
+               the score of economy.
+            </p>
+            
+            <p>N. B.—Imported German Cameras, also French and American Instruments of the very best quality, with plates, cases, chemical polishing materials, &amp;c., kept constantly on hand. All orders received
+               promptly attended to.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="head">Mrs. Sigourney’s Pictorial Reader.</div>
+            
+            <p>THE PICTORIAL READER, for the Use of Schools, consisting of Original Articles for the Instruction of Young Children.
+               By Mrs. L. H. Sigourney. Being an Introduction to the Boy’s Reading Book and Girl’s Reading Book, by the same author. Illustrated
+               by nearly One Hundred aed Fifty Engravings. A very interesting and
+               instructive Book for Children, whether in school or out. Published by
+                                                 TURNER &amp; HAYDEN, No. 10 John Street,
+                                                          And for sale by all the Booksellers.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="note" type="headnote">The First Premium awarded five years by the American Institute for
+               the best Specimen of Off-hand Penmanship.
+            </div>
+            
+            <div class="head">GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,</div>
+            
+            <div class="ab">NO. 189 BROADWAY, NEW YORK.</div>
+            
+            <p>GOLDSMITH’S PREMIUM SYSTEM of Mercan-tile and Epistolary Writing, guaranteed to all
+               (old and young)
+               in 10 lessons of one hour each. Terms—Five Dollars.
+            </p>
+            
+            <p>Double Entry Book-Keeping, Fifteen Dollars, for a thorough
+               course of instruction, including mercantile arithmetic, also Blanks and
+               Stationary. Payable at the commencement.
+            </p>
+            
+            <p>Class Hours—9 A. M., 3, 5 3-4, and 8 P. M. daily for gentlemen,
+               and from 11 to 1 o’clock for ladies. Private instruction given.
+            </p>
+            
+            <p>For sale “Goldsmith’s Gems of Penmanship,” elegantly bound.
+               Price Five Dollars.
+            </p>
+            
+            <div class="ab">                                     From the Courier and Enquirer, July 27, 1844.</div>
+            
+            <p>Goldsmith’s Gems of Pennmanship.—The Chirographic art is
+               much more important to mankind than it is generally considered, and
+               Mr. Goldsmith may well claim to be considered at its head. The
+               volume before us exhibits more taste and ingenuity, and higher proofs
+               of manual dexterity than we have ever seen before.
+            </p>
+            
+            <div class="ab">                                     From the New York Express.</div>
+            
+            <p>Goldsmith’s Gems of Penmanship.—We have seen the original, as
+               executed by his own hand, and a more beautiful, and indeed a more
+               wonderful display of the power of that little instrument which is said
+               to be “more potent than the sword,” we never witnessed before.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="head">CHARLES PERABEAU,</div>
+            <div class="ab">Professor of Music,
+               
+               <br></br>No. 9 Whitehall Street, New York.
+            </div>
+         </div>
+      </div>
+      
+      
+      <div class="piece" id="#p29">
+         <div class="biblTitle">Prospectus of the Broadway Journal</div>
+         <div class="biblPage">63</div>
+         
+         <div class="head">Prospectus of the Broadway Journal,</div>
+         
+         <div class="ab">To be Published every Saturday.</div>
+         
+         <p>The Broadway Journal will differ from any of the weekly Periodicals now published in this city, as it will be made up entirely of
+            original matter, consisting of Essays, Criticisms on Art and Literature,
+            Domestic and Foreign Correspondence, and Literary and Scientific
+            Intelligence.
+         </p>
+         
+         <p>Illustrations will be given as often as good original Designs can
+            be procured, and drawings and plans of all new public buildings that
+            have either elegance or novelty to recommend them to notice. Particular attention will be given to this department, and no pains spared
+            to make it worthy of patronage.
+         </p>
+         
+         <p>Efficient aid has already been secured in the services of some of the
+            best writers in the country; but it is hoped that a free channel being opened through which true-hearted men may “let loose their
+            thoughts,” will be the means of drawing out some of the slumbering
+            talent amongst us which has not yet been seen afloat on the surface of
+            our periodical literature.
+         </p>
+         
+         <p>The Broadway Journal will espouse the cause of no political party, but will hold itself free to condemn or approve any men or measures, that a patriotic regard for the welfare of the country may dictate.
+            It will be printed on fine paper with clear type, in the Octavo form of
+            16 pages, double columns.
+         </p>
+         
+         <p>Terms $3,00 per annum—Single numbers 6 1-4 cts.</p>
+         
+         <p>A liberal discount to Periodical Agents.</p>
+         
+         <p>All Communications for the Editor must be addressed to the Editor
+            of the Broadway Journal, and all letters on business to
+                                    JOHN BISCO, Publisher, 153 Broadway.
+         </p>
+      </div>
+      
+      
+      <div>
+         <div class="ab">John Douglas, Printer, 68 Ann Street.</div>
       </div>
       
    </div>

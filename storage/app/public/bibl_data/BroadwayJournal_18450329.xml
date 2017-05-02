@@ -7,30 +7,309 @@
       <issueNum>13</issueNum>
       <issueDate>March 29, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <hcwatson>
             <personId>hcwatson</personId>
             <personName>Henry Cood Watson</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </hcwatson>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
+   <s1>
+      <sectionMeta>
+         <sectionId>s1</sectionId>
+         <sectionTitle>Reviews</sectionTitle>
+      </sectionMeta>
+   </s1>
+   <p1>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p1</pieceId>
+         <pieceTitle>The Amber Witch</pieceTitle>
+         <piecePage>193</piecePage>
+         <piecePdfIndex>1</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450329-p1-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p1>
+   <p2>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p2</pieceId>
+         <pieceTitle>The Children of Mount Ida</pieceTitle>
+         <piecePage>193</piecePage>
+         <piecePdfIndex>1</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450329-p2-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p2>
+   <p3>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p3</pieceId>
+         <pieceTitle>The Library of Commerce</pieceTitle>
+         <piecePage>193-194</piecePage>
+         <piecePdfIndex>1</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450329-p3-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p3>
+   <p4>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p4</pieceId>
+         <pieceTitle>Popular Lectures on Astronomy</pieceTitle>
+         <piecePage>194</piecePage>
+         <piecePdfIndex>2</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450329-p4-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p4>
+   <p5>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p5</pieceId>
+         <pieceTitle>The World in a Pocket-Book</pieceTitle>
+         <piecePage>194</piecePage>
+         <piecePdfIndex>2</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450329-p5-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p5>
+   <p6>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p6</pieceId>
+         <pieceTitle>Imitation--Plagiarism--The Conclusion of Mr. Poe's Reply to the Letter of Outis</pieceTitle>
+         <piecePage>194-198</piecePage>
+         <piecePdfIndex>2</piecePdfIndex>
+         <pieceListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18450329-p6-eapoe</personPieceMetaId>
+            </eapoe>
+         </pieceListPerson>
+      </pieceMeta>
+   </p6>
+   <p7>
+      <pieceMeta>
+         <pieceId>p7</pieceId>
+         <pieceTitle>A Commission of Lunacy</pieceTitle>
+         <piecePage>198-199</piecePage>
+         <piecePdfIndex>6</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450329-p7-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p7>
+   <p8>
+      <pieceMeta>
+         <pieceId>p8</pieceId>
+         <pieceTitle>Portrait of an Annexationist</pieceTitle>
+         <piecePage>200</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450329-p8-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p8>
+   <p9>
+      <pieceMeta>
+         <pieceId>p9</pieceId>
+         <pieceTitle>The Art of the Use of Color in Imitation in Painting: No. VI</pieceTitle>
+         <piecePage>201-202</piecePage>
+         <piecePdfIndex>9</piecePdfIndex>
+         <pieceListPerson>
+            <wpage>
+               <personId>wpage</personId>
+               <personPieceMetaId>ppm-18450329-p9-wpage</personPieceMetaId>
+            </wpage>
+         </pieceListPerson>
+      </pieceMeta>
+   </p9>
+   <p10>
+      <pieceMeta>
+         <pieceId>p10</pieceId>
+         <pieceTitle>The Great Tower of Tarudant</pieceTitle>
+         <piecePage>202-203</piecePage>
+         <piecePdfIndex>10</piecePdfIndex>
+         <pieceListPerson>
+            <rcarter>
+               <personId>rcarter</personId>
+               <personPieceMetaId>ppm-18450329-p10-rcarter</personPieceMetaId>
+            </rcarter>
+         </pieceListPerson>
+      </pieceMeta>
+   </p10>
+   <p11>
+      <pieceMeta>
+         <pieceId>p11</pieceId>
+         <pieceTitle>The Universality of Human Emotions</pieceTitle>
+         <piecePage>203</piecePage>
+         <piecePdfIndex>11</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450329-p11-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p11>
+   <p12>
+      <pieceMeta>
+         <pieceId>p12</pieceId>
+         <pieceTitle>The Theatre</pieceTitle>
+         <piecePage>203-205</piecePage>
+         <piecePdfIndex>11</piecePdfIndex>
+         <pieceListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18450329-p12-eapoe</personPieceMetaId>
+            </eapoe>
+         </pieceListPerson>
+      </pieceMeta>
+   </p12>
+   <p13>
+      <pieceMeta>
+         <pieceId>p13</pieceId>
+         <pieceTitle>The Concert Room</pieceTitle>
+         <piecePage>205-206</piecePage>
+         <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <hcwatson>
+               <personId>hcwatson</personId>
+               <personPieceMetaId>ppm-18450329-p13-hcwatson</personPieceMetaId>
+            </hcwatson>
+         </pieceListPerson>
+      </pieceMeta>
+   </p13>
+   <p14>
+      <pieceMeta>
+         <pieceId>p14</pieceId>
+         <pieceTitle>N. Y. Vocal Society</pieceTitle>
+         <piecePage>206</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <k>
+               <personId>k</personId>
+               <personPieceMetaId>ppm-18450329-p14-k</personPieceMetaId>
+            </k>
+         </pieceListPerson>
+      </pieceMeta>
+   </p14>
+   <p15>
+      <pieceMeta>
+         <pieceId>p15</pieceId>
+         <pieceTitle>Musical Review</pieceTitle>
+         <piecePage>206</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450329-p15-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p15>
+   <p16>
+      <pieceMeta>
+         <pieceId>p16</pieceId>
+         <pieceTitle>Stodart and Dunham's Piano Forte Manufactory</pieceTitle>
+         <piecePage>206-207</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450329-p16-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p16>
+   <p17>
+      <pieceMeta>
+         <pieceId>p17</pieceId>
+         <pieceTitle>Miscellany</pieceTitle>
+         <piecePage>207</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450329-p17-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p17>
+   <p18>
+      <pieceMeta>
+         <pieceId>p18</pieceId>
+         <pieceTitle>A Mistake</pieceTitle>
+         <piecePage>207</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450329-p18-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p18>
+   <s2>
+      <sectionMeta>
+         <sectionId>s2</sectionId>
+         <sectionTitle>Advertisements</sectionTitle>
+         <sectionPage>207-208</sectionPage>
+         <sectionPdfIndex>15</sectionPdfIndex>
+         <sectionListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450329-s2-anon</personPieceMetaId>
+            </anon>
+         </sectionListPerson>
+      </sectionMeta>
+   </s2>
 </issue>

@@ -36,7 +36,7 @@
       <issueId>18450823</issueId>
       <pieceId>p4</pieceId>
       <personId>frobinson</personId>
-      <personName>Fayette Robinson</personName>
+      <personName>Fay Robinson</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>attested</authorStatus>
@@ -53,17 +53,18 @@
          <authorStatus>unknown</authorStatus>
       </authorShip>
    </ppm-18450823-p5-anon>
-   <ppm-18450823-p6-fbathos>
+   <ppm-18450823-p6-cmathews>
       <issueId>18450823</issueId>
       <pieceId>p6</pieceId>
-      <personId>fbathos</personId>
-      <personName>Fidelius Bathos</personName>
+      <personId>cmathews</personId>
+      <personName>Cornelius Mathews</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
-         <authorStatus>attested</authorStatus>
-         <authorCertainty>low</authorCertainty>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: https://books.google.com)</authorReference>
       </authorShip>
-   </ppm-18450823-p6-fbathos>
+   </ppm-18450823-p6-cmathews>
    <ppm-18450823-p7-eapoe>
       <issueId>18450823</issueId>
       <pieceId>p7</pieceId>

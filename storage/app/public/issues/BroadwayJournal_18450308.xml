@@ -49,6 +49,7 @@
          
          <div class="piece" id="#p1">
             <div class="biblTitle">Woman in the Nineteenth Century, Second Notice</div>
+            <div class="biblPage">145</div>
             
             <div class="head">Woman in the Nineteenth Century.</div>
             
@@ -261,6 +262,7 @@
          
          <div class="piece" id="#p2">
             <div class="biblTitle">Glossary of Ecclesiastical Ornament and Costume</div>
+            <div class="biblPage">146</div>
             
             <p>Glossary or Ecclesiastical Ornament and Costume. Compiled and illustra-
                ted from ancient authorities and examples, by A. Welby Puyin, architect.
@@ -384,6 +386,7 @@
          
          <div class="piece" id="#p3">
             <div class="biblTitle">Imitation—Plagiarism—Mr. Poe’s Reply</div>
+            <div class="biblPage">147</div>
             
             <p>IMITATION—PLAGIARISM—MR. POE’S REPLY TO THE LETTER OF
                OUTIS—A LARGE ACCOUNT OF A SMALL MATTER—A VOLUMINOUS HISTORY OF THE LITTLE LONGFELLOW WAR.
@@ -989,6 +992,7 @@
       
       <div class="piece" id="#p4">
          <div class="biblTitle">The Art of the Use of Color in Imitation in Painting</div>
+         <div class="biblPage">150</div>
          
          <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING.</div>
          
@@ -1150,6 +1154,7 @@
       
       <div class="piece" id="#p5">
          <div class="biblTitle">Thoughts of a Silent Man</div>
+         <div class="biblPage">151154</div>
          
          <div class="head">THOUGHTS OF A SILENT MAN.</div>
          
@@ -1231,6 +1236,7 @@
       
       <div class="piece" id="#p6">
          <div class="biblTitle">Letter from James Given</div>
+         <div class="biblPage">152</div>
          
          <div class="head">Letter from James Given in New York, to his Cousin Hugh Hughes, of Pool Lane,
             Liverpool.
@@ -1325,6 +1331,7 @@
       
       <div class="piece" id="#p7">
          <div class="biblTitle">Portrait of a Distinguished Authoress</div>
+         <div class="biblPage">152</div>
          
          <p>No person of proper feeling can peruse the works of a distinguished author or authoress
             (the latter is a very absurd word, to be sure, but
@@ -1391,6 +1398,7 @@
       
       <div class="piece" id="#p5">
          <div class="biblTitle">Thoughts of a Silent Man</div>
+         <div class="biblPage">151154</div>
          
          <div class="ab">(Continued from page 152.)</div>
          
@@ -1483,6 +1491,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">The Ghost-Seer</div>
+            <div class="biblPage">154</div>
             
             <div class="head">THE GHOST-SEER.</div>
             
@@ -1886,6 +1895,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">A Lecture on the Philosophy of Vegetation</div>
+            <div class="biblPage">155</div>
             
             <p>A Lecture on the Philosophy of Vegetation. Read at the Organization of
                the American Agricultural Association, at the University in the City of
@@ -1934,6 +1944,7 @@
          
          <div class="piece" id="#p10">
             <div class="biblTitle">Mothers' Lessons for Little Girls and Boys</div>
+            <div class="biblPage">155</div>
             
             <p>Mothers' Lessons for little Girls and Boys. By a Lady of Boston.
                Little Stories for Little Folks. From the German. Boston. Published by W.
@@ -1952,6 +1963,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">The Gambler's Mirror</div>
+            <div class="biblPage">155</div>
             
             <p>The Gambler's Mirror, Vol. 1. No. 1. Boston, Redding &amp; Co., 1845.
                Gambling unmasked, or the Reformed Gambler, designed as a warning to the
@@ -1981,6 +1993,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">The Last of the Plantagenets</div>
+            <div class="biblPage">155</div>
             
             <p>The Last of the Plantagenets, a Tragic Drama in three acts. By Caroline M. Keteltas.
                Founded on the romance of that name by William Heseltine of Turret house, South Lambeth,
@@ -2016,6 +2029,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">The Knickerbocker</div>
+            <div class="biblPage">156</div>
             
             <p>The Knickerbocker, March, 1349. John Allen, 139 Nassau St.</p>
             
@@ -2031,6 +2045,7 @@
          
          <div class="piece" id="#p14">
             <div class="biblTitle">The Saturday Emporium</div>
+            <div class="biblPage">156</div>
             
             <p>The Saturday Emporium. March 1st, 1345. Ward A Go., Ann St., New-
                York.
@@ -2061,6 +2076,7 @@
          
          <div class="piece" id="#p15">
             <div class="biblTitle">The Foreign Quarterly Review</div>
+            <div class="biblPage">156</div>
             
             <p>The Foreign Quarterly Review. No. LXVIII. for January, 1845. Ameri- can edition,
                Leonard Scott &amp; Co., 112 Fulton st.
@@ -2078,6 +2094,7 @@
          
          <div class="piece" id="#p16">
             <div class="biblTitle">Blackwood's Magazine</div>
+            <div class="biblPage">156</div>
             
             <p>Blackwood's Magazine. February. New American Edition. New-York.—
                Published by Leonard Scott &amp; Co., 113 Fulton St.
@@ -2100,6 +2117,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">A New Picture by Chapman</div>
+            <div class="biblPage">156</div>
             
             <p>A New picture by Chapman has been exhibited at the the rooms of
                the Art Union in Broadway, the last fortnight, representing Rachel,
@@ -2118,6 +2136,7 @@
          
          <div class="piece" id="#p18">
             <div class="biblTitle">We Have Recently Inspected</div>
+            <div class="biblPage">156</div>
             
             <p>We have recently inspected the portraits of a horse and a Shetland
                poney, painted by Mr. T. Hicks, for John H. Hicks, Esq. of this city,
@@ -2134,6 +2153,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">The Granite Buildings</div>
+            <div class="biblPage">156</div>
             
             <p>The granite buildings on the corner of Chambers-street and Broadway, is a huge eccaleiobeon, for hatching artists. On every floor of
                that capacious building may be found a half dozen of painters or sculptors, who are just bursting from the chrysalis of obscurity and preparing to spread their butterfly wings and soar into the summer sky of
@@ -2150,6 +2170,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">Mons. Edouart's Silhouettes</div>
+            <div class="biblPage">156</div>
             
             <p>Mons. Edouart’s Silhouettes —The works of this gentleman deserve to be classed among works of fine-art. His mere profile cuttings,
                perhaps, do not; although even his scissored portraits better deserve
@@ -2170,6 +2191,7 @@
       
       <div class="piece" id="#p21">
          <div class="biblTitle">The Concert Room</div>
+         <div class="biblPage">156</div>
          
          <div class="head">THE CONCERT ROOM.</div>
          
@@ -2338,6 +2360,7 @@
          
          <div class="piece" id="#p22">
             <div class="biblTitle">Marco Bordogni</div>
+            <div class="biblPage">157</div>
             
             <p>From A. Fiot, 196 Chesnut St., Philadelphia, and W. Dubois 315
                Broadway, New York.
@@ -2434,6 +2457,7 @@
          
          <div class="piece" id="#p23">
             <div class="biblTitle">Bertini's Great Method for the Piano-Forte</div>
+            <div class="biblPage">158</div>
             
             <p>Bertini’s Great Method tor the Piano-Forte.—Every teacher of every grade in the profession, has felt for years the want of a
                Piano-Forte instruction bonk, which should contain in its single compass matter sufficient for many months' consideration and practice;—
@@ -2500,6 +2524,7 @@
          
          <div class="piece" id="#p24">
             <div class="biblTitle">To Accordian Players</div>
+            <div class="biblPage">158</div>
             
             <p>To Accordion Players.—We call the attention of professional and
                amateur performers on this instrument, to the admirable improvements made upon it by Mr. Dumsday, Professor of Music, 55 Christie
@@ -2521,6 +2546,7 @@
       
       <div class="piece" id="#p25">
          <div class="biblTitle">Musical Items</div>
+         <div class="biblPage">158</div>
          
          <div class="head">MUSICAL ITEMS.</div>
          
@@ -2696,6 +2722,7 @@
       
       <div class="piece" id="#p27">
          <div class="biblTitle">Mr. Webster and His Friends</div>
+         <div class="biblPage">159</div>
          
          <p>Mr. Webster and his Friends.—There have been a variety of statements in the newspapers the past month or two, respecting
             a magnificent donation said to have been made to Daniel Webster, to
@@ -2721,6 +2748,7 @@
       
       <div class="piece" id="#p28">
          <div class="biblTitle">In a Late Lecture</div>
+         <div class="biblPage">159</div>
          
          <p>In a late lecture on the "Poets and Poetry of America,” delivered
             before an audience made up chiefly of editors and their connexions, I
@@ -2770,6 +2798,7 @@
       
       <div class="section" id="#s7">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">159</div>
          
          <div>
             
@@ -3214,6 +3243,7 @@
       
       <div class="piece" id="#p29">
          <div class="biblTitle">Prospectus of the Broadway Journal</div>
+         <div class="biblPage">160</div>
          
          <div class="head">Prospectus of the Broadway Journal.</div>
          
