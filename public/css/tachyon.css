@@ -249,7 +249,7 @@ input:focus {
 
 .issueBody {
   background: white;
-  margin-top: 1;
+  margin-top: 0px;
   margin-left: 1px;
   flex-grow: 2;
   width: 70%;
@@ -789,6 +789,7 @@ span.searchHit {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0;
 }
 .issueHeader .pieceMeta {
   margin-bottom: 30px;
