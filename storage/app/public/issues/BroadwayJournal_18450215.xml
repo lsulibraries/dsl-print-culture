@@ -35,6 +35,7 @@
          
          <div class="piece" id="#p1">
             <div class="biblTitle">Woman in the Nineteenth Century</div>
+            <div class="biblPage">97</div>
             
             <div class="ab">Woman in the Nineteenth Century.</div>
             
@@ -206,6 +207,7 @@
          
          <div class="piece" id="#p2">
             <div class="biblTitle">Rome; as Seen by a New Yorker</div>
+            <div class="biblPage">98</div>
             
             
             <div class="ab">Rome ; as Seen by a New Yorker in 1843-4. New York and London.
@@ -430,6 +432,7 @@
          
          <div class="piece" id="#p3">
             <div class="biblTitle">Letters from a Landscape Painter</div>
+            <div class="biblPage">99</div>
             
             <div class="ab">Letters from a Landscape Painter.—By the author of Essays
                
@@ -741,6 +744,7 @@
          
          <div class="piece" id="#p4">
             <div class="biblTitle">Monsieur Edouart's Silhouette Rooms</div>
+            <div class="biblPage">101</div>
             
             <div class="head">MONSIEUR EDOUART’S SILHOUETTE ROOMS.</div>
             
@@ -917,6 +921,7 @@
          
          <div class="piece" id="#p5">
             <div class="biblTitle">The New York Gallery of the Fine Arts</div>
+            <div class="biblPage">102</div>
             
             <div class="head">THE NEW YORK GALLERY OF THE FINE ARTS</div>
             
@@ -1018,6 +1023,7 @@
       
       <div class="piece" id="#p6">
          <div class="biblTitle">Some Secrets of the Magazine Prison-House</div>
+         <div class="biblPage">103</div>
          
          <div class="head">SOME SECRETS OF THE MAGAZINE PRISON-HOUSE.</div>
          
@@ -1133,6 +1139,7 @@
          
          <div class="piece" id="#p7">
             <div class="biblTitle">Remembered Music: A Fragment</div>
+            <div class="biblPage">104</div>
             
             <div class="head">REMEMBERED MUSIC.
                A FRAGMENT.
@@ -1182,6 +1189,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">The Revelation</div>
+            <div class="biblPage">104</div>
             
             <div class="head">THE REVELATION.</div>
             
@@ -1314,6 +1322,7 @@
       
       <div class="piece" id="#p9">
          <div class="biblTitle">Horace Greeley</div>
+         <div class="biblPage">105</div>
          
          <div class="head">HORACE GREELEY.</div>
          
@@ -1398,6 +1407,7 @@
       
       <div class="piece" id="#p10">
          <div class="biblTitle">The Great Tower of Tarudant</div>
+         <div class="biblPage">106</div>
          
          <div class="head">THE GREAT TOWER OF TARUDANT.</div>
          
@@ -1708,6 +1718,7 @@
       
       <div class="piece" id="#p11">
          <div class="biblTitle">The Concert Room</div>
+         <div class="biblPage">107</div>
          
          <div class="head">THE CONCERT ROOM.</div>
          
@@ -1808,6 +1819,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">Cheap Postage</div>
+            <div class="biblPage">108</div>
             
             <div class="head">CHEAP POSTAGE.</div>
             
@@ -1904,6 +1916,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">Thefts of American Authors</div>
+            <div class="biblPage">109</div>
             
             <div class="head">THEFTS OF AMERICAN AUTHORS.</div>
             
@@ -2045,6 +2058,7 @@
       
       <div class="piece" id="#p14">
          <div class="biblTitle">The Magazines</div>
+         <div class="biblPage">109</div>
          
          <div class="head">THE MAGAZINES.</div>
          
@@ -2135,6 +2149,7 @@
          
          <div class="piece" id="#p15">
             <div class="biblTitle">A Plea for Woman</div>
+            <div class="biblPage">110</div>
             
             <div class="ab">A Plea for Woman, being a Vindication of the importance and extent of her
                
@@ -2175,6 +2190,7 @@
          
          <div class="piece" id="#p16">
             <div class="biblTitle">Hunt's Merchants' Magazine for February</div>
+            <div class="biblPage">110</div>
             
             <div class="ab">Hunt’s Merchants' Magazine for February.</div>
             
@@ -2196,6 +2212,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">The Monthly Rose</div>
+            <div class="biblPage">110</div>
             
             <div class="ab">The Monthly Rose. Vol. I. No. 2. A periodical sustained by the present
                
@@ -2218,6 +2235,7 @@
          
          <div class="piece" id="#p18">
             <div class="biblTitle">Guano: Its Origin, Properties, and Uses</div>
+            <div class="biblPage">110</div>
             
             <div class="ab">Guano; its Origin, Properties, and Uses—showing its importance to the Far-
                
@@ -2248,6 +2266,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">The Edinburgh Review</div>
+            <div class="biblPage">110</div>
             
             <div class="ab">The Edinburgh Review. No. clxiii, for January, 1845. American Edition.
                
@@ -2283,6 +2302,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">School for the Arts of Design</div>
+            <div class="biblPage">110</div>
             
             <p>Schnol for the Arts of Design.—The Mechanic’s Institute of
                this city have established an Evening School for the Arts of Design, as
@@ -2306,6 +2326,7 @@
          
          <div class="piece" id="#p21">
             <div class="biblTitle">The Common Council</div>
+            <div class="biblPage">110</div>
             
             <p>The Common Council have unanimously resolved to allow the use of
                the building in the Park, known as the Rotunda, to the New York
@@ -2325,6 +2346,7 @@
       
       <div class="piece" id="#p22">
          <div class="biblTitle">Musical Intelligence</div>
+         <div class="biblPage">110</div>
          
          <div class="head">MUSICAL INTELLIGENCE.</div>
          
@@ -2385,6 +2407,7 @@
          
          <div class="piece" id="#p23">
             <div class="biblTitle">For the Broadway Journal</div>
+            <div class="biblPage">111</div>
             
             <p>For the Broadway Journal.</p>
             
@@ -2425,6 +2448,7 @@
          
          <div class="piece" id="#p24">
             <div class="biblTitle">To the Editor of the Broadway Journal</div>
+            <div class="biblPage">111</div>
             
             <p>To the Editor of the Broadway Journal.</p>
             
@@ -2458,6 +2482,7 @@
          
          <div class="piece" id="#p25">
             <div class="biblTitle">To the Editor of the Broadway Journal</div>
+            <div class="biblPage">111</div>
             
             <p>To the Editor of the Broadway Journal.</p>
             
@@ -2500,6 +2525,7 @@
       
       <div class="section" id="#s8">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">111</div>
          
          
          

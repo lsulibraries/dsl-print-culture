@@ -1,2 +1,442 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<personPieceMeta/>
+<personPieceMeta>
+   <ppm-18450405-p1-cfbriggs>
+      <issueId>18450405</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p1-cfbriggs>
+   <ppm-18450405-p2-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p2</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p2-eapoe>
+   <ppm-18450405-p3-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p3</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p3-eapoe>
+   <ppm-18450405-p4-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p4</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p4-eapoe>
+   <ppm-18450405-p5-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p5</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p5-eapoe>
+   <ppm-18450405-p6-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p6</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p6-eapoe>
+   <ppm-18450405-p7-cfbriggs>
+      <issueId>18450405</issueId>
+      <pieceId>p7</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p7-cfbriggs>
+   <ppm-18450405-p8-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p8</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p8-anon>
+   <ppm-18450405-p9-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p9</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p9-anon>
+   <ppm-18450405-p10-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p10</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p10-eapoe>
+   <ppm-18450405-p11-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p11</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p11-eapoe>
+   <ppm-18450405-p12-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p12</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p12-anon>
+   <ppm-18450405-p13-cfbriggs>
+      <issueId>18450405</issueId>
+      <pieceId>p13</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p13-cfbriggs>
+   <ppm-18450405-p14-cfbriggs>
+      <issueId>18450405</issueId>
+      <pieceId>p14</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p14-cfbriggs>
+   <ppm-18450405-p15-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p15</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p15-anon>
+   <ppm-18450405-p16-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p16</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p16-anon>
+   <ppm-18450405-p17-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p17</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p17-anon>
+   <ppm-18450405-p18-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p18</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p18-eapoe>
+   <ppm-18450405-p19-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p19</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p19-eapoe>
+   <ppm-18450405-p20-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p20</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p20-anon>
+   <ppm-18450405-p21-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p21</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPiecePseudo>E. A. P.</personPiecePseudo>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p21-eapoe>
+   <ppm-18450405-p22-ecembury>
+      <issueId>18450405</issueId>
+      <pieceId>p22</pieceId>
+      <personId>ecembury</personId>
+      <personName>Emma Catherine Embury</personName>
+      <personPiecePseudo>Rudolph Hertzman</personPiecePseudo>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>inferred</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p22-ecembury>
+   <ppm-18450405-p23-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p23</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p23-anon>
+   <ppm-18450405-p24-fsosgood>
+      <issueId>18450405</issueId>
+      <pieceId>p24</pieceId>
+      <personId>fsosgood</personId>
+      <personName>Frances Sargent Osgood</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p24-fsosgood>
+   <ppm-18450405-p26-cfbriggs>
+      <issueId>18450405</issueId>
+      <pieceId>p26</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p26-cfbriggs>
+   <ppm-18450405-p27-fsosgood>
+      <issueId>18450405</issueId>
+      <pieceId>p27</pieceId>
+      <personId>fsosgood</personId>
+      <personName>Frances Sargent Osgood</personName>
+      <personPiecePseudo>Violet Vane</personPiecePseudo>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p27-fsosgood>
+   <ppm-18450405-p28-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p28</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p28-eapoe>
+   <ppm-18450405-p29-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p29</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p29-eapoe>
+   <ppm-18450405-p30-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p30</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p30-eapoe>
+   <ppm-18450405-p31-eapoe>
+      <issueId>18450405</issueId>
+      <pieceId>p31</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p31-eapoe>
+   <ppm-18450405-p32-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p32</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p32-anon>
+   <ppm-18450405-p33-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p33</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p33-anon>
+   <ppm-18450405-p34-cfbriggs>
+      <issueId>18450405</issueId>
+      <pieceId>p34</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p34-cfbriggs>
+   <ppm-18450405-p35-cfbriggs>
+      <issueId>18450405</issueId>
+      <pieceId>p35</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450405-p35-cfbriggs>
+   <ppm-18450405-p36-hcwatson>
+      <issueId>18450405</issueId>
+      <pieceId>p36</pieceId>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p36-hcwatson>
+   <ppm-18450405-p37-hcwatson>
+      <issueId>18450405</issueId>
+      <pieceId>p37</pieceId>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+      </authorShip>
+   </ppm-18450405-p37-hcwatson>
+   <ppm-18450405-p38-hcwatson>
+      <issueId>18450405</issueId>
+      <pieceId>p38</pieceId>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p38-hcwatson>
+   <ppm-18450405-p39-hcwatson>
+      <issueId>18450405</issueId>
+      <pieceId>p39</pieceId>
+      <personId>hcwatson</personId>
+      <personName>Henry Cood Watson</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450405-p39-hcwatson>
+   <ppm-18450405-p40-anon>
+      <issueId>18450405</issueId>
+      <pieceId>p40</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450405-p40-anon>
+</personPieceMeta>

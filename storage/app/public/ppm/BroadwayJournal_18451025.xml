@@ -29,7 +29,7 @@
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>attested</authorStatus>
-         <authorCertainty>low</authorCertainty>
+         <authorCertainty>high</authorCertainty>
       </authorShip>
    </ppm-18451025-p3-wg>
    <ppm-18451025-p4-anon>
@@ -50,8 +50,7 @@
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>supplied</authorStatus>
-         <authorCertainty>medium</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
+         <authorCertainty>low</authorCertainty>
       </authorShip>
    </ppm-18451025-p5-amide>
    <ppm-18451025-p6-eapoe>
@@ -87,74 +86,36 @@
          <authorCertainty>low</authorCertainty>
       </authorShip>
    </ppm-18451025-p8-lsy>
-   <ppm-18451025-p9-eapoe>
+   <ppm-18451025-s1-eapoe>
       <issueId>18451025</issueId>
-      <pieceId>p9</pieceId>
+      <sectionId>s1</sectionId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18451025-s1-eapoe>
+   <ppm-18451025-s2-eapoe>
+      <issueId>18451025</issueId>
+      <sectionId>s2</sectionId>
       <personId>eapoe</personId>
       <personName>Edgar Allan Poe</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>supplied</authorStatus>
          <authorCertainty>high</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
-   </ppm-18451025-p9-eapoe>
-   <ppm-18451025-p10-eapoe>
+   </ppm-18451025-s2-eapoe>
+   <ppm-18451025-p14-anon>
       <issueId>18451025</issueId>
-      <pieceId>p10</pieceId>
-      <personId>eapoe</personId>
-      <personName>Edgar Allan Poe</personName>
-      <personPieceRole>Contributor</personPieceRole>
-      <authorShip>
-         <authorStatus>supplied</authorStatus>
-         <authorCertainty>medium</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
-      </authorShip>
-   </ppm-18451025-p10-eapoe>
-   <ppm-18451025-p11-eapoe>
-      <issueId>18451025</issueId>
-      <pieceId>p11</pieceId>
-      <personId>eapoe</personId>
-      <personName>Edgar Allan Poe</personName>
-      <personPieceRole>Contributor</personPieceRole>
-      <authorShip>
-         <authorStatus>supplied</authorStatus>
-         <authorCertainty>medium</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
-      </authorShip>
-   </ppm-18451025-p11-eapoe>
-   <ppm-18451025-p12-anon>
-      <issueId>18451025</issueId>
-      <pieceId>p12</pieceId>
+      <pieceId>p14</pieceId>
       <personId>anon</personId>
       <personName>Anonymous</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>unknown</authorStatus>
       </authorShip>
-   </ppm-18451025-p12-anon>
-   <ppm-18451025-p13-eapoe>
-      <issueId>18451025</issueId>
-      <pieceId>p13</pieceId>
-      <personId>eapoe</personId>
-      <personName>Edgar Allan Poe</personName>
-      <personPieceRole>Contributor</personPieceRole>
-      <authorShip>
-         <authorStatus>supplied</authorStatus>
-         <authorCertainty>medium</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
-      </authorShip>
-   </ppm-18451025-p13-eapoe>
-   <ppm-18451025-p14-eapoe>
-      <issueId>18451025</issueId>
-      <pieceId>p14</pieceId>
-      <personId>eapoe</personId>
-      <personName>Edgar Allan Poe</personName>
-      <personPieceRole>Contributor</personPieceRole>
-      <authorShip>
-         <authorStatus>supplied</authorStatus>
-         <authorCertainty>high</authorCertainty>
-         <authorReference>(Reference: eapoe.org)</authorReference>
-      </authorShip>
-   </ppm-18451025-p14-eapoe>
+   </ppm-18451025-p14-anon>
 </personPieceMeta>

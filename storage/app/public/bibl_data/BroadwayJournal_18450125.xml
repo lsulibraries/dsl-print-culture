@@ -7,20 +7,21 @@
       <issueNum>4</issueNum>
       <issueDate>January 25, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
    <s1>
@@ -37,10 +38,10 @@
          <piecePage>49-50</piecePage>
          <piecePdfIndex>1</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450125-p1-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p1>
@@ -48,14 +49,14 @@
       <sectionId>s1</sectionId>
       <pieceMeta>
          <pieceId>p2</pieceId>
-         <pieceTitle>The Natural Boundaries of the Empires, and a New View of Colonization</pieceTitle>
+         <pieceTitle>The Natural Boundaries of the Empires</pieceTitle>
          <piecePage>50-52</piecePage>
          <piecePdfIndex>2</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450125-p2-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p2>
@@ -67,10 +68,10 @@
          <piecePage>52</piecePage>
          <piecePdfIndex>4</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450125-p3-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p3>
@@ -82,10 +83,10 @@
          <piecePage>52-53</piecePage>
          <piecePdfIndex>4</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450125-p4-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p4>
@@ -97,10 +98,10 @@
          <piecePage>53-54</piecePage>
          <piecePdfIndex>5</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450125-p5-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p5>
@@ -111,10 +112,10 @@
          <piecePage>55-56</piecePage>
          <piecePdfIndex>7</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450125-p6-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p6>
@@ -132,10 +133,10 @@
          <piecePage>56</piecePage>
          <piecePdfIndex>8</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <hrschoolcraft>
                <personId>hrschoolcraft</personId>
                <personPieceMetaId>ppm-18450125-p7-hrschoolcraft</personPieceMetaId>
-            </person>
+            </hrschoolcraft>
          </pieceListPerson>
       </pieceMeta>
    </p7>
@@ -147,10 +148,10 @@
          <piecePage>56</piecePage>
          <piecePdfIndex>8</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p8-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p8>
@@ -161,10 +162,10 @@
          <piecePage>57</piecePage>
          <piecePdfIndex>9</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p9-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p9>
@@ -182,10 +183,10 @@
          <piecePage>58</piecePage>
          <piecePdfIndex>10</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <jrlowell>
                <personId>jrlowell</personId>
                <personPieceMetaId>ppm-18450125-p10-jrlowell</personPieceMetaId>
-            </person>
+            </jrlowell>
          </pieceListPerson>
       </pieceMeta>
    </p10>
@@ -197,10 +198,10 @@
          <piecePage>58</piecePage>
          <piecePdfIndex>10</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <jrlowell>
                <personId>jrlowell</personId>
                <personPieceMetaId>ppm-18450125-p11-jrlowell</personPieceMetaId>
-            </person>
+            </jrlowell>
          </pieceListPerson>
       </pieceMeta>
    </p11>
@@ -218,10 +219,10 @@
          <piecePage>58</piecePage>
          <piecePdfIndex>10</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p12-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p12>
@@ -233,10 +234,10 @@
          <piecePage>58</piecePage>
          <piecePdfIndex>10</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p13-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p13>
@@ -247,10 +248,10 @@
          <piecePage>58-59</piecePage>
          <piecePdfIndex>10</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <cfbriggs>
                <personId>cfbriggs</personId>
                <personPieceMetaId>ppm-18450125-p14-cfbriggs</personPieceMetaId>
-            </person>
+            </cfbriggs>
          </pieceListPerson>
       </pieceMeta>
    </p14>
@@ -261,10 +262,10 @@
          <piecePage>59-60</piecePage>
          <piecePdfIndex>11</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p15-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p15>
@@ -275,10 +276,10 @@
          <piecePage>60</piecePage>
          <piecePdfIndex>12</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p16-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p16>
@@ -286,12 +287,6 @@
       <sectionMeta>
          <sectionId>s5</sectionId>
          <sectionTitle>Illustrated Magazines</sectionTitle>
-         <sectionListPerson>
-            <person>
-               <personId>cfbriggs</personId>
-               <personPieceMetaId>ppm-18450125-s5-cfbriggs</personPieceMetaId>
-            </person>
-         </sectionListPerson>
       </sectionMeta>
    </s5>
    <p17>
@@ -301,6 +296,12 @@
          <pieceTitle>Godey's Magazine and Lady's Book</pieceTitle>
          <piecePage>60-61</piecePage>
          <piecePdfIndex>12</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p17-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p17>
    <p18>
@@ -310,6 +311,12 @@
          <pieceTitle>Graham's Magazine of Literature and Art</pieceTitle>
          <piecePage>61</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p18-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p18>
    <p19>
@@ -319,18 +326,18 @@
          <pieceTitle>The Columbian Lady's and Gentleman's Magazine</pieceTitle>
          <piecePage>61</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p19-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p19>
    <s6>
       <sectionMeta>
          <sectionId>s6</sectionId>
          <sectionTitle>Literary Notices</sectionTitle>
-         <sectionListPerson>
-            <person>
-               <personId>cfbriggs</personId>
-               <personPieceMetaId>ppm-18450125-s6-cfbriggs</personPieceMetaId>
-            </person>
-         </sectionListPerson>
       </sectionMeta>
    </s6>
    <p20>
@@ -340,6 +347,12 @@
          <pieceTitle>The Life and Correspondence of Thomas Arnold</pieceTitle>
          <piecePage>61</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p20-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p20>
    <p21>
@@ -349,6 +362,12 @@
          <pieceTitle>Oneota, or the Red Race of America</pieceTitle>
          <piecePage>61</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p21-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p21>
    <p22>
@@ -358,6 +377,12 @@
          <pieceTitle>The Southern Quarterly Review</pieceTitle>
          <piecePage>61-62</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p22-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p22>
    <p23>
@@ -367,6 +392,12 @@
          <pieceTitle>The Waif</pieceTitle>
          <piecePage>62</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p23-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p23>
    <p24>
@@ -376,6 +407,12 @@
          <pieceTitle>Dunigan's Illustrated Edition of the Bible</pieceTitle>
          <piecePage>62</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450125-p24-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
       </pieceMeta>
    </p24>
    <p25>
@@ -385,10 +422,10 @@
          <piecePage>62</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p25-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p25>
@@ -406,10 +443,10 @@
          <piecePage>62</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p26-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p26>
@@ -421,13 +458,28 @@
          <piecePage>62-63</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
          <pieceListPerson>
-            <person>
-               <personId>anon</personId>
-               <personPieceMetaId>ppm-18450125-p27-anon</personPieceMetaId>
-            </person>
+            <gsprudence>
+               <personId>gsprudence</personId>
+               <personPieceMetaId>ppm-18450125-p27-gsprudence</personPieceMetaId>
+            </gsprudence>
          </pieceListPerson>
       </pieceMeta>
    </p27>
+   <p30>
+      <sectionId>s7</sectionId>
+      <pieceMeta>
+         <pieceId>p30</pieceId>
+         <pieceTitle>To the Editor of the Broadway Journal</pieceTitle>
+         <piecePage>63</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450125-p30-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p30>
    <p28>
       <pieceMeta>
          <pieceId>p28</pieceId>
@@ -435,10 +487,10 @@
          <piecePage>63</piecePage>
          <piecePdfIndex>15</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18450125-p28-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p28>

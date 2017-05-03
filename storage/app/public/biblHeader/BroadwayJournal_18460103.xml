@@ -7,20 +7,16 @@
       <issueNum>26</issueNum>
       <issueDate>January 3, 1846</issueDate>
       <issueListPerson>
-         <person>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
-            <personName>[?]</personName>
-            <personIssueRole>Printer</personIssueRole>
-         </person>
+         </eapoe>
       </issueListPerson>
    </issueMeta>
    <listBibl/>

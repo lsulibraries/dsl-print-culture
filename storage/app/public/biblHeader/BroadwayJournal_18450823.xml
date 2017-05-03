@@ -7,25 +7,21 @@
       <issueNum>7</issueNum>
       <issueDate>August 23, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <hcwatson>
             <personId>hcwatson</personId>
             <personName>Henry Cood Watson</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </hcwatson>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
-            <personName>[?]</personName>
-            <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jbisco>
       </issueListPerson>
    </issueMeta>
    <listBibl>
@@ -91,7 +87,7 @@
          </pieceMeta>
          <pieceListPerson>
             <frobinson>
-               <personName>Fayette Robinson</personName>
+               <personName>Fay Robinson</personName>
                <personPieceRole>Contributor</personPieceRole>
                <authorShip>
                   <authorStatus>attested</authorStatus>
@@ -125,14 +121,15 @@
             <piecePdfIndex>5</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <fbathos>
-               <personName>Fidelius Bathos</personName>
+            <cmathews>
+               <personName>Cornelius Mathews</personName>
                <personPieceRole>Contributor</personPieceRole>
                <authorShip>
-                  <authorStatus>attested</authorStatus>
-                  <authorCertainty>low</authorCertainty>
+                  <authorStatus>inferred</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+                  <authorReference>(Reference: https://books.google.com)</authorReference>
                </authorShip>
-            </fbathos>
+            </cmathews>
          </pieceListPerson>
       </p6>
       <s1>

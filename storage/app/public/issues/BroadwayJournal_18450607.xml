@@ -25,6 +25,7 @@
       
       <div class="piece" id="#p1">
          <div class="biblTitle">Fountains</div>
+         <div class="biblPage">353</div>
          
          <div class="head">FOUNTAINS.</div>
          
@@ -153,6 +154,7 @@
       
       <div class="piece" id="#p2">
          <div class="biblTitle">Magazine Writing--Peter Snook</div>
+         <div class="biblPage">354</div>
          
          <div class="head">MAGAZINE-WRITING—PETER SNOOK.</div>
          
@@ -550,6 +552,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">The Assignation</div>
+         <div class="biblPage">357</div>
          <div class="head">THE ASSIGNATION.</div>
          
          <div class="lg">
@@ -1004,6 +1007,7 @@
          
          <div class="piece" id="#p4">
             <div class="biblTitle">Song of the Flowers to the Sunbeam</div>
+            <div class="biblPage">360</div>
             <div class="head">SONG OF THE FLOWERS TO THE SUNBEAM.</div>
             
             <div class="lg">
@@ -1107,6 +1111,7 @@
          
          <div class="piece" id="#p5">
             <div class="biblTitle">Astarte</div>
+            <div class="biblPage">360</div>
             <div class="head">ASTARTE.</div>
             
             <div class="lg">
@@ -1155,6 +1160,7 @@
          
          <div class="piece" id="#p6">
             <div class="biblTitle">Fleetwood, or The Stain of Birth</div>
+            <div class="biblPage">361</div>
             
             <p>Fleetwood, or The Stain op Birth. A Novel of American Life. By the Author of
                Philip in Search of a Wife, &amp;c., &amp;c. New York. Burgess, Stringer &amp; Co.
@@ -1312,6 +1318,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">An Explanatory and Phonographic Pronouncing Dictionary of the English Language</div>
+            <div class="biblPage">362</div>
             <p>[Under this heading we propose to give merely the title, or a succinct account, of
                all new works which may come to hand, and which are not reviewed at length in
                another portion of the Journal. Many of the publications here announced, however,
@@ -1339,6 +1346,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">Smith's Weekly Volume</div>
+            <div class="biblPage">362</div>
             <p>Smith's Weekly Volume. Conducted by the original Editor of “Waldie's Library.” No.
                1 to 23. Vol. 1.
             </p>
@@ -1353,6 +1361,7 @@
          
          <div class="piece" id="#p10">
             <div class="biblTitle">Manual of Orthopedic Surgery</div>
+            <div class="biblPage">362</div>
             <p>Manual of Orthopedic Surgery. Being a Dissertation which obtained the
                Boylston Prize for 1844, on the following question:— “In what cases and to what
                extent is the division of muscles, tendons, or other parts proper for the relief of
@@ -1366,6 +1375,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">Richardsiana</div>
+            <div class="biblPage">362</div>
             <p>Richardsiana; or, Hits at the Style of Popular American Authors. New York.
                Henderson Greene.
             </p>
@@ -1379,6 +1389,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">The Bustle: A Philosophical and Moral Poem</div>
+            <div class="biblPage">362</div>
             <p>The Bustle: a Philosophical and Moral Poem. Boston. Bela Marsh.</p>
             
             <p>A poem of 155 of the Don Juan stanzas. It is wretchedly 
@@ -1389,6 +1400,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">The Complete Evangelist and The Quaker City</div>
+            <div class="biblPage">363</div>
             <p>The Complete Evangelist. Comprising the History of the Life. Actions, Death,
                Resurrection, Ascension, and Doctrine of Jesus Christ. Intended to embrace every
                important Expression and Idea recorded in the Writings of Matthew, Mark, Luke and
@@ -1412,6 +1424,7 @@
          
          <div class="piece" id="#p14">
             <div class="biblTitle">The Mysteries of Berlin</div>
+            <div class="biblPage">363</div>
             <p>The Mysteries of Berlin. To be completed in Ten Parts. New York. William H.
                Colyer.
             </p>
@@ -1421,6 +1434,7 @@
          
          <div class="piece" id="#p15">
             <div class="biblTitle">Eveline Neville</div>
+            <div class="biblPage">363</div>
             <p>Eveline Neville; or, “A Spirit, yet a Woman too.” By a Lady of the South. New
                York. Burgess &amp; Stringer.
             </p>
@@ -1433,6 +1447,7 @@
          
          <div class="piece" id="#p16">
             <div class="biblTitle">The Progress of Passion</div>
+            <div class="biblPage">363</div>
             <p>The Progress of Passion. A Poem in Four Books. By the Rev. Henry W. Sweetser, M.
                A. New York. C. Shephard.
             </p>
@@ -1483,6 +1498,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">The Crescent and the Cross</div>
+            <div class="biblPage">363</div>
             <p>The Crescent and the Cross. By Eliot Warburton, Esq. Part 1 and 2. Forming Nos. 11
                and 12 of Wiley and Putnam's Library of Choice Reading. Wiley &amp; Putuam 161
                Broadway.
@@ -1497,6 +1513,7 @@
          
          <div class="piece" id="#p18">
             <div class="biblTitle">Lives of Men of Letters and Science Who Flourished in the Time of George III</div>
+            <div class="biblPage">363</div>
             <p>Lives of Men of Letters and Science who flourished in the time of George 111. By Henry Lord Broughum, F.R.S., etc. etc. Philadelphia. Carey &amp;
                Hart.*
             </p>
@@ -1512,6 +1529,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">Vital Christianity</div>
+            <div class="biblPage">363</div>
             <p>Vital Christianity. Essays and Discourses on the Religions of Man and the Religion of God. By Alexander Vinet, D.D., Professor of Theology in Lausaune,
                Switzerland. Translated, with an Introduction. By Robert Turnbull, Pastor of the Harvardstreet church, Boston. Gould, Kendall &amp; Lincoln. 1845.
             </p>
@@ -1526,6 +1544,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">Kohlrausch's History of Germany, No. 5</div>
+            <div class="biblPage">363</div>
             <p>Kohlrauseh's History of Germany. No. 5. Appleton &amp; Co.</p>
             
             <p>The present number brings this valuable history to a close.</p>
@@ -1533,6 +1552,7 @@
          
          <div class="piece" id="#p21">
             <div class="biblTitle">The Sibyl's Book of Fate, The Young Bride's Book, and The Comic English Grammar</div>
+            <div class="biblPage">363</div>
             <div class="ab">The Sibyl's Book of Fate, 
                <br></br>The Voung Bride’s Book, and 
                <br></br>The Comic English
@@ -1549,6 +1569,7 @@
          
          <div class="piece" id="#p22">
             <div class="biblTitle">The Knickerbocker Sketch Book</div>
+            <div class="biblPage">363</div>
             <p>The Knickerbocker Sketch Book. Edited by Lewis Gaylord Clark. New York. Burgess,
                Stringer &amp; Co.
             </p>
@@ -1563,6 +1584,7 @@
          
          <div class="piece" id="#p23">
             <div class="biblTitle">De Rohan, the Court Conspirator</div>
+            <div class="biblPage">363</div>
             <p>De Rohan, the Court Conspirator. Translated from the French of Eugene Sue. Harper
                &amp; Brothers.
             </p>
@@ -1573,6 +1595,7 @@
       
       <div class="piece" id="#p24">
          <div class="biblTitle">Magazines and Reviews</div>
+         <div class="biblPage">363</div>
          <div class="head">MAGAZINES AND REVIEWS.</div>
          
          <p>The Democratic Review for June, is illustrated by a portrait of M. B.
@@ -1612,6 +1635,7 @@
       
       <div class="piece" id="#p25">
          <div class="biblTitle">The Fine Arts</div>
+         <div class="biblPage">364</div>
          <div class="head">THE FINE ARTS.</div>
          
          <p>Another glorious landscape by George Brown has been added to the exhibition-room
@@ -1632,6 +1656,7 @@
       
       <div class="piece" id="#p26">
          <div class="biblTitle">Musical Items</div>
+         <div class="biblPage">364</div>
          <div class="head">MUSICAL ITEMS.</div>
          
          <p>The New Opera at Philadelphia.—We shall present to our readers next week a
@@ -1741,6 +1766,7 @@
       
       <div class="piece" id="#p27">
          <div class="biblTitle">The Grave of L.E.L.</div>
+         <div class="biblPage">365</div>
          <div class="head">THE GRAVE OF L. E. L.</div>
          
          <p>The following graphic description of the burial place of Miss Landon, for the world will never call her Mrs. McLean, is extracted from the journal of an African cruiser, kept by an officer of our navy, and re written by
@@ -1838,6 +1864,7 @@
       
       <div class="piece" id="#p28">
          <div class="biblTitle">A Perfect Lady</div>
+         <div class="biblPage">365</div>
          <div class="head">A PERFECT LADY.</div>
          
          <p>We take the following charming portrait of a very perfect woman from the last number of Coleman’s European Agricultural Tour; we know the author to be a very honest unimaginative person, or we should half suspect that he had been
@@ -1938,6 +1965,7 @@
       
       <div class="piece" id="#p29">
          <div class="biblTitle">Miscellany</div>
+         <div class="biblPage">366</div>
          <div class="head">MISCELLANY.</div>
          
          <p>Castle Garden.—This well known and popular summer resort, is, we are happy to say,
@@ -1971,6 +1999,7 @@
       
       <div class="piece" id="#p30">
          <div class="biblTitle">List of New Books Published in England</div>
+         <div class="biblPage">366</div>
          
          <div class="head">LIST OF NEW BOOKS PUBLISHED IN ENGLAND.</div>
          
@@ -2136,6 +2165,7 @@
       
       <div class="section" id="#s4">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">367</div>
          
          <div>
             
@@ -2617,6 +2647,7 @@
       
       <div class="piece" id="#p31">
          <div class="biblTitle">Agents for the Broadway Journal</div>
+         <div class="biblPage">368</div>
          <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
          
          <div class="ab">Redding &amp; Co.................... Boston, Mass.

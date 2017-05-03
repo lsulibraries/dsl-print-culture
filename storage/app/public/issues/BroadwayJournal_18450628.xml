@@ -20,6 +20,7 @@
       
       <div class="piece" id="#p1">
          <div class="biblTitle">The Adventures of a Gentleman in Search of a Dinner</div>
+         <div class="biblPage">401</div>
          <div class="head">THE ADVENTURES OF A GENTLEMAN IN SEARCH OF A DINNER.</div>
          
          <div class="ab">RELATED BY HIMSELF.</div>
@@ -350,6 +351,7 @@
       
       <div class="piece" id="#p2">
          <div class="biblTitle">British Criticisms on American Art</div>
+         <div class="biblPage">403</div>
          <div class="head">BRITISH CRITICISMS ON AMERICAN ART.</div>
          
          <p>The late London papers contain several notices of American
@@ -489,6 +491,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">Laughing Gas</div>
+         <div class="biblPage">403</div>
          <p>Laughing Gas.—The Tribune has employed Professor Bacon
             to administer doses of this exhilirating substance to its readers. Two doses have already been given, and a third promised
          </p>
@@ -497,6 +500,7 @@
       
       <div class="piece" id="#p4">
          <div class="biblTitle">Correspondence Between a Mother and Governess</div>
+         <div class="biblPage">404</div>
          <div class="head">CORRESPONDENCE BETWEEN A MOTHER AND GOVERNESS.</div>
          
          <p>My Dear Friend:—I am quite easy about my children, as
@@ -753,6 +757,7 @@
       
       <div class="piece" id="#p8">
          <div class="biblTitle">Desultory Thoughts By a Scribbler, No. I</div>
+         <div class="biblPage">405</div>
          <div class="head">DESULTORY THOUQHTS.
             BY A SCRIBBLER.
          </div>
@@ -1072,6 +1077,7 @@
       
       <div class="piece" id="#p9">
          <div class="biblTitle">Dream-Land</div>
+         <div class="biblPage">407</div>
          <div class="head">DREAM-LAND.</div>
          
          <div class="lg">
@@ -1191,6 +1197,7 @@
       
       <div class="piece" id="#p10">
          <div class="biblTitle">Time Works Wonders</div>
+         <div class="biblPage">407</div>
          <p>“Time WORKS Wonders,” and we know of nothing that he
             has done in the way of “work” more wonderful than making
             the theatrical public willing to sit out the representation of
@@ -1210,6 +1217,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">The Aesthetic Letters, Essays, and the Philosophical Letters of Schiller</div>
+            <div class="biblPage">408</div>
             <p>The Aesthetic Letters, Essays, and the Philosophical Let-
                ters of Schiller: Translated, with an Introduction, by J.
                Weiss. Boston, Charles C. Little, and James Brown; 1845, pp.
@@ -1551,6 +1559,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">Books Lately Received</div>
+            <div class="biblPage">410</div>
             <div class="head">BOOKS LATELY RECEIVED.</div>
             
             <p>The Fruit and Fruit Trees of America; or the Culture, Propagation, and Management in the Garden and Orchard, of fruit
@@ -1639,6 +1648,7 @@
       
       <div class="piece" id="#p13">
          <div class="biblTitle">French Opera at the Park Theatre</div>
+         <div class="biblPage">410</div>
          <div class="head">FRENCH OPERA AT THE PARK THEATRE.</div>
          
          <p>The French Company, last from New Orleans, is in the
@@ -1837,6 +1847,7 @@
       
       <div class="piece" id="#p14">
          <div class="biblTitle">The Fine Arts</div>
+         <div class="biblPage">412</div>
          <div class="head">THE FINE ARTS.</div>
          
          <p>We were invited to examine the portrait of the new packet
@@ -1867,6 +1878,7 @@
       
       <div class="piece" id="#p15">
          <div class="biblTitle">Weekly Notes</div>
+         <div class="biblPage">412</div>
          <div class="head">WEEKLY NOTES.</div>
          
          <p>A novel has recently been published by Colburn, in London, called “Jonathan Sharp, or the Adventures of a Kentuckian,” which is professedly written by an American, but
@@ -1937,6 +1949,7 @@
       
       <div class="piece" id="#p16">
          <div class="biblTitle">A Memory of Thomas Hood</div>
+         <div class="biblPage">412</div>
          <div class="head">A MEMORY OF THOMAS HOOD.</div>
          
          <div class="ab">BY MRS 
@@ -2146,6 +2159,7 @@
       
       <div class="piece" id="#p17">
          <div class="biblTitle">New Works Published in London</div>
+         <div class="biblPage">414</div>
          <div class="head">NEW WORKS PUBLISHED IN LONDON, MAY, 1845</div>
          
          <div class="ab">Aide Memoire to the Military Sciences. By officers of the dif-
@@ -2331,6 +2345,7 @@
       
       <div class="section" id="#s3">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">414</div>
          <div>
             <div class="note" type="headnote">INTERESTING WORKS
                JUST PUBLISHED BY
@@ -3045,6 +3060,7 @@
       
       <div class="piece" id="#p18">
          <div class="biblTitle">Agents for the Broadway Journal</div>
+         <div class="biblPage">416</div>
          <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
          
          <div class="ab">Redding &amp; Co..............................Boston, Mass.

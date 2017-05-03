@@ -7,25 +7,21 @@
       <issueNum>6</issueNum>
       <issueDate>August 16, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <hcwatson>
             <personId>hcwatson</personId>
             <personName>Henry Cood Watson</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </hcwatson>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
-            <personName>[?]</personName>
-            <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jbisco>
       </issueListPerson>
    </issueMeta>
    <listBibl>
@@ -411,7 +407,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p18</pieceId>
-            <pieceTitle>Wiley &amp; Putnam’s Library of Choice Reading. No. XVIII</pieceTitle>
+            <pieceTitle>Wiley and Putnam’s Library of Choice Reading. No. XVIII</pieceTitle>
             <piecePage>90</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
          </pieceMeta>
@@ -960,7 +956,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p42</pieceId>
-            <pieceTitle>Mr. T.S. Arthur</pieceTitle>
+            <pieceTitle>Mr. T. S. Arthur</pieceTitle>
             <piecePage>95</piecePage>
             <piecePdfIndex>15</piecePdfIndex>
          </pieceMeta>
@@ -1071,5 +1067,13 @@
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
       </s4>
+      <p47>
+         <pieceMeta>
+            <pieceId>p47</pieceId>
+            <pieceTitle>Agents for the Broadway Journal</pieceTitle>
+            <piecePage>96</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+      </p47>
    </listBibl>
 </issue>
