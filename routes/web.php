@@ -16,6 +16,8 @@ Route::get('/', function () {
     	]);
 });
 
+Route::get('/api/broadwayjournal/issue/{issueId}/header', 'IssuesController@issueHeader');
+
 Route::get('/broadwayjournal/issue/{year}/{month}/{day}/pdf', 'IssuesController@pdf');
 
 Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@index');
@@ -27,6 +29,8 @@ Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
 Route::get('/api/broadwayjournal/{id}/bibl_data', 'IssuesController@bibl_data');
 
 Route::get('/api/broadwayjournal/{id}/ppm', 'IssuesController@ppm');
+
+Route::get('/api/broadwayjournal/abouts/{about}', 'IssuesController@abouts');
 
 Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText');
 
@@ -61,6 +65,8 @@ Route::get('/api/all-issues/json', 'IssuesController@all_json');
 Route::get('/api/all-issues-grouped/json', 'IssuesController@all_grouped_json');
 
 Route::get('/api/personography/summary/json', 'PersonographyController@summary_json');
+
+Route::get('/api/BroadwayJournal/personography/comprehensive/json', 'PersonographyController@personographyComprehensive');
 
 Route::get('/api/personography/summary', 'PersonographyController@summary');
 

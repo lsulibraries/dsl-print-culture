@@ -7,30 +7,467 @@
       <issueNum>12</issueNum>
       <issueDate>March 22, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <hcwatson>
             <personId>hcwatson</personId>
             <personName>Henry Cood Watson</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </hcwatson>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
+   <s1>
+      <sectionMeta>
+         <sectionId>s1</sectionId>
+         <sectionTitle>Reviews</sectionTitle>
+      </sectionMeta>
+   </s1>
+   <p1>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p1</pieceId>
+         <pieceTitle>Eothen, or Traces of Travel Brought Home from the East</pieceTitle>
+         <piecePage>177-178</piecePage>
+         <piecePdfIndex>1</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p1-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p1>
+   <p2>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p2</pieceId>
+         <pieceTitle>More of the Voluminous History of the Little Longfellow War</pieceTitle>
+         <piecePage>178-182</piecePage>
+         <piecePdfIndex>2</piecePdfIndex>
+         <pieceListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18450322-p2-eapoe</personPieceMetaId>
+            </eapoe>
+         </pieceListPerson>
+      </pieceMeta>
+   </p2>
+   <p3>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p3</pieceId>
+         <pieceTitle>Woman in the Nineteenth Century</pieceTitle>
+         <piecePage>182-183</piecePage>
+         <piecePdfIndex>6</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p3-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p3>
+   <p4>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p4</pieceId>
+         <pieceTitle>The American Review</pieceTitle>
+         <piecePage>183</piecePage>
+         <piecePdfIndex>7</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p4-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p4>
+   <p5>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p5</pieceId>
+         <pieceTitle>The Southern Literary Messenger</pieceTitle>
+         <piecePage>183-184</piecePage>
+         <piecePdfIndex>7</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p5-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p5>
+   <p6>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p6</pieceId>
+         <pieceTitle>Stable Economy</pieceTitle>
+         <piecePage>184</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p6-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p6>
+   <p7>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p7</pieceId>
+         <pieceTitle>The Treasury of History, No. 3</pieceTitle>
+         <piecePage>184</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p7-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p7>
+   <p8>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p8</pieceId>
+         <pieceTitle>The Monthly Rose, No. 3</pieceTitle>
+         <piecePage>184</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p8-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p8>
+   <p9>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p9</pieceId>
+         <pieceTitle>Richmond's Pamphlet Reviewed</pieceTitle>
+         <piecePage>184</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450322-p9-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p9>
+   <p10>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p10</pieceId>
+         <pieceTitle>Mary Schweidler, the Amber Witch</pieceTitle>
+         <piecePage>184</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450322-p10-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p10>
+   <p11>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p11</pieceId>
+         <pieceTitle>The Columbian Magazine for April</pieceTitle>
+         <piecePage>184</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p11-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p11>
+   <p12>
+      <pieceMeta>
+         <pieceId>p12</pieceId>
+         <pieceTitle>Thoughts of a Silent Man, No. 3</pieceTitle>
+         <piecePage>184-185</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <ecembury>
+               <personId>ecembury</personId>
+               <personPieceMetaId>ppm-18450322-p12-ecembury</personPieceMetaId>
+            </ecembury>
+         </pieceListPerson>
+      </pieceMeta>
+   </p12>
+   <s2>
+      <sectionMeta>
+         <sectionId>s2</sectionId>
+         <sectionTitle>Original Poetry</sectionTitle>
+      </sectionMeta>
+   </s2>
+   <p13>
+      <sectionId>s2</sectionId>
+      <pieceMeta>
+         <pieceId>p13</pieceId>
+         <pieceTitle>The Dying One</pieceTitle>
+         <piecePage>186</piecePage>
+         <piecePdfIndex>10</piecePdfIndex>
+         <pieceListPerson>
+            <mlowell>
+               <personId>mlowell</personId>
+               <personPieceMetaId>ppm-18450322-p13-mlowell</personPieceMetaId>
+            </mlowell>
+         </pieceListPerson>
+      </pieceMeta>
+   </p13>
+   <p14>
+      <sectionId>s2</sectionId>
+      <pieceMeta>
+         <pieceId>p14</pieceId>
+         <pieceTitle>A Tale of Luzon</pieceTitle>
+         <piecePage>186</piecePage>
+         <piecePdfIndex>10</piecePdfIndex>
+         <pieceListPerson>
+            <mehewitt>
+               <personId>mehewitt</personId>
+               <personPieceMetaId>ppm-18450322-p14-mehewitt</personPieceMetaId>
+            </mehewitt>
+         </pieceListPerson>
+      </pieceMeta>
+   </p14>
+   <p15>
+      <pieceMeta>
+         <pieceId>p15</pieceId>
+         <pieceTitle>National Nomenclature</pieceTitle>
+         <piecePage>186-187</piecePage>
+         <piecePdfIndex>10</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450322-p15-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p15>
+   <p16>
+      <pieceMeta>
+         <pieceId>p16</pieceId>
+         <pieceTitle>New York Gallery of the Fine Arts</pieceTitle>
+         <piecePage>187</piecePage>
+         <piecePdfIndex>11</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450322-p16-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p16>
+   <s5>
+      <sectionMeta>
+         <sectionId>s5</sectionId>
+         <sectionTitle>The Fine Arts</sectionTitle>
+      </sectionMeta>
+   </s5>
+   <p17>
+      <sectionId>s5</sectionId>
+      <pieceMeta>
+         <pieceId>p17</pieceId>
+         <pieceTitle>Mr. A. L. Dick</pieceTitle>
+         <piecePage>188</piecePage>
+         <piecePdfIndex>12</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450322-p17-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p17>
+   <p18>
+      <pieceMeta>
+         <pieceId>p18</pieceId>
+         <pieceTitle>Architecture</pieceTitle>
+         <piecePage>188-189</piecePage>
+         <piecePdfIndex>12</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450322-p18-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p18>
+   <s6>
+      <sectionMeta>
+         <sectionId>s6</sectionId>
+         <sectionTitle>The Concert Room</sectionTitle>
+      </sectionMeta>
+   </s6>
+   <p19>
+      <sectionId>s6</sectionId>
+      <pieceMeta>
+         <pieceId>p19</pieceId>
+         <pieceTitle>Complimentary Concerts</pieceTitle>
+         <piecePage>189</piecePage>
+         <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <hcwaton>
+               <personId>hcwaton</personId>
+               <personPieceMetaId>ppm-18450322-p19-hcwaton</personPieceMetaId>
+            </hcwaton>
+         </pieceListPerson>
+      </pieceMeta>
+   </p19>
+   <p28>
+      <sectionId>s6</sectionId>
+      <pieceMeta>
+         <pieceId>p28</pieceId>
+         <pieceTitle>Madame Otto and the German Society</pieceTitle>
+         <piecePage>189-190</piecePage>
+         <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <hcwaton>
+               <personId>hcwaton</personId>
+               <personPieceMetaId>ppm-18450322-p28-hcwaton</personPieceMetaId>
+            </hcwaton>
+         </pieceListPerson>
+      </pieceMeta>
+   </p28>
+   <p21>
+      <pieceMeta>
+         <pieceId>p21</pieceId>
+         <pieceTitle>Musical Review</pieceTitle>
+         <piecePage>190</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <hcwatson>
+               <personId>hcwatson</personId>
+               <personPieceMetaId>ppm-18450322-p21-hcwatson</personPieceMetaId>
+            </hcwatson>
+         </pieceListPerson>
+      </pieceMeta>
+   </p21>
+   <p22>
+      <pieceMeta>
+         <pieceId>p22</pieceId>
+         <pieceTitle>Musical Items</pieceTitle>
+         <piecePage>190</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <hcwatson>
+               <personId>hcwatson</personId>
+               <personPieceMetaId>ppm-18450322-p22-hcwatson</personPieceMetaId>
+            </hcwatson>
+         </pieceListPerson>
+      </pieceMeta>
+   </p22>
+   <s3>
+      <sectionMeta>
+         <sectionId>s3</sectionId>
+         <sectionTitle>Miscellany</sectionTitle>
+      </sectionMeta>
+   </s3>
+   <p23>
+      <sectionId>s3</sectionId>
+      <pieceMeta>
+         <pieceId>p23</pieceId>
+         <pieceTitle>Mrs. R.S. Nichols</pieceTitle>
+         <piecePage>190</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18450322-p23-eapoe</personPieceMetaId>
+            </eapoe>
+         </pieceListPerson>
+      </pieceMeta>
+   </p23>
+   <p24>
+      <sectionId>s3</sectionId>
+      <pieceMeta>
+         <pieceId>p24</pieceId>
+         <pieceTitle>Mr. Hudson</pieceTitle>
+         <piecePage>190-191</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p24-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p24>
+   <p25>
+      <sectionId>s3</sectionId>
+      <pieceMeta>
+         <pieceId>p25</pieceId>
+         <pieceTitle>Newspaper Courtesies</pieceTitle>
+         <piecePage>191</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450322-p25-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p25>
+   <p26>
+      <sectionId>s3</sectionId>
+      <pieceMeta>
+         <pieceId>p26</pieceId>
+         <pieceTitle>The Saturday Emporium</pieceTitle>
+         <piecePage>191</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18450322-p26-eapoe</personPieceMetaId>
+            </eapoe>
+         </pieceListPerson>
+      </pieceMeta>
+   </p26>
+   <p27>
+      <pieceMeta>
+         <pieceId>p27</pieceId>
+         <pieceTitle>To Readers and Correspondents</pieceTitle>
+         <piecePage>191</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450322-p27-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p27>
+   <s4>
+      <sectionMeta>
+         <sectionId>s4</sectionId>
+         <sectionTitle>Advertisements</sectionTitle>
+         <sectionPage>191-192</sectionPage>
+         <sectionPdfIndex>15</sectionPdfIndex>
+      </sectionMeta>
+   </s4>
 </issue>

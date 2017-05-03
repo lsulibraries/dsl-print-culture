@@ -21,9 +21,30 @@ class IssuesController extends Controller
         return response()->json($issues);
     }
 
+    function issueHeader($issueId) {
+        $xml = simplexml_load_string(Storage::get("public/biblHeader/BroadwayJournal_$issueId.xml"));
+        return response()->json($xml);        
+    }
+    
     function all_json($year = NULL, $month = NULL, $day = NULL){
         $issues = $this->getIssues($year, $month, $day);
         return response()->json($issues);
+    }
+
+    function abouts($about){
+        if(!in_array($about, array('about', 'tech', 'credits'))){
+            return "No data found for $about";
+        }
+        if($about == 'credits'){
+            return $this->credits();
+        }
+        $xml = Storage::get('public/broadway-tei/projectInfo/' .$about. '.html');
+        return $xml;// response()->json($toc);        
+    }
+    
+    function credits(){
+        $xml = simplexml_load_string(Storage::get('public/credits.xml'));
+        return response()->json($xml);
     }
 
     function search($searchString){

@@ -22,6 +22,7 @@
       
       <div class="piece" id="#p1">
          <div class="biblTitle">The Premature Burial</div>
+         <div class="biblPage">369</div>
          <div class="head">THE PREMATURE BURIAL.</div>
          
          <p>There are certain themes of which the interest is all-absorbing, but which are too entirely horrible for the purposes of legitimate fiction. These the mere romanticist must eschew, if
@@ -551,6 +552,7 @@
       
       <div class="piece" id="#p2">
          <div class="biblTitle">Letter to the Broadway Journal</div>
+         <div class="biblPage">373</div>
          <div class="head">LETTER TO THE BROADWAY JOURNAL.</div>
          
          <p>My Dear Journal,</p>
@@ -787,6 +789,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">Woman--The Hareem</div>
+         <div class="biblPage">374</div>
          <div class="head">WOMAN—THE HAREEM.</div>
          
          <div class="lg">
@@ -995,6 +998,7 @@
       
       <div class="piece" id="#p4">
          <div class="biblTitle">Niblo's Garden</div>
+         <div class="biblPage">375</div>
          <p>Niblo’s Garden.—This favorite and delightful place of amusement opened last week. The performances are of a light and
             pleasing character, in admirable accordance with the genius of the
             place. The company is good, numbering among its members
@@ -1014,6 +1018,7 @@
       
       <div class="piece" id="#p5">
          <div class="biblTitle">Mr. Barton</div>
+         <div class="biblPage">375</div>
          <p>Mr. Barton, the well-known flutist, has arrived in this city, after
             a tour of extraordinary success through the Southern States. 
          </p>
@@ -1026,6 +1031,7 @@
          
          <div class="piece" id="#p6">
             <div class="biblTitle">An Encyclopedia of Domestic Economy</div>
+            <div class="biblPage">376</div>
             <p>An Encyclopedia of Domestic Economy, No. 4: Harper &amp;
                Brothers.
             </p>
@@ -1299,6 +1305,7 @@
          
          <div class="piece" id="#p7">
             <div class="biblTitle">An Explanatory and Phonographic Pronouncing Dictionary</div>
+            <div class="biblPage">377</div>
             <p>As Explanatory and Phonographic Pronouncing Dictionary
                of the English Language: To which is added a Vocabulary
                of Greek, Latin, Scripture, Christian, and Geographical Names,
@@ -1419,6 +1426,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">We Are Informed</div>
+            <div class="biblPage">378</div>
             <p>We are informed that Mr. Cornelius Matthews is not the author
                of the article in the North American Review which recently appeared in Simms' Magazine. It was signed with the initials of
                Mr. M., but Simms was himself the author.
@@ -1428,6 +1436,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">The Dramatic Authors of America</div>
+            <div class="biblPage">378</div>
             <p>The Dramatic Authors of America. By James Rees. Phila-
                delphia: G. B. Tilber &amp; Co., 1845.
             </p>
@@ -1533,6 +1542,7 @@
          
          <div class="piece" id="#p10">
             <div class="biblTitle">Vathek</div>
+            <div class="biblPage">379</div>
             <p>Vathek. With a Biographical Sketch of the Author. No. 1 of the
                New Series of the Mirror Library. Published by Morris, Willis
                &amp; Fuller, pp. 50. Price 25 cents.
@@ -1555,6 +1565,7 @@
          
          <div class="piece" id="#p26">
             <div class="biblTitle">Self</div>
+            <div class="biblPage">379</div>
             <p>Self. By the Author of “Cecil." New York: Harper Sc
                Brothers.
             </p>
@@ -1593,6 +1604,7 @@
          
          <div class="piece" id="#p27">
             <div class="biblTitle">The Waverly Novels</div>
+            <div class="biblPage">379</div>
             <p>The Waverly Novels, by Sir Walter Scott: with the author’s
                latest corrections and additions. Complete in five volumes
                (3340 pages) for two dollars and fifty cents. Philadelphia:
@@ -1610,6 +1622,7 @@
          
          <div class="piece" id="#p28">
             <div class="biblTitle">Veronica</div>
+            <div class="biblPage">379</div>
             <p>Veronica; or The Free Court of Aarau. Translated from the
                German of Zschokke, by the Author of Giafar Al Barmeki.
             </p>
@@ -1628,6 +1641,7 @@
       
       <div class="piece" id="#p11">
          <div class="biblTitle">Translation of an Ode of Sappho</div>
+         <div class="biblPage">379</div>
          <div class="head">TRANSLATION OF AN ODE OF SAPPHO.</div>
          
          <div class="lg">
@@ -1681,6 +1695,7 @@
       
       <div class="piece" id="#p12">
          <div class="biblTitle">The New Opera at Philadelphia</div>
+         <div class="biblPage">380</div>
          <div class="head">THE NEW OPERA AT PHILADELPHIA.</div>
          
          <p>According to our expressed intention we visited Philadelphia for the purpose of being present at the performance of
@@ -1905,6 +1920,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">The Old Masters in England</div>
+            <div class="biblPage">381</div>
             <p>The old Masters in England.—There were imported
                into England, in the last five years, seventy thousand ancient
                paintings. The sales at auction average over one thousand
@@ -1918,6 +1934,7 @@
          
          <div class="piece" id="#p14">
             <div class="biblTitle">A Passionate Lover of Flowers</div>
+            <div class="biblPage">381</div>
             <p>A Passionate Lover of Flowers.—“ We want no better
                evidence of a good heart than the passionate love of flowers,”
                says the good-hearted Major Noah in his last Messenger; hut
@@ -1934,6 +1951,7 @@
          
          <div class="piece" id="#p15">
             <div class="biblTitle">We Stated Last Week</div>
+            <div class="biblPage">381</div>
             <p>We stated last week, on the authority of the Knickerbocker’s
                correspondent at Constantinople, that the author of Eothen was
                a gentleman named White: we had previously stated on the
@@ -1947,6 +1965,7 @@
          
          <div class="piece" id="#p16">
             <div class="biblTitle">The Profits of Novels</div>
+            <div class="biblPage">381</div>
             <p>The Profits of Novels.—During the last few years the
                Parisian daily press had run down so low in circulation that
                the plan of giving a novel in the feuilleton was adopted to
@@ -1969,6 +1988,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">Improvement in Broadway</div>
+            <div class="biblPage">382</div>
             <p>Improvements in Broadway.—There is considerable
                tearing down and building up going on in our beautiful
                thoroughfare, but the only alterations that we notice likely
@@ -1990,6 +2010,7 @@
          
          <div class="piece" id="#p18">
             <div class="biblTitle">The Poetry of Europe</div>
+            <div class="biblPage">382</div>
             <p>The Poetry or Europe.—By Longfellow.—The first
                volume of this collection of poetry has just been issued. It is
                a very large book, neatly printed, with a portrait of Schiller,
@@ -2003,6 +2024,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">The Spread of Alleghanianism</div>
+            <div class="biblPage">382</div>
             <p>The Spread of Alleghanianism.—A new sign has recently been hung out in the upper part of Broadway, bearing
                this startling inscription:—“ The Alleghanian. Best of
                Liquors 3 cents per glass.” This is the most encouraging
@@ -2012,6 +2034,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">The French Company</div>
+            <div class="biblPage">382</div>
             <p>The French Company also open at the Park next week. It is
                unusually strong in every respect. The opening Opera will be La
                Juive, by Helevy.
@@ -2020,6 +2043,7 @@
          
          <div class="piece" id="#p21">
             <div class="biblTitle">M. Huber</div>
+            <div class="biblPage">382</div>
             <p>M Huber, a violincellist of reputation, recently from Paris, is at
                present in the city, and will give a concert as soon as the weather
                moderates its colidity.
@@ -2028,6 +2052,7 @@
          
          <div class="piece" id="#p22">
             <div class="biblTitle">Mr. Tryon</div>
+            <div class="biblPage">382</div>
             <p>Mr. Tryon opens the New Bowery Theatre on Monday, with a
                vaudeville company.
             </p>
@@ -2037,6 +2062,7 @@
       
       <div class="piece" id="#p23">
          <div class="biblTitle">Obituary</div>
+         <div class="biblPage">382</div>
          <div class="head">OBITUARY.</div>
          
          <div class="ab">
@@ -2065,6 +2091,7 @@
       
       <div class="piece" id="#p24">
          <div class="biblTitle">Books in Press</div>
+         <div class="biblPage">382</div>
          <div class="head">BOOKS IN PRESS.</div>
          
          <p>By D. Appleton Sc Co.—Arnold’s Latin and Greek Prose and
@@ -2131,6 +2158,7 @@
       
       <div class="section" id="#s3">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">382</div>
          <div>
             <div class="head">The National Magazine and Industrial Recorder, No. I.</div>
             
@@ -2714,6 +2742,7 @@
       
       <div class="piece" id="#p25">
          <div class="biblTitle">Agents for the Broadway Journal</div>
+         <div class="biblPage">384</div>
          <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
          
          <div class="ab">

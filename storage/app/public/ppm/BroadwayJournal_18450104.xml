@@ -1,2 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<personPieceMeta/>
+<personPieceMeta>
+   <ppm-18450104-p1-cfbriggs>
+      <issueId>18450104</issueId>
+      <pieceId>p1</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450104-p1-cfbriggs>
+   <ppm-18450104-p2-cfbriggs>
+      <issueId>18450104</issueId>
+      <pieceId>p2</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450104-p2-cfbriggs>
+   <ppm-18450104-p3-eapoe>
+      <issueId>18450104</issueId>
+      <pieceId>p3</pieceId>
+      <personId>eapoe</personId>
+      <personName>Edgar Allan Poe</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>high</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450104-p3-eapoe>
+   <ppm-18450104-p4-anon>
+      <issueId>18450104</issueId>
+      <pieceId>p4</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450104-p4-anon>
+   <ppm-18450104-p5-lmchild>
+      <issueId>18450104</issueId>
+      <pieceId>p5</pieceId>
+      <personId>lmchild</personId>
+      <personName>Lydia Maria Child</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450104-p5-lmchild>
+   <ppm-18450104-p6-C>
+      <issueId>18450104</issueId>
+      <pieceId>p6</pieceId>
+      <personId>C</personId>
+      <personName/>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450104-p6-C>
+   <ppm-18450104-p7-anon>
+      <issueId>18450104</issueId>
+      <pieceId>p7</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450104-p7-anon>
+   <ppm-18450104-p8-anon>
+      <issueId>18450104</issueId>
+      <pieceId>p8</pieceId>
+      <personId>anon</personId>
+      <personName>Anonymous</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450104-p8-anon>
+   <ppm-18450104-p9-H>
+      <issueId>18450104</issueId>
+      <pieceId>p9</pieceId>
+      <personId>H</personId>
+      <personName/>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>unknown</authorStatus>
+      </authorShip>
+   </ppm-18450104-p9-H>
+   <ppm-18450104-p10-jrlowell>
+      <issueId>18450104</issueId>
+      <pieceId>p10</pieceId>
+      <personId>jrlowell</personId>
+      <personName>James Russell Lowell</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>attested</authorStatus>
+         <authorCertainty>high</authorCertainty>
+      </authorShip>
+   </ppm-18450104-p10-jrlowell>
+   <ppm-18450104-p11-cfbriggs>
+      <issueId>18450104</issueId>
+      <pieceId>p11</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450104-p11-cfbriggs>
+   <ppm-18450104-p12-cfbriggs>
+      <issueId>18450104</issueId>
+      <pieceId>p12</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450104-p12-cfbriggs>
+   <ppm-18450104-p13-cfbriggs>
+      <issueId>18450104</issueId>
+      <pieceId>p13</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+         <authorReference>(Reference: eapoe.org)</authorReference>
+      </authorShip>
+   </ppm-18450104-p13-cfbriggs>
+   <ppm-18450104-p14-cfbriggs>
+      <issueId>18450104</issueId>
+      <pieceId>p14</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>medium</authorCertainty>
+      </authorShip>
+   </ppm-18450104-p14-cfbriggs>
+   <ppm-18450104-p16-cfbriggs>
+      <issueId>18450104</issueId>
+      <pieceId>p16</pieceId>
+      <personId>cfbriggs</personId>
+      <personName>Charles Frederick Briggs</personName>
+      <personPieceRole>Contributor</personPieceRole>
+      <authorShip>
+         <authorStatus>supplied</authorStatus>
+         <authorCertainty>low</authorCertainty>
+      </authorShip>
+   </ppm-18450104-p16-cfbriggs>
+</personPieceMeta>

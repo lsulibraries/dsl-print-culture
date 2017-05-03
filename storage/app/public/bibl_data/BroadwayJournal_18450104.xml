@@ -1,16 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
    <issueMeta>
-      <issueId/>
+      <issueId>18450104</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
       <issueVol>1</issueVol>
       <issueNum>1</issueNum>
-      <issueDate>January 1, 1</issueDate>
+      <issueDate>January 4, 1845</issueDate>
       <issueListPerson>
-         <person>
-            <personName/>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <jdouglas>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
+   <p1>
+      <pieceMeta>
+         <pieceId>p1</pieceId>
+         <pieceTitle>Introductory</pieceTitle>
+         <piecePage>1-2</piecePage>
+         <piecePdfIndex>1</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450104-p1-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p1>
+   <s1>
+      <sectionMeta>
+         <sectionId>s1</sectionId>
+         <sectionTitle>Reviews</sectionTitle>
+      </sectionMeta>
+   </s1>
+   <p2>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p2</pieceId>
+         <pieceTitle>Mind Among the Spindles</pieceTitle>
+         <piecePage>2-4</piecePage>
+         <piecePdfIndex>2</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450104-p2-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p2>
+   <p3>
+      <sectionId>s1</sectionId>
+      <pieceMeta>
+         <pieceId>p3</pieceId>
+         <pieceTitle>The Drama of Exile and Other Poems</pieceTitle>
+         <piecePage>4-8</piecePage>
+         <piecePdfIndex>4</piecePdfIndex>
+         <pieceListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18450104-p3-eapoe</personPieceMetaId>
+            </eapoe>
+         </pieceListPerson>
+      </pieceMeta>
+   </p3>
+   <p4>
+      <pieceMeta>
+         <pieceId>p4</pieceId>
+         <pieceTitle>Fashion</pieceTitle>
+         <piecePage>8-9</piecePage>
+         <piecePdfIndex>8</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450104-p4-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p4>
+   <p5>
+      <pieceMeta>
+         <pieceId>p5</pieceId>
+         <pieceTitle>Ole Bul's Niagara</pieceTitle>
+         <piecePage>9-10</piecePage>
+         <piecePdfIndex>9</piecePdfIndex>
+         <pieceListPerson>
+            <lmchild>
+               <personId>lmchild</personId>
+               <personPieceMetaId>ppm-18450104-p5-lmchild</personPieceMetaId>
+            </lmchild>
+         </pieceListPerson>
+      </pieceMeta>
+   </p5>
+   <p6>
+      <pieceMeta>
+         <pieceId>p6</pieceId>
+         <pieceTitle>"Is Genius Conscious of Its Powers?"</pieceTitle>
+         <piecePage>10-12</piecePage>
+         <piecePdfIndex>10</piecePdfIndex>
+         <pieceListPerson>
+            <C>
+               <personId>C</personId>
+               <personPieceMetaId>ppm-18450104-p6-C</personPieceMetaId>
+            </C>
+         </pieceListPerson>
+      </pieceMeta>
+   </p6>
+   <s2>
+      <sectionMeta>
+         <sectionId>s2</sectionId>
+         <sectionTitle>The Fine Arts</sectionTitle>
+      </sectionMeta>
+   </s2>
+   <p7>
+      <sectionId>s2</sectionId>
+      <pieceMeta>
+         <pieceId>p7</pieceId>
+         <pieceTitle>Bride of Abydos</pieceTitle>
+         <piecePage>12</piecePage>
+         <piecePdfIndex>12</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450104-p7-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p7>
+   <p8>
+      <sectionId>s2</sectionId>
+      <pieceMeta>
+         <pieceId>p8</pieceId>
+         <pieceTitle>The Art Union Pictures</pieceTitle>
+         <piecePage>12-13</piecePage>
+         <piecePdfIndex>12</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18450104-p8-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p8>
+   <p9>
+      <pieceMeta>
+         <pieceId>p9</pieceId>
+         <pieceTitle>New-Year's Calls</pieceTitle>
+         <piecePage>13-14</piecePage>
+         <piecePdfIndex>13</piecePdfIndex>
+         <pieceListPerson>
+            <H>
+               <personId>H</personId>
+               <personPieceMetaId>ppm-18450104-p9-H</personPieceMetaId>
+            </H>
+         </pieceListPerson>
+      </pieceMeta>
+   </p9>
+   <p10>
+      <pieceMeta>
+         <pieceId>p10</pieceId>
+         <pieceTitle>A Song To My Wife</pieceTitle>
+         <piecePage>14</piecePage>
+         <piecePdfIndex>14</piecePdfIndex>
+         <pieceListPerson>
+            <jrlowell>
+               <personId>jrlowell</personId>
+               <personPieceMetaId>ppm-18450104-p10-jrlowell</personPieceMetaId>
+            </jrlowell>
+         </pieceListPerson>
+      </pieceMeta>
+   </p10>
+   <s3>
+      <sectionMeta>
+         <sectionId>s3</sectionId>
+         <sectionTitle>Notices of New Books</sectionTitle>
+      </sectionMeta>
+   </s3>
+   <p11>
+      <sectionId>s3</sectionId>
+      <pieceMeta>
+         <pieceId>p11</pieceId>
+         <pieceTitle>The American Poulterer's Companion</pieceTitle>
+         <piecePage>15</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450104-p11-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p11>
+   <p12>
+      <sectionId>s3</sectionId>
+      <pieceMeta>
+         <pieceId>p12</pieceId>
+         <pieceTitle>Flowers for Children</pieceTitle>
+         <piecePage>15</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450104-p12-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p12>
+   <p13>
+      <sectionId>s3</sectionId>
+      <pieceMeta>
+         <pieceId>p13</pieceId>
+         <pieceTitle>The Magazines</pieceTitle>
+         <piecePage>15</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450104-p13-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p13>
+   <p14>
+      <pieceMeta>
+         <pieceId>p14</pieceId>
+         <pieceTitle>To Correspondents</pieceTitle>
+         <piecePage>15</piecePage>
+         <piecePdfIndex>15</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450104-p14-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p14>
+   <s4>
+      <sectionMeta>
+         <sectionId>s4</sectionId>
+         <sectionTitle>Advertisements</sectionTitle>
+         <sectionPage>16</sectionPage>
+         <sectionPdfIndex>16</sectionPdfIndex>
+      </sectionMeta>
+   </s4>
+   <p16>
+      <pieceMeta>
+         <pieceId>p16</pieceId>
+         <pieceTitle>Prospectus of the Broadway Journal</pieceTitle>
+         <piecePage>16</piecePage>
+         <piecePdfIndex>16</piecePdfIndex>
+         <pieceListPerson>
+            <cfbriggs>
+               <personId>cfbriggs</personId>
+               <personPieceMetaId>ppm-18450104-p16-cfbriggs</personPieceMetaId>
+            </cfbriggs>
+         </pieceListPerson>
+      </pieceMeta>
+   </p16>
 </issue>

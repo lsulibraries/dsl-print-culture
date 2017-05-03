@@ -15,11 +15,11 @@
       <issueId>18450809</issueId>
       <pieceId>p2</pieceId>
       <personId>frobinson</personId>
-      <personName>Fayette Robinson</personName>
+      <personName>Fay Robinson</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>attested</authorStatus>
-         <authorCertainty>low</authorCertainty>
+         <authorCertainty>high</authorCertainty>
       </authorShip>
    </ppm-18450809-p2-frobinson>
    <ppm-18450809-p3-mehewitt>

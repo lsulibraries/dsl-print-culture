@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <issueMeta>
+      <issueId>18451129</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>2</issueVol>
+      <issueNum>21</issueNum>
+      <issueDate>November 29, 1845</issueDate>
+      <issueListPerson>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </eapoe>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </eapoe>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>The Office of the Broadway Journal</pieceTitle>
+            <piecePage>315</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Sonnet - To Miss Anne C. Lynch</pieceTitle>
+            <piecePage>315</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <efellett>
+               <personName/>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </efellett>
+         </pieceListPerson>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>A Tale of the Ragged Mountains</pieceTitle>
+            <piecePage>315-318</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </pieceListPerson>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>To----</pieceTitle>
+            <piecePage>318</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <fsosgood>
+               <personName>Frances Sargent Osgood</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </fsosgood>
+         </pieceListPerson>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Art-Singing and Heart-Singing</pieceTitle>
+            <piecePage>318-319</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <wwhitman>
+               <personName>Walter Whitman</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </wwhitman>
+         </pieceListPerson>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>Lines - To Her Who Can Understand Them</pieceTitle>
+            <piecePage>319</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <fghalleck>
+               <personName>Fitz-Greene Halleck</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </fghalleck>
+         </pieceListPerson>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Epigram</pieceTitle>
+            <piecePage>319</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <wgsimms>
+               <personName>William Gilmore Simms</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </wgsimms>
+         </pieceListPerson>
+      </p7>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <sectionListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </sectionListPerson>
+      </s1>
+      <p8>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Wiley &amp; Putnam's Library of American Books, No. 7</pieceTitle>
+            <piecePage>320</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>America and the American People</pieceTitle>
+            <piecePage>320-321</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>The Philosophy of Mystery</pieceTitle>
+            <piecePage>320</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Wiley &amp; Putman's Foreign Library, Nos. 3 and 4. The
+                Rhine</pieceTitle>
+            <piecePage>320</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Wiley &amp; Putnam's Library of Choice Reading, Nos.
+                34 and 35. The Life of Condé</pieceTitle>
+            <piecePage>320-321</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Trippings in Authorland</pieceTitle>
+            <piecePage>321-322</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The Songs and Ballads of George P. Morris</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Sibyl’s Wreath and Floral Emblems, with the Natal
+                Mouths</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Poems, by Alfred Tennyson</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Poems of Many Years</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Americanism. An Address delivered before the Eucleian Society of the New-York University</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Narrative of the Exploring Expedition to the Rocky Mountains</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Harper's Illuminated Pictorial Bible, No. 43.</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Wandering Jew, superbly Illustrated by the Most Eminent Artists of Paris</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>The Modern Standard Drama</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>The Modern Standard Drama</pieceTitle>
+            <piecePage>322</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>The Aristidean, for October</pieceTitle>
+            <piecePage>322-323</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+         </pieceMeta>
+      </p24>
+      <p25>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Notices for Next Week</pieceTitle>
+            <piecePage>323</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+      </p25>
+      <p26>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>Epigram - From the Saxon</pieceTitle>
+            <piecePage>323</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <wgsimms>
+               <personName>William Gilmore Simms</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </wgsimms>
+         </pieceListPerson>
+      </p26>
+      <p27>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>The Double Dream</pieceTitle>
+            <piecePage>324</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <abmeek>
+               <personName>Alexander Beaufort Meek</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </abmeek>
+         </pieceListPerson>
+      </p27>
+      <p28>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>Musical Department</pieceTitle>
+            <piecePage>324-325</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <hcwatson>
+               <personName>Henry Cood Watson</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>medium</authorCertainty>
+               </authorShip>
+            </hcwatson>
+         </pieceListPerson>
+      </p28>
+      <p29>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>325</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p29>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+            <sectionPage>325-326</sectionPage>
+            <sectionPdfIndex>11</sectionPdfIndex>
+         </sectionMeta>
+         <sectionListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </sectionListPerson>
+      </s2>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>326-330</sectionPage>
+            <sectionPdfIndex>12</sectionPdfIndex>
+         </sectionMeta>
+      </s3>
+      <p30>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>To the Public</pieceTitle>
+            <piecePage>330</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <jbisco>
+               <personName>John Bisco</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </jbisco>
+         </pieceListPerson>
+      </p30>
+      <p31>
+         <pieceMeta>
+            <pieceId>p31</pieceId>
+            <pieceTitle>The Broadway Journal</pieceTitle>
+            <piecePage>330</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
+         </pieceListPerson>
+      </p31>
+   </listBibl>
+</issue>

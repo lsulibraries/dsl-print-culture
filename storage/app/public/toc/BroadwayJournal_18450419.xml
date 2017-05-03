@@ -11,5 +11,302 @@
       <publisher>John Bisco</publisher>
       <printer>John Douglas</printer>
    </head>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Street-Paving</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>241</start>
+         <end>242</end>
+         <pages>241-242</pages>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>Amusements of New York</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>242</start>
+         <end>243</end>
+         <pages>242-243</pages>
+         <pdf_index>2</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Reform</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>243</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Bon-Bon</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>243</start>
+         <end>247</end>
+         <pages>243-247</pages>
+         <pdf_index>3</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Lines</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>247</page>
+         <pdf_index>7</pdf_index>
+      </p5>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p6>
+               <decls_id>p6</decls_id>
+               <type>piece</type>
+               <title>Osceola Signing the Treaty</title>
+               <t_type>attested</t_type>
+               <auth_id>mehewitt</auth_id>
+               <auth_name>Mary Elizabeth Hewitt</auth_name>
+               <auth_stat>attested</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>248</page>
+               <pdf_index>8</pdf_index>
+            </p6>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>Stanzas</title>
+               <t_type>attested</t_type>
+               <auth_id>rsnichols</auth_id>
+               <auth_name/>
+               <auth_stat>attested</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>248</page>
+               <pdf_index>8</pdf_index>
+            </p7>
+         </pieces>
+      </s1>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>The Living Artists of Europe, No. 1</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>248</start>
+         <end>249</end>
+         <pages>248-249</pages>
+         <pdf_index>8</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>The American Authors' Union</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>250</start>
+         <end>251</end>
+         <pages>250-251</pages>
+         <pdf_index>10</pdf_index>
+      </p9>
+      <p10>
+         <decls_id>p10</decls_id>
+         <type>piece</type>
+         <title>Achilles' Wrath</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>251</start>
+         <end>252</end>
+         <pages>251-252</pages>
+         <pdf_index>11</pdf_index>
+      </p10>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Night: A Poem</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <page>252</page>
+               <pdf_index>12</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Imagination and Fancy</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <start>252</start>
+               <end>253</end>
+               <pages>252-253</pages>
+               <pdf_index>12</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Phreno-Mnemotechny; or the Art of Memory</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>253</page>
+               <pdf_index>13</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>The Farmer's and Emigrant's Guide-Book</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <page>253</page>
+               <pdf_index>13</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>Voices of the Night</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <page>253</page>
+               <pdf_index>13</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>A Practical Treatise on the Organic Diseases of the Uterus</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>253</page>
+               <pdf_index>13</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Mysteries of London</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>253</start>
+               <end>254</end>
+               <pages>253-254</pages>
+               <pdf_index>13</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The Warwick Woods</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>254</page>
+               <pdf_index>14</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>The Westminster Review</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>254</page>
+               <pdf_index>14</pdf_index>
+            </p19>
+         </pieces>
+      </s2>
+      <p20>
+         <decls_id>p20</decls_id>
+         <type>piece</type>
+         <title>The Fine Arts</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>254</page>
+         <pdf_index>14</pdf_index>
+      </p20>
+      <p21>
+         <decls_id>p21</decls_id>
+         <type>piece</type>
+         <title>Musical Review</title>
+         <t_type>attested</t_type>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>low</auth_cert>
+         <page>254</page>
+         <pdf_index>14</pdf_index>
+      </p21>
+      <p22>
+         <decls_id>p22</decls_id>
+         <type>piece</type>
+         <title>Miscellany</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>255</page>
+         <pdf_index>15</pdf_index>
+      </p22>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <start>255</start>
+         <end>256</end>
+         <pages>255-256</pages>
+         <pdf_index>15</pdf_index>
+      </s3>
+   </toc>
 </div>

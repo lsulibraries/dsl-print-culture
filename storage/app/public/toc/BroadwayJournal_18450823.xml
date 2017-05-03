@@ -78,10 +78,10 @@
          <type>piece</type>
          <title>A New York Ghost</title>
          <t_type>attested</t_type>
-         <auth_id>fbathos</auth_id>
-         <auth_name>Fidelius Bathos</auth_name>
-         <auth_stat>attested</auth_stat>
-         <auth_cert>low</auth_cert>
+         <auth_id>cmathews</auth_id>
+         <auth_name>Cornelius Mathews</auth_name>
+         <auth_stat>inferred</auth_stat>
+         <auth_cert>medium</auth_cert>
          <start>101</start>
          <end>102</end>
          <pages>101-102</pages>

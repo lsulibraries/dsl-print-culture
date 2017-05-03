@@ -7,16 +7,16 @@
       <issueNum>18</issueNum>
       <issueDate>November 8, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
+         </eapoe>
       </issueListPerson>
    </issueMeta>
 </issue>

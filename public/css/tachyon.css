@@ -3,7 +3,9 @@ input:focus {
   outline: none !important;
 }
 
-.biblTitle, .issueId, .biblPage {
+.biblTitle,
+.issueId,
+.biblPage {
   display: none;
 }
 
@@ -21,6 +23,8 @@ body {
   display: -webkit-flex;
   display: flex;
   position: relative;
+  z-index: 3;
+  background: white;
 }
 
 .header a {
@@ -78,7 +82,8 @@ body {
   font-size: 1.3em;
 }
 
-.header > div:not(.headerNav), .header > a {
+.header > div:not(.headerNav),
+.header > a {
   padding: 0px 30px 0px 30px;
   border-right: 1px solid #e9e9e9;
   cursor: pointer;
@@ -122,7 +127,8 @@ input:focus {
   font-size: 9px;
 }
 
-.contrast, .contrastSwitch {
+.contrast,
+.contrastSwitch {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -132,7 +138,8 @@ input:focus {
   align-items: center;
 }
 
-.contrastOn, .contrastOff {
+.contrastOn,
+.contrastOff {
   padding: 2px 10px 2px 10px;
 }
 
@@ -157,56 +164,6 @@ input:focus {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-
-.abouts {
-  padding: 40px;
-  background: url(http://i.imgur.com/gHkl0bM.jpg);
-  background-size: cover;
-}
-
-.logo {
-  font-size: 6vw;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -0.4vw;
-  line-height: 4.7vw;
-  color: #fe7251;
-  padding: 130px 200px 0px 200px;
-}
-
-.about {
-  margin-left: 200px;
-}
-
-.about, .technical, .credits {
-  background: #fe7251;
-  margin-top: -20px;
-  color: white;
-  position: relative;
-  padding: 20px;
-  text-transform: uppercase;
-  top: 21px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  display: inline-block;
-}
-
-.abouts > div:nth-last-child(1) {
-  margin-top: 30px;
-  background: white;
-  padding: 20px;
-  font-size: 1.5em;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.logoSubtitle {
-  background: #fe7251;
-  color: white;
-  font-size: 0.8em;
-  letter-spacing: 0em;
-  padding-left: 1vw;
 }
 
 .issue {
@@ -239,9 +196,21 @@ input:focus {
   line-height: .9em;
 }
 
-.issue::before {
+.content > .issue::before {
   background: black;
   content: 'Issues';
+  width: 10px;
+  color: white;
+  word-wrap: break-word;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.content > .abouts::before {
+  background: black;
+  content: 'About';
   width: 10px;
   color: white;
   word-wrap: break-word;
@@ -283,7 +252,6 @@ input:focus {
   margin-top: 1;
   margin-left: 1px;
   flex-grow: 2;
-  padding: 20px;
   width: 70%;
 }
 
@@ -329,6 +297,12 @@ input:focus {
   padding: 13px;
   margin: 1px;
   width: 40px;
+  cursor: pointer;
+}
+
+.singleText:hover {
+  background: #474747;
+  color: white;
 }
 
 .childIndex {
@@ -342,6 +316,13 @@ input:focus {
   background: #fe7251;
   margin-bottom: 1px;
   padding: 10px 15px 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.childIndex:hover,
+.childIndex:hover .active.childText {
+  background: #474747;
   color: white;
 }
 
@@ -370,7 +351,8 @@ input:focus {
   transition: all 0.5s ease;
 }
 
-.intraIssueNav .childPieceTitle:hover, .intraIssueNav .piece:hover {
+.intraIssueNav .childPieceTitle:hover,
+.intraIssueNav .piece:hover {
   padding-left: 10px;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
@@ -379,7 +361,8 @@ input:focus {
   color: #fe7251;
 }
 
-.issueVol, .issueNum {
+.issueVol,
+.issueNum {
   background: #474747;
   color: white;
   padding: 5px;
@@ -391,6 +374,7 @@ input:focus {
 
 .teiMarkup {
   font-size: 1.2em;
+  padding: 20px;
 }
 
 .head {
@@ -410,6 +394,32 @@ button.searchSubmit {
   padding-left: 40px;
   position: relative;
 }
+.personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole, .personography .authorRole {
+  background: #fe7251;
+  float: left;
+  color: white;
+  margin-top: 2px;
+  margin-right: 2px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  border-radius: 2px;
+}
+.personography .sectionTitle {
+  margin-left: 60px;
+  font-weight: 700;
+}
+.personography .issueMeta {
+  float: left;
+  position: absolute;
+}
+.personography .pieceTitle,
+.personography .personPieceMeta {
+  margin-left: 60px;
+}
+.personography .pieceMeta {
+  margin-left: 0px;
+}
 
 .personography::before {
   background: black;
@@ -423,7 +433,7 @@ button.searchSubmit {
   font-weight: 700;
   position: absolute;
   left: 0px;
-  height: 100%;
+  height: calc(100% - 30px);
 }
 
 .personIndex {
@@ -433,6 +443,16 @@ button.searchSubmit {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 140px;
+}
+
+.personFilter {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  background: white;
+  top: 0px;
 }
 
 .personFilter input {
@@ -440,6 +460,7 @@ button.searchSubmit {
   font-size: 2em;
   height: 140px;
   padding: 40px;
+  border: none;
 }
 
 .personIndex .person {
@@ -447,6 +468,7 @@ button.searchSubmit {
   margin: 0px 1px 1px 0px;
   padding: 20px;
   flex-grow: 1;
+  cursor: pointer;
 }
 
 .Contributing .personName {
@@ -489,10 +511,12 @@ button.searchSubmit {
   margin: 20px -20px -20px -20px;
   padding: 20px 20px 40px 20px;
   border-top: 1px dashed #fe7251;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .pieceMeta {
+  position: relative;
   margin-left: 7px;
   line-height: 15px;
 }
@@ -502,17 +526,20 @@ button.searchSubmit {
 
 a.downloadLink {
   background: #fe7251;
-  width: 150px;
-  height: 30px;
+  width: 129px;
+  height: 29px;
   align-items: center;
   color: #ffffff;
   overflow: hidden;
-  border-radius: 5px;
   font-weight: 700;
-  text-transform: uppercase;
   text-decoration: none;
   margin-top: 2px;
   display: inline-block;
+  font-size: 0.9em;
+  float: left;
+  position: absolute;
+  top: -2px;
+  right: 0px;
 }
 
 .downloadIcon {
@@ -528,63 +555,99 @@ a.downloadLink {
 }
 
 .downloadText {
-  padding: 9px;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .drawerActuator {
   cursor: pointer;
-  background: #fe7251;
-  width: 205px;
+  width: 100%;
   height: 30px;
-  align-items: center;
-  color: #ffffff;
   overflow: hidden;
   border-radius: 5px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 2px;
-  display: inline-block;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px dashed #e9e9e9;
+  align-items: center;
+  border-bottom: 1px dashed #e9e9e9;
 }
 
 .drawerIcon {
   height: 100%;
-  width: 30px;
-  border-right: 1px dashed white;
-  background: #fe7251;
-  color: white;
   justify-content: center;
   align-items: center;
   display: flex;
-  float: left;
 }
 
 .drawerText {
   font-size: 12px;
   line-height: 14px;
-  margin-left: 35px;
   padding: 9px;
 }
 
 /*BEGIN SEARCH RESULTS*/
-.searchResults::before {
-  content: 'Search Results';
-  font-size: 2em;
+.searchResults {
+  background: #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+}
+
+.searchResultsHeader {
   padding: 20px;
+  background: white;
+}
+
+.searchResultsTitle {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline;
+}
+
+.searchResultsCount {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #b7b7b7;
+  display: inline;
+  position: relative;
+  margin-left: 10px;
+  top: -2px;
+  border-radius: 5px;
+}
+
+.searchResultsString {
+  position: relative;
+  top: -6px;
+  color: #8a8a8a;
+  font-weight: 700;
 }
 
 .searchResult {
-  background: #e9e9e9;
-  margin-bottom: 5px;
+  background: #ffffff;
+  margin-top: 1px;
   padding: 30px;
-  border-top: 1px solid white;
+  cursor: pointer;
 }
 
-.pieceTitle {
-  font-size: 2em;
+.searchResult:hover {
+  background: #e9e9e9;
+}
+
+.searchResult .pieceTitle {
+  font-size: 1.5em;
 }
 
 .context {
@@ -595,16 +658,146 @@ span.searchHit {
   background: yellow;
 }
 
-.issueHeader .pieceTitle {
-  font-size: 2em;
-  margin: 20px 20px 5px 0px;
-  line-height: 1em;
+.authorShipOrigin, .authorShipCertainty {
+  float: left;
+  background: #fe7251;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  position: relative;
+  top: -2px;
+  border-radius: 2px;
+  margin: 0px 0px 0px 2px;
 }
-.issueHeader .pieceAuthor, .issueHeader .pieceAuthorRole {
-  display: inline;
+
+.issueHeader {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.issueHeader .personMeta {
+  float: left;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.issueHeader .personName {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 2px;
+}
+.issueHeader .sectionTitle {
+  position: absolute;
+  left: 120px;
+  top: 6px;
+  font-weight: 700;
+}
+.issueHeader .issueMeta {
+  background: #e9e9e9;
+  margin-bottom: 10px;
+}
+.issueHeader .bibl > .issue {
+  flex-wrap: wrap;
+}
+.issueHeader .bibl {
+  margin-left: 110px;
+}
+.issueHeader .bibl .issueHeader .personMeta {
+  float: left;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.issueHeader .bibl .personPieceMeta, .issueHeader .bibl .authorShip {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.issueHeader .bibl .personViaf {
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+}
+.issueHeader .bibl .authorRole, .issueHeader .bibl .authorStatus, .issueHeader .bibl .authorCertainty, .issueHeader .bibl .personography .authorStatus, .personography .issueHeader .bibl .authorStatus, .issueHeader .bibl .personography .personPieceRole, .personography .issueHeader .bibl .personPieceRole, .issueHeader .bibl .personography .authorRole, .personography .issueHeader .bibl .authorRole, .issueHeader .bibl .drawer .authorStatus, .drawer .issueHeader .bibl .authorStatus, .issueHeader .bibl .drawer .personPieceRole, .drawer .issueHeader .bibl .personPieceRole, .issueHeader .bibl .personViaf a {
+  background: #e9e9e9;
+  color: #474747;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 2px;
+  text-decoration: none;
+}
+.issueHeader .bibl .issue > .pieceMeta {
+  margin: 0px;
+  line-height: normal;
+  margin-right: 10px;
+  width: 100%;
+}
+.issueHeader .bibl .pieceTitle {
+  font-size: 2em;
+  line-height: 30px;
+  font-weight: 700;
+}
+.issueHeader .bibl .sectionMeta {
+  font-weight: 700;
+  margin-top: 2px;
+  margin-right: 2px;
+  border-radius: 4px;
+  border: 1px solid #474747;
+  font-size: 0.9em;
+  padding: 5px;
+  float: left;
+}
+.issueHeader .issueHeader > .personPieceMeta {
+  display: flex;
+}
+.issueHeader .personMeta .personRole {
+  display: none;
+}
+.issueHeader .issueHeader .pieceAuthor {
+  font-size: 1.4em;
+}
+.issueHeader .issueVol,
+.issueHeader .issueNum {
+  background: #474747;
+  color: #ffffff;
+  width: 45px;
+  font-weight: 700;
+  font-size: 0.9em;
+  float: left;
+  margin-right: 1px;
+  height: 18px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.issueHeader .pieceMeta {
+  margin-bottom: 30px;
+  margin-left: 0x;
+}
+.issueHeader .pieceAuthor,
+.issueHeader .pieceAuthorRole {
+  float: left;
 }
 .issueHeader .pieceAuthorShip {
-  margin-top: 20px;
+  display: inline;
 }
 .issueHeader .pieceAuthorRole {
   background: #fe7251;
@@ -615,13 +808,47 @@ span.searchHit {
   border-radius: 3px;
   position: relative;
   top: -2px;
+  margin-left: 5px;
+}
+
+.personBibl .issueVol,
+.personBibl .issueNum {
+  float: none;
+  background: #fe7251;
+}
+
+.pieceAuthorRole {
+  background: #fe7251;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  border-radius: 3px;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+
+.active .drawerActuator {
+  border-radius: 5px 5px 0px 0px;
 }
 
 .drawer {
-  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.drawer .authorCertainty, .drawer .personography .authorRole, .personography .drawer .authorRole, .drawer .authorStatus, .drawer .personPieceRole {
+  background: white;
+  float: left;
+  color: #fe7251;
+  margin-top: 2px;
+  margin-right: 2px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  border-radius: 2px;
 }
 .drawer .personBibl:hover {
-  background: rgba(254, 114, 81, 0.75);
+  background: #be553c;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
@@ -634,12 +861,14 @@ span.searchHit {
   padding: 20px;
   border-top: 1px dashed #ffffff;
   cursor: pointer;
+  margin: 0px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.drawer .issueVol, .drawer .issueNum {
+.drawer .issueVol,
+.drawer .issueNum {
   background: #ffffff;
   color: #fe7251;
   padding: 5px;
@@ -649,19 +878,248 @@ span.searchHit {
   font-weight: 700;
   font-size: 0.9em;
 }
-.drawer .pieceTitle, .drawer .issueHeader, .drawer .pieceAuthorShip {
+.drawer .pieceTitle,
+.drawer .issueHeader,
+.drawer .pieceAuthorShip {
   margin: 0px;
 }
 .drawer .pieceTitle {
   font-size: 1.5em;
 }
 
-/*END SEARCH RESULTS*/
-/*BEGIN High Contrast Mode*/
-.highContrast .content {
-  background: #29303a;
-  color: white;
+.authorShipLegend {
+  display: none;
 }
+
+.pieceAuthorShip:hover + .authorshipLegend,
+.authorshipLegend:hover {
+  display: block;
+  position: absolute;
+  width: 250px;
+  left: 290px;
+  top: 0px;
+  background: white;
+  padding: 22px;
+  border: 1px solid #e9e9e9;
+  border-radius: 2px;
+}
+
+/*END SEARCH RESULTS*/
+.issueHeader .drawer .pieceMeta {
+  margin-bottom: 0px;
+}
+
+.viewerSelector {
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #474747;
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  top: 87px;
+}
+
+.viewerTitle {
+  text-transform: uppercase;
+  position: relative;
+  height: 20px;
+  font-size: 0.7em;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.viewerText, .viewerPdf {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #474747;
+  color: white;
+  flex-direction: column;
+}
+
+.viewerPdf {
+  background: none;
+  color: #474747;
+}
+
+.viewerTextIcon,
+.viewerPdfIcon {
+  font-size: 1.5em;
+}
+
+.viewerSwitch {
+  display: flex;
+  position: relative;
+  height: 37px;
+  justify-content: center;
+  font-weight: 700;
+  align-items: center;
+  border-top: 1px solid #e9e9e9;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  cursor: pointer;
+}
+
+.pdfSelected .viewerText, .pdfSelected .viewerPdf {
+  color: #474747;
+  background: none;
+}
+.pdfSelected .viewerPdf {
+  color: white;
+  background: #474747;
+}
+
+/*credits*/
+.creditsPerson {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.creditsPersonName {
+  font-weight: 700;
+}
+
+.creditsPersonAffiliation {
+  padding-bottom: 4px;
+  font-size: 0.8em;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+div#pdf-viewer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button.next-page,
+button.prev- {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+canvas#pdf {
+  align-self: flex-start;
+  width: 100%;
+}
+
+#pdf-viewer {
+  background: #474747;
+}
+
+.Mentioned .personViaf a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  color: #474747;
+  position: relative;
+  top: 7px;
+}
+
+.Contributing .personViaf a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  top: 7px;
+}
+
+.personViaf i {
+  margin-right: 5px;
+}
+
+.abouts {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  min-height: calc(100vh - 47px);
+}
+
+.aboutToggle {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin-top: 1px;
+}
+
+.aboutToggle > div {
+  padding: 50px;
+  background: white;
+  border-bottom: 1px solid #e9e9e9;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.aboutViewer {
+  background: white;
+  margin: 1px;
+  padding: 20px;
+}
+
+.aboutToggle .active {
+  color: #fe7251;
+}
+
+.headerNav > .active {
+  color: #fe7251;
+}
+
+.logoTitle {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 20px;
+  display: flex;
+  font-family: "Adobe Caslon Pro";
+}
+
+.logoThe {
+  font-style: italic;
+  position: relative;
+  font-size: 20px;
+}
+
+.logoBroadway,
+.logoJournal {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.logoSubtitle {
+  text-transform: uppercase;
+  left: 4px;
+  letter-spacing: .5px;
+  position: relative;
+}
+
+/*BEGIN High Contrast Mode*/
 .highContrast .contrastOff {
   background: white;
   color: #474747;
@@ -670,5 +1128,23 @@ span.searchHit {
   background: #474747;
   color: white;
 }
+.highContrast .content {
+  font-size: 1.5em;
+}
 
 /*END High Contrast Mode*/
+.fade-enter-active {
+  transition: transform 1s;
+}
+
+.fade-leave-active {
+  transition: opacity 0s;
+}
+
+.fade-enter {
+  transform: translateX(20px);
+}
+
+.fade-leave-to {
+  opacity: 0;
+}

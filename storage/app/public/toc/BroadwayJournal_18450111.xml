@@ -3,9 +3,317 @@
    <head>
       <title>The Broadway Journal</title>
       <volume>1</volume>
-      <number>1</number>
-      <date>January 1, 1</date>
-      <printer/>
+      <number>2</number>
+      <date>January 11, 1845</date>
+      <editor>Charles Frederick Briggs</editor>
+      <publisher>John Bisco</publisher>
+      <printer>John Douglas</printer>
    </head>
-   <toc/>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>The Drama of Exile, and Other Poems (Concluded)</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>17</start>
+               <end>20</end>
+               <pages>17-20</pages>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>Agincourt</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <start>20</start>
+               <end>21</end>
+               <pages>20-21</pages>
+               <pdf_index>4</pdf_index>
+            </p2>
+         </pieces>
+      </s1>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p3>
+               <decls_id>p3</decls_id>
+               <type>piece</type>
+               <title>The Art Union Pictures (Second Notice)</title>
+               <t_type>attested</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>21</start>
+               <end>22</end>
+               <pages>21-22</pages>
+               <pdf_index>5</pdf_index>
+            </p3>
+         </pieces>
+      </s2>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Monuments to Mr. Clay</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>22</page>
+         <pdf_index>6</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Miss Delia Webster</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>23</page>
+         <pdf_index>7</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Dutch and the Puritans</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>23</start>
+         <end>25</end>
+         <pages>23-25</pages>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>Good Advice</title>
+         <t_type>attested</t_type>
+         <auth_id>h</auth_id>
+         <auth_name>H.</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>unknown</auth_cert>
+         <start>25</start>
+         <end>26</end>
+         <pages>25-26</pages>
+         <pdf_index>9</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>Sketches of American Prose Writers, No. 1</title>
+         <t_type>attested</t_type>
+         <auth_id>eaduyckinck</auth_id>
+         <auth_name>Evert Augustus Duyckinck</auth_name>
+         <auth_stat>inferred</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>26</start>
+         <end>28</end>
+         <pages>26-28</pages>
+         <pdf_index>10</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>Street Sweeping</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>28</page>
+         <pdf_index>12</pdf_index>
+      </p9>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>The Epitaph</title>
+               <t_type>attested</t_type>
+               <auth_id>jrlowell</auth_id>
+               <auth_name>James Russell Lowell</auth_name>
+               <auth_stat>attested</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>28</page>
+               <pdf_index>12</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>A Streamlet</title>
+               <t_type>attested</t_type>
+               <auth_id>jaldrich</auth_id>
+               <auth_name>James Aldrich</auth_name>
+               <auth_stat>inferred</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>28</page>
+               <pdf_index>12</pdf_index>
+            </p11>
+         </pieces>
+      </s3>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Notices of New Books</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Principles and Practice of Obstetric Medicine and Surgery</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Conversations on Some of the Old Poets</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>Rome, as Seen by a New Yorker in 1843-4</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p14>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>Republication</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p21>
+         </pieces>
+      </s4>
+      <s5>
+         <decls_id>s5</decls_id>
+         <type>section</type>
+         <title>Varieties</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>An Important Discovery in Art</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>English Opinions of American Artists</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>Carlyle's Preface to Emerson's Essay</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>29</start>
+               <end>30</end>
+               <pages>29-30</pages>
+               <pdf_index>13</pdf_index>
+            </p17>
+         </pieces>
+      </s5>
+      <p18>
+         <decls_id>p18</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>medium</auth_cert>
+         <page>30</page>
+         <pdf_index>14</pdf_index>
+      </p18>
+      <p19>
+         <decls_id>p19</decls_id>
+         <type>piece</type>
+         <title>Italian Opera House</title>
+         <t_type>attested</t_type>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>low</auth_cert>
+         <start>30</start>
+         <end>31</end>
+         <pages>30-31</pages>
+         <pdf_index>14</pdf_index>
+      </p19>
+      <s6>
+         <decls_id>s6</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <page>32</page>
+         <pdf_index>16</pdf_index>
+      </s6>
+      <p20>
+         <decls_id>p20</decls_id>
+         <type>piece</type>
+         <title>Prospectus of the Broadway Journal</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>32</page>
+         <pdf_index>16</pdf_index>
+      </p20>
+   </toc>
 </div>

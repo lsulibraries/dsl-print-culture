@@ -44,13 +44,17 @@ Vue.component('vue-header',{
 	    </div>				
 	  </div>
 	  <headerNav></headerNav>
-	  <div class="searchInput">
-	  	<button class="searchSubmit" value="search" @click="searchSubmitted"><i class="fa fa-search" aria-hidden="true"></i></button>
-	    <input v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
+	<div class="searchInput">
+	<label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
+	  	<button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
+	        <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
     methods: {
+	resetSearchString: function(){
+	    this.searchString = this.$root.state.content.searchString = ''
+	},
 	toggleContrast: function (){
 	    this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
 	    Event.$emit('toggleContrast');
@@ -70,7 +74,7 @@ Vue.component('vue-header',{
 Vue.component('headerLogo',{
     template: `
 	<a href="http://lib.lsu.edu"  class="headerLogo"><div>
-          <img src="images/libraries_logo.png"></img>
+          <img src="images/libraries_logo.png" alt="LSU Libraries logo"></img>
         </div></a>
     `
 })
@@ -83,6 +87,7 @@ Vue.component('headerNav',{
     },
     methods: {
 	activeContentClicked: function(content) {
+	    this.content = content
 	    Event.$emit('activeContentChange', content)
 	},
 	showSearch: function () {
@@ -92,10 +97,10 @@ Vue.component('headerNav',{
     template: `
 	<div class='headerNav'>
 
-	  <div @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
-	  <div @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>
+	<div v-bind:class="{active: this.content == 'issues'}" @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
+	  <div v-bind:class="{active: this.content == 'abouts'}" @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>
  About</div>
-	  <div @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>
+	  <div v-bind:class="{active: this.content == 'personography'}" @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>
 People</div>
 	</div>
 	`
@@ -115,12 +120,12 @@ Vue.component('vue-footer',{
 Vue.component('vue-content',{
     template: `
         <div class="content">
-	  <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
-	  <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
-	  <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
-	  <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
+      <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
+      <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
+      <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
+      <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
         </div>
-	`,
+    `,
 })
 
 Vue.component('personography',{
@@ -141,25 +146,26 @@ Vue.component('personography',{
 
 Vue.component('personIndex', {
     template: `
-	<div class='personIndex' v-if="this.index">
-        <person v-for="personObject in this.index.personIndex" :meta="personObject"></person>
-        <person v-for="personObject in this.index.personIndex[0]" :meta="personObject"></person>
+	<div class='personIndex' v-if="!this.$root.empty(this.index)">
+          <person v-for="personObj in this.index" :person="personObj"></person>
         </div>
 	`,
-    created() {
-	axios.get('/api/personography/summary/json').then(response => this.index = response.data);
-    },
     data() {
 	return {
-	    index: ''
+	    index: {}
 	}
+    },
+    created(){
+	this.index = this.$root.xhrDataStore.personography.personIndex
     }
+    
 })
 
 Vue.component('personFilter', {
     template: `
 	<div class='personFilter'>
-	  <input @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
+	<label for="personFilter" v-if="this.$root.state.contrast == 'high'">Filter people</label>
+	  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
         </div>
 	`,
     methods: {
@@ -173,19 +179,27 @@ Vue.component('personFilter', {
 	}
     }
 })
+Vue.component('personMeta', {
+    template: `
+	<div class="personMeta">
+	  <div class="personName">{{personMeta.personName}}</div>
+	  <div class="personRole">{{personMeta.personRole}}</div>
+          <div class="personViaf"><a  v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a></div>
+        </div>
+	`,
+    props: ['personMeta']
+})
 
 Vue.component('person', {
     template: `
-      <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="meta.personMeta.personRole">
-	<div class="personName">{{meta.personMeta.personName}}</div>
-	<div class="personRole">{{meta.personMeta.personRole}}</div>
-	<div class="personViaf">{{meta.personMeta.personViaf}}</div>
+      <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="person.personMeta.personRole">
+	<personMeta :personMeta="person.personMeta"></personMeta>
 	<div class="personListBibl">
-	<personBibl v-if="showBibls" v-for="bibl in meta.personListBibl" :personBibl="bibl"></personBibl>
+	<personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
 	</div>
       </div>
 	`,
-    props: ['meta'],
+    props: ['person'],
     data() {
 	return {
 	    showBibls: false,
@@ -193,6 +207,12 @@ Vue.component('person', {
 	}
     },
     methods: {
+	deDupeBibls: function (bibl){
+	    if(Object.keys(bibl).length < 3){
+		return bibl[0]
+	    }
+	    return bibl
+	},
 	toggleBibls: function () {
 	    this.showBibls = !this.showBibls
 	},
@@ -201,7 +221,7 @@ Vue.component('person', {
 		return true
 	    }
 
-	    if(this.meta.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
+	    if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
 		return true
 	    }
 	    return false
@@ -214,69 +234,90 @@ Vue.component('person', {
     }
 })
 
-Vue.component('personBibl', {
+Vue.component('biblIssueMeta', {
     template: `
-	<div class="personBibl" v-if="this.dataLoaded()">
-          <div class="issueMeta">
-	    <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
-	    <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
- 	  </div>
-	  <div class="pieceMeta" v-if="!this.$root.empty(this.ppm.pieceId)">
-	<div class="pieceSection" v-if="!this.$root.empty(this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId))">{{this.sectionTitle(this.bibl_data[ppm.pieceId].sectionId)}}</div>
-	    <div class="pieceTitle" @click="goToPiece">{{this.bibl_data[ppm.pieceId].pieceMeta.pieceTitle}}</div>
-	    <div class="pieceAuthorShip">{{this.ppm.authorShip}}</div>
-	    <div class="personPiecePseudo" v-if="this.ppm.personPiecePseudo">{{this.ppm.personPiecePseudo}}</div>
-	    <div class="personPieceRole">{{this.ppm.personPieceRole}}</div>
-          </div>
+	<div class="issueMeta">
+	  <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>
+	  <div class="issueNum">No. {{issueMeta.issueNum}}</div>
+	</div>
+	
+    `,
+    props: ['issueMeta']
+})
+
+Vue.component('biblSectionMeta', {
+    template: `
+	<div class="sectionMeta">
+	<div class="sectionTitle">{{sectionMeta.sectionTitle}}</div>
+        </div>
+    `,
+    props: ['sectionMeta']
+})
+
+Vue.component('biblPersonPieceMeta',{
+    template: `
+        <div class="personPieceMeta">
+          <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
+	  <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">
+            <div class="authorStatus" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorStatus}}</div>
+            <div class="authorCertainty" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorCertainty}}</div>
+	  </div>
         </div>
 	`,
-    props: ['personBibl'],
-    created(){
-	ppm_url = '/api/broadwayjournal/' + this.personBibl.issueId + '/ppm';
-	axios.get(ppm_url).then(response => this.ppm = response.data[this.personBibl.personPieceMetaId]);
-
-	bibl_url = '/api/broadwayjournal/' + this.personBibl.issueId + '/bibl_data';
-	axios.get(bibl_url).then(response => this.bibl_data = response.data);
-    },
-    data(){
-	return {
-	    ppm: {},
-	    bibl_data: {}
-	}
-    },
+    props: ['personPieceMeta'],
     methods: {
-	dataLoaded: function () {
-	    return !this.$root.empty(this.ppm) && !this.$root.empty(this.bibl_data)
-	},
+	hasUnusualAuthorship: function () {
+	    attested = this.personPieceMeta.authorShip.authorStatus == 'attested'
+	    totallyCertain = this.personPieceMeta.authorShip.authorCertainty == 'high'
+	    return !(attested && totallyCertain)
+	}
+    }
+})
+
+Vue.component('biblPieceMeta', {
+    template: `
+	<div class="pieceMeta">
+	  <div class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>
+        </div>
+    `,
+    props: ['pieceMeta', 'issueId'],
+    methods: {
 	goToPiece: function () {
-	    this.$root.state.content.issue.id = this.ppm.issueId
-	    this.$root.state.content.issue.decls_id = this.ppm.pieceId
-	    this.$root.state.content.issue.page = parseInt(this.bibl_data[this.ppm.pieceId].pieceMeta.piecePdfIndex)
+	    this.$root.state.content.issue.id = this.issueId
+	    this.$root.state.content.issue.decls_id = this.pieceMeta.pieceId
+	    this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex)
 
 	    Event.$emit('activeContentChange', 'issues')
 	    Event.$emit('issueBiblSelected', {
-		issueId: this.ppm.issueId,
-		pdf_index: this.bibl_data[this.ppm.pieceId].pieceMeta.piecePdfIndex,
-		decls_id: this.ppm.pieceId
+		issueId: this.issueId,
+		pdf_index: this.pieceMeta.piecePdfIndex,
+		decls_id: this.pieceMeta.pieceId
 	    })
 	},
-	sectionTitle: function(biblId) {
-	    bibl = this.bibl_data[biblId]
-	    if(!bibl){
-		return "bibl " + biblId + "doesn't exist"
-	    }
-	    if(this.$root.empty(bibl.sectionMeta)){
-		return "sectionMeta is missing!"
-	    }
-	    return bibl.sectionMeta.sectionTitle
-	}
     }
+})
+
+Vue.component('personBibl', {
+    template: `
+	<div class="personBibl">
+          <biblIssueMeta v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMeta>
+          <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
+          <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
+          <biblPersonPieceMeta v-if="!this.$root.empty(bibl.personPieceMeta)" :personPieceMeta="bibl.personPieceMeta"></biblPersonPieceMeta>
+        </div>
+	`,
+    props: ['bibl']
 })
 
 Vue.component('searchResults',{
     template: `
 	<div class="searchResults">
-        <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
+	  <div class="searchResultsHeader" v-if="this.results.searchResult">
+	    <div class="searchResultsTitle">Search Results</div>
+            <div class="searchResultsCount">{{this.searchResultCount()}}</div>
+            <div class="searchResultsString">{{this.searchString}}</div>
+      	  </div>
+          <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
         </div>
 	
     `,
@@ -294,6 +335,9 @@ Vue.component('searchResults',{
 	})
     },
     methods: {
+	searchResultCount: function() {
+	    return this.results.searchResult.length
+	},
 	executeSearch: function() {
 	    search_url = '/api/broadwayjournal/issue/search/' + this.searchString;
 	    axios.get(search_url).then(response => this.results = response.data);	    
@@ -325,10 +369,7 @@ Vue.component('searchResult',{
     template: `
 	<div class="searchResult" @click="resultClicked">
 	  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
-	  <div class="context">
-	    <span class="contextBefore">{{this.result.contextBefore}}</span>
-	    <span class="searchHit">{{this.result.hit}}</span>
-	    <span class="contextAfter">{{this.result.contextAfter}}</span>
+            <div class="context">{{this.result.contextBefore}}<span class="searchHit">{{this.result.hit}}</span>{{this.result.contextAfter}}
 	  </div>
 	</div>
     `
@@ -337,8 +378,8 @@ Vue.component('searchResult',{
 Vue.component('issueViewer',{
     template: `
 	<div class="viewer">
-	  <pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer>
-	  <tei-markup v-if="viewer == 'text'"></tei-markup>
+	  <transition name="fade"><pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer></transition>
+	  <transition name="fade"><tei-markup v-if="viewer == 'text'"></tei-markup></transition>
 	</div>
 	`,
         data() {
@@ -379,65 +420,119 @@ If an article only has initials for a byline and you can't find a reasonable ful
 
 Certainty: identify cert as “high,” “medium,” or “low.”
 If the author is anonymous DO NOT provide certainty.`,
-	    showAuthorShipLegend: false,
 	    bibl_data: {},
 	    ppm: {},
 	    biblId: 's1',
+	    issueHeaderData: {}
 	}
     },
     created() {
 	Event.$on('issueSelected', (id) => {
 	    this.biblId = this.firstSection()
-	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
-	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
-	    this.setPpm()
+	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
+	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+//	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+//	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+//	    this.setPpm()
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.biblId = bibl.decls_id
-	    this.ppm = this.bibl_data = undefined
-	    this.setPpm()
-	    this.setBiblData()
+	    this.getIssueHeaderData()
+//	    this.ppm = this.bibl_data = undefined
+//	    this.setPpm()
+//	    this.setBiblData()
 	})
 
 	this.biblId = this.$root.state.content.issue.decls_id
-	this.setPpm()
-	this.setBiblData()
+//	this.setPpm()
+	//	this.setBiblData()
+	this.getIssueHeaderData()
     },
     template: `
-	<div class="issueHeader" v-if="this.dataLoaded()">
-	  <div class="bibl">
-  	    <div class="issueMeta" v-if="!this.$root.empty(this.bibl_data.issueMeta)">
-	      <div class="issueDate">{{this.bibl_data.issueMeta.issueDate}}</div>
-	      <div class="issueVol">Vol. {{this.bibl_data.issueMeta.issueVol}}</div>
-	      <div class="issueNum">No. {{this.bibl_data.issueMeta.issueNum}}</div>
-	    </div>
-	  </div>
-	  <div class="sectionMeta">
-            <div class="sectionTitle" v-if="this.bibl_data[this.biblId]">{{sectionTitle(this.biblId)}}</div>
-          </div>
-	  <div class="pieceMeta" v-if="!this.$root.empty(this.bibl_data[this.biblId])">
-            <div class="pieceTitle">{{this.pieceMeta('pieceTitle')}}</div>
-	    <div class="pieceAuthor">{{this.authorMeta('personName')}}</div>
-	    <div class="pieceAuthorRole">{{this.authorMeta('personPieceRole')}}</div>
-	  <div class="pieceAuthorShip" @mouseover="showAuthorShipLegend = true" @mouseleave="showAuthorShipLegend = false">
-	    <div class="authorShipOrigin">{{this.authorShipMeta('authorStatus')}}</div>
-	    <div class="authorShipCertainty">{{this.authorShipMeta('authorCertainty')}}</div>
-	  </div>
-	<div class="authorShipLegend" v-if="showAuthorShipLegend">{{this.authorShipLegend}}</div>
-          </div>
-    	<a class="downloadLink" v-bind:href='stateHref()' download>
-    	<div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
-    	<div class="downloadText">Download {{this.dlLabel()}}</div>
-    	</a>
-	<drawer v-if="this.drawerIsAvailable()" :authorId="this.authorMeta('personId')"></drawer>
-	</div>
+<div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+  <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
+  <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
+  <div class='issueDate'>{{this.formatDate()}}<div>
+  <div class="bibl" v-if="haveData()">
+    <div class="issue">
+      <a class="downloadLink" v-bind:href='stateHref()' download>
+        <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
+        <div class="downloadText">Download {{this.dlLabel()}}</div>
+      </a>
+      <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
+    </div>
+    <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
+    <div class="issueData">
+    </div>
+      <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+
+  </div>
+  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
+	<drawer v-if="this.getPersonId()" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"></drawer>
+</div>
 	`,
     methods: {
-	dataLoaded: function () {
-	    return !this.$root.empty(this.bibl_data) && !this.$root.empty(this.ppm)
+	haveData: function() {
+	    empty = this.$root.empty
+	    if(empty(this.issueHeaderData)){
+		alert('headerData is empty')
+	    }
+	    if(empty(this.issueHeaderData.listBibl)){
+		alert('issueHeaderData.listBibl is empty') 
+	    }
+	    if(empty(this.issueHeaderData.listBibl[this.biblId])){
+		alert('listBibl does not exist for '+ this.biblId)
+	    }
+	    if(empty(this.issueHeaderData.issueMeta)){
+		alert('missing issueMeta')
+	    }
+            return true
+	},
+	getSectionMeta: function () {
+	    
+	},
+	getIssueHeaderData: function () {
+	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
+	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+	},
+	getPersonId: function() {
+	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)){
+		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)[0]
+	    }
+	    return false
+	    
+	},
+	getPersonMeta: function (){
+	    pid = this.getPersonId()
+	    if(!pid){
+		return false
+	    }
+	    if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
+		alert('person ' + pid + ' not found!')
+		return {
+		    personRole: 'unknown',
+		    personName: 'unknown',
+		    personViaf: false
+		}
+	    }
+	    personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+	    if(this.$root.empty(personMeta)){
+		return false
+	    }
+	    return personMeta
+	},
+	getPersonPieceMeta: function () {
+	    pid = this.getPersonId()
+	    if(!pid){
+		return false
+	    }
+	    bid = 'bibl-' + this.issueHeaderData.issueMeta.issueId + '-' + this.biblId
+	    meta = this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta
+	    console.log(pid)
+	    return meta
 	},
 	drawerIsAvailable: function() {
-	    return this.bibl_data[this.biblId] && !this.biblIsSection(this.biblId)
+	    return this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId) || !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))
 	},
 	dlLabel: function(){
     	    if(this.$root.state.content.issue.viewer == 'pdf'){
@@ -464,25 +559,12 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    return this.bibl_data[this.biblId].pieceMeta[attribute]
 	},
-	authorMeta: function (attribute){
-	    if(!this.bibl_data[this.biblId].pieceMeta){
-		return
-	    }
-	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
-	    ppm = this.ppm[ppmId]
-	    return ppm[attribute]
-	},
-	authorShipMeta: function (attribute){
-	    if(!this.bibl_data[this.biblId].pieceMeta){
-		return
-	    }
-	    ppmId = this.bibl_data[this.biblId].pieceMeta.pieceListPerson.person.personPieceMetaId
-	    ppm = this.ppm[ppmId]
-	    return ppm.authorShip[attribute]
-	},
 	stateHref:function(){
 	    let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
 	    let format = this.$root.state.content.issue.viewer
+	    if(format == 'text'){
+		format = 'tei'
+	    }
 	    return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
 	},
 	sectionTitle: function(biblId) {
@@ -500,7 +582,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	},
 	biblIsSection: function(biblId) {
-	    if(this.bibl_data[biblId].sectionMeta){
+	    if(this.issueHeaderData.listBibl[biblId].sectionMeta){
 		return true
 	    }
 	    return false
@@ -510,7 +592,12 @@ If the author is anonymous DO NOT provide certainty.`,
 		return true
 	    }
 	    return false
-	}
+	},
+        formatDate: function() {
+            d = Util.datePartsForIssueId(this.$root.state.content.issue.id)
+            date = d.month + '-' + d.day + '-' + d.year;
+            return date
+        }
     },
     mounted() {
 //	Event.$emit('issueSelected', this.$root.state.content.issue.id)
@@ -519,20 +606,42 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer"><div class="drawerActuator" @click="showBibls = !showBibls">
-		<div class="drawerIcon">
-			<i class="fa fa-list" aria-hidden="true"></i>
-		</div>
-    	<div class="drawerText">
-    		More from this author
-		</div>
-	</div>
-	  <personBibl v-if="showBibls" v-for="bibl in this.authorBibls.personListBibl" :personBibl="bibl"></personBibl>
+	<div class="drawer" v-if="!authorIsAnonymous() && authorWroteSomethingBesidesThis()" v-bind:class="{active: showBibls}">
+	  <div class="drawerActuator" @click="showBibls = !showBibls">
+	    <div class="drawerIcon">
+	      <i class="fa fa-list" aria-hidden="true"></i>
+	    </div>
+    	    <div class="drawerText">More from this author</div>
+	  </div>
+	  <personBibl v-if="showBibls && isBibls()" v-for="bibl in getBibls()" :bibl="bibl"></personBibl>
         </div>
 	`,
-    props: ['authorId'],
+    props: ['authorId', 'issueId', 'declsId'],
+    methods: {
+	getBibls: function () {
+	    currentDecls = 'bibl-' + this.issueId + '-' + this.declsId
+	    bibls = []
+	    allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl
+	    for(k in allBibls){
+		if(k != currentDecls){
+		    bibls.push(allBibls[k])
+		}
+	    }
+	    return bibls
+	},
+	authorIsAnonymous: function () {
+	    return this.authorId == 'anon'
+	},
+	authorWroteSomethingBesidesThis: function () {
+	    pieces = Object.keys(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl).length
+	    return parseInt(pieces) > 1
+	},
+	isBibls: function (){
+	    return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl)
+	}
+    },
     created() {
-	axios.get('/api/personography/summary/json').then(response => {
+	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => {
 	    this.personography = response.data
 	    this.authorBibls = this.personography.personIndex[this.authorId]
 	})
@@ -566,41 +675,88 @@ Vue.component('abouts',{
     template: `
 
       <div class="abouts">
+<div class="aboutToggle">
 
-        <logo></logo>
-	<div class="about" @click="selectMe('about')">About</div>
-	<div class="technical" @click="selectMe('tech')">Technical</div>
-	<div class="credits"  @click="selectMe('credit')">Credits</div>
-	<div v-if="this.abouts == 'about'">
-	
-	        {{ aboutText[0] }}
-	        <br/>
-	        {{ aboutText[1] }}
+	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">Project</div>
+	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
+	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
+</div>
+    <div class="aboutViewer">
+    <logo v-if="this.abouts == 'about'"></logo>
+	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
+	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
+	   <div v-if="this.abouts == 'credits'">
+            <creditsPersonList></creditsPersonList>
         </div>
-	      <div v-if="this.abouts == 'tech'">
-	        <li v-for="each in techText"  v-text="each"></li>
-	      </div>
-	      <div v-if="this.abouts == 'credit'">
-	        <li v-for="each in creditText" v-text="each"></li>
-	      </div>
-	    </div>
+    </div>
+    </div>
 	`,
     data() {
 	return {
 	    abouts: this.$root.state.content.abouts,
-	    aboutText: ['The Broadway Journal (1845-46), one of the four principal magazines that Edgar Allan Poe helped to edit, is here offered in a digital edition. This edition uses Poe’s career as a magazinist as an entry point into antebellum author networks.','In addition to the corrected pages of the journal available for viewing, this project uses the Text Encoding Initiative (TEI) to identify the author of each piece in the 48 issues, including anonymous, pseudonymous, and unidentified works. As a result, readers can see which authors were published and how frequently, and how they were identified - or not.'],
-	    creditText: ['Lauren Coates','TEI markup: The Graduate Students','design and css: Kyle Tanglao','vue.js: Will Conlin','server backend: Jason Peak'],
-	    techText: ['TEI is Great','vue.js is reactive!','aws deployed!','php served','laravel inspired','html 5','css','linux deployed'],
+	    aboutText: this.$root.xhrDataStore.abouts.about,
+	    techText: this.$root.xhrDataStore.abouts.tech
 	}
     },
     methods: {
     	selectMe: function(about) {
 	    this.abouts = about;
 	    Event.$emit('aboutsSelected', this.abouts);
+	},
+    },
+    created() {
+	if(this.$root.xhrDataStore.abouts.about.length > 1){
+	    this.aboutText = this.$root.xhrDataStore.abouts.about
+	}else{
+	    url = '/api/broadwayjournal/abouts/about'
+	    axios.get(url).then(response => this.aboutText = response.data);
+	}
+	if(this.$root.xhrDataStore.abouts.tech.length > 1){
+	    this.techText = this.$root.xhrDataStore.abouts.tech
+	}else{
+	    url = '/api/broadwayjournal/abouts/tech'
+	    axios.get(url).then(response => this.techText = response.data);
+	    console.log('fetching tech now')
+	}
+    },
+})
+
+Vue.component('creditsPersonList', {
+    template: `
+	<div class="creditsPersonsList">
+	  <creditsPerson v-for="person in creditsData.personList" :person="person"></creditsPerson>
+        </div>
+	`,
+    methods: {
+	dataLoaded: function() {
+	    return this.$root.empty(this.creditsData)
+	}
+    },
+    created() {
+	if(this.$root.empty(this.$root.xhrDataStore.abouts.credits)){
+	    url = '/api/broadwayjournal/abouts/credits'
+	    axios.get(url).then(response => this.creditsData = response.data);
+	}else{
+	    this.creditsData = this.$root.xhrDataStore.abouts.credits
+	}
+    },
+    data() {
+	return {
+	    creditsData: {}
 	}
     }
 })
 
+Vue.component('creditsPerson', {
+    template: `
+	<div class="creditsPerson">
+	  <div class="creditsPersonName">{{person.personMeta.personName}}</div>
+	  <div class="creditsPersonAffiliation">{{person.personMeta.personBio.personAffiliation}}</div>
+ 	  <div class="creditsPersonNote">{{person.personMeta.personBio.personNote}}</div>
+        </div>
+	`,
+    props: ['person']
+})
 
 Vue.component('viewerSelector',{
     created(){
@@ -610,11 +766,18 @@ Vue.component('viewerSelector',{
 
     },
     template: `
-	<div class='viewerSelector' @click="toggleViewer">
-            <div class="viewerTitle">Change Viewer</div>
+	<div class='viewerSelector' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">
+            <div class="viewerTitle">Toggle View</div>
             <div class="viewerSwitch">
-              <div class="viewerText" v-bind:class="isActive('tei')">Text</div>
-              <div class="viewerPdf" v-bind:class="isActive('pdf')">PDF</div>
+              <div class="viewerText">
+                <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>            
+              	<div class="viewerTextLabel">Text</div>
+          	  </div>
+              <div class="viewerPdf">
+                <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</div>            
+                <div class="viewerPdfLabel">PDF</div>
+              </div>
             </div>
 	</div>
 	`,
@@ -623,13 +786,15 @@ Vue.component('viewerSelector',{
 	    return viewerType == this.active
 	},
 	toggleViewer: function(){
+	    this.pdfSelected = !this.pdfSelected
 	    this.active = this.active == 'pdf' ? 'text' : 'pdf'
 	    Event.$emit('viewerSelected', this.active)
 	}
     },
     data(){
 	return {
-	    active: this.$root.state.content.issue.viewer
+	    active: this.$root.state.content.issue.viewer,
+	    pdfSelected: false
 	}
     }
 });
@@ -666,17 +831,28 @@ Vue.component('intraIssueNav',{
 	    this.issueID = id;
 	    this.setTocContent()
 	})
+	Event.$on('issueBiblSelected', (data) => {
+	    this.issueID = data.issueId;
+	    this.setTocContent()
+	})
     },
     methods: {
 	setTocContent: function () {
 	    url= '/api/broadwayjournal/' + this.issueID + '/toc';
 	    axios.get(url).then(response => this.tocContent = response.data);
+	},
+	getTocContent: function () {
+	    if(this.$root.empty(this.tocContent.toc)){
+		alert('Toc content is empty for ' + this.issueId)
+		return false
+	    }
+	    return true
 	}
     },
 	template:`
 	<div class='intraIssueNav'>
           <div class='tocDropdown'>Table of Contents</div>
-          <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
+          <toc-item v-if="getTocContent()" v-for='id in tocContent.toc' :id='id'></toc-item>
         </div>
 			`
 })
@@ -929,7 +1105,9 @@ Vue.component('tei-markup',{
 	    if(needle.length < 1){
 		return this.issueText
 	    }
-	    return this.issueText.toLowerCase().replace(needle, '<span class="searchHit">' + needle +'</span>')
+	    //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
+	    pattern = new RegExp('('+needle+')', 'gi')
+	    return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>")
 	},
 	getText: function(){
 	    if(this.biblId){
@@ -1230,7 +1408,7 @@ new Vue({
 		    id: '18450201',//'18450104', // yyyy-mm-dd
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
-		    decls_id: ''
+		    decls_id: 'p1'
 		},
 		personography: {
 		    filterString: '', // ie eapoe
@@ -1242,7 +1420,15 @@ new Vue({
 		searchString: ''
 	    },
 	    contrast: 'normal', // high
-	}		
+	},
+	xhrDataStore: {
+	    abouts: {
+		about: '',
+		tech: '',
+		credits: {}
+	    },
+	    personography: {}
+	}
     },
     created() {
 	Event.$on('aboutsSelected', (about) => {
@@ -1268,6 +1454,12 @@ new Vue({
 	Event.$on('searchSubmitted', (searchString) => {
 	    this.state.content.searchString = searchString
 	})
+	// get abouts data
+	axios.get('/api/broadwayjournal/abouts/credits').then(response => this.xhrDataStore.abouts.credits = response.data);
+	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
+	axios.get('/api/broadwayjournal/abouts/tech').then(response => this.xhrDataStore.abouts.tech = response.data);
+	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => this.xhrDataStore.personography = response.data);
+
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
