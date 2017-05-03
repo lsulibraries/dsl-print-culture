@@ -7,20 +7,16 @@
       <issueNum>16</issueNum>
       <issueDate>October 25, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
-            <personName>[?]</personName>
-            <personIssueRole>Printer</personIssueRole>
-         </person>
+         </eapoe>
       </issueListPerson>
    </issueMeta>
    <listBibl>
@@ -72,7 +68,7 @@
                <personPieceRole>Contributor</personPieceRole>
                <authorShip>
                   <authorStatus>attested</authorStatus>
-                  <authorCertainty>low</authorCertainty>
+                  <authorCertainty>high</authorCertainty>
                </authorShip>
             </wg>
          </pieceListPerson>
@@ -107,8 +103,7 @@
                <personPieceRole>Contributor</personPieceRole>
                <authorShip>
                   <authorStatus>supplied</authorStatus>
-                  <authorCertainty>medium</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
+                  <authorCertainty>low</authorCertainty>
                </authorShip>
             </amide>
          </pieceListPerson>
@@ -178,17 +173,6 @@
             <piecePage>247-248</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
          </pieceMeta>
-         <pieceListPerson>
-            <eapoe>
-               <personName>Edgar Allan Poe</personName>
-               <personPieceRole>Contributor</personPieceRole>
-               <authorShip>
-                  <authorStatus>supplied</authorStatus>
-                  <authorCertainty>high</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
-               </authorShip>
-            </eapoe>
-         </pieceListPerson>
       </p9>
       <p10>
          <sectionMeta/>
@@ -198,17 +182,6 @@
             <piecePage>248</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
-         <pieceListPerson>
-            <eapoe>
-               <personName>Edgar Allan Poe</personName>
-               <personPieceRole>Contributor</personPieceRole>
-               <authorShip>
-                  <authorStatus>supplied</authorStatus>
-                  <authorCertainty>medium</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
-               </authorShip>
-            </eapoe>
-         </pieceListPerson>
       </p10>
       <p11>
          <sectionMeta/>
@@ -218,17 +191,6 @@
             <piecePage>248</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
-         <pieceListPerson>
-            <eapoe>
-               <personName>Edgar Allan Poe</personName>
-               <personPieceRole>Contributor</personPieceRole>
-               <authorShip>
-                  <authorStatus>supplied</authorStatus>
-                  <authorCertainty>medium</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
-               </authorShip>
-            </eapoe>
-         </pieceListPerson>
       </p11>
       <p12>
          <sectionMeta/>
@@ -237,6 +199,49 @@
             <pieceTitle>Appleton's Literary Miscellany</pieceTitle>
             <piecePage>248</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta/>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Graham's Magazine for November</pieceTitle>
+            <piecePage>248</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+      </p13>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+            <sectionPage>248</sectionPage>
+            <sectionPdfIndex>14</sectionPdfIndex>
+         </sectionMeta>
+         <sectionListPerson>
+            <eapoe>
+               <personName>Edgar Allan Poe</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </eapoe>
+         </sectionListPerson>
+      </s2>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>249-250</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s3>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Our First Volume</pieceTitle>
+            <piecePage>250</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
             <anon>
@@ -247,53 +252,6 @@
                </authorShip>
             </anon>
          </pieceListPerson>
-      </p12>
-      <p13>
-         <sectionMeta/>
-         <pieceMeta>
-            <pieceId>p13</pieceId>
-            <pieceTitle>Graham's Magazine for November</pieceTitle>
-            <piecePage>248</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
-         </pieceMeta>
-         <pieceListPerson>
-            <eapoe>
-               <personName>Edgar Allan Poe</personName>
-               <personPieceRole>Contributor</personPieceRole>
-               <authorShip>
-                  <authorStatus>supplied</authorStatus>
-                  <authorCertainty>medium</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
-               </authorShip>
-            </eapoe>
-         </pieceListPerson>
-      </p13>
-      <p14>
-         <pieceMeta>
-            <pieceId>p14</pieceId>
-            <pieceTitle>Editorial Miscellany</pieceTitle>
-            <piecePage>248</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
-         </pieceMeta>
-         <pieceListPerson>
-            <eapoe>
-               <personName>Edgar Allan Poe</personName>
-               <personPieceRole>Contributor</personPieceRole>
-               <authorShip>
-                  <authorStatus>supplied</authorStatus>
-                  <authorCertainty>high</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
-               </authorShip>
-            </eapoe>
-         </pieceListPerson>
       </p14>
-      <s2>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>Advertisements</sectionTitle>
-            <sectionPage>249-250</sectionPage>
-            <sectionPdfIndex>15</sectionPdfIndex>
-         </sectionMeta>
-      </s2>
    </listBibl>
 </issue>

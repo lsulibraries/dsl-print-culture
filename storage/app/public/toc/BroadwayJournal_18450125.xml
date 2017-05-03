@@ -33,7 +33,7 @@
             <p2>
                <decls_id>p2</decls_id>
                <type>piece</type>
-               <title>The Natural Boundaries of the Empires, and a New View of Colonization</title>
+               <title>The Natural Boundaries of the Empires</title>
                <t_type>derived</t_type>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
@@ -247,16 +247,16 @@
          <type>section</type>
          <title>Illustrated Magazines</title>
          <t_type>attested</t_type>
-         <auth_id>cfbriggs</auth_id>
-         <auth_name>Charles Frederick Briggs</auth_name>
-         <auth_stat>supplied</auth_stat>
-         <auth_cert>high</auth_cert>
          <pieces>
             <p17>
                <decls_id>p17</decls_id>
                <type>piece</type>
                <title>Godey's Magazine and Lady's Book</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <start>60</start>
                <end>61</end>
                <pages>60-61</pages>
@@ -267,6 +267,10 @@
                <type>piece</type>
                <title>Graham's Magazine of Literature and Art</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <page>61</page>
                <pdf_index>13</pdf_index>
             </p18>
@@ -275,6 +279,10 @@
                <type>piece</type>
                <title>The Columbian Lady's and Gentleman's Magazine</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <page>61</page>
                <pdf_index>13</pdf_index>
             </p19>
@@ -285,16 +293,16 @@
          <type>section</type>
          <title>Literary Notices</title>
          <t_type>attested</t_type>
-         <auth_id>cfbriggs</auth_id>
-         <auth_name>Charles Frederick Briggs</auth_name>
-         <auth_stat>supplied</auth_stat>
-         <auth_cert>high</auth_cert>
          <pieces>
             <p20>
                <decls_id>p20</decls_id>
                <type>piece</type>
                <title>The Life and Correspondence of Thomas Arnold</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <page>61</page>
                <pdf_index>13</pdf_index>
             </p20>
@@ -303,6 +311,10 @@
                <type>piece</type>
                <title>Oneota, or the Red Race of America</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <page>61</page>
                <pdf_index>13</pdf_index>
             </p21>
@@ -311,6 +323,10 @@
                <type>piece</type>
                <title>The Southern Quarterly Review</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <start>61</start>
                <end>62</end>
                <pages>61-62</pages>
@@ -321,6 +337,10 @@
                <type>piece</type>
                <title>The Waif</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <page>62</page>
                <pdf_index>14</pdf_index>
             </p23>
@@ -329,6 +349,10 @@
                <type>piece</type>
                <title>Dunigan's Illustrated Edition of the Bible</title>
                <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
                <page>62</page>
                <pdf_index>14</pdf_index>
             </p24>
@@ -367,14 +391,25 @@
                <type>piece</type>
                <title>Letter from an Anxious Father</title>
                <t_type>attested</t_type>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>gsprudence</auth_id>
+               <auth_name/>
                <auth_stat>unknown</auth_stat>
                <start>62</start>
                <end>63</end>
                <pages>62-63</pages>
                <pdf_index>14</pdf_index>
             </p27>
+            <p30>
+               <decls_id>p30</decls_id>
+               <type>piece</type>
+               <title>To the Editor of the Broadway Journal</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>63</page>
+               <pdf_index>15</pdf_index>
+            </p30>
          </pieces>
       </s7>
       <p28>

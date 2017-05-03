@@ -12,17 +12,17 @@
          <authorReference>(Reference: eapoe.org)</authorReference>
       </authorShip>
    </ppm-18450222-p1-cfbriggs>
-   <ppm-18450222-p2->
+   <ppm-18450222-p2-wpage>
       <issueId>18450222</issueId>
       <pieceId>p2</pieceId>
-      <personId/>
-      <personName/>
+      <personId>wpage</personId>
+      <personName>William Page</personName>
       <personPieceRole>Contributor</personPieceRole>
       <authorShip>
          <authorStatus>attested</authorStatus>
          <authorCertainty>high</authorCertainty>
       </authorShip>
-   </ppm-18450222-p2->
+   </ppm-18450222-p2-wpage>
    <ppm-18450222-p3-clbarritt>
       <issueId>18450222</issueId>
       <pieceId>p3</pieceId>

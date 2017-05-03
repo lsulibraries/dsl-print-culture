@@ -7,20 +7,16 @@
       <issueNum>16</issueNum>
       <issueDate>October 25, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
-            <personName>[?]</personName>
-            <personIssueRole>Printer</personIssueRole>
-         </person>
+         </eapoe>
       </issueListPerson>
    </issueMeta>
    <p1>
@@ -30,10 +26,10 @@
          <piecePage>235</piecePage>
          <piecePdfIndex>1</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18451025-p1-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p1>
@@ -44,10 +40,10 @@
          <piecePage>235-240</piecePage>
          <piecePdfIndex>1</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <eapoe>
                <personId>eapoe</personId>
                <personPieceMetaId>ppm-18451025-p2-eapoe</personPieceMetaId>
-            </person>
+            </eapoe>
          </pieceListPerson>
       </pieceMeta>
    </p2>
@@ -58,10 +54,10 @@
          <piecePage>240-241</piecePage>
          <piecePdfIndex>6</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <wg>
                <personId>wg</personId>
                <personPieceMetaId>ppm-18451025-p3-wg</personPieceMetaId>
-            </person>
+            </wg>
          </pieceListPerson>
       </pieceMeta>
    </p3>
@@ -72,10 +68,10 @@
          <piecePage>241-243</piecePage>
          <piecePdfIndex>7</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <anon>
                <personId>anon</personId>
                <personPieceMetaId>ppm-18451025-p4-anon</personPieceMetaId>
-            </person>
+            </anon>
          </pieceListPerson>
       </pieceMeta>
    </p4>
@@ -86,10 +82,10 @@
          <piecePage>243</piecePage>
          <piecePdfIndex>9</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <amide>
                <personId>amide</personId>
                <personPieceMetaId>ppm-18451025-p5-amide</personPieceMetaId>
-            </person>
+            </amide>
          </pieceListPerson>
       </pieceMeta>
    </p5>
@@ -100,10 +96,10 @@
          <piecePage>243-244</piecePage>
          <piecePdfIndex>9</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <eapoe>
                <personId>eapoe</personId>
                <personPieceMetaId>ppm-18451025-p6-eapoe</personPieceMetaId>
-            </person>
+            </eapoe>
          </pieceListPerson>
       </pieceMeta>
    </p6>
@@ -114,10 +110,10 @@
          <piecePage>244-245</piecePage>
          <piecePdfIndex>10</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <w>
                <personId>w</personId>
                <personPieceMetaId>ppm-18451025-p7-w</personPieceMetaId>
-            </person>
+            </w>
          </pieceListPerson>
       </pieceMeta>
    </p7>
@@ -128,10 +124,10 @@
          <piecePage>245-246</piecePage>
          <piecePdfIndex>11</piecePdfIndex>
          <pieceListPerson>
-            <person>
+            <lsy>
                <personId>lsy</personId>
                <personPieceMetaId>ppm-18451025-p8-lsy</personPieceMetaId>
-            </person>
+            </lsy>
          </pieceListPerson>
       </pieceMeta>
    </p8>
@@ -139,6 +135,12 @@
       <pieceMeta>
          <pieceId>s1</pieceId>
          <pieceTitle>Critical Notices</pieceTitle>
+         <pieceListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18451025-s1-eapoe</personPieceMetaId>
+            </eapoe>
+         </pieceListPerson>
       </pieceMeta>
    </s1>
    <p9>
@@ -148,12 +150,6 @@
          <pieceTitle>The Songs of our Land and Other Poems</pieceTitle>
          <piecePage>247-248</piecePage>
          <piecePdfIndex>13</piecePdfIndex>
-         <pieceListPerson>
-            <person>
-               <personId>eapoe</personId>
-               <personPieceMetaId>ppm-18451025-p9-eapoe</personPieceMetaId>
-            </person>
-         </pieceListPerson>
       </pieceMeta>
    </p9>
    <p10>
@@ -163,12 +159,6 @@
          <pieceTitle>Morse's Cerographic Maps. No. 1</pieceTitle>
          <piecePage>248</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
-         <pieceListPerson>
-            <person>
-               <personId>eapoe</personId>
-               <personPieceMetaId>ppm-18451025-p10-eapoe</personPieceMetaId>
-            </person>
-         </pieceListPerson>
       </pieceMeta>
    </p10>
    <p11>
@@ -178,12 +168,6 @@
          <pieceTitle>The Vision; or Hell, Purgatory and Paradise of Dante Alighieri</pieceTitle>
          <piecePage>248</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
-         <pieceListPerson>
-            <person>
-               <personId>eapoe</personId>
-               <personPieceMetaId>ppm-18451025-p11-eapoe</personPieceMetaId>
-            </person>
-         </pieceListPerson>
       </pieceMeta>
    </p11>
    <p12>
@@ -193,12 +177,6 @@
          <pieceTitle>Appleton's Literary Miscellany</pieceTitle>
          <piecePage>248</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
-         <pieceListPerson>
-            <person>
-               <personId>anon</personId>
-               <personPieceMetaId>ppm-18451025-p12-anon</personPieceMetaId>
-            </person>
-         </pieceListPerson>
       </pieceMeta>
    </p12>
    <p13>
@@ -208,34 +186,42 @@
          <pieceTitle>Graham's Magazine for November</pieceTitle>
          <piecePage>248</piecePage>
          <piecePdfIndex>14</piecePdfIndex>
-         <pieceListPerson>
-            <person>
-               <personId>eapoe</personId>
-               <personPieceMetaId>ppm-18451025-p13-eapoe</personPieceMetaId>
-            </person>
-         </pieceListPerson>
       </pieceMeta>
    </p13>
-   <p14>
-      <pieceMeta>
-         <pieceId>p14</pieceId>
-         <pieceTitle>Editorial Miscellany</pieceTitle>
-         <piecePage>248</piecePage>
-         <piecePdfIndex>14</piecePdfIndex>
-         <pieceListPerson>
-            <person>
-               <personId>eapoe</personId>
-               <personPieceMetaId>ppm-18451025-p14-eapoe</personPieceMetaId>
-            </person>
-         </pieceListPerson>
-      </pieceMeta>
-   </p14>
    <s2>
       <sectionMeta>
          <sectionId>s2</sectionId>
+         <sectionTitle>Editorial Miscellany</sectionTitle>
+         <sectionPage>248</sectionPage>
+         <sectionPdfIndex>14</sectionPdfIndex>
+         <sectionListPerson>
+            <eapoe>
+               <personId>eapoe</personId>
+               <personPieceMetaId>ppm-18451025-s2-eapoe</personPieceMetaId>
+            </eapoe>
+         </sectionListPerson>
+      </sectionMeta>
+   </s2>
+   <s3>
+      <sectionMeta>
+         <sectionId>s3</sectionId>
          <sectionTitle>Advertisements</sectionTitle>
          <sectionPage>249-250</sectionPage>
          <sectionPdfIndex>15</sectionPdfIndex>
       </sectionMeta>
-   </s2>
+   </s3>
+   <p14>
+      <pieceMeta>
+         <pieceId>p14</pieceId>
+         <pieceTitle>Our First Volume</pieceTitle>
+         <piecePage>250</piecePage>
+         <piecePdfIndex>16</piecePdfIndex>
+         <pieceListPerson>
+            <anon>
+               <personId>anon</personId>
+               <personPieceMetaId>ppm-18451025-p14-anon</personPieceMetaId>
+            </anon>
+         </pieceListPerson>
+      </pieceMeta>
+   </p14>
 </issue>

@@ -2,28 +2,34 @@
    <div class="issueId">18450712</div>
    <div class="front">
       
-      <div>
-         <div class="head">THE BROADWAY JOURNAL.</div>
+      <div class="ab">THE BROADWAY JOURNAL.
          
-         <div class="ab"> VOL. 2.
-            NEW YORK, SATURDAY, JULY 12, 1845.	NO. l.
-         </div>
+         <br></br>VOL. 2     NEW YORK, SATURDAY, JULY 12, 1845.      NO. 1.
          
-         <div class="ab">Three Dollars per Annum.	Single Copies, 6 1-4 Cents.</div> 
-         <div class="ab">Edited by EDGAR A. POE AND HENRY C. WATSON.</div>	
-         <div class="ab">Published at 136 Nassau St.
-            		By JOHN BISCO.
-         </div>
+         <br></br>Three Dollars per Annum. 
+         
+         <br></br>Single Copies, 6 1-4 Cents.
+         
+         <br></br>EDITED BY 
+         
+         <br></br>EDGAR A POE AND HENRY C. WATSON.
+         
+         <br></br>Published at 136 Nassau St. 
+         
+         <br></br>By JOHN BISCO.            
+         
       </div>
       
    </div>
    <div class="body">
       
       
-      <div>
+      <div class="piece" id="#p1">
+         <div class="biblTitle">Our New Volume</div>
+         <div class="biblPage">1</div>
          <div class="head">OUR NEW VOLUME.</div>
          
-         <p>To the Public.—The suspension of “ The Broadway
+         <p>To the Public.—The suspension of “The Broadway
             Journal" for one week, has been occasioned by the necessity
             for some arrangements in which the public have no interest,
             but which, beyond doubt, will give increased value and
@@ -39,7 +45,7 @@
             he looks confidently to a triumphant Future.
          </p>
          
-         <p>The editorial conduct of “ The Broadway Journal” is under the sole charge of Edgar A. Poe—Mr. H. C. Watson,
+         <p>The editorial conduct of “The Broadway Journal” is under the sole charge of Edgar A. Poe—Mr. H. C. Watson,
             as heretofore, controlling the Musical Department.
          </p>
          <div class="byline">
@@ -48,12 +54,14 @@
          </div>
       </div>
       
-      <div>
+      <div class="piece" id="#p2">
+         <div class="biblTitle">How to Write a Blackwood Article</div>
+         <div class="biblPage">1</div>
          <div class="head">HOW TO WRITE A BLACKWOOD
             ARTICLE.
          </div>
          
-         <div class="ab">“ In the namc of the Prophet—figs!!”
+         <div class="ab">“In the namc of the Prophet—figs!!”
             
             <br></br>Cry of the Turkish fig-pedler.
          </div>
@@ -63,26 +71,27 @@
             body but my enemies ever calls me Suky Snobbs. I have been
             assured that Suky is but a vulgar corruption of Psyche, which
             is good Greek, and means “the soul" (that’s me, I'm all
-            soul) and sometimes “ a butterfly,” which latter meaning
+            soul) and sometimes “a butterfly,” which latter meaning
             undoubtedly alludes to my appearance in my new crimson
             satin dress, with the sky-blue Arabian mantelet, and the
             trimmings of green agraffas, and the seven flounces of
             orange-colored auriculas. As for Snobbs—any person who
             should look at me would be instantly aware that my name
             was n’t Snobbs. Miss Tabitha Turnip propagated that report through sheer envy. Tabitha Turnip indeed! Oh
-            the little wretch ! But what can we expect from a turnip ? Wonder if she remembers ihe old adage about "blood
-            out of a turnip, &amp;c.” [Mem : put her in mind of it the first
-            opportunity.] [Mem again—pull her nose.] Where was I ?
-            Ah ! I have been assured that Snobbs is a mere corruption
+            the little wretch! But what can we expect from a turnip? Wonder if she remembers ihe old adage about "blood
+            out of a turnip, &amp;c.” [Mem: put her in mind of it the first
+            opportunity.] [Mem again—pull her nose.] Where was I?
+            Ah! I have been assured that Snobbs is a mere corruption
             of Zenobia, and that Zenobia was a queen—(So am I. Dr.
             Moneypenny, always calls me the Queen of Hearts)-and that
             Zenobia, as well as Psyche, is good Greek, and that my father was “a Greek,” and that consequently I have a right
             to our patronymic, which is Zenobia, and not by any means
-            Snobbs. Nobody but Tabitha Turnip calls me Suky SnobbsI am the Signora Psyche Zenobia.
+            Snobbs. Nobody but Tabitha Turnip calls me Suky Snobbs--
+            I am the Signora Psyche Zenobia.
          </p>
          
          <p>As I said before, every body has heard of me. I am that
-            very Signora Psyche Zenobia, so justly celebrated as corresponding secretary to the “ Philadelphia. Regular, Exchange,
+            very Signora Psyche Zenobia, so justly celebrated as corresponding secretary to the “Philadelphia. Regular, Exchange,
             Tea, Total, Young, Belles, Lettns. Universal, Experimental, Bibliographical, Association, To, Civilize, Humanity.”
             Dr. Moneypenny made the title for us, and says he chose it
             because it sounded big like an empty rum-puncheon. (A
@@ -107,8 +116,8 @@
             truth is, members indulged in too flippant a tone of discussion. The papers read every Saturday evening were characterized less by depth than buffoonery. They were all
             whipped syllabub. There was no investigation of first causes, first principles. There was no investigation of anything
             at all. There was no attention paid to that great point the
-            “ fitness of things.” In short there was no fine writing like
-            this. It was all low—very ! No profundity, no reading, no
+            “fitness of things.” In short there was no fine writing like
+            this. It was all low—very! No profundity, no reading, no
             metaphysics—nothing which the learned call spirituality,
             and which the unlearned choose to stigmatise as cant. [Dr.
             M. says I ought to spell “cant” with a capital K—but I
@@ -117,7 +126,7 @@
          
          <p>When I joined the society it was my endeavour to introduce a better style of thinking and writing, and all the world
             knows how well I have succeeded. We get up as good papers now in the P.R.E.T.T.Y.B.L.U.E.B.A.T.C.H. as any
-            to he found even in Blackwood. I say, Blackwood, because
+            to be found even in Blackwood. I say, Blackwood, because
             I have been assured that the finest writing, upon every subject, is to be discovered in the pages of that justly celebrated
             Magazine. We now take it for our model upon all themes,
             and are getting into rapid notice accordingly. And, after
@@ -126,7 +135,7 @@
             about it. Of course I do n’t speak of the political articles.
             Every body knows how they are managed, since Dr. Money
             penny explained it. Mr. Blackwood has a pair of tailor’sshears, and three apprentices who stand by him for orders.
-            One hands him the “ Times,” another the “ Examiner,” and
+            One hands him the “Times,” another the “Examiner,” and
             a third a “Gulley’s New Compendium of Slang-Whang.’
             Mr. B. merely cuts out and intersperses. It is soon done—
             nothing but Examiner, Slang-Whang, and Times — then
@@ -134,7 +143,7 @@
          </p>
          
          <p>But the chief merit of the Magazine lies in its miscella 
-            neous articles ; and the best of these come under the head of
+            neous articles; and the best of these come under the head of
             what Dr. Moneypenny calls the bizarreries (whatever that
             may mean) and what every body else calls the intensities.
             This is a species of writing which I have long known how
@@ -146,10 +155,10 @@
             study, and gave me a clear explanation of the whole process.
          </p>
          
-         <p>“ My dear madam,” said he, evidently struck with my
+         <p>“My dear madam,” said he, evidently struck with my
             majestic appearance, for I had on the crimson satin, with the
-            green agraffas, and orange-coloured auriculas, “ My dear
-            madam,” said he, “ sit down. The matter stands thus. In
+            green agraffas, and orange-coloured auriculas, “My dear
+            madam,” said he, “sit down. The matter stands thus. In
             the first place, your writer of intensities must have very black
             ink, and a very big pen, with a very blunt nib. And, mark
             me, Miss Psyche Zenobia!” he continued, after a pause,
@@ -166,29 +175,29 @@
             instructions.
          </p>
          
-         <p>“ It may appear invidious in me, Miss Psyche Zenobia, to
+         <p>“It may appear invidious in me, Miss Psyche Zenobia, to
             refer you to any article, or set of articles, in the way of
-            model or study ; yet perhaps I may as well call your attention to a few cases. Let me see. There was ‘ The Dead
+            model or study; yet perhaps I may as well call your attention to a few cases. Let me see. There was ‘The Dead
             Alive,' a capital thing!—the record of a gentleman's sensawhen entombed before the breath was out of his body—ful]
             tions, of taste, terror, sentiment, metaphysics, and erudition.
             You would have sworn that the writer had been born and
             brought up in a coffin. Then we had the ‘ Confessions of
-            an Opium-eater’—fine, very fine !—glorious imagination—
+            an Opium-eater’—fine, very fine!—glorious imagination—
             deep philosophy—acute speculation—plenty of fire and fury,
             and a good spicing of the decidedly unintelligible. That was
             a nice bit of flummery, and went down the throats of the
             people delightfully. They would have it that Coleridge
             wrote the paper—but not so. It was composed by my pet
-            baboon. Juniper, over a rummer of Hollands and water, ' hot.
+            baboon. Juniper, over a rummer of Hollands and water, 'hot.
             without sugar.’” [This I could scarcely have believed had
             it been any body but Mr. Blackwood, who assured me of it.]
-            “ Then there was ' The Involuntary Experimentalist,' all
+            “Then there was 'The Involuntary Experimentalist,' all
             about a gentleman who got baked in an oven, and came out
             alive and well, although certainly done to a turn. And
-            then there was ' The Diary of a Late Physician,' where
+            then there was 'The Diary of a Late Physician,' where
             the merit lay in good rant, and indifferent Greek—both of
             them taking things, with the public. And then there was
-            ' The Man in the Del!,' a paper by-the bye, Miss Zenobia,
+            'The Man in the Del!,' a paper by-the bye, Miss Zenobia,
             which I cannot sufficiently recommend to your attention. It
             is the history of a young person who goes to sleep under the
             clapper of a church bell, and is awakened by its tolling for a
@@ -198,22 +207,21 @@
             the sensations.”
          </p>
          
-         <p>“ That I certainly will, Mr. Blackwood,” said I.
-            
-         </p>
+         <p>“That I certainly will, Mr. Blackwood,” said I.</p>
+         
          <p>“Good!” he replied. “I see you are a pupil after my
             own heart. But I must put you au fait to the details necessary in composing what may be denominated a genuine
             Blackwood article of the sensation stamp—the kind which
             you will understand me to say I consider the best for all purposes.
          </p>
          
-         <p>“ The first thing requisite is to get yourself into such a
-            jscrape as no one ever got into before. The oven, for instance,
+         <p>“The first thing requisite is to get yourself into such a
+            scrape as no one ever got into before. The oven, for instance,
             —that was a good hit. But if you have no oven, or bigbell,
             iat hand, and if you cannot conveniently tumble out of a balloon, or be swallowed up in an earthquake, or get stuck fast
             in a chimney, you will have to be contented with simply imagining some similar misadventure. I should prefer, however, that you have the actual fact to bear you out. Nothing
              so well assists the fancy, as an experimental knowledge of the
-             matter in hand. ‘Truth is strange,’ you know, ‘ stranger
+             matter in hand. ‘Truth is strange,’ you know, ‘stranger
             than fiction’—besides being more to the purpose.”
          </p>
          
@@ -221,14 +229,14 @@
             would go and hang myself forthwith.
          </p>
          
-         <p>“Good !” he replied, “do so;—although hanging is somewhat hacknied. Perhaps you might do better. Take a dose
+         <p>“Good!” he replied, “do so;—although hanging is somewhat hacknied. Perhaps you might do better. Take a dose
             of Brandreth’s pills, and then give us your sensations. However, my instructions will apply equally well to any variety
             of misadventure, and in your way home you may easily gel
             knocked in the head, or run over by an omnibus, or bitten by
             a mad dog, or drowned in a gutter. But, to proceed.
          </p>
          
-         <p>“ Having determined upon your subject, you must next
+         <p>“Having determined upon your subject, you must next
             consider the tone, or manner, of your narration. There is
             the lone didactic, the tone enthusiastic, the tone natural—all
             common-place enough. But then there is the lone laconic,
@@ -238,39 +246,39 @@
          </p>
          
          <p>“Then there is the tone elevated, diffusive, and interjectional. Some of our best novelists patronize this tone. The
-            jwords must be all in a whirl, like a humming-top, and make
+            words must be all in a whirl, like a humming-top, and make
             a noise very similar, which answers remarkably well instead
-             of meaning. This is the best of all possible styles where
+            of meaning. This is the best of all possible styles where
             the writer is in too great a hurry to think.
          </p>
          
-         <p>“ The tone metaphysical is also a good one. If you know
+         <p>“The tone metaphysical is also a good one. If you know
             any big words this is your chance for them. Talk of the
             Ionic and Eleatic schools—of Archytas, Gorgias and Alemoeon. Say something about objectivity and subjectivity. Be
             sure and abuse a man called Locke. Turn up your nose at
-             things in general, and when you let slip anything a little too
+            things in general, and when you let slip anything a little too
             absurd, you need not be at the trouble of scratching it out,
             but just add a foot-note, and say that you are indebted for the
-            above profound observation to the ' Kritik der reinem Vernunft,' or to the ‘ Metaphysische Anfangsgrunde der Naturwissenschaft.' This will look erudite and—and—and frank.
+            above profound observation to the 'Kritik der reinem Vernunft,' or to the ‘Metaphysische Anfangsgrunde der Naturwissenschaft.' This will look erudite and—and—and frank.
          </p>
          
-         <p>“ There are various other tones of equal celebrity, but I
+         <p>“There are various other tones of equal celebrity, but I
             shall mention only two more—the tone transcendental and the
             tone heterogeneous. In the former the merit consists in
-            seeing into (he nature of affairs a very great deal farther than
-            any body else. This second sight is very efficient when properly managed. A little reading of the ‘ Dial’ will carry you
+            seeing into the nature of affairs a very great deal farther than
+            any body else. This second sight is very efficient when properly managed. A little reading of the ‘Dial’ will carry you
             a great way. Eschew, in this case, big words; get them as
             small as possible, and write them upside down. Look over
-            Channing’s poems and quote what he says about a ‘ fat little
+            Channing’s poems and quote what he says about a ‘fat little
             man with a delusive show of Can.’ Put in something about
             the Supernal Oneness. Don’t say a syllable about the Infernal Twoness. Above all, study inuendo. Hint every
-            thing—assert nothing. If you feel inclined to say ‘ bread 
+            thing—assert nothing. If you feel inclined to say ‘bread 
             and butter’ do not by any means say it outright. You may
             say anything and every thing approaching to ‘bread and
             butter.' You may hint at buck-wheat cake, or you may
             even go so far as to insinuate oat-meal porridge, but if bread
             and butter be your real meaning, be cautious, my dear Miss
-            Psyche, net on any account to say ' bread and butter!’ ”
+            Psyche, not on any account to say 'bread and butter!’”
          </p>
          
          <p>I assured him that I should never say it again as long as I
@@ -283,38 +291,38 @@
             great, odd, piquant, pertinent, and pretty.
          </p>
          
-         <p>“ Let us suppose now you have determined upon your incidents and tone. The most important portion, — in fact
+         <p>“Let us suppose now you have determined upon your incidents and tone. The most important portion, — in fact
             the soul of the whole business, is yet to be attended to—I
             allude to the filling up. It is not to be supposed that a lady
             or gentleman either has been leading the life of a bookworm.
             And yet above all things it is necessary that your article have
             an air of erudition, or at least afford evidence of extensive
             general reading. Now I’ll put you in the way of accomplishing this point. See here!’’ (pulling down some three
-            or four ordinary looking volumes, and opening them at random.) “ By casting your eye down almost any page of any
+            or four ordinary looking volumes, and opening them at random.) “By casting your eye down almost any page of any
             book in the world, you will be able to perceive at once a host
             of little scraps of either learning or bel-esprit-ism, which are
             the very thing for the spicing of a Blackwood article. You
             might as well note down a few while I read them to you. I
-            shall make two divisions: first, Piquant Facts for the Manufacture of Similes; and second, Piquant Expressions to be
+            shall make two divisions: first, Piquant Facts for the Manufacture of Similes;and second, Piquant Expressions to be
             introduced as occasion may require. Write now!—" and I
             wrote as he dictated.
          </p>
          
-         <p>“Piquant Facts for Similes. ‘ There were originally
+         <p>“Piquant Facts for Similes. ‘There were originally
             but three Muses—Melete, Mneme, and Aoede—meditation,
             memory, and singing.’ You may make a great deal of that
             little fact if properly worked. You see it is not generally
             known, and looks recherche. You must be careful and give
-            the thing with a downright improvise air.
+            the thing with a downright improviso air.
          </p>
          
-         <p>“ Again. ‘ The river Alpheus passed beneath the sea, and
+         <p>“Again. ‘The river Alpheus passed beneath the sea, and
             emerged without injury to the purity of its waters.’ Rather
             stale that, to be sure, but, if properly dressed and dished up,
             will look quite as fresh as ever.
          </p>
          
-         <p>“ Here is something better. ' The Persian Iris appears to
+         <p>“Here is something better. 'The Persian Iris appears to
             some persons to possess a sweet and very powerful perfume,
             while to others it is perfectly scentless.’ Fine that, and very
             delicate! Turn it about a little, and it will do wonders.
@@ -330,7 +338,7 @@
             the similes. Now for the Piquant Expressions.
          </p>
          
-         <p>Piquant Expressions. ‘ The venerable Chinese novel JuKiao-Li.’ Good ! By introducing these few words with
+         <p>Piquant Expressions. ‘The venerable Chinese novel JuKiao-Li.’ Good! By introducing these few words with
             dexterity you will evince your intimate acquaintance with
             the language and literature of the Chinese. With the aid
             of this you may possibly get along without either Arabic, or
@@ -339,25 +347,25 @@
             will answer, because you must depend upon your own ingenuity to make it fit into your article. Now write!
          </p>
          
-         <p>“ ' Aussi tendre que Zaire'—as tender as Zaire—French.
+         <p>“'Aussi tendre que Zaire'—as tender as Zaire—French.
             Alludes to the frequent repetition of the phrase, la tendre
             Zaire, in the French tragedy of that name. Properly introduced, will show not only your knowledge of the language,
             but your general reading and wit. You can say, for instance,
             that the chicken you were eating (write an article about being choked to death by a chicken-bone) was not altogether
             aussi tendre que Zaire. Write!
          </p>
+         
          <div class="lg">
-            
-            <br></br>‘ Van muerle tan escondida,
+            <br></br>‘Van muerle tan escondida,
             
             <br></br>Que no te sienta renir,
             
             <br></br>Porque el plazer del morir
             
             <br></br>No me torne a dar la vida.'
-            
          </div>
-         <p>That’s Spanish—from Miguel de Cervantes. ‘ Come quickly
+         
+         <p>That’s Spanish—from Miguel de Cervantes. ‘Come quickly
             O death! but be sure and don’t let me see you coming, lest
             the pleasure I shall feel at your appearance should unfortunately bring me back again to life.’ This you may slip in
             quite a propos when you are struggling in the last agonies
@@ -365,7 +373,7 @@
          </p>
          
          <div class="lg">
-            <br></br>‘ Il pover ’huomo che non se’n era accorto,
+            <br></br>‘Il pover ’huomo che non se’n era accorto,
             
             <br></br>Andava combattendo, e era morto.’
          </div>
@@ -380,7 +388,7 @@
          </p>
          
          <div class="lg">
-            <br></br>‘ Und sterb’ich doch, no sterb’ich denn
+            <br></br>‘Und sterb’ich doch, no sterb’ich denn
             
             <br></br>Durch sie—durch sie."
          </div>
@@ -395,8 +403,8 @@
             please'.
          </p>
          
-         <p>“ Here is a nice little Latin phrase, and rare too, (one can’t
-            be too reckerche or brief in one’s Latin, it’s getting so common,)—ignoratio elenchi. He has committed an ignoratio
+         <p>“Here is a nice little Latin phrase, and rare too, (one can’t
+            be too recherche or brief in one’s Latin, it’s getting so common,)—ignoratio elenchi. He has committed an ignoratio
             elenchi—that is to say, he has understood the words of your
             proposition, but not the ideas. The man was a fool, you
             see. Some poor fellow whom you addressed while choking
@@ -415,6 +423,7 @@
             [Aner o pheogon kai palin makesetai.] There is a tolerably
             good translation of it in Hudibras—
          </p>
+         
          <div class="lg">
             <br></br>For he that flies may fight again,
             
@@ -424,9 +433,8 @@
          <p>In a Blackwood article nothing makes so fine a show as your
             Greek. The very letters have an air of profundity about
             them. Only observe, madam, the astute look of that Epsiion! That Phi ought certainly to be a bishop! Was ever
-            there a smarter fellow than that Omicron ? Just twig that
+            there a smarter fellow than that Omicron? Just twig that
             Tau! In short, there is nothing like Greek for a genuine
-            
             sensation-paper. In the present case your application is the
             most obvious thing in the world. Rap out the sentence,
             with a huge oath, and by way of ultimatum, at the good-fornothing dunder-headed villain who couldn’t understand your
@@ -447,17 +455,17 @@
             remember them with gratitude.
          </p>
          
-         <p>" My dear Miss Zenobia,” he said, while the tears stood
-            in his eyes, “ is there anything else I can do to promote the
+         <p>"My dear Miss Zenobia,” he said, while the tears stood
+            in his eyes, “is there anything else I can do to promote the
             success of your laudable undertaking? Let me reflect! It
             is just possible that you may not be able, so soon as convenient, to — to — get yourself drowned, or — choked with
             a chicken-bone, or — or hung, — or —bitten by a — but
-            stay ! Now I think me of it, there are a couple of very excellent bull dogs in the yard — fine fellows, I assure you —
+            stay! Now I think me of it, there are a couple of very excellent bull dogs in the yard — fine fellows, I assure you —
             savage, and all that — indeed just the thing for your
             money — they’ll have you eaten up, auriculas and all, in
-            less than five minutes (here’s my watch !) — and then only
+            less than five minutes (here’s my watch!) — and then only
             think of the sensations! Here! I say — Tom! — Peter!
-            — Dick, you villain ! — let out those” — but as I was really
+            — Dick, you villain! — let out those” — but as I was really
             in a great hurry, and had not another moment to spare, I
             was reluctantly forced to expedite my departure, and accordingly took leave at once— somewhat more abruptly, I admit, than strict courtesy would have, otherwise, allowed.
          </p>
@@ -474,7 +482,8 @@
             following Blackwood article, in the tone heterogeneous, is
             the substance and result.
          </p>
-         A predicament.
+         
+         <div class="ab">A predicament.</div>
          
          <div class="ab">What chance, good lady, hath bereft you thus?—COMUS.</div>
          
@@ -483,7 +492,7 @@
             streets were terrible. Men were talking. Women were
             screaming. Children were choking. Pigs were whistling.
             Carts they rattled. Bulls they bellowed. Cows they lowed. Horses they neighed. Cals they caterwauled. Dogs
-            they danced. Danced! Could it then be possible ? Danced ! Alas, thought I, my dancing days are over! Thus it
+            they danced. Danced! Could it then be possible? Danced! Alas, thought I, my dancing days are over! Thus it
             is ever. What a host of gloomy recollections will ever and
             anon be awakened in the mind of genius and imaginative
             contemplation, especially of a genius doomed to the everlasting, and eternal, and continual, and, as one might say, the—
@@ -497,18 +506,18 @@
             may use so bold an expression) thing (pardon me, gentle
             reader!) in the word—but I am led away by my feelings. In
             such a mind, I repeat, what a host of recollections are stirred
-            up by a trifle ! The dogs danced ! I—I could not! They
+            up by a trifle! The dogs danced! I—I could not! They
             frisked—I wept. They capered—I sobbed aloud. Touching circumstances! which cannot fail to bring to the recollection of the classical reader that exquisite passage in relation to the fitness of things, which is to be found in the commencement of the third volume of that admirable and venerable Chinese novel, the Jo-Go-Slow.
          </p>
          
          <p>In my solitary walk through the city I had two humble
             but faithful companions. Diana, my poodle! sweetest of
-            creatures ! She had a quantity of hair over her one eye, and
+            creatures! She had a quantity of hair over her one eye, and
             a blue ribband tied fashionably around her neck. Diana was
             not more than five inches in height, but her head was somewhat bigger than her body, and her tail, being cut off exceedingly close, gave an air of injured innocence to the interesting animal which rendered her a favorite with all.
          </p>
          
-         <p>And Pompey, my negro!—sweet Pompey ! how shall I
+         <p>And Pompey, my negro!—sweet Pompey! how shall I
             ever forget thee? I had taken Pompey’s arm. He was three
             feet in height (I like to be particular) and about seventy, or
             perhaps eighty, years of age. He had bow-legs and was
@@ -544,9 +553,9 @@
             Edina. On a sudden, there presented itself to view a church
             —a Gothic cathedral—vast, venerable, and with a tall
             steeple, which towered into the sky. What madness now
-            possessed me ? Why did I rush upon my fate ? I was seized with an uncontrollable desire to ascend the giddy pinnacle, and thence survey the immense extent of the city. The
+            possessed me? Why did I rush upon my fate? I was seized with an uncontrollable desire to ascend the giddy pinnacle, and thence survey the immense extent of the city. The
             door of the cathedral stood invitingly open. My destiny prevailed. I entered the ominous archway. Where then was
-            my guardian angel ?— if indeed such angels there be. If!
+            my guardian angel?— if indeed such angels there be. If!
             Distressing monosyllable! what a world of mystery, and
              
             meaning, and doubt, and uncertainty is there involved in thy
@@ -566,7 +575,7 @@
             for breath; and, in the meantime, an incident occurred of
             too momentous a nature in a moral, and also in a metaphysical point of view, to be passed over without notice. It appeared to me—indeed I was quite confident of the fact—I
             could not be mistaken—no! I had, for some moments, carefully and anxiously observed the motions of my Diana—I say
-            that I could not be mistaken—Diana smell a rat! At once
+            that I could not be mistaken—Diana smelt a rat! At once
             I called Pompey’s attention to the subject, and he—he
             agreed with me. There was then no longer any reasonable
             room for doubt. The rat had been smelled—and by Diana.
@@ -585,7 +594,7 @@
             a sum of human happiness or misery often depends! I
             thought of myself, then of Pompey, and then of the mysterious
             and inexplicable destiny which surrounded us. I thought of
-            Pompey !—alas, I thought of love ! I thought of the many
+            Pompey!—alas, I thought of love! I thought of the many
             false steps which have been taken, and may be taken again.
             I resolved to be more cautious, more reserved. I abandoned
             the arm of Pompey, and, without his assistance, surmounted
@@ -594,18 +603,18 @@
             staircase, and encouraged him to ascend. He stretched
             forth to me his hand, and unfortunately in so doing was forc
             ed to abandon his firm hold upon the overcoat. Will the
-            gods never cease their persecution ? The overcoat it dropped,
+            gods never cease their persecution? The overcoat it dropped,
             and, with one of his feet, Pompey stepped upon the long and
             trailing skirt of the overcoat. He stumbled and fell—this
             consequence was inevitable. He fell forwards, and, with
             his accursed head, striking me full in the—in the breast,
             precipitated me headlong, together with himself, upon the
-            hard, filthy and detestable floor of the belfry. But my revenge was sure, sudden and complete. Seizing him furiously by the wool with both hands, I lore out a vast quantity of
+            hard, filthy and detestable floor of the belfry. But my revenge was sure, sudden and complete. Seizing him furiously by the wool with both hands, I tore out a vast quantity of
             the black, and crisp, and curling material, and tossed it from
             me with every manifestation of disdain. It fell among the
             ropes of the belfry and remained. Pompey arose, and said
             no word. But he regarded me piteously with his large eyes
-            and—sighed. Ye gods—that sigh ! It sunk into my heart.
+            and—sighed. Ye gods—that sigh! It sunk into my heart.
             And the hair—the wool! Could I have reached that wool
             I would have bathed it with my tears, in testimony of regret.
             But alas! it was now far beyond my grasp. As it dangled
@@ -615,8 +624,7 @@
          
          <p>Our quarrel was now made up, and we looked about the
             room for an aperture through which to survey the city of
-            Edina. Windows there were none. The sole light admit,
-            ted into the gloom chamber proceeded from a square opening, about a foot in diameter, at a height of about seven feet
+            Edina. Windows there were none. The sole light admitted into the gloom chamber proceeded from a square opening, about a foot in diameter, at a height of about seven feet
             from the floor. Yet what will the energy of true genius
             not effect? I resolved to clamber up to this hole. A vast
             quantity of wheels, pinions, and other cabalistic-looking machinery stood opposite the hole, close to it; and through the
@@ -625,7 +633,7 @@
             to persevere. I called Pompey to my side.
          </p>
          
-         <p>“ You perceive that aperture, Pompey. I wish to look
+         <p>“You perceive that aperture, Pompey. I wish to look
             through it. You will stand here just beneath the hole—so.
             Now, hold out one of your hands, Pompey, and let me step
             upon it—thus. Now, the other hand, Pompey, and with its
@@ -646,7 +654,7 @@
             city, I had leisure to survey the church in which I was, and
             the delicate architecture of the steeple. I observed that the
             aperture through which I had thrust my head was an opening in the dial-plate of a gigantic clock, and must have appeared, from the street, as a large keyhole, such as we see
-            iu the face of french watches. No doubt the true object was
+            iu the face of French watches. No doubt the true object was
             to admit the arm of an attendant, to adjust, when necessary,
             the hands of the clock from within. I observed also, with
             surprise, the immense size of these hands, the longest of
@@ -662,12 +670,14 @@
             of Pompey, who declared he could stand it no longer, and requested that I would be so kind as to come down. This was
             unreasonable, and I told him so in a speech of some length.
             He replied, but with an evident misunderstanding of my
-             ideas upon the subject. I accordingly grew angry, and told
+            ideas upon the subject. I accordingly grew angry, and told
             him in plain words that he was a fool, that he had committed an ignoramus e-clench-eye, that his notions were mere
-            insommary Bovis, and his words little belter than an enemy
+            insommary Bovis, and his words little better than an enemy
             werrybor'em. With this he appeared satisfied, and I resumed my contemplations.
          </p>
+         
          <p>It might have been half an hour after this altercation
+            
             when, as I was deeply absorbed in the heavenly scenery beneath me, I was startled by something very cold which
             pressed with a gentle pressure upon the back of my neck.
             It is needless to say that I felt inexpressibly alarmed. I
@@ -687,8 +697,8 @@
             as well have tried to lift the cathedral itself. Down, down,
             down it came, closer, and yet closer. I screamed to Pompey
             for aid: but he said that I had hurt his feelings by calling him
-            “an ignorant old squint eye.” I yelled to Diana ; but she
-            only said “ bow-wow-wow,” and that “ I had told her on no
+            “an ignorant old squint eye.” I yelled to Diana; but she
+            only said “bow-wow-wow,” and that “I had told her on no
             account to stir from the corner.” Thus I had no relief to expect from my associates.
          </p>
          
@@ -696,10 +706,10 @@
             now discovered the literal import of that classical phrase)
             had not stopped, nor was it likely to stop, in its career, 
             Down and still down, it came. It had already buried its
-            sharp edge a full inch in my flesh, and my sensations grew ;
+            sharp edge a full inch in my flesh, and my sensations grew;
             indistinct and confused. At one time I fancied myself in
             Philadelphia with the stately Dr. Moneypenny, at another in
-            the back parlor of Mr. Blackwood receiving his invaluable!
+            the back parlor of Mr. Blackwood receiving his invaluable
             instructions. And then again the sweet recollection of better 
             and earlier times came over me, and I thought of that happy 
             period when the world was not all a desert, and Pompey not
@@ -713,13 +723,13 @@
             was the most melodious of music in my ears, and occasionally even put me in mind of the grateful sermonic harangues
             of Dr. Olapod. Then there were the great figures upon
             the dial-plate—how intelligent, how intellectual, they all
-            looked ! And presently they took to dancing the Mauzurka,
+            looked! And presently they took to dancing the Mauzurka,
             and I think it was the figure V who performed the most to
             my satisfaction. She was evidently a lady of breeding.
             None of your swaggerers, and nothing at all indelicate in
             her motions. She did the pirouette to admiration—whirling round upon her apex. I made an endeavor to hand her
             a chair, for I saw that she appeared fatigued with her exertions—and it was not until then that I fully perceived my
-            lamentable situation. Lamentable indeed ! The bar had
+            lamentable situation. Lamentable indeed! The bar had
             buried itself two inches in my neck. I was aroused to a
             sense of exquisite pain. I prayed for death, and, in the agony
             of the moment, could not help repeating those exquisite verses of the poet Miguel De Cervantes:	
@@ -732,22 +742,22 @@
             
             <br></br>Pork and pleasure, delly morry	
             
-            <br></br>Nommy, torny, darry, widdy !
+            <br></br>Nommy, torny, darry, widdy!
          </div>
          
          <p>But now a new horror presented itself, and one indeed sufficient to startle the strongest nerves. My eyes, from the 
             cruel pressure of the machine, were absolutely starting from 
             their sockets. While I was thinking how I should possibly
-             manage without them, one actually tumbled out of my head,
-             and, rolling down the steep side of the steeple, lodged in the
-             rain gutter which ran along the eaves of the main building.
-             The loss of the eye was not so much as the insolent air of
-             independence and contempt with which it regarded me after
-             it was out. There it lay in the gutter just under my nose,
-             and the airs it gave itself would have been ridiculous had
-             they not been disgusting. Such a winking and blinking
-             were never before seen. This behaviour on the part of my
-             eye in the gutter was not only irritating on account of its
+            manage without them, one actually tumbled out of my head,
+            and, rolling down the steep side of the steeple, lodged in the
+            rain gutter which ran along the eaves of the main building.
+            The loss of the eye was not so much as the insolent air of
+            independence and contempt with which it regarded me after
+            it was out. There it lay in the gutter just under my nose,
+            and the airs it gave itself would have been ridiculous had
+            they not been disgusting. Such a winking and blinking
+            were never before seen. This behaviour on the part of my
+            eye in the gutter was not only irritating on account of its
             manifest insolence and shameful ingratitude, but was also exceedingly inconvenient on account of the sympathy which always exists between two eyes of the same head, however far
             apart. I was forced, in a manner, to wink and to blink, whether I would or not, in exact concert with the scoundrelly
             thing that lay just under my nose. I was presently relieved,
@@ -759,21 +769,21 @@
          <p>The bar was now four inches and a half deep in my neck,
             and there was only a little bit of skin to cut through. My
             sensations were those of entire happiness, for I felt that in a
-            few minutes, at farthest, I should be relieved from my disa greeable situation. And in this expectation I was not at all
-             deceived. At twenty-five minutes past five in the afternoon
+            few minutes, at farthest, I should be relieved from my disagreeable situation. And in this expectation I was not at all
+            deceived. At twenty-five minutes past five in the afternoon
             precisely, the huge minute-hand had proceeded sufficiently
             far on its terrible revolution to sever the small remainder of
             my neck. I was not sorry to see the head which had occasioned me so much embarrassment at length make a final separation from my body. It first rolled down the side of the
             steeple, then lodged, for a few seconds, in the gutter, and
             then made its way, with a plunge, into the middle of the
-             street.
+            street.
          </p>
          
          <p>I will candidly confess that my feelings were now of the
-            most singular—nay of the most mysterious, the most perplex ing and incomprehensible character. My senses were here
+            most singular—nay of the most mysterious, the most perplexing and incomprehensible character. My senses were here
             and there at one and the same moment. With my head I
             imagined, at one time, that I the head, was the real Signora
-             Psyche Zenobia—at another I felt convinced that myself, the
+            Psyche Zenobia—at another I felt convinced that myself, the
             body, was the proper identity. To clear my ideas upon this
             topic I felt in my pocket for my snuff-box, but, upon getting
             it, and endeavoring to apply a pinch of its grateful contents
@@ -806,22 +816,22 @@
          <div class="ab">Andrew O' Phlegethon, you really make haste to fly,</div>
          
          <p>and then turned to the darling of my heart, to the one-eyed!
-            the shaggy-haired Diana. Alas ! what horrible vision affronted my eyes ? Was that a rat I saw skulking into his
-            hole ? Are these the picked bones of the little angel who
-            has been cruelly devoured by the monster ? Ye Gods! and
+            the shaggy-haired Diana. Alas! what horrible vision affronted my eyes? Was that a rat I saw skulking into his
+            hole? Are these the picked bones of the little angel who
+            has been cruelly devoured by the monster? Ye Gods! and
             what do I behold—is that the departed spirit, the shade, the
             ghost of my beloved puppy, which I perceive sitting with
-            a grace so melancholy, in the corner ? Harken ! for she
+            a grace so melancholy, in the corner? Harken! for she
             speaks, and, heavens! it is in the German of Schiller—
          </p>
          
          <div class="lg">
             <br></br>"Unt stubby duk, so stubby dun
             
-            <br></br>Duk she ! duk she !”
+            <br></br>Duk she! duk she!”
          </div>
          
-         <div class="ab">Alas !—and are not her words too true ?</div>
+         <p>Alas!—and are not her words too true?</p>
          
          <div class="lg">
             <br></br>And if I died at least I died
@@ -829,8 +839,8 @@
             <br></br>For thee—for thee.
          </div>
          
-         <p>Sweet creature ! she too has sacrificed herself in my behalf
-            Dogless, niggerless, headless, what now remains for the unhappy Signora Psyche Zenobia ?	Alas—nothing!	I have
+         <p>Sweet creature! she too has sacrificed herself in my behalf
+            Dogless, niggerless, headless, what now remains for the unhappy Signora Psyche Zenobia?	Alas—nothing!	I have
             done.
          </p>
          <div class="byline">
@@ -838,7 +848,9 @@
          </div>
       </div>
       
-      <div>
+      <div class="piece" id="#p3">
+         <div class="biblTitle">The Departed</div>
+         <div class="biblPage">7</div>
          <div class="head">THE DEPARTED.</div>
          
          <div class="lg">
@@ -848,7 +860,7 @@
             
             <br></br>Where each star most faintly gloweth,
             
-            <br></br>Do I wander on;
+            <br></br>     Do I wander on;
             
             <br></br>My thick pulses hastily beating.
             
@@ -856,7 +868,8 @@
             
             <br></br>And, with bold advance, now meeting.
             
-            <br></br>Shadows of the gone !
+            <br></br>     Shadows of the gone!
+            
             
             <br></br>Lonely, by that lovely river,
             
@@ -864,7 +877,7 @@
             
             <br></br>Do I wander on forever,
             
-            <br></br>Musing on the past;
+            <br></br>     Musing on the past;
             
             <br></br>When the weary moon descendeth.
             
@@ -872,8 +885,8 @@
             
             <br></br>Then my soul strong memories sendeth,—
             
+            <br></br>     Joys too bright to last!
             
-            <br></br>Joys too bright to last!
             
             <br></br>She, earth’s bright and loveliest flower,
             
@@ -881,7 +894,7 @@
             
             <br></br>She, whose voice alone bad power
             
-            <br></br>O’er my soul, is gone!
+            <br></br>     O’er my soul, is gone!
             
             <br></br>Vain, oh! vain, are tears and wailing.
             
@@ -889,7 +902,8 @@
             
             <br></br>Yet are they my heart assailing,—
             
-            <br></br>Proud heart, never won !
+            <br></br>     Proud heart, never won!
+            
             
             <br></br>By that river, ever flowing.
             
@@ -897,7 +911,7 @@
             
             <br></br>Sometimes comes she to me, showing
             
-            <br></br>Things past and to come.
+            <br></br>     Things past and to come.
             
             <br></br>And we wander on. caressing,
             
@@ -905,7 +919,8 @@
             
             <br></br>Happy in that dim possessing,
             
-            <br></br>Spirits in the gloom !
+            <br></br>     Spirits in the gloom!
+            
             
             <br></br>Were it not for that dim meeting.
             
@@ -913,7 +928,7 @@
             
             <br></br>Its own core my wild heart eating,
             
-            <br></br>Soon would turn to clay.
+            <br></br>     Soon would turn to clay.
             
             <br></br>Now along that lonely river.
             
@@ -921,17 +936,27 @@
             
             <br></br>Where the nightly blossoms shiver,—
             
-            <br></br>Dark and sad as they !
+            <br></br>     Dark and sad as they!
+         </div>
+         <div class="byline">
+            <span class="person">L.</span>
          </div>
       </div>
       
-      <div>
+      
+      
+      <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          <div class="head">CRITICAL NOTICES.</div>
          
-         <div>
-            <div class="head">The Coming of the Mammoth—the Funeral of Time, and
-               other Poems, by Henry B. Hirst, Boston: Philips &amp;
-               Sampson.
+         <div class="piece" id="#p4">
+            <div class="biblTitle">The Coming of the Mammoth</div>
+            <div class="biblPage">7</div>
+            <div class="ab">The Coming of the Mammoth—the Funeral of Time, and
+               
+               <br></br>other Poems, by Henry B. Hirst, Boston: Philips &amp;
+               
+               <br></br>Sampson.
             </div>
             
             <p>Mr. Hirst is a young lawyer of Philadelphia—admitted to
@@ -970,7 +995,7 @@
             <p>As very usually happens in a case of this kind, the leading and longest poem of the collection is the least worthy of
                notice. It is called “The Coming of the Mammoth,” and,
                to say nothing of its being a mere paraphrase, in all its most
-               striking points, of Mr. Mathews’ “ Behemoth,” is feebly and
+               striking points, of Mr. Mathews’ “Behemoth,” is feebly and
                incoherently narrated—narrated, indeed, very much as a
                schoolboy would narrate it. In fact, we understand that it
                is one of the earliest compositions of the author, who began
@@ -978,12 +1003,12 @@
             </p>
             
             <p>The story runs simply thus. The aborigines are suddenly
-               startled from the quiet of ages, by the apparition of “ myriad forms” of the mammoths. These creatures carry death
+               startled from the quiet of ages, by the apparition of “myriad forms” of the mammoths. These creatures carry death
                and desolation every where—destroying vegetation, and animal life wherever they pass. The extravagance with which
                their nature is delineated, may be instanced by one stanza:
             </p>
             
-            <div class="lg"> 
+            <div class="lg">
                <br></br> We saw them hunt the buffalo,
                
                <br></br>And crush them with their tusks of steel;
@@ -992,14 +1017,14 @@
                
                <br></br>Like trees that in the tempest reel,
                
-               <br></br>When passed their herds; and lake and river
+               <br></br>When passed their herds;and lake and river
                
                <br></br>A draught of theirs made dry forever.
             </div>
             
             <p>The aborigines themselves fall a prey and are reduced to
                a small band, when they bethink them of supplicating the
-               aid of Moneddo (Manitou) who forthwith attacks the rava-
+               aid of Moneddo (Manitou) who forthwith attacks the rava
                gers with lightning, and destroys them all but one.
             </p>
             
@@ -1017,24 +1042,24 @@
                <br></br>Leapt, like a shaft, o’er hill and dell.
             </div>
             
-            <p>He flies at great speed ; the lightnings and the Indians
+            <p>He flies at great speed; the lightnings and the Indians
                still pursuing. He reaches the Mississippi—leaps it at one
                bound (possibly at a point not very far from the source)
                and is at last brought up by the Rocky Mountains—but only
                for a few moments—he ascends the highest peak—throws
-               rocks and trees “ in the face of God ” and fairly defies him,
-               until at length the “ mightiest spirits ” are summoned to
+               rocks and trees “in the face of God” and fairly defies him,
+               until at length the “mightiest spirits” are summoned to
                put an end to the contest:
             </p>
             
-            <div class="lg">  
-               <br></br>They heard : with one tremendous crash
+            <div class="lg">
+               <br></br>They heard: with one tremendous crash
                
                <br></br>Down on the Mammoth’s forehead came
                
                <br></br>A surging sea of withering flame.
                
-               <br></br>Earth trembled to its core ; and weak
+               <br></br>Earth trembled to its core; and weak
                
                <br></br>But unsubdued the Mammoth leapt
                
@@ -1042,7 +1067,7 @@
                
                <br></br>To where the dark blue ocean swept.
                
-               <br></br>Down ! down ! The startled waters sever ;
+               <br></br>Down! down! The startled waters sever;
                
                <br></br>Then roll above him—and forever!
             </div>
@@ -1055,7 +1080,7 @@
             
             <p>We are not extravagant in saying (are we?) that the 
                 "Coming of the Mammoth” which might as well have 
-               been called the “ Coming and the Going of the Mammoth” 
+               been called the “Coming and the Going of the Mammoth” 
                is the most preposterous of all the preposterous poems ever 
                deliberately printed by a gentleman arrived at the years of
                discretion. Nor has it one individual point of redeeming
@@ -1063,28 +1088,28 @@
                thrown his book to the pigs without comment.
             </p>
             
-            <p>“ The Funeral of Time" is a forcible allegory, very indistinctly made out, but well versified in some respects, and
+            <p>“The Funeral of Time" is a forcible allegory, very indistinctly made out, but well versified in some respects, and
                filled with majestic images—although disfigured, too often,
                by something even more mad than Nat Leeism.
             </p>
             
-            <p>“ Isabelle ” is the finest ballad ever written in this country, and but for its obvious and no doubt intentional imitations, might be called one of the best ever written anywhere.
+            <p>“Isabelle” is the finest ballad ever written in this country, and but for its obvious and no doubt intentional imitations, might be called one of the best ever written anywhere.
                It is indeed exceedingly difficult to understand how the
-               author of such trash as “ The Mammoth ” could be at the
+               author of such trash as “The Mammoth” could be at the
                same time author of anything so widely different as “Isabelle.” Its simplicity is exquisite—its conduct could not be
                improved—and its versification (within the narrow limits
-               designed) is full of original force. We quote (unconnected-
-               ly) a few of the best quatrains:
+               designed) is full of original force. We quote (unconnectedly) a few of the best quatrains:
             </p>
             
             <div class="lg">
                <br></br>A lustrous maid was Isabelle,
                
-               <br></br>And quiet as a brooding bird ;
+               <br></br>And quiet as a brooding bird;
                
                <br></br>She never thought of passion’s spell—
                
-               <br></br>Of love she never heard ;
+               <br></br>Of love she never heard;
+               
                
                <br></br>But in her lonely chamber sat,
                
@@ -1094,13 +1119,15 @@
                
                <br></br>Around the turrets gray.
                
+               
                <br></br>And trembling with a strange unrest—
                
-               <br></br>A yearning for—she knew not what ;
+               <br></br>A yearning for—she knew not what;
                
                <br></br>She only knew her heaving breast
                
                <br></br>Was heavy with its lot.
+               
                
                <br></br>At last she passed to womanhood,
                
@@ -1110,7 +1137,8 @@
                
                <br></br>Beneath a breast of stone.
                
-               <br></br>Her lustrous eyes grew large with love ;
+               
+               <br></br>Her lustrous eyes grew large with love;
                
                <br></br>Her cheeks with passion flushed and bright;
                
@@ -1120,7 +1148,8 @@
                
                <br></br>Were, &amp;c.
                
-               <br></br>She felt she bad not lived in vain ;
+               
+               <br></br>She felt she bad not lived in vain;
                
                <br></br>She saw the Eden of her dreams
                
@@ -1137,11 +1166,13 @@
                <br></br>And over parterres of flowers.
             </div>
             
-            <p>“ Geraldine ” is a far better poem than “ Isabelle ” and is
+            
+            <p>“Geraldine” is a far better poem than “Isabelle” and is
                unquestionably the best in the volume. It is, however, in
                manner a palpable imitation of Tennyson. In justice to Mr.
                Hirst we quote it in full:
             </p>
+            
             
             <div class="lg">
                <br></br>The martins twitter round the eaves,
@@ -1150,7 +1181,7 @@
                
                <br></br>The bees are humming ’mid the leaves
                
-               <br></br>Along the garden side ;
+               <br></br>Along the garden side;
                
                <br></br>The robin whistles in the wood,
                
@@ -1162,9 +1193,10 @@
                
                <br></br>The plover pipes again.
                
-               <br></br>But ah—alas alas ! no more
                
-               <br></br>Their merry melodies delight ;
+               <br></br>But ah—alas alas! no more
+               
+               <br></br>Their merry melodies delight;
                
                <br></br>No more along the river’s shore
                
@@ -1180,16 +1212,16 @@
                
                <br></br>To naught but Geraldine.
                
-               <br></br>Oh, Geraldine ! my life, my love !
                
+               <br></br>Oh, Geraldine! my life, my love!
                
-               <br></br>  I only wander where we met
+               <br></br>I only wander where we met
                
                <br></br>In emerald days, when blue above
                
                <br></br>The skies were o’er us set—
                
-               <br></br>  Along the glen and o’er the vale
+               <br></br>Along the glen and o’er the vale
                
                <br></br>And by the willow tree
                
@@ -1199,7 +1231,8 @@
                
                <br></br>Of olden chivalry.
                
-               <br></br>  I stand beneath the sombre pines
+               
+               <br></br>I stand beneath the sombre pines.
                
                <br></br>That darken all thy father’s hall,
                
@@ -1207,7 +1240,7 @@
                
                <br></br>That shroud me like a pall.
                
-               <br></br>Aye there !—where ruin frowns around !
+               <br></br>Aye there!—where ruin frowns around!
                
                <br></br>Until the cock doth crow
                
@@ -1217,13 +1250,14 @@
                
                <br></br>Where nothing good will grow.
                
+               
                <br></br>I’ve watched thy lattice as before
                
                <br></br>To see the glimmer dimly pass,
                
                <br></br>(When thou wouldst open thy chamber door)
                
-               <br></br>Of lamp-light on the glass ;
+               <br></br>Of lamp-light on the glass;
                
                <br></br>But none from out thy lattice peeps,
                
@@ -1234,6 +1268,7 @@
                <br></br>Save when a bat affrighted cheeps
                
                <br></br>In some deserted room.
+               
                
                <br></br>Why comest thou not? Night after night,
                
@@ -1253,7 +1288,8 @@
                
                <br></br>Have gleamed and hurried by.
                
-               <br></br>Why comest thou not ? or wilt thou soon ?
+               
+               <br></br>Why comest thou not? or wilt thou soon?
                
                <br></br>The crimson sun doth wax and wane
                
@@ -1263,7 +1299,7 @@
                
                <br></br>Night after night; the stars are pale
                
-               <br></br>Expecting thee ; the breeze
+               <br></br>Expecting thee; the breeze
                
                <br></br>Rustling among the dreary trees
                
@@ -1271,13 +1307,14 @@
                
                <br></br>Who art beyond the seas.
                
+               
                <br></br>They tell me thou wilt never come—
                
-               <br></br>Alas ! that thou art cold and dead,
+               <br></br>Alas! that thou art cold and dead,
                
                <br></br>And slumbering in the green sea-foam
                
-               <br></br>Upon some coral bed :—
+               <br></br>Upon some coral bed:—
                
                <br></br>That shriekingly thy ship went down
                
@@ -1289,7 +1326,8 @@
                
                <br></br>To hear me groan and rave.
                
-               <br></br>Thou dead ?—no, no !—it cannot be !
+               
+               <br></br>Thou dead?—no, no!—it cannot be!
                
                <br></br>For if thou wast, thy ghost had kept
                
@@ -1297,23 +1335,26 @@
                
                <br></br>When all save passion slept—
                
-               <br></br>  Thy ghost had come and greeted me
+               <br></br>Thy ghost had come and greeted me
                
                <br></br>And bade me be at rest;
                
                <br></br>And long ere this upon my breast
                
-               <br></br>The clod had fain : and I with thee
+               <br></br>The clod had fain; and I with thee
                
                <br></br>W'ere roaming ’mid the blest.
             </div>
             
-            <p>  “ The Unseen River" is musical, but has the defect of
-               being imperfectly made out. Few persons will understand that by the river always heard but never seen, until the traveller is overtaken by death, it is the poet’s intention to
+            
+            <p>“The Unseen River" is musical, but has the defect of
+               being imperfectly made out. Few persons will understand 
+               that by the river always heard but never seen, until the traveller is overtaken by death, it is the poet’s intention to
                typify Happiness. We quote a fine stanza of which the
                whole is very poetic (in the best sense) and of which the
                concluding line is a specimen of exquisite versification.
             </p>
+            
             
             <div class="lg">
                <br></br>From the valley—from a river
@@ -1331,14 +1372,15 @@
                <br></br>Fading like a ghost in air; and ever the river rippled bright.
             </div>
             
-            <p>“ The Burial of Eros" is a very effective allegorical poem
+            
+            <p>“The Burial of Eros" is a very effective allegorical poem
                —but all allegories are contemptible:—at least the only two
                which are not contemptible (The Pilgrim’s Progress and
                The Fairy Queen) are admired in despite of themselves (as
                allegories) and in the direct ratio of the possibility of keeping the allegorical meaning out of sight.
             </p>
             
-            <p>“ The Sea of the Mind ” is another allegory, or (what is
+            <p>“The Sea of the Mind” is another allegory, or (what is
                less objectionable) an allegorical enigma. It is miserably
                indefinite. Its only merit lies in detached thoughts, and in
                its admirable management of the trochaic rhythm. The
@@ -1347,11 +1389,12 @@
                most forcible consonants are employed; the richest vowel
                sounds abound; and all the effects of alliteration, with other
                rhythmical effects less common, are skilfully introduced.—
-               For example;
+               For example:
             </p>
             
+            
             <div class="lg">
-               <br></br>Silvery the ocean singeth over sands of pearly glow ;
+               <br></br>Silvery the ocean singeth over sands of pearly glow;
                
                <br></br>Under its surface shapes are gliding—gliding last or sailing slow—
                
@@ -1360,6 +1403,7 @@
                <br></br>Fairer, purer, lovelier, brighter than the streams that Iram lave.
             </div>
             
+            
             <p>“The Birth of a Poet” is somewhat like an imitation
                from John Neal's poem of the same title; the commencement, especially, is stolen.
             </p>
@@ -1367,6 +1411,7 @@
             <p>Mr. Hirst’s conception throughout is fantastical—not to
                say absurd. The poem, however, is redeemed by one remarkably well-managed quatrain:
             </p>
+            
             
             <div class="lg">
                <br></br>Music like what the poet hears
@@ -1378,11 +1423,13 @@
                <br></br>And back their melody brings.
             </div>
             
+            
             <p>The concluding anapoest here beautifully and most appropriately varies the iambic rhythm—making the sound “echo
                the sense.”
             </p>
             
-            <p>“ Everard Grey ” is a superb specimen of dactylic trimeter, catalectic on one syllable—three dactyls and one equivalent coesura. E. g.—</p>
+            <p>“Everard Grey” is a superb specimen of dactylic trimeter, catalectic on one syllable—three dactyls and one equivalent coesura. E. g.—</p>
+            
             
             <div class="lg">
                <br></br>Time it has passed; and the lady is pale—
@@ -1391,19 +1438,20 @@
                
                <br></br>Weary and worn she hath waited for years
                
-               <br></br>Keeping her grief evergreen with her tears :—
+               <br></br>Keeping her grief evergreen with her tears:—
                
                <br></br>Years will she tarry—for cold is the clay
                
                <br></br>Fettering the form of her Everard Grey.
-               
             </div>
             
-            <p>“ The Fringilla Melodia ” is truly beautiful throughout,
+            
+            <p>“The Fringilla Melodia” is truly beautiful throughout,
                possessing a natural force and grace (without effort) which
                would do honor to the most noted poet in the land. We
-               quote the first quatrain :
+               quote the first quatrain:
             </p>
+            
             
             <div class="lg">
                <br></br>Happy song-sparrow that on woodland side
@@ -1415,23 +1463,24 @@
                <br></br>Owning no care between his wings.
             </div>
             
+            
             <p>The “sits” here is not ungrammatical; the sparrow is
                not invoked, The construction is nevertheless a little equivocal.
             </p>
+            
             <p>“The Coming of Autumn" is spirited—but is a little too
-                much in the Old King Cole way.
+               much in the Old King Cole way.
             </p>
             
-            <p>“ The Autumn Wind ” has a noble beginning, and as no-
-               ble an end—but as a whole is unimpressive.
-            </p>
+            <p>“The Autumn Wind” has a noble beginning, and as noble an end—but as a whole is unimpressive.</p>
             
             <p>“Eleanore” has no merit at all except the effect of the
-               constantly recurring refrain, “ Eleanore !” and this is taken
-               'from Tennyson’s “ Oriana.”
+               constantly recurring refrain, “Eleanore!” and this is taken
+               from Tennyson’s “Oriana.”
             </p>
             
-            <p>“ Mary ” has some fine passages—e. g.</p>
+            <p>“Mary” has some fine passages—e. g.</p>
+            
             
             <div class="lg">
                <br></br>He watched each motion of her rustling dress,
@@ -1441,14 +1490,15 @@
                <br></br>Envied the air its undisturbed caress
                
                <br></br>Of her whose presence was his Paradise.
-               
             </div>
+            
             
             <p>“To an Old Oak;” “To E—with a Withered Rose;”
                and “The Death-Song of the Nightingale” have nothing
-               in them remarkable—“ Eulalie Vere ” nothing beyond the 
+               in them remarkable—“Eulalie Vere” nothing beyond the 
                barroques lines,
             </p>
+            
             
             <div class="lg">
                <br></br>Cheeks where the loveliest of lustres reposes
@@ -1456,15 +1506,17 @@
                <br></br>On valleys of lilies and mountains of roses.
             </div>
             
-            <p>“ To the American Sky-Lark ” is professedly an imitation
+            
+            <p>“To the American Sky-Lark” is professedly an imitation
                of Bryant's “Waterfowl:” we need, therefore, say nothing
                about it.
             </p>
             
-            <p>“ Ellena ” has some glowing thoughts. For example,</p>
+            <p>“Ellena” has some glowing thoughts. For example,</p>
+            
             
             <div class="lg">
-               <br></br>at her word
+               <br></br>                     at her word
                
                <br></br>The hushed air shook, with human passion stirred.
             </div>
@@ -1472,48 +1524,55 @@
             <p>And again:</p>
             
             <div class="lg">
-               <br></br>a maniac tune
+               <br></br>                     a maniac tune
                
                <br></br>Rang in mine ears, like songs sung in a swoon.
             </div>
             
-            <p>“ The Coming of Night ” is excellent throughout—if we
+            
+            <p>“The Coming of Night” is excellent throughout—if we
                except the grammatical error in the ante-penultimate line.
             </p>
+            
             
             <div class="lg">
                <br></br>Oh Blessed Night that comes to rich and poor.
             </div>
             
+            
             <p>Here are two admirable quatrains:</p>
             
+            
             <div class="lg">
-               <br></br>Forest and field are still
+               <br></br>          Forest and field are still
                
                <br></br>Nature seems wrapt in slumber; wholly dumb,
                
                <br></br>Save when the frog’s deep bass or beetle's bum,
                
-               <br></br>Or wailing whippoorwill,
+               <br></br>                  Or wailing whippoorwill,
                
-               <br></br>Disturb her weary ear,
+               
+               <br></br>              Disturb her weary ear,
                
                <br></br>Or the far falling of the rippling rill
                
                <br></br>That sings, while leaping down the silent hill,
                
-               <br></br>Her dreamless sleep to cheer.
-               
+               <br></br>                 Her dreamless sleep to cheer.
             </div>
-            <p>“ Violet” is merely an absurd imitation of Barry Cornwall’s
+            
+            
+            <p>“Violet” is merely an absurd imitation of Barry Cornwall’s
                most absurd Tom-Foolery.
             </p>
             
-            <p>“ A Gift” is well versified, but common-place.</p>
+            <p>“A Gift” is well versified, but common-place.</p>
             
-            <p>“ The Owl" opens with too finely imaginative
+            <p>“The Owl" opens with too finely imaginative
                stanzas:
             </p>
+            
             
             <div class="lg">
                <br></br>When twilight fades and evening falls
@@ -1532,7 +1591,8 @@
                
                <br></br>Flies from the donjon keep.
                
-               <br></br>And he calls aloud “ too-whit! too-whoo !”
+               
+               <br></br>And he calls aloud “too-whit! too-whoo!”
                
                <br></br>And the nightingale is still,
                
@@ -1549,6 +1609,7 @@
                <br></br>But like a lady's sigh.
             </div>
             
+            
             <p>Every critic—at least every poetical critic—will admit
                that the images in these two stanzas are such as only a true
                poet could conceive. At the same time they are embodied
@@ -1556,8 +1617,9 @@
             </p>
             
             <p>“A Song’’ and “Mutius Sccevola” have no particular
-               merit. “ The Forsaken” ends with nerve:
+               merit. “The Forsaken” ends with nerve:
             </p>
+            
             
             <div class="lg">
                <br></br>Well, go thy way! and never wake
@@ -1568,16 +1630,17 @@
                
                <br></br>Thy chains and set thee free.
                
-               <br></br>Thou to thy mirth ! I to my gloom !
+               <br></br>Thou to thy mirth! I to my gloom!
                
-               <br></br>Health to the coldest of the twain !
+               <br></br>Health to the coldest of the twain!
                
                <br></br>And mine—not thine—the iron doom
                
                <br></br>Of having loved in vain.
             </div>
             
-            <p>“ The Lament of Adam” is chiefly remarkable for the effect of its versification—not altogether original, to be sure,
+            
+            <p>“The Lament of Adam” is chiefly remarkable for the effect of its versification—not altogether original, to be sure,
                but rare, and very forcible when well-managed. The
                rhythm is dactylic, the lines terminating with equivalent
                caesuras. The metre is generally tetrameter, catalectic on
@@ -1586,31 +1649,34 @@
                instance are hexameter catalectic. We give the last stanza:
             </p>
             
+            
             <div class="lg">
-               <br></br>Life hath its pleasures—but perishing they as the flowers :
+               <br></br>Life hath its pleasures—but perishing they as the flowers:
                
                <br></br>Sin hath its sorrows; and, sighing we turned from those bowers:
                
                <br></br>Bright were the angels behind with their falchions of heavenly 
                
-               <br></br>flame :
+               <br></br>     flame:
                
                <br></br>Dark was the desolate desert before us, but darker the depth of our
                
-               <br></br>shame.
+               <br></br>     shame.
             </div>
+            
             
             <p>Here the alliteration is too obvious—quite overdone, and
                is an instance of the hyperism to which we alluded in the
                beginning of our notice.
             </p>
             
-            <p>“ The Statue-Love” is not very good.</p>
+            <p>“The Statue-Love” is not very good.</p>
             
-            <p>“ May” is a remarkably line poem, with an exquisite close:</p>
+            <p>“May” is a remarkably line poem, with an exquisite close:</p>
             
-            <div class="lg"> 
-               <br></br>---the passionate bard
+            
+            <div class="lg">
+               <br></br>      ---the passionate bard
                
                <br></br>Wanders away through sylvan lonelinesses,
                
@@ -1619,44 +1685,47 @@
                <br></br>On which the swan of song floats gracefully for ever.
             </div>
             
-            <p>“Dramatic Fragments” are worth nothing. “ The Song 
+            
+            <p>“Dramatic Fragments” are worth nothing. “The Song 
                of the Scald Biorne” is, to our astonishment, badly versified. 
                How comes Mr. Hirst in an anapaestic rhythm, or in any
                rhythm, with such a verse as—
             </p>
             
+            
             <div class="lg">
-               <br></br>My iron hand on her arm when before her I knelt ?
-               
+               <br></br>My iron hand on her arm when before her I knelt?
             </div>
+            
             
             <p>“Summer” is quite feeble.</p>
             
             <p>Twenty well-constructed sonnets conclude the volume.
-               Among these, Bethlehem” and “ Dead Man’s Island” may
-               be cited as particularly good : but by way of finale to our review we quote “ Astarte” as the best.
+               Among these, "Bethlehem” and “Dead Man’s Island” may
+               be cited as particularly good: but by way of finale to our review we quote “Astarte” as the best.
             </p>
             
+            
             <div class="lg">
-               <br></br>Thy lustre, heavenly star ! shines ever on me.
+               <br></br>    Thy lustre, heavenly star! shines ever on me.
                
-               <br></br>I, trembling like Endymion over-bent
+               <br></br>    I, trembling like Endymion over-bent
                
-               <br></br>By dazzling Dian, when with wonderment
+               <br></br>    By dazzling Dian, when with wonderment
                
-               <br></br>He saw her crescent light the Latmian lea :
+               <br></br>He saw her crescent light the Latmian lea:
                
-               <br></br>  And like a Naiad’s sailing on the sea,
+               <br></br>And like a Naiad’s sailing on the sea,
                
-               <br></br>Floats thy fair form before me: the azure air
+               <br></br>    Floats thy fair form before me: the azure air
                
-               <br></br>Is all ambrosial with thy hyacinth hair:
+               <br></br>    Is all ambrosial with thy hyacinth hair:
                
                <br></br>While round thy lips the moth in airy glee
                
                <br></br>Hovers, and hums in dim and dizzy dreams,
                
-               <br></br>Drunken with odorous breath: thy argent eyes
+               <br></br>    Drunken with odorous breath: thy argent eyes
                
                <br></br>(Twin planets swimming through love’s lustrous skies)
                
@@ -1668,16 +1737,21 @@
             </div>
          </div>
          
-         <div>
-            <div class="head">Wiley and Putnam's Library of American Books. No. 11.
-               Tales by Edgar A. Poe. New York and London : Wiley
-               if Putnam.
+         
+         <div class="piece" id="#p5">
+            <div class="biblTitle">Wiley and Putnam's Library of American Books, No. 11</div>
+            <div class="biblPage">10</div>
+            <div class="ab">Wiley and Putnam's Library of American Books. No. 11.
+               
+               <br></br>Tales by Edgar A. Poe. New York and London: Wiley
+               
+               <br></br>&amp; Putnam.
             </div>
             
             <p>This collection embraces the Gold Bug; the Black Cat;
-               Mesmeric Revelation ; Lionizing ; the Fall of the House of
+               Mesmeric Revelation; Lionizing; the Fall of the House of
                Usher; the Descent into the Maelstrom; the Colloquy of
-               Monosand Una; the conversation of Eiros and Charmion; the
+               Monosand Una; the conversation of Eiros and Charmion;the
                Murders in the Rue Morgue; the Mystery of Marie Roget;
                the Purloined Letter and the Man of the Crowd. This is a
                selection from about seventy tales, of similar length, written
@@ -1690,14 +1764,22 @@
             </p>
          </div>
          
-         <div>
+         
+         <div class="piece" id="#p6">
+            <div class="biblTitle">A System of Latin Versification</div>
+            <div class="biblPage">10</div>
             
-            <div class="head">A System of Latin Versification, in a series of progressive
-               exercises, including specimens of translation from English
-               and German poetry into Latin verse. For the use of schools
-               and colleges. By Charles Anthon, L.L.D., professor of the
-               Greek and Latin languages in Columbia College, N. Y.
-               New York : Harper and Brothers.
+            <div class="ab">A System of Latin Versification, in a series of progressive
+               
+               <br></br>exercises, including specimens of translation from English
+               
+               <br></br>and German poetry into Latin verse. For the use of schools
+               
+               <br></br>and colleges. By Charles Anthon, L.L.D., professor of the
+               
+               <br></br>Greek and Latin languages in Columbia College, N. Y.
+               
+               <br></br>New York: Harper and Brothers.
             </div>
             
             <p>This excellent work is intended as a sequel to the Treatise on Latin Prosody, published a few years ago. It is a
@@ -1712,11 +1794,16 @@
             </p>
          </div>
          
-         <div>
+         
+         <div class="piece" id="#p7">
+            <div class="biblTitle">The Trials of Margaret Lindsay</div>
+            <div class="biblPage">10</div>
             
-            <div class="head">The Trials of Margaret Lindsay. By John Wilson, author
-               of “Lights and Shadows of Scottish Life." Boston:
-               Saxton if Kelt. New York: Saxton if Miles.
+            <div class="ab">The Trials of Margaret Lindsay. By John Wilson, author
+               
+               <br></br>of “Lights and Shadows of Scottish Life." Boston:
+               
+               <br></br>Saxton if Kelt. New York:Saxton if Miles.
             </div>
             
             <p>In England and Scotland there is scarcely any book more
@@ -1727,27 +1814,36 @@
             </p>
          </div>
          
-         <div>
+         
+         <div class="piece" id="#p8">
+            <div class="biblTitle">The Foresters</div>
+            <div class="biblPage">10</div>
             
-            <div class="head">The Foresters. A tale of Domestic Life. By Professor
-               Wilson, author, fr. Boston : Saxion &amp; Kelt. New
-               York: Saxton &amp; Miles.
+            <div class="ab">The Foresters. A tale of Domestic Life. By Professor
+               
+               <br></br>Wilson, author, fr. Boston: Saxton &amp; Kelt. New
+               
+               <br></br>York: Saxton &amp;Miles.
             </div>
             
-            <p>“ The Foresters” has been nearly, if not quite, as popular
+            <p>“The Foresters” has been nearly, if not quite, as popular
                as The Trials,” and is equally pathetic. The American
                edition of this work, also, has an excellent preface by Mr.
                Hamilton. The two volumes are handsomely printed.
             </p>
          </div>
          
-         <div>
+         
+         <div class="piece" id="#p9">
+            <div class="biblTitle">The Modern British Essayists</div>
+            <div class="biblPage">10</div>
             
-            <div class="head">The Modern British Essayists. Philadelphia: Carey &amp;
-               Hart.
+            <div class="ab">The Modern British Essayists. Philadelphia: Carey &amp;
+               
+               <br></br>Hart.
             </div>
             
-            <p>Messrs. Carey k Hart have issued in three large volumes,
+            <p>Messrs. Carey &amp; Hart have issued in three large volumes,
                the Critical and Miscellaneous Essays of Macaulay, Sidney
                Smith, and Allison. Each volume is accompanied with an
                admirable portrait. This collection is invaluable. For sale
@@ -1755,10 +1851,20 @@
             </p>
          </div>
          
-         <div>
-            <div class="head">Republication of the London, Edinburgh, Foreign and
-               Westminster Quarterly Reviews, No. 176. The Westminster Review, No. 85, for June, 1845. American Edition—
-               Vol. 20, No. 2. New York : Leonard Scott and Co.
+         
+         <div class="piece" id="#p10">
+            <div class="biblTitle">Republication of the London, Edinburgh, Foreign and Westminster Quarterly
+               Reviews, No. 176.
+            </div>
+            <div class="biblPage">10</div>
+            
+            <div class="ab">Republication of the London, Edinburgh, Foreign and
+               
+               <br></br>Westminster Quarterly Reviews, No. 176. The Westmin-
+               
+               <br></br>ster Review, No. 85, for June, 1845. American Edition—
+               
+               <br></br>Vol. 20, No. 2. New York: Leonard Scott and Co.
             </div>
             
             <p>We can hardly say too much in praise of the admirable
@@ -1767,15 +1873,20 @@
                invaluable reviews mentioned above—any one of them for
                three dollars—any two for five—any three for seven. The
                June number of the Westminster (just issued) contains many
-               deeply interesting papers—among others, “ Old and New
-               London,” and an examination of Mrs. Norton’s “ Child of
+               deeply interesting papers—among others, “Old and New
+               London,” and an examination of Mrs. Norton’s “Child of
                the Islands.”
             </p>
          </div>
          
-         <div>
-            <div class="head">The London Lancet for July. New York: Burgess,
-               Stringer and Co.
+         
+         <div class="piece" id="#p11">
+            <div class="biblTitle">The London Lancet for July</div>
+            <div class="biblPage">10</div>
+            
+            <div class="ab">The London Lancet for July. New York: Burgess,
+               
+               <br></br>Stringer and Co.
             </div>
             
             <p>The July number commences the second volume of the
@@ -1785,15 +1896,18 @@
          </div>
       </div>
       
-      <div>
+      
+      <div class="piece" id="#p12">
+         <div class="biblTitle">The Magazines</div>
+         <div class="biblPage">10</div>
          <div class="head">THE MAGAZINES.</div>
          
          <p>The American Review for July has some very admirable
-            papers, among which we notice especially “ Marshal Macdonald by the clever author of “ Letters from Italy,” and a
-            discriminative review of Mr. Griswold’s “ Poets and Poetry
+            papers, among which we notice especially “Marshal Macdonald by the clever author of “Letters from Italy,” and a
+            discriminative review of Mr. Griswold’s “Poets and Poetry
             of England,” by Mr. Whipple, undoubtedly one of our finest
             critics. We are truly delighted to find him so keenly appreciating the magnificent genius of Tennyson. This number
-            contains, also, a poem, “ The Gods of Old" which does high
+            contains, also, a poem, “The Gods of Old" which does high
             credit to its author, Mr. Wm. Wallace. Speaking of it the
             editor of the Review says:—
          </p>
@@ -1812,36 +1926,39 @@
             best of the three, and he has handled it in a masterly manner. We quote the concluding stanza.
          </p>
          
-         <div class="lg">V.
+         
+         <div class="lg">
+            <br></br>V.
             
             <br></br>Like far off stars that glimmer in a cloud,
             
-            <br></br>Deathless, O Gods ! shall ye illume the past:
+            <br></br>     Deathless, O Gods! shall ye illume the past:
             
             <br></br>To ye the Poet-Voice will cry aloud,
             
-            <br></br>Faithful among the faithless to the last:—
+            <br></br>     Faithful among the faithless to the last:—
             
-            <br></br>Ye must not die !
+            <br></br>          Ye must not die!
             
             <br></br>Long as the dim robes of the Ages trail
             
             <br></br>O’er Delphi’s steep or Tempe’s flowery vale—
             
-            <br></br>An awful Throng—
+            <br></br>          An awful Throng—
             
             <br></br>Borne upward on the sounding wings of Song
             
             <br></br>That cast the Beautiful o’er Land, o’er Sea,
             
-            <br></br>Ye shall not die :
+            <br></br>         Ye shall not die:
             
             <br></br>Though Time and storm your calm, old temples rend,
             
-            <br></br>And, rightly, men to the “ One Only” bend—
+            <br></br>And, rightly, men to the “One Only” bend—
             
-            <br></br>Your Realm is Memory !
+            <br></br>          Your Realm is Memory!
          </div>
+         
          
          <p>The Knickerbocker for July has also some meritorious contributions—but neither man nor devil can dissuade its editor
             from a monthly farrago of type so small as to be nearly invisible, and so stupid as to make us wish it were quite so.
@@ -1849,9 +1966,9 @@
             to be complimentary, we believe, although we sincerely hope
             not, he makes use of what he supposes to be a French proverb, and writes it Chacun a son gout, taking great pains to
             place a grave accent on the verb, mistaking it for the preposition, and complimenting the hard c with a cedilla. Within
-            the compass of the same three lines, he talks about a nil admirari critic ; some person, we presume, having quizzed
+            the compass of the same three lines, he talks about a nil admirari critic; some person, we presume, having quizzed
             him with the information that the meaning of nil admirari
-            is " to admire nothing.” We certainly do not admire Mr.
+            is "to admire nothing.” We certainly do not admire Mr.
             Clarke—nor his wig—but the true English of the Latin
             phrase is “to wonder at nothing,” and we plead guilty to
             having wondered at nothing since we have found the Knickerbocker sinking day by day in the public opinion in despite
@@ -1860,13 +1977,16 @@
          </p>
       </div>
       
-      <div>
+      
+      
+      <div class="section" id="#s2">
+         <div class="biblTitle">Musical Department</div>
          <div class="head">MUSICAL DEPARTMENT.</div>
          
-         <div>
-            <div class="head">French Opera at the Park.</div>
-            
-            <p>—Since our last notice of
+         <div class="piece" id="#p13">
+            <div class="biblTitle">French Opera at the Park</div>
+            <div class="biblPage">11</div>
+            <p>French Opera at the Park.—Since our last notice of
                this establishment, Donizetti’s opera La Favorite, Auber’s
                Le Domino Noir, and Mayerbeer’s Robert Le Diable, have
                been produced, each of them with considerable success.
@@ -1918,14 +2038,14 @@
                humbled and repentant, leaves the court, and, arriving at
                the monastery, distinguishes Fernald’s voice among the singers. Shrieking out his name, she falls upon the steps of
                cross, overcome by surprise and fatigue. He rushes from
-               the church ; discovers Leonora ; a reconciliation takes place,
+               the church; discovers Leonora; a reconciliation takes place,
                and she dies in his arms, happy in being loved and forgiven.
             </p>
             
             <p>Although we sincerely acknowledge Calve to be an especial favourite with us, yet are we compelled to say that
                in Leonora de Guzman she disappointed us. We did not expect
                much, but even our moderate expectations were unfulfilled.
-               She sang with her usual lightness, delicacy, and finish ;
+               She sang with her usual lightness, delicacy, and finish;
                she dressed to admiration, and she looked very charming,
                but she was by no means the character she assumed. She
                lacked dignity of carriage, force and earnestness—in expression and feeling. In the lighter operas of Auber and Donizetti, she has but one rival this side the ocean, but she
@@ -1950,8 +2070,7 @@
             
             <p>The band, as usual, formed the most delightful feature in
                
-               the evening’s entertainment. Its performance was admira- 
-               ble throughout the evening. Prevost did all that a fine leader
+               the evening’s entertainment. Its performance was admirable throughout the evening. Prevost did all that a fine leader
                should do, and the band seconded his efforts to the very
                letter.
             </p>
@@ -1972,11 +2091,11 @@
                as he should be, but the time is fast approaching when he
                will be as dear to the lovers of music in this country as a
                familiar household god. The instrumentation of Le Domino
-               Noir is light, sparkling, novel and ingenious, and was executed by the orchestra in a manner worthy of its excellence. 
+               Noir is light, sparkling, novel and ingenious, and was executed by the orchestra in a manner worthy of its excellence.
             </p>
             
             <p>Mad'lle Calve was in this opera most entirely at home, 
-               whether as the lady or the simple country maiden ; in the
+               whether as the lady or the simple country maiden; in the
                one she was all grace, elegance and refinement—in the other,
                simple, arch, and natural. Her singing was equally to be
                praised throughout, but more especially in the second act,
@@ -1992,9 +2111,9 @@
             <p>M. Coeuriot is the very perfection of a French lover. He
                is the breathing semblance of many of Eugene Sue’s
                metaphisical monstrosities. His impetuosity, though it may
-               come within probability, is so truly extravagant, that it becomes ridiculous ; we laugh where we should look sad, and
+               come within probability, is so truly extravagant, that it becomes ridiculous; we laugh where we should look sad, and
                sympathize with him only as his folly places him in ludicrous positions. But we would not wish to seem to blame
-               M. Coeuriot for acting so naturally ; his is the praise—the
+               M. Coeuriot for acting so naturally; his is the praise—the
                fault lies with the class which he so faithfully represents.
                M. Coeuriot’s singing is also to be highly praised, for he uses
                a voice not too good, like an accomplished artist, and renders with great fidelity all that the composer has apportioned
@@ -2014,9 +2133,13 @@
             </p>
          </div>
          
-         <div> 
-            <div class="head">Mr. Fry’s Opera.</div>
-            <p>—We regret not having time to attend to
+         
+         
+         <div class="piece" id="#p14">
+            <div class="biblTitle">Mr. Fry’s Opera</div>
+            <div class="biblPage">12</div> 
+            
+            <p>Mr. Fry’s Opera.—We regret not having time to attend to
                the Philadelphia papers this week, but we will oblige those we
                have received by noticing them in our next number. Their
                attempts to puff up Mr Fry’s opera would be laughable were
@@ -2031,7 +2154,7 @@
                forbear laughing while we state it, for the charge is a grave
                charge. The reason why we have not, and why we cannot,
                write a criticism is—that we eat beef! Serious as this
-               charge is, and likely as it is to affect our moral and intellectual character, yet, in the beautiful simplicity of our nature, we acknowledge its truth. We do eat beef; and, by
+               charge is, and iikely as it is to affect our moral and intellectual character, yet, in the beautiful simplicity of our nature, we acknowledge its truth. We do eat beef; and, by
                a singular coincidence, we were dining on beef when the
                papers containing this exterminating charge reached our
                residence. What appetite we had left, after reading them,
@@ -2040,18 +2163,18 @@
             
             <p>If our modesty were not too painfully oppressive, we
                would suggest that the nerve, bone, and sinew of the criticisms which some folks find so difficult to digest, owe something to our partiality to that estimable beast from which
-               that nourishing article of food, called beef, is derived ; and
+               that nourishing article of food, called beef, is derived; and
                were we not singularly fearful of disturbing the naturally
                amiable tempers of our Philadelphia brethren, we would, in
                all kindness, suggest that, judging from the internal eviidences afforded by their writings, the sustenance of our
                contemporaries consisted of water melons and weak gruel.
             </p>
             
-            <p>We acknowledge ourselves overcome ; for, out of all the
+            <p>We acknowledge ourselves overcome; for, out of all the
                absurdities which they have indited, they have, at last, hit
                upon one startling and important truth. But if we are honest and candid enough to admit that we da live on roasts,
                surely our adversaries, who labour so hard and so vainly to
-               write up a reputation, with like ingenuousnous, will acknowledge having frequently feasted on Fries !
+               write up a reputation, with like ingenuousnous, will acknowledge having frequently feasted on Fries!
             </p>
             
             <p>The foregoing remarks were in type last week, but were
@@ -2083,12 +2206,12 @@
                of this critic upon critics:
             </p>
             
-            <p>“ It is generally conceded that the great emotions which
+            <p>“It is generally conceded that the great emotions which
                agitate the human heart—love, jealousy, hatred, and revenge
-               —demand no conventional mode of expression ; they owe to
-               no rule their intensity of feeling ; they speak in a language
+               —demand no conventional mode of expression; they owe to
+               no rule their intensity of feeling; they speak in a language
                which is universal; and, whether it be the Spaniard or the
-               Englishman, the Italian or the German, these amotions
+               Englishman, the Italian or the German, these emotions
                spring right up from the heart, and are dependent for the
                truthfulness of expression upon the genius or inspiration of
                the composer." Mr. Colley Cibber says: “Well, let that
@@ -2112,7 +2235,7 @@
             
             <p>Some papers have thrown out a doubt as to our having
                been present at the performance of Leonora; others insinuate that we were actuated, in our remarks, by ill feeling towards the composer. To the first, we reply that we visited
-               Philadelphia for the express purpose of hearing the opera :
+               Philadelphia for the express purpose of hearing the opera:
                and to the last, that, having spoken to Mr. Fry but once,
                and then only for five minutes, we could not possibly entertain any ill will towards the gentleman. It is well known
                to all with whom we spoke, previous to our visit to Philadelphia, how earnest we were in the hope of being able to
@@ -2121,12 +2244,14 @@
                prejudice, and hence the fuss made by injudicious friends
                and partizans.
             </p>
-            
          </div>
          
-         <div>
-            <div class="head"> Pianofortes.</div>
-            <p>—Last week we were requested by Mr. T.
+         
+         <div class="piece" id="#p15">
+            <div class="biblTitle">Pianofortes</div>
+            <div class="biblPage">13</div>
+            
+            <p>Pianofortes.—Last week we were requested by Mr. T.
                H. Chambers to call at his store, 385 Broadway, and examine a pianoforte which he was about to send into Virginia.
                We found the instrument everyway worthy our attention.
                Its compass was seven octaves, and its quality of tone was
@@ -2139,18 +2264,21 @@
          </div>
       </div>
       
-      <div>
+      
+      <div class="piece" id="#p16">
+         <div class="biblTitle">Town Amusement in Summer: The Ethiopian Music</div>
+         <div class="biblPage">13</div>
          <div class="head">TOWN AMUSEMENT IN SUMMER.
             THE ETHIOPIAN MUSIC.
          </div>
          
-         <p>Though the fashionable American world would fain persuade us, that ‘ all the world is out of town,’ at this season,
+         <p>Though the fashionable American world would fain persuade us, that ‘all the world is out of town,’ at this season,
             in palpable imitation of the English world of fashion,
             <span class="anchor" id="a001">
                <a href="#n001"> Link </a>
             </span> yet,
             as the streets appear tolerably full, and as the public places
-            are not altogether empty : as we happen to know a few
+            are not altogether empty: as we happen to know a few
             ladies and as many gentlemen, who happen to be still remaining in town; we take it for granted our readers may
             know a few also, and hence, by a simple act of addition and
             multiplication, a pretty fair body of intelligent, clever, social
@@ -2168,12 +2296,12 @@
             reason as the Park, to which might be added the reasons that tragedy in hot weather is altogether too tropical, unless, it be the farce of that name. It is too exciting,
             makes too much and too heavy demands on the attention and
             feelings. So too of farces that makes one laugh too loud and
-            long. It is almost as bad as high tragedy, yet not so simulating. Circus performances are a nuisance ; the least public sympathy on the part of the audience converting the
+            long. It is almost as bad as high tragedy, yet not so simulating. Circus performances are a nuisance; the least public sympathy on the part of the audience converting the
             contortions of the performers into absolute martyrdom. The
             other actors deal too much in horse play.
          </p>
          
-         <p>The museums would do well enough: they give you (at
+         <p>The museums would do well enough: they give you(at
             the least) far more than the value of your entrance money,
             but they are crowded to suffocation, and by the extreme radical party, the great unwashed and unterrified Democracy.
          </p>
@@ -2210,15 +2338,15 @@
             the Ethiopian is our only national music, strictly; and the
             sunny South, in both hemispheres, is the true region of mirth
             and song and the dance—equally, in America and Europe, the
-            land of gallantry and generous qualities of all kinds ; the
-            home of hospitality ; the fountain of courtesy; the meridian
+            land of gallantry and generous qualities of all kinds; the
+            home of hospitality; the fountain of courtesy; the meridian
             of luxury and voluptuousness.
          </p>
          
          <p>This school of music, for such it is fast becoming, is truly
             national and truly democratic. It has its home among the
             slaves, and fairly represents their amusements, character,
-            and social condition. It combines drollery with feeling; a
+            and social condition. It combines drollery with feeling;a
             peculiar broad (almost burlesque) humor, with a natural vein
             of pathos: of this mixed character are most of the songs,
             while the dancing airs are as near perfection in their way
@@ -2229,11 +2357,12 @@
             whistle or fiddle an air, with the utmost precision, after having heard it played a few times. He is thought to be all
             the better musician, by many, from his (general) want of
             individuality and proneness to imitation. To a certain point,
-            he is only clever, but never gets beyond it. The airs, commonly supposed to be indigenous, bear a model somewhere among old English or Scotch songs, or hymn tunes, marches, etc. Yet some of the negro airs, are as old, as the first
+            he is only clever, but never gets beyond it. The airs, commonly supposed to be indigenous, bear a model somewhere 
+            among old English or Scotch songs, or hymn tunes, marches, etc. Yet some of the negro airs, are as old, as the first
             settlement of Georgia by Oglethorpe: some may be older still.
             The air of Gen’l Morris’ song, “On the Lake where droops
-            the Willow,” is called a Southern refrain ; yet it is only the
-            delightful Scotch original of “ Comin’ thro’ the Rye,” with
+            the Willow,” is called a Southern refrain; yet it is only the
+            delightful Scotch original of “Comin’ thro’ the Rye,” with
             the character of the music altered by playing it, in slower
             time, and thus giving a pathetic caste to an originally
             sprightly air.
@@ -2246,7 +2375,7 @@
             still without its Metastasio.
          </p>
          
-         <p>Get the airs ;—nothing of a hot summer’s evening can be
+         <p>Get the airs;—nothing of a hot summer’s evening can be
             more delightfully soothing in the way of music, than Old Jar
             River and Lucy Neal well played, and for serenades, Long
             Time Ago. Played with expression, the music of these three
@@ -2303,7 +2432,7 @@
                <a href="#n002"> Link </a>
             </span>
             through the open windows you hear negro voices calling
-            ‘ hot corn’ or ‘I—scream.’ In winter, these adjuncts are
+            ‘hot corn’ or ‘I—scream.’ In winter, these adjuncts are
             wanting, and the music sounds spiritless, in consequence.
          </p>
          
@@ -2321,11 +2450,15 @@
          </div>
       </div>
       
-      <div>
+      
+      
+      <div class="piece" id="#p17">
+         <div class="biblTitle">The Coliseum</div>
+         <div class="biblPage">14</div>
          <div class="head">THE COLISEUM.</div>
          
-         <div class="lg"> 
-            <br></br>Type of the antique Rome ! Rich reliquary
+         <div class="lg">
+            <br></br>Type of the antique Rome! Rich reliquary
             
             <br></br>Of lofty contemplation left to Time
             
@@ -2341,9 +2474,10 @@
             
             <br></br>Amid thy shadows, and so drink within
             
-            <br></br>My very soul thy grandeur gloom and glory !
+            <br></br>My very soul thy grandeur gloom and glory!
             
-            <br></br>Vastness ! and Age ! and Memories of Eld !
+            
+            <br></br>Vastness! and Age! and Memories of Eld!
             
             <br></br>Silence! and Desolation! and dim Night!
             
@@ -2355,7 +2489,8 @@
             
             <br></br>O charms more potent than the rapt Chaldee
             
-            <br></br>Ever drew down from out the quiet stars !
+            <br></br>Ever drew down from out the quiet stars!
+            
             
             <br></br>Here, where a hero fell, a column fulls!
             
@@ -2375,7 +2510,8 @@
             
             <br></br>The swift and silent lizard of the stones!
             
-            <br></br>But stay ! these walls—these ivy-clad arcades—
+            
+            <br></br>But stay! these walls—these ivy-clad arcades—
             
             <br></br>These mould’ring plinths—these sad and blacken’d shafts—
             
@@ -2383,58 +2519,63 @@
             
             <br></br>These shatter’d cornices—this wreck—this ruin—
             
-            <br></br>These stones—alas ! these gray stones—are they all—
+            <br></br>These stones—alas! these gray stones—are they all—
             
             <br></br>All of the fam’d, and the colossal left
             
             <br></br>By the corrosive Hours, to Fate and me?
             
-            <br></br>“ Not all"—the Echoes answer me—“ not all!
             
-            <br></br>“ Prophetic sounds and loud, arise forever
+            <br></br>“Not all"—the Echoes answer me—“not all!
+            
+            <br></br>“Prophetic sounds and loud, arise forever
             
             <br></br>"From us, and from all Ruin, unto the wise,
             
-            <br></br>“ As melody from Memnou to the Sun.
+            <br></br>“As melody from Memnou to the Sun.
             
-            <br></br>“ We rule the hearts of mightiest men—we rule
+            <br></br>“We rule the hearts of mightiest men—we rule
             
-            <br></br>“ With a despotic sway all giant minds.
+            <br></br>“With a despotic sway all giant minds.
             
-            <br></br>“ We are net impotent—we pallid stones.
+            <br></br>“We are net impotent—we pallid stones.
             
-            <br></br>" Not all our power is gone—not all our fame—
+            <br></br>"Not all our power is gone—not all our fame—
             
-            <br></br>“ Not all the magic of our high renown—
+            <br></br>“Not all the magic of our high renown—
             
-            <br></br>“ Not all the wonder that encircles us—
+            <br></br>“Not all the wonder that encircles us—
             
-            <br></br>“ Not all the mysteries that in us lie—
+            <br></br>“Not all the mysteries that in us lie—
             
-            <br></br>“ Not all the memories that hung upon
+            <br></br>“Not all the memories that hung upon
             
-            <br></br>“ And cling around about us as a garment,
+            <br></br>“And cling around about us as a garment,
             
-            <br></br>“ Clothing us in a robe of more than glory."
+            <br></br>“Clothing us in a robe of more than glory."
          </div>
       </div>
       
-      <div>
+      
+      
+      <div class="piece" id="#p18">
+         <div class="biblTitle">Alexander von Humboldt’s “Cosmos”</div>
+         <div class="biblPage">14</div>
          <div class="head">ALEXANDER VON HUMBOLDT’S “COSMOS.”</div>
          
-         <p>The publication or Alexander von Humboldt’s “ Cosmos,”
+         <p>The publication or Alexander von Humboldt’s “Cosmos,”
             has engaged the attention of the most distinguished public
             writers in Germany. The late number of the “Deutsche
-            Schnellpost ’ contains a critick of the work from Berlin, addressed to the editor of a newspaper in Cologne.
+            Schnellpost" contains a critick of the work from Berlin, addressed to the editor of a newspaper in Cologne.
          </p>
-         <p>The following is a true translation of it.</p>
-         <div class="ab">—Ebs. B. J.</div>
+         
+         <p>The following is a true translation of it.—Ebs. B. J.</p>
          
          
-         <p>The first volume of Alexander von Humboldt’s “ Cosmos
+         <p>The first volume of Alexander von Humboldt’s “Cosmos
             Sketches of a Physical Oosmoarapy,” has just been published, and it is no more than natural that this work should become the topic of the conversation of the day, not only among
             the literary classes, but also the educated generally; and, indeed, for this double reason, that the publication of the
-            “ Cosmos,” such as Alexander von Humboldt has treated it,
+            “Cosmos,” such as Alexander von Humboldt has treated it,
             is in itself a matter of universal interest, and that this work,
             besides, has a special relation to the more scientific portion
             of society. When in the years 1827 and 1828, the learned 
@@ -2445,10 +2586,10 @@
             applause. The information which those lectures afforded, is
             yet in fresh memory in Berlin. All that time the lectures 
             were written down by many, and—it may justly be said—
-            with passion ; it was also rumoured that they should appear
+            with passion; it was also rumoured that they should appear
             in print, which, however, did not ensue. And now these lectures are presented to us at once from Alexander von Humboldt’s master-pen, and, even, more of them, and, indeed, 
             something more valuable; for, although the “Cosmos”
-            treats on the same subject as those lectures did, and is subdivided just as they were ; yet with the exception of the introductory words of those lectures (observations on the
+            treats on the same subject as those lectures did, and is subdivided just as they were; yet with the exception of the introductory words of those lectures (observations on the
             variety of the enjoyment of nature, and a scientific explanation of the laws of the world), which occupy some 40 and
             odd pages, the whole is written newly, and the work, therefore, contains the latest results of sciences and the last conclusions drawn from them upon the mind and understanding.
             The work is one of the finest and most finished blossoms
@@ -2456,13 +2597,13 @@
          </p>
          
          <p>To state what and how much it contains would be beyond
-            the limits of a newspaper article ; suffice it to say, that the
+            the limits of a newspaper article; suffice it to say, that the
             work when once finished, as may amply be inferred from the
             first volume, will contain the whole of natural sciences taken
             up from their latest results. The single results of the investigation of nature arranged encyclopedically, by no means
             constitute the contents of the work, but only afford a most
             general view. The work exhibits the worth and close connexion of all the laws of nature. Astronomy, natural philosophy, chemistry, natural history and geology, appear by it 
-            a living whole. The “ Cosmos” may be likened to a burning-glass by which all investigations in natural philosophy
+            a living whole. The “Cosmos” may be likened to a burning-glass by which all investigations in natural philosophy
             are reflected on the mind of the reader in a cleared state and
             united in an organic whole.
          </p>
@@ -2473,7 +2614,7 @@
             popular one, and which especially astonishes him who knows
             fully to appreciate the abundance of its contents. Every
             other reader, to whom the information is imparted so easily,
-            is far from anticipating its extent, because every thing dev2elops
+            is far from anticipating its extent, because every thing develops
             itself in such a natural and easy manner. And this would
             prove a test of the value of the work if it were not yet established. The most excellent manner of illustration is, the
             reason why the work is read with such a lively interest, as
@@ -2484,584 +2625,492 @@
             in natural sciences. The odious religious controversy which
             now excites and occupies too much society and its external
             organs—the newspapers, would then easily and rapidly arrive at its end. A. von Humboldt has dedicated the
-            “ Cosmos” in profound reverence and with hearty thanks, to
+            “Cosmos” in profound reverence and with hearty thanks, to
             the King of Prussia.
          </p>
       </div>
       
-      <div>
-         <div class="ab"> PIANO FORTES.—THOMAS H. CHAMBERS,
+      
+      <div class="section" id="#s3">
+         <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">15</div>
+         
+         
+         <div>
+            <div class="head">PIANO FORTES.</div>
+            <div class="ab">—THOMAS H. CHAMBERS,
+               
+               <br></br>(formerly Conductor to Dubois &amp; Stodart), No. 385 Broadway,
+               
+               <br></br>will keep a complete assortment of the largest approved Grand Action
+               
+               <br></br>Piano Fortes, of the most superior quality; such as he is prepared to
+               
+               <br></br>guarantee for their excellence of Tone, Touch, and External Finish,
+               
+               <br></br>and to endure in any climate. A liberal discount from the standard
+               
+               <br></br>prices. Piano Fortes Tuned and Repaired. Piano Fortes always on
+               
+               <br></br>hire.
+            </div>
+         </div>
+         
+         
+         
+         <div>
+            <div class="head">James Pirsson, piano forte manufacTURER,</div>
+            <div class="ab">88, 90, &amp; 92 Walker street, near Elm. A large stock of
+               
+               <br></br>the finest Instruments always on hand. Terms moderate.
+               
+               <br></br>FOR SALE—A splendid Harp, nearly new. To be sold at a great
+               
+               <br></br>bargain tor cash
+            </div>
+         </div>
+         
+         
+         
+         <div> 
+            <div class="note" type="headnote">INTERESTING WORKS
+               JUST PUBLISHED BY
+            </div>
             
-            <br></br>(formerly Conductor to Dubois &amp; Stodart), No. 385 Broadway,
+            <div class="head">HARPER &amp; BROTHERS, NEW-YORK.</div>
             
-            <br></br>will keep a complete assortment of the largest approved Grand Action
+            <div class="ab">THE NEW REFORMATION.
+               
+               <br></br>Now ready, with curious Illustrative Plate, price 25 cents, or Muslin,
+               
+               <br></br>37 1-2 cents.
+               
+               <br></br>JOHN RONGE,
+               
+               <br></br>THE HOLY COAT OF TREVES,
+               
+               <br></br>AND THE NEW GER. CATHOLIC CHURCH.
+            </div>
             
-            <br></br>Piano Fortes, of the most superior quality; such as he is prepared to
+            <p>Including authentic details of the events connected with the recent
+               exhibition of the pretended “Coat of our Lord” in the Cathedral of
+               Treves, during the months of August and September, 1844: comprising the letters and protestations of the author against the imposition
+               and superstitions of the Roman Catholic priests, &amp;c.
+            </p>
             
-            <br></br>guarantee for their excellence of Tone, Touch, and External Finish,
+            <p>This publication is exceedingly opportune; it will be perused with
+               deep interest by the Protestant community at large.—Commercial Advertiser.
+            </p>
             
-            <br></br>and to endure in any climate. A liberal discount from the standard
+            <p>The noble protest of Ronge has been circulated in Germany, not by
+               thousands, but by millions of copies; and it has been hailed with loud
+               applause by all classes, because it expeesses a public sentiment, and
+               finds a response in all hearts.—New York Observer.
+            </p>
             
-            <br></br>prices. Piano Fortes Tuned and Repaired. Piano Fortes always on
+            <div class="ab">PILGRIMAGE TO TREVES.
+               
+               <br></br>In one volume, 12mo., beautifully printed, price 75 cts.
+               
+               <br></br>A PILGRIMAGE TO TREVES,
+               
+               <br></br>THROUGH THE VALLEY OF THE MEUSE, AND THE FOREST OF
+               
+               <br></br>ARDENNES.
+               
+               <br></br>BY CHARLES EDWARD ANTHON, Esq.
+            </div>
             
-            <br></br>hire.
+            <p>This is the production of a young American, who had the rare fortune to be present at the most marvellous occurrence of the 19th century—the exhibition of the Holy Robe. In addition to a very graphic
+               description of this extraordinary event, which, from the excitement it
+               has created, seems destined to be an era in the Christian Church, this
+               unpretending volume is replete with antiquarian lore, relating to the
+               city of Charlemagne, from which the "Pilgrimage” commences—
+               the intermediate historic and poetic ground; and of the once renowned
+               city of Treves, with which it closes. It is the work of a scholar, and
+               cannot fail to enlist a profound interest.—Oswego Advertiser.
+            </p>
+            
+            <div class="ab">MR. PRESCOTT’S HISTORICAL WORKS.
+               
+               <br></br>In 3 volumes 8vo, beautifully printed and accompanied with fine En-
+               
+               <br></br>gravings.
+               
+               <br></br>HISTORY OF
+               
+               <br></br>THE CONQUEST OF MEXICO.
+               
+               <br></br>WITH A LIFE OF THE CONQUERER, HERNANDO CORTES,
+               
+               <br></br>AND A VIEW OF ANCIENT MEXICAN CIVILIZATION.
+               
+               <br></br>BY WILLIAM H. PRESCOTT, Esq.
+            </div>
+            
+            <p>Mr. Prescott appears to possess almost every qualification for his
+               task; he has a pure, simple, and eloquent style—a keen relish for the
+               picturesque—a quick and discerning judgment of character, and a calm,
+               generous and enlightened spirit of philanthropy, There is no exaggeration in stating that his “Conquest of Mexico” contains most of trie
+               valuable qualities which distingush the most popular historical writers
+               in our language of the present day. It unites the chivalrous but truthful enthusiasm of Col. Napier, and the vivacity of the accomplished
+               author of the "Siege of Granada,” with the patient and ample research
+               of Mr. Tytler.—Edinburgh Review, May, 1845.
+            </p>
+            
+            <p>In 3 volumes 8vo, uniform with the above, with Portraits and Maps.</p>
+            
+            <div class="ab">HISTORY OF THE
+               
+               <br></br>REIGN OF FERDINAND AND ISBAELLA,
+               
+               <br></br>THE CATAOLIC.
+               
+               <br></br>BY WILLIAM H. PRESCOTT, Esq.
+               
+               <br></br>The Tenth Edition.
+            </div>
+            
+            <p>It would be altogether supererogatory to make this celebrated work
+               the subject of critical analysis, since it has so long been distinguished
+               by the concurrent and enthusiastic applause of the whole reading community. We know of scarcely any other work so amusing, instructive, and powerfully attractive as the " History of Ferdinand and Isabella;” it possesses every charm which elegance of diction, gracefulness of style, and interest of subject can impart. In a word, it is such
+               a production as could only have emanated from a mind richly stored
+               with the wealth of sound learning, genius, and the felicitous art of its
+               application—N. Y. Review.
+            </p>
+         </div>
+         
+         
+         
+         <div>
+            <div class="head">PIANO FORTES.</div>
+            <div class="ab">—A. G. GALE &amp;CO.s Ware-
+               
+               <br></br>Rooms, No. 289 Broadway — Manufactory Third Avenue, corner
+               
+               <br></br>of 13th Street.
+            </div>
+            
+            <p>Purchasers are invited to call and examine their extensive assortment of Rosewood and Mahogany Piano Fortes, with from six to
+               seven octaves, embracing every variety of patterns, made in their wellknown substantial manner, under their immediate and personal superintendence, by skillful and experienced mechanics, from the best seasoned materials.
+            </p>
+            
+            <p>These instruments embrance many important improvements, which
+               will recommend themselves, and are finished in the highest state of
+               perfection, with the best French grand action, warranted in every respect by the manufacturer.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="head">A CARD.</div>
+            
+            <div class="ab">WM. A. KING, PROFESSOR of the PIANO-
+               
+               <br></br>FORTE, ORGAN, &amp;c. has removed to No. 22 Bank street,
+               
+               <br></br>where his terms for giving instruction can be ascertained. my17
+            </div>
+         </div>
+         
+         
+         <div>
+            <div class="head">PIANO ORTE MANUFACTURER.</div>
+            <div class="ab">—JAMES
+               
+               <br></br>PIRSSON, 88, 90, &amp; 92 Walker Street, near Elm. A
+               
+               <br></br>Large Stock of the finest instruments always on hand. Terms mode-
+               
+               <br></br>rate. FOR SALE—A Splendid Harp, nearly new. To be sold at a
+               
+               <br></br>great bargain for cash.
+            </div>
+         </div>
+         
+         
+         <div>
+            <div class="head">PIANO FORTES.</div>
+            <div class="ab">—V. F. HARRISON, 23 Canal
+               
+               <br></br>Street, N. Y.
+            </div>
+            
+            <p>Instruments made with the most recent improvements, such as Iron
+               Frames, &amp;c., with a compass of 6 and 7 octaves. They are made
+               from choice materials, and highly finished, with the most faithful
+               workmanship, the result of 23 years experience in the business.
+            </p>
+            
+            <p>N. B. Wanted, a second-hand Parlor Organ.</p>
+            
+            <p>Piano Fortes on hire by the month.</p>
+         </div>
+         
+         
+         <div>
+            <div class="head">PIANO FORTES.</div>
+            <p>—JOHN PETHICK, (formerly
+               Mundy &amp; Pethick,) invites the attention of the musical public to
+               the elegant and varied assortment he now has at his Old Establishment, corner of Cottage Placer and Bleecker street, which he will sell
+               at prices unusually low.
+            </p>
+            
+            <p>J. P. having been actively engaged in the business for the last twenty years, and, for a large portion of that time manufacturing for two
+               of the largest Music Stores in the city, feels warranted in saying that
+               his instruments will bear a favorable comparison with those of the
+               best makers in this country or Europe, and that they contain all the
+               real improvements of the day.
+            </p>
+            
+            <p>Second hand Pianos Bought, Sold and Exchanged, also Tuned and
+               Repaired.
+            </p>
+            
+            <div class="ab">New York, April 23d, 1845.</div>
+         </div>
+         
+         
+         <div>
+            <div class="head">PIANO FORTES.</div>
+            <p>The Subscribers, while returning thanks to their numerous friends and to the public, would, at
+               the same time call attention to their Stock of Instruments, of six and
+               seven octaves, just finished, in elegant Rosewood and mahogany cases.
+            </p>
+            
+            <p>The subscribers, from their long experience in every department of
+               the business, have been enabled to add several important improvements
+               to the action, so that their Instruments, they feel assured will prove,
+               upon examination, equal to any in the market.
+            </p>
+            
+            <div class="ab">                        STODART &amp; DUNHAM, 361 Broadway.
+               
+               <br></br>                   Manufactory, 13th st., between 3d and 4th Avenues.
+            </div>
+         </div>
+         
+         
+         
+         <div>
+            <div class="head">THE BOEHM FLUTE</div>
+            
+            <div class="ab">NEW INVENTION.</div>
+            
+            <p>Adopted at the Royal Academy of Music, London, the Conservatorie at Paris, and the Principal Musical Institutions in Europe.</p>
+            
+            <p>MR. LARRABEE, Manufacturer of the ‘Boehm Flute,’
+               110 Fulton St. N. Y., anxious to introduce to the Amateurs of
+               this city the above Imported Invention, which has been so enthusiastically received and generally used by the most distinguished European artists, feels happy in being able to place before them the
+               following testimonial to its merits, signed by two of the most distinguished of our resident Artists.
+            </p>
+            
+            <p>We hereby testify to the excellence of the Boehm Flute, as manufactured by Mr. J. D. Larrabee; to the beauty of its tone, the perfection of its tune, and the simplicity of its fingering, which renders
+               a brilliant execution comparatively easy.
+            </p>
+            
+            <div class="ab">                       Philip Ernest, (who has already introduced it
+               
+               <br></br>successfully among his pupils.)
+            </div>
+            
+            <div class="ab">                       John A. Kyle, Principal Flute of the Philhar-
+               
+               <br></br>monic Society, and Italian Opera, Professor and Teacher of the Boehm
+               
+               <br></br>Flute, 41 Forsyth st. New York.
+            </div>
+            
+            <p>Amateurs and Professors are requested to call at the manufactory
+               110 Fulton st. and judge for themselves.
+            </p>
+         </div>
+         
+         
+         
+         <div>    
+            <div class="head">VANDENHOFF’S ELOCUTION.</div>
+            
+            <p>SECOND EDITION.—This valuable work is being
+               introduced into a large number of the best Schools in the City and
+               Country.
+            </p>
+            
+            <p>It only needs to be generally known to become universally established.</p>
+            
+            <p>Testiomonials are received from every quarter.</p>
+            
+            <div class="ab">From Rev. R. F. Burnham, Rector of St. Paul’s Church, Hoboken.</div>
+            
+            <p>"Having seen with much pleasure, a second edition, by your house,
+               of “A Plain System of Eloculion,” I beg leave to express to you my
+               opinion of the high merit of that work.
+            </p>
+            
+            <p>Its title is in keeping with the plan pursued in the book; a rare fact
+               in this age of making many books. In the work may be found what
+               this age needs a System of Elocution, that presents to the learner
+               something tangible; and that combines meaning with beauty, and
+               beauty with force.
+            </p>
+            
+            <p>I hereby express the opinion that the Principals of Seminaries of
+               Learning would benefit the department of Elocution, by the introduction of Mr. Vandenhoff’s System.”
+            </p>
+            
+            <div class="ab">                                 C. SHEPARD, Publisher,
+               
+               <br></br>                             191 Broadway, opposite John-street.
+            </div>
+            
+         </div>
+         
+         
+         <div>
+            <div class="note" type="headnote">GREAT REDUCTION IN PRICE.
+               THE FIRST PREMIUM AWARDED FIVE YEARS BY THE AMERICAN INSTITUTE FOR THE BEST SPECIMEN OF OFF-HAND PENMANSHIP.
+            </div>
+            
+            <div class="head">GOLDSMITH’S WRITING AND BOOK-RUEPING ACADEMY,</div>
+            
+            <div class="ab">No. 289 BROADWAY, NEW YORK.</div>
+            
+            <p>GOLDSMITH’S PREMIUM SYSTEM of MercanAJ tile and Epistolary Writing, guaranteed to all (old and young)
+               in 10 lessons of 1 hour each.
+            </p>
+            
+            <p>Double entry Book-keeping, Fifteen Dollars, for a thorough course
+               of instruction, including mercantile arithmetic, also Blanks and Stationery. Payable at the commencement.
+            </p>
+            
+            <p>Class Hours—9 A. M., 3, 5 3-4, and 7 P. M., daily, for gentlemen,
+               and from 11 to 1 o’clock, for ladies. Private instruction given.
+            </p>
+            
+            <p>For sale “Goldsmith’s Gems of Penmanship,” elegantly bound.
+               Price Five Dollars.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="head">PAINE AND BURGESS,</div>
+            
+            <div class="ab">62 JOHN STREET, N. Y.,</div>
+            
+            <p>ARE just sending to press a New Series of Choice
+               Works, selected from the Prose Literature of Italy. Translated
+               and Edited by Edwards Lester, U. S. Consul at Genoa, auther of the
+               “Glory and Shame of England,” &amp;c., &amp;c. This series will be made
+               up of original translations of the best works of the best Italian writers,
+               with original notes and sketches in illustration of the Genius, the Lives
+               and Times of the Authors. Five vols. are ready for the Press.
+            </p>
+            
+            <div class="ab">1. Ettore Fieramosca, or the Challenge of Barlotta, an Historical
+               
+               <br></br>Romance of the Times of the Medici, by Agegbio.
+               
+               <br></br>2 and 3, The Florentine Histories, by Machiavelli.
+               
+               <br></br>4, The Autobiography of Alfieri.
+            </div>
+            
+            <p>These numbers will be issued in quick succession, in beautiful style,
+               and sold for fifty cents per volume. The object of this series is to
+               make known to the American people the Literature of Italy.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="head">TO THE EDITOR OF THE BROADWAY JOURNAL.</div>
+            
+            <p>SIR—WE WILL THANK YOU TO CAUTION
+               the public against a set of imposters who are calling upon our customers, asserting that they are engaged by us in the capacity of agents.
+               In several instances they have succeeded in obtaining orders. But
+               when the goods are delivered great dissatisfaction has been given by
+               the infamous and utterly base imitations. But still persisting that the
+               cards are our manufacture, they too often succeed in foisting them
+               upon the unsuspecting. We ourselves would strenuously caution the
+               said parties that, should they persist after this notice, we will try what
+               effect a State Prison will have upon them.
+            </p>
+            
+            <div class="ab">             We are, Sir, Yours most obt’y,
+               
+               <br></br>                               J. B. CAREY‘S &amp;CO,
+               
+               <br></br>                       Ornamental Show Card Manufacturers,
+               
+               <br></br>                        34 Beckman street, (late 323 Broadway.)
+            </div>
+            
+            <p>An agent wanted for New York City. Also one for New York State
+               —whose name will be published as our authorized agent.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="head">BERTINI’S METHOD FOR THE PIANO.</div>
+            
+            <p>THIS is the only thorough, complete and progressive work
+               yet published in this country. Where pupils have used this method, the most rapid advancement has been observed in all cases.
+               The most prominent feature of this work is that the lessons, exercises, scales and studies are given in such progressive order, that they
+               enlist the interest of pupils, and carry them almost imperceptibly
+               through those mechanical difficulties which, otherwise, are too often
+               made irksome in other instruction books. The time has arrived when
+               a superficial knowledge of the Piano is of but little account, and it is
+               only by the study of such methods as Bertini’s that pupils will be enabled to read music with facility, and at the same time become good
+               musicians.
+            </p>
+            
+            <p>This method commences in the most plain and simple manner; the
+               rudiments of music being given and illustrated at the same time, and
+               each lesson is fully explained by marginal notes on the same page.
+            </p>
+            
+            <p>The publishers are in possession of the highest recommendations
+               from professional gentlemen, who speak of the superior merits of
+               Bertini’s Method over all others yet published in this country, most
+               of them having used the foreign copies previously. It will only be
+               necessary to give a few of the names in the principal cities.
+            </p>
+            
+            <div class="ab">Boston.	                              New-York.
+               
+               <br></br>  Messr. G. J. Webb,	                    Messrs. H. C. Timm,
+               
+               <br></br>       J. G. Maedar,	                             W. Alpers,
+               
+               <br></br>       H. T. Hach,	                              U. C. Hill,
+               
+               <br></br>       E. L. White,	                           F. H. Brown,
+               
+               <br></br>       David Paine,	                          Philadelphia.
+               
+               <br></br>          A. Kurek,	                           B. C. Cross,
+               
+               <br></br>       T. B. Moses.	                         Joseph Duggan.
+               
+               <br></br>                        Albany—O. J. Shaw.
+            </div>
+            
+            <p>Professors and Teachers are respectfully invited to examine the
+               work. American edition published by E. H. WADE aud W. H.
+               OAKES, 197 Washington street, Boston
+            </p>
          </div>
       </div>
       
-      <div>
-         <div class="ab">James pirsson, piano forte manufac-
-            
-            <br></br>TURER, 88, 90, &amp; 92 Walker street, near Elm A large stock of
-            
-            <br></br>the finest Instruments always on hand. Terms moderate.
-            
-            <br></br>FOR SALE—A splendid Harp, nearly new. To be sold at a great
-            
-            <br></br>bargain tor cash
-         </div>
-      </div>
       
-      <div>
-         <div class="ab">INTERESTING WORKS
-            
-            <br></br>JUST PUBLISHED BY
-            
-            <br></br>HARPER &amp; BROTHERS, NEW-YORK.
-            
-            <br></br>THE NEW REFORMATION.
-            
-            <br></br>Now ready, with curious Illustrative Plate, price 25 cents, or Muslin,
-            
-            <br></br>37 1-2 cents.
-            
-            <br></br>JOHN RONGE,
-            
-            <br></br>THE HOLY COAT OF TREVES,
-            
-            <br></br>AND THE NEW GER. CATHOLIC CHURCH.
-            
-            <br></br>Including authentic details of the events connected with the recent
-            
-            <br></br>exhibition of the pretended “ Coat of our Lord ” in the Cathedral of
-            
-            <br></br>Treves, during the months of August and September, 1844: compris-
-            
-            <br></br>ing the letters and protestations of the author against the imposition
-            
-            <br></br>and superstitions of the Roman Catholic priests, &amp;c.
-            
-            <br></br>This publication is exceedingly opportune; it will be perused with
-            
-            <br></br>deep interest by the Protestant community at large.—Commercial Ad-
-            
-            <br></br>vertiser.
-            
-            <br></br>The noble protest of Ronge has been circulated in Germany, not by
-            
-            <br></br>thousands, but by millions of copies ; and it has been hailed with loud
-            
-            <br></br>applause by all classes, because it expeesses a public sentiment, and
-            
-            <br></br>finds a response in all hearts.—New York Observer.
-            
-            <br></br>PILGRIMAGE TO TREVES.
-            
-            <br></br>In one volume, 12mo., beautifully printed, price 75 cts.
-            
-            <br></br>A PILGRIMAGE TO TREVES,
-            
-            <br></br>THROUGH THE VALLEY OF THE MEUSE, AND THE FOREST OF
-            
-            <br></br>ARDENNES.
-            
-            <br></br>BY CHARLES EDWARD ANTHON, Esq.
-            
-            <br></br>This is the production of a young American, who had the rare for-
-            
-            <br></br>tune to be present at the most marvellous occurrence of the 19th cen-
-            
-            <br></br>tury—the exhibition of the Holy Robe. In addition to a very graphic
-            
-            <br></br>description of this extraordinary event, which, from the excitement it
-            
-            <br></br>has created, seems destined to be an era in the Christian Church, this
-            
-            <br></br>unpretending volume is replete with antiquarian lore, relating to the
-            
-            <br></br>city of Charlemagne, from which the " Pilgrimage ” commences—
-            
-            <br></br>the intermediate historic and poetic ground ; and of the once renowned
-            
-            <br></br>city of Treves, with which it closes. It is the work of a scholar, and
-            
-            <br></br>cannot fail to enlist a profound interest.—Oswego Advertiser.
-            
-            <br></br>MR. PRESCOTT’S HISTORICAL WORKS.
-            
-            <br></br>In 3 volumes 8vo, beautifully printed and accompanied with fine En-
-            
-            <br></br>gravings.
-            
-            <br></br>HISTORY OF
-            
-            <br></br>THE CONQUEST OF MEXICO.
-            
-            <br></br>WITH A LIFE OF THE CONQUERER, HERNANDO CORTES,
-            
-            <br></br>AND A VIEW OF ANCIENT MEXICAN CIVILIZATION.
-            
-            <br></br>BY WILLIAM H. PRESCOTT, Esq.
-            
-            <br></br>Mr. Prescott appears to possess almost every qualification for his
-            
-            <br></br>task; he has a pure, simple, and eloquent style—a keen relish for the
-            
-            <br></br>picturesque—a quick and discerning judgment of character, and a calm,
-            
-            <br></br>generous and enlightened spirit of philanthropy, There is no exag-
-            
-            <br></br>geration in stating that his “ Conquest of Mexico” contains most of trie
-            
-            <br></br>valuable qualities which distingush the most popular historical writers
-            
-            <br></br>in our language of the present day. It unites the chivalrous but truth-
-            
-            <br></br>ful enthusiasm of Col. Napier, and the vivacity of the accomplished
-            
-            <br></br>author of the " Siege of Granada,” with the patient and ample research
-            
-            <br></br>of Mr. Tytler.—Edinburgh Review, May, 1845.
-            
-            <br></br>In 3 volumes 8vo, uniform with the above, with Portraits and Maps.
-            
-            <br></br>HISTORY OF THE
-            
-            <br></br>REIGN OF FERDINAND AND ISBAELLA,
-            
-            <br></br>THE CATAOLIC.
-            
-            <br></br>BY WILLIAM H. PRESCOTT, Esq.
-            
-            <br></br>The Tenth Edition.
-            
-            <br></br>It would be altogether supererogatory to make this celebrated work
-            
-            <br></br>the subject of critical analysis, since it has so long been distinguished
-            
-            <br></br>by the concurrent and enthusiastic applause of the whole reading com-
-            
-            <br></br>munity. We know of scarcely any other work so amusing, instruc-
-            
-            <br></br>tive, and powerfully attractive as the " History of Ferdinand and Isa-
-            
-            <br></br>bella ;” it possesses every charm which elegance of diction, graceful-
-            
-            <br></br>ness of style, and interest of subject can impart. In a word, it is such
-            
-            <br></br>a production as could only have emanated from a mind richly stored
-            
-            <br></br>with the wealth of sound learning, genius, and the felicitous art of its
-            
-            <br></br>application—N. Y. Review.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">PIANO FORTES. —A. G. GALE &amp; CO.s Ware-
-            
-            <br></br>Rooms, No. 289 Broadway — Manufactory Third Avenue, corner
-            
-            <br></br>of 13th Street.
-            
-            <br></br>Purchasers are invited to call and examine their extensive assort-
-            
-            <br></br>ment of Rosewood and Mahogany Piano Fortes, with from six to
-            
-            <br></br>seven octaves, embracing every variety of patterns, made in their well-
-            
-            <br></br>known substantial manner, under their immediate and personal super-
-            
-            <br></br>intendence, by skillful and experienced mechanics, from the best sea-
-            
-            <br></br>soned materials.
-            
-            <br></br>These instruments embrance many important improvements, which
-            
-            <br></br>will recommend themselves, and are finished in the highest state of
-            
-            <br></br>perfection, with the best French grand action, warranted in every re-
-            
-            <br></br>spect by the manufacturer.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">A CARD.
-            
-            <br></br>WM. A. KINO, PROFESSOR of the PIANO-
-            
-            <br></br>FORTE, ORGAN, &amp;c. has removed to No. 22 Bank street,
-            
-            <br></br>where his terms for giving instruction can be ascertained. my17
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">PIANO ORTE MANUFACTURER.—JAMES
-            
-            <br></br>PIRSSON, 88, 90, &amp; 92 Walker Street, near Elm. A
-            
-            <br></br>Large Stock of the finest instruments always on hand. Terms mode-
-            
-            <br></br>rate. FOR SALE—A Splendid Harp, nearly new. To be sold at a
-            
-            <br></br>great bargain for cash.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">PIANO FORTES.—V. F. HARRISON, 23 Canal
-            
-            <br></br>Street, N. Y.
-            
-            <br></br>Instruments made with the most recent improvements, such as Iron
-            
-            <br></br>Frames, &amp;c., with a compass of 6 and 7 octaves. They are made
-            
-            <br></br>from choice materials, and highly finished, with the most faithful
-            
-            <br></br>workmanship, the result of 23 years experience in the business.
-            
-            <br></br>N. B. Wanted, a second-hand Parlor Organ.
-            
-            <br></br>Piano Fortes on hire by the month.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">PIANO FORTES.—JOHN PE THICK, (formerly
-            
-            <br></br>Mundy &amp; Pethick,) invites the attention of the musical public to
-            
-            <br></br>the elegant and varied assortment he now has at his Old Establish-
-            
-            <br></br>ment, corner of Cottage Placer and Bleecker street, which he will sell
-            
-            <br></br>at prices unusually low.
-            
-            <br></br>J. P. having been actively engaged in the business for the last twen-
-            
-            <br></br>ty years, and, for a large portion of that time manufacturing for two
-            
-            <br></br>of the largest Music Stores in the city, feels warranted in saying that
-            
-            <br></br>his instruments will bear a favorable comparison with those of the
-            
-            <br></br>best makers in this country or Europe, and that they contain all the
-            
-            <br></br>real improvements of the day.
-            
-            <br></br>Second hand Pianos Bought, Sold and Exchanged, also Tuned and
-            
-            <br></br>Repaired.
-            
-            <br></br>New York, April 23d, 1845.
-            
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">PIANO FORTES. The Subscribers, while return-
-            
-            <br></br>ing thanks to their numerous friends and to the public, would, at
-            
-            <br></br>the same time call attention to their Stock of Instruments, of six and
-            
-            <br></br>seven octaves, just finished, in elegant Rosewood and mahogany cases.
-            
-            <br></br>The subscribers, from their long experience in every department of
-            
-            <br></br>the business, have been enabled to add several important improvements
-            
-            <br></br>to the action, so that their Instruments, they feel assured will prove,
-            
-            <br></br>upon examination, equal to any in the market.
-            
-            <br></br>STODART &amp; DUNHAM, 361 Broadway.
-            
-            <br></br>Manufactory, 13th st., between 3d and 4th Avenues.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">THE BOEHM FLUTE
-            
-            <br></br>NEW INVENTION.
-            
-            <br></br>Adopted at the Royal Academy of Music, London, the Conservato-
-            
-            <br></br>ire at Paris, and the Principal Musical Institutions in Europe.
-            
-            <br></br>MR. LARRABEE, Manufacturer of the ‘Boehm Flute,’
-            
-            <br></br>110 Fulton St. N. Y., anxious to introduce to the Amateurs of
-            
-            <br></br>this city the above Imported Invention, which has been so enthusi-
-            
-            <br></br>astically received and generally used by the most distinguished Eu-
-            
-            <br></br>ropean artists, feels happy in being able to place before them the
-            
-            <br></br>following testimonial to its merits, signed by two of the most distin-
-            
-            <br></br>guished of our resident Artists.
-            
-            <br></br>We hereby testify to the excellence of the Boehm Flute, as manufac-
-            
-            <br></br>tured by Mr. J. D. Larrabee; to the beauty of its tone, the perfec-
-            
-            <br></br>tion of its tune, and the simplicity of its fingering, which renders
-            
-            <br></br>a brilliant execution comparatively easy.
-            
-            <br></br>Philip Ernest, (who has already introduced it
-            
-            <br></br>successfully among his pupils.)
-            
-            <br></br>John A. Kyle, Principal Flute of the Philhar-
-            
-            <br></br>monic Society, and Italian Opera, Professor and Teacher of the Boehm
-            
-            <br></br>Flute, 41 Forsyth st. New York.
-            
-            <br></br>Amateurs and Professors are requested to call at the manufactory
-            110 Fulton st. and judge for themselves.
-         </div>
-      </div>	
-      
-      <div>
-         <div class="ab">VANDENHOFF’S ELOCUTION.
-            
-            <br></br>SECOND EDITION.—This valuable work is being
-            
-            <br></br>introduced into a large number of the best Schools in the City and
-            
-            <br></br>Country.
-            
-            <br></br>It only needs to be generally known to become universally estab-
-            
-            <br></br>lished.
-            
-            <br></br>Testiomonials are received from every quarter.
-            
-            <br></br>From Rev. R. F. Burnham, Rector of St. Paul’s Church, Hoboken.
-            
-            <br></br>" Having seen with much pleasure, a second edition, by your house,
-            
-            <br></br>of “ A Plain System of Eloculion,” I beg leave to express to you my
-            
-            <br></br>opinion of the high merit of that work.
-            
-            <br></br>Its title is in keeping with the plan pursued in the book ; a rare fact
-            
-            <br></br>in this age of making many books. In the work may he found what
-            
-            <br></br>this age needs a System of Elocution, that presents to the learner
-            
-            <br></br>something tangible; and that combines meaning with beauty, and
-            
-            <br></br>beauty with force.
-            
-            <br></br>I hereby express the opinion that the Principals of Seminaries of
-            
-            <br></br>Learning would benefit the department of Elocution, by the introduc-
-            
-            <br></br>tion of Mr. Vandenhoff’s System.”
-            
-            <br></br>C. SHEPARD, Publisher,
-            191 Broadway, opposite John-street.
-            
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab"> GREAT REDUCTION IN PRICE.
-            
-            <br></br>THE FIRST PREMIUM AWARDED FIVE YEARS BY THE AMERICAN INSTI-
-            
-            <br></br>TUTE FOR THE BEST SPECIMEN OF OFF-HAND PENMANSHIP.
-            
-            <br></br>GOLDSMITH’S WRITING AND BOOK-RUEPING ACADEMY,
-            
-            <br></br>No. 289 BROADWAY, NEW YORK.
-            
-            <br></br>GOLDSMITH’S PREMIUM SYSTEM of Mercan-
-            
-            <br></br>AJ tile and Epistolary Writing, guaranteed to all (old and young)
-            
-            <br></br>in 10 lessons of 1 hour each.
-            
-            <br></br>Double entry Book-keeping, Fifteen Dollars, for a thorough course
-            
-            <br></br>of instruction, including mercantile arithmetic, also Blanks and Sta-
-            
-            <br></br>tionery. Payable at the commencement.
-            
-            <br></br>Class Hours—9 A. M., 3, 5 3-4, and 7 P. M., daily, for gentlemen,
-            
-            <br></br>and from 11 to 1 o’clock, for ladies. Private instruction given.
-            
-            <br></br>For sale “ Goldsmith’s Gems of Penmanship,” elegantly bound.
-            
-            <br></br>Price Five Dollars.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">PAINE AND BURGESS,
-            
-            <br></br>62 JOHN STREET, N. Y.,
-            
-            <br></br>ARE just sending to press a New Series of Choice
-            
-            <br></br>Works, selected from the Prose Literature of Italy. Translated
-            
-            <br></br>and Edited by Edwards Lester, U. S. Consul at Genoa, auther of the
-            
-            <br></br>“ Glory and Shame of England,” &amp;c., &amp;c. This series will be made
-            
-            <br></br>up of original translations of the best works of the best Italian writers,
-            
-            <br></br>with original notes and sketches in illustration of the Genius, the Lives
-            
-            <br></br>and Times of the Authors. Five vols. are ready for the Press.
-            
-            <br></br>1. Ettore Fieramosca, or the Challenge of Barlotta, an Historical
-            
-            <br></br>Romance of the Times of the Medici, by Agegbio.
-            
-            <br></br>2 and 3, The Florentine Histories, by Machiavelli.
-            
-            <br></br>4, The Autobiography of Alfieri.
-            
-            <br></br>These numbers will be issued in quick succession, in beautiful style,
-            
-            <br></br>and sold for fifty cents per volume. The object of this series is to
-            
-            <br></br>make known to the American people the Literature of Italy.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">  TO THE EDITOR OF THE BROADWAY JOURNAL.
-            
-            <br></br>SIR —WE WILL THANK YOU TO CAUTION
-            
-            <br></br>the public against a set of imposters who are calling upon our cus-
-            
-            <br></br>tomers, asserting that they are engaged by us in the capacity of agents.
-            
-            <br></br>In several instances they have succeeded in obtaining orders. But
-            
-            <br></br>when the goods are delivered great dissatisfaction has been given by
-            
-            <br></br>the infamous and utterly base imitations. But still persisting that the
-            
-            <br></br>cards are our manufacture, they too often succeed in foisting them
-            
-            <br></br>upon the unsuspecting. We ourselves would strenuously caution the
-            
-            <br></br>said parties that, should they persist after this notice, we will try what
-            
-            <br></br>effect a State Prison will have upon them.
-            
-            <br></br>We are, Sir, Yours most obt’y,
-            
-            <br></br>J. B. CAREY‘S &amp; CO ,
-            
-            <br></br>Ornamental Show Card Manufacturers,
-            
-            <br></br>34 Beckman street, (late 323 Broadway.)
-            
-            <br></br>An agent wanted for New York City. Also one for New York State
-            
-            <br></br>—whose name will be published as our authorized agent.
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab"> BERTINI’S METHOD FOR THE PIANO.
-            
-            <br></br>THIS is the only thorough, complete and progressive work
-            
-            <br></br>yet published in this country. Where pupils have used this me-
-            
-            <br></br>thod, the most rapid advancement has been observed in all cases.
-            
-            <br></br>The most prominent feature of this work is that the lessons, exerci-
-            
-            <br></br>ses, scales and studies are given in such progressive order, that they
-            
-            <br></br>enlist the interest of pupils, and carry them almost imperceptibly
-            
-            <br></br>through those mechanical difficulties which, otherwise, are too often
-            
-            <br></br>made irksome in other instruction books. The time has arrived when
-            
-            <br></br>a superficial knowledge of the Piano is of but little account, and it is
-            
-            <br></br>only by the study of such methods as Bertini’s that pupils will be ena-
-            
-            <br></br>bled to read music with facility, and at the same time become good
-            
-            <br></br>musicians.
-            
-            <br></br>This method commences in the most plain and simple manner; the
-            
-            <br></br>rudiments of music being given and illustrated at the same time, and
-            
-            <br></br>each lesson is fully explained by marginal notes on the same page.
-            
-            <br></br>The publishers arc in possession of the highest recommendations
-            
-            <br></br>from professional gentlemen, who speak of the superior merits of
-            
-            <br></br>Bertini’s Method over all others yet published in this country, most
-            
-            <br></br>of them having used the foreign copies previously. It will only be
-            
-            <br></br>necessary to give a few of the names in the principal cities.
-            
-            <br></br>Boston.	New-York.
-            
-            <br></br>Messr. G. J. Webb,	Messrs. H. C. Timm,
-            
-            <br></br>J. G. Maedar,	W. Alpers,
-            
-            <br></br>H. T. Hach,	U. C. Hill,
-            
-            <br></br>E. L. White,	F. H. Brown,
-            
-            <br></br>David Paine,	Philadelphia.
-            
-            <br></br>A. Kurek,	B. C. Cross,
-            
-            <br></br>T. B. Moses.	Joseph Duggan.
-            
-            <br></br>Albany—O. J. Shaw.
-            
-            <br></br>Professors and Teachers are respectfully invited to examine the
-            
-            <br></br>work. American edition published by E. H. WADE aud W. H.
-            
-            <br></br>OAKES, 197 Washington street, Boston
-         </div>
-      </div>
-      
-      <div>
-         <div class="ab">AGENTS FOR THE BROADWAY JOURNAL.
-            
-            <br></br>Redding &amp; Co.....................Boston, Mass.
+      <div class="piece" id="#p19">
+         <div class="biblTitle">Agents for the Broadway Journal</div>
+         <div class="biblPage">16</div>
+         <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
+         
+         <div class="ab">Redding &amp; Co.....................Boston, Mass.
             
             <br></br>Colon &amp; Adriance,.................Philadelphia, Pa.
             
@@ -3075,11 +3124,11 @@
          </div>
       </div>
       
+      
       <div>
-         <div class="ab">
-            <br></br>JOHN DOUGLAS, Printer, 106 Fulton-street, New-York
-         </div>
+         <p>JOHN DOUGLAS, Printer, 106 Fulton-street, New-York</p>
       </div>
+      
       
    </div>
    <div class="back">

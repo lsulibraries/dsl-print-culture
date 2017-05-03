@@ -7,30 +7,31 @@
       <issueNum>10</issueNum>
       <issueDate>March 8, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <hcwatson>
             <personId>hcwatson</personId>
             <personName>Henry Cood Watson</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </hcwatson>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
    <listBibl>
@@ -58,7 +59,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>high</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </cfbriggs>
          </pieceListPerson>
@@ -75,7 +75,13 @@
             <piecePdfIndex>2</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p2>
       <p3>
@@ -92,11 +98,7 @@
          <pieceListPerson>
             <eapoe>
                <personName>Edgar Allan Poe</personName>
-               <personName>Edgar Allan Poe</personName>
-               <personName>Edgar Allan Poe</personName>
                <personPieceRole>Contributor</personPieceRole>
-               <personPieceRole>Mentioned</personPieceRole>
-               <personPieceRole>Mentioned</personPieceRole>
                <authorShip>
                   <authorStatus>inferred</authorStatus>
                   <authorCertainty>high</authorCertainty>
@@ -132,7 +134,14 @@
             <piecePdfIndex>10</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <rhertzman/>
+            <rhertzman>
+               <personName/>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </rhertzman>
          </pieceListPerson>
       </p5>
       <p6>
@@ -145,9 +154,7 @@
          <pieceListPerson>
             <jgiven>
                <personName>James Given</personName>
-               <personName>James Given</personName>
                <personPieceRole>Contributor</personPieceRole>
-               <personPieceRole>Mentioned</personPieceRole>
                <authorShip>
                   <authorStatus>attested</authorStatus>
                   <authorCertainty>high</authorCertainty>
@@ -169,7 +176,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>medium</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </eapoe>
          </pieceListPerson>
@@ -225,8 +231,7 @@
                <personPieceRole>Contributor</personPieceRole>
                <authorShip>
                   <authorStatus>supplied</authorStatus>
-                  <authorCertainty>low</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
+                  <authorCertainty>medium</authorCertainty>
                </authorShip>
             </eapoe>
          </pieceListPerson>
@@ -243,7 +248,13 @@
             <piecePdfIndex>11</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p10>
       <p11>
@@ -258,7 +269,13 @@
             <piecePdfIndex>11</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p11>
       <p12>
@@ -273,7 +290,13 @@
             <piecePdfIndex>11</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p12>
       <p13>
@@ -288,7 +311,13 @@
             <piecePdfIndex>12</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p13>
       <p14>
@@ -308,8 +337,7 @@
                <personPieceRole>Contributor</personPieceRole>
                <authorShip>
                   <authorStatus>supplied</authorStatus>
-                  <authorCertainty>low</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
+                  <authorCertainty>medium</authorCertainty>
                </authorShip>
             </eapoe>
          </pieceListPerson>
@@ -332,7 +360,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>low</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </eapoe>
          </pieceListPerson>
@@ -349,7 +376,13 @@
             <piecePdfIndex>12</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p16>
       <s4>
@@ -450,7 +483,13 @@
             <piecePdfIndex>12</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p21>
       <s5>
@@ -471,7 +510,13 @@
             <piecePdfIndex>13</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p22>
       <p23>
@@ -486,7 +531,13 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p23>
       <p24>
@@ -501,7 +552,13 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p24>
       <p25>
@@ -580,11 +637,9 @@
          <pieceListPerson>
             <eapoe>
                <personName>Edgar Allan Poe</personName>
-               <personPiecePseudo>E. A. P.</personPiecePseudo>
                <personPieceRole>Contributor</personPieceRole>
                <authorShip>
                   <authorStatus>inferred</authorStatus>
-                  <authorCertainty>high</authorCertainty>
                </authorShip>
             </eapoe>
          </pieceListPerson>
@@ -605,7 +660,13 @@
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <jbisco/>
+            <jbisco>
+               <personName>John Bisco</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>attested</authorStatus>
+               </authorShip>
+            </jbisco>
          </pieceListPerson>
       </p29>
    </listBibl>

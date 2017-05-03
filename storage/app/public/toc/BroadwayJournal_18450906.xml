@@ -1,14 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div>
-   <head>
-      <title>The Broadway Journal</title>
-      <volume>2</volume>
-      <number>9</number>
-      <date>September 6, 1845</date>
-      <editor>Edgar Allan Poe</editor>
-      <editor>Henry Cood Watson</editor>
-      <publisher>John Bisco</publisher>
-      <printer>[?]</printer>
-   </head>
-   <toc/>
+   <head/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Echo-Song</title>
+         <t_type>attested</t_type>
+         <auth_id>fsosgood</auth_id>
+         <auth_name>Frances Sargent Osgood</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>129</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>Why the Little Frenchman Wears His Hand in a Sling</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>129</start>
+         <end>131</end>
+         <pages>129-131</pages>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>To the River</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>inferred</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>131</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Magnetizer; or, Ready for Any Body</title>
+         <t_type>attested</t_type>
+         <auth_id>losborn</auth_id>
+         <auth_name>Laughton Osborn</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>131</start>
+         <end>135</end>
+         <pages>131-135</pages>
+         <pdf_index>3</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>The Valley of Unrest</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <page>135</page>
+         <pdf_index>7</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>Silence—A Fable</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>attested</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>135</start>
+         <end>136</end>
+         <pages>135-136</pages>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's Library</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>136</page>
+               <pdf_index>8</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>Festus</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>136</start>
+               <end>137</end>
+               <pages>136-137</pages>
+               <pdf_index>8</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>Appleton's Literary Melange</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>137</page>
+               <pdf_index>9</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>Modern Cookery in All Its Branches</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>137</page>
+               <pdf_index>9</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>The White Slave; or the Russian Girl</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>137</page>
+               <pdf_index>9</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Harper's Illuminated and New Pictorial Bible</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>137</page>
+               <pdf_index>9</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Hunt's Merchant's Magazine</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>137</page>
+               <pdf_index>9</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>The American Common-School Reader and Speaker</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>137</page>
+               <pdf_index>9</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>The True Child</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>137</start>
+               <end>138</end>
+               <pages>137-138</pages>
+               <pdf_index>9</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>The Oracles of Shakespeare</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>138</page>
+               <pdf_index>10</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Devotional Family Bible</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>138</page>
+               <pdf_index>10</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The Knickerbocker</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>138</page>
+               <pdf_index>10</pdf_index>
+            </p18>
+         </pieces>
+      </s1>
+      <p19>
+         <decls_id>p19</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>medium</auth_cert>
+         <start>138</start>
+         <end>140</end>
+         <pages>138-140</pages>
+         <pdf_index>10</pdf_index>
+      </p19>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Musical Department</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>Oratorio of the Seven Sleepers</title>
+               <t_type>derived</t_type>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <start>140</start>
+               <end>141</end>
+               <pages>140-141</pages>
+               <pdf_index>12</pdf_index>
+            </p20>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>The French Opera</title>
+               <t_type>derived</t_type>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <page>141</page>
+               <pdf_index>13</pdf_index>
+            </p27>
+         </pieces>
+      </s4>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Editorial Miscellany</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>Advertisements This Week</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>141</page>
+               <pdf_index>13</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>Bolles' Phonographic Dictionary</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>141</start>
+               <end>142</end>
+               <pages>141-142</pages>
+               <pdf_index>13</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>The Subjoined Jeu d'Esprit</title>
+               <t_type>derived</t_type>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>142</page>
+               <pdf_index>14</pdf_index>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
+               <type>piece</type>
+               <title>Mr. J. S. Redfield</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>142</page>
+               <pdf_index>14</pdf_index>
+            </p24>
+            <p25>
+               <decls_id>p25</decls_id>
+               <type>piece</type>
+               <title>From Appleton's Bulletin</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>142</page>
+               <pdf_index>14</pdf_index>
+            </p25>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>To Correspondents</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>142</page>
+               <pdf_index>14</pdf_index>
+            </p26>
+         </pieces>
+      </s2>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <page>142</page>
+         <pdf_index>14</pdf_index>
+      </s3>
+      <p28>
+         <decls_id>p28</decls_id>
+         <type>piece</type>
+         <title>Agents for the Broadway Journal</title>
+         <t_type>attested</t_type>
+         <page>144</page>
+         <pdf_index>16</pdf_index>
+      </p28>
+   </toc>
 </div>

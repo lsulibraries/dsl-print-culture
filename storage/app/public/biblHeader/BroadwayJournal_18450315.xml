@@ -7,30 +7,31 @@
       <issueNum>11</issueNum>
       <issueDate>March 15, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <eapoe>
             <personId>eapoe</personId>
             <personName>Edgar Allan Poe</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </eapoe>
+         <hcwatson>
             <personId>hcwatson</personId>
             <personName>Henry Cood Watson</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </hcwatson>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
    <listBibl>
@@ -76,11 +77,7 @@
          <pieceListPerson>
             <eapoe>
                <personName>Edgar Allan Poe</personName>
-               <personName>Edgar Allan Poe</personName>
-               <personName>Edgar Allan Poe</personName>
                <personPieceRole>Contributor</personPieceRole>
-               <personPieceRole>Mentioned</personPieceRole>
-               <personPieceRole>Mentioned</personPieceRole>
                <authorShip>
                   <authorStatus>inferred</authorStatus>
                   <authorCertainty>high</authorCertainty>
@@ -171,9 +168,7 @@
          <pieceListPerson>
             <jgiven>
                <personName>James Given</personName>
-               <personName>James Given</personName>
                <personPieceRole>Contributor</personPieceRole>
-               <personPieceRole>Mentioned</personPieceRole>
                <authorShip>
                   <authorStatus>attested</authorStatus>
                   <authorCertainty>high</authorCertainty>

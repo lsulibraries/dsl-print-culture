@@ -7,20 +7,21 @@
       <issueNum>7</issueNum>
       <issueDate>February 15, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
    <listBibl>
@@ -42,7 +43,15 @@
             <piecePdfIndex>1</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <lmchild/>
+            <lmchild>
+               <personName>Lydia Maria Child</personName>
+               <personPiecePseudo>L. M. C.</personPiecePseudo>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>inferred</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+               </authorShip>
+            </lmchild>
          </pieceListPerson>
       </p1>
       <p2>
@@ -63,7 +72,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>low</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </cfbriggs>
          </pieceListPerson>
@@ -86,7 +94,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>low</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </cfbriggs>
          </pieceListPerson>
@@ -154,7 +161,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>high</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </eapoe>
          </pieceListPerson>
@@ -305,7 +311,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>low</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </cfbriggs>
          </pieceListPerson>
@@ -324,7 +329,6 @@
                <authorShip>
                   <authorStatus>supplied</authorStatus>
                   <authorCertainty>low</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </cfbriggs>
          </pieceListPerson>
@@ -347,7 +351,13 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p15>
       <p16>
@@ -362,7 +372,13 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p16>
       <p17>
@@ -377,7 +393,13 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p17>
       <p18>
@@ -392,7 +414,13 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p18>
       <p19>
@@ -407,7 +435,13 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
-            <anon/>
+            <anon>
+               <personName>Anonymous</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </anon>
          </pieceListPerson>
       </p19>
       <s6>

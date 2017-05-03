@@ -24,6 +24,7 @@
       
       <div class="piece" id="#p1">
          <div class="biblTitle">To Isa Singing</div>
+         <div class="biblPage">49</div>
          <div class="head">To Isa Singing.</div>
          
          <div class="lg">
@@ -84,7 +85,8 @@
       </div>
       
       <div class="piece" id="#p2">
-         <div class="biblTitle">The Business Man</div> 
+         <div class="biblTitle">The Business Man</div>
+         <div class="biblPage">49</div> 
          <div class="head">The Business Man.</div>
          
          <div class="ab">Method is the soul of business.—Old Saying.</div>
@@ -448,6 +450,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">Song</div>
+         <div class="biblPage">52</div>
          <div class="head">Song.</div>
          
          <div class="lg">
@@ -515,6 +518,7 @@
       
       <div class="piece" id="#p4">
          <div class="biblTitle">William Wirt</div>
+         <div class="biblPage">52</div>
          <div class="head">William Wirt.</div>
          
          <p>Perhaps there was no individual in our country more highly endowed with intellectual gifts than the late William
@@ -834,6 +838,7 @@
       
       <div class="piece" id="#p5">
          <div class="biblTitle">Sonnet-To Science</div>
+         <div class="biblPage">54</div>
          <div class="head">Sonnet—To Science.</div>
          
          <div class="lg">
@@ -875,6 +880,7 @@
          
          <div class="piece" id="#p6">
             <div class="biblTitle">The Lost Pleiad</div>
+            <div class="biblPage">55</div>
             <p>The Lost Pleiad; and other Poems. By T. H. Chivers, M. D.
                New-York: Edward O. Jenkins.
             </p>
@@ -1185,6 +1191,7 @@
          
          <div class="piece" id="#p7">
             <div class="biblTitle">Wiley and Putnam's Library of Choice Reading</div>
+            <div class="biblPage">56</div>
             <p>Wiley and Putnam's Library of Choice Reading. No. XV.
                Tales from the German of Heinrich Zschokke, by Parke
                Godwin. New York: Wiley &amp; Putnam.
@@ -1274,6 +1281,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">The Fortune Hunter</div>
+            <div class="biblPage">56</div>
             <p>The Fortune Hunter; or The Adventures of a Man About
                Town. A Novel of New-York Society. By Mrs. Anna
                Cora Mowatt, author of Fashion, etc. New-York; William Taylor.
@@ -1408,6 +1416,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">Wiley and Putnam's Library of Choice Reading</div>
+            <div class="biblPage">57</div>
             <p>Wiley &amp; Putnam's Library of Choice Reading. No. XVI.
                Prose and Verse. By Thomas Hood. Part I.
             </p>
@@ -1442,6 +1451,7 @@
          
          <div class="piece" id="#p10">
             <div class="biblTitle">The Waverley Novels</div>
+            <div class="biblPage">57</div>
             <p>The Waverley Novels ; with the Author's latest Corrections
                and Additions. Complete in Five Vols., (3340 pp.) for
                Two Dollars and Fifty Cents. Vol. III. Philadelphia:
@@ -1456,6 +1466,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">Pictorial History of the World</div>
+            <div class="biblPage">57</div>
             <p>Pictorial History of the World. By John Frost, LL. D.
                No. VI. of this beautifully printed work is published—for
                sale by Messrs. Burgess, Stringer, &amp; Co.
@@ -1464,6 +1475,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">The Godolphin Arabian</div>
+            <div class="biblPage">57</div>
             <p>The Godolphin Arabian ; or the History of a ThoroughBred. A Sporting Romance. By Eugene Sue. NewYork: E. Winchester.</p>
             
             <p>We have read this tale with great interest. It is in Sue’s
@@ -1473,6 +1485,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">Praise and Principle</div>
+            <div class="biblPage">57</div>
             <p>Praise and Principle ; or For What shall I Live? By the
                  “Author of Conquest and Self-Conquest," “Woman an
                  Enigma," etc. New-York: Harper ip Brothers.
@@ -1486,6 +1499,7 @@
          
          <div class="piece" id="#p14">
             <div class="biblTitle">The Wandering Jew</div>
+            <div class="biblPage">57</div>
             <p>The Wandering Jew. By Eugene Sue. No. XV. New-
                York: Harper &amp; Brothers.
             </p>
@@ -1497,6 +1511,7 @@
          
          <div class="piece" id="#p15">
             <div class="biblTitle">Mrs. Caudle's Curtain Lectures</div>
+            <div class="biblPage">57</div>
             <p>Mrs. Caudle's Curtain Lectures. New-York: E. Winchester.</p>
             
             <p>A complete collection. Of course it is unnecessary to say
@@ -1506,6 +1521,7 @@
          
          <div class="piece" id="#p16">
             <div class="biblTitle">Blackwood's Edinburgh Magazine</div>
+            <div class="biblPage">57</div>
             <p>Blackwood's Edinburgh Magazine. No. CCCLVJI. New
                American Edition. Vol. XXI—No. 1. New-York: Leonard Scott Co.
             </p>
@@ -1518,6 +1534,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">The Breach of Promise</div>
+            <div class="biblPage">57</div>
             <p>The Breach of Promise. A Novel. By the Author of "The
                Jilt," “Cousin Jeffrey," etc. New- York: Harper &amp; Brothers.
             </p>
@@ -1530,6 +1547,7 @@
          
          <div class="piece" id="#p18">
             <div class="biblTitle">Life in Dalecarlia</div>
+            <div class="biblPage">57</div>
             <p>Life in Dalecarlia. The Parsonage of Mora. By Frederika Bremer. Translated by William Howitt. New-York:
                Harper &amp; Brothers.
             </p>
@@ -1542,6 +1560,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">An Encyclopedia of Domestic Economy</div>
+            <div class="biblPage">58</div>
             <p>An Encyclopoedia of Domestic Economy, &amp;c. New-York:
                Harper &amp; Brothers.
             </p>
@@ -1551,6 +1570,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">The Treasury of History</div>
+            <div class="biblPage">58</div>
             <p>The Treasury of History. No. VII. New- York: Daniel
                Adee.
             </p>
@@ -1564,6 +1584,7 @@
       
       <div class="piece" id="#p21">
          <div class="biblTitle">Bridal Ballad</div>
+         <div class="biblPage">58</div>
          <div class="head">Bridal Ballad.</div>
          
          <div class="lg">
@@ -1639,6 +1660,7 @@
          
          <div class="piece" id="#p22">
             <div class="biblTitle">French Opera</div>
+            <div class="biblPage">58</div>
             <p>French Opera.—La Juive has been produced at the Park
                in a style of unexampled splendor. It is essentially a show
                piece, and as such it is very imposing. Its success in Paris
@@ -1818,6 +1840,7 @@
          
          <div class="piece" id="#p23">
             <div class="biblTitle">An Apology for Church Music</div>
+            <div class="biblPage">59</div>
             <p>An Apology for Church Music and Musical Festivals, by
                Edward Hodges, Mus. Doct. of Sidney Sussex College,
                Cambridge.
@@ -1952,6 +1975,7 @@
       
       <div class="piece" id="#p24">
          <div class="biblTitle">The Drama</div>
+         <div class="biblPage">60</div>
          <div class="head">The Drama.</div>
          
          <p>At Niblo's Mrs. Mowatt concluded her engagement on the
@@ -2039,6 +2063,7 @@
       
       <div class="piece" id="#p27">
          <div class="biblTitle">Editorial Miscellany</div>
+         <div class="biblPage">60</div>
          <div class="head">Editorial Miscellany</div>
          
          <p>Few American writers have been received with more favor than Mr. Mathews in England. The notices his writings have called forth have been remarkable (we remember
@@ -2313,6 +2338,7 @@
       
       <div class="piece" id="#p25">
          <div class="biblTitle">To Correspondents</div>
+         <div class="biblPage">63</div>
          <p>To Correspondents.— We regret that Agnes Seymour should have
             cause to suspect us of neglect. “Eudocia," was handed, for immediate insertion in the Journal, to the former associate editor, who still
             retains the MS. As soon as we can procure it of him, it shall be
@@ -2336,6 +2362,7 @@
       
       <div class="section" id="#s4">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">63</div>
          <div>
             <div class="head">MEDICI SERIES OF ITALIAN PROSE.</div>
             
@@ -2907,6 +2934,7 @@
       
       <div class="piece" id="#p26">
          <div class="biblTitle">Agents for the Broadway Journal</div>
+         <div class="biblPage">64</div>
          <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>
          
          <div class="ab">Redding &amp; Co..............Boston, Mass.

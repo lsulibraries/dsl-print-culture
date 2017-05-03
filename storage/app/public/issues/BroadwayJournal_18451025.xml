@@ -17,6 +17,7 @@
       
       <div class="piece" id="#p1">
          <div class="biblTitle">Sonnet</div>
+         <div class="biblPage">235</div>
          <div class="head">Sonnet.</div>
          
          <div class="ab">BY THE POOR DEBTOR.</div>
@@ -54,6 +55,7 @@
       
       <div class="piece" id="#p2">
          <div class="biblTitle">The Thousand-and-Second Tale of Scheherazade</div>
+         <div class="biblPage">235</div>
          <div class="head">The Thousand-and-Second Tale of Scheherazade.</div>
          
          <div class="ab">Truth is stranger than Action.—Old Saying.</div>
@@ -779,6 +781,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">The Sibyl</div>
+         <div class="biblPage">240</div>
          <div class="head">The Sibyl.</div>
          
          <div class="lg">
@@ -838,6 +841,7 @@
       
       <div class="piece" id="#p4">
          <div class="biblTitle">The Thread-Bare</div>
+         <div class="biblPage">241</div>
          <div class="head">The Thread-Bare.</div>
          
          <div class="ab">"Tpίω, Tpίψ, Tεrρіaϕ”–––Schrev.</div>
@@ -1084,6 +1088,7 @@
       
       <div class="piece" id="#p5">
          <div class="biblTitle">To Isadore</div>
+         <div class="biblPage">243</div>
          <div class="head">To Isadore.</div>
          
          <div class="lg">
@@ -1191,6 +1196,7 @@
       
       <div class="piece" id="#p6">
          <div class="biblTitle">The Power of Words</div>
+         <div class="biblPage">243</div>
          <div class="head">The Power of Words.</div>
          
          <p>Oinos.—Pardon, Agathos, the weakness of a spirit newfledged with immortality!</p>
@@ -1393,6 +1399,7 @@
       
       <div class="piece" id="#p7">
          <div class="biblTitle">Lines</div>
+         <div class="biblPage">244</div>
          <div class="head">Lines.</div>
          
          <div class="lg">
@@ -1476,6 +1483,7 @@
       
       <div class="piece" id="#p8">
          <div class="biblTitle">Incidents of College Life</div>
+         <div class="biblPage">245</div>
          <div class="head">Incidents of College Life.</div>
          
          <p>The entrance of a new member to a class in College,
@@ -1731,6 +1739,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">The Songs of our Land and Other Poems</div>
+            <div class="biblPage">247</div>
             <p>The Songs of our Land and Other Poems. By Mary L.
                Hewitt. Boston. William D. Ticknor &amp; Co.
             </p>
@@ -2000,6 +2009,7 @@
          
          <div class="piece" id="#p10">
             <div class="biblTitle">Morse's Cerographic Maps. No. 1</div>
+            <div class="biblPage">248</div>
             <p>Morse's Cerographic Maps. No. 1. New-York. Harper &amp; Brothers, 82 Cliff-street.</p>
             
             <p>We look upon this enterprise as one of the most important, if not the most important, ever undertaken by an
@@ -2055,6 +2065,7 @@
          
          <div class="piece" id="#p11">
             <div class="biblTitle">The Vision; or Hell, Purgatory and Paradise of Dante Alighieri</div>
+            <div class="biblPage">248</div>
             <p>The Vision; or Hell, Purgatory and Paradise of Dante
                Alighieri. Translated by the Rev. Henry Francis
                Cary, A. M., with the Life of Dante, Chronological
@@ -2082,6 +2093,7 @@
          
          <div class="piece" id="#p12">
             <div class="biblTitle">Appleton's Literary Miscellany</div>
+            <div class="biblPage">248</div>
             <p>Appleton's Literary Miscellany; a Series of Books for
                Popular Reading. Nos. II. and III. I Promessi Sposi. The Betrothed. By Alessandro Maznoni. A New
                Translation, Reprinted Entire from the Last English
@@ -2107,6 +2119,7 @@
          
          <div class="piece" id="#p13">
             <div class="biblTitle">Graham's Magazine for November</div>
+            <div class="biblPage">248</div>
             <p>We have received Graham’s Magazine for November
                —also The Columbian—and shall notice them [with the
                Lady’s Book,] very particularly in our next. “Graham”
@@ -2120,8 +2133,9 @@
          </div>
       </div>
       
-      <div class="piece" id="#p14">
+      <div class="section" id="#s2">
          <div class="biblTitle">Editorial Miscellany</div>
+         <div class="biblPage">248</div>
          <div class="head">Editorial Miscellany.</div>
          
          <p>With this number, it will be seen, that we assume the
@@ -2169,8 +2183,9 @@
       
       
       
-      <div class="section" id="#s2">
+      <div class="section" id="#s3">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">249</div>
          <div>
             <p>To Correspondents.—A great pressure of business has prevented us from
                paying attention to several communi
@@ -2819,7 +2834,9 @@
          </div>
       </div>
       
-      <div>
+      <div class="piece" id="#p14">
+         <div class="biblTitle">Our First Volume</div>
+         <div class="biblPage">250</div>
          <p>OUR FIRST VOLUME.—A few copies of
             the first volume of the Broadway Journal are for sale at the office, either in
             numbers or neatly bound.

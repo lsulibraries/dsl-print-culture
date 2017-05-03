@@ -7,20 +7,21 @@
       <issueNum>4</issueNum>
       <issueDate>January 25, 1845</issueDate>
       <issueListPerson>
-         <person>
+         <cfbriggs>
             <personId>cfbriggs</personId>
             <personName>Charles Frederick Briggs</personName>
             <personIssueRole>Editor</personIssueRole>
-         </person>
-         <person>
+         </cfbriggs>
+         <jbisco>
             <personId>jbisco</personId>
             <personName>John Bisco</personName>
             <personIssueRole>Publisher</personIssueRole>
-         </person>
-         <person>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
             <personName>John Douglas</personName>
             <personIssueRole>Printer</personIssueRole>
-         </person>
+         </jdouglas>
       </issueListPerson>
    </issueMeta>
    <listBibl>
@@ -60,7 +61,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p2</pieceId>
-            <pieceTitle>The Natural Boundaries of the Empires, and a New View of Colonization</pieceTitle>
+            <pieceTitle>The Natural Boundaries of the Empires</pieceTitle>
             <piecePage>50-52</piecePage>
             <piecePdfIndex>2</piecePdfIndex>
          </pieceMeta>
@@ -387,17 +388,6 @@
             <sectionId>s5</sectionId>
             <sectionTitle>Illustrated Magazines</sectionTitle>
          </sectionMeta>
-         <sectionListPerson>
-            <cfbriggs>
-               <personName>Charles Frederick Briggs</personName>
-               <personPieceRole>Contributor</personPieceRole>
-               <authorShip>
-                  <authorStatus>supplied</authorStatus>
-                  <authorCertainty>high</authorCertainty>
-                  <authorReference>(Reference: eapoe.org)</authorReference>
-               </authorShip>
-            </cfbriggs>
-         </sectionListPerson>
       </s5>
       <p17>
          <sectionMeta>
@@ -410,6 +400,17 @@
             <piecePage>60-61</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
          </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
       </p17>
       <p18>
          <sectionMeta>
@@ -422,6 +423,17 @@
             <piecePage>61</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
          </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
       </p18>
       <p19>
          <sectionMeta>
@@ -434,13 +446,7 @@
             <piecePage>61</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
          </pieceMeta>
-      </p19>
-      <s6>
-         <sectionMeta>
-            <sectionId>s6</sectionId>
-            <sectionTitle>Literary Notices</sectionTitle>
-         </sectionMeta>
-         <sectionListPerson>
+         <pieceListPerson>
             <cfbriggs>
                <personName>Charles Frederick Briggs</personName>
                <personPieceRole>Contributor</personPieceRole>
@@ -450,7 +456,13 @@
                   <authorReference>(Reference: eapoe.org)</authorReference>
                </authorShip>
             </cfbriggs>
-         </sectionListPerson>
+         </pieceListPerson>
+      </p19>
+      <s6>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
       </s6>
       <p20>
          <sectionMeta>
@@ -463,6 +475,17 @@
             <piecePage>61</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
          </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
       </p20>
       <p21>
          <sectionMeta>
@@ -475,6 +498,17 @@
             <piecePage>61</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
          </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
       </p21>
       <p22>
          <sectionMeta>
@@ -487,6 +521,17 @@
             <piecePage>61-62</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
          </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
       </p22>
       <p23>
          <sectionMeta>
@@ -499,6 +544,17 @@
             <piecePage>62</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
       </p23>
       <p24>
          <sectionMeta>
@@ -511,6 +567,17 @@
             <piecePage>62</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
+         <pieceListPerson>
+            <cfbriggs>
+               <personName>Charles Frederick Briggs</personName>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>supplied</authorStatus>
+                  <authorCertainty>high</authorCertainty>
+                  <authorReference>(Reference: eapoe.org)</authorReference>
+               </authorShip>
+            </cfbriggs>
+         </pieceListPerson>
       </p24>
       <p25>
          <pieceMeta>
@@ -568,6 +635,27 @@
             <piecePdfIndex>14</piecePdfIndex>
          </pieceMeta>
          <pieceListPerson>
+            <gsprudence>
+               <personName/>
+               <personPieceRole>Contributor</personPieceRole>
+               <authorShip>
+                  <authorStatus>unknown</authorStatus>
+               </authorShip>
+            </gsprudence>
+         </pieceListPerson>
+      </p27>
+      <p30>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>To the Editor of the Broadway Journal</pieceTitle>
+            <piecePage>63</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+         <pieceListPerson>
             <anon>
                <personName>Anonymous</personName>
                <personPieceRole>Contributor</personPieceRole>
@@ -576,7 +664,7 @@
                </authorShip>
             </anon>
          </pieceListPerson>
-      </p27>
+      </p30>
       <p28>
          <pieceMeta>
             <pieceId>p28</pieceId>

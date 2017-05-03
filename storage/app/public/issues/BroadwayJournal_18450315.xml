@@ -48,6 +48,7 @@
          
          <div class="piece" id="#p1">
             <div class="biblTitle">Satirical Poems</div>
+            <div class="biblPage">161</div>
             
             <div class="head">SATIRICAL POEMS.
                <span class="anchor" id="a001">
@@ -172,6 +173,7 @@
          
          <div class="piece" id="#p2">
             <div class="biblTitle">A Continuation of the Voluminous History of the Little Longfellow War</div>
+            <div class="biblPage">161</div>
             
             <p>A CONTINUATION OF THE VOLUMINOUS HISTORY OF THE LlTTLE LONGfellow War—Mr. Poe’s farther reply to the letter of OUTIS.</p>
             
@@ -436,6 +438,7 @@
       
       <div class="piece" id="#p3">
          <div class="biblTitle">Thoughts of a Silent Man. No. 2</div>
+         <div class="biblPage">163</div>
          
          <div class="head">THOUGHTS OF A SILENT MAN.
             No. 2.
@@ -598,6 +601,7 @@
       
       <div class="piece" id="#p4">
          <div class="biblTitle">Some Passages in the Life of a Lion</div>
+         <div class="biblPage">164</div>
          
          <div class="head">SOME PASSAGES IN THE LIFE OF A LION.</div>
          
@@ -936,6 +940,7 @@
          <div class="biblTitle">The Art of the Use of Color in Imitation in Painting,
             No. V.
          </div>
+         <div class="biblPage">166</div>
          
          <div class="head">THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING,
             NO. V.
@@ -1078,6 +1083,7 @@
       
       <div class="piece" id="#p6">
          <div class="biblTitle">The Dignity of Tailors</div>
+         <div class="biblPage">167</div>
          
          <div class="head">THE DIGNITY OF TAILORS.</div>
          
@@ -1161,6 +1167,7 @@
       
       <div class="piece" id="#p7">
          <div class="biblTitle">Letter from James Given in New York, to his Cousin Hugh Hughes, of Pool Lane, Liverpool</div>
+         <div class="biblPage">168</div>
          
          <div class="head">Letter from James Given in New York, to his Cousin Hugh Hughes, of Pool Lane,
             Liverpool.
@@ -1279,6 +1286,7 @@
          
          <div class="piece" id="#p8">
             <div class="biblTitle">The Belle of Broadway</div>
+            <div class="biblPage">169</div>
             
             <div class="head">THE BELLE OF BROADWAY.</div>
             
@@ -1344,6 +1352,7 @@
          
          <div class="piece" id="#p9">
             <div class="biblTitle">Florence Vane</div>
+            <div class="biblPage">169</div>
             
             <div class="note" type="headnote">
                We have had frequent requests within the last ten days, for a copy of
@@ -1451,6 +1460,7 @@
          <div class="biblTitle">Mechanics' Institute Conversational Meeting,
             On the Subject of Aerial Navigation
          </div>
+         <div class="biblPage">169</div>
          
          <div class="head">MECHANICS' INSTITUTE CONVERSATIONAL MEETING, ON THE SUBJECT OT AERIAL
             NAVIGATION.
@@ -1574,6 +1584,7 @@
       
       <div class="piece" id="#p11">
          <div class="biblTitle">The Great Tower of Tarudant [cont.]</div>
+         <div class="biblPage">170</div>
          
          <div class="head">THE GREAT TOWER OF TARUDANT.</div>
          
@@ -1844,6 +1855,7 @@
       
       <div class="piece" id="#p12">
          <div class="biblTitle">The Concert Room</div>
+         <div class="biblPage">171</div>
          
          <div class="head">THE CONCERT ROOM.</div>
          
@@ -2021,6 +2033,7 @@
       
       <div class="piece" id="#p13">
          <div class="biblTitle">Musical Review</div>
+         <div class="biblPage">172</div>
          
          <div class="head">MUSICAL REVIEW.</div>
          
@@ -2115,6 +2128,7 @@
       
       <div class="piece" id="#p14">
          <div class="biblTitle">Musical Items</div>
+         <div class="biblPage">173</div>
          
          <div class="head">MUSICAL ITEMS.</div>
          
@@ -2176,6 +2190,7 @@
       
       <div class="piece" id="#p14a">
          <div class="biblTitle">Mitchell's Olympic Theater</div>
+         <div class="biblPage">173</div>
          <p>Mitchell's Olympic Theatre.—This delightful place of
             amusement continues its career of perfect success. It is, without
             a doubt, the most respectable as well as the best managed Theatre in
@@ -2222,6 +2237,7 @@
          
          <div class="piece" id="#p15">
             <div class="biblTitle">Inaugural Address</div>
+            <div class="biblPage">173</div>
             
             <p>Inaugural Address, delivered before the Mechanics’ Institute of the State of
                New York, by James J. Mapes, President. 1845.
@@ -2266,6 +2282,7 @@
          
          <div class="piece" id="#p16">
             <div class="biblTitle">Cruikshank's Omnibus</div>
+            <div class="biblPage">174</div>
             
             <p>Cruikshank's Omnibus, with numerous illustrations. Philadelphia: E. Ferrett &amp; Co. For sale by W. H. Graham, 163 Nassau st.</p>
             
@@ -2280,6 +2297,7 @@
          
          <div class="piece" id="#p17">
             <div class="biblTitle">The Democratic Review for March</div>
+            <div class="biblPage">174</div>
             
             <p>The Democratic Review for March.</p>
             
@@ -2299,6 +2317,7 @@
          
          <div class="piece" id="#p18">
             <div class="biblTitle">Military Maxims of Napoleon</div>
+            <div class="biblPage">174</div>
             
             <p>Military Maxims of Napoleon. Translated from the French by J. Akerly.
                New York: Wiley &amp; Putnam. 1846.
@@ -2335,6 +2354,7 @@
          
          <div class="piece" id="#p19">
             <div class="biblTitle">Martin’s Illustrated Family Bible. Part 3</div>
+            <div class="biblPage">174</div>
             
             <p>Martin’s Illustrated Family Bible. Part 3.</p>
             
@@ -2349,6 +2369,7 @@
          
          <div class="piece" id="#p20">
             <div class="biblTitle">Hunt's Merchants’ Magazine</div>
+            <div class="biblPage">174</div>
             
             <p>Hunt's Merchants’ Magazine.</p>
             
@@ -2383,6 +2404,7 @@
          
          <div class="piece" id="#p21">
             <div class="biblTitle">The New World</div>
+            <div class="biblPage">174</div>
             
             <p>“The New World."</p>
             
@@ -2404,6 +2426,7 @@
             <div class="biblTitle">Anastasis; or the Doctrine of the Resurrection of the Body
                Rationally and Scripturally Considered
             </div>
+            <div class="biblPage">174</div>
             
             <p>Anastasis; or the Doctrine of the Resurrection of the Body rationally and
                Scripturally considered. By George Bush, Professor of Hebrew, New York
@@ -2421,6 +2444,7 @@
       
       <div class="piece" id="#p23">
          <div class="biblTitle">Literary Intelligence</div>
+         <div class="biblPage">174</div>
          
          <div class="head">LITERARY INTELLIGENCE.</div>
          
@@ -2474,6 +2498,7 @@
       
       <div class="piece" id="#p24">
          <div class="biblTitle">Miscellany</div>
+         <div class="biblPage">175</div>
          
          <div class="head">MISCELLANY.</div>
          
@@ -2536,6 +2561,7 @@
       
       <div class="piece" id="#p25">
          <div class="biblTitle">To Readers and Correspondents</div>
+         <div class="biblPage">175</div>
          
          <p>To Readers and Correspondents.— We thank “A." for his communication; the intelligence which it gives will be of service.</p>
          
@@ -2567,6 +2593,7 @@
       
       <div class="section" id="#s4">
          <div class="biblTitle">Advertisements</div>
+         <div class="biblPage">175</div>
          
          <div>
             

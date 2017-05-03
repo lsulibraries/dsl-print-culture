@@ -3,9 +3,413 @@
    <head>
       <title>The Broadway Journal</title>
       <volume>1</volume>
-      <number>1</number>
-      <date>January 1, 1</date>
-      <printer/>
+      <number>3</number>
+      <date>January 18, 1845</date>
+      <editor>Charles Frederick Briggs</editor>
+      <publisher>John Bisco</publisher>
+      <printer>John Douglas</printer>
    </head>
-   <toc/>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>Conversations on Some of the Old Poets</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>high</auth_cert>
+               <start>33</start>
+               <end>34</end>
+               <pages>33-34</pages>
+               <pdf_index>1</pdf_index>
+            </p1>
+         </pieces>
+      </s1>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Illustrated Works</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>Illustrated Genealogy of George Washington</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>34</start>
+               <end>35</end>
+               <pages>34-35</pages>
+               <pdf_index>2</pdf_index>
+            </p2>
+            <p3>
+               <decls_id>p3</decls_id>
+               <type>piece</type>
+               <title>Goldsmith's Gems of Penmanship</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>35</page>
+               <pdf_index>3</pdf_index>
+            </p3>
+            <p4>
+               <decls_id>p4</decls_id>
+               <type>piece</type>
+               <title>An Illustrated Edition of Bryant's Poems</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>low</auth_cert>
+               <page>35</page>
+               <pdf_index>3</pdf_index>
+            </p4>
+         </pieces>
+      </s2>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Literary and Learned Societies</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>35</page>
+         <pdf_index>3</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>35</start>
+         <end>36</end>
+         <pages>35-36</pages>
+         <pdf_index>3</pdf_index>
+      </p6>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>The Art Union Pictures</title>
+               <t_type>attested</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>36</start>
+               <end>37</end>
+               <pages>36-37</pages>
+               <pdf_index>4</pdf_index>
+            </p7>
+         </pieces>
+      </s3>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>American Prose Writers</title>
+         <t_type>attested</t_type>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>37</start>
+         <end>38</end>
+         <pages>37-38</pages>
+         <pdf_index>5</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>Historical Essays</title>
+         <t_type>attested</t_type>
+         <auth_id>sdwb</auth_id>
+         <auth_name/>
+         <auth_stat>unknown</auth_stat>
+         <start>38</start>
+         <end>40</end>
+         <pages>38-40</pages>
+         <pdf_index>6</pdf_index>
+      </p9>
+      <p10>
+         <decls_id>p10</decls_id>
+         <type>piece</type>
+         <title>Calling Spirits from the Vasty Deep</title>
+         <t_type>derived</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>40</page>
+         <pdf_index>8</pdf_index>
+      </p10>
+      <p11>
+         <decls_id>p11</decls_id>
+         <type>piece</type>
+         <title>Architecture</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>41</page>
+         <pdf_index>9</pdf_index>
+      </p11>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Wreath</title>
+               <t_type>attested</t_type>
+               <auth_id>mwlowell</auth_id>
+               <auth_name>Maria White Lowell</auth_name>
+               <auth_stat>attested</auth_stat>
+               <auth_cert>high</auth_cert>
+               <page>42</page>
+               <pdf_index>10</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Beatrice</title>
+               <t_type>attested</t_type>
+               <auth_id>jaldrich</auth_id>
+               <auth_name>James Aldrich</auth_name>
+               <auth_stat>inferred</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>42</page>
+               <pdf_index>10</pdf_index>
+            </p13>
+         </pieces>
+      </s4>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>The False Ringlet</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>inferred</auth_stat>
+         <auth_cert>high</auth_cert>
+         <start>42</start>
+         <end>44</end>
+         <pages>42-44</pages>
+         <pdf_index>10</pdf_index>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
+         <title>City Chit-Chat</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <start>44</start>
+         <end>45</end>
+         <pages>44-45</pages>
+         <pdf_index>12</pdf_index>
+      </p15>
+      <s5>
+         <decls_id>s5</decls_id>
+         <type>section</type>
+         <title>The Magazines</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>The Democratic Review</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>45</page>
+               <pdf_index>13</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Columbian Magazine</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>45</page>
+               <pdf_index>13</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The American Review</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>45</page>
+               <pdf_index>13</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>Hunt's Merchant Magazine</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>45</page>
+               <pdf_index>13</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>The Golden Rule</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>45</page>
+               <pdf_index>13</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's News Letter</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>45</page>
+               <pdf_index>13</pdf_index>
+            </p21>
+         </pieces>
+      </s5>
+      <p22>
+         <decls_id>p22</decls_id>
+         <type>piece</type>
+         <title>New Publications</title>
+         <t_type>attested</t_type>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <auth_stat>unknown</auth_stat>
+         <page>45</page>
+         <pdf_index>13</pdf_index>
+      </p22>
+      <p23>
+         <decls_id>p23</decls_id>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <t_type>attested</t_type>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>low</auth_cert>
+         <page>46</page>
+         <pdf_index>14</pdf_index>
+      </p23>
+      <s6>
+         <decls_id>s6</decls_id>
+         <type>section</type>
+         <title>Varieties</title>
+         <t_type>attested</t_type>
+         <pieces>
+            <p24>
+               <decls_id>p24</decls_id>
+               <type>piece</type>
+               <title>Fashion</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>46</page>
+               <pdf_index>14</pdf_index>
+            </p24>
+            <p25>
+               <decls_id>p25</decls_id>
+               <type>piece</type>
+               <title>The Broadway Journal</title>
+               <t_type>derived</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <start>46</start>
+               <end>47</end>
+               <pages>46-47</pages>
+               <pdf_index>14</pdf_index>
+            </p25>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>Dishonorable Affairs</title>
+               <t_type>attested</t_type>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <auth_stat>unknown</auth_stat>
+               <page>47</page>
+               <pdf_index>15</pdf_index>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>Notices to Readers and Correspondents</title>
+               <t_type>derived</t_type>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <auth_stat>supplied</auth_stat>
+               <auth_cert>medium</auth_cert>
+               <page>47</page>
+               <pdf_index>15</pdf_index>
+            </p27>
+         </pieces>
+      </s6>
+      <s7>
+         <decls_id>s7</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <t_type>supplied</t_type>
+         <start>47</start>
+         <end>48</end>
+         <pages>47-48</pages>
+         <pdf_index>15</pdf_index>
+      </s7>
+      <p28>
+         <decls_id>p28</decls_id>
+         <type>piece</type>
+         <title>Prospectus of the Broadway Journal</title>
+         <t_type>attested</t_type>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <auth_stat>supplied</auth_stat>
+         <auth_cert>medium</auth_cert>
+         <page>48</page>
+         <pdf_index>16</pdf_index>
+      </p28>
+   </toc>
 </div>
