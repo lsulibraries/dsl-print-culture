@@ -599,7 +599,7 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer" v-if="!authorIsAnonymous()" v-bind:class="{active: showBibls}">
+	<div class="drawer" v-if="!authorIsAnonymous() && authorWroteSomethingBesidesThis()" v-bind:class="{active: showBibls}">
 	  <div class="drawerActuator" @click="showBibls = !showBibls">
 	    <div class="drawerIcon">
 	      <i class="fa fa-list" aria-hidden="true"></i>
@@ -613,6 +613,10 @@ Vue.component('drawer', {
     methods: {
 	authorIsAnonymous: function () {
 	    return this.authorId == 'anon'
+	},
+	authorWroteSomethingBesidesThis: function () {
+	    pieces = Object.keys(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl).length
+	    return parseInt(pieces) > 1
 	},
 	isBibls: function (){
 	    return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl)
