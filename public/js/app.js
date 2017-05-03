@@ -442,23 +442,25 @@ If the author is anonymous DO NOT provide certainty.`,
 	this.getIssueHeaderData()
     },
     template: `
-	<div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
-          <div class="bibl" v-if="haveData()">
-  	    <div class="issue" v-if="!this.$root.empty(this.issueHeaderData.issueMeta)">
-              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>              
-              <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
-              <a class="downloadLink" v-bind:href='stateHref()' download>
-                <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
-                <div class="downloadText">Download {{this.dlLabel()}}</div>
-    	      </a>	      
-	    </div>
-          </div>
-          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
-	<personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
-	<biblPersonPieceMeta  :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
-	  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
-          <drawer  v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
-	</div>
+<div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+  <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
+  <div class="bibl" v-if="haveData()">
+    <div class="issue">
+      <a class="downloadLink" v-bind:href='stateHref()' download>
+        <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
+        <div class="downloadText">Download {{this.dlLabel()}}</div>
+      </a>
+      <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta"></biblPieceMeta>
+    </div>
+    <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
+    <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
+    <div class="issueData">
+    </div>
+  </div>
+  <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
+  <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
+</div>
 	`,
     methods: {
 	haveData: function() {
@@ -474,7 +476,8 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    if(empty(this.issueHeaderData.issueMeta)){
 		alert('missing issueMeta')
-	    }
+	    } //v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"
+        return true
 	},
 	getSectionMeta: function () {
 	    
@@ -642,7 +645,7 @@ Vue.component('abouts',{
       <div class="abouts">
 <div class="aboutToggle">
 
-	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">About</div>
+	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">Project</div>
 	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
 	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
 </div>
