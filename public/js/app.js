@@ -452,6 +452,7 @@ If the author is anonymous DO NOT provide certainty.`,
 <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
   <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
   <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
+  <div class='issueDate'>{{this.formatDate()}}<div>
   <div class="bibl" v-if="haveData()">
     <div class="issue">
       <a class="downloadLink" v-bind:href='stateHref()' download>
@@ -591,7 +592,12 @@ If the author is anonymous DO NOT provide certainty.`,
 		return true
 	    }
 	    return false
-	}
+	},
+        formatDate: function() {
+            d = Util.datePartsForIssueId(this.$root.state.content.issue.id)
+            date = d.month + '-' + d.day + '-' + d.year;
+            return date
+        }
     },
     mounted() {
 //	Event.$emit('issueSelected', this.$root.state.content.issue.id)
