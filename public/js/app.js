@@ -1332,6 +1332,10 @@ window.Event = new Vue();
 
 new Vue({
 	el:'#vue-root',
+    mounted(){
+        //this.today = parseInt(this.state.content.issue.id) - parseInt(18450209)
+
+    },
     methods: {
 	empty: function (o) {
 	    if(o === undefined){
@@ -1363,6 +1367,7 @@ new Vue({
 	}
     },
     data: {
+        todayIssue: '',
 	journals:[],
 	years: [],
 	state: {
@@ -1442,6 +1447,38 @@ new Vue({
 		}
 	    }
 	});
+        let d = new Date();
+        let today = {};
+        today.year = d.getFullYear();
+        today.month = d.getMonth() + 1
+        today.day = d.getDate()
+        let todayIssue = ''
+        if(today.year % 2 && today.month == 1){
+            todayIssue = '1846'
+        }else{
+            todayIssue = '1845'
+        }
+        if(today.month > 9){
+            todayIssue += today.month
+        }else{
+            todayIssue += '0' + today.month
+        }
+        if(today.day > 9){
+            todayIssue += today.day
+        }else{
+            todayIssue += '0' + today.day
+        }
+        this.todayIssue = todayIssue
+        let olJournalIds = [];
+        for(issue in this.journals){
+            olJournalIds.push(this.journals[issue].id)
+        }
+        olJournalIds = olJournalIds.sort();
+        for( i in olJournalIds){
+            if(olJournalsIds[i] == todayIssue){
+           this.state.content.issue.id = todayIssue;
+            }
+            else{}
+        }
     },
 });
-
