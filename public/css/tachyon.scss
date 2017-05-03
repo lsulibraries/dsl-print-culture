@@ -520,7 +520,7 @@ button.searchSubmit {
 a.downloadLink {
     background: #fe7251;
     width: 129px;
-    height: 30px;
+    height: 29px;
     align-items: center;
     color: #ffffff;
     overflow: hidden;
@@ -553,38 +553,34 @@ a.downloadLink {
 }
 
 .drawerActuator {
-  cursor: pointer;
-  background: #fe7251;
-  width: 100%;
-  height: 30px;
-  align-items: center;
-  color: #ffffff;
-  overflow: hidden;
-  border-radius: 5px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-top: 2px;
-  display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 2px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px dashed #e9e9e9;
+    align-items: center;
+    border-bottom: 1px dashed #e9e9e9;
 }
 
 .drawerIcon {
-  height: 100%;
-  width: 30px;
-  border-right: 1px dashed white;
-  background: #fe7251;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  float: left;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .drawerText {
-  font-size: 12px;
-  line-height: 14px;
-  margin-left: 35px;
-  padding: 9px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 9px;
 }
 
 
@@ -669,18 +665,65 @@ span.searchHit {
 }
 
 .issueHeader {
+
   @include flexbox;
   flex-direction: column;
   position: relative;  
 
+.personMeta{
+  float: left;
+  @include flexbox;
+}
+
+.personName {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.sectionTitle {
+    position: absolute;
+    left: 120px;
+    top: 6px;
+    font-weight: 700;
+}
+
   .issueMeta {
     background: $light-border-color;
-    margin-bottom: 20px;    
+    margin-bottom: 10px;    
   }
   .bibl > .issue {
     flex-wrap: wrap;
   }
   .bibl {
+
+.issueHeader .personMeta {
+    float: left;
+     @include flexbox;
+
+}
+
+.personPieceMeta, .authorShip {
+  @include flexbox;
+}
+
+    .personViaf {
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+}
+
+    .authorRole, .authorStatus, .authorCertainty, .personViaf a {
+    background: #e9e9e9;
+    color: #474747;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 2px;
+    text-decoration: none;
+}
     margin-left: 110px;
     .issue > .pieceMeta {
       margin: 0px;
@@ -708,9 +751,7 @@ span.searchHit {
     display: flex;
   }
   .personMeta {
-    float: left;
-    padding: 4px;
-    margin: 2px;
+
    .personRole {
       display: none;
     }
@@ -720,15 +761,13 @@ span.searchHit {
   }
   .issueVol,
   .issueNum {
-    background: none;
-    color: $document-text-color;
-    margin-top: 2px;
+    background: $document-text-color;
+    color: #ffffff;
     width: 45px;
     font-weight: 700;
     font-size: 0.9em;
     float: left;
-    margin-right: 2px;
-    border-radius: 4px;
+    margin-right: 1px;
     height: 18px;
     @include flexCenter;
   }
@@ -781,6 +820,8 @@ span.searchHit {
 }
 
 .drawer {
+
+    margin-top: 10px;  
   .authorCertainty {
     background: white;
     float: left;
@@ -864,7 +905,7 @@ span.searchHit {
   overflow: hidden;
   z-index: 2;
   position: absolute;
-  top: 97px;
+  top: 87px;
 }
 
 .viewerTitle {

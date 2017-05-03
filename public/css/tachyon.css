@@ -527,7 +527,7 @@ button.searchSubmit {
 a.downloadLink {
   background: #fe7251;
   width: 129px;
-  height: 30px;
+  height: 29px;
   align-items: center;
   color: #ffffff;
   overflow: hidden;
@@ -567,36 +567,32 @@ a.downloadLink {
 
 .drawerActuator {
   cursor: pointer;
-  background: #fe7251;
   width: 100%;
   height: 30px;
-  align-items: center;
-  color: #ffffff;
   overflow: hidden;
   border-radius: 5px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 2px;
-  display: inline-block;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px dashed #e9e9e9;
+  align-items: center;
+  border-bottom: 1px dashed #e9e9e9;
 }
 
 .drawerIcon {
   height: 100%;
-  width: 30px;
-  border-right: 1px dashed white;
-  background: #fe7251;
-  color: white;
   justify-content: center;
   align-items: center;
   display: flex;
-  float: left;
 }
 
 .drawerText {
   font-size: 12px;
   line-height: 14px;
-  margin-left: 35px;
   padding: 9px;
 }
 
@@ -684,15 +680,65 @@ span.searchHit {
   flex-direction: column;
   position: relative;
 }
+.issueHeader .personMeta {
+  float: left;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.issueHeader .personName {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 2px;
+}
+.issueHeader .sectionTitle {
+  position: absolute;
+  left: 120px;
+  top: 6px;
+  font-weight: 700;
+}
 .issueHeader .issueMeta {
   background: #e9e9e9;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .issueHeader .bibl > .issue {
   flex-wrap: wrap;
 }
 .issueHeader .bibl {
   margin-left: 110px;
+}
+.issueHeader .bibl .issueHeader .personMeta {
+  float: left;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.issueHeader .bibl .personPieceMeta, .issueHeader .bibl .authorShip {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.issueHeader .bibl .personViaf {
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+}
+.issueHeader .bibl .authorRole, .issueHeader .bibl .authorStatus, .issueHeader .bibl .authorCertainty, .issueHeader .bibl .personography .authorStatus, .personography .issueHeader .bibl .authorStatus, .issueHeader .bibl .personography .personPieceRole, .personography .issueHeader .bibl .personPieceRole, .issueHeader .bibl .personography .authorRole, .personography .issueHeader .bibl .authorRole, .issueHeader .bibl .drawer .authorStatus, .drawer .issueHeader .bibl .authorStatus, .issueHeader .bibl .drawer .personPieceRole, .drawer .issueHeader .bibl .personPieceRole, .issueHeader .bibl .personViaf a {
+  background: #e9e9e9;
+  color: #474747;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 2px;
+  text-decoration: none;
 }
 .issueHeader .bibl .issue > .pieceMeta {
   margin: 0px;
@@ -718,11 +764,6 @@ span.searchHit {
 .issueHeader .issueHeader > .personPieceMeta {
   display: flex;
 }
-.issueHeader .personMeta {
-  float: left;
-  padding: 4px;
-  margin: 2px;
-}
 .issueHeader .personMeta .personRole {
   display: none;
 }
@@ -731,15 +772,13 @@ span.searchHit {
 }
 .issueHeader .issueVol,
 .issueHeader .issueNum {
-  background: none;
-  color: #474747;
-  margin-top: 2px;
+  background: #474747;
+  color: #ffffff;
   width: 45px;
   font-weight: 700;
   font-size: 0.9em;
   float: left;
-  margin-right: 2px;
-  border-radius: 4px;
+  margin-right: 1px;
   height: 18px;
   display: -webkit-box;
   display: -moz-box;
@@ -794,6 +833,9 @@ span.searchHit {
   border-radius: 5px 5px 0px 0px;
 }
 
+.drawer {
+  margin-top: 20px;
+}
 .drawer .authorCertainty, .drawer .personography .authorRole, .personography .drawer .authorRole, .drawer .authorStatus, .drawer .personPieceRole {
   background: white;
   float: left;
@@ -874,7 +916,7 @@ span.searchHit {
   overflow: hidden;
   z-index: 2;
   position: absolute;
-  top: 97px;
+  top: 87px;
 }
 
 .viewerTitle {
