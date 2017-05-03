@@ -443,7 +443,7 @@ If the author is anonymous DO NOT provide certainty.`,
     },
     template: `
 	<div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
-	  <div class="bibl">
+          <div class="bibl" v-if="haveData()">
   	    <div class="issue" v-if="!this.$root.empty(this.issueHeaderData.issueMeta)">
               <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>              
               <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
@@ -461,6 +461,24 @@ If the author is anonymous DO NOT provide certainty.`,
 	</div>
 	`,
     methods: {
+	haveData: function() {
+	    empty = this.$root.empty
+	    if(empty(this.issueHeaderData)){
+		alert('headerData is empty')
+	    }
+	    if(empty(this.issueHeaderData.listBibl)){
+		alert('issueHeaderData.listBibl is empty') 
+	    }
+	    if(empty(this.issueHeaderData.listBibl[this.biblId])){
+		alert('listBibl does not exist for '+ this.biblId)
+	    }
+	    if(empty(this.issueHeaderData.issueMeta)){
+		alert('missing issueMeta')
+	    }
+	},
+	getSectionMeta: function () {
+	    
+	},
 	getIssueHeaderData: function () {
 	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
@@ -476,6 +494,14 @@ If the author is anonymous DO NOT provide certainty.`,
 	    pid = this.getPersonId()
 	    if(!pid){
 		return false
+	    }
+	    if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
+		alert('person ' + pid + ' not found!')
+		return {
+		    personRole: 'unknown',
+		    personName: 'unknown',
+		    personViaf: false
+		}
 	    }
 	    personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
 	    if(this.$root.empty(personMeta)){
@@ -779,12 +805,19 @@ Vue.component('intraIssueNav',{
 	setTocContent: function () {
 	    url= '/api/broadwayjournal/' + this.issueID + '/toc';
 	    axios.get(url).then(response => this.tocContent = response.data);
+	},
+	getTocContent: function () {
+	    if(this.$root.empty(this.tocContent.toc)){
+		alert('Toc content is empty for ' + this.issueId)
+		return false
+	    }
+	    return true
 	}
     },
 	template:`
 	<div class='intraIssueNav'>
           <div class='tocDropdown'>Table of Contents</div>
-          <toc-item v-for='id in tocContent.toc' :id='id'></toc-item>
+          <toc-item v-if="getTocContent()" v-for='id in tocContent.toc' :id='id'></toc-item>
         </div>
 			`
 })

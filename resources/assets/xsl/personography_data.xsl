@@ -16,7 +16,7 @@
         </personography>
     </xsl:template>
 
-    <xsl:variable name="documents" select="collection('Issues')"/>
+    <xsl:variable name="documents" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/>
     
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
