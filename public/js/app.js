@@ -443,6 +443,7 @@ If the author is anonymous DO NOT provide certainty.`,
     },
     template: `
 <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+  <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
   <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
   <div class="bibl" v-if="haveData()">
     <div class="issue">
@@ -450,14 +451,14 @@ If the author is anonymous DO NOT provide certainty.`,
         <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
         <div class="downloadText">Download {{this.dlLabel()}}</div>
       </a>
-      <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta"></biblPieceMeta>
+      <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
     </div>
-    <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
     <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
     <div class="issueData">
     </div>
+      <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+
   </div>
-  <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
   <div class="authorShipLegend">{{this.authorShipLegend}}</div>
   <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
 </div>
@@ -476,7 +477,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    if(empty(this.issueHeaderData.issueMeta)){
 		alert('missing issueMeta')
-	    } //v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"
+	    } //
         return true
 	},
 	getSectionMeta: function () {
