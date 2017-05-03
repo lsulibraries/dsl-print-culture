@@ -575,7 +575,6 @@ a.downloadLink {
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 2px;
-  padding-left: 20px;
   display: flex;
   justify-content: flex-start;
   border-top: 1px dashed #e9e9e9;
@@ -588,6 +587,7 @@ a.downloadLink {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-left: 20px;
 }
 
 .drawerText {
@@ -671,6 +671,13 @@ span.searchHit {
   margin: 0px 0px 0px 2px;
 }
 
+.issueHeader > .sectionMeta .sectionTitle {
+  position: absolute;
+  left: 120px;
+  top: 6px;
+  font-weight: 700;
+}
+
 .issueHeader {
   display: -webkit-box;
   display: -moz-box;
@@ -679,6 +686,7 @@ span.searchHit {
   display: flex;
   flex-direction: column;
   position: relative;
+  min-height: 100px;
 }
 .issueHeader .personMeta {
   float: left;
@@ -693,12 +701,6 @@ span.searchHit {
   font-style: italic;
   margin-top: 2px;
 }
-.issueHeader .sectionTitle {
-  position: absolute;
-  left: 120px;
-  top: 6px;
-  font-weight: 700;
-}
 .issueHeader .issueMeta {
   background: #e9e9e9;
   margin-bottom: 10px;
@@ -707,7 +709,7 @@ span.searchHit {
   flex-wrap: wrap;
 }
 .issueHeader .bibl {
-  margin-left: 110px;
+  margin-left: 140px;
 }
 .issueHeader .bibl .issueHeader .personMeta {
   float: left;
@@ -830,11 +832,17 @@ span.searchHit {
 }
 
 .active .drawerActuator {
-  border-radius: 5px 5px 0px 0px;
+  background: #e9e9e9;
 }
 
 .drawer {
-  margin-top: 20px;
+  margin: 20px;
+}
+.drawer .issueMeta {
+  position: absolute;
+}
+.drawer .sectionMeta, .drawer .pieceMeta, .drawer .personPieceMeta {
+  margin-left: 70px;
 }
 .drawer .authorCertainty, .drawer .personography .authorRole, .personography .drawer .authorRole, .drawer .authorStatus, .drawer .personPieceRole {
   background: white;
@@ -848,24 +856,21 @@ span.searchHit {
   border-radius: 2px;
 }
 .drawer .personBibl:hover {
-  background: #be553c;
+  background: #474747;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
   transition: all 0s ease;
+  color: white;
 }
 .drawer .personBibl {
-  background: #fe7251;
-  color: white;
+  background: #e9e9e9;
+  color: #474747;
   font-size: 0.9em;
   padding: 20px;
   border-top: 1px dashed #ffffff;
   cursor: pointer;
   margin: 0px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }
 .drawer .issueVol,
 .drawer .issueNum {
@@ -917,6 +922,7 @@ span.searchHit {
   z-index: 2;
   position: absolute;
   top: 87px;
+  margin-left: 20px;
 }
 
 .viewerTitle {

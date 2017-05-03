@@ -457,7 +457,6 @@ If the author is anonymous DO NOT provide certainty.`,
     <div class="issueData">
     </div>
       <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
-
   </div>
   <div class="authorShipLegend">{{this.authorShipLegend}}</div>
   <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
