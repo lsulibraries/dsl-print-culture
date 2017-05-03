@@ -259,12 +259,19 @@ Vue.component('biblPersonPieceMeta',{
         <div class="personPieceMeta">
           <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
 	  <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">
-            <div class="authorStatus">{{personPieceMeta.authorShip.authorStatus}}</div>
-            <div class="authorCertainty">{{personPieceMeta.authorShip.authorCertainty}}</div>
+            <div class="authorStatus" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorStatus}}</div>
+            <div class="authorCertainty" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorCertainty}}</div>
 	  </div>
         </div>
 	`,
-    props: ['personPieceMeta']
+    props: ['personPieceMeta'],
+    methods: {
+	hasUnusualAuthorship: function () {
+	    attested = this.personPieceMeta.authorShip.authorStatus == 'attested'
+	    totallyCertain = this.personPieceMeta.authorShip.authorCertainty == 'high'
+	    return !(attested && totallyCertain)
+	}
+    }
 })
 
 Vue.component('biblPieceMeta', {
