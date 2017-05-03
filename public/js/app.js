@@ -466,7 +466,7 @@ If the author is anonymous DO NOT provide certainty.`,
   </div>
   <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
   <div class="authorShipLegend">{{this.authorShipLegend}}</div>
-  <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
+	<drawer v-if="this.getPersonId()" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"></drawer>
 </div>
 	`,
     methods: {
@@ -606,11 +606,22 @@ Vue.component('drawer', {
 	    </div>
     	    <div class="drawerText">More from this author</div>
 	  </div>
-	  <personBibl v-if="showBibls && isBibls()" v-for="bibl in this.$root.xhrDataStore.personography.personIndex[authorId].personListBibl" :bibl="bibl"></personBibl>
+	  <personBibl v-if="showBibls && isBibls()" v-for="bibl in getBibls()" :bibl="bibl"></personBibl>
         </div>
 	`,
-    props: ['authorId'],
+    props: ['authorId', 'issueId', 'declsId'],
     methods: {
+	getBibls: function () {
+	    currentDecls = 'bibl-' + this.issueId + '-' + this.declsId
+	    bibls = []
+	    allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl
+	    for(k in allBibls){
+		if(k != currentDecls){
+		    bibls.push(allBibls[k])
+		}
+	    }
+	    return bibls
+	},
 	authorIsAnonymous: function () {
 	    return this.authorId == 'anon'
 	},
