@@ -583,7 +583,9 @@ a.downloadLink {
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-left: 20px;
+  padding: 0px 10px 0px 10px;
+  color: white;
+  background: #fe7251;
 }
 
 .drawerText {
