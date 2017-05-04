@@ -73,6 +73,7 @@ body {
   position: relative;
   z-index: 3;
   background: white;
+    border-bottom: 1px solid #e9e9e9;  
 }
 
 .header a {
@@ -191,7 +192,6 @@ input:focus {
 .interIssueNav {
   @include flexbox;
   align-content: flex-start;
-  margin: 1px 0px 0px 0px;
   background: white;
   padding: 20px;
   font-weight: 700;
@@ -256,7 +256,6 @@ input:focus {
 
 .issueBody {
   background: white;
-  margin-top: 1;
   margin-left: 1px;
   flex-grow: 2;
   width: 70%;
@@ -384,6 +383,11 @@ button.searchSubmit {
 .personography {
   padding-left: 40px;
   position: relative;
+
+.personViaf {
+  display: none;
+}
+
   .authorCertainty {
     background: #fe7251;
     float: left;
@@ -419,6 +423,12 @@ button.searchSubmit {
   .pieceMeta {
     margin-left: 0px;
   }
+
+  .personMeta {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 }
 
 .personography::before {
@@ -439,32 +449,33 @@ button.searchSubmit {
 .personIndex {
   @include flexbox;
   flex-wrap: wrap;
-  padding-top: 140px;
+  padding-top: 0px;
+  overflow-y: scroll;
+  height: calc(100vh - 170px);
 }
 
 .personFilter {
-  z-index: 2;
-  position: fixed;
-  width: 100%;
-  padding-top: 50px;
-  background: white;
-  top: 0px;
+    width: 100%;
+    background: white;
+    top: 0px;
 }
 
 .personFilter input {
-  width: 100%;
-  font-size: 2em;
-  height: 140px;
-  padding: 40px;
-  border: none;
+    width: 90%;
+    font-size: 2em;
+    padding: 10px;
+    border: 5px solid #e9e9e9;
+    border-radius: 70px;
+    margin: 30px;
 }
 
 .personIndex .person {
   background: $primary-accent-color;
   margin: 0px 1px 1px 0px;
-  padding: 20px;
+  padding: 10px;
   flex-grow: 1;
   cursor: pointer;
+  width: 100%;  
 }
 
 .Contributing .personName {
@@ -474,6 +485,7 @@ button.searchSubmit {
 .personName {
   font-size: 1.5em;
   font-weight: 700;
+  flex-grow: 2;
 }
 
 .Contributing .personRole {
@@ -505,6 +517,7 @@ button.searchSubmit {
   border-top: 1px dashed #fe7251;
   flex-wrap: wrap;
   flex-direction: column;
+    position: relative;  
 }
 
 .pieceMeta {
@@ -676,6 +689,12 @@ span.searchHit {
   position: relative;  
   min-height: 100px;  
 
+.issueDate {
+    position: absolute;
+    top: 6px;
+    right: 140px;
+}
+
 .personMeta{
   float: left;
   @include flexbox;
@@ -712,6 +731,7 @@ span.searchHit {
     position: relative;
     top: 5px;
     margin-left: 10px;
+
 }
 
     .authorRole, .authorStatus, .authorCertainty, .personViaf a {
@@ -1086,7 +1106,7 @@ canvas#pdf {
   @include flexbox;
   flex-direction: column;
   background: white;
-  margin-top: 1px;
+  border-right: 1px solid $light-border-color;
 }
 
 .aboutToggle > div {
@@ -1101,7 +1121,6 @@ canvas#pdf {
 
 .aboutViewer {
   background: white;
-  margin: 1px;
   padding: 20px;
 }
 
