@@ -846,6 +846,7 @@ span.searchHit {
 
 .drawer {
   margin: 20px;
+  margin-bottom: 0px;
 }
 .drawer .issueMeta {
   position: absolute;
@@ -1025,6 +1026,7 @@ div#pdf-viewer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 button.next-page,
@@ -1168,7 +1170,7 @@ canvas#pdf {
 }
 
 .fade-enter {
-  transform: translateY(-20px);
+  transform: translateY(20px);
 }
 
 .fade-leave-to {

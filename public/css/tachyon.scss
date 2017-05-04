@@ -834,7 +834,7 @@ background: #474747;
 .drawer {
 
     margin: 20px;
-
+    margin-bottom: 0px;
 
     .issueMeta{
     position: absolute;
@@ -1029,6 +1029,7 @@ div#pdf-viewer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+    margin-top: 20px;  
 }
 
 button.next-page,
