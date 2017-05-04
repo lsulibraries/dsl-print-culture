@@ -383,6 +383,11 @@ button.searchSubmit {
 .personography {
   padding-left: 40px;
   position: relative;
+
+.personViaf {
+  display: none;
+}
+
   .authorCertainty {
     background: #fe7251;
     float: left;
@@ -418,6 +423,12 @@ button.searchSubmit {
   .pieceMeta {
     margin-left: 0px;
   }
+
+  .personMeta {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 }
 
 .personography::before {
@@ -438,14 +449,13 @@ button.searchSubmit {
 .personIndex {
   @include flexbox;
   flex-wrap: wrap;
-  padding-top: 120px;
+  padding-top: 0px;
+  overflow-y: scroll;
+  height: calc(100vh - 170px);
 }
 
 .personFilter {
-    z-index: 2;
-    position: fixed;
     width: 100%;
-    padding-top: 50px;
     background: white;
     top: 0px;
 }
@@ -462,9 +472,10 @@ button.searchSubmit {
 .personIndex .person {
   background: $primary-accent-color;
   margin: 0px 1px 1px 0px;
-  padding: 20px;
+  padding: 10px;
   flex-grow: 1;
   cursor: pointer;
+  width: 100%;  
 }
 
 .Contributing .personName {
@@ -474,6 +485,7 @@ button.searchSubmit {
 .personName {
   font-size: 1.5em;
   font-weight: 700;
+  flex-grow: 2;
 }
 
 .Contributing .personRole {
@@ -505,6 +517,7 @@ button.searchSubmit {
   border-top: 1px dashed #fe7251;
   flex-wrap: wrap;
   flex-direction: column;
+    position: relative;  
 }
 
 .pieceMeta {
@@ -718,6 +731,7 @@ span.searchHit {
     position: relative;
     top: 5px;
     margin-left: 10px;
+
 }
 
     .authorRole, .authorStatus, .authorCertainty, .personViaf a {

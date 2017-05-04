@@ -392,6 +392,9 @@ button.searchSubmit {
   padding-left: 40px;
   position: relative;
 }
+.personography .personViaf {
+  display: none;
+}
 .personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole, .personography .authorRole {
   background: #fe7251;
   float: left;
@@ -418,6 +421,11 @@ button.searchSubmit {
 .personography .pieceMeta {
   margin-left: 0px;
 }
+.personography .personMeta {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 
 .personography::before {
   background: black;
@@ -441,14 +449,13 @@ button.searchSubmit {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 120px;
+  padding-top: 0px;
+  overflow-y: scroll;
+  height: calc(100vh - 170px);
 }
 
 .personFilter {
-  z-index: 2;
-  position: fixed;
   width: 100%;
-  padding-top: 50px;
   background: white;
   top: 0px;
 }
@@ -465,9 +472,10 @@ button.searchSubmit {
 .personIndex .person {
   background: #fe7251;
   margin: 0px 1px 1px 0px;
-  padding: 20px;
+  padding: 10px;
   flex-grow: 1;
   cursor: pointer;
+  width: 100%;
 }
 
 .Contributing .personName {
@@ -477,6 +485,7 @@ button.searchSubmit {
 .personName {
   font-size: 1.5em;
   font-weight: 700;
+  flex-grow: 2;
 }
 
 .Contributing .personRole {
@@ -489,7 +498,7 @@ button.searchSubmit {
   text-transform: uppercase;
 }
 
-.Mentioned .personRole {
+.Mentioned .personRole, .Correspondent .personRole {
   background: #474747;
   color: #fe7251;
   padding: 5px;
@@ -512,6 +521,7 @@ button.searchSubmit {
   border-top: 1px dashed #fe7251;
   flex-wrap: wrap;
   flex-direction: column;
+  position: relative;
 }
 
 .pieceMeta {
