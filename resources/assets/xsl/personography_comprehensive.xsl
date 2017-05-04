@@ -18,12 +18,12 @@
 
     <!-- <xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/> -->
     <xsl:variable name="teiIssues" select="collection('test_issues')"/>
-    
+
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
-            
+
             <xsl:variable name="personId" select="@xml:id"/>
-            <xsl:variable name="totalcontribs">                        
+            <xsl:variable name="totalcontribs">
                 <xsl:for-each-group select="$teiIssues//listBibl//author" group-by="@ref">
                     <xsl:if test="substring-after(@ref, '#') eq $personId">
                         <xsl:value-of select="count(current-group())"/>
@@ -31,13 +31,14 @@
                 </xsl:for-each-group>
             </xsl:variable>
             <xsl:variable name="totalmentions">
-                <xsl:for-each-group select="$teiIssues//body//persName[@ref][not(parent::byline)]" group-by="@ref">
+                <xsl:for-each-group select="$teiIssues//body//persName[@ref][not(parent::byline)]"
+                    group-by="@ref">
                     <xsl:if test="substring-after(@ref, '#') eq $personId">
                         <xsl:value-of select="count(current-group())"/>
                     </xsl:if>
                 </xsl:for-each-group>
             </xsl:variable>
-    
+
             <xsl:element name="{$personId}">
                 <personMeta>
                     <personId>
@@ -70,7 +71,7 @@
                     </xsl:for-each>
                     <xsl:if test="@role">
                         <personRole>
-                            <xsl:value-of select="replace(@role,'Author','')"/>
+                            <xsl:value-of select="replace(@role, 'Author', '')"/>
                         </personRole>
                     </xsl:if>
                     <xsl:if test="persName/@ref">
@@ -137,7 +138,6 @@
                     </xsl:if>
                 </personMeta>
 
-
                 <xsl:if test="string-length($totalmentions) or string-length($totalcontribs) != 0">
                     <personListBibl>
                         <!-- gets bibls for Contributors -->
@@ -146,9 +146,11 @@
                                 <xsl:call-template name="biblMeta"/>
                             </xsl:if>
                         </xsl:for-each>
-                        
+
                         <!-- Gets bibls for Mentions -->
-                        <xsl:for-each-group select="$teiIssues//body//persName[@ref][not(parent::byline)]" group-by="@ref">
+                        <xsl:for-each-group
+                            select="$teiIssues//body//persName[@ref][not(parent::byline)]"
+                            group-by="@ref">
                             <xsl:if test="substring-after(@ref, '#') eq $personId">
                                 <xsl:call-template name="biblMeta"/>
                             </xsl:if>
@@ -159,10 +161,8 @@
         </xsl:for-each>
     </xsl:template>
 
-
     <xsl:template name="biblMeta">
 
-        
         <xsl:variable name="biblId">
             <xsl:if test="self::author">
                 <xsl:value-of select="parent::bibl/@xml:id"/>
@@ -173,19 +173,10 @@
         </xsl:variable>
         <xsl:variable name="issueId" select="ancestor::TEI//fileDesc/publicationStmt/idno"/>
         <xsl:variable name="listBiblId" select="string-join(('bibl', $issueId, $biblId), '-')"/>
+        <xsl:variable name="textId" select="concat('#', $biblId)"/>
 
         <xsl:variable name="issueMeta" select="ancestor::TEI//fileDesc/sourceDesc/bibl"/>
         <xsl:variable name="biblMeta" select="ancestor::TEI//listBibl//bibl[@xml:id eq $biblId]"/>
-        
-
-
-
-        <!--
-        <xsl:variable name="ppmId" select="personPieceMetaId"/>
-        <xsl:variable name="sectionMeta" select="$piece/sectionMeta"/>
-        <xsl:variable name="ppm"
-            select="$ppms/personPieceMeta/*[string(node-name(.)) eq $ppmId]"/>
-        -->
 
         <xsl:element name="{$listBiblId}">
             <issueMeta>
@@ -204,6 +195,7 @@
                     </xsl:for-each>
                 </issueDate>
             </issueMeta>
+
             <xsl:if test="contains($biblId, 's')">
                 <sectionMeta>
                     <sectionId>
@@ -222,6 +214,7 @@
                     </xsl:for-each>
                 </sectionMeta>
             </xsl:if>
+
             <xsl:if test="contains($biblId, 'p')">
                 <xsl:if test="$biblMeta[parent::bibl]">
                     <xsl:variable name="parentSectionMeta" select="$biblMeta/parent::bibl"/>
@@ -258,21 +251,69 @@
                         </piecePdfIndex>
                     </xsl:for-each>
                 </pieceMeta>
-                <personPieceMeta>
-                    <personPiecePseudo> </personPiecePseudo>
-                    <personPieceRole> </personPieceRole>
-                    <authorShip> </authorShip>
+            </xsl:if>
+
+            <personPieceMeta>
+                <xsl:if test="self::author">
+                    <personPieceRole>Contributor</personPieceRole>
+                    <xsl:if test="@status = 'supplied' or @status = 'inferred'">
+                        <xsl:if test="//text//div[@decls eq $textId]/byline/persName">
+                            <xsl:variable name="pseudo"
+                                select="//text//div[@decls eq $textId]/byline/persName"/>
+                            <personPiecePseudo>
+                                <xsl:text>Writing as </xsl:text>
+                                <xsl:for-each select="tokenize($pseudo, ' ')">
+                                    <xsl:value-of
+                                        select="
+                                            string-join((
+                                            upper-case(substring(., 1, 1)),
+                                            lower-case((substring(., 2)))),
+                                            '')"/>
+                                    <xsl:if test="position() != last()">
+                                        <xsl:text> </xsl:text>
+                                    </xsl:if>
+                                </xsl:for-each>
+                                <xsl:text>.</xsl:text>
+                            </personPiecePseudo>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="@status != 'attested'">
+                        <authorShip>
+                            <xsl:text>Authorship is </xsl:text>
+                            <xsl:value-of select="@status"/>
+                            <xsl:choose>
+                                <xsl:when test="@cert">
+                                    <xsl:text>, with </xsl:text>
+                                    <xsl:value-of select="@cert"/>
+                                    <xsl:text> certainty.</xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>.</xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="contains($biblMeta/note, 'ref=')">
+                                <xsl:text> (Reference: </xsl:text>
+                                <xsl:value-of
+                                    select="substring-before(substring-after($biblMeta/note, 'ref=&quot;'), '&quot;)')"/>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
+                        </authorShip>
+                    </xsl:if>
+                </xsl:if>
+                <xsl:if test="self::persName">
+                    <personPieceRole>Mentioned</personPieceRole>
                     <xsl:if test="count(current-group()) > 1">
                         <personPieceTotalMention>
                             <xsl:value-of select="count(current-group())"/>
                         </personPieceTotalMention>
                     </xsl:if>
-                </personPieceMeta>
-            </xsl:if>
+                </xsl:if>
+            </personPieceMeta>
+
         </xsl:element>
     </xsl:template>
-    
-    
+
+
     <xsl:template name="dateNatural">
         <xsl:choose>
             <xsl:when test="starts-with(., '-')">
@@ -290,7 +331,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
+
     <xsl:template name="getPage">
         <xsl:if test="@from">
             <xsl:value-of select="@from"/>
@@ -301,7 +342,7 @@
             <xsl:value-of select="@n"/>
         </xsl:if>
     </xsl:template>
-    
+
     <xsl:template name="getPdfIndex">
         <xsl:variable name="page1">
             <xsl:if test="ancestor::TEI//bibl[@xml:id = 'p1']/biblScope/@from">
@@ -318,5 +359,5 @@
             <xsl:value-of select="xs:integer(@n) - $page1"/>
         </xsl:if>
     </xsl:template>
-    
+
 </xsl:stylesheet>
