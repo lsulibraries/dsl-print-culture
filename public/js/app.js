@@ -179,7 +179,7 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a  v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a></div>
+          <div class="personViaf"><a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a></div>
         </div>
 	`,
     props: ['personMeta']
@@ -187,7 +187,7 @@ Vue.component('personMeta', {
 
 Vue.component('person', {
     template: `
-      <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="person.personMeta.personRole">
+      <div  class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
 	<personMeta :personMeta="person.personMeta"></personMeta>
 	<div class="personListBibl">
           <personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
@@ -198,7 +198,8 @@ Vue.component('person', {
     data() {
 	return {
 	    showBibls: false,
-	    filterString: ''
+	    filterString: '',
+            activePerson: false
 	}
     },
     methods: {
@@ -209,18 +210,18 @@ Vue.component('person', {
 	    return bibl
 	},
 	toggleBibls: function () {
-	    this.showBibls = !this.showBibls
-	},
+	    this.showBibls = !this.showBibls;
+            this.activePerson = !this.activePerson;
+            },
 	passesFilter: function () {
 	    if(this.filterString.length < 1){
 		return true
 	    }
-
 	    if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
 		return true
 	    }
 	    return false
-	},
+	}
     },
     created() {
 	Event.$on('filterStringUpdated', (filterString) => {
