@@ -40,14 +40,14 @@ Vue.component('vue-header',{
 	    <div class="contrastTitle">High Contrast</div>
 	    <div class="contrastSwitch">
 	      <div class="contrastOff">Off</div>
-	      <div class="contrastOn">On</div>				
-	    </div>				
+	      <div class="contrastOn">On</div>
+	    </div>
 	  </div>
 	  <headerNav></headerNav>
 	<div class="searchInput">
 	<label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
 	  	<button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
-	        <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
+	        <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" @focus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
 	  </div>
         </div>
 	`,
@@ -158,7 +158,6 @@ Vue.component('personIndex', {
     created(){
 	this.index = this.$root.xhrDataStore.personography.personIndex
     }
-    
 })
 
 Vue.component('personFilter', {
@@ -240,7 +239,6 @@ Vue.component('biblIssueMeta', {
 	  <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>
 	  <div class="issueNum">No. {{issueMeta.issueNum}}</div>
 	</div>
-	
     `,
     props: ['issueMeta']
 })
@@ -319,7 +317,6 @@ Vue.component('searchResults',{
       	  </div>
           <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
         </div>
-	
     `,
     data(){
 	return {
@@ -489,7 +486,6 @@ If the author is anonymous DO NOT provide certainty.`,
             return true
 	},
 	getSectionMeta: function () {
-	    
 	},
 	getIssueHeaderData: function () {
 	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
@@ -500,7 +496,6 @@ If the author is anonymous DO NOT provide certainty.`,
 		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)[0]
 	    }
 	    return false
-	    
 	},
 	getPersonMeta: function (){
 	    pid = this.getPersonId()
@@ -574,7 +569,6 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    if(this.biblIsSection(biblId)){
 		return bibl.sectionMeta.sectionTitle
-		
 	    }else if(this.biblBelongsToSection(biblId)){
 		return this.bibl_data[bibl.sectionId].sectionMeta.sectionTitle
 	    }else{
@@ -770,12 +764,11 @@ Vue.component('viewerSelector',{
             <div class="viewerTitle">Toggle View</div>
             <div class="viewerSwitch">
               <div class="viewerText">
-                <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>            
+                <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
               	<div class="viewerTextLabel">Text</div>
-          	  </div>
+              </div>
               <div class="viewerPdf">
-                <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-</div>            
+                <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
                 <div class="viewerPdfLabel">PDF</div>
               </div>
             </div>
@@ -808,9 +801,8 @@ Vue.component('viewerSelectorButton',{
 	props: ['kind'],
 	methods: {
 	    viewerSelected: (viewer) => {
-		Event.$emit('viewerSelected', viewer);  	
-	    }
-	    
+		Event.$emit('viewerSelected', viewer);
+           }
 	},
     template: `<span v-bind:class="[{toggled: active}, kind]"  @click="viewerSelected(kind)"><slot></slot></span>`
 })
@@ -826,7 +818,6 @@ Vue.component('intraIssueNav',{
     created() {
 	this.issueID = this.$root.state.content.issue.id
 	this.setTocContent()
-	
 	Event.$on('issueSelected', (id) => {
 	    this.issueID = id;
 	    this.setTocContent()
@@ -859,7 +850,7 @@ Vue.component('intraIssueNav',{
 
 Vue.component('toc-item',{
 	 data(){
-	 	return { toggled:false} 
+	 	return { toggled:false}
 	 },
 	 props:['id'],
 	 methods:{
@@ -1054,7 +1045,6 @@ Vue.component('pdf-viewer',{
 	    pdf.getPage(pageNumber).then(function(page) {
 		//console.log('Page loaded');
 		//scale = 1.3
-		
 		var viewport = page.getViewport(scale);
 
 		// Prepare canvas using PDF page dimensions
@@ -1171,7 +1161,7 @@ Vue.component('issue-month',{
 	props: {month: '',	list: ''},
 	created(){
 		Event.$on('issueSelected',(id) =>{
-			for(each in this.$children){	
+			for(each in this.$children){
 				if(this.$children[each].id==id){
 	    			this.$children[each].toggled=true;
 	    		}else{this.$children[each].toggled=false;}
@@ -1294,7 +1284,7 @@ Vue.component('author-modal',{
 	props:['authInfo','authID'],
 	template: `
 
-		<transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">  
+		<transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">
 
 			<div class="modalContent">
 			<div   v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
@@ -1479,4 +1469,3 @@ new Vue({
 	});
     },
 });
-
