@@ -580,9 +580,14 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    return false
 	},
+        lookupMonth: function(monthInt){
+            monthConvert = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'}
+            return monthConvert[monthInt]
+        },
         formatDate: function() {
+
             d = Util.datePartsForIssueId(this.$root.state.content.issue.id)
-            date = d.month + '-' + d.day + '-' + d.year;
+            date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
             return date
         }
     },
