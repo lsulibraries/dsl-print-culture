@@ -73,6 +73,7 @@ body {
   position: relative;
   z-index: 3;
   background: white;
+    border-bottom: 1px solid #e9e9e9;  
 }
 
 .header a {
@@ -191,7 +192,6 @@ input:focus {
 .interIssueNav {
   @include flexbox;
   align-content: flex-start;
-  margin: 1px 0px 0px 0px;
   background: white;
   padding: 20px;
   font-weight: 700;
@@ -256,7 +256,6 @@ input:focus {
 
 .issueBody {
   background: white;
-  margin-top: 1;
   margin-left: 1px;
   flex-grow: 2;
   width: 70%;
@@ -677,6 +676,12 @@ span.searchHit {
   position: relative;  
   min-height: 100px;  
 
+.issueDate {
+    position: absolute;
+    top: 6px;
+    right: 140px;
+}
+
 .personMeta{
   float: left;
   @include flexbox;
@@ -1087,7 +1092,7 @@ canvas#pdf {
   @include flexbox;
   flex-direction: column;
   background: white;
-  margin-top: 1px;
+  border-right: 1px solid $light-border-color;
 }
 
 .aboutToggle > div {
@@ -1102,7 +1107,6 @@ canvas#pdf {
 
 .aboutViewer {
   background: white;
-  margin: 1px;
   padding: 20px;
 }
 
