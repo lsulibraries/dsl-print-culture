@@ -1334,7 +1334,6 @@ new Vue({
 	el:'#vue-root',
     mounted(){
         //this.today = parseInt(this.state.content.issue.id) - parseInt(18450209)
-
     },
     methods: {
 	empty: function (o) {
@@ -1375,7 +1374,7 @@ new Vue({
 	    content: {
 		abouts: 'about', // technical | credits
 		issue: {
-		    id: '18450201',//'18450104', // yyyy-mm-dd
+		    id: '',//'18450104', // yyyy-mm-dd
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: 'p1'
@@ -1446,7 +1445,6 @@ new Vue({
 		    this.years.push(iid.year)
 		}
 	    }
-	});
         let d = new Date();
         let today = {};
         today.year = d.getFullYear();
@@ -1475,10 +1473,11 @@ new Vue({
         }
         olJournalIds = olJournalIds.sort();
         for( i in olJournalIds){
-            if(olJournalsIds[i] == todayIssue){
-           this.state.content.issue.id = todayIssue;
+            if(olJournalIds[i].slice(4,6) == this.todayIssue.slice(4,6) && Math.abs(parseInt(olJournalIds[i].slice(-2)) - parseInt(this.todayIssue.slice(-2))) <= 4){
+           this.state.content.issue.id = olJournalIds[i];
             }
-            else{}
         }
+
+	});
     },
 });
