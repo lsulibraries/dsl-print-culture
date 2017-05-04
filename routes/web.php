@@ -36,30 +36,6 @@ Route::get('/api/broadwayjournal/{id}/issue-text', 'IssuesController@issueText')
 
 Route::get('/api/broadwayjournal/{id}/piece-text/{pid}', 'IssuesController@pieceText');
 
-Route::get('/broadwayjournal/', function () {
- 	return "<html><head/><body><script type='text/javascript'>
-	       
-	       var xhttp =  new XMLHttpRequest();
-	       var data = [];
-	       xhttp.onreadystatechange = function() {
-    	         if (this.readyState == 4 && this.status == 200) {
-		     data = JSON.parse(this.responseText);
-
-	             for(i = 0; i < data.length; i++){
-	               var row = data[i];
-		       for(var key in row){
-		          console.log(row[key]);
-                     }
-	       	   }
-    		 }
-  	       };
-	       xhttp.open('GET', '/broadwayjournal/issues', true);
-	       xhttp.send();  
-	       
-
-</script></body></html>";
-});
-
 Route::get('/api/all-issues/json', 'IssuesController@all_json');
 
 Route::get('/api/all-issues-grouped/json', 'IssuesController@all_grouped_json');

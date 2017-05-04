@@ -40,14 +40,14 @@ Vue.component('vue-header',{
 	    <div class="contrastTitle">High Contrast</div>
 	    <div class="contrastSwitch">
 	      <div class="contrastOff">Off</div>
-	      <div class="contrastOn">On</div>				
-	    </div>				
+	      <div class="contrastOn">On</div>
+	    </div>
 	  </div>
 	  <headerNav></headerNav>
-	<div class="searchInput">
-	<label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
-	  	<button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
-	        <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" onfocus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search"></input>
+          <div class="searchInput">
+	    <label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
+            <button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" @focus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search">
 	  </div>
         </div>
 	`,
@@ -96,12 +96,9 @@ Vue.component('headerNav',{
     },
     template: `
 	<div class='headerNav'>
-
-	<div v-bind:class="{active: this.content == 'issues'}" @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
-	  <div v-bind:class="{active: this.content == 'abouts'}" @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>
- About</div>
-	  <div v-bind:class="{active: this.content == 'personography'}" @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>
-People</div>
+	  <div v-bind:class="{active: this.content == 'issues'}" @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
+	<div v-bind:class="{active: this.content == 'personography'}" @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>Authors</div>
+        <div v-bind:class="{active: this.content == 'abouts'}" @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>About</div>
 	</div>
 	`
 });
@@ -113,17 +110,16 @@ Vue.component('headerTitle',{
 })
 
 Vue.component('vue-footer',{
-    template: `<div class='footer'>
-    </div>`
+    template: `<div class='footer'></div>`
 })
 
 Vue.component('vue-content',{
     template: `
         <div class="content">
-      <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
-      <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
-      <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
-      <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
+          <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
+          <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
+          <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
+          <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
         </div>
     `,
 })
@@ -158,13 +154,12 @@ Vue.component('personIndex', {
     created(){
 	this.index = this.$root.xhrDataStore.personography.personIndex
     }
-    
 })
 
 Vue.component('personFilter', {
     template: `
 	<div class='personFilter'>
-	<label for="personFilter" v-if="this.$root.state.contrast == 'high'">Filter people</label>
+	  <label for="personFilter" v-if="this.$root.state.contrast == 'high'">Filter people</label>
 	  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
         </div>
 	`,
@@ -184,7 +179,7 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a  v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a></div>
+          <div class="personViaf"><a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a></div>
         </div>
 	`,
     props: ['personMeta']
@@ -192,10 +187,10 @@ Vue.component('personMeta', {
 
 Vue.component('person', {
     template: `
-      <div class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="person.personMeta.personRole">
+      <div  class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
 	<personMeta :personMeta="person.personMeta"></personMeta>
 	<div class="personListBibl">
-	<personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
+          <personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
 	</div>
       </div>
 	`,
@@ -203,7 +198,8 @@ Vue.component('person', {
     data() {
 	return {
 	    showBibls: false,
-	    filterString: ''
+	    filterString: '',
+            activePerson: false
 	}
     },
     methods: {
@@ -214,18 +210,18 @@ Vue.component('person', {
 	    return bibl
 	},
 	toggleBibls: function () {
-	    this.showBibls = !this.showBibls
-	},
+	    this.showBibls = !this.showBibls;
+            this.activePerson = !this.activePerson;
+            },
 	passesFilter: function () {
 	    if(this.filterString.length < 1){
 		return true
 	    }
-
 	    if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
 		return true
 	    }
 	    return false
-	},
+	}
     },
     created() {
 	Event.$on('filterStringUpdated', (filterString) => {
@@ -240,7 +236,6 @@ Vue.component('biblIssueMeta', {
 	  <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>
 	  <div class="issueNum">No. {{issueMeta.issueNum}}</div>
 	</div>
-	
     `,
     props: ['issueMeta']
 })
@@ -248,7 +243,7 @@ Vue.component('biblIssueMeta', {
 Vue.component('biblSectionMeta', {
     template: `
 	<div class="sectionMeta">
-	<div class="sectionTitle">{{sectionMeta.sectionTitle}}</div>
+	  <div class="sectionTitle">{{sectionMeta.sectionTitle}}</div>
         </div>
     `,
     props: ['sectionMeta']
@@ -259,12 +254,19 @@ Vue.component('biblPersonPieceMeta',{
         <div class="personPieceMeta">
           <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
 	  <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">
-            <div class="authorStatus">{{personPieceMeta.authorShip.authorStatus}}</div>
-            <div class="authorCertainty">{{personPieceMeta.authorShip.authorCertainty}}</div>
+            <div class="authorStatus" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorStatus}}</div>
+            <div class="authorCertainty" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorCertainty}}</div>
 	  </div>
         </div>
 	`,
-    props: ['personPieceMeta']
+    props: ['personPieceMeta'],
+    methods: {
+	hasUnusualAuthorship: function () {
+	    attested = this.personPieceMeta.authorShip.authorStatus == 'attested'
+	    totallyCertain = this.personPieceMeta.authorShip.authorCertainty == 'high'
+	    return !(attested && totallyCertain)
+	}
+    }
 })
 
 Vue.component('biblPieceMeta', {
@@ -312,7 +314,6 @@ Vue.component('searchResults',{
       	  </div>
           <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>
         </div>
-	
     `,
     data(){
 	return {
@@ -362,8 +363,7 @@ Vue.component('searchResult',{
     template: `
 	<div class="searchResult" @click="resultClicked">
 	  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>
-            <div class="context">{{this.result.contextBefore}}<span class="searchHit">{{this.result.hit}}</span>{{this.result.contextAfter}}
-	  </div>
+            <div class="context">{{this.result.contextBefore}}<span class="searchHit">{{this.result.hit}}</span>{{this.result.contextAfter}}</div>
 	</div>
     `
 })
@@ -389,14 +389,14 @@ Vue.component('issueViewer',{
 
 Vue.component('issue',{
     template: `
-    <div class="issue">
-	<interIssueNav></interIssueNav>
-	<div class="issueBody">
-	  <viewerSelector></viewerSelector>
-	  <issueHeader></issueHeader>
-	  <issueViewer></issueViewer>
-	</div>
-    </div>
+        <div class="issue">
+          <interIssueNav></interIssueNav>
+	  <div class="issueBody">
+	    <viewerSelector></viewerSelector>
+	    <issueHeader></issueHeader>
+	    <issueViewer></issueViewer>
+	  </div>
+        </div>
 	`,
 })
 
@@ -442,25 +442,25 @@ If the author is anonymous DO NOT provide certainty.`,
 	this.getIssueHeaderData()
     },
     template: `
-<div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
-  <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
-  <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
-  <div class="bibl" v-if="haveData()">
-    <div class="issue">
-      <a class="downloadLink" v-bind:href='stateHref()' download>
-        <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
-        <div class="downloadText">Download {{this.dlLabel()}}</div>
-      </a>
-      <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
-    </div>
-    <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
-    <div class="issueData">
-    </div>
-      <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
-  </div>
-  <div class="authorShipLegend">{{this.authorShipLegend}}</div>
-  <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()"></drawer>
-</div>
+        <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
+          <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
+          <div class='issueDate'>{{this.formatDate()}}</div>
+          <div class="bibl" v-if="haveData()">
+            <div class="issue">
+              <a class="downloadLink" v-bind:href='stateHref()'>
+                <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
+                <div class="downloadText">Download {{this.dlLabel()}}</div>
+              </a>
+              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
+            </div>
+            <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
+            <div class="issueData"></div>
+            <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+            <div class="authorShipLegend">{{this.authorShipLegend}}</div>
+	      <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"></drawer>
+            </div>
+        </div>
 	`,
     methods: {
 	haveData: function() {
@@ -476,11 +476,10 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    if(empty(this.issueHeaderData.issueMeta)){
 		alert('missing issueMeta')
-	    } //
-        return true
+	    }
+            return true
 	},
 	getSectionMeta: function () {
-	    
 	},
 	getIssueHeaderData: function () {
 	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
@@ -491,7 +490,6 @@ If the author is anonymous DO NOT provide certainty.`,
 		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)[0]
 	    }
 	    return false
-	    
 	},
 	getPersonMeta: function (){
 	    pid = this.getPersonId()
@@ -519,7 +517,6 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    bid = 'bibl-' + this.issueHeaderData.issueMeta.issueId + '-' + this.biblId
 	    meta = this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta
-	    console.log(pid)
 	    return meta
 	},
 	drawerIsAvailable: function() {
@@ -565,7 +562,6 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    if(this.biblIsSection(biblId)){
 		return bibl.sectionMeta.sectionTitle
-		
 	    }else if(this.biblBelongsToSection(biblId)){
 		return this.bibl_data[bibl.sectionId].sectionMeta.sectionTitle
 	    }else{
@@ -583,7 +579,12 @@ If the author is anonymous DO NOT provide certainty.`,
 		return true
 	    }
 	    return false
-	}
+	},
+        formatDate: function() {
+            d = Util.datePartsForIssueId(this.$root.state.content.issue.id)
+            date = d.month + '-' + d.day + '-' + d.year;
+            return date
+        }
     },
     mounted() {
 //	Event.$emit('issueSelected', this.$root.state.content.issue.id)
@@ -592,18 +593,36 @@ If the author is anonymous DO NOT provide certainty.`,
 
 Vue.component('drawer', {
     template: `
-	<div class="drawer" v-bind:class="{active: showBibls}">
+	<div class="drawer" v-if="!authorIsAnonymous() && authorWroteSomethingBesidesThis()" v-bind:class="{active: showBibls}">
 	  <div class="drawerActuator" @click="showBibls = !showBibls">
 	    <div class="drawerIcon">
 	      <i class="fa fa-list" aria-hidden="true"></i>
 	    </div>
     	    <div class="drawerText">More from this author</div>
 	  </div>
-	  <personBibl v-if="showBibls && isBibls()" v-for="bibl in this.$root.xhrDataStore.personography.personIndex[authorId].personListBibl" :bibl="bibl"></personBibl>
+	  <personBibl v-if="showBibls && isBibls()" v-for="bibl in getBibls()" :bibl="bibl"></personBibl>
         </div>
 	`,
-    props: ['authorId'],
+    props: ['authorId', 'issueId', 'declsId'],
     methods: {
+	getBibls: function () {
+	    currentDecls = 'bibl-' + this.issueId + '-' + this.declsId
+	    bibls = []
+	    allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl
+	    for(k in allBibls){
+		if(k != currentDecls){
+		    bibls.push(allBibls[k])
+		}
+	    }
+	    return bibls
+	},
+	authorIsAnonymous: function () {
+	    return this.authorId == 'anon'
+	},
+	authorWroteSomethingBesidesThis: function () {
+	    pieces = Object.keys(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl).length
+	    return parseInt(pieces) > 1
+	},
 	isBibls: function (){
 	    return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl)
 	}
@@ -641,23 +660,20 @@ Vue.component('logo', {
 
 Vue.component('abouts',{
     template: `
-
-      <div class="abouts">
-<div class="aboutToggle">
-
-	<div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">Project</div>
-	<div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
-	<div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
-</div>
-    <div class="aboutViewer">
-    <logo v-if="this.abouts == 'about'"></logo>
+       <div class="abouts">
+         <div class="aboutToggle">
+	   <div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">Project</div>
+	   <div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
+	   <div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
+         </div>
+         <div class="aboutViewer">
+           <logo v-if="this.abouts == 'about'"></logo>
 	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
 	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
 	   <div v-if="this.abouts == 'credits'">
-            <creditsPersonList></creditsPersonList>
-        </div>
-    </div>
-    </div>
+           <creditsPersonList></creditsPersonList>
+         </div>
+       </div>
 	`,
     data() {
 	return {
@@ -684,7 +700,6 @@ Vue.component('abouts',{
 	}else{
 	    url = '/api/broadwayjournal/abouts/tech'
 	    axios.get(url).then(response => this.techText = response.data);
-	    console.log('fetching tech now')
 	}
     },
 })
@@ -735,18 +750,17 @@ Vue.component('viewerSelector',{
     },
     template: `
 	<div class='viewerSelector' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">
-            <div class="viewerTitle">Toggle View</div>
-            <div class="viewerSwitch">
-              <div class="viewerText">
-                <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>            
-              	<div class="viewerTextLabel">Text</div>
-          	  </div>
-              <div class="viewerPdf">
-                <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-</div>            
-                <div class="viewerPdfLabel">PDF</div>
-              </div>
+          <div class="viewerTitle">Toggle View</div>
+          <div class="viewerSwitch">
+            <div class="viewerText">
+              <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+              <div class="viewerTextLabel">Text</div>
             </div>
+            <div class="viewerPdf">
+              <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
+              <div class="viewerPdfLabel">PDF</div>
+            </div>
+          </div>
 	</div>
 	`,
     methods: {
@@ -776,9 +790,8 @@ Vue.component('viewerSelectorButton',{
 	props: ['kind'],
 	methods: {
 	    viewerSelected: (viewer) => {
-		Event.$emit('viewerSelected', viewer);  	
-	    }
-	    
+		Event.$emit('viewerSelected', viewer);
+           }
 	},
     template: `<span v-bind:class="[{toggled: active}, kind]"  @click="viewerSelected(kind)"><slot></slot></span>`
 })
@@ -794,7 +807,6 @@ Vue.component('intraIssueNav',{
     created() {
 	this.issueID = this.$root.state.content.issue.id
 	this.setTocContent()
-	
 	Event.$on('issueSelected', (id) => {
 	    this.issueID = id;
 	    this.setTocContent()
@@ -827,7 +839,7 @@ Vue.component('intraIssueNav',{
 
 Vue.component('toc-item',{
 	 data(){
-	 	return { toggled:false} 
+	 	return { toggled:false}
 	 },
 	 props:['id'],
 	 methods:{
@@ -880,16 +892,15 @@ Vue.component('toc-item',{
 		 }
 	     }
 	},
-	 template:`
-		<div class="tocItem" v-bind:class='id.type'>
-	    	<div class='tocToggle' @click='tocItemSelected'>
-            	<div class="tocTitle">{{id.title}}</div>
+        template:`
+            <div class="tocItem" v-bind:class='id.type'>
+	      <div class='tocToggle' @click='tocItemSelected'>
+                <div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
-            	<div v-if='id.start' class="pageNumber"></div>
-	    	</div>
-	    	<child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
-
-        </div>
+                <div v-if='id.start' class="pageNumber"></div>
+	      </div>
+              <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
+            </div>
 	 `
 });
 
@@ -906,18 +917,17 @@ Vue.component('child-piece',{
 		    Event.$emit("issueBiblSelected", this.id)
 		}
 	},
-	template:`
-		<div class="childPiece" @click='tocItemSelected'>
-			<div class="childPieceTitle">{{id.title}}</div>
-            <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
-		<div>
+        template:`
+            <div class="childPiece" @click='tocItemSelected'>
+              <div class="childPieceTitle">{{id.title}}</div>
+              <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
+            <div>
 	`
-
 })
 
 Vue.component('zoom-slider',{
 	data(){
-		return{ 
+		return{
 			zoomLevel: 1.3
 		}
 	},
@@ -967,11 +977,10 @@ Vue.component('pdf-viewer',{
     template: `
       <div id="pdf-viewer" class="pdf-viewer">
 	<button class="next-page" @click="changePage('prev')">Prev Page</button>
-	<zoom-slider></zoom-slider>
 	<button class="next-page" @click="changePage('next')">Next Page</button>
 	<canvas id="pdf" class="pdf-canvas"></canvas>
       </div>
-	`,
+	`,	//<zoom-slider></zoom-slider>
     methods: {
     // reload: function(scale = this.scale){
     // 	page.getViewport(scale);
@@ -998,8 +1007,6 @@ Vue.component('pdf-viewer',{
 		return;
 	    }
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
-	//console.log('$pdf');
-
 	// var pdfData = atob($pdf);
 
 	// Disable workers to avoid yet another cross-origin issue (workers need
@@ -1013,16 +1020,13 @@ Vue.component('pdf-viewer',{
 	// Asynchronous download of PDF
 	var loadingTask = PDFJS.getDocument(url);
 	loadingTask.promise.then(function(pdf) {
-	    //console.log('PDF loaded');
 	    if(page > pdf.pdfInfo.numPages){
 		return;
 	    }
 	    // Fetch the first page
 	    var pageNumber = parseInt(page);
 	    pdf.getPage(pageNumber).then(function(page) {
-		//console.log('Page loaded');
 		//scale = 1.3
-		
 		var viewport = page.getViewport(scale);
 
 		// Prepare canvas using PDF page dimensions
@@ -1039,7 +1043,6 @@ Vue.component('pdf-viewer',{
 		};
 		var renderTask = page.render(renderContext);
 		renderTask.then(function () {
-		    //console.log('Page rendered');
 		});
 	    });
 	}, function (reason) {
@@ -1139,7 +1142,7 @@ Vue.component('issue-month',{
 	props: {month: '',	list: ''},
 	created(){
 		Event.$on('issueSelected',(id) =>{
-			for(each in this.$children){	
+			for(each in this.$children){
 				if(this.$children[each].id==id){
 	    			this.$children[each].toggled=true;
 	    		}else{this.$children[each].toggled=false;}
@@ -1173,13 +1176,15 @@ Vue.component('issue-month',{
 			}
 		}
 	},
-	template: `<div v-bind:class="{activeMonth: toggled}">
-					<div @click="showChildren()">
-						<div class="singleText" >{{this.month}}</div>
-						<div class="indicatorIndex"></div>
-					</div>
-					<index-child :id="each" v-for="each in this.list"></index-child>
-				</div>`
+        template: `
+            <div v-bind:class="{activeMonth: toggled}">
+              <div @click="showChildren()">
+                <div class="singleText" >{{this.month}}</div>
+                <div class="indicatorIndex"></div>
+              </div>
+              <index-child :id="each" v-for="each in this.list"></index-child>
+            </div>
+        `
 });
 
 Vue.component('index-child',{
@@ -1222,28 +1227,29 @@ Vue.component('interIssueNav',{
 	    return ret
 	}
     },
-	template: `
-		<div v-if="hasData" class="interIssueNav">
-			<div class="issueMask"></div>
-				<div class="issueIndex">
-					<div class="singleIndex">
-						<div class="yearText">1845</div>
-						<div class="indicatorYear"></div>
-					</div>
-	<issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" :month="month"></issue-month>
-				</div>
-				<div class="issueIndex">
-					<div class="singleIndex">
-						<div class="yearText">1846</div>
-						<div class="indicatorYear"></div>
-	</div>
-	<issue-month :month='this.months[0]' :list='lookup("JAN","1846")' class="singleIndex"></issue-month>
-			</div>
-	<intraIssueNav></intraIssueNav>	
-    </div>
-		`
+        template: `
+            <div v-if="hasData" class="interIssueNav">
+              <div class="issueMask"></div>
+              <div class="issueIndex">
+                <div class="singleIndex">
+                  <div class="yearText">1845</div>
+                  <div class="indicatorYear"></div>
+                </div>
+                <issue-month v-for="month in this.months" :list='lookup(month,"1845")' class="singleIndex" :month="month"></issue-month>
+              </div>
+              <div class="issueIndex">
+                <div class="singleIndex">
+                  <div class="yearText">1846</div>
+                  <div class="indicatorYear"></div>
+                </div>
+                <issue-month :month='this.months[0]' :list='lookup("JAN","1846")' class="singleIndex"></issue-month>
+              </div>
+              <intraIssueNav></intraIssueNav>
+            </div>
+        `
 });
 
+//Author-Modal Is UNUSED
 Vue.component('author-modal',{
 		computed: {mentions: function(){'10'
 		return Math.floor(Math.random(1,100)*10);
@@ -1260,21 +1266,16 @@ Vue.component('author-modal',{
 		}
 	},
 	props:['authInfo','authID'],
-	template: `
-
-		<transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">  
-
-			<div class="modalContent">
-			<div   v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
-			<div v-if='this.$parent.chosen.length  && this.authInfo.totalMentions'  class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>
-			<div v-if='this.$parent.chosen.length  && this.authInfo.totalContribs' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>
-						<div @click='closeModal()' class="closeModal">Close</button>
-
-			</div>
-		</div>
-					</transition>
-
-			`
+        template: `
+            <transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">
+              <div class="modalContent">
+                <div v-for="(val, key) in authInfo" v-bind:class='key'>{{val}}</div>
+                <div v-if='this.$parent.chosen.length  && this.authInfo.totalMentions'  class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>
+                <div v-if='this.$parent.chosen.length  && this.authInfo.totalContribs' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>
+                <div @click='closeModal()' class="closeModal">Close</button>
+              </div>
+            </div></transition>
+        `
 })
 
 Vue.component('author-node',{
@@ -1447,4 +1448,3 @@ new Vue({
 	});
     },
 });
-
