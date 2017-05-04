@@ -517,7 +517,6 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	    bid = 'bibl-' + this.issueHeaderData.issueMeta.issueId + '-' + this.biblId
 	    meta = this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta
-	    console.log(pid)
 	    return meta
 	},
 	drawerIsAvailable: function() {
@@ -701,7 +700,6 @@ Vue.component('abouts',{
 	}else{
 	    url = '/api/broadwayjournal/abouts/tech'
 	    axios.get(url).then(response => this.techText = response.data);
-	    console.log('fetching tech now')
 	}
     },
 })
@@ -1009,8 +1007,6 @@ Vue.component('pdf-viewer',{
 		return;
 	    }
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
-	//console.log('$pdf');
-
 	// var pdfData = atob($pdf);
 
 	// Disable workers to avoid yet another cross-origin issue (workers need
@@ -1024,14 +1020,12 @@ Vue.component('pdf-viewer',{
 	// Asynchronous download of PDF
 	var loadingTask = PDFJS.getDocument(url);
 	loadingTask.promise.then(function(pdf) {
-	    //console.log('PDF loaded');
 	    if(page > pdf.pdfInfo.numPages){
 		return;
 	    }
 	    // Fetch the first page
 	    var pageNumber = parseInt(page);
 	    pdf.getPage(pageNumber).then(function(page) {
-		//console.log('Page loaded');
 		//scale = 1.3
 		var viewport = page.getViewport(scale);
 
@@ -1049,7 +1043,6 @@ Vue.component('pdf-viewer',{
 		};
 		var renderTask = page.render(renderContext);
 		renderTask.then(function () {
-		    //console.log('Page rendered');
 		});
 	    });
 	}, function (reason) {
