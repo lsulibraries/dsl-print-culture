@@ -782,13 +782,7 @@ span.searchHit {
 }
 .issueHeader .bibl .sectionMeta {
   font-weight: 700;
-  margin-top: 2px;
-  margin-right: 2px;
-  border-radius: 4px;
-  border: 1px solid #474747;
-  font-size: 0.9em;
-  padding: 5px;
-  float: left;
+  margin-bottom: -4px;
 }
 .issueHeader .issueHeader > .personPieceMeta {
   display: flex;
@@ -885,7 +879,7 @@ span.searchHit {
 }
 .drawer .issueMeta {
   position: absolute;
-  top: 5px;
+  top: 16%;
 }
 .drawer .sectionMeta, .drawer .pieceMeta, .drawer .personPieceMeta {
   margin-left: 70px;
