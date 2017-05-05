@@ -844,7 +844,7 @@ Vue.component('intraIssueNav',{
     data(){
 	return {
 	    issueID: this.$root.state.content.issue.id,
-	    tocContent: {}
+	    tocContent: false
 	}
     },
     created() {
@@ -852,10 +852,12 @@ Vue.component('intraIssueNav',{
 	this.setTocContent()
 	Event.$on('issueSelected', (id) => {
 	    this.issueID = id;
+	    this.tocContent = false
 	    this.setTocContent()
 	})
 	Event.$on('issueBiblSelected', (data) => {
 	    this.issueID = data.issueId;
+	    this.tocContent = false
 	    this.setTocContent()
 	})
     },
