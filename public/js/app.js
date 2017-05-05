@@ -241,13 +241,8 @@ Vue.component('person', {
 
 	    if(!this.filterRole){
 		passesRole = true
-	    }
-	    if(this.filterRole && !this.$root.empty(this.person.personListBibl)){
-		for(bibl in this.person.personListBibl){
-		    if(bibl.personPieceMeta.personPieceRole == this.filterRole){
-			passesRole = true
-		    }
-		}
+	    }else if(!this.$root.empty(this.person.personMeta.personRole) && this.person.personMeta.personRole.toLowerCase().includes(this.filterRole.toLowerCase())){
+		passesRole = true
 	    }
 	    
 	    return passesString && passesRole
