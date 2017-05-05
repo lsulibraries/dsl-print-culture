@@ -28,9 +28,9 @@
     <xsl:template name="tocBibl">
         <xsl:variable name="biblId" select="@xml:id"/>
         <xsl:element name="{$biblId}">
-            <decsl_id>
+            <decls_id>
                 <xsl:value-of select="$biblId"/>
-            </decsl_id>
+            </decls_id>
             <type>
                 <xsl:value-of select="@type"/>
             </type>
