@@ -9,13 +9,63 @@
 
     <xsl:template match="/">
         <issue>
+            <toc>
+                <xsl:apply-templates select="//listBibl" mode="toc"/>
+            </toc>
             <xsl:apply-templates select="//sourceDesc/bibl"/>
             <listBibl>
-                <xsl:apply-templates select="//listBibl//bibl"/>
+                <xsl:apply-templates select="//listBibl//bibl" mode="listBibl"/>
             </listBibl>
         </issue>
     </xsl:template>
 
+    <xsl:template match="listBibl" mode="toc">
+        <xsl:for-each select="bibl">
+            <xsl:call-template name="tocBibl"/>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template name="tocBibl">
+        <xsl:variable name="biblId" select="@xml:id"/>
+        <xsl:element name="{$biblId}">
+            <decsl_id>
+                <xsl:value-of select="$biblId"/>
+            </decsl_id>
+            <type>
+                <xsl:value-of select="@type"/>
+            </type>
+            <title>
+                <xsl:value-of select="title"/>
+            </title>
+            <xsl:for-each select="author">
+                <xsl:variable name="personId" select="substring-after(@ref, '#')"/>
+                <auth_id>
+                    <xsl:value-of select="$personId"/>
+                </auth_id>
+                <auth_name>
+                    <xsl:value-of
+                        select="$personography//listPerson/person[@xml:id eq $personId]/persName[not(@type = 'pseudo')]"
+                    />
+                </auth_name>
+            </xsl:for-each>
+            <xsl:for-each select="biblScope">
+                <page>
+                    <xsl:call-template name="getPage"/>
+                </page>
+                <pdf_index>
+                    <xsl:call-template name="getPdfIndex"/>
+                </pdf_index>
+            </xsl:for-each>
+            <xsl:if test="bibl">
+                <pieces>
+                    <xsl:for-each select="bibl">
+                        <xsl:call-template name="tocBibl"/>
+                    </xsl:for-each>
+                </pieces>
+            </xsl:if>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="sourceDesc/bibl">
         <issueMeta>
             <issueId>
@@ -76,10 +126,9 @@
         </issueMeta>
     </xsl:template>
     
-    <xsl:template match="listBibl//bibl">
+    <xsl:template match="listBibl//bibl" mode="listBibl">
         <xsl:variable name="biblId" select="@xml:id"/>
-        <xsl:variable name="textId" select="concat('#', $biblId)"/>
-
+        
         <xsl:element name="{$biblId}">
             
             <xsl:if test="@type = 'section'">
@@ -155,7 +204,6 @@
                 </pieceMeta>
             </xsl:if>
         </xsl:element>
-
     </xsl:template>
     
     <xsl:template name="personMeta">
