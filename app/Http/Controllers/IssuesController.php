@@ -22,7 +22,7 @@ class IssuesController extends Controller
     }
 
     function issueHeader($issueId) {
-        $xml = simplexml_load_string(Storage::get("public/biblHeader/BroadwayJournal_$issueId.xml"));
+        $xml = simplexml_load_string(Storage::get("public/bibl/BroadwayJournal_$issueId.xml"));
         return response()->json($xml);        
     }
     
@@ -84,23 +84,23 @@ class IssuesController extends Controller
     }
     
     function toc($id){
-        $xml = simplexml_load_string(Storage::get('public/toc/' . $this->getFilenameForID($id)));
+        $xml = simplexml_load_string(Storage::get('public/bibl/' . $this->getFilenameForID($id)));
         return response()->json($xml);// response()->json($toc);
     }
 
     function bibl_data($id){
-        $xml = simplexml_load_string(Storage::get('public/bibl_data/' . $this->getFilenameForID($id)));
+        $xml = simplexml_load_string(Storage::get('public/bibl/' . $this->getFilenameForID($id)));
         return response()->json($xml);// response()->json($toc);
     }
 
     function ppm($id){
-        $xml = simplexml_load_string(Storage::get('public/ppm/' . $this->getFilenameForID($id)));
+        $xml = simplexml_load_string(Storage::get('public/bibl/' . $this->getFilenameForID($id)));
         return response()->json($xml);// response()->json($toc);
     }
         
     function issueText($id){
         $xml = Storage::get('public/issues/' . $this->getFilenameForID($id));
-        return $xml;// response()->json($toc);
+        return $xml;
     }
 
     

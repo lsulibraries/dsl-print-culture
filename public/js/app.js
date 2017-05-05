@@ -486,8 +486,13 @@ If the author is anonymous DO NOT provide certainty.`,
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
 	},
 	getPersonId: function() {
-	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)){
-		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)[0]
+	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
+		if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
+		    return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
+		}
+	    }
+	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)){
+		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
 	    }
 	    return false
 	},
