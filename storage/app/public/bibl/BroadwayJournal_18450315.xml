@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>Satirical Poems</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>161</page>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>A Continuation of the Voluminous History of the Little Longfellow War</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>161-163</page>
+               <pdf_index>1</pdf_index>
+            </p2>
+         </pieces>
+      </s1>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Thoughts of a Silent Man. No. 2</title>
+         <auth_id>rhertzman</auth_id>
+         <auth_name/>
+         <page>163-164</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Some Passages in the Life of a Lion</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>164-166</page>
+         <pdf_index>4</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>The Art of the Use of Color in Imitation in Painting,
+              No. V.</title>
+         <auth_id>wpage</auth_id>
+         <auth_name>William Page</auth_name>
+         <page>166-167</page>
+         <pdf_index>6</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Dignity of Tailors</title>
+         <auth_id>wpage</auth_id>
+         <auth_name>William Page</auth_name>
+         <page>167</page>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>Letter from James Given in New York, to his Cousin Hugh Hughes, of Pool Lane, Liverpool</title>
+         <auth_id>jgiven</auth_id>
+         <auth_name>James Given</auth_name>
+         <page>168</page>
+         <pdf_index>8</pdf_index>
+      </p7>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <pieces>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>The Belle of Broadway</title>
+               <auth_id>pb</auth_id>
+               <auth_name>P. B.</auth_name>
+               <page>169</page>
+               <pdf_index>9</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>Florence Vane</title>
+               <auth_id>ppcooke</auth_id>
+               <auth_name>Philip Pendleton Cooke</auth_name>
+               <page>169</page>
+               <pdf_index>9</pdf_index>
+            </p9>
+         </pieces>
+      </s2>
+      <p10>
+         <decls_id>p10</decls_id>
+         <type>piece</type>
+         <title>Mechanics' Institute Conversational Meeting,
+                On the Subject of Aerial Navigation</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>169-170</page>
+         <pdf_index>9</pdf_index>
+      </p10>
+      <p11>
+         <decls_id>p11</decls_id>
+         <type>piece</type>
+         <title>The Great Tower of Tarudant [cont.]</title>
+         <auth_id>rcarter</auth_id>
+         <auth_name>Robert Carter</auth_name>
+         <page>170-171</page>
+         <pdf_index>10</pdf_index>
+      </p11>
+      <p12>
+         <decls_id>p12</decls_id>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>171-172</page>
+         <pdf_index>11</pdf_index>
+      </p12>
+      <p13>
+         <decls_id>p13</decls_id>
+         <type>piece</type>
+         <title>Musical Review</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>172-173</page>
+         <pdf_index>12</pdf_index>
+      </p13>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>Musical Items</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>173</page>
+         <pdf_index>13</pdf_index>
+      </p14>
+      <p14a>
+         <decls_id>p14a</decls_id>
+         <type>piece</type>
+         <title>Mitchell's Olympic Theater</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>173</page>
+         <pdf_index>13</pdf_index>
+      </p14a>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Literary Notices</title>
+         <pieces>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>Inaugural Address</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>173-174</page>
+               <pdf_index>13</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>Cruikshank's Omnibus</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>174</page>
+               <pdf_index>14</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Democratic Review for March</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>174</page>
+               <pdf_index>14</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>Military Maxims of Napoleon</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>174</page>
+               <pdf_index>14</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>Martin’s Illustrated Family Bible. Part 3</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>174</page>
+               <pdf_index>14</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>Hunt's Merchants’ Magazine</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>174</page>
+               <pdf_index>14</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>The New World</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>174</page>
+               <pdf_index>14</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>Anastasis; or the Doctrine of the Resurrection of the Body
+                Rationally and Scripturally Considered</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>174</page>
+               <pdf_index>14</pdf_index>
+            </p22>
+         </pieces>
+      </s3>
+      <p23>
+         <decls_id>p23</decls_id>
+         <type>piece</type>
+         <title>Literary Intelligence</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>174-175</page>
+         <pdf_index>14</pdf_index>
+      </p23>
+      <p24>
+         <decls_id>p24</decls_id>
+         <type>piece</type>
+         <title>Miscellany</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>175</page>
+         <pdf_index>15</pdf_index>
+      </p24>
+      <p25>
+         <decls_id>p25</decls_id>
+         <type>piece</type>
+         <title>To Readers and Correspondents</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>175</page>
+         <pdf_index>15</pdf_index>
+      </p25>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>175-176</page>
+         <pdf_index>15</pdf_index>
+      </s4>
+   </toc>
+   <issueMeta>
+      <issueId>18450315</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>11</issueNum>
+      <issueDate>March 15, 1845</issueDate>
+      <issueListPerson>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </eapoe>
+         <hcwatson>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </hcwatson>
+         <jbisco>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </jdouglas>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Satirical Poems</pieceTitle>
+            <piecePage>161</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>A Continuation of the Voluminous History of the Little Longfellow War</pieceTitle>
+            <piecePage>161-163</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>Thoughts of a Silent Man. No. 2</pieceTitle>
+            <piecePage>163-164</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <rhertzman>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+               </rhertzman>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Some Passages in the Life of a Lion</pieceTitle>
+            <piecePage>164-166</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The Art of the Use of Color in Imitation in Painting,
+              No. V.</pieceTitle>
+            <piecePage>166-167</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <wpage>
+                  <personName>William Page</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wpage>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Dignity of Tailors</pieceTitle>
+            <piecePage>167</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <wpage>
+                  <personName>William Page</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </wpage>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Letter from James Given in New York, to his Cousin Hugh Hughes, of Pool Lane, Liverpool</pieceTitle>
+            <piecePage>168</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <jgiven>
+                  <personName>James Given</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jgiven>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p8>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Belle of Broadway</pieceTitle>
+            <piecePage>169</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <pb>
+                  <personName>P. B.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </pb>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>Florence Vane</pieceTitle>
+            <piecePage>169</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <ppcooke>
+                  <personName>Philip Pendleton Cooke</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </ppcooke>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Mechanics' Institute Conversational Meeting,
+                On the Subject of Aerial Navigation</pieceTitle>
+            <piecePage>169-170</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The Great Tower of Tarudant [cont.]</pieceTitle>
+            <piecePage>170-171</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <rcarter>
+                  <personName>Robert Carter writing as Robert Oliver.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </rcarter>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>The Concert Room</pieceTitle>
+            <piecePage>171-172</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Musical Review</pieceTitle>
+            <piecePage>172-173</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Musical Items</pieceTitle>
+            <piecePage>173</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p14a>
+         <pieceMeta>
+            <pieceId>p14a</pieceId>
+            <pieceTitle>Mitchell's Olympic Theater</pieceTitle>
+            <piecePage>173</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14a>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p15>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Inaugural Address</pieceTitle>
+            <piecePage>173-174</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Cruikshank's Omnibus</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>The Democratic Review for March</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Military Maxims of Napoleon</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Martin’s Illustrated Family Bible. Part 3</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Hunt's Merchants’ Magazine</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The New World</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>Anastasis; or the Doctrine of the Resurrection of the Body
+                Rationally and Scripturally Considered</pieceTitle>
+            <piecePage>174</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Literary Intelligence</pieceTitle>
+            <piecePage>174-175</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Miscellany</pieceTitle>
+            <piecePage>175</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <p25>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>To Readers and Correspondents</pieceTitle>
+            <piecePage>175</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>175-176</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s4>
+   </listBibl>
+</issue>

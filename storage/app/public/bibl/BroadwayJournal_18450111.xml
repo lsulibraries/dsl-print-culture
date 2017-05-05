@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>The Drama of Exile, and Other Poems (Concluded)</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>17-20</page>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>Agincourt</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>20-21</page>
+               <pdf_index>4</pdf_index>
+            </p2>
+         </pieces>
+      </s1>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <pieces>
+            <p3>
+               <decls_id>p3</decls_id>
+               <type>piece</type>
+               <title>The Art Union Pictures (Second Notice)</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>21-22</page>
+               <pdf_index>5</pdf_index>
+            </p3>
+         </pieces>
+      </s2>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Monuments to Mr. Clay</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>22</page>
+         <pdf_index>6</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Miss Delia Webster</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>23</page>
+         <pdf_index>7</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Dutch and the Puritans</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>23-25</page>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>Good Advice</title>
+         <auth_id>h</auth_id>
+         <auth_name>H.</auth_name>
+         <page>25-26</page>
+         <pdf_index>9</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>Sketches of American Prose Writers, No. 1</title>
+         <auth_id>eaduyckinck</auth_id>
+         <auth_name>Evert Augustus Duyckinck</auth_name>
+         <page>26-28</page>
+         <pdf_index>10</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>Street Sweeping</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>28</page>
+         <pdf_index>12</pdf_index>
+      </p9>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <pieces>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>The Epitaph</title>
+               <auth_id>jrlowell</auth_id>
+               <auth_name>James Russell Lowell</auth_name>
+               <page>28</page>
+               <pdf_index>12</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>A Streamlet</title>
+               <auth_id>jaldrich</auth_id>
+               <auth_name>James Aldrich</auth_name>
+               <page>28</page>
+               <pdf_index>12</pdf_index>
+            </p11>
+         </pieces>
+      </s3>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Notices of New Books</title>
+         <pieces>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Principles and Practice of Obstetric Medicine and Surgery</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Conversations on Some of the Old Poets</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>Rome, as Seen by a New Yorker in 1843-4</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p14>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>Republication</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p21>
+         </pieces>
+      </s4>
+      <s5>
+         <decls_id>s5</decls_id>
+         <type>section</type>
+         <title>Varieties</title>
+         <pieces>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>An Important Discovery in Art</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>English Opinions of American Artists</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>29</page>
+               <pdf_index>13</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>Carlyle's Preface to Emerson's Essay</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>29-30</page>
+               <pdf_index>13</pdf_index>
+            </p17>
+         </pieces>
+      </s5>
+      <p18>
+         <decls_id>p18</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <page>30</page>
+         <pdf_index>14</pdf_index>
+      </p18>
+      <p19>
+         <decls_id>p19</decls_id>
+         <type>piece</type>
+         <title>Italian Opera House</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>30-31</page>
+         <pdf_index>14</pdf_index>
+      </p19>
+      <s6>
+         <decls_id>s6</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>32</page>
+         <pdf_index>16</pdf_index>
+      </s6>
+      <p20>
+         <decls_id>p20</decls_id>
+         <type>piece</type>
+         <title>Prospectus of the Broadway Journal</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>32</page>
+         <pdf_index>16</pdf_index>
+      </p20>
+   </toc>
+   <issueMeta>
+      <issueId>18450111</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>2</issueNum>
+      <issueDate>January 11, 1845</issueDate>
+      <issueListPerson>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <jbisco>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </jdouglas>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>The Drama of Exile, and Other Poems (Concluded)</pieceTitle>
+            <piecePage>17-20</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: )</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Agincourt</pieceTitle>
+            <piecePage>20-21</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty. (Reference: )</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p3>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Art Union Pictures (Second Notice)</pieceTitle>
+            <piecePage>21-22</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Monuments to Mr. Clay</pieceTitle>
+            <piecePage>22</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Miss Delia Webster</pieceTitle>
+            <piecePage>23</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Dutch and the Puritans</pieceTitle>
+            <piecePage>23-25</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Good Advice</pieceTitle>
+            <piecePage>25-26</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <h>
+                  <personName>H.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </h>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Sketches of American Prose Writers, No. 1</pieceTitle>
+            <piecePage>26-28</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eaduyckinck>
+                  <personName>Evert Augustus Duyckinck</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty. (Reference: )</authorShip>
+               </eaduyckinck>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>Street Sweeping</pieceTitle>
+            <piecePage>28</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p10>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>The Epitaph</pieceTitle>
+            <piecePage>28</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <jrlowell>
+                  <personName>James Russell Lowell</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jrlowell>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>A Streamlet</pieceTitle>
+            <piecePage>28</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <jaldrich>
+                  <personName>James Aldrich</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with medium certainty.</authorShip>
+               </jaldrich>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+      </s4>
+      <p12>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>The Principles and Practice of Obstetric Medicine and Surgery</pieceTitle>
+            <piecePage>29</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Conversations on Some of the Old Poets</pieceTitle>
+            <piecePage>29</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Rome, as Seen by a New Yorker in 1843-4</pieceTitle>
+            <piecePage>29</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p21>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>Republication</pieceTitle>
+            <piecePage>29</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <s5>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+      </s5>
+      <p15>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>An Important Discovery in Art</pieceTitle>
+            <piecePage>29</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>English Opinions of American Artists</pieceTitle>
+            <piecePage>29</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Carlyle's Preface to Emerson's Essay</pieceTitle>
+            <piecePage>29-30</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>30</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Italian Opera House</pieceTitle>
+            <piecePage>30-31</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <s6>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>32</sectionPage>
+            <sectionPdfIndex>16</sectionPdfIndex>
+         </sectionMeta>
+      </s6>
+      <p20>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Prospectus of the Broadway Journal</pieceTitle>
+            <piecePage>32</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+   </listBibl>
+</issue>

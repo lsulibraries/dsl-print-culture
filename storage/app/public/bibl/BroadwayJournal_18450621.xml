@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>The Adventures of a Gentleman in Search of a Dinner.</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>385-388</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>Morella</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>388-389</page>
+         <pdf_index>4</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>A Holiday on the Hudson</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>389</page>
+         <pdf_index>5</pdf_index>
+      </p3>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Two Noble Poems</title>
+         <pieces>
+            <p4>
+               <decls_id>p4</decls_id>
+               <type>piece</type>
+               <title>Introduction</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>390</page>
+               <pdf_index>6</pdf_index>
+            </p4>
+            <p5>
+               <decls_id>p5</decls_id>
+               <type>piece</type>
+               <title>The Ideal</title>
+               <auth_id>aclynch</auth_id>
+               <auth_name>Anne C. Lynch</auth_name>
+               <page>390</page>
+               <pdf_index>6</pdf_index>
+            </p5>
+            <p6>
+               <decls_id>p6</decls_id>
+               <type>piece</type>
+               <title>The Ideal Found</title>
+               <auth_id>aclynch</auth_id>
+               <auth_name>Anne C. Lynch</auth_name>
+               <page>390</page>
+               <pdf_index>6</pdf_index>
+            </p6>
+         </pieces>
+      </s1>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>A Just View of a Bad Habit.</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>390-391</page>
+         <pdf_index>6</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>The Heart of Man</title>
+         <auth_id>uhorn</auth_id>
+         <auth_name/>
+         <page>391</page>
+         <pdf_index>7</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>Thorwaldsen’s Statue of Byron</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>391-392</page>
+         <pdf_index>7</pdf_index>
+      </p9>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>An Essay on the Philosophy of Medical Science</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>392-393</page>
+               <pdf_index>8</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Plato Contra Atheos</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>393-394</page>
+               <pdf_index>9</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Harper's Illuminated and Illustrated Edition of Shakespeare</title>
+               <auth_id>cfriggs</auth_id>
+               <auth_name/>
+               <page>394</page>
+               <pdf_index>10</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>A Pilgrimage to Treves</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>394-395</page>
+               <pdf_index>10</pdf_index>
+            </p13>
+         </pieces>
+      </s2>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>New Works Lately Received</title>
+         <pieces>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>Satanstoe, or the Littlepage Manuscripts</title>
+               <auth_id>cfriggs</auth_id>
+               <auth_name/>
+               <page>395</page>
+               <pdf_index>11</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>Notes, Explanatory and Practical, on the Epistles of Paul</title>
+               <auth_id>cfriggs</auth_id>
+               <auth_name/>
+               <page>395</page>
+               <pdf_index>11</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>De Rohan; or The Court Conspirator.</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>Ocean Work, Ancient and Modern</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The Age of Elizabeth</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>The Blind Girl, with Other Tales</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>The Dutchman's Fireside</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>A System of Latin Versification</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>The Gambler's Wife</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>The Smuggler and Other Books</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p23>
+         </pieces>
+      </s3>
+      <p25>
+         <decls_id>p25</decls_id>
+         <type>piece</type>
+         <title>Number One’s</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>396</page>
+         <pdf_index>12</pdf_index>
+      </p25>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <pieces>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>We Have Seen a Proof Impression</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>396-397</page>
+               <pdf_index>12</pdf_index>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>A New Painting</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>397</page>
+               <pdf_index>13</pdf_index>
+            </p27>
+            <p28>
+               <decls_id>p28</decls_id>
+               <type>piece</type>
+               <title>Mr. E. L. Carey</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p28>
+            <p29>
+               <decls_id>p29</decls_id>
+               <type>piece</type>
+               <title>Horace Kneeland</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>396</page>
+               <pdf_index>12</pdf_index>
+            </p29>
+         </pieces>
+      </s4>
+      <p30>
+         <decls_id>p30</decls_id>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>397-398</page>
+         <pdf_index>13</pdf_index>
+      </p30>
+      <p31>
+         <decls_id>p31</decls_id>
+         <type>piece</type>
+         <title>To Correspondents</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>398</page>
+         <pdf_index>14</pdf_index>
+      </p31>
+      <s5>
+         <decls_id>s5</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>398-400</page>
+         <pdf_index>14</pdf_index>
+      </s5>
+      <p32>
+         <decls_id>p32</decls_id>
+         <type>piece</type>
+         <title>Agents for the Broadway Journal</title>
+         <page>400</page>
+         <pdf_index>16</pdf_index>
+      </p32>
+   </toc>
+   <issueMeta>
+      <issueId>18450621</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>25</issueNum>
+      <issueDate>June 21, 1845</issueDate>
+      <issueListPerson>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </eapoe>
+         <hcwatson>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </hcwatson>
+         <jbisco>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </jbisco>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>The Adventures of a Gentleman in Search of a Dinner.</pieceTitle>
+            <piecePage>385-388</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Morella</pieceTitle>
+            <piecePage>388-389</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>A Holiday on the Hudson</pieceTitle>
+            <piecePage>389</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Two Noble Poems</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p4>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Two Noble Poems</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Introduction</pieceTitle>
+            <piecePage>390</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Two Noble Poems</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The Ideal</pieceTitle>
+            <piecePage>390</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <aclynch>
+                  <personName>Anne C. Lynch</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </aclynch>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Two Noble Poems</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Ideal Found</pieceTitle>
+            <piecePage>390</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <aclynch>
+                  <personName>Anne C. Lynch</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </aclynch>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>A Just View of a Bad Habit.</pieceTitle>
+            <piecePage>390-391</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Heart of Man</pieceTitle>
+            <piecePage>391</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <uhorn>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+               </uhorn>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>Thorwaldsen’s Statue of Byron</pieceTitle>
+            <piecePage>391-392</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p10>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>An Essay on the Philosophy of Medical Science</pieceTitle>
+            <piecePage>392-393</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown. (Reference: eapoe.org)</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Plato Contra Atheos</pieceTitle>
+            <piecePage>393-394</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Harper's Illuminated and Illustrated Edition of Shakespeare</pieceTitle>
+            <piecePage>394</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <cfriggs>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+               </cfriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>A Pilgrimage to Treves</pieceTitle>
+            <piecePage>394-395</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p14>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Satanstoe, or the Littlepage Manuscripts</pieceTitle>
+            <piecePage>395</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <cfriggs>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </cfriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Notes, Explanatory and Practical, on the Epistles of Paul</pieceTitle>
+            <piecePage>395</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <cfriggs>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </cfriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>De Rohan; or The Court Conspirator.</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Ocean Work, Ancient and Modern</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>The Age of Elizabeth</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>The Blind Girl, with Other Tales</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>The Dutchman's Fireside</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>A System of Latin Versification</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>The Gambler's Wife</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>The Smuggler and Other Books</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p25>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Number One’s</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+      </s4>
+      <p26>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>We Have Seen a Proof Impression</pieceTitle>
+            <piecePage>396-397</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p26>
+      <p27>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>A New Painting</pieceTitle>
+            <piecePage>397</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p27>
+      <p28>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>Mr. E. L. Carey</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p28>
+      <p29>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Horace Kneeland</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p29>
+      <p30>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>The Concert Room</pieceTitle>
+            <piecePage>397-398</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p30>
+      <p31>
+         <pieceMeta>
+            <pieceId>p31</pieceId>
+            <pieceTitle>To Correspondents</pieceTitle>
+            <piecePage>398</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p31>
+      <s5>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>398-400</sectionPage>
+            <sectionPdfIndex>14</sectionPdfIndex>
+         </sectionMeta>
+      </s5>
+      <p32>
+         <pieceMeta>
+            <pieceId>p32</pieceId>
+            <pieceTitle>Agents for the Broadway Journal</pieceTitle>
+            <piecePage>400</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+      </p32>
+   </listBibl>
+</issue>

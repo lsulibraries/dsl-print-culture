@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>Woman in the Nineteenth Century, Second Notice</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>145-146</page>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>Glossary of Ecclesiastical Ornament and Costume</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>146-147</page>
+               <pdf_index>2</pdf_index>
+            </p2>
+            <p3>
+               <decls_id>p3</decls_id>
+               <type>piece</type>
+               <title>Imitation—Plagiarism—Mr. Poe’s Reply</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>147-150</page>
+               <pdf_index>3</pdf_index>
+            </p3>
+         </pieces>
+      </s1>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Art of the Use of Color in Imitation in Painting</title>
+         <auth_id>wpage</auth_id>
+         <auth_name>William Page</auth_name>
+         <page>150-151</page>
+         <pdf_index>6</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Thoughts of a Silent Man</title>
+         <auth_id>rhertzman</auth_id>
+         <auth_name/>
+         <page>151-152154</page>
+         <pdf_index>710</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>Letter from James Given</title>
+         <auth_id>jgiven</auth_id>
+         <auth_name>James Given</auth_name>
+         <page>152</page>
+         <pdf_index>8</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>Portrait of a Distinguished Authoress</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>152</page>
+         <pdf_index>8</pdf_index>
+      </p7>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <pieces>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>The Ghost-Seer</title>
+               <auth_id>jrlowell</auth_id>
+               <auth_name>James Russell Lowell</auth_name>
+               <page>154-155</page>
+               <pdf_index>10</pdf_index>
+            </p8>
+         </pieces>
+      </s2>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Literary Notices</title>
+         <pieces>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>A Lecture on the Philosophy of Vegetation</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>155</page>
+               <pdf_index>11</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>Mothers' Lessons for Little Girls and Boys</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>155</page>
+               <pdf_index>11</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>The Gambler's Mirror</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>155</page>
+               <pdf_index>11</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Last of the Plantagenets</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>155-156</page>
+               <pdf_index>11</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>The Knickerbocker</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>The Saturday Emporium</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>The Foreign Quarterly Review</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>Blackwood's Magazine</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p16>
+         </pieces>
+      </s3>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <pieces>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>A New Picture by Chapman</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>We Have Recently Inspected</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>The Granite Buildings</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>Mons. Edouart's Silhouettes</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>156</page>
+               <pdf_index>12</pdf_index>
+            </p20>
+         </pieces>
+      </s4>
+      <p21>
+         <decls_id>p21</decls_id>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>156-157</page>
+         <pdf_index>12</pdf_index>
+      </p21>
+      <s5>
+         <decls_id>s5</decls_id>
+         <type>section</type>
+         <title>Musical Review</title>
+         <pieces>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>Marco Bordogni</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>157-158</page>
+               <pdf_index>13</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>Bertini's Great Method for the Piano-Forte</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>158</page>
+               <pdf_index>14</pdf_index>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
+               <type>piece</type>
+               <title>To Accordian Players</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>158</page>
+               <pdf_index>14</pdf_index>
+            </p24>
+         </pieces>
+      </s5>
+      <p25>
+         <decls_id>p25</decls_id>
+         <type>piece</type>
+         <title>Musical Items</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>158</page>
+         <pdf_index>14</pdf_index>
+      </p25>
+      <s6>
+         <decls_id>s6</decls_id>
+         <type>section</type>
+         <title>Correspondence</title>
+         <pieces>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>To the Editor of the Broadway Journal</title>
+               <auth_id>horace</auth_id>
+               <auth_name/>
+               <page>158-159</page>
+               <pdf_index>14</pdf_index>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>Mr. Webster and His Friends</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>159</page>
+               <pdf_index>15</pdf_index>
+            </p27>
+         </pieces>
+      </s6>
+      <p28>
+         <decls_id>p28</decls_id>
+         <type>piece</type>
+         <title>In a Late Lecture</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>159</page>
+         <pdf_index>15</pdf_index>
+      </p28>
+      <s7>
+         <decls_id>s7</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>159-160</page>
+         <pdf_index>15</pdf_index>
+      </s7>
+      <p29>
+         <decls_id>p29</decls_id>
+         <type>piece</type>
+         <title>Prospectus of the Broadway Journal</title>
+         <auth_id>jbisco</auth_id>
+         <auth_name>John Bisco</auth_name>
+         <page>160</page>
+         <pdf_index>16</pdf_index>
+      </p29>
+   </toc>
+   <issueMeta>
+      <issueId>18450308</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>10</issueNum>
+      <issueDate>March 8, 1845</issueDate>
+      <issueListPerson>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </eapoe>
+         <hcwatson>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </hcwatson>
+         <jbisco>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </jdouglas>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Woman in the Nineteenth Century, Second Notice</pieceTitle>
+            <piecePage>145-146</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Glossary of Ecclesiastical Ornament and Costume</pieceTitle>
+            <piecePage>146-147</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>Imitation—Plagiarism—Mr. Poe’s Reply</pieceTitle>
+            <piecePage>147-150</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Art of the Use of Color in Imitation in Painting</pieceTitle>
+            <piecePage>150-151</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <wpage>
+                  <personName>William Page</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wpage>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Thoughts of a Silent Man</pieceTitle>
+            <piecePage>151-152154</piecePage>
+            <piecePdfIndex>710</piecePdfIndex>
+            <pieceListPerson>
+               <rhertzman>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+               </rhertzman>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>Letter from James Given</pieceTitle>
+            <piecePage>152</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <jgiven>
+                  <personName>James Given</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jgiven>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Portrait of a Distinguished Authoress</pieceTitle>
+            <piecePage>152</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p8>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Ghost-Seer</pieceTitle>
+            <piecePage>154-155</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <jrlowell>
+                  <personName>James Russell Lowell</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jrlowell>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p9>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>A Lecture on the Philosophy of Vegetation</pieceTitle>
+            <piecePage>155</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Mothers' Lessons for Little Girls and Boys</pieceTitle>
+            <piecePage>155</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The Gambler's Mirror</pieceTitle>
+            <piecePage>155</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>The Last of the Plantagenets</pieceTitle>
+            <piecePage>155-156</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>The Knickerbocker</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The Saturday Emporium</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Foreign Quarterly Review</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Blackwood's Magazine</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+      </s4>
+      <p17>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>A New Picture by Chapman</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>We Have Recently Inspected</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>The Granite Buildings</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Mons. Edouart's Silhouettes</pieceTitle>
+            <piecePage>156</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Concert Room</pieceTitle>
+            <piecePage>156-157</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <s5>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+      </s5>
+      <p22>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>Marco Bordogni</pieceTitle>
+            <piecePage>157-158</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Bertini's Great Method for the Piano-Forte</pieceTitle>
+            <piecePage>158</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>To Accordian Players</pieceTitle>
+            <piecePage>158</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <p25>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Musical Items</pieceTitle>
+            <piecePage>158</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <s6>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Correspondence</sectionTitle>
+         </sectionMeta>
+      </s6>
+      <p26>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Correspondence</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>To the Editor of the Broadway Journal</pieceTitle>
+            <piecePage>158-159</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <horace>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+               </horace>
+            </pieceListPerson>
+         </pieceMeta>
+      </p26>
+      <p27>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Correspondence</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>Mr. Webster and His Friends</pieceTitle>
+            <piecePage>159</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p27>
+      <p28>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>In a Late Lecture</pieceTitle>
+            <piecePage>159</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p28>
+      <s7>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>159-160</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s7>
+      <p29>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Prospectus of the Broadway Journal</pieceTitle>
+            <piecePage>160</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+            <pieceListPerson>
+               <jbisco>
+                  <personName>John Bisco</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jbisco>
+            </pieceListPerson>
+         </pieceMeta>
+      </p29>
+   </listBibl>
+</issue>

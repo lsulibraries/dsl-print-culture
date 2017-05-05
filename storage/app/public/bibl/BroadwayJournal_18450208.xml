@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>Poems by Sir Edward Lytton Bulwer</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>81-82</page>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>Why A National Literature Cannot Flourish in the United States
+                of North America</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>82-83</page>
+               <pdf_index>2</pdf_index>
+            </p2>
+         </pieces>
+      </s1>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>American Illustrated Books</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>83-85</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Navy</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>85-86</page>
+         <pdf_index>5</pdf_index>
+      </p4>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <pieces>
+            <p5>
+               <decls_id>p5</decls_id>
+               <type>piece</type>
+               <title>The Art of the Use of Color in Imitation in Painting, No.
+                1</title>
+               <auth_id>wpage</auth_id>
+               <auth_name>William Page</auth_name>
+               <page>86-88</page>
+               <pdf_index>6</pdf_index>
+            </p5>
+            <p6>
+               <decls_id>p6</decls_id>
+               <type>piece</type>
+               <title>A New Discovery in Art</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>88</page>
+               <pdf_index>8</pdf_index>
+            </p6>
+         </pieces>
+      </s3>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>Valentines</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>88</page>
+         <pdf_index>8</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>The Bishop</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>89</page>
+         <pdf_index>9</pdf_index>
+      </p8>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Original Poetry</title>
+         <pieces>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>The Two Paths</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>90</page>
+               <pdf_index>10</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>The Raven</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>90</page>
+               <pdf_index>10</pdf_index>
+            </p10>
+         </pieces>
+      </s4>
+      <p11>
+         <decls_id>p11</decls_id>
+         <type>piece</type>
+         <title>Chronology</title>
+         <auth_id>rhschoolcrot</auth_id>
+         <auth_name/>
+         <page>91</page>
+         <pdf_index>11</pdf_index>
+      </p11>
+      <p12>
+         <decls_id>p12</decls_id>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>91-92</page>
+         <pdf_index>11</pdf_index>
+      </p12>
+      <s5>
+         <decls_id>s5</decls_id>
+         <type>section</type>
+         <title>Varieties</title>
+         <pieces>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>The Curse of Criticism</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>92</page>
+               <pdf_index>12</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>A New Washington Monument</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>92-93</page>
+               <pdf_index>12</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>The Snow</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>93</page>
+               <pdf_index>13</pdf_index>
+            </p15>
+         </pieces>
+      </s5>
+      <p16>
+         <decls_id>p16</decls_id>
+         <type>piece</type>
+         <title>The Magazines</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>93-94</page>
+         <pdf_index>13</pdf_index>
+      </p16>
+      <s6>
+         <decls_id>s6</decls_id>
+         <type>section</type>
+         <title>Literary Notices</title>
+         <pieces>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Treasury of History, No. 2</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>A Chaunt of Life and other Poems</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>Catlin's New Work</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>Rome as seen by a New Yorker in 1843-4</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>The Wonderful Adventures of Baron Munchausen</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>Blackwood's Magazine, for January</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>The Southern Quarterly Review. No 13</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p23>
+         </pieces>
+      </s6>
+      <p24>
+         <decls_id>p24</decls_id>
+         <type>piece</type>
+         <title>Musical Intelligence</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>94</page>
+         <pdf_index>14</pdf_index>
+      </p24>
+      <s7>
+         <decls_id>s7</decls_id>
+         <type>section</type>
+         <title>Bits of News</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <pieces>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>Longfellow's Poets</title>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p27>
+            <p28>
+               <decls_id>p28</decls_id>
+               <type>piece</type>
+               <title>Carey and Hart</title>
+               <page>94</page>
+               <pdf_index>14</pdf_index>
+            </p28>
+            <p29>
+               <decls_id>p29</decls_id>
+               <type>piece</type>
+               <title>Mr. Petre</title>
+               <page>94-95</page>
+               <pdf_index>14</pdf_index>
+            </p29>
+            <p30>
+               <decls_id>p30</decls_id>
+               <type>piece</type>
+               <title>A New Edition of Carlyle</title>
+               <page>95</page>
+               <pdf_index>15</pdf_index>
+            </p30>
+            <p31>
+               <decls_id>p31</decls_id>
+               <type>piece</type>
+               <title>Powers, the sculptor</title>
+               <page>95</page>
+               <pdf_index>15</pdf_index>
+            </p31>
+            <p32>
+               <decls_id>p32</decls_id>
+               <type>piece</type>
+               <title>The Harpers</title>
+               <page>95</page>
+               <pdf_index>15</pdf_index>
+            </p32>
+            <p33>
+               <decls_id>p33</decls_id>
+               <type>piece</type>
+               <title>The Landing of the Norsemen in America</title>
+               <page>95</page>
+               <pdf_index>15</pdf_index>
+            </p33>
+         </pieces>
+      </s7>
+      <p25>
+         <decls_id>p25</decls_id>
+         <type>piece</type>
+         <title>To Readers and Correspondents</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>95</page>
+         <pdf_index>15</pdf_index>
+      </p25>
+      <s8>
+         <decls_id>s8</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>95-96</page>
+         <pdf_index>15</pdf_index>
+      </s8>
+      <p26>
+         <decls_id>p26</decls_id>
+         <type>piece</type>
+         <title>The Prospectus of the Broadway Journal</title>
+         <auth_id>jbisco</auth_id>
+         <auth_name>John Bisco</auth_name>
+         <page>96</page>
+         <pdf_index>16</pdf_index>
+      </p26>
+   </toc>
+   <issueMeta>
+      <issueId>18450208</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>6</issueNum>
+      <issueDate>February 8, 1845</issueDate>
+      <issueListPerson>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <jbisco>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </jdouglas>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Poems by Sir Edward Lytton Bulwer</pieceTitle>
+            <piecePage>81-82</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Why A National Literature Cannot Flourish in the United States
+                of North America</pieceTitle>
+            <piecePage>82-83</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>American Illustrated Books</pieceTitle>
+            <piecePage>83-85</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Navy</pieceTitle>
+            <piecePage>85-86</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p5>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The Art of the Use of Color in Imitation in Painting, No.
+                1</pieceTitle>
+            <piecePage>86-88</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <wpage>
+                  <personName>William Page</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wpage>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>A New Discovery in Art</pieceTitle>
+            <piecePage>88</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Valentines</pieceTitle>
+            <piecePage>88</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Bishop</pieceTitle>
+            <piecePage>89</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+      </s4>
+      <p9>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Two Paths</pieceTitle>
+            <piecePage>90</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Original Poetry</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>The Raven</pieceTitle>
+            <piecePage>90</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as Edgar A. Poe.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Chronology</pieceTitle>
+            <piecePage>91</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <rhschoolcrot>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+               </rhschoolcrot>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>The Concert Room</pieceTitle>
+            <piecePage>91-92</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <s5>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+      </s5>
+      <p13>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>The Curse of Criticism</pieceTitle>
+            <piecePage>92</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>A New Washington Monument</pieceTitle>
+            <piecePage>92-93</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s5</sectionId>
+            <sectionTitle>Varieties</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Snow</pieceTitle>
+            <piecePage>93</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>The Magazines</pieceTitle>
+            <piecePage>93-94</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <s6>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+      </s6>
+      <p17>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>The Treasury of History, No. 2</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>A Chaunt of Life and other Poems</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Catlin's New Work</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Rome as seen by a New Yorker in 1843-4</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Wonderful Adventures of Baron Munchausen</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>Blackwood's Magazine, for January</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s6</sectionId>
+            <sectionTitle>Literary Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>The Southern Quarterly Review. No 13</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Musical Intelligence</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <s7>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+            <sectionListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </sectionListPerson>
+         </sectionMeta>
+      </s7>
+      <p27>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>Longfellow's Poets</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+      </p27>
+      <p28>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>Carey and Hart</pieceTitle>
+            <piecePage>94</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+      </p28>
+      <p29>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Mr. Petre</pieceTitle>
+            <piecePage>94-95</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+         </pieceMeta>
+      </p29>
+      <p30>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>A New Edition of Carlyle</pieceTitle>
+            <piecePage>95</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+      </p30>
+      <p31>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p31</pieceId>
+            <pieceTitle>Powers, the sculptor</pieceTitle>
+            <piecePage>95</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+      </p31>
+      <p32>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p32</pieceId>
+            <pieceTitle>The Harpers</pieceTitle>
+            <piecePage>95</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+      </p32>
+      <p33>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Bits of News</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p33</pieceId>
+            <pieceTitle>The Landing of the Norsemen in America</pieceTitle>
+            <piecePage>95</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+         </pieceMeta>
+      </p33>
+      <p25>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>To Readers and Correspondents</pieceTitle>
+            <piecePage>95</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <s8>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>95-96</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s8>
+      <p26>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>The Prospectus of the Broadway Journal</pieceTitle>
+            <piecePage>96</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+            <pieceListPerson>
+               <jbisco>
+                  <personName>John Bisco</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </jbisco>
+            </pieceListPerson>
+         </pieceMeta>
+      </p26>
+   </listBibl>
+</issue>

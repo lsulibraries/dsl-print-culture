@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc/>
+   <issueMeta>
+      <issueId>18450103</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>2</issueVol>
+      <issueNum>26</issueNum>
+      <issueDate>January 3, 1846</issueDate>
+      <issueListPerson>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </eapoe>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </eapoe>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl/>
+</issue>

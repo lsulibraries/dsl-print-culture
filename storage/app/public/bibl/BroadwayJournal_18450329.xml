@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p1>
+               <decls_id>p1</decls_id>
+               <type>piece</type>
+               <title>The Amber Witch</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>193</page>
+               <pdf_index>1</pdf_index>
+            </p1>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>The Children of Mount Ida</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>193</page>
+               <pdf_index>1</pdf_index>
+            </p2>
+            <p3>
+               <decls_id>p3</decls_id>
+               <type>piece</type>
+               <title>The Library of Commerce</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>193-194</page>
+               <pdf_index>1</pdf_index>
+            </p3>
+            <p4>
+               <decls_id>p4</decls_id>
+               <type>piece</type>
+               <title>Popular Lectures on Astronomy</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>194</page>
+               <pdf_index>2</pdf_index>
+            </p4>
+            <p5>
+               <decls_id>p5</decls_id>
+               <type>piece</type>
+               <title>The World in a Pocket-Book</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>194</page>
+               <pdf_index>2</pdf_index>
+            </p5>
+            <p6>
+               <decls_id>p6</decls_id>
+               <type>piece</type>
+               <title>Imitation--Plagiarism--The Conclusion of Mr. Poe's Reply to the Letter of Outis</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>194-198</page>
+               <pdf_index>2</pdf_index>
+            </p6>
+         </pieces>
+      </s1>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>A Commission of Lunacy</title>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <page>198-199</page>
+         <pdf_index>6</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>Portrait of an Annexationist</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>200</page>
+         <pdf_index>8</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>The Art of the Use of Color in Imitation in Painting: No. VI</title>
+         <auth_id>wpage</auth_id>
+         <auth_name>William Page</auth_name>
+         <page>201-202</page>
+         <pdf_index>9</pdf_index>
+      </p9>
+      <p10>
+         <decls_id>p10</decls_id>
+         <type>piece</type>
+         <title>The Great Tower of Tarudant</title>
+         <auth_id>rcarter</auth_id>
+         <auth_name>Robert Carter</auth_name>
+         <page>202-203</page>
+         <pdf_index>10</pdf_index>
+      </p10>
+      <p11>
+         <decls_id>p11</decls_id>
+         <type>piece</type>
+         <title>The Universality of Human Emotions</title>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <page>203</page>
+         <pdf_index>11</pdf_index>
+      </p11>
+      <p12>
+         <decls_id>p12</decls_id>
+         <type>piece</type>
+         <title>The Theatre</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>203-205</page>
+         <pdf_index>11</pdf_index>
+      </p12>
+      <p13>
+         <decls_id>p13</decls_id>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>205-206</page>
+         <pdf_index>13</pdf_index>
+      </p13>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>N. Y. Vocal Society</title>
+         <auth_id>k</auth_id>
+         <auth_name>K.</auth_name>
+         <page>206</page>
+         <pdf_index>14</pdf_index>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
+         <title>Musical Review</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>206</page>
+         <pdf_index>14</pdf_index>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
+         <type>piece</type>
+         <title>Stodart and Dunham's Piano Forte Manufactory</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>206-207</page>
+         <pdf_index>14</pdf_index>
+      </p16>
+      <p17>
+         <decls_id>p17</decls_id>
+         <type>piece</type>
+         <title>Miscellany</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>207</page>
+         <pdf_index>15</pdf_index>
+      </p17>
+      <p18>
+         <decls_id>p18</decls_id>
+         <type>piece</type>
+         <title>A Mistake</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>207</page>
+         <pdf_index>15</pdf_index>
+      </p18>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>207-208</page>
+         <pdf_index>15</pdf_index>
+      </s2>
+   </toc>
+   <issueMeta>
+      <issueId>18450329</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>13</issueNum>
+      <issueDate>March 29, 1845</issueDate>
+      <issueListPerson>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <eapoe>
+            <personId>eapoe</personId>
+            <personName>Edgar Allan Poe</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </eapoe>
+         <hcwatson>
+            <personId>hcwatson</personId>
+            <personName>Henry Cood Watson</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </hcwatson>
+         <jbisco>
+            <personId>jbisco</personId>
+            <personName>John Bisco</personName>
+            <personIssueRole>Publisher</personIssueRole>
+         </jbisco>
+         <jdouglas>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </jdouglas>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>The Amber Witch</pieceTitle>
+            <piecePage>193</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>The Children of Mount Ida</pieceTitle>
+            <piecePage>193</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Library of Commerce</pieceTitle>
+            <piecePage>193-194</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Popular Lectures on Astronomy</pieceTitle>
+            <piecePage>194</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The World in a Pocket-Book</pieceTitle>
+            <piecePage>194</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>Imitation--Plagiarism--The Conclusion of Mr. Poe's Reply to the Letter of Outis</pieceTitle>
+            <piecePage>194-198</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as E. A. P..</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>A Commission of Lunacy</pieceTitle>
+            <piecePage>198-199</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing as Harry Franco..</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Portrait of an Annexationist</pieceTitle>
+            <piecePage>200</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Art of the Use of Color in Imitation in Painting: No. VI</pieceTitle>
+            <piecePage>201-202</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <wpage>
+                  <personName>William Page</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wpage>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>The Great Tower of Tarudant</pieceTitle>
+            <piecePage>202-203</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <rcarter>
+                  <personName>Robert Carter writing as Robert Oliver.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </rcarter>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The Universality of Human Emotions</pieceTitle>
+            <piecePage>203</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing as H. F..</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with low certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>The Theatre</pieceTitle>
+            <piecePage>203-205</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as P..</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>The Concert Room</pieceTitle>
+            <piecePage>205-206</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>N. Y. Vocal Society</pieceTitle>
+            <piecePage>206</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <k>
+                  <personName>K.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </k>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Musical Review</pieceTitle>
+            <piecePage>206</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Stodart and Dunham's Piano Forte Manufactory</pieceTitle>
+            <piecePage>206-207</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Miscellany</pieceTitle>
+            <piecePage>207</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>A Mistake</pieceTitle>
+            <piecePage>207</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>207-208</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+            <sectionListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </sectionListPerson>
+         </sectionMeta>
+      </s2>
+   </listBibl>
+</issue>
