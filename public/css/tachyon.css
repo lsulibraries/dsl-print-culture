@@ -1200,8 +1200,8 @@ canvas#pdf {
   border-right: 1px solid grey;
 }
 
-.roleFilter .active > div {
-  color: white;
+.roleFilter .active {
+    color: white!important;
 }
 
 /*BEGIN High Contrast Mode*/

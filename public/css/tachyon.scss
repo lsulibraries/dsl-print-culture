@@ -1208,10 +1208,9 @@ canvas#pdf {
   border-right: 1px solid grey;
 }
 
-.roleFilterEditor.active {
-    color: white;
+.roleFilter .active {
+    color: white!important;
 }
-
 
 
 /*BEGIN High Contrast Mode*/
