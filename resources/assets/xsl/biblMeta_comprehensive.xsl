@@ -78,7 +78,7 @@
     
     <xsl:template match="listBibl//bibl">
         <xsl:variable name="biblId" select="@xml:id"/>
-        <xsl:variable name="declsId" select="concat('#', $biblId)"/>
+        <xsl:variable name="textId" select="concat('#', $biblId)"/>
 
         <xsl:element name="{$biblId}">
             
@@ -161,6 +161,7 @@
     <xsl:template name="personMeta">
         <xsl:variable name="personId" select="substring-after(@ref, '#')"/>
         <xsl:variable name="personName" select="$personography//listPerson/person[@xml:id eq $personId]/persName[not(@type = 'pseudo')]"/>
+        <xsl:variable name="textId" select="concat('#', string(../@xml:id))"/>
         <xsl:element name="{$personId}">
             <personName>
                 <xsl:value-of select="$personName"/>
@@ -185,26 +186,28 @@
                 </xsl:if>
             </personName>
             <personPieceRole>Contributor</personPieceRole>
-            <authorShip>
-                <xsl:text>Authorship is </xsl:text>
-                <xsl:value-of select="@status"/>
-                <xsl:choose>
-                    <xsl:when test="@cert">
-                        <xsl:text>, with </xsl:text>
-                        <xsl:value-of select="@cert"/>
-                        <xsl:text> certainty.</xsl:text>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>.</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:if test="contains($bibl/note, 'ref=')">
-                    <xsl:text> (Reference: </xsl:text>
-                    <xsl:value-of
-                        select="substring-before(substring-after($bibl/note, 'ref=&quot;'), '&quot;)')"/>
-                    <xsl:text>)</xsl:text>
-                </xsl:if>
-            </authorShip>
+            <xsl:if test="@status != 'attested'">
+                <authorShip>
+                    <xsl:text>Authorship is </xsl:text>
+                    <xsl:value-of select="@status"/>
+                    <xsl:choose>
+                        <xsl:when test="@cert">
+                            <xsl:text>, with </xsl:text>
+                            <xsl:value-of select="@cert"/>
+                            <xsl:text> certainty.</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>.</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:if test="contains(../note, 'ref=')">
+                        <xsl:text> (Reference: </xsl:text>
+                        <xsl:value-of
+                            select="substring-before(substring-after(../note, 'ref=&quot;'), '&quot;)')"/>
+                        <xsl:text>)</xsl:text>
+                    </xsl:if>
+                </authorShip>
+            </xsl:if>
         </xsl:element>
     </xsl:template>
     
