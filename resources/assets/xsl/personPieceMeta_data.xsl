@@ -42,37 +42,49 @@
             </personId>
             <personName>
                 <xsl:value-of select="$authorName"/>
-            </personName>
-            <xsl:if test="@status='supplied' or @status='inferred'">
-                <xsl:if test="//text//div[@decls eq $textId]/byline/persName">
-                    <xsl:variable name="pseudo" select="//text//div[@decls eq $textId]/byline/persName"/>
-                    <personPiecePseudo>
-                        <xsl:for-each select="tokenize($pseudo,' ')">
-                            <xsl:value-of select="string-join((
-                                upper-case(substring(., 1, 1)),
-                                lower-case((substring(.,2)))),
-                                '')"/>
+
+                <xsl:if test="@status = 'supplied' or @status = 'inferred'">
+                    <xsl:if test="//text//div[@decls eq $textId]/byline/persName">
+                        <xsl:variable name="pseudo"
+                            select="//text//div[@decls eq $textId]/byline/persName"/>
+                        <xsl:text> writing as </xsl:text>
+                        <xsl:for-each select="tokenize($pseudo, ' ')">
+                            <xsl:value-of
+                                select="
+                                    string-join((
+                                    upper-case(substring(., 1, 1)),
+                                    lower-case((substring(., 2)))),
+                                    '')"/>
                             <xsl:if test="position() != last()">
                                 <xsl:text> </xsl:text>
                             </xsl:if>
                         </xsl:for-each>
-                    </personPiecePseudo>
+                        <xsl:text>.</xsl:text>
+                    </xsl:if>
                 </xsl:if>
-            </xsl:if>
+            </personName>
             <personPieceRole>
                 <xsl:text>Contributor</xsl:text>
             </personPieceRole>
+            
             <authorShip>
-                <authorStatus><xsl:value-of select="@status"/></authorStatus>
-                <xsl:if test="@cert">
-                    <authorCertainty><xsl:value-of select="@cert"/></authorCertainty>
-                </xsl:if>
-                <xsl:if test="contains($bibl/note,'ref=')">
-                    <authorReference>
-                        <xsl:text>(Reference: </xsl:text>
-                        <xsl:value-of select="substring-before(substring-after($bibl/note,'ref=&quot;'),'&quot;)')"/>
-                        <xsl:text>)</xsl:text>
-                    </authorReference>
+                <xsl:text>Authorship is </xsl:text>
+                <xsl:value-of select="@status"/>
+                <xsl:choose>
+                    <xsl:when test="@cert">
+                        <xsl:text>, with </xsl:text>
+                        <xsl:value-of select="@cert"/>
+                        <xsl:text> certainty.</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>.</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="contains($bibl/note, 'ref=')">
+                    <xsl:text> (Reference: </xsl:text>
+                    <xsl:value-of
+                        select="substring-before(substring-after($bibl/note, 'ref=&quot;'), '&quot;)')"/>
+                    <xsl:text>)</xsl:text>
                 </xsl:if>
             </authorShip>
         </xsl:element>
