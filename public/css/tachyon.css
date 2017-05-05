@@ -559,7 +559,7 @@ a.downloadLink {
 .downloadIcon {
   height: 100%;
   width: 30px;
-  border-right: 1px dashed white;
+  border-right: 1px solid white;
   background: #fe7251;
   color: white;
   justify-content: center;
@@ -686,7 +686,7 @@ span.searchHit {
 
 .issueHeader > .sectionMeta .sectionTitle {
   position: absolute;
-  left: 120px;
+  left: 270px;
   top: 6px;
   font-weight: 700;
 }
@@ -703,8 +703,17 @@ span.searchHit {
 }
 .issueHeader .issueDate {
   position: absolute;
-  top: 6px;
-  right: 140px;
+  left: 0px;
+  background: #474747;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  height: 18px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
 }
 .issueHeader .personMeta {
   float: left;
@@ -786,6 +795,9 @@ span.searchHit {
 }
 .issueHeader .personMeta .personRole {
   display: none;
+}
+.issueHeader .issueHeader > .issueMeta {
+  margin-left: 151px;
 }
 .issueHeader .issueHeader .pieceAuthor {
   font-size: 1.4em;
@@ -1167,6 +1179,10 @@ canvas#pdf {
   left: 4px;
   letter-spacing: .5px;
   position: relative;
+}
+
+.issueHeader > .issueMeta {
+  margin-left: 151px;
 }
 
 /*BEGIN High Contrast Mode*/
