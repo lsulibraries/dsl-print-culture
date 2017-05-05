@@ -1196,17 +1196,22 @@ canvas#pdf {
 }
 
 .roleFilter > div {
-    padding: 0px 15px 0px 15px;
-    font-size: 1.1em;
-    background: #474747;
-    color: white;
-    flex-grow: 1;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid grey;
+  padding: 0px 15px 0px 15px;
+  font-size: 1.1em;
+  background: #474747;
+    color: #989898;
+  flex-grow: 1;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid grey;
 }
+
+.roleFilterEditor.active {
+    color: white;
+}
+
 
 
 /*BEGIN High Contrast Mode*/
