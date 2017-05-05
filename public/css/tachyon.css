@@ -1179,6 +1179,27 @@ canvas#pdf {
   margin-left: 151px;
 }
 
+.roleFilter {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  height: 50px;
+  align-items: center;
+}
+
+.roleFilter > div {
+  padding: 0px 15px 0px 15px;
+  font-size: 1.1em;
+  background: #474747;
+  color: white;
+  flex-grow: 1;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid grey;
+}
+
 /*BEGIN High Contrast Mode*/
 .highContrast .contrastOff {
   background: white;
