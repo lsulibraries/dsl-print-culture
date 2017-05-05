@@ -158,19 +158,32 @@ Vue.component('personIndex', {
 
 Vue.component('personFilter', {
     template: `
+      <div class="peopleFilters">
 	<div class='personFilter'>
 	  <label for="personFilter" v-if="this.$root.state.contrast == 'high'">Filter people</label>
 	  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">
         </div>
+	<div class="roleFilter">
+        <div class="roleFilterContributor"     v-bind:class="{active: roleFilter == 'cont'}" @click="updateRoleFilter('cont')">Contributor</div>
+	  <div class="roleFilterMentioned"     v-bind:class="{active: roleFilter == 'ment'}" @click="updateRoleFilter('ment')">Mentioned</div>
+	  <div class="roleFilterEditor"        v-bind:class="{active: roleFilter == 'edit'}" @click="updateRoleFilter('edit')">Editor</div>
+	  <div class="roleFilterCorrespondent" v-bind:class="{active: roleFilter == 'corr'}" @click="updateRoleFilter('corr')">Correspondent</div>
+        </div>
+      </div>
 	`,
     methods: {
 	updateFilterString: function () {
 	    Event.$emit('filterStringUpdated', this.filterString)
+	},
+	updateRoleFilter: function (role) {
+	    this.roleFilter = role
+	    Event.$emit('filterRoleUpdated', this.roleFilter)
 	}
     },
     data() {
 	return {
-	    filterString: ''
+	    filterString: '',
+	    roleFilter: ''
 	}
     }
 })
@@ -199,6 +212,7 @@ Vue.component('person', {
 	return {
 	    showBibls: false,
 	    filterString: '',
+	    filterRole: false,
             activePerson: false
 	}
     },
@@ -214,18 +228,37 @@ Vue.component('person', {
             this.activePerson = !this.activePerson;
             },
 	passesFilter: function () {
+	    passesString = false
+	    passesRole   = false
+
 	    if(this.filterString.length < 1){
-		return true
+		passesString = true
 	    }
+	    
 	    if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
-		return true
+		passesString = true
 	    }
-	    return false
+
+	    if(!this.filterRole){
+		passesRole = true
+	    }
+	    if(this.filterRole && !this.$root.empty(this.person.personListBibl)){
+		for(bibl in this.person.personListBibl){
+		    if(bibl.personPieceMeta.personPieceRole == this.filterRole){
+			passesRole = true
+		    }
+		}
+	    }
+	    
+	    return passesString && passesRole
 	}
     },
     created() {
 	Event.$on('filterStringUpdated', (filterString) => {
 	    this.filterString = filterString
+	})
+	Event.$on('filterRoleUpdated', (filterRole) => {
+	    this.filterRole = filterRole
 	})
     }
 })
@@ -486,8 +519,13 @@ If the author is anonymous DO NOT provide certainty.`,
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
 	},
 	getPersonId: function() {
-	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)){
-		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceListPerson)[0]
+	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
+		if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
+		    return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
+		}
+	    }
+	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)){
+		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
 	    }
 	    return false
 	},
