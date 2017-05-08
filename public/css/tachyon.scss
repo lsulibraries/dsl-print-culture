@@ -1207,12 +1207,27 @@ canvas#pdf {
   justify-content: center;
   align-items: center;
   border-right: 1px solid grey;
+  cursor: pointer;
 }
 
 .roleFilter .active {
     color: white!important;
 }
 
+.contrast {
+    position: absolute;
+    right: 270px;
+    top: 3px;
+    background: white;
+    border: none!important;
+    padding: 5px 10px 5px 10px !important;
+}
+
+
+.footer {
+    padding: 20px;
+    background: #e9e9e9;
+}
 
 /*BEGIN High Contrast Mode*/
 
