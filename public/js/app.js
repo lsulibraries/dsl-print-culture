@@ -136,6 +136,8 @@ Vue.component('personography',{
     },
     template: `
         <div class="personography">
+	<h1>Personography</h1>
+	<div class="personographyAbout">Lorem ipsum</div>
 	  <personFilter></personFilter>
 	  <personIndex></personIndex>
         </div>
