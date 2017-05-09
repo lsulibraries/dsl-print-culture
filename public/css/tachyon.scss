@@ -532,6 +532,12 @@ button.searchSubmit {
   position: relative;
   .pieceTitle {
     font-size: 1.5em;
+    padding-top: 0px;
+    text-align: -webkit-left;
+    text-transform: none;
+    padding-left: 0px;
+    padding-bottom: 0px;    
+
   }
   margin-left: 7px;
   line-height: 15px;
@@ -1253,12 +1259,9 @@ h1{
     display: none;
 }
 
-.personography h1 {
+.personography h1{
     background: white;
-    padding: 20px 20px 0px 20px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
+    padding: 20px;
 }
 
 /*BEGIN High Contrast Mode*/
