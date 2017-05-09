@@ -136,6 +136,8 @@ Vue.component('personography',{
     },
     template: `
         <div class="personography">
+	<h1>Personography</h1>
+	<div class="personographyAbout">Lorem ipsum</div>
 	  <personFilter></personFilter>
 	  <personIndex></personIndex>
         </div>
@@ -283,10 +285,7 @@ Vue.component('biblPersonPieceMeta',{
     template: `
         <div class="personPieceMeta">
           <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
-	  <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">
-            <div class="authorStatus" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorStatus}}</div>
-            <div class="authorCertainty" v-if="hasUnusualAuthorship()">{{personPieceMeta.authorShip.authorCertainty}}</div>
-	  </div>
+          <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">{{personPieceMeta.authorShip}}</div>
         </div>
 	`,
     props: ['personPieceMeta'],
