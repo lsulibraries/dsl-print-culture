@@ -1215,12 +1215,12 @@ canvas#pdf {
 }
 
 .contrast {
-    position: absolute;
-    right: 270px;
-    top: 3px;
     background: white;
-    border: none!important;
+    font-size: 12px;
+    border: none !important;
     padding: 5px 10px 5px 10px !important;
+    flex-direction: row;
+    flex-grow: 2;
 }
 
 
@@ -1229,9 +1229,63 @@ canvas#pdf {
     background: #e9e9e9;
 }
 
+.contrastTitle {
+    margin-right: 8px;
+}
+
 /*BEGIN High Contrast Mode*/
 
 .highContrast {
+
+
+.roleFilter > div {
+    background: black;
+  }
+
+.singleIndex:nth-child(1) {
+    color: black;
+
+}
+.personBibl{
+  min-height: 88px;
+}
+.personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole, .personography .authorRole {
+    background: $document-text-color;
+  }
+
+.personIndex .person {
+    background: #ffffff;
+  }
+
+  .personIndex{
+
+.personBibl .issueVol, .personBibl .issueNum {
+    float: none;
+    background: #474747;
+}
+
+    .Contributing .personName  {
+    color: #474747;
+}
+
+.Mentioned .personRole, .Correspondent .personRole, .Contributing .personRole {
+    background: #474747;
+    color: #ffffff;
+}
+  }
+
+.singleIndex.activeMonth, .headerNav > .active, .headerNav > .active, .aboutToggle .active {
+    color: black;
+}
+
+.singleIndex.activeMonth{
+  background: none;
+}
+
+.childIndex, a.downloadLink{
+  background: $document-text-color;
+}
+
   .contrastOff {
     background: white;
     color: $document-text-color;
@@ -1243,6 +1297,14 @@ canvas#pdf {
   .content {
     font-size: 1.5em;
   }
+  .contrast, .downloadText{
+    font-size: 12px;
+  }
+
+.issueHeader .bibl {
+    margin-left: 160px;
+}
+
 }
 
 

@@ -1207,12 +1207,12 @@ canvas#pdf {
 }
 
 .contrast {
-  position: absolute;
-  right: 270px;
-  top: 3px;
   background: white;
+  font-size: 12px;
   border: none !important;
   padding: 5px 10px 5px 10px !important;
+  flex-direction: row;
+  flex-grow: 2;
 }
 
 .footer {
@@ -1220,7 +1220,46 @@ canvas#pdf {
   background: #e9e9e9;
 }
 
+.contrastTitle {
+  margin-right: 8px;
+}
+
 /*BEGIN High Contrast Mode*/
+.highContrast .roleFilter > div {
+  background: black;
+}
+.highContrast .singleIndex:nth-child(1) {
+  color: black;
+}
+.highContrast .personBibl {
+  min-height: 88px;
+}
+.highContrast .personography .authorCertainty, .highContrast .personography .authorStatus, .highContrast .personography .personPieceRole, .highContrast .personography .authorRole, .highContrast .personography .authorStatus, .highContrast .personography .personPieceRole, .highContrast .personography .authorRole {
+  background: #474747;
+}
+.highContrast .personIndex .person {
+  background: #ffffff;
+}
+.highContrast .personIndex .personBibl .issueVol, .highContrast .personIndex .personBibl .issueNum {
+  float: none;
+  background: #474747;
+}
+.highContrast .personIndex .Contributing .personName {
+  color: #474747;
+}
+.highContrast .personIndex .Mentioned .personRole, .highContrast .personIndex .Correspondent .personRole, .highContrast .personIndex .Contributing .personRole {
+  background: #474747;
+  color: #ffffff;
+}
+.highContrast .singleIndex.activeMonth, .highContrast .headerNav > .active, .highContrast .headerNav > .active, .highContrast .aboutToggle .active {
+  color: black;
+}
+.highContrast .singleIndex.activeMonth {
+  background: none;
+}
+.highContrast .childIndex, .highContrast a.downloadLink {
+  background: #474747;
+}
 .highContrast .contrastOff {
   background: white;
   color: #474747;
@@ -1231,6 +1270,12 @@ canvas#pdf {
 }
 .highContrast .content {
   font-size: 1.5em;
+}
+.highContrast .contrast, .highContrast .downloadText {
+  font-size: 12px;
+}
+.highContrast .issueHeader .bibl {
+  margin-left: 160px;
 }
 
 /*END High Contrast Mode*/

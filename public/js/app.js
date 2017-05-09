@@ -690,9 +690,9 @@ Vue.component('drawer', {
 Vue.component('logo', {
     template: `
 	<div class="logo" v-if="this.$root.state.active != 'issue'">
-	  <div class="logoThe">The</div>
+	  <h1><div class="logoThe">The</div>
 	  <div class="logoBroadway">Broadway</div>
-	  <div class="logoJournal">Journal</div>
+	  <div class="logoJournal">Journal</div></h1>
 	  <div class="logoSubtitle">A Digital Edition</div>
 	</div>
     `
