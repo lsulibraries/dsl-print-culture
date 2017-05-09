@@ -541,6 +541,7 @@ button.searchSubmit {
   text-align: -webkit-left;
   text-transform: none;
   padding-left: 0px;
+  padding-bottom: 0px;
 }
 
 a.downloadLink {
