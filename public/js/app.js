@@ -36,14 +36,16 @@ Vue.component('vue-header',{
         <div class="header">
        	  <headerTitle></headerTitle>
 	  <headerNav></headerNav>
-
-          <div class="contrast" @click='toggleContrast'>
+<!--
+      <div class="contrast" @click='toggleContrast'>
         <div class="contrastTitle">High Contrast</div>
         <div class="contrastSwitch">
           <div class="contrastOff">Off</div>
           <div class="contrastOn">On</div>
         </div>
       </div>
+-->	
+	
           <div class="searchInput">
 	    <label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
             <button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -96,7 +98,7 @@ Vue.component('headerNav',{
     },
     template: `
 	<div class='headerNav'>
-	  <div v-bind:class="{active: this.content == 'issues'}" @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i> Issues</div>
+	  <div v-bind:class="{active: this.content == 'issues'}" @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i>Read Issues</div>
 	<div v-bind:class="{active: this.content == 'personography'}" @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>Authors</div>
         <div v-bind:class="{active: this.content == 'abouts'}" @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>About</div>
 	</div>
@@ -136,12 +138,35 @@ Vue.component('personography',{
     },
     template: `
         <div class="personography">
-	<h1>Personography</h1>
+	<h1>Authors</h1>
 	<div class="personographyAbout">Lorem ipsum</div>
+	  <personographyDescription></personographyDescription>
 	  <personFilter></personFilter>
 	  <personIndex></personIndex>
         </div>
     `
+})
+
+Vue.component('personographyDescription', {
+    template: `
+	<div class="personographyDiscription">
+          <div class="personographyDiscriptionHeader" v-html="this.personographyDescription"></div>
+	  <div class="personographyDiscriptionText" ></div>
+        </div>
+	`,
+    data() {
+	return {
+	    personographyDescription: this.$root.xhrDataStore.abouts.personographyDescription
+	}
+    },
+    created() {
+	if(this.$root.xhrDataStore.abouts.personographyDescription.length > 1){
+	    this.aboutText = this.$root.xhrDataStore.abouts.personographyDescription
+	}else{
+	    url = '/api/broadwayjournal/abouts/personographyDescription'
+	    axios.get(url).then(response => this.personographyDescription = response.data);
+	}
+    }
 })
 
 Vue.component('personIndex', {
@@ -196,7 +221,11 @@ Vue.component('personMeta', {
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
-          <div class="personViaf"><a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a></div>
+          <div class="personViaf">
+	    <!--
+	    <a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a>
+	    -->
+          </div>
         </div>
 	`,
     props: ['personMeta']
@@ -284,7 +313,9 @@ Vue.component('biblSectionMeta', {
 Vue.component('biblPersonPieceMeta',{
     template: `
         <div class="personPieceMeta">
+<!--
           <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
+	-->
           <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">{{personPieceMeta.authorShip}}</div>
         </div>
 	`,
@@ -479,7 +510,7 @@ If the author is anonymous DO NOT provide certainty.`,
             <div class="issue">
               <a class="downloadLink" v-bind:href='stateHref()'>
                 <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
-                <div class="downloadText">Download {{this.dlLabel()}}</div>
+                <div class="downloadText">View {{this.dlLabel()}}</div>
               </a>
               <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
             </div>
@@ -1468,6 +1499,8 @@ new Vue({
 	axios.get('/api/broadwayjournal/abouts/credits').then(response => this.xhrDataStore.abouts.credits = response.data);
 	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
 	axios.get('/api/broadwayjournal/abouts/tech').then(response => this.xhrDataStore.abouts.tech = response.data);
+	axios.get('/api/broadwayjournal/abouts/personography').then(response => this.xhrDataStore.abouts.personographyDescription = response.data);
+
 	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => this.xhrDataStore.personography = response.data);
 
 	axios.get('/api/all-issues/json').then((response) => {
