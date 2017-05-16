@@ -17,7 +17,7 @@
     </xsl:template>
 
     <xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/> 
-    <!-- <xsl:variable name="teiIssues" select="collection('test_issues')"/> -->
+    <!-- <xsl:variable name="teiIssues" select="collection('test_issues')"/> --> 
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
@@ -71,7 +71,7 @@
                     </xsl:for-each>
                     <xsl:if test="@role">
                         <personRole>
-                            <xsl:value-of select="replace(@role, 'Author', '')"/>
+                            <xsl:value-of select="replace(replace(@role, 'Contributing', 'Contributor'),'Author','')"/>
                         </personRole>
                     </xsl:if>
                     <xsl:if test="persName/@ref">
