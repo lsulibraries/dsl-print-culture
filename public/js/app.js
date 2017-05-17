@@ -316,11 +316,20 @@ Vue.component('biblPersonPieceMeta',{
 <!--
           <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
 	-->
-          <div class="authorShip" v-if="!this.$root.empty(personPieceMeta.authorShip)">{{personPieceMeta.authorShip}}</div>
+          <div class="authorShip" v-if="showAuthorship()">{{personPieceMeta.authorShip}}</div>
         </div>
 	`,
     props: ['personPieceMeta'],
     methods: {
+	showAuthorship: function () {
+	    hasValue     = !this.$root.empty(this.personPieceMeta.authorShip)
+	    rightContext = this.$root.state.activeContent == 'issues'
+	    console.log(rightContext)
+	    if(rightContext && hasValue){
+		return true
+	    }
+	    return false
+	},
 	hasUnusualAuthorship: function () {
 	    attested = this.personPieceMeta.authorShip.authorStatus == 'attested'
 	    totallyCertain = this.personPieceMeta.authorShip.authorCertainty == 'high'
@@ -512,17 +521,20 @@ If the author is anonymous DO NOT provide certainty.`,
                 <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
                 <div class="downloadText">View {{this.dlLabel()}}</div>
               </a>
-              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
+              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
             </div>
-            <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
+            <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta() && !pdfMode()"></personMeta>
             <div class="issueData"></div>
-            <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
-            <div class="authorShipLegend">{{this.authorShipLegend}}</div>
-	      <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"></drawer>
+            <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta() && !pdfMode()"></biblPersonPieceMeta>
+            <div class="authorShipLegend" v-if="!pdfMode()">{{this.authorShipLegend}}</div>
+            <drawer v-if="this.getPersonId() && !pdfMode()" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"></drawer>
             </div>
         </div>
 	`,
     methods: {
+	pdfMode: function () {
+	    return this.$root.state.content.issue.viewer == 'pdf'
+	},
 	haveData: function() {
 	    empty = this.$root.empty
 	    if(empty(this.issueHeaderData)){
