@@ -229,7 +229,9 @@
                                 <xsl:text> </xsl:text>
                             </xsl:if>
                         </xsl:for-each>
-                        <xsl:text>.</xsl:text>
+                        <xsl:if test="not(ends-with($pseudo, '.'))">
+                            <xsl:text>.</xsl:text>
+                        </xsl:if>
                     </xsl:if>
                 </xsl:if>
             </personName>
