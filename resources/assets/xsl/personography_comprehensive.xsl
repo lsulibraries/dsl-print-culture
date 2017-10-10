@@ -345,12 +345,12 @@
                                     <xsl:text>.</xsl:text>
                                 </xsl:otherwise>
                             </xsl:choose>
-                            <xsl:if test="contains($biblMeta/note, 'ref=')">
+                            <!--<xsl:if test="contains($biblMeta/note, 'ref=')">
                                 <xsl:text> (Reference: </xsl:text>
                                 <xsl:value-of
                                     select="substring-before(substring-after($biblMeta/note, 'ref=&quot;'), '&quot;)')"/>
                                 <xsl:text>)</xsl:text>
-                            </xsl:if>
+                            </xsl:if>-->
                         </authorShip>
                     </xsl:if>
                 </xsl:if>
