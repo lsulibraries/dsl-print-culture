@@ -7,6 +7,7 @@
 
     <xsl:variable name="personography" select="document('personography.xml')"/>
 
+    <!-- for each issue, generate a table of contents, followed by issue level metadata, followed by a list of section and piece metadata -->
     <xsl:template match="/">
         <issue>
             <toc>
@@ -19,12 +20,14 @@
         </issue>
     </xsl:template>
 
+    <!-- call the template for table of contents -->
     <xsl:template match="listBibl" mode="toc">
         <xsl:for-each select="bibl">
             <xsl:call-template name="tocBibl"/>
         </xsl:for-each>
     </xsl:template>
     
+    <!-- construct table of contents entry for each section and piece with available data -->
     <xsl:template name="tocBibl">
         <xsl:variable name="biblId" select="@xml:id"/>
         <xsl:element name="{$biblId}">
@@ -66,6 +69,7 @@
         </xsl:element>
     </xsl:template>
     
+    <!-- get issue-level metadata from sourceDesc in header -->
     <xsl:template match="sourceDesc/bibl">
         <issueMeta>
             <issueId>
@@ -126,11 +130,13 @@
         </issueMeta>
     </xsl:template>
     
+    <!-- get section- and piece-level metadata from listBibl in header-->
     <xsl:template match="listBibl//bibl" mode="listBibl">
         <xsl:variable name="biblId" select="@xml:id"/>
         
         <xsl:element name="{$biblId}">
             
+            <!-- get section metadata when the bibl is a section -->
             <xsl:if test="@type = 'section'">
                 <sectionMeta>
                     <sectionId>
@@ -157,8 +163,10 @@
                 </sectionMeta>
             </xsl:if>
             
+            <!-- get piece metadata when the bibl is a piece -->
             <xsl:if test="@type = 'piece'">
                 <xsl:choose>
+                    <!-- get the parent section's metadata -->
                     <xsl:when test="parent::bibl">
                         <xsl:variable name="parentSectionMeta" select="parent::bibl"/>
                         <sectionMeta>
@@ -206,6 +214,8 @@
         </xsl:element>
     </xsl:template>
     
+    <!-- call personography to construct statements about relationships between bibls and people;
+    currently only for contributors of a piece, not mentioned persons-->
     <xsl:template name="personMeta">
         <xsl:variable name="personId" select="substring-after(@ref, '#')"/>
         <xsl:variable name="personName" select="$personography//listPerson/person[@xml:id eq $personId]/persName[not(@type = 'pseudo')]"/>
@@ -213,6 +223,9 @@
         <xsl:element name="{$personId}">
             <personName>
                 <xsl:value-of select="$personName"/>
+                
+                <!-- if authorship is supplied or inferred and a pseudonym appears in the byline, 
+                        construct pseudonym statement, else an anonymity statement -->
                 <xsl:if test="@status = 'supplied' or @status = 'inferred'">
                     <xsl:choose>
                         <xsl:when test="//text//div[@decls eq $textId]/byline/persName">
@@ -241,6 +254,8 @@
                 </xsl:if>
             </personName>
             <personPieceRole>Contributor</personPieceRole>
+            
+            <!-- if authorship is not attested, construct authorship statement -->
             <xsl:if test="@status != 'attested'">
                 <authorShip>
                     <xsl:text>Authorship is </xsl:text>
@@ -266,6 +281,7 @@
         </xsl:element>
     </xsl:template>
     
+    <!-- get absolute page number or numbers -->
     <xsl:template name="getPage">
         <xsl:if test="@from">
             <xsl:value-of select="@from"/>
@@ -277,6 +293,7 @@
         </xsl:if>
     </xsl:template>
     
+    <!-- get relative page number or numbers within individual issue PDF -->
     <xsl:template name="getPdfIndex">
         <xsl:variable name="page1">
             <xsl:if test="//bibl[@xml:id = 'p1']/biblScope/@from">
