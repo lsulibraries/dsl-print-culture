@@ -17,12 +17,13 @@
     </xsl:template>
 
     <xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/> 
-    <!-- <xsl:variable name="teiIssues" select="collection('test_issues')"/> --> 
+    <!--<xsl:variable name="teiIssues" select="collection('test_issues')"/> -->
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
 
             <xsl:variable name="personId" select="@xml:id"/>
+            
             <xsl:variable name="totalcontribs">
                 <xsl:for-each-group select="$teiIssues//listBibl//author" group-by="@ref">
                     <xsl:if test="substring-after(@ref, '#') eq $personId">
@@ -45,9 +46,16 @@
                         <xsl:value-of select="$personId"/>
                     </personId>
                     <personName>
-                        <xsl:value-of select="persName[not(@type = 'pseudo')]"/>
+                        <xsl:value-of select="persName[not(@type = 'pseudo')]/text()"/>
                     </personName>
-                    <personInit>
+                    <xsl:if test="persName/roleName">
+                        <personRoleName>
+                            <xsl:value-of select="persName/roleName"/>
+                        </personRoleName>
+                    </xsl:if>
+
+                    <!-- get initials for person -->
+                    <!--<personInit>
                         <xsl:for-each select="tokenize(persName[not(@type = 'pseudo')], '\s')">
                             <xsl:choose>
                                 <xsl:when test="matches(., 'Sir')"/>
@@ -63,7 +71,8 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>
-                    </personInit>
+                    </personInit>-->
+
                     <xsl:for-each select="persName[@type = 'pseudo']">
                         <personPseudo>
                             <xsl:value-of select="."/>
@@ -71,7 +80,9 @@
                     </xsl:for-each>
                     <xsl:if test="@role">
                         <personRole>
-                            <xsl:value-of select="replace(replace(@role, 'Contributing', 'Contributor'),'Author','')"/>
+                            <xsl:value-of
+                                select="replace(replace(@role, 'Contributing', 'Contributor'), 'Author', '')"
+                            />
                         </personRole>
                     </xsl:if>
                     <xsl:if test="persName/@ref">
@@ -80,7 +91,7 @@
                         </personViaf>
                     </xsl:if>
 
-                    <xsl:if test="birth or death or affiliation">
+                    <xsl:if test="birth or death">
                         <personBio>
                             <xsl:if test="birth">
                                 <personBirth>
@@ -114,16 +125,26 @@
                                     <xsl:text>.</xsl:text>
                                 </personDeath>
                             </xsl:if>
-                            <xsl:if test="../@type = 'ProjectStaff'">
+                        </personBio>
+                    </xsl:if>
+                            
+                        <xsl:if test="../@type = 'ProjectStaff'">
+                            <xsl:if test="affiliation">
                                 <personAffiliation>
-                                    <xsl:value-of select="affiliation"/>
+                                    <xsl:value-of select="affiliation/text()"/>
                                 </personAffiliation>
+                                <xsl:if test="affiliation/orgName">
+                                    <personOrg>
+                                        <xsl:value-of select="affiliation/orgName"/>
+                                    </personOrg>
+                                </xsl:if>
+                            </xsl:if>
+                            <xsl:if test="note">
                                 <personNote>
                                     <xsl:value-of select="note"/>
                                 </personNote>
                             </xsl:if>
-                        </personBio>
-                    </xsl:if>
+                        </xsl:if>
 
                     <xsl:if test="string-length($totalcontribs) != 0">
                         <personTotalContrib>
