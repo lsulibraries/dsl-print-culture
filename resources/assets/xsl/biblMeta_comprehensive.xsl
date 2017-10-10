@@ -214,25 +214,30 @@
             <personName>
                 <xsl:value-of select="$personName"/>
                 <xsl:if test="@status = 'supplied' or @status = 'inferred'">
-                    <xsl:if test="//text//div[@decls eq $textId]/byline/persName">
-                        <xsl:variable name="pseudo"
-                            select="//text//div[@decls eq $textId]/byline/persName"/>
-                        <xsl:text> writing as </xsl:text>
-                        <xsl:for-each select="tokenize($pseudo, ' ')">
-                            <xsl:value-of
-                                select="
-                                string-join((
-                                upper-case(substring(., 1, 1)),
-                                lower-case((substring(., 2)))),
-                                '')"/>
-                            <xsl:if test="position() != last()">
-                                <xsl:text> </xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="//text//div[@decls eq $textId]/byline/persName">
+                            <xsl:variable name="pseudo"
+                                select="//text//div[@decls eq $textId]/byline/persName"/>
+                            <xsl:text> writing as </xsl:text>
+                            <xsl:for-each select="tokenize($pseudo, ' ')">
+                                <xsl:value-of
+                                    select="
+                                        string-join((
+                                        upper-case(substring(., 1, 1)),
+                                        lower-case((substring(., 2)))),
+                                        '')"/>
+                                <xsl:if test="position() != last()">
+                                    <xsl:text> </xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                            <xsl:if test="not(ends-with($pseudo, '.'))">
+                                <xsl:text>.</xsl:text>
                             </xsl:if>
-                        </xsl:for-each>
-                        <xsl:if test="not(ends-with($pseudo, '.'))">
-                            <xsl:text>.</xsl:text>
-                        </xsl:if>
-                    </xsl:if>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text> writing anonymously.</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:if>
             </personName>
             <personPieceRole>Contributor</personPieceRole>

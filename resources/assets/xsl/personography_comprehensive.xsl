@@ -305,29 +305,36 @@
                 <xsl:if test="self::author">
                     <personPieceRole>Contributor</personPieceRole>
                     
-                    <!-- if authorship is supplied or inferred and a pseudonym appears in the byline, construct pseudonym statement -->
+                    <!-- if authorship is supplied or inferred and a pseudonym appears in the byline, 
+                        construct pseudonym statement, else an anonymity statement -->
                     <xsl:if test="@status = 'supplied' or @status = 'inferred'">
-                        <xsl:if test="//text//div[@decls eq $textId]/byline/persName">
-                            <xsl:variable name="pseudo"
-                                select="//text//div[@decls eq $textId]/byline/persName"/>
-                            <personPiecePseudo>
-                                <xsl:text>Writing as </xsl:text>
-                                <xsl:for-each select="tokenize($pseudo, ' ')">
-                                    <xsl:value-of
-                                        select="
-                                            string-join((
-                                            upper-case(substring(., 1, 1)),
-                                            lower-case((substring(., 2)))),
-                                            '')"/>
-                                    <xsl:if test="position() != last()">
-                                        <xsl:text> </xsl:text>
+                        <personPiecePseudo>
+                            <xsl:choose>
+                                <xsl:when test="//text//div[@decls eq $textId]/byline/persName">
+                                    <xsl:variable name="pseudo"
+                                        select="//text//div[@decls eq $textId]/byline/persName"/>
+
+                                    <xsl:text>Writing as </xsl:text>
+                                    <xsl:for-each select="tokenize($pseudo, ' ')">
+                                        <xsl:value-of
+                                            select="
+                                                string-join((
+                                                upper-case(substring(., 1, 1)),
+                                                lower-case((substring(., 2)))),
+                                                '')"/>
+                                        <xsl:if test="position() != last()">
+                                            <xsl:text> </xsl:text>
+                                        </xsl:if>
+                                    </xsl:for-each>
+                                    <xsl:if test="not(ends-with($pseudo, '.'))">
+                                        <xsl:text>.</xsl:text>
                                     </xsl:if>
-                                </xsl:for-each>
-                                <xsl:if test="not(ends-with($pseudo, '.'))">
-                                    <xsl:text>.</xsl:text>
-                                </xsl:if>
-                            </personPiecePseudo>
-                        </xsl:if>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>Writing anonymously.</xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </personPiecePseudo>
                     </xsl:if>
                     
                     <!-- if authorship is not attested, construct authorship statement -->
