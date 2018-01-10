@@ -433,7 +433,7 @@ button.searchSubmit {
 
 .personography::before {
   background: black;
-  content: 'Personography';
+  content: 'Authors';
   width: 10px;
   color: white;
   word-wrap: break-word;
