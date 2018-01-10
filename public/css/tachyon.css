@@ -16,6 +16,13 @@ body {
   color: #474747;
 }
 
+#infoFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
 .header {
   display: -webkit-box;
   display: -moz-box;

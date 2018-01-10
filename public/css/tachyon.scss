@@ -68,6 +68,13 @@ body {
   color: $document-text-color;
 }
 
+#infoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
 .header {
   @include flexbox;
   position: relative;
