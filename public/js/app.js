@@ -197,6 +197,7 @@ Vue.component('personFilter', {
 	  <div class="roleFilterMentioned"     v-bind:class="{active: roleFilter == 'ment'}" @click="updateRoleFilter('ment')">Mentioned</div>
 	  <div class="roleFilterEditor"        v-bind:class="{active: roleFilter == 'edit'}" @click="updateRoleFilter('edit')">Editor</div>
 	  <div class="roleFilterCorrespondent" v-bind:class="{active: roleFilter == 'corr'}" @click="updateRoleFilter('corr')">Correspondent</div>
+	  <div class="numberFilterContributions" v-bind:class="{active: numFilter == 'num'}" @click="updateRoleFilter('num')">Contribution Number</div>
         </div>
       </div>
 	`,
@@ -220,6 +221,7 @@ Vue.component('personMeta', {
     template: `
 	<div class="personMeta">
 	  <div class="personName">{{personMeta.personName}}</div>
+	  <div v-if="this.$root.state.activeContent == 'personography'" class="personTotalContrib">{{personMeta.personTotalContrib}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
           <div class="personViaf">
 	    <!--
