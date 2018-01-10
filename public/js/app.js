@@ -440,7 +440,6 @@ Vue.component('searchResult',{
 Vue.component('issueViewer',{
     template: `
 	<div class="viewer">
-	  <transition name="fade"><pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer></transition>
 	  <transition name="fade"><tei-markup v-if="viewer == 'text'"></tei-markup></transition>
 	</div>
 	`,
@@ -823,45 +822,6 @@ Vue.component('creditsPerson', {
     props: ['person']
 })
 
-Vue.component('viewerSelector',{
-    created(){
-    	Event.$on('viewerSelected', (viewer) =>{
-	    this.active = viewer
-    	})
-
-    },
-    template: `
-	<div class='viewerSelector' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">
-          <div class="viewerTitle">Toggle View</div>
-          <div class="viewerSwitch">
-            <div class="viewerText">
-              <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
-              <div class="viewerTextLabel">Text</div>
-            </div>
-            <div class="viewerPdf">
-              <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
-              <div class="viewerPdfLabel">PDF</div>
-            </div>
-          </div>
-	</div>
-	`,
-    methods: {
-	isActive: function(viewerType){
-	    return viewerType == this.active
-	},
-	toggleViewer: function(){
-	    this.pdfSelected = !this.pdfSelected
-	    this.active = this.active == 'pdf' ? 'text' : 'pdf'
-	    Event.$emit('viewerSelected', this.active)
-	}
-    },
-    data(){
-	return {
-	    active: this.$root.state.content.issue.viewer,
-	    pdfSelected: false
-	}
-    }
-});
 
 Vue.component('viewerSelectorButton',{
 	data(){
@@ -1062,7 +1022,6 @@ Vue.component('pdf-viewer',{
       <div id="pdf-viewer" class="pdf-viewer">
 	<button class="next-page" @click="changePage('prev')">Prev Page</button>
 	<button class="next-page" @click="changePage('next')">Next Page</button>
-	<canvas id="pdf" class="pdf-canvas"></canvas>
       </div>
 	`,	//<zoom-slider></zoom-slider>
     methods: {
