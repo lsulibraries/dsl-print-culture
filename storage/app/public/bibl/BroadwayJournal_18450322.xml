@@ -9,7 +9,7 @@
             <p1>
                <decls_id>p1</decls_id>
                <type>piece</type>
-               <title>Eothen, or Traces of Travel Brought Home from the East</title>
+               <title>Eӧthen, or Traces of Travel Brought Home from the East</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>177-178</page>
@@ -335,14 +335,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p1</pieceId>
-            <pieceTitle>Eothen, or Traces of Travel Brought Home from the East</pieceTitle>
+            <pieceTitle>Eӧthen, or Traces of Travel Brought Home from the East</pieceTitle>
             <piecePage>177-178</piecePage>
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -359,7 +359,7 @@
             <piecePdfIndex>2</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is inferred, with high certainty.</authorShip>
                </eapoe>
@@ -378,9 +378,9 @@
             <piecePdfIndex>6</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -397,9 +397,9 @@
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -416,9 +416,9 @@
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -435,9 +435,9 @@
             <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -454,9 +454,9 @@
             <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -473,9 +473,9 @@
             <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -530,9 +530,9 @@
             <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -545,7 +545,7 @@
             <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <ecembury>
-                  <personName>Emma Catherine Embury</personName>
+                  <personName>Emma Catherine Embury writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is inferred, with high certainty.</authorShip>
                </ecembury>
@@ -682,7 +682,7 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <hcwaton>
-                  <personName/>
+                  <personName> writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </hcwaton>
@@ -701,7 +701,7 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <hcwaton>
-                  <personName/>
+                  <personName> writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </hcwaton>
@@ -716,7 +716,7 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <hcwatson>
-                  <personName>Henry Cood Watson</personName>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </hcwatson>
@@ -731,7 +731,7 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <hcwatson>
-                  <personName>Henry Cood Watson</personName>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </hcwatson>
@@ -756,9 +756,9 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -775,9 +775,9 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -813,9 +813,9 @@
             <piecePdfIndex>15</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -828,7 +828,7 @@
             <piecePdfIndex>15</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </cfbriggs>

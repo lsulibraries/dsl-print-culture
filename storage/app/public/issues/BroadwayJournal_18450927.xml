@@ -2,14 +2,21 @@
    <div class="issueId">18450927</div>
    <div class="front">
       
-      <div class="ab">
-         <br></br>THE BROADWAY JOURNAL.
+      <div class="ab">THE BROADWAY JOURNAL.
          
-         <br></br>VOL. 2. NEW YORK, SATURDAY, SEPTEMBER 27, 1845. NO. 12.
+         <br></br>VOL. 2.     NEW YORK, SATURDAY, SEPTEMBER 27, 1845.     NO. 12.
          
-         <br></br>Three Dollars per Annum.   Single Copies, 6 1-4 Cents.
-         Edited by EDGAR A. POE AND HENRY C. WATSON.
-         Published at 135 Nassau St. By JOHN BISCO.
+         <br></br>Three Dollars per Annum.   
+         
+         <br></br>Single Copies, 6 1-4 Cents.
+         
+         <br></br>Edited by 
+         
+         <br></br>EDGAR A. POE AND HENRY C. WATSON.
+         
+         <br></br>Published at 135 Nassau St. 
+         
+         <br></br>By JOHN BISCO.
       </div>        
       
    </div>
@@ -109,19 +116,15 @@
          
          <div class="head">Ligeia.</div>
          
-         <div class="cit">
-            <span class="quote">
-               <p>And the will therein lieth, which dieth not. Who knoweth the mysteries of
-                  the will, with its vigor? For God is but a great will pervading all things by
-                  nature of its intentness. Man doth not yield himself to the angels, nor unto
-                  death utterly, save only through the weakness of his feeble will.
-               </p>
-            </span>
+         <div class="ab">And the will therein lieth, which dieth not. Who knoweth the mysteries of
             
-            <div class="bibl">
-               <span class="person">JOSEPH GLANVILL.</span>
-               
-            </div>
+            <br></br>the will, with its vigor? For God is but a great will pervading all things by
+            
+            <br></br>nature of its intentness. Man doth not yield himself to the angels, nor unto
+            
+            <br></br>death utterly, save only through the weakness of his feeble will.
+            
+            <span class="person">JOSEPH GLANVILL.</span>
          </div>
          
          <p>I cannot, for my soul, remember how, when, or even precisely where, I first became acquainted with the lady
@@ -512,7 +515,8 @@
             the most jetty black. But these figures partook of the
             true character of the arabesque only when regarded from
             a single point of view. By a contrivance now common,
-            and indeed traceable to a very remote period of antiquity, they were made changeable in aspect. To one enter
+            and indeed traceable to a very remote period of antiqui- ty, they were made changeable
+            in aspect. To one enter
             ing the room, they bore the appearance of simple monstrosities; but upon a farther advance, this appearance
             gradually departed; and step by step, as the visiter moved his station in the chamber, he saw himself surrounded
             by an endless succession of the ghastly forms which belong to the superstition of the Norman, or arise in the
@@ -691,7 +695,7 @@
             time after time, until near the period of the gray dawn,
             this hideous drama of revivication was repeated; how
             each terrific relapse was only into a sterner and apparently
-            more irredeemable death ; how each agony wore the aspect of a struggle with some invisible foe; and how each
+            more irredeemable death; how each agony wore the aspect of a struggle with some invisible foe; and how each
             struggle was succeeded by I know not what of wild
             change in the personal appearance of the corpse? Let
             me hurry to a conclusion.
@@ -1031,7 +1035,7 @@
             
             <p>When Dr. Griswold, in conclusion, terms Milton “the
                greatest of all human beings,” we really do think that
-               he should have appended the words—“ in the opinion, at
+               he should have appended the words—“in the opinion, at
                least, of Dr. Griswold.”
             </p>
             
@@ -1091,7 +1095,7 @@
          </div> 
          
          <div class="piece" id="#p6">
-            <div class="biblTitle">Puratinism: or a Churchman's Defence Against Its Aspersions</div>
+            <div class="biblTitle">Puratinism</div>
             <div class="biblPage">178</div> 
             
             <p>Puritanism: or a Churchman's Defence against its Aspersions, by an Appeal to its own History. By Thomas
@@ -1114,7 +1118,7 @@
          </div>
          
          <div class="piece" id="#p7">
-            <div class="biblTitle">The Medici Series of Italian Prose, No. IV</div>
+            <div class="biblTitle">The Medici Series of Italian Prose</div>
             <div class="biblPage">178</div> 
             
             <p>The Medici Series of Italian Prose, No. IV. The Citizen of a Republic, by Ansaldo Ceba. Translated and
@@ -1283,7 +1287,7 @@
          </div>            
          
          <div class="piece" id="#p12">
-            <div class="biblTitle">The May-Flower, for 1846</div>
+            <div class="biblTitle">The May-Flower</div>
             <div class="biblPage">179</div> 
             
             <p>The May-Flower, for 1846. Edited by Robert Hamilton.
@@ -1342,7 +1346,7 @@
             <p>Some other improvements have been effected; as regards for example, the arrangement of matter; and the
                work, upon the whole, cannot fail to be highly acceptable
                to the admirers of Dr. Arnold. It is indeed an indispensable sequel to the “Life and Correspondence” and the
-               “ Lectures on Modern History.”
+               “Lectures on Modern History.”
             </p>
          </div>
          
@@ -1468,16 +1472,15 @@
                in Sacred Story. By Henry Mellvill, D. D., Principal
                of the East India College, etc. Second Series.——These
                works will be noticed more fully in our next—when we
-               shall also speak of the Aristidean ; of Simms’ Magazine
-               for September; of Godey and Graham for October, and of
-               the New-York Illustrated Magazine, edited by L. Labree, of which the second number is just issued.
+               shall also speak of the Aristidean; of Simms’ Magazine
+               for September; of Godey and Graham for October, and ofthe New-York Illustrated Magazine, edited by L. Labree, of which the second number is just issued.
             </p>
          </div>
       </div>
       
-      <div class="piece" id="#p5">
-         <div class="biblTitle">Big Abel and the Little Manhattan</div>
-         <div class="biblPage">177</div> 
+      <div class="piece" id="#p19">
+         <div class="biblTitle">The Fairy's Burial</div>
+         <div class="biblPage">180</div> 
          
          <div class="head">The Fairy's Burial</div>
          
@@ -1584,288 +1587,296 @@
          </div>
       </div>
       
-      <div class="piece" id="#p20">
-         <div class="biblTitle">Musical Department</div>
-         <div class="biblPage">180</div> 
+      <div class="section" id="#s3">
+         <div class="biblTitle">Musical Department</div> 
          
          <div class="head">Musical Department.</div>
          
-         <p>ORATORIO OF THE SEVEN SLEEPERS.—The Tabernacle
-            was densely crowded on Thursday evening, the 18th inst.
-            We have rarely seen so large an audience gathered together; there must have been over three thousand persons present. The production of an Oratorio, by a composer of great merit, for the first time in this country,
-            could scarcely fail to attract much attention among the
-            people generally, but more especially among the lovers
-            of fine Sacred Music, of which there is a large class in
-            and about the city. More than ordinary attention, however, was given to the announcement of the forthcoming
-            work, from the fact that the gentleman under whose direction it was to be produced, was known to be always
-            the most forward in the cause of sterling music, and had
-            proved himself, beyond a doubt, the most competent leader in the country. Every confidence was therefore placed
-            upon his skill and judgment, and the public went to the
-            Tabernacle, fully assured that they would meet with an
-            intellectual entertainment. Their expectations were fulfilled.
-         </p>
-         
-         <p>The following is a cast of the characters:</p>
-         
-         <div class="ab">Antipater, (Proconsul at Ephesus,)         Mr. S. Pearson.
+         <div class="piece" id="#p20">
+            <div class="biblTitle">Oratorio of the Seven Sleepers</div>
+            <div class="biblPage">180</div>
+            <p>ORATORIO OF THE SEVEN SLEEPERS.—The Tabernacle
+               was densely crowded on Thursday evening, the 18th inst.
+               We have rarely seen so large an audience gathered together; there must have been over three thousand persons present. The production of an Oratorio, by a composer of great merit, for the first time in this country,
+               could scarcely fail to attract much attention among the
+               people generally, but more especially among the lovers
+               of fine Sacred Music, of which there is a large class in
+               and about the city. More than ordinary attention, however, was given to the announcement of the forthcoming
+               work, from the fact that the gentleman under whose direction it was to be produced, was known to be always
+               the most forward in the cause of sterling music, and had
+               proved himself, beyond a doubt, the most competent leader in the country. Every confidence was therefore placed
+               upon his skill and judgment, and the public went to the
+               Tabernacle, fully assured that they would meet with an
+               intellectual entertainment. Their expectations were fulfilled.
+            </p>
             
-            <br></br>Honoria, (his wife,) -	Mrs. Strong.
+            <p>The following is a cast of the characters:</p>
             
-            <br></br>Martinus, (Bishop of Ephesus,)              Mr. S. P. Cheney.
+            <div class="ab">Antipater, (Proconsul at Ephesus,)         Mr. S. Pearson.
+               
+               <br></br>Honoria, (his wife,) -	Mrs. Strong.
+               
+               <br></br>Martinus, (Bishop of Ephesus,)              Mr. S. P. Cheney.
+               
+               <br></br>Malchus,......................   Mrs. Edward Loder.
+               
+               <br></br>Serapion, ----- Miss Cheney.
+               
+               <br></br>Johannes,	-	-	-	-	-	Miss DeLuce.
+               
+               <br></br>Constantine, ...	-  Mr. John Johnson.
+               
+               <br></br>Dionysius,	-	:	-	-	-	Mr. S. O. Dyer.
+               
+               <br></br>Marianus,.....................  Mr. R. Andrews.
+               
+               <br></br>Maximianus,...................  Mr. D. S. B. Bennett.
+            </div>
             
-            <br></br>Malchus,......................   Mrs. Edward Loder.
+            <p>The plan of the Oratorio we detailed in our paper a
+               week or two since. It is of so purely dramatic a character, that much of the interest it would otherwise excite
+               is lost for want of scenic effect and dresses appropriate.
+               A most magnificent Sacred Opera could be formed from
+               the Oratorio of the Seven Sleepers: far superior to David; it would equal in effect, we think, Rossini’s Israelites in Egypt. What could be more effective, for instance,
+               than the whole of the second act—the High Priest blessing the banner of the soldiers, who are going forth to
+               fight the enemies of the Cross—the people, in throngs,
+               crowding to witness the ceremony. Malchus, the youngest of the Seven Sleepers, enters in the midst; he gazes
+               around him in wild amazement!—it is not Ephesus he
+               beholds—the people are not the same—the symbol of the
+               Cross waves everywhere triumphant, while yesternight,
+               as he supposes, the infidel held sway over all. His
+               strange dress, and yet stranger manners, attract the attention of the people. They believe him to be a spy—
+               they seize and bear him before a Roman Consul, who examines and extracts from him his strange and incredible story.
+               The people believe it to be a miracle of the Most High,
+               and with an eagerness which cannot be restrained, they
+               tush towards Mount Celion. In all this there is vivid action, and aided by scenery, dresses, and by the music,
+               which is descriptive to an extraordinary degree, would
+               form, we believe, a scene of thrilling excitement.
+            </p>
             
-            <br></br>Serapion, ----- Miss Cheney.
+            <p>The Music itself denotes unmistakeably the class to
+               which it belongs. We have said that it is descriptive,
+               and it is not partially so, but every feature in the plot
+               has its appropriate music:—pastoral, martial, solemn and
+               agitated. But there is one striking feature in the composition which strikes us as a marvellously fine thought.—
+               Between the time at which the Brothers fell asleep, and
+               the period of their waking, two hundred years are supposed to have elapsed. The two periods are distinctly
+               Marked by the music. While the Brothers chaunt forth
+               a solemn chorale, quaint, crude, and almost harsh in
+               its character, the people of Ephesus sing in a more
+               Modern style. The contrast is most strongly marked, and
+               the effect is striking and peculiar. This admirable
+               thought would alone stamp the genius of the composer.
+               Of the music itself we must record our honest admiration. Looking at it, as an Oratorio, we should complain
+               of a want of dignity, solidity and grandeur  It lacks the
+               elements of the sublime; there is too great a mingling
+               of the petty passions and worldly strife, with the solemn
+               thoughts which should be absorbed in contemplating the
+               miracles vouchsafed by the Almighty. But as a Sacred
+               Drama, we do not hesitate to say that the Seven Sleepers is the very highest of its class. Judging it in this
+               light, we take a lowlier standard, and the composition
+               rises in our estimation. The music allotted to the Seven
+               Brothers ranks foremost in point of excellence. A quiet,
+               dreamy and yet solemn feeling pervades each successive
+               piece. The first piece, commencing “Lord God our refuge,” in which the voices join in in rotation, beginning
+               with Maximianus and ending with Malchus, is truly an
+               awakening from a deep slumber; and the last piece, commencing with the line, “Now with unseen wings approaching,” in which the same figure is reversed, is as
+               truly the gradual approach of their second and last slumber. In short, the music of the Brothers forms a musical pyramid, of which Malchus is the apex, and Maximianus is the base. A more perfect musical figure it is impossible to conceive. The music given to Malchus is
+               undoubtedly the most charming in the Oratorio; its simplicity is marvellous, and its melody is of the most chaste
+               and pleasing character. The Aria of Johannes ranks
+               next in point of beauty; its gravity impresses one sensibly, while its simplicity and pathos enhance the impression. Martinus (the Bishop) is entrusted with some
+               grand and imposing music, particularly the Aria in
+               the third part. Antipater and Honoria have much to
+               do, yet, though their music is very charming, it fails in
+               exciting interest when compared with the other characters. The chorusses, judged by the standard we have
+               established, are fine compositions; the fugues, judged by
+               any standard, must be acknowledged as masterly compositions, but they are designed, with the exception of the
+               last, to represent action, and require action to take off the
+               appearance of scientific elaboration.
+            </p>
             
-            <br></br>Johannes,	-	-	-	-	-	Miss DeLuce.
+            <p>The instrumentation is exceedingly beautiful, although,
+               with several exceptions, it is decidedly operatic. There
+               are many charming combinations and exquisite points
+               throughout the work; the partitions of the several fugues
+               are really striking examples of ingenuity and knowledge
+               applied to the Orchestra, and the accompaniments to the
+               Bishop’s Music are particularly happy in producing the
+               effect of grandeur and dignity.
+            </p>
             
-            <br></br>Constantine, ...	-  Mr. John Johnson.
+            <p>On the whole, it is undoubtedly a great work—great
+               in its simplicity, great in its elaboration, great in its conception, and great in its execution. We have not entered
+               as fully into its beauties as we could wish; but we trust
+               we have said enough to draw the attention of ameteurs
+               to its merits.
+            </p>
             
-            <br></br>Dionysius,	-	:	-	-	-	Mr. S. O. Dyer.
+            <p>From Mrs. E. Loder, as Malchus, much was expected,
+               and the expectations were fulfilled. She sang the music
+               throughout most admirably. In her recitatives especially,
+               she displayed the striking advantage of a thorough musical education. Every word was distinctly enunciated,
+               and each point was delivered with proper emphasis.—
+               Her solos were executed with a chasteness of expression
+               and a purity of style, which are the distinguishing characteristics of the school. It was loudly and deservedly
+               applauded.
+            </p>
             
-            <br></br>Marianus,.....................  Mr. R. Andrews.
+            <p>Mrs. Strong sang the music of Honoria very sweetly.
+               Her style is somewhat too cold, and her delivery wants
+               the freedom of a practised artist; but in her execution she
+               has very much improved since we last heard her. Her
+               music, as we have before remarked, is the least pleasing,
+               or, at all events, the least effective, in the Oratorio; but
+               the melody of her voice added much to its interest and
+               effect.
+            </p>
             
-            <br></br>Maximianus,...................  Mr. D. S. B. Bennett.
+            <p>Miss Cheney had but little to do, and that little was
+               mostly concerted. It would not, therefore, be fair to
+               form a judgment upon her capacities.
+            </p>
+            
+            <p>Miss De Luce, as Johannes, acquitted herself exceedingly well. She has a mezzo soprano voice of a most
+               lovely quality—rich, full and melodious. It tells wonderfully in any piece of moderate movement, requiring sustained expression. Miss De Luce sang the air, “God be
+               with you,” in a chaste and careful manner. She began a
+               little flat, which was evidently caused by extreme fright;
+               for as soon as this abated, the fault was no longer visible.
+               If this young lady should study seriously, she could not
+               fail to attain a high position in her profession.
+            </p>
+            
+            <p>Mr. Sidney Pearson was the Antipater of the evening,
+               We were both pleased and surprised at the excellence of
+               his performance. He has many faults; his pronunciation
+               is broad and inelegant—his intonation is by no means faultless; and he lacks passion and expression. But he sang his
+               music correctly, attempted no interpolations, and was on
+               the whole, perhaps, as good a representative of the character as could be found in the city.
+            </p>
+            
+            <p>Messrs. Bennett and Cheney are Amateurs. They have
+               both good voices, but the want of education in every respect is so glaringly apparent, that criticism would be useless. Of the two, however, Mr. Cheney has decidedly the
+               advantage in point of voice and intonation. A year’s study
+               under careful direction, would place Mr. Cheney in a good
+               position as a singer of Sacred Music.
+            </p>
+            
+            <p>The Chorusses were performed in a style of excellence
+               truly remarkable. The Choral performances of the Sacred Music Society have always been noted for want of
+               precision, firmness, power, and capability to produce due
+               effects. But on this occasion the same materials were employed (nearly all the Chorus singers being members of
+               the S. M. S.) yet none of these defects were in any part to
+               be observed. Every point was taken up with admirable
+               precision; the pianos were duly cared for, and the crescendos were truly grand in their effects. The only visible want, was a want of power, and this want could only
+               be remedied by an increase of members, which under the
+               circumstances could not be obtained. A striking fact might
+               be elicited were we to pursue the enquiry as to the cause
+               of the marked difference in the performance of the same
+               people upon this occasion and upon previous occasions.
+               We will, however, leave our readers to draw the inference
+               themselves.
+            </p>
+            
+            <p>The instrumental performance was equally remarkable
+               for its excellence. The Band was kept in admirable subjection to the voices, and the recitatives were better accompanied than we have ever heard before in this country. The band was also deficient in power, not through
+               any meanness on the part of those engaged in producing 
+               the work, but from the fact that most of the good instrumental performers of the city, were engaged at the several Theatres.
+            </p>
+            
+            <p>At the next representation which will be on the 9th of
+               October, greater facilities will undoubtedly be available,
+               and the only want observable in the performance will then
+               be remarked.
+            </p>
+            
+            <p>We must repeat the praise which we awarded Mr. Loder at the commencement of the notice; for to his skill,
+               judgment and firmness, must be attributed all the excellence which we have described.
+            </p>
+            
+            
+            <p>We must also compliment Mr. Timm upon the artistlike manner in which he introduced the Organ, and brought
+               its full power to bear upon those points where it could tell
+               with the best effect. He proved himself indeed a worthy
+               coadjutor of the talented conductor.
+            </p>
+            
+            <p>We have yet a word or two to say about the public-spirited gentleman at whose individual risk the whole performance was got up. Mr. Henry Meigs, is known to the
+               public as former Secretary of the New York Sacred Music Society. We presume he felt the insufficiency of that
+               Society, under its present management, to produce anything but those works at which they have been drumming for years, without attaining any point beyond respectable mediocrity. Acting upon this feeling, he determined to produce, at his own expense, a work of standard
+               merit, never before performed in this city, in the best style
+               that money could command. He determined also that besides benefiting the public by his undertaking, he would
+               also benefit the resident professors:—a singular determination, we allow, as the very last thought in the minds of the
+               projectors of any Musical undertaking, is to consider that
+               class which is most worthy of consideration. Mr. Meigs
+               consulted his conductor, and the Oratorio of the Seven
+               Sleepers was chosen. No sooner did the “Society” gain
+               information of the fact, than they acted the part of Many
+               Sleepers Awakened, (from a long sleep too,) and decided
+               upon producing the work in opposition to this individual
+               enterprize. This was certainly somewhat unworthy of an
+               incorporated Society; but we must excuse them, from the
+               fact that they were rather roughly awakened, and had
+               hardly time to rub their eyes before they decided upon a
+               course of action.
+            </p>
+            
+            <p>A large proportion of the Society joined Mr. Meigs in
+               his undertaking, without however withdrawing from the
+               Society, and to these ladies and gentlemen, who scorned to
+               endure the trammels which would serve to keep music
+               back a hundred years, the thanks of the public and the
+               profession are due. How well they acquitted themselves
+               the thousands who were present can testify.
+            </p>
+            
+            <p>We call upon the public to support Mr. Meigs in his
+               undertaking, for upon their support the success or the failure of every undertaking depends; we call upon the public to come forward, not to benefit the individual, but the
+               Art: for the success of this undertaking will ensure the
+               production of a series of standard classical works, which
+               cannot be produced through any other agency.
+            </p>
          </div>
          
-         <p>The plan of the Oratorio we detailed in our paper a
-            week or two since. It is of so purely dramatic a character, that much of the interest it would otherwise excite
-            is lost for want of scenic effect and dresses appropriate.
-            A most magnificent Sacred Opera could be formed from
-            the Oratorio of the Seven Sleepers: far superior to David; it would equal in effect, we think, Rossini’s Israelites in Egypt. What could be more effective, for instance,
-            than the whole of the second act—the High Priest blessing the banner of the soldiers, who are going forth to
-            fight the enemies of the Cross—the people, in throngs,
-            crowding to witness the ceremony. Malchus, the youngest of the Seven Sleepers, enters in the midst; he gazes
-            around him in wild amazement!—it is not Ephesus he
-            beholds—the people are not the same—the symbol of the
-            Cross waves everywhere triumphant, while yesternight,
-            as he supposes, the infidel held sway over all. His
-            strange dress, and yet stranger manners, attract the attention of the people. They believe him to be a spy—
-            they seize and bear him before a Roman Consul, who examines and extracts from him his strange and incredible story.
-            The people believe it to be a miracle of the Most High,
-            and with an eagerness which cannot be restrained, they
-            tush towards Mount Celion. In all this there is vivid action, and aided by scenery, dresses, and by the music,
-            which is descriptive to an extraordinary degree, would
-            form, we believe, a scene of thrilling excitement.
-         </p>
-         
-         <p>The Music itself denotes unmistakeably the class to
-            which it belongs. We have said that it is descriptive,
-            and it is not partially so, but every feature in the plot
-            has its appropriate music:—pastoral, martial, solemn and
-            agitated. But there is one striking feature in the composition which strikes us as a marvellously fine thought.—
-            Between the time at which the Brothers fell asleep, and
-            the period of their waking, two hundred years are supposed to have elapsed. The two periods are distinctly
-            Marked by the music. While the Brothers chaunt forth
-            a solemn chorale, quaint, crude, and almost harsh in
-            its character, the people of Ephesus sing in a more
-            Modern style. The contrast is most strongly marked, and
-            the effect is striking and peculiar. This admirable
-            thought would alone stamp the genius of the composer.
-            Of the music itself we must record our honest admiration. Looking at it, as an Oratorio, we should complain
-            of a want of dignity, solidity and grandeur  It lacks the
-            elements of the sublime; there is too great a mingling
-            of the petty passions and worldly strife, with the solemn
-            thoughts which should be absorbed in contemplating the
-            miracles vouchsafed by the Almighty. But as a Sacred
-            Drama, we do not hesitate to say that the Seven Sleepers is the very highest of its class. Judging it in this
-            light, we take a lowlier standard, and the composition
-            rises in our estimation. The music allotted to the Seven
-            Brothers ranks foremost in point of excellence. A quiet,
-            dreamy and yet solemn feeling pervades each successive
-            piece. The first piece, commencing “Lord God our refuge,” in which the voices join in in rotation, beginning
-            with Maximianus and ending with Malchus, is truly an
-            awakening from a deep slumber; and the last piece, commencing with the line, “Now with unseen wings approaching,” in which the same figure is reversed, is as
-            truly the gradual approach of their second and last slumber. In short, the music of the Brothers forms a musical pyramid, of which Malchus is the apex, and Maximianus is the base. A more perfect musical figure it is impossible to conceive. The music given to Malchus is
-            undoubtedly the most charming in the Oratorio; its simplicity is marvellous, and its melody is of the most chaste
-            and pleasing character. The Aria of Johannes ranks
-            next in point of beauty; its gravity impresses one sensibly, while its simplicity and pathos enhance the impression. Martinus (the Bishop) is entrusted with some
-            grand and imposing music, particularly the Aria in
-            the third part. Antipater and Honoria have much to
-            do, yet, though their music is very charming, it fails in
-            exciting interest when compared with the other characters. The chorusses, judged by the standard we have
-            established, are fine compositions; the fugues, judged by
-            any standard, must be acknowledged as masterly compositions, but they are designed, with the exception of the
-            last, to represent action, and require action to take off the
-            appearance of scientific elaboration.
-         </p>
-         
-         <p>The instrumentation is exceedingly beautiful, although,
-            with several exceptions, it is decidedly operatic. There
-            are many charming combinations and exquisite points
-            throughout the work; the partitions of the several fugues
-            are really striking examples of ingenuity and knowledge
-            applied to the Orchestra, and the accompaniments to the
-            Bishop’s Music are particularly happy in producing the
-            effect of grandeur and dignity.
-         </p>
-         
-         <p>On the whole, it is undoubtedly a great work—great
-            in its simplicity, great in its elaboration, great in its conception, and great in its execution. We have not entered
-            as fully into its beauties as we could wish; but we trust
-            we have said enough to draw the attention of ameteurs
-            to its merits.
-         </p>
-         
-         <p>From Mrs. E. Loder, as Malchus, much was expected,
-            and the expectations were fulfilled. She sang the music
-            throughout most admirably. In her recitatives especially,
-            she displayed the striking advantage of a thorough musical education. Every word was distinctly enunciated,
-            and each point was delivered with proper emphasis.—
-            Her solos were executed with a chasteness of expression
-            and a purity of style, which are the distinguishing characteristics of the school. It was loudly and deservedly
-            applauded.
-         </p>
-         
-         <p>Mrs. Strong sang the music of Honoria very sweetly.
-            Her style is somewhat too cold, and her delivery wants
-            the freedom of a practised artist; but in her execution she
-            has very much improved since we last heard her. Her
-            music, as we have before remarked, is the least pleasing,
-            or, at all events, the least effective, in the Oratorio; but
-            the melody of her voice added much to its interest and
-            effect.
-         </p>
-         
-         <p>Miss Cheney had but little to do, and that little was
-            mostly concerted. It would not, therefore, be fair to
-            form a judgment upon her capacities.
-         </p>
-         
-         <p>Miss De Luce, as Johannes, acquitted herself exceedingly well. She has a mezzo soprano voice of a most
-            lovely quality—rich, full and melodious. It tells wonderfully in any piece of moderate movement, requiring sustained expression. Miss De Luce sang the air, “God be
-            with you,” in a chaste and careful manner. She began a
-            little flat, which was evidently caused by extreme fright;
-            for as soon as this abated, the fault was no longer visible.
-            If this young lady should study seriously, she could not
-            fail to attain a high position in her profession.
-         </p>
-         
-         <p>Mr. Sidney Pearson was the Antipater of the evening,
-            We were both pleased and surprised at the excellence of
-            his performance. He has many faults; his pronunciation
-            is broad and inelegant—his intonation is by no means faultless; and he lacks passion and expression. But he sang his
-            music correctly, attempted no interpolations, and was on
-            the whole, perhaps, as good a representative of the character as could be found in the city.
-         </p>
-         
-         <p>Messrs. Bennett and Cheney are Amateurs. They have
-            both good voices, but the want of education in every respect is so glaringly apparent, that criticism would be useless. Of the two, however, Mr. Cheney has decidedly the
-            advantage in point of voice and intonation. A year’s study
-            under careful direction, would place Mr. Cheney in a good
-            position as a singer of Sacred Music.
-         </p>
-         
-         <p>The Chorusses were performed in a style of excellence
-            truly remarkable. The Choral performances of the Sacred Music Society have always been noted for want of
-            precision, firmness, power, and capability to produce due
-            effects. But on this occasion the same materials were employed (nearly all the Chorus singers being members of
-            the S. M. S.) yet none of these defects were in any part to
-            be observed. Every point was taken up with admirable
-            precision; the pianos were duly cared for, and the crescendos were truly grand in their effects. The only visible want, was a want of power, and this want could only
-            be remedied by an increase of members, which under the
-            circumstances could not be obtained. A striking fact might
-            be elicited were we to pursue the enquiry as to the cause
-            of the marked difference in the performance of the same
-            people upon this occasion and upon previous occasions.
-            We will, however, leave our readers to draw the inference
-            themselves.
-         </p>
-         
-         <p>The instrumental performance was equally remarkable
-            for its excellence. The Band was kept in admirable subjection to the voices, and the recitatives were better accompanied than we have ever heard before in this country. The band was also deficient in power, not through
-            any meanness on the part of those engaged in producing 
-            the work, but from the fact that most of the good instrumental performers of the city, were engaged at the several Theatres.
-         </p>
-         
-         <p>At the next representation which will be on the 9th of
-            October, greater facilities will undoubtedly be available,
-            and the only want observable in the performance will then
-            be remarked.
-         </p>
-         
-         <p>We must repeat the praise which we awarded Mr. Loder at the commencement of the notice; for to his skill,
-            judgment and firmness, must be attributed all the excellence which we have described.
-         </p>
-         
-         
-         <p>We must also compliment Mr. Timm upon the artistlike manner in which he introduced the Organ, and brought
-            its full power to bear upon those points where it could tell
-            with the best effect. He proved himself indeed a worthy
-            coadjutor of the talented conductor.
-         </p>
-         
-         <p>We have yet a word or two to say about the public-spirited gentleman at whose individual risk the whole performance was got up. Mr. Henry Meigs, is known to the
-            public as former Secretary of the New York Sacred Music Society. We presume he felt the insufficiency of that
-            Society, under its present management, to produce anything but those works at which they have been drumming for years, without attaining any point beyond respectable mediocrity. Acting upon this feeling, he determined to produce, at his own expense, a work of standard
-            merit, never before performed in this city, in the best style
-            that money could command. He determined also that besides benefiting the public by his undertaking, he would
-            also benefit the resident professors:—a singular determination, we allow, as the very last thought in the minds of the
-            projectors of any Musical undertaking, is to consider that
-            class which is most worthy of consideration. Mr. Meigs
-            consulted his conductor, and the Oratorio of the Seven
-            Sleepers was chosen. No sooner did the “ Society” gain
-            information of the fact, than they acted the part of Many
-            Sleepers Awakened, (from a long sleep too,) and decided
-            upon producing the work in opposition to this individual
-            enterprize. This was certainly somewhat unworthy of an
-            incorporated Society; but we must excuse them, from the
-            fact that they were rather roughly awakened, and had
-            hardly time to rub their eyes before they decided upon a
-            course of action.
-         </p>
-         
-         <p>A large proportion of the Society joined Mr. Meigs in
-            his undertaking, without however withdrawing from the
-            Society, and to these ladies and gentlemen, who scorned to
-            endure the trammels which would serve to keep music
-            back a hundred years, the thanks of the public and the
-            profession are due. How well they acquitted themselves
-            the thousands who were present can testify.
-         </p>
-         
-         <p>We call upon the public to support Mr. Meigs in his
-            undertaking, for upon their support the success or the failure of every undertaking depends; we call upon the public to come forward, not to benefit the individual, but the
-            Art: for the success of this undertaking will ensure the
-            production of a series of standard classical works, which
-            cannot be produced through any other agency.
-         </p>
-         
-         <p>PARK THEATRE.—Opera is still the rage at this establishment. Miss Delcy, since our last, has appeared in
-            the character of Cinderella, and as Zerlina in Fra Diavolo.
-            She has gained considerably in public estimation, and
-            will, we are confident, become a great favorite; for a generous public will always stand forward in defence of a
-            woman, especially if she be as young and as pretty as
-            Miss Delcy, against hired critics and interested professional slanderers. We have seen no reason to alter our expressed opinion of Miss Delcy’s powers, but we still say
-            that she is full of promise for the future, and has many
-            advantages over some who have occupied, for several
-            years, the situation she now holds. We trust that the
-            public will give her a fair chance, and hope she may continue successful.
-         </p>
-         
-         <p>Mr. Gardner has proved the truth of our remarks in
-            every respect. As soon as he shall have recovered the
-            full power of his voice, which has been temporarily disarranged, from the combined effect of the sea voyage and
-            change of climate, we insure for him a good share of the
-            public approbation.
-         </p>
-         
-         <p>Miss Moss acquitted herself, as Lady Allwash, exceedingly well, both in her singing and her acting, and Mr.
-            Brough, as Beppo, was perfectly correct in his music
-            throughout, and has some difficult and catchy bits to
-            sing. He is evidently becoming pains-taking, and we are
-            glad to see and hear it.
-         </p>
-         
-         <p>Want of space precludes the possibility of our lengthening this notice.</p>
+         <div class="piece" id="#p24">
+            <div class="biblTitle">Park Theatre</div>
+            <div class="biblPage">182</div>
+            <p>PARK THEATRE.—Opera is still the rage at this establishment. Miss Delcy, since our last, has appeared in
+               the character of Cinderella, and as Zerlina in Fra Diavolo.
+               She has gained considerably in public estimation, and
+               will, we are confident, become a great favorite; for a generous public will always stand forward in defence of a
+               woman, especially if she be as young and as pretty as
+               Miss Delcy, against hired critics and interested professional slanderers. We have seen no reason to alter our expressed opinion of Miss Delcy’s powers, but we still say
+               that she is full of promise for the future, and has many
+               advantages over some who have occupied, for several
+               years, the situation she now holds. We trust that the
+               public will give her a fair chance, and hope she may continue successful.
+            </p>
+            
+            <p>Mr. Gardner has proved the truth of our remarks in
+               every respect. As soon as he shall have recovered the
+               full power of his voice, which has been temporarily disarranged, from the combined effect of the sea voyage and
+               change of climate, we insure for him a good share of the
+               public approbation.
+            </p>
+            
+            <p>Miss Moss acquitted herself, as Lady Allwash, exceedingly well, both in her singing and her acting, and Mr.
+               Brough, as Beppo, was perfectly correct in his music
+               throughout, and has some difficult and catchy bits to
+               sing. He is evidently becoming pains-taking, and we are
+               glad to see and hear it.
+            </p>
+            
+            <p>Want of space precludes the possibility of our lengthening this notice.</p>
+         </div>
       </div>
       
       <div class="piece" id="#p21">
-         <div class="biblTitle">Criticisms on the Popular Errors of the Age</div>
+         <div class="biblTitle">Criticisms on the Popular Errors of the Age, No. I</div>
          <div class="biblPage">183</div> 
          
-         <div class="head">Criticisms on the Popular Errors of the Age.</div>
-         NO. I.
+         <div class="head">Criticisms on the Popular Errors of the Age.
+            NO. I.
+         </div>
          
          <div class="lg">
             <br></br>Is Error dead, since, as the Teuton
@@ -2142,7 +2153,7 @@
             Miss Lawson, Miss Wells—J. R. Lowell, H. R. Schoolcraft, Park Benjamin, E. A. Duyckinck, Wm. A. Jones,
             T. D. English, Wm. Wallace, A. M. Ide, Henry B. Hirst,
             Wm. Page (the artist), Henry C. Watson, the author of
-            “ The Vision of Rubeta,” Littleton Barry, and Edgar A.
+            “The Vision of Rubeta,” Littleton Barry, and Edgar A.
             Poe. We have also numerous anonymous contributors
             who would do honor to any journal in the land. Mr.
             Simms, the novelist, Mrs. Ellett, and many others of note,
@@ -2177,13 +2188,8 @@
          <p>MR. AUSTIN PHILLIPS and Mr. H. C. Watson, are about
             to establish a Glee Class upon a large scale. Full particulars will be announced next week.
          </p>
-      </div>
-      
-      
-      
-      <div class="piece" id="#p23">
-         <div class="biblTitle">To Correspondents</div>
-         <div class="biblPage">185</div>
+         
+         
          
          <p>TO CORRESPONDENTS. Many thanks
             to M. O. of Lebanon Springs—also to
@@ -2201,6 +2207,7 @@
       <div class="section" id="#s2">
          <div class="biblTitle">Advertisements</div>
          <div class="biblPage">185</div>
+         
          <div>
             <div class="head">ӔOLIAN ATTACHMENT.</div>
             
@@ -2211,10 +2218,13 @@
          </div>
          
          <div>
-            <div class="head">New Book and Stationery Store.
-               SAXTON &amp; HUNTINGTON,
-               PUBLISHERS AND BOOKSELLERS,
-               No. 295 Broadway,
+            <div class="head">New Book and Stationery Store.</div>
+            
+            <div class="ab">SAXTON &amp; HUNTINGTON,
+               
+               <br></br>PUBLISHERS AND BOOKSELLERS,
+               
+               <br></br>No. 295 Broadway,
             </div>
             
             <p>KEEP on hand a full assortment of Theological, School, and Miscellaneous Books; also,
@@ -2249,7 +2259,8 @@
                are now open, during the day and evening, for Pu 
                pils and Visiters. Mr. G’s specimens of
             </p>
-            PENMANSHIP
+            
+            <div class="ab">PENMANSHIP</div>
             
             <p>has received the First Premium Five Years, from
                the American Institute, and he guarantees to all in
@@ -2268,7 +2279,8 @@
          </div>
          
          <div>
-            <p>PIANO-FORTES—H. WORCHESTEB, NO. 139
+            <div class="head">PIANO-FORTES</div>
+            <p>—H. WORCHESTEB, NO. 139
                THIRD AVENUE, Corner of 14th Street, res
                pectfully informs his friends and the public, that he
                has a good assortment of Piano Fortes, in Rosewood
@@ -2279,7 +2291,8 @@
          </div>
          
          <div>
-            <p>PIANO-FORTES—JOHN PETHICK, (formerly
+            <div class="head">PIANO-FORTES</div>
+            <p>—JOHN PETHICK, (formerly
                Mundy and Pethick,) invites the attention of the
                musical public to the elegant and varied assortment
                he now has at his Old Establishment, corner of Cottage Place and Bleecker street, which he will sell
@@ -2303,15 +2316,21 @@
          </div>
          
          <div>
-            <p>WEDDING, VISITING, &amp; PROFESSIONAL
-               CARDS. engraved and printed at VALENTINE'S, 1 Beekman street—Lovejoy’s Hotel.
-            </p>
+            <div class="head">WEDDING, VISITING, &amp; PROFESSIONAL
+               CARDS.
+            </div>
+            <div class="ab">engraved and printed at VALEN-
+               
+               <br></br>TINE'S, 1 Beekman street—Lovejoy’s Hotel.
+            </div>
          </div>
          
          <div>
-            <p>PIANO FORTES—V.F. HARRISON, CANAL
-               Street, N. Y.
-            </p>
+            <div class="head">PIANO FORTES</div>
+            <div class="ab">—V.F. HARRISON, CANAL
+               
+               <br></br>Street, N. Y.
+            </div>
             
             <p>Instruments made with the most recent improvements, such as Iron Frames, &amp;c., with a compass
                of 6 and 7 octaves. They are made from choice
@@ -2325,7 +2344,8 @@
          </div>           
          
          <div>
-            <p>PIANO-FORTES.—THOMAS H. CHAMBERS,
+            <div class="head">PIANO-FORTES.</div>
+            <p>—THOMAS H. CHAMBERS,
                (formerly Conductor to Dubois and Stodart),
                No. 385 Broadway, will keep a complete assortment
                of the latest approved Grand Action Piano Fortes,
@@ -2340,11 +2360,13 @@
          
          
          <div>
-            <div class="head">161 Broadway, September, 1845.
-               WILEY &amp; PUTNAM'S
+            <div class="note" type="headnote">161 Broadway, September, 1845.</div>
+            
+            <div class="head">WILEY &amp; PUTNAM'S
                LIBRARY OF CHOICE READING.
-               "BOOKS WHICH ARE BOOKS."
             </div>
+            
+            <div class="ab">"BOOKS WHICH ARE BOOKS."</div>
             
             <p>THE PUBLISHERS of the Library of Choice
                Reading beg leave to call attention to the fol
@@ -2362,7 +2384,8 @@
                issued and ready for immediate publication may be
                arranged as follows:
             </p>
-            BOOKS OF TRAVELS.
+            
+            <div class="ab">BOOKS OF TRAVELS.</div>
             
             <div class="ab">EOTHEN, OR TRACES OF TRAVEL BROUGHT
                
@@ -2401,7 +2424,8 @@
                most original and select collections of books of tra
                vels ever published.
             </p>
-            CLASSIC FICTION.
+            
+            <div class="ab">CLASSIC FICTION.</div>
             
             <p>MARY SCHWEIDLER, THE AMBER WITCH
                The most interesting Trial for Witchcraft ever
@@ -2507,7 +2531,8 @@
                Sir Thomas Browne, Milton, Selden, Bacon and
                others.
             </p>
-            AMERICAN SERIES.
+            
+            <div class="ab">AMERICAN SERIES.</div>
             
             <p>Of the "Library of American Book," the fol-
                lowing have already been issued:
@@ -2548,10 +2573,13 @@
          </div>     
          
          <div>
-            <div class="head">MESSRS. HARPER &amp; BROTHERS
-               PUBLISH THIS DAY,
-               Elements of Morality and Polity.
-               BY PROF. HEWELL.
+            <div class="head">MESSRS. HARPER &amp; BROTHERS</div>
+            
+            <div class="ab">PUBLISH THIS DAY,
+               
+               <br></br>Elements of Morality and Polity.
+               
+               <br></br>BY PROF. HEWELL.
             </div>
             
             <p>THIS valuable new production, from the pen of
@@ -2564,13 +2592,17 @@
                of sterling books, to he issued by them, under the
                general designation of
             </p>
-            HARPER’S NEW MISCELLANY;
+            
+            <div class="ab">HARPER’S NEW MISCELLANY;</div>
             
             <p>the volumes of which will be legibly printed, in
                duodecimo, on fine paper, and
             </p>
-            Bound in extra Muslin Gilt—Price
-            Fifty Cents a Volume,
+            
+            <div class="ab">Bound in extra Muslin Gilt—Price
+               
+               <br></br>Fifty Cents a Volume,
+            </div>
             
             <p>and issued at short intervals To render accessible
                to the million, the fullest advantages of popular instruction in the various divisions of human knowledge, is the design of the above series It is apparent in the present day, that books of intrinsic value
@@ -2589,7 +2621,11 @@
                taste and advantages may thus become possessed
                of a
             </p>
-            Complete Library of the Best Literature of the Age.
+            
+            <div class="ab">Complete Library of the Best Litera-
+               
+               <br></br>ture of the Age.
+            </div>
             
             <p>In this collection it is intended to include the best
                productions in every department of knowledge;
@@ -2624,7 +2660,8 @@
          </div>              
          
          <div>
-            <p>PIANO-FORTES CHEAP FOR CASH.—THE
+            <div class="head">PIANO-FORTES CHEAP FOR CASH.</div>
+            <p>—THE
                subscribers have on hand a handsome assortment, 6, 6 1/2 and 7 octave, mahogany and rosewood
                pianos. which they will warrant and sell low f r
                cash or approved paper.
@@ -2642,8 +2679,9 @@
             <div class="head">J. F. BROWNE &amp; CO.
                manufacturer of the
                IMPROVED PATENT DOUBLE-ACTION HARP
-               By Royal Letters Patent, London. Established 1810. (Many years with Erard.
             </div>
+            
+            <div class="ab">By Royal Letters Patent, London. Established 1810. (Many years with Erard.</div>
             
             <p>J. F. BROWNE respectfully informs his Friends and the Musical World, that he has established
                himself for the manufacture
@@ -2694,7 +2732,7 @@
             
             <div class="ab">Philadelphia, March 4th, 1844.</div>
             
-            <p>Mr. J. F. Browne, Sir :—I have much pleasure in saying, that the Harp of your make
+            <p>Mr. J. F. Browne, Sir:—I have much pleasure in saying, that the Harp of your make
                I performed on at the St. George's Society
                Concert, is, in brilliancy of tone, touch, and elegance of workmanship, the finest
                I ever played on. This will apply to all your Harps.
@@ -2729,10 +2767,12 @@
          
          
          <div>
-            <p>The southern literary messenger
-               B. B. MINOR, Proprietor. Published monthly,
-               at Richmond. Va. Price Five Dollars per year.
-            </p>
+            <div class="head">The southern literary messenger</div>
+            
+            <div class="ab">B. B. MINOR, Proprietor. Published monthly,
+               
+               <br></br>at Richmond. Va. Price Five Dollars per year.
+            </div>
             
             <p>The MESSENGER has been established since
                1835, has a large subscrip ion list, and is the principal organ of Southern opinion.
@@ -2744,9 +2784,11 @@
          </div>
          
          <div>
-            <p>PAINE &amp; BURGESS, will publish on Saturday
-               Medici Series of Italian Prose, Part 4th.
-            </p>
+            <div class="head">PAINE &amp; BURGESS,</div>
+            <div class="ab">will publish on Saturday
+               
+               <br></br>Medici Series of Italian Prose, Part 4th.
+            </div>
             
             <p>The Citizen of a Republic—by Ansaldo Ceba, 1 vol.
                12mo. Price 50 Cents.
@@ -2770,9 +2812,11 @@
          </div>          
          
          <div>
-            <p>JUST PUBLISHED BY H. G. DAGGERS, 30 Ann
-               Street, New York.
-            </p>
+            <div class="head">JUST PUBLISHED BY H. G. DAGGERS,</div>
+            <div class="ab">30 Ann
+               
+               <br></br>Street, New York.
+            </div>
             
             <p>THE COTTON LORD. By Mrs. Stone. A Ro
                mance of the Rich and Poor, written by a lady of
@@ -2809,8 +2853,10 @@
                        
          
          <div>
-            <p>BEETHOVEN’S MOUNT OF OLIVES AND
-               the SEVEN SLEEPERS—During the week of
+            <div class="head">BEETHOVEN’S MOUNT OF OLIVES AND
+               the SEVEN SLEEPERS
+            </div>
+            <p>—During the week of
                the American Musical Convention.—The sublime
                Oratorio of the Mount of Olives, by the immortal
                Beethoven, and the Seven Sleepers, by Dr. Lowe,
@@ -2844,8 +2890,9 @@
          </div>          
          
          <div>
-            <p>G. H. DERWORT, PROFESSOR OP SINGING.
-               Guitar and Piano Forte, has opened a class
+            <div class="head">G. H. DERWORT, PROFESSOR OP SINGING.</div>
+            
+            <p>Guitar and Piano Forte, has opened a class
                for Young Ladies, from 7 to 10 years of age, among
                whom are three of his own daughters, whom he
                proposes to thoroughly instruct in the art of Singing
@@ -2872,7 +2919,8 @@
          </div>
          
          <div>
-            <p>PIANO FORTE MANUFACTURER —JAMES
+            <div class="head">PIANO FORTE MANUFACTURER</div>
+            <p>—JAMES
                PIRSSON, 88, 90, &amp; 92 Walker Street, near
                Elm. A Large Stock of the finest instruments al
                ways on hand. Terms moderate. FOR SALE—A
@@ -2883,13 +2931,14 @@
                        
          
          <div>
-            <p>J. BALLARD, PROFESSOR OF THE GUITAR,
-               Singing, and Flute, No. 135 Spring street.
-            </p>
+            <div class="head">J. BALLARD, PROFESSOR OF THE GUITAR,</div>
+            
+            <div class="ab">Singing, and Flute, No. 135 Spring street.</div>
          </div>       
          
          <div>
-            <p>CARD OF REMOVAL.—MR. W. A KING,
+            <div class="head">CARD OF REMOVAL.</div>
+            <p>—MR. W. A KING,
                Professor of Music and Teacher of the PianoForte and Organ, has Removed to the First House
                above Twenty-Fifth Street on the Rail-Road (4th
                Avenue)
@@ -2897,13 +2946,17 @@
          </div>
       </div>    
       
-      <div>
-         <p>Our First Volume.—A few copies of
+      <div class="piece" id="#p23">
+         <div class="biblTitle">Agents for the Broadway Journal</div>
+         <div class="biblPage">186</div>
+         <div class="note" type="headnote">Our First Volume.—A few copies of
             the first volume of the Broadway Jonrnal are for sale at the office, either in
             numbers or neatly bound.
-         </p>
-         AGENTS FOR THE BROADWAY
-         JOURNAL.
+         </div>
+         
+         <div class="head">AGENTS FOR THE BROADWAY
+            JOURNAL.
+         </div>
          
          <div class="ab">Redding &amp; Co., Boston, Mass.
             

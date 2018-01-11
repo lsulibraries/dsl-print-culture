@@ -1,6 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Stanzas</title>
+         <auth_id>wgsimms</auth_id>
+         <auth_name>William Gilmore Simms</auth_name>
+         <page>219</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>King Pest</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>219-223</page>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>The Unattainable</title>
+         <auth_id>wgibson</auth_id>
+         <auth_name>William Gibson</auth_name>
+         <page>223</page>
+         <pdf_index>5</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Two Sailor Monkeys</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>223-224</page>
+         <pdf_index>5</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>To a Spirit</title>
+         <auth_id>gbwallis</auth_id>
+         <auth_name>George B. Wallis</auth_name>
+         <page>224-225</page>
+         <pdf_index>6</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>A Mountain Village</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>225</page>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>The Wife's Prayer</title>
+         <auth_id>mehewitt</auth_id>
+         <auth_name>Mary Elizabeth Hewitt</auth_name>
+         <page>225</page>
+         <pdf_index>7</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>The Bishop and His House-Keeper</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>225-227</page>
+         <pdf_index>7</pdf_index>
+      </p8>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <pieces>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>The Editor's Temporary Absence</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>227</page>
+               <pdf_index>9</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's Library of American Books</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>227</page>
+               <pdf_index>9</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's Library of Choice Reading</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>227-228</page>
+               <pdf_index>9</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Praise and Principle</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>228</page>
+               <pdf_index>10</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Littell's Living Age</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>228</page>
+               <pdf_index>10</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's "Foreign Library"</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>228</page>
+               <pdf_index>10</pdf_index>
+            </p14>
+         </pieces>
+      </s1>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
+         <title>The Fine Arts</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>228-229</page>
+         <pdf_index>10</pdf_index>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
+         <type>piece</type>
+         <title>Musical Department</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>229-230</page>
+         <pdf_index>11</pdf_index>
+      </p16>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Items</title>
+         <pieces>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>Worcester's Piano Forte Manufactory</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>231</page>
+               <pdf_index>13</pdf_index>
+            </p17>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>The Bell Ringers</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>231</page>
+               <pdf_index>13</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>The Cheney Family</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>231</page>
+               <pdf_index>13</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>We are Unable</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>231</page>
+               <pdf_index>13</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>Trinity Church Organ</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>231</page>
+               <pdf_index>13</pdf_index>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
+               <type>piece</type>
+               <title>We Have Received</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>231</page>
+               <pdf_index>13</pdf_index>
+            </p24>
+            <p25>
+               <decls_id>p25</decls_id>
+               <type>piece</type>
+               <title>New-York Musical Convention</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>231</page>
+               <pdf_index>13</pdf_index>
+            </p25>
+         </pieces>
+      </s3>
+      <p18>
+         <decls_id>p18</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>232</page>
+         <pdf_index>14</pdf_index>
+      </p18>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Editorial Miscellany</title>
+         <pieces>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>If Any Inference</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>232</page>
+               <pdf_index>14</pdf_index>
+            </p19>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>We Have Called Attention</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>232</page>
+               <pdf_index>14</pdf_index>
+            </p26>
+         </pieces>
+      </s4>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>233-234</page>
+         <pdf_index>15</pdf_index>
+      </s2>
+      <p27>
+         <decls_id>p27</decls_id>
+         <type>piece</type>
+         <title>Agents</title>
+         <page>234</page>
+         <pdf_index>16</pdf_index>
+      </p27>
+   </toc>
    <issueMeta>
       <issueId>18451018</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
@@ -25,5 +295,486 @@
          </jbisco>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Stanzas</pieceTitle>
+            <piecePage>219</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <wgsimms>
+                  <personName>William Gilmore Simms</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wgsimms>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>King Pest</pieceTitle>
+            <piecePage>219-223</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as Littleton Barry.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Unattainable</pieceTitle>
+            <piecePage>223</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <wgibson>
+                  <personName>William Gibson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wgibson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Two Sailor Monkeys</pieceTitle>
+            <piecePage>223-224</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>To a Spirit</pieceTitle>
+            <piecePage>224-225</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <gbwallis>
+                  <personName>George B. Wallis</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </gbwallis>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>A Mountain Village</pieceTitle>
+            <piecePage>225</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>The Wife's Prayer</pieceTitle>
+            <piecePage>225</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <mehewitt>
+                  <personName>Mary Elizabeth Hewitt</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </mehewitt>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Bishop and His House-Keeper</pieceTitle>
+            <piecePage>225-227</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p9>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Editor's Temporary Absence</pieceTitle>
+            <piecePage>227</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Wiley and Putnam's Library of American Books</pieceTitle>
+            <piecePage>227</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Wiley and Putnam's Library of Choice Reading</pieceTitle>
+            <piecePage>227-228</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Praise and Principle</pieceTitle>
+            <piecePage>228</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Littell's Living Age</pieceTitle>
+            <piecePage>228</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Wiley and Putnam's "Foreign Library"</pieceTitle>
+            <piecePage>228</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Fine Arts</pieceTitle>
+            <piecePage>228-229</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Musical Department</pieceTitle>
+            <piecePage>229-230</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p17>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Worcester's Piano Forte Manufactory</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p20>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>The Bell Ringers</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Cheney Family</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>We are Unable</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Trinity Church Organ</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>We Have Received</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <p25>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>New-York Musical Convention</pieceTitle>
+            <piecePage>231</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <p18>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>232</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+      </s4>
+      <p19>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>If Any Inference</pieceTitle>
+            <piecePage>232</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p26>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>We Have Called Attention</pieceTitle>
+            <piecePage>232</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p26>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>233-234</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s2>
+      <p27>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>Agents</pieceTitle>
+            <piecePage>234</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+      </p27>
+   </listBibl>
 </issue>

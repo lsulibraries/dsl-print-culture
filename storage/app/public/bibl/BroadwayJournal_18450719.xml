@@ -1,6 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Our New Volume</title>
+         <auth_id>jbisco</auth_id>
+         <auth_name>John Bisco</auth_name>
+         <page>17</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>The Masque of the Red Death</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>17-19</page>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Imagination</title>
+         <auth_id>wrwallace</auth_id>
+         <auth_name>William Ross Wallace</auth_name>
+         <page>19</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Contrasted Prejudices</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>19-21</page>
+         <pdf_index>3</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Sonnet to Zante</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>21</page>
+         <pdf_index>5</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Antigone</title>
+         <auth_id>frobinson</auth_id>
+         <auth_name>Fayette Robinson</auth_name>
+         <page>21-23</page>
+         <pdf_index>5</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>Correspondence with a Governess, No. II</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>23-26</page>
+         <pdf_index>7</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>Alfred Tennyson</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>26</page>
+         <pdf_index>10</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>Young America</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>26-27</page>
+         <pdf_index>10</pdf_index>
+      </p9>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <pieces>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>The Age of Elizabeth</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>27-28</page>
+               <pdf_index>11</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Orthophony: or Vocal Culture in Elocution</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>28</page>
+               <pdf_index>12</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>A Dictionary of the English Language</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>28</page>
+               <pdf_index>12</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>A History of the Protestant Episcopal Churches</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>28-29</page>
+               <pdf_index>12</pdf_index>
+            </p13>
+         </pieces>
+      </s1>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>29-30</page>
+         <pdf_index>13</pdf_index>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
+         <title>Musical Department</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>30-31</page>
+         <pdf_index>14</pdf_index>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
+         <type>piece</type>
+         <title>The National Academy of Design</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>31</page>
+         <pdf_index>15</pdf_index>
+      </p16>
+      <p17>
+         <decls_id>p17</decls_id>
+         <type>piece</type>
+         <title>To Correspondents</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>31</page>
+         <pdf_index>15</pdf_index>
+      </p17>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>31-32</page>
+         <pdf_index>15</pdf_index>
+      </s3>
+      <p18>
+         <decls_id>p18</decls_id>
+         <type>piece</type>
+         <title>Agents for the Broadway Journal</title>
+         <page>32</page>
+         <pdf_index>16</pdf_index>
+      </p18>
+   </toc>
    <issueMeta>
       <issueId>18450719</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
@@ -30,5 +205,294 @@
          </jdouglas>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Our New Volume</pieceTitle>
+            <piecePage>17</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <jbisco>
+                  <personName>John Bisco</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jbisco>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>The Masque of the Red Death</pieceTitle>
+            <piecePage>17-19</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>Imagination</pieceTitle>
+            <piecePage>19</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <wrwallace>
+                  <personName>William Ross Wallace</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wrwallace>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Contrasted Prejudices</pieceTitle>
+            <piecePage>19-21</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Sonnet to Zante</pieceTitle>
+            <piecePage>21</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Antigone</pieceTitle>
+            <piecePage>21-23</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <frobinson>
+                  <personName>Fayette Robinson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </frobinson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Correspondence with a Governess, No. II</pieceTitle>
+            <piecePage>23-26</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Alfred Tennyson</pieceTitle>
+            <piecePage>26</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>Young America</pieceTitle>
+            <piecePage>26-27</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>The Age of Elizabeth</pieceTitle>
+            <piecePage>27-28</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Orthophony: or Vocal Culture in Elocution</pieceTitle>
+            <piecePage>28</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>A Dictionary of the English Language</pieceTitle>
+            <piecePage>28</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>A History of the Protestant Episcopal Churches</pieceTitle>
+            <piecePage>28-29</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>29-30</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Musical Department</pieceTitle>
+            <piecePage>30-31</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>The National Academy of Design</pieceTitle>
+            <piecePage>31</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>To Correspondents</pieceTitle>
+            <piecePage>31</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>31-32</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s3>
+      <p18>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Agents for the Broadway Journal</pieceTitle>
+            <piecePage>32</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+      </p18>
+   </listBibl>
 </issue>

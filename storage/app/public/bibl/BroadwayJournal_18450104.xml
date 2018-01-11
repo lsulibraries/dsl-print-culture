@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issue>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Introductory</title>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <page>1-2</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p2>
+               <decls_id>p2</decls_id>
+               <type>piece</type>
+               <title>Mind Among the Spindles</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>2-4</page>
+               <pdf_index>2</pdf_index>
+            </p2>
+            <p3>
+               <decls_id>p3</decls_id>
+               <type>piece</type>
+               <title>The Drama of Exile and Other Poems</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>4-8</page>
+               <pdf_index>4</pdf_index>
+            </p3>
+         </pieces>
+      </s1>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Fashion</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>8-9</page>
+         <pdf_index>8</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Ole Bul's Niagara</title>
+         <auth_id>lmchild</auth_id>
+         <auth_name>Lydia Maria Child</auth_name>
+         <page>9-10</page>
+         <pdf_index>9</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>"Is Genius Conscious of Its Powers?"</title>
+         <auth_id>C</auth_id>
+         <auth_name/>
+         <page>10-12</page>
+         <pdf_index>10</pdf_index>
+      </p6>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>Bride of Abydos</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>12</page>
+               <pdf_index>12</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>The Art Union Pictures</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>12-13</page>
+               <pdf_index>12</pdf_index>
+            </p8>
+         </pieces>
+      </s2>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>New-Year's Calls</title>
+         <auth_id>H</auth_id>
+         <auth_name/>
+         <page>13-14</page>
+         <pdf_index>13</pdf_index>
+      </p9>
+      <p10>
+         <decls_id>p10</decls_id>
+         <type>piece</type>
+         <title>A Song To My Wife</title>
+         <auth_id>jrlowell</auth_id>
+         <auth_name>James Russell Lowell</auth_name>
+         <page>14</page>
+         <pdf_index>14</pdf_index>
+      </p10>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Notices of New Books</title>
+         <pieces>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>The American Poulterer's Companion</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>15</page>
+               <pdf_index>15</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Flowers for Children</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>15</page>
+               <pdf_index>15</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>The Magazines</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>15</page>
+               <pdf_index>15</pdf_index>
+            </p13>
+         </pieces>
+      </s3>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>To Correspondents</title>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <page>15</page>
+         <pdf_index>15</pdf_index>
+      </p14>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>16</page>
+         <pdf_index>16</pdf_index>
+      </s4>
+      <p16>
+         <decls_id>p16</decls_id>
+         <type>piece</type>
+         <title>Prospectus of the Broadway Journal</title>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <page>16</page>
+         <pdf_index>16</pdf_index>
+      </p16>
+   </toc>
+   <issueMeta>
+      <issueId>18450104</issueId>
+      <issueTitle>The Broadway Journal</issueTitle>
+      <issueVol>1</issueVol>
+      <issueNum>1</issueNum>
+      <issueDate>January 4, 1845</issueDate>
+      <issueListPerson>
+         <cfbriggs>
+            <personId>cfbriggs</personId>
+            <personName>Charles Frederick Briggs</personName>
+            <personIssueRole>Editor</personIssueRole>
+         </cfbriggs>
+         <jdouglas>
+            <personId>jdouglas</personId>
+            <personName>John Douglas</personName>
+            <personIssueRole>Printer</personIssueRole>
+         </jdouglas>
+      </issueListPerson>
+   </issueMeta>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Introductory</pieceTitle>
+            <piecePage>1-2</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p2>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Mind Among the Spindles</pieceTitle>
+            <piecePage>2-4</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Drama of Exile and Other Poems</pieceTitle>
+            <piecePage>4-8</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Fashion</pieceTitle>
+            <piecePage>8-9</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Ole Bul's Niagara</pieceTitle>
+            <piecePage>9-10</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <lmchild>
+                  <personName>Lydia Maria Child</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </lmchild>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>"Is Genius Conscious of Its Powers?"</pieceTitle>
+            <piecePage>10-12</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <C>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </C>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p7>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Bride of Abydos</pieceTitle>
+            <piecePage>12</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Art Union Pictures</pieceTitle>
+            <piecePage>12-13</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>New-Year's Calls</pieceTitle>
+            <piecePage>13-14</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <H>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </H>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>A Song To My Wife</pieceTitle>
+            <piecePage>14</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <jrlowell>
+                  <personName>James Russell Lowell</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jrlowell>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p11>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The American Poulterer's Companion</pieceTitle>
+            <piecePage>15</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Flowers for Children</pieceTitle>
+            <piecePage>15</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Notices of New Books</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>The Magazines</pieceTitle>
+            <piecePage>15</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>To Correspondents</pieceTitle>
+            <piecePage>15</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>16</sectionPage>
+            <sectionPdfIndex>16</sectionPdfIndex>
+         </sectionMeta>
+      </s4>
+      <p16>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Prospectus of the Broadway Journal</pieceTitle>
+            <piecePage>16</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+   </listBibl>
+</issue>

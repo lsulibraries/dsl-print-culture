@@ -333,7 +333,7 @@
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <lmchild>
-                  <personName>Lydia Maria Child writing as L. M. C..</personName>
+                  <personName>Lydia Maria Child writing as L. M. C.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is inferred, with high certainty.</authorShip>
                </lmchild>
@@ -352,7 +352,7 @@
             <piecePdfIndex>2</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
@@ -371,7 +371,7 @@
             <piecePdfIndex>3</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
@@ -429,7 +429,7 @@
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
@@ -560,7 +560,7 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
@@ -575,7 +575,7 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>

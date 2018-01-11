@@ -381,7 +381,7 @@
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
@@ -401,7 +401,7 @@
             <piecePdfIndex>2</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
@@ -945,7 +945,7 @@
             <piecePdfIndex>16</piecePdfIndex>
             <pieceListPerson>
                <jbisco>
-                  <personName>John Bisco</personName>
+                  <personName>John Bisco writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </jbisco>
