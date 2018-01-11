@@ -450,6 +450,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	    bibl_data: {},
 	    ppm: {},
 	    biblId: 's1',
+        showModal: false,        
 	    issueHeaderData: {}
 	}
     },
@@ -492,8 +493,13 @@ If the author is anonymous DO NOT provide certainty.`,
             <div class="issueData"></div>
             <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
             <div class="authorShipLegend">{{this.authorShipLegend}}</div>
-	      <drawer v-if="this.getPersonId()" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"></drawer>
             </div>
+  <button id="show-modal" @click="showModal = true">More from this author</button>
+  <!-- use the modal component, pass in the prop -->
+  <modal v-if="showModal" @close="showModal = false">
+    <h3 slot="header">custom header</h3>
+  </modal>
+
         </div>
 	`,
     methods: {
@@ -501,8 +507,8 @@ If the author is anonymous DO NOT provide certainty.`,
 	    empty = this.$root.empty
 	    if(empty(this.issueHeaderData)){
 		alert('headerData is empty')
-	    }
-	    if(empty(this.issueHeaderData.listBibl)){
+	    
+}	    if(empty(this.issueHeaderData.listBibl)){
 		alert('issueHeaderData.listBibl is empty') 
 	    }
 	    if(empty(this.issueHeaderData.listBibl[this.biblId])){
@@ -630,26 +636,56 @@ If the author is anonymous DO NOT provide certainty.`,
             return date
         }
     },
+
     mounted() {
 //	Event.$emit('issueSelected', this.$root.state.content.issue.id)
     }
 })
 
+Vue.component('modal', {
+  template: `<transition name="modal">
+    <div class="modal-mask">
+      <div class="modal-wrapper">
+        <div class="modal-container">
+
+          <div class="modal-header">
+            <slot name="header">
+              default header
+            </slot>
+          </div>
+
+          <div class="modal-body">
+            <slot name="body">
+              default body
+            </slot>
+            <drawer></drawer>
+          </div>
+
+          <div class="modal-footer">
+            <slot name="footer">
+              default footer
+              <button class="modal-default-button" @click="$emit('close')">
+                OK
+              </button>
+            </slot>
+          </div>
+        </div>
+      </div>
+    </div>
+  </transition>`,
+
+})
+
 Vue.component('drawer', {
     template: `
-	<div class="drawer" v-if="!authorIsAnonymous() && authorWroteSomethingBesidesThis()" v-bind:class="{active: showBibls}">
-	  <div class="drawerActuator" @click="showBibls = !showBibls">
-	    <div class="drawerIcon">
-	      <i class="fa fa-list" aria-hidden="true"></i>
-	    </div>
-    	    <div class="drawerText">More from this author</div>
-	  </div>
-	  <personBibl v-if="showBibls && isBibls()" v-for="bibl in getBibls()" :bibl="bibl"></personBibl>
+<div>
+	  <personBibl v-for="bibl in getBibls()" :bibl="bibl"></personBibl>
         </div>
 	`,
     props: ['authorId', 'issueId', 'declsId'],
     methods: {
 	getBibls: function () {
+        return authorBibls
 	    currentDecls = 'bibl-' + this.issueId + '-' + this.declsId
 	    bibls = []
 	    allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl
@@ -1443,7 +1479,7 @@ new Vue({
 		credits: {}
 	    },
 	    personography: {}
-	}
+	},
     },
     created() {
 	Event.$on('aboutsSelected', (about) => {
