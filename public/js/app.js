@@ -1062,7 +1062,7 @@ Vue.component('pdf-viewer',{
       <div id="pdf-viewer" class="pdf-viewer">
 	<button class="next-page" @click="changePage('prev')">Prev Page</button>
 	<button class="next-page" @click="changePage('next')">Next Page</button>
-	<canvas id="pdf" class="pdf-canvas"></canvas>
+	<canvas refs="pdf-canvas" id="pdf" class="pdf-canvas"></canvas>
       </div>
 	`,	//<zoom-slider></zoom-slider>
     methods: {
@@ -1093,10 +1093,13 @@ Vue.component('pdf-viewer',{
 	var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
 	// var pdfData = atob($pdf);
 
-	// Disable workers to avoid yet another cross-origin issue (workers need
-	// the URL of the script to be loaded, and dynamically loading a cross-origin
-	// script does not work).
-	// PDFJS.disableWorker = true;
+        // Prepare canvas using PDF page dimensions
+	var canvas = document.getElementById('pdf');
+        var new_canvas = document.createElement('canvas');
+        new_canvas.setAttribute("id", "pdf");
+        new_canvas.setAttribute("refs", "replaced");
+        canvas.parentNode.replaceChild(new_canvas, canvas);
+	PDFJS.disableWorker = true;
 
 	// The workerSrc property shall be specified.
 	PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
@@ -1112,11 +1115,8 @@ Vue.component('pdf-viewer',{
 	    pdf.getPage(pageNumber).then(function(page) {
 		//scale = 1.3
 		var viewport = page.getViewport(scale);
-
-		// Prepare canvas using PDF page dimensions
 		var canvas = document.getElementById('pdf');
 		var context = canvas.getContext('2d');
-
 		canvas.height = viewport.height; //1014
 		canvas.width = viewport.width; //735
 
