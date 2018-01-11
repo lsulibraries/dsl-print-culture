@@ -470,6 +470,9 @@ If the author is anonymous DO NOT provide certainty.`,
 //	    this.setPpm()
 //	    this.setBiblData()
 	})
+        Event.$on('close', () => {
+            this.showModal = false
+        })
 
 	this.biblId = this.$root.state.content.issue.decls_id
 //	this.setPpm()
@@ -496,13 +499,16 @@ If the author is anonymous DO NOT provide certainty.`,
             </div>
   <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
   <!-- use the modal component, pass in the prop -->
-  <modal v-if="showModal" @close="showModal = false" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId">
+  <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">
     <h3 slot="header">custom header</h3>
   </modal>
 
         </div>
 	`,
     methods: {
+        pdfMode: function () {
+	    return this.$root.state.content.issue.viewer == 'pdf'
+},
 	haveData: function() {
 	    empty = this.$root.empty
 	    if(empty(this.issueHeaderData)){
@@ -565,7 +571,11 @@ If the author is anonymous DO NOT provide certainty.`,
 	    return meta
 	},
 	drawerIsAvailable: function() {
-	    return this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId) || !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))
+            isAnon = this.getPersonId() == 'anon'
+            biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId))
+            sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
+            personInSection = this.getPersonMeta()
+	    return !isAnon && (personInSection || biblExists_notSection)
 	},
 	dlLabel: function(){
     	    if(this.$root.state.content.issue.viewer == 'pdf'){
@@ -684,38 +694,6 @@ Vue.component('modal', {
       </div>
     </div>
   </transition>`,
-  methods: {
-    getIssueHeaderData: function () {
-          headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
-          axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
-    },
-    getPersonId: function() {
-        if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
-            if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
-                return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
-            }
-        }
-        if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)){
-            return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
-        }
-        return false
-    },
-  },
-  created() {
-	Event.$on('issueSelected', (id) => {
-	    this.biblId = this.firstSection()
-	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
-	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
-	})
-	Event.$on('issueBiblSelected', (bibl) => {
-	    this.biblId = bibl.decls_id
-	    this.getIssueHeaderData()
-	})
-
-	this.biblId = this.$root.state.content.issue.decls_id
-	this.getIssueHeaderData()
-    },
-
 })
 
 Vue.component('drawer', {
