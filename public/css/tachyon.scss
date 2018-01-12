@@ -121,7 +121,12 @@ body {
 }
 
 .modal-default-button {
-  float: right;
+    width: 100%;
+    background: #fe7251;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    cursor: pointer;
 }
 
 /*
@@ -293,6 +298,7 @@ input:focus {
     width: 30%;
     box-sizing: border-box;  
     min-width: 236px;
+border-right: 1px solid #e9e9e9;    
 }
 
 .interIssueNav::before {
@@ -340,7 +346,6 @@ input:focus {
 
 .issueBody {
   background: white;
-  margin-left: 1px;
   flex-grow: 2;
   width: 70%;
 }
@@ -445,9 +450,13 @@ input:focus {
   font-size: 0.9em;
 }
 
+.viewer {
+    padding: 0px 100px;
+}
+
 .teiMarkup {
   font-size: 1.2em;
-  padding: 100px;
+    padding-top: 0px;  
 }
 
 .head {
@@ -466,8 +475,26 @@ button.searchSubmit {
 /*BEGIN Personography*/
 
 .personography {
-  padding-left: 40px;
   position: relative;
+  @include flexbox;
+
+.pieceTitleContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4px;
+}
+
+.personName{
+      padding: 10px;
+
+}
+
+.peopleFilters {
+    background: white;
+    width: 30%;
+    box-sizing: border-box;
+border-right: 1px solid #e9e9e9;    
+}
 
 
 .person.Contributing.active {
@@ -499,26 +526,33 @@ button.searchSubmit {
     @extend .authorCertainty;
   }
   .sectionTitle {
-    margin-left: 60px;
     font-weight: 700;
   }
   .issueMeta {
-    float: left;
-    position: absolute;
   }
-  .pieceTitle,
-  .personPieceMeta {
-    margin-left: 60px;
+  .pieceTitle {
     margin-top: 4px;    
+  }
+
+  .personPieceMeta{
+        margin-top: 4px;    
+
   }
   .pieceMeta {
     margin-left: 0px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    width: 100%;    
   }
 
   .personMeta {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    flex-direction: column;
+    background: #e9e9e9;
+
 }
 }
 
@@ -527,9 +561,11 @@ button.searchSubmit {
   @include flexbox;
   flex-wrap: wrap;
   padding-top: 0px;
-  overflow-y: scroll;
-  height: calc(100vh - 170px);
-      align-content: flex-start;  
+  align-content: flex-start;
+  width: 70%;
+  background: white;
+  padding: 80px 100px;
+  box-sizing: border-box;
 }
 
 .personFilter {
@@ -548,12 +584,13 @@ button.searchSubmit {
 }
 
 .personIndex .person {
-  background: $primary-accent-color;
-  margin: 0px 1px 1px 0px;
-  padding: 10px;
-  flex-grow: 1;
-  cursor: pointer;
-  width: 100%;  
+    margin: 10px;
+    cursor: pointer;
+    width: 21%;
+    border-radius: 10px;
+    overflow: hidden;
+    @include flexbox;
+    flex-direction: column;
 }
 
 .Contributing .personName {
@@ -561,16 +598,26 @@ button.searchSubmit {
 }
 
 .personName {
-  font-size: 1.5em;
+  font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
+    color: #474747 !important;  
+}
+
+.personRole {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px !important;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .Contributing .personRole {
-  background: white;
+  background: #474747;
   color: $primary-accent-color;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -580,7 +627,6 @@ button.searchSubmit {
   background: $document-text-color;
   color: $primary-accent-color;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -588,25 +634,25 @@ button.searchSubmit {
 
 .personBibl {
   @include flexbox;
-    background: #ffffff;
+    background: #474747;
     color: #474747;
     flex-wrap: wrap;
     flex-direction: column;
     position: relative;
     border-radius: 10px;
     padding: 10px;
-    margin-top: 10px;
-    min-height: 58px;    
+    margin-top: 5px;
+    min-height: 58px;
 }
 
 .pieceMeta {
   position: relative;
   .pieceTitle {
-    font-size: 1.5em;
+    font-size: 14px;
     padding-top: 0px;
     text-align: -webkit-left;
     text-transform: none;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-bottom: 0px;    
 
   }
@@ -614,22 +660,36 @@ button.searchSubmit {
   line-height: 15px;
 }
 
+.sectionTitle {
+    border: 1px solid #e9e9e9;
+    font-size: 13px;
+    padding: 0px 6px;
+    height: 23px;
+    box-sizing: border-box;
+    line-height: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
+}
+
 a.downloadLink {
     background: #474747;
-    width: 129px;
-    height: 29px;
+    height: 23px;
     align-items: center;
     color: #ffffff;
     overflow: hidden;
-    font-weight: 700;
     text-decoration: none;
-    margin-top: 2px;
     display: inline-block;
-    font-size: 0.9em;
     float: left;
     position: absolute;
-    top: -2px;
-    right: 0px;
+    top: 80px;
+    right: 100px;
+    line-height: 0.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 .downloadIcon {
@@ -647,6 +707,7 @@ a.downloadLink {
 .downloadText {
   @include flexCenter;
   height: 100%;
+    padding: 0px 7px;  
 }
 
 .drawerActuator {
@@ -767,7 +828,9 @@ span.searchHit {
     font-weight: 700;
 }
 
-
+.issueInfo{
+  @include flexbox;
+}
 
 .issueHeader {
 
@@ -775,31 +838,43 @@ span.searchHit {
   flex-direction: column;
   position: relative;  
   min-height: 100px;  
+    padding: 100px;
+    padding-top: 80px;   
+    padding-bottom: 40px;   
+
+.bibl {
+    padding-bottom: 20px;
+    border-bottom: 1px solid#474747;
+}
 
 .issueDate {
-    position: absolute;
-    left: 0px;
     background: #474747;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.1em;
     padding: 5px;
-    height: 18px;
-    width: 140px;
+    height: 23px;
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em;
 }
 
 .personMeta{
   float: left;
   @include flexbox;
+
 }
 
 .personName {
     font-size: 1.2em;
     font-style: italic;
     margin-top: 2px;
+
 }
 
 
@@ -818,10 +893,27 @@ span.searchHit {
 
 }
 
-
+button#show-modal{
+    background: transparent;
+    color: #474747;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 2px;
+    text-decoration: none;
+    border: 1px solid rgba(71, 71, 71, 0.3);
+    cursor: pointer;
+    box-shadow: none;
+    font-family: Roboto;
+    box-sizing: border-box;
+    height: 24px;
+}
 
 .personPieceMeta, .authorShip {
   @include flexbox;
+  float: left;
 }
 
     .personViaf {
@@ -842,12 +934,12 @@ span.searchHit {
     margin: 0px 0px 0px 2px;
     text-decoration: none;
 }
-    margin-left: 140px;
     .issue > .pieceMeta {
       margin: 0px;
       line-height: normal;
       margin-right: 10px;
       width: 100%;
+    padding-bottom: 10px;      
     }
     .pieceTitle {
       font-size: 2em;
@@ -870,7 +962,7 @@ span.searchHit {
   }
 
 .issueHeader > .issueMeta{
-    margin-left: 151px;  
+    //margin-left: 151px;  
 
 }  
   .issueHeader .pieceAuthor {
@@ -878,22 +970,27 @@ span.searchHit {
   }
   .issueVol,
   .issueNum {
-    background: #474747;
-    color: #ffffff;
-    width: 45px;
-    font-weight: 700;
-    font-size: 0.9em;
     float: left;
-    margin-right: 1px;
-    height: 18px;
-    justify-content: center;
-    align-items: center;
     margin-top: 0px;
     position: relative;
-    top: -1px;
+    top: 0px;
     padding-bottom: 6px;
-    @include flexCenter;
-    border-radius: 0px;    
+    @include flexbox;
+    border-radius: 0px;
+    background: #474747;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+    height: 23px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em; 
   }
   .pieceMeta {
     margin-bottom: 30px;
@@ -1053,14 +1150,14 @@ background: #474747;
 }
 
 .viewerSelector {
-  float: left;
-  margin-right: 15px;
   border: 1px solid $document-text-color;
-  overflow: hidden;
-  z-index: 2;
-  position: absolute;
-  top: 87px;
-    margin-left: 20px;  
+    float: right;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    top: 228px;
+    right: 100px;
+    width: 123px;
 }
 
 .viewerTitle {
@@ -1350,7 +1447,7 @@ h1{
 }
 
 .personography h1{
-    background: white;
+    color: white;
     padding: 20px;
 }
 
@@ -1425,9 +1522,6 @@ h1{
     font-size: 12px;
   }
 
-.issueHeader .bibl {
-    margin-left: 160px;
-}
 
 }
 
