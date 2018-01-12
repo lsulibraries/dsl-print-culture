@@ -214,6 +214,7 @@ Vue.component('personFilter', {
 	  <div class="roleFilterMentioned"     v-bind:class="{active: roleFilter == 'ment'}" @click="updateRoleFilter('ment')">Mentioned</div>
 	  <div class="roleFilterEditor"        v-bind:class="{active: roleFilter == 'edit'}" @click="updateRoleFilter('edit')">Editor</div>
 	  <div class="roleFilterCorrespondent" v-bind:class="{active: roleFilter == 'corr'}" @click="updateRoleFilter('corr')">Correspondent</div>
+	 <!-- <div class="numberFilterContributions" v-bind:class="{active: numFilter == 'num'}" @click="updateRoleFilter('num')">Contribution Number</div> -->
         </div>
       </div>
 	`,
@@ -237,7 +238,7 @@ Vue.component('personMeta', {
     template: `
 	<div class="personMeta">
 	  <div class="personName">{{this.getName(personMeta)}}</div>
-	  <div class="personRole">{{personMeta.personRole}}</div>
+	  <div class="personRole">{{this.getRole(personMeta)}}</div>
           <div class="personViaf">
 	    <!--
 	    <a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a>
@@ -254,6 +255,36 @@ Vue.component('personMeta', {
             else {
                 return this.personMeta.personName
             }
+        },
+        getRole: function getRole(personMeta) {
+            if (typeof personMeta.personRole !== 'string') {
+                return ''
+            }
+            roles = Object.values(personMeta.personRole.split(' '))
+            ret = ''
+            for (role of roles) {
+                if (role == 'Mentioned') {
+                    count = personMeta.personTotalMention
+                    if (!personMeta.personTotalMention) {
+                        console.log("totalMention missing for " + personMeta.personId)
+                        count = '?'
+                    }
+                    ret += role + ' (' + count + ')'
+                }
+                else if (role == 'Contributor') {
+                    count = personMeta.personTotalContrib
+                    if (!personMeta.personTotalContrib) {
+                        console.log("totalContrib missing for " + personMeta.personId)
+                        count = '?'
+                    }
+                    ret += role + ' (' + count + ')'
+                }
+                else {
+                    ret += ' ' + role
+                }
+            }
+            
+            return ret
         }
     }
 })
