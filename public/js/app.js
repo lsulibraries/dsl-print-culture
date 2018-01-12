@@ -136,7 +136,6 @@ Vue.component('personography',{
     },
     template: `
         <div class="personography">
-	<h1>Personography</h1>
 	<div class="personographyAbout">Lorem ipsum</div>
 	  <personFilter></personFilter>
 	  <personIndex></personIndex>
@@ -490,7 +489,7 @@ If the author is anonymous DO NOT provide certainty.`,
             </div>
             <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
             <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
-            
+
   <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
 
             <div class="issueData"></div>
