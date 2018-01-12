@@ -5,7 +5,7 @@
          <personMeta>
             <personId>anon</personId>
             <personName>Anonymous</personName>
-            <personTotalContrib>304</personTotalContrib>
+            <personTotalContrib>306</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450614-p3>
@@ -5670,6 +5670,42 @@
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
             </bibl-18450607-p30>
+            <bibl-18451227-p1>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p1</pieceId>
+                  <pieceTitle>The Office of the Broadway Journal</pieceTitle>
+                  <piecePage>381</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p1>
+            <bibl-18451227-p24>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p24</pieceId>
+                  <pieceTitle>The Fine Arts</pieceTitle>
+                  <piecePage>390</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p24>
             <bibl-18450329-p8>
                <issueMeta>
                   <issueId>18450329</issueId>
@@ -8137,7 +8173,7 @@
                <personBirth>Born October 9, 1808 in Spencer, Massachusetts.</personBirth>
                <personDeath>Died February 7, 1895 in New York, New York.</personDeath>
             </personBio>
-            <personTotalContrib>8</personTotalContrib>
+            <personTotalContrib>9</personTotalContrib>
             <personTotalMention>21</personTotalMention>
          </personMeta>
          <personListBibl>
@@ -8262,6 +8298,23 @@
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450208-p26>
+            <bibl-18451101-p1>
+               <issueMeta>
+                  <issueId>18451101</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>November 1, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p1</pieceId>
+                  <pieceTitle>To The Public</pieceTitle>
+                  <piecePage>251</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451101-p1>
             <bibl-18450712-p1>
                <issueMeta>
                   <issueId>18450712</issueId>
@@ -12190,8 +12243,57 @@
             <personId>c</personId>
             <personName>C.</personName>
             <personRole>Contributor</personRole>
+            <personTotalContrib>1</personTotalContrib>
          </personMeta>
+         <personListBibl>
+            <bibl-18450104-p6>
+               <issueMeta>
+                  <issueId>18450104</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>1</issueNum>
+                  <issueDate>January 4, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p6</pieceId>
+                  <pieceTitle>"Is Genius Conscious of Its Powers?"</pieceTitle>
+                  <piecePage>10-12</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450104-p6>
+         </personListBibl>
       </c>
+      <m>
+         <personMeta>
+            <personId>m</personId>
+            <personName>M.</personName>
+            <personRole>Contributor</personRole>
+            <personTotalContrib>1</personTotalContrib>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450524-p4>
+               <issueMeta>
+                  <issueId>18450524</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>21</issueNum>
+                  <issueDate>May 24, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p4</pieceId>
+                  <pieceTitle>To -----</pieceTitle>
+                  <piecePage>325</piecePage>
+                  <piecePdfIndex>5</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450524-p4>
+         </personListBibl>
+      </m>
       <tcampbell>
          <personMeta>
             <personId>tcampbell</personId>
@@ -12251,7 +12353,27 @@
             <personName>Edward Cantwell</personName>
             <personRole>Contributor</personRole>
             <personViaf>http://viaf.org/viaf/78342846</personViaf>
+            <personTotalContrib>1</personTotalContrib>
          </personMeta>
+         <personListBibl>
+            <bibl-18451227-p34>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p34</pieceId>
+                  <pieceTitle>The Minstrel</pieceTitle>
+                  <piecePage>392</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451227-p34>
+         </personListBibl>
       </ecantwell>
       <wcarleton>
          <personMeta>
@@ -12766,9 +12888,9 @@
             </bibl-18450308-s7>
          </personListBibl>
       </cdcennini>
-      <mcervantes>
+      <mervantes>
          <personMeta>
-            <personId>mcervantes</personId>
+            <personId>mervantes</personId>
             <personName>Miguel de Cervantes Saavedra</personName>
             <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17220427</personViaf>
@@ -12776,28 +12898,8 @@
                <personBirth>Born September 29, 1547 in Alcalá de Henares, Habsburg Spain.</personBirth>
                <personDeath>Died April 23, 1616 in Madrid, Spain.</personDeath>
             </personBio>
-            <personTotalMention>1</personTotalMention>
          </personMeta>
-         <personListBibl>
-            <bibl-18450104-p6>
-               <issueMeta>
-                  <issueId>18450104</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>1</issueNum>
-                  <issueDate>January 4, 1845</issueDate>
-               </issueMeta>
-               <pieceMeta>
-                  <pieceId>p6</pieceId>
-                  <pieceTitle>"Is Genius Conscious of Its Powers?"</pieceTitle>
-                  <piecePage>10-12</piecePage>
-                  <piecePdfIndex>10</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Mentioned</personPieceRole>
-               </personPieceMeta>
-            </bibl-18450104-p6>
-         </personListBibl>
-      </mcervantes>
+      </mervantes>
       <wechanning>
          <personMeta>
             <personId>wechanning</personId>
@@ -14294,7 +14396,28 @@
             <personId>gfd</personId>
             <personName>G. F. D.</personName>
             <personRole>Contributor</personRole>
+            <personTotalContrib>1</personTotalContrib>
          </personMeta>
+         <personListBibl>
+            <bibl-18451227-p3>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p3</pieceId>
+                  <pieceTitle>A Walk to Flatbush</pieceTitle>
+                  <piecePage>381-382</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p3>
+         </personListBibl>
       </gfd>
       <sd>
          <personMeta>
@@ -14651,7 +14774,7 @@
             <personId>hsdegrove</personId>
             <personName>Mrs. H. S. De Grove</personName>
             <personRole>Contributor</personRole>
-            <personTotalContrib>1</personTotalContrib>
+            <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18451206-p18>
@@ -14671,6 +14794,23 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18451206-p18>
+            <bibl-18451213-p20>
+               <issueMeta>
+                  <issueId>18451213</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>23</issueNum>
+                  <issueDate>December 13, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p20</pieceId>
+                  <pieceTitle>Sleep On</pieceTitle>
+                  <piecePage>357</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451213-p20>
          </personListBibl>
       </hsdegrove>
       <hcdeming>
@@ -15622,10 +15762,27 @@
                <personBirth>Born October 18, 1818 in Sodus Point, New York.</personBirth>
                <personDeath>Died June 3, 1877 in New York, New York.</personDeath>
             </personBio>
-            <personTotalContrib>5</personTotalContrib>
+            <personTotalContrib>7</personTotalContrib>
             <personTotalMention>4</personTotalMention>
          </personMeta>
          <personListBibl>
+            <bibl-18451129-p2>
+               <issueMeta>
+                  <issueId>18451129</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>21</issueNum>
+                  <issueDate>November 29, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p2</pieceId>
+                  <pieceTitle>Sonnet: To Miss Anne C. Lynch</pieceTitle>
+                  <piecePage>315</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451129-p2>
             <bibl-18451004-p1>
                <issueMeta>
                   <issueId>18451004</issueId>
@@ -15694,6 +15851,23 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18451213-p2>
+            <bibl-18451227-p2>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p2</pieceId>
+                  <pieceTitle>To———</pieceTitle>
+                  <piecePage>381</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451227-p2>
             <bibl-18451101-p2>
                <issueMeta>
                   <issueId>18451101</issueId>
@@ -16760,9 +16934,9 @@
             </bibl-18451206-p4>
          </personListBibl>
       </fgaleota>
-      <wdgallgaher>
+      <wdgallagher>
          <personMeta>
-            <personId>wdgallgaher</personId>
+            <personId>wdgallagher</personId>
             <personName>William Davis Gallagher</personName>
             <personRole>Contributor</personRole>
             <personViaf>http://viaf.org/viaf/78631456</personViaf>
@@ -16770,8 +16944,28 @@
                <personBirth>Born August 21, 1808 in Philadelphia, Pennsylvania.</personBirth>
                <personDeath>Died June 27, 1894.</personDeath>
             </personBio>
+            <personTotalContrib>1</personTotalContrib>
          </personMeta>
-      </wdgallgaher>
+         <personListBibl>
+            <bibl-18451227-p6>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p6</pieceId>
+                  <pieceTitle>The Invalid</pieceTitle>
+                  <piecePage>385</piecePage>
+                  <piecePdfIndex>5</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451227-p6>
+         </personListBibl>
+      </wdgallagher>
       <agallatin>
          <personMeta>
             <personId>agallatin</personId>
@@ -18103,7 +18297,27 @@
                <personBirth>Born 1500 in Lucca, Italy.</personBirth>
                <personDeath>Died 1541 in Macerata, Italy.</personDeath>
             </personBio>
+            <personTotalContrib>1</personTotalContrib>
          </personMeta>
+         <personListBibl>
+            <bibl-18451227-p25>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p25</pieceId>
+                  <pieceTitle>Sonetto</pieceTitle>
+                  <piecePage>390</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451227-p25>
+         </personListBibl>
       </gguidiccioni>
       <jgwilt>
          <personMeta>
@@ -18146,7 +18360,7 @@
             <personId>h</personId>
             <personName>H.</personName>
             <personRole>Contributor</personRole>
-            <personTotalContrib>1</personTotalContrib>
+            <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450111-p7>
@@ -18166,6 +18380,24 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18450111-p7>
+            <bibl-18450104-p9>
+               <issueMeta>
+                  <issueId>18450104</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>1</issueNum>
+                  <issueDate>January 4, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p9</pieceId>
+                  <pieceTitle>New-Year's Calls</pieceTitle>
+                  <piecePage>13-14</piecePage>
+                  <piecePdfIndex>13</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450104-p9>
          </personListBibl>
       </h>
       <bh>
@@ -19340,7 +19572,7 @@
                <personBirth>Born March 20, 1807 in Malden, Massachusetts.</personBirth>
                <personDeath>Died September 17, 1894.</personDeath>
             </personBio>
-            <personTotalContrib>7</personTotalContrib>
+            <personTotalContrib>8</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450614-p11>
@@ -19474,6 +19706,23 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18450419-p6>
+            <bibl-18451227-p22>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p22</pieceId>
+                  <pieceTitle>Sonnet</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451227-p22>
          </personListBibl>
       </mehewitt>
       <jheywood>
@@ -26253,7 +26502,7 @@
                <personBirth>Born January 19, 1809 in Boston, Massachusetts.</personBirth>
                <personDeath>Died October 7, 1849 in Baltimore, Maryland.</personDeath>
             </personBio>
-            <personTotalContrib>5661</personTotalContrib>
+            <personTotalContrib>5961</personTotalContrib>
             <personTotalMention>1421</personTotalMention>
          </personMeta>
          <personListBibl>
@@ -37886,6 +38135,692 @@
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450607-p27>
+            <bibl-18451227-p5>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>Mystification</pieceTitle>
+                  <piecePage>382-385</piecePage>
+                  <piecePdfIndex>2</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing as Littleton Barry.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p5>
+            <bibl-18451227-p7>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p7</pieceId>
+                  <pieceTitle>The Poetical Works of Percy Bysshe Shelley</pieceTitle>
+                  <piecePage>385</piecePage>
+                  <piecePdfIndex>5</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p7>
+            <bibl-18451227-p8>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p8</pieceId>
+                  <pieceTitle>The Opal: A Pure Gift for the Holidays</pieceTitle>
+                  <piecePage>386</piecePage>
+                  <piecePdfIndex>6</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p8>
+            <bibl-18451227-p9>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p9</pieceId>
+                  <pieceTitle>Miscellanies</pieceTitle>
+                  <piecePage>386-387</piecePage>
+                  <piecePdfIndex>6</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p9>
+            <bibl-18451227-p10>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p10</pieceId>
+                  <pieceTitle>The Poems of Alfred B. Street</pieceTitle>
+                  <piecePage>387</piecePage>
+                  <piecePdfIndex>7</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p10>
+            <bibl-18451227-p11>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p11</pieceId>
+                  <pieceTitle>Hyperion, a Romance</pieceTitle>
+                  <piecePage>387</piecePage>
+                  <piecePdfIndex>7</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p11>
+            <bibl-18451227-p12>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p12</pieceId>
+                  <pieceTitle>The Alps and the Rhine</pieceTitle>
+                  <piecePage>387</piecePage>
+                  <piecePdfIndex>7</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p12>
+            <bibl-18451227-p13>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>Appleton's Literary Miscellany</pieceTitle>
+                  <piecePage>387</piecePage>
+                  <piecePdfIndex>7</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p13>
+            <bibl-18451227-p14>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>A Practical Treatise on Healthy Skin</pieceTitle>
+                  <piecePage>387-388</piecePage>
+                  <piecePdfIndex>7</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p14>
+            <bibl-18451227-p15>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p15</pieceId>
+                  <pieceTitle>Montezuma, the Last of the Aztecs</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p15>
+            <bibl-18451227-p16>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p16</pieceId>
+                  <pieceTitle>Chances and Changes</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p16>
+            <bibl-18451227-p17>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p17</pieceId>
+                  <pieceTitle>Voltaire and Rousseau Against the Atheists</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p17>
+            <bibl-18451227-p18>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p18</pieceId>
+                  <pieceTitle>Harper's Illuminated and New Pictorial Bible</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p18>
+            <bibl-18451227-p19>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Graham's Magazine</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p19>
+            <bibl-18451227-p20>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p20</pieceId>
+                  <pieceTitle>Hunt's Merchants' Magazine</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p20>
+            <bibl-18451227-p21>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices.</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Columbia Magazine</pieceTitle>
+                  <piecePage>388</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p21>
+            <bibl-18451227-p35>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>The Drama</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p35</pieceId>
+                  <pieceTitle>The Most Noticeable Event</pieceTitle>
+                  <piecePage>389</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p35>
+            <bibl-18451227-p36>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>The Drama</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p36</pieceId>
+                  <pieceTitle>Some of the Charleston Papers</pieceTitle>
+                  <piecePage>389</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p36>
+            <bibl-18451227-p37>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>The Drama</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p37</pieceId>
+                  <pieceTitle>We Present Our Readers</pieceTitle>
+                  <piecePage>389</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p37>
+            <bibl-18451227-p38>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>The Drama</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p38</pieceId>
+                  <pieceTitle>On Wednesday Evening</pieceTitle>
+                  <piecePage>389</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p38>
+            <bibl-18451227-p39>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>The Drama</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p39</pieceId>
+                  <pieceTitle>Mr. Murdoch</pieceTitle>
+                  <piecePage>389</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p39>
+            <bibl-18451227-p40>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>The Drama</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p40</pieceId>
+                  <pieceTitle>Mr. Murdoch's Othello</pieceTitle>
+                  <piecePage>389</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p40>
+            <bibl-18451227-p26>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p26</pieceId>
+                  <pieceTitle>The Broadway Journal</pieceTitle>
+                  <piecePage>390</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p26>
+            <bibl-18451227-p27>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p27</pieceId>
+                  <pieceTitle>Mr. Thomas H. Lane</pieceTitle>
+                  <piecePage>390</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p27>
+            <bibl-18451227-p28>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p28</pieceId>
+                  <pieceTitle>Dr. Collier</pieceTitle>
+                  <piecePage>390-391</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p28>
+            <bibl-18451227-p29>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p29</pieceId>
+                  <pieceTitle>The Truly Beautiful Poem</pieceTitle>
+                  <piecePage>391</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p29>
+            <bibl-18451227-p30>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p30</pieceId>
+                  <pieceTitle>The Daily News</pieceTitle>
+                  <piecePage>391</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p30>
+            <bibl-18451227-p31>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p31</pieceId>
+                  <pieceTitle>The Boston Post</pieceTitle>
+                  <piecePage>391</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p31>
+            <bibl-18451227-p32>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p32</pieceId>
+                  <pieceTitle>The Boston Courier</pieceTitle>
+                  <piecePage>391-392</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p32>
+            <bibl-18451227-p33>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editoral Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p33</pieceId>
+                  <pieceTitle>To Correspondents</pieceTitle>
+                  <piecePage>391</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451227-p33>
             <bibl-18450329-p6>
                <issueMeta>
                   <issueId>18450329</issueId>
@@ -39566,7 +40501,27 @@
                <personBirth>Born 1801 in Marylebone, England.</personBirth>
                <personDeath>Died November 17, 1865 in Clapham, England.</personDeath>
             </personBio>
+            <personTotalContrib>1</personTotalContrib>
          </personMeta>
+         <personListBibl>
+            <bibl-18451227-p4>
+               <issueMeta>
+                  <issueId>18451227</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>December 27, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p4</pieceId>
+                  <pieceTitle>Sonnets</pieceTitle>
+                  <piecePage>382</piecePage>
+                  <piecePdfIndex>2</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451227-p4>
+         </personListBibl>
       </dlrichardson>
       <jrichardson>
          <personMeta>
@@ -40283,7 +41238,7 @@
                <personBirth>Born March 28, 1793 in Guilderland, New York.</personBirth>
                <personDeath>Died December 10, 1864.</personDeath>
             </personBio>
-            <personTotalContrib>2</personTotalContrib>
+            <personTotalContrib>3</personTotalContrib>
             <personTotalMention>48</personTotalMention>
          </personMeta>
          <personListBibl>
@@ -40327,6 +41282,23 @@
                   <authorShip>Authorship is inferred, with medium certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450125-p7>
+            <bibl-18450208-p11>
+               <issueMeta>
+                  <issueId>18450208</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>6</issueNum>
+                  <issueDate>February 8, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p11</pieceId>
+                  <pieceTitle>Chronology</pieceTitle>
+                  <piecePage>91</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450208-p11>
             <bibl-18450201-s6>
                <issueMeta>
                   <issueId>18450201</issueId>
@@ -43176,13 +44148,52 @@
             </bibl-18450222-p9>
          </personListBibl>
       </saw>
-      <W>
+      <w>
          <personMeta>
-            <personId>W</personId>
+            <personId>w</personId>
             <personName>W.</personName>
             <personRole>Contributor</personRole>
+            <personTotalContrib>2</personTotalContrib>
          </personMeta>
-      </W>
+         <personListBibl>
+            <bibl-18451011-p5>
+               <issueMeta>
+                  <issueId>18451011</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>14</issueNum>
+                  <issueDate>October 11, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>To Constance</pieceTitle>
+                  <piecePage>208</piecePage>
+                  <piecePdfIndex>6</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18451011-p5>
+            <bibl-18451025-p7>
+               <issueMeta>
+                  <issueId>18451025</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>16</issueNum>
+                  <issueDate>October 25, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p7</pieceId>
+                  <pieceTitle>Lines</pieceTitle>
+                  <piecePage>244-245</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18451025-p7>
+         </personListBibl>
+      </w>
       <wrwagstaff>
          <personMeta>
             <personId>wrwagstaff</personId>

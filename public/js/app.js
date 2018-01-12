@@ -646,7 +646,7 @@ If the author is anonymous DO NOT provide certainty.`,
 		return false
 	    }
 	    if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
-		alert('person ' + pid + ' not found!')
+		console.log('person ' + pid + ' not found!')
 		return {
 		    personRole: 'unknown',
 		    personName: 'unknown',

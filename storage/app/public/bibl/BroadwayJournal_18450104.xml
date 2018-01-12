@@ -57,8 +57,8 @@
          <decls_id>p6</decls_id>
          <type>piece</type>
          <title>"Is Genius Conscious of Its Powers?"</title>
-         <auth_id>C</auth_id>
-         <auth_name/>
+         <auth_id>c</auth_id>
+         <auth_name>C.</auth_name>
          <page>10-12</page>
          <pdf_index>10</pdf_index>
       </p6>
@@ -91,8 +91,8 @@
          <decls_id>p9</decls_id>
          <type>piece</type>
          <title>New-Year's Calls</title>
-         <auth_id>H</auth_id>
-         <auth_name/>
+         <auth_id>h</auth_id>
+         <auth_name>H.</auth_name>
          <page>13-14</page>
          <pdf_index>13</pdf_index>
       </p9>
@@ -280,11 +280,11 @@
             <piecePage>10-12</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
-               <C>
-                  <personName/>
+               <c>
+                  <personName>C.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
-               </C>
+               </c>
             </pieceListPerson>
          </pieceMeta>
       </p6>
@@ -339,11 +339,11 @@
             <piecePage>13-14</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
-               <H>
-                  <personName/>
+               <h>
+                  <personName>H.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
-               </H>
+               </h>
             </pieceListPerson>
          </pieceMeta>
       </p9>

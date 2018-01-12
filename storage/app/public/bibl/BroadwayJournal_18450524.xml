@@ -33,7 +33,7 @@
          <type>piece</type>
          <title>To -----</title>
          <auth_id>m</auth_id>
-         <auth_name/>
+         <auth_name>M.</auth_name>
          <page>325</page>
          <pdf_index>5</pdf_index>
       </p4>
@@ -344,7 +344,7 @@
             <piecePdfIndex>5</piecePdfIndex>
             <pieceListPerson>
                <m>
-                  <personName/>
+                  <personName>M.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </m>

@@ -5,8 +5,8 @@
          <decls_id>p1</decls_id>
          <type>piece</type>
          <title>To The Public</title>
-         <auth_id>jbiscoe</auth_id>
-         <auth_name/>
+         <auth_id>jbisco</auth_id>
+         <auth_name>John Bisco</auth_name>
          <page>251</page>
          <pdf_index>1</pdf_index>
       </p1>
@@ -354,10 +354,10 @@
             <piecePage>251</piecePage>
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
-               <jbiscoe>
-                  <personName/>
+               <jbisco>
+                  <personName>John Bisco</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </jbiscoe>
+               </jbisco>
             </pieceListPerson>
          </pieceMeta>
       </p1>

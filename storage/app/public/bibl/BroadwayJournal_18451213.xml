@@ -183,8 +183,8 @@
          <decls_id>p20</decls_id>
          <type>piece</type>
          <title>Sleep On</title>
-         <auth_id>hsdelgrove</auth_id>
-         <auth_name/>
+         <auth_id>hsdegrove</auth_id>
+         <auth_name>Mrs. H. S. De Grove</auth_name>
          <page>357</page>
          <pdf_index>9</pdf_index>
       </p20>
@@ -711,10 +711,10 @@
             <piecePage>357</piecePage>
             <piecePdfIndex>9</piecePdfIndex>
             <pieceListPerson>
-               <hsdelgrove>
-                  <personName/>
+               <hsdegrove>
+                  <personName>Mrs. H. S. De Grove</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </hsdelgrove>
+               </hsdegrove>
             </pieceListPerson>
          </pieceMeta>
       </p20>

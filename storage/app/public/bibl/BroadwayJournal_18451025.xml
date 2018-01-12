@@ -60,7 +60,7 @@
          <type>piece</type>
          <title>Lines</title>
          <auth_id>w</auth_id>
-         <auth_name/>
+         <auth_name>W.</auth_name>
          <page>244-245</page>
          <pdf_index>10</pdf_index>
       </p7>
@@ -265,7 +265,7 @@
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
                <w>
-                  <personName/>
+                  <personName>W.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </w>

@@ -14,8 +14,8 @@
          <decls_id>p2</decls_id>
          <type>piece</type>
          <title>Sonnet: To Miss Anne C. Lynch</title>
-         <auth_id>efellett</auth_id>
-         <auth_name/>
+         <auth_id>efellet</auth_id>
+         <auth_name>Elizabeth Fries Ellet</auth_name>
          <page>315</page>
          <pdf_index>1</pdf_index>
       </p2>
@@ -378,10 +378,10 @@
             <piecePage>315</piecePage>
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
-               <efellett>
-                  <personName/>
+               <efellet>
+                  <personName>Elizabeth Fries Ellet</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </efellett>
+               </efellet>
             </pieceListPerson>
          </pieceMeta>
       </p2>

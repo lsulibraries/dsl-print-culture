@@ -42,7 +42,7 @@
          <type>piece</type>
          <title>To Constance</title>
          <auth_id>w</auth_id>
-         <auth_name/>
+         <auth_name>W.</auth_name>
          <page>208</page>
          <pdf_index>6</pdf_index>
       </p5>
@@ -406,7 +406,7 @@
             <piecePdfIndex>6</piecePdfIndex>
             <pieceListPerson>
                <w>
-                  <personName/>
+                  <personName>W.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </w>
