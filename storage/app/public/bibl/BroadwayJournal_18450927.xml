@@ -4,29 +4,29 @@
       <p1>
          <decls_id>p1</decls_id>
          <type>piece</type>
-         <title>Slander</title>
-         <auth_id>fsosgood</auth_id>
-         <auth_name>Frances Sargent Osgood</auth_name>
-         <page>113</page>
+         <title>The Forest Reverie</title>
+         <auth_id>amide</auth_id>
+         <auth_name>Abijah Metcalf Ide, Jr.</auth_name>
+         <page>171</page>
          <pdf_index>1</pdf_index>
       </p1>
       <p2>
          <decls_id>p2</decls_id>
          <type>piece</type>
-         <title>William Wilson</title>
+         <title>Ligeia</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
-         <page>113-119</page>
+         <page>171-176</page>
          <pdf_index>1</pdf_index>
       </p2>
       <p3>
          <decls_id>p3</decls_id>
          <type>piece</type>
-         <title>Romance</title>
-         <auth_id>eapoe</auth_id>
-         <auth_name>Edgar Allan Poe</auth_name>
-         <page>119</page>
-         <pdf_index>7</pdf_index>
+         <title>The Bread-Snatcher</title>
+         <auth_id>tdenglish</auth_id>
+         <auth_name>Thomas Dunn English</auth_name>
+         <page>176-177</page>
+         <pdf_index>6</pdf_index>
       </p3>
       <s1>
          <decls_id>s1</decls_id>
@@ -36,267 +36,213 @@
             <p4>
                <decls_id>p4</decls_id>
                <type>piece</type>
-               <title>Wiley and Putnam's Library of Choice Reading</title>
+               <title>The Prose Works of John Milton</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>119-120</page>
+               <page>177</page>
                <pdf_index>7</pdf_index>
             </p4>
             <p5>
                <decls_id>p5</decls_id>
                <type>piece</type>
-               <title>Wiley and Putnam's Library of Choice Reading</title>
+               <title>Big Abel and the Little Manhattan</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>119-120</page>
+               <page>177-178</page>
                <pdf_index>7</pdf_index>
             </p5>
             <p6>
                <decls_id>p6</decls_id>
                <type>piece</type>
-               <title>Introductory Lectures on Modern History</title>
+               <title>Puratinism</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>121</page>
-               <pdf_index>9</pdf_index>
+               <page>178</page>
+               <pdf_index>8</pdf_index>
             </p6>
             <p7>
                <decls_id>p7</decls_id>
                <type>piece</type>
-               <title>A Treatise in Domestic Economy</title>
+               <title>The Medici Series of Italian Prose</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>121</page>
-               <pdf_index>9</pdf_index>
+               <page>178</page>
+               <pdf_index>8</pdf_index>
             </p7>
             <p8>
                <decls_id>p8</decls_id>
                <type>piece</type>
-               <title>Simms' Magazine</title>
+               <title>An Encyclopedia of Domestic Economy</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>121</page>
-               <pdf_index>9</pdf_index>
+               <page>178</page>
+               <pdf_index>8</pdf_index>
             </p8>
             <p9>
                <decls_id>p9</decls_id>
                <type>piece</type>
-               <title>Harper's Illuminated and Illustrated Shakspeare</title>
+               <title>The Wandering Jew</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>121</page>
-               <pdf_index>9</pdf_index>
+               <page>178</page>
+               <pdf_index>8</pdf_index>
             </p9>
             <p10>
                <decls_id>p10</decls_id>
                <type>piece</type>
-               <title>The Mission, or Scenes in Africa</title>
+               <title>The Devotional Family Bible</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>121</page>
-               <pdf_index>9</pdf_index>
+               <page>178</page>
+               <pdf_index>8</pdf_index>
             </p10>
             <p11>
                <decls_id>p11</decls_id>
                <type>piece</type>
-               <title>The Abbey of Innismoyle</title>
+               <title>Journal of the Texian Expedition Against Mier</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>121</page>
-               <pdf_index>9</pdf_index>
+               <page>178-179</page>
+               <pdf_index>8</pdf_index>
             </p11>
             <p12>
                <decls_id>p12</decls_id>
                <type>piece</type>
-               <title>The Medici Series of Italian Prose</title>
+               <title>The May-Flower</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>121-122</page>
+               <page>179</page>
                <pdf_index>9</pdf_index>
             </p12>
             <p13>
                <decls_id>p13</decls_id>
                <type>piece</type>
-               <title>A Latin Grammar</title>
+               <title>The Miscellaneous Works of Thomas Arnold</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
-               <pdf_index>10</pdf_index>
+               <page>179</page>
+               <pdf_index>9</pdf_index>
             </p13>
             <p14>
                <decls_id>p14</decls_id>
                <type>piece</type>
-               <title>First Lessons in Latin</title>
+               <title>Wrongs of American Women</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
-               <pdf_index>10</pdf_index>
+               <page>179</page>
+               <pdf_index>9</pdf_index>
             </p14>
             <p15>
                <decls_id>p15</decls_id>
                <type>piece</type>
-               <title>The History of the Volunteers of 1782</title>
+               <title>Introduction to the American Common-School Reader and Speaker</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
-               <pdf_index>10</pdf_index>
+               <page>179-180</page>
+               <pdf_index>9</pdf_index>
             </p15>
             <p16>
                <decls_id>p16</decls_id>
                <type>piece</type>
-               <title>The Treasury of History</title>
+               <title>The Elements of Morality</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
+               <page>180</page>
                <pdf_index>10</pdf_index>
             </p16>
             <p17>
                <decls_id>p17</decls_id>
                <type>piece</type>
-               <title>Blackwood's Magazine</title>
+               <title>Pictorial History of the World</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
+               <page>180</page>
                <pdf_index>10</pdf_index>
             </p17>
             <p18>
                <decls_id>p18</decls_id>
                <type>piece</type>
-               <title>Godey's Lady's Book</title>
+               <title>While Going to Press</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
+               <page>180</page>
                <pdf_index>10</pdf_index>
             </p18>
-            <p19>
-               <decls_id>p19</decls_id>
-               <type>piece</type>
-               <title>The Edinburgh Review</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
-               <pdf_index>10</pdf_index>
-            </p19>
+         </pieces>
+      </s1>
+      <p19>
+         <decls_id>p19</decls_id>
+         <type>piece</type>
+         <title>The Fairy's Burial</title>
+         <auth_id>mhtrowbridge</auth_id>
+         <auth_name>Marcus H. Trowbridge</auth_name>
+         <page>180</page>
+         <pdf_index>10</pdf_index>
+      </p19>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Musical Department</title>
+         <pieces>
             <p20>
                <decls_id>p20</decls_id>
                <type>piece</type>
-               <title>An Encyclopedia of Domestic Economy</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
+               <title>Oratorio of the Seven Sleepers</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>180-182</page>
                <pdf_index>10</pdf_index>
             </p20>
-            <p21>
-               <decls_id>p21</decls_id>
-               <type>piece</type>
-               <title>Cosmos</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
-               <pdf_index>10</pdf_index>
-            </p21>
-            <p22>
-               <decls_id>p22</decls_id>
-               <type>piece</type>
-               <title>Graham's Magazine</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
-               <pdf_index>10</pdf_index>
-            </p22>
-            <p23>
-               <decls_id>p23</decls_id>
-               <type>piece</type>
-               <title>Arthur's Magazine</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>122</page>
-               <pdf_index>10</pdf_index>
-            </p23>
-         </pieces>
-      </s1>
-      <s2>
-         <decls_id>s2</decls_id>
-         <type>section</type>
-         <title>The Fine Arts</title>
-         <pieces>
             <p24>
                <decls_id>p24</decls_id>
                <type>piece</type>
-               <title>Sale of Pictures at Bordentown</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
-               <page>122-123</page>
-               <pdf_index>10</pdf_index>
+               <title>Park Theatre</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>182-183</page>
+               <pdf_index>12</pdf_index>
             </p24>
-            <p25>
-               <decls_id>p25</decls_id>
-               <type>piece</type>
-               <title>One Thousand Pounds</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
-               <page>123</page>
-               <pdf_index>11</pdf_index>
-            </p25>
          </pieces>
-      </s2>
-      <p26>
-         <decls_id>p26</decls_id>
+      </s3>
+      <p21>
+         <decls_id>p21</decls_id>
          <type>piece</type>
-         <title>The City in the Sea</title>
-         <auth_id>eapoe</auth_id>
-         <auth_name>Edgar Allan Poe</auth_name>
-         <page>123</page>
-         <pdf_index>11</pdf_index>
-      </p26>
-      <p27>
-         <decls_id>p27</decls_id>
-         <type>piece</type>
-         <title>Musical Department</title>
-         <auth_id>hcwatson</auth_id>
-         <auth_name>Henry Cood Watson</auth_name>
-         <page>124</page>
-         <pdf_index>12</pdf_index>
-      </p27>
-      <p28>
-         <decls_id>p28</decls_id>
-         <type>piece</type>
-         <title>The Drama</title>
-         <auth_id>eapoe</auth_id>
-         <auth_name>Edgar Allan Poe</auth_name>
-         <page>124</page>
-         <pdf_index>12</pdf_index>
-      </p28>
-      <p29>
-         <decls_id>p29</decls_id>
+         <title>Criticisms on the Popular Errors of the Age, No. I</title>
+         <auth_id>alolo</auth_id>
+         <auth_name>Alolo</auth_name>
+         <page>183</page>
+         <pdf_index>13</pdf_index>
+      </p21>
+      <p22>
+         <decls_id>p22</decls_id>
          <type>piece</type>
          <title>Editorial Miscellany</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
-         <page>125-126</page>
+         <page>183-184</page>
          <pdf_index>13</pdf_index>
-      </p29>
-      <s3>
-         <decls_id>s3</decls_id>
+      </p22>
+      <s2>
+         <decls_id>s2</decls_id>
          <type>section</type>
          <title>Advertisements</title>
-         <page>126-128</page>
-         <pdf_index>14</pdf_index>
-      </s3>
-      <p30>
-         <decls_id>p30</decls_id>
+         <page>185-186</page>
+         <pdf_index>15</pdf_index>
+      </s2>
+      <p23>
+         <decls_id>p23</decls_id>
          <type>piece</type>
-         <title>Our First Volume</title>
-         <page>126</page>
-         <pdf_index>14</pdf_index>
-      </p30>
+         <title>Agents for the Broadway Journal</title>
+         <page>186</page>
+         <pdf_index>16</pdf_index>
+      </p23>
    </toc>
    <issueMeta>
-      <issueId>18450830</issueId>
+      <issueId>18450927</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
       <issueVol>2</issueVol>
-      <issueNum>8</issueNum>
-      <issueDate>August 30, 1845</issueDate>
+      <issueNum>12</issueNum>
+      <issueDate>September 27, 1845</issueDate>
       <issueListPerson>
          <eapoe>
             <personId>eapoe</personId>
@@ -319,22 +265,22 @@
       <p1>
          <pieceMeta>
             <pieceId>p1</pieceId>
-            <pieceTitle>Slander</pieceTitle>
-            <piecePage>113</piecePage>
+            <pieceTitle>The Forest Reverie</pieceTitle>
+            <piecePage>171</piecePage>
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
-               <fsosgood>
-                  <personName>Frances Sargent Osgood</personName>
+               <amide>
+                  <personName>Abijah Metcalf Ide, Jr.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </fsosgood>
+               </amide>
             </pieceListPerson>
          </pieceMeta>
       </p1>
       <p2>
          <pieceMeta>
             <pieceId>p2</pieceId>
-            <pieceTitle>William Wilson</pieceTitle>
-            <piecePage>113-119</piecePage>
+            <pieceTitle>Ligeia</pieceTitle>
+            <piecePage>171-176</piecePage>
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -347,15 +293,14 @@
       <p3>
          <pieceMeta>
             <pieceId>p3</pieceId>
-            <pieceTitle>Romance</pieceTitle>
-            <piecePage>119</piecePage>
-            <piecePdfIndex>7</piecePdfIndex>
+            <pieceTitle>The Bread-Snatcher</pieceTitle>
+            <piecePage>176-177</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
             <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
+               <tdenglish>
+                  <personName>Thomas Dunn English</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
-               </eapoe>
+               </tdenglish>
             </pieceListPerson>
          </pieceMeta>
       </p3>
@@ -372,8 +317,8 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p4</pieceId>
-            <pieceTitle>Wiley and Putnam's Library of Choice Reading</pieceTitle>
-            <piecePage>119-120</piecePage>
+            <pieceTitle>The Prose Works of John Milton</pieceTitle>
+            <piecePage>177</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -391,8 +336,8 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p5</pieceId>
-            <pieceTitle>Wiley and Putnam's Library of Choice Reading</pieceTitle>
-            <piecePage>119-120</piecePage>
+            <pieceTitle>Big Abel and the Little Manhattan</pieceTitle>
+            <piecePage>177-178</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -410,14 +355,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p6</pieceId>
-            <pieceTitle>Introductory Lectures on Modern History</pieceTitle>
-            <piecePage>121</piecePage>
-            <piecePdfIndex>9</piecePdfIndex>
+            <pieceTitle>Puratinism</pieceTitle>
+            <piecePage>178</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -429,14 +374,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p7</pieceId>
-            <pieceTitle>A Treatise in Domestic Economy</pieceTitle>
-            <piecePage>121</piecePage>
-            <piecePdfIndex>9</piecePdfIndex>
+            <pieceTitle>The Medici Series of Italian Prose</pieceTitle>
+            <piecePage>178</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -448,9 +393,9 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p8</pieceId>
-            <pieceTitle>Simms' Magazine</pieceTitle>
-            <piecePage>121</piecePage>
-            <piecePdfIndex>9</piecePdfIndex>
+            <pieceTitle>An Encyclopedia of Domestic Economy</pieceTitle>
+            <piecePage>178</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
@@ -467,14 +412,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p9</pieceId>
-            <pieceTitle>Harper's Illuminated and Illustrated Shakspeare</pieceTitle>
-            <piecePage>121</piecePage>
-            <piecePdfIndex>9</piecePdfIndex>
+            <pieceTitle>The Wandering Jew</pieceTitle>
+            <piecePage>178</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -486,9 +431,9 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p10</pieceId>
-            <pieceTitle>The Mission, or Scenes in Africa</pieceTitle>
-            <piecePage>121</piecePage>
-            <piecePdfIndex>9</piecePdfIndex>
+            <pieceTitle>The Devotional Family Bible</pieceTitle>
+            <piecePage>178</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
@@ -505,14 +450,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p11</pieceId>
-            <pieceTitle>The Abbey of Innismoyle</pieceTitle>
-            <piecePage>121</piecePage>
-            <piecePdfIndex>9</piecePdfIndex>
+            <pieceTitle>Journal of the Texian Expedition Against Mier</pieceTitle>
+            <piecePage>178-179</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -524,14 +469,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p12</pieceId>
-            <pieceTitle>The Medici Series of Italian Prose</pieceTitle>
-            <piecePage>121-122</piecePage>
+            <pieceTitle>The May-Flower</pieceTitle>
+            <piecePage>179</piecePage>
             <piecePdfIndex>9</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -543,14 +488,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p13</pieceId>
-            <pieceTitle>A Latin Grammar</pieceTitle>
-            <piecePage>122</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
+            <pieceTitle>The Miscellaneous Works of Thomas Arnold</pieceTitle>
+            <piecePage>179</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -562,14 +507,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p14</pieceId>
-            <pieceTitle>First Lessons in Latin</pieceTitle>
-            <piecePage>122</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
+            <pieceTitle>Wrongs of American Women</pieceTitle>
+            <piecePage>179</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -581,14 +526,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p15</pieceId>
-            <pieceTitle>The History of the Volunteers of 1782</pieceTitle>
-            <piecePage>122</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
+            <pieceTitle>Introduction to the American Common-School Reader and Speaker</pieceTitle>
+            <piecePage>179-180</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -600,14 +545,14 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p16</pieceId>
-            <pieceTitle>The Treasury of History</pieceTitle>
-            <piecePage>122</piecePage>
+            <pieceTitle>The Elements of Morality</pieceTitle>
+            <piecePage>180</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -619,8 +564,8 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p17</pieceId>
-            <pieceTitle>Blackwood's Magazine</pieceTitle>
-            <piecePage>122</piecePage>
+            <pieceTitle>Pictorial History of the World</pieceTitle>
+            <piecePage>180</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -638,8 +583,8 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p18</pieceId>
-            <pieceTitle>Godey's Lady's Book</pieceTitle>
-            <piecePage>122</piecePage>
+            <pieceTitle>While Going to Press</pieceTitle>
+            <piecePage>180</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -651,163 +596,53 @@
          </pieceMeta>
       </p18>
       <p19>
-         <sectionMeta>
-            <sectionId>s1</sectionId>
-            <sectionTitle>Critical Notices</sectionTitle>
-         </sectionMeta>
          <pieceMeta>
             <pieceId>p19</pieceId>
-            <pieceTitle>The Edinburgh Review</pieceTitle>
-            <piecePage>122</piecePage>
+            <pieceTitle>The Fairy's Burial</pieceTitle>
+            <piecePage>180</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
+               <mhtrowbridge>
+                  <personName>Marcus H. Trowbridge</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
+               </mhtrowbridge>
             </pieceListPerson>
          </pieceMeta>
       </p19>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Department</sectionTitle>
+         </sectionMeta>
+      </s3>
       <p20>
          <sectionMeta>
-            <sectionId>s1</sectionId>
-            <sectionTitle>Critical Notices</sectionTitle>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Department</sectionTitle>
          </sectionMeta>
          <pieceMeta>
             <pieceId>p20</pieceId>
-            <pieceTitle>An Encyclopedia of Domestic Economy</pieceTitle>
-            <piecePage>122</piecePage>
+            <pieceTitle>Oratorio of the Seven Sleepers</pieceTitle>
+            <piecePage>180-182</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
       </p20>
-      <p21>
-         <sectionMeta>
-            <sectionId>s1</sectionId>
-            <sectionTitle>Critical Notices</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p21</pieceId>
-            <pieceTitle>Cosmos</pieceTitle>
-            <piecePage>122</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p21>
-      <p22>
-         <sectionMeta>
-            <sectionId>s1</sectionId>
-            <sectionTitle>Critical Notices</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p22</pieceId>
-            <pieceTitle>Graham's Magazine</pieceTitle>
-            <piecePage>122</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p22>
-      <p23>
-         <sectionMeta>
-            <sectionId>s1</sectionId>
-            <sectionTitle>Critical Notices</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p23</pieceId>
-            <pieceTitle>Arthur's Magazine</pieceTitle>
-            <piecePage>122</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p23>
-      <s2>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>The Fine Arts</sectionTitle>
-         </sectionMeta>
-      </s2>
       <p24>
          <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>The Fine Arts</sectionTitle>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Department</sectionTitle>
          </sectionMeta>
          <pieceMeta>
             <pieceId>p24</pieceId>
-            <pieceTitle>Sale of Pictures at Bordentown</pieceTitle>
-            <piecePage>122-123</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p24>
-      <p25>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>The Fine Arts</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p25</pieceId>
-            <pieceTitle>One Thousand Pounds</pieceTitle>
-            <piecePage>123</piecePage>
-            <piecePdfIndex>11</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p25>
-      <p26>
-         <pieceMeta>
-            <pieceId>p26</pieceId>
-            <pieceTitle>The City in the Sea</pieceTitle>
-            <piecePage>123</piecePage>
-            <piecePdfIndex>11</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p26>
-      <p27>
-         <pieceMeta>
-            <pieceId>p27</pieceId>
-            <pieceTitle>Musical Department</pieceTitle>
-            <piecePage>124</piecePage>
+            <pieceTitle>Park Theatre</pieceTitle>
+            <piecePage>182-183</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
                <hcwatson>
@@ -817,27 +652,26 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p27>
-      <p28>
+      </p24>
+      <p21>
          <pieceMeta>
-            <pieceId>p28</pieceId>
-            <pieceTitle>The Drama</pieceTitle>
-            <piecePage>124</piecePage>
-            <piecePdfIndex>12</piecePdfIndex>
+            <pieceId>p21</pieceId>
+            <pieceTitle>Criticisms on the Popular Errors of the Age, No. I</pieceTitle>
+            <piecePage>183</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
+               <alolo>
+                  <personName>Alolo</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
-               </eapoe>
+               </alolo>
             </pieceListPerson>
          </pieceMeta>
-      </p28>
-      <p29>
+      </p21>
+      <p22>
          <pieceMeta>
-            <pieceId>p29</pieceId>
+            <pieceId>p22</pieceId>
             <pieceTitle>Editorial Miscellany</pieceTitle>
-            <piecePage>125-126</piecePage>
+            <piecePage>183-184</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -847,22 +681,22 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p29>
-      <s3>
+      </p22>
+      <s2>
          <sectionMeta>
-            <sectionId>s3</sectionId>
+            <sectionId>s2</sectionId>
             <sectionTitle>Advertisements</sectionTitle>
-            <sectionPage>126-128</sectionPage>
-            <sectionPdfIndex>14</sectionPdfIndex>
+            <sectionPage>185-186</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
-      </s3>
-      <p30>
+      </s2>
+      <p23>
          <pieceMeta>
-            <pieceId>p30</pieceId>
-            <pieceTitle>Our First Volume</pieceTitle>
-            <piecePage>126</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Agents for the Broadway Journal</pieceTitle>
+            <piecePage>186</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p30>
+      </p23>
    </listBibl>
 </issue>

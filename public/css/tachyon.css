@@ -16,6 +16,76 @@ body {
   color: #474747;
 }
 
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#infoFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
 .header {
   display: -webkit-box;
   display: -moz-box;
@@ -56,9 +126,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 10px;
+  line-height: 20px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -85,13 +155,12 @@ body {
 
 .header > div:not(.headerNav),
 .header > a {
-  padding: 0px 30px 0px 30px;
+  padding: 20px 30px 20px 30px;
   border-right: 1px solid #e9e9e9;
   cursor: pointer;
 }
 
 .headerNav > div {
-  border-right: 1px solid #e9e9e9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,7 +502,7 @@ button.searchSubmit {
 
 .personography::before {
   background: black;
-  content: 'Personography';
+  content: 'Authors';
   width: 10px;
   color: white;
   word-wrap: break-word;
@@ -545,7 +614,7 @@ button.searchSubmit {
 }
 
 a.downloadLink {
-  background: #fe7251;
+  background: #474747;
   width: 129px;
   height: 29px;
   align-items: center;
@@ -566,7 +635,7 @@ a.downloadLink {
   height: 100%;
   width: 30px;
   border-right: 1px solid white;
-  background: #fe7251;
+  background: #474747;
   color: white;
   justify-content: center;
   align-items: center;

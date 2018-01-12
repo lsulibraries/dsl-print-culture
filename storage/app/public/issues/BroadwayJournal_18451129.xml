@@ -3,8 +3,7 @@
    <div class="front">
       
       <div class="ab">
-         
-         <br></br>THE BROADWAY JOURNAL.
+         THE BROADWAY JOURNAL.
          
          <br></br>VOL. 2. EDGAR A. POE, EDITOR AND PROPRIETOR. NO. 21.
          
@@ -23,10 +22,12 @@
       </div>
       
       <div class="piece" id="#p2">
-         <div class="biblTitle">Sonnet - To Miss Anne C. Lynch</div>
+         <div class="biblTitle">Sonnet: To Miss Anne C. Lynch</div>
          <div class="biblPage">315</div>
          
-         <div class="head">Sonnet. TO MISS ANNE C. LYNCH.</div>
+         <div class="head">Sonnet. 
+            TO MISS ANNE C. LYNCH.
+         </div>
          
          <div class="lg">
             
@@ -499,10 +500,12 @@
       </div>
       
       <div class="piece" id="#p6">
-         <div class="biblTitle">Lines - To Her Who Can Understand Them</div>
+         <div class="biblTitle">Lines: To Her Who Can Understand Them</div>
          <div class="biblPage">319</div>
          
-         <div class="head">Lines. TO HER WHO CAN UNDERSTAND THEM.</div>
+         <div class="head">Lines. 
+            TO HER WHO CAN UNDERSTAND THEM.
+         </div>
          
          <div class="lg">
             
@@ -688,7 +691,7 @@
          <div class="head">Critical Notices.</div>
          
          <div class="piece" id="#p8">
-            <div class="biblTitle">Wiley &amp; Putnam's Library of American Books, No. 7</div>
+            <div class="biblTitle">Wiley and Putnam's Library of American Books</div>
             <div class="biblPage">320</div>
             
             <p>Wiley &amp; Putnam's Library of American Books. No. 7. Western Clearings. By Mrs.
@@ -776,7 +779,7 @@
             </p>
             
             <p>His opinions on the whole respecting the institutions, the past history, and the
-               future prospects of this country, are in the highest degree favorable ; and
+               future prospects of this country, are in the highest degree favorable; and
                whenever he allows himself to find fault, which is but seldom, he does it with
                evident reluctance, and with the air of a friend whose admonitions are wholesome,
                not with the bitterness of an enemy. The comparisons too, which he makes
@@ -901,9 +904,7 @@
          </div>
          
          <div class="piece" id="#p11">
-            <div class="biblTitle">Wiley &amp; Putman's Foreign Library, Nos. 3 and 4. The
-               Rhine
-            </div>
+            <div class="biblTitle">Wiley and Putnam's Foreign Library</div>
             <div class="biblPage">320</div>
             
             <p>Wiley &amp; Putman's Foreign Library. Nos. 3 and 4. The Rhine. By Victor Hugo.</p>
@@ -924,16 +925,14 @@
          </div>
          
          <div class="piece" id="#p12">
-            <div class="biblTitle">Wiley &amp; Putnam's Library of Choice Reading, Nos.
-               34 and 35. The Life of Condé
-            </div>
+            <div class="biblTitle">Wiley and Putnam's Library of Choice Reading</div>
             <div class="biblPage">320</div>
             
             <p>Wiley &amp; Putnam's Library of Choice Reading, Nos. 34 and 35. The Life of Condé,
                By Lord Mahon.
             </p>
             
-            <p>This is also a translation ; the work having been originally written in French and without any view to publication. We need scarcely add that the work is one of interest—for it concerns “ The Great Conde,” and is written by Mahon.</p>
+            <p>This is also a translation; the work having been originally written in French and without any view to publication. We need scarcely add that the work is one of interest—for it concerns “ The Great Conde,” and is written by Mahon.</p>
          </div>
          
          <div class="piece" id="#p13">
@@ -991,9 +990,7 @@
          </div>
          
          <div class="piece" id="#p15">
-            <div class="biblTitle">The Sibyl’s Wreath and Floral Emblems, with the Natal
-               Mouths
-            </div>
+            <div class="biblTitle">The Sibyl’s Wreath and Floral Emblems</div>
             <div class="biblPage">322</div>
             
             <p>The Sibyl’s Wreath and Floral Emblems, with the Natal Mouths. New.York: Published
@@ -1042,7 +1039,7 @@
          </div>
          
          <div class="piece" id="#p16">
-            <div class="biblTitle">Poems, by Alfred Tennyson</div>
+            <div class="biblTitle">Poems by Alfred Tennyson</div>
             <div class="biblPage">322</div>
             
             <p>Poems, by Alfred Tennyson. Two Volumes. Boston: William D. Ticknor &amp; Co.</p>
@@ -1067,7 +1064,7 @@
          </div>
          
          <div class="piece" id="#p18">
-            <div class="biblTitle">Americanism. An Address delivered before the Eucleian Society of the New-York University</div>
+            <div class="biblTitle">Americanism</div>
             <div class="biblPage">322</div>
             
             <p>Americanism. An Address delivered before the Eucleian Society of the New-York
@@ -1098,7 +1095,7 @@
          </div>
          
          <div class="piece" id="#p20">
-            <div class="biblTitle">Harper's Illuminated Pictorial Bible, No. 43.</div>
+            <div class="biblTitle">Harper's Illuminated Pictorial Bible</div>
             <div class="biblPage">322</div>
             
             <p>Harper's Illuminated Pictorial Bible, No. 43.</p>
@@ -1110,7 +1107,7 @@
          </div>
          
          <div class="piece" id="#p21">
-            <div class="biblTitle">The Wandering Jew, superbly Illustrated by the Most Eminent Artists of Paris</div>
+            <div class="biblTitle">The Wandering Jew</div>
             <div class="biblPage">322</div>
             
             <p>The Wandering Jew, superbly Illustrated by the Most Eminent Artists of Paris. A
@@ -1136,7 +1133,7 @@
          </div>
          
          <div class="piece" id="#p23">
-            <div class="biblTitle">The Modern Standard Drama</div>
+            <div class="biblTitle">The Columbian Magazine</div>
             <div class="biblPage">322</div>
             
             <p>The Columbian Magazine, for December, has an excellent line engraving
@@ -1154,7 +1151,7 @@
          </div>
          
          <div class="piece" id="#p24">
-            <div class="biblTitle">The Aristidean, for October</div>
+            <div class="biblTitle">The Aristidean</div>
             <div class="biblPage">322</div>
             
             <p>The Aristidean, for October, is unusually rich in good things—more particularly in
@@ -1357,7 +1354,7 @@
          </div>
          
          <div class="piece" id="#p25">
-            <div class="biblTitle">Notices for Next Week</div>
+            <div class="biblTitle">Simms' Magazine</div>
             <div class="biblPage">323</div>
             
             <p>Simms’ Magazine, Graham, Godey, The Illustrated, The Western, The Southern Messenger,and the Southern Quarterly Review, have all been received
@@ -1371,7 +1368,7 @@
       </div>
       
       <div class="piece" id="#p26">
-         <div class="biblTitle">Epigram - From the Saxon</div>
+         <div class="biblTitle">Epigram</div>
          <div class="biblPage">323</div>
          <div class="head">Epigram.
             From the Saxon.
@@ -1408,12 +1405,7 @@
          <div class="biblPage">324</div>
          <div class="head">The Double Dream.</div>
          
-         <div class="cit">
-            <span class="quote">Our life is two-fold—</span>
-            <div class="bibl">
-               <span class="person">Byron.</span>
-            </div>
-         </div>
+         <div class="ab">Our life is two-fold—Byron.</div>
          
          <div class="lg">
             
@@ -1753,140 +1745,157 @@
          </p>
       </div>
       
-      <div class="section" id="#s2">
+      <div class="section" id="#s3">
          <div class="biblTitle">Editorial Miscellany</div>
-         <div class="biblPage">325</div>
          <div class="head">Editorial Miscellany.</div>
          
-         <p>The Frog-Pond seems to be dried up—and the Frogs are, beyond doubt, all dead—as we
-            hear no more croaking from that quarter.
-         </p>
+         <div class="piece" id="#p30">
+            <div class="biblTitle">The Frog-Pond</div>
+            <div class="biblPage">325</div>
+            <p>The Frog-Pond seems to be dried up—and the Frogs are, beyond doubt, all dead—as we
+               hear no more croaking from that quarter.
+            </p>
+         </div>
          
-         <p>We copy the subjoined passage from “Wilmer &amp; Smith’s European Times.” The
-            observations are so plainly just as to need not a word in the way of comment:
-         </p>
+         <div class="piece" id="#p31">
+            <div class="biblTitle">We Copy the Subjoined Passage</div>
+            <div class="biblPage">325</div>
+            <p>We copy the subjoined passage from “Wilmer &amp; Smith’s European Times.” The
+               observations are so plainly just as to need not a word in the way of comment:
+            </p>
+            
+            <p>A Boston publication, called ‘Littell’s Living Age,’ has found its way to this city,
+               and is advertised in our newspapers, though it consists of nothing but pilfering from
+               the English magazines and reviews. It may also be met with in one or two cabinets de
+               lecture, frequented by the English and Americans. Pirated editions, or if you
+               prefer the phrase, reprints, of the works of Scott, Bulwer, Dickens, and other
+               eminent authors, are imported into France in great numbers from America, and, from
+               the lowness of their price, meet with a ready sale. There are one or two English
+               circulating libraries in this city entirely stocked with American reprints. The
+               injury this causes to the authors and proprietors of the works is incalculable.
+               At one time a brace of publishers here carried on a roaring trade by reprinting all the works that issued from the English press, and smuggling them into
+               England for the circulating libraries; one of these honest men actually became
+               enriched from his wholesale piracies on Walter Scott alone.
+            </p>
+            
+            <p>But a law lately passed, directing the immediate destruction of every pirated work, has put a considerable check on their conscientious trade; and it now
+               appears that they find it more profitable to import from the United States than to
+               reprint. Belgium preys with a voracious audacity on French literature,—not a work can
+               be published here that is not brought out there, and sold all over the Continent
+               infinitely cheaper than French publishers, who have authors to pay, can afford. The
+               publishers of M. Thiers’ Histore du Consulat et de l' Empire has been cruelly
+               victimized by those Belgian pirates. He has paid somewhere about ₤20,000 for the
+               copyright of the work, and has sold some 30,000 copies. The Belgians have not paid one single farthing for copyright, and have sold 100,000 copies. It is a burning and scandalous shame to governments of such
+               enlightened countries as America, England, France and Belgium, that a law of literary copyright is not established.
+            </p>
+            
+            <p>The Mirror says:</p>
+            
+            <p>Americans.—An address delivered before the Eucleian Society of the New-York University, June 30, 1845, by Cornelius Mathews. We published the address in the Mirror soon after its delivery. We could not understand
+               it then, and cannot now.
+            </p>
+            
+            <p>Mr. Mathews, we should judge, punctuates his manuscript with a pepper-box. We like
+               his thoughts better than the idiosyncrasies of his style. He should reform it
+               altogether.
+            </p>
+            
+            <p>Whatever, in the opinion of the worshippers of Britain and everything
+               British, may be objectionable in the matter of Mr. Mathews’ address, its manner, at
+               least, is simple and unaffected, and we are quite at a loss to discover anything incomprehensible in any portion of the essay. There is a good saying
+               of Dr. Johnson’s, about the extreme unfairness of requiring an author to supply
+               at once thought and brains for its comprehension.
+            </p>
+         </div>
          
-         <p>A Boston publication, called ‘Littell’s Living Age,’ has found its way to this city,
-            and is advertised in our newspapers, though it consists of nothing but pilfering from
-            the English magazines and reviews. It may also be met with in one or two cabinets de
-            lecture, frequented by the English and Americans. Pirated editions, or if you
-            prefer the phrase, reprints, of the works of Scott, Bulwer, Dickens, and other
-            eminent authors, are imported into France in great numbers from America, and, from
-            the lowness of their price, meet with a ready sale. There are one or two English
-            circulating libraries in this city entirely stocked with American reprints. The
-            injury this causes to the authors and proprietors of the works is incalculable.
-            At one time a brace of publishers here carried on a roaring trade by reprinting all the works that issued from the English press, and smuggling them into
-            England for the circulating libraries; one of these honest men actually became
-            enriched from his wholesale piracies on Walter Scott alone.
-         </p>
+         <div class="piece" id="#p32">
+            <div class="biblTitle">We Do Not Intend</div>
+            <div class="biblPage">325</div>
+            <p>We do not intend to claim the honor of originating in the Journal the exquisite poem, by Halleck, now pub
+               lished. It is not included, however, in any edition of his poems.
+               Independently of the high intrinsic merit of the piece, there is a tale about it—a
+               romantic tale—which we could unfold, if we thought proper, and which to certain readers will give it additional interest.
+            </p>
+         </div>
          
-         <p>But a law lately passed, directing the immediate destruction of every pirated work, has put a considerable check on their conscientious trade; and it now
-            appears that they find it more profitable to import from the United States than to
-            reprint. Belgium preys with a voracious audacity on French literature,—not a work can
-            be published here that is not brought out there, and sold all over the Continent
-            infinitely cheaper than French publishers, who have authors to pay, can afford. The
-            publishers of M. Thiers’ Histore du Consulat et de l' Empire has been cruelly
-            victimized by those Belgian pirates. He has paid somewhere about ₤20,000 for the
-            copyright of the work, and has sold some 30,000 copies. The Belgians have not paid one single farthing for copyright, and have sold 100,000 copies. It is a burning and scandalous shame to governments of such
-            enlightened countries as America, England, France and Belgium, that a law of literary copyright is not established.
-         </p>
-         
-         <p>The Mirror says:</p>
-         
-         <p>Americans.—An address delivered before the Eucleian Society of the New-York University, June 30, 1845, by Cornelius Mathews. We published the address in the Mirror soon after its delivery. We could not understand
-            it then, and cannot now.
-         </p>
-         
-         <p>Mr. Mathews, we should judge, punctuates his manuscript with a pepper-box. We like
-            his thoughts better than the idiosyncrasies of his style. He should reform it
-            altogether.
-         </p>
-         
-         <p>Whatever, in the opinion of the worshippers of Britain and everything
-            British, may be objectionable in the matter of Mr. Mathews’ address, its manner, at
-            least, is simple and unaffected, and we are quite at a loss to discover anything incomprehensible in any portion of the essay. There is a good saying
-            of Dr. Johnson’s, about the extreme unfairness of requiring an author to supply
-            at once thought and brains for its comprehension.
-         </p>
-         
-         <p>We do not intend to claim the honor of originating in the Journal the exquisite poem, by Halleck, now pub
-            lished. It is not included, however, in any edition of his poems.
-            Independently of the high intrinsic merit of the piece, there is a tale about it—a
-            romantic tale—which we could unfold, if we thought proper, and which to certain readers will give it additional interest.
-         </p>
-         
-         <div class="ab">Items from foreign Sources.</div>
-         
-         <p>In these days of peace and political fusion, the Revolution and the Empire in France are, as we have seen, gradually comcompleting their unfinished
-            monuments. Fifty years after the first proposal of the project by the celebrated
-            painter David, and its adoption by the Convention, the city of Lille has been
-            celebrating the anniversary of the memorable siege which it sustained in 1792,
-            by the inauguration of a monument, consisting of a granite column, surmounted by
-            a bronze statue represnting the city of Lille. The spirit of the occasion, and of its
-            proceedings, our readers know enough of their gallant neighbours the French to have
-            no difficulty in conceiving. Thirty-nine towns and communes of the northern part
-            of France were represented by deputations of their national guard; St. Cyr and the
-            Polytechnic Schools sent representatives; and the army contributed a delegate of each rank from every regiment. An old gunner of 1792, caught amongst them in
-            the midst of their excitement, had the dangerous honours of an ovation on the
-            shoulders of his fellow-citizens: and Louis Phillippe, who knows his countrymen
-            better than any of us, or of themselves, contrived with his matchless tact, to
-            sympathise in the feeling of the hour, after a fashion identifying his own royal
-            attributes with its republican bias. In his name, the Mayor of Lille, amid the tumultous acclamations of the crowd, presented to M. Scheppers, the sole
-            surviving member of the municipality of Lille, at the period of the siege, the
-            “Star of the Brave,” as the latter called it in the figurative mood of the
-            occasion—“one of the finest episodes of the day,” say the highly excited journals of
-            the department.—London Athenaum.
-         </p>
-         
-         <p>It is an amusing sight, and enlivening withal, to look at the rows of white tents,
-            the beautiful girls and their elegant dresses, the crowds of spectators, each
-            sheltered by a bright coloured umbrella, and some thirty or forty ladies and
-            gentlmen, fat and thin, tall and short, old and young, in the water together, dipping
-            and spluttering, shouting and shrieking, as the white-crested wave rolls towards
-            them—some attempting to swim, others, fearful of being caried out to sea,
-            clinging to their attendants’ arms, and endeavoring to make their escape to terra
-            firma. Here an old woman bearing aloft a little cherub, independent of any costume,
-            to dip it a due number of times—there a bathing girl encouraging a stout old
-            gentleman to venture into the water, after he has received the first souse on the
-            head from the contents of a bason, to prevent his feeling the effect of the
-            shock to his feet. Sometimes three or four young ladies will go in together, or a
-            gentleman may be seen leading gallantly some fair one of his acquaintance: but
-            everything is conducted with the strictest propriety and decorum; so that however
-            extraordinary the style may appear at first to a stranger, he soon becomes accustomed
-            to it.
-         </p>
-         
-         <p>The most amusing scenes have passed, never to recur, when the friars came down to bathe. Some years ago there was an enormously fat friar, who was ordered
-            to take a certain number of baths at a certain hour in the morning, and it was the
-            general amusement to go down and see him perform the ceremony. He had ten persons
-            to attend him, six men who stood on the shore holding ropes attached to his
-            waist (for he had conscious of his own floating qualities, a most pious horror of
-            being washed away), and four women who accompanied him into the water. When they got
-            him there with a proper solicitude for his health, they took good care to make him perform his ablutions abundantly. While the men slackened the rope,
-            they used to dip him and duck him most unmercifully, pressing his head down with
-            their hands, like the merry wives of Windsor packing Sir John Falstaff into the
-            clothes-basket. He dared not resist, for fear they should leave him to his fate, and
-            they would not let him out till he had taken the prescribed number of dips—he
-            spluttering, and crying, and praying and swearing all the time. Now and then,
-            though seldom, the same scene is enacted with a stout artizan, or a country
-            farmer.—Lusitawan Sketches.
-         </p>
-         
-         <p>Dr. Balfour, of Glasgow, has been appointed Professor of Botany, at Edinburgh
-            University, vice Dr. Graham deceased.
-         </p>
-         
-         <p>In Paris there are 396 newspapers, with 700,000 subscribers, and in the
-            departments of France 898, with about 350,000 subscribers.
-         </p>
+         <div class="piece" id="#p33">
+            <div class="biblTitle">Items from Foreign Sources</div>
+            <div class="biblPage">326</div>
+            <div class="head">Items from foreign Sources.</div>
+            
+            <p>In these days of peace and political fusion, the Revolution and the Empire in France are, as we have seen, gradually comcompleting their unfinished
+               monuments. Fifty years after the first proposal of the project by the celebrated
+               painter David, and its adoption by the Convention, the city of Lille has been
+               celebrating the anniversary of the memorable siege which it sustained in 1792,
+               by the inauguration of a monument, consisting of a granite column, surmounted by
+               a bronze statue represnting the city of Lille. The spirit of the occasion, and of its
+               proceedings, our readers know enough of their gallant neighbours the French to have
+               no difficulty in conceiving. Thirty-nine towns and communes of the northern part
+               of France were represented by deputations of their national guard; St. Cyr and the
+               Polytechnic Schools sent representatives; and the army contributed a delegate of each rank from every regiment. An old gunner of 1792, caught amongst them in
+               the midst of their excitement, had the dangerous honours of an ovation on the
+               shoulders of his fellow-citizens: and Louis Phillippe, who knows his countrymen
+               better than any of us, or of themselves, contrived with his matchless tact, to
+               sympathise in the feeling of the hour, after a fashion identifying his own royal
+               attributes with its republican bias. In his name, the Mayor of Lille, amid the tumultous acclamations of the crowd, presented to M. Scheppers, the sole
+               surviving member of the municipality of Lille, at the period of the siege, the
+               “Star of the Brave,” as the latter called it in the figurative mood of the
+               occasion—“one of the finest episodes of the day,” say the highly excited journals of
+               the department.—London Athenaum.
+            </p>
+            
+            <p>It is an amusing sight, and enlivening withal, to look at the rows of white tents,
+               the beautiful girls and their elegant dresses, the crowds of spectators, each
+               sheltered by a bright coloured umbrella, and some thirty or forty ladies and
+               gentlmen, fat and thin, tall and short, old and young, in the water together, dipping
+               and spluttering, shouting and shrieking, as the white-crested wave rolls towards
+               them—some attempting to swim, others, fearful of being caried out to sea,
+               clinging to their attendants’ arms, and endeavoring to make their escape to terra
+               firma. Here an old woman bearing aloft a little cherub, independent of any costume,
+               to dip it a due number of times—there a bathing girl encouraging a stout old
+               gentleman to venture into the water, after he has received the first souse on the
+               head from the contents of a bason, to prevent his feeling the effect of the
+               shock to his feet. Sometimes three or four young ladies will go in together, or a
+               gentleman may be seen leading gallantly some fair one of his acquaintance: but
+               everything is conducted with the strictest propriety and decorum; so that however
+               extraordinary the style may appear at first to a stranger, he soon becomes accustomed
+               to it.
+            </p>
+            
+            <p>The most amusing scenes have passed, never to recur, when the friars came down to bathe. Some years ago there was an enormously fat friar, who was ordered
+               to take a certain number of baths at a certain hour in the morning, and it was the
+               general amusement to go down and see him perform the ceremony. He had ten persons
+               to attend him, six men who stood on the shore holding ropes attached to his
+               waist (for he had conscious of his own floating qualities, a most pious horror of
+               being washed away), and four women who accompanied him into the water. When they got
+               him there with a proper solicitude for his health, they took good care to make him perform his ablutions abundantly. While the men slackened the rope,
+               they used to dip him and duck him most unmercifully, pressing his head down with
+               their hands, like the merry wives of Windsor packing Sir John Falstaff into the
+               clothes-basket. He dared not resist, for fear they should leave him to his fate, and
+               they would not let him out till he had taken the prescribed number of dips—he
+               spluttering, and crying, and praying and swearing all the time. Now and then,
+               though seldom, the same scene is enacted with a stout artizan, or a country
+               farmer.—Lusitawan Sketches.
+            </p>
+            
+            <p>Dr. Balfour, of Glasgow, has been appointed Professor of Botany, at Edinburgh
+               University, vice Dr. Graham deceased.
+            </p>
+            
+            <p>In Paris there are 396 newspapers, with 700,000 subscribers, and in the
+               departments of France 898, with about 350,000 subscribers.
+            </p>
+         </div>
       </div>
       
-      <div class="section" id="#s3">
+      <div class="section" id="#s2">
          <div class="biblTitle">Advertisements</div>
          <div class="biblPage">326</div>
          <div>
             
-            <div class="head">ELEGANT NEW WORK. C. SHEPARD, BOOKSELLER, 191 BROADWAY.</div>
+            <div class="head">ELEGANT NEW WORK.</div>
+            
+            <div class="ab">C. SHEPARD, BOOKSELLER, 191 BROADWAY.</div>
             
             <p>CHAUNT OF LIFE—and other Poems, by Rev. R. Hoyt, a Clergyman of the Episcopal
                Church, New York. Parts 1 &amp; 2.
@@ -1962,7 +1971,9 @@
          
          <div>
             
-            <div class="head">GURNEY’S PREMIUM DAGUERRIAN GALLERY, 189 BROADWAY, NEW-YORK.</div>
+            <div class="head">GURNEY’S PREMIUM DAGUERRIAN GALLERY,</div>
+            
+            <div class="ab">189 BROADWAY, NEW-YORK.</div>
             
             <p>PICTURES taken at this Establishment are not excelled in this country—so say his numerous patrons. The public are invited to call and judge for
                themselves.
@@ -1995,9 +2006,11 @@
          
          <div>
             
-            <div class="head">THIS DAY IS PUBLISHED—IN ADVANCE OF THE LONDON EDITION, LIFE OF THE GREAT
-               CONDE. BY LORD MAHON.
-            </div>
+            <div class="note" type="headnote">THIS DAY IS PUBLISHED—IN ADVANCE OF THE LONDON EDITION,</div>
+            
+            <div class="head">LIFE OF THE GREAT CONDE.</div>
+            
+            <div class="ab">BY LORD MAHON.</div>
             
             <p>Two Numbers beautifully printed, in clear type, $1 00. “A highly interesting and
                skilful narrative.”—Quarterly Review The above work forms Nos. 34 and 35 of the
@@ -2009,8 +2022,12 @@
          
          <div>
             
-            <div class="head">J. F. BROWNE &amp; CO. MANUFACTURER OF THE IMPROVED PATENT DOUBLE-ACTION
-               HARP, By Royal Letters Patent, London. Established 1810. (Many years with
+            <div class="head">J. F. BROWNE &amp; CO.</div>
+            
+            <div class="ab">MANUFACTURER OF THE 
+               <br></br>IMPROVED PATENT DOUBLE-ACTION
+               HARP, 
+               <br></br>By Royal Letters Patent, London. Established 1810. (Many years with
                Erard.
             </div>
             
@@ -2108,7 +2125,9 @@
          
          <div>
             
-            <div class="head">JOHN N. GENIN, FASHIONABLE HAT AND CAP ESTABLISHMENT,</div>
+            <div class="head">JOHN N. GENIN,</div>
+            
+            <div class="ab">FASHIONABLE HAT AND CAP ESTABLISHMENT,</div>
             
             <div class="ab">214 Broadway.</div>
          </div>
@@ -2125,14 +2144,24 @@
          
          <div>
             
-            <div class="head">General Furnishing Hardware, Cutlery, Tools, &amp;c. OSBORN &amp; LITTLE,
-               Importers and General Dealers in English, German and American HARDWARE,
-               CUTLERY, &amp;C., No. 33 FULTON STREET, BETWEEN PEARL AND WATER STREETS,
-               [Where the business has been carried on for Eighty Years past,]
+            <div class="note" type="headnote">General Furnishing Hardware, Cutlery, Tools, &amp;c.</div>
+            
+            <div class="head">OSBORN &amp; LITTLE,</div>
+            
+            <div class="ab">Importers and General Dealers in English, German and 
+               <br></br>American 
+               <br></br>HARDWARE,
+               CUTLERY, &amp;C., 
+               <br></br>No. 33 FULTON STREET, 
+               <br></br>BETWEEN PEARL AND WATER STREETS,
+               
+               <br></br>[Where the business has been carried on for Eighty Years past,]
             </div>
             
-            <div class="ab">
-               <br></br>CHARLES OSBORN. New York. 
+            <div class="ab">New York
+               
+               <br></br>CHARLES OSBORN. 
+               
                <br></br>CHARLES S. LITTLE. 
             </div>
             
@@ -2165,7 +2194,8 @@
          
          <div>
             
-            <div class="head">J. BALLARD, PROFESSOR OF THE GUITAR, SINGING AND FLUTE. No. 135
+            <div class="head">J. BALLARD, PROFESSOR OF THE GUITAR, SINGING AND FLUTE.</div>
+            <div class="ab">No. 135
                Spring-street.
             </div>
          </div>
@@ -2199,21 +2229,28 @@
          
          <div>
             
-            <p>WEDDING, VISITING, A PROFESSIONAL CARDS Engraved and Printed at VALENTINE’S, 1
+            <div class="head">WEDDING, VISITING, A PROFESSIONAL CARDS</div>
+            
+            <p>Engraved and Printed at VALENTINE’S, 1
                Beekman-st. Lovejoy’s Hotel.
             </p>
          </div>
          
          <div>
             
-            <div class="head">JOHN BURFORD, PORTRAIT AND LANDSCAPE PAINTER, 27 Dey Street.</div>
+            <div class="head">JOHN BURFORD, PORTRAIT AND LANDSCAPE PAINTER,</div>
+            
+            <div class="ab">27 Dey Street.</div>
          </div>
          
          
          <div>
             
-            <div class="head">HARPER &amp; BROTHERS’ RECENT PUBLICATIONS, In one splendidly printed volume,
-               with above 1000 engravings. Sheep Extra:—Price $3 75.
+            <div class="head">HARPER &amp; BROTHERS’ RECENT PUBLICATIONS,</div>
+            
+            <div class="ab">In one splendidly printed volume,
+               with above 1000 engravings. 
+               <br></br>Sheep Extra:—Price $3 75.
             </div>
             
             <div class="ab">I. 
@@ -2317,7 +2354,10 @@
          
          <div>
             
-            <div class="head">IMPORTANT WORKS, RECENTLY PUBLISHED BY J. &amp; H. G. LANGLEY, 8 ASTOR
+            <div class="head">IMPORTANT WORKS,</div>
+            
+            <div class="ab">RECENTLY PUBLISHED BY 
+               <br></br>J. &amp; H. G. LANGLEY, 8 ASTOR
                HOUSE.
             </div>
             
@@ -2404,7 +2444,7 @@
             <p>By W. Gilmore Simms, author of “Guy Rivers,” &amp;c. &amp;c. Seventh edition,
                revised by the author, with numerous engravings, 1 vol. 12mo.—$1. “Few characters
                have stood out more boldly on our Revolutionary Annals, or have supplied more
-               interesting and exciting materials for the historian, than that of Gen. Marion ;
+               interesting and exciting materials for the historian, than that of Gen. Marion;
                and it is not saying too much to claim for the work before us no less the
                merit of accredited historical truth, than the most stirring and absorbing
                attributes of high-wrought fiction.”—Democratic Review.
@@ -2470,7 +2510,10 @@
          
          <div>
             
-            <div class="head">PAINE &amp; BURGESS, 62 John Street, WILL PUBLISH IN A FEW DAYS,</div>
+            <div class="head">PAINE &amp; BURGESS,</div>
+            <div class="ab">62 John Street,
+               <br></br>WILL PUBLISH IN A FEW DAYS,
+            </div>
             
             <p>THE ARTIST, MERCHANT, AND STATESMAN, Part I. This work is made up of the choicest and most original material on Fine Arts, Commerce, and Political
                Economy, by C. Edwards Lester.
@@ -2571,7 +2614,9 @@
          
          <div>
             
-            <div class="head">CHEAP MUSIC. HOMANS &amp; ELLIS have published the first No. of THE
+            <div class="head">CHEAP MUSIC.</div>
+            <div class="ab">HOMANS &amp; ELLIS have published the first No. of 
+               <br></br>THE
                MUSICAL WORLD,
             </div>
             
@@ -2639,9 +2684,11 @@
          
          <div>
             
-            <div class="head">NEW WORKS, TO BE PUBLISHED BY MESSRS. WILEY &amp; PUTNAM, 161 BROADWAY,
-               IN THE MONTH OF NOVEMBER.
-            </div>
+            <div class="note" type="headnote">NEW WORKS, TO BE PUBLISHED BY</div>
+            
+            <div class="head">&gt;MESSRS. WILEY &amp; PUTNAM, 161 BROADWAY,</div>
+            
+            <div class="ab">IN THE MONTH OF NOVEMBER.</div>
             
             <div class="ab">I.</div>
             
@@ -2718,11 +2765,15 @@
          
          
          <div>
-            <div class="head">CATALOGUE OF TEAS,
-               ON SALE AT THE TEA WAREHOUSE OF THE
-               PEKIN TEA COMPANY,
-               Importers of fine Green and Black Teas, No. 75 Fulton-st.
-               New York.
+            <div class="head">CATALOGUE OF TEAS,</div>
+            
+            <div class="ab">ON SALE AT THE TEA WAREHOUSE OF THE
+               
+               <br></br>PEKIN TEA COMPANY,
+               
+               <br></br>Importers of fine Green and Black Teas, No. 75 Fulton-st.
+               
+               <br></br>New York.
             </div>
             
             <p>[The Teas mentioned in this Catalogue are done up in quarter, half pound, and
@@ -2965,7 +3016,7 @@
          </div>
       </div>
       
-      <div class="piece" id="#p30">
+      <div class="piece" id="#p34">
          <div class="biblTitle">To the Public</div>
          <div class="biblPage">330</div>
          
@@ -2978,7 +3029,7 @@
          </div>
       </div>
       
-      <div class="piece" id="#p31">
+      <div class="piece" id="#p35">
          <div class="biblTitle">The Broadway Journal</div>
          <div class="biblPage">330</div>
          

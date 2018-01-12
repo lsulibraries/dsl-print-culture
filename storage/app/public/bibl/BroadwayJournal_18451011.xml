@@ -1,6 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Beauty in Shadow</title>
+         <auth_id>wgsimms</auth_id>
+         <auth_name>William Gilmore Simms</auth_name>
+         <page>203</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>Ms. Found in a Bottle</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>203-206</page>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Stanzas</title>
+         <auth_id>wgibson</auth_id>
+         <auth_name>William Gibson</auth_name>
+         <page>206</page>
+         <pdf_index>4</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Duc de L'Omelette</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>206-208</page>
+         <pdf_index>4</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>To Constance</title>
+         <auth_id>w</auth_id>
+         <auth_name/>
+         <page>208</page>
+         <pdf_index>6</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Falling Star</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>208-210</page>
+         <pdf_index>6</pdf_index>
+      </p6>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>The Broken Vow and Other Poems</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>210</page>
+               <pdf_index>8</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>Oracles from the Poets: A Fanciful Diversion for the Drawing-Room</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>210</page>
+               <pdf_index>8</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>Wiley &amp; Putnam's Library of Choice Reading. No. XXV: Table-Talk</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>210-212</page>
+               <pdf_index>8</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>History of the War in France and Belgium</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>212</page>
+               <pdf_index>10</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Historical Sketch of the Second War between the United States of America and Great Britain</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>212</page>
+               <pdf_index>10</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Ollendorf's New Method of Learning to Read, Write and Speak the German Language</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>212-213</page>
+               <pdf_index>10</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Norman's New-Orleans and Environs</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>The Prince and the Pedlar</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>The Modern Standard Drama</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>Pictorial History of the World</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Knickerbocker</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The Westminster Review</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>The Southern Lit. Messenger</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>The Democratic Review</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>Wiley &amp; Putnam's Library of American Books: No. VI</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>History of France from the Earliest Period to the Present Time</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>A Cyclopedia of Several Thousand Practical Receipts</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
+               <type>piece</type>
+               <title>A Plea for Social and Popular Repose</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p24>
+            <p25>
+               <decls_id>p25</decls_id>
+               <type>piece</type>
+               <title>The Songs of Our Land, and Other Poems</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>213</page>
+               <pdf_index>11</pdf_index>
+            </p25>
+         </pieces>
+      </s1>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>The Fine Arts</title>
+         <pieces>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>National Gallery at the Rotunda</title>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
+               <page>213-214</page>
+               <pdf_index>11</pdf_index>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>To All Lovers of the True and Beautiful in Art</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>214</page>
+               <pdf_index>12</pdf_index>
+            </p27>
+         </pieces>
+      </s2>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Musical Department</title>
+         <pieces>
+            <p28>
+               <decls_id>p28</decls_id>
+               <type>piece</type>
+               <title>Trinity Church Organ</title>
+               <auth_id>eh</auth_id>
+               <auth_name>E. H.</auth_name>
+               <page>214-215</page>
+               <pdf_index>12</pdf_index>
+            </p28>
+            <p29>
+               <decls_id>p29</decls_id>
+               <type>piece</type>
+               <title>Ole Bull's Second Concert</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>215-216</page>
+               <pdf_index>13</pdf_index>
+            </p29>
+            <p30>
+               <decls_id>p30</decls_id>
+               <type>piece</type>
+               <title>The Musical Convention</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>216</page>
+               <pdf_index>14</pdf_index>
+            </p30>
+         </pieces>
+      </s3>
+      <p31>
+         <decls_id>p31</decls_id>
+         <type>piece</type>
+         <title>Editorial Miscellany</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>216-217</page>
+         <pdf_index>14</pdf_index>
+      </p31>
+      <s4>
+         <decls_id>s4</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>217-218</page>
+         <pdf_index>15</pdf_index>
+      </s4>
+      <p32>
+         <decls_id>p32</decls_id>
+         <type>section</type>
+         <title>Agents</title>
+         <page>218</page>
+         <pdf_index>16</pdf_index>
+      </p32>
+   </toc>
    <issueMeta>
       <issueId>18451011</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
@@ -25,5 +340,597 @@
          </jbisco>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Beauty in Shadow</pieceTitle>
+            <piecePage>203</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <wgsimms>
+                  <personName>William Gilmore Simms</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wgsimms>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Ms. Found in a Bottle</pieceTitle>
+            <piecePage>203-206</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>Stanzas</pieceTitle>
+            <piecePage>206</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <wgibson>
+                  <personName>William Gibson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wgibson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Duc de L'Omelette</pieceTitle>
+            <piecePage>206-208</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as Littleton Barry.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>To Constance</pieceTitle>
+            <piecePage>208</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <w>
+                  <personName/>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </w>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Falling Star</pieceTitle>
+            <piecePage>208-210</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p7>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>The Broken Vow and Other Poems</pieceTitle>
+            <piecePage>210</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Oracles from the Poets: A Fanciful Diversion for the Drawing-Room</pieceTitle>
+            <piecePage>210</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>Wiley &amp; Putnam's Library of Choice Reading. No. XXV: Table-Talk</pieceTitle>
+            <piecePage>210-212</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>History of the War in France and Belgium</pieceTitle>
+            <piecePage>212</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Historical Sketch of the Second War between the United States of America and Great Britain</pieceTitle>
+            <piecePage>212</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Ollendorf's New Method of Learning to Read, Write and Speak the German Language</pieceTitle>
+            <piecePage>212-213</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Norman's New-Orleans and Environs</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The Prince and the Pedlar</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Modern Standard Drama</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Pictorial History of the World</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>The Knickerbocker</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>The Westminster Review</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>The Southern Lit. Messenger</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>The Democratic Review</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>Wiley &amp; Putnam's Library of American Books: No. VI</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>History of France from the Earliest Period to the Present Time</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>A Cyclopedia of Several Thousand Practical Receipts</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>A Plea for Social and Popular Repose</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <p25>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>The Songs of Our Land, and Other Poems</pieceTitle>
+            <piecePage>213</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p26>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>National Gallery at the Rotunda</pieceTitle>
+            <piecePage>213-214</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing as W.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p26>
+      <p27>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>To All Lovers of the True and Beautiful in Art</pieceTitle>
+            <piecePage>214</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as P.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p27>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Department</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p28>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Department</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>Trinity Church Organ</pieceTitle>
+            <piecePage>214-215</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eh>
+                  <personName>E. H.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </eh>
+            </pieceListPerson>
+         </pieceMeta>
+      </p28>
+      <p29>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Department</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>Ole Bull's Second Concert</pieceTitle>
+            <piecePage>215-216</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p29>
+      <p30>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Department</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>The Musical Convention</pieceTitle>
+            <piecePage>216</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p30>
+      <p31>
+         <pieceMeta>
+            <pieceId>p31</pieceId>
+            <pieceTitle>Editorial Miscellany</pieceTitle>
+            <piecePage>216-217</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p31>
+      <s4>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>217-218</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s4>
+      <p32>
+         <sectionMeta>
+            <sectionId>p32</sectionId>
+            <sectionTitle>Agents</sectionTitle>
+            <sectionPage>218</sectionPage>
+            <sectionPdfIndex>16</sectionPdfIndex>
+         </sectionMeta>
+      </p32>
+   </listBibl>
 </issue>

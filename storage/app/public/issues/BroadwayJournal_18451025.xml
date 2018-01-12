@@ -2,18 +2,26 @@
    <div class="issueId">18451025</div>
    <div class="front">
       
-      <div class="ab">
-         <br></br>THE BROADWAY JOURNAL
+      <div class="ab">THE BROADWAY JOURNAL
          
-         <br></br> VOL 2. NEW YORK, SATURDAY, OCTOBER 25, 1845. NO. 16.
+         <br></br>VOL 2.     NEW YORK, SATURDAY, OCTOBER 25, 1845.     NO. 16.
          
-         <br></br>Three Dollars per Annum.	             EDGAR A. POE,	               Publication Office,
-         Single Copies 6 1-4 Cents.	EDITOR AND PROPRIETOR.	      135 Nassau-street.
+         <br></br>Three Dollars per Annum.	             	               
+         
+         <br></br>Single Copies 6 1-4 Cents.	
+         
+         <br></br>EDGAR A. POE,
+         
+         <br></br>EDITOR AND PROPRIETOR.	      
+         
+         <br></br>Publication Office,
+         
+         <br></br>135 Nassau-street.
       </div>
       
    </div>
    <div class="body">
-            
+       
       
       <div class="piece" id="#p1">
          <div class="biblTitle">Sonnet</div>
@@ -65,7 +73,7 @@
             is scarcely known at all, even in Europe, and which has
             never been quoted to my knowledge, by any American—
             if we except, perhaps, the author of the “Curiosities of
-            American Literature —having had occasion, I say, to
+            American Literature;”—having had occasion, I say, to
             turn over some pages of the first-mentioned very remarkable work, I was not a little astonished to discover that
             the literary world has hitherto been strangely in error
             respecting the fate of the vizier’s daughter, Scheherazade, as that fate is depicted in the “Arabian Nights,”
@@ -1698,7 +1706,7 @@
             his cause. He stated the history of the whole matter
             from the beginning in a plain and simple way, and added, “If to persist in claiming my right to my time undisturbed, as guarantied by the College laws—if to inform the authorities concerned of the violation of those
             rights after using every other method in my power to
-            prevent their infraction is wrong, I am guilty ; for though
+            prevent their infraction is wrong, I am guilty; for though
             I made no such report, (because it was made by another)
             I fully intended to do it.”
          </p>
@@ -2008,7 +2016,7 @@
          </div>
          
          <div class="piece" id="#p10">
-            <div class="biblTitle">Morse's Cerographic Maps. No. 1</div>
+            <div class="biblTitle">Morse's Cerographic Maps</div>
             <div class="biblPage">248</div>
             <p>Morse's Cerographic Maps. No. 1. New-York. Harper &amp; Brothers, 82 Cliff-street.</p>
             
@@ -2118,7 +2126,7 @@
          </div>
          
          <div class="piece" id="#p13">
-            <div class="biblTitle">Graham's Magazine for November</div>
+            <div class="biblTitle">We Have Received Graham's Magazine</div>
             <div class="biblPage">248</div>
             <p>We have received Graham’s Magazine for November
                —also The Columbian—and shall notice them [with the
@@ -2133,7 +2141,7 @@
          </div>
       </div>
       
-      <div class="section" id="#s2">
+      <div class="piece" id="#p14">
          <div class="biblTitle">Editorial Miscellany</div>
          <div class="biblPage">248</div>
          <div class="head">Editorial Miscellany.</div>
@@ -2179,39 +2187,38 @@
             
             <br></br>Derby, Conn., October 11, 1845.
          </div>
+         
+         
+         
+         <p>To Correspondents.—A great pressure of business has prevented us from
+            paying attention to several communi
+            cations of value, and from cherished
+            friends. All shall hear from us next
+            week, or the week after.
+         </p>
+         
+         <p>“The following beautiful conception,” says a city paper, “is one of Samuel Lover’s”:</p>
+         
+         <div class="ab">the end of the road.</div>
+         
+         <div class="lg">
+            <br></br>And there, whence there’s never returning,
+            
+            <br></br>When we travel, as travel we must,
+            
+            <br></br>May the gates be all free for our journey.
+            
+            <br></br>And the tears of our friends lay the dust.
+         </div>
+         
+         <p>This “beautiful conception” we had
+            been hitherto mistaking for a most pitiable conceit.
+         </p>
       </div>
       
-      
-      
-      <div class="section" id="#s3">
+      <div class="section" id="#s2">
          <div class="biblTitle">Advertisements</div>
          <div class="biblPage">249</div>
-         <div>
-            <p>To Correspondents.—A great pressure of business has prevented us from
-               paying attention to several communi
-               cations of value, and from cherished
-               friends. All shall hear from us next
-               week, or the week after.
-            </p>
-            
-            <p>“The following beautiful conception,” says a city paper, “is one of Samuel Lover’s”:</p>
-            
-            <div class="ab">the end of the road.</div>
-            
-            <div class="lg">
-               <br></br>And there, whence there’s never returning,
-               
-               <br></br>When we travel, as travel we must,
-               
-               <br></br>May the gates be all free for our journey.
-               
-               <br></br>And the tears of our friends lay the dust.
-            </div>
-            
-            <p>This “beautiful conception” we had
-               been hitherto mistaking for a most pitiable conceit.
-            </p>
-         </div>
          
          <div>
             <div class="head">PARLOR ORGAN.</div>
@@ -2280,11 +2287,13 @@
          </div>
          
          <div>
-            <div class="head">161 Broadway, September, 1845.
-               WILEY &amp; PUT MAM'S
+            <div class="note" type="headnote">161 Broadway, September, 1845.</div>
+            
+            <div class="head">WILEY &amp; PUTNAM'S
                LIBRARY OF CHOICE READING.
-               “BOOK! WHICH ARE BOOKS."
             </div>
+            
+            <div class="ab">“BOOK! WHICH ARE BOOKS."</div>
             
             <p>THE PUBLISHERS of the Library of Choice
                Reading beg leave to call attention to the fol
@@ -2469,8 +2478,9 @@
          <div>
             <div class="head">GURNEY'S
                PREMIUM DAGUERRIAN GALLERY,
-               189 BROADWAY, NF.W-YORK.
             </div>
+            
+            <div class="ab">189 BROADWAY, NEW-YORK.</div>
             
             <p>PICTURES taken at this Establishment
                are not excelled in this country—so say
@@ -2479,10 +2489,13 @@
          </div>
           
          <div>
-            <div class="head">MESSRS. HARPER &amp; BROTHERS
-               PUBLISH THIS DAY,
-               Elements of Morality and Polity. 
-               BY PROF. WHEWELL.
+            <div class="head">MESSRS. HARPER &amp; BROTHERS</div>
+            
+            <div class="ab">PUBLISH THIS DAY,
+               
+               <br></br>Elements of Morality and Polity. 
+               
+               <br></br>BY PROF. WHEWELL.
             </div>
             
             <p>THIS valuable new production, from the pen of
@@ -2554,7 +2567,8 @@
          </div>
          
          <div>
-            <p>PIANO-FORTES.—THOMAS II. CHAMBERS.
+            <div class="head">PIANO-FORTES.</div>
+            <p>—THOMAS II. CHAMBERS.
                (formerly Conductor to Dubois and Stodart),
                No. 385 Broadway, will keep a complete assortment
                of the latest approved Grand Action Piano Fortes,
@@ -2599,8 +2613,9 @@
             <div class="head">J. F. browne &amp; CO.
                MANUFACTURER OF THE
                IMPROVED PATENT DOUBLE-ACTION HARP
-               By Royal Letters Patent, London. Established 1810. (Many years with Erard
             </div>
+            
+            <div class="ab">By Royal Letters Patent, London. Established 1810. (Many years with Erard</div>
             
             <p>J.F. BROWNE respectfully informs his Friends and the Musical World that he has established
                himself for the manufacture
@@ -2639,7 +2654,7 @@
                January, 1845	I am yours, CHARLES THIBAULT, No. 40 Beach St., N. Y.
             </p>
             
-            <p>Dear Sir :—I write to express the delight I experienced in performing on one of Harps
+            <p>Dear Sir:—I write to express the delight I experienced in performing on one of Harps
                at Sig. Casella's Concert in this city.--
                The mechanism is perfect, and the quality of Tone certainly superior to any harp I
                have heard for many years.  
@@ -2657,7 +2672,7 @@
                New York, January 16th, 1845.     A pupil of N. C. Boscha.
             </p>
             
-            <p>Mr. J. F. Browne, Sir :--Having at your request closely scrutinized your double-action
+            <p>Mr. J. F. Browne, Sir:--Having at your request closely scrutinized your double-action
                Harps, I find they possess the best qualities of the first makers in Europe combined. That in the ease of touch by which the
                most brilliant tone is obtained, in perfection and
                ease of modulation, they arc superior to any I have used; their elegance of exterior
@@ -2679,8 +2694,9 @@
          
          
          <div>
-            <p>The southern literary messenger
-               B. B. MINOR, Proprietor. Published monthly,
+            <div class="head">The southern literary messenger</div>
+            
+            <p>B. B. MINOR, Proprietor. Published monthly,
                at Richmond. Va. Price Five Dollars per year.
             </p>
             
@@ -2694,9 +2710,11 @@
          </div>
          
          <div>
-            <p>JUST PUBLISHED BY H. G. DAGGERS, 30 Ann
-               Street, New York.
-            </p>
+            <div class="head">JUST PUBLISHED BY H. G. DAGGERS,</div>
+            <div class="ab">30 Ann
+               
+               <br></br>Street, New York.
+            </div>
             
             <p>THE COTTON LORD. By Mrs. Stone. A Ro mance of the Rich and Poor, written by a lady of
                brilliant talents. 25 Cents.
@@ -2739,7 +2757,8 @@
          </div>
          
          <div>
-            <p>PIANO-FORTES-H. WORCESTER, NO. 139
+            <div class="head">PIANO-FORTES</div>
+            <p>-H. WORCESTER, NO. 139
                THIRD AVENUE, Corner of 14th Street, res pectfully informs his friends and the public, that he
                has a good assortment of Piano Fortes, in Rosewood
                and Mahogany cases, from 6 to 7 octaves. Persons
@@ -2749,9 +2768,11 @@
          </div>
          
          <div>
-            <p>PIANO FORTFS.-V.F. HARRISON,23 CANAL
-               Street, N. Y.
-            </p>
+            <div class="head">PIANO FORTES.</div>
+            <div class="ab">-V.F. HARRISON,23 CANAL
+               
+               <br></br>Street, N. Y.
+            </div>
             
             <p>Instruments made with the most recent improvements, such as Iron Frames, &amp;c., with a compass
                of 6 and 7 octaves. They are made from choice
@@ -2765,7 +2786,8 @@
          </div>
          
          <div>
-            <p>PIANOFORTES CHEAP FOR CASH.—THE
+            <div class="head">PIANOFORTES CHEAP FOR CASH.</div>
+            <p>—THE
                subscribers have on hand a handsome assortment, 6, 6 1/2 and 7 octave, mahogany and rosewood
                pianos, which they will warrant and sell low for
                cash or approved paper.
@@ -2777,8 +2799,9 @@
          </div>
          
          <div>
-            <p>G.H. DERWORT, PROFESSOR OF SINGING,
-               Guitar and Piano Forte, has opened a class
+            <div class="head">G.H. DERWORT, PROFESSOR OF SINGING,</div>
+            
+            <p>Guitar and Piano Forte, has opened a class
                for Young Ladies, from 7 to 10 years of age, among
                whom are three of his own daughters, whom he
                proposes to thoroughly instruct in the art of Singing.
@@ -2803,7 +2826,8 @@
          </div>
          
          <div>
-            <p>PIANO FORTE MANUFACTURER —JAMES
+            <div class="head">PIANO FORTE MANUFACTURER</div>
+            <p>—JAMES
                PIRSSON, 88, 90, dt 92 Walker Street, near
                Elm. A Large Stock of the finest instruments al
                ways on hand. Terms moderate. FOR SALE—A
@@ -2813,20 +2837,22 @@
          </div>
          
          <div>
-            <p>WEDDING, VISITING, &amp; PROFESSIONAL
-               CARDS, engraved and printed at VALENTINE’S, 1 Beckman street—Lovejoy’s Hotel.
-            </p>
+            <div class="head">WEDDING, VISITING, &amp; PROFESSIONAL
+               CARDS,
+            </div>
+            <p>engraved and printed at VALENTINE’S, 1 Beckman street—Lovejoy’s Hotel.</p>
          </div>
          
          
          <div>
-            <p>J. BALLARD, PROFESSOR OF THE GUITAR,
-               Singing, and Flute, No. 135 Spring street.
-            </p>
+            <div class="head">J. BALLARD, PROFESSOR OF THE GUITAR,</div>
+            
+            <div class="ab">Singing, and Flute, No. 135 Spring street.</div>
          </div>
          
          <div>
-            <p>CARD OF REMOVAL—MR. W. A KING,
+            <div class="head">CARD OF REMOVAL</div>
+            <p>—MR. W. A KING,
                Professor of Music and Teacher of the PianoForte and Organ, has Removed lo the First House
                above Twenty-Fifth Street on the Rail-Road (4th
                Avenue )
@@ -2834,17 +2860,17 @@
          </div>
       </div>
       
-      <div class="piece" id="#p14">
-         <div class="biblTitle">Our First Volume</div>
+      <div class="piece" id="#p15">
+         <div class="biblTitle">Agents</div>
          <div class="biblPage">250</div>
-         <p>OUR FIRST VOLUME.—A few copies of
+         <div class="note" type="headnote">OUR FIRST VOLUME.—A few copies of
             the first volume of the Broadway Journal are for sale at the office, either in
             numbers or neatly bound.
-         </p>
+         </div>
          
-         <div class="ab">AGENTS.
-            
-            <br></br>Redding &amp; Co., Boston, Mass.
+         <div class="head">AGENTS.</div>
+         
+         <div class="ab">Redding &amp; Co., Boston, Mass.
             
             <br></br>R. G. H. Huntington, Hartford, Ct.
             

@@ -19,15 +19,15 @@
                <decls_id>p2</decls_id>
                <type>piece</type>
                <title>Glossary of Ecclesiastical Ornament and Costume</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
                <page>146-147</page>
                <pdf_index>2</pdf_index>
             </p2>
             <p3>
                <decls_id>p3</decls_id>
                <type>piece</type>
-               <title>Imitation—Plagiarism—Mr. Poe’s Reply</title>
+               <title>Imitation--Plagiarism--Mr. Poe's Reply</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>147-150</page>
@@ -48,8 +48,8 @@
          <decls_id>p5</decls_id>
          <type>piece</type>
          <title>Thoughts of a Silent Man</title>
-         <auth_id>rhertzman</auth_id>
-         <auth_name/>
+         <auth_id>ecembury</auth_id>
+         <auth_name>Emma Catherine Embury</auth_name>
          <page>151-152154</page>
          <pdf_index>710</pdf_index>
       </p5>
@@ -105,8 +105,8 @@
                <decls_id>p10</decls_id>
                <type>piece</type>
                <title>Mothers' Lessons for Little Girls and Boys</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
                <page>155</page>
                <pdf_index>11</pdf_index>
             </p10>
@@ -114,8 +114,8 @@
                <decls_id>p11</decls_id>
                <type>piece</type>
                <title>The Gambler's Mirror</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
                <page>155</page>
                <pdf_index>11</pdf_index>
             </p11>
@@ -123,8 +123,8 @@
                <decls_id>p12</decls_id>
                <type>piece</type>
                <title>The Last of the Plantagenets</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
                <page>155-156</page>
                <pdf_index>11</pdf_index>
             </p12>
@@ -132,8 +132,8 @@
                <decls_id>p13</decls_id>
                <type>piece</type>
                <title>The Knickerbocker</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
                <page>156</page>
                <pdf_index>12</pdf_index>
             </p13>
@@ -159,8 +159,8 @@
                <decls_id>p16</decls_id>
                <type>piece</type>
                <title>Blackwood's Magazine</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
                <page>156</page>
                <pdf_index>12</pdf_index>
             </p16>
@@ -213,8 +213,8 @@
          <decls_id>p21</decls_id>
          <type>piece</type>
          <title>The Concert Room</title>
-         <auth_id>anon</auth_id>
-         <auth_name>Anonymous</auth_name>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
          <page>156-157</page>
          <pdf_index>12</pdf_index>
       </p21>
@@ -227,8 +227,8 @@
                <decls_id>p22</decls_id>
                <type>piece</type>
                <title>Marco Bordogni</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
                <page>157-158</page>
                <pdf_index>13</pdf_index>
             </p22>
@@ -236,8 +236,8 @@
                <decls_id>p23</decls_id>
                <type>piece</type>
                <title>Bertini's Great Method for the Piano-Forte</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
                <page>158</page>
                <pdf_index>14</pdf_index>
             </p23>
@@ -245,8 +245,8 @@
                <decls_id>p24</decls_id>
                <type>piece</type>
                <title>To Accordian Players</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
                <page>158</page>
                <pdf_index>14</pdf_index>
             </p24>
@@ -271,7 +271,7 @@
                <type>piece</type>
                <title>To the Editor of the Broadway Journal</title>
                <auth_id>horace</auth_id>
-               <auth_name/>
+               <auth_name>Quintus Horatius Flaccus</auth_name>
                <page>158-159</page>
                <pdf_index>14</pdf_index>
             </p26>
@@ -306,8 +306,8 @@
          <decls_id>p29</decls_id>
          <type>piece</type>
          <title>Prospectus of the Broadway Journal</title>
-         <auth_id>jbisco</auth_id>
-         <auth_name>John Bisco</auth_name>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
          <page>160</page>
          <pdf_index>16</pdf_index>
       </p29>
@@ -365,7 +365,7 @@
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </cfbriggs>
@@ -383,11 +383,11 @@
             <piecePage>146-147</piecePage>
             <piecePdfIndex>2</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p2>
@@ -398,12 +398,12 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p3</pieceId>
-            <pieceTitle>Imitation—Plagiarism—Mr. Poe’s Reply</pieceTitle>
+            <pieceTitle>Imitation--Plagiarism--Mr. Poe's Reply</pieceTitle>
             <piecePage>147-150</piecePage>
             <piecePdfIndex>3</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is inferred, with high certainty.</authorShip>
                </eapoe>
@@ -431,10 +431,11 @@
             <piecePage>151-152154</piecePage>
             <piecePdfIndex>710</piecePdfIndex>
             <pieceListPerson>
-               <rhertzman>
-                  <personName/>
+               <ecembury>
+                  <personName>Emma Catherine Embury writing as Rudolph Hertzman.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </rhertzman>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </ecembury>
             </pieceListPerson>
          </pieceMeta>
       </p5>
@@ -460,7 +461,7 @@
             <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </eapoe>
@@ -509,9 +510,9 @@
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -527,11 +528,11 @@
             <piecePage>155</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
             </pieceListPerson>
          </pieceMeta>
       </p10>
@@ -546,11 +547,11 @@
             <piecePage>155</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p11>
@@ -565,11 +566,11 @@
             <piecePage>155-156</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p12>
@@ -584,11 +585,11 @@
             <piecePage>156</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p13>
@@ -604,9 +605,9 @@
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -623,7 +624,7 @@
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
@@ -641,11 +642,11 @@
             <piecePage>156</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
             </pieceListPerson>
          </pieceMeta>
       </p16>
@@ -738,11 +739,11 @@
             <piecePage>156-157</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
       </p21>
@@ -763,11 +764,11 @@
             <piecePage>157-158</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
       </p22>
@@ -782,11 +783,11 @@
             <piecePage>158</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
       </p23>
@@ -801,11 +802,11 @@
             <piecePage>158</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
       </p24>
@@ -817,7 +818,7 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <hcwatson>
-                  <personName>Henry Cood Watson</personName>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </hcwatson>
@@ -842,7 +843,7 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <horace>
-                  <personName/>
+                  <personName>Quintus Horatius Flaccus</personName>
                   <personPieceRole>Contributor</personPieceRole>
                </horace>
             </pieceListPerson>
@@ -875,9 +876,9 @@
             <piecePdfIndex>15</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing as E. A. P.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is inferred.</authorShip>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -897,10 +898,11 @@
             <piecePage>160</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
             <pieceListPerson>
-               <jbisco>
-                  <personName>John Bisco</personName>
+               <anon>
+                  <personName>Anonymous</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </jbisco>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
             </pieceListPerson>
          </pieceMeta>
       </p29>

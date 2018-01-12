@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Sister Mine</title>
+         <auth_id>rhdana</auth_id>
+         <auth_name>Richard Henry Dana, Sr.</auth_name>
+         <page>299</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>The Spectacles</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>299-307</page>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>To-----</title>
+         <auth_id>fsosgood</auth_id>
+         <auth_name>Frances Sargent Osgood</auth_name>
+         <page>307</page>
+         <pdf_index>9</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Critical Notices</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>307</page>
+         <pdf_index>9</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>First Love</title>
+         <auth_id>wgsimms</auth_id>
+         <auth_name>William Gilmore Simms</auth_name>
+         <page>307</page>
+         <pdf_index>9</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>Musical Department</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>308</page>
+         <pdf_index>10</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>308-309</page>
+         <pdf_index>10</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>Editorial Miscellany</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>309-311</page>
+         <pdf_index>11</pdf_index>
+      </p8>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>311-314</page>
+         <pdf_index>13</pdf_index>
+      </s1>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>To the Public</title>
+         <auth_id>jbisco</auth_id>
+         <auth_name>John Bisco</auth_name>
+         <page>314</page>
+         <pdf_index>16</pdf_index>
+      </p9>
+      <p10>
+         <decls_id>p10</decls_id>
+         <type>section</type>
+         <title>The Broadway Journal</title>
+         <page>311-314</page>
+         <pdf_index>13</pdf_index>
+      </p10>
+   </toc>
    <issueMeta>
       <issueId>18451122</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
@@ -20,5 +116,152 @@
          </eapoe>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Sister Mine</pieceTitle>
+            <piecePage>299</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <rhdana>
+                  <personName>Richard Henry Dana, Sr.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </rhdana>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>The Spectacles</pieceTitle>
+            <piecePage>299-307</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>To-----</pieceTitle>
+            <piecePage>307</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <fsosgood>
+                  <personName>Frances Sargent Osgood</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </fsosgood>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Critical Notices</pieceTitle>
+            <piecePage>307</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>First Love</pieceTitle>
+            <piecePage>307</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <wgsimms>
+                  <personName>William Gilmore Simms</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wgsimms>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>Musical Department</pieceTitle>
+            <piecePage>308</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>308-309</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>Editorial Miscellany</pieceTitle>
+            <piecePage>309-311</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>311-314</sectionPage>
+            <sectionPdfIndex>13</sectionPdfIndex>
+         </sectionMeta>
+      </s1>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>To the Public</pieceTitle>
+            <piecePage>314</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+            <pieceListPerson>
+               <jbisco>
+                  <personName>John Bisco</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </jbisco>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>p10</sectionId>
+            <sectionTitle>The Broadway Journal</sectionTitle>
+            <sectionPage>311-314</sectionPage>
+            <sectionPdfIndex>13</sectionPdfIndex>
+         </sectionMeta>
+      </p10>
+   </listBibl>
 </issue>

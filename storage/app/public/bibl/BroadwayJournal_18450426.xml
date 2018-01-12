@@ -1,6 +1,307 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>Twentieth Annual Exhibition of the Academy of National Design</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>257-258</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>Public disasters</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>258-259</page>
+         <pdf_index>2</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Broadway</title>
+         <auth_id>im</auth_id>
+         <auth_name>I. M.</auth_name>
+         <page>259-260</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>To F-------</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>260</page>
+         <pdf_index>4</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>Law and Waltzing</title>
+         <auth_id>efellet</auth_id>
+         <auth_name>Elizabeth Fries Ellet</auth_name>
+         <page>260-264</page>
+         <pdf_index>4</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Oval Portrait</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>264-265</page>
+         <pdf_index>8</pdf_index>
+      </p6>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>Hope</title>
+         <auth_id>horus</auth_id>
+         <auth_name>Horus</auth_name>
+         <page>265</page>
+         <pdf_index>9</pdf_index>
+      </p7>
+      <p8>
+         <decls_id>p8</decls_id>
+         <type>piece</type>
+         <title>The Dignity of Labor</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>265-266</page>
+         <pdf_index>9</pdf_index>
+      </p8>
+      <p9>
+         <decls_id>p9</decls_id>
+         <type>piece</type>
+         <title>A Gentle Puff</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>266</page>
+         <pdf_index>10</pdf_index>
+      </p9>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>Thirteenth Annual Report of the Trustees of the Perkins Institution and
+                Massachusetts Asylum of the Blind</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>266-267</page>
+               <pdf_index>10</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>The Diary of Lady Willoughby</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>267</page>
+               <pdf_index>11</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>History of Germany</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>267</page>
+               <pdf_index>11</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>The Library of American Biography</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>267</page>
+               <pdf_index>11</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>The Life and Institute of the Jesuits</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>267</page>
+               <pdf_index>11</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>No Cross, No Crown</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>267</page>
+               <pdf_index>11</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>Frankenstein, by Mrs. Shelley; and Midshipman Easy, by Captain
+                Marryatt</title>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
+               <page>267</page>
+               <pdf_index>11</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>Principles of Forensic Medicine</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>267</page>
+               <pdf_index>11</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The Waverly Novels</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>267-268</page>
+               <pdf_index>11</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>A Phrase Book in English and German</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>268</page>
+               <pdf_index>12</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>The Chronicles of Pineville</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>268</page>
+               <pdf_index>12</pdf_index>
+            </p20>
+         </pieces>
+      </s1>
+      <p21>
+         <decls_id>p21</decls_id>
+         <type>piece</type>
+         <title>The Magazines</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>268-269</page>
+         <pdf_index>12</pdf_index>
+      </p21>
+      <p22>
+         <decls_id>p22</decls_id>
+         <type>piece</type>
+         <title>The Concert Room</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>269-270</page>
+         <pdf_index>13</pdf_index>
+      </p22>
+      <p23>
+         <decls_id>p23</decls_id>
+         <type>piece</type>
+         <title>Musical Review</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>270</page>
+         <pdf_index>14</pdf_index>
+      </p23>
+      <p24>
+         <decls_id>p24</decls_id>
+         <type>piece</type>
+         <title>Stodart and Dunham's Piano Fortes</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>270-271</page>
+         <pdf_index>14</pdf_index>
+      </p24>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Miscellany</title>
+         <pieces>
+            <p25>
+               <decls_id>p25</decls_id>
+               <type>piece</type>
+               <title>Puns from the Boston Post</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>271</page>
+               <pdf_index>15</pdf_index>
+            </p25>
+            <p26>
+               <decls_id>p26</decls_id>
+               <type>piece</type>
+               <title>Impromptu to Kate Carol</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>271</page>
+               <pdf_index>15</pdf_index>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
+               <type>piece</type>
+               <title>Goldsmith's Writing Academy</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>271</page>
+               <pdf_index>15</pdf_index>
+            </p27>
+            <p28>
+               <decls_id>p28</decls_id>
+               <type>piece</type>
+               <title>Mr. Murdoch's Lectures</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>271</page>
+               <pdf_index>15</pdf_index>
+            </p28>
+            <p29>
+               <decls_id>p29</decls_id>
+               <type>piece</type>
+               <title>State of the Country</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>271</page>
+               <pdf_index>15</pdf_index>
+            </p29>
+         </pieces>
+      </s2>
+      <p30>
+         <decls_id>p30</decls_id>
+         <type>piece</type>
+         <title>To Correspondents</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>271</page>
+         <pdf_index>15</pdf_index>
+      </p30>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>271-272</page>
+         <pdf_index>15</pdf_index>
+      </s3>
+      <p31>
+         <decls_id>p31</decls_id>
+         <type>piece</type>
+         <title>Agents for the Broadway Journal</title>
+         <page>272</page>
+         <pdf_index>16</pdf_index>
+      </p31>
+   </toc>
    <issueMeta>
       <issueId>18450426</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
@@ -35,5 +336,548 @@
          </jdouglas>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>Twentieth Annual Exhibition of the Academy of National Design</pieceTitle>
+            <piecePage>257-258</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Public disasters</pieceTitle>
+            <piecePage>258-259</piecePage>
+            <piecePdfIndex>2</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>Broadway</pieceTitle>
+            <piecePage>259-260</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <im>
+                  <personName>I. M.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </im>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>To F-------</pieceTitle>
+            <piecePage>260</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as E.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>Law and Waltzing</pieceTitle>
+            <piecePage>260-264</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <efellet>
+                  <personName>Elizabeth Fries Ellet</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </efellet>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Oval Portrait</pieceTitle>
+            <piecePage>264-265</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Hope</pieceTitle>
+            <piecePage>265</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <horus>
+                  <personName>Horus</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </horus>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Dignity of Labor</pieceTitle>
+            <piecePage>265-266</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>A Gentle Puff</pieceTitle>
+            <piecePage>266</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Thirteenth Annual Report of the Trustees of the Perkins Institution and
+                Massachusetts Asylum of the Blind</pieceTitle>
+            <piecePage>266-267</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The Diary of Lady Willoughby</pieceTitle>
+            <piecePage>267</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>History of Germany</pieceTitle>
+            <piecePage>267</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>The Library of American Biography</pieceTitle>
+            <piecePage>267</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The Life and Institute of the Jesuits</pieceTitle>
+            <piecePage>267</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>No Cross, No Crown</pieceTitle>
+            <piecePage>267</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Frankenstein, by Mrs. Shelley; and Midshipman Easy, by Captain
+                Marryatt</pieceTitle>
+            <piecePage>267</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Principles of Forensic Medicine</pieceTitle>
+            <piecePage>267</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>The Waverly Novels</pieceTitle>
+            <piecePage>267-268</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>A Phrase Book in English and German</pieceTitle>
+            <piecePage>268</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>The Chronicles of Pineville</pieceTitle>
+            <piecePage>268</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Magazines</pieceTitle>
+            <piecePage>268-269</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>The Concert Room</pieceTitle>
+            <piecePage>269-270</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Musical Review</pieceTitle>
+            <piecePage>270</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Stodart and Dunham's Piano Fortes</pieceTitle>
+            <piecePage>270-271</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellany</sectionTitle>
+         </sectionMeta>
+      </s2>
+      <p25>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Puns from the Boston Post</pieceTitle>
+            <piecePage>271</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <p26>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>Impromptu to Kate Carol</pieceTitle>
+            <piecePage>271</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p26>
+      <p27>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>Goldsmith's Writing Academy</pieceTitle>
+            <piecePage>271</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p27>
+      <p28>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p28</pieceId>
+            <pieceTitle>Mr. Murdoch's Lectures</pieceTitle>
+            <piecePage>271</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p28>
+      <p29>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p29</pieceId>
+            <pieceTitle>State of the Country</pieceTitle>
+            <piecePage>271</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p29>
+      <p30>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>To Correspondents</pieceTitle>
+            <piecePage>271</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p30>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>271-272</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s3>
+      <p31>
+         <pieceMeta>
+            <pieceId>p31</pieceId>
+            <pieceTitle>Agents for the Broadway Journal</pieceTitle>
+            <piecePage>272</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+      </p31>
+   </listBibl>
 </issue>

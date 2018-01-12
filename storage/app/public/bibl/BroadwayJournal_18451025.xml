@@ -75,22 +75,24 @@
       </p8>
       <s1>
          <decls_id>s1</decls_id>
-         <type>piece</type>
+         <type>section</type>
          <title>Critical Notices</title>
-         <auth_id>eapoe</auth_id>
-         <auth_name>Edgar Allan Poe</auth_name>
          <pieces>
             <p9>
                <decls_id>p9</decls_id>
                <type>piece</type>
                <title>The Songs of our Land and Other Poems</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
                <page>247-248</page>
                <pdf_index>13</pdf_index>
             </p9>
             <p10>
                <decls_id>p10</decls_id>
                <type>piece</type>
-               <title>Morse's Cerographic Maps. No. 1</title>
+               <title>Morse's Cerographic Maps</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p10>
@@ -98,6 +100,8 @@
                <decls_id>p11</decls_id>
                <type>piece</type>
                <title>The Vision; or Hell, Purgatory and Paradise of Dante Alighieri</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p11>
@@ -105,43 +109,45 @@
                <decls_id>p12</decls_id>
                <type>piece</type>
                <title>Appleton's Literary Miscellany</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p12>
             <p13>
                <decls_id>p13</decls_id>
                <type>piece</type>
-               <title>Graham's Magazine for November</title>
+               <title>We Have Received Graham's Magazine</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
                <page>248</page>
                <pdf_index>14</pdf_index>
             </p13>
          </pieces>
       </s1>
-      <s2>
-         <decls_id>s2</decls_id>
-         <type>section</type>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
          <title>Editorial Miscellany</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>248</page>
          <pdf_index>14</pdf_index>
-      </s2>
-      <s3>
-         <decls_id>s3</decls_id>
+      </p14>
+      <s2>
+         <decls_id>s2</decls_id>
          <type>section</type>
          <title>Advertisements</title>
          <page>249-250</page>
          <pdf_index>15</pdf_index>
-      </s3>
-      <p14>
-         <decls_id>p14</decls_id>
-         <type>piece</type>
-         <title>Our First Volume</title>
-         <auth_id>anon</auth_id>
-         <auth_name>Anonymous</auth_name>
+      </s2>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>section</type>
+         <title>Agents</title>
          <page>250</page>
          <pdf_index>16</pdf_index>
-      </p14>
+      </p15>
    </toc>
    <issueMeta>
       <issueId>18451025</issueId>
@@ -202,6 +208,7 @@
                <wg>
                   <personName>W. G.</personName>
                   <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
                </wg>
             </pieceListPerson>
          </pieceMeta>
@@ -229,9 +236,9 @@
             <piecePdfIndex>9</piecePdfIndex>
             <pieceListPerson>
                <amide>
-                  <personName>Abijah Metcalf Ide, Jr.</personName>
+                  <personName>Abijah Metcalf Ide, Jr. writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </amide>
             </pieceListPerson>
          </pieceMeta>
@@ -260,6 +267,7 @@
                <w>
                   <personName/>
                   <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
                </w>
             </pieceListPerson>
          </pieceMeta>
@@ -279,17 +287,10 @@
          </pieceMeta>
       </p8>
       <s1>
-         <pieceMeta>
-            <pieceId>s1</pieceId>
-            <pieceTitle>Critical Notices</pieceTitle>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
       </s1>
       <p9>
          <sectionMeta>
@@ -301,6 +302,13 @@
             <pieceTitle>The Songs of our Land and Other Poems</pieceTitle>
             <piecePage>247-248</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
          </pieceMeta>
       </p9>
       <p10>
@@ -310,9 +318,16 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p10</pieceId>
-            <pieceTitle>Morse's Cerographic Maps. No. 1</pieceTitle>
+            <pieceTitle>Morse's Cerographic Maps</pieceTitle>
             <piecePage>248</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
          </pieceMeta>
       </p10>
       <p11>
@@ -325,6 +340,13 @@
             <pieceTitle>The Vision; or Hell, Purgatory and Paradise of Dante Alighieri</pieceTitle>
             <piecePage>248</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
          </pieceMeta>
       </p11>
       <p12>
@@ -337,6 +359,13 @@
             <pieceTitle>Appleton's Literary Miscellany</pieceTitle>
             <piecePage>248</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
          </pieceMeta>
       </p12>
       <p13>
@@ -346,48 +375,48 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p13</pieceId>
-            <pieceTitle>Graham's Magazine for November</pieceTitle>
+            <pieceTitle>We Have Received Graham's Magazine</pieceTitle>
             <piecePage>248</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
          </pieceMeta>
       </p13>
-      <s2>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>Editorial Miscellany</sectionTitle>
-            <sectionPage>248</sectionPage>
-            <sectionPdfIndex>14</sectionPdfIndex>
-            <sectionListPerson>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Editorial Miscellany</pieceTitle>
+            <piecePage>248</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
-            </sectionListPerson>
-         </sectionMeta>
-      </s2>
-      <s3>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <s2>
          <sectionMeta>
-            <sectionId>s3</sectionId>
+            <sectionId>s2</sectionId>
             <sectionTitle>Advertisements</sectionTitle>
             <sectionPage>249-250</sectionPage>
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
-      </s3>
-      <p14>
-         <pieceMeta>
-            <pieceId>p14</pieceId>
-            <pieceTitle>Our First Volume</pieceTitle>
-            <piecePage>250</piecePage>
-            <piecePdfIndex>16</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p14>
+      </s2>
+      <p15>
+         <sectionMeta>
+            <sectionId>p15</sectionId>
+            <sectionTitle>Agents</sectionTitle>
+            <sectionPage>250</sectionPage>
+            <sectionPdfIndex>16</sectionPdfIndex>
+         </sectionMeta>
+      </p15>
    </listBibl>
 </issue>

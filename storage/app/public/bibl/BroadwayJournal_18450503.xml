@@ -1,6 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>House furniture.</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>273-275</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>Twentieth Annual Exhibition of the Academy of National Design</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>275-276</page>
+         <pdf_index>3</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>My Village Home</title>
+         <auth_id>mgwells</auth_id>
+         <auth_name>Mary G. Wells</auth_name>
+         <page>275-276</page>
+         <pdf_index>3</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>Living Artists of Europe: No. 2</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>277-278</page>
+         <pdf_index>5</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>The Sleeper</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>278</page>
+         <pdf_index>6</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Grateful Clerk</title>
+         <auth_id>cfbriggs</auth_id>
+         <auth_name>Charles Frederick Briggs</auth_name>
+         <page>279-281</page>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <s7>
+         <decls_id>s7</decls_id>
+         <type>section</type>
+         <title>Reviews</title>
+         <pieces>
+            <s7p1>
+               <decls_id>s7p1</decls_id>
+               <type>piece</type>
+               <title>Alnwick Castle</title>
+               <auth_id>jrlowell</auth_id>
+               <auth_name>James Russell Lowell</auth_name>
+               <page>281-283</page>
+               <pdf_index>9</pdf_index>
+            </s7p1>
+         </pieces>
+      </s7>
+      <s8>
+         <decls_id>s8</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <pieces>
+            <s8p1>
+               <decls_id>s8p1</decls_id>
+               <type>piece</type>
+               <title>The Prisoners of Perote</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>284</page>
+               <pdf_index>12</pdf_index>
+            </s8p1>
+            <s8p2>
+               <decls_id>s8p2</decls_id>
+               <type>piece</type>
+               <title>Remarks on an Address delivered before the New England Society</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>284</page>
+               <pdf_index>12</pdf_index>
+            </s8p2>
+            <s8p3>
+               <decls_id>s8p3</decls_id>
+               <type>piece</type>
+               <title>Table-Talk</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>284</page>
+               <pdf_index>12</pdf_index>
+            </s8p3>
+            <s8p4>
+               <decls_id>s8p4</decls_id>
+               <type>piece</type>
+               <title>American Facts</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>284</page>
+               <pdf_index>12</pdf_index>
+            </s8p4>
+            <s8p5>
+               <decls_id>s8p5</decls_id>
+               <type>piece</type>
+               <title>Count Ludwig</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>284-285</page>
+               <pdf_index>12</pdf_index>
+            </s8p5>
+            <s8p6>
+               <decls_id>s8p6</decls_id>
+               <type>piece</type>
+               <title>The Apochryphal New Testament</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>285</page>
+               <pdf_index>13</pdf_index>
+            </s8p6>
+            <s8p7>
+               <decls_id>s8p7</decls_id>
+               <type>piece</type>
+               <title>History of Germany</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>285</page>
+               <pdf_index>13</pdf_index>
+            </s8p7>
+            <s8p8>
+               <decls_id>s8p8</decls_id>
+               <type>piece</type>
+               <title>Specimens of Ancient Oracular and Fighting Eolipiles</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>285</page>
+               <pdf_index>13</pdf_index>
+            </s8p8>
+         </pieces>
+      </s8>
+      <p7>
+         <decls_id>p7</decls_id>
+         <type>piece</type>
+         <title>The Magazines</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>285</page>
+         <pdf_index>13</pdf_index>
+      </p7>
+      <s9>
+         <decls_id>s9</decls_id>
+         <type>section</type>
+         <title>Musical Review</title>
+         <pieces>
+            <s9p1>
+               <decls_id>s9p1</decls_id>
+               <type>piece</type>
+               <title>Melodies</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>285</page>
+               <pdf_index>13</pdf_index>
+            </s9p1>
+            <s9p2>
+               <decls_id>s9p2</decls_id>
+               <type>piece</type>
+               <title>Bertini's Piano Forte Method</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>285-286</page>
+               <pdf_index>13</pdf_index>
+            </s9p2>
+            <s9p3>
+               <decls_id>s9p3</decls_id>
+               <type>piece</type>
+               <title>Piano-Fortes</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s9p3>
+         </pieces>
+      </s9>
+      <s10>
+         <decls_id>s10</decls_id>
+         <type>section</type>
+         <title>Items</title>
+         <pieces>
+            <s10p1>
+               <decls_id>s10p1</decls_id>
+               <type>piece</type>
+               <title>Park Theatre</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p1>
+            <s10p2>
+               <decls_id>s10p2</decls_id>
+               <type>piece</type>
+               <title>Olympic Theatre</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p2>
+            <s10p3>
+               <decls_id>s10p3</decls_id>
+               <type>piece</type>
+               <title>Olympic Theatre</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p3>
+            <s10p4>
+               <decls_id>s10p4</decls_id>
+               <type>piece</type>
+               <title>Mary Taylor</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p4>
+            <s10p5>
+               <decls_id>s10p5</decls_id>
+               <type>piece</type>
+               <title>Mr. George Loder</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p5>
+            <s10p6>
+               <decls_id>s10p6</decls_id>
+               <type>piece</type>
+               <title>National Nomenclature</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p6>
+            <s10p7>
+               <decls_id>s10p7</decls_id>
+               <type>piece</type>
+               <title>Popular Lectures</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p7>
+            <s10p8>
+               <decls_id>s10p8</decls_id>
+               <type>piece</type>
+               <title>The Way They Do Things in England</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p8>
+            <s10p9>
+               <decls_id>s10p9</decls_id>
+               <type>piece</type>
+               <title>Mr. Howitt</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p9>
+            <s10p10>
+               <decls_id>s10p10</decls_id>
+               <type>piece</type>
+               <title>Notice</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>286</page>
+               <pdf_index>14</pdf_index>
+            </s10p10>
+         </pieces>
+      </s10>
+      <s11>
+         <decls_id>s11</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>287-288</page>
+         <pdf_index>15</pdf_index>
+      </s11>
+   </toc>
    <issueMeta>
       <issueId>18450503</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
@@ -35,5 +332,559 @@
          </jdouglas>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>House furniture.</pieceTitle>
+            <piecePage>273-275</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>Twentieth Annual Exhibition of the Academy of National Design</pieceTitle>
+            <piecePage>275-276</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>My Village Home</pieceTitle>
+            <piecePage>275-276</piecePage>
+            <piecePdfIndex>3</piecePdfIndex>
+            <pieceListPerson>
+               <mgwells>
+                  <personName>Mary G. Wells</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </mgwells>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>Living Artists of Europe: No. 2</pieceTitle>
+            <piecePage>277-278</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The Sleeper</pieceTitle>
+            <piecePage>278</piecePage>
+            <piecePdfIndex>6</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Grateful Clerk</pieceTitle>
+            <piecePage>279-281</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing as Harry Franco.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </cfbriggs>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <s7>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+      </s7>
+      <s7p1>
+         <sectionMeta>
+            <sectionId>s7</sectionId>
+            <sectionTitle>Reviews</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s7p1</pieceId>
+            <pieceTitle>Alnwick Castle</pieceTitle>
+            <piecePage>281-283</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <jrlowell>
+                  <personName>James Russell Lowell writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </jrlowell>
+            </pieceListPerson>
+         </pieceMeta>
+      </s7p1>
+      <s8>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s8>
+      <s8p1>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p1</pieceId>
+            <pieceTitle>The Prisoners of Perote</pieceTitle>
+            <piecePage>284</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p1>
+      <s8p2>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p2</pieceId>
+            <pieceTitle>Remarks on an Address delivered before the New England Society</pieceTitle>
+            <piecePage>284</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p2>
+      <s8p3>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p3</pieceId>
+            <pieceTitle>Table-Talk</pieceTitle>
+            <piecePage>284</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p3>
+      <s8p4>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p4</pieceId>
+            <pieceTitle>American Facts</pieceTitle>
+            <piecePage>284</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p4>
+      <s8p5>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p5</pieceId>
+            <pieceTitle>Count Ludwig</pieceTitle>
+            <piecePage>284-285</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p5>
+      <s8p6>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p6</pieceId>
+            <pieceTitle>The Apochryphal New Testament</pieceTitle>
+            <piecePage>285</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p6>
+      <s8p7>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p7</pieceId>
+            <pieceTitle>History of Germany</pieceTitle>
+            <piecePage>285</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p7>
+      <s8p8>
+         <sectionMeta>
+            <sectionId>s8</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s8p8</pieceId>
+            <pieceTitle>Specimens of Ancient Oracular and Fighting Eolipiles</pieceTitle>
+            <piecePage>285</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s8p8>
+      <p7>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>The Magazines</pieceTitle>
+            <piecePage>285</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <s9>
+         <sectionMeta>
+            <sectionId>s9</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+      </s9>
+      <s9p1>
+         <sectionMeta>
+            <sectionId>s9</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s9p1</pieceId>
+            <pieceTitle>Melodies</pieceTitle>
+            <piecePage>285</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s9p1>
+      <s9p2>
+         <sectionMeta>
+            <sectionId>s9</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s9p2</pieceId>
+            <pieceTitle>Bertini's Piano Forte Method</pieceTitle>
+            <piecePage>285-286</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s9p2>
+      <s9p3>
+         <sectionMeta>
+            <sectionId>s9</sectionId>
+            <sectionTitle>Musical Review</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s9p3</pieceId>
+            <pieceTitle>Piano-Fortes</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s9p3>
+      <s10>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+      </s10>
+      <s10p1>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p1</pieceId>
+            <pieceTitle>Park Theatre</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p1>
+      <s10p2>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p2</pieceId>
+            <pieceTitle>Olympic Theatre</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p2>
+      <s10p3>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p3</pieceId>
+            <pieceTitle>Olympic Theatre</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p3>
+      <s10p4>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p4</pieceId>
+            <pieceTitle>Mary Taylor</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p4>
+      <s10p5>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p5</pieceId>
+            <pieceTitle>Mr. George Loder</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p5>
+      <s10p6>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p6</pieceId>
+            <pieceTitle>National Nomenclature</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p6>
+      <s10p7>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p7</pieceId>
+            <pieceTitle>Popular Lectures</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p7>
+      <s10p8>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p8</pieceId>
+            <pieceTitle>The Way They Do Things in England</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p8>
+      <s10p9>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p9</pieceId>
+            <pieceTitle>Mr. Howitt</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p9>
+      <s10p10>
+         <sectionMeta>
+            <sectionId>s10</sectionId>
+            <sectionTitle>Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>s10p10</pieceId>
+            <pieceTitle>Notice</pieceTitle>
+            <piecePage>286</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </s10p10>
+      <s11>
+         <sectionMeta>
+            <sectionId>s11</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>287-288</sectionPage>
+            <sectionPdfIndex>15</sectionPdfIndex>
+         </sectionMeta>
+      </s11>
+   </listBibl>
 </issue>
