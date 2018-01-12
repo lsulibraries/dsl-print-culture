@@ -186,7 +186,19 @@ Vue.component('personIndex', {
 	}
     },
     created(){
-	this.index = this.$root.xhrDataStore.personography.personIndex
+	rawIndex = this.$root.xhrDataStore.personography.personIndex
+        deduped = {};
+        entries = Object.entries(rawIndex)
+        for (const [key, value] of entries) {
+            if (Array.isArray(value)) {
+                console.log(key + ' has multiple records, arbitrarily(-ish) using the first...')
+                deduped[key] = value[0]
+            }
+            else {
+                deduped[key] = value
+            }
+        }
+        this.index = deduped
     }
 })
 
@@ -224,7 +236,7 @@ Vue.component('personFilter', {
 Vue.component('personMeta', {
     template: `
 	<div class="personMeta">
-	  <div class="personName">{{personMeta.personName}}</div>
+	  <div class="personName">{{this.getName(personMeta)}}</div>
 	  <div class="personRole">{{personMeta.personRole}}</div>
           <div class="personViaf">
 	    <!--
@@ -233,7 +245,17 @@ Vue.component('personMeta', {
           </div>
         </div>
 	`,
-    props: ['personMeta']
+    props: ['personMeta'],
+    methods: {
+        getName: function (personMeta) {
+            if((typeof this.personMeta.personName) !== 'string') {
+                return this.personMeta.personId + ' (Full name not given)'
+            }
+            else {
+                return this.personMeta.personName
+            }
+        }
+    }
 })
 
 Vue.component('person', {
@@ -272,7 +294,12 @@ Vue.component('person', {
 	    if(this.filterString.length < 1){
 		passesString = true
 	    }
-	    
+
+            if((typeof this.person.personMeta.personName) !== 'string') {
+                console.log(this.person.personMeta.personId + ' is missing a name!')
+                return true
+            }
+
 	    if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
 		passesString = true
 	    }
@@ -1515,10 +1542,10 @@ new Vue({
 	    content: {
 		abouts: 'about', // technical | credits
 		issue: {
-		    id: '18450201',//'18450104', // yyyy-mm-dd
+		    id: '18450208',//'18450104', // yyyy-mm-dd
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
-		    decls_id: 'p1'
+		    decls_id: 's1'
 		},
 		personography: {
 		    filterString: '', // ie eapoe
