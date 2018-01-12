@@ -1200,6 +1200,10 @@ canvas#pdf {
 .abouts {
   @include flexbox;
   min-height: calc(100vh - 47px);
+
+  .intraIssueNav{
+    display: none;
+  }
 }
 
 .aboutToggle {
@@ -1207,12 +1211,12 @@ canvas#pdf {
   flex-direction: column;
   background: white;
   border-right: 1px solid $light-border-color;
+    justify-content: center;  
 }
 
 .aboutToggle > div {
   padding: 50px;
   background: white;
-  border-bottom: 1px solid $light-border-color;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -1220,8 +1224,16 @@ canvas#pdf {
 }
 
 .aboutViewer {
-  background: white;
-  padding: 20px;
+    background: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    p {
+      width: 500px;
+      }
 }
 
 .aboutToggle .active {

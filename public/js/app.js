@@ -789,9 +789,9 @@ Vue.component('abouts',{
          </div>
          <div class="aboutViewer">
            <logo v-if="this.abouts == 'about'"></logo>
-	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
-	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
-	   <div v-if="this.abouts == 'credits'">
+    	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
+    	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
+    	   <div v-if="this.abouts == 'credits'">
            <creditsPersonList></creditsPersonList>
          </div>
        </div>
