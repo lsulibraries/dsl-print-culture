@@ -51,6 +51,8 @@ body {
 
 .modal-body {
   margin: 20px 0;
+  height: 500px;
+  overflow-y: scroll;
 }
 
 .modal-default-button {
@@ -130,6 +132,8 @@ body {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
+  justify-content: inherit;
+  padding-left: 80px !important;
 }
 
 .headerNav {
@@ -155,9 +159,13 @@ body {
 
 .header > div:not(.headerNav),
 .header > a {
-  padding: 20px 30px 20px 30px;
+  padding: 30px 0px;
   border-right: 1px solid #e9e9e9;
   cursor: pointer;
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
+  margin-right: 20px;
 }
 
 .headerNav > div {
@@ -252,48 +260,37 @@ input:focus {
   display: flex;
   align-content: flex-start;
   background: white;
-  padding: 20px;
+  padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
   width: 30%;
+  box-sizing: border-box;
+  min-width: 236px;
 }
 
 .interIssueNav::before {
   content: 'issue navigation';
-  font-size: 2em;
+  font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-}
-
-.content > .issue::before {
-  background: black;
-  content: 'Issues';
-  width: 10px;
+  background: #474747;
   color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-}
-
-.content > .abouts::before {
-  background: black;
-  content: 'About';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 11px;
 }
 
 .tocDropdown {
-  font-size: 2em;
-  border-bottom: 1px dashed #e9e9e9;
+  font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
+  background: #474747;
+  color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 .tocItem {
@@ -395,6 +392,7 @@ input:focus {
 
 .intraIssueNav {
   width: 100%;
+  padding-top: 40px;
 }
 
 .active.childText {
@@ -441,7 +439,7 @@ input:focus {
 
 .teiMarkup {
   font-size: 1.2em;
-  padding: 20px;
+  padding: 100px;
 }
 
 .head {
@@ -498,21 +496,6 @@ button.searchSubmit {
   display: flex;
   width: 100%;
   justify-content: space-between;
-}
-
-.personography::before {
-  background: black;
-  content: 'Authors';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  position: absolute;
-  left: 0px;
-  height: calc(100% - 30px);
 }
 
 .personIndex {
@@ -1184,6 +1167,9 @@ canvas#pdf {
   display: flex;
   min-height: calc(100vh - 47px);
 }
+.abouts .intraIssueNav {
+  display: none;
+}
 
 .aboutToggle {
   display: -webkit-box;
@@ -1194,12 +1180,15 @@ canvas#pdf {
   flex-direction: column;
   background: white;
   border-right: 1px solid #e9e9e9;
+  justify-content: center;
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
 }
 
 .aboutToggle > div {
-  padding: 50px;
+  padding: 50px 100px;
   background: white;
-  border-bottom: 1px solid #e9e9e9;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -1208,7 +1197,15 @@ canvas#pdf {
 
 .aboutViewer {
   background: white;
-  padding: 20px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 2;
+}
+.aboutViewer p {
+  width: 500px;
 }
 
 .aboutToggle .active {
@@ -1217,6 +1214,10 @@ canvas#pdf {
 
 .headerNav > .active {
   color: #fe7251;
+}
+
+.logo {
+  margin-right: 280px;
 }
 
 .logoTitle {
@@ -1281,12 +1282,12 @@ canvas#pdf {
 }
 
 .contrast {
-  background: white;
   font-size: 12px;
   border: none !important;
   padding: 5px 10px 5px 10px !important;
   flex-direction: row;
   flex-grow: 2;
+  justify-content: flex-end;
 }
 
 .footer {

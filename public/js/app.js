@@ -36,7 +36,6 @@ Vue.component('vue-header',{
         <div class="header">
        	  <headerTitle></headerTitle>
 	  <headerNav></headerNav>
-<!--
       <div class="contrast" @click='toggleContrast'>
         <div class="contrastTitle">High Contrast</div>
         <div class="contrastSwitch">
@@ -44,14 +43,7 @@ Vue.component('vue-header',{
           <div class="contrastOn">On</div>
         </div>
       </div>
--->	
-	
-          <div class="searchInput">
-	    <label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
-            <button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
-            <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" @focus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search">
-	  </div>
-        </div>
+    </div>
 	`,
     methods: {
 	resetSearchString: function(){
@@ -522,7 +514,7 @@ Vue.component('issueViewer',{
 Vue.component('issue',{
     template: `
         <div class="issue">
-          <interIssueNav></interIssueNav>
+    <interIssueNav></interIssueNav>
 	  <div class="issueBody">
 	    <viewerSelector></viewerSelector>
 	    <issueHeader></issueHeader>
@@ -598,7 +590,7 @@ If the author is anonymous DO NOT provide certainty.`,
   <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
   <!-- use the modal component, pass in the prop -->
   <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">
-    <h3 slot="header">custom header</h3>
+    <h3 slot="header">More from this author</h3>
   </modal>
 
         </div>
@@ -775,7 +767,6 @@ Vue.component('modal', {
 
           <div class="modal-body">
             <slot name="body">
-              default body
             </slot>
             <drawer  :authorId="this.authorId" :declsId="this.biblId" :issueId="this.issueId"></drawer>
           </div>
@@ -865,9 +856,9 @@ Vue.component('abouts',{
          </div>
          <div class="aboutViewer">
            <logo v-if="this.abouts == 'about'"></logo>
-	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
-	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
-	   <div v-if="this.abouts == 'credits'">
+    	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
+    	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
+    	   <div v-if="this.abouts == 'credits'">
            <creditsPersonList></creditsPersonList>
          </div>
        </div>
