@@ -15,6 +15,17 @@ $primary-accent-color-HC2: #000000;
 $primary-accent-color-HC3: #000000;
 $primary-accent-color3: rgba(254, 114, 81, 0.5);
 $dark-border-color: #5c5c5c;
+
+//https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
+
+$darkest: #002F2F;
+$dark: #046380;
+$lightest:#EFECCA;
+$lighter: #E6E2AF;
+$light:#A7A37E;
+
+//end adobe colors
+
 @mixin flexbox {
   display: -webkit-box;
   display: -moz-box;
@@ -1207,6 +1218,10 @@ canvas#pdf {
   color: $primary-accent-color;
 }
 
+.logo{
+      margin-right: 280px;
+}
+
 .logoTitle {
   flex-direction: column;
   justify-content: center;
@@ -1270,12 +1285,12 @@ canvas#pdf {
 }
 
 .contrast {
-    background: white;
-    font-size: 12px;
+font-size: 12px;
     border: none !important;
     padding: 5px 10px 5px 10px !important;
     flex-direction: row;
     flex-grow: 2;
+    justify-content: flex-end;
 }
 
 

@@ -1191,6 +1191,10 @@ canvas#pdf {
   color: #fe7251;
 }
 
+.logo {
+  margin-right: 280px;
+}
+
 .logoTitle {
   flex-direction: column;
   justify-content: center;
@@ -1253,12 +1257,12 @@ canvas#pdf {
 }
 
 .contrast {
-  background: white;
   font-size: 12px;
   border: none !important;
   padding: 5px 10px 5px 10px !important;
   flex-direction: row;
   flex-grow: 2;
+  justify-content: flex-end;
 }
 
 .footer {

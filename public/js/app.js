@@ -44,11 +44,6 @@ Vue.component('vue-header',{
           <div class="contrastOn">On</div>
         </div>
       </div>
-          <div class="searchInput">
-	    <label for="fullTextSearchInput" class="visuallyhidden" v-if="this.$root.state.contrast == 'high'">Full Text Search: </label>
-            <button class="searchSubmit" value="search" @click="searchSubmitted" aria-label="Search Full Text"><i class="fa fa-search" aria-hidden="true"></i></button>
-            <input id="fullTextSearchInput" @keyup.esc="resetSearchString"  @keyup.enter="searchSubmitted" v-model="searchString" @focus="if(this.value == 'Search') { this.value = ''; }" placeholder="Search">
-	  </div>
         </div>
 	`,
     methods: {
