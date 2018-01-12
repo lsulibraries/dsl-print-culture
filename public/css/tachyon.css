@@ -51,6 +51,8 @@ body {
 
 .modal-body {
   margin: 20px 0;
+  height: 500px;
+  overflow-y: scroll;
 }
 
 .modal-default-button {
@@ -130,6 +132,8 @@ body {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
+  justify-content: inherit;
+  padding-left: 80px !important;
 }
 
 .headerNav {
@@ -155,9 +159,13 @@ body {
 
 .header > div:not(.headerNav),
 .header > a {
-  padding: 20px 58px 20px 59px;
+  padding: 30px 0px;
   border-right: 1px solid #e9e9e9;
   cursor: pointer;
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
+  margin-right: 20px;
 }
 
 .headerNav > div {
@@ -256,20 +264,33 @@ input:focus {
   font-weight: 700;
   flex-wrap: wrap;
   width: 30%;
+  box-sizing: border-box;
+  min-width: 236px;
 }
 
 .interIssueNav::before {
   content: 'issue navigation';
-  font-size: 2em;
+  font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
+  background: #474747;
+  color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 11px;
 }
 
 .tocDropdown {
-  font-size: 2em;
-  border-bottom: 1px dashed #e9e9e9;
+  font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
+  background: #474747;
+  color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 .tocItem {
@@ -371,6 +392,7 @@ input:focus {
 
 .intraIssueNav {
   width: 100%;
+  padding-top: 40px;
 }
 
 .active.childText {
@@ -1159,10 +1181,13 @@ canvas#pdf {
   background: white;
   border-right: 1px solid #e9e9e9;
   justify-content: center;
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
 }
 
 .aboutToggle > div {
-  padding: 50px;
+  padding: 50px 100px;
   background: white;
   font-weight: 700;
   text-transform: uppercase;

@@ -419,7 +419,7 @@ Vue.component('issueViewer',{
 Vue.component('issue',{
     template: `
         <div class="issue">
-          <interIssueNav></interIssueNav>
+    <interIssueNav></interIssueNav>
 	  <div class="issueBody">
 	    <viewerSelector></viewerSelector>
 	    <issueHeader></issueHeader>
@@ -492,7 +492,7 @@ If the author is anonymous DO NOT provide certainty.`,
   <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
   <!-- use the modal component, pass in the prop -->
   <modal v-if="showModal" @close="showModal = false" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId">
-    <h3 slot="header">custom header</h3>
+    <h3 slot="header">More from this author</h3>
   </modal>
 
         </div>
@@ -662,7 +662,6 @@ Vue.component('modal', {
 
           <div class="modal-body">
             <slot name="body">
-              default body
             </slot>
             <drawer  :authorId="this.authorId" :declsId="this.biblId" :issueId="this.issueId"></drawer>
           </div>
