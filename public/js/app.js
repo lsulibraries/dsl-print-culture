@@ -220,9 +220,8 @@ Vue.component('personFilter', {
 Vue.component('personMeta', {
     template: `
 	<div class="personMeta">
-	  <div class="personName">{{personMeta.personName}}</div>
-	  <div v-if="!this.$root.empty(personMeta.personTotalContrib) && this.$root.state.activeContent == 'personography'" class="personTotalContrib"># of contributions: {{personMeta.personTotalContrib}}</div>
-	  <div class="personRole">{{personMeta.personRole}}</div>
+	  <div class="personName">{{this.getName(personMeta)}}</div>
+	  <div class="personRole">{{this.getRole(personMeta)}}</div>
           <div class="personViaf">
 	    <!--
 	    <a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a>
@@ -230,7 +229,48 @@ Vue.component('personMeta', {
           </div>
         </div>
 	`,
-    props: ['personMeta']
+    props: ['personMeta'],
+    methods: {
+        getName: function (personMeta) {
+            if((typeof this.personMeta.personName) !== 'string') {
+                return this.personMeta.personId + ' (Full name not given)'
+            }
+            else {
+                return this.personMeta.personName
+            }
+        },
+        getRole: function getRole(personMeta) {
+            if (typeof personMeta.personRole !== 'string') {
+                return ''
+            }
+            roles = Object.values(personMeta.personRole.split(' '))
+            ret = ''
+            for (role of roles) {
+                if (role == 'Mentioned') {
+                    count = personMeta.personTotalMention
+                    if (!personMeta.personTotalMention) {
+                        console.log("totalMention missing for " + personMeta.personId)
+                        count = '?'
+                    }
+                    ret += role + ' (' + count + ')'
+                }
+                else if (role == 'Contributor') {
+                    count = personMeta.personTotalContrib
+                    if (!personMeta.personTotalContrib) {
+                        console.log("totalContrib missing for " + personMeta.personId)
+                        count = '?'
+                    }
+                    ret += role + ' (' + count + ')'
+                }
+                else {
+                    ret += ' ' + role
+                }
+            }
+            
+            return ret
+        }
+        
+    }
 })
 
 Vue.component('person', {
