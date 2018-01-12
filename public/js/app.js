@@ -1175,9 +1175,9 @@ Vue.component('pdf-viewer',{
     },
     template: `
       <div id="pdf-viewer" class="pdf-viewer">
-	<button class="next-page" @click="changePage('prev')">Prev Page</button>
-	<button class="next-page" @click="changePage('next')">Next Page</button>
-	<canvas refs="pdf-canvas" id="pdf" class="pdf-canvas"></canvas>
+	<button class="next-page" @click="changePage('prev')" v-if="this.$root.state.content.issue.page>1" >Prev Page</button>
+	<button class="next-page" @click="changePage('next')" v-if="this.$root.state.content.issue.page<16">Next Page</button>
+	<canvas id="pdf" class="pdf-canvas"></canvas>
       </div>
 	`,	//<zoom-slider></zoom-slider>
     methods: {
@@ -1185,19 +1185,29 @@ Vue.component('pdf-viewer',{
     // 	page.getViewport(scale);
     // },
 	changePage: function (direction) {
+
 	    page = this.$root.state.content.issue.page;
 	    switch (direction) {
-	        case 'next':
-		    page += 1;
-		    break;
+                case 'next':
+                    if(page == 16){break;}
+		    else{
+                        page += 1;
+                        //console.log(page);
+		        break;
+                    }
 	        case 'prev':
-		    page -= 1;
-		    break;
-	    default:
-		page = 1;
-	    }
+                    if(page == 1){break;}
+		    else{
+                        page -= 1;
+                        //console.log(page);
+		        break;
+                    }
+	        default:
+		    page = 1;
+	        }
 	    page = page <= 1 ? 1 : page;
 	    Event.$emit('pdf-pageChange', page);
+
 	},
 	loadPdf: function(issue, page = 1, scale = 1.3) { 
 	// If absolute URL from the remote server is provided, configure the CORS
