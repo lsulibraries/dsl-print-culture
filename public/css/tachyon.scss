@@ -190,7 +190,7 @@ body {
 
 .header > div:not(.headerNav),
 .header > a {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 58px 20px 59px;
   border-right: 1px solid $light-border-color;
   cursor: pointer;
 }
@@ -267,7 +267,7 @@ input:focus {
   @include flexbox;
   align-content: flex-start;
   background: white;
-  padding: 20px;
+  padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
   width: 30%;
@@ -280,29 +280,6 @@ input:focus {
   line-height: .9em;
 }
 
-.content > .issue::before {
-  background: black;
-  content: 'Issues';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-}
-
-.content > .abouts::before {
-  background: black;
-  content: 'About';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-}
 
 .tocDropdown {
   font-size: 2em;
@@ -436,7 +413,7 @@ input:focus {
 
 .teiMarkup {
   font-size: 1.2em;
-  padding: 20px;
+  padding: 100px;
 }
 
 .head {
@@ -511,20 +488,6 @@ button.searchSubmit {
 }
 }
 
-.personography::before {
-  background: black;
-  content: 'Authors';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  position: absolute;
-  left: 0px;
-  height: calc(100% - 30px);
-}
 
 .personIndex {
   @include flexbox;
