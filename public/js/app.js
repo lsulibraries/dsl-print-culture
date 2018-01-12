@@ -1077,14 +1077,14 @@ Vue.component('pdf-viewer',{
                     if(page == 16){break;}
 		    else{
                         page += 1;
-                        console.log(page);
+                        //console.log(page);
 		        break;
                     }
 	        case 'prev':
                     if(page == 1){break;}
 		    else{
                         page -= 1;
-                        console.log(page);
+                        //console.log(page);
 		        break;
                     }
 	        default:
