@@ -472,6 +472,14 @@ button.searchSubmit {
   display: -webkit-flex;
   display: flex;
 }
+.personography .pieceTitleContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 4px;
+}
+.personography .personName {
+  padding: 10px;
+}
 .personography .peopleFilters {
   background: white;
   width: 30%;
@@ -496,27 +504,27 @@ button.searchSubmit {
   border-radius: 2px;
 }
 .personography .sectionTitle {
-  margin-left: 60px;
   font-weight: 700;
 }
-.personography .issueMeta {
-  float: left;
-  position: absolute;
+.personography .pieceTitle {
+  margin-top: 4px;
 }
-.personography .pieceTitle,
 .personography .personPieceMeta {
-  margin-left: 60px;
   margin-top: 4px;
 }
 .personography .pieceMeta {
   margin-left: 0px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .personography .personMeta {
   display: flex;
   width: 100%;
   justify-content: space-between;
   flex-direction: column;
-  min-height: 80px;
+  background: #e9e9e9;
 }
 
 .personIndex {
@@ -550,12 +558,17 @@ button.searchSubmit {
 }
 
 .personIndex .person {
-  background: #e9e9e9;
   margin: 10px;
-  padding: 10px;
   cursor: pointer;
   width: 21%;
   border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
 }
 
 .Contributing .personName {
@@ -563,7 +576,7 @@ button.searchSubmit {
 }
 
 .personName {
-  font-size: 1.5em;
+  font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
   color: #474747 !important;
@@ -576,13 +589,13 @@ button.searchSubmit {
   align-items: center;
   width: 100%;
   padding: 0px !important;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .Contributing .personRole {
-  background: white;
+  background: #474747;
   color: #fe7251;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -592,7 +605,6 @@ button.searchSubmit {
   background: #474747;
   color: #fe7251;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -604,14 +616,14 @@ button.searchSubmit {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  background: #ffffff;
+  background: #474747;
   color: #474747;
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   min-height: 58px;
 }
 
@@ -621,18 +633,17 @@ button.searchSubmit {
   line-height: 15px;
 }
 .pieceMeta .pieceTitle {
-  font-size: 1.5em;
+  font-size: 14px;
   padding-top: 0px;
   text-align: -webkit-left;
   text-transform: none;
-  padding-left: 0px;
+  padding-left: 10px;
   padding-bottom: 0px;
 }
 
 .sectionTitle {
-  border: 1px solid #474747;
-  font-size: 1.1em;
-  font-weight: 700;
+  border: 1px solid #e9e9e9;
+  font-size: 13px;
   padding: 0px 6px;
   height: 23px;
   box-sizing: border-box;
@@ -641,6 +652,7 @@ button.searchSubmit {
   justify-content: center;
   align-items: center;
   margin-left: 5px;
+  color: white;
 }
 
 a.downloadLink {
@@ -1401,7 +1413,7 @@ h1 {
 }
 
 .personography h1 {
-  background: white;
+  color: white;
   padding: 20px;
 }
 
