@@ -473,9 +473,13 @@ If the author is anonymous DO NOT provide certainty.`,
     },
     template: `
         <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+         
+          <div class="issueInfo">
+              <div class='issueDate'>{{this.formatDate()}}</div>
+              <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
           <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
-          <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
-          <div class='issueDate'>{{this.formatDate()}}</div>
+
+          </div>          
           <div class="bibl" v-if="haveData()">
             <div class="issue">
               <a class="downloadLink" v-bind:href='stateHref()'>
@@ -485,11 +489,13 @@ If the author is anonymous DO NOT provide certainty.`,
               <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblPieceMeta>
             </div>
             <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
-            <div class="issueData"></div>
             <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+            
+  <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
+
+            <div class="issueData"></div>
             <div class="authorShipLegend">{{this.authorShipLegend}}</div>
             </div>
-  <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
   <!-- use the modal component, pass in the prop -->
   <modal v-if="showModal" @close="showModal = false" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId">
     <h3 slot="header">More from this author</h3>
@@ -670,8 +676,8 @@ Vue.component('modal', {
             <slot name="footer">
               default footer
               <button class="modal-default-button" @click="$emit('close')">
-                OK
-              </button>
+                Close
+              </button>w
             </slot>
           </div>
         </div>

@@ -121,7 +121,12 @@ body {
 }
 
 .modal-default-button {
-  float: right;
+    width: 100%;
+    background: #fe7251;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    cursor: pointer;
 }
 
 /*
@@ -448,6 +453,7 @@ input:focus {
 .teiMarkup {
   font-size: 1.2em;
   padding: 100px;
+    padding-top: 0px;  
 }
 
 .head {
@@ -614,22 +620,36 @@ button.searchSubmit {
   line-height: 15px;
 }
 
+.sectionTitle {
+    border: 1px solid #474747;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 0px 6px;
+    height: 23px;
+    box-sizing: border-box;
+    line-height: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
 a.downloadLink {
     background: #474747;
-    width: 129px;
-    height: 29px;
+    height: 23px;
     align-items: center;
     color: #ffffff;
     overflow: hidden;
-    font-weight: 700;
     text-decoration: none;
-    margin-top: 2px;
     display: inline-block;
-    font-size: 0.9em;
     float: left;
     position: absolute;
-    top: -2px;
-    right: 0px;
+    top: 80px;
+    right: 100px;
+    line-height: 0.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 .downloadIcon {
@@ -647,6 +667,7 @@ a.downloadLink {
 .downloadText {
   @include flexCenter;
   height: 100%;
+    padding: 0px 7px;  
 }
 
 .drawerActuator {
@@ -767,7 +788,9 @@ span.searchHit {
     font-weight: 700;
 }
 
-
+.issueInfo{
+  @include flexbox;
+}
 
 .issueHeader {
 
@@ -775,20 +798,30 @@ span.searchHit {
   flex-direction: column;
   position: relative;  
   min-height: 100px;  
+    padding: 100px;
+    padding-top: 80px;   
+    padding-bottom: 40px;   
+
+.bibl {
+    padding-bottom: 20px;
+    border-bottom: 1px solid#474747;
+}
 
 .issueDate {
-    position: absolute;
-    left: 0px;
     background: #474747;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.1em;
     padding: 5px;
-    height: 18px;
-    width: 140px;
+    height: 23px;
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em;
 }
 
 .personMeta{
@@ -818,10 +851,23 @@ span.searchHit {
 
 }
 
-
+button#show-modal{
+      background: transparent;
+    color: #474747;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 2px;
+    text-decoration: none;
+    border: 1px solid #4747474f;
+    cursor: pointer;
+}
 
 .personPieceMeta, .authorShip {
   @include flexbox;
+  float: left;
 }
 
     .personViaf {
@@ -842,7 +888,6 @@ span.searchHit {
     margin: 0px 0px 0px 2px;
     text-decoration: none;
 }
-    margin-left: 140px;
     .issue > .pieceMeta {
       margin: 0px;
       line-height: normal;
@@ -870,7 +915,7 @@ span.searchHit {
   }
 
 .issueHeader > .issueMeta{
-    margin-left: 151px;  
+    //margin-left: 151px;  
 
 }  
   .issueHeader .pieceAuthor {
@@ -878,22 +923,27 @@ span.searchHit {
   }
   .issueVol,
   .issueNum {
-    background: #474747;
-    color: #ffffff;
-    width: 45px;
-    font-weight: 700;
-    font-size: 0.9em;
     float: left;
-    margin-right: 1px;
-    height: 18px;
-    justify-content: center;
-    align-items: center;
     margin-top: 0px;
     position: relative;
-    top: -1px;
+    top: 0px;
     padding-bottom: 6px;
-    @include flexCenter;
-    border-radius: 0px;    
+    @include flexbox;
+    border-radius: 0px;
+    background: #474747;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+    height: 23px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em; 
   }
   .pieceMeta {
     margin-bottom: 30px;
@@ -1053,14 +1103,14 @@ background: #474747;
 }
 
 .viewerSelector {
-  float: left;
-  margin-right: 15px;
   border: 1px solid $document-text-color;
-  overflow: hidden;
-  z-index: 2;
-  position: absolute;
-  top: 87px;
-    margin-left: 20px;  
+    float: right;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    top: 228px;
+    right: 100px;
+    width: 123px;
 }
 
 .viewerTitle {
@@ -1425,9 +1475,6 @@ h1{
     font-size: 12px;
   }
 
-.issueHeader .bibl {
-    margin-left: 160px;
-}
 
 }
 
