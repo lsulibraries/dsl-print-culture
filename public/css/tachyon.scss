@@ -490,6 +490,12 @@ border-right: 1px solid #e9e9e9;
     padding-top: 0px;  
 }
 
+.tei-markup {
+    border-top: 3px solid grey;
+    padding-top: 40px;
+}
+
+
 .head {
   font-weight: 700;
   border-bottom: 1px solid#c0c0c0;
@@ -684,7 +690,6 @@ border-right: 1px solid #e9e9e9;
     padding-top: 0px;
     text-align: -webkit-left;
     text-transform: none;
-    padding-left: 10px;
     padding-bottom: 0px;    
 
   }
@@ -703,7 +708,6 @@ border-right: 1px solid #e9e9e9;
     justify-content: center;
     align-items: center;
     margin-left: 5px;
-    color: white;
 }
 
 a.downloadLink {
@@ -872,11 +876,11 @@ span.searchHit {
   min-height: 100px;  
     padding: 100px;
     padding-top: 80px;   
-    padding-bottom: 40px;   
+    padding-bottom: 0px;   
 
 .bibl {
     padding-bottom: 20px;
-    border-bottom: 1px solid#474747;
+    padding-right: 140px;    
 }
 
 .issueDate {
@@ -899,7 +903,7 @@ span.searchHit {
 .personMeta{
   float: left;
   @include flexbox;
-
+padding-bottom: 4px;
 }
 
 .personName {
