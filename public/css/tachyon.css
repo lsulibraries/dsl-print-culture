@@ -54,6 +54,28 @@ body {
   height: 500px;
   overflow-y: scroll;
 }
+.modal-body .personBibl {
+  background: white;
+  border: 1px solid #d6d6d6;
+  margin-right: 20px;
+}
+.modal-body .pieceMeta {
+  position: absolute;
+  margin-left: 70px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 46px;
+}
+.modal-body .sectionTitle {
+  color: #474747;
+  font-weight: 700;
+  justify-content: flex-start;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
 
 .modal-default-button {
   width: 100%;
