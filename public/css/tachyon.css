@@ -560,7 +560,7 @@ button.searchSubmit {
 .personIndex .person {
   margin: 10px;
   cursor: pointer;
-  width: 21%;
+  width: 200px;
   border-radius: 10px;
   overflow: hidden;
   display: -webkit-box;
@@ -569,6 +569,7 @@ button.searchSubmit {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
+  border: 1px solid #d0d0d0;
 }
 
 .Contributing .personName {

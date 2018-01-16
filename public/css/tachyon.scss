@@ -586,11 +586,12 @@ border-right: 1px solid #e9e9e9;
 .personIndex .person {
     margin: 10px;
     cursor: pointer;
-    width: 21%;
+    width: 200px;
     border-radius: 10px;
     overflow: hidden;
     @include flexbox;
     flex-direction: column;
+    border: 1px solid #d0d0d0;    
 }
 
 .Contributing .personName {
