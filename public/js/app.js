@@ -584,8 +584,7 @@ If the author is anonymous DO NOT provide certainty.`,
                 <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
                 <div class="downloadText">View {{this.dlLabel()}}</div>
               </a>
-              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
-            </div>
+            <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>          <div class="fillerHeader" v-if="this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)">The Broadway Journal</div>            </div>
             <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
             <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
 
