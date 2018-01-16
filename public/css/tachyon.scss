@@ -883,13 +883,20 @@ span.searchHit {
     padding-right: 140px;    
 }
 
+.fillerHeader{
+    font-size: 2em;
+    line-height: 30px;
+    font-weight: 700;
+
+}
+
 .issueDate {
     background: #474747;
     color: white;
     font-size: 1.1em;
     padding: 5px;
     height: 23px;
-    width: 130px;
+    width: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
