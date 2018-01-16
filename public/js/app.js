@@ -135,10 +135,9 @@ Vue.component('personography',{
     },
     template: `
         <div class="personography">
-	<div class="personographyAbout">Lorem ipsum</div>
-	  <personographyDescription></personographyDescription>
-	  <personFilter></personFilter>
-	  <personIndex></personIndex>
+        <div class="personographyAbout">Lorem ipsum</div>
+        <personFilter></personFilter>
+        <personIndex></personIndex>
         </div>
     `
 })
@@ -307,7 +306,7 @@ Vue.component('person', {
 	},
 	toggleBibls: function () {
 	    this.showBibls = !this.showBibls;
-            this.activePerson = !this.activePerson;
+        this.activePerson = !this.activePerson;
             },
 	passesFilter: function () {
 	    passesString = false
@@ -783,7 +782,7 @@ Vue.component('modal', {
               default footer
               <button class="modal-default-button" @click="$emit('close')">
                 Close
-              </button>w
+              </button>
             </slot>
           </div>
         </div>
