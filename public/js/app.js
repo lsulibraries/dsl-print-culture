@@ -865,7 +865,8 @@ Vue.component('abouts',{
     	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
     	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
     	   <div v-if="this.abouts == 'credits'">
-           <creditsPersonList></creditsPersonList>
+             <creditsPersonList></creditsPersonList>
+           </div>
          </div>
        </div>
 	`,
