@@ -408,6 +408,7 @@ Vue.component('biblPieceMeta', {
 	    this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex)
 
 	    Event.$emit('activeContentChange', 'issues')
+        Event.$emit('close')
 	    Event.$emit('issueBiblSelected', {
 		issueId: this.issueId,
 		pdf_index: this.pieceMeta.piecePdfIndex,
