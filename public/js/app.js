@@ -227,7 +227,7 @@ Vue.component('personFilter', {
 Vue.component('personMeta', {
     template: `
 	<div class="personMeta">
-	  <div class="personName">{{this.getName(personMeta)}}</div>
+	  <div class="personName">{{this.getName()}}</div>
 	  <div class="personRole">{{this.getRole(personMeta)}}</div>
           <div class="personViaf">
 	    <!--
@@ -238,7 +238,7 @@ Vue.component('personMeta', {
 	`,
     props: ['personMeta'],
     methods: {
-        getName: function (personMeta) {
+        getName: function () {
             if((typeof this.personMeta.personName) !== 'string') {
                 return this.personMeta.personId + ' (Full name not given)'
             }
@@ -587,7 +587,7 @@ If the author is anonymous DO NOT provide certainty.`,
               <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
             </div>
             <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
-            <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta>
+            <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->
 
   <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
 
@@ -651,9 +651,10 @@ If the author is anonymous DO NOT provide certainty.`,
 		    personViaf: false
 		}
 	    }
-	    personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
-	    if(this.$root.empty(personMeta)){
-		return false
+        personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
+	    // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+	    if(this.$root.empty(personMeta.personName)){
+		  return false
 	    }
 	    return personMeta
 	},
