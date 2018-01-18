@@ -1592,7 +1592,7 @@
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
             </bibl-18450510-p4>
-            <bibl-18450510-p16>
+            <bibl-18450510-p7>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -1600,7 +1600,7 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p16</pieceId>
+                  <pieceId>p7</pieceId>
                   <pieceTitle>New Works in Press</pieceTitle>
                   <piecePage>298</piecePage>
                   <piecePdfIndex>10</piecePdfIndex>
@@ -1609,7 +1609,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-p16>
+            </bibl-18450510-p7>
             <bibl-18450510-p9>
                <issueMeta>
                   <issueId>18450510</issueId>
@@ -1646,21 +1646,15 @@
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
             </bibl-18450510-p11>
-            <bibl-18450510-s13p4>
+            <bibl-18450510-p14>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
                   <issueNum>19</issueNum>
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
-               <sectionMeta>
-                  <sectionId>s13p4</sectionId>
-                  <sectionTitle>Fact and Fiction</sectionTitle>
-                  <sectionPage>302</sectionPage>
-                  <sectionPdfIndex>14</sectionPdfIndex>
-               </sectionMeta>
                <pieceMeta>
-                  <pieceId>s13p4</pieceId>
+                  <pieceId>p14</pieceId>
                   <pieceTitle>Fact and Fiction</pieceTitle>
                   <piecePage>302</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -1669,22 +1663,16 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s13p4>
-            <bibl-18450510-s13p5>
+            </bibl-18450510-p14>
+            <bibl-18450510-p16>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
                   <issueNum>19</issueNum>
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
-               <sectionMeta>
-                  <sectionId>s13p5</sectionId>
-                  <sectionTitle>New Publications</sectionTitle>
-                  <sectionPage>302</sectionPage>
-                  <sectionPdfIndex>14</sectionPdfIndex>
-               </sectionMeta>
                <pieceMeta>
-                  <pieceId>s13p5</pieceId>
+                  <pieceId>p16</pieceId>
                   <pieceTitle>New Publications</pieceTitle>
                   <piecePage>302</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -1693,22 +1681,16 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s13p5>
-            <bibl-18450510-s13p6>
+            </bibl-18450510-p16>
+            <bibl-18450510-p17>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
                   <issueNum>19</issueNum>
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
-               <sectionMeta>
-                  <sectionId>s13p6</sectionId>
-                  <sectionTitle>Notice to Publishers</sectionTitle>
-                  <sectionPage>302</sectionPage>
-                  <sectionPdfIndex>14</sectionPdfIndex>
-               </sectionMeta>
                <pieceMeta>
-                  <pieceId>s13p6</pieceId>
+                  <pieceId>p17</pieceId>
                   <pieceTitle>Notice to Publishers</pieceTitle>
                   <piecePage>302</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -1717,7 +1699,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s13p6>
+            </bibl-18450510-p17>
             <bibl-18451122-p7>
                <issueMeta>
                   <issueId>18451122</issueId>
@@ -2391,9 +2373,9 @@
             <bibl-18450906-p21>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s2</sectionId>
@@ -2413,9 +2395,9 @@
             <bibl-18450906-p22>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s2</sectionId>
@@ -2435,9 +2417,9 @@
             <bibl-18450906-p24>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s2</sectionId>
@@ -2457,9 +2439,9 @@
             <bibl-18450906-p25>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s2</sectionId>
@@ -2479,9 +2461,9 @@
             <bibl-18450906-p26>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s2</sectionId>
@@ -2756,7 +2738,7 @@
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
             </bibl-18450503-p4>
-            <bibl-18450503-s9p1>
+            <bibl-18450503-s3p1>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2764,17 +2746,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s9p1</sectionId>
+                  <sectionId>s3p1</sectionId>
                   <sectionTitle>Melodies</sectionTitle>
                   <sectionPage>285</sectionPage>
                   <sectionPdfIndex>13</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s9</sectionId>
+                  <sectionId>s3</sectionId>
                   <sectionTitle>Musical Review</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s9p1</pieceId>
+                  <pieceId>s3p1</pieceId>
                   <pieceTitle>Melodies</pieceTitle>
                   <piecePage>285</piecePage>
                   <piecePdfIndex>13</piecePdfIndex>
@@ -2783,8 +2765,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s9p1>
-            <bibl-18450503-s9p2>
+            </bibl-18450503-s3p1>
+            <bibl-18450503-s3p2>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2792,17 +2774,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s9p2</sectionId>
+                  <sectionId>s3p2</sectionId>
                   <sectionTitle>Bertini's Piano Forte Method</sectionTitle>
                   <sectionPage>285-286</sectionPage>
                   <sectionPdfIndex>13</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s9</sectionId>
+                  <sectionId>s3</sectionId>
                   <sectionTitle>Musical Review</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s9p2</pieceId>
+                  <pieceId>s3p2</pieceId>
                   <pieceTitle>Bertini's Piano Forte Method</pieceTitle>
                   <piecePage>285-286</piecePage>
                   <piecePdfIndex>13</piecePdfIndex>
@@ -2811,8 +2793,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s9p2>
-            <bibl-18450503-s9p3>
+            </bibl-18450503-s3p2>
+            <bibl-18450503-s3p3>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2820,17 +2802,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s9p3</sectionId>
+                  <sectionId>s3p3</sectionId>
                   <sectionTitle>Piano-Fortes</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s9</sectionId>
+                  <sectionId>s3</sectionId>
                   <sectionTitle>Musical Review</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s9p3</pieceId>
+                  <pieceId>s3p3</pieceId>
                   <pieceTitle>Piano-Fortes</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -2839,8 +2821,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s9p3>
-            <bibl-18450503-s10p1>
+            </bibl-18450503-s3p3>
+            <bibl-18450503-s4p1>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2848,17 +2830,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p1</sectionId>
+                  <sectionId>s4p1</sectionId>
                   <sectionTitle>Park Theatre</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p1</pieceId>
+                  <pieceId>s4p1</pieceId>
                   <pieceTitle>Park Theatre</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -2867,8 +2849,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p1>
-            <bibl-18450503-s10p2>
+            </bibl-18450503-s4p1>
+            <bibl-18450503-s4p2>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2876,17 +2858,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p2</sectionId>
+                  <sectionId>s4p2</sectionId>
                   <sectionTitle>Olympic Theatre</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p2</pieceId>
+                  <pieceId>s4p2</pieceId>
                   <pieceTitle>Olympic Theatre</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -2895,8 +2877,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p2>
-            <bibl-18450503-s10p3>
+            </bibl-18450503-s4p2>
+            <bibl-18450503-s4p3>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2904,17 +2886,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p3</sectionId>
+                  <sectionId>s4p3</sectionId>
                   <sectionTitle>Olympic Theatre</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p3</pieceId>
+                  <pieceId>s4p3</pieceId>
                   <pieceTitle>Olympic Theatre</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -2923,8 +2905,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p3>
-            <bibl-18450503-s10p4>
+            </bibl-18450503-s4p3>
+            <bibl-18450503-s4p4>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2932,17 +2914,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p4</sectionId>
+                  <sectionId>s4p4</sectionId>
                   <sectionTitle>Mary Taylor</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p4</pieceId>
+                  <pieceId>s4p4</pieceId>
                   <pieceTitle>Mary Taylor</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -2951,8 +2933,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p4>
-            <bibl-18450503-s10p5>
+            </bibl-18450503-s4p4>
+            <bibl-18450503-s4p5>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2960,17 +2942,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p5</sectionId>
+                  <sectionId>s4p5</sectionId>
                   <sectionTitle>Mr. George Loder</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p5</pieceId>
+                  <pieceId>s4p5</pieceId>
                   <pieceTitle>Mr. George Loder</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -2979,8 +2961,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p5>
-            <bibl-18450503-s10p10>
+            </bibl-18450503-s4p5>
+            <bibl-18450503-s4p10>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -2988,17 +2970,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p10</sectionId>
+                  <sectionId>s4p10</sectionId>
                   <sectionTitle>Notice</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p10</pieceId>
+                  <pieceId>s4p10</pieceId>
                   <pieceTitle>Notice</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -3007,7 +2989,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p10>
+            </bibl-18450503-s4p10>
             <bibl-18450823-p5>
                <issueMeta>
                   <issueId>18450823</issueId>
@@ -9306,7 +9288,7 @@
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450412-p8>
-            <bibl-18450510-s7p2>
+            <bibl-18450510-s1p2>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -9314,17 +9296,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s7p2</sectionId>
+                  <sectionId>s1p2</sectionId>
                   <sectionTitle>Letters from New York.</sectionTitle>
                   <sectionPage>295-296</sectionPage>
                   <sectionPdfIndex>7</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s7</sectionId>
+                  <sectionId>s1</sectionId>
                   <sectionTitle>Reviews</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s7p2</pieceId>
+                  <pieceId>s1p2</pieceId>
                   <pieceTitle>Letters from New York.</pieceTitle>
                   <piecePage>295-296</piecePage>
                   <piecePdfIndex>7</piecePdfIndex>
@@ -9334,8 +9316,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s7p2>
-            <bibl-18450510-s7p3>
+            </bibl-18450510-s1p2>
+            <bibl-18450510-s1p3>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -9343,17 +9325,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s7p3</sectionId>
+                  <sectionId>s1p3</sectionId>
                   <sectionTitle>The Pencil of Nature</sectionTitle>
                   <sectionPage>296</sectionPage>
                   <sectionPdfIndex>8</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s7</sectionId>
+                  <sectionId>s1</sectionId>
                   <sectionTitle>Reviews</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s7p3</pieceId>
+                  <pieceId>s1p3</pieceId>
                   <pieceTitle>The Pencil of Nature</pieceTitle>
                   <piecePage>296</piecePage>
                   <piecePdfIndex>8</piecePdfIndex>
@@ -9363,8 +9345,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s7p3>
-            <bibl-18450510-s7p4>
+            </bibl-18450510-s1p3>
+            <bibl-18450510-s1p4>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -9372,17 +9354,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s7p4</sectionId>
+                  <sectionId>s1p4</sectionId>
                   <sectionTitle>Saul, A Mystery</sectionTitle>
                   <sectionPage>296-297</sectionPage>
                   <sectionPdfIndex>8</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s7</sectionId>
+                  <sectionId>s1</sectionId>
                   <sectionTitle>Reviews</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s7p4</pieceId>
+                  <pieceId>s1p4</pieceId>
                   <pieceTitle>Saul, A Mystery</pieceTitle>
                   <piecePage>296-297</piecePage>
                   <piecePdfIndex>8</piecePdfIndex>
@@ -9392,8 +9374,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s7p4>
-            <bibl-18450510-s7p5>
+            </bibl-18450510-s1p4>
+            <bibl-18450510-s1p5>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -9401,17 +9383,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s7p5</sectionId>
+                  <sectionId>s1p5</sectionId>
                   <sectionTitle>Never too Late</sectionTitle>
                   <sectionPage>297</sectionPage>
                   <sectionPdfIndex>9</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s7</sectionId>
+                  <sectionId>s1</sectionId>
                   <sectionTitle>Reviews</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s7p5</pieceId>
+                  <pieceId>s1p5</pieceId>
                   <pieceTitle>Never too Late</pieceTitle>
                   <piecePage>297</piecePage>
                   <piecePdfIndex>9</piecePdfIndex>
@@ -9421,8 +9403,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s7p5>
-            <bibl-18450510-p14>
+            </bibl-18450510-s1p5>
+            <bibl-18450510-s2p1>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -9430,11 +9412,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2p1</sectionId>
+                  <sectionTitle>The Knickerbocker</sectionTitle>
+                  <sectionPage>297-298</sectionPage>
+                  <sectionPdfIndex>9</sectionPdfIndex>
+               </sectionMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>The Magazines</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>p14</pieceId>
+                  <pieceId>s2p1</pieceId>
                   <pieceTitle>The Knickerbocker</pieceTitle>
                   <piecePage>297-298</piecePage>
                   <piecePdfIndex>9</piecePdfIndex>
@@ -9444,7 +9432,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-p14>
+            </bibl-18450510-s2p1>
             <bibl-18450510-p8>
                <issueMeta>
                   <issueId>18450510</issueId>
@@ -23162,7 +23150,7 @@
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450125-p11>
-            <bibl-18450503-s7p1>
+            <bibl-18450503-s1p1>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -23170,17 +23158,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s7p1</sectionId>
+                  <sectionId>s1p1</sectionId>
                   <sectionTitle>Alnwick Castle</sectionTitle>
                   <sectionPage>281-283</sectionPage>
                   <sectionPdfIndex>9</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s7</sectionId>
+                  <sectionId>s1</sectionId>
                   <sectionTitle>Reviews</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s7p1</pieceId>
+                  <pieceId>s1p1</pieceId>
                   <pieceTitle>Alnwick Castle</pieceTitle>
                   <piecePage>281-283</piecePage>
                   <piecePdfIndex>9</piecePdfIndex>
@@ -23190,7 +23178,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s7p1>
+            </bibl-18450503-s1p1>
             <bibl-18450308-p8>
                <issueMeta>
                   <issueId>18450308</issueId>
@@ -25546,9 +25534,9 @@
             <bibl-18450906-p4>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
                   <pieceId>p4</pieceId>
@@ -25736,9 +25724,9 @@
             <bibl-18450906-p1>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
                   <pieceId>p1</pieceId>
@@ -29997,7 +29985,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18450510-p6>
-            <bibl-18450510-s7p1>
+            <bibl-18450510-s1p1>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -30005,17 +29993,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s7p1</sectionId>
+                  <sectionId>s1p1</sectionId>
                   <sectionTitle>The First Three Books of Homer’s Iliad</sectionTitle>
                   <sectionPage>295</sectionPage>
                   <sectionPdfIndex>7</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s7</sectionId>
+                  <sectionId>s1</sectionId>
                   <sectionTitle>Reviews</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s7p1</pieceId>
+                  <pieceId>s1p1</pieceId>
                   <pieceTitle>The First Three Books of Homer’s Iliad</pieceTitle>
                   <piecePage>295</piecePage>
                   <piecePdfIndex>7</piecePdfIndex>
@@ -30025,8 +30013,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s7p1>
-            <bibl-18450510-p15>
+            </bibl-18450510-s1p1>
+            <bibl-18450510-s2p2>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -30034,11 +30022,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2p2</sectionId>
+                  <sectionTitle>Blackwood</sectionTitle>
+                  <sectionPage>298</sectionPage>
+                  <sectionPdfIndex>10</sectionPdfIndex>
+               </sectionMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>The Magazines</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>p15</pieceId>
+                  <pieceId>s2p2</pieceId>
                   <pieceTitle>Blackwood</pieceTitle>
                   <piecePage>298</piecePage>
                   <piecePdfIndex>10</piecePdfIndex>
@@ -30048,7 +30042,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-p15>
+            </bibl-18450510-s2p2>
             <bibl-18450510-p10>
                <issueMeta>
                   <issueId>18450510</issueId>
@@ -30068,31 +30062,6 @@
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450510-p10>
-            <bibl-18450510-s13p3>
-               <issueMeta>
-                  <issueId>18450510</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>19</issueNum>
-                  <issueDate>May 10, 1845</issueDate>
-               </issueMeta>
-               <sectionMeta>
-                  <sectionId>s13p3</sectionId>
-                  <sectionTitle>The Broadway Theatre</sectionTitle>
-                  <sectionPage>301</sectionPage>
-                  <sectionPdfIndex>13</sectionPdfIndex>
-               </sectionMeta>
-               <pieceMeta>
-                  <pieceId>s13p3</pieceId>
-                  <pieceTitle>The Broadway Theatre</pieceTitle>
-                  <piecePage>301</piecePage>
-                  <piecePdfIndex>13</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </personPieceMeta>
-            </bibl-18450510-s13p3>
             <bibl-18450510-p13>
                <issueMeta>
                   <issueId>18450510</issueId>
@@ -30102,6 +30071,25 @@
                </issueMeta>
                <pieceMeta>
                   <pieceId>p13</pieceId>
+                  <pieceTitle>The Broadway Theatre</pieceTitle>
+                  <piecePage>301</piecePage>
+                  <piecePdfIndex>13</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450510-p13>
+            <bibl-18450510-p15>
+               <issueMeta>
+                  <issueId>18450510</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>19</issueNum>
+                  <issueDate>May 10, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p15</pieceId>
                   <pieceTitle>Miscellany</pieceTitle>
                   <piecePage>302</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -30111,7 +30099,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-p13>
+            </bibl-18450510-p15>
             <bibl-18451122-p2>
                <issueMeta>
                   <issueId>18451122</issueId>
@@ -31389,9 +31377,9 @@
             <bibl-18450906-p2>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
                   <pieceId>p2</pieceId>
@@ -31408,9 +31396,9 @@
             <bibl-18450906-p3>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
                   <pieceId>p3</pieceId>
@@ -31427,9 +31415,9 @@
             <bibl-18450906-p5>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
                   <pieceId>p5</pieceId>
@@ -31444,9 +31432,9 @@
             <bibl-18450906-p6>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
                   <pieceId>p6</pieceId>
@@ -31461,9 +31449,9 @@
             <bibl-18450906-p7>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31484,9 +31472,9 @@
             <bibl-18450906-p8>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31507,9 +31495,9 @@
             <bibl-18450906-p9>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31530,9 +31518,9 @@
             <bibl-18450906-p10>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31553,9 +31541,9 @@
             <bibl-18450906-p11>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31576,9 +31564,9 @@
             <bibl-18450906-p12>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31599,9 +31587,9 @@
             <bibl-18450906-p13>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31622,9 +31610,9 @@
             <bibl-18450906-p14>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31645,9 +31633,9 @@
             <bibl-18450906-p15>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31668,9 +31656,9 @@
             <bibl-18450906-p16>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31691,9 +31679,9 @@
             <bibl-18450906-p17>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31714,9 +31702,9 @@
             <bibl-18450906-p18>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s1</sectionId>
@@ -31737,9 +31725,9 @@
             <bibl-18450906-p19>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
                   <pieceId>p19</pieceId>
@@ -31756,9 +31744,9 @@
             <bibl-18450906-p23>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s2</sectionId>
@@ -32412,7 +32400,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18450503-p5>
-            <bibl-18450503-s8p1>
+            <bibl-18450503-s2p1>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32420,17 +32408,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p1</sectionId>
+                  <sectionId>s2p1</sectionId>
                   <sectionTitle>The Prisoners of Perote</sectionTitle>
                   <sectionPage>284</sectionPage>
                   <sectionPdfIndex>12</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p1</pieceId>
+                  <pieceId>s2p1</pieceId>
                   <pieceTitle>The Prisoners of Perote</pieceTitle>
                   <piecePage>284</piecePage>
                   <piecePdfIndex>12</piecePdfIndex>
@@ -32440,8 +32428,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p1>
-            <bibl-18450503-s8p2>
+            </bibl-18450503-s2p1>
+            <bibl-18450503-s2p2>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32449,17 +32437,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p2</sectionId>
+                  <sectionId>s2p2</sectionId>
                   <sectionTitle>Remarks on an Address delivered before the New England Society</sectionTitle>
                   <sectionPage>284</sectionPage>
                   <sectionPdfIndex>12</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p2</pieceId>
+                  <pieceId>s2p2</pieceId>
                   <pieceTitle>Remarks on an Address delivered before the New England Society</pieceTitle>
                   <piecePage>284</piecePage>
                   <piecePdfIndex>12</piecePdfIndex>
@@ -32469,8 +32457,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p2>
-            <bibl-18450503-s8p3>
+            </bibl-18450503-s2p2>
+            <bibl-18450503-s2p3>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32478,17 +32466,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p3</sectionId>
+                  <sectionId>s2p3</sectionId>
                   <sectionTitle>Table-Talk</sectionTitle>
                   <sectionPage>284</sectionPage>
                   <sectionPdfIndex>12</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p3</pieceId>
+                  <pieceId>s2p3</pieceId>
                   <pieceTitle>Table-Talk</pieceTitle>
                   <piecePage>284</piecePage>
                   <piecePdfIndex>12</piecePdfIndex>
@@ -32498,8 +32486,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p3>
-            <bibl-18450503-s8p4>
+            </bibl-18450503-s2p3>
+            <bibl-18450503-s2p4>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32507,17 +32495,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p4</sectionId>
+                  <sectionId>s2p4</sectionId>
                   <sectionTitle>American Facts</sectionTitle>
                   <sectionPage>284</sectionPage>
                   <sectionPdfIndex>12</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p4</pieceId>
+                  <pieceId>s2p4</pieceId>
                   <pieceTitle>American Facts</pieceTitle>
                   <piecePage>284</piecePage>
                   <piecePdfIndex>12</piecePdfIndex>
@@ -32527,8 +32515,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p4>
-            <bibl-18450503-s8p5>
+            </bibl-18450503-s2p4>
+            <bibl-18450503-s2p5>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32536,17 +32524,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p5</sectionId>
+                  <sectionId>s2p5</sectionId>
                   <sectionTitle>Count Ludwig</sectionTitle>
                   <sectionPage>284-285</sectionPage>
                   <sectionPdfIndex>12</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p5</pieceId>
+                  <pieceId>s2p5</pieceId>
                   <pieceTitle>Count Ludwig</pieceTitle>
                   <piecePage>284-285</piecePage>
                   <piecePdfIndex>12</piecePdfIndex>
@@ -32556,8 +32544,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p5>
-            <bibl-18450503-s8p6>
+            </bibl-18450503-s2p5>
+            <bibl-18450503-s2p6>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32565,17 +32553,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p6</sectionId>
+                  <sectionId>s2p6</sectionId>
                   <sectionTitle>The Apochryphal New Testament</sectionTitle>
                   <sectionPage>285</sectionPage>
                   <sectionPdfIndex>13</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p6</pieceId>
+                  <pieceId>s2p6</pieceId>
                   <pieceTitle>The Apochryphal New Testament</pieceTitle>
                   <piecePage>285</piecePage>
                   <piecePdfIndex>13</piecePdfIndex>
@@ -32585,8 +32573,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p6>
-            <bibl-18450503-s8p7>
+            </bibl-18450503-s2p6>
+            <bibl-18450503-s2p7>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32594,17 +32582,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p7</sectionId>
+                  <sectionId>s2p7</sectionId>
                   <sectionTitle>History of Germany</sectionTitle>
                   <sectionPage>285</sectionPage>
                   <sectionPdfIndex>13</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p7</pieceId>
+                  <pieceId>s2p7</pieceId>
                   <pieceTitle>History of Germany</pieceTitle>
                   <piecePage>285</piecePage>
                   <piecePdfIndex>13</piecePdfIndex>
@@ -32614,8 +32602,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p7>
-            <bibl-18450503-s8p8>
+            </bibl-18450503-s2p7>
+            <bibl-18450503-s2p8>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32623,17 +32611,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s8p8</sectionId>
+                  <sectionId>s2p8</sectionId>
                   <sectionTitle>Specimens of Ancient Oracular and Fighting Eolipiles</sectionTitle>
                   <sectionPage>285</sectionPage>
                   <sectionPdfIndex>13</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s8</sectionId>
+                  <sectionId>s2</sectionId>
                   <sectionTitle>Critical Notices</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s8p8</pieceId>
+                  <pieceId>s2p8</pieceId>
                   <pieceTitle>Specimens of Ancient Oracular and Fighting Eolipiles</pieceTitle>
                   <piecePage>285</piecePage>
                   <piecePdfIndex>13</piecePdfIndex>
@@ -32643,7 +32631,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s8p8>
+            </bibl-18450503-s2p8>
             <bibl-18450503-p7>
                <issueMeta>
                   <issueId>18450503</issueId>
@@ -32663,7 +32651,7 @@
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450503-p7>
-            <bibl-18450503-s10p6>
+            <bibl-18450503-s4p6>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32671,17 +32659,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p6</sectionId>
+                  <sectionId>s4p6</sectionId>
                   <sectionTitle>National Nomenclature</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p6</pieceId>
+                  <pieceId>s4p6</pieceId>
                   <pieceTitle>National Nomenclature</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -32691,8 +32679,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p6>
-            <bibl-18450503-s10p7>
+            </bibl-18450503-s4p6>
+            <bibl-18450503-s4p7>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32700,17 +32688,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p7</sectionId>
+                  <sectionId>s4p7</sectionId>
                   <sectionTitle>Popular Lectures</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p7</pieceId>
+                  <pieceId>s4p7</pieceId>
                   <pieceTitle>Popular Lectures</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -32720,8 +32708,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p7>
-            <bibl-18450503-s10p8>
+            </bibl-18450503-s4p7>
+            <bibl-18450503-s4p8>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32729,17 +32717,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p8</sectionId>
+                  <sectionId>s4p8</sectionId>
                   <sectionTitle>The Way They Do Things in England</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p8</pieceId>
+                  <pieceId>s4p8</pieceId>
                   <pieceTitle>The Way They Do Things in England</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -32749,8 +32737,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p8>
-            <bibl-18450503-s10p9>
+            </bibl-18450503-s4p8>
+            <bibl-18450503-s4p9>
                <issueMeta>
                   <issueId>18450503</issueId>
                   <issueVol>1</issueVol>
@@ -32758,17 +32746,17 @@
                   <issueDate>May 3, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s10p9</sectionId>
+                  <sectionId>s4p9</sectionId>
                   <sectionTitle>Mr. Howitt</sectionTitle>
                   <sectionPage>286</sectionPage>
                   <sectionPdfIndex>14</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s10</sectionId>
+                  <sectionId>s4</sectionId>
                   <sectionTitle>Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s10p9</pieceId>
+                  <pieceId>s4p9</pieceId>
                   <pieceTitle>Mr. Howitt</pieceTitle>
                   <piecePage>286</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -32778,7 +32766,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450503-s10p9>
+            </bibl-18450503-s4p9>
             <bibl-18450823-p2>
                <issueMeta>
                   <issueId>18450823</issueId>
@@ -44977,7 +44965,7 @@
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450412-p20>
-            <bibl-18450510-s13p1>
+            <bibl-18450510-s3p1>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -44985,17 +44973,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s13p1</sectionId>
+                  <sectionId>s3p1</sectionId>
                   <sectionTitle>The Boehm Flute</sectionTitle>
                   <sectionPage>300-301</sectionPage>
                   <sectionPdfIndex>12</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s13</sectionId>
+                  <sectionId>s3</sectionId>
                   <sectionTitle>Musical Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s13p1</pieceId>
+                  <pieceId>s3p1</pieceId>
                   <pieceTitle>The Boehm Flute</pieceTitle>
                   <piecePage>300-301</piecePage>
                   <piecePdfIndex>12</piecePdfIndex>
@@ -45005,8 +44993,8 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s13p1>
-            <bibl-18450510-s13p2>
+            </bibl-18450510-s3p1>
+            <bibl-18450510-s3p2>
                <issueMeta>
                   <issueId>18450510</issueId>
                   <issueVol>1</issueVol>
@@ -45014,17 +45002,17 @@
                   <issueDate>May 10, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s13p2</sectionId>
+                  <sectionId>s3p2</sectionId>
                   <sectionTitle>Grand Sacred Concert at St. Peter’s Church.</sectionTitle>
                   <sectionPage>301</sectionPage>
                   <sectionPdfIndex>13</sectionPdfIndex>
                </sectionMeta>
                <sectionMeta>
-                  <sectionId>s13</sectionId>
+                  <sectionId>s3</sectionId>
                   <sectionTitle>Musical Items</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>s13p2</pieceId>
+                  <pieceId>s3p2</pieceId>
                   <pieceTitle>Grand Sacred Concert at St. Peter’s Church.</pieceTitle>
                   <piecePage>301</piecePage>
                   <piecePdfIndex>13</piecePdfIndex>
@@ -45034,7 +45022,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450510-s13p2>
+            </bibl-18450510-s3p2>
             <bibl-18451122-p6>
                <issueMeta>
                   <issueId>18451122</issueId>
@@ -45227,9 +45215,9 @@
             <bibl-18450906-p20>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s4</sectionId>
@@ -45250,9 +45238,9 @@
             <bibl-18450906-p27>
                <issueMeta>
                   <issueId>18450906</issueId>
-                  <issueVol/>
-                  <issueNum/>
-                  <issueDate/>
+                  <issueVol>2</issueVol>
+                  <issueNum>9</issueNum>
+                  <issueDate>September 6, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
                   <sectionId>s4</sectionId>
