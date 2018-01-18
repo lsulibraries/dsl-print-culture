@@ -423,7 +423,7 @@ Vue.component('personBibl', {
 	<div class="personBibl">
           <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
           <div class="pieceTitleContainer">
-          <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
+          <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"biblPieceMeta></biblPieceMeta>
           <biblIssueMeta v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMeta>
           </div>
           <biblPersonPieceMeta v-if="!this.$root.empty(bibl.personPieceMeta)" :personPieceMeta="bibl.personPieceMeta"></biblPersonPieceMeta>
@@ -803,7 +803,7 @@ Vue.component('modal', {
           </div>
         </div>
       </div>
-    </div>
+    </div>drawer
   </transition>`,
 })
 
@@ -1365,14 +1365,18 @@ Vue.component('issue-month',{
 	props: {month: '',	list: ''},
 	created(){
 		Event.$on('issueSelected',(id) =>{
-			for(each in this.$children){
-				if(this.$children[each].id==id){
-	    			this.$children[each].toggled=true;
-	    		}else{this.$children[each].toggled=false;}
-			}
+			this.handleIssueSelected(id)
 		})
+        // this.handleIssueSelected(this.$root.content.issue.id)
 	},
 	methods: {
+        handleIssueSelected: function(id) {
+            for(each in this.$children){
+                if(this.$children[each].id==id){
+                    this.$children[each].toggled=true;
+                }else{this.$children[each].toggled=false;}
+            }
+        },
 	    showChildren: function(){
 		if(this.toggled==false){
 		    //turn on this.$children
@@ -1597,7 +1601,7 @@ new Vue({
 	    content: {
 		abouts: 'about', // technical | credits
 		issue: {
-		    id: '18450208',//'18450104', // yyyy-mm-dd
+		    id: '18450104',//'18450104', // yyyy-mm-dd
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: ''

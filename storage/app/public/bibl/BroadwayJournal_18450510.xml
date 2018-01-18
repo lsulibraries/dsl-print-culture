@@ -55,92 +55,92 @@
          <page>295</page>
          <pdf_index>7</pdf_index>
       </p6>
-      <s7>
-         <decls_id>s7</decls_id>
+      <s1>
+         <decls_id>s1</decls_id>
          <type>section</type>
          <title>Reviews</title>
          <pieces>
-            <s7p1>
-               <decls_id>s7p1</decls_id>
+            <s1p1>
+               <decls_id>s1p1</decls_id>
                <type>piece</type>
                <title>The First Three Books of Homer’s Iliad</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>295</page>
                <pdf_index>7</pdf_index>
-            </s7p1>
-            <s7p2>
-               <decls_id>s7p2</decls_id>
+            </s1p1>
+            <s1p2>
+               <decls_id>s1p2</decls_id>
                <type>piece</type>
                <title>Letters from New York.</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>295-296</page>
                <pdf_index>7</pdf_index>
-            </s7p2>
-            <s7p3>
-               <decls_id>s7p3</decls_id>
+            </s1p2>
+            <s1p3>
+               <decls_id>s1p3</decls_id>
                <type>piece</type>
                <title>The Pencil of Nature</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>296</page>
                <pdf_index>8</pdf_index>
-            </s7p3>
-            <s7p4>
-               <decls_id>s7p4</decls_id>
+            </s1p3>
+            <s1p4>
+               <decls_id>s1p4</decls_id>
                <type>piece</type>
                <title>Saul, A Mystery</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>296-297</page>
                <pdf_index>8</pdf_index>
-            </s7p4>
-            <s7p5>
-               <decls_id>s7p5</decls_id>
+            </s1p4>
+            <s1p5>
+               <decls_id>s1p5</decls_id>
                <type>piece</type>
                <title>Never too Late</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>297</page>
                <pdf_index>9</pdf_index>
-            </s7p5>
+            </s1p5>
          </pieces>
-      </s7>
-      <s8>
-         <decls_id>s8</decls_id>
+      </s1>
+      <s2>
+         <decls_id>s2</decls_id>
          <type>section</type>
          <title>The Magazines</title>
          <pieces>
-            <p14>
-               <decls_id>p14</decls_id>
+            <s2p1>
+               <decls_id>s2p1</decls_id>
                <type>piece</type>
                <title>The Knickerbocker</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>297-298</page>
                <pdf_index>9</pdf_index>
-            </p14>
-            <p15>
-               <decls_id>p15</decls_id>
+            </s2p1>
+            <s2p2>
+               <decls_id>s2p2</decls_id>
                <type>piece</type>
                <title>Blackwood</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>298</page>
                <pdf_index>10</pdf_index>
-            </p15>
+            </s2p2>
          </pieces>
-      </s8>
-      <p16>
-         <decls_id>p16</decls_id>
+      </s2>
+      <p7>
+         <decls_id>p7</decls_id>
          <type>piece</type>
          <title>New Works in Press</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>298</page>
          <pdf_index>10</pdf_index>
-      </p16>
+      </p7>
       <p8>
          <decls_id>p8</decls_id>
          <type>piece</type>
@@ -186,90 +186,90 @@
          <page>300</page>
          <pdf_index>12</pdf_index>
       </p12>
-      <s13>
-         <decls_id>s13</decls_id>
+      <s3>
+         <decls_id>s3</decls_id>
          <type>section</type>
          <title>Musical Items</title>
          <pieces>
-            <s13p1>
-               <decls_id>s13p1</decls_id>
+            <s3p1>
+               <decls_id>s3p1</decls_id>
                <type>piece</type>
                <title>The Boehm Flute</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>300-301</page>
                <pdf_index>12</pdf_index>
-            </s13p1>
-            <s13p2>
-               <decls_id>s13p2</decls_id>
+            </s3p1>
+            <s3p2>
+               <decls_id>s3p2</decls_id>
                <type>piece</type>
                <title>Grand Sacred Concert at St. Peter’s Church.</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>301</page>
                <pdf_index>13</pdf_index>
-            </s13p2>
+            </s3p2>
          </pieces>
-      </s13>
-      <s13p3>
-         <decls_id>s13p3</decls_id>
+      </s3>
+      <p13>
+         <decls_id>p13</decls_id>
          <type>piece</type>
          <title>The Broadway Theatre</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>301</page>
          <pdf_index>13</pdf_index>
-      </s13p3>
-      <s13p4>
-         <decls_id>s13p4</decls_id>
+      </p13>
+      <p14>
+         <decls_id>p14</decls_id>
          <type>piece</type>
          <title>Fact and Fiction</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </s13p4>
-      <p13>
-         <decls_id>p13</decls_id>
-         <type>section</type>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
          <title>Miscellany</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </p13>
-      <s13p5>
-         <decls_id>s13p5</decls_id>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
          <type>piece</type>
          <title>New Publications</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </s13p5>
-      <s13p6>
-         <decls_id>s13p6</decls_id>
+      </p16>
+      <p17>
+         <decls_id>p17</decls_id>
          <type>piece</type>
          <title>Notice to Publishers</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </s13p6>
-      <s14>
-         <decls_id>s14</decls_id>
+      </p17>
+      <s4>
+         <decls_id>s4</decls_id>
          <type>section</type>
          <title>Advertisements</title>
          <page>303-304</page>
          <pdf_index>15</pdf_index>
-      </s14>
-      <p17>
-         <decls_id>p17</decls_id>
+      </s4>
+      <p18>
+         <decls_id>p18</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>304</page>
          <pdf_index>16</pdf_index>
-      </p17>
+      </p18>
    </toc>
    <issueMeta>
       <issueId>18450510</issueId>
@@ -394,19 +394,19 @@
             </pieceListPerson>
          </pieceMeta>
       </p6>
-      <s7>
+      <s1>
          <sectionMeta>
-            <sectionId>s7</sectionId>
+            <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
-      </s7>
-      <s7p1>
+      </s1>
+      <s1p1>
          <sectionMeta>
-            <sectionId>s7</sectionId>
+            <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s7p1</pieceId>
+            <pieceId>s1p1</pieceId>
             <pieceTitle>The First Three Books of Homer’s Iliad</pieceTitle>
             <piecePage>295</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
@@ -418,14 +418,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s7p1>
-      <s7p2>
+      </s1p1>
+      <s1p2>
          <sectionMeta>
-            <sectionId>s7</sectionId>
+            <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s7p2</pieceId>
+            <pieceId>s1p2</pieceId>
             <pieceTitle>Letters from New York.</pieceTitle>
             <piecePage>295-296</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
@@ -437,14 +437,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s7p2>
-      <s7p3>
+      </s1p2>
+      <s1p3>
          <sectionMeta>
-            <sectionId>s7</sectionId>
+            <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s7p3</pieceId>
+            <pieceId>s1p3</pieceId>
             <pieceTitle>The Pencil of Nature</pieceTitle>
             <piecePage>296</piecePage>
             <piecePdfIndex>8</piecePdfIndex>
@@ -456,14 +456,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s7p3>
-      <s7p4>
+      </s1p3>
+      <s1p4>
          <sectionMeta>
-            <sectionId>s7</sectionId>
+            <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s7p4</pieceId>
+            <pieceId>s1p4</pieceId>
             <pieceTitle>Saul, A Mystery</pieceTitle>
             <piecePage>296-297</piecePage>
             <piecePdfIndex>8</piecePdfIndex>
@@ -475,14 +475,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s7p4>
-      <s7p5>
+      </s1p4>
+      <s1p5>
          <sectionMeta>
-            <sectionId>s7</sectionId>
+            <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s7p5</pieceId>
+            <pieceId>s1p5</pieceId>
             <pieceTitle>Never too Late</pieceTitle>
             <piecePage>297</piecePage>
             <piecePdfIndex>9</piecePdfIndex>
@@ -494,20 +494,20 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s7p5>
-      <s8>
+      </s1p5>
+      <s2>
          <sectionMeta>
-            <sectionId>s8</sectionId>
+            <sectionId>s2</sectionId>
             <sectionTitle>The Magazines</sectionTitle>
          </sectionMeta>
-      </s8>
-      <p14>
+      </s2>
+      <s2p1>
          <sectionMeta>
-            <sectionId>s8</sectionId>
+            <sectionId>s2</sectionId>
             <sectionTitle>The Magazines</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p14</pieceId>
+            <pieceId>s2p1</pieceId>
             <pieceTitle>The Knickerbocker</pieceTitle>
             <piecePage>297-298</piecePage>
             <piecePdfIndex>9</piecePdfIndex>
@@ -519,14 +519,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </p14>
-      <p15>
+      </s2p1>
+      <s2p2>
          <sectionMeta>
-            <sectionId>s8</sectionId>
+            <sectionId>s2</sectionId>
             <sectionTitle>The Magazines</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p15</pieceId>
+            <pieceId>s2p2</pieceId>
             <pieceTitle>Blackwood</pieceTitle>
             <piecePage>298</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
@@ -538,10 +538,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p15>
-      <p16>
+      </s2p2>
+      <p7>
          <pieceMeta>
-            <pieceId>p16</pieceId>
+            <pieceId>p7</pieceId>
             <pieceTitle>New Works in Press</pieceTitle>
             <piecePage>298</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
@@ -553,7 +553,7 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p16>
+      </p7>
       <p8>
          <pieceMeta>
             <pieceId>p8</pieceId>
@@ -629,19 +629,19 @@
             </pieceListPerson>
          </pieceMeta>
       </p12>
-      <s13>
+      <s3>
          <sectionMeta>
-            <sectionId>s13</sectionId>
+            <sectionId>s3</sectionId>
             <sectionTitle>Musical Items</sectionTitle>
          </sectionMeta>
-      </s13>
-      <s13p1>
+      </s3>
+      <s3p1>
          <sectionMeta>
-            <sectionId>s13</sectionId>
+            <sectionId>s3</sectionId>
             <sectionTitle>Musical Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s13p1</pieceId>
+            <pieceId>s3p1</pieceId>
             <pieceTitle>The Boehm Flute</pieceTitle>
             <piecePage>300-301</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -653,14 +653,14 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </s13p1>
-      <s13p2>
+      </s3p1>
+      <s3p2>
          <sectionMeta>
-            <sectionId>s13</sectionId>
+            <sectionId>s3</sectionId>
             <sectionTitle>Musical Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s13p2</pieceId>
+            <pieceId>s3p2</pieceId>
             <pieceTitle>Grand Sacred Concert at St. Peter’s Church.</pieceTitle>
             <piecePage>301</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -672,10 +672,10 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </s13p2>
-      <s13p3>
+      </s3p2>
+      <p13>
          <pieceMeta>
-            <pieceId>s13p3</pieceId>
+            <pieceId>p13</pieceId>
             <pieceTitle>The Broadway Theatre</pieceTitle>
             <piecePage>301</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -687,10 +687,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s13p3>
-      <s13p4>
+      </p13>
+      <p14>
          <pieceMeta>
-            <pieceId>s13p4</pieceId>
+            <pieceId>p14</pieceId>
             <pieceTitle>Fact and Fiction</pieceTitle>
             <piecePage>302</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -702,25 +702,25 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s13p4>
-      <p13>
-         <sectionMeta>
-            <sectionId>p13</sectionId>
-            <sectionTitle>Miscellany</sectionTitle>
-            <sectionPage>302</sectionPage>
-            <sectionPdfIndex>14</sectionPdfIndex>
-            <sectionListPerson>
+      </p14>
+      <p15>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>Miscellany</pieceTitle>
+            <piecePage>302</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </eapoe>
-            </sectionListPerson>
-         </sectionMeta>
-      </p13>
-      <s13p5>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
          <pieceMeta>
-            <pieceId>s13p5</pieceId>
+            <pieceId>p16</pieceId>
             <pieceTitle>New Publications</pieceTitle>
             <piecePage>302</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -732,10 +732,10 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s13p5>
-      <s13p6>
+      </p16>
+      <p17>
          <pieceMeta>
-            <pieceId>s13p6</pieceId>
+            <pieceId>p17</pieceId>
             <pieceTitle>Notice to Publishers</pieceTitle>
             <piecePage>302</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -747,22 +747,22 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s13p6>
-      <s14>
+      </p17>
+      <s4>
          <sectionMeta>
-            <sectionId>s14</sectionId>
+            <sectionId>s4</sectionId>
             <sectionTitle>Advertisements</sectionTitle>
             <sectionPage>303-304</sectionPage>
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
-      </s14>
-      <p17>
+      </s4>
+      <p18>
          <pieceMeta>
-            <pieceId>p17</pieceId>
+            <pieceId>p18</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>304</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p17>
+      </p18>
    </listBibl>
 </issue>

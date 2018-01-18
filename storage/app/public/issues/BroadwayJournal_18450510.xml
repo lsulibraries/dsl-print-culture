@@ -908,12 +908,12 @@
       
       
       
-      <div class="section" id="#s7">
+      <div class="section" id="#s1">
          <div class="biblTitle">Reviews</div>
          
          <div class="head">REVIEWS.</div>
          
-         <div class="section" id="#s7p1">
+         <div class="section" id="#s1p1">
             <div class="biblTitle">The First Three Books of Homer’s Iliad</div>
             <div class="biblPage">295</div>
             
@@ -965,7 +965,7 @@
          </div>
          
          
-         <div class="section" id="#s7p2">
+         <div class="section" id="#s1p2">
             <div class="biblTitle">Letters from New York.</div>
             <div class="biblPage">295</div>
             
@@ -1061,7 +1061,7 @@
          </div>
          
          
-         <div class="section" id="#s7p3">
+         <div class="section" id="#s1p3">
             <div class="biblTitle">The Pencil of Nature</div>
             <div class="biblPage">296</div>
             
@@ -1113,7 +1113,7 @@
          </div>
          
          
-         <div class="section" id="#s7p4">
+         <div class="section" id="#s1p4">
             <div class="biblTitle">Saul, A Mystery</div>
             <div class="biblPage">296</div>
             
@@ -1254,7 +1254,7 @@
          </div>
          
          
-         <div class="section" id="#s7p5">
+         <div class="section" id="#s1p5">
             <div class="biblTitle">Never too Late</div>
             <div class="biblPage">297</div>
             
@@ -1275,12 +1275,12 @@
       
       
       
-      <div class="section" id="#s8">
+      <div class="section" id="#s2">
          <div class="biblTitle">The Magazines</div>
          
          <div class="head">THE MAGAZINES.</div>
          
-         <div class="piece" id="#p14">
+         <div class="section" id="#s2p1">
             <div class="biblTitle">The Knickerbocker</div>
             <div class="biblPage">297</div>
             <div class="ab">The Knickerbocker.
@@ -1352,7 +1352,7 @@
             </p>
          </div>
          
-         <div class="piece" id="#p15">
+         <div class="section" id="#s2p2">
             <div class="biblTitle">Blackwood</div>
             <div class="biblPage">298</div>
             <p>BLACKWOOD.—Mess. Leonard, Scott &amp; Co. have issued the Aprilnumber of
@@ -1367,7 +1367,7 @@
       </div>
       
       
-      <div class="piece" id="#p16">
+      <div class="piece" id="#p7">
          <div class="biblTitle">New Works in Press</div>
          <div class="biblPage">298</div>
          
@@ -1850,13 +1850,13 @@
       </div>
       
       
-      <div class="section" id="#s13">
+      <div class="section" id="#s3">
          <div class="biblTitle">Musical Items</div>
          
          <div class="head">MUSICAL ITEMS.</div>
          
          
-         <div class="section" id="#s13p1">
+         <div class="section" id="#s3p1">
             <div class="biblTitle">The Boehm Flute</div>
             <div class="biblPage">300</div>
             
@@ -1894,7 +1894,7 @@
          </div>
          
          
-         <div class="section" id="#s13p2">
+         <div class="section" id="#s3p2">
             <div class="biblTitle">Grand Sacred Concert at St. Peter’s Church.</div>
             <div class="biblPage">301</div>
             
@@ -1930,7 +1930,7 @@
       </div>
       
       
-      <div class="section" id="#s13p3">
+      <div class="piece" id="#p13">
          <div class="biblTitle">The Broadway Theatre</div>
          <div class="biblPage">301</div>
          
@@ -2003,7 +2003,7 @@
       
       
       
-      <div class="section" id="#s13p4">
+      <div class="piece" id="#p14">
          <div class="biblTitle">Fact and Fiction</div>
          <div class="biblPage">302</div>
          
@@ -2060,7 +2060,7 @@
       </div>
       
       
-      <div class="piece" id="#p13">
+      <div class="piece" id="#p15">
          <div class="biblTitle">Miscellany</div>
          <div class="biblPage">302</div>
          
@@ -2117,7 +2117,7 @@
       
       
       
-      <div class="section" id="#s13p5">
+      <div class="piece" id="#p16">
          <div class="biblTitle">New Publications</div>
          <div class="biblPage">302</div>
          
@@ -2185,7 +2185,7 @@
       </div>
       
       
-      <div class="section" id="#s13p6">
+      <div class="piece" id="#p17">
          <div class="biblTitle">Notice to Publishers</div>
          <div class="biblPage">302</div>
          
@@ -2207,7 +2207,7 @@
       
       
       
-      <div class="section" id="#s14">
+      <div class="section" id="#s4">
          <div class="biblTitle">Advertisements</div>
          <div class="biblPage">303</div>
          
@@ -2948,7 +2948,7 @@
       </div>
       
       
-      <div class="piece" id="#p17">
+      <div class="piece" id="#p18">
          <div class="biblTitle">Agents for the Broadway Journal</div>
          <div class="biblPage">304</div>
          
