@@ -543,14 +543,13 @@ Certainty: identify cert as “high,” “medium,” or “low.”
 If the author is anonymous DO NOT provide certainty.`,
 	    bibl_data: {},
 	    ppm: {},
-	    biblId: 's1',
+	    biblId: '',
         showModal: false,        
 	    issueHeaderData: {}
 	}
     },
     created() {
 	Event.$on('issueSelected', (id) => {
-	    this.biblId = this.firstSection()
 	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
 //	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
@@ -579,7 +578,7 @@ If the author is anonymous DO NOT provide certainty.`,
           <div class="issueInfo">
               <div class='issueDate'>{{this.formatDate()}}</div>
               <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
-          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)"></biblSectionMeta>
+          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta()"></biblSectionMeta>
 
           </div>          
           <div class="bibl" v-if="haveData()">
@@ -606,24 +605,35 @@ If the author is anonymous DO NOT provide certainty.`,
         </div>
 	`,
     methods: {
+        showBiblSectionMeta: function () {
+            biblIdSet  = this.biblId !== ''
+            if (!biblIdSet) {
+                return false
+            }
+            metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
+            return metaExists
+        },
 	pdfMode: function () {
 	    return this.$root.state.content.issue.viewer == 'pdf'
 	},
 	haveData: function() {
 	    empty = this.$root.empty
 	    if(empty(this.issueHeaderData)){
-		alert('headerData is empty')
+            console.log('headerData is empty')
 	    
 }	    if(empty(this.issueHeaderData.listBibl)){
-		alert('issueHeaderData.listBibl is empty') 
+            console.log('issueHeaderData.listBibl is empty') 
 	    }
+        if(this.biblId == '') {
+            return false
+        }
 	    if(empty(this.issueHeaderData.listBibl[this.biblId])){
-		alert('listBibl does not exist for '+ this.biblId)
+            console.log('listBibl does not exist for '+ this.biblId)
 	    }
 	    if(empty(this.issueHeaderData.issueMeta)){
-		alert('missing issueMeta')
+            console.log('missing issueMeta')
 	    }
-            return true
+        return true
 	},
 	getSectionMeta: function () {
 	},
@@ -1296,8 +1306,9 @@ Vue.component('tei-markup',{
 		url = '/api/broadwayjournal/'+ this.id + '/piece-text/' + this.biblId;
 		axios.get(url).then(response => this.issueText = response.data);
 	    }else {
-		url = '/api/broadwayjournal/'+ this.id + '/issue-text';
-		axios.get(url).then(response => this.issueText = response.data);
+            this.issueText = ''
+		// url = '/api/broadwayjournal/'+ this.id + '/issue-text';
+		// axios.get(url).then(response => this.issueText = response.data);
 	    }
 	},
 	getTocEntry: function(issueId, itemId){
@@ -1588,7 +1599,7 @@ new Vue({
 		    id: '18450208',//'18450104', // yyyy-mm-dd
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
-		    decls_id: 's1'
+		    decls_id: ''
 		},
 		personography: {
 		    filterString: '', // ie eapoe
