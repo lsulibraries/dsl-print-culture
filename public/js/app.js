@@ -552,6 +552,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	Event.$on('issueSelected', (id) => {
 	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+        this.biblId = ''
 //	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
 //	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
 //	    this.setPpm()
