@@ -821,6 +821,7 @@ Vue.component('modal', {
 Vue.component('drawer', {
     template: `
 <div>
+    <div class="personBlurb">{{ this.getBlurb() }}</div>
 	  <personBibl v-for="bibl in getBibls()" :bibl="bibl"></personBibl>
         </div>
 	`,
@@ -846,7 +847,16 @@ Vue.component('drawer', {
 	},
 	isBibls: function (){
 	    return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl)
-	}
+	},
+    getBlurb: function() {
+        person = this.$root.xhrDataStore.personography.personIndex[this.authorId]
+        bioExists = !this.$root.empty(person.personMeta.personBio)
+        if (!bioExists) {
+            return ''
+        }
+        noteExists = !this.$root.empty(person.personMeta.personBio.personNote)
+        return bioExists && noteExists ? person.personMeta.personBio.personNote : ''
+    }
     },
     created() {
 	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => {
