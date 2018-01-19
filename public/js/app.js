@@ -957,29 +957,27 @@ Vue.component('creditsPerson', {
     template: `
 	<div class="creditsPerson">
 	  <div class="creditsPersonName">{{person.personMeta.personName}}</div>
-	  <div class="creditsPersonAffiliation">{{ this.getAffiliation() }}</div>
- 	  <div class="creditsPersonNote">{{ this.getNote() }}</div>
+      <div class="creditsPersonRoleName">{{ this.getRoleName() }}</div>
+	  <!-- <div class="creditsPersonAffiliation" v-if="this.hasBio()">{{ this.getAffiliation() }}</div> -->
+ 	  <div class="creditsPersonNote" v-if="this.hasBio()">{{ this.getNote() }}</div>
         </div>
 	`,
     props: ['person'],
     methods: {
         getAffiliation: function () {
-            if(!this.hasBio()) {
-                return ''
-            }
             console.log(this.person.personMeta.personName)
             affiliation = this.$root.empty(this.person.personMeta.personBio.personAffiliation) ? '' : this.person.personMeta.personBio.personAffiliation
             return affiliation
         },
         getNote: function () {
-            if(!this.hasBio()) {
-                return ''
-            }
             note = this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote
             return note
         },
         hasBio: function () {
             return !this.$root.empty(this.person.personMeta.personBio)
+        },
+        getRoleName: function () {
+            return this.person.personMeta.personRoleName
         }
     }
 })
