@@ -369,15 +369,14 @@ Vue.component('biblPersonPieceMeta',{
     <!--
     <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>
     -->
-    <div class="authorShip" v-if="showAuthorship()">{{this.getAuthorship()}}</div>
+    <div class="authorShip" v-if="showAuthorship()" :title="this.getAuthorshipTitle()">{{this.getAuthorship()}}</div>
     </div>
     `,
     props: ['personPieceMeta'],
     methods: {
         showAuthorship: function () {
             hasValue     = !this.$root.empty(this.personPieceMeta.personPiecePseudo)
-            rightContext = this.$root.state.activeContent == 'issues'
-            if(rightContext && hasValue){
+            if(hasValue){
                 return true
             }
             return false
@@ -389,6 +388,9 @@ Vue.component('biblPersonPieceMeta',{
         },
         getAuthorship: function () {
             return this.personPieceMeta.personPiecePseudo
+        },
+        getAuthorshipTitle() {
+            return !this.$root.empty(this.personPieceMeta.authorShip) ? this.personPieceMeta.authorShip : ''
         }
 
     }
@@ -1597,7 +1599,7 @@ new Vue({
 	    content: {
 		abouts: 'about', // technical | credits
 		issue: {
-		    id: '18450208',//'18450104', // yyyy-mm-dd
+		    id: '18450104',//'18450104', // yyyy-mm-dd
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: ''
