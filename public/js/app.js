@@ -927,9 +927,16 @@ Vue.component('abouts',{
 
 Vue.component('creditsPersonList', {
     template: `
-	<div class="creditsPersonsList">
-	  <creditsPerson v-for="person in creditsData.personList" :person="person"></creditsPerson>
+    <div class="creditsPersonsList">
+        <div class="creditsPersonListActive">
+            <h2>Active</h2>
+            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'active'"></creditsPerson>
         </div>
+        <div class="creditsPersonListPast">
+            <h2>Past</h2>
+            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'past'"></creditsPerson>
+        </div>
+    </div>
 	`,
     methods: {
 	dataLoaded: function() {
@@ -937,12 +944,7 @@ Vue.component('creditsPersonList', {
 	}
     },
     created() {
-	if(this.$root.empty(this.$root.xhrDataStore.abouts.credits)){
-	    url = '/api/broadwayjournal/abouts/credits'
-	    axios.get(url).then(response => this.creditsData = response.data);
-	}else{
-	    this.creditsData = this.$root.xhrDataStore.abouts.credits
-	}
+	   this.creditsData = this.$root.xhrDataStore.personography.projectStaff
     },
     data() {
 	return {
@@ -955,11 +957,31 @@ Vue.component('creditsPerson', {
     template: `
 	<div class="creditsPerson">
 	  <div class="creditsPersonName">{{person.personMeta.personName}}</div>
-	  <div class="creditsPersonAffiliation">{{person.personMeta.personBio.personAffiliation}}</div>
- 	  <div class="creditsPersonNote">{{person.personMeta.personBio.personNote}}</div>
+	  <div class="creditsPersonAffiliation">{{ this.getAffiliation() }}</div>
+ 	  <div class="creditsPersonNote">{{ this.getNote() }}</div>
         </div>
 	`,
-    props: ['person']
+    props: ['person'],
+    methods: {
+        getAffiliation: function () {
+            if(!this.hasBio()) {
+                return ''
+            }
+            console.log(this.person.personMeta.personName)
+            affiliation = this.$root.empty(this.person.personMeta.personBio.personAffiliation) ? '' : this.person.personMeta.personBio.personAffiliation
+            return affiliation
+        },
+        getNote: function () {
+            if(!this.hasBio()) {
+                return ''
+            }
+            note = this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote
+            return note
+        },
+        hasBio: function () {
+            return !this.$root.empty(this.person.personMeta.personBio)
+        }
+    }
 })
 
 Vue.component('viewerSelector',{
