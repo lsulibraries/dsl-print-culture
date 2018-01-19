@@ -283,6 +283,7 @@ Vue.component('person', {
     template: `
       <div  class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
 	<personMeta :personMeta="person.personMeta"></personMeta>
+    <div class="personBlurb" v-if="this.getBlurb().length > 0" v-if="showBibls">{{ this.getBlurb() }}</div>
 	<div class="personListBibl">
           <personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
 	</div>
@@ -332,7 +333,15 @@ Vue.component('person', {
 	    }
 	    
 	    return passesString && passesRole
-	}
+	},
+    getBlurb: function() {
+        bioExists = !this.$root.empty(this.person.personMeta.personBio)
+        if (!bioExists) {
+            return ''
+        }
+        noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote)
+        return bioExists && noteExists ? this.person.personMeta.personBio.personNote : ''
+    }
     },
     created() {
 	Event.$on('filterStringUpdated', (filterString) => {
