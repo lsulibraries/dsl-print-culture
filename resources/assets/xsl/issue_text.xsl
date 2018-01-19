@@ -64,6 +64,11 @@
     </xsl:template>
     
     <xsl:template match="//*[not(ancestor-or-self::ab)]/text()[following-sibling::lb[@break='no']][ends-with(normalize-space(.),'-')]">
+        <xsl:if test="preceding-sibling::persName">
+            <xsl:if test="starts-with(., ' ')">
+                <xsl:text> </xsl:text>
+            </xsl:if>
+        </xsl:if>
         <xsl:value-of select="substring(normalize-space(.),1,string-length(normalize-space(.))-1)"/>
     </xsl:template> 
 
