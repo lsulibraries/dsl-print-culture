@@ -1376,14 +1376,21 @@ Vue.component('issue-month',{
 	props: {month: '',	list: ''},
 	created(){
 		Event.$on('issueSelected',(id) =>{
-			for(each in this.$children){
-				if(this.$children[each].id==id){
-	    			this.$children[each].toggled=true;
-	    		}else{this.$children[each].toggled=false;}
-			}
+			this.handleIssueSelected(id)
 		})
+        Event.$on('activeContentChange', (content) => {
+            this.showChildren()
+            this.handleIssueSelected(this.$root.state.content.issue.id)
+        })
 	},
 	methods: {
+        handleIssueSelected: function(id) {
+            for(each in this.$children){
+                if(this.$children[each].id==id){
+                    this.$children[each].toggled=true;
+                }else{this.$children[each].toggled=false;}
+            }
+        },
 	    showChildren: function(){
 		if(this.toggled==false){
 		    //turn on this.$children
