@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "./";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 34);
+/******/ 	return __webpack_require__(__webpack_require__.s = 41);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -73,7 +73,7 @@
 "use strict";
 
 
-var bind = __webpack_require__(7);
+var bind = __webpack_require__(8);
 
 /*global toString:true*/
 
@@ -374,13 +374,66 @@ module.exports = {
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports) {
+
+module.exports = function normalizeComponent (
+  rawScriptExports,
+  compiledTemplate,
+  scopeId,
+  cssModules
+) {
+  var esModule
+  var scriptExports = rawScriptExports = rawScriptExports || {}
+
+  // ES6 modules interop
+  var type = typeof rawScriptExports.default
+  if (type === 'object' || type === 'function') {
+    esModule = rawScriptExports
+    scriptExports = rawScriptExports.default
+  }
+
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // render functions
+  if (compiledTemplate) {
+    options.render = compiledTemplate.render
+    options.staticRenderFns = compiledTemplate.staticRenderFns
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = scopeId
+  }
+
+  // inject cssModules
+  if (cssModules) {
+    var computed = options.computed || (options.computed = {})
+    Object.keys(cssModules).forEach(function (key) {
+      var module = cssModules[key]
+      computed[key] = function () { return module }
+    })
+  }
+
+  return {
+    esModule: esModule,
+    exports: scriptExports,
+    options: options
+  }
+}
+
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(0);
-var normalizeHeaderName = __webpack_require__(25);
+var normalizeHeaderName = __webpack_require__(26);
 
 var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 var DEFAULT_CONTENT_TYPE = {
@@ -397,10 +450,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(3);
+    adapter = __webpack_require__(4);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(3);
+    adapter = __webpack_require__(4);
   }
   return adapter;
 }
@@ -471,10 +524,10 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -660,19 +713,19 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(0);
-var settle = __webpack_require__(17);
-var buildURL = __webpack_require__(20);
-var parseHeaders = __webpack_require__(26);
-var isURLSameOrigin = __webpack_require__(24);
-var createError = __webpack_require__(6);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(19);
+var settle = __webpack_require__(18);
+var buildURL = __webpack_require__(21);
+var parseHeaders = __webpack_require__(27);
+var isURLSameOrigin = __webpack_require__(25);
+var createError = __webpack_require__(7);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(20);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -768,7 +821,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(22);
+      var cookies = __webpack_require__(23);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -842,10 +895,10 @@ module.exports = function xhrAdapter(config) {
   });
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -871,7 +924,7 @@ module.exports = Cancel;
 
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -883,13 +936,13 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(16);
+var enhanceError = __webpack_require__(17);
 
 /**
  * Create an Error with the specified message, config, error code, and response.
@@ -907,7 +960,7 @@ module.exports = function createError(message, config, code, response) {
 
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -925,17 +978,17 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_axios__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Example__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Example___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Example__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Container__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Container___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Container__);
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 window.Event = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a();
@@ -948,45 +1001,6 @@ window.Util = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 			ret.day = id.slice(-2);
 			return ret;
 		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('container', {
-	created: function created() {
-		var _this = this;
-
-		Event.$on('toggleContrast', function () {
-			_this.contrast = _this.$root.state.contrast;
-		});
-	},
-
-	methods: {
-		contrastString: function contrastString() {
-			return this.$root.state.contrast + 'Contrast';
-		}
-	},
-	template: '\n        <div id="container" v-bind:class="contrastString()">\n          <vue-header></vue-header>\n\t  <vue-content></vue-content>\n\t  <vue-footer></vue-footer>\n\t</div>\n\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('vue-header', {
-	template: '\n        <div class="header">\n       \t  <headerTitle></headerTitle>\n\t  <headerNav></headerNav>\n      <div class="contrast" @click=\'toggleContrast\'>\n        <div class="contrastTitle">High Contrast</div>\n        <div class="contrastSwitch">\n          <div class="contrastOff">Off</div>\n          <div class="contrastOn">On</div>\n        </div>\n      </div>\n    </div>\n\t',
-	methods: {
-		resetSearchString: function resetSearchString() {
-			this.searchString = this.$root.state.content.searchString = '';
-		},
-		toggleContrast: function toggleContrast() {
-			this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
-			Event.$emit('toggleContrast');
-		},
-		searchSubmitted: function searchSubmitted() {
-			Event.$emit('activeContentChange', 'search');
-			Event.$emit('searchSubmitted', this.searchString);
-		}
-	},
-	data: function data() {
-		return {
-			searchString: ''
-		};
 	}
 });
 
@@ -1017,14 +1031,6 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('headerTitle', {
 	template: '\n\t<a href="." class="headerTitle">The<br>Broadway<br>Journal</a>\n    '
 });
 
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('vue-footer', {
-	template: '<div class=\'footer\'>\n              <headerLogo></headerLogo>\n<section id=\'infoFooter\' class=\'flex\'><div id=\'creativeCommons\'>\nThis work is licensed under a <a rel=\'license\' href=\'http://creativecommons.org/licenses/by/4.0/\'>Creative Commons Attribution 4.0 International License</a>.<br>\n\n contact the <a href=\'mailto:dsl@lsu.edu\' target=\'_blank\'>Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div></section>\n\n</div>'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('vue-content', {
-	template: '\n        <div class="content">\n          <abouts v-if="this.$root.state.activeContent == \'abouts\'"></abouts>\n          <issue v-if="this.$root.state.activeContent == \'issues\'"></issue>\n          <personography  v-if="this.$root.state.activeContent == \'personography\'"></personography>\n          <searchResults  v-if="this.$root.state.activeContent == \'search\'"></searchResults>\n        </div>\n    '
-});
-
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personography', {
 	data: function data() {
 		return {
@@ -1045,14 +1051,14 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personographyDescription'
 		};
 	},
 	created: function created() {
-		var _this2 = this;
+		var _this = this;
 
 		if (this.$root.xhrDataStore.abouts.personographyDescription.length > 1) {
 			this.aboutText = this.$root.xhrDataStore.abouts.personographyDescription;
 		} else {
 			url = '/api/broadwayjournal/abouts/personographyDescription';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this2.personographyDescription = response.data;
+				return _this.personographyDescription = response.data;
 			});
 		}
 	}
@@ -1066,9 +1072,9 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personIndex', {
 		};
 	},
 	created: function created() {
-		rawIndex = this.$root.xhrDataStore.personography.personIndex;
-		deduped = {};
-		entries = Object.entries(rawIndex);
+		var rawIndex = this.$root.xhrDataStore.personography.personIndex;
+		var deduped = {};
+		var entries = Object.entries(rawIndex);
 		var _iteratorNormalCompletion = true;
 		var _didIteratorError = false;
 		var _iteratorError = undefined;
@@ -1138,30 +1144,30 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personMeta', {
 			if (typeof personMeta.personRole !== 'string') {
 				return '';
 			}
-			roles = Object.values(personMeta.personRole.split(' '));
-			ret = '';
+			var roles = Object.values(personMeta.personRole.split(' '));
+			var ret = '';
 			var _iteratorNormalCompletion2 = true;
 			var _didIteratorError2 = false;
 			var _iteratorError2 = undefined;
 
 			try {
 				for (var _iterator2 = roles[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
-					role = _step2.value;
+					var role = _step2.value;
 
 					if (role == 'Mentioned') {
-						count = personMeta.personTotalMention;
+						var count = personMeta.personTotalMention;
 						if (!personMeta.personTotalMention) {
 							console.log("totalMention missing for " + personMeta.personId);
 							count = '?';
 						}
 						ret += role + ' (' + count + ')';
 					} else if (role == 'Contributor') {
-						count = personMeta.personTotalContrib;
+						var _count = personMeta.personTotalContrib;
 						if (!personMeta.personTotalContrib) {
 							console.log("totalContrib missing for " + personMeta.personId);
-							count = '?';
+							_count = '?';
 						}
-						ret += role + ' (' + count + ')';
+						ret += role + ' (' + _count + ')';
 					} else {
 						ret += ' ' + role;
 					}
@@ -1210,8 +1216,8 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('person', {
 			this.activePerson = !this.activePerson;
 		},
 		passesFilter: function passesFilter() {
-			passesString = false;
-			passesRole = false;
+			var passesString = false;
+			var passesRole = false;
 
 			if (this.filterString.length < 1) {
 				passesString = true;
@@ -1235,22 +1241,22 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('person', {
 			return passesString && passesRole;
 		},
 		getBlurb: function getBlurb() {
-			bioExists = !this.$root.empty(this.person.personMeta.personBio);
+			var bioExists = !this.$root.empty(this.person.personMeta.personBio);
 			if (!bioExists) {
 				return '';
 			}
-			noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote);
+			var noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote);
 			return bioExists && noteExists ? this.person.personMeta.personBio.personNote : '';
 		}
 	},
 	created: function created() {
-		var _this3 = this;
+		var _this2 = this;
 
 		Event.$on('filterStringUpdated', function (filterString) {
-			_this3.filterString = filterString;
+			_this2.filterString = filterString;
 		});
 		Event.$on('filterRoleUpdated', function (filterRole) {
-			_this3.filterRole = filterRole;
+			_this2.filterRole = filterRole;
 		});
 	}
 });
@@ -1270,7 +1276,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('biblPersonPieceMeta', {
 	props: ['personPieceMeta'],
 	methods: {
 		showAuthorship: function showAuthorship() {
-			hasValue = !this.$root.empty(this.personPieceMeta.personPiecePseudo);
+			var hasValue = !this.$root.empty(this.personPieceMeta.personPiecePseudo);
 			if (hasValue) {
 				return true;
 			}
@@ -1324,12 +1330,12 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('searchResults', {
 		};
 	},
 	created: function created() {
-		var _this4 = this;
+		var _this3 = this;
 
 		this.executeSearch();
 		Event.$on('searchSubmitted', function (searchString) {
-			_this4.searchString = searchString;
-			_this4.executeSearch();
+			_this3.searchString = searchString;
+			_this3.executeSearch();
 		});
 	},
 
@@ -1338,11 +1344,11 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('searchResults', {
 			return this.results.searchResult.length;
 		},
 		executeSearch: function executeSearch() {
-			var _this5 = this;
+			var _this4 = this;
 
 			search_url = '/api/broadwayjournal/issue/search/' + this.searchString;
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(search_url).then(function (response) {
-				return _this5.results = response.data;
+				return _this4.results = response.data;
 			});
 		}
 	}
@@ -1380,10 +1386,10 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueViewer', {
 		};
 	},
 	created: function created() {
-		var _this6 = this;
+		var _this5 = this;
 
 		Event.$on('viewerSelected', function (viewer) {
-			_this6.viewer = viewer;
+			_this5.viewer = viewer;
 		});
 	}
 });
@@ -1404,27 +1410,27 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 		};
 	},
 	created: function created() {
-		var _this7 = this;
+		var _this6 = this;
 
 		Event.$on('issueSelected', function (id) {
-			headerUrl = '/api/broadwayjournal/issue/' + _this7.$root.state.content.issue.id + '/header';
+			var headerUrl = '/api/broadwayjournal/issue/' + _this6.$root.state.content.issue.id + '/header';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(headerUrl).then(function (response) {
-				return _this7.issueHeaderData = response.data;
+				return _this6.issueHeaderData = response.data;
 			});
-			_this7.biblId = '';
+			_this6.biblId = '';
 			//	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
 			//	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
 			//	    this.setPpm()
 		});
 		Event.$on('issueBiblSelected', function (bibl) {
-			_this7.biblId = bibl.decls_id;
-			_this7.getIssueHeaderData();
+			_this6.biblId = bibl.decls_id;
+			_this6.getIssueHeaderData();
 			//	    this.ppm = this.bibl_data = undefined
 			//	    this.setPpm()
 			//	    this.setBiblData()
 		});
 		Event.$on('close', function () {
-			_this7.showModal = false;
+			_this6.showModal = false;
 		});
 
 		this.biblId = this.$root.state.content.issue.decls_id;
@@ -1436,18 +1442,18 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 	template: '\n        <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">\n         \n          <div class="issueInfo">\n              <div class=\'issueDate\'>{{this.formatDate()}}</div>\n              <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>\n          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta()"></biblSectionMeta>\n\n          </div>          \n          <div class="bibl" v-if="haveData()">\n            <div class="issue">\n              <a class="downloadLink" v-bind:href=\'stateHref()\'>\n                <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>\n                <div class="downloadText">View {{this.dlLabel()}}</div>\n              </a>\n              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>\n            </div>\n            <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>\n            <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->\n\n  <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>\n\n            <div class="issueData"></div>\n            <div class="authorShipLegend">{{this.authorShipLegend}}</div>\n            </div>\n  <!-- use the modal component, pass in the prop -->\n  <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">\n    <h3 slot="header">More from this author</h3>\n  </modal>\n\n        </div>\n\t',
 	methods: {
 		showBiblSectionMeta: function showBiblSectionMeta() {
-			biblIdSet = this.biblId !== '';
+			var biblIdSet = this.biblId !== '';
 			if (!biblIdSet) {
 				return false;
 			}
-			metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
+			var metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
 			return metaExists;
 		},
 		pdfMode: function pdfMode() {
 			return this.$root.state.content.issue.viewer == 'pdf';
 		},
 		haveData: function haveData() {
-			empty = this.$root.empty;
+			var empty = this.$root.empty;
 			if (empty(this.issueHeaderData)) {
 				console.log('headerData is empty');
 			}if (empty(this.issueHeaderData.listBibl)) {
@@ -1466,11 +1472,11 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 		},
 		getSectionMeta: function getSectionMeta() {},
 		getIssueHeaderData: function getIssueHeaderData() {
-			var _this8 = this;
+			var _this7 = this;
 
-			headerUrl = '/api/broadwayjournal/issue/' + this.$root.state.content.issue.id + '/header';
+			var headerUrl = '/api/broadwayjournal/issue/' + this.$root.state.content.issue.id + '/header';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(headerUrl).then(function (response) {
-				return _this8.issueHeaderData = response.data;
+				return _this7.issueHeaderData = response.data;
 			});
 		},
 		getPersonId: function getPersonId() {
@@ -1485,7 +1491,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 			return false;
 		},
 		getPersonMeta: function getPersonMeta() {
-			pid = this.getPersonId();
+			var pid = this.getPersonId();
 			if (!pid) {
 				return false;
 			}
@@ -1497,7 +1503,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 					personViaf: false
 				};
 			}
-			personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName };
+			var personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName };
 			// personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
 			if (this.$root.empty(personMeta.personName)) {
 				return false;
@@ -1514,10 +1520,10 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 			return meta;
 		},
 		drawerIsAvailable: function drawerIsAvailable() {
-			isAnon = this.getPersonId() == 'anon';
-			biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && !this.biblIsSection(this.biblId);
-			sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
-			personInSection = this.getPersonMeta();
+			var isAnon = this.getPersonId() == 'anon';
+			var biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && !this.biblIsSection(this.biblId);
+			var sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
+			var personInSection = this.getPersonMeta();
 			return !isAnon && (personInSection || biblExists_notSection);
 		},
 		dlLabel: function dlLabel() {
@@ -1531,19 +1537,19 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 			return 's1';
 		},
 		setBiblData: function setBiblData() {
-			var _this9 = this;
+			var _this8 = this;
 
 			bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(bibl_url).then(function (response) {
-				return _this9.bibl_data = response.data;
+				return _this8.bibl_data = response.data;
 			});
 		},
 		setPpm: function setPpm() {
-			var _this10 = this;
+			var _this9 = this;
 
 			ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(ppm_url).then(function (response) {
-				return _this10.ppm = response.data;
+				return _this9.ppm = response.data;
 			});
 		},
 		pieceMeta: function pieceMeta(attribute) {
@@ -1586,13 +1592,13 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
 			return false;
 		},
 		lookupMonth: function lookupMonth(monthInt) {
-			monthConvert = { '01': 'Jan', '02': 'Feb', '03': 'Mar', '04': 'Apr', '05': 'May', '06': 'Jun', '07': 'Jul', '08': 'Aug', '09': 'Sep', '10': 'Oct', '11': 'Nov', '12': 'Dec' };
-			return monthConvert[monthInt];
+			var monthMap = { '01': 'Jan', '02': 'Feb', '03': 'Mar', '04': 'Apr', '05': 'May', '06': 'Jun', '07': 'Jul', '08': 'Aug', '09': 'Sep', '10': 'Oct', '11': 'Nov', '12': 'Dec' };
+			return monthMap[monthInt];
 		},
 		formatDate: function formatDate() {
 
-			d = Util.datePartsForIssueId(this.$root.state.content.issue.id);
-			date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
+			var d = Util.datePartsForIssueId(this.$root.state.content.issue.id);
+			var date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
 			return date;
 		}
 	},
@@ -1623,10 +1629,10 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('drawer', {
 	props: ['authorId', 'issueId', 'declsId'],
 	methods: {
 		getBibls: function getBibls() {
-			currentDecls = 'bibl-' + this.issueId + '-' + this.declsId;
-			bibls = [];
-			allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl;
-			for (k in allBibls) {
+			var currentDecls = 'bibl-' + this.issueId + '-' + this.declsId;
+			var bibls = [];
+			var allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl;
+			for (var k in allBibls) {
 				if (k != currentDecls) {
 					bibls.push(allBibls[k]);
 				}
@@ -1644,25 +1650,25 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('drawer', {
 			return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl);
 		},
 		getBlurb: function getBlurb() {
-			person = this.$root.xhrDataStore.personography.personIndex[this.authorId];
-			bioExists = !this.$root.empty(person.personMeta.personBio);
+			var person = this.$root.xhrDataStore.personography.personIndex[this.authorId];
+			var bioExists = !this.$root.empty(person.personMeta.personBio);
 			if (!bioExists) {
 				return '';
 			}
-			noteExists = !this.$root.empty(person.personMeta.personBio.personNote);
+			var noteExists = !this.$root.empty(person.personMeta.personBio.personNote);
 			return bioExists && noteExists ? person.personMeta.personBio.personNote : '';
 		}
 	},
 	created: function created() {
-		var _this11 = this;
+		var _this10 = this;
 
 		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/BroadwayJournal/personography/comprehensive/json').then(function (response) {
-			_this11.personography = response.data;
-			_this11.authorBibls = _this11.personography.personIndex[_this11.authorId];
+			_this10.personography = response.data;
+			_this10.authorBibls = _this10.personography.personIndex[_this10.authorId];
 		});
 		Event.$on('issueBiblSelected', function (bibl) {
-			_this11.showBibls = false;
-			_this11.authorBibls = _this11.personography.personIndex[_this11.authorId];
+			_this10.showBibls = false;
+			_this10.authorBibls = _this10.personography.personIndex[_this10.authorId];
 		});
 	},
 	data: function data() {
@@ -1695,14 +1701,15 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('abouts', {
 		}
 	},
 	created: function created() {
-		var _this12 = this;
+		var _this11 = this;
 
+		var url;
 		if (this.$root.xhrDataStore.abouts.about.length > 1) {
 			this.aboutText = this.$root.xhrDataStore.abouts.about;
 		} else {
 			url = '/api/broadwayjournal/abouts/about';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this12.aboutText = response.data;
+				return _this11.aboutText = response.data;
 			});
 		}
 		if (this.$root.xhrDataStore.abouts.tech.length > 1) {
@@ -1710,7 +1717,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('abouts', {
 		} else {
 			url = '/api/broadwayjournal/abouts/tech';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this12.techText = response.data;
+				return _this11.techText = response.data;
 			});
 		}
 	}
@@ -1743,8 +1750,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('creditsPerson', {
 			return affiliation;
 		},
 		getNote: function getNote() {
-			note = this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote;
-			return note;
+			return this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote;
 		},
 		hasBio: function hasBio() {
 			return !this.$root.empty(this.person.personMeta.personBio);
@@ -1757,10 +1763,10 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('creditsPerson', {
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('viewerSelector', {
 	created: function created() {
-		var _this13 = this;
+		var _this12 = this;
 
 		Event.$on('viewerSelected', function (viewer) {
-			_this13.active = viewer;
+			_this12.active = viewer;
 		});
 	},
 
@@ -1807,29 +1813,29 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('intraIssueNav', {
 		};
 	},
 	created: function created() {
-		var _this14 = this;
+		var _this13 = this;
 
 		this.issueID = this.$root.state.content.issue.id;
 		this.setTocContent();
 		Event.$on('issueSelected', function (id) {
-			_this14.issueID = id;
-			_this14.tocContent = false;
-			_this14.setTocContent();
+			_this13.issueID = id;
+			_this13.tocContent = false;
+			_this13.setTocContent();
 		});
 		Event.$on('issueBiblSelected', function (data) {
-			_this14.issueID = data.issueId;
-			_this14.tocContent = false;
-			_this14.setTocContent();
+			_this13.issueID = data.issueId;
+			_this13.tocContent = false;
+			_this13.setTocContent();
 		});
 	},
 
 	methods: {
 		setTocContent: function setTocContent() {
-			var _this15 = this;
+			var _this14 = this;
 
-			url = '/api/broadwayjournal/' + this.issueID + '/toc';
+			var url = '/api/broadwayjournal/' + this.issueID + '/toc';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this15.tocContent = response.data;
+				return _this14.tocContent = response.data;
 			});
 		},
 		getTocContent: function getTocContent() {
@@ -1853,16 +1859,16 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('toc-item', {
 		showChildren: function showChildren() {
 			if (this.toggled == false) {
 				//turn on this.$children
-				for (each in this.$children) {
+				for (var each in this.$children) {
 					this.$children[each].meSeen = true;
 					this.toggled = true;
 				}
 				//turn off everyone else's children
-				for (one in this.$parent.$children) {
+				for (var one in this.$parent.$children) {
 					//create new check for toc
 
 					if (this.$parent.$children[one].id != this.id) {
-						for (two in this.$parent.$children[one].$children) {
+						for (var two in this.$parent.$children[one].$children) {
 							this.$parent.$children[one].$children[two].meSeen = false;
 							//remove activeMonth from everyone else
 							this.$parent.$children[one].toggled = false;
@@ -1871,8 +1877,8 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('toc-item', {
 				}
 			} else {
 				//turn off this.children
-				for (each in this.$children) {
-					this.$children[each].meSeen = false;
+				for (var _each in this.$children) {
+					this.$children[_each].meSeen = false;
 					this.toggled = false;
 				}
 			}
@@ -1882,7 +1888,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('toc-item', {
 			if (this.id.pdf_index >= 1) {
 				Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index));
 			}
-			page = 1;
+			var page = 1;
 			if (this.id.pieces) {
 				for (key in this.id.pieces) {
 					page = parseInt(this.id.pieces[key].pdf_index);
@@ -1936,24 +1942,24 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('zoom-slider', {
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('pdf-viewer', {
 	created: function created() {
-		var _this16 = this;
+		var _this15 = this;
 
 		Event.$on('zoomUpdate', function (level, page) {
-			_this16.scale = level;
-			_this16.loadPdf(_this16.current_issue, page, _this16.scale);
+			_this15.scale = level;
+			_this15.loadPdf(_this15.current_issue, page, _this15.scale);
 		}), Event.$on('nextPage', function (page) {
-			_this16.current_page += 1;
-			_this16.loadPdf(_this16.current_issue, _this16.current_page);
+			_this15.current_page += 1;
+			_this15.loadPdf(_this15.current_issue, _this15.current_page);
 		}), Event.$on('issueSelected', function (id) {
-			_this16.current_page = 1;
-			_this16.current_issue = id;
-			_this16.loadPdf(_this16.current_issue, _this16.current_page);
+			_this15.current_page = 1;
+			_this15.current_issue = id;
+			_this15.loadPdf(_this15.current_issue, _this15.current_page);
 		}), Event.$on('pdf-pageChange', function (page) {
-			_this16.loadPdf(_this16.current_issue, page);
+			_this15.loadPdf(_this15.current_issue, page);
 		});
 		Event.$on('issueBiblSelected', function (bibl) {
-			_this16.current_issue = bibl.issueId;
-			_this16.current_page = bibl.pdf_index;
+			_this15.current_issue = bibl.issueId;
+			_this15.current_page = bibl.pdf_index;
 			//	    this.loadPdf(this.current_issue, bibl.pdf_index);
 		});
 	},
@@ -2056,16 +2062,16 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('pdf-viewer', {
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('tei-markup', {
 	created: function created() {
-		var _this17 = this;
+		var _this16 = this;
 
 		Event.$on('issueSelected', function (id) {
-			_this17.id = id;
-			_this17.biblId = '';
-			_this17.getText();
+			_this16.id = id;
+			_this16.biblId = '';
+			_this16.getText();
 		}), Event.$on('issueBiblSelected', function (bibl) {
-			_this17.biblId = bibl.decls_id;
-			_this17.id = bibl.issueId;
-			_this17.getText(_this17.biblId);
+			_this16.biblId = bibl.decls_id;
+			_this16.id = bibl.issueId;
+			_this16.getText(_this16.biblId);
 		});
 		this.id = this.$root.state.content.issue.id;
 		this.biblId = this.$root.state.content.issue.decls_id;
@@ -2075,7 +2081,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('tei-markup', {
 
 	methods: {
 		highlightText: function highlightText() {
-			needle = this.$root.state.content.searchString;
+			var needle = this.$root.state.content.searchString;
 			if (needle.length < 1) {
 				return this.issueText;
 			}
@@ -2084,12 +2090,12 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('tei-markup', {
 			return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>");
 		},
 		getText: function getText() {
-			var _this18 = this;
+			var _this17 = this;
 
 			if (this.biblId) {
-				url = '/api/broadwayjournal/' + this.id + '/piece-text/' + this.biblId;
-				__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-					return _this18.issueText = response.data;
+				var _url = '/api/broadwayjournal/' + this.id + '/piece-text/' + this.biblId;
+				__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(_url).then(function (response) {
+					return _this17.issueText = response.data;
 				});
 			} else {
 				this.issueText = '';
@@ -2098,20 +2104,20 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('tei-markup', {
 			}
 		},
 		getTocEntry: function getTocEntry(issueId, itemId) {
-			var _this19 = this;
+			var _this18 = this;
 
 			url = '/api/broadwayjournal/' + issueId + '/toc';
 			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
 				bibl = response.data;
 				for (item in bibl.toc) {
 					if (item == itemId) {
-						_this19.biblData = bibl.toc[item];
+						_this18.biblData = bibl.toc[item];
 						return;
 					}
 					if (bibl.toc[item].pieces) {
 						for (piece in bibl.toc[item].pieces) {
 							if (piece == itemId) {
-								_this19.biblData = bibl.toc[item].pieces.piece;
+								_this18.biblData = bibl.toc[item].pieces.piece;
 								return;
 							}
 						}
@@ -2145,14 +2151,14 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issue-month', {
 
 	props: { month: '', list: '' },
 	created: function created() {
-		var _this20 = this;
+		var _this19 = this;
 
 		Event.$on('issueSelected', function (id) {
-			for (each in _this20.$children) {
-				if (_this20.$children[each].id == id) {
-					_this20.$children[each].toggled = true;
+			for (var each in _this19.$children) {
+				if (_this19.$children[each].id == id) {
+					_this19.$children[each].toggled = true;
 				} else {
-					_this20.$children[each].toggled = false;
+					_this19.$children[each].toggled = false;
 				}
 			}
 		});
@@ -2162,14 +2168,14 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issue-month', {
 		showChildren: function showChildren() {
 			if (this.toggled == false) {
 				//turn on this.$children
-				for (each in this.$children) {
+				for (var each in this.$children) {
 					this.$children[each].meSeen = true;
 					this.toggled = true;
 				}
 				//turn off everyone else's children
-				for (one in this.$parent.$children) {
+				for (var one in this.$parent.$children) {
 					if (this.$parent.$children[one].list != this.list) {
-						for (two in this.$parent.$children[one].$children) {
+						for (var two in this.$parent.$children[one].$children) {
 							this.$parent.$children[one].$children[two].meSeen = false;
 							//remove activeMonth from everyone else
 							this.$parent.$children[one].toggled = false;
@@ -2178,8 +2184,8 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issue-month', {
 				}
 			} else {
 				//turn off this.children
-				for (each in this.$children) {
-					this.$children[each].meSeen = false;
+				for (var _each2 in this.$children) {
+					this.$children[_each2].meSeen = false;
 					this.toggled = false;
 				}
 			}
@@ -2212,14 +2218,14 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('interIssueNav', {
 
 	methods: {
 		lookupMonth: function lookupMonth(month) {
-			monthConvert = { 'JAN': '01', 'FEB': '02', 'MAR': '03', 'APR': '04', 'MAY': '05', 'JUN': '06', 'JUL': '07', 'AUG': '08', 'SEP': '09', 'OCT': '10', 'NOV': '11', 'DEC': '12' };
+			var monthConvert = { 'JAN': '01', 'FEB': '02', 'MAR': '03', 'APR': '04', 'MAY': '05', 'JUN': '06', 'JUL': '07', 'AUG': '08', 'SEP': '09', 'OCT': '10', 'NOV': '11', 'DEC': '12' };
 			return monthConvert[month];
 		},
 		lookup: function lookup(month, year) {
-			intMonth = this.lookupMonth(month);
-			ret = [];
-			for (j in this.$root.journals) {
-				tmp = this.$root.journals[j];
+			var intMonth = this.lookupMonth(month);
+			var ret = [];
+			for (var j in this.$root.journals) {
+				var tmp = this.$root.journals[j];
 				if (tmp.month == intMonth && tmp.year == year) {
 					ret.push(tmp.id);
 				}
@@ -2319,7 +2325,7 @@ window.Event = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a();
 
 new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 	el: '#vue-root',
-	components: { Example: __WEBPACK_IMPORTED_MODULE_2__components_Example___default.a },
+	components: { Container: __WEBPACK_IMPORTED_MODULE_2__components_Container___default.a },
 	// router,
 	methods: {
 		empty: function empty(o) {
@@ -2382,65 +2388,65 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 		}
 	},
 	created: function created() {
-		var _this21 = this;
+		var _this20 = this;
 
 		Event.$on('aboutsSelected', function (about) {
-			_this21.state.content.abouts = about;
+			_this20.state.content.abouts = about;
 		});
 		Event.$on('viewerSelected', function (viewer) {
-			return _this21.state.content.issue.viewer = viewer;
+			return _this20.state.content.issue.viewer = viewer;
 		});
 		Event.$on('activeContentChange', function (content) {
-			_this21.state.activeContent = content;
+			_this20.state.activeContent = content;
 		});
 		Event.$on('issueSelected', function (id) {
-			_this21.state.content.issue.id = id;
-			_this21.state.content.issue.page = 1;
-			_this21.state.content.issue.decls_id = '';
-			_this21.state.content.searchString = '';
+			_this20.state.content.issue.id = id;
+			_this20.state.content.issue.page = 1;
+			_this20.state.content.issue.decls_id = '';
+			_this20.state.content.searchString = '';
 		});
 		Event.$on('issueBiblSelected', function (bibl) {
-			_this21.state.content.issue.id = bibl.issueId;
-			_this21.state.content.issue.decls_id = bibl.decls_id;
+			_this20.state.content.issue.id = bibl.issueId;
+			_this20.state.content.issue.decls_id = bibl.decls_id;
 		});
 		Event.$on('pdf-pageChange', function (page) {
-			_this21.state.content.issue.page = page;
+			_this20.state.content.issue.page = page;
 		});
 		Event.$on('searchSubmitted', function (searchString) {
-			_this21.state.content.searchString = searchString;
+			_this20.state.content.searchString = searchString;
 		});
 		// get abouts data
 		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/credits').then(function (response) {
-			return _this21.xhrDataStore.abouts.credits = response.data;
+			return _this20.xhrDataStore.abouts.credits = response.data;
 		});
 		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/about').then(function (response) {
-			return _this21.xhrDataStore.abouts.about = response.data;
+			return _this20.xhrDataStore.abouts.about = response.data;
 		});
 		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/tech').then(function (response) {
-			return _this21.xhrDataStore.abouts.tech = response.data;
+			return _this20.xhrDataStore.abouts.tech = response.data;
 		});
 		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/personography').then(function (response) {
-			return _this21.xhrDataStore.abouts.personographyDescription = response.data;
+			return _this20.xhrDataStore.abouts.personographyDescription = response.data;
 		});
 
 		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/BroadwayJournal/personography/comprehensive/json').then(function (response) {
-			return _this21.xhrDataStore.personography = response.data;
+			return _this20.xhrDataStore.personography = response.data;
 		});
 
 		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/all-issues/json').then(function (response) {
-			_this21.journals = response.data;
+			_this20.journals = response.data;
 
-			for (issue in _this21.journals) {
-				id = _this21.journals[issue];
+			for (var issue in _this20.journals) {
+				var id = _this20.journals[issue];
 				var iid = Util.datePartsForIssueId(id);
-				_this21.journals[issue] = {
+				_this20.journals[issue] = {
 					'id': id,
 					'year': iid.year,
 					'month': iid.month,
 					'day': iid.day
 				};
-				if (_this21.years.indexOf(iid.year) == -1) {
-					_this21.years.push(iid.year);
+				if (_this20.years.indexOf(iid.year) == -1) {
+					_this20.years.push(iid.year);
 				}
 			}
 		});
@@ -2448,28 +2454,28 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 });
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(11);
+module.exports = __webpack_require__(12);
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(0);
-var bind = __webpack_require__(7);
-var Axios = __webpack_require__(13);
-var defaults = __webpack_require__(1);
+var bind = __webpack_require__(8);
+var Axios = __webpack_require__(14);
+var defaults = __webpack_require__(2);
 
 /**
  * Create an instance of Axios
@@ -2502,15 +2508,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(4);
-axios.CancelToken = __webpack_require__(12);
-axios.isCancel = __webpack_require__(5);
+axios.Cancel = __webpack_require__(5);
+axios.CancelToken = __webpack_require__(13);
+axios.isCancel = __webpack_require__(6);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(27);
+axios.spread = __webpack_require__(28);
 
 module.exports = axios;
 
@@ -2519,13 +2525,13 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(4);
+var Cancel = __webpack_require__(5);
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -2583,18 +2589,18 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var defaults = __webpack_require__(1);
+var defaults = __webpack_require__(2);
 var utils = __webpack_require__(0);
-var InterceptorManager = __webpack_require__(14);
-var dispatchRequest = __webpack_require__(15);
-var isAbsoluteURL = __webpack_require__(23);
-var combineURLs = __webpack_require__(21);
+var InterceptorManager = __webpack_require__(15);
+var dispatchRequest = __webpack_require__(16);
+var isAbsoluteURL = __webpack_require__(24);
+var combineURLs = __webpack_require__(22);
 
 /**
  * Create a new instance of Axios
@@ -2675,7 +2681,7 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2734,16 +2740,16 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(0);
-var transformData = __webpack_require__(18);
-var isCancel = __webpack_require__(5);
-var defaults = __webpack_require__(1);
+var transformData = __webpack_require__(19);
+var isCancel = __webpack_require__(6);
+var defaults = __webpack_require__(2);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -2820,7 +2826,7 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2846,13 +2852,13 @@ module.exports = function enhanceError(error, config, code, response) {
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createError = __webpack_require__(6);
+var createError = __webpack_require__(7);
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -2878,7 +2884,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2905,7 +2911,7 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2948,7 +2954,7 @@ module.exports = btoa;
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3023,7 +3029,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3042,7 +3048,7 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3102,7 +3108,7 @@ module.exports = (
 
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3123,7 +3129,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3198,7 +3204,7 @@ module.exports = (
 
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3217,7 +3223,7 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3261,7 +3267,7 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3295,7 +3301,48 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 28 */
+/* 29 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vueHeader__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vueHeader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vueHeader__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vueContent__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vueContent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__vueContent__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vueFooter__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vueFooter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__vueFooter__);
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = {
+    components: { vueHeader: __WEBPACK_IMPORTED_MODULE_0__vueHeader___default.a, vueContent: __WEBPACK_IMPORTED_MODULE_1__vueContent___default.a, vueFooter: __WEBPACK_IMPORTED_MODULE_2__vueFooter___default.a },
+    created: function created() {
+        var _this = this;
+
+        Event.$on('toggleContrast', function () {
+            _this.contrast = _this.$root.state.contrast;
+        });
+    },
+
+    methods: {
+        contrastString: function contrastString() {
+            return this.$root.state.contrast + 'Contrast';
+        }
+    }
+};
+
+/***/ }),
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3315,31 +3362,45 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = {
-    mounted: function mounted() {
-        console.log('Component mounted.');
+    methods: {
+        resetSearchString: function resetSearchString() {
+            this.searchString = this.$root.state.content.searchString = '';
+        },
+        toggleContrast: function toggleContrast() {
+            this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
+            Event.$emit('toggleContrast');
+        },
+        searchSubmitted: function searchSubmitted() {
+            Event.$emit('activeContentChange', 'search');
+            Event.$emit('searchSubmitted', this.searchString);
+        }
+    },
+    data: function data() {
+        return {
+            searchString: ''
+        };
     }
 };
 
 /***/ }),
-/* 29 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Component = __webpack_require__(30)(
+var Component = __webpack_require__(1)(
   /* script */
-  __webpack_require__(28),
+  __webpack_require__(29),
   /* template */
-  __webpack_require__(31),
+  __webpack_require__(38),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/Example.vue"
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/Container.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] Example.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] Container.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -3348,9 +3409,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-38cf5998", Component.options)
+    hotAPI.createRecord("data-v-67c2336a", Component.options)
   } else {
-    hotAPI.reload("data-v-38cf5998", Component.options)
+    hotAPI.reload("data-v-67c2336a", Component.options)
   }
 })()}
 
@@ -3358,89 +3419,216 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 30 */
-/***/ (function(module, exports) {
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = function normalizeComponent (
-  rawScriptExports,
-  compiledTemplate,
-  scopeId,
-  cssModules
-) {
-  var esModule
-  var scriptExports = rawScriptExports = rawScriptExports || {}
+var Component = __webpack_require__(1)(
+  /* script */
+  null,
+  /* template */
+  __webpack_require__(36),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueContent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] vueContent.vue: functional components are not supported with templates, they should use render functions.")}
 
-  // ES6 modules interop
-  var type = typeof rawScriptExports.default
-  if (type === 'object' || type === 'function') {
-    esModule = rawScriptExports
-    scriptExports = rawScriptExports.default
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-3681eb99", Component.options)
+  } else {
+    hotAPI.reload("data-v-3681eb99", Component.options)
   }
+})()}
 
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // render functions
-  if (compiledTemplate) {
-    options.render = compiledTemplate.render
-    options.staticRenderFns = compiledTemplate.staticRenderFns
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = scopeId
-  }
-
-  // inject cssModules
-  if (cssModules) {
-    var computed = options.computed || (options.computed = {})
-    Object.keys(cssModules).forEach(function (key) {
-      var module = cssModules[key]
-      computed[key] = function () { return module }
-    })
-  }
-
-  return {
-    esModule: esModule,
-    exports: scriptExports,
-    options: options
-  }
-}
+module.exports = Component.exports
 
 
 /***/ }),
-/* 31 */
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(1)(
+  /* script */
+  null,
+  /* template */
+  __webpack_require__(35),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueFooter.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] vueFooter.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2590f8ab", Component.options)
+  } else {
+    hotAPI.reload("data-v-2590f8ab", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(30),
+  /* template */
+  __webpack_require__(37),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueHeader.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] vueHeader.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-46c35c9d", Component.options)
+  } else {
+    hotAPI.reload("data-v-46c35c9d", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "container"
+    staticClass: "footer"
+  }, [_c('headerLogo'), _vm._v(" "), _vm._m(0)], 1)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
+    staticClass: "flex",
+    attrs: {
+      "id": "infoFooter"
+    }
   }, [_c('div', {
-    staticClass: "row"
-  }, [_c('div', {
-    staticClass: "col-md-8 col-md-offset-2"
-  }, [_c('div', {
-    staticClass: "panel panel-default"
-  }, [_c('div', {
-    staticClass: "panel-heading"
-  }, [_vm._v("Example Component")]), _vm._v(" "), _c('div', {
-    staticClass: "panel-body"
-  }, [_vm._v("\n                    I'm an example component!\n                ")])])])])])
+    attrs: {
+      "id": "creativeCommons"
+    }
+  }, [_vm._v("\n        This work is licensed under a "), _c('a', {
+    attrs: {
+      "rel": "license",
+      "href": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  }, [_vm._v("Creative Commons Attribution 4.0 International License")]), _vm._v("."), _c('br'), _vm._v("\n\n        contact the "), _c('a', {
+    attrs: {
+      "href": "mailto:dsl@lsu.edu",
+      "target": "_blank"
+    }
+  }, [_vm._v("Digital Scholarship Lab")]), _vm._v(" at LSU Libraries with any questions or comments. ")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-38cf5998", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-2590f8ab", module.exports)
   }
 }
 
 /***/ }),
-/* 32 */
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "content"
+  }, [(this.$root.state.activeContent == 'abouts') ? _c('abouts') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'issues') ? _c('issue') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'personography') ? _c('personography') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'search') ? _c('searchResults') : _vm._e()], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-3681eb99", module.exports)
+  }
+}
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "header"
+  }, [_c('headerTitle'), _vm._v(" "), _c('headerNav'), _vm._v(" "), _c('div', {
+    staticClass: "contrast",
+    on: {
+      "click": _vm.toggleContrast
+    }
+  }, [_c('div', {
+    staticClass: "contrastTitle"
+  }, [_vm._v("High Contrast")]), _vm._v(" "), _vm._m(0)])], 1)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "contrastSwitch"
+  }, [_c('div', {
+    staticClass: "contrastOff"
+  }, [_vm._v("Off")]), _vm._v(" "), _c('div', {
+    staticClass: "contrastOn"
+  }, [_vm._v("On")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-46c35c9d", module.exports)
+  }
+}
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    class: _vm.contrastString(),
+    attrs: {
+      "id": "container"
+    }
+  }, [_c('vueHeader'), _vm._v(" "), _c('vueContent'), _vm._v(" "), _c('vueFooter')], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-67c2336a", module.exports)
+  }
+}
+
+/***/ }),
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12013,10 +12201,10 @@ Vue$3.compile = compileToFunctions;
 
 module.exports = Vue$3;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2), __webpack_require__(33)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(40)))
 
 /***/ }),
-/* 33 */
+/* 40 */
 /***/ (function(module, exports) {
 
 var g;
@@ -12043,11 +12231,11 @@ module.exports = g;
 
 
 /***/ }),
-/* 34 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(8);
-module.exports = __webpack_require__(9);
+__webpack_require__(9);
+module.exports = __webpack_require__(10);
 
 
 /***/ })

@@ -1,0 +1,8 @@
+<template>
+    <div class="content">
+        <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
+        <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
+        <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
+        <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
+    </div>
+</template>

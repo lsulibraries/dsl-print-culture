@@ -14,7 +14,7 @@
     </head>
     <body v-bind:class="normal">
       <div id="vue-root">
-              <example></example>
+          <container></container>
       </div>
       <script src="/js/app.js"></script>
         <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->

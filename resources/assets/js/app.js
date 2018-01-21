@@ -11,59 +11,7 @@ window.Util  = new Vue({
     }
 });
 
-Vue.component('container', {
-    created() {
-	Event.$on('toggleContrast', () => {
-	    this.contrast = this.$root.state.contrast;
-	})
-    },
-    methods: {
-	contrastString: function () {
-	    return this.$root.state.contrast + 'Contrast'
-	}
-    },
-    template: `
-        <div id="container" v-bind:class="contrastString()">
-          <vue-header></vue-header>
-	  <vue-content></vue-content>
-	  <vue-footer></vue-footer>
-	</div>
-	`,
-})
 
-Vue.component('vue-header',{
-    template: `
-        <div class="header">
-       	  <headerTitle></headerTitle>
-	  <headerNav></headerNav>
-      <div class="contrast" @click='toggleContrast'>
-        <div class="contrastTitle">High Contrast</div>
-        <div class="contrastSwitch">
-          <div class="contrastOff">Off</div>
-          <div class="contrastOn">On</div>
-        </div>
-      </div>
-    </div>
-	`,
-    methods: {
-	resetSearchString: function(){
-	    this.searchString = this.$root.state.content.searchString = ''
-	},
-	toggleContrast: function (){
-	    this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
-	    Event.$emit('toggleContrast');
-	},
-	searchSubmitted: function (){
-	    Event.$emit('activeContentChange', 'search')
-	    Event.$emit('searchSubmitted', this.searchString)
-	}
-    },
-    data(){
-	return {
-	    searchString: ''
-	}
-    }
-})
 
 Vue.component('headerLogo',{
     template: `
@@ -103,27 +51,6 @@ Vue.component('headerTitle',{
     `
 })
 
-Vue.component('vue-footer',{
-    template: `<div class='footer'>
-              <headerLogo></headerLogo>
-<section id='infoFooter' class='flex'><div id='creativeCommons'>
-This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.<br>
-
- contact the <a href='mailto:dsl@lsu.edu' target='_blank'>Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div></section>
-
-</div>`
-})
-
-Vue.component('vue-content',{
-    template: `
-        <div class="content">
-          <abouts v-if="this.$root.state.activeContent == 'abouts'"></abouts>
-          <issue v-if="this.$root.state.activeContent == 'issues'"></issue>
-          <personography  v-if="this.$root.state.activeContent == 'personography'"></personography>
-          <searchResults  v-if="this.$root.state.activeContent == 'search'"></searchResults>
-        </div>
-    `,
-})
 
 Vue.component('personography',{
     data(){
@@ -176,9 +103,9 @@ Vue.component('personIndex', {
 	}
     },
     created(){
-	rawIndex = this.$root.xhrDataStore.personography.personIndex
-        deduped = {};
-        entries = Object.entries(rawIndex)
+	    const rawIndex = this.$root.xhrDataStore.personography.personIndex
+        let deduped = {};
+        let entries = Object.entries(rawIndex)
         for (const [key, value] of entries) {
             if (Array.isArray(value)) {
                 console.log(key + ' has multiple records, arbitrarily(-ish) using the first...')
@@ -250,11 +177,11 @@ Vue.component('personMeta', {
             if (typeof personMeta.personRole !== 'string') {
                 return ''
             }
-            roles = Object.values(personMeta.personRole.split(' '))
-            ret = ''
-            for (role of roles) {
+            const roles = Object.values(personMeta.personRole.split(' '))
+            let ret = ''
+            for (let role of roles) {
                 if (role == 'Mentioned') {
-                    count = personMeta.personTotalMention
+                    let count = personMeta.personTotalMention
                     if (!personMeta.personTotalMention) {
                         console.log("totalMention missing for " + personMeta.personId)
                         count = '?'
@@ -262,7 +189,7 @@ Vue.component('personMeta', {
                     ret += role + ' (' + count + ')'
                 }
                 else if (role == 'Contributor') {
-                    count = personMeta.personTotalContrib
+                    let count = personMeta.personTotalContrib
                     if (!personMeta.personTotalContrib) {
                         console.log("totalContrib missing for " + personMeta.personId)
                         count = '?'
@@ -310,11 +237,11 @@ Vue.component('person', {
         this.activePerson = !this.activePerson;
             },
 	passesFilter: function () {
-	    passesString = false
-	    passesRole   = false
+	    let passesString = false
+	    let passesRole   = false
 
 	    if(this.filterString.length < 1){
-		passesString = true
+		  passesString = true
 	    }
 
             if((typeof this.person.personMeta.personName) !== 'string') {
@@ -335,11 +262,11 @@ Vue.component('person', {
 	    return passesString && passesRole
 	},
     getBlurb: function() {
-        bioExists = !this.$root.empty(this.person.personMeta.personBio)
+        let bioExists = !this.$root.empty(this.person.personMeta.personBio)
         if (!bioExists) {
             return ''
         }
-        noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote)
+        let noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote)
         return bioExists && noteExists ? this.person.personMeta.personBio.personNote : ''
     }
     },
@@ -384,7 +311,7 @@ Vue.component('biblPersonPieceMeta',{
     props: ['personPieceMeta'],
     methods: {
         showAuthorship: function () {
-            hasValue     = !this.$root.empty(this.personPieceMeta.personPiecePseudo)
+            let hasValue     = !this.$root.empty(this.personPieceMeta.personPiecePseudo)
             if(hasValue){
                 return true
             }
@@ -561,7 +488,7 @@ If the author is anonymous DO NOT provide certainty.`,
     },
     created() {
 	Event.$on('issueSelected', (id) => {
-	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
+	    let headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
         this.biblId = ''
 //	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
@@ -618,18 +545,18 @@ If the author is anonymous DO NOT provide certainty.`,
 	`,
     methods: {
         showBiblSectionMeta: function () {
-            biblIdSet  = this.biblId !== ''
+            const biblIdSet  = this.biblId !== ''
             if (!biblIdSet) {
                 return false
             }
-            metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
+            let metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
             return metaExists
         },
 	pdfMode: function () {
 	    return this.$root.state.content.issue.viewer == 'pdf'
 	},
 	haveData: function() {
-	    empty = this.$root.empty
+	    let empty = this.$root.empty
 	    if(empty(this.issueHeaderData)){
             console.log('headerData is empty')
 	    
@@ -650,7 +577,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	getSectionMeta: function () {
 	},
 	getIssueHeaderData: function () {
-	    headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
+	    let headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
 	},
 	getPersonId: function() {
@@ -665,7 +592,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	    return false
 	},
 	getPersonMeta: function (){
-	    pid = this.getPersonId()
+	    let pid = this.getPersonId()
 	    if(!pid){
 		return false
 	    }
@@ -677,7 +604,7 @@ If the author is anonymous DO NOT provide certainty.`,
 		    personViaf: false
 		}
 	    }
-        personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
+        let personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
 	    // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
 	    if(this.$root.empty(personMeta.personName)){
 		  return false
@@ -694,10 +621,10 @@ If the author is anonymous DO NOT provide certainty.`,
 	    return meta
 	},
 	drawerIsAvailable: function() {
-            isAnon = this.getPersonId() == 'anon'
-            biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId))
-            sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
-            personInSection = this.getPersonMeta()
+            let isAnon = this.getPersonId() == 'anon'
+            let biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId))
+            let sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
+            let personInSection = this.getPersonMeta()
 	    return !isAnon && (personInSection || biblExists_notSection)
 	},
 	dlLabel: function(){
@@ -759,13 +686,13 @@ If the author is anonymous DO NOT provide certainty.`,
 	    return false
 	},
         lookupMonth: function(monthInt){
-            monthConvert = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'}
-            return monthConvert[monthInt]
+            const monthMap = {'01':'Jan','02':'Feb','03':'Mar','04':'Apr','05':'May','06':'Jun','07':'Jul','08':'Aug','09':'Sep','10':'Oct','11':'Nov','12':'Dec'}
+            return monthMap[monthInt]
         },
         formatDate: function() {
 
-            d = Util.datePartsForIssueId(this.$root.state.content.issue.id)
-            date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
+            let d = Util.datePartsForIssueId(this.$root.state.content.issue.id)
+            let date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
             return date
         }
     },
@@ -828,10 +755,10 @@ Vue.component('drawer', {
     props: ['authorId', 'issueId', 'declsId'],
     methods: {
 	getBibls: function () {
-	    currentDecls = 'bibl-' + this.issueId + '-' + this.declsId
-	    bibls = []
-	    allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl
-	    for(k in allBibls){
+	    let currentDecls = 'bibl-' + this.issueId + '-' + this.declsId
+	    let bibls = []
+	    let allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl
+	    for(let k in allBibls){
 		if(k != currentDecls){
 		    bibls.push(allBibls[k])
 		}
@@ -849,12 +776,12 @@ Vue.component('drawer', {
 	    return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl)
 	},
     getBlurb: function() {
-        person = this.$root.xhrDataStore.personography.personIndex[this.authorId]
-        bioExists = !this.$root.empty(person.personMeta.personBio)
+        let person = this.$root.xhrDataStore.personography.personIndex[this.authorId]
+        let bioExists = !this.$root.empty(person.personMeta.personBio)
         if (!bioExists) {
             return ''
         }
-        noteExists = !this.$root.empty(person.personMeta.personBio.personNote)
+        let noteExists = !this.$root.empty(person.personMeta.personBio.personNote)
         return bioExists && noteExists ? person.personMeta.personBio.personNote : ''
     }
     },
@@ -921,6 +848,7 @@ Vue.component('abouts',{
 	},
     },
     created() {
+        var url;
 	if(this.$root.xhrDataStore.abouts.about.length > 1){
 	    this.aboutText = this.$root.xhrDataStore.abouts.about
 	}else{
@@ -981,8 +909,7 @@ Vue.component('creditsPerson', {
             return affiliation
         },
         getNote: function () {
-            note = this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote
-            return note
+            return this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote
         },
         hasBio: function () {
             return !this.$root.empty(this.person.personMeta.personBio)
@@ -1072,7 +999,7 @@ Vue.component('intraIssueNav',{
     },
     methods: {
 	setTocContent: function () {
-	    url= '/api/broadwayjournal/' + this.issueID + '/toc';
+	    let url = '/api/broadwayjournal/' + this.issueID + '/toc';
 	    axios.get(url).then(response => this.tocContent = response.data);
 	},
 	getTocContent: function () {
@@ -1100,16 +1027,16 @@ Vue.component('toc-item',{
 	    showChildren: function(){
 		if(this.toggled==false){
 		    //turn on this.$children
-		    for (each in this.$children){
+		    for (let each in this.$children){
 			this.$children[each].meSeen=true;
 			this.toggled=true;
 		    }
 		    //turn off everyone else's children
-		    for(one in this.$parent.$children){
+		    for(let one in this.$parent.$children){
 			//create new check for toc
 
 			if (this.$parent.$children[one].id != this.id){
-			    for(two in this.$parent.$children[one].$children){
+			    for(let two in this.$parent.$children[one].$children){
 				this.$parent.$children[one].$children[two].meSeen=false;
 				//remove activeMonth from everyone else
 				this.$parent.$children[one].toggled=false;
@@ -1118,7 +1045,7 @@ Vue.component('toc-item',{
 		    }
 		    else{
 			//turn off this.children
-			for (each in this.$children){
+			for (let each in this.$children){
 					this.$children[each].meSeen=false;
 					this.toggled=false;
 					}
@@ -1129,7 +1056,7 @@ Vue.component('toc-item',{
 		 if(this.id.pdf_index >= 1){
 		     Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index))
 		 }
-		 page = 1;
+		 let page = 1;
 		 if(this.id.pieces){
 		     for(key in this.id.pieces){
 			 page = parseInt(this.id.pieces[key].pdf_index);
@@ -1336,7 +1263,7 @@ Vue.component('tei-markup',{
     },
     methods: {
 	highlightText: function(){
-	    needle = this.$root.state.content.searchString
+	    let needle = this.$root.state.content.searchString
 	    if(needle.length < 1){
 		return this.issueText
 	    }
@@ -1346,7 +1273,7 @@ Vue.component('tei-markup',{
 	},
 	getText: function(){
 	    if(this.biblId){
-		url = '/api/broadwayjournal/'+ this.id + '/piece-text/' + this.biblId;
+		  let url = '/api/broadwayjournal/'+ this.id + '/piece-text/' + this.biblId;
 		axios.get(url).then(response => this.issueText = response.data);
 	    }else {
             this.issueText = ''
@@ -1407,7 +1334,7 @@ Vue.component('issue-month',{
 	props: {month: '',	list: ''},
 	created(){
 		Event.$on('issueSelected',(id) =>{
-			for(each in this.$children){
+			for(let each in this.$children){
 				if(this.$children[each].id==id){
 	    			this.$children[each].toggled=true;
 	    		}else{this.$children[each].toggled=false;}
@@ -1418,14 +1345,14 @@ Vue.component('issue-month',{
 	    showChildren: function(){
 		if(this.toggled==false){
 		    //turn on this.$children
-		    for (each in this.$children){
+		    for (let each in this.$children){
 			this.$children[each].meSeen=true;
 			this.toggled=true;
 		    }
 		    //turn off everyone else's children
-		    for(one in this.$parent.$children){
+		    for(let one in this.$parent.$children){
 			if (this.$parent.$children[one].list != this.list){
-			    for(two in this.$parent.$children[one].$children){
+			    for(let two in this.$parent.$children[one].$children){
 				this.$parent.$children[one].$children[two].meSeen=false;
 				//remove activeMonth from everyone else
 				this.$parent.$children[one].toggled=false;
@@ -1434,7 +1361,7 @@ Vue.component('issue-month',{
 		    }
 		    else{
 			//turn off this.children
-			for (each in this.$children){
+			for (let each in this.$children){
 					this.$children[each].meSeen=false;
 					this.toggled=false;
 					}
@@ -1477,14 +1404,14 @@ Vue.component('interIssueNav',{
     },
     methods:{
 	lookupMonth: function(month){
-	    monthConvert = {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'}
+	    let monthConvert = {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'}
 	    return monthConvert[month]
 	},
 	lookup: function(month, year){
-	    intMonth = this.lookupMonth(month);
-	    ret = []
-	    for(j in this.$root.journals){
-		tmp = this.$root.journals[j]
+	    let intMonth = this.lookupMonth(month);
+	    let ret = []
+	    for(const j in this.$root.journals){
+		let tmp = this.$root.journals[j]
 		if(tmp.month == intMonth && tmp.year == year){
 		    ret.push(tmp.id)
 		}
@@ -1627,11 +1554,11 @@ window.Event = new Vue();
 
 import Vue from 'vue';
 import axios from 'axios';
-import Example from './components/Example'
+import Container from './components/Container'
 
 new Vue({
 	el:'#vue-root',
-    components: { Example },
+    components: { Container },
     // router,
     methods: {
 	empty: function (o) {
@@ -1731,8 +1658,8 @@ new Vue({
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;
 
-	    for (issue in this.journals){
-		id = this.journals[issue]
+	    for (var issue in this.journals){
+		var id = this.journals[issue]
 		let iid   = Util.datePartsForIssueId(id);
 		this.journals[issue] = {
 		    'id':id,
