@@ -6,11 +6,6 @@
         <title>The Broadway Journal</title>
         <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
         <script src="https://use.fontawesome.com/feda5854d8.js"></script>              
-        <script>
-            window.Laravel = {!! json_encode([
-                'csrfToken' => csrf_token(),
-            ]) !!};
-        </script>
     </head>
     <body v-bind:class="normal">
       <div id="vue-root">

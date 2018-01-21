@@ -1,3 +1,4 @@
+import './bootstrap'
 window.Event = new Vue();
 window.Util  = new Vue({
     methods: {
@@ -1058,7 +1059,7 @@ Vue.component('toc-item',{
 		 }
 		 let page = 1;
 		 if(this.id.pieces){
-		     for(key in this.id.pieces){
+		     for(const key in this.id.pieces){
 			 page = parseInt(this.id.pieces[key].pdf_index);
 			 Event.$emit("pdf-pageChange",parseInt(this.id.pieces[key].pdf_index))
 			 break
@@ -1555,11 +1556,12 @@ window.Event = new Vue();
 import Vue from 'vue';
 import axios from 'axios';
 import Container from './components/Container'
+import router from './routes';
 
 new Vue({
 	el:'#vue-root',
     components: { Container },
-    // router,
+    router,
     methods: {
 	empty: function (o) {
 	    if(o === undefined){
