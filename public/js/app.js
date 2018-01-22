@@ -153,7 +153,8 @@ Vue.component('biblDisplay', {
     },
     template: `
         <div class="personListBibl">
-	  <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
+          <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
+          <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
           <personBibl v-if="biblActive" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
         </div>
 
@@ -174,14 +175,23 @@ Vue.component('biblDisplay', {
         })
     },
     methods: {
-	deDupeBibls: function(bibl){
-	    if(Object.keys(bibl).length < 3){
-		return bibl[0]
-	    }
-	    return bibl
-	}
-    }
+        deDupeBibls: function(bibl){
+            if(Object.keys(bibl).length < 3){
+                return bibl[0]
+            }
+            return bibl
+        },
+        getBlurb: function() {
+            bioExists = !this.$root.empty(this.person.personMeta.personBio)
+            if (!bioExists) {
+                return ''
+            }
+            noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote)
+            return bioExists && noteExists ? this.person.personMeta.personBio.personNote : ''
+        }
+     }
 })
+
 
 Vue.component('personIndex', {
     template: `
