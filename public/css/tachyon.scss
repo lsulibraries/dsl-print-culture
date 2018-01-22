@@ -1373,6 +1373,8 @@ canvas#pdf {
     align-items: center;
     flex-direction: column;
     flex-grow: 2;
+    width: 70%;
+    box-sizing: border-box;    
     p {
       width: 500px;
       }
