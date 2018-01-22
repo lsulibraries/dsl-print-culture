@@ -732,7 +732,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	},
 	drawerIsAvailable: function() {
             isAnon = this.getPersonId() == 'anon'
-            biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId))
+            biblExists_notSection = !this.biblIsSection(this.biblId) && this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson
             sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
             personInSection = this.getPersonMeta()
 	    return !isAnon && (personInSection || biblExists_notSection)
@@ -887,6 +887,9 @@ Vue.component('drawer', {
 	},
     getBlurb: function() {
         person = this.$root.xhrDataStore.personography.personIndex[this.authorId]
+        if (!this.$root.empty(person)) {
+            return ''
+        }
         bioExists = !this.$root.empty(person.personMeta.personBio)
         if (!bioExists) {
             return ''
