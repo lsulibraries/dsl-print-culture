@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "./";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 41);
+/******/ 	return __webpack_require__(__webpack_require__.s = 42);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -73,7 +73,7 @@
 "use strict";
 
 
-var bind = __webpack_require__(8);
+var bind = __webpack_require__(9);
 
 /*global toString:true*/
 
@@ -433,7 +433,7 @@ module.exports = function normalizeComponent (
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(0);
-var normalizeHeaderName = __webpack_require__(26);
+var normalizeHeaderName = __webpack_require__(27);
 
 var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 var DEFAULT_CONTENT_TYPE = {
@@ -450,10 +450,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(4);
+    adapter = __webpack_require__(5);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(4);
+    adapter = __webpack_require__(5);
   }
   return adapter;
 }
@@ -716,16 +716,22 @@ process.umask = function() { return 0; };
 /* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__(13);
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(0);
-var settle = __webpack_require__(18);
-var buildURL = __webpack_require__(21);
-var parseHeaders = __webpack_require__(27);
-var isURLSameOrigin = __webpack_require__(25);
-var createError = __webpack_require__(7);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(20);
+var settle = __webpack_require__(19);
+var buildURL = __webpack_require__(22);
+var parseHeaders = __webpack_require__(28);
+var isURLSameOrigin = __webpack_require__(26);
+var createError = __webpack_require__(8);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(21);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -821,7 +827,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(23);
+      var cookies = __webpack_require__(24);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -898,7 +904,7 @@ module.exports = function xhrAdapter(config) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -924,7 +930,7 @@ module.exports = Cancel;
 
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -936,13 +942,13 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(17);
+var enhanceError = __webpack_require__(18);
 
 /**
  * Create an Error with the specified message, config, error code, and response.
@@ -960,7 +966,7 @@ module.exports = function createError(message, config, code, response) {
 
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -978,2657 +984,7 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 9 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_axios__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Container__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Container___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Container__);
-var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
-
-window.Event = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a();
-window.Util = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
-	methods: {
-		datePartsForIssueId: function datePartsForIssueId(id) {
-			var ret = {};
-			ret.year = id.slice(0, 4);
-			ret.month = id.slice(4, 6);
-			ret.day = id.slice(-2);
-			return ret;
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('headerLogo', {
-	template: '\n\t<a href="http://lib.lsu.edu"  class="headerLogo"><div>\n          <img src="images/libraries_logo.png" alt="LSU Libraries logo"></img>\n        </div></a>\n    '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('headerNav', {
-	data: function data() {
-		return {
-			content: this.$root.state.activeContent
-		};
-	},
-
-	methods: {
-		activeContentClicked: function activeContentClicked(content) {
-			this.content = content;
-			Event.$emit('activeContentChange', content);
-		},
-		showSearch: function showSearch() {
-			return this.$root.state.activeContent == 'issues';
-		}
-	},
-	template: '\n\t<div class=\'headerNav\'>\n\t  <div v-bind:class="{active: this.content == \'issues\'}" @click="activeContentClicked(\'issues\')"><i class="fa fa-bookmark" aria-hidden="true"></i>Read Issues</div>\n\t<div v-bind:class="{active: this.content == \'personography\'}" @click="activeContentClicked(\'personography\')"><i class="fa fa-user-circle" aria-hidden="true"></i>Authors</div>\n        <div v-bind:class="{active: this.content == \'abouts\'}" @click="activeContentClicked(\'abouts\')"><i class="fa fa-flask" aria-hidden="true"></i>About</div>\n\t</div>\n\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('headerTitle', {
-	template: '\n\t<a href="." class="headerTitle">The<br>Broadway<br>Journal</a>\n    '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personography', {
-	data: function data() {
-		return {
-			modalActive: false,
-			personography: [],
-			chosen: ''
-		};
-	},
-
-	template: '\n        <div class="personography">\n        <div class="personographyAbout">Lorem ipsum</div>\n        <personFilter></personFilter>\n        <personIndex></personIndex>\n        </div>\n    '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personographyDescription', {
-	template: '\n\t<div class="personographyDiscription">\n          <div class="personographyDiscriptionHeader" v-html="this.personographyDescription"></div>\n\t  <div class="personographyDiscriptionText" ></div>\n        </div>\n\t',
-	data: function data() {
-		return {
-			personographyDescription: this.$root.xhrDataStore.abouts.personographyDescription
-		};
-	},
-	created: function created() {
-		var _this = this;
-
-		if (this.$root.xhrDataStore.abouts.personographyDescription.length > 1) {
-			this.aboutText = this.$root.xhrDataStore.abouts.personographyDescription;
-		} else {
-			url = '/api/broadwayjournal/abouts/personographyDescription';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this.personographyDescription = response.data;
-			});
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personIndex', {
-	template: '\n\t<div class=\'personIndex\' v-if="!this.$root.empty(this.index)">\n          <person v-for="personObj in this.index" :person="personObj"></person>\n        </div>\n\t',
-	data: function data() {
-		return {
-			index: {}
-		};
-	},
-	created: function created() {
-		var rawIndex = this.$root.xhrDataStore.personography.personIndex;
-		var deduped = {};
-		var entries = Object.entries(rawIndex);
-		var _iteratorNormalCompletion = true;
-		var _didIteratorError = false;
-		var _iteratorError = undefined;
-
-		try {
-			for (var _iterator = entries[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-				var _step$value = _slicedToArray(_step.value, 2),
-				    _key = _step$value[0],
-				    value = _step$value[1];
-
-				if (Array.isArray(value)) {
-					console.log(_key + ' has multiple records, arbitrarily(-ish) using the first...');
-					deduped[_key] = value[0];
-				} else {
-					deduped[_key] = value;
-				}
-			}
-		} catch (err) {
-			_didIteratorError = true;
-			_iteratorError = err;
-		} finally {
-			try {
-				if (!_iteratorNormalCompletion && _iterator.return) {
-					_iterator.return();
-				}
-			} finally {
-				if (_didIteratorError) {
-					throw _iteratorError;
-				}
-			}
-		}
-
-		this.index = deduped;
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personFilter', {
-	template: '\n      <div class="peopleFilters">\n\t<div class=\'personFilter\'>\n\t  <label for="personFilter" v-if="this.$root.state.contrast == \'high\'">Filter people</label>\n\t  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">\n        </div>\n\t<div class="roleFilter">\n        <div class="roleFilterContributor"     v-bind:class="{active: roleFilter == \'cont\'}" @click="updateRoleFilter(\'cont\')">Contributor</div>\n\t  <div class="roleFilterMentioned"     v-bind:class="{active: roleFilter == \'ment\'}" @click="updateRoleFilter(\'ment\')">Mentioned</div>\n\t  <div class="roleFilterEditor"        v-bind:class="{active: roleFilter == \'edit\'}" @click="updateRoleFilter(\'edit\')">Editor</div>\n\t  <div class="roleFilterCorrespondent" v-bind:class="{active: roleFilter == \'corr\'}" @click="updateRoleFilter(\'corr\')">Correspondent</div>\n\t <!-- <div class="numberFilterContributions" v-bind:class="{active: numFilter == \'num\'}" @click="updateRoleFilter(\'num\')">Contribution Number</div> -->\n        </div>\n      </div>\n\t',
-	methods: {
-		updateFilterString: function updateFilterString() {
-			Event.$emit('filterStringUpdated', this.filterString);
-		},
-		updateRoleFilter: function updateRoleFilter(role) {
-			this.roleFilter = role;
-			Event.$emit('filterRoleUpdated', this.roleFilter);
-		}
-	},
-	data: function data() {
-		return {
-			filterString: '',
-			roleFilter: ''
-		};
-	}
-});
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personMeta', {
-	template: '\n\t<div class="personMeta">\n\t  <div class="personName">{{this.getName()}}</div>\n\t  <div class="personRole">{{this.getRole(personMeta)}}</div>\n          <div class="personViaf">\n\t    <!--\n\t    <a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a>\n\t    -->\n          </div>\n        </div>\n\t',
-	props: ['personMeta'],
-	methods: {
-		getName: function getName() {
-			if (typeof this.personMeta.personName !== 'string') {
-				return this.personMeta.personId + ' (Full name not given)';
-			} else {
-				return this.personMeta.personName;
-			}
-		},
-		getRole: function getRole(personMeta) {
-			if (typeof personMeta.personRole !== 'string') {
-				return '';
-			}
-			var roles = Object.values(personMeta.personRole.split(' '));
-			var ret = '';
-			var _iteratorNormalCompletion2 = true;
-			var _didIteratorError2 = false;
-			var _iteratorError2 = undefined;
-
-			try {
-				for (var _iterator2 = roles[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
-					var role = _step2.value;
-
-					if (role == 'Mentioned') {
-						var count = personMeta.personTotalMention;
-						if (!personMeta.personTotalMention) {
-							console.log("totalMention missing for " + personMeta.personId);
-							count = '?';
-						}
-						ret += role + ' (' + count + ')';
-					} else if (role == 'Contributor') {
-						var _count = personMeta.personTotalContrib;
-						if (!personMeta.personTotalContrib) {
-							console.log("totalContrib missing for " + personMeta.personId);
-							_count = '?';
-						}
-						ret += role + ' (' + _count + ')';
-					} else {
-						ret += ' ' + role;
-					}
-				}
-			} catch (err) {
-				_didIteratorError2 = true;
-				_iteratorError2 = err;
-			} finally {
-				try {
-					if (!_iteratorNormalCompletion2 && _iterator2.return) {
-						_iterator2.return();
-					}
-				} finally {
-					if (_didIteratorError2) {
-						throw _iteratorError2;
-					}
-				}
-			}
-
-			return ret;
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('person', {
-	template: '\n      <div  class=\'person\' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">\n\t<personMeta :personMeta="person.personMeta"></personMeta>\n    <div class="personBlurb" v-if="this.getBlurb().length > 0 && showBibls">{{ this.getBlurb() }}</div>\n\t<div class="personListBibl">\n          <personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>\n\t</div>\n      </div>\n\t',
-	props: ['person'],
-	data: function data() {
-		return {
-			showBibls: false,
-			filterString: '',
-			filterRole: false,
-			activePerson: false
-		};
-	},
-
-	methods: {
-		deDupeBibls: function deDupeBibls(bibl) {
-			if (Object.keys(bibl).length < 3) {
-				return bibl[0];
-			}
-			return bibl;
-		},
-		toggleBibls: function toggleBibls() {
-			this.showBibls = !this.showBibls;
-			this.activePerson = !this.activePerson;
-		},
-		passesFilter: function passesFilter() {
-			var passesString = false;
-			var passesRole = false;
-
-			if (this.filterString.length < 1) {
-				passesString = true;
-			}
-
-			if (typeof this.person.personMeta.personName !== 'string') {
-				console.log(this.person.personMeta.personId + ' is missing a name!');
-				return true;
-			}
-
-			if (this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())) {
-				passesString = true;
-			}
-
-			if (!this.filterRole) {
-				passesRole = true;
-			} else if (!this.$root.empty(this.person.personMeta.personRole) && this.person.personMeta.personRole.toLowerCase().includes(this.filterRole.toLowerCase())) {
-				passesRole = true;
-			}
-
-			return passesString && passesRole;
-		},
-		getBlurb: function getBlurb() {
-			var bioExists = !this.$root.empty(this.person.personMeta.personBio);
-			if (!bioExists) {
-				return '';
-			}
-			var noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote);
-			return bioExists && noteExists ? this.person.personMeta.personBio.personNote : '';
-		}
-	},
-	created: function created() {
-		var _this2 = this;
-
-		Event.$on('filterStringUpdated', function (filterString) {
-			_this2.filterString = filterString;
-		});
-		Event.$on('filterRoleUpdated', function (filterRole) {
-			_this2.filterRole = filterRole;
-		});
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('biblIssueMeta', {
-	template: '\n\t<div class="issueMeta">\n\t  <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>\n\t  <div class="issueNum">No. {{issueMeta.issueNum}}</div>\n\t</div>\n    ',
-	props: ['issueMeta']
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('biblSectionMeta', {
-	template: '\n\t<div class="sectionMeta">\n\t  <div class="sectionTitle">{{sectionMeta.sectionTitle}}</div>\n        </div>\n    ',
-	props: ['sectionMeta']
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('biblPersonPieceMeta', {
-	template: '\n    <div class="personPieceMeta">\n    <!--\n    <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>\n    -->\n    <div class="authorShip" v-if="showAuthorship()" :title="this.getAuthorshipTitle()">{{this.getAuthorship()}}</div>\n    </div>\n    ',
-	props: ['personPieceMeta'],
-	methods: {
-		showAuthorship: function showAuthorship() {
-			var hasValue = !this.$root.empty(this.personPieceMeta.personPiecePseudo);
-			if (hasValue) {
-				return true;
-			}
-			return false;
-		},
-		hasUnusualAuthorship: function hasUnusualAuthorship() {
-			attested = this.personPieceMeta.authorShip.authorStatus == 'attested';
-			totallyCertain = this.personPieceMeta.authorShip.authorCertainty == 'high';
-			return !(attested && totallyCertain);
-		},
-		getAuthorship: function getAuthorship() {
-			return this.personPieceMeta.personPiecePseudo;
-		},
-		getAuthorshipTitle: function getAuthorshipTitle() {
-			return !this.$root.empty(this.personPieceMeta.authorShip) ? this.personPieceMeta.authorShip : '';
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('biblPieceMeta', {
-	template: '\n\t<div class="pieceMeta">\n\t  <h1 class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>\n        </div>\n    ',
-	props: ['pieceMeta', 'issueId'],
-	methods: {
-		goToPiece: function goToPiece() {
-			this.$root.state.content.issue.id = this.issueId;
-			this.$root.state.content.issue.decls_id = this.pieceMeta.pieceId;
-			this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex);
-
-			Event.$emit('activeContentChange', 'issues');
-			Event.$emit('close');
-			Event.$emit('issueBiblSelected', {
-				issueId: this.issueId,
-				pdf_index: this.pieceMeta.piecePdfIndex,
-				decls_id: this.pieceMeta.pieceId
-			});
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('personBibl', {
-	template: '\n\t<div class="personBibl">\n          <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>\n          <div class="pieceTitleContainer">\n          <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>\n          <biblIssueMeta v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMeta>\n          </div>\n          <biblPersonPieceMeta v-if="!this.$root.empty(bibl.personPieceMeta)" :personPieceMeta="bibl.personPieceMeta"></biblPersonPieceMeta>\n        </div>\n\t',
-	props: ['bibl']
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('searchResults', {
-	template: '\n\t<div class="searchResults">\n\t  <div class="searchResultsHeader" v-if="this.results.searchResult">\n\t    <div class="searchResultsTitle">Search Results</div>\n            <div class="searchResultsCount">{{this.searchResultCount()}}</div>\n            <div class="searchResultsString">{{this.searchString}}</div>\n      \t  </div>\n          <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>\n        </div>\n    ',
-	data: function data() {
-		return {
-			results: {},
-			searchString: this.$root.state.content.searchString
-		};
-	},
-	created: function created() {
-		var _this3 = this;
-
-		this.executeSearch();
-		Event.$on('searchSubmitted', function (searchString) {
-			_this3.searchString = searchString;
-			_this3.executeSearch();
-		});
-	},
-
-	methods: {
-		searchResultCount: function searchResultCount() {
-			return this.results.searchResult.length;
-		},
-		executeSearch: function executeSearch() {
-			var _this4 = this;
-
-			search_url = '/api/broadwayjournal/issue/search/' + this.searchString;
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(search_url).then(function (response) {
-				return _this4.results = response.data;
-			});
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('searchResult', {
-	props: ['result', 'searchString'],
-	methods: {
-		resultClicked: function resultClicked() {
-			this.$root.state.content.issue.id = this.result.issueMeta.issueId;
-			this.$root.state.content.issue.decls_id = this.result.pieceMeta.pieceId;
-
-			Event.$emit('activeContentChange', 'issues');
-			Event.$emit('issueBiblSelected', {
-				issueId: this.result.issueMeta.issueId,
-				pdf_index: 1,
-				decls_id: this.result.pieceMeta.pieceId
-			});
-		},
-		pieceTitle: function pieceTitle() {
-			if (this.$root.empty(this.result.pieceMeta.pieceTitle)) {
-				return "---No title found---";
-			}
-			return this.result.pieceMeta.pieceTitle;
-		}
-	},
-	template: '\n\t<div class="searchResult" @click="resultClicked">\n\t  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>\n            <div class="context">{{this.result.contextBefore}}<span class="searchHit">{{this.result.hit}}</span>{{this.result.contextAfter}}</div>\n\t</div>\n    '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueViewer', {
-	template: '\n\t<div class="viewer">\n\t  <transition name="fade"><pdf-viewer v-if="viewer == \'pdf\'"></pdf-viewer></transition>\n\t  <transition name="fade"><tei-markup v-if="viewer == \'text\'"></tei-markup></transition>\n\t</div>\n\t',
-	data: function data() {
-		return {
-			viewer: this.$root.state.content.issue.viewer
-		};
-	},
-	created: function created() {
-		var _this5 = this;
-
-		Event.$on('viewerSelected', function (viewer) {
-			_this5.viewer = viewer;
-		});
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issue', {
-	template: '\n        <div class="issue">\n    <interIssueNav></interIssueNav>\n\t  <div class="issueBody">\n\t    <viewerSelector></viewerSelector>\n\t    <issueHeader></issueHeader>\n\t    <issueViewer></issueViewer>\n\t  </div>\n        </div>\n\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issueHeader', {
-	data: function data() {
-		return {
-			authorShipLegend: 'Author will have 2-3 attributes: status, cert, and ref.\n\nStatus: identify as \u201Csupplied\u201D (journal doesn\u2019t say but you found it elsewhere), \u201Cattested\u201D (the journal says), \u201Cunknown\u201D (anonymous), or \u201Cinferred\u201D (journal provides a byline that doesn\u2019t provide full name, but makes it obvious, e.g. \u201CEAP\u201D).\n\nIf  you have only a pen name, but you know the author\'s real name, the author status should be "inferred," and the certainty will be "high," "medium," or "low," depending on what you\'ve found in your research. The name in the ref should be the author\'s real name.\n\nIf an article only has initials for a byline and you can\'t find a reasonable full-name match for the initials, the author status will be "unknown," but you will use the initials of the author instead of "anon" in the ref.\n\nCertainty: identify cert as \u201Chigh,\u201D \u201Cmedium,\u201D or \u201Clow.\u201D\nIf the author is anonymous DO NOT provide certainty.',
-			bibl_data: {},
-			ppm: {},
-			biblId: '',
-			showModal: false,
-			issueHeaderData: {}
-		};
-	},
-	created: function created() {
-		var _this6 = this;
-
-		Event.$on('issueSelected', function (id) {
-			var headerUrl = '/api/broadwayjournal/issue/' + _this6.$root.state.content.issue.id + '/header';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(headerUrl).then(function (response) {
-				return _this6.issueHeaderData = response.data;
-			});
-			_this6.biblId = '';
-			//	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
-			//	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
-			//	    this.setPpm()
-		});
-		Event.$on('issueBiblSelected', function (bibl) {
-			_this6.biblId = bibl.decls_id;
-			_this6.getIssueHeaderData();
-			//	    this.ppm = this.bibl_data = undefined
-			//	    this.setPpm()
-			//	    this.setBiblData()
-		});
-		Event.$on('close', function () {
-			_this6.showModal = false;
-		});
-
-		this.biblId = this.$root.state.content.issue.decls_id;
-		//	this.setPpm()
-		//	this.setBiblData()
-		this.getIssueHeaderData();
-	},
-
-	template: '\n        <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">\n         \n          <div class="issueInfo">\n              <div class=\'issueDate\'>{{this.formatDate()}}</div>\n              <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>\n          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta()"></biblSectionMeta>\n\n          </div>          \n          <div class="bibl" v-if="haveData()">\n            <div class="issue">\n              <a class="downloadLink" v-bind:href=\'stateHref()\'>\n                <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>\n                <div class="downloadText">View {{this.dlLabel()}}</div>\n              </a>\n              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>\n            </div>\n            <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>\n            <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->\n\n  <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>\n\n            <div class="issueData"></div>\n            <div class="authorShipLegend">{{this.authorShipLegend}}</div>\n            </div>\n  <!-- use the modal component, pass in the prop -->\n  <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">\n    <h3 slot="header">More from this author</h3>\n  </modal>\n\n        </div>\n\t',
-	methods: {
-		showBiblSectionMeta: function showBiblSectionMeta() {
-			var biblIdSet = this.biblId !== '';
-			if (!biblIdSet) {
-				return false;
-			}
-			var metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
-			return metaExists;
-		},
-		pdfMode: function pdfMode() {
-			return this.$root.state.content.issue.viewer == 'pdf';
-		},
-		haveData: function haveData() {
-			var empty = this.$root.empty;
-			if (empty(this.issueHeaderData)) {
-				console.log('headerData is empty');
-			}if (empty(this.issueHeaderData.listBibl)) {
-				console.log('issueHeaderData.listBibl is empty');
-			}
-			if (this.biblId == '') {
-				return false;
-			}
-			if (empty(this.issueHeaderData.listBibl[this.biblId])) {
-				console.log('listBibl does not exist for ' + this.biblId);
-			}
-			if (empty(this.issueHeaderData.issueMeta)) {
-				console.log('missing issueMeta');
-			}
-			return true;
-		},
-		getSectionMeta: function getSectionMeta() {},
-		getIssueHeaderData: function getIssueHeaderData() {
-			var _this7 = this;
-
-			var headerUrl = '/api/broadwayjournal/issue/' + this.$root.state.content.issue.id + '/header';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(headerUrl).then(function (response) {
-				return _this7.issueHeaderData = response.data;
-			});
-		},
-		getPersonId: function getPersonId() {
-			if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
-				if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)) {
-					return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0];
-				}
-			}
-			if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) {
-				return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0];
-			}
-			return false;
-		},
-		getPersonMeta: function getPersonMeta() {
-			var pid = this.getPersonId();
-			if (!pid) {
-				return false;
-			}
-			if (this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])) {
-				console.log('person ' + pid + ' not found!');
-				return {
-					personRole: 'unknown',
-					personName: 'unknown',
-					personViaf: false
-				};
-			}
-			var personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName };
-			// personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
-			if (this.$root.empty(personMeta.personName)) {
-				return false;
-			}
-			return personMeta;
-		},
-		getPersonPieceMeta: function getPersonPieceMeta() {
-			pid = this.getPersonId();
-			if (!pid) {
-				return false;
-			}
-			bid = 'bibl-' + this.issueHeaderData.issueMeta.issueId + '-' + this.biblId;
-			meta = this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta;
-			return meta;
-		},
-		drawerIsAvailable: function drawerIsAvailable() {
-			var isAnon = this.getPersonId() == 'anon';
-			var biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && !this.biblIsSection(this.biblId);
-			var sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
-			var personInSection = this.getPersonMeta();
-			return !isAnon && (personInSection || biblExists_notSection);
-		},
-		dlLabel: function dlLabel() {
-			if (this.$root.state.content.issue.viewer == 'pdf') {
-				return 'PDF';
-			} else {
-				return 'TEI';
-			}
-		},
-		firstSection: function firstSection() {
-			return 's1';
-		},
-		setBiblData: function setBiblData() {
-			var _this8 = this;
-
-			bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(bibl_url).then(function (response) {
-				return _this8.bibl_data = response.data;
-			});
-		},
-		setPpm: function setPpm() {
-			var _this9 = this;
-
-			ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(ppm_url).then(function (response) {
-				return _this9.ppm = response.data;
-			});
-		},
-		pieceMeta: function pieceMeta(attribute) {
-			if (this.bibl_data[this.biblId].sectionMeta) {
-				return '';
-			}
-			return this.bibl_data[this.biblId].pieceMeta[attribute];
-		},
-		stateHref: function stateHref() {
-			var iid = Util.datePartsForIssueId(this.$root.state.content.issue.id);
-			var format = this.$root.state.content.issue.viewer;
-			if (format == 'text') {
-				format = 'tei';
-			}
-			return '/broadwayjournal/issue/' + iid.year + '/' + iid.month + '/' + iid.day + '/' + format;
-		},
-		sectionTitle: function sectionTitle(biblId) {
-			bibl = this.bibl_data[biblId];
-			if (!bibl.sectionMeta) {
-				return "sectionMeta is missing!";
-			}
-			if (this.biblIsSection(biblId)) {
-				return bibl.sectionMeta.sectionTitle;
-			} else if (this.biblBelongsToSection(biblId)) {
-				return this.bibl_data[bibl.sectionId].sectionMeta.sectionTitle;
-			} else {
-				return '';
-			}
-		},
-		biblIsSection: function biblIsSection(biblId) {
-			if (this.issueHeaderData.listBibl[biblId].sectionMeta) {
-				return true;
-			}
-			return false;
-		},
-		biblBelongsToSection: function biblBelongsToSection(biblId) {
-			if (this.bibl_data[biblId].sectionId) {
-				return true;
-			}
-			return false;
-		},
-		lookupMonth: function lookupMonth(monthInt) {
-			var monthMap = { '01': 'Jan', '02': 'Feb', '03': 'Mar', '04': 'Apr', '05': 'May', '06': 'Jun', '07': 'Jul', '08': 'Aug', '09': 'Sep', '10': 'Oct', '11': 'Nov', '12': 'Dec' };
-			return monthMap[monthInt];
-		},
-		formatDate: function formatDate() {
-
-			var d = Util.datePartsForIssueId(this.$root.state.content.issue.id);
-			var date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
-			return date;
-		}
-	},
-
-	mounted: function mounted() {
-		//	Event.$emit('issueSelected', this.$root.state.content.issue.id)
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('modal', {
-	data: function data() {
-		return {
-			authorShipLegend: 'Author will have 2-3 a',
-			bibl_data: {},
-			ppm: {},
-			biblId: 's1',
-			showModal: false,
-			issueHeaderData: {}
-		};
-	},
-
-	props: ['authorId', 'issueId', 'declsId'],
-	template: '<transition name="modal">\n    <div class="modal-mask">\n      <div class="modal-wrapper">\n        <div class="modal-container">\n\n          <div class="modal-header">\n            <slot name="header">\n              default header\n            </slot>\n          </div>\n\n          <div class="modal-body">\n            <slot name="body">\n            </slot>\n            <drawer  :authorId="this.authorId" :declsId="this.biblId" :issueId="this.issueId"></drawer>\n          </div>\n\n          <div class="modal-footer">\n            <slot name="footer">\n              default footer\n              <button class="modal-default-button" @click="$emit(\'close\')">\n                Close\n              </button>\n            </slot>\n          </div>\n        </div>\n      </div>\n    </div>\n  </transition>'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('drawer', {
-	template: '\n<div>\n    <div class="personBlurb">{{ this.getBlurb() }}</div>\n\t  <personBibl v-for="bibl in getBibls()" :bibl="bibl"></personBibl>\n        </div>\n\t',
-	props: ['authorId', 'issueId', 'declsId'],
-	methods: {
-		getBibls: function getBibls() {
-			var currentDecls = 'bibl-' + this.issueId + '-' + this.declsId;
-			var bibls = [];
-			var allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl;
-			for (var k in allBibls) {
-				if (k != currentDecls) {
-					bibls.push(allBibls[k]);
-				}
-			}
-			return bibls;
-		},
-		authorIsAnonymous: function authorIsAnonymous() {
-			return this.authorId == 'anon';
-		},
-		authorWroteSomethingBesidesThis: function authorWroteSomethingBesidesThis() {
-			pieces = Object.keys(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl).length;
-			return parseInt(pieces) > 1;
-		},
-		isBibls: function isBibls() {
-			return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl);
-		},
-		getBlurb: function getBlurb() {
-			var person = this.$root.xhrDataStore.personography.personIndex[this.authorId];
-			var bioExists = !this.$root.empty(person.personMeta.personBio);
-			if (!bioExists) {
-				return '';
-			}
-			var noteExists = !this.$root.empty(person.personMeta.personBio.personNote);
-			return bioExists && noteExists ? person.personMeta.personBio.personNote : '';
-		}
-	},
-	created: function created() {
-		var _this10 = this;
-
-		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/BroadwayJournal/personography/comprehensive/json').then(function (response) {
-			_this10.personography = response.data;
-			_this10.authorBibls = _this10.personography.personIndex[_this10.authorId];
-		});
-		Event.$on('issueBiblSelected', function (bibl) {
-			_this10.showBibls = false;
-			_this10.authorBibls = _this10.personography.personIndex[_this10.authorId];
-		});
-	},
-	data: function data() {
-		return {
-			personography: {},
-			authorBibls: {},
-			showBibls: false
-		};
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('logo', {
-	template: '\n\t<div class="logo" v-if="this.$root.state.active != \'issue\'">\n\t  <h1><div class="logoThe">The</div>\n\t  <div class="logoBroadway">Broadway</div>\n\t  <div class="logoJournal">Journal</div></h1>\n\t  <div class="logoSubtitle">A Digital Edition</div>\n\t</div>\n    '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('abouts', {
-	template: '\n       <div class="abouts">\n         <div class="aboutToggle">\n\t   <div class="about" v-bind:class="{active: this.abouts == \'about\'}" @click="selectMe(\'about\')">Project</div>\n\t   <div class="technical" v-bind:class="{active: this.abouts == \'tech\'}" @click="selectMe(\'tech\')">Methodology</div>\n\t   <div class="credits" v-bind:class="{active: this.abouts == \'credits\'}" @click="selectMe(\'credits\')">Staff</div>\n         </div>\n         <div class="aboutViewer">\n           <logo v-if="this.abouts == \'about\'"></logo>\n    \t   <div v-if="this.abouts == \'about\'" v-html="this.aboutText"></div>\n    \t   <div v-if="this.abouts == \'tech\'" v-html="this.techText"></div>\n    \t   <div v-if="this.abouts == \'credits\'">\n            <creditsPersonList></creditsPersonList>\n           </div>\n         </div>\n       </div>\n\t',
-	data: function data() {
-		return {
-			abouts: this.$root.state.content.abouts,
-			aboutText: this.$root.xhrDataStore.abouts.about,
-			techText: this.$root.xhrDataStore.abouts.tech
-		};
-	},
-
-	methods: {
-		selectMe: function selectMe(about) {
-			this.abouts = about;
-			Event.$emit('aboutsSelected', this.abouts);
-		}
-	},
-	created: function created() {
-		var _this11 = this;
-
-		var url;
-		if (this.$root.xhrDataStore.abouts.about.length > 1) {
-			this.aboutText = this.$root.xhrDataStore.abouts.about;
-		} else {
-			url = '/api/broadwayjournal/abouts/about';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this11.aboutText = response.data;
-			});
-		}
-		if (this.$root.xhrDataStore.abouts.tech.length > 1) {
-			this.techText = this.$root.xhrDataStore.abouts.tech;
-		} else {
-			url = '/api/broadwayjournal/abouts/tech';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this11.techText = response.data;
-			});
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('creditsPersonList', {
-	template: '\n    <div class="creditsPersonsList">\n        <div class="creditsPersonListActive">\n            <h2>Active</h2>\n            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == \'active\'"></creditsPerson>\n        </div>\n        <div class="creditsPersonListPast">\n            <h2>Past</h2>\n            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == \'past\'"></creditsPerson>\n        </div>\n    </div>\n\t',
-	methods: {
-		dataLoaded: function dataLoaded() {
-			return this.$root.empty(this.creditsData);
-		}
-	},
-	created: function created() {
-		this.creditsData = this.$root.xhrDataStore.personography.projectStaff;
-	},
-	data: function data() {
-		return {
-			creditsData: {}
-		};
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('creditsPerson', {
-	template: '\n\t<div class="creditsPerson">\n\t  <div class="creditsPersonName">{{person.personMeta.personName}}</div>\n      <div class="creditsPersonRoleName">{{ this.getRoleName() }}</div>\n\t  <!-- <div class="creditsPersonAffiliation" v-if="this.hasBio()">{{ this.getAffiliation() }}</div> -->\n \t  <div class="creditsPersonNote" v-if="this.hasBio()">{{ this.getNote() }}</div>\n        </div>\n\t',
-	props: ['person'],
-	methods: {
-		getAffiliation: function getAffiliation() {
-			console.log(this.person.personMeta.personName);
-			affiliation = this.$root.empty(this.person.personMeta.personBio.personAffiliation) ? '' : this.person.personMeta.personBio.personAffiliation;
-			return affiliation;
-		},
-		getNote: function getNote() {
-			return this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote;
-		},
-		hasBio: function hasBio() {
-			return !this.$root.empty(this.person.personMeta.personBio);
-		},
-		getRoleName: function getRoleName() {
-			return this.person.personMeta.personRoleName;
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('viewerSelector', {
-	created: function created() {
-		var _this12 = this;
-
-		Event.$on('viewerSelected', function (viewer) {
-			_this12.active = viewer;
-		});
-	},
-
-	template: '\n\t<div class=\'viewerSelector\' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">\n          <div class="viewerTitle">Toggle View</div>\n          <div class="viewerSwitch">\n            <div class="viewerText">\n              <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>\n              <div class="viewerTextLabel">Text</div>\n            </div>\n            <div class="viewerPdf">\n              <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>\n              <div class="viewerPdfLabel">PDF</div>\n            </div>\n          </div>\n\t</div>\n\t',
-	methods: {
-		isActive: function isActive(viewerType) {
-			return viewerType == this.active;
-		},
-		toggleViewer: function toggleViewer() {
-			this.pdfSelected = !this.pdfSelected;
-			this.active = this.active == 'pdf' ? 'text' : 'pdf';
-			Event.$emit('viewerSelected', this.active);
-		}
-	},
-	data: function data() {
-		return {
-			active: this.$root.state.content.issue.viewer,
-			pdfSelected: false
-		};
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('viewerSelectorButton', {
-	data: function data() {
-		return {
-			active: false
-		};
-	},
-
-	props: ['kind'],
-	methods: {
-		viewerSelected: function viewerSelected(viewer) {
-			Event.$emit('viewerSelected', viewer);
-		}
-	},
-	template: '<span v-bind:class="[{toggled: active}, kind]"  @click="viewerSelected(kind)"><slot></slot></span>'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('intraIssueNav', {
-	data: function data() {
-		return {
-			issueID: this.$root.state.content.issue.id,
-			tocContent: false
-		};
-	},
-	created: function created() {
-		var _this13 = this;
-
-		this.issueID = this.$root.state.content.issue.id;
-		this.setTocContent();
-		Event.$on('issueSelected', function (id) {
-			_this13.issueID = id;
-			_this13.tocContent = false;
-			_this13.setTocContent();
-		});
-		Event.$on('issueBiblSelected', function (data) {
-			_this13.issueID = data.issueId;
-			_this13.tocContent = false;
-			_this13.setTocContent();
-		});
-	},
-
-	methods: {
-		setTocContent: function setTocContent() {
-			var _this14 = this;
-
-			var url = '/api/broadwayjournal/' + this.issueID + '/toc';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				return _this14.tocContent = response.data;
-			});
-		},
-		getTocContent: function getTocContent() {
-			if (this.$root.empty(this.tocContent.toc)) {
-				alert('Toc content is empty for ' + this.issueId);
-				return false;
-			}
-			return true;
-		}
-	},
-	template: '\n\t<div class=\'intraIssueNav\'>\n          <div class=\'tocDropdown\'>Table of Contents</div>\n          <toc-item v-if="getTocContent()" v-for=\'id in tocContent.toc\' :id=\'id\'></toc-item>\n        </div>\n\t\t\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('toc-item', {
-	data: function data() {
-		return { toggled: false };
-	},
-
-	props: ['id'],
-	methods: {
-		showChildren: function showChildren() {
-			if (this.toggled == false) {
-				//turn on this.$children
-				for (var each in this.$children) {
-					this.$children[each].meSeen = true;
-					this.toggled = true;
-				}
-				//turn off everyone else's children
-				for (var one in this.$parent.$children) {
-					//create new check for toc
-
-					if (this.$parent.$children[one].id != this.id) {
-						for (var two in this.$parent.$children[one].$children) {
-							this.$parent.$children[one].$children[two].meSeen = false;
-							//remove activeMonth from everyone else
-							this.$parent.$children[one].toggled = false;
-						}
-					}
-				}
-			} else {
-				//turn off this.children
-				for (var _each in this.$children) {
-					this.$children[_each].meSeen = false;
-					this.toggled = false;
-				}
-			}
-		},
-		tocItemSelected: function tocItemSelected() {
-			this.showChildren();
-			if (this.id.pdf_index >= 1) {
-				Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index));
-			}
-			var page = 1;
-			if (this.id.pieces) {
-				for (key in this.id.pieces) {
-					page = parseInt(this.id.pieces[key].pdf_index);
-					Event.$emit("pdf-pageChange", parseInt(this.id.pieces[key].pdf_index));
-					break;
-				}
-			}
-			if (this.id.decls_id) {
-				if (!this.id.pdf_index) {
-					this.id.pdf_index = page;
-				}
-				this.id.issueId = this.$root.state.content.issue.id;
-				Event.$emit("issueBiblSelected", this.id);
-			}
-		}
-	},
-	template: '\n            <div class="tocItem" v-bind:class=\'id.type\'>\n\t      <div class=\'tocToggle\' @click=\'tocItemSelected\'>\n                <div class="tocTitle">{{id.title}}</div>\n            \t<div v-if=\'id.auth_name\' class="author">{{id.auth_name}}</div>\n                <div v-if=\'id.start\' class="pageNumber"></div>\n\t      </div>\n              <child-piece v-if=\'id.pieces\'  v-for=\'(piece, index) in  id.pieces\' :id=\'id.pieces[index]\' :pieceIndex=\'index\'></child-piece>\n            </div>\n\t '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('child-piece', {
-	data: function data() {
-		return { meSeen: false };
-	},
-
-	props: ['id', 'pieceIndex'],
-	methods: {
-		tocItemSelected: function tocItemSelected() {
-			Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index));
-			this.id.issueId = this.$root.state.content.issue.id;
-			Event.$emit("issueBiblSelected", this.id);
-		}
-	},
-	template: '\n            <div class="childPiece" @click=\'tocItemSelected\'>\n              <div class="childPieceTitle">{{id.title}}</div>\n              <div v-if=\'id.author\' class="childPieceAuthor">{{id.author}}</div>\n            <div>\n\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('zoom-slider', {
-	data: function data() {
-		return {
-			zoomLevel: 1.3
-		};
-	},
-
-	methods: {
-		zoomUpdate: function zoomUpdate() {
-			Event.$emit('zoomUpdate', this.zoomLevel, this.$root.state.content.issue.page);
-		}
-
-	},
-	template: '<input class=\'zoom\' id=\'zoomSlider\' min=\'1.3\' max=\'3.0\' step=\'0.1\' v-model="zoomLevel" @change=\'zoomUpdate(this.zoomLevel)\' type=\'range\'></input>'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('pdf-viewer', {
-	created: function created() {
-		var _this15 = this;
-
-		Event.$on('zoomUpdate', function (level, page) {
-			_this15.scale = level;
-			_this15.loadPdf(_this15.current_issue, page, _this15.scale);
-		}), Event.$on('nextPage', function (page) {
-			_this15.current_page += 1;
-			_this15.loadPdf(_this15.current_issue, _this15.current_page);
-		}), Event.$on('issueSelected', function (id) {
-			_this15.current_page = 1;
-			_this15.current_issue = id;
-			_this15.loadPdf(_this15.current_issue, _this15.current_page);
-		}), Event.$on('pdf-pageChange', function (page) {
-			_this15.loadPdf(_this15.current_issue, page);
-		});
-		Event.$on('issueBiblSelected', function (bibl) {
-			_this15.current_issue = bibl.issueId;
-			_this15.current_page = bibl.pdf_index;
-			//	    this.loadPdf(this.current_issue, bibl.pdf_index);
-		});
-	},
-	data: function data() {
-		return {
-			scale: 1.3,
-			current_page: this.$root.state.content.issue.page,
-			current_issue: this.$root.state.content.issue.id
-		};
-	},
-	mounted: function mounted() {
-		this.loadPdf(this.current_issue, this.current_page, this.scale);
-	},
-
-	template: '\n      <div id="pdf-viewer" class="pdf-viewer">\n\t<button class="next-page" @click="changePage(\'prev\')" v-if="this.$root.state.content.issue.page>1" >Prev Page</button>\n\t<button class="next-page" @click="changePage(\'next\')" v-if="this.$root.state.content.issue.page<16">Next Page</button>\n\t<canvas id="pdf" class="pdf-canvas"></canvas>\n      </div>\n\t', //<zoom-slider></zoom-slider>
-	methods: {
-		// reload: function(scale = this.scale){
-		// 	page.getViewport(scale);
-		// },
-		changePage: function changePage(direction) {
-
-			page = this.$root.state.content.issue.page;
-			switch (direction) {
-				case 'next':
-					if (page == 16) {
-						break;
-					} else {
-						page += 1;
-						//console.log(page);
-						break;
-					}
-				case 'prev':
-					if (page == 1) {
-						break;
-					} else {
-						page -= 1;
-						//console.log(page);
-						break;
-					}
-				default:
-					page = 1;
-			}
-			page = page <= 1 ? 1 : page;
-			Event.$emit('pdf-pageChange', page);
-		},
-		loadPdf: function loadPdf(issue) {
-			var page = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
-			var scale = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1.3;
-
-			// If absolute URL from the remote server is provided, configure the CORS
-			// header on that server.
-			if (this.$root.state.content.issue.viewer == 'text') {
-				return;
-			}
-			var url = '/storage/broadway-tei/pdf/BroadwayJournal_' + issue + '.pdf';
-			// var pdfData = atob($pdf);
-
-			// Prepare canvas using PDF page dimensions
-			var canvas = document.getElementById('pdf');
-			var new_canvas = document.createElement('canvas');
-			new_canvas.setAttribute("id", "pdf");
-			new_canvas.setAttribute("refs", "replaced");
-			canvas.parentNode.replaceChild(new_canvas, canvas);
-			PDFJS.disableWorker = true;
-
-			// The workerSrc property shall be specified.
-			PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
-
-			// Asynchronous download of PDF
-			var loadingTask = PDFJS.getDocument(url);
-			loadingTask.promise.then(function (pdf) {
-				if (page > pdf.pdfInfo.numPages) {
-					return;
-				}
-				// Fetch the first page
-				var pageNumber = parseInt(page);
-				pdf.getPage(pageNumber).then(function (page) {
-					//scale = 1.3
-					var viewport = page.getViewport(scale);
-					var canvas = document.getElementById('pdf');
-					var context = canvas.getContext('2d');
-					canvas.height = viewport.height; //1014
-					canvas.width = viewport.width; //735
-
-					// Render PDF page into canvas context
-					var renderContext = {
-						canvasContext: context,
-						viewport: viewport
-					};
-					var renderTask = page.render(renderContext);
-					renderTask.then(function () {});
-				});
-			}, function (reason) {
-				// PDF loading error
-				console.error(reason);
-			});
-		}
-	}
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('tei-markup', {
-	created: function created() {
-		var _this16 = this;
-
-		Event.$on('issueSelected', function (id) {
-			_this16.id = id;
-			_this16.biblId = '';
-			_this16.getText();
-		}), Event.$on('issueBiblSelected', function (bibl) {
-			_this16.biblId = bibl.decls_id;
-			_this16.id = bibl.issueId;
-			_this16.getText(_this16.biblId);
-		});
-		this.id = this.$root.state.content.issue.id;
-		this.biblId = this.$root.state.content.issue.decls_id;
-		this.page = this.$root.state.content.issue.page;
-		this.getText();
-	},
-
-	methods: {
-		highlightText: function highlightText() {
-			var needle = this.$root.state.content.searchString;
-			if (needle.length < 1) {
-				return this.issueText;
-			}
-			//Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
-			pattern = new RegExp('(' + needle + ')', 'gi');
-			return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>");
-		},
-		getText: function getText() {
-			var _this17 = this;
-
-			if (this.biblId) {
-				var _url = '/api/broadwayjournal/' + this.id + '/piece-text/' + this.biblId;
-				__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(_url).then(function (response) {
-					return _this17.issueText = response.data;
-				});
-			} else {
-				this.issueText = '';
-				// url = '/api/broadwayjournal/'+ this.id + '/issue-text';
-				// axios.get(url).then(response => this.issueText = response.data);
-			}
-		},
-		getTocEntry: function getTocEntry(issueId, itemId) {
-			var _this18 = this;
-
-			url = '/api/broadwayjournal/' + issueId + '/toc';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				bibl = response.data;
-				for (item in bibl.toc) {
-					if (item == itemId) {
-						_this18.biblData = bibl.toc[item];
-						return;
-					}
-					if (bibl.toc[item].pieces) {
-						for (piece in bibl.toc[item].pieces) {
-							if (piece == itemId) {
-								_this18.biblData = bibl.toc[item].pieces.piece;
-								return;
-							}
-						}
-					}
-				}
-			});
-		}
-	},
-	mounted: function mounted() {},
-	data: function data() {
-		return {
-			id: '',
-			page: '',
-			markdown: [],
-			issueText: '',
-			biblId: '',
-			biblData: {}
-		};
-	},
-
-	template: '\n      <div class=\'tei-markup\'>\n\t<div class=\'teiMarkup\' v-html="this.highlightText()"><div>\n      </div>\n\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('issue-month', {
-	data: function data() {
-		return {
-			toggled: false,
-			monthConvert: { 'JAN': '01', 'FEB': '02', 'MAR': '03', 'APR': '04', 'MAY': '05', 'JUN': '06', 'JUL': '07', 'AUG': '08', 'SEP': '09', 'OCT': '10', 'NOV': '11', 'DEC': '12' }
-		};
-	},
-
-	props: { month: '', list: '' },
-	created: function created() {
-		var _this19 = this;
-
-		Event.$on('issueSelected', function (id) {
-			for (var each in _this19.$children) {
-				if (_this19.$children[each].id == id) {
-					_this19.$children[each].toggled = true;
-				} else {
-					_this19.$children[each].toggled = false;
-				}
-			}
-		});
-	},
-
-	methods: {
-		showChildren: function showChildren() {
-			if (this.toggled == false) {
-				//turn on this.$children
-				for (var each in this.$children) {
-					this.$children[each].meSeen = true;
-					this.toggled = true;
-				}
-				//turn off everyone else's children
-				for (var one in this.$parent.$children) {
-					if (this.$parent.$children[one].list != this.list) {
-						for (var two in this.$parent.$children[one].$children) {
-							this.$parent.$children[one].$children[two].meSeen = false;
-							//remove activeMonth from everyone else
-							this.$parent.$children[one].toggled = false;
-						}
-					}
-				}
-			} else {
-				//turn off this.children
-				for (var _each2 in this.$children) {
-					this.$children[_each2].meSeen = false;
-					this.toggled = false;
-				}
-			}
-		}
-	},
-	template: '\n            <div v-bind:class="{activeMonth: toggled}">\n              <div @click="showChildren()">\n                <div class="singleText" >{{this.month}}</div>\n                <div class="indicatorIndex"></div>\n              </div>\n              <index-child :id="each" v-for="each in this.list"></index-child>\n            </div>\n        '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('index-child', {
-	data: function data() {
-		return { meSeen: false, toggled: false };
-	},
-
-	props: ['id'],
-	methods: {
-		selectIssue: function selectIssue(id) {
-			Event.$emit('issueSelected', id);
-		}
-	},
-	template: '\n\t<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">\n\t  <div v-bind:class="[{active: toggled}, \'childText\']" v-text="id.slice(-2)"></div>\n\t</div>'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('interIssueNav', {
-	data: function data() {
-		return {
-			months: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
-			hasData: this.$root.journals ? true : false
-		};
-	},
-
-	methods: {
-		lookupMonth: function lookupMonth(month) {
-			var monthConvert = { 'JAN': '01', 'FEB': '02', 'MAR': '03', 'APR': '04', 'MAY': '05', 'JUN': '06', 'JUL': '07', 'AUG': '08', 'SEP': '09', 'OCT': '10', 'NOV': '11', 'DEC': '12' };
-			return monthConvert[month];
-		},
-		lookup: function lookup(month, year) {
-			var intMonth = this.lookupMonth(month);
-			var ret = [];
-			for (var j in this.$root.journals) {
-				var tmp = this.$root.journals[j];
-				if (tmp.month == intMonth && tmp.year == year) {
-					ret.push(tmp.id);
-				}
-			}
-			return ret;
-		}
-	},
-	template: '\n            <div v-if="hasData" class="interIssueNav">\n              <div class="issueMask"></div>\n              <div class="issueIndex">\n                <div class="singleIndex">\n                  <div class="yearText">1845</div>\n                  <div class="indicatorYear"></div>\n                </div>\n                <issue-month v-for="month in this.months" :list=\'lookup(month,"1845")\' class="singleIndex" :month="month"></issue-month>\n              </div>\n              <div class="issueIndex">\n                <div class="singleIndex">\n                  <div class="yearText">1846</div>\n                  <div class="indicatorYear"></div>\n                </div>\n                <issue-month :month=\'this.months[0]\' :list=\'lookup("JAN","1846")\' class="singleIndex"></issue-month>\n              </div>\n              <intraIssueNav></intraIssueNav>\n            </div>\n        '
-});
-
-//Author-Modal Is UNUSED
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('author-modal', {
-	computed: { mentions: function mentions() {
-			'10';
-
-			return Math.floor(Math.random(1, 100) * 10);
-		},
-		contribs: function contribs() {
-			'10';
-
-			return Math.floor(Math.random(1, 100) * 10);
-		}
-
-	},
-	methods: {
-		closeModal: function closeModal() {
-			this.$parent.modalActive = false;
-		}
-	},
-	props: ['authInfo', 'authID'],
-	template: '\n            <transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">\n              <div class="modalContent">\n                <div v-for="(val, key) in authInfo" v-bind:class=\'key\'>{{val}}</div>\n                <div v-if=\'this.$parent.chosen.length  && this.authInfo.totalMentions\'  class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>\n                <div v-if=\'this.$parent.chosen.length  && this.authInfo.totalContribs\' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>\n                <div @click=\'closeModal()\' class="closeModal">Close</button>\n              </div>\n            </div></transition>\n        '
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('author-node', {
-	methods: {
-		modalClick: function modalClick(data) {
-			this.$parent.chosen = this.authID;
-			this.$parent.modalActive = true;
-		},
-		cardHover: function cardHover(data) {
-			this.$parent.chosen = this.authID;
-		}
-	},
-	computed: { authHref: function authHref() {
-			var path = 'author-' + this.authID;return path;
-		}
-	},
-	props: ['authInfo', 'authID'],
-	template: '\n\t\t<div class="node" @click=\'modalClick(authID)\' @mouseover=\'cardHover(authID)\'>\n\t\t\t<div v-bind:class="this.authInfo[\'role\']" v-bind:href="authHref" >{{this.authInfo[\'init\']}}</div>\n\t\t</div>\n\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('author-preview', {
-	props: ['authID', 'authInfo'],
-	template: '\n\t\t<div class="authorCard">\n\t\t\t<transition name="fade">\n\t\t\t<div  v-if=\'this.$parent.chosen.length\'>{{this.authInfo.name}}</div>\n\t\t\t</transition>\n\t\t</div>\n\t'
-});
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('footer-bar', {
-	data: function data() {
-		return {
-			fText: ['This work is licensed under a ', 'Creative Commons Attribution 4.0 International License', '. ', 'Contact the ', 'Digital Scholarship Lab', ' at LSU Libraries with any questions or comments.']
-		};
-	},
-
-	template: '\n\t\t<div>\n\t\t\t<div class="issueFooter"></div>\n\t\t\t<div class="footerBar">\n\t\t\t\t<div class="ccText">\n\t\t\t\t\t{{fText[0]}}\n\t\t\t\t\t<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">{{fText[1]}}</a>\n\t\t\t\t\t{{fText[2]}}\n\t\t\t\t\t<br>\n\t\t\t\t\t{{fText[3]}}\n\t\t\t\t\t<a href="mailto:dsl@lsu.edu" target="_blank">{{fText[4]}}</a>\n\t\t\t\t\t{{fText[5]}}\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>'
-});
-
-// import Vue from 'vue'
-// import VueRouter from 'vue-router'
-
-// Vue.use(VueRouter)
-
-// import App from './views/App'
-// import Hello from './views/Hello'
-// import Home from './views/Home'
-
-// const router = new VueRouter({
-//     mode: 'history',
-//     routes: [
-//         // {
-//         //     path: '/',
-//         //     name: 'home',
-//         //     component: mainComponent
-//         // },
-//         // {
-//         //     path: '/hello',
-//         //     name: 'hello',
-//         //     component: Hello,
-//         // },
-//     ],
-// });
-
-window.Event = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a();
-
-
-
-
-
-new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
-	el: '#vue-root',
-	components: { Container: __WEBPACK_IMPORTED_MODULE_2__components_Container___default.a },
-	// router,
-	methods: {
-		empty: function empty(o) {
-			if (o === undefined) {
-				return true;
-			}
-			if (Object.keys(o).length === 0 && o.constructor === Object) {
-				return true;
-			}
-			return false;
-		},
-		getTocEntry: function getTocEntry(issueId, itemId) {
-
-			url = '/api/broadwayjournal/' + issueId + '/toc';
-			__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(url).then(function (response) {
-				bibl = response.data;
-				for (item in bibl.toc) {
-					if (item == itemId) {
-						return bibl.toc[item];
-					}
-					if (bibl.toc[item].pieces) {
-						for (piece in bibl.toc[item].pieces) {
-							if (piece == itemId) {
-								return bibl.toc[item].pieces.piece;
-							}
-						}
-					}
-				}
-			});
-		}
-	},
-	data: {
-		journals: [],
-		years: [],
-		state: {
-			activeContent: 'abouts', // issues | personography | search
-			content: {
-				abouts: 'about', // technical | credits
-				issue: {
-					id: '18450104', //'18450104', // yyyy-mm-dd
-					viewer: 'text', // text|pdf
-					page: 1, // int
-					decls_id: ''
-				},
-				personography: {
-					filterString: '' },
-				searchResults: {
-					filter: '', // alpha | by date
-					query: '' },
-				searchString: ''
-			},
-			contrast: 'normal' },
-		xhrDataStore: {
-			abouts: {
-				about: '',
-				tech: '',
-				credits: {}
-			},
-			personography: {}
-		}
-	},
-	created: function created() {
-		var _this20 = this;
-
-		Event.$on('aboutsSelected', function (about) {
-			_this20.state.content.abouts = about;
-		});
-		Event.$on('viewerSelected', function (viewer) {
-			return _this20.state.content.issue.viewer = viewer;
-		});
-		Event.$on('activeContentChange', function (content) {
-			_this20.state.activeContent = content;
-		});
-		Event.$on('issueSelected', function (id) {
-			_this20.state.content.issue.id = id;
-			_this20.state.content.issue.page = 1;
-			_this20.state.content.issue.decls_id = '';
-			_this20.state.content.searchString = '';
-		});
-		Event.$on('issueBiblSelected', function (bibl) {
-			_this20.state.content.issue.id = bibl.issueId;
-			_this20.state.content.issue.decls_id = bibl.decls_id;
-		});
-		Event.$on('pdf-pageChange', function (page) {
-			_this20.state.content.issue.page = page;
-		});
-		Event.$on('searchSubmitted', function (searchString) {
-			_this20.state.content.searchString = searchString;
-		});
-		// get abouts data
-		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/credits').then(function (response) {
-			return _this20.xhrDataStore.abouts.credits = response.data;
-		});
-		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/about').then(function (response) {
-			return _this20.xhrDataStore.abouts.about = response.data;
-		});
-		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/tech').then(function (response) {
-			return _this20.xhrDataStore.abouts.tech = response.data;
-		});
-		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/broadwayjournal/abouts/personography').then(function (response) {
-			return _this20.xhrDataStore.abouts.personographyDescription = response.data;
-		});
-
-		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/BroadwayJournal/personography/comprehensive/json').then(function (response) {
-			return _this20.xhrDataStore.personography = response.data;
-		});
-
-		__WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('/api/all-issues/json').then(function (response) {
-			_this20.journals = response.data;
-
-			for (var issue in _this20.journals) {
-				var id = _this20.journals[issue];
-				var iid = Util.datePartsForIssueId(id);
-				_this20.journals[issue] = {
-					'id': id,
-					'year': iid.year,
-					'month': iid.month,
-					'day': iid.day
-				};
-				if (_this20.years.indexOf(iid.year) == -1) {
-					_this20.years.push(iid.year);
-				}
-			}
-		});
-	}
-});
-
-/***/ }),
 /* 10 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(12);
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-var bind = __webpack_require__(8);
-var Axios = __webpack_require__(14);
-var defaults = __webpack_require__(2);
-
-/**
- * Create an instance of Axios
- *
- * @param {Object} defaultConfig The default config for the instance
- * @return {Axios} A new instance of Axios
- */
-function createInstance(defaultConfig) {
-  var context = new Axios(defaultConfig);
-  var instance = bind(Axios.prototype.request, context);
-
-  // Copy axios.prototype to instance
-  utils.extend(instance, Axios.prototype, context);
-
-  // Copy context to instance
-  utils.extend(instance, context);
-
-  return instance;
-}
-
-// Create the default instance to be exported
-var axios = createInstance(defaults);
-
-// Expose Axios class to allow class inheritance
-axios.Axios = Axios;
-
-// Factory for creating new instances
-axios.create = function create(instanceConfig) {
-  return createInstance(utils.merge(defaults, instanceConfig));
-};
-
-// Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(5);
-axios.CancelToken = __webpack_require__(13);
-axios.isCancel = __webpack_require__(6);
-
-// Expose all/spread
-axios.all = function all(promises) {
-  return Promise.all(promises);
-};
-axios.spread = __webpack_require__(28);
-
-module.exports = axios;
-
-// Allow use of default import syntax in TypeScript
-module.exports.default = axios;
-
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var Cancel = __webpack_require__(5);
-
-/**
- * A `CancelToken` is an object that can be used to request cancellation of an operation.
- *
- * @class
- * @param {Function} executor The executor function.
- */
-function CancelToken(executor) {
-  if (typeof executor !== 'function') {
-    throw new TypeError('executor must be a function.');
-  }
-
-  var resolvePromise;
-  this.promise = new Promise(function promiseExecutor(resolve) {
-    resolvePromise = resolve;
-  });
-
-  var token = this;
-  executor(function cancel(message) {
-    if (token.reason) {
-      // Cancellation has already been requested
-      return;
-    }
-
-    token.reason = new Cancel(message);
-    resolvePromise(token.reason);
-  });
-}
-
-/**
- * Throws a `Cancel` if cancellation has been requested.
- */
-CancelToken.prototype.throwIfRequested = function throwIfRequested() {
-  if (this.reason) {
-    throw this.reason;
-  }
-};
-
-/**
- * Returns an object that contains a new `CancelToken` and a function that, when called,
- * cancels the `CancelToken`.
- */
-CancelToken.source = function source() {
-  var cancel;
-  var token = new CancelToken(function executor(c) {
-    cancel = c;
-  });
-  return {
-    token: token,
-    cancel: cancel
-  };
-};
-
-module.exports = CancelToken;
-
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var defaults = __webpack_require__(2);
-var utils = __webpack_require__(0);
-var InterceptorManager = __webpack_require__(15);
-var dispatchRequest = __webpack_require__(16);
-var isAbsoluteURL = __webpack_require__(24);
-var combineURLs = __webpack_require__(22);
-
-/**
- * Create a new instance of Axios
- *
- * @param {Object} instanceConfig The default config for the instance
- */
-function Axios(instanceConfig) {
-  this.defaults = instanceConfig;
-  this.interceptors = {
-    request: new InterceptorManager(),
-    response: new InterceptorManager()
-  };
-}
-
-/**
- * Dispatch a request
- *
- * @param {Object} config The config specific for this request (merged with this.defaults)
- */
-Axios.prototype.request = function request(config) {
-  /*eslint no-param-reassign:0*/
-  // Allow for axios('example/url'[, config]) a la fetch API
-  if (typeof config === 'string') {
-    config = utils.merge({
-      url: arguments[0]
-    }, arguments[1]);
-  }
-
-  config = utils.merge(defaults, this.defaults, { method: 'get' }, config);
-
-  // Support baseURL config
-  if (config.baseURL && !isAbsoluteURL(config.url)) {
-    config.url = combineURLs(config.baseURL, config.url);
-  }
-
-  // Hook up interceptors middleware
-  var chain = [dispatchRequest, undefined];
-  var promise = Promise.resolve(config);
-
-  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
-    chain.unshift(interceptor.fulfilled, interceptor.rejected);
-  });
-
-  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
-    chain.push(interceptor.fulfilled, interceptor.rejected);
-  });
-
-  while (chain.length) {
-    promise = promise.then(chain.shift(), chain.shift());
-  }
-
-  return promise;
-};
-
-// Provide aliases for supported request methods
-utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
-  /*eslint func-names:0*/
-  Axios.prototype[method] = function(url, config) {
-    return this.request(utils.merge(config || {}, {
-      method: method,
-      url: url
-    }));
-  };
-});
-
-utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
-  /*eslint func-names:0*/
-  Axios.prototype[method] = function(url, data, config) {
-    return this.request(utils.merge(config || {}, {
-      method: method,
-      url: url,
-      data: data
-    }));
-  };
-});
-
-module.exports = Axios;
-
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-
-function InterceptorManager() {
-  this.handlers = [];
-}
-
-/**
- * Add a new interceptor to the stack
- *
- * @param {Function} fulfilled The function to handle `then` for a `Promise`
- * @param {Function} rejected The function to handle `reject` for a `Promise`
- *
- * @return {Number} An ID used to remove interceptor later
- */
-InterceptorManager.prototype.use = function use(fulfilled, rejected) {
-  this.handlers.push({
-    fulfilled: fulfilled,
-    rejected: rejected
-  });
-  return this.handlers.length - 1;
-};
-
-/**
- * Remove an interceptor from the stack
- *
- * @param {Number} id The ID that was returned by `use`
- */
-InterceptorManager.prototype.eject = function eject(id) {
-  if (this.handlers[id]) {
-    this.handlers[id] = null;
-  }
-};
-
-/**
- * Iterate over all the registered interceptors
- *
- * This method is particularly useful for skipping over any
- * interceptors that may have become `null` calling `eject`.
- *
- * @param {Function} fn The function to call for each interceptor
- */
-InterceptorManager.prototype.forEach = function forEach(fn) {
-  utils.forEach(this.handlers, function forEachHandler(h) {
-    if (h !== null) {
-      fn(h);
-    }
-  });
-};
-
-module.exports = InterceptorManager;
-
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-var transformData = __webpack_require__(19);
-var isCancel = __webpack_require__(6);
-var defaults = __webpack_require__(2);
-
-/**
- * Throws a `Cancel` if cancellation has been requested.
- */
-function throwIfCancellationRequested(config) {
-  if (config.cancelToken) {
-    config.cancelToken.throwIfRequested();
-  }
-}
-
-/**
- * Dispatch a request to the server using the configured adapter.
- *
- * @param {object} config The config that is to be used for the request
- * @returns {Promise} The Promise to be fulfilled
- */
-module.exports = function dispatchRequest(config) {
-  throwIfCancellationRequested(config);
-
-  // Ensure headers exist
-  config.headers = config.headers || {};
-
-  // Transform request data
-  config.data = transformData(
-    config.data,
-    config.headers,
-    config.transformRequest
-  );
-
-  // Flatten headers
-  config.headers = utils.merge(
-    config.headers.common || {},
-    config.headers[config.method] || {},
-    config.headers || {}
-  );
-
-  utils.forEach(
-    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
-    function cleanHeaderConfig(method) {
-      delete config.headers[method];
-    }
-  );
-
-  var adapter = config.adapter || defaults.adapter;
-
-  return adapter(config).then(function onAdapterResolution(response) {
-    throwIfCancellationRequested(config);
-
-    // Transform response data
-    response.data = transformData(
-      response.data,
-      response.headers,
-      config.transformResponse
-    );
-
-    return response;
-  }, function onAdapterRejection(reason) {
-    if (!isCancel(reason)) {
-      throwIfCancellationRequested(config);
-
-      // Transform response data
-      if (reason && reason.response) {
-        reason.response.data = transformData(
-          reason.response.data,
-          reason.response.headers,
-          config.transformResponse
-        );
-      }
-    }
-
-    return Promise.reject(reason);
-  });
-};
-
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Update an Error with the specified config, error code, and response.
- *
- * @param {Error} error The error to update.
- * @param {Object} config The config.
- * @param {string} [code] The error code (for example, 'ECONNABORTED').
- @ @param {Object} [response] The response.
- * @returns {Error} The error.
- */
-module.exports = function enhanceError(error, config, code, response) {
-  error.config = config;
-  if (code) {
-    error.code = code;
-  }
-  error.response = response;
-  return error;
-};
-
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var createError = __webpack_require__(7);
-
-/**
- * Resolve or reject a Promise based on response status.
- *
- * @param {Function} resolve A function that resolves the promise.
- * @param {Function} reject A function that rejects the promise.
- * @param {object} response The response.
- */
-module.exports = function settle(resolve, reject, response) {
-  var validateStatus = response.config.validateStatus;
-  // Note: status is not exposed by XDomainRequest
-  if (!response.status || !validateStatus || validateStatus(response.status)) {
-    resolve(response);
-  } else {
-    reject(createError(
-      'Request failed with status code ' + response.status,
-      response.config,
-      null,
-      response
-    ));
-  }
-};
-
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-
-/**
- * Transform the data for a request or a response
- *
- * @param {Object|String} data The data to be transformed
- * @param {Array} headers The headers for the request or response
- * @param {Array|Function} fns A single function or Array of functions
- * @returns {*} The resulting transformed data
- */
-module.exports = function transformData(data, headers, fns) {
-  /*eslint no-param-reassign:0*/
-  utils.forEach(fns, function transform(fn) {
-    data = fn(data, headers);
-  });
-
-  return data;
-};
-
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
-
-var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
-
-function E() {
-  this.message = 'String contains an invalid character';
-}
-E.prototype = new Error;
-E.prototype.code = 5;
-E.prototype.name = 'InvalidCharacterError';
-
-function btoa(input) {
-  var str = String(input);
-  var output = '';
-  for (
-    // initialize result and counter
-    var block, charCode, idx = 0, map = chars;
-    // if the next str index does not exist:
-    //   change the mapping table to "="
-    //   check if d has no fractional digits
-    str.charAt(idx | 0) || (map = '=', idx % 1);
-    // "8 - idx % 1 * 8" generates the sequence 2, 4, 6, 8
-    output += map.charAt(63 & block >> 8 - idx % 1 * 8)
-  ) {
-    charCode = str.charCodeAt(idx += 3 / 4);
-    if (charCode > 0xFF) {
-      throw new E();
-    }
-    block = block << 8 | charCode;
-  }
-  return output;
-}
-
-module.exports = btoa;
-
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-
-function encode(val) {
-  return encodeURIComponent(val).
-    replace(/%40/gi, '@').
-    replace(/%3A/gi, ':').
-    replace(/%24/g, '$').
-    replace(/%2C/gi, ',').
-    replace(/%20/g, '+').
-    replace(/%5B/gi, '[').
-    replace(/%5D/gi, ']');
-}
-
-/**
- * Build a URL by appending params to the end
- *
- * @param {string} url The base of the url (e.g., http://www.google.com)
- * @param {object} [params] The params to be appended
- * @returns {string} The formatted url
- */
-module.exports = function buildURL(url, params, paramsSerializer) {
-  /*eslint no-param-reassign:0*/
-  if (!params) {
-    return url;
-  }
-
-  var serializedParams;
-  if (paramsSerializer) {
-    serializedParams = paramsSerializer(params);
-  } else if (utils.isURLSearchParams(params)) {
-    serializedParams = params.toString();
-  } else {
-    var parts = [];
-
-    utils.forEach(params, function serialize(val, key) {
-      if (val === null || typeof val === 'undefined') {
-        return;
-      }
-
-      if (utils.isArray(val)) {
-        key = key + '[]';
-      }
-
-      if (!utils.isArray(val)) {
-        val = [val];
-      }
-
-      utils.forEach(val, function parseValue(v) {
-        if (utils.isDate(v)) {
-          v = v.toISOString();
-        } else if (utils.isObject(v)) {
-          v = JSON.stringify(v);
-        }
-        parts.push(encode(key) + '=' + encode(v));
-      });
-    });
-
-    serializedParams = parts.join('&');
-  }
-
-  if (serializedParams) {
-    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
-  }
-
-  return url;
-};
-
-
-/***/ }),
-/* 22 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Creates a new URL by combining the specified URLs
- *
- * @param {string} baseURL The base URL
- * @param {string} relativeURL The relative URL
- * @returns {string} The combined URL
- */
-module.exports = function combineURLs(baseURL, relativeURL) {
-  return baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '');
-};
-
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-
-module.exports = (
-  utils.isStandardBrowserEnv() ?
-
-  // Standard browser envs support document.cookie
-  (function standardBrowserEnv() {
-    return {
-      write: function write(name, value, expires, path, domain, secure) {
-        var cookie = [];
-        cookie.push(name + '=' + encodeURIComponent(value));
-
-        if (utils.isNumber(expires)) {
-          cookie.push('expires=' + new Date(expires).toGMTString());
-        }
-
-        if (utils.isString(path)) {
-          cookie.push('path=' + path);
-        }
-
-        if (utils.isString(domain)) {
-          cookie.push('domain=' + domain);
-        }
-
-        if (secure === true) {
-          cookie.push('secure');
-        }
-
-        document.cookie = cookie.join('; ');
-      },
-
-      read: function read(name) {
-        var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
-        return (match ? decodeURIComponent(match[3]) : null);
-      },
-
-      remove: function remove(name) {
-        this.write(name, '', Date.now() - 86400000);
-      }
-    };
-  })() :
-
-  // Non standard browser env (web workers, react-native) lack needed support.
-  (function nonStandardBrowserEnv() {
-    return {
-      write: function write() {},
-      read: function read() { return null; },
-      remove: function remove() {}
-    };
-  })()
-);
-
-
-/***/ }),
-/* 24 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Determines whether the specified URL is absolute
- *
- * @param {string} url The URL to test
- * @returns {boolean} True if the specified URL is absolute, otherwise false
- */
-module.exports = function isAbsoluteURL(url) {
-  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
-  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
-  // by any combination of letters, digits, plus, period, or hyphen.
-  return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
-};
-
-
-/***/ }),
-/* 25 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-
-module.exports = (
-  utils.isStandardBrowserEnv() ?
-
-  // Standard browser envs have full support of the APIs needed to test
-  // whether the request URL is of the same origin as current location.
-  (function standardBrowserEnv() {
-    var msie = /(msie|trident)/i.test(navigator.userAgent);
-    var urlParsingNode = document.createElement('a');
-    var originURL;
-
-    /**
-    * Parse a URL to discover it's components
-    *
-    * @param {String} url The URL to be parsed
-    * @returns {Object}
-    */
-    function resolveURL(url) {
-      var href = url;
-
-      if (msie) {
-        // IE needs attribute set twice to normalize properties
-        urlParsingNode.setAttribute('href', href);
-        href = urlParsingNode.href;
-      }
-
-      urlParsingNode.setAttribute('href', href);
-
-      // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
-      return {
-        href: urlParsingNode.href,
-        protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
-        host: urlParsingNode.host,
-        search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
-        hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
-        hostname: urlParsingNode.hostname,
-        port: urlParsingNode.port,
-        pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
-                  urlParsingNode.pathname :
-                  '/' + urlParsingNode.pathname
-      };
-    }
-
-    originURL = resolveURL(window.location.href);
-
-    /**
-    * Determine if a URL shares the same origin as the current location
-    *
-    * @param {String} requestURL The URL to test
-    * @returns {boolean} True if URL shares the same origin, otherwise false
-    */
-    return function isURLSameOrigin(requestURL) {
-      var parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
-      return (parsed.protocol === originURL.protocol &&
-            parsed.host === originURL.host);
-    };
-  })() :
-
-  // Non standard browser envs (web workers, react-native) lack needed support.
-  (function nonStandardBrowserEnv() {
-    return function isURLSameOrigin() {
-      return true;
-    };
-  })()
-);
-
-
-/***/ }),
-/* 26 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-
-module.exports = function normalizeHeaderName(headers, normalizedName) {
-  utils.forEach(headers, function processHeader(value, name) {
-    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
-      headers[normalizedName] = value;
-      delete headers[name];
-    }
-  });
-};
-
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(0);
-
-/**
- * Parse headers into an object
- *
- * ```
- * Date: Wed, 27 Aug 2014 08:58:49 GMT
- * Content-Type: application/json
- * Connection: keep-alive
- * Transfer-Encoding: chunked
- * ```
- *
- * @param {String} headers Headers needing to be parsed
- * @returns {Object} Headers parsed into an object
- */
-module.exports = function parseHeaders(headers) {
-  var parsed = {};
-  var key;
-  var val;
-  var i;
-
-  if (!headers) { return parsed; }
-
-  utils.forEach(headers.split('\n'), function parser(line) {
-    i = line.indexOf(':');
-    key = utils.trim(line.substr(0, i)).toLowerCase();
-    val = utils.trim(line.substr(i + 1));
-
-    if (key) {
-      parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
-    }
-  });
-
-  return parsed;
-};
-
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Syntactic sugar for invoking a function and expanding an array for arguments.
- *
- * Common use case would be to use `Function.prototype.apply`.
- *
- *  ```js
- *  function f(x, y, z) {}
- *  var args = [1, 2, 3];
- *  f.apply(null, args);
- *  ```
- *
- * With `spread` this example can be re-written.
- *
- *  ```js
- *  spread(function(x, y, z) {})([1, 2, 3]);
- *  ```
- *
- * @param {Function} callback
- * @returns {Function}
- */
-module.exports = function spread(callback) {
-  return function wrap(arr) {
-    return callback.apply(null, arr);
-  };
-};
-
-
-/***/ }),
-/* 29 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vueHeader__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vueHeader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vueHeader__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vueContent__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vueContent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__vueContent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vueFooter__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vueFooter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__vueFooter__);
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = {
-    components: { vueHeader: __WEBPACK_IMPORTED_MODULE_0__vueHeader___default.a, vueContent: __WEBPACK_IMPORTED_MODULE_1__vueContent___default.a, vueFooter: __WEBPACK_IMPORTED_MODULE_2__vueFooter___default.a },
-    created: function created() {
-        var _this = this;
-
-        Event.$on('toggleContrast', function () {
-            _this.contrast = _this.$root.state.contrast;
-        });
-    },
-
-    methods: {
-        contrastString: function contrastString() {
-            return this.$root.state.contrast + 'Contrast';
-        }
-    }
-};
-
-/***/ }),
-/* 30 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = {
-    methods: {
-        resetSearchString: function resetSearchString() {
-            this.searchString = this.$root.state.content.searchString = '';
-        },
-        toggleContrast: function toggleContrast() {
-            this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
-            Event.$emit('toggleContrast');
-        },
-        searchSubmitted: function searchSubmitted() {
-            Event.$emit('activeContentChange', 'search');
-            Event.$emit('searchSubmitted', this.searchString);
-        }
-    },
-    data: function data() {
-        return {
-            searchString: ''
-        };
-    }
-};
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Component = __webpack_require__(1)(
-  /* script */
-  __webpack_require__(29),
-  /* template */
-  __webpack_require__(38),
-  /* scopeId */
-  null,
-  /* cssModules */
-  null
-)
-Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/Container.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] Container.vue: functional components are not supported with templates, they should use render functions.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-67c2336a", Component.options)
-  } else {
-    hotAPI.reload("data-v-67c2336a", Component.options)
-  }
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Component = __webpack_require__(1)(
-  /* script */
-  null,
-  /* template */
-  __webpack_require__(36),
-  /* scopeId */
-  null,
-  /* cssModules */
-  null
-)
-Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueContent.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] vueContent.vue: functional components are not supported with templates, they should use render functions.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3681eb99", Component.options)
-  } else {
-    hotAPI.reload("data-v-3681eb99", Component.options)
-  }
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Component = __webpack_require__(1)(
-  /* script */
-  null,
-  /* template */
-  __webpack_require__(35),
-  /* scopeId */
-  null,
-  /* cssModules */
-  null
-)
-Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueFooter.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] vueFooter.vue: functional components are not supported with templates, they should use render functions.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2590f8ab", Component.options)
-  } else {
-    hotAPI.reload("data-v-2590f8ab", Component.options)
-  }
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Component = __webpack_require__(1)(
-  /* script */
-  __webpack_require__(30),
-  /* template */
-  __webpack_require__(37),
-  /* scopeId */
-  null,
-  /* cssModules */
-  null
-)
-Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueHeader.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] vueHeader.vue: functional components are not supported with templates, they should use render functions.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-46c35c9d", Component.options)
-  } else {
-    hotAPI.reload("data-v-46c35c9d", Component.options)
-  }
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "footer"
-  }, [_c('headerLogo'), _vm._v(" "), _vm._m(0)], 1)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('section', {
-    staticClass: "flex",
-    attrs: {
-      "id": "infoFooter"
-    }
-  }, [_c('div', {
-    attrs: {
-      "id": "creativeCommons"
-    }
-  }, [_vm._v("\n        This work is licensed under a "), _c('a', {
-    attrs: {
-      "rel": "license",
-      "href": "http://creativecommons.org/licenses/by/4.0/"
-    }
-  }, [_vm._v("Creative Commons Attribution 4.0 International License")]), _vm._v("."), _c('br'), _vm._v("\n\n        contact the "), _c('a', {
-    attrs: {
-      "href": "mailto:dsl@lsu.edu",
-      "target": "_blank"
-    }
-  }, [_vm._v("Digital Scholarship Lab")]), _vm._v(" at LSU Libraries with any questions or comments. ")])])
-}]}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-2590f8ab", module.exports)
-  }
-}
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [(this.$root.state.activeContent == 'abouts') ? _c('abouts') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'issues') ? _c('issue') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'personography') ? _c('personography') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'search') ? _c('searchResults') : _vm._e()], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3681eb99", module.exports)
-  }
-}
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "header"
-  }, [_c('headerTitle'), _vm._v(" "), _c('headerNav'), _vm._v(" "), _c('div', {
-    staticClass: "contrast",
-    on: {
-      "click": _vm.toggleContrast
-    }
-  }, [_c('div', {
-    staticClass: "contrastTitle"
-  }, [_vm._v("High Contrast")]), _vm._v(" "), _vm._m(0)])], 1)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "contrastSwitch"
-  }, [_c('div', {
-    staticClass: "contrastOff"
-  }, [_vm._v("Off")]), _vm._v(" "), _c('div', {
-    staticClass: "contrastOn"
-  }, [_vm._v("On")])])
-}]}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-46c35c9d", module.exports)
-  }
-}
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    class: _vm.contrastString(),
-    attrs: {
-      "id": "container"
-    }
-  }, [_c('vueHeader'), _vm._v(" "), _c('vueContent'), _vm._v(" "), _c('vueFooter')], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-67c2336a", module.exports)
-  }
-}
-
-/***/ }),
-/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12201,10 +9557,2713 @@ Vue$3.compile = compileToFunctions;
 
 module.exports = Vue$3;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(40)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(41)))
+
+/***/ }),
+/* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__bootstrap__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__bootstrap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_axios__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Container__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Container___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_Container__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__routes__ = __webpack_require__(51);
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+
+window.Event = new __WEBPACK_IMPORTED_MODULE_1_vue___default.a();
+window.Util = new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
+	methods: {
+		datePartsForIssueId: function datePartsForIssueId(id) {
+			var ret = {};
+			ret.year = id.slice(0, 4);
+			ret.month = id.slice(4, 6);
+			ret.day = id.slice(-2);
+			return ret;
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('headerLogo', {
+	template: '\n\t<a href="http://lib.lsu.edu"  class="headerLogo"><div>\n          <img src="images/libraries_logo.png" alt="LSU Libraries logo"></img>\n        </div></a>\n    '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('headerNav', {
+	data: function data() {
+		return {
+			content: this.$root.state.activeContent
+		};
+	},
+
+	methods: {
+		activeContentClicked: function activeContentClicked(content) {
+			this.content = content;
+			Event.$emit('activeContentChange', content);
+		},
+		showSearch: function showSearch() {
+			return this.$root.state.activeContent == 'issues';
+		}
+	},
+	template: '\n\t<div class=\'headerNav\'>\n\t  <div v-bind:class="{active: this.content == \'issues\'}" @click="activeContentClicked(\'issues\')"><i class="fa fa-bookmark" aria-hidden="true"></i>Read Issues</div>\n\t<div v-bind:class="{active: this.content == \'personography\'}" @click="activeContentClicked(\'personography\')"><i class="fa fa-user-circle" aria-hidden="true"></i>Authors</div>\n        <div v-bind:class="{active: this.content == \'abouts\'}" @click="activeContentClicked(\'abouts\')"><i class="fa fa-flask" aria-hidden="true"></i>About</div>\n\t</div>\n\t'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('headerTitle', {
+	template: '\n\t<a href="." class="headerTitle">The<br>Broadway<br>Journal</a>\n    '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('personography', {
+	data: function data() {
+		return {
+			modalActive: false,
+			personography: [],
+			chosen: ''
+		};
+	},
+
+	template: '\n        <div class="personography">\n        <div class="personographyAbout">Lorem ipsum</div>\n        <personFilter></personFilter>\n        <personIndex></personIndex>\n        </div>\n    '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('personographyDescription', {
+	template: '\n\t<div class="personographyDiscription">\n          <div class="personographyDiscriptionHeader" v-html="this.personographyDescription"></div>\n\t  <div class="personographyDiscriptionText" ></div>\n        </div>\n\t',
+	data: function data() {
+		return {
+			personographyDescription: this.$root.xhrDataStore.abouts.personographyDescription
+		};
+	},
+	created: function created() {
+		var _this = this;
+
+		if (this.$root.xhrDataStore.abouts.personographyDescription.length > 1) {
+			this.aboutText = this.$root.xhrDataStore.abouts.personographyDescription;
+		} else {
+			url = '/api/broadwayjournal/abouts/personographyDescription';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(url).then(function (response) {
+				return _this.personographyDescription = response.data;
+			});
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('personIndex', {
+	template: '\n\t<div class=\'personIndex\' v-if="!this.$root.empty(this.index)">\n          <person v-for="personObj in this.index" :person="personObj"></person>\n        </div>\n\t',
+	data: function data() {
+		return {
+			index: {}
+		};
+	},
+	created: function created() {
+		var rawIndex = this.$root.xhrDataStore.personography.personIndex;
+		var deduped = {};
+		var entries = Object.entries(rawIndex);
+		var _iteratorNormalCompletion = true;
+		var _didIteratorError = false;
+		var _iteratorError = undefined;
+
+		try {
+			for (var _iterator = entries[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+				var _step$value = _slicedToArray(_step.value, 2),
+				    key = _step$value[0],
+				    value = _step$value[1];
+
+				if (Array.isArray(value)) {
+					console.log(key + ' has multiple records, arbitrarily(-ish) using the first...');
+					deduped[key] = value[0];
+				} else {
+					deduped[key] = value;
+				}
+			}
+		} catch (err) {
+			_didIteratorError = true;
+			_iteratorError = err;
+		} finally {
+			try {
+				if (!_iteratorNormalCompletion && _iterator.return) {
+					_iterator.return();
+				}
+			} finally {
+				if (_didIteratorError) {
+					throw _iteratorError;
+				}
+			}
+		}
+
+		this.index = deduped;
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('personFilter', {
+	template: '\n      <div class="peopleFilters">\n\t<div class=\'personFilter\'>\n\t  <label for="personFilter" v-if="this.$root.state.contrast == \'high\'">Filter people</label>\n\t  <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Filter people by name">\n        </div>\n\t<div class="roleFilter">\n        <div class="roleFilterContributor"     v-bind:class="{active: roleFilter == \'cont\'}" @click="updateRoleFilter(\'cont\')">Contributor</div>\n\t  <div class="roleFilterMentioned"     v-bind:class="{active: roleFilter == \'ment\'}" @click="updateRoleFilter(\'ment\')">Mentioned</div>\n\t  <div class="roleFilterEditor"        v-bind:class="{active: roleFilter == \'edit\'}" @click="updateRoleFilter(\'edit\')">Editor</div>\n\t  <div class="roleFilterCorrespondent" v-bind:class="{active: roleFilter == \'corr\'}" @click="updateRoleFilter(\'corr\')">Correspondent</div>\n\t <!-- <div class="numberFilterContributions" v-bind:class="{active: numFilter == \'num\'}" @click="updateRoleFilter(\'num\')">Contribution Number</div> -->\n        </div>\n      </div>\n\t',
+	methods: {
+		updateFilterString: function updateFilterString() {
+			Event.$emit('filterStringUpdated', this.filterString);
+		},
+		updateRoleFilter: function updateRoleFilter(role) {
+			this.roleFilter = role;
+			Event.$emit('filterRoleUpdated', this.roleFilter);
+		}
+	},
+	data: function data() {
+		return {
+			filterString: '',
+			roleFilter: ''
+		};
+	}
+});
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('personMeta', {
+	template: '\n\t<div class="personMeta">\n\t  <div class="personName">{{this.getName()}}</div>\n\t  <div class="personRole">{{this.getRole(personMeta)}}</div>\n          <div class="personViaf">\n\t    <!--\n\t    <a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a>\n\t    -->\n          </div>\n        </div>\n\t',
+	props: ['personMeta'],
+	methods: {
+		getName: function getName() {
+			if (typeof this.personMeta.personName !== 'string') {
+				return this.personMeta.personId + ' (Full name not given)';
+			} else {
+				return this.personMeta.personName;
+			}
+		},
+		getRole: function getRole(personMeta) {
+			if (typeof personMeta.personRole !== 'string') {
+				return '';
+			}
+			var roles = Object.values(personMeta.personRole.split(' '));
+			var ret = '';
+			var _iteratorNormalCompletion2 = true;
+			var _didIteratorError2 = false;
+			var _iteratorError2 = undefined;
+
+			try {
+				for (var _iterator2 = roles[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+					var role = _step2.value;
+
+					if (role == 'Mentioned') {
+						var count = personMeta.personTotalMention;
+						if (!personMeta.personTotalMention) {
+							console.log("totalMention missing for " + personMeta.personId);
+							count = '?';
+						}
+						ret += role + ' (' + count + ')';
+					} else if (role == 'Contributor') {
+						var _count = personMeta.personTotalContrib;
+						if (!personMeta.personTotalContrib) {
+							console.log("totalContrib missing for " + personMeta.personId);
+							_count = '?';
+						}
+						ret += role + ' (' + _count + ')';
+					} else {
+						ret += ' ' + role;
+					}
+				}
+			} catch (err) {
+				_didIteratorError2 = true;
+				_iteratorError2 = err;
+			} finally {
+				try {
+					if (!_iteratorNormalCompletion2 && _iterator2.return) {
+						_iterator2.return();
+					}
+				} finally {
+					if (_didIteratorError2) {
+						throw _iteratorError2;
+					}
+				}
+			}
+
+			return ret;
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('person', {
+	template: '\n      <div  class=\'person\' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">\n\t<personMeta :personMeta="person.personMeta"></personMeta>\n    <div class="personBlurb" v-if="this.getBlurb().length > 0 && showBibls">{{ this.getBlurb() }}</div>\n\t<div class="personListBibl">\n          <personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>\n\t</div>\n      </div>\n\t',
+	props: ['person'],
+	data: function data() {
+		return {
+			showBibls: false,
+			filterString: '',
+			filterRole: false,
+			activePerson: false
+		};
+	},
+
+	methods: {
+		deDupeBibls: function deDupeBibls(bibl) {
+			if (Object.keys(bibl).length < 3) {
+				return bibl[0];
+			}
+			return bibl;
+		},
+		toggleBibls: function toggleBibls() {
+			this.showBibls = !this.showBibls;
+			this.activePerson = !this.activePerson;
+		},
+		passesFilter: function passesFilter() {
+			var passesString = false;
+			var passesRole = false;
+
+			if (this.filterString.length < 1) {
+				passesString = true;
+			}
+
+			if (typeof this.person.personMeta.personName !== 'string') {
+				console.log(this.person.personMeta.personId + ' is missing a name!');
+				return true;
+			}
+
+			if (this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())) {
+				passesString = true;
+			}
+
+			if (!this.filterRole) {
+				passesRole = true;
+			} else if (!this.$root.empty(this.person.personMeta.personRole) && this.person.personMeta.personRole.toLowerCase().includes(this.filterRole.toLowerCase())) {
+				passesRole = true;
+			}
+
+			return passesString && passesRole;
+		},
+		getBlurb: function getBlurb() {
+			var bioExists = !this.$root.empty(this.person.personMeta.personBio);
+			if (!bioExists) {
+				return '';
+			}
+			var noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote);
+			return bioExists && noteExists ? this.person.personMeta.personBio.personNote : '';
+		}
+	},
+	created: function created() {
+		var _this2 = this;
+
+		Event.$on('filterStringUpdated', function (filterString) {
+			_this2.filterString = filterString;
+		});
+		Event.$on('filterRoleUpdated', function (filterRole) {
+			_this2.filterRole = filterRole;
+		});
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('biblIssueMeta', {
+	template: '\n\t<div class="issueMeta">\n\t  <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>\n\t  <div class="issueNum">No. {{issueMeta.issueNum}}</div>\n\t</div>\n    ',
+	props: ['issueMeta']
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('biblSectionMeta', {
+	template: '\n\t<div class="sectionMeta">\n\t  <div class="sectionTitle">{{sectionMeta.sectionTitle}}</div>\n        </div>\n    ',
+	props: ['sectionMeta']
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('biblPersonPieceMeta', {
+	template: '\n    <div class="personPieceMeta">\n    <!--\n    <div class="authorRole">{{personPieceMeta.personPieceRole}}</div>\n    -->\n    <div class="authorShip" v-if="showAuthorship()" :title="this.getAuthorshipTitle()">{{this.getAuthorship()}}</div>\n    </div>\n    ',
+	props: ['personPieceMeta'],
+	methods: {
+		showAuthorship: function showAuthorship() {
+			var hasValue = !this.$root.empty(this.personPieceMeta.personPiecePseudo);
+			if (hasValue) {
+				return true;
+			}
+			return false;
+		},
+		hasUnusualAuthorship: function hasUnusualAuthorship() {
+			attested = this.personPieceMeta.authorShip.authorStatus == 'attested';
+			totallyCertain = this.personPieceMeta.authorShip.authorCertainty == 'high';
+			return !(attested && totallyCertain);
+		},
+		getAuthorship: function getAuthorship() {
+			return this.personPieceMeta.personPiecePseudo;
+		},
+		getAuthorshipTitle: function getAuthorshipTitle() {
+			return !this.$root.empty(this.personPieceMeta.authorShip) ? this.personPieceMeta.authorShip : '';
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('biblPieceMeta', {
+	template: '\n\t<div class="pieceMeta">\n\t  <h1 class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>\n        </div>\n    ',
+	props: ['pieceMeta', 'issueId'],
+	methods: {
+		goToPiece: function goToPiece() {
+			this.$root.state.content.issue.id = this.issueId;
+			this.$root.state.content.issue.decls_id = this.pieceMeta.pieceId;
+			this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex);
+
+			Event.$emit('activeContentChange', 'issues');
+			Event.$emit('close');
+			Event.$emit('issueBiblSelected', {
+				issueId: this.issueId,
+				pdf_index: this.pieceMeta.piecePdfIndex,
+				decls_id: this.pieceMeta.pieceId
+			});
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('personBibl', {
+	template: '\n\t<div class="personBibl">\n          <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>\n          <div class="pieceTitleContainer">\n          <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>\n          <biblIssueMeta v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMeta>\n          </div>\n          <biblPersonPieceMeta v-if="!this.$root.empty(bibl.personPieceMeta)" :personPieceMeta="bibl.personPieceMeta"></biblPersonPieceMeta>\n        </div>\n\t',
+	props: ['bibl']
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('searchResults', {
+	template: '\n\t<div class="searchResults">\n\t  <div class="searchResultsHeader" v-if="this.results.searchResult">\n\t    <div class="searchResultsTitle">Search Results</div>\n            <div class="searchResultsCount">{{this.searchResultCount()}}</div>\n            <div class="searchResultsString">{{this.searchString}}</div>\n      \t  </div>\n          <searchResult v-for="result in results.searchResult" :result="result" :searchString="searchString"></searchResult>\n        </div>\n    ',
+	data: function data() {
+		return {
+			results: {},
+			searchString: this.$root.state.content.searchString
+		};
+	},
+	created: function created() {
+		var _this3 = this;
+
+		this.executeSearch();
+		Event.$on('searchSubmitted', function (searchString) {
+			_this3.searchString = searchString;
+			_this3.executeSearch();
+		});
+	},
+
+	methods: {
+		searchResultCount: function searchResultCount() {
+			return this.results.searchResult.length;
+		},
+		executeSearch: function executeSearch() {
+			var _this4 = this;
+
+			search_url = '/api/broadwayjournal/issue/search/' + this.searchString;
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(search_url).then(function (response) {
+				return _this4.results = response.data;
+			});
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('searchResult', {
+	props: ['result', 'searchString'],
+	methods: {
+		resultClicked: function resultClicked() {
+			this.$root.state.content.issue.id = this.result.issueMeta.issueId;
+			this.$root.state.content.issue.decls_id = this.result.pieceMeta.pieceId;
+
+			Event.$emit('activeContentChange', 'issues');
+			Event.$emit('issueBiblSelected', {
+				issueId: this.result.issueMeta.issueId,
+				pdf_index: 1,
+				decls_id: this.result.pieceMeta.pieceId
+			});
+		},
+		pieceTitle: function pieceTitle() {
+			if (this.$root.empty(this.result.pieceMeta.pieceTitle)) {
+				return "---No title found---";
+			}
+			return this.result.pieceMeta.pieceTitle;
+		}
+	},
+	template: '\n\t<div class="searchResult" @click="resultClicked">\n\t  <div class="pieceTitle"><strong>{{this.pieceTitle()}}</strong></div>\n            <div class="context">{{this.result.contextBefore}}<span class="searchHit">{{this.result.hit}}</span>{{this.result.contextAfter}}</div>\n\t</div>\n    '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('issueViewer', {
+	template: '\n\t<div class="viewer">\n\t  <transition name="fade"><pdf-viewer v-if="viewer == \'pdf\'"></pdf-viewer></transition>\n\t  <transition name="fade"><tei-markup v-if="viewer == \'text\'"></tei-markup></transition>\n\t</div>\n\t',
+	data: function data() {
+		return {
+			viewer: this.$root.state.content.issue.viewer
+		};
+	},
+	created: function created() {
+		var _this5 = this;
+
+		Event.$on('viewerSelected', function (viewer) {
+			_this5.viewer = viewer;
+		});
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('issue', {
+	template: '\n        <div class="issue">\n    <interIssueNav></interIssueNav>\n\t  <div class="issueBody">\n\t    <viewerSelector></viewerSelector>\n\t    <issueHeader></issueHeader>\n\t    <issueViewer></issueViewer>\n\t  </div>\n        </div>\n\t'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('issueHeader', {
+	data: function data() {
+		return {
+			authorShipLegend: 'Author will have 2-3 attributes: status, cert, and ref.\n\nStatus: identify as \u201Csupplied\u201D (journal doesn\u2019t say but you found it elsewhere), \u201Cattested\u201D (the journal says), \u201Cunknown\u201D (anonymous), or \u201Cinferred\u201D (journal provides a byline that doesn\u2019t provide full name, but makes it obvious, e.g. \u201CEAP\u201D).\n\nIf  you have only a pen name, but you know the author\'s real name, the author status should be "inferred," and the certainty will be "high," "medium," or "low," depending on what you\'ve found in your research. The name in the ref should be the author\'s real name.\n\nIf an article only has initials for a byline and you can\'t find a reasonable full-name match for the initials, the author status will be "unknown," but you will use the initials of the author instead of "anon" in the ref.\n\nCertainty: identify cert as \u201Chigh,\u201D \u201Cmedium,\u201D or \u201Clow.\u201D\nIf the author is anonymous DO NOT provide certainty.',
+			bibl_data: {},
+			ppm: {},
+			biblId: '',
+			showModal: false,
+			issueHeaderData: {}
+		};
+	},
+	created: function created() {
+		var _this6 = this;
+
+		Event.$on('issueSelected', function (id) {
+			var headerUrl = '/api/broadwayjournal/issue/' + _this6.$root.state.content.issue.id + '/header';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(headerUrl).then(function (response) {
+				return _this6.issueHeaderData = response.data;
+			});
+			_this6.biblId = '';
+			//	    bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+			//	    axios.get(bibl_url).then(response => this.bibl_data = response.data);
+			//	    this.setPpm()
+		});
+		Event.$on('issueBiblSelected', function (bibl) {
+			_this6.biblId = bibl.decls_id;
+			_this6.getIssueHeaderData();
+			//	    this.ppm = this.bibl_data = undefined
+			//	    this.setPpm()
+			//	    this.setBiblData()
+		});
+		Event.$on('close', function () {
+			_this6.showModal = false;
+		});
+
+		this.biblId = this.$root.state.content.issue.decls_id;
+		//	this.setPpm()
+		//	this.setBiblData()
+		this.getIssueHeaderData();
+	},
+
+	template: '\n        <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">\n         \n          <div class="issueInfo">\n              <div class=\'issueDate\'>{{this.formatDate()}}</div>\n              <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>\n          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta()"></biblSectionMeta>\n\n          </div>          \n          <div class="bibl" v-if="haveData()">\n            <div class="issue">\n              <a class="downloadLink" v-bind:href=\'stateHref()\'>\n                <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>\n                <div class="downloadText">View {{this.dlLabel()}}</div>\n              </a>\n              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>\n            </div>\n            <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>\n            <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->\n\n  <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>\n\n            <div class="issueData"></div>\n            <div class="authorShipLegend">{{this.authorShipLegend}}</div>\n            </div>\n  <!-- use the modal component, pass in the prop -->\n  <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">\n    <h3 slot="header">More from this author</h3>\n  </modal>\n\n        </div>\n\t',
+	methods: {
+		showBiblSectionMeta: function showBiblSectionMeta() {
+			var biblIdSet = this.biblId !== '';
+			if (!biblIdSet) {
+				return false;
+			}
+			var metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
+			return metaExists;
+		},
+		pdfMode: function pdfMode() {
+			return this.$root.state.content.issue.viewer == 'pdf';
+		},
+		haveData: function haveData() {
+			var empty = this.$root.empty;
+			if (empty(this.issueHeaderData)) {
+				console.log('headerData is empty');
+			}if (empty(this.issueHeaderData.listBibl)) {
+				console.log('issueHeaderData.listBibl is empty');
+			}
+			if (this.biblId == '') {
+				return false;
+			}
+			if (empty(this.issueHeaderData.listBibl[this.biblId])) {
+				console.log('listBibl does not exist for ' + this.biblId);
+			}
+			if (empty(this.issueHeaderData.issueMeta)) {
+				console.log('missing issueMeta');
+			}
+			return true;
+		},
+		getSectionMeta: function getSectionMeta() {},
+		getIssueHeaderData: function getIssueHeaderData() {
+			var _this7 = this;
+
+			var headerUrl = '/api/broadwayjournal/issue/' + this.$root.state.content.issue.id + '/header';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(headerUrl).then(function (response) {
+				return _this7.issueHeaderData = response.data;
+			});
+		},
+		getPersonId: function getPersonId() {
+			if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
+				if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)) {
+					return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0];
+				}
+			}
+			if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) {
+				return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0];
+			}
+			return false;
+		},
+		getPersonMeta: function getPersonMeta() {
+			var pid = this.getPersonId();
+			if (!pid) {
+				return false;
+			}
+			if (this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])) {
+				console.log('person ' + pid + ' not found!');
+				return {
+					personRole: 'unknown',
+					personName: 'unknown',
+					personViaf: false
+				};
+			}
+			var personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName };
+			// personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+			if (this.$root.empty(personMeta.personName)) {
+				return false;
+			}
+			return personMeta;
+		},
+		getPersonPieceMeta: function getPersonPieceMeta() {
+			pid = this.getPersonId();
+			if (!pid) {
+				return false;
+			}
+			bid = 'bibl-' + this.issueHeaderData.issueMeta.issueId + '-' + this.biblId;
+			meta = this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta;
+			return meta;
+		},
+		drawerIsAvailable: function drawerIsAvailable() {
+			var isAnon = this.getPersonId() == 'anon';
+			var biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && !this.biblIsSection(this.biblId);
+			var sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
+			var personInSection = this.getPersonMeta();
+			return !isAnon && (personInSection || biblExists_notSection);
+		},
+		dlLabel: function dlLabel() {
+			if (this.$root.state.content.issue.viewer == 'pdf') {
+				return 'PDF';
+			} else {
+				return 'TEI';
+			}
+		},
+		firstSection: function firstSection() {
+			return 's1';
+		},
+		setBiblData: function setBiblData() {
+			var _this8 = this;
+
+			bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(bibl_url).then(function (response) {
+				return _this8.bibl_data = response.data;
+			});
+		},
+		setPpm: function setPpm() {
+			var _this9 = this;
+
+			ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(ppm_url).then(function (response) {
+				return _this9.ppm = response.data;
+			});
+		},
+		pieceMeta: function pieceMeta(attribute) {
+			if (this.bibl_data[this.biblId].sectionMeta) {
+				return '';
+			}
+			return this.bibl_data[this.biblId].pieceMeta[attribute];
+		},
+		stateHref: function stateHref() {
+			var iid = Util.datePartsForIssueId(this.$root.state.content.issue.id);
+			var format = this.$root.state.content.issue.viewer;
+			if (format == 'text') {
+				format = 'tei';
+			}
+			return '/broadwayjournal/issue/' + iid.year + '/' + iid.month + '/' + iid.day + '/' + format;
+		},
+		sectionTitle: function sectionTitle(biblId) {
+			bibl = this.bibl_data[biblId];
+			if (!bibl.sectionMeta) {
+				return "sectionMeta is missing!";
+			}
+			if (this.biblIsSection(biblId)) {
+				return bibl.sectionMeta.sectionTitle;
+			} else if (this.biblBelongsToSection(biblId)) {
+				return this.bibl_data[bibl.sectionId].sectionMeta.sectionTitle;
+			} else {
+				return '';
+			}
+		},
+		biblIsSection: function biblIsSection(biblId) {
+			if (this.issueHeaderData.listBibl[biblId].sectionMeta) {
+				return true;
+			}
+			return false;
+		},
+		biblBelongsToSection: function biblBelongsToSection(biblId) {
+			if (this.bibl_data[biblId].sectionId) {
+				return true;
+			}
+			return false;
+		},
+		lookupMonth: function lookupMonth(monthInt) {
+			var monthMap = { '01': 'Jan', '02': 'Feb', '03': 'Mar', '04': 'Apr', '05': 'May', '06': 'Jun', '07': 'Jul', '08': 'Aug', '09': 'Sep', '10': 'Oct', '11': 'Nov', '12': 'Dec' };
+			return monthMap[monthInt];
+		},
+		formatDate: function formatDate() {
+
+			var d = Util.datePartsForIssueId(this.$root.state.content.issue.id);
+			var date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
+			return date;
+		}
+	},
+
+	mounted: function mounted() {
+		//	Event.$emit('issueSelected', this.$root.state.content.issue.id)
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('modal', {
+	data: function data() {
+		return {
+			authorShipLegend: 'Author will have 2-3 a',
+			bibl_data: {},
+			ppm: {},
+			biblId: 's1',
+			showModal: false,
+			issueHeaderData: {}
+		};
+	},
+
+	props: ['authorId', 'issueId', 'declsId'],
+	template: '<transition name="modal">\n    <div class="modal-mask">\n      <div class="modal-wrapper">\n        <div class="modal-container">\n\n          <div class="modal-header">\n            <slot name="header">\n              default header\n            </slot>\n          </div>\n\n          <div class="modal-body">\n            <slot name="body">\n            </slot>\n            <drawer  :authorId="this.authorId" :declsId="this.biblId" :issueId="this.issueId"></drawer>\n          </div>\n\n          <div class="modal-footer">\n            <slot name="footer">\n              default footer\n              <button class="modal-default-button" @click="$emit(\'close\')">\n                Close\n              </button>\n            </slot>\n          </div>\n        </div>\n      </div>\n    </div>\n  </transition>'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('drawer', {
+	template: '\n<div>\n    <div class="personBlurb">{{ this.getBlurb() }}</div>\n\t  <personBibl v-for="bibl in getBibls()" :bibl="bibl"></personBibl>\n        </div>\n\t',
+	props: ['authorId', 'issueId', 'declsId'],
+	methods: {
+		getBibls: function getBibls() {
+			var currentDecls = 'bibl-' + this.issueId + '-' + this.declsId;
+			var bibls = [];
+			var allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl;
+			for (var k in allBibls) {
+				if (k != currentDecls) {
+					bibls.push(allBibls[k]);
+				}
+			}
+			return bibls;
+		},
+		authorIsAnonymous: function authorIsAnonymous() {
+			return this.authorId == 'anon';
+		},
+		authorWroteSomethingBesidesThis: function authorWroteSomethingBesidesThis() {
+			pieces = Object.keys(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl).length;
+			return parseInt(pieces) > 1;
+		},
+		isBibls: function isBibls() {
+			return this.authorId && !this.$root.empty(this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl);
+		},
+		getBlurb: function getBlurb() {
+			var person = this.$root.xhrDataStore.personography.personIndex[this.authorId];
+			var bioExists = !this.$root.empty(person.personMeta.personBio);
+			if (!bioExists) {
+				return '';
+			}
+			var noteExists = !this.$root.empty(person.personMeta.personBio.personNote);
+			return bioExists && noteExists ? person.personMeta.personBio.personNote : '';
+		}
+	},
+	created: function created() {
+		var _this10 = this;
+
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/BroadwayJournal/personography/comprehensive/json').then(function (response) {
+			_this10.personography = response.data;
+			_this10.authorBibls = _this10.personography.personIndex[_this10.authorId];
+		});
+		Event.$on('issueBiblSelected', function (bibl) {
+			_this10.showBibls = false;
+			_this10.authorBibls = _this10.personography.personIndex[_this10.authorId];
+		});
+	},
+	data: function data() {
+		return {
+			personography: {},
+			authorBibls: {},
+			showBibls: false
+		};
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('logo', {
+	template: '\n\t<div class="logo" v-if="this.$root.state.active != \'issue\'">\n\t  <h1><div class="logoThe">The</div>\n\t  <div class="logoBroadway">Broadway</div>\n\t  <div class="logoJournal">Journal</div></h1>\n\t  <div class="logoSubtitle">A Digital Edition</div>\n\t</div>\n    '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('abouts', {
+	template: '\n       <div class="abouts">\n         <div class="aboutToggle">\n\t   <div class="about" v-bind:class="{active: this.abouts == \'about\'}" @click="selectMe(\'about\')">Project</div>\n\t   <div class="technical" v-bind:class="{active: this.abouts == \'tech\'}" @click="selectMe(\'tech\')">Methodology</div>\n\t   <div class="credits" v-bind:class="{active: this.abouts == \'credits\'}" @click="selectMe(\'credits\')">Staff</div>\n         </div>\n         <div class="aboutViewer">\n           <logo v-if="this.abouts == \'about\'"></logo>\n    \t   <div v-if="this.abouts == \'about\'" v-html="this.aboutText"></div>\n    \t   <div v-if="this.abouts == \'tech\'" v-html="this.techText"></div>\n    \t   <div v-if="this.abouts == \'credits\'">\n            <creditsPersonList></creditsPersonList>\n           </div>\n         </div>\n       </div>\n\t',
+	data: function data() {
+		return {
+			abouts: this.$root.state.content.abouts,
+			aboutText: this.$root.xhrDataStore.abouts.about,
+			techText: this.$root.xhrDataStore.abouts.tech
+		};
+	},
+
+	methods: {
+		selectMe: function selectMe(about) {
+			this.abouts = about;
+			Event.$emit('aboutsSelected', this.abouts);
+		}
+	},
+	created: function created() {
+		var _this11 = this;
+
+		var url;
+		if (this.$root.xhrDataStore.abouts.about.length > 1) {
+			this.aboutText = this.$root.xhrDataStore.abouts.about;
+		} else {
+			url = '/api/broadwayjournal/abouts/about';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(url).then(function (response) {
+				return _this11.aboutText = response.data;
+			});
+		}
+		if (this.$root.xhrDataStore.abouts.tech.length > 1) {
+			this.techText = this.$root.xhrDataStore.abouts.tech;
+		} else {
+			url = '/api/broadwayjournal/abouts/tech';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(url).then(function (response) {
+				return _this11.techText = response.data;
+			});
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('creditsPersonList', {
+	template: '\n    <div class="creditsPersonsList">\n        <div class="creditsPersonListActive">\n            <h2>Active</h2>\n            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == \'active\'"></creditsPerson>\n        </div>\n        <div class="creditsPersonListPast">\n            <h2>Past</h2>\n            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == \'past\'"></creditsPerson>\n        </div>\n    </div>\n\t',
+	methods: {
+		dataLoaded: function dataLoaded() {
+			return this.$root.empty(this.creditsData);
+		}
+	},
+	created: function created() {
+		this.creditsData = this.$root.xhrDataStore.personography.projectStaff;
+	},
+	data: function data() {
+		return {
+			creditsData: {}
+		};
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('creditsPerson', {
+	template: '\n\t<div class="creditsPerson">\n\t  <div class="creditsPersonName">{{person.personMeta.personName}}</div>\n      <div class="creditsPersonRoleName">{{ this.getRoleName() }}</div>\n\t  <!-- <div class="creditsPersonAffiliation" v-if="this.hasBio()">{{ this.getAffiliation() }}</div> -->\n \t  <div class="creditsPersonNote" v-if="this.hasBio()">{{ this.getNote() }}</div>\n        </div>\n\t',
+	props: ['person'],
+	methods: {
+		getAffiliation: function getAffiliation() {
+			console.log(this.person.personMeta.personName);
+			affiliation = this.$root.empty(this.person.personMeta.personBio.personAffiliation) ? '' : this.person.personMeta.personBio.personAffiliation;
+			return affiliation;
+		},
+		getNote: function getNote() {
+			return this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote;
+		},
+		hasBio: function hasBio() {
+			return !this.$root.empty(this.person.personMeta.personBio);
+		},
+		getRoleName: function getRoleName() {
+			return this.person.personMeta.personRoleName;
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('viewerSelector', {
+	created: function created() {
+		var _this12 = this;
+
+		Event.$on('viewerSelected', function (viewer) {
+			_this12.active = viewer;
+		});
+	},
+
+	template: '\n\t<div class=\'viewerSelector\' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">\n          <div class="viewerTitle">Toggle View</div>\n          <div class="viewerSwitch">\n            <div class="viewerText">\n              <div class="viewerTextIcon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>\n              <div class="viewerTextLabel">Text</div>\n            </div>\n            <div class="viewerPdf">\n              <div class="viewerPdfIcon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>\n              <div class="viewerPdfLabel">PDF</div>\n            </div>\n          </div>\n\t</div>\n\t',
+	methods: {
+		isActive: function isActive(viewerType) {
+			return viewerType == this.active;
+		},
+		toggleViewer: function toggleViewer() {
+			this.pdfSelected = !this.pdfSelected;
+			this.active = this.active == 'pdf' ? 'text' : 'pdf';
+			Event.$emit('viewerSelected', this.active);
+		}
+	},
+	data: function data() {
+		return {
+			active: this.$root.state.content.issue.viewer,
+			pdfSelected: false
+		};
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('viewerSelectorButton', {
+	data: function data() {
+		return {
+			active: false
+		};
+	},
+
+	props: ['kind'],
+	methods: {
+		viewerSelected: function viewerSelected(viewer) {
+			Event.$emit('viewerSelected', viewer);
+		}
+	},
+	template: '<span v-bind:class="[{toggled: active}, kind]"  @click="viewerSelected(kind)"><slot></slot></span>'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('intraIssueNav', {
+	data: function data() {
+		return {
+			issueID: this.$root.state.content.issue.id,
+			tocContent: false
+		};
+	},
+	created: function created() {
+		var _this13 = this;
+
+		this.issueID = this.$root.state.content.issue.id;
+		this.setTocContent();
+		Event.$on('issueSelected', function (id) {
+			_this13.issueID = id;
+			_this13.tocContent = false;
+			_this13.setTocContent();
+		});
+		Event.$on('issueBiblSelected', function (data) {
+			_this13.issueID = data.issueId;
+			_this13.tocContent = false;
+			_this13.setTocContent();
+		});
+	},
+
+	methods: {
+		setTocContent: function setTocContent() {
+			var _this14 = this;
+
+			var url = '/api/broadwayjournal/' + this.issueID + '/toc';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(url).then(function (response) {
+				return _this14.tocContent = response.data;
+			});
+		},
+		getTocContent: function getTocContent() {
+			if (this.$root.empty(this.tocContent.toc)) {
+				alert('Toc content is empty for ' + this.issueId);
+				return false;
+			}
+			return true;
+		}
+	},
+	template: '\n\t<div class=\'intraIssueNav\'>\n          <div class=\'tocDropdown\'>Table of Contents</div>\n          <toc-item v-if="getTocContent()" v-for=\'id in tocContent.toc\' :id=\'id\'></toc-item>\n        </div>\n\t\t\t'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('toc-item', {
+	data: function data() {
+		return { toggled: false };
+	},
+
+	props: ['id'],
+	methods: {
+		showChildren: function showChildren() {
+			if (this.toggled == false) {
+				//turn on this.$children
+				for (var each in this.$children) {
+					this.$children[each].meSeen = true;
+					this.toggled = true;
+				}
+				//turn off everyone else's children
+				for (var one in this.$parent.$children) {
+					//create new check for toc
+
+					if (this.$parent.$children[one].id != this.id) {
+						for (var two in this.$parent.$children[one].$children) {
+							this.$parent.$children[one].$children[two].meSeen = false;
+							//remove activeMonth from everyone else
+							this.$parent.$children[one].toggled = false;
+						}
+					}
+				}
+			} else {
+				//turn off this.children
+				for (var _each in this.$children) {
+					this.$children[_each].meSeen = false;
+					this.toggled = false;
+				}
+			}
+		},
+		tocItemSelected: function tocItemSelected() {
+			this.showChildren();
+			if (this.id.pdf_index >= 1) {
+				Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index));
+			}
+			var page = 1;
+			if (this.id.pieces) {
+				for (var key in this.id.pieces) {
+					page = parseInt(this.id.pieces[key].pdf_index);
+					Event.$emit("pdf-pageChange", parseInt(this.id.pieces[key].pdf_index));
+					break;
+				}
+			}
+			if (this.id.decls_id) {
+				if (!this.id.pdf_index) {
+					this.id.pdf_index = page;
+				}
+				this.id.issueId = this.$root.state.content.issue.id;
+				Event.$emit("issueBiblSelected", this.id);
+			}
+		}
+	},
+	template: '\n            <div class="tocItem" v-bind:class=\'id.type\'>\n\t      <div class=\'tocToggle\' @click=\'tocItemSelected\'>\n                <div class="tocTitle">{{id.title}}</div>\n            \t<div v-if=\'id.auth_name\' class="author">{{id.auth_name}}</div>\n                <div v-if=\'id.start\' class="pageNumber"></div>\n\t      </div>\n              <child-piece v-if=\'id.pieces\'  v-for=\'(piece, index) in  id.pieces\' :id=\'id.pieces[index]\' :pieceIndex=\'index\'></child-piece>\n            </div>\n\t '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('child-piece', {
+	data: function data() {
+		return { meSeen: false };
+	},
+
+	props: ['id', 'pieceIndex'],
+	methods: {
+		tocItemSelected: function tocItemSelected() {
+			Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index));
+			this.id.issueId = this.$root.state.content.issue.id;
+			Event.$emit("issueBiblSelected", this.id);
+		}
+	},
+	template: '\n            <div class="childPiece" @click=\'tocItemSelected\'>\n              <div class="childPieceTitle">{{id.title}}</div>\n              <div v-if=\'id.author\' class="childPieceAuthor">{{id.author}}</div>\n            <div>\n\t'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('zoom-slider', {
+	data: function data() {
+		return {
+			zoomLevel: 1.3
+		};
+	},
+
+	methods: {
+		zoomUpdate: function zoomUpdate() {
+			Event.$emit('zoomUpdate', this.zoomLevel, this.$root.state.content.issue.page);
+		}
+
+	},
+	template: '<input class=\'zoom\' id=\'zoomSlider\' min=\'1.3\' max=\'3.0\' step=\'0.1\' v-model="zoomLevel" @change=\'zoomUpdate(this.zoomLevel)\' type=\'range\'></input>'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('pdf-viewer', {
+	created: function created() {
+		var _this15 = this;
+
+		Event.$on('zoomUpdate', function (level, page) {
+			_this15.scale = level;
+			_this15.loadPdf(_this15.current_issue, page, _this15.scale);
+		}), Event.$on('nextPage', function (page) {
+			_this15.current_page += 1;
+			_this15.loadPdf(_this15.current_issue, _this15.current_page);
+		}), Event.$on('issueSelected', function (id) {
+			_this15.current_page = 1;
+			_this15.current_issue = id;
+			_this15.loadPdf(_this15.current_issue, _this15.current_page);
+		}), Event.$on('pdf-pageChange', function (page) {
+			_this15.loadPdf(_this15.current_issue, page);
+		});
+		Event.$on('issueBiblSelected', function (bibl) {
+			_this15.current_issue = bibl.issueId;
+			_this15.current_page = bibl.pdf_index;
+			//	    this.loadPdf(this.current_issue, bibl.pdf_index);
+		});
+	},
+	data: function data() {
+		return {
+			scale: 1.3,
+			current_page: this.$root.state.content.issue.page,
+			current_issue: this.$root.state.content.issue.id
+		};
+	},
+	mounted: function mounted() {
+		this.loadPdf(this.current_issue, this.current_page, this.scale);
+	},
+
+	template: '\n      <div id="pdf-viewer" class="pdf-viewer">\n\t<button class="next-page" @click="changePage(\'prev\')" v-if="this.$root.state.content.issue.page>1" >Prev Page</button>\n\t<button class="next-page" @click="changePage(\'next\')" v-if="this.$root.state.content.issue.page<16">Next Page</button>\n\t<canvas id="pdf" class="pdf-canvas"></canvas>\n      </div>\n\t', //<zoom-slider></zoom-slider>
+	methods: {
+		// reload: function(scale = this.scale){
+		// 	page.getViewport(scale);
+		// },
+		changePage: function changePage(direction) {
+
+			page = this.$root.state.content.issue.page;
+			switch (direction) {
+				case 'next':
+					if (page == 16) {
+						break;
+					} else {
+						page += 1;
+						//console.log(page);
+						break;
+					}
+				case 'prev':
+					if (page == 1) {
+						break;
+					} else {
+						page -= 1;
+						//console.log(page);
+						break;
+					}
+				default:
+					page = 1;
+			}
+			page = page <= 1 ? 1 : page;
+			Event.$emit('pdf-pageChange', page);
+		},
+		loadPdf: function loadPdf(issue) {
+			var page = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+			var scale = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1.3;
+
+			// If absolute URL from the remote server is provided, configure the CORS
+			// header on that server.
+			if (this.$root.state.content.issue.viewer == 'text') {
+				return;
+			}
+			var url = '/storage/broadway-tei/pdf/BroadwayJournal_' + issue + '.pdf';
+			// var pdfData = atob($pdf);
+
+			// Prepare canvas using PDF page dimensions
+			var canvas = document.getElementById('pdf');
+			var new_canvas = document.createElement('canvas');
+			new_canvas.setAttribute("id", "pdf");
+			new_canvas.setAttribute("refs", "replaced");
+			canvas.parentNode.replaceChild(new_canvas, canvas);
+			PDFJS.disableWorker = true;
+
+			// The workerSrc property shall be specified.
+			PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+
+			// Asynchronous download of PDF
+			var loadingTask = PDFJS.getDocument(url);
+			loadingTask.promise.then(function (pdf) {
+				if (page > pdf.pdfInfo.numPages) {
+					return;
+				}
+				// Fetch the first page
+				var pageNumber = parseInt(page);
+				pdf.getPage(pageNumber).then(function (page) {
+					//scale = 1.3
+					var viewport = page.getViewport(scale);
+					var canvas = document.getElementById('pdf');
+					var context = canvas.getContext('2d');
+					canvas.height = viewport.height; //1014
+					canvas.width = viewport.width; //735
+
+					// Render PDF page into canvas context
+					var renderContext = {
+						canvasContext: context,
+						viewport: viewport
+					};
+					var renderTask = page.render(renderContext);
+					renderTask.then(function () {});
+				});
+			}, function (reason) {
+				// PDF loading error
+				console.error(reason);
+			});
+		}
+	}
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('tei-markup', {
+	created: function created() {
+		var _this16 = this;
+
+		Event.$on('issueSelected', function (id) {
+			_this16.id = id;
+			_this16.biblId = '';
+			_this16.getText();
+		}), Event.$on('issueBiblSelected', function (bibl) {
+			_this16.biblId = bibl.decls_id;
+			_this16.id = bibl.issueId;
+			_this16.getText(_this16.biblId);
+		});
+		this.id = this.$root.state.content.issue.id;
+		this.biblId = this.$root.state.content.issue.decls_id;
+		this.page = this.$root.state.content.issue.page;
+		this.getText();
+	},
+
+	methods: {
+		highlightText: function highlightText() {
+			var needle = this.$root.state.content.searchString;
+			if (needle.length < 1) {
+				return this.issueText;
+			}
+			//Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
+			pattern = new RegExp('(' + needle + ')', 'gi');
+			return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>");
+		},
+		getText: function getText() {
+			var _this17 = this;
+
+			if (this.biblId) {
+				var _url = '/api/broadwayjournal/' + this.id + '/piece-text/' + this.biblId;
+				__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(_url).then(function (response) {
+					return _this17.issueText = response.data;
+				});
+			} else {
+				this.issueText = '';
+				// url = '/api/broadwayjournal/'+ this.id + '/issue-text';
+				// axios.get(url).then(response => this.issueText = response.data);
+			}
+		},
+		getTocEntry: function getTocEntry(issueId, itemId) {
+			var _this18 = this;
+
+			url = '/api/broadwayjournal/' + issueId + '/toc';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(url).then(function (response) {
+				bibl = response.data;
+				for (item in bibl.toc) {
+					if (item == itemId) {
+						_this18.biblData = bibl.toc[item];
+						return;
+					}
+					if (bibl.toc[item].pieces) {
+						for (piece in bibl.toc[item].pieces) {
+							if (piece == itemId) {
+								_this18.biblData = bibl.toc[item].pieces.piece;
+								return;
+							}
+						}
+					}
+				}
+			});
+		}
+	},
+	mounted: function mounted() {},
+	data: function data() {
+		return {
+			id: '',
+			page: '',
+			markdown: [],
+			issueText: '',
+			biblId: '',
+			biblData: {}
+		};
+	},
+
+	template: '\n      <div class=\'tei-markup\'>\n\t<div class=\'teiMarkup\' v-html="this.highlightText()"><div>\n      </div>\n\t'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('issue-month', {
+	data: function data() {
+		return {
+			toggled: false,
+			monthConvert: { 'JAN': '01', 'FEB': '02', 'MAR': '03', 'APR': '04', 'MAY': '05', 'JUN': '06', 'JUL': '07', 'AUG': '08', 'SEP': '09', 'OCT': '10', 'NOV': '11', 'DEC': '12' }
+		};
+	},
+
+	props: { month: '', list: '' },
+	created: function created() {
+		var _this19 = this;
+
+		Event.$on('issueSelected', function (id) {
+			for (var each in _this19.$children) {
+				if (_this19.$children[each].id == id) {
+					_this19.$children[each].toggled = true;
+				} else {
+					_this19.$children[each].toggled = false;
+				}
+			}
+		});
+	},
+
+	methods: {
+		showChildren: function showChildren() {
+			if (this.toggled == false) {
+				//turn on this.$children
+				for (var each in this.$children) {
+					this.$children[each].meSeen = true;
+					this.toggled = true;
+				}
+				//turn off everyone else's children
+				for (var one in this.$parent.$children) {
+					if (this.$parent.$children[one].list != this.list) {
+						for (var two in this.$parent.$children[one].$children) {
+							this.$parent.$children[one].$children[two].meSeen = false;
+							//remove activeMonth from everyone else
+							this.$parent.$children[one].toggled = false;
+						}
+					}
+				}
+			} else {
+				//turn off this.children
+				for (var _each2 in this.$children) {
+					this.$children[_each2].meSeen = false;
+					this.toggled = false;
+				}
+			}
+		}
+	},
+	template: '\n            <div v-bind:class="{activeMonth: toggled}">\n              <div @click="showChildren()">\n                <div class="singleText" >{{this.month}}</div>\n                <div class="indicatorIndex"></div>\n              </div>\n              <index-child :id="each" v-for="each in this.list"></index-child>\n            </div>\n        '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('index-child', {
+	data: function data() {
+		return { meSeen: false, toggled: false };
+	},
+
+	props: ['id'],
+	methods: {
+		selectIssue: function selectIssue(id) {
+			Event.$emit('issueSelected', id);
+		}
+	},
+	template: '\n\t<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">\n\t  <div v-bind:class="[{active: toggled}, \'childText\']" v-text="id.slice(-2)"></div>\n\t</div>'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('interIssueNav', {
+	data: function data() {
+		return {
+			months: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+			hasData: this.$root.journals ? true : false
+		};
+	},
+
+	methods: {
+		lookupMonth: function lookupMonth(month) {
+			var monthConvert = { 'JAN': '01', 'FEB': '02', 'MAR': '03', 'APR': '04', 'MAY': '05', 'JUN': '06', 'JUL': '07', 'AUG': '08', 'SEP': '09', 'OCT': '10', 'NOV': '11', 'DEC': '12' };
+			return monthConvert[month];
+		},
+		lookup: function lookup(month, year) {
+			var intMonth = this.lookupMonth(month);
+			var ret = [];
+			for (var j in this.$root.journals) {
+				var tmp = this.$root.journals[j];
+				if (tmp.month == intMonth && tmp.year == year) {
+					ret.push(tmp.id);
+				}
+			}
+			return ret;
+		}
+	},
+	template: '\n            <div v-if="hasData" class="interIssueNav">\n              <div class="issueMask"></div>\n              <div class="issueIndex">\n                <div class="singleIndex">\n                  <div class="yearText">1845</div>\n                  <div class="indicatorYear"></div>\n                </div>\n                <issue-month v-for="month in this.months" :list=\'lookup(month,"1845")\' class="singleIndex" :month="month"></issue-month>\n              </div>\n              <div class="issueIndex">\n                <div class="singleIndex">\n                  <div class="yearText">1846</div>\n                  <div class="indicatorYear"></div>\n                </div>\n                <issue-month :month=\'this.months[0]\' :list=\'lookup("JAN","1846")\' class="singleIndex"></issue-month>\n              </div>\n              <intraIssueNav></intraIssueNav>\n            </div>\n        '
+});
+
+//Author-Modal Is UNUSED
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('author-modal', {
+	computed: { mentions: function mentions() {
+			'10';
+
+			return Math.floor(Math.random(1, 100) * 10);
+		},
+		contribs: function contribs() {
+			'10';
+
+			return Math.floor(Math.random(1, 100) * 10);
+		}
+
+	},
+	methods: {
+		closeModal: function closeModal() {
+			this.$parent.modalActive = false;
+		}
+	},
+	props: ['authInfo', 'authID'],
+	template: '\n            <transition name="fade"><div class="authorModal" v-if="this.$parent.modalActive">\n              <div class="modalContent">\n                <div v-for="(val, key) in authInfo" v-bind:class=\'key\'>{{val}}</div>\n                <div v-if=\'this.$parent.chosen.length  && this.authInfo.totalMentions\'  class="mentionNumber">{{this.authInfo.totalMentions.num}}</div>\n                <div v-if=\'this.$parent.chosen.length  && this.authInfo.totalContribs\' class="contributionNumber">{{this.authInfo.totalContribs.num}}</div>\n                <div @click=\'closeModal()\' class="closeModal">Close</button>\n              </div>\n            </div></transition>\n        '
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('author-node', {
+	methods: {
+		modalClick: function modalClick(data) {
+			this.$parent.chosen = this.authID;
+			this.$parent.modalActive = true;
+		},
+		cardHover: function cardHover(data) {
+			this.$parent.chosen = this.authID;
+		}
+	},
+	computed: { authHref: function authHref() {
+			var path = 'author-' + this.authID;return path;
+		}
+	},
+	props: ['authInfo', 'authID'],
+	template: '\n\t\t<div class="node" @click=\'modalClick(authID)\' @mouseover=\'cardHover(authID)\'>\n\t\t\t<div v-bind:class="this.authInfo[\'role\']" v-bind:href="authHref" >{{this.authInfo[\'init\']}}</div>\n\t\t</div>\n\t'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('author-preview', {
+	props: ['authID', 'authInfo'],
+	template: '\n\t\t<div class="authorCard">\n\t\t\t<transition name="fade">\n\t\t\t<div  v-if=\'this.$parent.chosen.length\'>{{this.authInfo.name}}</div>\n\t\t\t</transition>\n\t\t</div>\n\t'
+});
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.component('footer-bar', {
+	data: function data() {
+		return {
+			fText: ['This work is licensed under a ', 'Creative Commons Attribution 4.0 International License', '. ', 'Contact the ', 'Digital Scholarship Lab', ' at LSU Libraries with any questions or comments.']
+		};
+	},
+
+	template: '\n\t\t<div>\n\t\t\t<div class="issueFooter"></div>\n\t\t\t<div class="footerBar">\n\t\t\t\t<div class="ccText">\n\t\t\t\t\t{{fText[0]}}\n\t\t\t\t\t<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">{{fText[1]}}</a>\n\t\t\t\t\t{{fText[2]}}\n\t\t\t\t\t<br>\n\t\t\t\t\t{{fText[3]}}\n\t\t\t\t\t<a href="mailto:dsl@lsu.edu" target="_blank">{{fText[4]}}</a>\n\t\t\t\t\t{{fText[5]}}\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>'
+});
+
+// import Vue from 'vue'
+// import VueRouter from 'vue-router'
+
+// Vue.use(VueRouter)
+
+// import App from './views/App'
+// import Hello from './views/Hello'
+// import Home from './views/Home'
+
+// const router = new VueRouter({
+//     mode: 'history',
+//     routes: [
+//         // {
+//         //     path: '/',
+//         //     name: 'home',
+//         //     component: mainComponent
+//         // },
+//         // {
+//         //     path: '/hello',
+//         //     name: 'hello',
+//         //     component: Hello,
+//         // },
+//     ],
+// });
+
+window.Event = new __WEBPACK_IMPORTED_MODULE_1_vue___default.a();
+
+
+
+
+
+
+new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
+	el: '#vue-root',
+	components: { Container: __WEBPACK_IMPORTED_MODULE_3__components_Container___default.a },
+	router: __WEBPACK_IMPORTED_MODULE_4__routes__["a" /* default */],
+	methods: {
+		empty: function empty(o) {
+			if (o === undefined) {
+				return true;
+			}
+			if (Object.keys(o).length === 0 && o.constructor === Object) {
+				return true;
+			}
+			return false;
+		},
+		getTocEntry: function getTocEntry(issueId, itemId) {
+
+			url = '/api/broadwayjournal/' + issueId + '/toc';
+			__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get(url).then(function (response) {
+				bibl = response.data;
+				for (item in bibl.toc) {
+					if (item == itemId) {
+						return bibl.toc[item];
+					}
+					if (bibl.toc[item].pieces) {
+						for (piece in bibl.toc[item].pieces) {
+							if (piece == itemId) {
+								return bibl.toc[item].pieces.piece;
+							}
+						}
+					}
+				}
+			});
+		}
+	},
+	data: {
+		journals: [],
+		years: [],
+		state: {
+			activeContent: 'abouts', // issues | personography | search
+			content: {
+				abouts: 'about', // technical | credits
+				issue: {
+					id: '18450104', //'18450104', // yyyy-mm-dd
+					viewer: 'text', // text|pdf
+					page: 1, // int
+					decls_id: ''
+				},
+				personography: {
+					filterString: '' },
+				searchResults: {
+					filter: '', // alpha | by date
+					query: '' },
+				searchString: ''
+			},
+			contrast: 'normal' },
+		xhrDataStore: {
+			abouts: {
+				about: '',
+				tech: '',
+				credits: {}
+			},
+			personography: {}
+		}
+	},
+	created: function created() {
+		var _this20 = this;
+
+		Event.$on('aboutsSelected', function (about) {
+			_this20.state.content.abouts = about;
+		});
+		Event.$on('viewerSelected', function (viewer) {
+			return _this20.state.content.issue.viewer = viewer;
+		});
+		Event.$on('activeContentChange', function (content) {
+			_this20.state.activeContent = content;
+		});
+		Event.$on('issueSelected', function (id) {
+			_this20.state.content.issue.id = id;
+			_this20.state.content.issue.page = 1;
+			_this20.state.content.issue.decls_id = '';
+			_this20.state.content.searchString = '';
+		});
+		Event.$on('issueBiblSelected', function (bibl) {
+			_this20.state.content.issue.id = bibl.issueId;
+			_this20.state.content.issue.decls_id = bibl.decls_id;
+		});
+		Event.$on('pdf-pageChange', function (page) {
+			_this20.state.content.issue.page = page;
+		});
+		Event.$on('searchSubmitted', function (searchString) {
+			_this20.state.content.searchString = searchString;
+		});
+		// get abouts data
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/credits').then(function (response) {
+			return _this20.xhrDataStore.abouts.credits = response.data;
+		});
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/about').then(function (response) {
+			return _this20.xhrDataStore.abouts.about = response.data;
+		});
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/tech').then(function (response) {
+			return _this20.xhrDataStore.abouts.tech = response.data;
+		});
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/personography').then(function (response) {
+			return _this20.xhrDataStore.abouts.personographyDescription = response.data;
+		});
+
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/BroadwayJournal/personography/comprehensive/json').then(function (response) {
+			return _this20.xhrDataStore.personography = response.data;
+		});
+
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/all-issues/json').then(function (response) {
+			_this20.journals = response.data;
+
+			for (var issue in _this20.journals) {
+				var id = _this20.journals[issue];
+				var iid = Util.datePartsForIssueId(id);
+				_this20.journals[issue] = {
+					'id': id,
+					'year': iid.year,
+					'month': iid.month,
+					'day': iid.day
+				};
+				if (_this20.years.indexOf(iid.year) == -1) {
+					_this20.years.push(iid.year);
+				}
+			}
+		});
+	}
+});
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+var bind = __webpack_require__(9);
+var Axios = __webpack_require__(15);
+var defaults = __webpack_require__(2);
+
+/**
+ * Create an instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ * @return {Axios} A new instance of Axios
+ */
+function createInstance(defaultConfig) {
+  var context = new Axios(defaultConfig);
+  var instance = bind(Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, Axios.prototype, context);
+
+  // Copy context to instance
+  utils.extend(instance, context);
+
+  return instance;
+}
+
+// Create the default instance to be exported
+var axios = createInstance(defaults);
+
+// Expose Axios class to allow class inheritance
+axios.Axios = Axios;
+
+// Factory for creating new instances
+axios.create = function create(instanceConfig) {
+  return createInstance(utils.merge(defaults, instanceConfig));
+};
+
+// Expose Cancel & CancelToken
+axios.Cancel = __webpack_require__(6);
+axios.CancelToken = __webpack_require__(14);
+axios.isCancel = __webpack_require__(7);
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+axios.spread = __webpack_require__(29);
+
+module.exports = axios;
+
+// Allow use of default import syntax in TypeScript
+module.exports.default = axios;
+
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var Cancel = __webpack_require__(6);
+
+/**
+ * A `CancelToken` is an object that can be used to request cancellation of an operation.
+ *
+ * @class
+ * @param {Function} executor The executor function.
+ */
+function CancelToken(executor) {
+  if (typeof executor !== 'function') {
+    throw new TypeError('executor must be a function.');
+  }
+
+  var resolvePromise;
+  this.promise = new Promise(function promiseExecutor(resolve) {
+    resolvePromise = resolve;
+  });
+
+  var token = this;
+  executor(function cancel(message) {
+    if (token.reason) {
+      // Cancellation has already been requested
+      return;
+    }
+
+    token.reason = new Cancel(message);
+    resolvePromise(token.reason);
+  });
+}
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+CancelToken.prototype.throwIfRequested = function throwIfRequested() {
+  if (this.reason) {
+    throw this.reason;
+  }
+};
+
+/**
+ * Returns an object that contains a new `CancelToken` and a function that, when called,
+ * cancels the `CancelToken`.
+ */
+CancelToken.source = function source() {
+  var cancel;
+  var token = new CancelToken(function executor(c) {
+    cancel = c;
+  });
+  return {
+    token: token,
+    cancel: cancel
+  };
+};
+
+module.exports = CancelToken;
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var defaults = __webpack_require__(2);
+var utils = __webpack_require__(0);
+var InterceptorManager = __webpack_require__(16);
+var dispatchRequest = __webpack_require__(17);
+var isAbsoluteURL = __webpack_require__(25);
+var combineURLs = __webpack_require__(23);
+
+/**
+ * Create a new instance of Axios
+ *
+ * @param {Object} instanceConfig The default config for the instance
+ */
+function Axios(instanceConfig) {
+  this.defaults = instanceConfig;
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager()
+  };
+}
+
+/**
+ * Dispatch a request
+ *
+ * @param {Object} config The config specific for this request (merged with this.defaults)
+ */
+Axios.prototype.request = function request(config) {
+  /*eslint no-param-reassign:0*/
+  // Allow for axios('example/url'[, config]) a la fetch API
+  if (typeof config === 'string') {
+    config = utils.merge({
+      url: arguments[0]
+    }, arguments[1]);
+  }
+
+  config = utils.merge(defaults, this.defaults, { method: 'get' }, config);
+
+  // Support baseURL config
+  if (config.baseURL && !isAbsoluteURL(config.url)) {
+    config.url = combineURLs(config.baseURL, config.url);
+  }
+
+  // Hook up interceptors middleware
+  var chain = [dispatchRequest, undefined];
+  var promise = Promise.resolve(config);
+
+  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+    chain.unshift(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+    chain.push(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  while (chain.length) {
+    promise = promise.then(chain.shift(), chain.shift());
+  }
+
+  return promise;
+};
+
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url
+    }));
+  };
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, data, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url,
+      data: data
+    }));
+  };
+});
+
+module.exports = Axios;
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+
+function InterceptorManager() {
+  this.handlers = [];
+}
+
+/**
+ * Add a new interceptor to the stack
+ *
+ * @param {Function} fulfilled The function to handle `then` for a `Promise`
+ * @param {Function} rejected The function to handle `reject` for a `Promise`
+ *
+ * @return {Number} An ID used to remove interceptor later
+ */
+InterceptorManager.prototype.use = function use(fulfilled, rejected) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected
+  });
+  return this.handlers.length - 1;
+};
+
+/**
+ * Remove an interceptor from the stack
+ *
+ * @param {Number} id The ID that was returned by `use`
+ */
+InterceptorManager.prototype.eject = function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+};
+
+/**
+ * Iterate over all the registered interceptors
+ *
+ * This method is particularly useful for skipping over any
+ * interceptors that may have become `null` calling `eject`.
+ *
+ * @param {Function} fn The function to call for each interceptor
+ */
+InterceptorManager.prototype.forEach = function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+};
+
+module.exports = InterceptorManager;
+
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+var transformData = __webpack_require__(20);
+var isCancel = __webpack_require__(7);
+var defaults = __webpack_require__(2);
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+function throwIfCancellationRequested(config) {
+  if (config.cancelToken) {
+    config.cancelToken.throwIfRequested();
+  }
+}
+
+/**
+ * Dispatch a request to the server using the configured adapter.
+ *
+ * @param {object} config The config that is to be used for the request
+ * @returns {Promise} The Promise to be fulfilled
+ */
+module.exports = function dispatchRequest(config) {
+  throwIfCancellationRequested(config);
+
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData(
+    config.data,
+    config.headers,
+    config.transformRequest
+  );
+
+  // Flatten headers
+  config.headers = utils.merge(
+    config.headers.common || {},
+    config.headers[config.method] || {},
+    config.headers || {}
+  );
+
+  utils.forEach(
+    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+    function cleanHeaderConfig(method) {
+      delete config.headers[method];
+    }
+  );
+
+  var adapter = config.adapter || defaults.adapter;
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData(
+      response.data,
+      response.headers,
+      config.transformResponse
+    );
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData(
+          reason.response.data,
+          reason.response.headers,
+          config.transformResponse
+        );
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+};
+
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Update an Error with the specified config, error code, and response.
+ *
+ * @param {Error} error The error to update.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ @ @param {Object} [response] The response.
+ * @returns {Error} The error.
+ */
+module.exports = function enhanceError(error, config, code, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+  error.response = response;
+  return error;
+};
+
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var createError = __webpack_require__(8);
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  // Note: status is not exposed by XDomainRequest
+  if (!response.status || !validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError(
+      'Request failed with status code ' + response.status,
+      response.config,
+      null,
+      response
+    ));
+  }
+};
+
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Object|String} data The data to be transformed
+ * @param {Array} headers The headers for the request or response
+ * @param {Array|Function} fns A single function or Array of functions
+ * @returns {*} The resulting transformed data
+ */
+module.exports = function transformData(data, headers, fns) {
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn(data, headers);
+  });
+
+  return data;
+};
+
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
+
+var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+
+function E() {
+  this.message = 'String contains an invalid character';
+}
+E.prototype = new Error;
+E.prototype.code = 5;
+E.prototype.name = 'InvalidCharacterError';
+
+function btoa(input) {
+  var str = String(input);
+  var output = '';
+  for (
+    // initialize result and counter
+    var block, charCode, idx = 0, map = chars;
+    // if the next str index does not exist:
+    //   change the mapping table to "="
+    //   check if d has no fractional digits
+    str.charAt(idx | 0) || (map = '=', idx % 1);
+    // "8 - idx % 1 * 8" generates the sequence 2, 4, 6, 8
+    output += map.charAt(63 & block >> 8 - idx % 1 * 8)
+  ) {
+    charCode = str.charCodeAt(idx += 3 / 4);
+    if (charCode > 0xFF) {
+      throw new E();
+    }
+    block = block << 8 | charCode;
+  }
+  return output;
+}
+
+module.exports = btoa;
+
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+
+function encode(val) {
+  return encodeURIComponent(val).
+    replace(/%40/gi, '@').
+    replace(/%3A/gi, ':').
+    replace(/%24/g, '$').
+    replace(/%2C/gi, ',').
+    replace(/%20/g, '+').
+    replace(/%5B/gi, '[').
+    replace(/%5D/gi, ']');
+}
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @returns {string} The formatted url
+ */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      }
+
+      if (!utils.isArray(val)) {
+        val = [val];
+      }
+
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+  return url;
+};
+
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Creates a new URL by combining the specified URLs
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} relativeURL The relative URL
+ * @returns {string} The combined URL
+ */
+module.exports = function combineURLs(baseURL, relativeURL) {
+  return baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '');
+};
+
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs support document.cookie
+  (function standardBrowserEnv() {
+    return {
+      write: function write(name, value, expires, path, domain, secure) {
+        var cookie = [];
+        cookie.push(name + '=' + encodeURIComponent(value));
+
+        if (utils.isNumber(expires)) {
+          cookie.push('expires=' + new Date(expires).toGMTString());
+        }
+
+        if (utils.isString(path)) {
+          cookie.push('path=' + path);
+        }
+
+        if (utils.isString(domain)) {
+          cookie.push('domain=' + domain);
+        }
+
+        if (secure === true) {
+          cookie.push('secure');
+        }
+
+        document.cookie = cookie.join('; ');
+      },
+
+      read: function read(name) {
+        var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+        return (match ? decodeURIComponent(match[3]) : null);
+      },
+
+      remove: function remove(name) {
+        this.write(name, '', Date.now() - 86400000);
+      }
+    };
+  })() :
+
+  // Non standard browser env (web workers, react-native) lack needed support.
+  (function nonStandardBrowserEnv() {
+    return {
+      write: function write() {},
+      read: function read() { return null; },
+      remove: function remove() {}
+    };
+  })()
+);
+
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Determines whether the specified URL is absolute
+ *
+ * @param {string} url The URL to test
+ * @returns {boolean} True if the specified URL is absolute, otherwise false
+ */
+module.exports = function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
+};
+
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs have full support of the APIs needed to test
+  // whether the request URL is of the same origin as current location.
+  (function standardBrowserEnv() {
+    var msie = /(msie|trident)/i.test(navigator.userAgent);
+    var urlParsingNode = document.createElement('a');
+    var originURL;
+
+    /**
+    * Parse a URL to discover it's components
+    *
+    * @param {String} url The URL to be parsed
+    * @returns {Object}
+    */
+    function resolveURL(url) {
+      var href = url;
+
+      if (msie) {
+        // IE needs attribute set twice to normalize properties
+        urlParsingNode.setAttribute('href', href);
+        href = urlParsingNode.href;
+      }
+
+      urlParsingNode.setAttribute('href', href);
+
+      // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+      return {
+        href: urlParsingNode.href,
+        protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+        host: urlParsingNode.host,
+        search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+        hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+        hostname: urlParsingNode.hostname,
+        port: urlParsingNode.port,
+        pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
+                  urlParsingNode.pathname :
+                  '/' + urlParsingNode.pathname
+      };
+    }
+
+    originURL = resolveURL(window.location.href);
+
+    /**
+    * Determine if a URL shares the same origin as the current location
+    *
+    * @param {String} requestURL The URL to test
+    * @returns {boolean} True if URL shares the same origin, otherwise false
+    */
+    return function isURLSameOrigin(requestURL) {
+      var parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
+      return (parsed.protocol === originURL.protocol &&
+            parsed.host === originURL.host);
+    };
+  })() :
+
+  // Non standard browser envs (web workers, react-native) lack needed support.
+  (function nonStandardBrowserEnv() {
+    return function isURLSameOrigin() {
+      return true;
+    };
+  })()
+);
+
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+
+module.exports = function normalizeHeaderName(headers, normalizedName) {
+  utils.forEach(headers, function processHeader(value, name) {
+    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
+      headers[normalizedName] = value;
+      delete headers[name];
+    }
+  });
+};
+
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(0);
+
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} headers Headers needing to be parsed
+ * @returns {Object} Headers parsed into an object
+ */
+module.exports = function parseHeaders(headers) {
+  var parsed = {};
+  var key;
+  var val;
+  var i;
+
+  if (!headers) { return parsed; }
+
+  utils.forEach(headers.split('\n'), function parser(line) {
+    i = line.indexOf(':');
+    key = utils.trim(line.substr(0, i)).toLowerCase();
+    val = utils.trim(line.substr(i + 1));
+
+    if (key) {
+      parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+    }
+  });
+
+  return parsed;
+};
+
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Syntactic sugar for invoking a function and expanding an array for arguments.
+ *
+ * Common use case would be to use `Function.prototype.apply`.
+ *
+ *  ```js
+ *  function f(x, y, z) {}
+ *  var args = [1, 2, 3];
+ *  f.apply(null, args);
+ *  ```
+ *
+ * With `spread` this example can be re-written.
+ *
+ *  ```js
+ *  spread(function(x, y, z) {})([1, 2, 3]);
+ *  ```
+ *
+ * @param {Function} callback
+ * @returns {Function}
+ */
+module.exports = function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+};
+
+
+/***/ }),
+/* 30 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vueHeader__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vueHeader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vueHeader__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vueContent__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vueContent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__vueContent__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vueFooter__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vueFooter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__vueFooter__);
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = {
+    components: { vueHeader: __WEBPACK_IMPORTED_MODULE_0__vueHeader___default.a, vueContent: __WEBPACK_IMPORTED_MODULE_1__vueContent___default.a, vueFooter: __WEBPACK_IMPORTED_MODULE_2__vueFooter___default.a },
+    created: function created() {
+        var _this = this;
+
+        Event.$on('toggleContrast', function () {
+            _this.contrast = _this.$root.state.contrast;
+        });
+    },
+
+    methods: {
+        contrastString: function contrastString() {
+            return this.$root.state.contrast + 'Contrast';
+        }
+    }
+};
+
+/***/ }),
+/* 31 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = {
+    methods: {
+        resetSearchString: function resetSearchString() {
+            this.searchString = this.$root.state.content.searchString = '';
+        },
+        toggleContrast: function toggleContrast() {
+            this.$root.state.contrast = this.$root.state.contrast == 'high' ? 'normal' : 'high';
+            Event.$emit('toggleContrast');
+        },
+        searchSubmitted: function searchSubmitted() {
+            Event.$emit('activeContentChange', 'search');
+            Event.$emit('searchSubmitted', this.searchString);
+        }
+    },
+    data: function data() {
+        return {
+            searchString: ''
+        };
+    }
+};
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Vue is a modern JavaScript library for building interactive web interfaces
+ * using reactive data binding and reusable components. Vue's API is clean
+ * and simple, leaving you to focus on building your next great project.
+ */
+
+window.Vue = __webpack_require__(10);
+
+/**
+ * We'll load the axios HTTP library which allows us to easily issue requests
+ * to our Laravel back-end. This library automatically handles sending the
+ * CSRF token as a header based on the value of the "XSRF" token cookie.
+ */
+
+/**
+ * We'll load the axios HTTP library which allows us to easily issue requests
+ * to our Laravel back-end. This library automatically handles sending the
+ * CSRF token as a header based on the value of the "XSRF" token cookie.
+ */
+
+window.axios = __webpack_require__(4);
+
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+
+/**
+ * Next we will register the CSRF Token as a common header with Axios so that
+ * all outgoing HTTP requests automatically have it attached. This is just
+ * a simple convenience so we don't have to attach every token manually.
+ */
+
+var token = document.head.querySelector('meta[name="csrf-token"]');
+
+if (token) {
+  window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+} else {
+  console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+}
+/**
+ * Echo exposes an expressive API for subscribing to channels and listening
+ * for events that are broadcast by Laravel. Echo and event broadcasting
+ * allows your team to easily build robust real-time web applications.
+ */
+
+// import Echo from "laravel-echo"
+
+// window.Echo = new Echo({
+//     broadcaster: 'pusher',
+//     key: 'your-pusher-key'
+// });
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(30),
+  /* template */
+  __webpack_require__(40),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/Container.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] Container.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-67c2336a", Component.options)
+  } else {
+    hotAPI.reload("data-v-67c2336a", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(1)(
+  /* script */
+  null,
+  /* template */
+  __webpack_require__(38),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueContent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] vueContent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-3681eb99", Component.options)
+  } else {
+    hotAPI.reload("data-v-3681eb99", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(1)(
+  /* script */
+  null,
+  /* template */
+  __webpack_require__(37),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueFooter.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] vueFooter.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2590f8ab", Component.options)
+  } else {
+    hotAPI.reload("data-v-2590f8ab", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(1)(
+  /* script */
+  __webpack_require__(31),
+  /* template */
+  __webpack_require__(39),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vueHeader.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] vueHeader.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-46c35c9d", Component.options)
+  } else {
+    hotAPI.reload("data-v-46c35c9d", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "footer"
+  }, [_c('headerLogo'), _vm._v(" "), _vm._m(0)], 1)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
+    staticClass: "flex",
+    attrs: {
+      "id": "infoFooter"
+    }
+  }, [_c('div', {
+    attrs: {
+      "id": "creativeCommons"
+    }
+  }, [_vm._v("\n        This work is licensed under a "), _c('a', {
+    attrs: {
+      "rel": "license",
+      "href": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  }, [_vm._v("Creative Commons Attribution 4.0 International License")]), _vm._v("."), _c('br'), _vm._v("\n\n        contact the "), _c('a', {
+    attrs: {
+      "href": "mailto:dsl@lsu.edu",
+      "target": "_blank"
+    }
+  }, [_vm._v("Digital Scholarship Lab")]), _vm._v(" at LSU Libraries with any questions or comments. ")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-2590f8ab", module.exports)
+  }
+}
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "content"
+  }, [(this.$root.state.activeContent == 'abouts') ? _c('abouts') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'issues') ? _c('issue') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'personography') ? _c('personography') : _vm._e(), _vm._v(" "), (this.$root.state.activeContent == 'search') ? _c('searchResults') : _vm._e()], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-3681eb99", module.exports)
+  }
+}
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "header"
+  }, [_c('headerTitle'), _vm._v(" "), _c('headerNav'), _vm._v(" "), _c('div', {
+    staticClass: "contrast",
+    on: {
+      "click": _vm.toggleContrast
+    }
+  }, [_c('div', {
+    staticClass: "contrastTitle"
+  }, [_vm._v("High Contrast")]), _vm._v(" "), _vm._m(0)])], 1)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "contrastSwitch"
+  }, [_c('div', {
+    staticClass: "contrastOff"
+  }, [_vm._v("Off")]), _vm._v(" "), _c('div', {
+    staticClass: "contrastOn"
+  }, [_vm._v("On")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-46c35c9d", module.exports)
+  }
+}
 
 /***/ }),
 /* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    class: _vm.contrastString(),
+    attrs: {
+      "id": "container"
+    }
+  }, [_c('vueHeader'), _vm._v(" "), _c('vueContent'), _vm._v(" "), _c('vueFooter')], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-67c2336a", module.exports)
+  }
+}
+
+/***/ }),
+/* 41 */
 /***/ (function(module, exports) {
 
 var g;
@@ -12231,12 +12290,2669 @@ module.exports = g;
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(9);
-module.exports = __webpack_require__(10);
+__webpack_require__(11);
+module.exports = __webpack_require__(12);
 
+
+/***/ }),
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(52);
+
+
+var routes = [{
+    path: '/',
+    component: __webpack_require__(33)
+
+}];
+
+/* harmony default export */ __webpack_exports__["a"] = new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
+    routes: routes
+});
+
+/***/ }),
+/* 52 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {/**
+  * vue-router v3.0.1
+  * (c) 2017 Evan You
+  * @license MIT
+  */
+/*  */
+
+function assert (condition, message) {
+  if (!condition) {
+    throw new Error(("[vue-router] " + message))
+  }
+}
+
+function warn (condition, message) {
+  if (process.env.NODE_ENV !== 'production' && !condition) {
+    typeof console !== 'undefined' && console.warn(("[vue-router] " + message));
+  }
+}
+
+function isError (err) {
+  return Object.prototype.toString.call(err).indexOf('Error') > -1
+}
+
+var View = {
+  name: 'router-view',
+  functional: true,
+  props: {
+    name: {
+      type: String,
+      default: 'default'
+    }
+  },
+  render: function render (_, ref) {
+    var props = ref.props;
+    var children = ref.children;
+    var parent = ref.parent;
+    var data = ref.data;
+
+    data.routerView = true;
+
+    // directly use parent context's createElement() function
+    // so that components rendered by router-view can resolve named slots
+    var h = parent.$createElement;
+    var name = props.name;
+    var route = parent.$route;
+    var cache = parent._routerViewCache || (parent._routerViewCache = {});
+
+    // determine current view depth, also check to see if the tree
+    // has been toggled inactive but kept-alive.
+    var depth = 0;
+    var inactive = false;
+    while (parent && parent._routerRoot !== parent) {
+      if (parent.$vnode && parent.$vnode.data.routerView) {
+        depth++;
+      }
+      if (parent._inactive) {
+        inactive = true;
+      }
+      parent = parent.$parent;
+    }
+    data.routerViewDepth = depth;
+
+    // render previous view if the tree is inactive and kept-alive
+    if (inactive) {
+      return h(cache[name], data, children)
+    }
+
+    var matched = route.matched[depth];
+    // render empty node if no matched route
+    if (!matched) {
+      cache[name] = null;
+      return h()
+    }
+
+    var component = cache[name] = matched.components[name];
+
+    // attach instance registration hook
+    // this will be called in the instance's injected lifecycle hooks
+    data.registerRouteInstance = function (vm, val) {
+      // val could be undefined for unregistration
+      var current = matched.instances[name];
+      if (
+        (val && current !== vm) ||
+        (!val && current === vm)
+      ) {
+        matched.instances[name] = val;
+      }
+    }
+
+    // also register instance in prepatch hook
+    // in case the same component instance is reused across different routes
+    ;(data.hook || (data.hook = {})).prepatch = function (_, vnode) {
+      matched.instances[name] = vnode.componentInstance;
+    };
+
+    // resolve props
+    var propsToPass = data.props = resolveProps(route, matched.props && matched.props[name]);
+    if (propsToPass) {
+      // clone to prevent mutation
+      propsToPass = data.props = extend({}, propsToPass);
+      // pass non-declared props as attrs
+      var attrs = data.attrs = data.attrs || {};
+      for (var key in propsToPass) {
+        if (!component.props || !(key in component.props)) {
+          attrs[key] = propsToPass[key];
+          delete propsToPass[key];
+        }
+      }
+    }
+
+    return h(component, data, children)
+  }
+};
+
+function resolveProps (route, config) {
+  switch (typeof config) {
+    case 'undefined':
+      return
+    case 'object':
+      return config
+    case 'function':
+      return config(route)
+    case 'boolean':
+      return config ? route.params : undefined
+    default:
+      if (process.env.NODE_ENV !== 'production') {
+        warn(
+          false,
+          "props in \"" + (route.path) + "\" is a " + (typeof config) + ", " +
+          "expecting an object, function or boolean."
+        );
+      }
+  }
+}
+
+function extend (to, from) {
+  for (var key in from) {
+    to[key] = from[key];
+  }
+  return to
+}
+
+/*  */
+
+var encodeReserveRE = /[!'()*]/g;
+var encodeReserveReplacer = function (c) { return '%' + c.charCodeAt(0).toString(16); };
+var commaRE = /%2C/g;
+
+// fixed encodeURIComponent which is more conformant to RFC3986:
+// - escapes [!'()*]
+// - preserve commas
+var encode = function (str) { return encodeURIComponent(str)
+  .replace(encodeReserveRE, encodeReserveReplacer)
+  .replace(commaRE, ','); };
+
+var decode = decodeURIComponent;
+
+function resolveQuery (
+  query,
+  extraQuery,
+  _parseQuery
+) {
+  if ( extraQuery === void 0 ) extraQuery = {};
+
+  var parse = _parseQuery || parseQuery;
+  var parsedQuery;
+  try {
+    parsedQuery = parse(query || '');
+  } catch (e) {
+    process.env.NODE_ENV !== 'production' && warn(false, e.message);
+    parsedQuery = {};
+  }
+  for (var key in extraQuery) {
+    parsedQuery[key] = extraQuery[key];
+  }
+  return parsedQuery
+}
+
+function parseQuery (query) {
+  var res = {};
+
+  query = query.trim().replace(/^(\?|#|&)/, '');
+
+  if (!query) {
+    return res
+  }
+
+  query.split('&').forEach(function (param) {
+    var parts = param.replace(/\+/g, ' ').split('=');
+    var key = decode(parts.shift());
+    var val = parts.length > 0
+      ? decode(parts.join('='))
+      : null;
+
+    if (res[key] === undefined) {
+      res[key] = val;
+    } else if (Array.isArray(res[key])) {
+      res[key].push(val);
+    } else {
+      res[key] = [res[key], val];
+    }
+  });
+
+  return res
+}
+
+function stringifyQuery (obj) {
+  var res = obj ? Object.keys(obj).map(function (key) {
+    var val = obj[key];
+
+    if (val === undefined) {
+      return ''
+    }
+
+    if (val === null) {
+      return encode(key)
+    }
+
+    if (Array.isArray(val)) {
+      var result = [];
+      val.forEach(function (val2) {
+        if (val2 === undefined) {
+          return
+        }
+        if (val2 === null) {
+          result.push(encode(key));
+        } else {
+          result.push(encode(key) + '=' + encode(val2));
+        }
+      });
+      return result.join('&')
+    }
+
+    return encode(key) + '=' + encode(val)
+  }).filter(function (x) { return x.length > 0; }).join('&') : null;
+  return res ? ("?" + res) : ''
+}
+
+/*  */
+
+
+var trailingSlashRE = /\/?$/;
+
+function createRoute (
+  record,
+  location,
+  redirectedFrom,
+  router
+) {
+  var stringifyQuery$$1 = router && router.options.stringifyQuery;
+
+  var query = location.query || {};
+  try {
+    query = clone(query);
+  } catch (e) {}
+
+  var route = {
+    name: location.name || (record && record.name),
+    meta: (record && record.meta) || {},
+    path: location.path || '/',
+    hash: location.hash || '',
+    query: query,
+    params: location.params || {},
+    fullPath: getFullPath(location, stringifyQuery$$1),
+    matched: record ? formatMatch(record) : []
+  };
+  if (redirectedFrom) {
+    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery$$1);
+  }
+  return Object.freeze(route)
+}
+
+function clone (value) {
+  if (Array.isArray(value)) {
+    return value.map(clone)
+  } else if (value && typeof value === 'object') {
+    var res = {};
+    for (var key in value) {
+      res[key] = clone(value[key]);
+    }
+    return res
+  } else {
+    return value
+  }
+}
+
+// the starting route that represents the initial state
+var START = createRoute(null, {
+  path: '/'
+});
+
+function formatMatch (record) {
+  var res = [];
+  while (record) {
+    res.unshift(record);
+    record = record.parent;
+  }
+  return res
+}
+
+function getFullPath (
+  ref,
+  _stringifyQuery
+) {
+  var path = ref.path;
+  var query = ref.query; if ( query === void 0 ) query = {};
+  var hash = ref.hash; if ( hash === void 0 ) hash = '';
+
+  var stringify = _stringifyQuery || stringifyQuery;
+  return (path || '/') + stringify(query) + hash
+}
+
+function isSameRoute (a, b) {
+  if (b === START) {
+    return a === b
+  } else if (!b) {
+    return false
+  } else if (a.path && b.path) {
+    return (
+      a.path.replace(trailingSlashRE, '') === b.path.replace(trailingSlashRE, '') &&
+      a.hash === b.hash &&
+      isObjectEqual(a.query, b.query)
+    )
+  } else if (a.name && b.name) {
+    return (
+      a.name === b.name &&
+      a.hash === b.hash &&
+      isObjectEqual(a.query, b.query) &&
+      isObjectEqual(a.params, b.params)
+    )
+  } else {
+    return false
+  }
+}
+
+function isObjectEqual (a, b) {
+  if ( a === void 0 ) a = {};
+  if ( b === void 0 ) b = {};
+
+  // handle null value #1566
+  if (!a || !b) { return a === b }
+  var aKeys = Object.keys(a);
+  var bKeys = Object.keys(b);
+  if (aKeys.length !== bKeys.length) {
+    return false
+  }
+  return aKeys.every(function (key) {
+    var aVal = a[key];
+    var bVal = b[key];
+    // check nested equality
+    if (typeof aVal === 'object' && typeof bVal === 'object') {
+      return isObjectEqual(aVal, bVal)
+    }
+    return String(aVal) === String(bVal)
+  })
+}
+
+function isIncludedRoute (current, target) {
+  return (
+    current.path.replace(trailingSlashRE, '/').indexOf(
+      target.path.replace(trailingSlashRE, '/')
+    ) === 0 &&
+    (!target.hash || current.hash === target.hash) &&
+    queryIncludes(current.query, target.query)
+  )
+}
+
+function queryIncludes (current, target) {
+  for (var key in target) {
+    if (!(key in current)) {
+      return false
+    }
+  }
+  return true
+}
+
+/*  */
+
+// work around weird flow bug
+var toTypes = [String, Object];
+var eventTypes = [String, Array];
+
+var Link = {
+  name: 'router-link',
+  props: {
+    to: {
+      type: toTypes,
+      required: true
+    },
+    tag: {
+      type: String,
+      default: 'a'
+    },
+    exact: Boolean,
+    append: Boolean,
+    replace: Boolean,
+    activeClass: String,
+    exactActiveClass: String,
+    event: {
+      type: eventTypes,
+      default: 'click'
+    }
+  },
+  render: function render (h) {
+    var this$1 = this;
+
+    var router = this.$router;
+    var current = this.$route;
+    var ref = router.resolve(this.to, current, this.append);
+    var location = ref.location;
+    var route = ref.route;
+    var href = ref.href;
+
+    var classes = {};
+    var globalActiveClass = router.options.linkActiveClass;
+    var globalExactActiveClass = router.options.linkExactActiveClass;
+    // Support global empty active class
+    var activeClassFallback = globalActiveClass == null
+            ? 'router-link-active'
+            : globalActiveClass;
+    var exactActiveClassFallback = globalExactActiveClass == null
+            ? 'router-link-exact-active'
+            : globalExactActiveClass;
+    var activeClass = this.activeClass == null
+            ? activeClassFallback
+            : this.activeClass;
+    var exactActiveClass = this.exactActiveClass == null
+            ? exactActiveClassFallback
+            : this.exactActiveClass;
+    var compareTarget = location.path
+      ? createRoute(null, location, null, router)
+      : route;
+
+    classes[exactActiveClass] = isSameRoute(current, compareTarget);
+    classes[activeClass] = this.exact
+      ? classes[exactActiveClass]
+      : isIncludedRoute(current, compareTarget);
+
+    var handler = function (e) {
+      if (guardEvent(e)) {
+        if (this$1.replace) {
+          router.replace(location);
+        } else {
+          router.push(location);
+        }
+      }
+    };
+
+    var on = { click: guardEvent };
+    if (Array.isArray(this.event)) {
+      this.event.forEach(function (e) { on[e] = handler; });
+    } else {
+      on[this.event] = handler;
+    }
+
+    var data = {
+      class: classes
+    };
+
+    if (this.tag === 'a') {
+      data.on = on;
+      data.attrs = { href: href };
+    } else {
+      // find the first <a> child and apply listener and href
+      var a = findAnchor(this.$slots.default);
+      if (a) {
+        // in case the <a> is a static node
+        a.isStatic = false;
+        var extend = _Vue.util.extend;
+        var aData = a.data = extend({}, a.data);
+        aData.on = on;
+        var aAttrs = a.data.attrs = extend({}, a.data.attrs);
+        aAttrs.href = href;
+      } else {
+        // doesn't have <a> child, apply listener to self
+        data.on = on;
+      }
+    }
+
+    return h(this.tag, data, this.$slots.default)
+  }
+};
+
+function guardEvent (e) {
+  // don't redirect with control keys
+  if (e.metaKey || e.altKey || e.ctrlKey || e.shiftKey) { return }
+  // don't redirect when preventDefault called
+  if (e.defaultPrevented) { return }
+  // don't redirect on right click
+  if (e.button !== undefined && e.button !== 0) { return }
+  // don't redirect if `target="_blank"`
+  if (e.currentTarget && e.currentTarget.getAttribute) {
+    var target = e.currentTarget.getAttribute('target');
+    if (/\b_blank\b/i.test(target)) { return }
+  }
+  // this may be a Weex event which doesn't have this method
+  if (e.preventDefault) {
+    e.preventDefault();
+  }
+  return true
+}
+
+function findAnchor (children) {
+  if (children) {
+    var child;
+    for (var i = 0; i < children.length; i++) {
+      child = children[i];
+      if (child.tag === 'a') {
+        return child
+      }
+      if (child.children && (child = findAnchor(child.children))) {
+        return child
+      }
+    }
+  }
+}
+
+var _Vue;
+
+function install (Vue) {
+  if (install.installed && _Vue === Vue) { return }
+  install.installed = true;
+
+  _Vue = Vue;
+
+  var isDef = function (v) { return v !== undefined; };
+
+  var registerInstance = function (vm, callVal) {
+    var i = vm.$options._parentVnode;
+    if (isDef(i) && isDef(i = i.data) && isDef(i = i.registerRouteInstance)) {
+      i(vm, callVal);
+    }
+  };
+
+  Vue.mixin({
+    beforeCreate: function beforeCreate () {
+      if (isDef(this.$options.router)) {
+        this._routerRoot = this;
+        this._router = this.$options.router;
+        this._router.init(this);
+        Vue.util.defineReactive(this, '_route', this._router.history.current);
+      } else {
+        this._routerRoot = (this.$parent && this.$parent._routerRoot) || this;
+      }
+      registerInstance(this, this);
+    },
+    destroyed: function destroyed () {
+      registerInstance(this);
+    }
+  });
+
+  Object.defineProperty(Vue.prototype, '$router', {
+    get: function get () { return this._routerRoot._router }
+  });
+
+  Object.defineProperty(Vue.prototype, '$route', {
+    get: function get () { return this._routerRoot._route }
+  });
+
+  Vue.component('router-view', View);
+  Vue.component('router-link', Link);
+
+  var strats = Vue.config.optionMergeStrategies;
+  // use the same hook merging strategy for route hooks
+  strats.beforeRouteEnter = strats.beforeRouteLeave = strats.beforeRouteUpdate = strats.created;
+}
+
+/*  */
+
+var inBrowser = typeof window !== 'undefined';
+
+/*  */
+
+function resolvePath (
+  relative,
+  base,
+  append
+) {
+  var firstChar = relative.charAt(0);
+  if (firstChar === '/') {
+    return relative
+  }
+
+  if (firstChar === '?' || firstChar === '#') {
+    return base + relative
+  }
+
+  var stack = base.split('/');
+
+  // remove trailing segment if:
+  // - not appending
+  // - appending to trailing slash (last segment is empty)
+  if (!append || !stack[stack.length - 1]) {
+    stack.pop();
+  }
+
+  // resolve relative path
+  var segments = relative.replace(/^\//, '').split('/');
+  for (var i = 0; i < segments.length; i++) {
+    var segment = segments[i];
+    if (segment === '..') {
+      stack.pop();
+    } else if (segment !== '.') {
+      stack.push(segment);
+    }
+  }
+
+  // ensure leading slash
+  if (stack[0] !== '') {
+    stack.unshift('');
+  }
+
+  return stack.join('/')
+}
+
+function parsePath (path) {
+  var hash = '';
+  var query = '';
+
+  var hashIndex = path.indexOf('#');
+  if (hashIndex >= 0) {
+    hash = path.slice(hashIndex);
+    path = path.slice(0, hashIndex);
+  }
+
+  var queryIndex = path.indexOf('?');
+  if (queryIndex >= 0) {
+    query = path.slice(queryIndex + 1);
+    path = path.slice(0, queryIndex);
+  }
+
+  return {
+    path: path,
+    query: query,
+    hash: hash
+  }
+}
+
+function cleanPath (path) {
+  return path.replace(/\/\//g, '/')
+}
+
+var isarray = Array.isArray || function (arr) {
+  return Object.prototype.toString.call(arr) == '[object Array]';
+};
+
+/**
+ * Expose `pathToRegexp`.
+ */
+var pathToRegexp_1 = pathToRegexp;
+var parse_1 = parse;
+var compile_1 = compile;
+var tokensToFunction_1 = tokensToFunction;
+var tokensToRegExp_1 = tokensToRegExp;
+
+/**
+ * The main path matching regexp utility.
+ *
+ * @type {RegExp}
+ */
+var PATH_REGEXP = new RegExp([
+  // Match escaped characters that would otherwise appear in future matches.
+  // This allows the user to escape special characters that won't transform.
+  '(\\\\.)',
+  // Match Express-style parameters and un-named parameters with a prefix
+  // and optional suffixes. Matches appear as:
+  //
+  // "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
+  // "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
+  // "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
+  '([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'
+].join('|'), 'g');
+
+/**
+ * Parse a string for the raw tokens.
+ *
+ * @param  {string}  str
+ * @param  {Object=} options
+ * @return {!Array}
+ */
+function parse (str, options) {
+  var tokens = [];
+  var key = 0;
+  var index = 0;
+  var path = '';
+  var defaultDelimiter = options && options.delimiter || '/';
+  var res;
+
+  while ((res = PATH_REGEXP.exec(str)) != null) {
+    var m = res[0];
+    var escaped = res[1];
+    var offset = res.index;
+    path += str.slice(index, offset);
+    index = offset + m.length;
+
+    // Ignore already escaped sequences.
+    if (escaped) {
+      path += escaped[1];
+      continue
+    }
+
+    var next = str[index];
+    var prefix = res[2];
+    var name = res[3];
+    var capture = res[4];
+    var group = res[5];
+    var modifier = res[6];
+    var asterisk = res[7];
+
+    // Push the current path onto the tokens.
+    if (path) {
+      tokens.push(path);
+      path = '';
+    }
+
+    var partial = prefix != null && next != null && next !== prefix;
+    var repeat = modifier === '+' || modifier === '*';
+    var optional = modifier === '?' || modifier === '*';
+    var delimiter = res[2] || defaultDelimiter;
+    var pattern = capture || group;
+
+    tokens.push({
+      name: name || key++,
+      prefix: prefix || '',
+      delimiter: delimiter,
+      optional: optional,
+      repeat: repeat,
+      partial: partial,
+      asterisk: !!asterisk,
+      pattern: pattern ? escapeGroup(pattern) : (asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?')
+    });
+  }
+
+  // Match any characters still remaining.
+  if (index < str.length) {
+    path += str.substr(index);
+  }
+
+  // If the path exists, push it onto the end.
+  if (path) {
+    tokens.push(path);
+  }
+
+  return tokens
+}
+
+/**
+ * Compile a string to a template function for the path.
+ *
+ * @param  {string}             str
+ * @param  {Object=}            options
+ * @return {!function(Object=, Object=)}
+ */
+function compile (str, options) {
+  return tokensToFunction(parse(str, options))
+}
+
+/**
+ * Prettier encoding of URI path segments.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+function encodeURIComponentPretty (str) {
+  return encodeURI(str).replace(/[\/?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
+  })
+}
+
+/**
+ * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+function encodeAsterisk (str) {
+  return encodeURI(str).replace(/[?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
+  })
+}
+
+/**
+ * Expose a method for transforming tokens into the path function.
+ */
+function tokensToFunction (tokens) {
+  // Compile all the tokens into regexps.
+  var matches = new Array(tokens.length);
+
+  // Compile all the patterns before compilation.
+  for (var i = 0; i < tokens.length; i++) {
+    if (typeof tokens[i] === 'object') {
+      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$');
+    }
+  }
+
+  return function (obj, opts) {
+    var path = '';
+    var data = obj || {};
+    var options = opts || {};
+    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent;
+
+    for (var i = 0; i < tokens.length; i++) {
+      var token = tokens[i];
+
+      if (typeof token === 'string') {
+        path += token;
+
+        continue
+      }
+
+      var value = data[token.name];
+      var segment;
+
+      if (value == null) {
+        if (token.optional) {
+          // Prepend partial segment prefixes.
+          if (token.partial) {
+            path += token.prefix;
+          }
+
+          continue
+        } else {
+          throw new TypeError('Expected "' + token.name + '" to be defined')
+        }
+      }
+
+      if (isarray(value)) {
+        if (!token.repeat) {
+          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`')
+        }
+
+        if (value.length === 0) {
+          if (token.optional) {
+            continue
+          } else {
+            throw new TypeError('Expected "' + token.name + '" to not be empty')
+          }
+        }
+
+        for (var j = 0; j < value.length; j++) {
+          segment = encode(value[j]);
+
+          if (!matches[i].test(segment)) {
+            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`')
+          }
+
+          path += (j === 0 ? token.prefix : token.delimiter) + segment;
+        }
+
+        continue
+      }
+
+      segment = token.asterisk ? encodeAsterisk(value) : encode(value);
+
+      if (!matches[i].test(segment)) {
+        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"')
+      }
+
+      path += token.prefix + segment;
+    }
+
+    return path
+  }
+}
+
+/**
+ * Escape a regular expression string.
+ *
+ * @param  {string} str
+ * @return {string}
+ */
+function escapeString (str) {
+  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1')
+}
+
+/**
+ * Escape the capturing group by escaping special characters and meaning.
+ *
+ * @param  {string} group
+ * @return {string}
+ */
+function escapeGroup (group) {
+  return group.replace(/([=!:$\/()])/g, '\\$1')
+}
+
+/**
+ * Attach the keys as a property of the regexp.
+ *
+ * @param  {!RegExp} re
+ * @param  {Array}   keys
+ * @return {!RegExp}
+ */
+function attachKeys (re, keys) {
+  re.keys = keys;
+  return re
+}
+
+/**
+ * Get the flags for a regexp from the options.
+ *
+ * @param  {Object} options
+ * @return {string}
+ */
+function flags (options) {
+  return options.sensitive ? '' : 'i'
+}
+
+/**
+ * Pull out keys from a regexp.
+ *
+ * @param  {!RegExp} path
+ * @param  {!Array}  keys
+ * @return {!RegExp}
+ */
+function regexpToRegexp (path, keys) {
+  // Use a negative lookahead to match only capturing groups.
+  var groups = path.source.match(/\((?!\?)/g);
+
+  if (groups) {
+    for (var i = 0; i < groups.length; i++) {
+      keys.push({
+        name: i,
+        prefix: null,
+        delimiter: null,
+        optional: false,
+        repeat: false,
+        partial: false,
+        asterisk: false,
+        pattern: null
+      });
+    }
+  }
+
+  return attachKeys(path, keys)
+}
+
+/**
+ * Transform an array into a regexp.
+ *
+ * @param  {!Array}  path
+ * @param  {Array}   keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+function arrayToRegexp (path, keys, options) {
+  var parts = [];
+
+  for (var i = 0; i < path.length; i++) {
+    parts.push(pathToRegexp(path[i], keys, options).source);
+  }
+
+  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options));
+
+  return attachKeys(regexp, keys)
+}
+
+/**
+ * Create a path regexp from string input.
+ *
+ * @param  {string}  path
+ * @param  {!Array}  keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+function stringToRegexp (path, keys, options) {
+  return tokensToRegExp(parse(path, options), keys, options)
+}
+
+/**
+ * Expose a function for taking tokens and returning a RegExp.
+ *
+ * @param  {!Array}          tokens
+ * @param  {(Array|Object)=} keys
+ * @param  {Object=}         options
+ * @return {!RegExp}
+ */
+function tokensToRegExp (tokens, keys, options) {
+  if (!isarray(keys)) {
+    options = /** @type {!Object} */ (keys || options);
+    keys = [];
+  }
+
+  options = options || {};
+
+  var strict = options.strict;
+  var end = options.end !== false;
+  var route = '';
+
+  // Iterate over the tokens and create our regexp string.
+  for (var i = 0; i < tokens.length; i++) {
+    var token = tokens[i];
+
+    if (typeof token === 'string') {
+      route += escapeString(token);
+    } else {
+      var prefix = escapeString(token.prefix);
+      var capture = '(?:' + token.pattern + ')';
+
+      keys.push(token);
+
+      if (token.repeat) {
+        capture += '(?:' + prefix + capture + ')*';
+      }
+
+      if (token.optional) {
+        if (!token.partial) {
+          capture = '(?:' + prefix + '(' + capture + '))?';
+        } else {
+          capture = prefix + '(' + capture + ')?';
+        }
+      } else {
+        capture = prefix + '(' + capture + ')';
+      }
+
+      route += capture;
+    }
+  }
+
+  var delimiter = escapeString(options.delimiter || '/');
+  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter;
+
+  // In non-strict mode we allow a slash at the end of match. If the path to
+  // match already ends with a slash, we remove it for consistency. The slash
+  // is valid at the end of a path match, not in the middle. This is important
+  // in non-ending mode, where "/test/" shouldn't match "/test//route".
+  if (!strict) {
+    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?';
+  }
+
+  if (end) {
+    route += '$';
+  } else {
+    // In non-ending mode, we need the capturing groups to match as much as
+    // possible by using a positive lookahead to the end or next path segment.
+    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)';
+  }
+
+  return attachKeys(new RegExp('^' + route, flags(options)), keys)
+}
+
+/**
+ * Normalize the given path string, returning a regular expression.
+ *
+ * An empty array can be passed in for the keys, which will hold the
+ * placeholder key descriptions. For example, using `/user/:id`, `keys` will
+ * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
+ *
+ * @param  {(string|RegExp|Array)} path
+ * @param  {(Array|Object)=}       keys
+ * @param  {Object=}               options
+ * @return {!RegExp}
+ */
+function pathToRegexp (path, keys, options) {
+  if (!isarray(keys)) {
+    options = /** @type {!Object} */ (keys || options);
+    keys = [];
+  }
+
+  options = options || {};
+
+  if (path instanceof RegExp) {
+    return regexpToRegexp(path, /** @type {!Array} */ (keys))
+  }
+
+  if (isarray(path)) {
+    return arrayToRegexp(/** @type {!Array} */ (path), /** @type {!Array} */ (keys), options)
+  }
+
+  return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)
+}
+
+pathToRegexp_1.parse = parse_1;
+pathToRegexp_1.compile = compile_1;
+pathToRegexp_1.tokensToFunction = tokensToFunction_1;
+pathToRegexp_1.tokensToRegExp = tokensToRegExp_1;
+
+/*  */
+
+// $flow-disable-line
+var regexpCompileCache = Object.create(null);
+
+function fillParams (
+  path,
+  params,
+  routeMsg
+) {
+  try {
+    var filler =
+      regexpCompileCache[path] ||
+      (regexpCompileCache[path] = pathToRegexp_1.compile(path));
+    return filler(params || {}, { pretty: true })
+  } catch (e) {
+    if (process.env.NODE_ENV !== 'production') {
+      warn(false, ("missing param for " + routeMsg + ": " + (e.message)));
+    }
+    return ''
+  }
+}
+
+/*  */
+
+function createRouteMap (
+  routes,
+  oldPathList,
+  oldPathMap,
+  oldNameMap
+) {
+  // the path list is used to control path matching priority
+  var pathList = oldPathList || [];
+  // $flow-disable-line
+  var pathMap = oldPathMap || Object.create(null);
+  // $flow-disable-line
+  var nameMap = oldNameMap || Object.create(null);
+
+  routes.forEach(function (route) {
+    addRouteRecord(pathList, pathMap, nameMap, route);
+  });
+
+  // ensure wildcard routes are always at the end
+  for (var i = 0, l = pathList.length; i < l; i++) {
+    if (pathList[i] === '*') {
+      pathList.push(pathList.splice(i, 1)[0]);
+      l--;
+      i--;
+    }
+  }
+
+  return {
+    pathList: pathList,
+    pathMap: pathMap,
+    nameMap: nameMap
+  }
+}
+
+function addRouteRecord (
+  pathList,
+  pathMap,
+  nameMap,
+  route,
+  parent,
+  matchAs
+) {
+  var path = route.path;
+  var name = route.name;
+  if (process.env.NODE_ENV !== 'production') {
+    assert(path != null, "\"path\" is required in a route configuration.");
+    assert(
+      typeof route.component !== 'string',
+      "route config \"component\" for path: " + (String(path || name)) + " cannot be a " +
+      "string id. Use an actual component instead."
+    );
+  }
+
+  var pathToRegexpOptions = route.pathToRegexpOptions || {};
+  var normalizedPath = normalizePath(
+    path,
+    parent,
+    pathToRegexpOptions.strict
+  );
+
+  if (typeof route.caseSensitive === 'boolean') {
+    pathToRegexpOptions.sensitive = route.caseSensitive;
+  }
+
+  var record = {
+    path: normalizedPath,
+    regex: compileRouteRegex(normalizedPath, pathToRegexpOptions),
+    components: route.components || { default: route.component },
+    instances: {},
+    name: name,
+    parent: parent,
+    matchAs: matchAs,
+    redirect: route.redirect,
+    beforeEnter: route.beforeEnter,
+    meta: route.meta || {},
+    props: route.props == null
+      ? {}
+      : route.components
+        ? route.props
+        : { default: route.props }
+  };
+
+  if (route.children) {
+    // Warn if route is named, does not redirect and has a default child route.
+    // If users navigate to this route by name, the default child will
+    // not be rendered (GH Issue #629)
+    if (process.env.NODE_ENV !== 'production') {
+      if (route.name && !route.redirect && route.children.some(function (child) { return /^\/?$/.test(child.path); })) {
+        warn(
+          false,
+          "Named Route '" + (route.name) + "' has a default child route. " +
+          "When navigating to this named route (:to=\"{name: '" + (route.name) + "'\"), " +
+          "the default child route will not be rendered. Remove the name from " +
+          "this route and use the name of the default child route for named " +
+          "links instead."
+        );
+      }
+    }
+    route.children.forEach(function (child) {
+      var childMatchAs = matchAs
+        ? cleanPath((matchAs + "/" + (child.path)))
+        : undefined;
+      addRouteRecord(pathList, pathMap, nameMap, child, record, childMatchAs);
+    });
+  }
+
+  if (route.alias !== undefined) {
+    var aliases = Array.isArray(route.alias)
+      ? route.alias
+      : [route.alias];
+
+    aliases.forEach(function (alias) {
+      var aliasRoute = {
+        path: alias,
+        children: route.children
+      };
+      addRouteRecord(
+        pathList,
+        pathMap,
+        nameMap,
+        aliasRoute,
+        parent,
+        record.path || '/' // matchAs
+      );
+    });
+  }
+
+  if (!pathMap[record.path]) {
+    pathList.push(record.path);
+    pathMap[record.path] = record;
+  }
+
+  if (name) {
+    if (!nameMap[name]) {
+      nameMap[name] = record;
+    } else if (process.env.NODE_ENV !== 'production' && !matchAs) {
+      warn(
+        false,
+        "Duplicate named routes definition: " +
+        "{ name: \"" + name + "\", path: \"" + (record.path) + "\" }"
+      );
+    }
+  }
+}
+
+function compileRouteRegex (path, pathToRegexpOptions) {
+  var regex = pathToRegexp_1(path, [], pathToRegexpOptions);
+  if (process.env.NODE_ENV !== 'production') {
+    var keys = Object.create(null);
+    regex.keys.forEach(function (key) {
+      warn(!keys[key.name], ("Duplicate param keys in route with path: \"" + path + "\""));
+      keys[key.name] = true;
+    });
+  }
+  return regex
+}
+
+function normalizePath (path, parent, strict) {
+  if (!strict) { path = path.replace(/\/$/, ''); }
+  if (path[0] === '/') { return path }
+  if (parent == null) { return path }
+  return cleanPath(((parent.path) + "/" + path))
+}
+
+/*  */
+
+
+function normalizeLocation (
+  raw,
+  current,
+  append,
+  router
+) {
+  var next = typeof raw === 'string' ? { path: raw } : raw;
+  // named target
+  if (next.name || next._normalized) {
+    return next
+  }
+
+  // relative params
+  if (!next.path && next.params && current) {
+    next = assign({}, next);
+    next._normalized = true;
+    var params = assign(assign({}, current.params), next.params);
+    if (current.name) {
+      next.name = current.name;
+      next.params = params;
+    } else if (current.matched.length) {
+      var rawPath = current.matched[current.matched.length - 1].path;
+      next.path = fillParams(rawPath, params, ("path " + (current.path)));
+    } else if (process.env.NODE_ENV !== 'production') {
+      warn(false, "relative params navigation requires a current route.");
+    }
+    return next
+  }
+
+  var parsedPath = parsePath(next.path || '');
+  var basePath = (current && current.path) || '/';
+  var path = parsedPath.path
+    ? resolvePath(parsedPath.path, basePath, append || next.append)
+    : basePath;
+
+  var query = resolveQuery(
+    parsedPath.query,
+    next.query,
+    router && router.options.parseQuery
+  );
+
+  var hash = next.hash || parsedPath.hash;
+  if (hash && hash.charAt(0) !== '#') {
+    hash = "#" + hash;
+  }
+
+  return {
+    _normalized: true,
+    path: path,
+    query: query,
+    hash: hash
+  }
+}
+
+function assign (a, b) {
+  for (var key in b) {
+    a[key] = b[key];
+  }
+  return a
+}
+
+/*  */
+
+
+function createMatcher (
+  routes,
+  router
+) {
+  var ref = createRouteMap(routes);
+  var pathList = ref.pathList;
+  var pathMap = ref.pathMap;
+  var nameMap = ref.nameMap;
+
+  function addRoutes (routes) {
+    createRouteMap(routes, pathList, pathMap, nameMap);
+  }
+
+  function match (
+    raw,
+    currentRoute,
+    redirectedFrom
+  ) {
+    var location = normalizeLocation(raw, currentRoute, false, router);
+    var name = location.name;
+
+    if (name) {
+      var record = nameMap[name];
+      if (process.env.NODE_ENV !== 'production') {
+        warn(record, ("Route with name '" + name + "' does not exist"));
+      }
+      if (!record) { return _createRoute(null, location) }
+      var paramNames = record.regex.keys
+        .filter(function (key) { return !key.optional; })
+        .map(function (key) { return key.name; });
+
+      if (typeof location.params !== 'object') {
+        location.params = {};
+      }
+
+      if (currentRoute && typeof currentRoute.params === 'object') {
+        for (var key in currentRoute.params) {
+          if (!(key in location.params) && paramNames.indexOf(key) > -1) {
+            location.params[key] = currentRoute.params[key];
+          }
+        }
+      }
+
+      if (record) {
+        location.path = fillParams(record.path, location.params, ("named route \"" + name + "\""));
+        return _createRoute(record, location, redirectedFrom)
+      }
+    } else if (location.path) {
+      location.params = {};
+      for (var i = 0; i < pathList.length; i++) {
+        var path = pathList[i];
+        var record$1 = pathMap[path];
+        if (matchRoute(record$1.regex, location.path, location.params)) {
+          return _createRoute(record$1, location, redirectedFrom)
+        }
+      }
+    }
+    // no match
+    return _createRoute(null, location)
+  }
+
+  function redirect (
+    record,
+    location
+  ) {
+    var originalRedirect = record.redirect;
+    var redirect = typeof originalRedirect === 'function'
+        ? originalRedirect(createRoute(record, location, null, router))
+        : originalRedirect;
+
+    if (typeof redirect === 'string') {
+      redirect = { path: redirect };
+    }
+
+    if (!redirect || typeof redirect !== 'object') {
+      if (process.env.NODE_ENV !== 'production') {
+        warn(
+          false, ("invalid redirect option: " + (JSON.stringify(redirect)))
+        );
+      }
+      return _createRoute(null, location)
+    }
+
+    var re = redirect;
+    var name = re.name;
+    var path = re.path;
+    var query = location.query;
+    var hash = location.hash;
+    var params = location.params;
+    query = re.hasOwnProperty('query') ? re.query : query;
+    hash = re.hasOwnProperty('hash') ? re.hash : hash;
+    params = re.hasOwnProperty('params') ? re.params : params;
+
+    if (name) {
+      // resolved named direct
+      var targetRecord = nameMap[name];
+      if (process.env.NODE_ENV !== 'production') {
+        assert(targetRecord, ("redirect failed: named route \"" + name + "\" not found."));
+      }
+      return match({
+        _normalized: true,
+        name: name,
+        query: query,
+        hash: hash,
+        params: params
+      }, undefined, location)
+    } else if (path) {
+      // 1. resolve relative redirect
+      var rawPath = resolveRecordPath(path, record);
+      // 2. resolve params
+      var resolvedPath = fillParams(rawPath, params, ("redirect route with path \"" + rawPath + "\""));
+      // 3. rematch with existing query and hash
+      return match({
+        _normalized: true,
+        path: resolvedPath,
+        query: query,
+        hash: hash
+      }, undefined, location)
+    } else {
+      if (process.env.NODE_ENV !== 'production') {
+        warn(false, ("invalid redirect option: " + (JSON.stringify(redirect))));
+      }
+      return _createRoute(null, location)
+    }
+  }
+
+  function alias (
+    record,
+    location,
+    matchAs
+  ) {
+    var aliasedPath = fillParams(matchAs, location.params, ("aliased route with path \"" + matchAs + "\""));
+    var aliasedMatch = match({
+      _normalized: true,
+      path: aliasedPath
+    });
+    if (aliasedMatch) {
+      var matched = aliasedMatch.matched;
+      var aliasedRecord = matched[matched.length - 1];
+      location.params = aliasedMatch.params;
+      return _createRoute(aliasedRecord, location)
+    }
+    return _createRoute(null, location)
+  }
+
+  function _createRoute (
+    record,
+    location,
+    redirectedFrom
+  ) {
+    if (record && record.redirect) {
+      return redirect(record, redirectedFrom || location)
+    }
+    if (record && record.matchAs) {
+      return alias(record, location, record.matchAs)
+    }
+    return createRoute(record, location, redirectedFrom, router)
+  }
+
+  return {
+    match: match,
+    addRoutes: addRoutes
+  }
+}
+
+function matchRoute (
+  regex,
+  path,
+  params
+) {
+  var m = path.match(regex);
+
+  if (!m) {
+    return false
+  } else if (!params) {
+    return true
+  }
+
+  for (var i = 1, len = m.length; i < len; ++i) {
+    var key = regex.keys[i - 1];
+    var val = typeof m[i] === 'string' ? decodeURIComponent(m[i]) : m[i];
+    if (key) {
+      params[key.name] = val;
+    }
+  }
+
+  return true
+}
+
+function resolveRecordPath (path, record) {
+  return resolvePath(path, record.parent ? record.parent.path : '/', true)
+}
+
+/*  */
+
+
+var positionStore = Object.create(null);
+
+function setupScroll () {
+  // Fix for #1585 for Firefox
+  window.history.replaceState({ key: getStateKey() }, '');
+  window.addEventListener('popstate', function (e) {
+    saveScrollPosition();
+    if (e.state && e.state.key) {
+      setStateKey(e.state.key);
+    }
+  });
+}
+
+function handleScroll (
+  router,
+  to,
+  from,
+  isPop
+) {
+  if (!router.app) {
+    return
+  }
+
+  var behavior = router.options.scrollBehavior;
+  if (!behavior) {
+    return
+  }
+
+  if (process.env.NODE_ENV !== 'production') {
+    assert(typeof behavior === 'function', "scrollBehavior must be a function");
+  }
+
+  // wait until re-render finishes before scrolling
+  router.app.$nextTick(function () {
+    var position = getScrollPosition();
+    var shouldScroll = behavior(to, from, isPop ? position : null);
+
+    if (!shouldScroll) {
+      return
+    }
+
+    if (typeof shouldScroll.then === 'function') {
+      shouldScroll.then(function (shouldScroll) {
+        scrollToPosition((shouldScroll), position);
+      }).catch(function (err) {
+        if (process.env.NODE_ENV !== 'production') {
+          assert(false, err.toString());
+        }
+      });
+    } else {
+      scrollToPosition(shouldScroll, position);
+    }
+  });
+}
+
+function saveScrollPosition () {
+  var key = getStateKey();
+  if (key) {
+    positionStore[key] = {
+      x: window.pageXOffset,
+      y: window.pageYOffset
+    };
+  }
+}
+
+function getScrollPosition () {
+  var key = getStateKey();
+  if (key) {
+    return positionStore[key]
+  }
+}
+
+function getElementPosition (el, offset) {
+  var docEl = document.documentElement;
+  var docRect = docEl.getBoundingClientRect();
+  var elRect = el.getBoundingClientRect();
+  return {
+    x: elRect.left - docRect.left - offset.x,
+    y: elRect.top - docRect.top - offset.y
+  }
+}
+
+function isValidPosition (obj) {
+  return isNumber(obj.x) || isNumber(obj.y)
+}
+
+function normalizePosition (obj) {
+  return {
+    x: isNumber(obj.x) ? obj.x : window.pageXOffset,
+    y: isNumber(obj.y) ? obj.y : window.pageYOffset
+  }
+}
+
+function normalizeOffset (obj) {
+  return {
+    x: isNumber(obj.x) ? obj.x : 0,
+    y: isNumber(obj.y) ? obj.y : 0
+  }
+}
+
+function isNumber (v) {
+  return typeof v === 'number'
+}
+
+function scrollToPosition (shouldScroll, position) {
+  var isObject = typeof shouldScroll === 'object';
+  if (isObject && typeof shouldScroll.selector === 'string') {
+    var el = document.querySelector(shouldScroll.selector);
+    if (el) {
+      var offset = shouldScroll.offset && typeof shouldScroll.offset === 'object' ? shouldScroll.offset : {};
+      offset = normalizeOffset(offset);
+      position = getElementPosition(el, offset);
+    } else if (isValidPosition(shouldScroll)) {
+      position = normalizePosition(shouldScroll);
+    }
+  } else if (isObject && isValidPosition(shouldScroll)) {
+    position = normalizePosition(shouldScroll);
+  }
+
+  if (position) {
+    window.scrollTo(position.x, position.y);
+  }
+}
+
+/*  */
+
+var supportsPushState = inBrowser && (function () {
+  var ua = window.navigator.userAgent;
+
+  if (
+    (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
+    ua.indexOf('Mobile Safari') !== -1 &&
+    ua.indexOf('Chrome') === -1 &&
+    ua.indexOf('Windows Phone') === -1
+  ) {
+    return false
+  }
+
+  return window.history && 'pushState' in window.history
+})();
+
+// use User Timing api (if present) for more accurate key precision
+var Time = inBrowser && window.performance && window.performance.now
+  ? window.performance
+  : Date;
+
+var _key = genKey();
+
+function genKey () {
+  return Time.now().toFixed(3)
+}
+
+function getStateKey () {
+  return _key
+}
+
+function setStateKey (key) {
+  _key = key;
+}
+
+function pushState (url, replace) {
+  saveScrollPosition();
+  // try...catch the pushState call to get around Safari
+  // DOM Exception 18 where it limits to 100 pushState calls
+  var history = window.history;
+  try {
+    if (replace) {
+      history.replaceState({ key: _key }, '', url);
+    } else {
+      _key = genKey();
+      history.pushState({ key: _key }, '', url);
+    }
+  } catch (e) {
+    window.location[replace ? 'replace' : 'assign'](url);
+  }
+}
+
+function replaceState (url) {
+  pushState(url, true);
+}
+
+/*  */
+
+function runQueue (queue, fn, cb) {
+  var step = function (index) {
+    if (index >= queue.length) {
+      cb();
+    } else {
+      if (queue[index]) {
+        fn(queue[index], function () {
+          step(index + 1);
+        });
+      } else {
+        step(index + 1);
+      }
+    }
+  };
+  step(0);
+}
+
+/*  */
+
+function resolveAsyncComponents (matched) {
+  return function (to, from, next) {
+    var hasAsync = false;
+    var pending = 0;
+    var error = null;
+
+    flatMapComponents(matched, function (def, _, match, key) {
+      // if it's a function and doesn't have cid attached,
+      // assume it's an async component resolve function.
+      // we are not using Vue's default async resolving mechanism because
+      // we want to halt the navigation until the incoming component has been
+      // resolved.
+      if (typeof def === 'function' && def.cid === undefined) {
+        hasAsync = true;
+        pending++;
+
+        var resolve = once(function (resolvedDef) {
+          if (isESModule(resolvedDef)) {
+            resolvedDef = resolvedDef.default;
+          }
+          // save resolved on async factory in case it's used elsewhere
+          def.resolved = typeof resolvedDef === 'function'
+            ? resolvedDef
+            : _Vue.extend(resolvedDef);
+          match.components[key] = resolvedDef;
+          pending--;
+          if (pending <= 0) {
+            next();
+          }
+        });
+
+        var reject = once(function (reason) {
+          var msg = "Failed to resolve async component " + key + ": " + reason;
+          process.env.NODE_ENV !== 'production' && warn(false, msg);
+          if (!error) {
+            error = isError(reason)
+              ? reason
+              : new Error(msg);
+            next(error);
+          }
+        });
+
+        var res;
+        try {
+          res = def(resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+        if (res) {
+          if (typeof res.then === 'function') {
+            res.then(resolve, reject);
+          } else {
+            // new syntax in Vue 2.3
+            var comp = res.component;
+            if (comp && typeof comp.then === 'function') {
+              comp.then(resolve, reject);
+            }
+          }
+        }
+      }
+    });
+
+    if (!hasAsync) { next(); }
+  }
+}
+
+function flatMapComponents (
+  matched,
+  fn
+) {
+  return flatten(matched.map(function (m) {
+    return Object.keys(m.components).map(function (key) { return fn(
+      m.components[key],
+      m.instances[key],
+      m, key
+    ); })
+  }))
+}
+
+function flatten (arr) {
+  return Array.prototype.concat.apply([], arr)
+}
+
+var hasSymbol =
+  typeof Symbol === 'function' &&
+  typeof Symbol.toStringTag === 'symbol';
+
+function isESModule (obj) {
+  return obj.__esModule || (hasSymbol && obj[Symbol.toStringTag] === 'Module')
+}
+
+// in Webpack 2, require.ensure now also returns a Promise
+// so the resolve/reject functions may get called an extra time
+// if the user uses an arrow function shorthand that happens to
+// return that Promise.
+function once (fn) {
+  var called = false;
+  return function () {
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+
+    if (called) { return }
+    called = true;
+    return fn.apply(this, args)
+  }
+}
+
+/*  */
+
+var History = function History (router, base) {
+  this.router = router;
+  this.base = normalizeBase(base);
+  // start with a route object that stands for "nowhere"
+  this.current = START;
+  this.pending = null;
+  this.ready = false;
+  this.readyCbs = [];
+  this.readyErrorCbs = [];
+  this.errorCbs = [];
+};
+
+History.prototype.listen = function listen (cb) {
+  this.cb = cb;
+};
+
+History.prototype.onReady = function onReady (cb, errorCb) {
+  if (this.ready) {
+    cb();
+  } else {
+    this.readyCbs.push(cb);
+    if (errorCb) {
+      this.readyErrorCbs.push(errorCb);
+    }
+  }
+};
+
+History.prototype.onError = function onError (errorCb) {
+  this.errorCbs.push(errorCb);
+};
+
+History.prototype.transitionTo = function transitionTo (location, onComplete, onAbort) {
+    var this$1 = this;
+
+  var route = this.router.match(location, this.current);
+  this.confirmTransition(route, function () {
+    this$1.updateRoute(route);
+    onComplete && onComplete(route);
+    this$1.ensureURL();
+
+    // fire ready cbs once
+    if (!this$1.ready) {
+      this$1.ready = true;
+      this$1.readyCbs.forEach(function (cb) { cb(route); });
+    }
+  }, function (err) {
+    if (onAbort) {
+      onAbort(err);
+    }
+    if (err && !this$1.ready) {
+      this$1.ready = true;
+      this$1.readyErrorCbs.forEach(function (cb) { cb(err); });
+    }
+  });
+};
+
+History.prototype.confirmTransition = function confirmTransition (route, onComplete, onAbort) {
+    var this$1 = this;
+
+  var current = this.current;
+  var abort = function (err) {
+    if (isError(err)) {
+      if (this$1.errorCbs.length) {
+        this$1.errorCbs.forEach(function (cb) { cb(err); });
+      } else {
+        warn(false, 'uncaught error during route navigation:');
+        console.error(err);
+      }
+    }
+    onAbort && onAbort(err);
+  };
+  if (
+    isSameRoute(route, current) &&
+    // in the case the route map has been dynamically appended to
+    route.matched.length === current.matched.length
+  ) {
+    this.ensureURL();
+    return abort()
+  }
+
+  var ref = resolveQueue(this.current.matched, route.matched);
+    var updated = ref.updated;
+    var deactivated = ref.deactivated;
+    var activated = ref.activated;
+
+  var queue = [].concat(
+    // in-component leave guards
+    extractLeaveGuards(deactivated),
+    // global before hooks
+    this.router.beforeHooks,
+    // in-component update hooks
+    extractUpdateHooks(updated),
+    // in-config enter guards
+    activated.map(function (m) { return m.beforeEnter; }),
+    // async components
+    resolveAsyncComponents(activated)
+  );
+
+  this.pending = route;
+  var iterator = function (hook, next) {
+    if (this$1.pending !== route) {
+      return abort()
+    }
+    try {
+      hook(route, current, function (to) {
+        if (to === false || isError(to)) {
+          // next(false) -> abort navigation, ensure current URL
+          this$1.ensureURL(true);
+          abort(to);
+        } else if (
+          typeof to === 'string' ||
+          (typeof to === 'object' && (
+            typeof to.path === 'string' ||
+            typeof to.name === 'string'
+          ))
+        ) {
+          // next('/') or next({ path: '/' }) -> redirect
+          abort();
+          if (typeof to === 'object' && to.replace) {
+            this$1.replace(to);
+          } else {
+            this$1.push(to);
+          }
+        } else {
+          // confirm transition and pass on the value
+          next(to);
+        }
+      });
+    } catch (e) {
+      abort(e);
+    }
+  };
+
+  runQueue(queue, iterator, function () {
+    var postEnterCbs = [];
+    var isValid = function () { return this$1.current === route; };
+    // wait until async components are resolved before
+    // extracting in-component enter guards
+    var enterGuards = extractEnterGuards(activated, postEnterCbs, isValid);
+    var queue = enterGuards.concat(this$1.router.resolveHooks);
+    runQueue(queue, iterator, function () {
+      if (this$1.pending !== route) {
+        return abort()
+      }
+      this$1.pending = null;
+      onComplete(route);
+      if (this$1.router.app) {
+        this$1.router.app.$nextTick(function () {
+          postEnterCbs.forEach(function (cb) { cb(); });
+        });
+      }
+    });
+  });
+};
+
+History.prototype.updateRoute = function updateRoute (route) {
+  var prev = this.current;
+  this.current = route;
+  this.cb && this.cb(route);
+  this.router.afterHooks.forEach(function (hook) {
+    hook && hook(route, prev);
+  });
+};
+
+function normalizeBase (base) {
+  if (!base) {
+    if (inBrowser) {
+      // respect <base> tag
+      var baseEl = document.querySelector('base');
+      base = (baseEl && baseEl.getAttribute('href')) || '/';
+      // strip full URL origin
+      base = base.replace(/^https?:\/\/[^\/]+/, '');
+    } else {
+      base = '/';
+    }
+  }
+  // make sure there's the starting slash
+  if (base.charAt(0) !== '/') {
+    base = '/' + base;
+  }
+  // remove trailing slash
+  return base.replace(/\/$/, '')
+}
+
+function resolveQueue (
+  current,
+  next
+) {
+  var i;
+  var max = Math.max(current.length, next.length);
+  for (i = 0; i < max; i++) {
+    if (current[i] !== next[i]) {
+      break
+    }
+  }
+  return {
+    updated: next.slice(0, i),
+    activated: next.slice(i),
+    deactivated: current.slice(i)
+  }
+}
+
+function extractGuards (
+  records,
+  name,
+  bind,
+  reverse
+) {
+  var guards = flatMapComponents(records, function (def, instance, match, key) {
+    var guard = extractGuard(def, name);
+    if (guard) {
+      return Array.isArray(guard)
+        ? guard.map(function (guard) { return bind(guard, instance, match, key); })
+        : bind(guard, instance, match, key)
+    }
+  });
+  return flatten(reverse ? guards.reverse() : guards)
+}
+
+function extractGuard (
+  def,
+  key
+) {
+  if (typeof def !== 'function') {
+    // extend now so that global mixins are applied.
+    def = _Vue.extend(def);
+  }
+  return def.options[key]
+}
+
+function extractLeaveGuards (deactivated) {
+  return extractGuards(deactivated, 'beforeRouteLeave', bindGuard, true)
+}
+
+function extractUpdateHooks (updated) {
+  return extractGuards(updated, 'beforeRouteUpdate', bindGuard)
+}
+
+function bindGuard (guard, instance) {
+  if (instance) {
+    return function boundRouteGuard () {
+      return guard.apply(instance, arguments)
+    }
+  }
+}
+
+function extractEnterGuards (
+  activated,
+  cbs,
+  isValid
+) {
+  return extractGuards(activated, 'beforeRouteEnter', function (guard, _, match, key) {
+    return bindEnterGuard(guard, match, key, cbs, isValid)
+  })
+}
+
+function bindEnterGuard (
+  guard,
+  match,
+  key,
+  cbs,
+  isValid
+) {
+  return function routeEnterGuard (to, from, next) {
+    return guard(to, from, function (cb) {
+      next(cb);
+      if (typeof cb === 'function') {
+        cbs.push(function () {
+          // #750
+          // if a router-view is wrapped with an out-in transition,
+          // the instance may not have been registered at this time.
+          // we will need to poll for registration until current route
+          // is no longer valid.
+          poll(cb, match.instances, key, isValid);
+        });
+      }
+    })
+  }
+}
+
+function poll (
+  cb, // somehow flow cannot infer this is a function
+  instances,
+  key,
+  isValid
+) {
+  if (instances[key]) {
+    cb(instances[key]);
+  } else if (isValid()) {
+    setTimeout(function () {
+      poll(cb, instances, key, isValid);
+    }, 16);
+  }
+}
+
+/*  */
+
+
+var HTML5History = (function (History$$1) {
+  function HTML5History (router, base) {
+    var this$1 = this;
+
+    History$$1.call(this, router, base);
+
+    var expectScroll = router.options.scrollBehavior;
+
+    if (expectScroll) {
+      setupScroll();
+    }
+
+    var initLocation = getLocation(this.base);
+    window.addEventListener('popstate', function (e) {
+      var current = this$1.current;
+
+      // Avoiding first `popstate` event dispatched in some browsers but first
+      // history route not updated since async guard at the same time.
+      var location = getLocation(this$1.base);
+      if (this$1.current === START && location === initLocation) {
+        return
+      }
+
+      this$1.transitionTo(location, function (route) {
+        if (expectScroll) {
+          handleScroll(router, route, current, true);
+        }
+      });
+    });
+  }
+
+  if ( History$$1 ) HTML5History.__proto__ = History$$1;
+  HTML5History.prototype = Object.create( History$$1 && History$$1.prototype );
+  HTML5History.prototype.constructor = HTML5History;
+
+  HTML5History.prototype.go = function go (n) {
+    window.history.go(n);
+  };
+
+  HTML5History.prototype.push = function push (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(location, function (route) {
+      pushState(cleanPath(this$1.base + route.fullPath));
+      handleScroll(this$1.router, route, fromRoute, false);
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  HTML5History.prototype.replace = function replace (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(location, function (route) {
+      replaceState(cleanPath(this$1.base + route.fullPath));
+      handleScroll(this$1.router, route, fromRoute, false);
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  HTML5History.prototype.ensureURL = function ensureURL (push) {
+    if (getLocation(this.base) !== this.current.fullPath) {
+      var current = cleanPath(this.base + this.current.fullPath);
+      push ? pushState(current) : replaceState(current);
+    }
+  };
+
+  HTML5History.prototype.getCurrentLocation = function getCurrentLocation () {
+    return getLocation(this.base)
+  };
+
+  return HTML5History;
+}(History));
+
+function getLocation (base) {
+  var path = window.location.pathname;
+  if (base && path.indexOf(base) === 0) {
+    path = path.slice(base.length);
+  }
+  return (path || '/') + window.location.search + window.location.hash
+}
+
+/*  */
+
+
+var HashHistory = (function (History$$1) {
+  function HashHistory (router, base, fallback) {
+    History$$1.call(this, router, base);
+    // check history fallback deeplinking
+    if (fallback && checkFallback(this.base)) {
+      return
+    }
+    ensureSlash();
+  }
+
+  if ( History$$1 ) HashHistory.__proto__ = History$$1;
+  HashHistory.prototype = Object.create( History$$1 && History$$1.prototype );
+  HashHistory.prototype.constructor = HashHistory;
+
+  // this is delayed until the app mounts
+  // to avoid the hashchange listener being fired too early
+  HashHistory.prototype.setupListeners = function setupListeners () {
+    var this$1 = this;
+
+    var router = this.router;
+    var expectScroll = router.options.scrollBehavior;
+    var supportsScroll = supportsPushState && expectScroll;
+
+    if (supportsScroll) {
+      setupScroll();
+    }
+
+    window.addEventListener(supportsPushState ? 'popstate' : 'hashchange', function () {
+      var current = this$1.current;
+      if (!ensureSlash()) {
+        return
+      }
+      this$1.transitionTo(getHash(), function (route) {
+        if (supportsScroll) {
+          handleScroll(this$1.router, route, current, true);
+        }
+        if (!supportsPushState) {
+          replaceHash(route.fullPath);
+        }
+      });
+    });
+  };
+
+  HashHistory.prototype.push = function push (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(location, function (route) {
+      pushHash(route.fullPath);
+      handleScroll(this$1.router, route, fromRoute, false);
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  HashHistory.prototype.replace = function replace (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(location, function (route) {
+      replaceHash(route.fullPath);
+      handleScroll(this$1.router, route, fromRoute, false);
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  HashHistory.prototype.go = function go (n) {
+    window.history.go(n);
+  };
+
+  HashHistory.prototype.ensureURL = function ensureURL (push) {
+    var current = this.current.fullPath;
+    if (getHash() !== current) {
+      push ? pushHash(current) : replaceHash(current);
+    }
+  };
+
+  HashHistory.prototype.getCurrentLocation = function getCurrentLocation () {
+    return getHash()
+  };
+
+  return HashHistory;
+}(History));
+
+function checkFallback (base) {
+  var location = getLocation(base);
+  if (!/^\/#/.test(location)) {
+    window.location.replace(
+      cleanPath(base + '/#' + location)
+    );
+    return true
+  }
+}
+
+function ensureSlash () {
+  var path = getHash();
+  if (path.charAt(0) === '/') {
+    return true
+  }
+  replaceHash('/' + path);
+  return false
+}
+
+function getHash () {
+  // We can't use window.location.hash here because it's not
+  // consistent across browsers - Firefox will pre-decode it!
+  var href = window.location.href;
+  var index = href.indexOf('#');
+  return index === -1 ? '' : href.slice(index + 1)
+}
+
+function getUrl (path) {
+  var href = window.location.href;
+  var i = href.indexOf('#');
+  var base = i >= 0 ? href.slice(0, i) : href;
+  return (base + "#" + path)
+}
+
+function pushHash (path) {
+  if (supportsPushState) {
+    pushState(getUrl(path));
+  } else {
+    window.location.hash = path;
+  }
+}
+
+function replaceHash (path) {
+  if (supportsPushState) {
+    replaceState(getUrl(path));
+  } else {
+    window.location.replace(getUrl(path));
+  }
+}
+
+/*  */
+
+
+var AbstractHistory = (function (History$$1) {
+  function AbstractHistory (router, base) {
+    History$$1.call(this, router, base);
+    this.stack = [];
+    this.index = -1;
+  }
+
+  if ( History$$1 ) AbstractHistory.__proto__ = History$$1;
+  AbstractHistory.prototype = Object.create( History$$1 && History$$1.prototype );
+  AbstractHistory.prototype.constructor = AbstractHistory;
+
+  AbstractHistory.prototype.push = function push (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    this.transitionTo(location, function (route) {
+      this$1.stack = this$1.stack.slice(0, this$1.index + 1).concat(route);
+      this$1.index++;
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  AbstractHistory.prototype.replace = function replace (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    this.transitionTo(location, function (route) {
+      this$1.stack = this$1.stack.slice(0, this$1.index).concat(route);
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  AbstractHistory.prototype.go = function go (n) {
+    var this$1 = this;
+
+    var targetIndex = this.index + n;
+    if (targetIndex < 0 || targetIndex >= this.stack.length) {
+      return
+    }
+    var route = this.stack[targetIndex];
+    this.confirmTransition(route, function () {
+      this$1.index = targetIndex;
+      this$1.updateRoute(route);
+    });
+  };
+
+  AbstractHistory.prototype.getCurrentLocation = function getCurrentLocation () {
+    var current = this.stack[this.stack.length - 1];
+    return current ? current.fullPath : '/'
+  };
+
+  AbstractHistory.prototype.ensureURL = function ensureURL () {
+    // noop
+  };
+
+  return AbstractHistory;
+}(History));
+
+/*  */
+
+var VueRouter = function VueRouter (options) {
+  if ( options === void 0 ) options = {};
+
+  this.app = null;
+  this.apps = [];
+  this.options = options;
+  this.beforeHooks = [];
+  this.resolveHooks = [];
+  this.afterHooks = [];
+  this.matcher = createMatcher(options.routes || [], this);
+
+  var mode = options.mode || 'hash';
+  this.fallback = mode === 'history' && !supportsPushState && options.fallback !== false;
+  if (this.fallback) {
+    mode = 'hash';
+  }
+  if (!inBrowser) {
+    mode = 'abstract';
+  }
+  this.mode = mode;
+
+  switch (mode) {
+    case 'history':
+      this.history = new HTML5History(this, options.base);
+      break
+    case 'hash':
+      this.history = new HashHistory(this, options.base, this.fallback);
+      break
+    case 'abstract':
+      this.history = new AbstractHistory(this, options.base);
+      break
+    default:
+      if (process.env.NODE_ENV !== 'production') {
+        assert(false, ("invalid mode: " + mode));
+      }
+  }
+};
+
+var prototypeAccessors = { currentRoute: { configurable: true } };
+
+VueRouter.prototype.match = function match (
+  raw,
+  current,
+  redirectedFrom
+) {
+  return this.matcher.match(raw, current, redirectedFrom)
+};
+
+prototypeAccessors.currentRoute.get = function () {
+  return this.history && this.history.current
+};
+
+VueRouter.prototype.init = function init (app /* Vue component instance */) {
+    var this$1 = this;
+
+  process.env.NODE_ENV !== 'production' && assert(
+    install.installed,
+    "not installed. Make sure to call `Vue.use(VueRouter)` " +
+    "before creating root instance."
+  );
+
+  this.apps.push(app);
+
+  // main app already initialized.
+  if (this.app) {
+    return
+  }
+
+  this.app = app;
+
+  var history = this.history;
+
+  if (history instanceof HTML5History) {
+    history.transitionTo(history.getCurrentLocation());
+  } else if (history instanceof HashHistory) {
+    var setupHashListener = function () {
+      history.setupListeners();
+    };
+    history.transitionTo(
+      history.getCurrentLocation(),
+      setupHashListener,
+      setupHashListener
+    );
+  }
+
+  history.listen(function (route) {
+    this$1.apps.forEach(function (app) {
+      app._route = route;
+    });
+  });
+};
+
+VueRouter.prototype.beforeEach = function beforeEach (fn) {
+  return registerHook(this.beforeHooks, fn)
+};
+
+VueRouter.prototype.beforeResolve = function beforeResolve (fn) {
+  return registerHook(this.resolveHooks, fn)
+};
+
+VueRouter.prototype.afterEach = function afterEach (fn) {
+  return registerHook(this.afterHooks, fn)
+};
+
+VueRouter.prototype.onReady = function onReady (cb, errorCb) {
+  this.history.onReady(cb, errorCb);
+};
+
+VueRouter.prototype.onError = function onError (errorCb) {
+  this.history.onError(errorCb);
+};
+
+VueRouter.prototype.push = function push (location, onComplete, onAbort) {
+  this.history.push(location, onComplete, onAbort);
+};
+
+VueRouter.prototype.replace = function replace (location, onComplete, onAbort) {
+  this.history.replace(location, onComplete, onAbort);
+};
+
+VueRouter.prototype.go = function go (n) {
+  this.history.go(n);
+};
+
+VueRouter.prototype.back = function back () {
+  this.go(-1);
+};
+
+VueRouter.prototype.forward = function forward () {
+  this.go(1);
+};
+
+VueRouter.prototype.getMatchedComponents = function getMatchedComponents (to) {
+  var route = to
+    ? to.matched
+      ? to
+      : this.resolve(to).route
+    : this.currentRoute;
+  if (!route) {
+    return []
+  }
+  return [].concat.apply([], route.matched.map(function (m) {
+    return Object.keys(m.components).map(function (key) {
+      return m.components[key]
+    })
+  }))
+};
+
+VueRouter.prototype.resolve = function resolve (
+  to,
+  current,
+  append
+) {
+  var location = normalizeLocation(
+    to,
+    current || this.history.current,
+    append,
+    this
+  );
+  var route = this.match(location, current);
+  var fullPath = route.redirectedFrom || route.fullPath;
+  var base = this.history.base;
+  var href = createHref(base, fullPath, this.mode);
+  return {
+    location: location,
+    route: route,
+    href: href,
+    // for backwards compat
+    normalizedTo: location,
+    resolved: route
+  }
+};
+
+VueRouter.prototype.addRoutes = function addRoutes (routes) {
+  this.matcher.addRoutes(routes);
+  if (this.history.current !== START) {
+    this.history.transitionTo(this.history.getCurrentLocation());
+  }
+};
+
+Object.defineProperties( VueRouter.prototype, prototypeAccessors );
+
+function registerHook (list, fn) {
+  list.push(fn);
+  return function () {
+    var i = list.indexOf(fn);
+    if (i > -1) { list.splice(i, 1); }
+  }
+}
+
+function createHref (base, fullPath, mode) {
+  var path = mode === 'hash' ? '#' + fullPath : fullPath;
+  return base ? cleanPath(base + '/' + path) : path
+}
+
+VueRouter.install = install;
+VueRouter.version = '3.0.1';
+
+if (inBrowser && window.Vue) {
+  window.Vue.use(VueRouter);
+}
+
+/* harmony default export */ __webpack_exports__["a"] = VueRouter;
+
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3)))
 
 /***/ })
 /******/ ]);
