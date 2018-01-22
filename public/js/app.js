@@ -654,36 +654,73 @@ If the author is anonymous DO NOT provide certainty.`,
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
 	},
 	getPersonId: function() {
+        // if section, get section list person, if set.
 	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
-		if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
-		    return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
-		}
+            if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
+                return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
+            }
 	    }
 	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)){
-		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
+            if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+                return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
+            }
+            else if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
+                const sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
+                if (!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                    return Object.keys(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)[0]
+                }
+            }
 	    }
 	    return false
 	},
-	getPersonMeta: function (){
-	    pid = this.getPersonId()
-	    if(!pid){
-		return false
+	getPersonMeta: function () {
+        pid = this.getPersonId()
+        let bibl = this.biblId
+
+        if(!pid){
+            return false
+        }
+        if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
+            console.log('person ' + pid + ' not found!')
+            return {
+                personRole: 'unknown',
+                personName: 'unknown',
+                personViaf: false
+            }
 	    }
-	    if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
-		console.log('person ' + pid + ' not found!')
-		return {
-		    personRole: 'unknown',
-		    personName: 'unknown',
-		    personViaf: false
-		}
-	    }
-        personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
-	    // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
-	    if(this.$root.empty(personMeta.personName)){
-		  return false
-	    }
-	    return personMeta
+        if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId])) { // have bibl
+            if (!this.biblIsSection(this.biblId)) {
+                if (this.authorlessPieceInSection(this.biblId)) {
+                    sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
+                    if(!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                        personMeta = { personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName }
+                    }
+                }
+                else {
+                    personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
+                }
+                // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+            }
+            else {
+                personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName }
+            }
+            if(this.$root.empty(personMeta.personName)){
+              return false
+            }
+            return personMeta
+        }
+        console.log('missing list bibl for' + this.biblId)
+        return false
+
 	},
+    authorlessPieceInSection: function (biblId) {
+        if (this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+            if (!this.$root.empty(this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))) {
+                return true
+            }
+        }
+        return false
+    },
 	getPersonPieceMeta: function () {
 	    pid = this.getPersonId()
 	    if(!pid){
@@ -695,7 +732,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	},
 	drawerIsAvailable: function() {
             isAnon = this.getPersonId() == 'anon'
-            biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId))
+            biblExists_notSection = !this.biblIsSection(this.biblId) && this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson
             sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
             personInSection = this.getPersonMeta()
 	    return !isAnon && (personInSection || biblExists_notSection)
@@ -747,7 +784,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	},
 	biblIsSection: function(biblId) {
-	    if(this.issueHeaderData.listBibl[biblId].sectionMeta){
+	    if(this.issueHeaderData.listBibl[biblId].sectionMeta && this.$root.empty(this.issueHeaderData.listBibl[biblId].pieceMeta)){
 		return true
 	    }
 	    return false
@@ -850,6 +887,9 @@ Vue.component('drawer', {
 	},
     getBlurb: function() {
         person = this.$root.xhrDataStore.personography.personIndex[this.authorId]
+        if (!this.$root.empty(person)) {
+            return ''
+        }
         bioExists = !this.$root.empty(person.personMeta.personBio)
         if (!bioExists) {
             return ''
@@ -939,7 +979,6 @@ Vue.component('creditsPersonList', {
     template: `
     <div class="creditsPersonsList">
         <div class="creditsPersonListActive">
-            <h2>Active</h2>
             <div class="personRoleName" v-for="role in this.rolesActive">
             <h3>{{ role }}</h3>
                 <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'active' && person.personMeta.personRoleName == role"></creditsPerson>
