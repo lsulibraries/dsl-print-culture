@@ -41660,18 +41660,29 @@
             <personTotalMention>10</personTotalMention>
          </personMeta>
          <personListBibl>
-            <bibl-18450208->
+            <bibl-18450208-p2>
                <issueMeta>
                   <issueId>18450208</issueId>
                   <issueVol>1</issueVol>
                   <issueNum>6</issueNum>
                   <issueDate>February 8, 1845</issueDate>
                </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p2</pieceId>
+                  <pieceTitle>Why A National Literature Cannot Flourish in the United States
+                of North America</pieceTitle>
+                  <piecePage>82-83</piecePage>
+                  <piecePdfIndex>2</piecePdfIndex>
+               </pieceMeta>
                <personPieceMeta>
                   <personPieceRole>Mentioned</personPieceRole>
                   <personPieceTotalMention>10</personPieceTotalMention>
                </personPieceMeta>
-            </bibl-18450208->
+            </bibl-18450208-p2>
          </personListBibl>
       </jrochietti>
       <ebrodman>
