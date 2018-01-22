@@ -887,7 +887,7 @@ Vue.component('drawer', {
 	},
     getBlurb: function() {
         person = this.$root.xhrDataStore.personography.personIndex[this.authorId]
-        if (!this.$root.empty(person)) {
+        if (this.$root.empty(person)) {
             return ''
         }
         bioExists = !this.$root.empty(person.personMeta.personBio)
