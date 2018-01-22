@@ -58,6 +58,7 @@ body {
   background: white;
   border: 1px solid #d6d6d6;
   margin-right: 20px;
+  padding-bottom: 0px;
 }
 .modal-body .pieceMeta {
   position: absolute;
@@ -67,6 +68,9 @@ body {
   align-items: center;
   width: 330px;
   height: 46px;
+  left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
 }
 .modal-body .sectionTitle {
   color: #474747;
@@ -1434,7 +1438,7 @@ canvas#pdf {
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
-  margin: 0px 0px 0px 2px;
+  margin: 0px 0px 10px 2px;
   text-decoration: none;
 }
 
@@ -1452,6 +1456,12 @@ h1 {
 }
 
 /*BEGIN High Contrast Mode*/
+.highContrast .issueDate {
+  width: 155px;
+}
+.highContrast .issueVol {
+  width: 90px;
+}
 .highContrast .active.childText {
   color: white;
 }

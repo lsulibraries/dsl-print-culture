@@ -124,7 +124,8 @@ body {
   .personBibl{
   background: white;
   border: 1px solid #d6d6d6;  
-  margin-right: 20px;    
+  margin-right: 20px;
+  padding-bottom: 0px;      
   }
 
   .pieceMeta {
@@ -135,6 +136,9 @@ body {
   align-items: center;
   width: 330px;
   height: 46px;
+  left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
   }
 
   .sectionTitle {
@@ -1481,7 +1485,7 @@ font-size: 12px;
     font-weight: 800;
     font-size: 0.8em;
     text-transform: uppercase;
-    margin: 0px 0px 0px 2px;
+    margin: 0px 0px 10px 2px;
     text-decoration: none;
 }
 
@@ -1502,6 +1506,14 @@ h1{
 
 .highContrast {
 
+
+.issueDate{
+      width: 155px;
+}
+
+.issueVol{
+  width: 90px;
+}
 .active.childText {
     color: white;
 }
