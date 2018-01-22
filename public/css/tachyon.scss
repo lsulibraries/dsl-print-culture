@@ -124,7 +124,8 @@ body {
   .personBibl{
   background: white;
   border: 1px solid #d6d6d6;  
-  margin-right: 20px;    
+  margin-right: 20px;
+  padding-bottom: 0px;      
   }
 
   .pieceMeta {
@@ -135,6 +136,9 @@ body {
   align-items: center;
   width: 330px;
   height: 46px;
+  left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
   }
 
   .sectionTitle {
@@ -883,13 +887,21 @@ span.searchHit {
     padding-right: 140px;    
 }
 
+.fillerHeader{
+     font-size: 2em;
+     line-height: 30px;
+     font-weight: 700;
+ 
+ }
+ 
+
 .issueDate {
     background: #474747;
     color: white;
     font-size: 1.1em;
     padding: 5px;
     height: 23px;
-    width: 130px;
+    width: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1341,10 +1353,11 @@ canvas#pdf {
   flex-direction: column;
   background: white;
   border-right: 1px solid $light-border-color;
-  justify-content: center;  
-  min-width: 236px;    
+  padding-top: calc(50vh - 200px);
+  min-width: 236px;
   width: 30%;
-  box-sizing: border-box;    
+  box-sizing: border-box;
+
 }
 
 .aboutToggle > div {
@@ -1364,6 +1377,8 @@ canvas#pdf {
     align-items: center;
     flex-direction: column;
     flex-grow: 2;
+    width: 70%;
+    box-sizing: border-box;    
     p {
       width: 500px;
       }
@@ -1470,7 +1485,7 @@ font-size: 12px;
     font-weight: 800;
     font-size: 0.8em;
     text-transform: uppercase;
-    margin: 0px 0px 0px 2px;
+    margin: 0px 0px 10px 2px;
     text-decoration: none;
 }
 
@@ -1491,6 +1506,14 @@ h1{
 
 .highContrast {
 
+
+.issueDate{
+      width: 155px;
+}
+
+.issueVol{
+  width: 90px;
+}
 .active.childText {
     color: white;
 }

@@ -629,8 +629,7 @@ If the author is anonymous DO NOT provide certainty.`,
                 <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
                 <div class="downloadText">View {{this.dlLabel()}}</div>
               </a>
-              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
-            </div>
+            <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>          <div class="fillerHeader" v-if="this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)">The Broadway Journal</div>            </div>
             <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
             <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->
 
@@ -970,21 +969,47 @@ Vue.component('creditsPersonList', {
     <div class="creditsPersonsList">
         <div class="creditsPersonListActive">
             <h2>Active</h2>
-            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'active'"></creditsPerson>
+            <div class="personRoleName" v-for="role in this.rolesActive">
+            <h3>{{ role }}</h3>
+                <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'active' && person.personMeta.personRoleName == role"></creditsPerson>
+            </div>
         </div>
         <div class="creditsPersonListPast">
             <h2>Past</h2>
-            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'past'"></creditsPerson>
+            <div class="personRoleName" v-for="role in this.rolesPast">
+                <h3>{{ role }}</h3>
+                <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'past' && person.personMeta.personRoleName == role"></creditsPerson>
+            </div>
         </div>
     </div>
 	`,
     methods: {
-	dataLoaded: function() {
-	    return this.$root.empty(this.creditsData)
-	}
+        includePersonInList: function (state, role) {
+            console.log('hello')
+            return person.personMeta.personRole == state && person.personMeta.personRoleName == role
+        },
+        dataLoaded: function() {
+            return this.$root.empty(this.creditsData)
+        }
     },
     created() {
 	   this.creditsData = this.$root.xhrDataStore.personography.projectStaff
+       this.rolesPast = []
+       this.rolesActive = []
+       for (let person in this.creditsData) {
+        role = this.creditsData[person].personMeta.personRoleName
+        state = this.creditsData[person].personMeta.personRole
+        if (state == 'active') {
+            if (this.rolesActive.indexOf(role) === -1) {
+                this.rolesActive.push(role)
+            }
+        }
+        else {
+            if (this.rolesPast.indexOf(role) === -1) {
+                this.rolesPast.push(role)
+            }
+        }
+       }
     },
     data() {
 	return {
@@ -997,9 +1022,8 @@ Vue.component('creditsPerson', {
     template: `
 	<div class="creditsPerson">
 	  <div class="creditsPersonName">{{person.personMeta.personName}}</div>
-      <div class="creditsPersonRoleName">{{ this.getRoleName() }}</div>
 	  <!-- <div class="creditsPersonAffiliation" v-if="this.hasBio()">{{ this.getAffiliation() }}</div> -->
- 	  <div class="creditsPersonNote" v-if="this.hasBio()">{{ this.getNote() }}</div>
+ 	  <div class="creditsPersonNote" v-if="this.hasBio() && this.person.personMeta.personRole != 'past'">{{ this.getNote() }}</div>
         </div>
 	`,
     props: ['person'],
