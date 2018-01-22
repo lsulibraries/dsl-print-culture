@@ -32,7 +32,7 @@ class IssuesController extends Controller
     }
 
     function abouts($about){
-        if(!in_array($about, array('about', 'tech', 'credits'))){
+        if(!in_array($about, array('about', 'tech', 'credits', 'personography'))){
             return "No data found for $about";
         }
         if($about == 'credits'){

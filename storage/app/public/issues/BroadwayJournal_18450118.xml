@@ -2,44 +2,57 @@
    <div class="issueId">18450118</div>
    <div class="front">
       
-      <div class="ab">                          THE BROADWAY JOURNAL.
+      <div>
          
-         <br></br>VOL. 1.          NEW YORK, SATURDAY, January 18, 1845.          N° 3.
+         <div class="head">The Broadway Journal</div>
+         
+         <div class="ab">Vol. 1.New York, Saturday, January 18, 1845No. 3
+            
+         </div>
       </div>
+      
    </div>
    <div class="body">
+      
       
       <div>
          <div class="cit">
             <span class="quote">Truth, whether in or out of fashion, is the measure of knowledge and the business of the understanding; whatsoever is beside that, however authorised by consent or recommended by variety, is nothing but ignorance, or something worse.</span>
             <div class="bibl">
-               <span class="person">Locke.</span>
+               <span class="person" id="jlocke">Locke.</span>
             </div>
          </div>
       </div>
       
       <div class="section" id="#s1">
          <div class="biblTitle">Reviews</div>
+         
          <div class="head">Reviews.</div>
          
          <div class="piece" id="#p1">
             <div class="biblTitle">Conversations on Some of the Old Poets</div>
             <div class="biblPage">33</div>
-            <p>Conversations on some of the Old Poets. By James Russell
-               Lowell. Cambridge • Published by John Owen, 1845.
+            <p>Conversations on some of the Old Poets. By 
+               <span class="person" id="jrlowell">James Russell
+                  Lowell
+               </span>. Cambridge   Published by John Owen, 1845.
             </p>
             
             <p>A book is not worth much when its title page conveys a
                clear idea of its contents; for the title of a book is like a
-               man’s name, which only serves to distinguish him from other men, but gives no notion of his character. “Lowell’s
-               Conversations” which is emblazoned on the illuminated cover
+               man's name, which only serves to distinguish him from other men, but gives no notion of his character. "Lowell's
+               Conversations" which is emblazoned on the illuminated cover
                of this little volume, is a much better title than the longer
                one. They are conversations, but not exclusively on the
                old Poets, as the title seems to promise; for of the whole
                constellation of Old Poets there are but three whose names
                are used by the author as pegs to hang his thoughts upon.
-               Chaucer, Chapman and Ford, form the subjects of the three
-               Conversations of which the volume is composed. The largest space is given, as it should be, to Chaucer, as possessing
+               
+               <span class="person" id="gchaucer">Chaucer</span>, 
+               <span class="person" id="gchapman">Chapman</span> and 
+               <span class="person" id="jford">Ford</span>, form the subjects of the three
+               Conversations of which the volume is composed. The largest space is given, as it should be, to 
+               <span class="person" id="gchaucer">Chaucer</span>, as possessing
                the most merit and being the least known. But whoever
                takes up these conversations expecting to encounter such
                criticism as he has been used to in reviews and magazines,
@@ -51,12 +64,13 @@
             <p>It would hardly be just to say that the great charm of this
                book is its sincerity, for that is the great charm of all good
                writing, but it is nevertheless so sincere that it seems like
-               a peculiar merit. Mr. Lowell’s prose style is more his own
+               a peculiar merit. Mr. 
+               <span class="person" id="jrlowell">Lowell</span>'s prose style is more his own
                than that of his poetry; it is more natural, clear, earnest,
                warm and unaffected; while it resembles the style of no 
                other writer, it never startles you or impresses you with an
                idea that you have discovered something new. You seem
-               to inhale it as you do the air—without an effort. Its sentences
+               to inhale it as you do the air--without an effort. Its sentences
                fall upon your mental ear like snow flakes upon water,
                and so noiselessly incorporate themselves into your own
                thoughts that you are unconscious of their increase until they
@@ -77,12 +91,13 @@
                moulded it, but in the writings of a man of genius, there is a
                breath which we have never felt before, a tone that no one
                beside has uttered, which we recognize as divine, because it
-               is new. A somnambulist had one of Lowell’s manuscripts
+               is new. A somnambulist had one of 
+               <span class="person" id="jrlowell">Lowell</span>'s manuscripts
                put into his hands and was asked how it impressed him; he
                
                replied that it made him feel warm and comfortable. This we
                have no doubt will be the reply of nearly all who read these
-               “Conversations.” They will be found warm and genial, except to a few, whom they will render hot and excited; for
+               "Conversations." They will be found warm and genial, except to a few, whom they will render hot and excited; for
                they contain certain expressions that will fall like molten
                lead upon the minds of some. We have no right, surely, to
                object to these, for if the author saw fit to put them forth it
@@ -90,8 +105,8 @@
                thoughts and not to make friends. He knows what the
                world is composed of, and what he has to expect from it;
                there is not a sentence in the volume, nor, indeed, in any
-               thing that he has written, which seems to say, “I hope I give
-               no offence.” On the contrary, he seems to feel that offence
+               thing that he has written, which seems to say, "I hope I give
+               no offence." On the contrary, he seems to feel that offence
                is inevitable to all who speak the truth in the integrity of
                their hearts.
             </p>
@@ -101,13 +116,13 @@
                discern, without looking, who it is that speaks. But for some
                reason John is not an abolitionist, while Philip is. And we
                may as well disburthen our mind of the feeling here, as to
-               keep it encumbered, that Philip’s anti-slavery principles are
+               keep it encumbered, that Philip's anti-slavery principles are
                somewhat too obtrusively put forth. There are other virtues
                than abolitionism: why not out with them? It smacks of
                generous bravery to confess to an unpopular virtue, but it is
                more brave not to confess at all. We should doubt the charity which boasted itself; or the chastity; or piety. We see
                no need for an abolitionist to wear a badge, like one of Father
-               Mathew’s disciples, to let the world know he is not what
+               Mathew's disciples, to let the world know he is not what
                he once was. If every virtue must have its order of merit,
                our citizens will wear more decorations than the hero of
                Waterloo. It is an old saw that actions speak plainer than
@@ -122,13 +137,18 @@
                love than for others.
             </p>
             
-            <p>There are few readers who are not familiar with Leigh
-               Hunt’s criticisms on Chaucer, and probably none more so than
+            <p>There are few readers who are not familiar with 
+               <span class="person" id="jhlhunt">Leigh
+                  Hunt
+               </span>'s criticisms on 
+               <span class="person" id="gchaucer">Chaucer</span>, and probably none more so than
                the author of these conversations; but we see nothing in his
                conversations to remind us of that daintiest of critics. Their
                styles and habits of thought are so dissimilar, that it could not
-               well be otherwise. Hunt’s criticisms are neat and artist like,
-               while Lowell’s are exceedingly free, and resemble criticisms
+               well be otherwise. 
+               <span class="person" id="jhlhunt">Hunt</span>'s criticisms are neat and artist like,
+               while 
+               <span class="person" id="jrlowell">Lowell</span>'s are exceedingly free, and resemble criticisms
                as little as possible. They are loving comments, but so interspersed and enriched with other topics that they do not appear
                like comments upon Chaucer more than upon any thing else.
                We make a few extracts at random, which will hardly convey
@@ -138,53 +158,63 @@
             
             <div class="ab">THE CONSCIOUSNESS OF GENIUS.</div>
             
-            <p>"I do not believe that Shakspeare never thought of posterity, nor
+            <p>"I do not believe that 
+               <span class="person" id="wshakespeare">Shakspeare</span> never thought of posterity, nor
                that any man was ever endowed with marvellous powers, without be
                
                
                ing conscious of it, and desiring to make them felt. No man of genius
                was ever so fully appreciated by contemporaries as to make him for- get the future.
                A poet must needs be before his own age to be even
-               with posterity.”
+               with posterity."
             </p>
             
-            <div class="ab">CHAUCER.</div>
+            <div class="ab">
+               <span class="person" id="gchaucer">CHAUCER</span>.
+            </div>
             
-            <p>“There is in him the exuberant freshness and greenness of spring.
+            <p>"There is in him the exuberant freshness and greenness of spring.
                Every thing he touches leaps into blossom. His gladness, and humor,
                and pathos, are irrepressible as a fountain. Dam them with a prosaic
                subject, and they overleap it with a sparkling cascade that turns even
                the hindrance to a beauty. Choke them with a tedious theological
-               disquisition, and they bubble up forthwith, all around it, with a delightful gurgle. There is no cabalistic undine stone, or seal of Solo-mon that can
-               shut them up forever. Reading him is like brushing
+               disquisition, and they bubble up forthwith, all around it, with a delightful gurgle. There is no cabalistic undine stone, or seal of Solomon that can shut them up forever. Reading him is like brushing
                through the dewy grass at sun-rise. Everything is new, and sparkling,
                and fragrant. He is of kin to Belphoebe, whose
                
                <div class="lg">
-                  <br></br>“Birth was of the womb of morning dew,'
+                  <br></br>"Birth was of the womb of morning dew,'
                   
-                  <br></br>And her conception of the morning prime.”
+                  <br></br>And her conception of the morning prime."
                </div>
             </p>
             
-            <p>Nothing can be more unlike Leigh Hunt than this. Hunt
+            <p>Nothing can be more unlike 
+               <span class="person" id="jhlhunt">Leigh Hunt</span> than this. 
+               <span class="person" id="jhlhunt">Hunt</span>
                is forever reminding you how charming the country is, but he
                never takes you there. Our author says nothing about the
                country, but you feel all the while as though you were treading on turf. The reason is that one was bred in the town, the
-               other in the fields. “Reading him is like brushing through
-               the dewy grass at sun-rise.” The sentence makes the air
+               other in the fields. "Reading him is like brushing through
+               the dewy grass at sun-rise." The sentence makes the air
                redolent of clover.
             </p>
             
-            <div class="ab">BYRON.</div>
+            <div class="ab">
+               <span class="person" id="ggbyron">BYRON</span>.
+            </div>
             
-            <p>“It was not till our own day that the poets discovered what mystical significance had been lying dormant in a capital I. It seems
+            <p>"It was not till our own day that the poets discovered what mystical significance had been lying dormant in a capital I. It seems
                strange that a letter of such powerful bewitchment had not made part
                of the juggling wares of the Cabalists and Theurgists. Yet we find
-               no mention of it in Rabbi Akiba or Cornelius Agrippa. Byron wrought
+               no mention of it in Rabbi 
+               <span class="person" id="akiba">Akiba</span> or 
+               <span class="person" id="hcagrippa">Cornelius Agrippa</span>. 
+               <span class="person" id="ggbyron">Byron</span> wrought
                miracles with it. I fear that the noble Stylites of modem song, who
                from his lonely pillar of self, drew crowds of admiring votaries to listen to the groans of his self-inflicted misery, would have been left only
-               to feel the cold and hunger of his shelterless pinnacle in Chaucer’s simpler day. Byron always reminds me of that criminal who was shut in
+               to feel the cold and hunger of his shelterless pinnacle in 
+               <span class="person" id="gchaucer">Chaucer</span>'s simpler day. Byron always reminds me of that criminal who was shut in
                a dungeon, the walls of which grew narrower and narrower every day,
                till they crushed him at last. His selfishness walled him in from the 
                first; so that he was never open to the sweet influences of nature, and
@@ -196,31 +226,33 @@
                nished, like Philoletes, to some isle of Lemnos, where his lameness
                should not have been affective and contagious. As it was, the world
                fell in love with the defect. Some malicious Puck had dropped the 
-               juice of 'Love in idleness’ upon its eyes, and limping came quite into 
-               fashion.”
+               juice of 'Love in idleness' upon its eyes, and limping came quite into 
+               fashion."
             </p>
             
-            <p>We do not agree with Mr. Lowell in all of what follows.
+            <p>We do not agree with Mr. 
+               <span class="person" id="jrlowell">Lowell</span> in all of what follows.
                If we have not the sky-lark and the nightingale, we think
-               that no Eden could be complete without the Oriole and Bobo’link. And as for the nightingale, we have an owl in this lati-tude which makes a midnight
+               that no Eden could be complete without the Oriole and Bobo'link. And as for the nightingale, we have an owl in this lati-tude which makes a midnight
                plaint more dismal sweet, more
                touching, trembling, tear-compelling, than any that we ever
-               heard made by the poets’ bird.
+               heard made by the poets' bird.
             </p>
             
             <div class="ab">THE NIGHTINGALE.</div>
             
-            <p>"Let me read you an exquisite stanza from ‘ Troilus and Creseide.” 
+            <p>"Let me read you an exquisite stanza from   Troilus and Creseide." 
                It tells you how Creseide first avowed her love. There is nothing more
-               tender in Coleridge’s Genevieve.
+               tender in 
+               <span class="person" id="stcoleridge">Coleridge</span>'s Genevieve.
             </p>
             
             <div class="lg">
-               <br></br>' And as the early bashful nightingale
+               <br></br>'And as the early bashful nightingale
                
                <br></br>Doth hush at first when she begins to sing,
                
-               <br></br>If chance she heareth any shepherd’s tale,
+               <br></br>If chance she heareth any shepherd's tale,
                
                <br></br>Or in the hedges any nestling,
                
@@ -232,15 +264,19 @@
             </div>
             
             <p>"I know not where the nightingale is more sweetly touched upon.
-               Shakspeare has alluded to it once or twice, but not with enthusiasm.
-               Coleridge, in one of his early poems, has given us a high strain of music about it. Milton’s sonnet is not so fine as most of his, though the
                
-               opening is exquisite. Keats has written, perhaps, the best ode in the
+               <span class="person" id="wshakespeare">Shakspeare</span> has alluded to it once or twice, but not with enthusiasm.
+               
+               <span class="person" id="stcoleridge">Coleridge</span>, in one of his early poems, has given us a high strain of music about it. 
+               <span class="person" id="jmilton">Milton</span>'s sonnet is not so fine as most of his, though the
+               
+               opening is exquisite. 
+               <span class="person" id="jkeats">Keats</span> has written, perhaps, the best ode in the
                language, upon the bird. Wherever the learned fix the site of Eden,
                it will never be in America, where we have neither the nightingale nor the
-               sky lark. Yet we have the bob-o’-link and mocking bird in rich compensation. Nor are we wholly without music at night. I have often
+               sky lark. Yet we have the bob-o'-link and mocking bird in rich compensation. Nor are we wholly without music at night. I have often
                heard the song sparrow and robin at midnight, and what solitude
-               would be quite lonely wanting the mournful plaint of the whippoorwill.”
+               would be quite lonely wanting the mournful plaint of the whippoorwill."
             </p>
             
             <div class="ab">POETRY.</div>
@@ -249,12 +285,12 @@
                associations and tear-strengthened aspirings of youth, as Volumnia
                brought to Coriolanus his little children, to plead reproachfully with
                us, to be tender and meek, and patient. The passages I love in the
-               poets give me back an hour of childhood, and are like a mother’s voice
+               poets give me back an hour of childhood, and are like a mother's voice
                to me. They are as solemn as the rustle of the Bible leaves in the old family prayers. The noisy ocean of life hushes, and slides up his beach
                with a soothing and slumbering ripple. The earth becomes secluded
                and private to me as in early childhood, when it seemed but a little
                meadow green, guarded all round with trees for me to pick flowers
-               in.”
+               in."
             </p>
             
             <div class="ab">THE DIGNITY OF POVERTY.</div>
@@ -264,7 +300,7 @@
                dignify it like our amiable prose-poet, whose tales are an honor even
                to the illustrious language they are written in; but there is none for
                whom it has not some kind lesson. Poverty is a rare mistress for the
-               poet. She alone can teach him what a cheap thing delight is—to be
+               poet. She alone can teach him what a cheap thing delight is--to be
                had of every man, woman, and child he meets; to be gathered from
                every tree, shrub, and flower; nay, to be bought of the surly northwestern wind himself, by the easily paid instalments of a cheerful
                unhaggling spirit. Who knows the true taste of buns but the boy
@@ -272,20 +308,20 @@
                ever really went to the theatre but Kit Nubbles? Who feels what a
                fireside is, but the little desolate barefooted Ruths who glean the broken laths and waste splinters after the carpenters have had a full harvest? Who believes that his cup is overflowing but he who has rarely
                seen anything but the dry bottom! Poverty is the only seasoner of
-               felicity. Except she be the cook, the bread is sour and heavy—the
+               felicity. Except she be the cook, the bread is sour and heavy--the
                joint is overdone. As brisk exercise is the cheapest overcoat for the
                body, so is poverty for the heart. But it must be independent, and
-               not of Panurge’s mind—that to owe is a heroic virtue. Debt is like
+               not of Panurge's mind--that to owe is a heroic virtue. Debt is like
                the ingenious mechanical executioner I have read of somewhere, which
                presented the appearance of a fair woman standing upon a pedestal
                with three steps. When the victim mounted the first, she opened her
                arms; at the second, she began to close them slowly around him; at
                the third, she locked him in her iron embrace forever. On the other
-               hand, however, poverty has its bad side. Poverty in one hour’s time
+               hand, however, poverty has its bad side. Poverty in one hour's time
                shall transport a man from the warm and fruitful climate of sworn
-               brotherhood with the world, into the bare, bleak, desert, and polar icefield of distant country-cousinship; and the world’s whole duty of
+               brotherhood with the world, into the bare, bleak, desert, and polar icefield of distant country-cousinship; and the world's whole duty of
                man towards him, becomes on a sudden the necessity of staving off
-               asking him to dinner.”
+               asking him to dinner."
             </p>
          </div>
       </div>
@@ -297,7 +333,7 @@
          <div class="piece" id="#p2">
             <div class="biblTitle">Illustrated Genealogy of George Washington</div>
             <div class="biblPage">34</div>
-            <p>"Illustrated Genealogy of George Washington.” Published by W. A.
+            <p>"Illustrated Genealogy of George Washington." Published by W. A.
                Colman, 203 Broadway. (See Advertisement.)
             </p>
             
@@ -313,7 +349,7 @@
                without their aid, would never have been rescued from obscurity. There is a natural feeling in man, to ascertain the
                origin and history of his family, and the prevalence of this
                sentiment is shown by the universal custom in the parent
-               state,—and as generally adopted here—of prefacing the memoirs of celebrated men with some account of their parents,
+               state,--and as generally adopted here--of prefacing the memoirs of celebrated men with some account of their parents,
                and ancestors. When the public curiosity is thus conceived
                
                worthy of satisfaction in relation to individuals of inferior
@@ -338,13 +374,15 @@
          <div class="piece" id="#p3">
             <div class="biblTitle">Goldsmith's Gems of Penmanship</div>
             <div class="biblPage">35</div>
-            <p>Goldsmith’s Gems of Penmanship.—This is the most
+            <p>Goldsmith's Gems of Penmanship.--This is the most
                imdosing publication on the art of Hand Writing, that we
-               have ever seen. Mr. Goldsmith has almost elevated his art
+               have ever seen. Mr. 
+               <span class="person" id="obgoldsmith">Goldsmith</span> has almost elevated his art
                into the upper region of the fine arts. His specimens are
                gems of neatness, grace and beauty. It is a thousand pities
                that all who write, and they include nearly all of the population of our country, could not make some approach to the
-               perfection which Mr. Goldsmith has attained in the use of
+               perfection which Mr. 
+               <span class="person" id="obgoldsmith">Goldsmith</span> has attained in the use of
                the pen.
             </p>
             
@@ -354,13 +392,15 @@
          <div class="piece" id="#p4">
             <div class="biblTitle">An Illustrated Edition of Bryant's Poems</div>
             <div class="biblPage">35</div>
-            <p>An Illustrated Edition of Bryant’s Poems.—An edition
-               of Bryant’s Poems has been projected by some of the most
+            <p>An Illustrated Edition of Bryant's Poems.--An edition
+               of 
+               <span class="person" id="wcbryant">Bryant</span>'s Poems has been projected by some of the most
                eminent of our artists, to be illustrated by Wood Cuts, from
-               original designs, after the manner of Hall’s Book of British
+               original designs, after the manner of Hall's Book of British
                Ballads. Nothing of this sort has ever been attempted among us, and the project is highly honorable to the gentlemen undertaking it. We have seen one of the designs, which
                we consider quite as good as many of the engravings in Mr.
-               Hall’s book. If the work is to be got up in imitation of any
+               
+               <span class="person" id="schall">Hall</span>'s book. If the work is to be got up in imitation of any
                other, the Niebelungen Lied offers a much finer example
                than the Book of British Ballads.
             </p>
@@ -368,175 +408,194 @@
             <p>If it should be commenced, thore can be little doubt of its
                receiving ample support from the public; and a fitter work
                for illustration could not be selected than the poems of Mr.
-               Bryant.
+               
+               <span class="person" id="wcbryant">Bryant</span>.
             </p>
          </div>
       </div>
       
-      <div class="piece" id="#p5">
+      <div class="section" id="#s8">
          <div class="biblTitle">Literary and Learned Societies</div>
-         <div class="biblPage">35</div>
          <div class="head">Literary and Learned Societies.</div>
          
-         <p>The American Ethnolocical Society.—A Society with
-            the above name has been in existence in this city, for
-            the about two years, having for its object investigations into
-            Physical History of Man. This interesting subject is absorbing
-            much interest in Europe, and societies have lately been formed in London and Paris, having similar objects in view. In
-            Germany, too, the Science has received a great impulse from
-            the philological and antiquarian researches of Gesenius, Lepsius, Bopp, Ritter, and others. We are glad to hear of the interest awakened in our own city, on this subject, and that several of our distinguished Philologists, Antiquarians, and Geographers, among whom are Mr. Schoolcraft, Mr. Bartlett,
-            and Alexander W. Bradford, the author of an able work on
-            American Antiquities, have united in an association to promote
-            the various branches of knowledge embraced in these heads.
-         </p>
+         <div class="piece" id="#p5">
+            <div class="biblTitle">The American Ethnological Society</div>
+            <div class="biblPage">35</div>
+            <p>The American Ethnolocical Society.--A Society with
+               the above name has been in existence in this city, for
+               the about two years, having for its object investigations into
+               Physical History of Man. This interesting subject is absorbing
+               much interest in Europe, and societies have lately been formed in London and Paris, having similar objects in view. In
+               Germany, too, the Science has received a great impulse from
+               the philological and antiquarian researches of 
+               <span class="person" id="wgesenius">Gesenius</span>, 
+               <span class="person" id="krlepsius">Lepsius</span>, 
+               <span class="person" id="fbopp">Bopp</span>, 
+               <span class="person" id="critter">Ritter</span>, and others. We are glad to hear of the interest awakened in our own city, on this subject, and that several of our distinguished Philologists, Antiquarians, and Geographers, among whom are Mr. 
+               <span class="person" id="hrschoolcraft">Schoolcraft</span>, Mr. 
+               <span class="person" id="jrbartlett">Bartlett</span>,
+               and 
+               <span class="person" id="awbradford">Alexander W. Bradford</span>, the author of an able work on
+               American Antiquities, have united in an association to promote
+               the various branches of knowledge embraced in these heads.
+            </p>
+            
+            <p>This Society has just announced the first volume of its transactions, to be published by Bartlett &amp; Welford, Astor House.
+               The Prospectus will be found in our advertising columns.
+            </p>
+         </div>
          
-         <p>This Society has just announced the first volume of its transactions, to be published by Bartlett &amp; Welford, Astor House.
-            The Prospectus will be found in our advertising columns.
-         </p>
       </div>
       
       
-      <div class="piece" id="#p6">
+      
+      <div class="section" id="#s9">
          <div class="biblTitle">The Drama</div>
-         <div class="biblPage">35</div>
          <div class="head">The Drama.</div>
          
-         <p>A new Comedy, by the author of “London Assurance,”
-            called “Old Heads and Young Hearts,” is now having a
-            run at our Theatres. It was popular in London, after the
-            first night, (when it was not very warmly received,) and of
-            course is popular here. The success of a play like this,
-            proves the truth of our views of the state of the stage.
-         </p>
          
-         <p>The author of “Old Heads and Young Hearts,” may be
-            presumed to know something about London society, and his
-            representations of its phases should have some degree of
-            vraisemblance. But if this Comedy represents any class of
-            the English, it must be some one that is not composed of
-            human beings. Even Earls and Countesses may be presumed to have some affinity with human nature, but the
-            Earl of Pompion and his Countess are not even caricatures
-            of any humanity that we have any knowledge of. There is
-            a good deal of very lively dialogue, and one or two smart
-            things, but not a particle of wit in the whole piece. All
-            the characters say good things, without any reference to
-            their appropriateness, and stand apart from each other without possessing any individuality. The most amusing character in the piece is a spaniel, who acts his part very naturally, and causes a good deal of merriment. The other
-            actors should take a hint from the applause bestowed on his
-            modest performance.
-         </p>
-         
-         <p>The first act opens with Littleton Coke, Esq., one of the
-            legitimate rake-scrapes of the English stage, at his breakfast-table, in a Chintz morning gown. His valet is sitting
-            on a stool, and Mr. Coke rises from his seat and lets us into
-            some of the particulars of his good-for-nothing history,
-            framed after the model of Charles Surface. Presently, Lord
-            Charles Roebuck, son of the Earl of Pompion, comes in and
-            informs him that his father has sent for him to marry his
-            cousin, Lady Alice Hawthorn, and to stand for Closeborough,
-            at the next election, but that he had fallen in love with Miss
-            Kate Rocket, and begged that his friend would have the
-            goodness to marry Lady Alice and go into parliament, in
-            his stead. Mr. Coke is delighted at the proposition, as he
-            is head over heels in debt, and Lady Alice has a fortune of
-            five thousand a-year. While they are conversing his servant informs him that a bailiff and one of his creditors are
-            at the door, upon which the two young men run off, and
-            leave the valet to arrange matters with the harpies and
-            body-snatchers, as he calls honest men who ask for their
-            belongings. The bailiff and the creditor come in, and they
-            prove to be a venerable clergyman, Jesse Rural, with long
-            white hair, and Thomas Coke, Esq., M.P., the brother of
-            the spendthrift Littleton. The valet, who has been pretty
-            well used to bailiffs and tradesmen, never discovers from
-            the appearance of these gentlemen, that they are not the
-            persons he takes them for, and when they inquire for his
-            master, salutes them with a torrent of vulgar abuse, which
-            no bailiff even would take from a flunkey, or any body else.
-            The two gentlemen, however, walk off with themselves,
-            without demanding any explanation, and presently meet
-            Littleton Coke, Esq. at the house of the Earl of Pompion,
-            where all the dramatis personae are assembled, and where
-            the most remarkable scenes occur—infinitely more gross and
-            unnatural than any thing in Mr. Cooper’s "Monnikins.’’
-         </p>
-         
-         <p>The Countess of Pompion, when she first meets her son,
-            after his long absence from abroad, sits caressing her lapdog; and without either rising to salute him, or showing
-            the smallest mark of pleasure, asks him whether he has
+         <div class="piece" id="p6">
+            <div class="biblTitle"></div>
+            <div class="head">"Old Heads and Young Hearts."</div>
             
-            brought her any eau de Cologne, which must be a very great rarity with a Countess,
-            and hopes he still uses the perfume
-            des milles fleurs. As soon as she goes out, he and his cousin,
-            Lady Alice, begin to make fun of her. Littleton Coke falls
-            in love with Lady Alice; so does his brother. She, however,
-            only falls in love with Littleton, but flirts with Tom, who 
-            loves her to desperation, until the last scene, when he not
-            only suddenly resigns her to his brother, but also resigns the
-            bulk of his property to him, when a reconciliation takes
-            place between them, which no entreaties on the part of Tom
-            and his friends could effect before. Jesse Rural is the friend
-            of the Coke’s, but he does nothing but laugh, and get them
-            into scrapes, and go into hysterics. A double elopement takes
-            place, for no earthly purpose, and Lord Charles Roebuck—
-            Charley, as they call him—cheats his father, by getting his
-            friend returned for Closeborough, through his valet, Bob,
-            who imposes himself in his assumed character upon the
-            Earl, who not seeing through the very gross deception, makes
-            a confession to him, for which there is not the slightest need,
-            that he has a natural son, named Robert; and then the valet 
-            passes off Lord Charles in the disguise of a groom, upon his
-            father, for this natural son, whom he had not seen for fifteen
-            years. In the end the Valet himself proves to be the earl’s
-            son. There is an E. I. Colonel, the father of Kate Rockett, who
-            salutes everybody in military style, and is so grossly ignorant,
-            that he has never heard of the Battle of Hastings. Lady Alice
-            does a thousand things that no woman, not even an abandoned
-            one, could be guilty of; and the Earl of Pompion, Secretary
-            of State for the Home department, is hardly a degree better
-            than an idiot, while his son Lord Charles, is more vulgar
-            than any tallow chandler’s son possibly could be, who had
-            enjoyed the privilege of waiting upon his father’s customers.
-            The whole piece is such a conglomeration of absurdities, that
-            criticism would be degraded by dissecting it. It is put upon
-            the stage with a good many modern refinements, which must
-            give the vulgar very strange notions of high life. In the
-            Earl of Pompion’s drawing room the furniture is all burnished gold. It would take more bullion than the bank of England could furnish to make such a magnificent set out. The
-            floor is covered with a real carpet, and no mistake, and the
-            chandelier is real tin. In the last scene, which is laid in a
-            tropical country, with a view of St. Paul’s in the distance,
-            Lady Alice and Miss Rockett came in after their elopement in their opera dresses, accompanied by the Countess
-            of Pompion in a winter hat, a muff and boa. Although the
-            drawing room is covered with a real carpet, the lawn in front
-            of the tropical summer-house is composed of boards.
-         </p>
-         
-         <p>Old Heads and Young Hearts is no doubt intended for a
-            representation of high life, and considered as such might be
-            popular with two classes in London; those who have an itching to become acquainted with the manner in which Lords
-            spend their time, and those who love to see the habits of the
-            higher orders ridiculed. But there are no such classes here,
-            and we can only account for the popularity of this piece, by
-            attributing it to the degraded standard of dramatic taste existing in the community.
-         </p>
-         
-         <p>We saw this performance at the Park Theatre, where it
-            was doubtless as well done as it could have been at either
-            of our Theatres. Mr. Crisp, who personated Littleton
-            Coke, is a rather slight, gentlemanly-looking person, who
-            can hardly be classed with good actors, but he was good
-            enough for his part. Mr. Barry, who always looks and
-            speaks like a gentleman with some grave affair on his hands,
-            represented the brother—a kind of Joseph Surface, without
-            his hypocrisy—in a commendable manner; and Mr. Chippendale did his part, Jesse Rural, with his usual neatness
+            <p>A new Comedy, by the author of "London Assurance,"
+               called "Old Heads and Young Hearts," is now having a
+               run at our Theatres. It was popular in London, after the
+               first night, (when it was not very warmly received,) and of
+               course is popular here. The success of a play like this,
+               proves the truth of our views of the state of the stage.
+            </p>
             
-            and finish,—perhaps he overdid it a little, and laughed a little
-            too much. But the acting was all well enough; Garrick
-            himself could have made nothing out of such a farrago of
-            nonsense. The play has a moral, of course, which is identical with the majority of stage morals, viz.: That the most
-            worthless conduct will always be rewarded by a great fortune and a beautiful wife. There are two marriages at the
-            end, for no other reason than that the last act has been
-            reached. The parties might as well have been married in
-            the first act, and have saved all the subsequent trouble.
-         </p>
+            <p>The author of "Old Heads and Young Hearts," may be
+               presumed to know something about London society, and his
+               representations of its phases should have some degree of
+               vraisemblance. But if this Comedy represents any class of
+               the English, it must be some one that is not composed of
+               human beings. Even Earls and Countesses may be presumed to have some affinity with human nature, but the
+               Earl of Pompion and his Countess are not even caricatures
+               of any humanity that we have any knowledge of. There is
+               a good deal of very lively dialogue, and one or two smart
+               things, but not a particle of wit in the whole piece. All
+               the characters say good things, without any reference to
+               their appropriateness, and stand apart from each other without possessing any individuality. The most amusing character in the piece is a spaniel, who acts his part very naturally, and causes a good deal of merriment. The other
+               actors should take a hint from the applause bestowed on his
+               modest performance.
+            </p>
+            
+            <p>The first act opens with Littleton Coke, Esq., one of the
+               legitimate rake-scrapes of the English stage, at his breakfast-table, in a Chintz morning gown. His valet is sitting
+               on a stool, and Mr. Coke rises from his seat and lets us into
+               some of the particulars of his good-for-nothing history,
+               framed after the model of Charles Surface. Presently, Lord
+               Charles Roebuck, son of the Earl of Pompion, comes in and
+               informs him that his father has sent for him to marry his
+               cousin, Lady Alice Hawthorn, and to stand for Closeborough,
+               at the next election, but that he had fallen in love with Miss
+               Kate Rocket, and begged that his friend would have the
+               goodness to marry Lady Alice and go into parliament, in
+               his stead. Mr. Coke is delighted at the proposition, as he
+               is head over heels in debt, and Lady Alice has a fortune of
+               five thousand a-year. While they are conversing his servant informs him that a bailiff and one of his creditors are
+               at the door, upon which the two young men run off, and
+               leave the valet to arrange matters with the harpies and
+               body-snatchers, as he calls honest men who ask for their
+               belongings. The bailiff and the creditor come in, and they
+               prove to be a venerable clergyman, Jesse Rural, with long
+               white hair, and Thomas Coke, Esq., M.P., the brother of
+               the spendthrift Littleton. The valet, who has been pretty
+               well used to bailiffs and tradesmen, never discovers from
+               the appearance of these gentlemen, that they are not the
+               persons he takes them for, and when they inquire for his
+               master, salutes them with a torrent of vulgar abuse, which
+               no bailiff even would take from a flunkey, or any body else.
+               The two gentlemen, however, walk off with themselves,
+               without demanding any explanation, and presently meet
+               Littleton Coke, Esq. at the house of the Earl of Pompion,
+               where all the dramatis personae are assembled, and where
+               the most remarkable scenes occur--infinitely more gross and
+               unnatural than any thing in Mr. 
+               <span class="person" id="jfcooper">Cooper</span>'s "Monnikins.''
+            </p>
+            
+            <p>The Countess of Pompion, when she first meets her son,
+               after his long absence from abroad, sits caressing her lapdog; and without either rising to salute him, or showing
+               the smallest mark of pleasure, asks him whether he has
+               
+               brought her any eau de Cologne, which must be a very great rarity with a Countess,
+               and hopes he still uses the perfume
+               des milles fleurs. As soon as she goes out, he and his cousin,
+               Lady Alice, begin to make fun of her. Littleton Coke falls
+               in love with Lady Alice; so does his brother. She, however,
+               only falls in love with Littleton, but flirts with Tom, who 
+               loves her to desperation, until the last scene, when he not
+               only suddenly resigns her to his brother, but also resigns the
+               bulk of his property to him, when a reconciliation takes
+               place between them, which no entreaties on the part of Tom
+               and his friends could effect before. Jesse Rural is the friend
+               of the Coke's, but he does nothing but laugh, and get them
+               into scrapes, and go into hysterics. A double elopement takes
+               place, for no earthly purpose, and Lord Charles Roebuck-Charley, as they call him--cheats his father, by getting his
+               friend returned for Closeborough, through his valet, Bob,
+               who imposes himself in his assumed character upon the
+               Earl, who not seeing through the very gross deception, makes
+               a confession to him, for which there is not the slightest need,
+               that he has a natural son, named Robert; and then the valet 
+               passes off Lord Charles in the disguise of a groom, upon his
+               father, for this natural son, whom he had not seen for fifteen
+               years. In the end the Valet himself proves to be the earl's
+               son. There is an E. I. Colonel, the father of Kate Rockett, who
+               salutes everybody in military style, and is so grossly ignorant,
+               that he has never heard of the Battle of Hastings. Lady Alice
+               does a thousand things that no woman, not even an abandoned
+               one, could be guilty of; and the Earl of Pompion, Secretary
+               of State for the Home department, is hardly a degree better
+               than an idiot, while his son Lord Charles, is more vulgar
+               than any tallow chandler's son possibly could be, who had
+               enjoyed the privilege of waiting upon his father's customers.
+               The whole piece is such a conglomeration of absurdities, that
+               criticism would be degraded by dissecting it. It is put upon
+               the stage with a good many modern refinements, which must
+               give the vulgar very strange notions of high life. In the
+               Earl of Pompion's drawing room the furniture is all burnished gold. It would take more bullion than the bank of England could furnish to make such a magnificent set out. The
+               floor is covered with a real carpet, and no mistake, and the
+               chandelier is real tin. In the last scene, which is laid in a
+               tropical country, with a view of St. Paul's in the distance,
+               Lady Alice and Miss Rockett came in after their elopement in their opera dresses, accompanied by the Countess
+               of Pompion in a winter hat, a muff and boa. Although the
+               drawing room is covered with a real carpet, the lawn in front
+               of the tropical summer-house is composed of boards.
+            </p>
+            
+            <p>Old Heads and Young Hearts is no doubt intended for a
+               representation of high life, and considered as such might be
+               popular with two classes in London; those who have an itching to become acquainted with the manner in which Lords
+               spend their time, and those who love to see the habits of the
+               higher orders ridiculed. But there are no such classes here,
+               and we can only account for the popularity of this piece, by
+               attributing it to the degraded standard of dramatic taste existing in the community.
+            </p>
+            
+            <p>We saw this performance at the Park Theatre, where it
+               was doubtless as well done as it could have been at either
+               of our Theatres. Mr. Crisp, who personated Littleton
+               Coke, is a rather slight, gentlemanly-looking person, who
+               can hardly be classed with good actors, but he was good
+               enough for his part. Mr. Barry, who always looks and
+               speaks like a gentleman with some grave affair on his hands,
+               represented the brother--a kind of Joseph Surface, without
+               his hypocrisy--in a commendable manner; and Mr. Chippendale did his part, Jesse Rural, with his usual neatness
+               
+               and finish,--perhaps he overdid it a little, and laughed a little
+               too much. But the acting was all well enough; 
+               <span class="person" id="dgarrick">Garrick</span>
+               himself could have made nothing out of such a farrago of
+               nonsense. The play has a moral, of course, which is identical with the majority of stage morals, viz.: That the most
+               worthless conduct will always be rewarded by a great fortune and a beautiful wife. There are two marriages at the
+               end, for no other reason than that the last act has been
+               reached. The parties might as well have been married in
+               the first act, and have saved all the subsequent trouble.
+            </p>
+         </div>
       </div>
       
       <div class="section" id="#s3">
@@ -572,7 +631,7 @@
                when we bestow the same commendations on an artist of
                slender abilities that we do upon a great genius, harm is
                done to both. We have assumed the task of serving the
-               public—a very onerous one, for which we do not feel ourselves peculiarly fitted by any means; but seeing a vacant
+               public--a very onerous one, for which we do not feel ourselves peculiarly fitted by any means; but seeing a vacant
                department of editorial labor which no one seems disposed
                to fill, we have undertaken to occupy it until some one better qualified shall offer.
             </p>
@@ -584,7 +643,7 @@
                communicated to the public, we have determined to devote
                a portion of our Journal to that cause. In doing so, we think
                that we have a right to look for aid from those who, after
-               all, are most interested in the matter, namely—the Artists.
+               all, are most interested in the matter, namely--the Artists.
                But we shall never seek to gain their aid by personal flatteries, or by advocating the cause of any party or clique. We
                have a few personal friends among them, whose good will
                we should be exceeding sorry to lose; but if it can only be
@@ -616,7 +675,7 @@
                his brush. No true artist ever abandoned his profession.
             </p>
             
-            <p>We have given so much space to a definition of “our position,” that we have but little left for further remarks on
+            <p>We have given so much space to a definition of "our position," that we have but little left for further remarks on
                the remaining pictures of the Art-Union.
             </p>
             
@@ -624,7 +683,7 @@
                them were in water colors, and one of the two, the Cathedral of Fribourg was a very admirable painting; the other
                was an indifferent picture, which we think must have been
                purchased by mistake. We have never seen so great a difference between the works of any artist, as we have noticed
-               in the pictures by Mr. Gignoux. Some of them are exceedingly fine—his sketches from nature, for instance—while
+               in the pictures by Mr. Gignoux. Some of them are exceedingly fine--his sketches from nature, for instance--while
                others are exceedingly bad, careless, and ill-considered. Mr.
                Gignoux has nothing to fear from dispraise, for he has merit
                enough to fortify his reputation against a good many volleys
@@ -642,13 +701,19 @@
                outlines that we have ever seen from any of our artists. It
                is not a style of art adapted to the expression of coarse subjects; and we think that the greatest defect of these drawings is the absence of purity and elevation of sentiment, unavoidable from the subjects illustrated. They evince talents
                of a very high order, which only require a different direction
-               to produce very brilliant effects. The most successful attempts in outline, such as Flaxman’s, Retsch’s, and the late
-               ones of Selous, have been of the highest class of ideal subjects, as Homer, Dante, Goethe, and Bunyan. Scott and
-               Cooper, from whose works Mr. Hoppin has taken nearly
+               to produce very brilliant effects. The most successful attempts in outline, such as Flaxman's, Retsch's, and the late
+               ones of Selous, have been of the highest class of ideal subjects, as 
+               <span class="person" id="homer">Homer</span>, 
+               <span class="person" id="dalighieri">Dante</span>, 
+               <span class="person" id="jwvgoethe">Goethe</span>, and 
+               <span class="person" id="jbunyan">Bunyan</span>. 
+               <span class="person" id="wscott">Scott</span> and
+               
+               <span class="person" id="jfcooper">Cooper</span>, from whose works Mr. Hoppin has taken nearly
                all the subjects which we have seen of his illustrating, contain but few passages suitable to the severity of outline
                drawing. One, however, from the Merry Wives of Windsor, though mostly composed of the deformities of nature,
                Falstaff, Slender, Bardolph, &amp;c. is finely idealised, and makes
-               a very close approach, if it does not quite reach, the illustrations of Faust. Mr. Hoppin’s forte is in painting animals.
+               a very close approach, if it does not quite reach, the illustrations of Faust. Mr. Hoppin's forte is in painting animals.
                Among dogs, horses and oxen, he is perfectly at home. If
                he would go into partnership with some one of our best
                
@@ -660,69 +725,80 @@
       </div>
       
       <div class="piece" id="#p8">
-         <div class="biblTitle">American Prose Writers</div>
+         <div class="biblTitle">American Prose Writers, No. 2</div>
          <div class="biblPage">37</div>
          <div class="head">AMERICAN PROSE WRITERS.
             NO. 2.
-            N. P. WILLIS.
+            
+            <span class="person" id="npwillis">N. P. WILLIS</span>.
          </div>
          
-         <div class="ab">NEW VIEWS—IMAGINATION—FANCY—FANTASY—HU-
+         <div class="ab">NEW VIEWS--IMAGINATION--FANCY--FANTASY--HU-
             
-            <br></br>MOR—WIT—SARCASM— THE PROSE STYLE
+            <br></br>MOR--WIT--SARCASM-- THE PROSE STYLE
             
-            <br></br>OF MR. WILLIS.
+            <br></br>OF MR. 
+            <span class="person" id="npwillis">WILLIS</span>.
          </div>
          
          <p>In his poetry, and in the matter of his prose, the author of
-            “Melanie” and of the “Inklings of Adventure” has, beyond
-            doubt, innumerable merits:—still, they are merits which he
-            shares with other writers—which he possesses in common
-            with Proctor, with Heber, and with Halleck—in common
-            with Neele, with Hunt, with Lamb, and with Irving; his
+            "Melanie" and of the "Inklings of Adventure" has, beyond
+            doubt, innumerable merits:--still, they are merits which he
+            shares with other writers--which he possesses in common
+            with 
+            <span class="person" id="bwprocter">Proctor</span>, with 
+            <span class="person" id="rheber">Heber</span>, and with 
+            <span class="person" id="fghalleck">Halleck</span>--in common
+            with 
+            <span class="person" id="hneele">Neele</span>, with 
+            <span class="person" id="jhlhunt">Hunt</span>, with 
+            <span class="person" id="clamb">Lamb</span>, and with 
+            <span class="person" id="wirving">Irving</span>; his
             prose style, however, is not only a genus per se, but it is his
-            own property “in fee simple impartite,” and no man living
+            own property "in fee simple impartite," and no man living
             has ever yet set foot upon it except himself.
          </p>
          
-         <p>Now, if any style has been long distinct—has been long
-            markedly and universally peculiar—we must, of course, seek
+         <p>Now, if any style has been long distinct--has been long
+            markedly and universally peculiar--we must, of course, seek
             the source of the peculiarity not, as some persons are prone
-            to suppose, in any physical habitude or mannerism—not in
-            any quipping and quibbling of phrase—not in any twisting of
-            antique conventionalities of expression—not, (to be brief,) in
+            to suppose, in any physical habitude or mannerism--not in
+            any quipping and quibbling of phrase--not in any twisting of
+            antique conventionalities of expression--not, (to be brief,) in
             any mere sleight-of-pen trickeries which, at all times, may be
             more dexterously performed by an observant imitator than
-            by the original quack—but in some mental idiosyncrasy, which,
+            by the original quack--but in some mental idiosyncrasy, which,
             unimitated itself because inimitable, preserves the style which
             is its medium and its exponent from all danger of imitation.
          </p>
          
-         <p>In the style of Mr. Willis we easily detect this idiosyncrasy. We have no trouble in tracing it home—and when we
+         <p>In the style of Mr. 
+            <span class="person" id="npwillis">Willis</span> we easily detect this idiosyncrasy. We have no trouble in tracing it home--and when we
             reach it and look it fairly in the face, we recognize it on
-            the instant.—It is Fancy.
+            the instant.--It is Fancy.
          </p>
          
-         <p>To be sure, there is qnite a tribe of Fancies—although one
+         <p>To be sure, there is qnite a tribe of Fancies--although one
             half of them never suspected themselves to be such until so
-            told by the metaphysicians—but the one of which we speak
+            told by the metaphysicians--but the one of which we speak
             has never yet been accredited among men, and we beg pardon
-            of Mr. Willis for the liberty we take in employing the topic
+            of Mr. 
+            <span class="person" id="npwillis">Willis</span> for the liberty we take in employing the topic
             of his style, as the best possible vehicle and opportunity for
             the introduction of this, our protege, to the consideration of
             the literary world.
          </p>
          
-         <p>“Fancy,” says the author of “Aids to Reflection” (who
-            aided Reflection to much better purpose in his “Genevieve”)
-            —“Fancy combines—Imagination creates.” This was intended, and has been received, as a distinction; but it is a distinction without a difference—without even a difference of degree.
+         <p>"Fancy," says the author of "Aids to Reflection" (who
+            aided Reflection to much better purpose in his "Genevieve")
+            --"Fancy combines--Imagination creates." This was intended, and has been received, as a distinction; but it is a distinction without a difference--without even a difference of degree.
             The Fancy as nearly creates as the imagination, and neither
             at all. Novel conceptions are merely unusual combinations.
             The mind of man can imagine nothing which does not exist:
-            —if it could, it would create not only ideally, but substantially—as do the thoughts of God. It may be said—“We imagine a griffin, yet a griffin does not exist.” Not the griffin
-            certainly, but its component parts. It is no more than a collation of known limbs—features—qualities. Thus with all
-            which claims to be new—which appears to be a creation of
-            the intellect:—it is re-soluble into the old. The wildest
+            --if it could, it would create not only ideally, but substantially--as do the thoughts of God. It may be said--"We imagine a griffin, yet a griffin does not exist." Not the griffin
+            certainly, but its component parts. It is no more than a collation of known limbs--features--qualities. Thus with all
+            which claims to be new--which appears to be a creation of
+            the intellect:--it is re-soluble into the old. The wildest
             effort of the mind cannot stand the test of the analysis.
          </p>
          
@@ -730,13 +806,14 @@
             and the imagination, in calling the latter the former loftily
             employed. But experience would prove this distinction to be
             unsatisfactory. What we feel to be fancy, will be found still
-            fanciful, whatever be the theme which engages it. No subject exalts it into imagination. When Moore is termed a
+            fanciful, whatever be the theme which engages it. No subject exalts it into imagination. When 
+            <span class="person" id="tmoore">Moore</span> is termed a
             fanciful poet, the epithet is precisely applied; he is. He is
-            fanciful in “Lalla Rookh,” and had he written the “Inferno,”
+            fanciful in "Lalla Rookh," and had he written the "Inferno,"
             
             
             there he would have been fanciful still: for not only is he essentially fanciful, but he has no ability to be anything more,
-            unless at rare intervals—by snatches—and with effort. What
+            unless at rare intervals--by snatches--and with effort. What
             we say of him at this point, moreover, is equally true of all
             little frisky men, personally considered.
          </p>
@@ -746,53 +823,53 @@
             Novelty. The Imagination is the artist of the four. From
             novel arrangements of old forms which present thamselves to
             it, it selects only such as are harmonious:--the result, of course,
-            is beauty itself—using the term in its most extended sense,
+            is beauty itself--using the term in its most extended sense,
             and as inclusive of the sublime. The pure Imagination
-            chooses, from either beauty or deformity, only the most combinable things hitherto uncombined;—the compound, as a
+            chooses, from either beauty or deformity, only the most combinable things hitherto uncombined;--the compound, as a
             general rule, partaking (in character) of sublimity or beauty,
             in the ratio of the respective sublimity or beauty of the things
-            combined—which are themselves still to be considered as atomic—that is to say, as previous combinations. But, as often
+            combined--which are themselves still to be considered as atomic--that is to say, as previous combinations. But, as often
             analogously happens in physical chemistry, so not unfrequently does it occur in this chemistry of the intellect, that the admixture of two elements will result in a something that shall
-            have nothing of the quality of one of them—or even noth-ing of the qualities of either. The range of Imagination is
+            have nothing of the quality of one of them--or even noth-ing of the qualities of either. The range of Imagination is
             therefore, unlimited. Its materials extend throughout the
             Universe. Even out of deformities it fabricates that Beauty
             which is at once its sole object and its inevitable test. But,
-            in general, the richness or force of the matters combined—the
+            in general, the richness or force of the matters combined--the
             facility of discovering combinable novelties worth combining
-            —and the absolute “chemical combination” and proportion
-            of the completed mass—are the particulars to be regarded in
+            --and the absolute "chemical combination" and proportion
+            of the completed mass--are the particulars to be regarded in
             our estimate of Imagination. It is this thorough harmony of
             an imaginative work which so often causes it to be under-valued by the undiscriminating, through the character of obviousness which is superinduced. We are apt to find ourselves
-            asking “why is it that these combinations have never been
-            imagined before?”
+            asking "why is it that these combinations have never been
+            imagined before?"
          </p>
          
-         <p>Now, when this question does not occur—when the harmony of the combination is comparatively neglected, and
-            when in addition to the element of novelty, there is introduced the sub-element of unexpectedness—when, for example,
+         <p>Now, when this question does not occur--when the harmony of the combination is comparatively neglected, and
+            when in addition to the element of novelty, there is introduced the sub-element of unexpectedness--when, for example,
             matters are brought into combination which not only have
             never been combined but whose combination strikes us as a
-            difficulty happily overcome—the result then appertains to the
-            Fancy—and is, to the majority of mankind more grateful than
-            the purely harmonious one—although, absolutely, it is less
+            difficulty happily overcome--the result then appertains to the
+            Fancy--and is, to the majority of mankind more grateful than
+            the purely harmonious one--although, absolutely, it is less
             beautiful (or grand) for the reason that it is less harmonious.
          </p>
          
-         <p>Carrying its errors into excess—for, however enticing, they
-            are errors still, or Nature lies.—Fancy is at length found impinging upon the province of Fantasy. The votaries of this
+         <p>Carrying its errors into excess--for, however enticing, they
+            are errors still, or Nature lies.--Fancy is at length found impinging upon the province of Fantasy. The votaries of this
             latter delight not only in novelty and unexpectedness of
             combination, but in the avoidance of proportion. The result
             is therefore abnormal, and to a healthy mind affords less of
             pleasure through its novelty, than of pain through its incoherence. When, proceeding a step farther, however, Fantasy
             seeks not merely disproportionate but incongruous or antagonistical elements, the effect is rendered more pleasurable from
-            its greater positiveness;—there is a merry effort of Truth to
-            shake from her that which is no property of hers;—and we
+            its greater positiveness;--there is a merry effort of Truth to
+            shake from her that which is no property of hers;--and we
             laugh outright in recognizing Humor.
          </p>
          
          <p>The four faculties in question appear to me all of their
-            class;—but when either Fancy or Humor is expressed to gain
-            an end—is pointed at a purpose—whenever either becomes
-            objective in place of subjective—then it becomes, also, pure
+            class;--but when either Fancy or Humor is expressed to gain
+            an end--is pointed at a purpose--whenever either becomes
+            objective in place of subjective--then it becomes, also, pure
             Wit or Sarcasm, just as the purpose is well-intentioned or
             malevolent.
          </p>
@@ -800,373 +877,386 @@
          <p>Having thus comfortably defined our position, we shall be
             
             the more readily understood when we repeat that the marked
-            idiosyncrasy of the prose style of Mr. Willis—that the charm
-            which has wrought for it so vast and so well-merited a popularity—is traceable, in the last result, to the brilliant Fancy
-            with which it perpetually scintillates or glows—a fancy possessed, not as in the case of Moore, to the exclusion of qualities more noble—but possessed, certainly, to an extent altogether unparallelled, and of a kind both relatively and intrinsically the most valuable, because at once the most radiant
+            idiosyncrasy of the prose style of Mr. 
+            <span class="person" id="npwillis">Willis</span>--that the charm
+            which has wrought for it so vast and so well-merited a popularity--is traceable, in the last result, to the brilliant Fancy
+            with which it perpetually scintillates or glows--a fancy possessed, not as in the case of 
+            <span class="person" id="tmoore">Moore</span>, to the exclusion of qualities more noble--but possessed, certainly, to an extent altogether unparallelled, and of a kind both relatively and intrinsically the most valuable, because at once the most radiant
             and the most rare.
          </p>
       </div>
       
-      <div class="piece" id="#p9">
-         <div class="biblTitle">Historical Essays</div>
-         <div class="biblPage">38</div>
+      <div class="section" id="s10">
+         <div class="biblTitle"></div>
          <div class="head">HISTORICAL ESSAYS.</div>
-         
-         <div class="ab">SURRENDER OF NEW YORK TO THE DUTCH,
+         <div class="piece" id="#p9">
+            <div class="biblTitle">Surrender of New York to the Dutch</div>
+            <div class="biblPage">38</div>
+            <div class="head">SURRENDER OF NEW YORK TO THE DUTCH,</div>
             
-            <br></br>CURIOUS FACTS RECENTLY COME TO LIGHT REGARDING THIS EVENT,
+            <div class="ab">CURIOUS FACTS RECENTLY COME TO LIGHT REGARDING THIS EVENT,
+               
+               <br></br>FROM THE RESEARCHES OF MR. 
+               <span class="person" id="jrbrodhead">BRODHEAD</span>.
+            </div>
             
-            <br></br>FROM THE RESEARCHES OF MR. BRODHEAD.
-         </div>
-         
-         <p>The War of 1672, against Holland, commenced by Charles
-            the Second, which all the historians attribute to the private
-            relations between that monarch and Louis the Fourteenth,
-            strengthened by the circumstance that his mother was a
-            French Princess, and his sister, the Dutchess of Orleans, was
-            not without its consequences to the colony of New York.—
-            It is very evident, from the documents deposited in the British State Paper office, that the importance of this colony
-            was well understood, both by the Dutch and English. Its
-            commodious harbor, its commanding position, both with
-            respect to Canada and New England,—its fine navigable
-            river, the Hudson, the richness of the back country, as well
-            as of the islands which guarded it from the sea, were always leading topics in the communications which were
-            sent home to either country, by the official personages who
-            at different times represented the Dutch and the English
-            interests.
-         </p>
-         
-         <p>It seems that the Hollanders did not fail, on the breaking
-            out of the war with England, to despatch a fleet to the
-            American coast, under the command of two well-known
-            officers, Jacob Binkes and Cornelius Evertsen de Jonge, as-sisted by three captains of the Dutch army, Anthony Coloe,
-            Nicholas Boes, and Abraham Frederick Van Zye. This
-            force was the result of the union of two small fleets off
-            Martinique, one of which, previously under the command
-            of Evertsen, had sailed for Virginia, and there captured and
-            sunk a number of English and French vessels, men-of-war
-            and merchantmen, after some hard-fought battles. Coming
-            north to New York, they sailed up the bay, anchored at
-            Staten Island, and with the first fair wind, stood for the
-            city,—formed a line-of-battle off the present Battery, and
-            took the fort. The manner of its surrender is the point we
-            propose to discuss, and if we shall be allowed to do so, it is
-            because the enlightened liberality of the State of New York
-            has obtained from abroad, the interesting documents which
-            throw new light upon the subject; and because its faithful
-            and able agent, J. R. Brodhead, Esq., has dragged from the
-            obscurity of nearly two hundred years, papers and documents which had hitherto escaped the researches and the
-            knowledge of our most esteemed historians. Smith, in his
-            history of New York, when speaking of the surrender, says:
-            “A few Dutch ships arrived the year after, (1673) on the
-            30th of July, under Staten Island, at the distance of a few
-            miles from the City of New York. John Manning, a captain of an independent Company, had at that time the command of the fort, and by a message sent down to the squadron, treacherously made his peace with the enemy. On that
-            very day the Dutch ships came up, moored under the fort,
-            landed their men and entered the garrison, without giving
-            or receiving a shot.
-         </p>
-         
-         
-         <p>Dunlap, in his history of New York, follows the statement
-            of Smith. Mr. Bancroft, in his later work, also states that
-            the city was given up “without a blow." Holmes, in his
-            valuable American Annals, adopts the same opinion. “On
-            the arrival,” says he, “of the invading squadron, the commander of the Fort sent a messenger and made his peace
-            with the enemy. Not a shot was given or returned."
-         </p>
-         
-         <p>But the case is still further made up, by the formal record,
-            in Smith’s History of New York, of the proceedings of a
-            Court Martial, at which charges were exhibited against the
-            commander of the Fort, upon his return from England, where
-            he went on a visit. To these charges he pleaded guilty,
-            and his sword was broken over his head, either before his own
-            house, at Coenties Slip, or at the City Hall; each place
-            being mentioned as the locality of his degradation. We will
-            briefly notice the charges, when we have given such a narrative of the surrender as appears fully ascertained, by the
-            documents of the New York agency. If these alone were to
-            be the ground-work of a new history, the name of Manning
-            would assume a very different rank, in our annals. The
-            surrender would be attributable to some of those common
-            occurrences which make up the accidents of war; or to the
-            natural consequences of a previous peace; of skill and boldness on the one side, and of an accidental want of preparation on the other,—where bravery cannot furnish the want
-            of the munitions of war, or supply the defects of decayed
-            and useless defences.
-         </p>
-         
-         <p>The facts in favor of this view of the subject appear to
-            be these: After the successes of Evertsen, on the coast of
-            Virginia, and his meeting with his friend Binkes, off the
-            Mauritius, with four men-of-war, the commanders sailed for
-            New York. We can well imagine their desire to recapture
-            this valuable colony, founded by their countrymen, and still
-            dear to the government of the mother country. It appears,
-            that among their captures was a country sloop, commanded
-            by one Samuel Davis,—and on his being applied to for information as to the state of the defences at New York, he told
-            them, doubtless with the idea of preventing the expedition,
-            that the English Governor, Lovelace, could raise five thousand men, easily, in three hours, for the protection of the
-            city,—and that there were one hundred and fifty-five pieces
-            of ordnance in the fort, which could be effectively used
-            against an enemy. This story, according to some of the
-            accounts, would have deterred them from the enterprise, if
-            another prisoner, of the name of Hopkins, and who is styled
-            a professor in one of the papers, had not flatly contradicted
-            the master of the sloop. He informed the Dutch Commodores that there were but sixty or eighty men in the fort,—
-            that it would take several days to raise even three or four
-            hundred men for its defence, and that the cannons were so
-            badly mounted that a shot or two would shake them out of
-            their carriages. On hearing this, to use the words of our
-            authority, “the cry was for New York." The squadron
-            stood for New York, accordingly, and soon arrived at Sandy
-            Hook. It then moved up to Staten Island and cast anchor,
-            waiting for a fair wind to get up to town. They did not
-            hesitate to make up their supplies of fresh meat, from the
-            cattle and sheep of the Governor, as we learn from a letter
-            which he despatched to Governor Winthrop, at Boston, and
-            in which he expressed a hope that he would be able to do
-            something decisive towards regaining the city. According
-            to his account, the squadron consisted, first, of ten sail,
-            which were afterwards increased to sixteen. Another letter,
-            written by a Mr. Palmos, of New London, estimates the
-            force at twenty ships and one galliot. The most interesting
-            testimony to which we have had access, however, is that of
+            <p>The War of 1672, against Holland, commenced by Charles
+               the Second, which all the historians attribute to the private
+               relations between that monarch and Louis the Fourteenth,
+               strengthened by the circumstance that his mother was a
+               French Princess, and his sister, the Dutchess of Orleans, was
+               not without its consequences to the colony of New York.-It is very evident, from the documents deposited in the British State Paper office, that the importance of this colony
+               was well understood, both by the Dutch and English. Its
+               commodious harbor, its commanding position, both with
+               respect to Canada and New England,--its fine navigable
+               river, the Hudson, the richness of the back country, as well
+               as of the islands which guarded it from the sea, were always leading topics in the communications which were
+               sent home to either country, by the official personages who
+               at different times represented the Dutch and the English
+               interests.
+            </p>
             
-            one Isaac Arundell, of Southhold. His “relation” of the
-            events was taken down at Boston, within a few days after the capture. He was in the
-            fort at the time, and was an
-            eye-witness of what he relates.
-         </p>
-         
-         <p>On the 28th of July, O. S., said the narrator, the Dutch 
-            fleet, consisting of twelve sail of men-of-war and twelve prizes, came in at Sandy Hook, and that day came up to Staten
-            Island, where, having a contrary wind, they tarried until the
-            30th. Many of the Long Island Dutch people went on board
-            the vessels, and we cannot doubt they were pleased enough
-            to see the flag of their country once more upon the bay. They gave information as
-            to the state of the fort, and no
-            doubt informed the Commodore that they had not long previously refused to contribute any more for its repairs when
-            solicited for that purpose by the Governor. They informed their countrymen of its actual condition, and of the absence of the Governor and the principal citizens. On the 30th, by the aid of a fair
-            wind the fleet sailed up to the city
-            and anchored before the fort, the order of battle being in the form of “a half moon.”
-            At this juncture Captain Manning
-            went on board in person, and demanded the reason of their visit. The reply was that
-            they intended to take the place,
-            that it was their own, and they would have their own.
-         </p>
-         
-         <p>Manning then asked for time to make ready his preparations for a fight, but he was allowed only half an hour.
-            When this brief space was past, the Dutch Commodore at
-            that time in command, (for it appears after the most approved models of antiquity, they relieved each other every eight
-            days, and hoisted their broad pennants alternately,) fired his
-            broadside and the rest after him. Hereupon, continues Arundell, the fort fired upon them again, and shot the “General’s
-            ship through and through.” Although by his account the
-            fort held out four hours, against this superior force, but little 
-            damage was done the garrison. One man only was killed,
-            and that happened in consequence of his mounting the walls 
-            sword in hand, and there flourishing it in defiance of the 
-            Dutch. His head was taken off by a cannon ball. The fort 
-            did not surrender until all the ammunition was expended, a 
-            circumstance which is highly favorable to the presumption
-            of Captain Manning’s integrity. When the last cannon car tridge was gone, and not till then, was the flag struck.
-         </p>
-         
-         <p>Under cover of the smoke six hundred troops were landed
-            near what was then called the Governor’s Orchard. Another person who was present stated that but four hundred men
-            had muskets, the rest were armed with pistols, swords, and
-            half pikes, and in our opinion were, most probably, seamen.
-            These troops were in Broadway approaching the fort at the
-            time the flag was struck, which so far leads to the supposition
-            that it was intended to carry it by storm. A corporal in the
-            fort who is authority for this last statement, says the gate
-            was opened and the garrison marched forth with their arms,
-            which they laid down in token of their surrender. They
-            were then ordered into the fort and confined in the church
-            which stood within the walls. Captain Manning was permitted to wear his sword, a permission only usual when it
-            has been gallantly used.
-         </p>
-         
-         <p>Another circumstance connected with this event, appears
-            to weigh strongly against the supposition that Captain Manning was a traitor to his country. His house was plundered
-            of its contents, as well as that of the Governor and Captain Deleval, a noted loyalist
-            in high favor with the government.
-         </p>
-         <p>It is said by one who was present, that Captain Manning and
-            a Dr. Taylor opened the gate themselves, and that even then
-            the soldiers wished to resist, but were ordered not to do so.
-         </p>
-         
-         <p>During this attack, the neighboring Long Islanders could
-            afford no assistance, for they had not two rounds of ammunition among them all.
-         </p>
-         
-         
-         <p>Thus ended the assault, and such was its consequence. It
-            appears that the conquerors were overjoyed with their success,
-            and dispatched a messenger to Holland with the news. A
-            proclamation was issued, establishing a new order of things.
-            Anthony Colve was commissioned as Governor by the commodores, the people took the oath, and the late Governor
-            Lovelace himself visited the Dutch squadron under assurance
-            of safety, and came ashore to the fort in the commander’s
-            pinnace, with the Dutch flag flying.
-         </p>
-         
-         <p>A small expedition was sent up to Albany, and that place
-            also surrendered, unconditionally.
-         </p>
-         
-         <p>Many other singular and interesting facts are preserved in
-            relation to this interesting event, to which the future historian
-            of New York will now have access for the first time.
-            Many long received errors will be corrected, and we shall be
-            able to know with certainty what is authentic and reliable
-            in our colonial annals.
-         </p>
-         
-         <p>By the treaty of Westminster the following year, New
-            York was restored to the English, and Eustatia and Surinam
-            remained with the Dutch.
-         </p>
-         
-         <p>Commodore Binks fell in battle in 1677, at the capture of
-            Tobago by the Count D’Estrades. Evertsen returned to
-            Europe after a series of triumphs in the New World, and reposes at Middleburgh under a tomb which perpetuates his
-            services.
-         </p>
-         
-         <p>As late as 1818, an oration was delivered in that town
-            in honor of his memory, and funds were raised to restore the
-            memorial of his valor, which time had not altogether spared.
-         </p>
-         
-         <p>If then we trusted to these documents alone, we should
-            assert that the fort did not surrender until after a cannonade
-            of four hours, that it returned the fire with effect, and the
-            want of ammunition was the reason of its holding out no
-            longer.
-         </p>
-         
-         <p>We now return to the subsequent career of Captain Manning. It is quite certain that he not only went to England,
-            and was unmolested there, but was in favor with the Duke
-            of York. It was on his return to this city that he was arrested and tried on the charge, to which we have alluded.
-         </p>
-         
-         <p>These are to be found in Smith’s History, and are substantially as follows:</p>
-         
-         <p>1.	That on the approach of the enemy, he did not put the
-            fort in a state of defence.
-         </p>
-         
-         <p>On this, we remark, that the evidence in the papers
-            brought from England by our agent, shows that the Governor
-            himself had failed to raise money for that purpose. How
-            Captain Manning could do it without means, a d also in the
-            absence of the Governor, is more than we can explain.
-         </p>
-         
-         <p>2. That he went on board to treat with the enemy treacherously.</p>
-         
-         <p>The eye witnesses declare that be went on board to ask
-            the meaning of their visit, and to get time to prepare for action.
-         </p>
-         
-         <p>3.	That he suffered the fleet to move without firing a gun.</p>
-         
-         <p>This may or may not have been unavoidable, considering
-            the state of his battery, the weight of his metal, and the
-            range of his guns.
-         </p>
-         
-         <p>4.	That he permitted the enemy to land without the least
-            opposition.
-         </p>
-         
-         <p>The witnesses, some of them his own men, declare, that
-            he fought till his last cartridge was expended, after hulling
-            the commodore’s ship repeatedly.
-         </p>
-         
-         <p>5.	That he struck his flag before the enemy were in sight of
-            the garrison.
-         </p>
-         
-         <p>This appears very doubtful, from the evidence we have
-            seen. It is very certain that against the column of six hun-
+            <p>It seems that the Hollanders did not fail, on the breaking
+               out of the war with England, to despatch a fleet to the
+               American coast, under the command of two well-known
+               officers, Jacob Binkes and Cornelius Evertsen de Jonge, as-sisted by three captains of the Dutch army, Anthony Coloe,
+               Nicholas Boes, and Abraham Frederick Van Zye. This
+               force was the result of the union of two small fleets off
+               Martinique, one of which, previously under the command
+               of Evertsen, had sailed for Virginia, and there captured and
+               sunk a number of English and French vessels, men-of-war
+               and merchantmen, after some hard-fought battles. Coming
+               north to New York, they sailed up the bay, anchored at
+               Staten Island, and with the first fair wind, stood for the
+               city,--formed a line-of-battle off the present Battery, and
+               took the fort. The manner of its surrender is the point we
+               propose to discuss, and if we shall be allowed to do so, it is
+               because the enlightened liberality of the State of New York
+               has obtained from abroad, the interesting documents which
+               throw new light upon the subject; and because its faithful
+               and able agent, 
+               <span class="person" id="jrbrodhead">J. R. Brodhead</span>, Esq., has dragged from the
+               obscurity of nearly two hundred years, papers and documents which had hitherto escaped the researches and the
+               knowledge of our most esteemed historians. 
+               <span class="person" id="wsmith">Smith</span>, in his
+               history of New York, when speaking of the surrender, says:
+               "A few Dutch ships arrived the year after, (1673) on the
+               30th of July, under Staten Island, at the distance of a few
+               miles from the City of New York. John Manning, a captain of an independent Company, had at that time the command of the fort, and by a message sent down to the squadron, treacherously made his peace with the enemy. On that
+               very day the Dutch ships came up, moored under the fort,
+               landed their men and entered the garrison, without giving
+               or receiving a shot.
+            </p>
             
-            dred, approaching through Broadway, he could, with his
-            handful of men, have made no effectual resistance.
-         </p>
-         
-         <p>6. That he surrendered the garrison without articles of capitulation.</p>
-         
-         <p>So did the garrison at Albany subsequently surrender
-            without articles. And if he did so surrender, he was the
-            principal sufferer, for his house was pillaged. We cannot
-            reconcile this fact with treachery and selfishness.
-         </p>
-         
-         <p>The character of the Dutch commodores, argues against
-            the received opinion. They were gallant and honorable men,
-            and had they made a private arrangement with Manning,
-            we cannot account for the necessity of a cannonade of four
-            hours upon the fort, nor find any excuse for the plunder of
-            the principal houses of the town, which is never permitted
-            except after a desperate resistance, and as some reward for
-            the valor of the assailants.
-         </p>
-         
-         <p>Among the records at the Secretary of State’s office at
-            Albany, which our agent has brought from Holland, are
-            copies of the original papers of Binkes and Evertsen in relation to this affair. We hope an early translation of them
-            will enable us to obtain further light on this subject.
-         </p>
-         
-         <p>One thing we admit, that the idea of treachery was prevalent among many distinguished persons at the time, and in
-            the instructions given by the Duke of York to Sir Edmund
-            Andros, his governor, there was a special command not to
-            molest any of the Dutch inhabitants under a pretence of their
-            having dealt treacherously with their countrymen at the surrender, and not to proceed against any of the English, who
-            had made themselves liable, any further than to forfeit their
-            estates.
-         </p>
-         
-         <p>That the States General contemplated a permanent occupancy of the colony is evident from another fact brought to
-            light by the agency—that they passed a secret resolution on
-            the 15th of December, 1673, after the receipt of the gratifying
-            news of the surrender, appointing Joris Andringa, who was
-            secretary of the fleet, Governor and Commander of the province.
-         </p>
-         
-         <p>The whole affair presents a singular aspect. If Captain
-            Manning had made a defence, upon the testimony which we
-            have quoted, and which was taken at different places without collusion or inducement to misrepresentation, he would
-            probably have been acquitted. We have no facts on the
-            other side whatever, beyond the report of Manning’s having
-            confessed himself guilty. There may have been reasons of
-            a private character on the one hand, and state reasons on the
-            other, to have made it important for some explanation of the
-            surrender to the Dutch. There might have been some danger of a loss of the grant to the Duke, if he had not sufficiently defended his territory against the enemy.
-         </p>
-         
-         <p>At all events we have said enough to place the whole
-            matter in a new light, and there for the present we leave it.
-         </p>
-         
-         <div class="byline">
-            <span class="person">S. D. W. B.</span>
+            
+            <p>
+               <span class="person" id="wdunlap">Dunlap</span>, in his history of New York, follows the statement
+               of 
+               <span class="person" id="wsmith">Smith</span>. Mr. 
+               <span class="person" id="gbancroft">Bancroft</span>, in his later work, also states that
+               the city was given up "without a blow." 
+               <span class="person" id="aholmes">Holmes</span>, in his
+               valuable American Annals, adopts the same opinion. "On
+               the arrival," says he, "of the invading squadron, the commander of the Fort sent a messenger and made his peace
+               with the enemy. Not a shot was given or returned."
+            </p>
+            
+            <p>But the case is still further made up, by the formal record,
+               in 
+               <span class="person" id="wsmith">Smith</span>'s History of New York, of the proceedings of a
+               Court Martial, at which charges were exhibited against the
+               commander of the Fort, upon his return from England, where
+               he went on a visit. To these charges he pleaded guilty,
+               and his sword was broken over his head, either before his own
+               house, at Coenties Slip, or at the City Hall; each place
+               being mentioned as the locality of his degradation. We will
+               briefly notice the charges, when we have given such a narrative of the surrender as appears fully ascertained, by the
+               documents of the New York agency. If these alone were to
+               be the ground-work of a new history, the name of Manning
+               would assume a very different rank, in our annals. The
+               surrender would be attributable to some of those common
+               occurrences which make up the accidents of war; or to the
+               natural consequences of a previous peace; of skill and boldness on the one side, and of an accidental want of preparation on the other,--where bravery cannot furnish the want
+               of the munitions of war, or supply the defects of decayed
+               and useless defences.
+            </p>
+            
+            <p>The facts in favor of this view of the subject appear to
+               be these: After the successes of Evertsen, on the coast of
+               Virginia, and his meeting with his friend Binkes, off the
+               Mauritius, with four men-of-war, the commanders sailed for
+               New York. We can well imagine their desire to recapture
+               this valuable colony, founded by their countrymen, and still
+               dear to the government of the mother country. It appears,
+               that among their captures was a country sloop, commanded
+               by one Samuel Davis,--and on his being applied to for information as to the state of the defences at New York, he told
+               them, doubtless with the idea of preventing the expedition,
+               that the English Governor, Lovelace, could raise five thousand men, easily, in three hours, for the protection of the
+               city,--and that there were one hundred and fifty-five pieces
+               of ordnance in the fort, which could be effectively used
+               against an enemy. This story, according to some of the
+               accounts, would have deterred them from the enterprise, if
+               another prisoner, of the name of Hopkins, and who is styled
+               a professor in one of the papers, had not flatly contradicted
+               the master of the sloop. He informed the Dutch Commodores that there were but sixty or eighty men in the fort,--
+               that it would take several days to raise even three or four
+               hundred men for its defence, and that the cannons were so
+               badly mounted that a shot or two would shake them out of
+               their carriages. On hearing this, to use the words of our
+               authority, "the cry was for New York." The squadron
+               stood for New York, accordingly, and soon arrived at Sandy
+               Hook. It then moved up to Staten Island and cast anchor,
+               waiting for a fair wind to get up to town. They did not
+               hesitate to make up their supplies of fresh meat, from the
+               cattle and sheep of the Governor, as we learn from a letter
+               which he despatched to Governor Winthrop, at Boston, and
+               in which he expressed a hope that he would be able to do
+               something decisive towards regaining the city. According
+               to his account, the squadron consisted, first, of ten sail,
+               which were afterwards increased to sixteen. Another letter,
+               written by a Mr. Palmos, of New London, estimates the
+               force at twenty ships and one galliot. The most interesting
+               testimony to which we have had access, however, is that of
+               
+               one Isaac Arundell, of Southhold. His "relation" of the
+               events was taken down at Boston, within a few days after the capture. He was in the
+               fort at the time, and was an
+               eye-witness of what he relates.
+            </p>
+            
+            <p>On the 28th of July, O. S., said the narrator, the Dutch 
+               fleet, consisting of twelve sail of men-of-war and twelve prizes, came in at Sandy Hook, and that day came up to Staten
+               Island, where, having a contrary wind, they tarried until the
+               30th. Many of the Long Island Dutch people went on board
+               the vessels, and we cannot doubt they were pleased enough
+               to see the flag of their country once more upon the bay. They gave information as
+               to the state of the fort, and no
+               doubt informed the Commodore that they had not long previously refused to contribute any more for its repairs when
+               solicited for that purpose by the Governor. They informed their countrymen of its actual condition, and of the absence of the Governor and the principal citizens. On the 30th, by the aid of a fair
+               wind the fleet sailed up to the city
+               and anchored before the fort, the order of battle being in the form of "a half moon."
+               At this juncture Captain Manning
+               went on board in person, and demanded the reason of their visit. The reply was that
+               they intended to take the place,
+               that it was their own, and they would have their own.
+            </p>
+            
+            <p>Manning then asked for time to make ready his preparations for a fight, but he was allowed only half an hour.
+               When this brief space was past, the Dutch Commodore at
+               that time in command, (for it appears after the most approved models of antiquity, they relieved each other every eight
+               days, and hoisted their broad pennants alternately,) fired his
+               broadside and the rest after him. Hereupon, continues Arundell, the fort fired upon them again, and shot the "General's
+               ship through and through." Although by his account the
+               fort held out four hours, against this superior force, but little 
+               damage was done the garrison. One man only was killed,
+               and that happened in consequence of his mounting the walls 
+               sword in hand, and there flourishing it in defiance of the 
+               Dutch. His head was taken off by a cannon ball. The fort 
+               did not surrender until all the ammunition was expended, a 
+               circumstance which is highly favorable to the presumption
+               of Captain Manning's integrity. When the last cannon car tridge was gone, and not till then, was the flag struck.
+            </p>
+            
+            <p>Under cover of the smoke six hundred troops were landed
+               near what was then called the Governor's Orchard. Another person who was present stated that but four hundred men
+               had muskets, the rest were armed with pistols, swords, and
+               half pikes, and in our opinion were, most probably, seamen.
+               These troops were in Broadway approaching the fort at the
+               time the flag was struck, which so far leads to the supposition
+               that it was intended to carry it by storm. A corporal in the
+               fort who is authority for this last statement, says the gate
+               was opened and the garrison marched forth with their arms,
+               which they laid down in token of their surrender. They
+               were then ordered into the fort and confined in the church
+               which stood within the walls. Captain Manning was permitted to wear his sword, a permission only usual when it
+               has been gallantly used.
+            </p>
+            
+            <p>Another circumstance connected with this event, appears
+               to weigh strongly against the supposition that Captain Manning was a traitor to his country. His house was plundered
+               of its contents, as well as that of the Governor and Captain Deleval, a noted loyalist
+               in high favor with the government.
+            </p>
+            <p>It is said by one who was present, that Captain Manning and
+               a Dr. Taylor opened the gate themselves, and that even then
+               the soldiers wished to resist, but were ordered not to do so.
+            </p>
+            
+            <p>During this attack, the neighboring Long Islanders could
+               afford no assistance, for they had not two rounds of ammunition among them all.
+            </p>
+            
+            
+            <p>Thus ended the assault, and such was its consequence. It
+               appears that the conquerors were overjoyed with their success,
+               and dispatched a messenger to Holland with the news. A
+               proclamation was issued, establishing a new order of things.
+               Anthony Colve was commissioned as Governor by the commodores, the people took the oath, and the late Governor
+               Lovelace himself visited the Dutch squadron under assurance
+               of safety, and came ashore to the fort in the commander's
+               pinnace, with the Dutch flag flying.
+            </p>
+            
+            <p>A small expedition was sent up to Albany, and that place
+               also surrendered, unconditionally.
+            </p>
+            
+            <p>Many other singular and interesting facts are preserved in
+               relation to this interesting event, to which the future historian
+               of New York will now have access for the first time.
+               Many long received errors will be corrected, and we shall be
+               able to know with certainty what is authentic and reliable
+               in our colonial annals.
+            </p>
+            
+            <p>By the treaty of Westminster the following year, New
+               York was restored to the English, and Eustatia and Surinam
+               remained with the Dutch.
+            </p>
+            
+            <p>Commodore Binks fell in battle in 1677, at the capture of
+               Tobago by the Count D'Estrades. Evertsen returned to
+               Europe after a series of triumphs in the New World, and reposes at Middleburgh under a tomb which perpetuates his
+               services.
+            </p>
+            
+            <p>As late as 1818, an oration was delivered in that town
+               in honor of his memory, and funds were raised to restore the
+               memorial of his valor, which time had not altogether spared.
+            </p>
+            
+            <p>If then we trusted to these documents alone, we should
+               assert that the fort did not surrender until after a cannonade
+               of four hours, that it returned the fire with effect, and the
+               want of ammunition was the reason of its holding out no
+               longer.
+            </p>
+            
+            <p>We now return to the subsequent career of Captain Manning. It is quite certain that he not only went to England,
+               and was unmolested there, but was in favor with the Duke
+               of York. It was on his return to this city that he was arrested and tried on the charge, to which we have alluded.
+            </p>
+            
+            <p>These are to be found in 
+               <span class="person" id="wsmith">Smith</span>'s History, and are substantially as follows:
+            </p>
+            
+            <p>1.	That on the approach of the enemy, he did not put the
+               fort in a state of defence.
+            </p>
+            
+            <p>On this, we remark, that the evidence in the papers
+               brought from England by our agent, shows that the Governor
+               himself had failed to raise money for that purpose. How
+               Captain Manning could do it without means, a d also in the
+               absence of the Governor, is more than we can explain.
+            </p>
+            
+            <p>2. That he went on board to treat with the enemy treacherously.</p>
+            
+            <p>The eye witnesses declare that be went on board to ask
+               the meaning of their visit, and to get time to prepare for action.
+            </p>
+            
+            <p>3.	That he suffered the fleet to move without firing a gun.</p>
+            
+            <p>This may or may not have been unavoidable, considering
+               the state of his battery, the weight of his metal, and the
+               range of his guns.
+            </p>
+            
+            <p>4.	That he permitted the enemy to land without the least
+               opposition.
+            </p>
+            
+            <p>The witnesses, some of them his own men, declare, that
+               he fought till his last cartridge was expended, after hulling
+               the commodore's ship repeatedly.
+            </p>
+            
+            <p>5.	That he struck his flag before the enemy were in sight of
+               the garrison.
+            </p>
+            
+            <p>This appears very doubtful, from the evidence we have
+               seen. It is very certain that against the column of six hun-
+               
+               dred, approaching through Broadway, he could, with his
+               handful of men, have made no effectual resistance.
+            </p>
+            
+            <p>6. That he surrendered the garrison without articles of capitulation.</p>
+            
+            <p>So did the garrison at Albany subsequently surrender
+               without articles. And if he did so surrender, he was the
+               principal sufferer, for his house was pillaged. We cannot
+               reconcile this fact with treachery and selfishness.
+            </p>
+            
+            <p>The character of the Dutch commodores, argues against
+               the received opinion. They were gallant and honorable men,
+               and had they made a private arrangement with Manning,
+               we cannot account for the necessity of a cannonade of four
+               hours upon the fort, nor find any excuse for the plunder of
+               the principal houses of the town, which is never permitted
+               except after a desperate resistance, and as some reward for
+               the valor of the assailants.
+            </p>
+            
+            <p>Among the records at the Secretary of State's office at
+               Albany, which our agent has brought from Holland, are
+               copies of the original papers of Binkes and Evertsen in relation to this affair. We hope an early translation of them
+               will enable us to obtain further light on this subject.
+            </p>
+            
+            <p>One thing we admit, that the idea of treachery was prevalent among many distinguished persons at the time, and in
+               the instructions given by the Duke of York to Sir Edmund
+               Andros, his governor, there was a special command not to
+               molest any of the Dutch inhabitants under a pretence of their
+               having dealt treacherously with their countrymen at the surrender, and not to proceed against any of the English, who
+               had made themselves liable, any further than to forfeit their
+               estates.
+            </p>
+            
+            <p>That the States General contemplated a permanent occupancy of the colony is evident from another fact brought to
+               light by the agency--that they passed a secret resolution on
+               the 15th of December, 1673, after the receipt of the gratifying
+               news of the surrender, appointing Joris Andringa, who was
+               secretary of the fleet, Governor and Commander of the province.
+            </p>
+            
+            <p>The whole affair presents a singular aspect. If Captain
+               Manning had made a defence, upon the testimony which we
+               have quoted, and which was taken at different places without collusion or inducement to misrepresentation, he would
+               probably have been acquitted. We have no facts on the
+               other side whatever, beyond the report of Manning's having
+               confessed himself guilty. There may have been reasons of
+               a private character on the one hand, and state reasons on the
+               other, to have made it important for some explanation of the
+               surrender to the Dutch. There might have been some danger of a loss of the grant to the Duke, if he had not sufficiently defended his territory against the enemy.
+            </p>
+            
+            <p>At all events we have said enough to place the whole
+               matter in a new light, and there for the present we leave it.
+            </p>
+            
+            <div class="byline">
+               <span class="person">S. D. W. B.</span>
+            </div>
          </div>
       </div>
       
       <div class="piece" id="#p10">
          <div class="biblTitle">Calling Spirits from the Vasty Deep</div>
          <div class="biblPage">40</div>
-         <p>“Calling Spirits from the vasty Deep.”—The editor of
-            one of our weekly papers informs the public that he has “invoked the aid of some of the first artists in Europe” to decorate his paper; probably Tony Johannot, and Gavarni. Nothing can be more easy than to invoke the aid of such men as
+         <p>"Calling Spirits from the vasty Deep."--The editor of
+            one of our weekly papers informs the public that he has "invoked the aid of some of the first artists in Europe" to decorate his paper; probably Tony Johannot, and Gavarni. Nothing can be more easy than to invoke the aid of such men as
             these; it must remind everybody of the modest boast of Owen
             Glendower:
          </p>
          
          <div class="lg">
-            <br></br>“I can call spirits from the the vasty deep.”
+            <br></br>"I can call spirits from the the vasty deep."
             
             <br></br>"But will they come?" said Hotspur.
          </div>
@@ -1178,139 +1268,142 @@
       </div>
       
       
-      <div class="piece" id="#p11">
-         <div class="biblTitle">Architecture</div>
-         <div class="biblPage">41</div>
+      <div class="section" id="s11">
+         <div class="biblTitle"></div>
          <div class="head">Architecture.</div>
-         
-         <div class="ab">THE INTERIOR OF TRINITY CHURCH.</div>
-         
-         <p>To the Editor of the Broadway Journal.</p>
-         
-         <p>Sir,—In a paragraph in your introductory article, you say
-            that “you will devote a good part of your columns to the
-            interests of American Art:" and having read in your prospectus that “you hope that a free channel being opened, through
-            which true-hearted men may let loose their thoughts,” &amp;c.
-            &amp;c., I am encouraged to draw upon your liberality in offering for insertion in your unique and promising Journal, a few
-            “loose thoughts” by way of criticism upon the architecture
-            of Trinity Church—the greatest work, I believe, now going
-            on in this country.
-         </p>
-         
-         <p>My design is to take up the different departments of this
-            structure seriatim; and as it would occupy too much space
-            to discuss them all in one article, I will content myself for
-            the present by reviewing the interior of the building, viz.
-            the Plaster Work of the Arches, Mouldings, &amp;c., there
-            being here most room for criticism—and the blunders most
-            palpable. Although differences of opinion may and do exist, in reference to the design and proportions of a style of
-            Architecture, there can be no difference of opinion where the
-            fundamental rules and first principles of Architectural Geometry and Perspective have been transgressed.
-         </p>
-         
-         <p>At the present it is not my intention to censure either the
-            Architect who planned, or the operative who executed, this
-            work. My only desire being to call the attention of the
-            public, in a manner as free from technicalities as I can, to the
-            fact, that the work is really blundered; and that in its present state it ought not to be allowed to go down to future ages
-            as a memorial of the perfection of Art in America in the middle of the Nineteenth Century.
-         </p>
-         
-         <p>But to our subject. Let the spectator upon entering the
-            church, take a view of the intermediate ribs springing from
-            the intersections in the main aisle, and then cast his eye upon
-            the horizontal moulding, running across the church—and see
-            if there be any symmetry or proportion betwixt these mouldings. Attend particularly to the intersections; for although
-            they have been pared and patched to make them fit, still
-            the incongruity is very striking to one accustomed to works
-            of this description; aud sufficiently so to a common observer.
-            But I shall be better understood after I explain the cause of
-            the mistake,
-         </p>
-         
-         <p>The intersections of the mouldings to which I refer, it will
-            be observed, occur betwixt a straight line and curved lines of
-            mouldings; and the rule in such a case is to rake the curved
-            line; or in other words, to diminish the column of the curved
-            mouldings, by geometrical calculation, to the necessary dimensions, calculating upon the angle of intersection, so that
-            the square of the straight mouldings shall coincide, or intersect,
-            with the oblique end of the curved moulding. And the practice is to construct the curved mouldings upon a smaller scale,
-            in proportion to the radius of the curve. For this end it is the
-            duty of the Architect, in drawing his plans and specifications,
-            to give a scale of the exact dimensions of the model, or “Profile,” as it is technically called, by which the different mouldings are to be constructed; which, as any man having the
-            least knowledge of Perspective or Geometry, will at once perceive, must be varied in size in a proportion diminishing as
-            the curve increases, or as it departs from a right angle. It is
-            surely easily seen that a moulding or a curved line, rising
-            archwise, can no more intersect with the square side of a
-            straight moulding of the same size, than that the perpendicular of a triangle can be of the same length with the hypothenuse—and thus to the eye of an observer, the curved mould-
+         <div class="piece" id="#p11">
+            <div class="biblTitle">The Interior of Trinity Church</div>
+            <div class="biblPage">41</div>
             
-            ings in general, and the intermediate ribs in particular,
-            appear to be lying on their sides; leaving in perspective
-            a most unnatural proportion to the straight mouldings.
-            The truth of the matter is, and I challenge contradiction and
-            discussion, for I am in a situation to prove what I now 
-            state, that the mouldings, whether straight or curved, were all
-            formed by the same size of a model or profile; indicating an
-            ignorance of Geometry and Perspective, leaving Architecture
-            altogether out of view, truly astonishing in the present age,
-            and in the very centre of the seat of the Arts and Sciences in
-            the Western world, and in, as some think, the brightest star
-            in our bright constellation—the Orion of New York—which,
-            Mr. Editor, you have very happily adopted for the title of your Journal.
-         </p>
-         
-         <p>It may be insisted on by those ignorant of the laws of Perspective, that in this way the horizontal line will appear to the
-            eye, as it really is in fact, larger than the curved line. No
-            such thing: the very fact of the smaller moulding being curved, makes it appear larger to the eye of the observer than
-            it would be if projected in a straight line, whilst the exactness of the intersection of the mouldings makes the whole
-            construction harmonise with the spectator's ideas of perspective, whether to the eye of a painter or a sculptor. And this
-            shows how beautifully the laws of perspective, belonging to
-            the Fine Arts, harmonise with the truths of geometrical
-            science.
-         </p>
-         
-         <p>The truth is, and there is no use in withholding it, that the
-            architect appears to be ignorant of geometry. And it is a fact,
-            that in order to get those incongruous mouldings to intersect
-            as nearly as possible, the curved mouldings had all to be pared
-            or scooped off, beginning several feet from the intersections,
-            in order to bring them to the necessary diminution of column. Whereas, the whole imperfect work ought to have
-            been pulled down immediately upon the error being discovered, and reconstructed upon correct scientific data. As it
-            stands, it is a monstrosity and an eyesore.
-         </p>
-         
-         <p>But I believe that I have exceeded all reasonable bounds in
-            this article. I have other strictures in reserve, in reference
-            to other portions of the building, which I feel would not have
-            been required had free scope been given to the talents of na-tive architects.
-         </p>
-         
-         <p>In your remarks under the title of “Monuments to Mr.
-            Clay,” in the second number of your Journal, you state that
-            “Gothic churches are out of character in the nineteenth 
-            century.” They may be so, but still I must respectfully
-            differ with you in opinion, for I have never seen any other
-            style or order of architecture so apt to enwrap the mind with
-            solemn and devotional thought; still I acknowledge that
-            where the laws of geometry and perspective are outraged, it
-            has a very contrary effect.
-         </p>
-         
-         <div class="ab">Yours, respectfully,	OPERATIVE.</div>
-         
-         <p>[We give place to the above communication, depending entirely upon
-            the internal evidence of its correctness. We have never seen the interior of Trinity Church, but have taken it for granted that it could not
-            be more perfect than the outside, which has errors enough. Stucco in
-            any shape in the interior of such a structure is sufficiently out of character, but the architect must not be blamed in this respect, unless it
-            were so finished by his recommendation. Any structure of the socalled Gothic order, must of necessity be an incongruous work, unless
-            it be an exact copy, and then it must be unfit. Trinity Church is a
-            very showy building, and it seems to satisfy the sentiment of the promenaders in Broadway very well; and it is also a very good object
-            for the Wall street Brokers to contemplate, as they hurry to and
-            from "the board,” reminding them, by its tall spire, to look up, occasionally. But considered as a work of architectural expression, as a
-            house of worship, and as consuming money which should be devoted 
-            to religious purposes, it reflects but little credit upon those who have 
-            had the responsibility of its erection.—Ed.]
-         </p>
+            <div class="head">THE INTERIOR OF TRINITY CHURCH.</div>
+            
+            <p>To the Editor of the Broadway Journal.</p>
+            
+            <p>Sir,--In a paragraph in your introductory article, you say
+               that "you will devote a good part of your columns to the
+               interests of American Art:" and having read in your prospectus that "you hope that a free channel being opened, through
+               which true-hearted men may let loose their thoughts," &amp;c.
+               &amp;c., I am encouraged to draw upon your liberality in offering for insertion in your unique and promising Journal, a few
+               "loose thoughts" by way of criticism upon the architecture
+               of Trinity Church--the greatest work, I believe, now going
+               on in this country.
+            </p>
+            
+            <p>My design is to take up the different departments of this
+               structure seriatim; and as it would occupy too much space
+               to discuss them all in one article, I will content myself for
+               the present by reviewing the interior of the building, viz.
+               the Plaster Work of the Arches, Mouldings, &amp;c., there
+               being here most room for criticism--and the blunders most
+               palpable. Although differences of opinion may and do exist, in reference to the design and proportions of a style of
+               Architecture, there can be no difference of opinion where the
+               fundamental rules and first principles of Architectural Geometry and Perspective have been transgressed.
+            </p>
+            
+            <p>At the present it is not my intention to censure either the
+               Architect who planned, or the operative who executed, this
+               work. My only desire being to call the attention of the
+               public, in a manner as free from technicalities as I can, to the
+               fact, that the work is really blundered; and that in its present state it ought not to be allowed to go down to future ages
+               as a memorial of the perfection of Art in America in the middle of the Nineteenth Century.
+            </p>
+            
+            <p>But to our subject. Let the spectator upon entering the
+               church, take a view of the intermediate ribs springing from
+               the intersections in the main aisle, and then cast his eye upon
+               the horizontal moulding, running across the church--and see
+               if there be any symmetry or proportion betwixt these mouldings. Attend particularly to the intersections; for although
+               they have been pared and patched to make them fit, still
+               the incongruity is very striking to one accustomed to works
+               of this description; aud sufficiently so to a common observer.
+               But I shall be better understood after I explain the cause of
+               the mistake,
+            </p>
+            
+            <p>The intersections of the mouldings to which I refer, it will
+               be observed, occur betwixt a straight line and curved lines of
+               mouldings; and the rule in such a case is to rake the curved
+               line; or in other words, to diminish the column of the curved
+               mouldings, by geometrical calculation, to the necessary dimensions, calculating upon the angle of intersection, so that
+               the square of the straight mouldings shall coincide, or intersect,
+               with the oblique end of the curved moulding. And the practice is to construct the curved mouldings upon a smaller scale,
+               in proportion to the radius of the curve. For this end it is the
+               duty of the Architect, in drawing his plans and specifications,
+               to give a scale of the exact dimensions of the model, or "Profile," as it is technically called, by which the different mouldings are to be constructed; which, as any man having the
+               least knowledge of Perspective or Geometry, will at once perceive, must be varied in size in a proportion diminishing as
+               the curve increases, or as it departs from a right angle. It is
+               surely easily seen that a moulding or a curved line, rising
+               archwise, can no more intersect with the square side of a
+               straight moulding of the same size, than that the perpendicular of a triangle can be of the same length with the hypothenuse--and thus to the eye of an observer, the curved mould-
+               
+               ings in general, and the intermediate ribs in particular,
+               appear to be lying on their sides; leaving in perspective
+               a most unnatural proportion to the straight mouldings.
+               The truth of the matter is, and I challenge contradiction and
+               discussion, for I am in a situation to prove what I now 
+               state, that the mouldings, whether straight or curved, were all
+               formed by the same size of a model or profile; indicating an
+               ignorance of Geometry and Perspective, leaving Architecture
+               altogether out of view, truly astonishing in the present age,
+               and in the very centre of the seat of the Arts and Sciences in
+               the Western world, and in, as some think, the brightest star
+               in our bright constellation--the Orion of New York--which,
+               Mr. Editor, you have very happily adopted for the title of your Journal.
+            </p>
+            
+            <p>It may be insisted on by those ignorant of the laws of Perspective, that in this way the horizontal line will appear to the
+               eye, as it really is in fact, larger than the curved line. No
+               such thing: the very fact of the smaller moulding being curved, makes it appear larger to the eye of the observer than
+               it would be if projected in a straight line, whilst the exactness of the intersection of the mouldings makes the whole
+               construction harmonise with the spectator's ideas of perspective, whether to the eye of a painter or a sculptor. And this
+               shows how beautifully the laws of perspective, belonging to
+               the Fine Arts, harmonise with the truths of geometrical
+               science.
+            </p>
+            
+            <p>The truth is, and there is no use in withholding it, that the
+               architect appears to be ignorant of geometry. And it is a fact,
+               that in order to get those incongruous mouldings to intersect
+               as nearly as possible, the curved mouldings had all to be pared
+               or scooped off, beginning several feet from the intersections,
+               in order to bring them to the necessary diminution of column. Whereas, the whole imperfect work ought to have
+               been pulled down immediately upon the error being discovered, and reconstructed upon correct scientific data. As it
+               stands, it is a monstrosity and an eyesore.
+            </p>
+            
+            <p>But I believe that I have exceeded all reasonable bounds in
+               this article. I have other strictures in reserve, in reference
+               to other portions of the building, which I feel would not have
+               been required had free scope been given to the talents of na-tive architects.
+            </p>
+            
+            <p>In your remarks under the title of "Monuments to Mr.
+               Clay," in the second number of your Journal, you state that
+               "Gothic churches are out of character in the nineteenth 
+               century." They may be so, but still I must respectfully
+               differ with you in opinion, for I have never seen any other
+               style or order of architecture so apt to enwrap the mind with
+               solemn and devotional thought; still I acknowledge that
+               where the laws of geometry and perspective are outraged, it
+               has a very contrary effect.
+            </p>
+            
+            <div class="ab">Yours, respectfully,	OPERATIVE.</div>
+            
+            <p>[We give place to the above communication, depending entirely upon
+               the internal evidence of its correctness. We have never seen the interior of Trinity Church, but have taken it for granted that it could not
+               be more perfect than the outside, which has errors enough. Stucco in
+               any shape in the interior of such a structure is sufficiently out of character, but the architect must not be blamed in this respect, unless it
+               were so finished by his recommendation. Any structure of the socalled Gothic order, must of necessity be an incongruous work, unless
+               it be an exact copy, and then it must be unfit. Trinity Church is a
+               very showy building, and it seems to satisfy the sentiment of the promenaders in Broadway very well; and it is also a very good object
+               for the Wall street Brokers to contemplate, as they hurry to and
+               from "the board," reminding them, by its tall spire, to look up, occasionally. But considered as a work of architectural expression, as a
+               house of worship, and as consuming money which should be devoted 
+               to religious purposes, it reflects but little credit upon those who have 
+               had the responsibility of its erection.--Ed.]
+            </p>
+         </div>
       </div>
       
       
@@ -1323,9 +1416,11 @@
             <div class="biblPage">42</div>
             <div class="head">THE WREATH.</div>
             
-            <div class="ab">(FROM THE GERMAN OF UHLER.)</div>
+            <div class="note" type="headnote">(FROM THE GERMAN OF UHLER.)</div>
             
-            <div class="ab">BY MARIA LOWELL.</div>
+            <div class="byline">BY 
+               <span class="person">MARIA LOWELL</span>.
+            </div>
             
             <div class="lg">
                <br></br>She gathered many little flowers,
@@ -1342,13 +1437,13 @@
                
                <br></br>"It blooms not now, but bloom it will;
                
-               <br></br>Oh, wear it ever there!”
+               <br></br>Oh, wear it ever there!"
                
                <br></br>And when the child hath grown in years,
                
                <br></br>And walks the holy moon beneath,
                
-               <br></br>And weepeth sweet and tender tears,—
+               <br></br>And weepeth sweet and tender tears,--
                
                <br></br>Then buds the little wreath.
                
@@ -1362,7 +1457,7 @@
                
                <br></br>And when a lovely child she bore,
                
-               <br></br>Rocked on her breast with mother’s care,
+               <br></br>Rocked on her breast with mother's care,
                
                <br></br>The green and blossomed garland wore
                
@@ -1408,7 +1503,7 @@
                
                <br></br>All gentleness and grace, without endeavor,
                
-               <br></br>Moving like Heaven’s serenest star at night!
+               <br></br>Moving like Heaven's serenest star at night!
                
                <br></br>Thy features glowing with the radiant gleam
                
@@ -1418,7 +1513,7 @@
                
                <br></br>Unto my better and enraptured sight,
                
-               <br></br>The incarnation of an angel’s dream!
+               <br></br>The incarnation of an angel's dream!
             </div>	
             
             <div class="byline">
@@ -1432,7 +1527,9 @@
          <div class="biblPage">42</div>
          <div class="head">THE FALSE RINGLET.</div>
          
-         <div class="ab">BY HARRY FRANCO.</div>
+         <div class="byline">BY 
+            <span class="person">HARRY FRANCO</span>.
+         </div>
          
          <p>There arrived at the Quarantine ground, a few years ago,
             in one of the London packets, a young Englishman, named
@@ -1518,7 +1615,7 @@
             and among them appeared the beauty. She was more fascinating now than ever. Her dress seemed more becoming, and
             
             she was more free in her manners. Somebody requested her
-            to sing, and as she accompanied herself on the piano, Daunton’s passion became a fever. Her voice had a melting tenderness that made his heart swell as though it would burst.
+            to sing, and as she accompanied herself on the piano, Daunton's passion became a fever. Her voice had a melting tenderness that made his heart swell as though it would burst.
             After her song was done she laughed and chatted pleasantly
             with the gentlemen about her, and her silent admirer felt as
             though he could have strangled them, for presuming to talk
@@ -1546,7 +1643,7 @@
             He pressed her to his heart, and while he sympathized with
             her grief, he felt a secret pleasure in believing that she had
             no one to share with him in her affections. He had seen
-            her uncle once or twice on ’Change, but had not been introduced to him. He knew him from the resemblance which
+            her uncle once or twice on 'Change, but had not been introduced to him. He knew him from the resemblance which
             she bore to him. He was a hearty looking florid complexioned old gentleman, but there was something in his manner
             which caused Daunton to fear him. He was apprehensive
             that national prejudices, or some other feeling, might lead
@@ -1571,7 +1668,7 @@
          </p>
          
          <p>Daunton had left London with an expectation of being
-            admitted into his brother’s firm on his return, and as he
+            admitted into his brother's firm on his return, and as he
             possessed a moderate fortune which had been left to him by
             an uncle a few years before, he felt himself at full liberty to
             enter into a matrimonial engagement, without asking counsel of his friends. He had enjoyed but few opportunities of
@@ -1608,7 +1705,7 @@
          </p>
          
          <p>The next morning go to West Point and spend a couple of
-            days, to give time for the uncle’s wrath to evaporate, for he
+            days, to give time for the uncle's wrath to evaporate, for he
             was to be informed of the marriage as soon as they left the
             city.
          </p>
@@ -1617,7 +1714,7 @@
             friends, and be happy.
          </p>
          
-         <p>Daunton’s business would not allow him to be absent a
+         <p>Daunton's business would not allow him to be absent a
             longer time, and he was too much of a merchant ever to
             allow his passions to interfere with his commercial arrangements. Furthermore he was impatient to get through with
             his business engagements, that he might return home and
@@ -1627,17 +1724,17 @@
             ocean.
          </p>
          
-         <p>“Hallo, Daunton,” cried the old sailor, “you are reeling
-            off your log-line at a rapid rate this hot morning.”
+         <p>"Hallo, Daunton," cried the old sailor, "you are reeling
+            off your log-line at a rapid rate this hot morning."
          </p>
          
-         <p>“Ah, Captain,” replied Daunton, “I am the happiest fellow in the world. I wouldn’t change places with George
-            the Fourth, (it was during that king’s reign that these events
+         <p>"Ah, Captain," replied Daunton, "I am the happiest fellow in the world. I wouldn't change places with George
+            the Fourth, (it was during that king's reign that these events
             took place,) there is not a merchant in Threadneedle street
-            rich enough to buy an hour of my time. Good bye.”
+            rich enough to buy an hour of my time. Good bye."
          </p>
          
-         <p>“Keep an eye to leeward my fine fellow,” said the Captain,
+         <p>"Keep an eye to leeward my fine fellow," said the Captain,
             but the happy youth was out of hearing before the words
             were uttered.
          </p>
@@ -1652,29 +1749,29 @@
             friend obligingly went in search of a painter.
          </p>
          
-         <p>“My love,” said the happy husband, “the first time that
+         <p>"My love," said the happy husband, "the first time that
             I saw you, you wore a long ringlet down your neck; I shall
-            never forget it, and I wish that you had worn it to-day.”
+            never forget it, and I wish that you had worn it to-day."
          </p>
          
-         <p>“0 my!” said she; “Martel dressed my hair this morn-ing, but if it will please you, my love, I will put on that
-            lock of hair.” And going to her dressing bureau she took
+         <p>"0 my!" said she; "Martel dressed my hair this morn-ing, but if it will please you, my love, I will put on that
+            lock of hair." And going to her dressing bureau she took
             out a little paste-board box from which she drew the identical chesnut curl which had made so many indentations upon
             the soft heart of her lover as it had bobbed up and down her
             
             neck, and began to fasten it with a hair-pin of the same colour behind her ear.
          </p>
          
-         <p>“0 heavens!” exclaimed the astonished bridegroom, “put
+         <p>"0 heavens!" exclaimed the astonished bridegroom, "put
             it away, put it away. I beg you will never let me see it
-            again.”
+            again."
          </p>
          
          <p>It was the same sunny, riant curl; it had the same
             gloss; the same tone; the same crisp cork-screwish-look, as
             though it were made on purpose to worm itself into a tender heart. What was the matter, and where was the difference? We must leave this question to be answered by
             the philosophers. The fact was, that when Daunton discovered that the bewitching lock of hair, instead of growing
-            behind his wife’s ear, had been fixed there by a pin, there
+            behind his wife's ear, had been fixed there by a pin, there
             was such a sudden revolution of his feelings, that instead of
             giving him excessive delight, as it had always done before,
             the sight of it gave him a dizziness in his head.
@@ -1689,30 +1786,30 @@
             had altered his mind, and thought that another time would
             be better. His wife resented this as an insult, and burst into tears. A little scene followed, the two friends withdrew,
             the curtain fell; and the next morning the lovers started on
-            their two days’ jaunt. On their return, they found the
-            bride’s uncle waiting for them in one of the private parlors
+            their two days' jaunt. On their return, they found the
+            bride's uncle waiting for them in one of the private parlors
             of the hotel. Daunton felt quite relieved when be perceived
             that the old gentleman was in a pleasant humor. He rather
             chid them for their imprudent haste, but comforted them by
             reminding them that they had got plenty of time to repent
             in. Drawing Daunton into a corner of the room, he said:
-            “It would have been better for you to have consulted with
+            "It would have been better for you to have consulted with
             me in the matter first, because I could have made some arrangements which would have been of benefit to you hereafter. From what I have learned about you since this affair
             came to my knowledge, I can assure you that I am very 
             proud of your alliance. I should have been happy to have
-            had the privilege of giving Bell away—her name was Isabella
-            —and as her mother and I have not been on good terms for a
+            had the privilege of giving Bell away--her name was Isabella
+            --and as her mother and I have not been on good terms for a
             year or two back, it would have been a proper occasion for a
-            reconciliation.”
+            reconciliation."
          </p>
          
-         <p>“Bell’s mother!” ejaculated the youth, aghast.</p>
+         <p>"Bell's mother!" ejaculated the youth, aghast.</p>
          
          <p>Yes!</p>
          
          <p>The explanation was soon made. Bell was his natural
             daughter, but had passed for his niece for the express purpose
-            of doing what she had so successfully accomplished—getting
+            of doing what she had so successfully accomplished--getting
             a husband.
          </p>
          
@@ -1735,7 +1832,7 @@
          </p>
          
          <p>Daunton was thoroughly wretched. His business was
-            nearly closed; his wife’s extravagance had involved him in
+            nearly closed; his wife's extravagance had involved him in
             
             debt; he was anxious to return to London, and he abhorred
             the thought of taking her with him, and he could not leave
@@ -1762,15 +1859,16 @@
             berth, and met the old captain on the quarter deck.
          </p>
          
-         <p>“Hah! Daunton!” exclaimed the Falstaff-looking sailor,
-            “are you as happy now as when I met you that hot morning
-            in Wall street?”
+         <p>"Hah! Daunton!" exclaimed the Falstaff-looking sailor,
+            "are you as happy now as when I met you that hot morning
+            in Wall street?"
          </p>
          
-         <p>"Oh, a vast deal more so!” replied the wifeless husband;
-            “then I thought I was happy—now I know that I am.”
+         <p>"Oh, a vast deal more so!" replied the wifeless husband;
+            "then I thought I was happy--now I know that I am."
          </p>
       </div>
+      
       
       <div class="piece" id="#p15">
          <div class="biblTitle">City Chit-Chat</div>
@@ -1783,9 +1881,9 @@
             There must always be a sweet morsel for the public tongue;
             and happy is the man or woman who escapes being rolled
             under it. Last year at this time there was but one question
-            asked by any body; "can there be a church without a Bishop?” Now this question is dropped, and we hear nothing
-            on every side but “the Bishop.” Naughty people say to
-            each other, “you are as bad as a Bishop.” Any stranger
+            asked by any body; "can there be a church without a Bishop?" Now this question is dropped, and we hear nothing
+            on every side but "the Bishop." Naughty people say to
+            each other, "you are as bad as a Bishop." Any stranger
             dropping among us now would think that he had lighted upon a community of polemics. The office of a Bishop is the
             most dangerous dignity that can be conferred upon a mortal.
             There are more notoriously bad bishops on record than of
@@ -1796,7 +1894,7 @@
             have been expended in finishing their Cathedral.
          </p>
          
-         <p>“A man of the world,” who had an ambition to share
+         <p>"A man of the world," who had an ambition to share
             with the Bishop in his large portion of public attention, has
             given him a fraternal embrace, and is now fairly in for a share
             of public sentiment. It is amusing to look back upon any
@@ -1811,7 +1909,7 @@
             a time. The whale must have a tub to divert itself with, and
             perhaps a more innocent one could not be thrown to it than
             
-            a pianist or a dancer. Boz was the greatest “go,” as he
+            a pianist or a dancer. Boz was the greatest "go," as he
             would himself say, that we have ever had among us; and
             perhaps the uncertainty of popular favor was more forcibly
             illustrated in his case than in any other. As the city must
@@ -1843,29 +1941,34 @@
             <div class="biblTitle">The Democratic Review</div>
             <div class="biblPage">45</div>
             <p>The Democratic Review for January, contains, as we
-               have already noticed, an admirable paper on the social inequalities of our condition, under the head of “What is the
-               Reason?” which the editor felt himself called upon to assure
+               have already noticed, an admirable paper on the social inequalities of our condition, under the head of "What is the
+               Reason?" which the editor felt himself called upon to assure
                his readers, in a note, contained some things which did not
                exactly correspond with his own views. In that case, he
                should either have stricken them out or made a more particular allusion to them, that his readers might know what his
                own views on an important topic are. There are, besides,
                a long paper on the Sheik of Alexandria and his slaves,
                translated by Mr. Spring, the author of Giafar Al Barmeki,
-               from the German of Hauff; and a short paper on periodical
-               reading, by Mrs. Clavers, which is the least readable of all
+               from the German of 
+               <span class="person" id="whauff">Hauff</span>; and a short paper on periodical
+               reading, by Mrs. 
+               <span class="person" id="cmkirkland">Clavers</span>, which is the least readable of all
                her writings that we have seen. It appears to have been
                written for the express purpose of introducing the pun contained in the following paragraph:
             </p>
             
-            <p>“If we have misunderstood this matter—if we have been conjuring
+            <p>"If we have misunderstood this matter--if we have been conjuring
                up bugbears and spectres, let it be shown by argument and examples. 
                If this be fairly proved, we shall be quite willing to see the ghosts of 
-               our imagination laid, like other unreal mockeries—in the Read-Sea.”
+               our imagination laid, like other unreal mockeries--in the Read-Sea."
             </p>
             
             <p>The other papers, consisting of the Ghost of New-York by
-               Cornelius Matthews, New England Philosophy, by H. T.
-               Tuckerman. Family Flattery, by the Author of a Marriage
+               
+               <span class="person" id="cmathews">Cornelius Matthews</span>, New England Philosophy, by 
+               <span class="person" id="httuckerman">H. T.
+                  Tuckerman
+               </span>. Family Flattery, by the Author of a Marriage
                of Convenience, and a Biography of Henry A. Muhlenburg,
                we have not found time to read.
             </p>
@@ -1875,14 +1978,14 @@
             <div class="biblTitle">The Columbian Magazine</div>
             <div class="biblPage">45</div>
             <p>The Columbian Magazine for February, Vol. III. No. 2.
-               We have only time to glance at the illustrations of Mr. Post’s
+               We have only time to glance at the illustrations of Mr. Post's
                magazine; two of them are from pictures by Chapman, and
                are much more effective as engravings than as paintings. The first is a view of the
                birth-place of Washington, engraved
                by Rawdon, Wright, Hatch, and Smilie; and the other the
                Desertion of Sergeant Champ, by R. Hinshelwood. They are
                both exceedingly fine engravings, and would show well by
-               the side of many which are imported from abroad as chef d’
+               the side of many which are imported from abroad as chef d'
                oeuvres in English illustrated works.
             </p>
          </div>
@@ -1912,20 +2015,21 @@
          <div class="piece" id="#p19">
             <div class="biblTitle">Hunt's Merchant Magazine</div>
             <div class="biblPage">45</div>
-            <p>Hunt’s Merchant’s Magazine, No. 67, for January.—
-               The age of this Magazine tells the whole story of its excellence. Nothing short of real merit could have kept it in existence more than a year; for it is chiefly patronized by those
+            <p>Hunt's Merchant's Magazine, No. 67, for January.-The age of this Magazine tells the whole story of its excellence. Nothing short of real merit could have kept it in existence more than a year; for it is chiefly patronized by those
                who are best able to judge of its value, and who are habitually used to laying out their money with a view to getting its
                full worth. The contents of the present number consist of six
-               original articles—a monthly commercial chronicle, Mercantile
+               original articles--a monthly commercial chronicle, Mercantile
                Law department, and a number of valuable statistical tables.
             </p>
          </div>
+         
+         
          
          <div class="piece" id="#p20">
             <div class="biblTitle">The Golden Rule</div>
             <div class="biblPage">45</div>
             <p>The Golden Rule, a weekly gazette, devoted to odd fellowship, literature and general intelligence. Vol. 1, No. 1, new
-               series—New York, Saturday, January 4, 1845. Published
+               series--New York, Saturday, January 4, 1845. Published
                every Saturday morning, by Houel and Macoy, 128 Fulton
                st.. Sun Buildings. A very neat paper, nearly the size of our
                own.
@@ -1935,7 +2039,7 @@
          <div class="piece" id="#p21">
             <div class="biblTitle">Wiley and Putnam's News Letter</div>
             <div class="biblPage">45</div>
-            <p>Wiley &amp; Putnam’s News Letter for January.—This
+            <p>Wiley &amp; Putnam's News Letter for January.--This
                admirable Literary Gazette, in miniature, is one of the most
                useful of our monthly periodicals; and what is better, the
                cheapest paper ever published. It can be had for the asking.
@@ -1946,7 +2050,8 @@
                doubt that its circulation would be greatly increased. The
                publishers should remember the case of the man who stood
                all day on old London Bridge, trying to sell a guinea for a
-               sixpence, without finding a purchaser. Dr. Johnson said, a
+               sixpence, without finding a purchaser. Dr. 
+               <span class="person" id="sjohnson">Johnson</span> said, a
                good while ago, in reference to giving away books, that people were very apt to consider things as good for nothing
                which cost nothing.
             </p>
@@ -1958,18 +2063,24 @@
          <div class="biblPage">45</div>
          <div class="head">NEW PUBLICATIONS.</div>
          
-         <p>The Conspiracy against the late Bishop of New York, by James C.
-            Richmond. Price 12 1-2 cents. Burgess &amp; Stringer.
+         <p>The Conspiracy against the late Bishop of New York, by 
+            <span class="person" id="jcrichmond">James C.
+               Richmond
+            </span>. Price 12 1-2 cents. Burgess &amp; Stringer.
          </p>
          
          <p>Vestiges of the Natural History of Creation, attributed to the author of the Architecture of the Heavens. 1 vol. 12mo. Price 85 cents.
             Wiley &amp; Putnam.
          </p>
          
-         <p>A Letter to a Friend, in Reply to a recent Pamphlet from the Missionaries of the American Board of Commissioners for Foreign Missions, at Constantinople. By the Right Rev. Horatio Southgate. Appleton &amp; Co. Price 12 1-2 cents.</p>
+         <p>A Letter to a Friend, in Reply to a recent Pamphlet from the Missionaries of the American Board of Commissioners for Foreign Missions, at Constantinople. By the Right Rev. 
+            <span class="person" id="hsouthgate">Horatio Southgate</span>. Appleton &amp; Co. Price 12 1-2 cents.
+         </p>
          
-         <p>St. Ignatius and his Companions. By the Rev. Charles Constantine
-            Pise, D. D. author of “History of the Church,” “Father Rowland,” See
+         <p>St. Ignatius and his Companions. By the Rev. 
+            <span class="person" id="ccpise">Charles Constantine
+               Pise
+            </span>, D. D. author of "History of the Church," "Father Rowland," See
             New York: published by Edward Dunigan, 151 Fulton street. 1845.
          </p>
       </div>
@@ -1989,7 +2100,7 @@
             occasion. It is truly a pleasing reflection, when we think of the success
             of this admirable Society, for we are compelled to believe that the
             cause of true music is gaining a large number of advocates among the
-            best classes of society, and the public at large. The “profession”
+            best classes of society, and the public at large. The "profession"
             have always been accused of giving breath to an unlimited quantity
             of cant respecting classical music; they have been charged with envy,
             malice, and prejudice, because they have set up as their standard of
@@ -2021,13 +2132,13 @@
             
             <br></br>ward Loder.	                                      C. M. Weber
             
-            <br></br>Concertino, Clarionet—1st. time; Mr. W. T. 
+            <br></br>Concertino, Clarionet--1st. time; Mr. W. T. 
             
             <br></br>Greenevelt.	                                       C. M. Weber
             
             <br></br>PART II.
             
-            <br></br>Overture to Jessonda—1st. time.	                    L. Spohr.
+            <br></br>Overture to Jessonda--1st. time.	                    L. Spohr.
             
             <br></br>Aria Del per questo istante, from the Opera of 
             
@@ -2039,7 +2150,7 @@
             
             <br></br>Messrs. Munson and Massett.
             
-            <br></br>Descriptive Overture—Le Vampyr (1st. time.) H. Marschner.
+            <br></br>Descriptive Overture--Le Vampyr (1st. time.) H. Marschner.
             
             <br></br>Conductor,	Mr. U. C. Hill.
          </div>
@@ -2061,13 +2172,13 @@
          
          <p>Of the four movements of symphony No. 3, the andante is certainly
             the favorite; the subject is simple and familiar to every one, under the
-            name of Haydn’s Surprise. It is a short theme of some sixteen bars,
+            name of Haydn's Surprise. It is a short theme of some sixteen bars,
             carried on through all the movement, but so exquisitely varied that
             the ear is positively surfeited with its sweetness. This movement was
-            loudly applauded and seemed to give much satisfaction. The great fault in the other
-            movements is that they are too short. Before the mind can take note of their construction
-            or appreciate their beauties, lo! they have ceased. With the last movement this was
-            particularly
+            loudly applauded and seemed to give much satisfaction. The great 
+            fault in the other movements is that they are too short. Before the 
+            mind can take note of their construction or appreciate their beauties,
+            lo! they have ceased. With the last movement this was particularly
             the case.
          </p>
          
@@ -2076,21 +2187,20 @@
             she able to sing the songs of her compass. Mrs. E. Loder has gained
             a very enviable reputation in this city; among Musicians and true
             connoiseurs of the art, she is looked upon as the only classical singer
-            in the country. Her pure and unsophisticated style, correct intona-tion, smooth and
-            flowing execution, perfect shake and pure taste, the
+            in the country. Her pure and unsophisticated style, correct intonation, smooth and flowing execution, perfect shake and pure taste, the
             results of a first rate education, render her admirably suited to maintain the position to which she has been raised by public opinion. Her
             execution of the difficult scena from Der Freyschutz called forth repeated bursts of applause. The band accompanied this scena and indeed all the solos, in a very slovenly and unartist-like manner. It was
             evident to every one that they had either not rehearsed them or they
-            were determined not to play them well. In either case it is a slur upon themselves—a blot upon their reputation.
+            were determined not to play them well. In either case it is a slur upon themselves--a blot upon their reputation.
          </p>
          
-         <p>Weber’s concertino for the clarinet, was performed in a most masterly manner by Mr. Groenevelt. His tone is sweet yet rich and full;
+         <p>Weber's concertino for the clarinet, was performed in a most masterly manner by Mr. Groenevelt. His tone is sweet yet rich and full;
             his execution is delicate and finished in the highest degree; his style
             is chaste, pure and impassioned, and his expression is that of a man
             who feels the power of music in his heart.
          </p>
          
-         <p>Spohr’s overture is a miracle of beauty, even when contrasted with
+         <p>Spohr's overture is a miracle of beauty, even when contrasted with
             his other great compositions. He is a model in every way; in
             thought, construction and instrumentation. We will not attempt to
             describe it, for we have already exceeded our prescribed limits; we
@@ -2098,9 +2208,9 @@
             rapturously and unanimously applauded on its repetition.
          </p>
          
-         <p>Mozart’s Del per questa istante was exquisitely sung by Mrs. E. Loder and warmly applauded. It was very badly accompanied.</p>
+         <p>Mozart's Del per questa istante was exquisitely sung by Mrs. E. Loder and warmly applauded. It was very badly accompanied.</p>
          
-         <p>Beethoven’s Quartette was an injudicious selection, it being out of its
+         <p>Beethoven's Quartette was an injudicious selection, it being out of its
             situation, by no means an effective composition. It was very badly
             sung. Miss De Luce, though possessing naturally, a very fine voice,
             was too much under the influence of fear to do herself justice; Mr.
@@ -2109,7 +2219,7 @@
             by Mr. Massett.
          </p>
          
-         <p>Marschner’s Overture, Der Vampyr, is a grand, spirited and effective
+         <p>Marschner's Overture, Der Vampyr, is a grand, spirited and effective
             composition, and was played in admirable style.
          </p>
          
@@ -2119,7 +2229,7 @@
             Mr. Hill seemed to be imbued with the spirit of the composer, and by
             judiciously subduing some portion of the orchestra to allow the
             points in the other instruments to appear, he produced to perfection the
-            Author’s idea. We sincerely congratulate him on his success.
+            Author's idea. We sincerely congratulate him on his success.
          </p>
          
          <p>Messrs. J. A. Kyle, Wiese, Groenevelt, Reiff and Trosji, also demand our warm commendation for their admirable performance
@@ -2135,12 +2245,11 @@
          <div class="piece" id="#p24">
             <div class="biblTitle">Fashion</div>
             <div class="biblPage">46</div>
-            <p>Fashion.—We have noticed recently in Broadway, several gentlemen wearing a kind of short cloak, rather profusely
+            <p>Fashion.--We have noticed recently in Broadway, several gentlemen wearing a kind of short cloak, rather profusely
                decorated with gimp and frogs; and with most preposterously long sleeves, slashed up to the bend of the elbow. It
                is a very singular dress, and seems to have been copied almost exactly from the fashion which prevailed in England
                during the reign of Henry VII. The dandies in those days
-               shaved their beards close, but wore their hair very long;—
-               their caps were enormously large, and ornamented with
+               shaved their beards close, but wore their hair very long;-their caps were enormously large, and ornamented with
                feathers of various colors, the stem of each one being profusely decorated with pearls and jewels. Our dandies have
                rejected all these showy ornaments, and are beginning to let
                their beards grow, which is an indication of greater refinement.
@@ -2151,8 +2260,9 @@
          <div class="piece" id="#p25">
             <div class="biblTitle">The Broadway Journal</div>
             <div class="biblPage">46</div>
-            <p>The Broadway Journal.—Last Saturday, January 4, brought into
-               the world of publishment—as Mr. Willis would say—the first number
+            <p>The Broadway Journal.--Last Saturday, January 4, brought into
+               the world of publishment--as Mr. 
+               <span class="person" id="npwillis">Willis</span> would say--the first number
                of a new weekly entitled the Broadway Journal; and we have rarely
                known a better first appearance. The articles are somewhat too long,
                but they are vigorously written and the choice of subjects is good.
@@ -2160,7 +2270,7 @@
                best wood engraving we ever saw in any paper, daily or weekly. It
                represents a lady in the fashion of the day; the texture and folds of
                the dress are presented with a truth and delicacy which we thought
-               unattainable upon wood. It reminds one much of that famous copper-plate engraving known as “the white satin dress.”
+               unattainable upon wood. It reminds one much of that famous copper-plate engraving known as "the white satin dress."
             </p>
             
             <p>We copy the above from the Commercial Advertiser, not
@@ -2173,7 +2283,7 @@
                to what we see in French and German works, and by chance
                we stumbled upon an American artist, recently returned from
                Paris, who produced the cut alluded to above. The design
-               was one of Gavarni’s. W ith hardly a degree of exaggeration,
+               was one of Gavarni's. W ith hardly a degree of exaggeration,
                it offered the keenest satire upon the wicked absurdities of
                fashion that could have been given. For lack of good ink and
                a suitable press, the impression in our paper gives but a very
@@ -2206,7 +2316,7 @@
                this neighborhood not long since. A foreign gentleman conceiving
                himself to have been insulted by his friend, sent him a challenge,
                which was accepted, and when the parties assembled in Hoboken, the
-               challenger fainted dead away. All concerned except the timid gentleman were in great fume, and a scene occurred something like that between Acres and Sir Lucius O’Trigger. But the Sir Lucius in this case,
+               challenger fainted dead away. All concerned except the timid gentleman were in great fume, and a scene occurred something like that between Acres and Sir Lucius O'Trigger. But the Sir Lucius in this case,
                insisted that his friend should either fight, or submit to be spat upon.
                Another challenge was then sent, the parties were promptly on the
                ground, the challenger stepped forward, the pistol was put in his hand;
@@ -2217,18 +2327,18 @@
             <div class="ab">Washington, Jan. 14, 1845-</div>
             
             <p>The duel between Mr. Clingham and Mr. Yancey, came off yesterday afternoon, about three miles from Bladensburg. The weapons
-               were pistols—-distance ten paces. Lieut. Huger, a son of Senator Huger of South Carolina, it was said was Mr. Yancey’s second, and a
-               Mr. Charles L. Jones, a son of Gen. Walter Jones of this city, is reported to have been Mr. Clingham’s second. I have heard the names
-               of a number of gentlemen who were present as their "friends,” but I
+               were pistols---distance ten paces. Lieut. Huger, a son of Senator Huger of South Carolina, it was said was Mr. Yancey's second, and a
+               Mr. Charles L. Jones, a son of Gen. Walter Jones of this city, is reported to have been Mr. Clingham's second. I have heard the names
+               of a number of gentlemen who were present as their "friends," but I
                need not make their names public, several Policemen arrived on the
                ground just as they were about to fire.
             </p>
             
             <p>Had it not been for this, which hurried the operation, it might have 
-               ended more fatally. The word was "Ready—Fire, one, two, three.” 
-               Both fired in haste on account of the arrival of the Police—blazing
-               away at the word "Fire” in place of waiting for "one,” "two,” and 
-               "three.” Mr. Yancey fired by raising his pistol, Mr. Clingham by dropping his. Mr. C.’s ball struck the "vacant air” and Mr. Y.’s hit the
+               ended more fatally. The word was "Ready--Fire, one, two, three." 
+               Both fired in haste on account of the arrival of the Police--blazing
+               away at the word "Fire" in place of waiting for "one," "two," and 
+               "three." Mr. Yancey fired by raising his pistol, Mr. Clingham by dropping his. Mr. C.'s ball struck the "vacant air" and Mr. Y.'s hit the
                ground.
             </p>
             
@@ -2240,7 +2350,7 @@
             
             <p>A hostile meeting was had between Mr. Thomas Butler King and
                Mr. Chas. Spaulding, on Monday, the 6th instant, at Amelia Island. 
-               Werpons, pistols—distance, ten paces.—Two shots were passed without effect, when, at the intervention of friends, the affair was adjusted, and the parties exchanged friendly salutations.
+               Werpons, pistols--distance, ten paces.--Two shots were passed without effect, when, at the intervention of friends, the affair was adjusted, and the parties exchanged friendly salutations.
             </p>
             
             <p>The difficulty originated from some circumstances connected with 
@@ -2252,14 +2362,14 @@
          <div class="piece" id="#p27">
             <div class="biblTitle">Notices to Readers and Correspondents</div>
             <div class="biblPage">47</div>
-            <p>NOTICES TO READERS AND CORRESPONDENTS.—Our
+            <p>NOTICES TO READERS AND CORRESPONDENTS.--Our
                next number will contain a very superior engraving from an original
                design by one of the most promising artists in the country, of a highly
                humorous, and at the same time, truthful character; illustrative of some
                of our literary magnates.
             </p>
             
-            <p>G. W. E. will find a communication addressed to him at our publisher’s
+            <p>G. W. E. will find a communication addressed to him at our publisher's
                office.
             </p>
             
@@ -2279,7 +2389,7 @@
             
             <p>THE neglect of the Teeth is the cause of much suffering
                and regret, and should not be disregarded by the most thoughtless.
-               The undersigned having received the benefit of Dr. A. G. Bigelow’s
+               The undersigned having received the benefit of Dr. A. G. Bigelow's
                professional skill, and believing him well qualified in the science of
                Dental Surgery, and an accomplished and skillful operator, we most
                cheerfully certify to the ease and safety with which Dr. B. performs
@@ -2300,7 +2410,7 @@
                <br></br>J. Thompson, Miss.
             </div>
             
-            <p>Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.</p>
+            <p>Dr. A. G. Bigelow's Office and Residence, 103 Liberty st., New York.</p>
          </div>
          
          <div>
@@ -2327,34 +2437,34 @@
                Among them are the following:
             </p>
             
-            <p>DANIELS’ ILLUSTRATIONS OF ORIENTAL SCENERY—
+            <p>DANIELS' ILLUSTRATIONS OF ORIENTAL SCENERY--
                coloured in the most beautiful manner, in imitation of the original
                drawings. 6 vols. elephant folio, elegantly bound; original cost,
                $1200; reduced to $300.
             </p>
             
-            <p>SELBY’S BIRDS OF GREAT BRITAIN— (in the style of Audubon’s Birds of America). 2 vols. elephant folio; original cost,
+            <p>SELBY'S BIRDS OF GREAT BRITAIN-- (in the style of Audubon's Birds of America). 2 vols. elephant folio; original cost,
                $600; reduced to $180.
             </p>
             
-            <p>CHAMBERLAYNE’S DRAWINGS OF THE OLD MASTERS
-               —being facsimiles of the most celebrated of the Roman, Florentine, and Venetian Schools. Folio; original cost, $105; reduced
+            <p>CHAMBERLAYNE'S DRAWINGS OF THE OLD MASTERS
+               --being facsimiles of the most celebrated of the Roman, Florentine, and Venetian Schools. Folio; original cost, $105; reduced
                to $28,00.
             </p>
             
-            <p>CORONATION OF GEORGE THE FOURTH—illustrated with
+            <p>CORONATION OF GEORGE THE FOURTH--illustrated with
                splendidly coloured Drawings, in which the portraits are taken
                from life. Folio; original cost, $262; reduced to $75,00.
             </p>
             
             <p>PLOOS VAN AMSTEL'S IMITATION OF DRAWINGS OF
-               THE PRINCIPAL DUTCH AND FLEMISH MASTERS—
+               THE PRINCIPAL DUTCH AND FLEMISH MASTERS--
                consisting of 100 engravings. 3 vols. folio; original cost, $315;
                reduced to $90,00.
             </p>
             
             <p>MEYRICK'S PAINTED ILLUSTRATIONS OF ANCIENT
-               ARMS AND ARMOR—the plates illuminated with Gold and Silver. 3 vols. folio; original cost, $105; reduced to $65,00.
+               ARMS AND ARMOR--the plates illuminated with Gold and Silver. 3 vols. folio; original cost, $105; reduced to $65,00.
             </p>
             
             <p>A Catalogue embracing 25,000 volumes of valuable Books, in every
@@ -2365,11 +2475,14 @@
          </div>
          
          <div>
-            <div class="head">GRAHAME’S UNITED STATES.</div>
+            <div class="head">
+               <span class="person" id="jgrahame">GRAHAME</span>'S UNITED STATES.
+            </div>
             
             <p>THE HISTORY OF THE UNITED STATES OF
                NORTH AMERICA, from the plantation of the British Colonies
-               till their revolt and Declaration of Independence. By James Grahame, Esq. In four volumes.
+               till their revolt and Declaration of Independence. By 
+               <span class="person" id="jgrahame">James Grahame</span>, Esq. In four volumes.
             </p>
             
             <p>The work will be put to press as soon as two hundred and fifty
@@ -2389,7 +2502,8 @@
             <p>LEA &amp; BLANCHARD are preparing for publication,
                and will shortly issue, the Narrative of the United States
                Exploring Expedition, during the years 1838, 1839,1840, 1841, and
-               1842, by CHARLES WILKES, U.S.N., Commander of the Expedition, etc., etc., in five magnificent large imperial octavo volumes,
+               1842, by 
+               <span class="person" id="cwilkes">CHARLES WILKES</span>, U.S.N., Commander of the Expedition, etc., etc., in five magnificent large imperial octavo volumes,
                with an Atlas of Large and Extended Maps. Price Twenty-five
                Dollars to Subscribers, done up in beautiful Extra Cloth Binding.
             </p>
@@ -2419,7 +2533,7 @@
                exhibiting at one view a complete family history. A space is left sufficiently large for any person who may desire to have his arms emblazoned on this elegant work, before he has it framed. Price $1,50.
             </p>
             
-            <p>The Arms and Crests of individuals of all nations, found and emblazoned, equal in execution and correctness to the Herald’s College
+            <p>The Arms and Crests of individuals of all nations, found and emblazoned, equal in execution and correctness to the Herald's College
                of London, at reasonable charges.
             </p>
          </div>
@@ -2448,45 +2562,47 @@
             
             <div class="ab">Art. I. Notes on the Semi-civilized Nations of Mexico, Yucatan, and
                
-               <br></br>Central America. By Albert Gallatin.
+               <br></br>Central America. By 
+               <span class="person" id="agallatin">Albert Gallatin</span>.
                
-               <br></br>Sec. 1st. Languages.—Vocabularies, grammar, derived and com-
+               <br></br>Sec. 1st. Languages.--Vocabularies, grammar, derived and com-
                
                <br></br>pounded words.
                
-               <br></br>2d. Numeration.—Vigintesimal.
+               <br></br>2d. Numeration.--Vigintesimal.
                
-               <br></br>3d. Calendars and Astronomy.—Mexico, Yucatan, Chiapas.
+               <br></br>3d. Calendars and Astronomy.--Mexico, Yucatan, Chiapas.
                
-               <br></br>—Extent of Astronomical knowledge.
+               <br></br>--Extent of Astronomical knowledge.
                
-               <br></br>4th. History and Chronology.—Paintings designating years;
+               <br></br>4th. History and Chronology.--Paintings designating years;
                
-               <br></br>only four known.—Tradition; early writers discussed.—
+               <br></br>only four known.--Tradition; early writers discussed.--
                
                <br></br>Uncertainty of dates and events.
                
                <br></br>5th. Conjectures on origin of semi-civilization in Ameri-
                
-               <br></br>ca.—America inhabited at a very early date.—Astrono-
+               <br></br>ca.--America inhabited at a very early date.--Astrono-
                
-               <br></br>my.—Agriculture.—Extinct race.
+               <br></br>my.--Agriculture.--Extinct race.
                
-               <br></br>No. 1. Appendix.—Grammatical notices.—Mexican, Tarasca,
+               <br></br>No. 1. Appendix.--Grammatical notices.--Mexican, Tarasca,
                
                <br></br>Ottomi, Maya, Guatemala, Huestaca.
                
-               <br></br>No. 2.	"Notes on Lord Kingsborough’s collection.
+               <br></br>No. 2.	"Notes on Lord Kingsborough's collection.
                
-               <br></br>—All paintings, but one, Mexican.—All but four relate to
+               <br></br>--All paintings, but one, Mexican.--All but four relate to
                
-               <br></br>Mythology and Judicial Astrology.—Codices Borgianus
+               <br></br>Mythology and Judicial Astrology.--Codices Borgianus
                
                <br></br>and Vaticanus.
                
-               <br></br>Art. II. An Essay on the Grave-Creek Mound in the Ohio Valley.—
+               <br></br>Art. II. An Essay on the Grave-Creek Mound in the Ohio Valley.--
                
-               <br></br>By Henry R. Schoolcraft, embracing:
+               <br></br>By 
+               <span class="person" id="hrschoolcraft">Henry R. Schoolcraft</span>, embracing:
                
                <br></br>1st. A description of the Tumulus, its dimensions and mode of
                
@@ -2514,19 +2630,21 @@
                
                <br></br>of settlements in the Mississippi Valley and the Lakes. By
                
-               <br></br>Henry R. Schoolcraft.
+               <br></br>
+               <span class="person" id="hrschoolcraft">Henry R. Schoolcraft</span>.
                
                <br></br>Description of some extensive Horticultural Beds and Furrows,
                
                <br></br>found in the prairies and forests of the Lake Region, about
                
-               <br></br>the latitude of the sources of the Ilinois and St. Joseph’s,
+               <br></br>the latitude of the sources of the Ilinois and St. Joseph's,
                
                <br></br>with an engraving.
                
-               <br></br>Art. IV. An account of Ancient Remains in Tennessee. By Gerard
-               
-               <br></br>Troost, M. Prof, of Chemistry, Geology, &amp;c. in the
+               <br></br>Art. IV. An account of Ancient Remains in Tennessee. By 
+               <span class="person" id="gtroost">Gerard
+                  Troost
+               </span>, M. Prof, of Chemistry, Geology, &amp;c. in the
                
                <br></br>University of Tennessee.
                
@@ -2542,19 +2660,21 @@
                
                <br></br>Art. V. On the recent discoveries of Himyaritic Inscriptions, and the
                
-               <br></br>attempts made to decipher them. By Wm. W. Turner.
+               <br></br>attempts made to decipher them. By 
+               <span class="person" id="wwturner">Wm. W. Turner</span>.
                
-               <br></br>Kingdom of the Himyarites.—Discovery of Inscriptions.
+               <br></br>Kingdom of the Himyarites.--Discovery of Inscriptions.
                
-               <br></br>Himyaritic Alphabet.—Alphabets found in Manuscripts.—
+               <br></br>Himyaritic Alphabet.--Alphabets found in Manuscripts.--
                
-               <br></br>Alphabets from the Inscriptions.—Ethiopic Alphabets.
+               <br></br>Alphabets from the Inscriptions.--Ethiopic Alphabets.
                
-               <br></br>Himyaritic Language—Ehkili Language.-—General results.
+               <br></br>Himyaritic Language--Ehkili Language.---General results.
                
                <br></br>Art. VI. A visit to the Lybio-Phoenician Monument at Dugga, near
                
-               <br></br>the site of ancient Carthage. By Frederic Catherwood.
+               <br></br>the site of ancient Carthage. By 
+               <span class="person" id="fcatherwood">Frederic Catherwood</span>.
                
                <br></br>With an account of the inscription; and a view and ground
                
@@ -2566,7 +2686,8 @@
                
                <br></br>the Fullah nation, and those inhabiting the neighboring
                
-               <br></br>Counties of Western Nigritia. By Theodore Dwight, Jr.
+               <br></br>Counties of Western Nigritia. By 
+               <span class="person" id="tdwight">Theodore Dwight</span>, Jr.
                
                <br></br>1.	The statements of authors respecting the Serreculies.
                
@@ -2590,8 +2711,8 @@
             <div class="head">PLUMBE DAGUERRIAN GALLERY</div>
             
             <p>AND PHOTOGRAPHIC DEPOT, 251 Broadway,111p
-               Corner of Murray street, (Over Tenny’s Jewelry Store,) awarded
-               the Medal, four first Premiums, and two “Highest Honors,” at the
+               Corner of Murray street, (Over Tenny's Jewelry Store,) awarded
+               the Medal, four first Premiums, and two "Highest Honors," at the
                Exhibitions at Boston, New York, and Philadelphia, respectively, for
                the best pictures and apparatus ever exhibited.
             </p>
@@ -2601,16 +2722,17 @@
                the score of economy.
             </p>
             
-            <p>N. B.—Imported German Cameras, also French and American Instruments of the very best quality, with plates, cases, chemical polishing materials, &amp;c., kept constantly on hand. All orders received
+            <p>N. B.--Imported German Cameras, also French and American Instruments of the very best quality, with plates, cases, chemical polishing materials, &amp;c., kept constantly on hand. All orders received
                promptly attended to.
             </p>
          </div>
          
          <div>
-            <div class="head">Mrs. Sigourney’s Pictorial Reader.</div>
+            <div class="head">Mrs. Sigourney's Pictorial Reader.</div>
             
             <p>THE PICTORIAL READER, for the Use of Schools, consisting of Original Articles for the Instruction of Young Children.
-               By Mrs. L. H. Sigourney. Being an Introduction to the Boy’s Reading Book and Girl’s Reading Book, by the same author, illustrated
+               By Mrs. 
+               <span class="person" id="lhsigourney">L. H. Sigourney</span>. Being an Introduction to the Boy's Reading Book and Girl's Reading Book, by the same author, illustrated
                by nearly One Hundred aed Fifty Engravings. A very interesting and
                instructive Book for Children, whether in school or out. Published by
                TURNER &amp; HAYDEN, No. 10 John Street,
@@ -2627,9 +2749,9 @@
             
             <div class="ab">NO. 189 BROADWAY, NEW YORK.</div>
             
-            <p>GOLDSMITH’S PREMIUM SYSTEM of Mercan-
+            <p>GOLDSMITH'S PREMIUM SYSTEM of Mercan-
                tile and Epistolary Writing, guaranteed to all (old and young)
-               in 10 lessons of one hour each. Terms—Five Dollars.
+               in 10 lessons of one hour each. Terms--Five Dollars.
             </p>
             
             <p>Double Entry Book-Keeping, Fifteen Dollars, for a thorough
@@ -2637,29 +2759,30 @@
                Stationary. Payable at the commencement.
             </p>
             
-            <p>Class Hours—9 A. M., 3, 5 3-4, and 8 P. M. daily for gentlemen,
-               and from 11 to 1 o’clock for ladies. Private instruction given.
+            <p>Class Hours--9 A. M., 3, 5 3-4, and 8 P. M. daily for gentlemen,
+               and from 11 to 1 o'clock for ladies. Private instruction given.
             </p>
             
-            <p>For sale “Goldsmith’s Gems of Penmanship,” elegantly bound.
+            <p>For sale "Goldsmith's Gems of Penmanship," elegantly bound.
                Price Five Dollars.
             </p>
             
             <p>From the Courier and Enquirer, July 27. 1844.</p>
             
-            <p>Goldsmith’s Gems of Pennmanship.—The Chirographic art is,
+            <p>Goldsmith's Gems of Pennmanship.--The Chirographic art is,
                much more important to mankind than it is generally considered, and
-               Mr. Goldsmith may well claim to be considered at its head. The
+               Mr. 
+               <span class="person" id="obgoldsmith">Goldsmith</span> may well claim to be considered at its head. The
                volume before us exhibits more taste and ingenuity, and higher proofs
                of manual dexterity than we have ever seen before.
             </p>
             
             <p>From the New York Express.</p>
             
-            <p>Goldsmith’s Gems of Penmanship.—We have seen the original, as
+            <p>Goldsmith's Gems of Penmanship.--We have seen the original, as
                executed by his own hand, and a more beautiful, and indeed a more
                wonderful display of the power of that little instrument which is said
-               to be "more potent than the sword,” we never witnessed before.
+               to be "more potent than the sword," we never witnessed before.
             </p>
          </div>
          
@@ -2690,8 +2813,8 @@
          </p>
          
          <p>Efficient aid has already been secured in the services of some of the
-            best writers in the country; but it is hoped that a free channel being opened through which true-hearted men may “let loose their
-            thoughts,” will be the means of drawing out some of the slumbering
+            best writers in the country; but it is hoped that a free channel being opened through which true-hearted men may "let loose their
+            thoughts," will be the means of drawing out some of the slumbering
             talent amongst us which has not yet been seen afloat on the surface of
             our periodical literature.
          </p>
@@ -2701,7 +2824,7 @@
             16 pages, double columns.
          </p>
          
-         <p>Terms $3,00 per annum—Single numbers 6 1-4 cts.</p>
+         <p>Terms $3,00 per annum--Single numbers 6 1-4 cts.</p>
          
          <p>A liberal discount to Periodical Agents.</p>
          
@@ -2714,8 +2837,6 @@
       <div>
          <div class="ab">John Douglas, Printer, 68 Ann Street.</div>
       </div>
-      
-      
    </div>
    <div class="back"></div>
 </div>
