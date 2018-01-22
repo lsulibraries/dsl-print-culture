@@ -1349,10 +1349,11 @@ canvas#pdf {
   flex-direction: column;
   background: white;
   border-right: 1px solid $light-border-color;
-  justify-content: center;  
-  min-width: 236px;    
+  padding-top: calc(50vh - 200px);
+  min-width: 236px;
   width: 30%;
-  box-sizing: border-box;    
+  box-sizing: border-box;
+
 }
 
 .aboutToggle > div {
