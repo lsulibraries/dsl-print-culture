@@ -1405,6 +1405,9 @@ Vue.component('issue-month',{
 	},
 	props: {month: '',	list: ''},
 	created(){
+                Event.$on('activeContentChange',(content) => {
+                    console.log(this);
+                }),
 		Event.$on('issueSelected',(id) =>{
 			for(each in this.$children){
 				if(this.$children[each].id==id){
@@ -1461,6 +1464,15 @@ Vue.component('index-child',{
 	    Event.$emit('issueSelected', id);
 	}
     },
+    created() {
+        Event.$on('activeContentChanged', (content) =>{
+            if(content == 'issues' && this.$root.state.content.issue.id == this.id){
+                this.meSeen = true
+               console.log( this.$parent.$children)
+            }
+        })
+    },
+
     template: `
 	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
 	  <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
