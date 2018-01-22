@@ -10,15 +10,15 @@
             <personIndex>
                 <xsl:apply-templates select="TEI/text/body/listPerson[@type = 'Authors']"/>
             </personIndex>
-            <credits>
+            <projectStaff>
                 <xsl:apply-templates select="TEI/text/body/listPerson[@type = 'ProjectStaff']"/>
-            </credits>
+            </projectStaff>
         </personography>
     </xsl:template>
 
     <xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/> 
     <!-- substitute variable with different path for local testing with small subset of issues -->
-    <!--<xsl:variable name="teiIssues" select="collection('test_issues')"/> -->
+    <!--<xsl:variable name="teiIssues" select="collection('issues')"/> -->
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
@@ -103,7 +103,7 @@
                     </xsl:if>
 
                     <!-- construct birth and death statements -->
-                    <xsl:if test="birth or death">
+                    <xsl:if test="birth or death or note or affiliation">
                         <personBio>
                             <xsl:if test="birth">
                                 <personBirth>
@@ -137,28 +137,27 @@
                                     <xsl:text>.</xsl:text>
                                 </personDeath>
                             </xsl:if>
+
+                            <xsl:if test="affiliation">
+                                <personAffiliation>
+                                    <xsl:value-of select="affiliation/text()"/>
+                                </personAffiliation>
+                                <xsl:if test="affiliation/orgName">
+                                    <personOrg>
+                                        <xsl:value-of select="affiliation/orgName"/>
+                                    </personOrg>
+                                </xsl:if>
+                            </xsl:if>
+                            <xsl:if test="note">
+                                <personNote>
+                                    <xsl:value-of select="note"/>
+                                </personNote>
+                            </xsl:if>
                         </personBio>
                     </xsl:if>
                         
-                    <!-- for staff, get affiliation and note -->
-                    <xsl:if test="../@type = 'ProjectStaff'">
-                        <xsl:if test="affiliation">
-                            <personAffiliation>
-                                <xsl:value-of select="affiliation/text()"/>
-                            </personAffiliation>
-                            <xsl:if test="affiliation/orgName">
-                                <personOrg>
-                                    <xsl:value-of select="affiliation/orgName"/>
-                                </personOrg>
-                            </xsl:if>
-                        </xsl:if>
-                        <xsl:if test="note">
-                            <personNote>
-                                <xsl:value-of select="note"/>
-                            </personNote>
-                        </xsl:if>
-                    </xsl:if>
-
+                    
+                        
                     <!-- list total contributions and/or total mentions if not zero -->
                     <xsl:if test="string-length($totalcontribs) != 0">
                         <personTotalContrib>
