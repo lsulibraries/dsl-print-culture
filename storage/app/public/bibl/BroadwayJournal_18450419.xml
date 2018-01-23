@@ -65,7 +65,7 @@
                <type>piece</type>
                <title>Stanzas</title>
                <auth_id>rsnichols</auth_id>
-               <auth_name/>
+               <auth_name>R. S. Nichols</auth_name>
                <page>248</page>
                <pdf_index>8</pdf_index>
             </p7>
@@ -264,7 +264,7 @@
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
@@ -367,7 +367,7 @@
             <piecePdfIndex>8</piecePdfIndex>
             <pieceListPerson>
                <rsnichols>
-                  <personName/>
+                  <personName>R. S. Nichols</personName>
                   <personPieceRole>Contributor</personPieceRole>
                </rsnichols>
             </pieceListPerson>
@@ -411,9 +411,9 @@
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -436,9 +436,9 @@
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
                <cfbriggs>
-                  <personName>Charles Frederick Briggs</personName>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
@@ -455,9 +455,9 @@
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -474,7 +474,7 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </eapoe>
@@ -493,9 +493,9 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -512,9 +512,9 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -550,9 +550,9 @@
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with high certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -569,9 +569,9 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty. (Reference: eapoe.org)</authorShip>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
@@ -618,7 +618,7 @@
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <hcwatson>
-                  <personName>Henry Cood Watson</personName>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </hcwatson>

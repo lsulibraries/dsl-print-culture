@@ -118,8 +118,8 @@
          <decls_id>p11</decls_id>
          <type>piece</type>
          <title>Chronology</title>
-         <auth_id>rhschoolcrot</auth_id>
-         <auth_name/>
+         <auth_id>hrschoolcraft</auth_id>
+         <auth_name>Henry Rowe Schoolcraft</auth_name>
          <page>91</page>
          <pdf_index>11</pdf_index>
       </p11>
@@ -381,7 +381,7 @@
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
@@ -401,7 +401,7 @@
             <piecePdfIndex>2</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
-                  <personName>Edgar Allan Poe</personName>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </eapoe>
@@ -563,10 +563,10 @@
             <piecePage>91</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
-               <rhschoolcrot>
-                  <personName/>
+               <hrschoolcraft>
+                  <personName>Henry Rowe Schoolcraft</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </rhschoolcrot>
+               </hrschoolcraft>
             </pieceListPerson>
          </pieceMeta>
       </p11>
@@ -945,7 +945,7 @@
             <piecePdfIndex>16</piecePdfIndex>
             <pieceListPerson>
                <jbisco>
-                  <personName>John Bisco</personName>
+                  <personName>John Bisco writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </jbisco>

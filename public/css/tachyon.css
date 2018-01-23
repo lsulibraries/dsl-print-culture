@@ -16,6 +16,109 @@ body {
   color: #474747;
 }
 
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 460px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+  height: 500px;
+  overflow-y: scroll;
+}
+.modal-body .personBibl {
+  background: white;
+  border: 1px solid #d6d6d6;
+  margin-right: 20px;
+  padding-bottom: 0px;
+}
+.modal-body .pieceMeta {
+  position: absolute;
+  margin-left: 70px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 46px;
+  left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.modal-body .sectionTitle {
+  color: #474747;
+  font-weight: 700;
+  justify-content: flex-start;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.modal-default-button {
+  width: 100%;
+  background: #fe7251;
+  color: white;
+  padding: 20px;
+  border: 0px;
+  cursor: pointer;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#infoFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
 .header {
   display: -webkit-box;
   display: -moz-box;
@@ -56,10 +159,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 10px;
+  line-height: 20px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 22px;
   font-weight: 700;
+  justify-content: inherit;
+  padding-left: 80px !important;
 }
 
 .headerNav {
@@ -85,13 +190,16 @@ body {
 
 .header > div:not(.headerNav),
 .header > a {
-  padding: 0px 30px 0px 30px;
+  padding: 30px 0px;
   border-right: 1px solid #e9e9e9;
   cursor: pointer;
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
+  margin-right: 20px;
 }
 
 .headerNav > div {
-  border-right: 1px solid #e9e9e9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,48 +291,38 @@ input:focus {
   display: flex;
   align-content: flex-start;
   background: white;
-  padding: 20px;
+  padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
   width: 30%;
+  box-sizing: border-box;
+  min-width: 236px;
+  border-right: 1px solid #e9e9e9;
 }
 
 .interIssueNav::before {
   content: 'issue navigation';
-  font-size: 2em;
+  font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-}
-
-.content > .issue::before {
-  background: black;
-  content: 'Issues';
-  width: 10px;
+  background: #474747;
   color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-}
-
-.content > .abouts::before {
-  background: black;
-  content: 'About';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 11px;
 }
 
 .tocDropdown {
-  font-size: 2em;
-  border-bottom: 1px dashed #e9e9e9;
+  font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
+  background: #474747;
+  color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 .tocItem {
@@ -249,7 +347,6 @@ input:focus {
 
 .issueBody {
   background: white;
-  margin-left: 1px;
   flex-grow: 2;
   width: 70%;
 }
@@ -326,6 +423,7 @@ input:focus {
 
 .intraIssueNav {
   width: 100%;
+  padding-top: 40px;
 }
 
 .active.childText {
@@ -370,9 +468,18 @@ input:focus {
   font-size: 0.9em;
 }
 
+.viewer {
+  padding: 0px 100px;
+}
+
 .teiMarkup {
   font-size: 1.2em;
-  padding: 20px;
+  padding-top: 0px;
+}
+
+.tei-markup {
+  border-top: 3px solid grey;
+  padding-top: 40px;
 }
 
 .head {
@@ -389,8 +496,26 @@ button.searchSubmit {
 
 /*BEGIN Personography*/
 .personography {
-  padding-left: 40px;
   position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.personography .pieceTitleContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 4px;
+}
+.personography .personName {
+  padding: 10px;
+}
+.personography .peopleFilters {
+  background: white;
+  width: 30%;
+  box-sizing: border-box;
+  border-right: 1px solid #e9e9e9;
 }
 .personography .person.Contributing.active {
   background-image: url(http://i.imgur.com/BJtKhwV.png);
@@ -410,40 +535,27 @@ button.searchSubmit {
   border-radius: 2px;
 }
 .personography .sectionTitle {
-  margin-left: 60px;
   font-weight: 700;
 }
-.personography .issueMeta {
-  float: left;
-  position: absolute;
+.personography .pieceTitle {
+  margin-top: 4px;
 }
-.personography .pieceTitle,
 .personography .personPieceMeta {
-  margin-left: 60px;
   margin-top: 4px;
 }
 .personography .pieceMeta {
   margin-left: 0px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .personography .personMeta {
   display: flex;
   width: 100%;
   justify-content: space-between;
-}
-
-.personography::before {
-  background: black;
-  content: 'Personography';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  position: absolute;
-  left: 0px;
-  height: calc(100% - 30px);
+  flex-direction: column;
+  background: #e9e9e9;
 }
 
 .personIndex {
@@ -454,9 +566,11 @@ button.searchSubmit {
   display: flex;
   flex-wrap: wrap;
   padding-top: 0px;
-  overflow-y: scroll;
-  height: calc(100vh - 170px);
   align-content: flex-start;
+  width: 70%;
+  background: white;
+  padding: 80px 100px;
+  box-sizing: border-box;
 }
 
 .personFilter {
@@ -475,12 +589,18 @@ button.searchSubmit {
 }
 
 .personIndex .person {
-  background: #fe7251;
-  margin: 0px 1px 1px 0px;
-  padding: 10px;
-  flex-grow: 1;
+  margin: 10px;
   cursor: pointer;
-  width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d0d0d0;
 }
 
 .Contributing .personName {
@@ -488,16 +608,26 @@ button.searchSubmit {
 }
 
 .personName {
-  font-size: 1.5em;
+  font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
+  color: #474747 !important;
+}
+
+.personRole {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px !important;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .Contributing .personRole {
-  background: white;
+  background: #474747;
   color: #fe7251;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -507,7 +637,6 @@ button.searchSubmit {
   background: #474747;
   color: #fe7251;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -519,14 +648,14 @@ button.searchSubmit {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  background: #ffffff;
+  background: #474747;
   color: #474747;
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   min-height: 58px;
 }
 
@@ -536,37 +665,49 @@ button.searchSubmit {
   line-height: 15px;
 }
 .pieceMeta .pieceTitle {
-  font-size: 1.5em;
+  font-size: 14px;
   padding-top: 0px;
   text-align: -webkit-left;
   text-transform: none;
-  padding-left: 0px;
   padding-bottom: 0px;
 }
 
+.sectionTitle {
+  border: 1px solid #474747;
+  font-size: 13px;
+  padding: 0px 6px;
+  height: 23px;
+  box-sizing: border-box;
+  line-height: 0.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
 a.downloadLink {
-  background: #fe7251;
-  width: 129px;
-  height: 29px;
+  background: #474747;
+  height: 23px;
   align-items: center;
   color: #ffffff;
   overflow: hidden;
-  font-weight: 700;
   text-decoration: none;
-  margin-top: 2px;
   display: inline-block;
-  font-size: 0.9em;
   float: left;
   position: absolute;
-  top: -2px;
-  right: 0px;
+  top: 80px;
+  right: 100px;
+  line-height: 0.9em;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 .downloadIcon {
   height: 100%;
   width: 30px;
   border-right: 1px solid white;
-  background: #fe7251;
+  background: #474747;
   color: white;
   justify-content: center;
   align-items: center;
@@ -583,6 +724,7 @@ a.downloadLink {
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 0px 7px;
 }
 
 .drawerActuator {
@@ -697,6 +839,14 @@ span.searchHit {
   font-weight: 700;
 }
 
+.issueInfo {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 .issueHeader {
   display: -webkit-box;
   display: -moz-box;
@@ -706,20 +856,34 @@ span.searchHit {
   flex-direction: column;
   position: relative;
   min-height: 100px;
+  padding: 100px;
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+.issueHeader .bibl {
+  padding-bottom: 20px;
+  padding-right: 140px;
+}
+.issueHeader .fillerHeader {
+  font-size: 2em;
+  line-height: 30px;
+  font-weight: 700;
 }
 .issueHeader .issueDate {
-  position: absolute;
-  left: 0px;
   background: #474747;
   color: white;
-  font-size: 0.9em;
+  font-size: 1.1em;
   padding: 5px;
-  height: 18px;
-  width: 140px;
+  height: 23px;
+  width: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-right: 1px;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: .9em;
 }
 .issueHeader .personMeta {
   float: left;
@@ -728,6 +892,7 @@ span.searchHit {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  padding-bottom: 4px;
 }
 .issueHeader .personName {
   font-size: 1.2em;
@@ -741,9 +906,6 @@ span.searchHit {
 .issueHeader .bibl > .issue {
   flex-wrap: wrap;
 }
-.issueHeader .bibl {
-  margin-left: 140px;
-}
 .issueHeader .bibl .issueHeader .personMeta {
   float: left;
   display: -webkit-box;
@@ -752,12 +914,30 @@ span.searchHit {
   display: -webkit-flex;
   display: flex;
 }
+.issueHeader .bibl button#show-modal {
+  background: transparent;
+  color: #474747;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 2px;
+  text-decoration: none;
+  border: 1px solid rgba(71, 71, 71, 0.3);
+  cursor: pointer;
+  box-shadow: none;
+  font-family: Roboto;
+  box-sizing: border-box;
+  height: 24px;
+}
 .issueHeader .bibl .personPieceMeta, .issueHeader .bibl .authorShip {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  float: left;
 }
 .issueHeader .bibl .personViaf {
   position: relative;
@@ -780,6 +960,7 @@ span.searchHit {
   line-height: normal;
   margin-right: 10px;
   width: 100%;
+  padding-bottom: 10px;
 }
 .issueHeader .bibl .pieceTitle {
   font-size: 2em;
@@ -796,36 +977,36 @@ span.searchHit {
 .issueHeader .personMeta .personRole {
   display: none;
 }
-.issueHeader .issueHeader > .issueMeta {
-  margin-left: 151px;
-}
 .issueHeader .issueHeader .pieceAuthor {
   font-size: 1.4em;
 }
 .issueHeader .issueVol,
 .issueHeader .issueNum {
-  background: #474747;
-  color: #ffffff;
-  width: 45px;
-  font-weight: 700;
-  font-size: 0.9em;
   float: left;
-  margin-right: 1px;
-  height: 18px;
-  justify-content: center;
-  align-items: center;
   margin-top: 0px;
   position: relative;
-  top: -1px;
+  top: 0px;
   padding-bottom: 6px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  border-radius: 0px;
+  background: #474747;
+  color: white;
+  font-size: 1.1em;
+  padding: 5px;
+  height: 23px;
+  width: 70px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0px;
+  letter-spacing: 2px;
+  margin-right: 1px;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: .9em;
 }
 .issueHeader .pieceMeta {
   margin-bottom: 30px;
@@ -971,14 +1152,14 @@ span.searchHit {
 }
 
 .viewerSelector {
-  float: left;
-  margin-right: 15px;
   border: 1px solid #474747;
+  float: right;
   overflow: hidden;
   z-index: 2;
   position: absolute;
-  top: 87px;
-  margin-left: 20px;
+  top: 228px;
+  right: 100px;
+  width: 123px;
 }
 
 .viewerTitle {
@@ -1038,10 +1219,25 @@ span.searchHit {
 }
 
 /*credits*/
+.creditsPersonListActive > h2, .creditsPersonListPast > h2 {
+  border: 1px solid #ababab;
+  padding: 10px;
+  width: 50%;
+}
+
+.personRoleName > h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
 .creditsPerson {
   padding-bottom: 20px;
   padding-top: 20px;
   border-bottom: 1px solid #e9e9e9;
+  width: 50%;
+  margin-left: 20px;
+  border-left: 2px solid #474747;
+  padding-left: 15px;
 }
 
 .creditsPersonName {
@@ -1115,6 +1311,9 @@ canvas#pdf {
   display: flex;
   min-height: calc(100vh - 47px);
 }
+.abouts .intraIssueNav {
+  display: none;
+}
 
 .aboutToggle {
   display: -webkit-box;
@@ -1125,12 +1324,15 @@ canvas#pdf {
   flex-direction: column;
   background: white;
   border-right: 1px solid #e9e9e9;
+  padding-top: calc(50vh - 200px);
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
 }
 
 .aboutToggle > div {
-  padding: 50px;
+  padding: 50px 100px;
   background: white;
-  border-bottom: 1px solid #e9e9e9;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -1139,7 +1341,17 @@ canvas#pdf {
 
 .aboutViewer {
   background: white;
-  padding: 20px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 2;
+  width: 70%;
+  box-sizing: border-box;
+}
+.aboutViewer p {
+  width: 500px;
 }
 
 .aboutToggle .active {
@@ -1148,6 +1360,10 @@ canvas#pdf {
 
 .headerNav > .active {
   color: #fe7251;
+}
+
+.logo {
+  margin-right: 280px;
 }
 
 .logoTitle {
@@ -1212,12 +1428,12 @@ canvas#pdf {
 }
 
 .contrast {
-  background: white;
   font-size: 12px;
   border: none !important;
   padding: 5px 10px 5px 10px !important;
   flex-direction: row;
   flex-grow: 2;
+  justify-content: flex-end;
 }
 
 .footer {
@@ -1237,7 +1453,7 @@ canvas#pdf {
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
-  margin: 0px 0px 0px 2px;
+  margin: 0px 0px 10px 2px;
   text-decoration: none;
 }
 
@@ -1250,11 +1466,17 @@ h1 {
 }
 
 .personography h1 {
-  background: white;
+  color: white;
   padding: 20px;
 }
 
 /*BEGIN High Contrast Mode*/
+.highContrast .issueDate {
+  width: 155px;
+}
+.highContrast .issueVol {
+  width: 90px;
+}
 .highContrast .active.childText {
   color: white;
 }
@@ -1307,9 +1529,6 @@ h1 {
 .highContrast .contrast, .highContrast .downloadText {
   font-size: 12px;
 }
-.highContrast .issueHeader .bibl {
-  margin-left: 160px;
-}
 
 /*END High Contrast Mode*/
 .fade-enter-active {
@@ -1326,4 +1545,24 @@ h1 {
 
 .fade-leave-to {
   opacity: 0;
+}
+
+.ease-transition {
+  transition: all 1s ease;
+}
+
+.ease-enter-active {
+  transition: all 1s ease;
+}
+
+.ease-leave-active {
+  transition: all 1s ease;
+}
+
+.ease-enter {
+  transition: all 1s ease;
+}
+
+.ease-leave-to {
+  transition: all 1s;
 }

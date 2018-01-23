@@ -15,6 +15,17 @@ $primary-accent-color-HC2: #000000;
 $primary-accent-color-HC3: #000000;
 $primary-accent-color3: rgba(254, 114, 81, 0.5);
 $dark-border-color: #5c5c5c;
+
+//https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
+
+$darkest: #002F2F;
+$dark: #046380;
+$lightest:#EFECCA;
+$lighter: #E6E2AF;
+$light:#A7A37E;
+
+//end adobe colors
+
 @mixin flexbox {
   display: -webkit-box;
   display: -moz-box;
@@ -68,6 +79,123 @@ body {
   color: $document-text-color;
 }
 
+
+//Begin modal styles
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+    width: 460px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+//modal-body begin
+
+.modal-body {
+  margin: 20px 0;
+  height: 500px;
+  overflow-y: scroll;
+
+  .personBibl{
+  background: white;
+  border: 1px solid #d6d6d6;  
+  margin-right: 20px;
+  padding-bottom: 0px;      
+  }
+
+  .pieceMeta {
+  position: absolute;
+  margin-left: 70px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 46px;
+  left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  }
+
+  .sectionTitle {
+  color: #474747;
+  font-weight: 700;
+  justify-content: flex-start;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  }  
+
+}
+
+//modal-body end
+
+
+.modal-default-button {
+    width: 100%;
+    background: #fe7251;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    cursor: pointer;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+//endmodal styles
+#infoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
 .header {
   @include flexbox;
   position: relative;
@@ -92,10 +220,12 @@ body {
 
 .headerTitle {
   @include flexCenter;
-  line-height: 10px;
+  line-height: 20px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 22px;
   font-weight: 700;
+  justify-content: inherit; 
+  padding-left: 80px !important;
 }
 
 .headerNav {
@@ -115,13 +245,17 @@ body {
 
 .header > div:not(.headerNav),
 .header > a {
-  padding: 0px 30px 0px 30px;
-  border-right: 1px solid $light-border-color;
-  cursor: pointer;
+    padding: 30px 0px;
+    border-right: 1px solid #e9e9e9;
+    cursor: pointer;
+    min-width: 236px;
+    width: 30%;
+    box-sizing: border-box;
+    margin-right: 20px;
+
 }
 
 .headerNav > div {
-  border-right: 1px solid #e9e9e9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,48 +327,39 @@ input:focus {
   @include flexbox;
   align-content: flex-start;
   background: white;
-  padding: 20px;
+  padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
-  width: 30%;
+    width: 30%;
+    box-sizing: border-box;  
+    min-width: 236px;
+border-right: 1px solid #e9e9e9;    
 }
 
 .interIssueNav::before {
-  content: 'issue navigation';
-  font-size: 2em;
-  text-transform: uppercase;
-  line-height: .9em;
+    content: 'issue navigation';
+    font-size: 1.1em;
+    text-transform: uppercase;
+    line-height: .9em;
+    background: #474747;
+    color: white;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 11px;
 }
 
-.content > .issue::before {
-  background: black;
-  content: 'Issues';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-}
-
-.content > .abouts::before {
-  background: black;
-  content: 'About';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-}
 
 .tocDropdown {
-  font-size: 2em;
-  border-bottom: 1px dashed $light-border-color;
-  text-transform: uppercase;
-  line-height: .9em;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    line-height: .9em;
+    background: #474747;
+    color: white;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 .tocItem {
@@ -256,7 +381,6 @@ input:focus {
 
 .issueBody {
   background: white;
-  margin-left: 1px;
   flex-grow: 2;
   width: 70%;
 }
@@ -323,6 +447,7 @@ input:focus {
 
 .intraIssueNav {
   width: 100%;
+  padding-top: 40px;
 }
 
 .active.childText {
@@ -360,10 +485,20 @@ input:focus {
   font-size: 0.9em;
 }
 
+.viewer {
+    padding: 0px 100px;
+}
+
 .teiMarkup {
   font-size: 1.2em;
-  padding: 20px;
+    padding-top: 0px;  
 }
+
+.tei-markup {
+    border-top: 3px solid grey;
+    padding-top: 40px;
+}
+
 
 .head {
   font-weight: 700;
@@ -381,8 +516,26 @@ button.searchSubmit {
 /*BEGIN Personography*/
 
 .personography {
-  padding-left: 40px;
   position: relative;
+  @include flexbox;
+
+.pieceTitleContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4px;
+}
+
+.personName{
+      padding: 10px;
+
+}
+
+.peopleFilters {
+    background: white;
+    width: 30%;
+    box-sizing: border-box;
+border-right: 1px solid #e9e9e9;    
+}
 
 
 .person.Contributing.active {
@@ -414,51 +567,46 @@ button.searchSubmit {
     @extend .authorCertainty;
   }
   .sectionTitle {
-    margin-left: 60px;
     font-weight: 700;
   }
   .issueMeta {
-    float: left;
-    position: absolute;
   }
-  .pieceTitle,
-  .personPieceMeta {
-    margin-left: 60px;
+  .pieceTitle {
     margin-top: 4px;    
+  }
+
+  .personPieceMeta{
+        margin-top: 4px;    
+
   }
   .pieceMeta {
     margin-left: 0px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    width: 100%;    
   }
 
   .personMeta {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    flex-direction: column;
+    background: #e9e9e9;
+
 }
 }
 
-.personography::before {
-  background: black;
-  content: 'Personography';
-  width: 10px;
-  color: white;
-  word-wrap: break-word;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  position: absolute;
-  left: 0px;
-  height: calc(100% - 30px);
-}
 
 .personIndex {
   @include flexbox;
   flex-wrap: wrap;
   padding-top: 0px;
-  overflow-y: scroll;
-  height: calc(100vh - 170px);
-      align-content: flex-start;  
+  align-content: flex-start;
+  width: 70%;
+  background: white;
+  padding: 80px 100px;
+  box-sizing: border-box;
 }
 
 .personFilter {
@@ -477,12 +625,14 @@ button.searchSubmit {
 }
 
 .personIndex .person {
-  background: $primary-accent-color;
-  margin: 0px 1px 1px 0px;
-  padding: 10px;
-  flex-grow: 1;
-  cursor: pointer;
-  width: 100%;  
+    margin: 10px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    @include flexbox;
+    flex-direction: column;
+    border: 1px solid #d0d0d0;    
 }
 
 .Contributing .personName {
@@ -490,16 +640,26 @@ button.searchSubmit {
 }
 
 .personName {
-  font-size: 1.5em;
+  font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
+    color: #474747 !important;  
+}
+
+.personRole {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px !important;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .Contributing .personRole {
-  background: white;
+  background: #474747;
   color: $primary-accent-color;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -509,7 +669,6 @@ button.searchSubmit {
   background: $document-text-color;
   color: $primary-accent-color;
   padding: 5px;
-  border-radius: 5px;
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -517,25 +676,24 @@ button.searchSubmit {
 
 .personBibl {
   @include flexbox;
-    background: #ffffff;
+    background: #474747;
     color: #474747;
     flex-wrap: wrap;
     flex-direction: column;
     position: relative;
     border-radius: 10px;
     padding: 10px;
-    margin-top: 10px;
-    min-height: 58px;    
+    margin-top: 5px;
+    min-height: 58px;
 }
 
 .pieceMeta {
   position: relative;
   .pieceTitle {
-    font-size: 1.5em;
+    font-size: 14px;
     padding-top: 0px;
     text-align: -webkit-left;
     text-transform: none;
-    padding-left: 0px;
     padding-bottom: 0px;    
 
   }
@@ -543,29 +701,42 @@ button.searchSubmit {
   line-height: 15px;
 }
 
+.sectionTitle {
+    border: 1px solid #474747;
+    font-size: 13px;
+    padding: 0px 6px;
+    height: 23px;
+    box-sizing: border-box;
+    line-height: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
 a.downloadLink {
-    background: #fe7251;
-    width: 129px;
-    height: 29px;
+    background: #474747;
+    height: 23px;
     align-items: center;
     color: #ffffff;
     overflow: hidden;
-    font-weight: 700;
     text-decoration: none;
-    margin-top: 2px;
     display: inline-block;
-    font-size: 0.9em;
     float: left;
     position: absolute;
-    top: -2px;
-    right: 0px;
+    top: 80px;
+    right: 100px;
+    line-height: 0.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 .downloadIcon {
   height: 100%;
   width: 30px;
   border-right: 1px solid white;
-  background: #fe7251;
+  background: #474747;
   color: white;
   justify-content: center;
   align-items: center;
@@ -576,6 +747,7 @@ a.downloadLink {
 .downloadText {
   @include flexCenter;
   height: 100%;
+    padding: 0px 7px;  
 }
 
 .drawerActuator {
@@ -696,7 +868,9 @@ span.searchHit {
     font-weight: 700;
 }
 
-
+.issueInfo{
+  @include flexbox;
+}
 
 .issueHeader {
 
@@ -704,31 +878,51 @@ span.searchHit {
   flex-direction: column;
   position: relative;  
   min-height: 100px;  
+    padding: 100px;
+    padding-top: 80px;   
+    padding-bottom: 0px;   
+
+.bibl {
+    padding-bottom: 20px;
+    padding-right: 140px;    
+}
+
+.fillerHeader{
+     font-size: 2em;
+     line-height: 30px;
+     font-weight: 700;
+ 
+ }
+ 
 
 .issueDate {
-    position: absolute;
-    left: 0px;
     background: #474747;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.1em;
     padding: 5px;
-    height: 18px;
-    width: 140px;
+    height: 23px;
+    width: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em;
 }
 
 .personMeta{
   float: left;
   @include flexbox;
+padding-bottom: 4px;
 }
 
 .personName {
     font-size: 1.2em;
     font-style: italic;
     margin-top: 2px;
+
 }
 
 
@@ -747,10 +941,27 @@ span.searchHit {
 
 }
 
-
+button#show-modal{
+    background: transparent;
+    color: #474747;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 2px;
+    text-decoration: none;
+    border: 1px solid rgba(71, 71, 71, 0.3);
+    cursor: pointer;
+    box-shadow: none;
+    font-family: Roboto;
+    box-sizing: border-box;
+    height: 24px;
+}
 
 .personPieceMeta, .authorShip {
   @include flexbox;
+  float: left;
 }
 
     .personViaf {
@@ -771,12 +982,12 @@ span.searchHit {
     margin: 0px 0px 0px 2px;
     text-decoration: none;
 }
-    margin-left: 140px;
     .issue > .pieceMeta {
       margin: 0px;
       line-height: normal;
       margin-right: 10px;
       width: 100%;
+    padding-bottom: 10px;      
     }
     .pieceTitle {
       font-size: 2em;
@@ -799,7 +1010,7 @@ span.searchHit {
   }
 
 .issueHeader > .issueMeta{
-    margin-left: 151px;  
+    //margin-left: 151px;  
 
 }  
   .issueHeader .pieceAuthor {
@@ -807,22 +1018,27 @@ span.searchHit {
   }
   .issueVol,
   .issueNum {
-    background: #474747;
-    color: #ffffff;
-    width: 45px;
-    font-weight: 700;
-    font-size: 0.9em;
     float: left;
-    margin-right: 1px;
-    height: 18px;
-    justify-content: center;
-    align-items: center;
     margin-top: 0px;
     position: relative;
-    top: -1px;
+    top: 0px;
     padding-bottom: 6px;
-    @include flexCenter;
-    border-radius: 0px;    
+    @include flexbox;
+    border-radius: 0px;
+    background: #474747;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+    height: 23px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em; 
   }
   .pieceMeta {
     margin-bottom: 30px;
@@ -982,14 +1198,14 @@ background: #474747;
 }
 
 .viewerSelector {
-  float: left;
-  margin-right: 15px;
   border: 1px solid $document-text-color;
-  overflow: hidden;
-  z-index: 2;
-  position: absolute;
-  top: 87px;
-    margin-left: 20px;  
+    float: right;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    top: 228px;
+    right: 100px;
+    width: 123px;
 }
 
 .viewerTitle {
@@ -1054,10 +1270,26 @@ background: #474747;
 
 /*credits*/
 
+  .creditsPersonListActive> h2,   .creditsPersonListPast> h2 {
+    border: 1px solid #ababab;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .personRoleName > h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  }
+
+
 .creditsPerson {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e9e9e9;
+    width: 50%;
+    margin-left: 20px;
+    border-left: 2px solid #474747;
+    padding-left: 15px;    
 }
 
 .creditsPersonName {
@@ -1126,6 +1358,10 @@ canvas#pdf {
 .abouts {
   @include flexbox;
   min-height: calc(100vh - 47px);
+
+  .intraIssueNav{
+    display: none;
+  }
 }
 
 .aboutToggle {
@@ -1133,12 +1369,16 @@ canvas#pdf {
   flex-direction: column;
   background: white;
   border-right: 1px solid $light-border-color;
+  padding-top: calc(50vh - 200px);
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
+
 }
 
 .aboutToggle > div {
-  padding: 50px;
+  padding: 50px 100px;
   background: white;
-  border-bottom: 1px solid $light-border-color;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -1146,8 +1386,18 @@ canvas#pdf {
 }
 
 .aboutViewer {
-  background: white;
-  padding: 20px;
+    background: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 70%;
+    box-sizing: border-box;    
+    p {
+      width: 500px;
+      }
 }
 
 .aboutToggle .active {
@@ -1156,6 +1406,10 @@ canvas#pdf {
 
 .headerNav > .active {
   color: $primary-accent-color;
+}
+
+.logo{
+      margin-right: 280px;
 }
 
 .logoTitle {
@@ -1221,12 +1475,12 @@ canvas#pdf {
 }
 
 .contrast {
-    background: white;
-    font-size: 12px;
+font-size: 12px;
     border: none !important;
     padding: 5px 10px 5px 10px !important;
     flex-direction: row;
     flex-grow: 2;
+    justify-content: flex-end;
 }
 
 
@@ -1247,7 +1501,7 @@ canvas#pdf {
     font-weight: 800;
     font-size: 0.8em;
     text-transform: uppercase;
-    margin: 0px 0px 0px 2px;
+    margin: 0px 0px 10px 2px;
     text-decoration: none;
 }
 
@@ -1260,7 +1514,7 @@ h1{
 }
 
 .personography h1{
-    background: white;
+    color: white;
     padding: 20px;
 }
 
@@ -1268,6 +1522,14 @@ h1{
 
 .highContrast {
 
+
+.issueDate{
+      width: 155px;
+}
+
+.issueVol{
+  width: 90px;
+}
 .active.childText {
     color: white;
 }
@@ -1335,9 +1597,6 @@ h1{
     font-size: 12px;
   }
 
-.issueHeader .bibl {
-    margin-left: 160px;
-}
 
 }
 
@@ -1358,4 +1617,26 @@ h1{
 
 .fade-leave-to {
   opacity: 0;
+}
+
+//
+
+.ease-transition{
+  transition: all 1s ease;
+}
+
+.ease-enter-active {
+  transition: all 1s ease;
+}
+
+.ease-leave-active {
+  transition: all 1s ease;
+}
+
+.ease-enter {
+  transition: all 1s ease;
+}
+
+.ease-leave-to {
+  transition: all 1s;
 }
