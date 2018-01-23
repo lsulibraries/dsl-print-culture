@@ -17,34 +17,36 @@
 </template>
 
 <script>
-    export default { 
-        data() {
-            return {
-                abouts: this.$root.state.content.abouts,
-                aboutText: this.$root.xhrDataStore.abouts.about,
-                techText: this.$root.xhrDataStore.abouts.tech
-            }
-        },
-        methods: {
-            selectMe: function(about) {
-                this.abouts = about;
-                Event.$emit('aboutsSelected', this.abouts);
-            },
-        },
-        created() {
-            var url;
-            if(this.$root.xhrDataStore.abouts.about.length > 1){
-                this.aboutText = this.$root.xhrDataStore.abouts.about
-            }else{
-                url = '/api/broadwayjournal/abouts/about'
-                axios.get(url).then(response => this.aboutText = response.data);
-            }
-            if(this.$root.xhrDataStore.abouts.tech.length > 1){
-                this.techText = this.$root.xhrDataStore.abouts.tech
-            }else{
-                url = '/api/broadwayjournal/abouts/tech'
-                axios.get(url).then(response => this.techText = response.data);
-            }
-        }
-    }
+  import creditsPersonList from './creditsPersonList'  
+  export default { 
+      components: { creditsPersonList },
+      data() {
+          return {
+              abouts: this.$root.state.content.abouts,
+              aboutText: this.$root.xhrDataStore.abouts.about,
+              techText: this.$root.xhrDataStore.abouts.tech
+          }
+      },
+      methods: {
+          selectMe: function(about) {
+              this.abouts = about;
+              Event.$emit('aboutsSelected', this.abouts);
+          },
+      },
+      created() {
+          var url;
+          if(this.$root.xhrDataStore.abouts.about.length > 1){
+              this.aboutText = this.$root.xhrDataStore.abouts.about
+          }else{
+              url = '/api/broadwayjournal/abouts/about'
+              axios.get(url).then(response => this.aboutText = response.data);
+          }
+          if(this.$root.xhrDataStore.abouts.tech.length > 1){
+              this.techText = this.$root.xhrDataStore.abouts.tech
+          }else{
+              url = '/api/broadwayjournal/abouts/tech'
+              axios.get(url).then(response => this.techText = response.data);
+          }
+      }
+  }
 </script>

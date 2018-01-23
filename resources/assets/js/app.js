@@ -494,35 +494,6 @@ Vue.component('logo', {
 })
 
 
-
-Vue.component('creditsPersonList', {
-    template: `
-    <div class="creditsPersonsList">
-        <div class="creditsPersonListActive">
-            <h2>Active</h2>
-            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'active'"></creditsPerson>
-        </div>
-        <div class="creditsPersonListPast">
-            <h2>Past</h2>
-            <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'past'"></creditsPerson>
-        </div>
-    </div>
-	`,
-    methods: {
-	dataLoaded: function() {
-	    return this.$root.empty(this.creditsData)
-	}
-    },
-    created() {
-	   this.creditsData = this.$root.xhrDataStore.personography.projectStaff
-    },
-    data() {
-	return {
-	    creditsData: {}
-	}
-    }
-})
-
 Vue.component('creditsPerson', {
     template: `
 	<div class="creditsPerson">
