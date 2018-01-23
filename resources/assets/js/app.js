@@ -493,35 +493,6 @@ Vue.component('logo', {
     `
 })
 
-
-Vue.component('creditsPerson', {
-    template: `
-	<div class="creditsPerson">
-	  <div class="creditsPersonName">{{person.personMeta.personName}}</div>
-      <div class="creditsPersonRoleName">{{ this.getRoleName() }}</div>
-	  <!-- <div class="creditsPersonAffiliation" v-if="this.hasBio()">{{ this.getAffiliation() }}</div> -->
- 	  <div class="creditsPersonNote" v-if="this.hasBio()">{{ this.getNote() }}</div>
-        </div>
-	`,
-    props: ['person'],
-    methods: {
-        getAffiliation: function () {
-            console.log(this.person.personMeta.personName)
-            affiliation = this.$root.empty(this.person.personMeta.personBio.personAffiliation) ? '' : this.person.personMeta.personBio.personAffiliation
-            return affiliation
-        },
-        getNote: function () {
-            return this.$root.empty(this.person.personMeta.personBio.personNote) ? '' : this.person.personMeta.personBio.personNote
-        },
-        hasBio: function () {
-            return !this.$root.empty(this.person.personMeta.personBio)
-        },
-        getRoleName: function () {
-            return this.person.personMeta.personRoleName
-        }
-    }
-})
-
 Vue.component('viewerSelector',{
     created(){
     	Event.$on('viewerSelected', (viewer) =>{

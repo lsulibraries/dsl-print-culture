@@ -16,7 +16,9 @@
     </div>
 </template>
 <script>
+    import creditsPerson from './creditsPerson'
     export default {
+        components: { creditsPerson },
         methods: {
             includePersonInList: function (state, role) {
                 return person.personMeta.personRole == state && person.personMeta.personRoleName == role
