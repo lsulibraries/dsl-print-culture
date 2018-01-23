@@ -144,9 +144,16 @@ Vue.component('personography',{
 
 Vue.component('personographyDescription', {
     template: `
+
 	<div class="personographyDiscription">
           <div class="personographyDiscriptionHeader" v-html="this.personographyDescription"></div>
-	  <div class="personographyDiscriptionText" ></div>
+	  <div class="personographyDiscriptionText" ></div>      
+        <div class="personListBibl">
+                <transition name="quickfade">
+          <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
+          <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
+          <personBibl v-if="biblActive" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
+            </transition>
         </div>
 	`,
     data() {
@@ -167,8 +174,8 @@ Vue.component('personographyDescription', {
 Vue.component('personIndex', {
     template: `
 	<div class='personIndex' v-if="!this.$root.empty(this.index)">
-          <person v-for="personObj in this.index" :person="personObj"></person>
-        </div>
+            <person v-for="personObj in this.index" :person="personObj"></person>
+    </div>
 	`,
     data() {
 	return {
@@ -281,6 +288,7 @@ Vue.component('personMeta', {
 
 Vue.component('person', {
     template: `
+<<<<<<< Updated upstream
       <div  class='person' @click="toggleBibls" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
 	<personMeta :personMeta="person.personMeta"></personMeta>
     <div class="personBlurb" v-if="this.getBlurb().length > 0 && showBibls">{{ this.getBlurb() }}</div>
@@ -288,6 +296,11 @@ Vue.component('person', {
           <personBibl v-if="showBibls" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
 	</div>
       </div>
+=======
+      <transition name="fade"><div class='person' @click="transmitPerson();" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
+	<personMeta :personMeta="person.personMeta"></personMeta>
+      </div></transition>
+>>>>>>> Stashed changes
 	`,
     props: ['person'],
     data() {
