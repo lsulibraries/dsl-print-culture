@@ -127,13 +127,11 @@ body {
   display: flex;
   position: relative;
   z-index: 3;
-  background: white;
-  border-bottom: 1px solid #e9e9e9;
+  background: #EFECCA;
 }
 
 .header a {
   text-decoration: none;
-  color: #474747;
 }
 
 .headerLogo {
@@ -165,6 +163,12 @@ body {
   font-weight: 700;
   justify-content: inherit;
   padding-left: 80px !important;
+  background: #002F2F;
+  color: #EFECCA;
+}
+
+.headerTitle:hover {
+  color: #A7A37E;
 }
 
 .headerNav {
@@ -191,7 +195,6 @@ body {
 .header > div:not(.headerNav),
 .header > a {
   padding: 30px 0px;
-  border-right: 1px solid #e9e9e9;
   cursor: pointer;
   min-width: 236px;
   width: 30%;
@@ -211,8 +214,7 @@ body {
 }
 
 .headerNav > div:hover {
-  color: white;
-  background: #fe7251;
+  color: #046380;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
@@ -290,7 +292,7 @@ input:focus {
   display: -webkit-flex;
   display: flex;
   align-content: flex-start;
-  background: white;
+  background: #002F2F;
   padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
@@ -298,6 +300,7 @@ input:focus {
   box-sizing: border-box;
   min-width: 236px;
   border-right: 1px solid #e9e9e9;
+  color: #A7A37E;
 }
 
 .interIssueNav::before {
@@ -305,8 +308,8 @@ input:focus {
   font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-  background: #474747;
-  color: white;
+  background: #EFECCA;
+  color: #002F2F;
   padding: 5px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -318,8 +321,8 @@ input:focus {
   font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-  background: #474747;
-  color: white;
+  background: #EFECCA;
+  color: #002F2F;
   padding: 5px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -346,7 +349,7 @@ input:focus {
 }
 
 .issueBody {
-  background: white;
+  background: #EFECCA;
   flex-grow: 2;
   width: 70%;
 }
@@ -357,16 +360,17 @@ input:focus {
 }
 
 .singleText {
-  background: #e9e9e9;
+  background: #A7A37E;
   padding: 5px;
   margin-bottom: 1px;
+  color: #002F2F;
 }
 
 .singleIndex:nth-child(1) {
   width: 100%;
   font-size: 1.2em;
-  color: #979797;
-  border-bottom: 1px dashed #e9e9e9;
+  color: #A7A37E;
+  border-bottom: 1px dashed #A7A37E;
   margin-bottom: 5px;
 }
 
@@ -377,18 +381,20 @@ input:focus {
   width: 100%;
 }
 
+.activeMonth > div > .singleText {
+  background: #efecca;
+}
+
 .singleIndex.activeMonth {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  background: #fe7251;
-  color: #fe7251;
 }
 
 .singleText {
-  background: #e9e9e9;
+  background: #A7A37E;
   padding: 13px;
   margin: 1px;
   width: 40px;
@@ -396,8 +402,7 @@ input:focus {
 }
 
 .singleText:hover {
-  background: #474747;
-  color: white;
+  background: #EFECCA;
 }
 
 .childIndex {
@@ -408,7 +413,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fe7251;
+  background: #046380;
   margin-bottom: 1px;
   padding: 10px 15px 10px 15px;
   color: white;
@@ -432,7 +437,7 @@ input:focus {
 
 .childPieceTitle {
   font-weight: 500;
-  border-left: 2px solid #474747;
+  border-left: 2px solid #A7A37E;
   padding-left: 5px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -454,7 +459,7 @@ input:focus {
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
   transition: all 0s ease;
-  color: #fe7251;
+  color: #EFECCA;
 }
 
 .issueVol,
@@ -1233,7 +1238,7 @@ span.searchHit {
 .creditsPerson {
   padding-bottom: 20px;
   padding-top: 20px;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   width: 50%;
   margin-left: 20px;
   border-left: 2px solid #474747;
@@ -1322,8 +1327,7 @@ canvas#pdf {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
-  background: white;
-  border-right: 1px solid #e9e9e9;
+  background: #002F2F;
   padding-top: calc(50vh - 200px);
   min-width: 236px;
   width: 30%;
@@ -1332,15 +1336,15 @@ canvas#pdf {
 
 .aboutToggle > div {
   padding: 50px 100px;
-  background: white;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
+  color: #A7A37E;
 }
 
 .aboutViewer {
-  background: white;
+  background: #EFECCA;
   padding: 20px 20px;
   display: flex;
   justify-content: center;
@@ -1355,11 +1359,11 @@ canvas#pdf {
 }
 
 .aboutToggle .active {
-  color: #fe7251;
+  color: #EFECCA;
 }
 
 .headerNav > .active {
-  color: #fe7251;
+  color: #046380;
 }
 
 .logo {
