@@ -261,7 +261,7 @@ Vue.component('biblPersonPieceMeta',{
 Vue.component('biblPieceMeta', {
     template: `
 	<div class="pieceMeta">
-	  <h1 class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>
+	  <h1 class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</h1></div>
         </div>
     `,
     props: ['pieceMeta', 'issueId'],
@@ -648,12 +648,12 @@ Vue.component('toc-item',{
 	},
         template:`
             <div class="tocItem" v-bind:class='id.type'>
-	      <div class='tocToggle' @click='tocItemSelected'>
-                <div class="tocTitle">{{id.title}}</div>
-            	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
-                <div v-if='id.start' class="pageNumber"></div>
-	      </div>
-              <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
+                <div class='tocToggle' @click='tocItemSelected'>
+                    <div class="tocTitle">{{id.title}}</div>
+                    <div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
+                    <div v-if='id.start' class="pageNumber"></div>
+                </div>
+                <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
             </div>
 	 `
 });
@@ -675,7 +675,7 @@ Vue.component('child-piece',{
             <div class="childPiece" @click='tocItemSelected'>
               <div class="childPieceTitle">{{id.title}}</div>
               <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
-            <div>
+            </div>
 	`
 })
 
@@ -891,9 +891,9 @@ Vue.component('tei-markup',{
 	    }
 	},
     template: `
-      <div class='tei-markup'>
-	<div class='teiMarkup' v-html="this.highlightText()"><div>
-      </div>
+        <div class='tei-markup'>
+            <div class='teiMarkup' v-html="this.highlightText()"></div>
+        </div>
 	`
 })
 
