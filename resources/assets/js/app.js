@@ -52,42 +52,7 @@ Vue.component('personographyDescription', {
     }
 })
 
-Vue.component('personIndex', {
-    template: `
-	<div class='personIndex' v-if="!this.$root.empty(this.index)">
-          <person v-for="personObj in this.index" :person="personObj"></person>
-        </div>
-	`,
-    data() {
-	return {
-	    index: {},
-	}
-    },
-    methods: {
-        setupIndex: function (rawIndex) {
-            let deduped = {};
-            let entries = Object.entries(rawIndex)
-            for (const [key, value] of entries) {
-                if (Array.isArray(value)) {
-                    console.log(key + ' has multiple records, arbitrarily(-ish) using the first...')
-                    deduped[key] = value[0]
-                }
-                else {
-                    deduped[key] = value
-                }
-            }
-            this.index = deduped
-        }
-    },
-    created(){
-        if (!this.$root.empty(this.$root.xhrDataStore.personography.personIndex)) {
-            this.setupIndex(this.$root.xhrDataStore.personography.personIndex)
-        }
-        Event.$on('personographyLoaded', (index) => {
-            this.setupIndex(index.personIndex);
-        })
-    }
-})
+
 
 Vue.component('personFilter', {
     template: `

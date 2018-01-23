@@ -1,5 +1,7 @@
 <script>
+    import personIndex from './personIndex'
     export default {
+        components: { personIndex },
         data(){
             return {
                 modalActive:false,
