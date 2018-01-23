@@ -1,0 +1,1642 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700';
+$document-color: #eee3cf;
+$background-document-color: #faeee2;
+$background-authors-color: #29303a;
+$primary-accent-color: #fe7251;
+$light-border-color: #e9e9e9;
+$primary-accent-color-HC: #000000;
+$secondary-accent-color: #322e2b;
+$document-text-color: #474747;
+$document-divide-color: rgba(250, 238, 226, 0.09);
+$document-outer-border: #d0c7be;
+$hr-color: rgba(250, 238, 226, 0.3);
+$primary-accent-color2: #be553c;
+$primary-accent-color-HC2: #000000;
+$primary-accent-color-HC3: #000000;
+$primary-accent-color3: rgba(254, 114, 81, 0.5);
+$dark-border-color: #5c5c5c;
+
+//https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
+
+$darkest: #002F2F;
+$dark: #046380;
+$lightest:#EFECCA;
+$lighter: #E6E2AF;
+$light:#A7A37E;
+
+//end adobe colors
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin transform($deg) {
+  -ms-transform: rotate($deg);
+  -webkit-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+@mixin transition-duration($sec) {
+  -webkit-transition-duration: $sec;
+  transition-duration: $sec;
+}
+
+@mixin transition($sec) {
+  -webkit-transition: all $sec ease;
+  -moz-transition: all $sec ease;
+  -ms-transition: all $sec ease;
+  transition: all $sec ease;
+}
+
+@mixin flexCenter {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.biblTitle,
+.issueId,
+.biblPage {
+  display: none;
+}
+
+body {
+  margin: 0px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: $document-text-color;
+}
+
+
+//Begin modal styles
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+    width: 460px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+//modal-body begin
+
+.modal-body {
+  margin: 20px 0;
+  height: 500px;
+  overflow-y: scroll;
+
+  .personBibl{
+  background: white;
+  border: 1px solid #d6d6d6;  
+  margin-right: 20px;
+  padding-bottom: 0px;      
+  }
+
+  .pieceMeta {
+  position: absolute;
+  margin-left: 70px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 46px;
+  left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  }
+
+  .sectionTitle {
+  color: #474747;
+  font-weight: 700;
+  justify-content: flex-start;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  }  
+
+}
+
+//modal-body end
+
+
+.modal-default-button {
+    width: 100%;
+    background: #fe7251;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    cursor: pointer;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+//endmodal styles
+#infoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.header {
+  @include flexbox;
+  position: relative;
+  z-index: 3;
+  background: white;
+    border-bottom: 1px solid #e9e9e9;  
+}
+
+.header a {
+  text-decoration: none;
+  color: $document-text-color;
+}
+
+.headerLogo {
+  @include flexCenter;
+}
+
+.headerLogo img {
+  width: 120px;
+  height: auto;
+}
+
+.headerTitle {
+  @include flexCenter;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  justify-content: inherit; 
+  padding-left: 80px !important;
+}
+
+.headerNav {
+  @include flexCenter;
+  position: relative;
+  font-weight: 700;
+}
+
+.headerNav div {
+  cursor: pointer;
+}
+
+.headerNav i {
+  margin: 0px 10px 0px 0px;
+  font-size: 1.3em;
+}
+
+.header > div:not(.headerNav),
+.header > a {
+    padding: 30px 0px;
+    border-right: 1px solid #e9e9e9;
+    cursor: pointer;
+    min-width: 236px;
+    width: 30%;
+    box-sizing: border-box;
+    margin-right: 20px;
+
+}
+
+.headerNav > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px 16px 20px;
+  @include transition(0.5s);
+}
+
+.headerNav > div:hover {
+  color: white;
+  background: $primary-accent-color;
+  @include transition(0s);
+}
+
+input {
+  border: 1px solid $light-border-color;
+  color: grey;
+  padding: 5px;
+}
+
+input:focus {
+  color: $primary-accent-color;
+}
+
+.contrast {
+  flex-direction: column;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 9px;
+}
+
+.contrast,
+.contrastSwitch {
+  @include flexCenter;
+}
+
+.contrastOn,
+.contrastOff {
+  padding: 2px 10px 2px 10px;
+}
+
+.contrastSwitch {
+  border: 1px solid;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.contrastOff {
+  background: $document-text-color;
+  color: white;
+}
+
+.content {
+  background: $light-border-color;
+  font-size: 14px;
+}
+
+.searchInput {
+  flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.issue {
+  @include flexbox;
+}
+
+.interIssueNav {
+  @include flexbox;
+  align-content: flex-start;
+  background: white;
+  padding: 80px;
+  font-weight: 700;
+  flex-wrap: wrap;
+    width: 30%;
+    box-sizing: border-box;  
+    min-width: 236px;
+border-right: 1px solid #e9e9e9;    
+}
+
+.interIssueNav::before {
+    content: 'issue navigation';
+    font-size: 1.1em;
+    text-transform: uppercase;
+    line-height: .9em;
+    background: #474747;
+    color: white;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+
+.tocDropdown {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    line-height: .9em;
+    background: #474747;
+    color: white;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.tocItem {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.author {
+  font-weight: 500;
+}
+
+.issueIndex {
+  margin-bottom: 10px;
+}
+
+.issueIndex > div {
+  @include transition(.5);
+}
+
+.issueBody {
+  background: white;
+  flex-grow: 2;
+  width: 70%;
+}
+
+.issueDate {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.singleText {
+  background: $light-border-color;
+  padding: 5px;
+  margin-bottom: 1px;
+}
+
+.singleIndex:nth-child(1) {
+  width: 100%;
+  font-size: 1.2em;
+  color: #979797;
+  border-bottom: 1px dashed #e9e9e9;
+  margin-bottom: 5px;
+}
+
+.issueIndex {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.singleIndex.activeMonth {
+  @include flexbox;
+  background: $primary-accent-color;
+  color: $primary-accent-color;
+}
+
+.singleText {
+  background: $light-border-color;
+  padding: 13px;
+  margin: 1px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.singleText:hover {
+  background: $document-text-color;
+  color: white;
+}
+
+.childIndex {
+  @include flexCenter;
+  background: $primary-accent-color;
+  margin-bottom: 1px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.childIndex:hover,
+.childIndex:hover .active.childText {
+  background: $document-text-color;
+  color: white;
+}
+
+.intraIssueNav {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.active.childText {
+  color: black;
+}
+
+.childPieceTitle {
+  font-weight: 500;
+  border-left: 2px solid $document-text-color;
+  padding-left: 5px;
+  @include transition(.5s);
+}
+
+.piece, .section .tocTitle{
+  @include transition(.5s);
+}
+
+.intraIssueNav {
+  .childPieceTitle:hover,
+  .piece:hover, .section .tocTitle:hover {
+    padding-left: 10px;
+    @include transition(0s);
+    color: $primary-accent-color;
+  }
+}
+
+.issueVol,
+.issueNum {
+  background: #474747;
+  color: white;
+  padding: 5px;
+  margin-top: 1px;
+  border-radius: 2px;
+  width: 45px;
+  font-size: 0.9em;
+}
+
+.viewer {
+    padding: 0px 100px;
+}
+
+.teiMarkup {
+  font-size: 1.2em;
+    padding-top: 0px;  
+}
+
+.tei-markup {
+    border-top: 3px solid grey;
+    padding-top: 40px;
+}
+
+
+.head {
+  font-weight: 700;
+  border-bottom: 1px solid#c0c0c0;
+  margin: 20px 0px 20px 0px;
+}
+
+button.searchSubmit {
+  background: none;
+  border: none;
+  color: $document-text-color;
+}
+
+
+/*BEGIN Personography*/
+
+.personography {
+  position: relative;
+  @include flexbox;
+
+.pieceTitleContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4px;
+}
+
+.personName{
+      padding: 10px;
+
+}
+
+.peopleFilters {
+    background: white;
+    width: 30%;
+    box-sizing: border-box;
+border-right: 1px solid #e9e9e9;    
+}
+
+
+.person.Contributing.active {
+    background-image: url(http://i.imgur.com/BJtKhwV.png);
+}
+
+.personViaf {
+  display: none;
+}
+
+  .authorCertainty {
+    background: #fe7251;
+    float: left;
+    color: white;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 2px 4px 2px 4px;
+    border-radius: 2px;
+  }
+  .authorStatus {
+    @extend .authorCertainty;
+  }
+  .personPieceRole {
+    @extend .authorCertainty;
+  }
+  .authorRole {
+    @extend .authorCertainty;
+  }
+  .sectionTitle {
+    font-weight: 700;
+  }
+  .issueMeta {
+  }
+  .pieceTitle {
+    margin-top: 4px;    
+  }
+
+  .personPieceMeta{
+        margin-top: 4px;    
+
+  }
+  .pieceMeta {
+    margin-left: 0px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    width: 100%;    
+  }
+
+  .personMeta {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #e9e9e9;
+
+}
+}
+
+
+.personIndex {
+  @include flexbox;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  align-content: flex-start;
+  width: 70%;
+  background: white;
+  padding: 80px 100px;
+  box-sizing: border-box;
+}
+
+.personFilter {
+    width: 100%;
+    background: white;
+    top: 0px;
+}
+
+.personFilter input {
+    width: 90%;
+    font-size: 2em;
+    padding: 10px;
+    border: 5px solid #e9e9e9;
+    border-radius: 70px;
+    margin: 30px;
+}
+
+.personIndex .person {
+    margin: 10px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    @include flexbox;
+    flex-direction: column;
+    border: 1px solid #d0d0d0;    
+}
+
+.Contributing .personName {
+  color: white;
+}
+
+.personName {
+  font-size: 14px;
+  font-weight: 700;
+  flex-grow: 2;
+    color: #474747 !important;  
+}
+
+.personRole {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px !important;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Contributing .personRole {
+  background: #474747;
+  color: $primary-accent-color;
+  padding: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.Mentioned .personRole, .Correspondent .personRole {
+  background: $document-text-color;
+  color: $primary-accent-color;
+  padding: 5px;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.personBibl {
+  @include flexbox;
+    background: #474747;
+    color: #474747;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    min-height: 58px;
+}
+
+.pieceMeta {
+  position: relative;
+  .pieceTitle {
+    font-size: 14px;
+    padding-top: 0px;
+    text-align: -webkit-left;
+    text-transform: none;
+    padding-bottom: 0px;    
+
+  }
+  margin-left: 7px;
+  line-height: 15px;
+}
+
+.sectionTitle {
+    border: 1px solid #474747;
+    font-size: 13px;
+    padding: 0px 6px;
+    height: 23px;
+    box-sizing: border-box;
+    line-height: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+a.downloadLink {
+    background: #474747;
+    height: 23px;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    line-height: 0.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.downloadIcon {
+  height: 100%;
+  width: 30px;
+  border-right: 1px solid white;
+  background: #474747;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.downloadText {
+  @include flexCenter;
+  height: 100%;
+    padding: 0px 7px;  
+}
+
+.drawerActuator {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: $light-border-color;
+    }
+
+.drawerIcon {
+height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    background: $primary-accent-color;
+}
+
+.drawerText {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 9px;
+}
+
+
+/*BEGIN SEARCH RESULTS*/
+
+.searchResults {
+  background: #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+}
+
+.searchResultsHeader {
+  padding: 20px;
+  background: white;
+}
+
+.searchResultsTitle {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline;
+}
+
+.searchResultsCount {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #b7b7b7;
+  display: inline;
+  position: relative;
+  margin-left: 10px;
+  top: -2px;
+  border-radius: 5px;
+}
+
+.searchResultsString {
+  position: relative;
+  top: -6px;
+  color: #8a8a8a;
+  font-weight: 700;
+}
+
+.searchResult {
+  background: #ffffff;
+  margin-top: 1px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.searchResult:hover {
+  background: #e9e9e9;
+}
+
+.searchResult .pieceTitle {
+  font-size: 1.5em;
+}
+
+.context {
+  font-size: 1.2em;
+}
+
+span.searchHit {
+  background: yellow;
+}
+
+.authorShipOrigin {
+  float: left;
+  background: #fe7251;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  position: relative;
+  top: -2px;
+  border-radius: 2px;
+  margin: 0px 0px 0px 2px;
+}
+
+.authorShipCertainty {
+  @extend .authorShipOrigin;
+}
+
+.issueHeader > .sectionMeta .sectionTitle {
+    position: absolute;
+    left: 270px;
+    top: 6px;
+    font-weight: 700;
+}
+
+.issueInfo{
+  @include flexbox;
+}
+
+.issueHeader {
+
+  @include flexbox;
+  flex-direction: column;
+  position: relative;  
+  min-height: 100px;  
+    padding: 100px;
+    padding-top: 80px;   
+    padding-bottom: 0px;   
+
+.bibl {
+    padding-bottom: 20px;
+    padding-right: 140px;    
+}
+
+.fillerHeader{
+     font-size: 2em;
+     line-height: 30px;
+     font-weight: 700;
+ 
+ }
+ 
+
+.issueDate {
+    background: #474747;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+    height: 23px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em;
+}
+
+.personMeta{
+  float: left;
+  @include flexbox;
+padding-bottom: 4px;
+}
+
+.personName {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 2px;
+
+}
+
+
+  .issueMeta {
+    background-image: url(http://i.imgur.com/BJtKhwV.png);
+    margin-bottom: 10px;    
+  }
+  .bibl > .issue {
+    flex-wrap: wrap;
+  }
+  .bibl {
+
+.issueHeader .personMeta {
+    float: left;
+     @include flexbox;
+
+}
+
+button#show-modal{
+    background: transparent;
+    color: #474747;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 2px;
+    text-decoration: none;
+    border: 1px solid rgba(71, 71, 71, 0.3);
+    cursor: pointer;
+    box-shadow: none;
+    font-family: Roboto;
+    box-sizing: border-box;
+    height: 24px;
+}
+
+.personPieceMeta, .authorShip {
+  @include flexbox;
+  float: left;
+}
+
+    .personViaf {
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+
+}
+
+    .authorRole, .authorStatus, .authorCertainty, .personViaf a {
+    background: #e9e9e9;
+    color: #474747;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 2px;
+    text-decoration: none;
+}
+    .issue > .pieceMeta {
+      margin: 0px;
+      line-height: normal;
+      margin-right: 10px;
+      width: 100%;
+    padding-bottom: 10px;      
+    }
+    .pieceTitle {
+      font-size: 2em;
+      line-height: 30px;
+      font-weight: 700;
+    }
+    .sectionMeta {
+      font-weight: 700;
+    margin-bottom: -4px;
+    }
+  }
+  .issueHeader > .personPieceMeta {
+    display: flex;
+  }
+  .personMeta {
+
+   .personRole {
+      display: none;
+    }
+  }
+
+.issueHeader > .issueMeta{
+    //margin-left: 151px;  
+
+}  
+  .issueHeader .pieceAuthor {
+    font-size: 1.4em;
+  }
+  .issueVol,
+  .issueNum {
+    float: left;
+    margin-top: 0px;
+    position: relative;
+    top: 0px;
+    padding-bottom: 6px;
+    @include flexbox;
+    border-radius: 0px;
+    background: #474747;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+    height: 23px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-right: 1px;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: .9em; 
+  }
+  .pieceMeta {
+    margin-bottom: 30px;
+    margin-left: 0x;
+  }
+  .pieceAuthor,
+  .pieceAuthorRole {
+    float: left;
+  }
+  .pieceAuthorShip {
+    display: inline;
+  }
+  .pieceAuthorRole {
+    background: $primary-accent-color;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 2px 4px 2px 4px;
+    border-radius: 3px;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+  }
+}
+
+.personBibl {
+  .issueVol,
+  .issueNum {
+    float: none;
+    background: $primary-accent-color;
+  }
+}
+
+.pieceAuthorRole {
+  background: $primary-accent-color;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding: 2px 4px 2px 4px;
+  border-radius: 3px;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+
+.active .drawerActuator {
+background: #474747;
+    color: white;
+    border: none;
+}
+
+.drawer.active {
+    border: 2px solid #474747;
+}
+
+.drawer {
+
+    margin: 20px;
+    margin-left: -120px;    
+    margin-bottom: 0px;
+
+    .issueMeta{
+    position: absolute;
+    top: 16%;
+    }
+
+    .sectionMeta, .pieceMeta, .personPieceMeta{
+      margin-left:70px;
+      @include transition(0.5s);
+
+    }
+      .authorCertainty {
+    
+    background: $document-text-color;
+    float: left;
+    color: white;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 2px 4px 2px 4px;
+    border-radius: 2px;
+  }
+  .authorStatus {
+    @extend .authorCertainty;
+  }
+  .personPieceRole {
+    @extend .authorCertainty;
+  }
+  .personBibl:hover {
+    .sectionMeta, .pieceMeta, .personPieceMeta {
+    margin-left: 80px;
+    @include transition(0s);
+    }
+  }
+  .personBibl {
+    color: $document-text-color;
+    background-image: url(http://i.imgur.com/BJtKhwV.png);
+    font-size: 0.9em;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0px;
+    margin-bottom: 1px;
+    position: relative;
+    border: none;
+  }
+  .issueVol,
+  .issueNum {
+    background: #ffffff;
+    color: #474747;
+    padding: 5px;
+    width: 45px;
+    border: 1px solid #e9e9e9;
+    font-weight: 700;
+    font-size: 0.9em;
+  }
+
+  .issueVol {
+    margin-bottom: -2px;
+}
+
+  .pieceTitle,
+  .issueHeader,
+  .pieceAuthorShip {
+    margin: 0px;
+  }
+  .pieceTitle {
+    font-size: 1.5em;
+  }
+.issueHeader .drawer .pieceMeta {
+    margin-bottom: 0px;
+}  
+}
+
+.authorShipLegend {
+  display: none;
+}
+
+.pieceAuthorShip:hover + .authorshipLegend,
+.authorshipLegend:hover {
+  display: block;
+  position: absolute;
+  width: 250px;
+  left: 290px;
+  top: 0px;
+  background: white;
+  padding: 22px;
+  border: 1px solid #e9e9e9;
+  border-radius: 2px;
+}
+
+
+/*END SEARCH RESULTS*/
+
+.issueHeader .drawer .pieceMeta {
+  margin-bottom: 0px;
+}
+
+.viewerSelector {
+  border: 1px solid $document-text-color;
+    float: right;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    top: 228px;
+    right: 100px;
+    width: 123px;
+}
+
+.viewerTitle {
+  text-transform: uppercase;
+  position: relative;
+  height: 20px;
+  font-size: 0.7em;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.viewerText {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $document-text-color;
+  color: white;
+  flex-direction: column;
+}
+
+.viewerPdf {
+  @extend .viewerText;
+  background: none;
+  color: $document-text-color;
+}
+
+.viewerTextIcon,
+.viewerPdfIcon {
+  font-size: 1.5em;
+}
+
+.viewerSwitch {
+  display: flex;
+  position: relative;
+  height: 37px;
+  justify-content: center;
+  font-weight: 700;
+  align-items: center;
+  border-top: 1px solid #e9e9e9;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  cursor: pointer;
+}
+
+.pdfSelected {
+  .viewerText {
+    color: $document-text-color;
+    background: none;
+  }
+  .viewerPdf {
+    color: white;
+    background: $document-text-color;
+  }
+}
+
+
+/*credits*/
+
+  .creditsPersonListActive> h2,   .creditsPersonListPast> h2 {
+    border: 1px solid #ababab;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .personRoleName > h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  }
+
+
+.creditsPerson {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e9e9e9;
+    width: 50%;
+    margin-left: 20px;
+    border-left: 2px solid #474747;
+    padding-left: 15px;    
+}
+
+.creditsPersonName {
+  font-weight: 700;
+}
+
+.creditsPersonAffiliation {
+  padding-bottom: 4px;
+  font-size: 0.8em;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+div#pdf-viewer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+    margin-top: 20px;  
+}
+
+button.next-page,
+button.prev- {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+canvas#pdf {
+  align-self: flex-start;
+  width: 100%;
+}
+
+#pdf-viewer {
+  background: #474747;
+}
+
+.Mentioned .personViaf a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  color: $document-text-color;
+  position: relative;
+  top: 7px;
+}
+
+.Contributing .personViaf a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  top: 7px;
+}
+
+.personViaf i {
+  margin-right: 5px;
+}
+
+.abouts {
+  @include flexbox;
+  min-height: calc(100vh - 47px);
+
+  .intraIssueNav{
+    display: none;
+  }
+}
+
+.aboutToggle {
+  @include flexbox;
+  flex-direction: column;
+  background: white;
+  border-right: 1px solid $light-border-color;
+  padding-top: calc(50vh - 200px);
+  min-width: 236px;
+  width: 30%;
+  box-sizing: border-box;
+
+}
+
+.aboutToggle > div {
+  padding: 50px 100px;
+  background: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.aboutViewer {
+    background: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 70%;
+    box-sizing: border-box;    
+    p {
+      width: 500px;
+      }
+}
+
+.aboutToggle .active {
+  color: $primary-accent-color;
+}
+
+.headerNav > .active {
+  color: $primary-accent-color;
+}
+
+.logo{
+      margin-right: 280px;
+}
+
+.logoTitle {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 20px;
+  display: flex;
+  font-family: "Adobe Caslon Pro";
+}
+
+.logoThe {
+  font-style: italic;
+  position: relative;
+  font-size: 20px;
+}
+
+.logoBroadway,
+.logoJournal {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.logoSubtitle {
+  text-transform: uppercase;
+  left: 4px;
+  letter-spacing: .5px;
+  position: relative;
+}
+
+
+.issueHeader > .issueMeta {
+    margin-left: 151px;
+}
+
+.roleFilter {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    height: 50px;
+    align-items: center;
+}
+
+.roleFilter > div {
+  padding: 0px 15px 0px 15px;
+  font-size: 1.1em;
+  background: #474747;
+    color: #989898;
+  flex-grow: 1;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid grey;
+  cursor: pointer;
+}
+
+.roleFilter .active {
+    color: white!important;
+}
+
+.contrast {
+font-size: 12px;
+    border: none !important;
+    padding: 5px 10px 5px 10px !important;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: flex-end;
+}
+
+
+.footer {
+    padding: 20px;
+    background: #e9e9e9;
+}
+
+.contrastTitle {
+    margin-right: 8px;
+}
+
+.authorShip {
+    background: #e9e9e9;
+    color: #474747;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 2px;
+    text-decoration: none;
+}
+
+h1{
+  margin:0px;
+}
+
+.personographyAbout {
+    display: none;
+}
+
+.personography h1{
+    color: white;
+    padding: 20px;
+}
+
+/*BEGIN High Contrast Mode*/
+
+.highContrast {
+
+
+.issueDate{
+      width: 155px;
+}
+
+.issueVol{
+  width: 90px;
+}
+.active.childText {
+    color: white;
+}
+
+.roleFilter > div {
+    background: black;
+  }
+
+.singleIndex:nth-child(1) {
+    color: black;
+
+}
+.personBibl{
+  min-height: 88px;
+}
+.personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole, .personography .authorRole {
+    background: $document-text-color;
+  }
+
+.personIndex .person {
+    background: #ffffff;
+  }
+
+  .personIndex{
+
+.personBibl .issueVol, .personBibl .issueNum {
+    float: none;
+    background: #474747;
+}
+
+    .Contributing .personName  {
+    color: #474747;
+}
+
+.Mentioned .personRole, .Correspondent .personRole, .Contributing .personRole {
+    background: #474747;
+    color: #ffffff;
+}
+  }
+
+.singleIndex.activeMonth, .headerNav > .active, .headerNav > .active, .aboutToggle .active {
+    color: black;
+}
+
+.singleIndex.activeMonth{
+  background: none;
+}
+
+.childIndex, a.downloadLink{
+  background: $document-text-color;
+}
+
+  .contrastOff {
+    background: white;
+    color: $document-text-color;
+  }
+  .contrastOn {
+    background: $document-text-color;
+    color: white;
+  }
+  .content {
+    font-size: 1.5em;
+  }
+  .contrast, .downloadText{
+    font-size: 12px;
+  }
+
+
+}
+
+
+/*END High Contrast Mode*/
+
+.fade-enter-active {
+  transition: transform 1s;
+}
+
+.fade-leave-active {
+  transition: opacity 0s;
+}
+
+.fade-enter {
+  transform: translateY(20px);
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
+
+//
+
+.ease-transition{
+  transition: all 1s ease;
+}
+
+.ease-enter-active {
+  transition: all 1s ease;
+}
+
+.ease-leave-active {
+  transition: all 1s ease;
+}
+
+.ease-enter {
+  transition: all 1s ease;
+}
+
+.ease-leave-to {
+  transition: all 1s;
+}
