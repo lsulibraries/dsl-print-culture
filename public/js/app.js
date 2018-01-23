@@ -1463,22 +1463,14 @@ Vue.component('tei-markup',{
 Vue.component('issue-month',{
 	data(){
 	    return {
-		toggled: false,
+                toggled: this.isToggledMonth(),
 		monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
 	    }
 	},
 	props: {month: '',	list: ''},
-	created(){
-		Event.$on('issueSelected',(id) =>{
-			for(each in this.$children){
-				if(this.$children[each].id==id){
-	    			this.$children[each].toggled=true;
-	    		}else{this.$children[each].toggled=false;}
-			}
-		})
-	},
-	methods: {
+        methods: {
 	    showChildren: function(){
+                this.$root.state.content.issue.current_month_y = this.list[0].substring(0,6)
 		if(this.toggled==false){
 		    //turn on this.$children
 		    for (each in this.$children){
@@ -1502,10 +1494,25 @@ Vue.component('issue-month',{
 					this.toggled=false;
 					}
 			}
-		}
-	},
+		},
+            isToggledMonth: function(){
+                if(this.list[0].substring(0,6) == this.$root.state.content.issue.current_month_y){
+                    this.toggled = true
+                    return true
+                }
+                else{
+                    this.toggled =false
+                    //turn off this.children
+		    for (each in this.$children){
+		        this.$children[each].meSeen=false;
+                    }
+
+                    return false
+                }
+	    }
+        },
         template: `
-            <div v-bind:class="{activeMonth: toggled}">
+            <div v-bind:class="{activeMonth: this.isToggledMonth()}">
               <div @click="showChildren()">
                 <div class="singleText" >{{this.month}}</div>
                 <div class="indicatorIndex"></div>
@@ -1523,11 +1530,31 @@ Vue.component('index-child',{
     methods: {
 	selectIssue: function(id){
 	    Event.$emit('issueSelected', id);
-	}
+	},
+        isCurrentIssue: function(){
+            console.log(this.id)
+            if(this.id == this.$root.state.content.issue.id){
+                return true
+            }
+        },
+        isMonthShown: function(){
+            if(this.$parent.toggled == true){
+                return true
+            }
+        }
     },
+    created() {
+        Event.$on('activeContentChanged', (content) =>{
+            if(content == 'issues' && this.$root.state.content.issue.id == this.id){
+                this.meSeen = true
+               console.log( this.$parent.$children)
+            }
+        })
+    },
+
     template: `
-	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
-	  <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
+	<div v-if="this.isMonthShown()" @click="selectIssue(id)" class="childIndex">
+	  <div v-bind:class="[{active: this.isCurrentIssue()}, 'childText']" v-text="id.slice(-2)"></div>
 	</div>`
 });
 
@@ -1703,6 +1730,7 @@ new Vue({
 		abouts: 'about', // technical | credits
 		issue: {
 		    id: '18450104',//'18450104', // yyyy-mm-dd
+                    current_month_y: '184501',
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: ''
@@ -1740,10 +1768,12 @@ new Vue({
 	    this.state.content.issue.page = 1;
 	    this.state.content.issue.decls_id = '';
 	    this.state.content.searchString = '';
+            this.state.content.issue.current_month_y = id.substring(0,6)
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.state.content.issue.id = bibl.issueId
 	    this.state.content.issue.decls_id = bibl.decls_id
+            this.state.content.issue.current_month_y = bibl.issueId.substring(0,6)
 	})
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.content.issue.page = page;
