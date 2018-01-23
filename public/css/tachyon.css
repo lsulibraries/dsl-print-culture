@@ -58,6 +58,7 @@ body {
   background: white;
   border: 1px solid #d6d6d6;
   margin-right: 20px;
+  padding-bottom: 0px;
 }
 .modal-body .pieceMeta {
   position: absolute;
@@ -67,6 +68,9 @@ body {
   align-items: center;
   width: 330px;
   height: 46px;
+  left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
 }
 .modal-body .sectionTitle {
   color: #474747;
@@ -669,7 +673,7 @@ button.searchSubmit {
 }
 
 .sectionTitle {
-  border: 1px solid #e9e9e9;
+  border: 1px solid #474747;
   font-size: 13px;
   padding: 0px 6px;
   height: 23px;
@@ -860,13 +864,18 @@ span.searchHit {
   padding-bottom: 20px;
   padding-right: 140px;
 }
+.issueHeader .fillerHeader {
+  font-size: 2em;
+  line-height: 30px;
+  font-weight: 700;
+}
 .issueHeader .issueDate {
   background: #474747;
   color: white;
   font-size: 1.1em;
   padding: 5px;
   height: 23px;
-  width: 130px;
+  width: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1210,10 +1219,25 @@ span.searchHit {
 }
 
 /*credits*/
+.creditsPersonListActive > h2, .creditsPersonListPast > h2 {
+  border: 1px solid #ababab;
+  padding: 10px;
+  width: 50%;
+}
+
+.personRoleName > h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
 .creditsPerson {
   padding-bottom: 20px;
   padding-top: 20px;
   border-bottom: 1px solid #e9e9e9;
+  width: 50%;
+  margin-left: 20px;
+  border-left: 2px solid #474747;
+  padding-left: 15px;
 }
 
 .creditsPersonName {
@@ -1300,7 +1324,7 @@ canvas#pdf {
   flex-direction: column;
   background: white;
   border-right: 1px solid #e9e9e9;
-  justify-content: center;
+  padding-top: calc(50vh - 200px);
   min-width: 236px;
   width: 30%;
   box-sizing: border-box;
@@ -1323,6 +1347,8 @@ canvas#pdf {
   align-items: center;
   flex-direction: column;
   flex-grow: 2;
+  width: 70%;
+  box-sizing: border-box;
 }
 .aboutViewer p {
   width: 500px;
@@ -1427,7 +1453,7 @@ canvas#pdf {
   font-weight: 800;
   font-size: 0.8em;
   text-transform: uppercase;
-  margin: 0px 0px 0px 2px;
+  margin: 0px 0px 10px 2px;
   text-decoration: none;
 }
 
@@ -1445,6 +1471,12 @@ h1 {
 }
 
 /*BEGIN High Contrast Mode*/
+.highContrast .issueDate {
+  width: 155px;
+}
+.highContrast .issueVol {
+  width: 90px;
+}
 .highContrast .active.childText {
   color: white;
 }
@@ -1513,4 +1545,24 @@ h1 {
 
 .fade-leave-to {
   opacity: 0;
+}
+
+.ease-transition {
+  transition: all 1s ease;
+}
+
+.ease-enter-active {
+  transition: all 1s ease;
+}
+
+.ease-leave-active {
+  transition: all 1s ease;
+}
+
+.ease-enter {
+  transition: all 1s ease;
+}
+
+.ease-leave-to {
+  transition: all 1s;
 }
