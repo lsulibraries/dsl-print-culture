@@ -15,8 +15,9 @@
 
 <script>
     import headerNav from './headerNav';
+    import headerLogo from './headerLogo';
     export default {
-        components: { headerNav },
+        components: { headerNav, headerLogo },
         methods: {
             resetSearchString: function(){
                 this.searchString = this.$root.state.content.searchString = ''

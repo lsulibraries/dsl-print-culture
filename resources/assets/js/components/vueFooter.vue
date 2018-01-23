@@ -8,3 +8,9 @@
 
     </div>
 </template>
+<script>
+    import headerLogo from './headerLogo'
+    export default {
+        components: { headerLogo }
+    }
+</script>
