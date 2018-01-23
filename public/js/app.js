@@ -1155,39 +1155,45 @@ Vue.component('intraIssueNav',{
 })
 
 Vue.component('toc-item',{
-	 data(){
-	 	return { toggled:false}
-	 },
-	 props:['id'],
-	 methods:{
-	    showChildren: function(){
-		if(this.toggled==false){
-		    //turn on this.$children
-		    for (each in this.$children){
-			this.$children[each].meSeen=true;
-			this.toggled=true;
-		    }
-		    //turn off everyone else's children
-		    for(one in this.$parent.$children){
-			//create new check for toc
-
-			if (this.$parent.$children[one].id != this.id){
-			    for(two in this.$parent.$children[one].$children){
-				this.$parent.$children[one].$children[two].meSeen=false;
-				//remove activeMonth from everyone else
-				this.$parent.$children[one].toggled=false;
-			    }							}
-			}
-		    }
-		    else{
-			//turn off this.children
-			for (each in this.$children){
-					this.$children[each].meSeen=false;
-					this.toggled=false;
-					}
-			}
-		},
-	     tocItemSelected: function() {
+    data(){
+        return { toggled:false}
+    },
+    props:['id'],
+    methods:{
+        isActive: function(){
+            if(this.id.decls_id == this.$root.state.content.issue.decls_id){
+                console.log('match')
+                return true
+            }
+         },
+        showChildren: function(){
+            if(this.toggled==false){
+                //turn on this.$children
+                for (each in this.$children){
+                    this.$children[each].meSeen=true;
+                    this.toggled=true;
+                }
+                //turn off everyone else's children
+                for(one in this.$parent.$children){
+                    //create new check for toc
+                    if (this.$parent.$children[one].id != this.id){
+                        for(two in this.$parent.$children[one].$children){
+                            this.$parent.$children[one].$children[two].meSeen=false;
+                            //remove activeMonth from everyone else
+                            this.$parent.$children[one].toggled=false;
+                        }
+                    }
+                }
+             }
+             else{
+                 //turn off this.children
+                 for (each in this.$children){
+                     this.$children[each].meSeen=false;
+                     this.toggled=false;
+                 }
+             }
+         },
+          tocItemSelected: function() {
 		 this.showChildren();
 		 if(this.id.pdf_index >= 1){
 		     Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index))
@@ -1211,7 +1217,7 @@ Vue.component('toc-item',{
 	},
         template:`
             <div class="tocItem" v-bind:class='id.type'>
-	      <div class='tocToggle' @click='tocItemSelected'>
+	      <div class='tocToggle'  @click='tocItemSelected' v-bind:class="{tocActive: this.isActive()}">
                 <div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
                 <div v-if='id.start' class="pageNumber"></div>
@@ -1228,6 +1234,11 @@ Vue.component('child-piece',{
 	},
 	props:['id','pieceIndex'],
 	 methods:{
+                isActive: function(){
+                    if(this.id.decls_id == this.$root.state.content.issue.decls_id){ 
+                        return true
+                    }
+                },
 		tocItemSelected: function() {
 		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
 		    this.id.issueId = this.$root.state.content.issue.id
@@ -1235,7 +1246,7 @@ Vue.component('child-piece',{
 		}
 	},
         template:`
-            <div class="childPiece" @click='tocItemSelected'>
+            <div class='childPiece' @click='tocItemSelected'  v-bind:class='{tocActive: this.isActive()}'>
               <div class="childPieceTitle">{{id.title}}</div>
               <div v-if='id.auth_name' class="childPieceAuthor">{{id.auth_name}}</div>
             <div>
