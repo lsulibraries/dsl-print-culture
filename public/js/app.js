@@ -1404,7 +1404,7 @@ Vue.component('issue-month',{
 	    }
 	},
 	props: {month: '',	list: ''},
-	methods: {
+        methods: {
 	    showChildren: function(){
                 this.$root.state.content.issue.current_month_y = this.list[0].substring(0,6)
 		if(this.toggled==false){
@@ -1704,10 +1704,12 @@ new Vue({
 	    this.state.content.issue.page = 1;
 	    this.state.content.issue.decls_id = '';
 	    this.state.content.searchString = '';
+            this.state.content.issue.current_month_y = id.substring(0,6)
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.state.content.issue.id = bibl.issueId
 	    this.state.content.issue.decls_id = bibl.decls_id
+            this.state.content.issue.current_month_y = bibl.issueId.substring(0,6)
 	})
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.content.issue.page = page;
