@@ -22,51 +22,11 @@ Vue.component('headerLogo',{
     `
 })
 
-Vue.component('headerNav',{
-    data() {
-	return {
-	    content: this.$root.state.activeContent
-	}
-    },
-    methods: {
-	activeContentClicked: function(content) {
-	    this.content = content
-	    Event.$emit('activeContentChange', content)
-	},
-	showSearch: function () {
-	    return this.$root.state.activeContent == 'issues'
-	}
-    },
-    template: `
-	<div class='headerNav'>
-	  <div v-bind:class="{active: this.content == 'issues'}" @click="activeContentClicked('issues')"><i class="fa fa-bookmark" aria-hidden="true"></i>Read Issues</div>
-	<div v-bind:class="{active: this.content == 'personography'}" @click="activeContentClicked('personography')"><i class="fa fa-user-circle" aria-hidden="true"></i>Authors</div>
-        <div v-bind:class="{active: this.content == 'abouts'}" @click="activeContentClicked('abouts')"><i class="fa fa-flask" aria-hidden="true"></i>About</div>
-	</div>
-	`
-});
+
 
 Vue.component('headerTitle',{
     template: `
 	<a href="." class="headerTitle">The<br>Broadway<br>Journal</a>
-    `
-})
-
-
-Vue.component('personography',{
-    data(){
-	return {
-	    modalActive:false,
-	    personography:[],
-	    chosen: '',
-	}
-    },
-    template: `
-        <div class="personography">
-        <div class="personographyAbout">Lorem ipsum</div>
-        <personFilter></personFilter>
-        <personIndex></personIndex>
-        </div>
     `
 })
 
@@ -100,23 +60,32 @@ Vue.component('personIndex', {
 	`,
     data() {
 	return {
-	    index: {}
+	    index: {},
 	}
     },
-    created(){
-	    const rawIndex = this.$root.xhrDataStore.personography.personIndex
-        let deduped = {};
-        let entries = Object.entries(rawIndex)
-        for (const [key, value] of entries) {
-            if (Array.isArray(value)) {
-                console.log(key + ' has multiple records, arbitrarily(-ish) using the first...')
-                deduped[key] = value[0]
+    methods: {
+        setupIndex: function (rawIndex) {
+            let deduped = {};
+            let entries = Object.entries(rawIndex)
+            for (const [key, value] of entries) {
+                if (Array.isArray(value)) {
+                    console.log(key + ' has multiple records, arbitrarily(-ish) using the first...')
+                    deduped[key] = value[0]
+                }
+                else {
+                    deduped[key] = value
+                }
             }
-            else {
-                deduped[key] = value
-            }
+            this.index = deduped
         }
-        this.index = deduped
+    },
+    created(){
+        if (!this.$root.empty(this.$root.xhrDataStore.personography.personIndex)) {
+            this.setupIndex(this.$root.xhrDataStore.personography.personIndex)
+        }
+        Event.$on('personographyLoaded', (index) => {
+            this.setupIndex(index.personIndex);
+        })
     }
 })
 
@@ -452,19 +421,6 @@ Vue.component('issueViewer',{
 	    this.viewer = viewer
 	})
     },
-})
-
-Vue.component('issue',{
-    template: `
-        <div class="issue">
-    <interIssueNav></interIssueNav>
-	  <div class="issueBody">
-	    <viewerSelector></viewerSelector>
-	    <issueHeader></issueHeader>
-	    <issueViewer></issueViewer>
-	  </div>
-        </div>
-	`,
 })
 
 Vue.component('issueHeader', {
@@ -817,53 +773,7 @@ Vue.component('logo', {
     `
 })
 
-Vue.component('abouts',{
-    template: `
-       <div class="abouts">
-         <div class="aboutToggle">
-	   <div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">Project</div>
-	   <div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
-	   <div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
-         </div>
-         <div class="aboutViewer">
-           <logo v-if="this.abouts == 'about'"></logo>
-    	   <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
-    	   <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
-    	   <div v-if="this.abouts == 'credits'">
-            <creditsPersonList></creditsPersonList>
-           </div>
-         </div>
-       </div>
-	`,
-    data() {
-	return {
-	    abouts: this.$root.state.content.abouts,
-	    aboutText: this.$root.xhrDataStore.abouts.about,
-	    techText: this.$root.xhrDataStore.abouts.tech
-	}
-    },
-    methods: {
-    	selectMe: function(about) {
-	    this.abouts = about;
-	    Event.$emit('aboutsSelected', this.abouts);
-	},
-    },
-    created() {
-        var url;
-	if(this.$root.xhrDataStore.abouts.about.length > 1){
-	    this.aboutText = this.$root.xhrDataStore.abouts.about
-	}else{
-	    url = '/api/broadwayjournal/abouts/about'
-	    axios.get(url).then(response => this.aboutText = response.data);
-	}
-	if(this.$root.xhrDataStore.abouts.tech.length > 1){
-	    this.techText = this.$root.xhrDataStore.abouts.tech
-	}else{
-	    url = '/api/broadwayjournal/abouts/tech'
-	    axios.get(url).then(response => this.techText = response.data);
-	}
-    },
-})
+
 
 Vue.component('creditsPersonList', {
     template: `
@@ -1655,7 +1565,10 @@ new Vue({
 	axios.get('/api/broadwayjournal/abouts/tech').then(response => this.xhrDataStore.abouts.tech = response.data);
 	axios.get('/api/broadwayjournal/abouts/personography').then(response => this.xhrDataStore.abouts.personographyDescription = response.data);
 
-	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => this.xhrDataStore.personography = response.data);
+	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => {
+        this.xhrDataStore.personography = response.data;
+        Event.$emit('personographyLoaded', this.xhrDataStore.personography);
+        });
 
 	axios.get('/api/all-issues/json').then((response) => {
 	    this.journals = response.data;

@@ -2,7 +2,7 @@
 <template>
         <div class="header">
           <headerTitle></headerTitle>
-      <headerNav></headerNav>
+          <headerNav></headerNav>
       <div class="contrast" @click='toggleContrast'>
         <div class="contrastTitle">High Contrast</div>
         <div class="contrastSwitch">
@@ -14,7 +14,9 @@
 </template>
 
 <script>
+    import headerNav from './headerNav';
     export default {
+        components: { headerNav },
         methods: {
             resetSearchString: function(){
                 this.searchString = this.$root.state.content.searchString = ''

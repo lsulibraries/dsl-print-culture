@@ -4,7 +4,17 @@ let routes = [
 
     {
         path: '/',
-        component:  require('./components/Container')
+        component:  require('./components/Abouts')
+
+    },
+    {
+        path: '/issues',
+        component:  require('./components/Issue')
+
+    },
+    {
+        path: '/authors',
+        component:  require('./components/Personography')
 
     }
 
