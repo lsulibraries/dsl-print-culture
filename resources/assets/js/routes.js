@@ -9,7 +9,17 @@ let routes = [
     },
     {
         path: '/issues',
-        component:  require('./components/Issue')
+        component:  require('./components/Issue'),
+        children: [
+
+            {
+                path: ':id/:biblid',
+                component:  require('./components/Issue')
+
+            }
+
+
+        ]
 
     },
     {
