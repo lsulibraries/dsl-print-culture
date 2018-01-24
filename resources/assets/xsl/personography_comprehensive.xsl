@@ -390,17 +390,18 @@
                 <xsl:if test="self::persName">
                     <personPieceRole>Mentioned</personPieceRole>
                     
-                    <!-- if name appears more than once in a bibl, count occurrences for that bibl -->
+                    <!-- if name appears more than once in a bibl, count occurrences for that bibl;
+                    construct statement about number of mentions in the piece -->
                     <xsl:choose>
                         <xsl:when test="count(current-group()) > 1">
-                        <personPieceTotalMention>
-                            <xsl:value-of select="count(current-group())"/>
-                        </personPieceTotalMention>
-                        <personPieceMentionStatement>
-                            <xsl:text>This name appears </xsl:text>
-                            <xsl:value-of select="count(current-group())"/>
-                            <xsl:text> times.</xsl:text>
-                        </personPieceMentionStatement>
+                            <personPieceTotalMention>
+                                <xsl:value-of select="count(current-group())"/>
+                            </personPieceTotalMention>
+                            <personPieceMentionStatement>
+                                <xsl:text>This name appears </xsl:text>
+                                <xsl:value-of select="count(current-group())"/>
+                                <xsl:text> times.</xsl:text>
+                            </personPieceMentionStatement>
                         </xsl:when>
                         <xsl:otherwise>
                             <personPieceMentionStatement>
