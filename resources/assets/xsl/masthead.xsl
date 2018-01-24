@@ -36,8 +36,11 @@
             <xsl:variable name="personId" select="substring-after(@ref, '#')"/>
             <xsl:value-of
                 select="$personography//listPerson/person[@xml:id eq $personId]/persName[not(@type = 'pseudo')]"/>
-            <br/>
+            <xsl:if test="position() != last()">
+                <xsl:text>, </xsl:text>
+            </xsl:if>
         </xsl:for-each>
+        <br/>
         <xsl:text>Publication: </xsl:text>
         <xsl:value-of select="pubPlace"/>
         <xsl:text>: </xsl:text>
@@ -48,8 +51,11 @@
             <xsl:variable name="personId" select="substring-after(@ref, '#')"/>
             <xsl:value-of
                 select="$personography//listPerson/person[@xml:id eq $personId]/persName[not(@type = 'pseudo')]"/>
-            <br/>
-        </xsl:for-each>   
+            <xsl:if test="position() != last()">
+                <xsl:text>, </xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+        <br/>
         <xsl:text>Printer: </xsl:text>
         <xsl:value-of select="respStmt/persName"/>
         <br/>
