@@ -79,6 +79,7 @@ body {
   margin: 0px;
   border: 0px;
   padding: 0px;
+  border-radius: 20px;
 }
 
 .modal-default-button {
@@ -112,11 +113,38 @@ body {
   transform: scale(1.1);
 }
 
-#infoFooter {
+.footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
+}
+
+.leftFooter {
+  width: 30%;
+  background: #002F2F;
+}
+.leftFooter div#creativeCommons {
+  color: #A7A37E;
+}
+.leftFooter div#creativeCommons a {
+  color: #f2e6ce;
+  text-decoration: none;
+}
+.leftFooter #infoFooter {
+  margin: 20px;
+  border-top: 1px solid;
+  padding-top: 20px;
+}
+
+.rightFooter {
+  display: flex;
+  width: 70%;
+  background: #f2e6ce;
+}
+.rightFooter .rightContainer {
+  margin: 20px;
+  border-top: 1px solid #47474738;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
 }
 
 .header {
@@ -127,7 +155,7 @@ body {
   display: flex;
   position: relative;
   z-index: 3;
-  background: #EFECCA;
+  background: #f2e6ce;
 }
 
 .header a {
@@ -164,7 +192,7 @@ body {
   justify-content: inherit;
   padding-left: 80px !important;
   background: #002F2F;
-  color: #EFECCA;
+  color: #f2e6ce;
 }
 
 .headerTitle:hover {
@@ -262,7 +290,7 @@ input:focus {
 
 .contrastOff {
   background: #474747;
-  color: #EFECCA;
+  color: #f2e6ce;
 }
 
 .content {
@@ -308,7 +336,7 @@ input:focus {
   font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-  background: #EFECCA;
+  background: #f2e6ce;
   color: #002F2F;
   padding: 5px;
   letter-spacing: 2px;
@@ -321,7 +349,7 @@ input:focus {
   font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-  background: #EFECCA;
+  background: #f2e6ce;
   color: #002F2F;
   padding: 5px;
   letter-spacing: 2px;
@@ -351,7 +379,7 @@ input:focus {
 }
 
 .issueBody {
-  background: #EFECCA;
+  background: #f2e6ce;
   flex-grow: 2;
   width: calc(70% - 1px);
 }
@@ -394,7 +422,7 @@ input:focus {
 }
 
 .activeMonth > div > .singleText {
-  background: #EFECCA;
+  background: #f2e6ce;
   color: #002F2F;
 }
 
@@ -427,8 +455,8 @@ input:focus {
 }
 
 .singleText:hover {
-  border: 1px solid #EFECCA;
-  color: #EFECCA;
+  border: 1px solid #f2e6ce;
+  color: #f2e6ce;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
@@ -483,7 +511,7 @@ input:focus {
   background: #046380;
   margin-bottom: 1px;
   padding: 10px;
-  color: #EFECCA;
+  color: #f2e6ce;
   cursor: pointer;
   margin-top: 1px;
 }
@@ -496,7 +524,7 @@ input:focus {
   content: '';
   width: 24px;
   height: 24px;
-  border: 2px solid #EFECCA;
+  border: 2px solid #f2e6ce;
   border-radius: 30px;
   position: absolute;
   left: -6px;
@@ -530,7 +558,7 @@ input:focus {
   content: '';
   width: 24px;
   height: 24px;
-  border: 2px solid #EFECCA;
+  border: 2px solid #f2e6ce;
   border-radius: 30px;
   position: absolute;
   left: -6px;
@@ -545,7 +573,7 @@ input:focus {
 
 .section .childPiece {
   font-weight: 500;
-  border-left: 2px solid #A7A37E;
+  border-left: 1px solid #A7A37E;
   padding-left: 5px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -567,12 +595,12 @@ input:focus {
 }
 
 .section .tocTitle:hover, .childPiece.tocActive {
-  color: #EFECCA;
+  color: #f2e6ce;
   padding-left: 20px;
 }
 
 .section .tocActive .tocTitle {
-  background: #EFECCA;
+  background: #f2e6ce;
   color: #002F2F;
 }
 
@@ -589,7 +617,7 @@ input:focus {
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
   transition: all 0s ease;
-  color: #EFECCA;
+  color: #f2e6ce;
 }
 
 .issueVol,
@@ -818,13 +846,14 @@ button.searchSubmit {
   justify-content: center;
   align-items: center;
   margin-left: 5px;
+  border-radius: 20px;
 }
 
 a.downloadLink {
   background: #474747;
   height: 23px;
   align-items: center;
-  color: #EFECCA;
+  color: #f2e6ce;
   overflow: hidden;
   text-decoration: none;
   display: inline-block;
@@ -836,14 +865,15 @@ a.downloadLink {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 0.8em;
+  border-radius: 20px;
 }
 
 .downloadIcon {
   height: 100%;
   width: 30px;
-  border-right: 1px solid #EFECCA;
+  border-right: 1px solid #f2e6ce;
   background: #474747;
-  color: #EFECCA;
+  color: #f2e6ce;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1006,7 +1036,7 @@ span.searchHit {
 }
 .issueHeader .issueDate {
   background: #474747;
-  color: #EFECCA;
+  color: #f2e6ce;
   font-size: 1.1em;
   padding: 5px;
   height: 23px;
@@ -1019,6 +1049,7 @@ span.searchHit {
   font-weight: 400;
   box-sizing: border-box;
   line-height: .9em;
+  border-radius: 20px 0px 0px 20px;
 }
 .issueHeader .personMeta {
   float: left;
@@ -1065,6 +1096,7 @@ span.searchHit {
   font-family: Roboto;
   box-sizing: border-box;
   height: 24px;
+  border-radius: 20px;
 }
 .issueHeader .bibl .personPieceMeta, .issueHeader .bibl .authorShip {
   display: -webkit-box;
@@ -1129,7 +1161,7 @@ span.searchHit {
   display: flex;
   border-radius: 0px;
   background: #474747;
-  color: #EFECCA;
+  color: #f2e6ce;
   font-size: 1.1em;
   padding: 5px;
   height: 23px;
@@ -1142,6 +1174,9 @@ span.searchHit {
   font-weight: 400;
   box-sizing: border-box;
   line-height: .9em;
+}
+.issueHeader .issueNum {
+  border-radius: 0px 20px 20px 0px;
 }
 .issueHeader .pieceMeta {
   margin-bottom: 30px;
@@ -1317,7 +1352,7 @@ span.searchHit {
   justify-content: center;
   align-items: center;
   background: #474747;
-  color: #EFECCA;
+  color: #f2e6ce;
   flex-direction: column;
 }
 
@@ -1474,7 +1509,7 @@ canvas#pdf {
 }
 
 .aboutViewer {
-  background: #EFECCA;
+  background: #f2e6ce;
   padding: 20px 20px;
   display: flex;
   justify-content: center;
@@ -1489,7 +1524,7 @@ canvas#pdf {
 }
 
 .aboutToggle .active {
-  color: #EFECCA;
+  color: #f2e6ce;
 }
 
 .headerNav > .active {
@@ -1570,11 +1605,6 @@ canvas#pdf {
   justify-content: flex-end;
 }
 
-.footer {
-  padding: 20px;
-  background: #e9e9e9;
-}
-
 .contrastTitle {
   margin-right: 8px;
 }
@@ -1605,26 +1635,24 @@ h1 {
 }
 
 /*BEGIN High Contrast Mode*/
+.highContrast .childText::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  left: -6px;
+  top: -6px;
+}
 .highContrast .issueDate {
-  width: 155px;
+  width: 170px;
 }
 .highContrast .issueVol {
   width: 90px;
 }
-.highContrast .active.childText {
-  color: white;
-}
 .highContrast .roleFilter > div {
   background: black;
 }
-.highContrast .singleIndex:nth-child(1) {
-  color: black;
-}
 .highContrast .personBibl {
   min-height: 88px;
-}
-.highContrast .personography .authorCertainty, .highContrast .personography .authorStatus, .highContrast .personography .personPieceRole, .highContrast .personography .authorRole, .highContrast .personography .authorStatus, .highContrast .personography .personPieceRole, .highContrast .personography .authorRole {
-  background: #474747;
 }
 .highContrast .personIndex .person {
   background: #ffffff;
@@ -1646,16 +1674,13 @@ h1 {
 .highContrast .singleIndex.activeMonth {
   background: none;
 }
-.highContrast .childIndex, .highContrast a.downloadLink {
-  background: #474747;
-}
 .highContrast .contrastOff {
-  background: #EFECCA;
+  background: #f2e6ce;
   color: #474747;
 }
 .highContrast .contrastOn {
   background: #474747;
-  color: white;
+  color: #f2e6ce;
 }
 .highContrast .content {
   font-size: 1.5em;

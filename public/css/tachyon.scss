@@ -22,7 +22,7 @@ $fifteendark: rgba(0, 0, 0, 0.15);
 
 $darkest: #002F2F;
 $dark: #046380;
-$lightest:#EFECCA;
+$lightest:#f2e6ce;
 $lighter: #E6E2AF;
 $light:#A7A37E;
 
@@ -154,6 +154,7 @@ body {
   margin: 0px;
   border: 0px;
   padding: 0px;
+    border-radius: 20px;  
   }  
 
 }
@@ -195,12 +196,49 @@ body {
 
 
 //endmodal styles
-#infoFooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+
+//beginfooter
+.footer{
+  display: flex;
 }
+
+.leftFooter {
+    width: 30%;
+    background: $darkest;
+
+    div#creativeCommons {
+    color: $light;
+    }
+
+    div#creativeCommons a {
+    color: $lightest;
+    text-decoration: none;
+    }    
+
+    #infoFooter {
+    margin: 20px;
+    border-top: 1px solid;
+    padding-top: 20px;
+    }    
+}
+
+.rightFooter {
+    display: flex;
+    width: 70%;
+    background: $lightest;
+    .rightContainer {
+    margin: 20px;
+    border-top: 1px solid #47474738;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    }    
+
+}
+//endfooter
+
+
+
 
 .header {
   @include flexbox;
@@ -568,7 +606,7 @@ input:focus {
 
 .section .childPiece{
   font-weight: 500;
-  border-left: 2px solid $light;
+  border-left: 1px solid $light;
   padding-left: 5px;
   @include transition(.5s);
     padding-top: 5px;  
@@ -847,6 +885,7 @@ border-right: 1px solid #e9e9e9;
     justify-content: center;
     align-items: center;
     margin-left: 5px;
+    border-radius: 20px;    
 }
 
 a.downloadLink {
@@ -865,6 +904,7 @@ a.downloadLink {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 0.8em;
+    border-radius: 20px;    
 }
 
 .downloadIcon {
@@ -1045,6 +1085,7 @@ span.searchHit {
     font-weight: 400;
     box-sizing: border-box;
     line-height: .9em;
+border-radius: 20px 0px 0px 20px;    
 }
 
 .personMeta{
@@ -1092,6 +1133,7 @@ button#show-modal{
     font-family: Roboto;
     box-sizing: border-box;
     height: 24px;
+    border-radius: 20px;    
 }
 
 .personPieceMeta, .authorShip {
@@ -1175,6 +1217,10 @@ button#show-modal{
     box-sizing: border-box;
     line-height: .9em; 
   }
+.issueNum{
+  border-radius: 0px 20px 20px 0px;
+}
+
   .pieceMeta {
     margin-bottom: 30px;
     margin-left: 0x;
@@ -1618,10 +1664,6 @@ font-size: 12px;
 }
 
 
-.footer {
-    padding: 20px;
-    background: #e9e9e9;
-}
 
 .contrastTitle {
     margin-right: 8px;
@@ -1656,32 +1698,34 @@ h1{
 
 .highContrast {
 
+.childText::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    left: -6px;
+    top: -6px;
+  }
+
 
 .issueDate{
-      width: 155px;
+      width: 170px;
 }
 
 .issueVol{
   width: 90px;
 }
-.active.childText {
-    color: white;
+
+.issueNum{
+
 }
 
 .roleFilter > div {
     background: black;
   }
 
-.singleIndex:nth-child(1) {
-    color: black;
-
-}
 .personBibl{
   min-height: 88px;
 }
-.personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole, .personography .authorRole {
-    background: $document-text-color;
-  }
 
 .personIndex .person {
     background: #ffffff;
@@ -1712,9 +1756,7 @@ h1{
   background: none;
 }
 
-.childIndex, a.downloadLink{
-  background: $document-text-color;
-}
+
 
   .contrastOff {
     background: $lightest;
@@ -1722,7 +1764,7 @@ h1{
   }
   .contrastOn {
     background: $document-text-color;
-    color: white;
+    color: $lightest;
   }
   .content {
     font-size: 1.5em;
