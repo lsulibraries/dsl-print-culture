@@ -18,7 +18,7 @@
 
     <!--<xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/>--> 
     <!-- substitute variable with different path for local testing with small subset of issues -->
-    <xsl:variable name="teiIssues" select="collection('issues')"/> 
+    <xsl:variable name="teiIssues" select="collection('issues-mention')"/> 
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
@@ -34,21 +34,21 @@
                 </xsl:for-each-group>
             </xsl:variable>
             
-            <!-- calculate number of total mentions by author ref ID in text, excluding bylines -->
+            <!-- construct xpaths for handling mentions -->
+            <xsl:variable name="mentions" select="$teiIssues/TEI/text/body//persName[not(parent::byline)][substring-after(@ref, '#') eq $personId]"/>
+            <xsl:variable name="mentioningPieces" select="$mentions/ancestor::div[@decls][1]/@decls"/>
             
+            <!-- calculate number of total mentions by author ref ID in text, excluding bylines -->
             <xsl:variable name="totalMentionsOverall">
-                <xsl:if test="$teiIssues//body//persName[substring-after(@ref, '#') eq $personId][not(parent::byline)]">
-                    <xsl:value-of select="count($teiIssues//body//persName[substring-after(@ref, '#') eq $personId][not(parent::byline)])"/>
+                <xsl:if test="$mentions">
+                    <xsl:value-of select="count($mentions)"/>
                 </xsl:if>
             </xsl:variable>
             
+            <!-- calculate number of pieces in which an author is mentioned -->
             <xsl:variable name="totalMentioningPieces">
-                <xsl:if test="$teiIssues//body//persName[substring-after(@ref, '#') eq $personId][not(parent::byline)]">
-                    <xsl:value-of select="count($teiIssues//body//persName[substring-after(@ref, '#') eq $personId][not(parent::byline)]/ancestor::div[@decls][1]/@decls)"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="$teiIssues//body//persName[substring-after(@ref, '#') eq $personId][not(parent::byline)]/ancestor::TEI//fileDesc/publicationStmt/idno"/>
-                    <xsl:text>-</xsl:text>
-                    <xsl:value-of select="$teiIssues//body//persName[substring-after(@ref, '#') eq $personId][not(parent::byline)]/ancestor::div[@decls][1]/@decls"/>
+                <xsl:if test="$mentions">
+                    <xsl:value-of select="count($mentioningPieces)"/>                   
                 </xsl:if>
             </xsl:variable>
 
@@ -162,10 +162,7 @@
                             </xsl:if>
                         </personBio>
                     </xsl:if>
-                        
                     
-                        
-
                     <!-- list total contributions and/or total mentions if not zero -->
                     <xsl:if test="string-length($totalcontribs) != 0">
                         <personTotalContrib>
@@ -194,12 +191,8 @@
                         </xsl:for-each>
 
                         <!-- get bibls for Mentions -->
-                        <xsl:for-each-group
-                            select="$teiIssues//body//persName[@ref][not(parent::byline)]"
-                            group-by="@ref">
-                            <xsl:if test="substring-after(@ref, '#') eq $personId">
-                                <xsl:call-template name="biblMeta"/>
-                            </xsl:if>
+                        <xsl:for-each-group select="$mentions" group-by="concat(ancestor::TEI//fileDesc/publicationStmt/idno, ancestor::div[@decls][1]/@decls)">
+                            <xsl:call-template name="biblMeta"/>
                         </xsl:for-each-group>
                     </personListBibl>
                 </xsl:if>
@@ -229,6 +222,7 @@
         <xsl:variable name="biblMeta" select="ancestor::TEI//listBibl//bibl[@xml:id eq $biblId]"/>
 
         <!-- create element for each bibl -->
+        
         <xsl:element name="{$listBiblId}">
             
             <!-- get issue-level metadata -->
@@ -311,7 +305,7 @@
             <!-- construct statements about person's relationship to bibl -->
             <personPieceMeta>
                 
-                <!-- for author -->
+                <!-- for contributor -->
                 <xsl:if test="self::author">
                     <personPieceRole>Contributor</personPieceRole>
                     
