@@ -356,7 +356,7 @@ input:focus {
     letter-spacing: 2px;
     font-weight: 400;
     width: 100%;
-    margin-bottom: 11px;
+    border-radius: 20px;
 }
 
 
@@ -370,6 +370,7 @@ input:focus {
     letter-spacing: 2px;
     font-weight: 400;
     margin-bottom: 5px;    
+    border-radius: 20px;    
 }
 
 .tocItem {
@@ -408,13 +409,23 @@ input:focus {
 }
 
 .singleIndex:nth-child(1) {
-  width: 100%;
-  font-size: 1.2em;
-  color: $light;
-  border-bottom: 1px dashed $light;
-  margin-bottom: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    color: $light;
+    border-bottom: 1px solid $light;
+    height: 10px;
+    margin-bottom: 35px;
+    margin-left: 70px;
+    margin-top: 35px;
+    position: relative;
 }
 
+
+.yearText {
+    margin-bottom: 20px;
+    position: absolute;
+    left: -60px;
+}
 
 .issueIndex {
   margin-bottom: 10px;
@@ -460,7 +471,7 @@ input:focus {
      position: absolute;
     display: flex;
     top: -25px;
-    left: 20px;
+    left: 12px;
 }
 
 .childContainer .childIndex:nth-child(1)::before{
@@ -470,7 +481,7 @@ input:focus {
     border-color: transparent #046380 transparent transparent;
     position: absolute;
     left: 20px;
-    top: 22px;
+    top: 17px;
     transform: rotate(50deg);
 }
 
@@ -564,18 +575,26 @@ input:focus {
 }
 
 .section .tocTitle {
-    background: $light;
-    color: $darkest;
-    padding-left: 5px;
+    color: $light;
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
+    border: 1px solid $light;
+    padding: 2px;
+    padding-left: 7px;
+    border-radius: 0px 20px 20px 0px;
+    width: 80%;
 }
 
-.section .tocTitle:hover {
-    padding-left: 15px;
-    background: $lightest;
+.section .tocTitle:hover, .childPiece.tocActive{
+    color: $lightest;
+    padding-left: 20px;
 }
+
+.section .tocActive .tocTitle {
+    background: $lightest;
+    color:$darkest
+    }
 
 .piece, .section .tocTitle, .section .childPiece{
   @include transition(.5s);
