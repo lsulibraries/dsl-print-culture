@@ -1528,7 +1528,9 @@ Vue.component('issue-month',{
                 <div class="singleText" >{{this.month}}</div>
                 <div class="indicatorIndex"></div>
               </div>
+              <div class="childContainer">
               <index-child :id="each" v-for="each in this.list"></index-child>
+              </div>
             </div>
         `
 });

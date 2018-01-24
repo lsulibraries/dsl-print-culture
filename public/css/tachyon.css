@@ -326,6 +326,7 @@ input:focus {
   padding: 5px;
   letter-spacing: 2px;
   font-weight: 400;
+  margin-bottom: 5px;
 }
 
 .tocItem {
@@ -383,7 +384,7 @@ input:focus {
 
 .activeMonth > div > .singleText {
   background: #EFECCA;
-  margin-right: 0px;
+  color: #002F2F;
 }
 
 .singleIndex.activeMonth {
@@ -395,26 +396,69 @@ input:focus {
   position: relative;
 }
 
-.singleIndex.activeMonth::before {
-  content: '';
-  border-style: solid;
-  border-width: 20px 20px 20px 0;
-  border-color: transparent #046380 transparent transparent;
-  position: absolute;
-  left: 48px;
-  top: 2px;
-}
-
 .singleText {
-  background: #A7A37E;
+  background: transparent;
   padding: 13px;
-  margin: 1px;
-  width: 40px;
+  margin: 3px;
+  width: 22px;
   cursor: pointer;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid #A7A37E;
+  color: #A7A37E;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .singleText:hover {
-  background: #EFECCA;
+  border: 1px solid #EFECCA;
+  color: #EFECCA;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
+}
+
+.childContainer {
+  position: absolute;
+  display: flex;
+  top: -25px;
+  left: 20px;
+}
+
+.childContainer .childIndex:nth-child(1)::before {
+  content: '';
+  border-style: solid;
+  border-width: 13px 17px 13px 0;
+  border-color: transparent #046380 transparent transparent;
+  position: absolute;
+  left: 20px;
+  top: 22px;
+  transform: rotate(50deg);
+}
+
+.childContainer .childIndex:nth-child(1) {
+  border-radius: 50px 0px 0px 50px;
+  overflow: hidden;
+}
+
+.childContainer .childIndex:last-child {
+  border-radius: 0px 50px 50px 0px;
+  overflow: hidden;
+}
+
+.childContainer .childIndex:only-of-type {
+  border-radius: 50px;
+}
+
+.childContainer .childIndex:only-of-type::before {
+  left: 10px;
+  top: 18px;
 }
 
 .childIndex {
@@ -427,15 +471,39 @@ input:focus {
   align-items: center;
   background: #046380;
   margin-bottom: 1px;
-  padding: 10px 15px 10px 15px;
+  padding: 10px;
   color: #EFECCA;
   cursor: pointer;
   margin-top: 1px;
 }
 
-.childIndex:hover,
-.childIndex:hover .active.childText {
-  background: #046f8f;
+.childText {
+  position: relative;
+}
+
+.childText::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 2px solid #EFECCA;
+  border-radius: 30px;
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  opacity: 0;
+  background: transparent;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.childIndex:hover .childText::before {
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .intraIssueNav {
@@ -449,13 +517,19 @@ input:focus {
 
 .active.childText::before {
   content: '';
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   border: 2px solid #EFECCA;
   border-radius: 30px;
   position: absolute;
   left: -6px;
   top: -6px;
+  opacity: 1;
+  background: transparent;
+}
+
+.childPieceAuthor, .tocToggle .author {
+  font-style: italic;
 }
 
 .section .childPiece {
@@ -473,6 +547,9 @@ input:focus {
   background: #A7A37E;
   color: #002F2F;
   padding-left: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .section .tocTitle:hover {
@@ -957,7 +1034,7 @@ span.searchHit {
   background: transparent;
   color: #474747;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
   font-weight: 700;
   font-size: 0.8em;
   text-transform: uppercase;
