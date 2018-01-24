@@ -1139,16 +1139,20 @@ Vue.component('intraIssueNav',{
 	})
         Event.$on('viewerSelected', () => {
             let page = this.$root.state.content.issue.page
-//            console.log(page)
+//              console.log('user on page:',page)
+//              console.log(this.tocMap)
             for(pairs in this.tocMap){
 //                console.log(this.tocMap[pairs].value, this.tocMap[pairs].key)
-                for(x in this.tocMap[pairs].value){
-//                    console.log(this.tocMap[pairs].value[x])
-                    y = this.tocMap[pairs].value[x]
-                      if(page.toString() === y){
+                if(typeof(this.tocMap[pairs].value) != 'string'){
+//                    console.log('array')
+                    for(x in this.tocMap[pairs].value){
+//                        console.log(this.tocMap[pairs].value[x])
+                        y = this.tocMap[pairs].value[x]
+                        if(page.toString() === y){
 //                          console.log(page.toString(), y, this.tocMap[pairs].key)
                           this.$root.state.content.issue.decls_id = this.tocMap[pairs].key
-                      }
+                        }
+                    }
                 }
             }
         })
