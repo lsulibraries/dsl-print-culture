@@ -1116,7 +1116,8 @@ Vue.component('intraIssueNav',{
     data(){
 	return {
 	    issueID: this.$root.state.content.issue.id,
-	    tocContent: false
+	    tocContent: false,
+            tocMap: ''
 	}
     },
     created() {
@@ -1132,6 +1133,60 @@ Vue.component('intraIssueNav',{
 	    this.tocContent = false
 	    this.setTocContent()
 	})
+	Event.$on('activeContentChange', () => {
+	    this.issueID = this.$root.state.content.issue.id
+	    this.setTocContent()
+	})
+        Event.$on('viewerSelected', () => {
+            let page = this.$root.state.content.issue.page
+//            console.log(page)
+            for(pairs in this.tocMap){
+//                console.log(this.tocMap[pairs].value, this.tocMap[pairs].key)
+                for(x in this.tocMap[pairs].value){
+//                    console.log(this.tocMap[pairs].value[x])
+                    y = this.tocMap[pairs].value[x]
+                      if(page.toString() === y){
+//                          console.log(page.toString(), y, this.tocMap[pairs].key)
+                          this.$root.state.content.issue.decls_id = this.tocMap[pairs].key
+                      }
+                }
+            }
+        })
+        Event.$on('pdf-pageChange', () => {
+            let tocMap = []
+            for(tocPart in this.tocContent.toc){
+                if(tocPart.includes('s')){
+                    for(sectionPart in this.tocContent.toc[tocPart].pieces){
+                        if(this.tocContent.toc[tocPart].pieces[sectionPart].page.includes('-')){
+                            let pages = this.tocContent.toc[tocPart].pieces[sectionPart].page.split('-')
+                            tocMap.push({key:sectionPart, value: Array.from({length:parseInt(pages[1])-parseInt(pages[0])}, (v,k) => k + parseInt(pages[0])).toString().split(',')})
+                        }
+                        else{
+                            tocMap.push({key:sectionPart, value: this.tocContent.toc[tocPart].pieces[sectionPart].page})
+
+                        }
+                    }
+                }
+                else{
+
+                    if(this.tocContent.toc[tocPart].page.includes('-')){
+                        let pages = this.tocContent.toc[tocPart].page.split('-')
+                        tocMap.push({key:tocPart, value: pages})
+                    }
+                    else{
+                        tocMap.push({key:tocPart, value: this.tocContent.toc[tocPart].page})
+
+                    }
+
+                }
+
+            }
+            this.tocMap = tocMap
+            this.$root.state.content.tocMap=tocMap
+//            console.log(tocMap)
+
+        })
+
     },
     methods: {
 	setTocContent: function () {
@@ -1162,7 +1217,6 @@ Vue.component('toc-item',{
     methods:{
         isActive: function(){
             if(this.id.decls_id == this.$root.state.content.issue.decls_id){
-                console.log('match')
                 return true
             }
          },
@@ -1338,7 +1392,7 @@ Vue.component('pdf-viewer',{
 	    Event.$emit('pdf-pageChange', page);
 
 	},
-	loadPdf: function(issue, page = 1, scale = 1.3) { 
+	loadPdf: function(issue, page = 1, scale = 1.3) {
 	// If absolute URL from the remote server is provided, configure the CORS
 	// header on that server.
 	    if(this.$root.state.content.issue.viewer == 'text'){
@@ -1543,7 +1597,6 @@ Vue.component('index-child',{
 	    Event.$emit('issueSelected', id);
 	},
         isCurrentIssue: function(){
-            console.log(this.id)
             if(this.id == this.$root.state.content.issue.id){
                 return true
             }
@@ -1746,6 +1799,7 @@ new Vue({
 		    page: 1, // int
 		    decls_id: ''
 		},
+                tocMap: '',
 		personography: {
 		    filterString: '', // ie eapoe
 		},
