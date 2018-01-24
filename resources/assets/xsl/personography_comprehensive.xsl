@@ -176,6 +176,26 @@
                         <personTotalMentioningPieces>
                             <xsl:value-of select="$totalMentioningPieces"/>
                         </personTotalMentioningPieces>
+                        <personTotalMentionStatement>
+                            <xsl:text>This author is mentioned </xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="$totalMentionsOverall > 1">
+                                <xsl:value-of select="$totalMentionsOverall"/>
+                                <xsl:text> times </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when test="$totalMentioningPieces > 1">
+                                        <xsl:text>across </xsl:text>
+                                        <xsl:value-of select="$totalMentioningPieces"/>
+                                        <xsl:text> contributions.</xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>in a single contribution.</xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                            <xsl:otherwise>once.</xsl:otherwise>
+                        </xsl:choose>
+                        </personTotalMentionStatement>
                     </xsl:if>
                 </personMeta>
 
@@ -371,11 +391,23 @@
                     <personPieceRole>Mentioned</personPieceRole>
                     
                     <!-- if name appears more than once in a bibl, count occurrences for that bibl -->
-                    <xsl:if test="count(current-group()) > 1">
+                    <xsl:choose>
+                        <xsl:when test="count(current-group()) > 1">
                         <personPieceTotalMention>
                             <xsl:value-of select="count(current-group())"/>
                         </personPieceTotalMention>
-                    </xsl:if>
+                        <personPieceMentionStatement>
+                            <xsl:text>This name appears </xsl:text>
+                            <xsl:value-of select="count(current-group())"/>
+                            <xsl:text> times.</xsl:text>
+                        </personPieceMentionStatement>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <personPieceMentionStatement>
+                                <xsl:text>This name appears once.</xsl:text>
+                            </personPieceMentionStatement>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:if>
                 
             </personPieceMeta>
