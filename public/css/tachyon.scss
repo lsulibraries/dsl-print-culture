@@ -744,10 +744,12 @@ position: relative;
     width: 80%;
 }
 
-.section .tocTitle:hover, .childPiece.tocActive{
+.section .tocTitle:hover, .tocToggle.tocActive, .tocToggle.tocActive:hover, .childPiece.tocActive{
     color: $lightest;
     padding-left: 20px;
 }
+
+
 
 .section .tocActive .tocTitle {
     background: $lightest;

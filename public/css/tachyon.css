@@ -711,7 +711,7 @@ input:focus {
   width: 80%;
 }
 
-.section .tocTitle:hover, .childPiece.tocActive {
+.section .tocTitle:hover, .tocToggle.tocActive, .tocToggle.tocActive:hover, .childPiece.tocActive {
   color: #f2e6ce;
   padding-left: 20px;
 }
