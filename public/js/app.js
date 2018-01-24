@@ -370,6 +370,16 @@ Vue.component('biblIssueMeta', {
     `,
     props: ['issueMeta']
 })
+Vue.component('biblIssueMetaModal', {
+    template: `
+    <div class="issueMeta">
+      <div class="issueDate">{{issueMeta.issueDate}}</div>
+      <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>
+      <div class="issueNum">No. {{issueMeta.issueNum}}</div>
+    </div>
+    `,
+    props: ['issueMeta']
+})
 
 Vue.component('biblSectionMeta', {
     template: `
@@ -440,10 +450,12 @@ Vue.component('biblPieceMeta', {
 Vue.component('personBibl', {
     template: `
 	<div class="personBibl">
-          <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
+        <div class="issueData"> 
+            <biblIssueMetaModal v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMetaModal>
+            <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
+        </div>
           <div class="pieceTitleContainer">
           <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
-          <biblIssueMeta v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMeta>
           </div>
           <biblPersonPieceMeta v-if="!this.$root.empty(bibl.personPieceMeta)" :personPieceMeta="bibl.personPieceMeta"></biblPersonPieceMeta>
         </div>
@@ -851,7 +863,6 @@ Vue.component('modal', {
 
           <div class="modal-footer">
             <slot name="footer">
-              default footer
               <button class="modal-default-button" @click="$emit('close')">
                 Close
               </button>

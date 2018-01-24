@@ -105,19 +105,27 @@ body {
 }
 
 .modal-container {
-    width: 460px;
+  width: 460px;
   margin: 0px auto;
-  padding: 20px 30px;
-  background-color: #fff;
+  background-color: $darkest;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.modal-header {
+    width: 420px;
+    padding: 20px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal-header h3 {
-  margin-top: 0;
-  color: #42b983;
+  margin: 0;
+  color: $lightest;
 }
 
 //modal-body begin
@@ -126,46 +134,142 @@ body {
   margin: 20px 0;
   height: 500px;
   overflow-y: scroll;
+ 
+.pieceTitleContainer {
+    position: relative;
+    top: -8px;
+}
+
+
+  .personBlurb{
+  color: $lighter;
+    padding: 0px 30px;  
+  }
+
+.issueData{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 11px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.issueMeta {
+    margin-bottom: 10px;  
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    top: 13px;
+    z-index: 3;
+    .issueDate{
+      width:auto;
+    }
+}  
+
+.issueMeta::before{
+    content: '';
+    border-style: solid;
+    border-width: 13px 17px 13px 0;
+    border-color: transparent $dark transparent transparent;
+    position: absolute;
+    left: 80px;
+    top: 7px;
+    transform: rotate(50deg);
+    z-index: 2;
+}
 
   .personBibl{
-  background: white;
-  border: 1px solid #d6d6d6;  
-  margin-right: 20px;
-  padding-bottom: 0px;      
+    margin-right: 20px;
+    display: block;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: transparent;
+    height: calc(100% - 370px);
+    .personPieceMeta {
+    position: relative;
+    top: -40px;
+    left: 20px;
+    display: flex;
+    width: 49%;
+        .authorShip {
+          color: #a7a37e;
+          padding: 5px;
+          border-radius: 0px;
+          font-weight: 500;
+          font-size: 11px;
+          text-transform: uppercase;
+          text-decoration: none;
+          letter-spacing: 2px;
+          border-top: 1px solid #a7a37e78;
+          margin: 0px;
+          background: none;
+        }    
+    }       
   }
 
   .pieceMeta {
-  position: absolute;
-  margin-left: 70px;
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-  width: 330px;
-  height: 46px;
-  left: 20px;
-  margin-bottom: 0px;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #002f2f;
+    margin-left: 0px;
+    background: hsla(180, 100%, 12%, 1);
+    padding: 20px;
+    border: 1px solid #424242;
+    color: #f2e6ce;
+    min-height: 50px;
+    border-radius: 1px;
+    padding-right: 140px;
+    @include transition(0.5s);
   }
 
-  .sectionTitle {
-  color: $greyDark;
-  font-weight: 700;
-  justify-content: flex-start;
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-    border-radius: 20px;  
-  }  
+  .pieceMeta:hover{
+    background:#004c4d
+  }
+
+  .sectionMeta{
+    position: absolute;
+    top: 26px;
+    z-index: 2;
+    background: hsla(180, 100%, 15%, 1);
+    height: 85px;
+    width: 100px;
+    right: 0px;
+    border-radius: 0px;
+    padding: 0px 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sectionTitle {
+    color: $lightest;
+    font-weight: 500;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    border: 0px;
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 12px;
+    }     
+
+  }
 
 }
 
 //modal-body end
-
+.modal-body > div {
+    display: flex;
+    flex-direction: column;
+}
 
 .modal-default-button {
     width: 100%;
-    background: #fe7251;
-    color: white;
+    background: $dark;
+    color: $lightest;
     padding: 20px;
     border: 0px;
     cursor: pointer;
@@ -434,9 +538,25 @@ input:focus {
   width: calc(70% - 1px);
 }
 
+.issueHeader .issueInfo{
+position: relative;
+}
+
+.issueHeader .issueInfo::before{
+    content: '';
+    border-style: solid;
+    border-width: 15px 19px 15px 0;
+    border-color: transparent $dark transparent transparent;
+    position: absolute;
+    left: 80px;
+    top: 1px;
+    transform: rotate(50deg);
+}
+
 .issueDate {
   text-transform: uppercase;
   font-weight: 700;
+  z-index:2;
 }
 
 .singleText {
@@ -1070,20 +1190,22 @@ span.searchHit {
  }
  
 
+
+
 .issueDate {
-    background: $greyDark;
+    background: $dark;
     color: $lightest;
     font-size: 1.1em;
     padding: 5px;
     height: 23px;
-    width: 135px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
-    margin-right: 1px;
     font-weight: 400;
     box-sizing: border-box;
+    padding-left: 17px;
     line-height: .9em;
 border-radius: 20px 0px 0px 20px;    
 }
@@ -1103,7 +1225,6 @@ padding-bottom: 4px;
 
 
   .issueMeta {
-    background-image: url(http://i.imgur.com/BJtKhwV.png);
     margin-bottom: 10px;    
   }
   .bibl > .issue {
@@ -1189,7 +1310,10 @@ button#show-modal{
 .issueHeader > .issueMeta{
     //margin-left: 151px;  
 
-}  
+} 
+
+
+
   .issueHeader .pieceAuthor {
     font-size: 1.4em;
   }
@@ -1202,7 +1326,7 @@ button#show-modal{
     padding-bottom: 6px;
     @include flexbox;
     border-radius: 0px;
-    background: $greyDark;
+    background: $dark;
     color: $lightest;
     font-size: 1.1em;
     padding: 5px;
@@ -1212,7 +1336,6 @@ button#show-modal{
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
-    margin-right: 1px;
     font-weight: 400;
     box-sizing: border-box;
     line-height: .9em; 
@@ -1242,14 +1365,6 @@ button#show-modal{
     position: relative;
     top: -2px;
     margin-left: 5px;
-  }
-}
-
-.personBibl {
-  .issueVol,
-  .issueNum {
-    float: none;
-    background: $primary-accent-color;
   }
 }
 
