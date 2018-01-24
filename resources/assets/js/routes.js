@@ -9,11 +9,17 @@ let routes = [
     },
     {
         path: '/issues',
+        redirect: '/issues/18450104',
         component:  require('./components/Issue'),
         children: [
 
             {
                 path: ':id/:biblid',
+                component:  require('./components/Issue')
+
+            },
+            {
+                path: ':id',
                 component:  require('./components/Issue')
 
             }

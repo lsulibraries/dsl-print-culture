@@ -260,25 +260,30 @@ Vue.component('biblPersonPieceMeta',{
 
 Vue.component('biblPieceMeta', {
     template: `
-	<div class="pieceMeta">
-	  <h1 class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</h1></div>
+    <div class="pieceMeta">
+        <div @click="$emit('close')">
+            <router-link :to="this.getIssueLink()" tag='h1'>{{pieceMeta.pieceTitle}}</router-link>
         </div>
+    </div>
     `,
     props: ['pieceMeta', 'issueId'],
     methods: {
-	goToPiece: function () {
-	    this.$root.state.content.issue.id = this.issueId
-	    this.$root.state.content.issue.decls_id = this.pieceMeta.pieceId
-	    this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex)
+        getIssueLink: function () {
+            return '/issues/' + this.issueId + '/' + this.pieceMeta.pieceId
+        },
+        goToPiece: function () {
+            this.$root.state.content.issue.id = this.issueId
+            this.$root.state.content.issue.decls_id = this.pieceMeta.pieceId
+            this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex)
 
-	    Event.$emit('activeContentChange', 'issues')
-        Event.$emit('close')
-	    Event.$emit('issueBiblSelected', {
-		issueId: this.issueId,
-		pdf_index: this.pieceMeta.piecePdfIndex,
-		decls_id: this.pieceMeta.pieceId
-	    })
-	},
+            Event.$emit('activeContentChange', 'issues')
+            Event.$emit('close')
+            Event.$emit('issueBiblSelected', {
+                issueId: this.issueId,
+                pdf_index: this.pieceMeta.piecePdfIndex,
+                decls_id: this.pieceMeta.pieceId
+            })
+        },
     }
 })
 
@@ -364,31 +369,32 @@ Vue.component('issueViewer',{
     template: `
 	<div class="viewer">
 	  <transition name="fade"><pdf-viewer v-if="viewer == 'pdf'"></pdf-viewer></transition>
-	  <transition name="fade"><tei-markup v-if="viewer == 'text'"></tei-markup></transition>
+	  <transition name="fade"><tei-markup v-if="viewer == 'text'" :issue="this.issueId" :bibl="this.biblId"></tei-markup></transition>
 	</div>
 	`,
-        data() {
-	return {
-	    viewer: this.$root.state.content.issue.viewer,
-	}
+    data() {
+        return {
+            viewer: this.$root.state.content.issue.viewer,
+        }
     },
+    props: ['issueId', 'biblId'],
     created() {
-	Event.$on('viewerSelected', (viewer) => {
-	    this.viewer = viewer
-	})
+    	Event.$on('viewerSelected', (viewer) => {
+    	    this.viewer = viewer
+    	})
     },
 })
 
 Vue.component('modal', {
     data() {
-	return {
-	    authorShipLegend: `Author will have 2-3 a`,
-	    bibl_data: {},
-	    ppm: {},
-	    biblId: 's1',
+        return {
+            authorShipLegend: `Author will have 2-3 a`,
+            bibl_data: {},
+            ppm: {},
+            biblId: 's1',
             showModal: false,        
-	    issueHeaderData: {}
-	}
+            issueHeaderData: {}
+        }
     },
     props: ['authorId', 'issueId', 'declsId'],
   template: `<transition name="modal">
@@ -593,9 +599,17 @@ Vue.component('intraIssueNav',{
 
 Vue.component('toc-item',{
 	 data(){
-	 	return { toggled:false}
+	 	return { 
+            toggled:false,
+            issueId: 18450104
+        }
 	 },
 	 props:['id'],
+     created() {
+        if(this.$route.params.id) {
+            this.issueId = this.$route.params.id
+        }
+     },
 	 methods:{
 	    showChildren: function(){
 		if(this.toggled==false){
@@ -644,15 +658,20 @@ Vue.component('toc-item',{
 		     this.id.issueId = this.$root.state.content.issue.id
 		     Event.$emit("issueBiblSelected", this.id)
 		 }
-	     }
+	     },
+        getLink: function() {
+            const issueId = this.issueId
+            const  biblId  = this.id.decls_id
+            return '/issues/' + issueId + '/' + biblId;
+        }
 	},
         template:`
             <div class="tocItem" v-bind:class='id.type'>
-                <div class='tocToggle' @click='tocItemSelected'>
+                <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div'>
                     <div class="tocTitle">{{id.title}}</div>
                     <div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
                     <div v-if='id.start' class="pageNumber"></div>
-                </div>
+                </router-link>
                 <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
             </div>
 	 `
@@ -669,13 +688,18 @@ Vue.component('child-piece',{
 		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
 		    this.id.issueId = this.$root.state.content.issue.id
 		    Event.$emit("issueBiblSelected", this.id)
-		}
+		},
+        getLink: function() {
+            const issueId = this.id.issueId
+            const biblId  = this.pieceIndex
+            return '/issues/' + issueId + '/' + biblId;
+        }
 	},
         template:`
-            <div class="childPiece" @click='tocItemSelected'>
+            <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div'>
               <div class="childPieceTitle">{{id.title}}</div>
               <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
-            </div>
+            </router-link>
 	`
 })
 
@@ -818,36 +842,62 @@ Vue.component('pdf-viewer',{
 })
 
 Vue.component('tei-markup',{
+    props: ['issue', 'bibl'],
     created(){
-	Event.$on('issueSelected', (id) => {
-	    this.id = id;
-	    this.biblId = ''
-	    this.getText();
-	}),
-	Event.$on('issueBiblSelected', (bibl) => {
-	    this.biblId = bibl.decls_id
-	    this.id = bibl.issueId
-	    this.getText(this.biblId);
-	})
-	this.id = this.$root.state.content.issue.id
-	this.biblId = this.$root.state.content.issue.decls_id
-	this.page = this.$root.state.content.issue.page
-	this.getText()
+        Event.$on('issueSelected', (id) => {
+            this.issueId = id;
+            this.biblId = ''
+            this.getText();
+        }),
+        Event.$on('issueBiblSelected', (bibl) => {
+            this.biblId = bibl.decls_id
+            this.issueId = bibl.issueId
+            this.getText(this.biblId);
+        })
+        if (this.$route) {
+            if(this.$route.params.id) {
+                this.issueId = this.$route.params.id
+            }
+            if (this.$route.params.biblid) {
+                this.biblId = this.$route.params.biblid
+            }
+        }
+        // this.issueId = this.issue
+        // this.biblId = this.bibl
+        this.page = this.$root.state.content.issue.page
+        this.getText()
+    },
+    watch: {
+        '$route': 'fetchData'
     },
     methods: {
+        fetchData: function() {
+            if (this.$route) {
+                if(this.$route.params.id) {
+                    this.issueId = this.$route.params.id
+                }
+                if (this.$route.params.biblid) {
+                    this.biblId = this.$route.params.biblid
+                }
+            }
+            // this.issueId = this.issue
+            // this.biblId = this.bibl
+            this.page = this.$root.state.content.issue.page
+            this.getText()
+        },
 	highlightText: function(){
 	    let needle = this.$root.state.content.searchString
 	    if(needle.length < 1){
-		return this.issueText
-	    }
+		  return this.issueText
+        }
 	    //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
 	    pattern = new RegExp('('+needle+')', 'gi')
 	    return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>")
 	},
 	getText: function(){
 	    if(this.biblId){
-		  let url = '/api/broadwayjournal/'+ this.id + '/piece-text/' + this.biblId;
-		axios.get(url).then(response => this.issueText = response.data);
+		  let url = '/api/broadwayjournal/'+ this.issueId + '/piece-text/' + this.biblId;
+		  axios.get(url).then(response => this.issueText = response.data);
 	    }else {
             this.issueText = ''
 		// url = '/api/broadwayjournal/'+ this.id + '/issue-text';
@@ -882,11 +932,11 @@ Vue.component('tei-markup',{
     },
 	data(){
 	    return{
-		id: '',
+		// issueId: '',
 		page:'',
 		markdown:[],
 		issueText: '',
-		biblId: '',
+		// biblId: '',
 		biblData: {},
 	    }
 	},

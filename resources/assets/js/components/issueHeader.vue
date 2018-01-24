@@ -16,7 +16,8 @@
                 ppm: {},
                 biblId: '',
                 showModal: false,        
-                issueHeaderData: {}
+                issueHeaderData: {},
+                issueId: ''
             }
     },
     created() {
@@ -28,20 +29,40 @@
         Event.$on('issueBiblSelected', (bibl) => {
             this.biblId = bibl.decls_id
             this.getIssueHeaderData()
+            this.showModal = false
+            // this.showModal = false // needed for when 
         })
         Event.$on('close', () => {
             this.showModal = false
         })
 
-        this.biblId = this.$root.state.content.issue.decls_id
+        // this.biblId = this.$root.state.content.issue.decls_id
         if (!this.$root.empty(this.$route.params.id)) {
-            this.$root.state.content.issue.id = this.$route.params.id
-            Event.$emit('issueSelected', this.$route.params.id)
+            // this.$root.state.content.issue.id = this.$route.params.id
+            // Event.$emit('issueSelected', this.$route.params.id)
+            this.issueId = this.$route.params.id
+        }
+        if (this.$route.params.biblid) {
+            this.biblId = this.$route.params.biblid
         }
         this.getIssueHeaderData()
     },
 
+    watch: {
+        '$route': 'fetchData'
+    },
     methods: {
+        fetchData: function() {
+            if (this.$route) {
+                if(this.$route.params.id) {
+                    this.issueId = this.$route.params.id
+                }
+                if (this.$route.params.biblid) {
+                    this.biblId = this.$route.params.biblid
+                }
+            }
+            this.getIssueHeaderData()
+        },
         showBiblSectionMeta: function () {
             const biblIdSet  = this.biblId !== ''
             if (!biblIdSet) {
@@ -75,8 +96,13 @@
         getSectionMeta: function () {
         },
         getIssueHeaderData: function () {
-            let headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
-            axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+            if (this.$route) {
+                if(this.$route.params.id) {
+                    this.issueId = this.$route.params.id
+                    let headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
+                    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+                }
+            }
         },
         getPersonId: function() {
             if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
@@ -95,12 +121,12 @@
             return false
             }
             if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
-            console.log('person ' + pid + ' not found!')
-            return {
-                personRole: 'unknown',
-                personName: 'unknown',
-                personViaf: false
-            }
+                console.log('person ' + pid + ' not found!')
+                return {
+                    personRole: 'unknown',
+                    personName: 'unknown',
+                    personViaf: false
+                }
             }
             let personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
             // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
