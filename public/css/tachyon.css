@@ -707,7 +707,7 @@ input:focus {
   border: 1px solid #A7A37E;
   padding: 2px;
   padding-left: 7px;
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 20px 20px 20px 0px;
   width: 80%;
 }
 
