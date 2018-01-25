@@ -16,7 +16,6 @@ $primary-accent-color-HC3: #000000;
 $primary-accent-color3: rgba(254, 114, 81, 0.5);
 $dark-border-color: #5c5c5c;
 
-$fifteendark: rgba(0, 0, 0, 0.15);
 
 //https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
 
@@ -25,10 +24,12 @@ $dark: #046380;
 $lightest:#f2e6ce;
 $lighter: #E6E2AF;
 $light:#A7A37E;
-
 $altdark: #046f8f;
 
 $greyDark: #474747;
+$fifteendark: rgba(0, 0, 0, 0.15);
+$twentydark: rgba(0, 0, 0, 0.20);
+$thirtydark: rgba(0, 0, 0, 0.30);
 
 //end adobe colors
 
@@ -551,6 +552,8 @@ input:focus {
 
 }
 
+
+
 .tocItem {
   padding: 5px 0px;
   cursor: pointer;
@@ -939,10 +942,23 @@ button.searchSubmit {
   .personMeta {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: 100%;
+    justify-content: center;
     flex-direction: column;
-    background: #e9e9e9;
-
+    align-items: center;
+    background: $fifteendark;
+    .personName {
+    font-size: 14px;
+    display: flex;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px 5px 0px 5px;
+    border-bottom: 1px solid $thirtydark;
+    flex-grow: 0;
+    padding-bottom: 2px;
+    height: 10px;
+    align-items: flex-end;  
+    }
 }
 }
 
@@ -950,25 +966,77 @@ button.searchSubmit {
 .personSide {
   @include flexbox;
   flex-wrap: wrap;
-  padding-top: 80px;
+  padding-top: 150px;
   align-content: flex-start;
   width: 70%;
   background: $lightest;
+  position: relative;
   box-sizing: border-box;
   .personIndex {
+    width: 70%;
+    position: relative;
+    .personIndexLabel {
+    @extend .labelFilter;
+    position: absolute;
+    top: -70px;
+    width: calc(100% - 25px);
+    border-bottom: 2px solid;
+    color: #474747;
+    right: 20px;
+    }       
+  }
+    .personListBiblLabel {
+    @extend .labelFilter;
+    position: absolute;
+    top: 80px;
+    width: calc(30% - 55px);
+    border-bottom: 2px solid;
+    color: #474747;
+    left: 20px;
+    }    
+  .personIndexInner{
   display: flex;
-  flex-wrap: wrap;
-  width: calc(100% - 430px);
-  height: calc(100vh - 213px);
-  overflow-y: scroll;
+    flex-wrap: wrap;
+    height: calc(100vh - 403px);
+    overflow-y: scroll;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 20px;
+    position: relative;
   }
   .personListBibl {
-  width: 250px;
-  height: calc(100vh - 213px);
-    overflow-y: auto;
-    padding: 0px 20px;    
+  width: 30%;
+  .personListBiblInner{
+      height: calc(100vh - 403px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  }
   }
 
+.fillerWork{
+  height: 100%;
+  background: $fifteendark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    .fillerMessage {
+    padding: 20px 20px 20px 10px;
+    border-left: 4px solid $fifteendark;
+    height: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    }  
+}
+
+}
+
+.person.active .personMeta{
+  background-color: $twentydark;
 }
 
 .peopleFilters {
@@ -1011,14 +1079,13 @@ button.searchSubmit {
 }
 
 .personIndex .person {
-    margin: 10px;
-    cursor: pointer;
-    width: 200px;
-    border-radius: 10px;
-    overflow: hidden;
     @include flexbox;
+    cursor: pointer;
+    width: calc(33% - 2px);
     flex-direction: column;
-    border: 1px solid #d0d0d0;    
+    height: 200px;
+    border: 2px solid #f2e6ce;
+
 }
 
 .Contributing .personName {
@@ -1052,8 +1119,6 @@ button.searchSubmit {
 }
 
 .Mentioned .personRole, .Correspondent .personRole {
-  background: $document-text-color;
-  color: $primary-accent-color;
   padding: 5px;
   font-weight: 800;
   font-size: 0.8em;

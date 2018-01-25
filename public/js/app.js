@@ -164,9 +164,13 @@ Vue.component('biblDisplay', {
     },
     template: `
         <div class="personListBibl">
-          <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
-          <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
-          <personBibl v-if="biblActive" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
+            <div class="personListBiblLabel">Author Works</div>
+            <div class="personListBiblInner">
+                <div v-if="!biblActive" class="fillerWork"><div class="fillerMessage">Choose an author to view their works</div></div>
+                <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
+                <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
+                <personBibl v-if="biblActive" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
+            </div>
         </div>
 
     `,
@@ -206,8 +210,11 @@ Vue.component('biblDisplay', {
 
 Vue.component('personIndex', {
     template: `
-	<div class='personIndex' v-if="!this.$root.empty(this.index)">
-          <person v-for="personObj in this.index" :person="personObj"></person>
+        <div class='personIndex' v-if="!this.$root.empty(this.index)">
+            <div class="personIndexLabel">Author Index</div>
+            <div class="personIndexInner">
+                <person v-for="personObj in this.index" :person="personObj"></person>
+            </div>
         </div>
 	`,
     data() {

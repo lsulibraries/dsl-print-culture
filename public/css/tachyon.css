@@ -480,7 +480,7 @@ input:focus {
   font-weight: 700;
 }
 
-.tocDropdown, .personFilter > label, .labelFilter {
+.tocDropdown, .personFilter > label, .labelFilter, .personSide .personIndex .personIndexLabel, .personSide .personListBiblLabel {
   font-size: 14px;
   text-transform: uppercase;
   line-height: .9em;
@@ -884,9 +884,23 @@ button.searchSubmit {
 .personography .personMeta {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  height: 100%;
+  justify-content: center;
   flex-direction: column;
-  background: #e9e9e9;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.15);
+}
+.personography .personMeta .personName {
+  font-size: 14px;
+  display: flex;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0px 5px 0px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  flex-grow: 0;
+  padding-bottom: 2px;
+  height: 10px;
+  align-items: flex-end;
 }
 
 .personSide {
@@ -896,23 +910,73 @@ button.searchSubmit {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 0px;
+  padding-top: 150px;
   align-content: flex-start;
   width: 70%;
   background: #f2e6ce;
+  position: relative;
   box-sizing: border-box;
 }
 .personSide .personIndex {
+  width: 70%;
+  position: relative;
+}
+.personSide .personIndex .personIndexLabel {
+  position: absolute;
+  top: -70px;
+  width: calc(100% - 25px);
+  border-bottom: 2px solid;
+  color: #474747;
+  right: 20px;
+}
+.personSide .personListBiblLabel {
+  position: absolute;
+  top: 80px;
+  width: calc(30% - 55px);
+  border-bottom: 2px solid;
+  color: #474747;
+  left: 20px;
+}
+.personSide .personIndexInner {
   display: flex;
   flex-wrap: wrap;
-  width: calc(100% - 430px);
-  height: calc(100vh - 213px);
+  height: calc(100vh - 403px);
   overflow-y: scroll;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 20px;
+  position: relative;
 }
 .personSide .personListBibl {
-  width: 250px;
-  height: calc(100vh - 213px);
+  width: 30%;
+}
+.personSide .personListBibl .personListBiblInner {
+  height: calc(100vh - 403px);
   overflow-y: auto;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+.personSide .fillerWork {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personSide .fillerWork .fillerMessage {
+  padding: 20px 20px 20px 10px;
+  border-left: 4px solid rgba(0, 0, 0, 0.15);
+  height: 10px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.person.active .personMeta {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .peopleFilters {
@@ -936,18 +1000,16 @@ button.searchSubmit {
 }
 
 .personIndex .person {
-  margin: 10px;
-  cursor: pointer;
-  width: 200px;
-  border-radius: 10px;
-  overflow: hidden;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  cursor: pointer;
+  width: calc(33% - 2px);
   flex-direction: column;
-  border: 1px solid #d0d0d0;
+  height: 200px;
+  border: 2px solid #f2e6ce;
 }
 
 .Contributing .personName {
@@ -981,8 +1043,6 @@ button.searchSubmit {
 }
 
 .Mentioned .personRole, .Correspondent .personRole {
-  background: #474747;
-  color: #fe7251;
   padding: 5px;
   font-weight: 800;
   font-size: 0.8em;
