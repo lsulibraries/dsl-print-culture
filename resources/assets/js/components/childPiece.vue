@@ -4,6 +4,8 @@
             return {
 
                 issueId: '',
+                biblId: '',
+                author: ''
             }
         },
 
@@ -15,11 +17,20 @@
 
         created() {
             this.issueId = this.$route.params.id
+            this.biblId = this.$route.params.biblid
         },
 
         methods:{
+            isActive: function(){
+                if(this.biblId == this.$route.params.biblid){ 
+                    return true
+                }
+            },
             fetchData: function() {
                 this.issueId = this.$route.params.id
+                if (this.$route.params.biblid) {
+                    this.biblId = this.$route.params.biblid
+                }
             },
             tocItemSelected: function() {
                 Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
@@ -33,8 +44,8 @@
     }
 </script>
 <template>
-        <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div'>
+        <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div' v-bind:class='{tocActive: this.isActive()}'>
           <div class="childPieceTitle">{{id.title}}</div>
-          <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
+          <div v-if='id.auth_name' class="childPieceAuthor">{{id.auth_name}}</div>
         </router-link>
 </template>

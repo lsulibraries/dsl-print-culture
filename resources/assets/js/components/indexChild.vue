@@ -3,27 +3,34 @@
         data() {
             return { 
                 meSeen:false,
-                toggled:false,
             }
         },
         props: ['id'],
         methods: {
-            selectIssue: function(){
-                this.toggled = this.$route.params.id == this.id
-            },
             getLink: function () {
                 return '/issues/' + this.id
             },
         },
-        watch: {
-            '$route': 'selectIssue'
+        computed: {
+            isCurrentIssue: function(){
+                if (this.$route.params.id == this.id){
+                    return true
+                }
+                return false
+            },
+            isMonthShown: function(){
+                if(this.id.substring(0,6) == this.$route.params.id.substring(0,6)){
+                    return true
+                }
+                return false
+            }
         },
     }
 </script>
 <template>
-    <div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
+    <div v-if="this.isMonthShown" class="childIndex">
         <router-link :to="getLink()" tag='div'>
-            <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
+            <div v-bind:class="{active: this.isCurrentIssue}" v-text="id.slice(-2)"></div>
         </router-link>
     </div>
 </template>

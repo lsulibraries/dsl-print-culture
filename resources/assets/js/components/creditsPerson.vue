@@ -1,9 +1,8 @@
 <template>
     <div class="creditsPerson">
-      <div class="creditsPersonName">{{person.personMeta.personName}}</div>
-      <!-- <div class="creditsPersonAffiliation" v-if="this.hasBio()">{{ this.getAffiliation() }}</div> -->
-      <div class="creditsPersonNote" v-if="this.hasBio() && this.person.personMeta.personRole != 'past'">{{ this.getNote() }}</div>
-        </div>
+        <div class="creditsPersonName">{{person.personMeta.personName}}</div>
+        <div class="creditsPersonNote" v-if="this.hasBio() && this.person.personMeta.personRole != 'past'">{{ this.getNote() }}</div>
+    </div>
 </template>
 <script>
     export default {

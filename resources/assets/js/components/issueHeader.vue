@@ -266,34 +266,34 @@
 }
 </script>
 <template>
-        <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
-         
-          <div class="issueInfo">
-              <div class='issueDate'>{{this.formatDate()}}</div>
-              <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
-          <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta()"></biblSectionMeta>
+    <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+        <div class="issueInfo">
+            <div class='issueDate'>{{this.formatDate()}}</div>
+            <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
+            <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta()"></biblSectionMeta>
 
-          </div>          
-          <div class="bibl" v-if="haveData()">
+        </div>
+        <div class="bibl" v-if="haveData()">
             <div class="issue">
-              <a class="downloadLink" v-bind:href='stateHref()'>
-                <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
-                <div class="downloadText">View {{this.dlLabel()}}</div>
-              </a>
-              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
+                <a class="downloadLink" v-bind:href='stateHref()'>
+                    <div class="downloadIcon">
+                        <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="downloadText">View {{this.dlLabel()}}</div>
+                </a>
+                <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
             </div>
             <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
-            <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->
+    <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->
 
-  <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
+            <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>
 
             <div class="issueData"></div>
             <div class="authorShipLegend">{{this.authorShipLegend}}</div>
-            </div>
-  <!-- use the modal component, pass in the prop -->
-  <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">
-    <h3 slot="header">More from this author</h3>
-  </modal>
-
         </div>
+        <!-- use the modal component, pass in the prop -->
+        <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">
+            <h3 slot="header">More from this author</h3>
+        </modal>
+    </div>
 </template>
