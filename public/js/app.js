@@ -1083,6 +1083,9 @@ Vue.component('viewerSelector',{
 	    return viewerType == this.active
 	},
 	toggleViewer: function(){
+            if(this.$root.state.content.issue.decls_id == ''){
+                this.$root.state.content.issue.decls_id = 'p1'
+            }
 	    this.pdfSelected = !this.pdfSelected
 	    this.active = this.active == 'pdf' ? 'text' : 'pdf'
 	    Event.$emit('viewerSelected', this.active)
