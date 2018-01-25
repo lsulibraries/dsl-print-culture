@@ -1,7 +1,8 @@
 <script>
     import personIndex from './personIndex'
+    import personFilter from './personFilter'
     export default {
-        components: { personIndex },
+        components: { personIndex, personFilter },
         data(){
             return {
                 modalActive:false,

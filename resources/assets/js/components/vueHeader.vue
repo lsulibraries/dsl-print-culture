@@ -1,8 +1,8 @@
 
 <template>
-        <div class="header">
-          <headerTitle></headerTitle>
-          <headerNav></headerNav>
+    <div class="header">
+      <a href="." class="headerTitle">The<br>Broadway<br>Journal</a>
+      <headerNav></headerNav>
       <div class="contrast" @click='toggleContrast'>
         <div class="contrastTitle">High Contrast</div>
         <div class="contrastSwitch">
