@@ -342,15 +342,23 @@
 
                                     <xsl:text>Writing as </xsl:text>
                                     <xsl:for-each select="tokenize($pseudo, ' ')">
-                                        <xsl:value-of
-                                            select="
-                                                string-join((
-                                                upper-case(substring(., 1, 1)),
-                                                lower-case((substring(., 2)))),
-                                                '')"/>
-                                        <xsl:if test="position() != last()">
-                                            <xsl:text> </xsl:text>
-                                        </xsl:if>
+                                        <xsl:choose>
+                                            <xsl:when
+                                                test="contains(substring(., 1, string-length(.) - 1), '.')">
+                                                <xsl:value-of select="."/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of
+                                                  select="
+                                                        string-join((
+                                                        upper-case(substring(., 1, 1)),
+                                                        lower-case((substring(., 2)))),
+                                                        '')"/>
+                                                <xsl:if test="position() != last()">
+                                                  <xsl:text> </xsl:text>
+                                                </xsl:if>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </xsl:for-each>
                                     <xsl:if test="not(ends-with($pseudo, '.'))">
                                         <xsl:text>.</xsl:text>
