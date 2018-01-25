@@ -18,7 +18,7 @@
 
     <xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/> 
     <!-- substitute variable with different path for local testing with small subset of issues -->
-    <!--<xsl:variable name="teiIssues" select="collection('issues')"/>--> 
+    <!--<xsl:variable name="teiIssues" select="collection('issues-mention')"/>--> 
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
@@ -205,6 +205,7 @@
                         
                         <!-- get bibls for Contributors -->
                         <xsl:for-each select="$teiIssues//listBibl//author">
+                            <xsl:sort select="ancestor::TEI//fileDesc/publicationStmt/idno"></xsl:sort>
                             <xsl:if test="substring-after(@ref, '#') eq $personId">
                                 <xsl:call-template name="biblMeta"/>
                             </xsl:if>
@@ -212,6 +213,7 @@
 
                         <!-- get bibls for Mentions -->
                         <xsl:for-each-group select="$mentions" group-by="concat(ancestor::TEI//fileDesc/publicationStmt/idno, ancestor::div[@decls][1]/@decls)">
+                            <xsl:sort select="ancestor::TEI//fileDesc/publicationStmt/idno"></xsl:sort>
                             <xsl:call-template name="biblMeta"/>
                         </xsl:for-each-group>
                     </personListBibl>
