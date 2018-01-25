@@ -10,8 +10,9 @@
 </template>
 <script>
     import biblIssueMeta from './biblIssueMeta'
+    import biblSectionMeta from './biblSectionMeta'
     export default {
-        components: { biblIssueMeta },
+        components: { biblIssueMeta, biblSectionMeta },
         props: ['bibl']
     }
 </script>

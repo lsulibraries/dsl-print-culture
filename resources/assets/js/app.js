@@ -12,15 +12,6 @@ window.Util  = new Vue({
     }
 });
 
-Vue.component('biblSectionMeta', {
-    template: `
-	<div class="sectionMeta">
-	  <div class="sectionTitle">{{sectionMeta.sectionTitle}}</div>
-        </div>
-    `,
-    props: ['sectionMeta']
-})
-
 Vue.component('biblPersonPieceMeta',{
     template: `
     <div class="personPieceMeta">
