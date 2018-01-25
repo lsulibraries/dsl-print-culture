@@ -108,20 +108,31 @@
 
         },
         getPersonId: function() {
+            // if section, get section list person, if set.
             if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
-            if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
-                return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
-            }
+                if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
+                    return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
+                }
             }
             if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)){
-            return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
+                if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+                    return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
+                }
+                else if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
+                    const sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
+                    if (!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                        return Object.keys(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)[0]
+                    }
+                }
             }
             return false
         },
         getPersonMeta: function (){
-            let pid = this.getPersonId()
+            const pid = this.getPersonId()
+            const bibl = this.biblId
+
             if(!pid){
-            return false
+                return false
             }
             if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
                 console.log('person ' + pid + ' not found!')
@@ -131,12 +142,37 @@
                     personViaf: false
                 }
             }
-            let personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
-            // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
-            if(this.$root.empty(personMeta.personName)){
-              return false
+            if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId])) { // have bibl
+                if (!this.biblIsSection(this.biblId)) {
+                    if (this.authorlessPieceInSection(this.biblId)) {
+                        sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
+                        if(!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                            const personMeta = { personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName }
+                        }
+                    }
+                    else {
+                        const personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
+                    }
+                    // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+                }
+                else {
+                    const personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName }
+                }
+                if(this.$root.empty(personMeta.personName)){
+                  return false
+                }
+                return personMeta
             }
-            return personMeta
+            console.log('missing list bibl for' + this.biblId)
+            return false
+        },
+        authorlessPieceInSection: function (biblId) {
+            if (this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+                if (!this.$root.empty(this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))) {
+                    return true
+                }
+            }
+            return false
         },
         getPersonPieceMeta: function () {
             pid = this.getPersonId()
@@ -149,10 +185,10 @@
         },
         drawerIsAvailable: function() {
                 let isAnon = this.getPersonId() == 'anon'
-                let biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId))
+                let biblExists_notSection = !this.biblIsSection(this.biblId) && this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson
                 let sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
                 let personInSection = this.getPersonMeta()
-            return !isAnon && (personInSection || biblExists_notSection)
+                return !isAnon && (personInSection || biblExists_notSection)
         },
         dlLabel: function(){
                 if(this.$root.state.content.issue.viewer == 'pdf'){
@@ -201,8 +237,8 @@
             }
         },
         biblIsSection: function(biblId) {
-            if(this.issueHeaderData.listBibl[biblId].sectionMeta){
-            return true
+            if(this.issueHeaderData.listBibl[biblId].sectionMeta && this.$root.empty(this.issueHeaderData.listBibl[biblId].pieceMeta)){
+                return true
             }
             return false
         },
