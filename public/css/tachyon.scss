@@ -27,6 +27,8 @@ $light:#A7A37E;
 $altdark: #046f8f;
 
 $greyDark: #474747;
+$sevendark: rgba(0, 0, 0, 0.07);
+
 $fifteendark: rgba(0, 0, 0, 0.15);
 $twentydark: rgba(0, 0, 0, 0.20);
 $thirtydark: rgba(0, 0, 0, 0.30);
@@ -799,12 +801,21 @@ position: relative;
     padding-left: 20px;
 }
 
+ .tocToggle.tocActive, .tocToggle.tocActive:hover{
+  color: $lightest;
+ }
+
+
 .section .tocTitle:hover, .section .tocActive{
   .childPiece{
   color: $lightest;
   border-left: 1px solid $lightest;
   }
 }
+
+.tocToggle.tocActive ~ .childPiece{
+    border-left: 1px solid $lightest;
+  }
 
 
 .section .tocActive .tocTitle {
@@ -946,7 +957,7 @@ button.searchSubmit {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: $fifteendark;
+    background: $sevendark;
     .personName {
     font-size: 14px;
     display: flex;
@@ -997,7 +1008,7 @@ button.searchSubmit {
   .personIndexInner{
   display: flex;
     flex-wrap: wrap;
-    height: calc(100vh - 403px);
+    max-height: calc(100vh - 403px);
     overflow-y: scroll;
     align-items: flex-start;
     justify-content: flex-end;
@@ -1006,20 +1017,40 @@ button.searchSubmit {
   }
   .personListBibl {
   width: 30%;
-  .personListBiblInner{
-      height: calc(100vh - 403px);
-  overflow-y: auto;
-  box-sizing: border-box;
-  padding: 0px 20px;
-  }
+    .personListBiblInner{
+    height: calc(100vh - 403px);
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    .personMeta {
+    height: 200px;
+    background: none;
+    border-bottom: 3px solid $fifteendark;
+    }    
+    .personBlurb {
+    padding: 20px 0px;
+    font-weight: 700;
+    line-height: 20px;
+    border-bottom: 3px solid $fifteendark;
+    }    
+    .personBibl{
+    background: none;
+    border-bottom: 3px solid $fifteendark;
+    border-radius: 0px;      
+    .pieceTitle{
+      color:$greyDark;
+    }
+    }    
+    }
   }
 
 .fillerWork{
   height: 100%;
-  background: $fifteendark;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #cec4af;
+  box-sizing: border-box;  
     .fillerMessage {
     padding: 20px 20px 20px 10px;
     border-left: 4px solid $fifteendark;
@@ -1036,7 +1067,7 @@ button.searchSubmit {
 }
 
 .person.active .personMeta{
-  background-color: $twentydark;
+  background-color: $fifteendark;
 }
 
 .peopleFilters {

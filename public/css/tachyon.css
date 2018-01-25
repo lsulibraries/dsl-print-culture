@@ -763,8 +763,16 @@ input:focus {
   padding-left: 20px;
 }
 
+.tocToggle.tocActive, .tocToggle.tocActive:hover {
+  color: #f2e6ce;
+}
+
 .section .tocTitle:hover .childPiece, .section .tocActive .childPiece {
   color: #f2e6ce;
+  border-left: 1px solid #f2e6ce;
+}
+
+.tocToggle.tocActive ~ .childPiece {
   border-left: 1px solid #f2e6ce;
 }
 
@@ -888,7 +896,7 @@ button.searchSubmit {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.07);
 }
 .personography .personMeta .personName {
   font-size: 14px;
@@ -940,7 +948,7 @@ button.searchSubmit {
 .personSide .personIndexInner {
   display: flex;
   flex-wrap: wrap;
-  height: calc(100vh - 403px);
+  max-height: calc(100vh - 403px);
   overflow-y: scroll;
   align-items: flex-start;
   justify-content: flex-end;
@@ -956,12 +964,32 @@ button.searchSubmit {
   box-sizing: border-box;
   padding: 0px 20px;
 }
+.personSide .personListBibl .personListBiblInner .personMeta {
+  height: 200px;
+  background: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+}
+.personSide .personListBibl .personListBiblInner .personBlurb {
+  padding: 20px 0px;
+  font-weight: 700;
+  line-height: 20px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+}
+.personSide .personListBibl .personListBiblInner .personBibl {
+  background: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+}
+.personSide .personListBibl .personListBiblInner .personBibl .pieceTitle {
+  color: #474747;
+}
 .personSide .fillerWork {
   height: 100%;
-  background: rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #cec4af;
+  box-sizing: border-box;
 }
 .personSide .fillerWork .fillerMessage {
   padding: 20px 20px 20px 10px;
@@ -976,7 +1004,7 @@ button.searchSubmit {
 }
 
 .person.active .personMeta {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .peopleFilters {
