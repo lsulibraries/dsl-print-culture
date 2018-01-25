@@ -104,14 +104,22 @@ Vue.component('headerTitle',{
 })
 
 Vue.component('vue-footer',{
-    template: `<div class='footer'>
-              <headerLogo></headerLogo>
-<section id='infoFooter' class='flex'><div id='creativeCommons'>
-This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.<br>
-
- contact the <a href='mailto:dsl@lsu.edu' target='_blank'>Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. </div></section>
-
-</div>`
+    template: `
+    <div class='footer'>
+        <div class="leftFooter">
+            <section id='infoFooter' class='flex'>
+                <div id='creativeCommons'>
+                    This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.<br>
+                    Contact the <a href='mailto:dsl@lsu.edu' target='_blank'>Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. 
+                </div>
+            </section>
+        </div>
+        <div class="rightFooter">
+            <div class="rightContainer">
+            <headerLogo></headerLogo>
+            </div>
+        </div>
+    </div>`
 })
 
 Vue.component('vue-content',{
@@ -135,10 +143,14 @@ Vue.component('personography',{
     },
     template: `
         <div class="personography">
-	<div class="personographyAbout">Lorem ipsum</div>
-	  <personFilter></personFilter>
-          <biblDisplay></biblDisplay>
-	  <personIndex></personIndex>
+            <div class="filterSide">
+                <div class="personographyAbout">Lorem ipsum</div>
+                <personFilter></personFilter>
+            </div>
+            <div class="personSide">
+                <biblDisplay></biblDisplay>
+                <personIndex></personIndex>
+            </div>
         </div>
     `
 })
@@ -392,6 +404,16 @@ Vue.component('biblIssueMeta', {
     `,
     props: ['issueMeta']
 })
+Vue.component('biblIssueMetaModal', {
+    template: `
+    <div class="issueMeta">
+      <div class="issueDate">{{issueMeta.issueDate}}</div>
+      <div class="issueVol">Vol. {{issueMeta.issueVol}}</div>
+      <div class="issueNum">No. {{issueMeta.issueNum}}</div>
+    </div>
+    `,
+    props: ['issueMeta']
+})
 
 Vue.component('biblSectionMeta', {
     template: `
@@ -437,8 +459,8 @@ Vue.component('biblPersonPieceMeta',{
 
 Vue.component('biblPieceMeta', {
     template: `
-	<div class="pieceMeta">
-	  <h1 class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>
+	<div class="pieceMeta"  @click="goToPiece">
+	  <h1 class="pieceTitle">{{pieceMeta.pieceTitle}}</div>
         </div>
     `,
     props: ['pieceMeta', 'issueId'],
@@ -462,10 +484,12 @@ Vue.component('biblPieceMeta', {
 Vue.component('personBibl', {
     template: `
 	<div class="personBibl">
-          <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
+        <div class="issueData"> 
+            <biblIssueMetaModal v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMetaModal>
+            <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
+        </div>
           <div class="pieceTitleContainer">
           <biblPieceMeta v-if="!this.$root.empty(bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
-          <biblIssueMeta v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="bibl.issueMeta"></biblIssueMeta>
           </div>
           <biblPersonPieceMeta v-if="!this.$root.empty(bibl.personPieceMeta)" :personPieceMeta="bibl.personPieceMeta"></biblPersonPieceMeta>
         </div>
@@ -629,7 +653,8 @@ If the author is anonymous DO NOT provide certainty.`,
                 <div class="downloadIcon"><i class="fa fa-floppy-o" aria-hidden="true"></i></div>
                 <div class="downloadText">View {{this.dlLabel()}}</div>
               </a>
-            <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>          <div class="fillerHeader" v-if="this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)">The Broadway Journal</div>            </div>
+              <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
+            </div>
             <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
             <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->
 
@@ -683,36 +708,73 @@ If the author is anonymous DO NOT provide certainty.`,
 	    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
 	},
 	getPersonId: function() {
+        // if section, get section list person, if set.
 	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
-		if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
-		    return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
-		}
+            if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)){
+                return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0]
+            }
 	    }
 	    if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)){
-		return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
+            if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+                return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0]
+            }
+            else if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
+                const sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
+                if (!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                    return Object.keys(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)[0]
+                }
+            }
 	    }
 	    return false
 	},
-	getPersonMeta: function (){
-	    pid = this.getPersonId()
-	    if(!pid){
-		return false
+	getPersonMeta: function () {
+        pid = this.getPersonId()
+        let bibl = this.biblId
+
+        if(!pid){
+            return false
+        }
+        if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
+            console.log('person ' + pid + ' not found!')
+            return {
+                personRole: 'unknown',
+                personName: 'unknown',
+                personViaf: false
+            }
 	    }
-	    if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
-		console.log('person ' + pid + ' not found!')
-		return {
-		    personRole: 'unknown',
-		    personName: 'unknown',
-		    personViaf: false
-		}
-	    }
-        personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
-	    // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
-	    if(this.$root.empty(personMeta.personName)){
-		  return false
-	    }
-	    return personMeta
+        if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId])) { // have bibl
+            if (!this.biblIsSection(this.biblId)) {
+                if (this.authorlessPieceInSection(this.biblId)) {
+                    sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
+                    if(!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                        personMeta = { personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName }
+                    }
+                }
+                else {
+                    personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
+                }
+                // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+            }
+            else {
+                personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName }
+            }
+            if(this.$root.empty(personMeta.personName)){
+              return false
+            }
+            return personMeta
+        }
+        console.log('missing list bibl for' + this.biblId)
+        return false
+
 	},
+    authorlessPieceInSection: function (biblId) {
+        if (this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+            if (!this.$root.empty(this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))) {
+                return true
+            }
+        }
+        return false
+    },
 	getPersonPieceMeta: function () {
 	    pid = this.getPersonId()
 	    if(!pid){
@@ -724,7 +786,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	},
 	drawerIsAvailable: function() {
             isAnon = this.getPersonId() == 'anon'
-            biblExists_notSection = this.issueHeaderData.listBibl[this.biblId] && (!this.biblIsSection(this.biblId))
+            biblExists_notSection = !this.biblIsSection(this.biblId) && this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson
             sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
             personInSection = this.getPersonMeta()
 	    return !isAnon && (personInSection || biblExists_notSection)
@@ -776,7 +838,7 @@ If the author is anonymous DO NOT provide certainty.`,
 	    }
 	},
 	biblIsSection: function(biblId) {
-	    if(this.issueHeaderData.listBibl[biblId].sectionMeta){
+	    if(this.issueHeaderData.listBibl[biblId].sectionMeta && this.$root.empty(this.issueHeaderData.listBibl[biblId].pieceMeta)){
 		return true
 	    }
 	    return false
@@ -835,7 +897,6 @@ Vue.component('modal', {
 
           <div class="modal-footer">
             <slot name="footer">
-              default footer
               <button class="modal-default-button" @click="$emit('close')">
                 Close
               </button>
@@ -879,6 +940,9 @@ Vue.component('drawer', {
 	},
     getBlurb: function() {
         person = this.$root.xhrDataStore.personography.personIndex[this.authorId]
+        if (this.$root.empty(person)) {
+            return ''
+        }
         bioExists = !this.$root.empty(person.personMeta.personBio)
         if (!bioExists) {
             return ''
@@ -968,7 +1032,6 @@ Vue.component('creditsPersonList', {
     template: `
     <div class="creditsPersonsList">
         <div class="creditsPersonListActive">
-            <h2>Active</h2>
             <div class="personRoleName" v-for="role in this.rolesActive">
             <h3>{{ role }}</h3>
                 <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'active' && person.personMeta.personRoleName == role"></creditsPerson>
@@ -1145,39 +1208,45 @@ Vue.component('intraIssueNav',{
 })
 
 Vue.component('toc-item',{
-	 data(){
-	 	return { toggled:false}
-	 },
-	 props:['id'],
-	 methods:{
-	    showChildren: function(){
-		if(this.toggled==false){
-		    //turn on this.$children
-		    for (each in this.$children){
-			this.$children[each].meSeen=true;
-			this.toggled=true;
-		    }
-		    //turn off everyone else's children
-		    for(one in this.$parent.$children){
-			//create new check for toc
-
-			if (this.$parent.$children[one].id != this.id){
-			    for(two in this.$parent.$children[one].$children){
-				this.$parent.$children[one].$children[two].meSeen=false;
-				//remove activeMonth from everyone else
-				this.$parent.$children[one].toggled=false;
-			    }							}
-			}
-		    }
-		    else{
-			//turn off this.children
-			for (each in this.$children){
-					this.$children[each].meSeen=false;
-					this.toggled=false;
-					}
-			}
-		},
-	     tocItemSelected: function() {
+    data(){
+        return { toggled:false}
+    },
+    props:['id'],
+    methods:{
+        isActive: function(){
+            if(this.id.decls_id == this.$root.state.content.issue.decls_id){
+                console.log('match')
+                return true
+            }
+         },
+        showChildren: function(){
+            if(this.toggled==false){
+                //turn on this.$children
+                for (each in this.$children){
+                    this.$children[each].meSeen=true;
+                    this.toggled=true;
+                }
+                //turn off everyone else's children
+                for(one in this.$parent.$children){
+                    //create new check for toc
+                    if (this.$parent.$children[one].id != this.id){
+                        for(two in this.$parent.$children[one].$children){
+                            this.$parent.$children[one].$children[two].meSeen=false;
+                            //remove activeMonth from everyone else
+                            this.$parent.$children[one].toggled=false;
+                        }
+                    }
+                }
+             }
+             else{
+                 //turn off this.children
+                 for (each in this.$children){
+                     this.$children[each].meSeen=false;
+                     this.toggled=false;
+                 }
+             }
+         },
+          tocItemSelected: function() {
 		 this.showChildren();
 		 if(this.id.pdf_index >= 1){
 		     Event.$emit("pdf-pageChange", parseInt(this.id.pdf_index))
@@ -1201,7 +1270,7 @@ Vue.component('toc-item',{
 	},
         template:`
             <div class="tocItem" v-bind:class='id.type'>
-	      <div class='tocToggle' @click='tocItemSelected'>
+	      <div class='tocToggle'  @click='tocItemSelected' v-bind:class="{tocActive: this.isActive()}">
                 <div class="tocTitle">{{id.title}}</div>
             	<div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
                 <div v-if='id.start' class="pageNumber"></div>
@@ -1218,6 +1287,11 @@ Vue.component('child-piece',{
 	},
 	props:['id','pieceIndex'],
 	 methods:{
+                isActive: function(){
+                    if(this.id.decls_id == this.$root.state.content.issue.decls_id){ 
+                        return true
+                    }
+                },
 		tocItemSelected: function() {
 		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
 		    this.id.issueId = this.$root.state.content.issue.id
@@ -1225,9 +1299,9 @@ Vue.component('child-piece',{
 		}
 	},
         template:`
-            <div class="childPiece" @click='tocItemSelected'>
+            <div class='childPiece' @click='tocItemSelected'  v-bind:class='{tocActive: this.isActive()}'>
               <div class="childPieceTitle">{{id.title}}</div>
-              <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
+              <div v-if='id.auth_name' class="childPieceAuthor">{{id.auth_name}}</div>
             <div>
 	`
 })
@@ -1453,22 +1527,14 @@ Vue.component('tei-markup',{
 Vue.component('issue-month',{
 	data(){
 	    return {
-		toggled: false,
+                toggled: this.isToggledMonth(),
 		monthConvert: {'JAN':'01','FEB':'02','MAR':'03','APR':'04','MAY':'05','JUN':'06','JUL':'07','AUG':'08','SEP':'09','OCT':'10','NOV':'11','DEC':'12'},
 	    }
 	},
 	props: {month: '',	list: ''},
-	created(){
-		Event.$on('issueSelected',(id) =>{
-			for(each in this.$children){
-				if(this.$children[each].id==id){
-	    			this.$children[each].toggled=true;
-	    		}else{this.$children[each].toggled=false;}
-			}
-		})
-	},
-	methods: {
+        methods: {
 	    showChildren: function(){
+                this.$root.state.content.issue.current_month_y = this.list[0].substring(0,6)
 		if(this.toggled==false){
 		    //turn on this.$children
 		    for (each in this.$children){
@@ -1492,15 +1558,32 @@ Vue.component('issue-month',{
 					this.toggled=false;
 					}
 			}
-		}
-	},
+		},
+            isToggledMonth: function(){
+                if(this.list[0].substring(0,6) == this.$root.state.content.issue.current_month_y){
+                    this.toggled = true
+                    return true
+                }
+                else{
+                    this.toggled =false
+                    //turn off this.children
+		    for (each in this.$children){
+		        this.$children[each].meSeen=false;
+                    }
+
+                    return false
+                }
+	    }
+        },
         template: `
-            <div v-bind:class="{activeMonth: toggled}">
+            <div v-bind:class="{activeMonth: this.isToggledMonth()}">
               <div @click="showChildren()">
                 <div class="singleText" >{{this.month}}</div>
                 <div class="indicatorIndex"></div>
               </div>
+              <div class="childContainer">
               <index-child :id="each" v-for="each in this.list"></index-child>
+              </div>
             </div>
         `
 });
@@ -1513,11 +1596,31 @@ Vue.component('index-child',{
     methods: {
 	selectIssue: function(id){
 	    Event.$emit('issueSelected', id);
-	}
+	},
+        isCurrentIssue: function(){
+            console.log(this.id)
+            if(this.id == this.$root.state.content.issue.id){
+                return true
+            }
+        },
+        isMonthShown: function(){
+            if(this.$parent.toggled == true){
+                return true
+            }
+        }
     },
+    created() {
+        Event.$on('activeContentChanged', (content) =>{
+            if(content == 'issues' && this.$root.state.content.issue.id == this.id){
+                this.meSeen = true
+               console.log( this.$parent.$children)
+            }
+        })
+    },
+
     template: `
-	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
-	  <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
+	<div v-if="this.isMonthShown()" @click="selectIssue(id)" class="childIndex">
+	  <div v-bind:class="[{active: this.isCurrentIssue()}, 'childText']" v-text="id.slice(-2)"></div>
 	</div>`
 });
 
@@ -1693,6 +1796,7 @@ new Vue({
 		abouts: 'about', // technical | credits
 		issue: {
 		    id: '18450104',//'18450104', // yyyy-mm-dd
+                    current_month_y: '184501',
 		    viewer: 'text', // text|pdf
 		    page: 1, // int
 		    decls_id: ''
@@ -1730,10 +1834,12 @@ new Vue({
 	    this.state.content.issue.page = 1;
 	    this.state.content.issue.decls_id = '';
 	    this.state.content.searchString = '';
+            this.state.content.issue.current_month_y = id.substring(0,6)
 	})
 	Event.$on('issueBiblSelected', (bibl) => {
 	    this.state.content.issue.id = bibl.issueId
 	    this.state.content.issue.decls_id = bibl.decls_id
+            this.state.content.issue.current_month_y = bibl.issueId.substring(0,6)
 	})
 	Event.$on('pdf-pageChange', (page) => {
     	    this.state.content.issue.page = page;
@@ -1768,3 +1874,5 @@ new Vue({
 	});
     },
 });
+
+

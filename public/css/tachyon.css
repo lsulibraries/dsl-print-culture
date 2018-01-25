@@ -36,17 +36,25 @@ body {
 .modal-container {
   width: 460px;
   margin: 0px auto;
-  padding: 20px 30px;
-  background-color: #fff;
+  background-color: #002F2F;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
   transition: all .3s ease;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.modal-header {
+  width: 420px;
+  padding: 20px;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal-header h3 {
-  margin-top: 0;
-  color: #42b983;
+  margin: 0;
+  color: #f2e6ce;
 }
 
 .modal-body {
@@ -54,37 +62,163 @@ body {
   height: 500px;
   overflow-y: scroll;
 }
+.modal-body .pieceTitle {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.modal-body .pieceTitleContainer {
+  position: relative;
+}
+.modal-body .personBlurb {
+  color: #f2e6ce;
+  border-left: 1px solid;
+  padding-left: 10px;
+  margin: 0px 30px;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  width: 70%;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.modal-body .issueData {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 11px;
+  position: absolute;
+  margin-left: 30px;
+  top: 0px;
+}
+.modal-body .issueMeta {
+  margin-bottom: 10px;
+  display: flex;
+  border-radius: 50px;
+  position: relative;
+  top: -5px;
+  z-index: 3;
+}
+.modal-body .issueMeta .issueDate {
+  width: auto;
+}
+.modal-body .issueMeta::before {
+  content: '';
+  border-style: solid;
+  border-width: 13px 17px 13px 0;
+  border-color: transparent #046380 transparent transparent;
+  position: absolute;
+  left: 80px;
+  top: 7px;
+  transform: rotate(50deg);
+  z-index: 2;
+}
 .modal-body .personBibl {
-  background: white;
-  border: 1px solid #d6d6d6;
   margin-right: 20px;
-  padding-bottom: 0px;
+  display: block;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0px;
+  background: transparent;
+  height: 91px;
+  margin-top: 0px;
+}
+.modal-body .personBibl .personPieceMeta {
+  position: relative;
+  top: -31px;
+  left: 20px;
+  display: flex;
+  width: 49%;
+}
+.modal-body .personBibl .personPieceMeta .authorShip {
+  color: #a7a37e;
+  padding: 5px;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-top: 1px solid #a7a37e78;
+  margin: 0px;
+  background: none;
+}
+.modal-body .issueDate, .modal-body .issueVol, .modal-body .issueNum, .modal-body .issueMeta::before, .modal-body .personPieceMeta, .modal-body .sectionTitle {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.modal-body .personBibl:hover .issueDate, .modal-body .personBibl:hover .issueVol, .modal-body .personBibl:hover .issueNum, .modal-body .personBibl:hover .issueMeta::before, .modal-body .personBibl:hover .personPieceMeta, .modal-body .personBibl:hover .sectionTitle {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition-delay: 0.5s;
 }
 .modal-body .pieceMeta {
-  position: absolute;
-  margin-left: 70px;
-  margin-right: 10px;
   display: flex;
   align-items: center;
-  width: 330px;
-  height: 46px;
-  left: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   cursor: pointer;
+  color: #002f2f;
+  margin-left: 0px;
+  padding: 20px;
+  border-bottom: 1px dashed #424242;
+  color: #f2e6ce;
+  min-height: 50px;
+  line-height: 1.3em;
+  border-radius: 1px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-.modal-body .sectionTitle {
-  color: #474747;
-  font-weight: 700;
-  justify-content: flex-start;
-  margin: 0px;
-  border: 0px;
+.modal-body .pieceMeta:hover {
+  background: #003333;
+}
+.modal-body .sectionMeta {
+  position: absolute;
+  top: 90px;
+  left: 194px;
+  height: 85px;
+  width: 180px;
+  border-radius: 0px;
   padding: 0px;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.modal-body .sectionMeta .sectionTitle {
+  color: #b2b9a7;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  line-height: 12px;
+  padding: 0px;
+  border-radius: 0px;
+  position: absolute;
+  text-align: right;
+  border: 0px;
+  padding-top: 5px;
+}
+
+.modal-body > div {
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-default-button {
   width: 100%;
-  background: #fe7251;
-  color: white;
+  background: #046380;
+  color: #f2e6ce;
   padding: 20px;
   border: 0px;
   cursor: pointer;
@@ -112,11 +246,38 @@ body {
   transform: scale(1.1);
 }
 
-#infoFooter {
+.footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
+}
+
+.leftFooter {
+  width: 30%;
+  background: #002F2F;
+}
+.leftFooter div#creativeCommons {
+  color: #A7A37E;
+}
+.leftFooter div#creativeCommons a {
+  color: #f2e6ce;
+  text-decoration: none;
+}
+.leftFooter #infoFooter {
+  margin: 20px;
+  border-top: 1px solid;
+  padding-top: 20px;
+}
+
+.rightFooter {
+  display: flex;
+  width: 70%;
+  background: #f2e6ce;
+}
+.rightFooter .rightContainer {
+  margin: 20px;
+  border-top: 1px solid #47474738;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
 }
 
 .header {
@@ -127,13 +288,11 @@ body {
   display: flex;
   position: relative;
   z-index: 3;
-  background: white;
-  border-bottom: 1px solid #e9e9e9;
+  background: #f2e6ce;
 }
 
 .header a {
   text-decoration: none;
-  color: #474747;
 }
 
 .headerLogo {
@@ -165,6 +324,12 @@ body {
   font-weight: 700;
   justify-content: inherit;
   padding-left: 80px !important;
+  background: #002F2F;
+  color: #f2e6ce;
+}
+
+.headerTitle:hover {
+  color: #A7A37E;
 }
 
 .headerNav {
@@ -191,7 +356,6 @@ body {
 .header > div:not(.headerNav),
 .header > a {
   padding: 30px 0px;
-  border-right: 1px solid #e9e9e9;
   cursor: pointer;
   min-width: 236px;
   width: 30%;
@@ -211,8 +375,7 @@ body {
 }
 
 .headerNav > div:hover {
-  color: white;
-  background: #fe7251;
+  color: #046380;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
@@ -260,7 +423,7 @@ input:focus {
 
 .contrastOff {
   background: #474747;
-  color: white;
+  color: #f2e6ce;
 }
 
 .content {
@@ -290,14 +453,15 @@ input:focus {
   display: -webkit-flex;
   display: flex;
   align-content: flex-start;
-  background: white;
+  background: #002F2F;
   padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
-  width: 30%;
+  width: calc(30% + 1px);
   box-sizing: border-box;
   min-width: 236px;
   border-right: 1px solid #e9e9e9;
+  color: #A7A37E;
 }
 
 .interIssueNav::before {
@@ -305,28 +469,30 @@ input:focus {
   font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-  background: #474747;
-  color: white;
+  background: #f2e6ce;
+  color: #002F2F;
   padding: 5px;
   letter-spacing: 2px;
   font-weight: 400;
   width: 100%;
-  margin-bottom: 11px;
+  border-radius: 20px;
 }
 
 .tocDropdown {
   font-size: 1.1em;
   text-transform: uppercase;
   line-height: .9em;
-  background: #474747;
-  color: white;
+  background: #f2e6ce;
+  color: #002F2F;
   padding: 5px;
   letter-spacing: 2px;
   font-weight: 400;
+  margin-bottom: 5px;
+  border-radius: 20px;
 }
 
 .tocItem {
-  padding: 5px;
+  padding: 5px 0px;
   cursor: pointer;
 }
 
@@ -346,28 +512,55 @@ input:focus {
 }
 
 .issueBody {
-  background: white;
+  background: #f2e6ce;
   flex-grow: 2;
-  width: 70%;
+  width: calc(70% - 1px);
+}
+
+.issueHeader .issueInfo {
+  position: relative;
+}
+
+.issueHeader .issueInfo::before {
+  content: '';
+  border-style: solid;
+  border-width: 15px 19px 15px 0;
+  border-color: transparent #046380 transparent transparent;
+  position: absolute;
+  left: 80px;
+  top: 1px;
+  transform: rotate(50deg);
 }
 
 .issueDate {
   text-transform: uppercase;
   font-weight: 700;
+  z-index: 2;
 }
 
 .singleText {
-  background: #e9e9e9;
+  background: #A7A37E;
   padding: 5px;
   margin-bottom: 1px;
+  color: #002F2F;
 }
 
 .singleIndex:nth-child(1) {
   width: 100%;
   font-size: 1.2em;
-  color: #979797;
-  border-bottom: 1px dashed #e9e9e9;
-  margin-bottom: 5px;
+  color: #A7A37E;
+  border-bottom: 1px solid #A7A37E;
+  height: 10px;
+  margin-bottom: 35px;
+  margin-left: 70px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.yearText {
+  margin-bottom: 20px;
+  position: absolute;
+  left: -60px;
 }
 
 .issueIndex {
@@ -377,27 +570,83 @@ input:focus {
   width: 100%;
 }
 
+.activeMonth > div > .singleText {
+  background: #f2e6ce;
+  color: #002F2F;
+}
+
 .singleIndex.activeMonth {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  background: #fe7251;
-  color: #fe7251;
+  position: relative;
 }
 
 .singleText {
-  background: #e9e9e9;
+  background: transparent;
   padding: 13px;
-  margin: 1px;
-  width: 40px;
+  margin: 3px;
+  width: 22px;
   cursor: pointer;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid #A7A37E;
+  color: #A7A37E;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .singleText:hover {
-  background: #474747;
-  color: white;
+  border: 1px solid #f2e6ce;
+  color: #f2e6ce;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  transition: all 0s ease;
+}
+
+.childContainer {
+  position: absolute;
+  display: flex;
+  top: -25px;
+  left: 12px;
+}
+
+.childContainer .childIndex:nth-child(1)::before {
+  content: '';
+  border-style: solid;
+  border-width: 13px 17px 13px 0;
+  border-color: transparent #046380 transparent transparent;
+  position: absolute;
+  left: 20px;
+  top: 17px;
+  transform: rotate(50deg);
+}
+
+.childContainer .childIndex:nth-child(1) {
+  border-radius: 50px 0px 0px 50px;
+  overflow: hidden;
+}
+
+.childContainer .childIndex:last-child {
+  border-radius: 0px 50px 50px 0px;
+  overflow: hidden;
+}
+
+.childContainer .childIndex:only-of-type {
+  border-radius: 50px;
+}
+
+.childContainer .childIndex:only-of-type::before {
+  left: 10px;
+  top: 18px;
 }
 
 .childIndex {
@@ -408,17 +657,41 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fe7251;
+  background: #046380;
   margin-bottom: 1px;
-  padding: 10px 15px 10px 15px;
-  color: white;
+  padding: 10px;
+  color: #f2e6ce;
   cursor: pointer;
+  margin-top: 1px;
 }
 
-.childIndex:hover,
-.childIndex:hover .active.childText {
-  background: #474747;
-  color: white;
+.childText {
+  position: relative;
+}
+
+.childText::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 2px solid #f2e6ce;
+  border-radius: 30px;
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  opacity: 0;
+  background: transparent;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.childIndex:hover .childText::before {
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .intraIssueNav {
@@ -427,34 +700,73 @@ input:focus {
 }
 
 .active.childText {
-  color: black;
+  position: relative;
 }
 
-.childPieceTitle {
+.active.childText::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 2px solid #f2e6ce;
+  border-radius: 30px;
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  opacity: 1;
+  background: transparent;
+}
+
+.childPieceAuthor, .tocToggle .author {
+  font-style: italic;
+}
+
+.section .childPiece {
   font-weight: 500;
-  border-left: 2px solid #474747;
+  border-left: 1px solid #A7A37E;
   padding-left: 5px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  padding-top: 5px;
 }
 
-.piece, .section .tocTitle {
+.section .tocTitle {
+  color: #A7A37E;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: 1px solid #A7A37E;
+  padding: 2px;
+  padding-left: 7px;
+  border-radius: 20px 20px 20px 0px;
+  width: 80%;
+}
+
+.section .tocTitle:hover, .tocToggle.tocActive, .tocToggle.tocActive:hover, .childPiece.tocActive {
+  color: #f2e6ce;
+  padding-left: 20px;
+}
+
+.section .tocActive .tocTitle {
+  background: #f2e6ce;
+  color: #002F2F;
+}
+
+.piece, .section .tocTitle, .section .childPiece {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.intraIssueNav .childPieceTitle:hover,
-.intraIssueNav .piece:hover, .intraIssueNav .section .tocTitle:hover {
-  padding-left: 10px;
+.intraIssueNav .piece:hover, .intraIssueNav .section .childPiece:hover {
+  padding-left: 20px;
   -webkit-transition: all 0s ease;
   -moz-transition: all 0s ease;
   -ms-transition: all 0s ease;
   transition: all 0s ease;
-  color: #fe7251;
+  color: #f2e6ce;
 }
 
 .issueVol,
@@ -469,7 +781,7 @@ input:focus {
 }
 
 .viewer {
-  padding: 0px 100px;
+  padding: 0px 100px 100px 100px;
 }
 
 .teiMarkup {
@@ -484,7 +796,7 @@ input:focus {
 
 .head {
   font-weight: 700;
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   margin: 20px 0px 20px 0px;
 }
 
@@ -511,11 +823,10 @@ button.searchSubmit {
 .personography .personName {
   padding: 10px;
 }
-.personography .peopleFilters {
-  background: white;
+.personography .filterSide {
+  background: #002F2F;
   width: 30%;
   box-sizing: border-box;
-  border-right: 1px solid #e9e9e9;
 }
 .personography .person.Contributing.active {
   background-image: url(http://i.imgur.com/BJtKhwV.png);
@@ -558,7 +869,7 @@ button.searchSubmit {
   background: #e9e9e9;
 }
 
-.personIndex {
+.personSide {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -568,14 +879,24 @@ button.searchSubmit {
   padding-top: 0px;
   align-content: flex-start;
   width: 70%;
-  background: white;
-  padding: 80px 100px;
+  background: #f2e6ce;
   box-sizing: border-box;
+}
+.personSide .personIndex {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 430px);
+  height: calc(100vh - 213px);
+  overflow-y: scroll;
+}
+.personSide .personListBibl {
+  width: 250px;
+  height: calc(100vh - 213px);
+  overflow-y: auto;
 }
 
 .personFilter {
   width: 100%;
-  background: white;
   top: 0px;
 }
 
@@ -673,7 +994,7 @@ button.searchSubmit {
 }
 
 .sectionTitle {
-  border: 1px solid #e9e9e9;
+  border: 1px solid #474747;
   font-size: 13px;
   padding: 0px 6px;
   height: 23px;
@@ -683,13 +1004,14 @@ button.searchSubmit {
   justify-content: center;
   align-items: center;
   margin-left: 5px;
+  border-radius: 20px;
 }
 
 a.downloadLink {
   background: #474747;
   height: 23px;
   align-items: center;
-  color: #ffffff;
+  color: #f2e6ce;
   overflow: hidden;
   text-decoration: none;
   display: inline-block;
@@ -701,14 +1023,14 @@ a.downloadLink {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 0.8em;
+  border-radius: 20px;
 }
 
 .downloadIcon {
   height: 100%;
   width: 30px;
-  border-right: 1px solid white;
   background: #474747;
-  color: white;
+  color: #f2e6ce;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -870,20 +1192,21 @@ span.searchHit {
   font-weight: 700;
 }
 .issueHeader .issueDate {
-  background: #474747;
-  color: white;
+  background: #046380;
+  color: #f2e6ce;
   font-size: 1.1em;
   padding: 5px;
   height: 23px;
-  width: 135px;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: 2px;
-  margin-right: 1px;
   font-weight: 400;
   box-sizing: border-box;
+  padding-left: 17px;
   line-height: .9em;
+  border-radius: 20px 0px 0px 20px;
 }
 .issueHeader .personMeta {
   float: left;
@@ -900,7 +1223,6 @@ span.searchHit {
   margin-top: 2px;
 }
 .issueHeader .issueMeta {
-  background-image: url(http://i.imgur.com/BJtKhwV.png);
   margin-bottom: 10px;
 }
 .issueHeader .bibl > .issue {
@@ -918,7 +1240,7 @@ span.searchHit {
   background: transparent;
   color: #474747;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
   font-weight: 700;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -930,6 +1252,7 @@ span.searchHit {
   font-family: Roboto;
   box-sizing: border-box;
   height: 24px;
+  border-radius: 20px;
 }
 .issueHeader .bibl .personPieceMeta, .issueHeader .bibl .authorShip {
   display: -webkit-box;
@@ -993,8 +1316,8 @@ span.searchHit {
   display: -webkit-flex;
   display: flex;
   border-radius: 0px;
-  background: #474747;
-  color: white;
+  background: #046380;
+  color: #f2e6ce;
   font-size: 1.1em;
   padding: 5px;
   height: 23px;
@@ -1003,10 +1326,12 @@ span.searchHit {
   justify-content: center;
   align-items: center;
   letter-spacing: 2px;
-  margin-right: 1px;
   font-weight: 400;
   box-sizing: border-box;
   line-height: .9em;
+}
+.issueHeader .issueNum {
+  border-radius: 0px 20px 20px 0px;
 }
 .issueHeader .pieceMeta {
   margin-bottom: 30px;
@@ -1029,12 +1354,6 @@ span.searchHit {
   position: relative;
   top: -2px;
   margin-left: 5px;
-}
-
-.personBibl .issueVol,
-.personBibl .issueNum {
-  float: none;
-  background: #fe7251;
 }
 
 .pieceAuthorRole {
@@ -1182,7 +1501,7 @@ span.searchHit {
   justify-content: center;
   align-items: center;
   background: #474747;
-  color: white;
+  color: #f2e6ce;
   flex-direction: column;
 }
 
@@ -1203,7 +1522,7 @@ span.searchHit {
   justify-content: center;
   font-weight: 700;
   align-items: center;
-  border-top: 1px solid #e9e9e9;
+  border-top: 1px solid #474747;
   text-transform: uppercase;
   font-size: 0.6em;
   cursor: pointer;
@@ -1219,10 +1538,25 @@ span.searchHit {
 }
 
 /*credits*/
+.creditsPersonListActive > h2, .creditsPersonListPast > h2 {
+  border: 1px solid #ababab;
+  padding: 10px;
+  width: 50%;
+}
+
+.personRoleName > h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
 .creditsPerson {
   padding-bottom: 20px;
   padding-top: 20px;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  width: 50%;
+  margin-left: 20px;
+  border-left: 2px solid #474747;
+  padding-left: 15px;
 }
 
 .creditsPersonName {
@@ -1307,8 +1641,7 @@ canvas#pdf {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
-  background: white;
-  border-right: 1px solid #e9e9e9;
+  background: #002F2F;
   padding-top: calc(50vh - 200px);
   min-width: 236px;
   width: 30%;
@@ -1317,15 +1650,15 @@ canvas#pdf {
 
 .aboutToggle > div {
   padding: 50px 100px;
-  background: white;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
+  color: #A7A37E;
 }
 
 .aboutViewer {
-  background: white;
+  background: #f2e6ce;
   padding: 20px 20px;
   display: flex;
   justify-content: center;
@@ -1340,11 +1673,11 @@ canvas#pdf {
 }
 
 .aboutToggle .active {
-  color: #fe7251;
+  color: #f2e6ce;
 }
 
 .headerNav > .active {
-  color: #fe7251;
+  color: #046380;
 }
 
 .logo {
@@ -1421,11 +1754,6 @@ canvas#pdf {
   justify-content: flex-end;
 }
 
-.footer {
-  padding: 20px;
-  background: #e9e9e9;
-}
-
 .contrastTitle {
   margin-right: 8px;
 }
@@ -1456,26 +1784,24 @@ h1 {
 }
 
 /*BEGIN High Contrast Mode*/
+.highContrast .childText::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  left: -6px;
+  top: -6px;
+}
 .highContrast .issueDate {
-  width: 155px;
+  width: 170px;
 }
 .highContrast .issueVol {
   width: 90px;
 }
-.highContrast .active.childText {
-  color: white;
-}
 .highContrast .roleFilter > div {
   background: black;
 }
-.highContrast .singleIndex:nth-child(1) {
-  color: black;
-}
 .highContrast .personBibl {
   min-height: 88px;
-}
-.highContrast .personography .authorCertainty, .highContrast .personography .authorStatus, .highContrast .personography .personPieceRole, .highContrast .personography .authorRole, .highContrast .personography .authorStatus, .highContrast .personography .personPieceRole, .highContrast .personography .authorRole {
-  background: #474747;
 }
 .highContrast .personIndex .person {
   background: #ffffff;
@@ -1497,16 +1823,13 @@ h1 {
 .highContrast .singleIndex.activeMonth {
   background: none;
 }
-.highContrast .childIndex, .highContrast a.downloadLink {
-  background: #474747;
-}
 .highContrast .contrastOff {
-  background: white;
+  background: #f2e6ce;
   color: #474747;
 }
 .highContrast .contrastOn {
   background: #474747;
-  color: white;
+  color: #f2e6ce;
 }
 .highContrast .content {
   font-size: 1.5em;
@@ -1530,4 +1853,24 @@ h1 {
 
 .fade-leave-to {
   opacity: 0;
+}
+
+.ease-transition {
+  transition: all 1s ease;
+}
+
+.ease-enter-active {
+  transition: all 1s ease;
+}
+
+.ease-leave-active {
+  transition: all 1s ease;
+}
+
+.ease-enter {
+  transition: all 1s ease;
+}
+
+.ease-leave-to {
+  transition: all 1s;
 }
