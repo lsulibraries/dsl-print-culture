@@ -1,8 +1,11 @@
 <script>
+    import interIssueNav from './interIssueNav'
     import issueHeader from './issueHeader'
+    import issueViewer from './issueViewer'
+    import viewerSelector from './viewerSelector'
     import {Circle9} from 'vue-loading-spinner'
     export default {
-        components: { issueHeader,  Circle9 },
+        components: { interIssueNav, issueHeader, issueViewer, Circle9, viewerSelector },
         created() {
             if (this.$route) {
                 if(this.$route.params.id) {
@@ -18,9 +21,6 @@
                     });
                 }
             }
-            // Event.$on('personographyLoaded', (index) => {
-            //     this.loading = false;
-            // })
         },
         data() {
             return {

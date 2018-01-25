@@ -1,11 +1,12 @@
 <script>
     import personMeta from './personMeta'
     import biblIssueMeta from './biblIssueMeta'
+    import biblPieceMeta from './biblPieceMeta'
     import biblSectionMeta from './biblSectionMeta'
     import drawer from './drawer'
     import modal from './modal'
     export default {
-        components: { personMeta, biblIssueMeta, biblSectionMeta, drawer, modal },
+        components: { personMeta, biblIssueMeta, biblPieceMeta, biblSectionMeta, drawer, modal },
         data() {
             return {
                 authorShipLegend: `Author will have 2-3 attributes: status, cert, and ref.

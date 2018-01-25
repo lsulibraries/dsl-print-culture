@@ -17,9 +17,10 @@
 </template>
 
 <script>
+  import logo from './logo'
   import creditsPersonList from './creditsPersonList'  
   export default { 
-      components: { creditsPersonList },
+      components: { creditsPersonList, logo },
       data() {
           return {
               abouts: this.$root.state.content.abouts,

@@ -1,0 +1,30 @@
+<template>
+    <div class="pieceMeta">
+        <div @click="$emit('close')">
+            <router-link :to="this.getIssueLink()" tag='h1'>{{pieceMeta.pieceTitle}}</router-link>
+        </div>
+    </div>
+</template>
+<script>
+    export default {
+        props: ['pieceMeta', 'issueId'],
+        methods: {
+            getIssueLink: function () {
+                return '/issues/' + this.issueId + '/' + this.pieceMeta.pieceId
+            },
+            goToPiece: function () {
+                this.$root.state.content.issue.id = this.issueId
+                this.$root.state.content.issue.decls_id = this.pieceMeta.pieceId
+                this.$root.state.content.issue.page = parseInt(this.pieceMeta.piecePdfIndex)
+
+                Event.$emit('activeContentChange', 'issues')
+                Event.$emit('close')
+                Event.$emit('issueBiblSelected', {
+                    issueId: this.issueId,
+                    pdf_index: this.pieceMeta.piecePdfIndex,
+                    decls_id: this.pieceMeta.pieceId
+                })
+            },
+        }
+    }
+</script>
