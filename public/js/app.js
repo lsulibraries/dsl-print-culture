@@ -1152,9 +1152,18 @@ Vue.component('intraIssueNav',{
 //                        console.log(this.tocMap[pairs].value[x])
                         y = this.tocMap[pairs].value[x]
                         if(page.toString() === y){
-//                          console.log(page.toString(), y, this.tocMap[pairs].key)
+                          console.log('page matches! userPage=',page.toString(),'tocPage =', y,'decls_id=', this.tocMap[pairs].key)
                           this.$root.state.content.issue.decls_id = this.tocMap[pairs].key
+                          break
                         }
+                    }
+                }
+                else{
+                    if(page.toString() === this.tocMap[pairs].value){
+                        console.log('string')
+                        console.log('page matches! userPage=',page.toString(),'tocPage =', y,'decls_id=', this.tocMap[pairs].key)
+                        this.$root.state.content.issue.decls_id = this.tocMap[pairs].key
+                        break
                     }
                 }
             }
