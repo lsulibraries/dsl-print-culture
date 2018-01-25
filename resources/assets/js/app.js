@@ -557,42 +557,33 @@ Vue.component('viewerSelectorButton',{
 
 Vue.component('intraIssueNav',{
     data(){
-	return {
-	    issueID: this.$root.state.content.issue.id,
-	    tocContent: false
-	}
+        return {
+            issueId: '',
+            tocContent: false
+        }
     },
     created() {
-	this.issueID = this.$root.state.content.issue.id
-	this.setTocContent()
-	Event.$on('issueSelected', (id) => {
-	    this.issueID = id;
-	    this.tocContent = false
-	    this.setTocContent()
-	})
-	Event.$on('issueBiblSelected', (data) => {
-	    this.issueID = data.issueId;
-	    this.tocContent = false
-	    this.setTocContent()
-	})
+        // order matters here; see conditional in called fn.
+    	this.setTocContent()
+        this.issueId = this.$route.params.id
     },
     methods: {
-	setTocContent: function () {
-	    let url = '/api/broadwayjournal/' + this.issueID + '/toc';
-	    axios.get(url).then(response => this.tocContent = response.data);
-	},
-	getTocContent: function () {
-	    if(this.$root.empty(this.tocContent.toc)){
-		alert('Toc content is empty for ' + this.issueId)
-		return false
-	    }
-	    return true
-	}
+        setTocContent: function () {
+            if(this.issueId !== this.$route.params.id) {
+                this.tocContent = false
+                this.issueId = this.$route.params.id
+                let url = '/api/broadwayjournal/' + this.issueId + '/toc';
+                axios.get(url).then(response => this.tocContent = response.data);
+            }
+        },
+    },
+    watch: {
+        '$route': 'setTocContent'
     },
 	template:`
 	<div class='intraIssueNav'>
           <div class='tocDropdown'>Table of Contents</div>
-          <toc-item v-if="getTocContent()" v-for='id in tocContent.toc' :id='id'></toc-item>
+          <toc-item  v-for='id in tocContent.toc' :id='id'></toc-item>
         </div>
 			`
 })
@@ -622,13 +613,13 @@ Vue.component('toc-item',{
 		    for(let one in this.$parent.$children){
 			//create new check for toc
 
-			if (this.$parent.$children[one].id != this.id){
-			    for(let two in this.$parent.$children[one].$children){
-				this.$parent.$children[one].$children[two].meSeen=false;
-				//remove activeMonth from everyone else
-				this.$parent.$children[one].toggled=false;
-			    }							}
-			}
+    			if (this.$parent.$children[one].id != this.id){
+    			    for(let two in this.$parent.$children[one].$children){
+    				this.$parent.$children[one].$children[two].meSeen=false;
+    				//remove activeMonth from everyone else
+    				this.$parent.$children[one].toggled=false;
+    			    }							}
+    			}
 		    }
 		    else{
 			//turn off this.children
@@ -665,42 +656,57 @@ Vue.component('toc-item',{
             return '/issues/' + issueId + '/' + biblId;
         }
 	},
-        template:`
-            <div class="tocItem" v-bind:class='id.type'>
-                <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div'>
-                    <div class="tocTitle">{{id.title}}</div>
-                    <div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
-                    <div v-if='id.start' class="pageNumber"></div>
-                </router-link>
-                <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
-            </div>
+    template:`
+        <div class="tocItem" v-bind:class='id.type'>
+            <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div'>
+                <div class="tocTitle">{{id.title}}</div>
+                <div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
+                <div v-if='id.start' class="pageNumber"></div>
+            </router-link>
+            <child-piece v-if='id.pieces'  v-for='(piece, index) in  id.pieces' :id='id.pieces[index]' :pieceIndex='index'></child-piece>
+        </div>
 	 `
 });
 
 
 Vue.component('child-piece',{
+
 	data(){
-		return { meSeen:false }
+		return {
+
+            issueId: '',
+        }
 	},
+
+    watch: {
+        '$route': 'fetchData'
+    },
+
 	props:['id','pieceIndex'],
-	 methods:{
+
+    created() {
+        this.issueId = this.$route.params.id
+    },
+
+    methods:{
+        fetchData: function() {
+            this.issueId = this.$route.params.id
+        },
 		tocItemSelected: function() {
 		    Event.$emit("pdf-pageChange",parseInt(this.id.pdf_index))
 		    this.id.issueId = this.$root.state.content.issue.id
 		    Event.$emit("issueBiblSelected", this.id)
 		},
         getLink: function() {
-            const issueId = this.id.issueId
-            const biblId  = this.pieceIndex
-            return '/issues/' + issueId + '/' + biblId;
+            return '/issues/' + this.issueId + '/' + this.pieceIndex;
         }
 	},
-        template:`
-            <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div'>
-              <div class="childPieceTitle">{{id.title}}</div>
-              <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
-            </router-link>
-	`
+
+    template:`
+        <router-link :to="this.getLink()" class="childPiece" @click='tocItemSelected' tag='div'>
+          <div class="childPieceTitle">{{id.title}}</div>
+          <div v-if='id.author' class="childPieceAuthor">{{id.author}}</div>
+        </router-link>`
 })
 
 Vue.component('zoom-slider',{
@@ -844,16 +850,6 @@ Vue.component('pdf-viewer',{
 Vue.component('tei-markup',{
     props: ['issue', 'bibl'],
     created(){
-        Event.$on('issueSelected', (id) => {
-            this.issueId = id;
-            this.biblId = ''
-            this.getText();
-        }),
-        Event.$on('issueBiblSelected', (bibl) => {
-            this.biblId = bibl.decls_id
-            this.issueId = bibl.issueId
-            this.getText(this.biblId);
-        })
         if (this.$route) {
             if(this.$route.params.id) {
                 this.issueId = this.$route.params.id
@@ -862,8 +858,7 @@ Vue.component('tei-markup',{
                 this.biblId = this.$route.params.biblid
             }
         }
-        // this.issueId = this.issue
-        // this.biblId = this.bibl
+
         this.page = this.$root.state.content.issue.page
         this.getText()
     },
@@ -872,16 +867,14 @@ Vue.component('tei-markup',{
     },
     methods: {
         fetchData: function() {
-            if (this.$route) {
-                if(this.$route.params.id) {
-                    this.issueId = this.$route.params.id
-                }
-                if (this.$route.params.biblid) {
-                    this.biblId = this.$route.params.biblid
-                }
+            this.issueId = this.$route.params.id
+
+            if(this.$route.params.id && this.$route.params.biblid) {
+                this.biblId = this.$route.params.biblid
             }
-            // this.issueId = this.issue
-            // this.biblId = this.bibl
+            else { // no biblId supplied in the route
+                this.biblId = false
+            }
             this.page = this.$root.state.content.issue.page
             this.getText()
         },
@@ -932,12 +925,12 @@ Vue.component('tei-markup',{
     },
 	data(){
 	    return{
-		// issueId: '',
-		page:'',
-		markdown:[],
-		issueText: '',
-		// biblId: '',
-		biblData: {},
+            issueId: '',
+            page:'',
+            markdown:[],
+            issueText: '',
+            // biblId: '',
+            biblData: {},
 	    }
 	},
     template: `
@@ -1004,18 +997,29 @@ Vue.component('issue-month',{
 
 Vue.component('index-child',{
     data() {
-	return { meSeen:false,toggled:false }
+        return { 
+            meSeen:false,
+            toggled:false,
+        }
     },
     props: ['id'],
     methods: {
-	selectIssue: function(id){
-	    Event.$emit('issueSelected', id);
-	}
+        selectIssue: function(){
+            this.toggled = this.$route.params.id == this.id
+        },
+        getLink: function () {
+            return '/issues/' + this.id
+        },
+    },
+    watch: {
+        '$route': 'selectIssue'
     },
     template: `
-	<div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
-	  <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
-	</div>`
+    <div v-if="meSeen" @click="selectIssue(id)" class="childIndex">
+        <router-link :to="getLink()" tag='div'>
+            <div v-bind:class="[{active: toggled}, 'childText']" v-text="id.slice(-2)"></div>
+        </router-link>
+    </div>`
 });
 
 Vue.component('interIssueNav',{

@@ -53,14 +53,14 @@
     },
     methods: {
         fetchData: function() {
-            if (this.$route) {
-                if(this.$route.params.id) {
-                    this.issueId = this.$route.params.id
-                }
-                if (this.$route.params.biblid) {
-                    this.biblId = this.$route.params.biblid
-                }
+            this.issueId = this.$route.params.id
+            if(this.$route.params.id && this.$route.params.biblid) {
+                this.biblId = this.$route.params.biblid
             }
+            else {
+                this.biblId = ''
+            }
+            this.showModal = false
             this.getIssueHeaderData()
         },
         showBiblSectionMeta: function () {
@@ -96,13 +96,9 @@
         getSectionMeta: function () {
         },
         getIssueHeaderData: function () {
-            if (this.$route) {
-                if(this.$route.params.id) {
-                    this.issueId = this.$route.params.id
-                    let headerUrl = '/api/broadwayjournal/issue/'+ this.$root.state.content.issue.id +'/header';
-                    axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
-                }
-            }
+            let headerUrl = '/api/broadwayjournal/issue/'+ this.issueId +'/header';
+            axios.get(headerUrl).then(response => this.issueHeaderData = response.data);
+
         },
         getPersonId: function() {
             if(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)){
@@ -215,7 +211,7 @@
         },
         formatDate: function() {
 
-            let d = Util.datePartsForIssueId(this.$root.state.content.issue.id)
+            let d = Util.datePartsForIssueId(this.issueId)
             let date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
             return date
         }
