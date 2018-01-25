@@ -827,7 +827,6 @@ button.searchSubmit {
   background: #002F2F;
   width: 30%;
   box-sizing: border-box;
-  border-right: 1px solid #e9e9e9;
 }
 .personography .person.Contributing.active {
   background-image: url(http://i.imgur.com/BJtKhwV.png);
@@ -1019,7 +1018,6 @@ a.downloadLink {
 .downloadIcon {
   height: 100%;
   width: 30px;
-  border-right: 1px solid #f2e6ce;
   background: #474747;
   color: #f2e6ce;
   justify-content: center;
