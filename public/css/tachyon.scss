@@ -520,30 +520,35 @@ input:focus {
 
 .interIssueNav::before {
     content: 'issue navigation';
-    font-size: 1.1em;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: .9em;
-    background: $lightest;
-    color: $darkest;
-    padding: 5px;
+    color: #f2e6ce;
     letter-spacing: 2px;
     font-weight: 400;
+    border-bottom: 2px solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
     width: 100%;
-    border-radius: 20px;
+    font-weight: 700;
 }
 
 
 .tocDropdown {
-    font-size: 1.1em;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: .9em;
-    background: $lightest;
-    color: $darkest;
-    padding: 5px;
+    color: $lightest;
     letter-spacing: 2px;
     font-weight: 400;
-    margin-bottom: 5px;    
-    border-radius: 20px;    
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
 }
 
 .tocItem {
@@ -604,8 +609,8 @@ position: relative;
     border-bottom: 1px solid $light;
     height: 10px;
     margin-bottom: 35px;
-    margin-left: 70px;
-    margin-top: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
     position: relative;
 }
 
@@ -613,7 +618,9 @@ position: relative;
 .yearText {
     margin-bottom: 20px;
     position: absolute;
-    left: -60px;
+    left: -40px;
+    font-size: 14px;
+    top: 2px;
 }
 
 .issueIndex {
@@ -751,16 +758,24 @@ position: relative;
   background: transparent;
 }
 
+.childPieceTitle {
+    font-weight: 700;
+}
+
 .childPieceAuthor, .tocToggle .author{
   font-style: italic;
+}
+
+.tocItem.section {
+    padding-bottom: 10px;
 }
 
 .section .childPiece{
   font-weight: 500;
   border-left: 1px solid $light;
-  padding-left: 5px;
+  padding-left: 10px;
   @include transition(.5s);
-    padding-top: 5px;  
+    padding-top: 10px;  
 }
 
 .section .tocTitle {
@@ -768,23 +783,32 @@ position: relative;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
-    border: 1px solid $light;
+    border-bottom: 1px solid $light;
     padding: 2px;
-    padding-left: 7px;
-    border-radius: 20px 20px 20px 0px;
     width: 80%;
+    padding-left: 0px;    
+    font-weight: 700;
+    padding-bottom: 5px;
 }
 
-.section .tocTitle:hover, .tocToggle.tocActive, .tocToggle.tocActive:hover, .childPiece.tocActive{
+.section .tocTitle:hover, .childPiece.tocActive{
     color: $lightest;
     padding-left: 20px;
 }
 
+.section .tocTitle:hover, .section .tocActive{
+  .childPiece{
+  color: $lightest;
+  border-left: 1px solid $lightest;
+  }
+}
 
 
 .section .tocActive .tocTitle {
-    background: $lightest;
-    color:$darkest
+    color: $lightest;
+  border-bottom: 1px solid $lightest;
+
+
     }
 
 .piece, .section .tocTitle, .section .childPiece{
@@ -926,7 +950,7 @@ button.searchSubmit {
 .personSide {
   @include flexbox;
   flex-wrap: wrap;
-  padding-top: 0px;
+  padding-top: 80px;
   align-content: flex-start;
   width: 70%;
   background: $lightest;
@@ -942,22 +966,48 @@ button.searchSubmit {
   width: 250px;
   height: calc(100vh - 213px);
     overflow-y: auto;
+    padding: 0px 20px;    
   }
-  
+
+}
+
+.peopleFilters {
+    padding-top: 80px;
 }
 
 .personFilter {
-    width: 100%;
-    top: 0px;
+    margin: 0px 80px;
+    //input::-webkit-input-placeholder {
+    //color: $light !important;
+    //}
+//
+    //input:-moz-placeholder { /* Firefox 18- */
+    //color: $light !important;  
+    //}
+//
+    //input::-moz-placeholder {  /* Firefox 19+ */
+    //color: $light !important;  
+    //}
+//
+    //input:-ms-input-placeholder {  
+    //color: $light !important;  
+    //}    
+}
+
+.personFilter > label {
+  @extend .tocDropdown;
 }
 
 .personFilter input {
-    width: 90%;
-    font-size: 2em;
-    padding: 10px;
-    border: 5px solid #e9e9e9;
-    border-radius: 70px;
-    margin: 30px;
+    width: 100%;
+    font-size: 1.1em;
+    background: #002929;
+    color: #f2e6ce;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 20px;
+    border: 1px solid #474747;
 }
 
 .personIndex .person {
@@ -1788,27 +1838,34 @@ canvas#pdf {
 .roleFilter {
     display: flex;
     justify-content: space-around;
-    background: white;
-    height: 50px;
-    align-items: center;
+    flex-direction: column;
+    margin: 20px 80px;
 }
 
-.roleFilter > div {
+.labelFilter {
+@extend .tocDropdown;
+}
+
+.roles{
+  @include flexbox;
+  flex-direction: column;
+}
+
+.roles > div {
   padding: 0px 15px 0px 15px;
-  font-size: 1.1em;
-  background: $greyDark;
-    color: #989898;
+  font-size: 14px;
+  color: $light;
   flex-grow: 1;
-  height: 50px;
+  height: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-right: 1px solid grey;
   cursor: pointer;
+  text-transform: uppercase;
+  padding-left: 0px;
 }
 
 .roleFilter .active {
-    color: white!important;
+    color: $lightest!important;
 }
 
 .contrast {
