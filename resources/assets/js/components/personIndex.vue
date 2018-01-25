@@ -6,8 +6,9 @@
 </template>
 <script>
     import {Circle9} from 'vue-loading-spinner'
+    import person from './person'
     export default {
-        components: { Circle9 },
+        components: { Circle9, person },
         data() {
             return {
                 index: {},
