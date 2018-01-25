@@ -64,6 +64,7 @@ body {
 }
 .modal-body .pieceTitle {
   letter-spacing: 1px;
+  font-weight: 500;
 }
 .modal-body .pieceTitleContainer {
   position: relative;
@@ -823,7 +824,7 @@ button.searchSubmit {
   padding: 10px;
 }
 .personography .peopleFilters {
-  background: white;
+  background: #002F2F;
   width: 30%;
   box-sizing: border-box;
   border-right: 1px solid #e9e9e9;
@@ -879,14 +880,13 @@ button.searchSubmit {
   padding-top: 0px;
   align-content: flex-start;
   width: 70%;
-  background: white;
+  background: #f2e6ce;
   padding: 80px 100px;
   box-sizing: border-box;
 }
 
 .personFilter {
   width: 100%;
-  background: white;
   top: 0px;
 }
 
