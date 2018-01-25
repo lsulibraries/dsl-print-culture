@@ -134,24 +134,36 @@ body {
   margin: 20px 0;
   height: 500px;
   overflow-y: scroll;
+
+  .pieceTitle{
+    letter-spacing: 1px;
+  }
  
 .pieceTitleContainer {
     position: relative;
-    top: -8px;
 }
 
 
   .personBlurb{
-  color: $lighter;
-    padding: 0px 30px;  
+    color: $lightest;
+    border-left: 1px solid;
+    padding-left: 10px;
+    margin: 0px 30px;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
   }
 
 .issueData{
     display: flex;
     flex-wrap: wrap;
     font-size: 11px;
-    position: relative;
+    position: absolute;
     margin-left: 30px;
+    top: 0px;
 }
 
 .issueMeta {
@@ -159,7 +171,7 @@ body {
     display: flex;
     border-radius: 50px;
     position: relative;
-    top: 13px;
+    top: -5px;
     z-index: 3;
     .issueDate{
       width:auto;
@@ -184,11 +196,13 @@ body {
     margin-left: 20px;
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 0px;
     background: transparent;
-    height: calc(100% - 370px);
+    height: 91px;
+    margin-top: 0px;
     .personPieceMeta {
     position: relative;
-    top: -40px;
+    top: -31px;
     left: 20px;
     display: flex;
     width: 49%;
@@ -208,6 +222,19 @@ body {
     }       
   }
 
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{
+      opacity: 0;
+      @include transition(.5s);
+    }
+
+  .personBibl:hover{
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{
+      opacity: 1;
+      @include transition(.5s);
+      transition-delay: 0.5s;
+    }
+  }
+
   .pieceMeta {
     display: flex;
     align-items: center;
@@ -215,45 +242,48 @@ body {
     cursor: pointer;
     color: #002f2f;
     margin-left: 0px;
-    background: hsla(180, 100%, 12%, 1);
     padding: 20px;
-    border: 1px solid #424242;
+    border-bottom: 1px dashed #424242;
     color: #f2e6ce;
     min-height: 50px;
+    line-height:1.3em;
     border-radius: 1px;
-    padding-right: 140px;
     @include transition(0.5s);
   }
 
   .pieceMeta:hover{
-    background:#004c4d
+    background: hsla(180, 100%, 10%, 1);
   }
 
   .sectionMeta{
     position: absolute;
-    top: 26px;
-    z-index: 2;
-    background: hsla(180, 100%, 15%, 1);
+    top: 90px;
+    left: 194px;
     height: 85px;
-    width: 100px;
-    right: 0px;
+    width: 180px;
     border-radius: 0px;
-    padding: 0px 10px;
-    padding-top: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .sectionTitle {
-    color: $lightest;
-    font-weight: 500;
-    justify-content: flex-start;
-    margin: 0px;
     padding: 0px;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-start;
+    .sectionTitle {
+    color: #b2b9a7;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0px;
     text-transform: uppercase;
-    border: 0px;
     letter-spacing: 1px;
     font-size: 11px;
     line-height: 12px;
+    padding: 0px;
+    border-radius: 0px;
+    position: absolute;
+    text-align: right;
+    border: 0px;
+    padding-top: 5px;
     }     
 
   }

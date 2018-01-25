@@ -62,27 +62,38 @@ body {
   height: 500px;
   overflow-y: scroll;
 }
+.modal-body .pieceTitle {
+  letter-spacing: 1px;
+}
 .modal-body .pieceTitleContainer {
   position: relative;
-  top: -8px;
 }
 .modal-body .personBlurb {
-  color: #E6E2AF;
-  padding: 0px 30px;
+  color: #f2e6ce;
+  border-left: 1px solid;
+  padding-left: 10px;
+  margin: 0px 30px;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  width: 70%;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .modal-body .issueData {
   display: flex;
   flex-wrap: wrap;
   font-size: 11px;
-  position: relative;
+  position: absolute;
   margin-left: 30px;
+  top: 0px;
 }
 .modal-body .issueMeta {
   margin-bottom: 10px;
   display: flex;
   border-radius: 50px;
   position: relative;
-  top: 13px;
+  top: -5px;
   z-index: 3;
 }
 .modal-body .issueMeta .issueDate {
@@ -105,12 +116,14 @@ body {
   margin-left: 20px;
   flex-wrap: wrap;
   flex-direction: column;
+  padding: 0px;
   background: transparent;
-  height: calc(100% - 370px);
+  height: 91px;
+  margin-top: 0px;
 }
 .modal-body .personBibl .personPieceMeta {
   position: relative;
-  top: -40px;
+  top: -31px;
   left: 20px;
   display: flex;
   width: 49%;
@@ -128,6 +141,21 @@ body {
   margin: 0px;
   background: none;
 }
+.modal-body .issueDate, .modal-body .issueVol, .modal-body .issueNum, .modal-body .issueMeta::before, .modal-body .personPieceMeta, .modal-body .sectionTitle {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.modal-body .personBibl:hover .issueDate, .modal-body .personBibl:hover .issueVol, .modal-body .personBibl:hover .issueNum, .modal-body .personBibl:hover .issueMeta::before, .modal-body .personBibl:hover .personPieceMeta, .modal-body .personBibl:hover .sectionTitle {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition-delay: 0.5s;
+}
 .modal-body .pieceMeta {
   display: flex;
   align-items: center;
@@ -135,47 +163,50 @@ body {
   cursor: pointer;
   color: #002f2f;
   margin-left: 0px;
-  background: #003d3d;
   padding: 20px;
-  border: 1px solid #424242;
+  border-bottom: 1px dashed #424242;
   color: #f2e6ce;
   min-height: 50px;
+  line-height: 1.3em;
   border-radius: 1px;
-  padding-right: 140px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .modal-body .pieceMeta:hover {
-  background: #004c4d;
+  background: #003333;
 }
 .modal-body .sectionMeta {
   position: absolute;
-  top: 26px;
-  z-index: 2;
-  background: #004d4d;
+  top: 90px;
+  left: 194px;
   height: 85px;
-  width: 100px;
-  right: 0px;
+  width: 180px;
   border-radius: 0px;
-  padding: 0px 10px;
-  padding-top: 5px;
+  padding: 0px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 .modal-body .sectionMeta .sectionTitle {
-  color: #f2e6ce;
+  color: #b2b9a7;
   font-weight: 500;
-  justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
   margin: 0px;
-  padding: 0px;
   text-transform: uppercase;
-  border: 0px;
   letter-spacing: 1px;
   font-size: 11px;
   line-height: 12px;
+  padding: 0px;
+  border-radius: 0px;
+  position: absolute;
+  text-align: right;
+  border: 0px;
+  padding-top: 5px;
 }
 
 .modal-body > div {

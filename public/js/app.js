@@ -425,8 +425,8 @@ Vue.component('biblPersonPieceMeta',{
 
 Vue.component('biblPieceMeta', {
     template: `
-	<div class="pieceMeta">
-	  <h1 class="pieceTitle" @click="goToPiece">{{pieceMeta.pieceTitle}}</div>
+	<div class="pieceMeta"  @click="goToPiece">
+	  <h1 class="pieceTitle">{{pieceMeta.pieceTitle}}</div>
         </div>
     `,
     props: ['pieceMeta', 'issueId'],
@@ -1840,3 +1840,5 @@ new Vue({
 	});
     },
 });
+
+
