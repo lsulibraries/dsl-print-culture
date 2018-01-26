@@ -38,7 +38,7 @@
             <div class="singleText" >{{this.month}}</div>
             <div class="indicatorIndex"></div>
         </router-link>
-        <div v-if="this.activeMonth">
+        <div v-if="this.activeMonth" class="childContainer">
             <index-child :id="issueId" v-for="issueId in this.issueIds"></index-child>
         </div>
     </div>

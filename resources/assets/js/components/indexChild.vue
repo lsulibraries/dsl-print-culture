@@ -29,8 +29,6 @@
 </script>
 <template>
     <div v-if="this.isMonthShown" class="childIndex">
-        <router-link :to="getLink()" tag='div'>
-            <div v-bind:class="{active: this.isCurrentIssue}" v-text="id.slice(-2)"></div>
-        </router-link>
+        <router-link :to="getLink()" tag='div' active-class="active childText">{{ id.slice(-2) }}</router-link>
     </div>
 </template>
