@@ -143,22 +143,25 @@
                 }
             }
             if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId])) { // have bibl
+                let personMeta;
                 if (!this.biblIsSection(this.biblId)) {
                     if (this.authorlessPieceInSection(this.biblId)) {
                         sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
                         if(!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
-                            const personMeta = { personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName }
+                            personMeta = { personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName }
                         }
                     }
                     else {
-                        const personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
+                        personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
                     }
                     // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
                 }
                 else {
-                    const personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName }
+                    personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName }
                 }
                 if(this.$root.empty(personMeta.personName)){
+                    console.log(personMeta.personName)
+                    console.log(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName)
                   return false
                 }
                 return personMeta
