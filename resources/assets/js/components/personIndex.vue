@@ -1,8 +1,11 @@
 <template>
-    <div class='personIndex'>
-        <circle9 v-if="this.loading" :size="'150px'"></circle9>
-        <person v-for="personObj in this.index" :person="personObj"  v-if="!this.loading"></person>
-    </div>
+  <div class='personIndex' v-if="!this.$root.empty(this.index)">
+      <div class="personIndexLabel">Author Index</div>
+      <div class="personIndexInner">
+          <person v-for="personObj in this.index" :person="personObj" v-if="!this.loading"></person>
+          <circle9 v-if="this.loading" :size="'150px'"></circle9>
+      </div>
+  </div>
 </template>
 <script>
     import {Circle9} from 'vue-loading-spinner'

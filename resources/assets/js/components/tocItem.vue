@@ -16,7 +16,7 @@
          },
          methods:{
             isActive: function(){
-                if(this.id.decls_id == this.$root.state.content.issue.decls_id){
+                if(this.id.decls_id == this.$route.params.biblid){
                     console.log('match')
                     return true
                 }
@@ -79,7 +79,7 @@
 </script>
 <template>
     <div class="tocItem" v-bind:class='id.type'>
-        <router-link :to="this.getLink()" class="tocToggle" @click='tocItemSelected' tag='div' v-bind:class="{tocActive: this.isActive()}">
+        <router-link :to="this.getLink()" class="tocToggle" tag='div' v-bind:class="{tocActive: this.isActive()}">
             <div class="tocTitle">{{id.title}}</div>
             <div v-if='id.auth_name' class="author">{{id.auth_name}}</div>
             <div v-if='id.start' class="pageNumber"></div>

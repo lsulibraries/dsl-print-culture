@@ -16,13 +16,22 @@ $primary-accent-color-HC3: #000000;
 $primary-accent-color3: rgba(254, 114, 81, 0.5);
 $dark-border-color: #5c5c5c;
 
+
 //https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
 
 $darkest: #002F2F;
 $dark: #046380;
-$lightest:#EFECCA;
+$lightest:#f2e6ce;
 $lighter: #E6E2AF;
 $light:#A7A37E;
+$altdark: #046f8f;
+
+$greyDark: #474747;
+$sevendark: rgba(0, 0, 0, 0.07);
+
+$fifteendark: rgba(0, 0, 0, 0.15);
+$twentydark: rgba(0, 0, 0, 0.20);
+$thirtydark: rgba(0, 0, 0, 0.30);
 
 //end adobe colors
 
@@ -99,19 +108,27 @@ body {
 }
 
 .modal-container {
-    width: 460px;
+  width: 460px;
   margin: 0px auto;
-  padding: 20px 30px;
-  background-color: #fff;
+  background-color: $darkest;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.modal-header {
+    width: 420px;
+    padding: 20px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal-header h3 {
-  margin-top: 0;
-  color: #42b983;
+  margin: 0;
+  color: $lightest;
 }
 
 //modal-body begin
@@ -121,44 +138,172 @@ body {
   height: 500px;
   overflow-y: scroll;
 
+  .pieceTitle{
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+ 
+.pieceTitleContainer {
+    position: relative;
+}
+
+
+  .personBlurb{
+    color: $lightest;
+    border-left: 1px solid;
+    padding-left: 10px;
+    margin: 0px 30px;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+  }
+
+.issueData{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 11px;
+    position: absolute;
+    margin-left: 30px;
+    top: 0px;
+}
+
+.issueMeta {
+    margin-bottom: 10px;  
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    top: -5px;
+    z-index: 3;
+    .issueDate{
+      width:auto;
+    }
+}  
+
+.issueMeta::before{
+    content: '';
+    border-style: solid;
+    border-width: 13px 17px 13px 0;
+    border-color: transparent $dark transparent transparent;
+    position: absolute;
+    left: 80px;
+    top: 7px;
+    transform: rotate(50deg);
+    z-index: 2;
+}
+
   .personBibl{
-  background: white;
-  border: 1px solid #d6d6d6;  
-  margin-right: 20px;
-  padding-bottom: 0px;      
+    margin-right: 20px;
+    display: block;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0px;
+    background: transparent;
+    height: 91px;
+    margin-top: 0px;
+    .personPieceMeta {
+    position: relative;
+    top: -31px;
+    left: 20px;
+    display: flex;
+    width: 49%;
+        .authorShip {
+          color: #a7a37e;
+          padding: 5px;
+          border-radius: 0px;
+          font-weight: 500;
+          font-size: 11px;
+          text-transform: uppercase;
+          text-decoration: none;
+          letter-spacing: 2px;
+          border-top: 1px solid #a7a37e78;
+          margin: 0px;
+          background: none;
+        }    
+    }       
+  }
+
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{
+      opacity: 0;
+      @include transition(.5s);
+    }
+
+  .personBibl:hover{
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{
+      opacity: 1;
+      @include transition(.5s);
+      transition-delay: 0.5s;
+    }
   }
 
   .pieceMeta {
-  position: absolute;
-  margin-left: 70px;
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-  width: 330px;
-  height: 46px;
-  left: 20px;
-  margin-bottom: 0px;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #002f2f;
+    margin-left: 0px;
+    padding: 20px;
+    border-bottom: 1px dashed #424242;
+    color: #f2e6ce;
+    min-height: 50px;
+    line-height:1.3em;
+    border-radius: 1px;
+    @include transition(0.5s);
   }
 
-  .sectionTitle {
-  color: #474747;
-  font-weight: 700;
-  justify-content: flex-start;
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  }  
+  .pieceMeta:hover{
+    background: hsla(180, 100%, 10%, 1);
+  }
+
+  .sectionMeta{
+    position: absolute;
+    top: 90px;
+    left: 194px;
+    height: 85px;
+    width: 180px;
+    border-radius: 0px;
+    padding: 0px;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-start;
+    .sectionTitle {
+    color: #b2b9a7;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 12px;
+    padding: 0px;
+    border-radius: 0px;
+    position: absolute;
+    text-align: right;
+    border: 0px;
+    padding-top: 5px;
+    }     
+
+  }
 
 }
 
 //modal-body end
-
+.modal-body > div {
+    display: flex;
+    flex-direction: column;
+}
 
 .modal-default-button {
     width: 100%;
-    background: #fe7251;
-    color: white;
+    background: $dark;
+    color: $lightest;
     padding: 20px;
     border: 0px;
     cursor: pointer;
@@ -189,24 +334,59 @@ body {
 
 
 //endmodal styles
-#infoFooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+
+//beginfooter
+.footer{
+  display: flex;
 }
+
+.leftFooter {
+    width: 30%;
+    background: $darkest;
+
+    div#creativeCommons {
+    color: $light;
+    }
+
+    div#creativeCommons a {
+    color: $lightest;
+    text-decoration: none;
+    }    
+
+    #infoFooter {
+    margin: 20px;
+    border-top: 1px solid;
+    padding-top: 20px;
+    }    
+}
+
+.rightFooter {
+    display: flex;
+    width: 70%;
+    background: $lightest;
+    .rightContainer {
+    margin: 20px;
+    border-top: 1px solid #474747;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    }    
+
+}
+//endfooter
+
+
+
 
 .header {
   @include flexbox;
   position: relative;
   z-index: 3;
-  background: white;
-    border-bottom: 1px solid #e9e9e9;  
+  background: $lightest;
 }
 
 .header a {
   text-decoration: none;
-  color: $document-text-color;
 }
 
 .headerLogo {
@@ -226,6 +406,12 @@ body {
   font-weight: 700;
   justify-content: inherit; 
   padding-left: 80px !important;
+  background: $darkest;
+  color: $lightest;
+}
+
+.headerTitle:hover{
+  color: $light;
 }
 
 .headerNav {
@@ -246,7 +432,6 @@ body {
 .header > div:not(.headerNav),
 .header > a {
     padding: 30px 0px;
-    border-right: 1px solid #e9e9e9;
     cursor: pointer;
     min-width: 236px;
     width: 30%;
@@ -264,8 +449,7 @@ body {
 }
 
 .headerNav > div:hover {
-  color: white;
-  background: $primary-accent-color;
+color: $dark;
   @include transition(0s);
 }
 
@@ -304,7 +488,7 @@ input:focus {
 
 .contrastOff {
   background: $document-text-color;
-  color: white;
+  color: $lightest;
 }
 
 .content {
@@ -326,44 +510,54 @@ input:focus {
 .interIssueNav {
   @include flexbox;
   align-content: flex-start;
-  background: white;
+  background: $darkest;
   padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
-    width: 30%;
+    width: calc(30% + 1px);
     box-sizing: border-box;  
     min-width: 236px;
-border-right: 1px solid #e9e9e9;    
+  border-right: 1px solid #e9e9e9;    
+  color: $light;
 }
 
 .interIssueNav::before {
     content: 'issue navigation';
-    font-size: 1.1em;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: .9em;
-    background: #474747;
-    color: white;
-    padding: 5px;
+    color: #f2e6ce;
     letter-spacing: 2px;
     font-weight: 400;
+    border-bottom: 2px solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
     width: 100%;
-    margin-bottom: 11px;
+    font-weight: 700;
 }
 
 
 .tocDropdown {
-    font-size: 1.1em;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: .9em;
-    background: #474747;
-    color: white;
-    padding: 5px;
+    color: $lightest;
     letter-spacing: 2px;
     font-weight: 400;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
 }
 
+
+
 .tocItem {
-  padding: 5px;
+  padding: 5px 0px;
   cursor: pointer;
 }
 
@@ -380,28 +574,58 @@ border-right: 1px solid #e9e9e9;
 }
 
 .issueBody {
-  background: white;
+  background: $lightest;
   flex-grow: 2;
-  width: 70%;
+  width: calc(70% - 1px);
+}
+
+.issueHeader .issueInfo{
+position: relative;
+}
+
+.issueHeader .issueInfo::before{
+    content: '';
+    border-style: solid;
+    border-width: 15px 19px 15px 0;
+    border-color: transparent $dark transparent transparent;
+    position: absolute;
+    left: 80px;
+    top: 1px;
+    transform: rotate(50deg);
 }
 
 .issueDate {
   text-transform: uppercase;
   font-weight: 700;
+  z-index:2;
 }
 
 .singleText {
-  background: $light-border-color;
+  background: $light;
   padding: 5px;
   margin-bottom: 1px;
+  color: $darkest;
 }
 
 .singleIndex:nth-child(1) {
-  width: 100%;
-  font-size: 1.2em;
-  color: #979797;
-  border-bottom: 1px dashed #e9e9e9;
-  margin-bottom: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    color: $light;
+    border-bottom: 1px solid $light;
+    height: 10px;
+    margin-bottom: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.yearText {
+    margin-bottom: 20px;
+    position: absolute;
+    left: -40px;
+    font-size: 14px;
+    top: 2px;
 }
 
 .issueIndex {
@@ -411,39 +635,111 @@ border-right: 1px solid #e9e9e9;
   width: 100%;
 }
 
-.singleIndex.activeMonth {
-  @include flexbox;
-  background: $primary-accent-color;
-  color: $primary-accent-color;
+.activeMonth > div > .singleText {
+    background: $lightest;
+    color: $darkest;
 }
 
+.singleIndex.activeMonth {
+  @include flexbox;
+  position: relative;
+}
+
+
 .singleText {
-  background: $light-border-color;
-  padding: 13px;
-  margin: 1px;
-  width: 40px;
-  cursor: pointer;
+    background: transparent;
+    padding: 13px;
+    margin: 3px;
+    width: 22px;
+    cursor: pointer;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid $light;
+    color: $light;
+    @include transition(.3s);    
 }
 
 .singleText:hover {
-  background: $document-text-color;
-  color: white;
+    border: 1px solid $lightest;
+    color: $lightest;
+    @include transition(0s);
+}
+
+.childContainer{
+     position: absolute;
+    display: flex;
+    top: -25px;
+    left: 12px;
+}
+
+.childContainer .childIndex:nth-child(1)::before{
+    content: '';
+    border-style: solid;
+    border-width: 13px 17px 13px 0;
+    border-color: transparent #046380 transparent transparent;
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    transform: rotate(50deg);
+}
+
+.childContainer .childIndex:nth-child(1){
+  border-radius: 50px 0px 0px 50px;
+  overflow: hidden;
+}
+
+.childContainer .childIndex:last-child{
+  border-radius: 0px 50px 50px 0px;
+  overflow: hidden;
+}
+
+.childContainer .childIndex:only-of-type {
+    border-radius: 50px;
+}
+
+.childContainer .childIndex:only-of-type::before {
+    left: 10px;
+    top: 18px;
 }
 
 .childIndex {
   @include flexCenter;
-  background: $primary-accent-color;
+  background: $dark;
   margin-bottom: 1px;
-  padding: 10px 15px 10px 15px;
-  color: white;
+  padding: 10px;
+  color: $lightest;
   cursor: pointer;
+  margin-top: 1px;
 }
 
-.childIndex:hover,
-.childIndex:hover .active.childText {
-  background: $document-text-color;
-  color: white;
+.childText{
+  position: relative;
 }
+
+.childText::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 2px solid $lightest;
+  border-radius: 30px;
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  opacity: 0;
+  background: transparent;
+  @include transition(.3s);  
+}
+
+
+.childIndex:hover .childText::before {
+  opacity: 0.5;
+  @include transition(.3s);
+}
+
+
 
 .intraIssueNav {
   width: 100%;
@@ -451,32 +747,99 @@ border-right: 1px solid #e9e9e9;
 }
 
 .active.childText {
-  color: black;
+  position: relative;
+}
+
+.active.childText::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 2px solid $lightest;
+  border-radius: 30px;
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  opacity: 1;
+  background: transparent;
 }
 
 .childPieceTitle {
-  font-weight: 500;
-  border-left: 2px solid $document-text-color;
-  padding-left: 5px;
-  @include transition(.5s);
+    font-weight: 700;
 }
 
-.piece, .section .tocTitle{
+.childPieceAuthor, .tocToggle .author{
+  font-style: italic;
+}
+
+.tocItem.section {
+    padding-bottom: 10px;
+}
+
+.section .childPiece{
+  font-weight: 500;
+  border-left: 1px solid $light;
+  padding-left: 10px;
+  @include transition(.5s);
+    padding-top: 10px;  
+}
+
+.section .tocTitle {
+    color: $light;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 1px solid $light;
+    padding: 2px;
+    width: 80%;
+    padding-left: 0px;    
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.section .tocTitle:hover, .childPiece.tocActive{
+    color: $lightest;
+    padding-left: 20px;
+}
+
+ .tocToggle.tocActive, .tocToggle.tocActive:hover{
+  color: $lightest;
+ }
+
+
+.section .tocTitle:hover, .section .tocActive{
+  .childPiece{
+  color: $lightest;
+  border-left: 1px solid $lightest;
+  }
+}
+
+.tocToggle.tocActive ~ .childPiece{
+    border-left: 1px solid $lightest;
+  }
+
+
+.section .tocActive .tocTitle {
+    color: $lightest;
+  border-bottom: 1px solid $lightest;
+
+
+    }
+
+.piece, .section .tocTitle, .section .childPiece{
   @include transition(.5s);
 }
 
 .intraIssueNav {
-  .childPieceTitle:hover,
-  .piece:hover, .section .tocTitle:hover {
-    padding-left: 10px;
+  .piece:hover, .section .childPiece:hover {
+    padding-left: 20px;
     @include transition(0s);
-    color: $primary-accent-color;
+    color: $lightest;
   }
 }
 
 .issueVol,
 .issueNum {
-  background: #474747;
+  background: $greyDark;
   color: white;
   padding: 5px;
   margin-top: 1px;
@@ -486,7 +849,8 @@ border-right: 1px solid #e9e9e9;
 }
 
 .viewer {
-    padding: 0px 100px;
+    padding: 0px 100px 100px 100px;
+
 }
 
 .teiMarkup {
@@ -502,7 +866,7 @@ border-right: 1px solid #e9e9e9;
 
 .head {
   font-weight: 700;
-  border-bottom: 1px solid#c0c0c0;
+  border-bottom: 1px solid $fifteendark;
   margin: 20px 0px 20px 0px;
 }
 
@@ -530,11 +894,10 @@ button.searchSubmit {
 
 }
 
-.peopleFilters {
-    background: white;
+.filterSide {
+    background: $darkest;
     width: 30%;
     box-sizing: border-box;
-border-right: 1px solid #e9e9e9;    
 }
 
 
@@ -590,49 +953,170 @@ border-right: 1px solid #e9e9e9;
   .personMeta {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: 100%;
+    justify-content: center;
     flex-direction: column;
-    background: #e9e9e9;
-
+    align-items: center;
+    background: $sevendark;
+    .personName {
+    font-size: 14px;
+    display: flex;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px 5px 0px 5px;
+    border-bottom: 1px solid $thirtydark;
+    flex-grow: 0;
+    padding-bottom: 2px;
+    height: 10px;
+    align-items: flex-end;  
+    }
 }
 }
 
 
-.personIndex {
+.personSide {
   @include flexbox;
   flex-wrap: wrap;
-  padding-top: 0px;
+  padding-top: 150px;
   align-content: flex-start;
   width: 70%;
-  background: white;
-  padding: 80px 100px;
+  background: $lightest;
+  position: relative;
   box-sizing: border-box;
+  .personIndex {
+    width: 70%;
+    position: relative;
+    .personIndexLabel {
+    @extend .labelFilter;
+    position: absolute;
+    top: -70px;
+    width: calc(100% - 25px);
+    border-bottom: 2px solid;
+    color: #474747;
+    right: 20px;
+    }       
+  }
+    .personListBiblLabel {
+    @extend .labelFilter;
+    position: absolute;
+    top: 80px;
+    width: calc(30% - 55px);
+    border-bottom: 2px solid;
+    color: #474747;
+    left: 20px;
+    }    
+  .personIndexInner{
+  display: flex;
+    flex-wrap: wrap;
+    max-height: calc(100vh - 403px);
+    overflow-y: scroll;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 20px;
+    position: relative;
+  }
+  .personListBibl {
+  width: 30%;
+    .personListBiblInner{
+    height: calc(100vh - 403px);
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    .personMeta {
+    height: 200px;
+    background: none;
+    border-bottom: 3px solid $fifteendark;
+    }    
+    .personBlurb {
+    padding: 20px 0px;
+    font-weight: 700;
+    line-height: 20px;
+    border-bottom: 3px solid $fifteendark;
+    }    
+    .personBibl{
+    background: none;
+    border-bottom: 3px solid $fifteendark;
+    border-radius: 0px;      
+    .pieceTitle{
+      color:$greyDark;
+    }
+    }    
+    }
+  }
+
+.fillerWork{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cec4af;
+  box-sizing: border-box;  
+    .fillerMessage {
+    padding: 20px 20px 20px 10px;
+    border-left: 4px solid $fifteendark;
+    height: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    }  
+}
+
+}
+
+.person.active .personMeta{
+  background-color: $fifteendark;
+}
+
+.peopleFilters {
+    padding-top: 80px;
 }
 
 .personFilter {
-    width: 100%;
-    background: white;
-    top: 0px;
+    margin: 0px 80px;
+    //input::-webkit-input-placeholder {
+    //color: $light !important;
+    //}
+//
+    //input:-moz-placeholder { /* Firefox 18- */
+    //color: $light !important;  
+    //}
+//
+    //input::-moz-placeholder {  /* Firefox 19+ */
+    //color: $light !important;  
+    //}
+//
+    //input:-ms-input-placeholder {  
+    //color: $light !important;  
+    //}    
+}
+
+.personFilter > label {
+  @extend .tocDropdown;
 }
 
 .personFilter input {
-    width: 90%;
-    font-size: 2em;
-    padding: 10px;
-    border: 5px solid #e9e9e9;
-    border-radius: 70px;
-    margin: 30px;
+    width: 100%;
+    font-size: 1.1em;
+    background: #002929;
+    color: #f2e6ce;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 20px;
+    border: 1px solid #474747;
 }
 
 .personIndex .person {
-    margin: 10px;
-    cursor: pointer;
-    width: 200px;
-    border-radius: 10px;
-    overflow: hidden;
     @include flexbox;
+    cursor: pointer;
+    width: calc(33% - 2px);
     flex-direction: column;
-    border: 1px solid #d0d0d0;    
+    height: 200px;
+    border: 2px solid #f2e6ce;
+
 }
 
 .Contributing .personName {
@@ -643,7 +1127,7 @@ border-right: 1px solid #e9e9e9;
   font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
-    color: #474747 !important;  
+    color: $greyDark !important;  
 }
 
 .personRole {
@@ -657,7 +1141,7 @@ border-right: 1px solid #e9e9e9;
 }
 
 .Contributing .personRole {
-  background: #474747;
+  background: $greyDark;
   color: $primary-accent-color;
   padding: 5px;
   font-weight: 800;
@@ -666,8 +1150,6 @@ border-right: 1px solid #e9e9e9;
 }
 
 .Mentioned .personRole, .Correspondent .personRole {
-  background: $document-text-color;
-  color: $primary-accent-color;
   padding: 5px;
   font-weight: 800;
   font-size: 0.8em;
@@ -676,8 +1158,8 @@ border-right: 1px solid #e9e9e9;
 
 .personBibl {
   @include flexbox;
-    background: #474747;
-    color: #474747;
+    background: $greyDark;
+    color: $greyDark;
     flex-wrap: wrap;
     flex-direction: column;
     position: relative;
@@ -702,7 +1184,7 @@ border-right: 1px solid #e9e9e9;
 }
 
 .sectionTitle {
-    border: 1px solid #474747;
+    border: 1px solid $greyDark;
     font-size: 13px;
     padding: 0px 6px;
     height: 23px;
@@ -712,13 +1194,14 @@ border-right: 1px solid #e9e9e9;
     justify-content: center;
     align-items: center;
     margin-left: 5px;
+    border-radius: 20px;    
 }
 
 a.downloadLink {
-    background: #474747;
+    background: $greyDark;
     height: 23px;
     align-items: center;
-    color: #ffffff;
+    color: $lightest;
     overflow: hidden;
     text-decoration: none;
     display: inline-block;
@@ -730,14 +1213,14 @@ a.downloadLink {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 0.8em;
+    border-radius: 20px;    
 }
 
 .downloadIcon {
   height: 100%;
   width: 30px;
-  border-right: 1px solid white;
-  background: #474747;
-  color: white;
+  background: $greyDark;
+  color: $lightest;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -895,21 +1378,24 @@ span.searchHit {
  }
  
 
+
+
 .issueDate {
-    background: #474747;
-    color: white;
+    background: $dark;
+    color: $lightest;
     font-size: 1.1em;
     padding: 5px;
     height: 23px;
-    width: 135px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
-    margin-right: 1px;
     font-weight: 400;
     box-sizing: border-box;
+    padding-left: 17px;
     line-height: .9em;
+border-radius: 20px 0px 0px 20px;    
 }
 
 .personMeta{
@@ -927,7 +1413,6 @@ padding-bottom: 4px;
 
 
   .issueMeta {
-    background-image: url(http://i.imgur.com/BJtKhwV.png);
     margin-bottom: 10px;    
   }
   .bibl > .issue {
@@ -943,9 +1428,9 @@ padding-bottom: 4px;
 
 button#show-modal{
     background: transparent;
-    color: #474747;
+    color: $greyDark;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 0px;
     font-weight: 700;
     font-size: 0.8em;
     text-transform: uppercase;
@@ -957,6 +1442,7 @@ button#show-modal{
     font-family: Roboto;
     box-sizing: border-box;
     height: 24px;
+    border-radius: 20px;    
 }
 
 .personPieceMeta, .authorShip {
@@ -973,7 +1459,7 @@ button#show-modal{
 
     .authorRole, .authorStatus, .authorCertainty, .personViaf a {
     background: #e9e9e9;
-    color: #474747;
+    color: $greyDark;
     padding: 5px;
     border-radius: 5px;
     font-weight: 800;
@@ -1012,7 +1498,10 @@ button#show-modal{
 .issueHeader > .issueMeta{
     //margin-left: 151px;  
 
-}  
+} 
+
+
+
   .issueHeader .pieceAuthor {
     font-size: 1.4em;
   }
@@ -1025,8 +1514,8 @@ button#show-modal{
     padding-bottom: 6px;
     @include flexbox;
     border-radius: 0px;
-    background: #474747;
-    color: white;
+    background: $dark;
+    color: $lightest;
     font-size: 1.1em;
     padding: 5px;
     height: 23px;
@@ -1035,11 +1524,14 @@ button#show-modal{
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
-    margin-right: 1px;
     font-weight: 400;
     box-sizing: border-box;
     line-height: .9em; 
   }
+.issueNum{
+  border-radius: 0px 20px 20px 0px;
+}
+
   .pieceMeta {
     margin-bottom: 30px;
     margin-left: 0x;
@@ -1064,14 +1556,6 @@ button#show-modal{
   }
 }
 
-.personBibl {
-  .issueVol,
-  .issueNum {
-    float: none;
-    background: $primary-accent-color;
-  }
-}
-
 .pieceAuthorRole {
   background: $primary-accent-color;
   color: white;
@@ -1085,13 +1569,13 @@ button#show-modal{
 }
 
 .active .drawerActuator {
-background: #474747;
+background: $greyDark;
     color: white;
     border: none;
 }
 
 .drawer.active {
-    border: 2px solid #474747;
+    border: 2px solid $greyDark;
 }
 
 .drawer {
@@ -1148,7 +1632,7 @@ background: #474747;
   .issueVol,
   .issueNum {
     background: #ffffff;
-    color: #474747;
+    color: $greyDark;
     padding: 5px;
     width: 45px;
     border: 1px solid #e9e9e9;
@@ -1228,7 +1712,7 @@ background: #474747;
   justify-content: center;
   align-items: center;
   background: $document-text-color;
-  color: white;
+  color: $lightest;
   flex-direction: column;
 }
 
@@ -1250,7 +1734,7 @@ background: #474747;
   justify-content: center;
   font-weight: 700;
   align-items: center;
-  border-top: 1px solid #e9e9e9;
+  border-top: 1px solid $greyDark;
   text-transform: uppercase;
   font-size: 0.6em;
   cursor: pointer;
@@ -1285,10 +1769,10 @@ background: #474747;
 .creditsPerson {
     padding-bottom: 20px;
     padding-top: 20px;
-    border-bottom: 1px solid #e9e9e9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     width: 50%;
     margin-left: 20px;
-    border-left: 2px solid #474747;
+    border-left: 2px solid $greyDark;
     padding-left: 15px;    
 }
 
@@ -1331,7 +1815,7 @@ canvas#pdf {
 }
 
 #pdf-viewer {
-  background: #474747;
+  background: $greyDark;
 }
 
 .Mentioned .personViaf a {
@@ -1367,8 +1851,7 @@ canvas#pdf {
 .aboutToggle {
   @include flexbox;
   flex-direction: column;
-  background: white;
-  border-right: 1px solid $light-border-color;
+  background: $darkest;
   padding-top: calc(50vh - 200px);
   min-width: 236px;
   width: 30%;
@@ -1378,15 +1861,15 @@ canvas#pdf {
 
 .aboutToggle > div {
   padding: 50px 100px;
-  background: white;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
+  color: $light;
 }
 
 .aboutViewer {
-    background: white;
+    background: $lightest;
     padding: 20px 20px;
     display: flex;
     justify-content: center;
@@ -1401,11 +1884,11 @@ canvas#pdf {
 }
 
 .aboutToggle .active {
-  color: $primary-accent-color;
+  color: $lightest;
 }
 
 .headerNav > .active {
-  color: $primary-accent-color;
+  color: $dark;
 }
 
 .logo{
@@ -1451,27 +1934,34 @@ canvas#pdf {
 .roleFilter {
     display: flex;
     justify-content: space-around;
-    background: white;
-    height: 50px;
-    align-items: center;
+    flex-direction: column;
+    margin: 20px 80px;
 }
 
-.roleFilter > div {
+.labelFilter {
+@extend .tocDropdown;
+}
+
+.roles{
+  @include flexbox;
+  flex-direction: column;
+}
+
+.roles > div {
   padding: 0px 15px 0px 15px;
-  font-size: 1.1em;
-  background: #474747;
-    color: #989898;
+  font-size: 14px;
+  color: $light;
   flex-grow: 1;
-  height: 50px;
+  height: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-right: 1px solid grey;
   cursor: pointer;
+  text-transform: uppercase;
+  padding-left: 0px;
 }
 
 .roleFilter .active {
-    color: white!important;
+    color: $lightest!important;
 }
 
 .contrast {
@@ -1484,10 +1974,6 @@ font-size: 12px;
 }
 
 
-.footer {
-    padding: 20px;
-    background: #e9e9e9;
-}
 
 .contrastTitle {
     margin-right: 8px;
@@ -1495,7 +1981,7 @@ font-size: 12px;
 
 .authorShip {
     background: #e9e9e9;
-    color: #474747;
+    color: $greyDark;
     padding: 5px;
     border-radius: 5px;
     font-weight: 800;
@@ -1522,32 +2008,34 @@ h1{
 
 .highContrast {
 
+.childText::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    left: -6px;
+    top: -6px;
+  }
+
 
 .issueDate{
-      width: 155px;
+      width: 170px;
 }
 
 .issueVol{
   width: 90px;
 }
-.active.childText {
-    color: white;
+
+.issueNum{
+
 }
 
 .roleFilter > div {
     background: black;
   }
 
-.singleIndex:nth-child(1) {
-    color: black;
-
-}
 .personBibl{
   min-height: 88px;
 }
-.personography .authorCertainty, .personography .authorStatus, .personography .personPieceRole, .personography .authorRole {
-    background: $document-text-color;
-  }
 
 .personIndex .person {
     background: #ffffff;
@@ -1557,15 +2045,15 @@ h1{
 
 .personBibl .issueVol, .personBibl .issueNum {
     float: none;
-    background: #474747;
+    background: $greyDark;
 }
 
     .Contributing .personName  {
-    color: #474747;
+    color: $greyDark;
 }
 
 .Mentioned .personRole, .Correspondent .personRole, .Contributing .personRole {
-    background: #474747;
+    background: $greyDark;
     color: #ffffff;
 }
   }
@@ -1578,17 +2066,15 @@ h1{
   background: none;
 }
 
-.childIndex, a.downloadLink{
-  background: $document-text-color;
-}
+
 
   .contrastOff {
-    background: white;
+    background: $lightest;
     color: $document-text-color;
   }
   .contrastOn {
     background: $document-text-color;
-    color: white;
+    color: $lightest;
   }
   .content {
     font-size: 1.5em;
