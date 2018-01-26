@@ -143,12 +143,12 @@ Vue.component('personography',{
     },
     template: `
         <div class="personography">
-            <div class="filterSide">
+            <div class="workSide">
+                <biblDisplay></biblDisplay>
                 <div class="personographyAbout">Lorem ipsum</div>
-                <personFilter></personFilter>
             </div>
             <div class="personSide">
-                <biblDisplay></biblDisplay>
+                <personFilter></personFilter>
                 <personIndex></personIndex>
             </div>
         </div>
@@ -243,7 +243,6 @@ Vue.component('personFilter', {
     template: `
         <div class="peopleFilters">
             <div class='personFilter'>
-                <label for="personFilter">Search by name</label>
                 <input id="personFilter" @keyup="updateFilterString()" v-model="filterString" placeholder="Enter name here">
             </div>
             <div class="roleFilter">

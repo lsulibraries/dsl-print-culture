@@ -894,10 +894,81 @@ button.searchSubmit {
 
 }
 
-.filterSide {
+.workSide {
     background: $darkest;
     width: 30%;
     box-sizing: border-box;
+    .fillerWork{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $greyDark;
+    box-sizing: border-box;
+    .fillerMessage {
+    padding: 20px 20px 20px 10px;
+    border-left: 4px solid;
+    height: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: $lightest;    
+    }  
+    }   
+    .personListBiblLabel{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: .9em;
+    color: #f2e6ce;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;      
+    }
+    .personListBibl {
+    padding-top: 80px;
+    margin: 0px 80px;
+      .personListBiblInner{
+      overflow-y: auto;
+      box-sizing: border-box;
+      .personMeta {
+      height: 200px;
+      background: none;
+      border-bottom: 1px solid $lightest;
+          .personName{
+          color: $lightest;
+          border-bottom: 1px solid $lightest;
+          }
+          .personRole{
+          color: $lightest;
+          font-size: 12px;
+          font-weight: 700;
+          text-transform: uppercase;          
+          }
+      }    
+      .personBlurb {
+      padding: 20px 0px;
+      font-weight: 500;
+      line-height: 20px;
+      border-bottom: 1px solid $lightest;
+      color: $lightest;
+      }    
+      .personBibl{
+      background: none;
+      border-bottom: 1px solid $light;
+      border-radius: 0px;      
+      .pieceTitle{
+        color:$greyDark;
+      }
+      }    
+      }
+    }     
 }
 
 
@@ -984,16 +1055,16 @@ button.searchSubmit {
   position: relative;
   box-sizing: border-box;
   .personIndex {
-    width: 70%;
     position: relative;
+    margin: 0px 80px;
+    width: 100%;
     .personIndexLabel {
     @extend .labelFilter;
     position: absolute;
     top: -70px;
-    width: calc(100% - 25px);
+    width: 100%;
     border-bottom: 2px solid;
     color: #474747;
-    right: 20px;
     }       
   }
     .personListBiblLabel {
@@ -1006,63 +1077,14 @@ button.searchSubmit {
     left: 20px;
     }    
   .personIndexInner{
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
-    max-height: calc(100vh - 403px);
-    overflow-y: scroll;
     align-items: flex-start;
-    justify-content: flex-end;
-    margin-right: 20px;
     position: relative;
   }
-  .personListBibl {
-  width: 30%;
-    .personListBiblInner{
-    height: calc(100vh - 403px);
-    overflow-y: auto;
-    box-sizing: border-box;
-    padding: 0px 20px;
-    .personMeta {
-    height: 200px;
-    background: none;
-    border-bottom: 3px solid $fifteendark;
-    }    
-    .personBlurb {
-    padding: 20px 0px;
-    font-weight: 700;
-    line-height: 20px;
-    border-bottom: 3px solid $fifteendark;
-    }    
-    .personBibl{
-    background: none;
-    border-bottom: 3px solid $fifteendark;
-    border-radius: 0px;      
-    .pieceTitle{
-      color:$greyDark;
-    }
-    }    
-    }
-  }
 
-.fillerWork{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #cec4af;
-  box-sizing: border-box;  
-    .fillerMessage {
-    padding: 20px 20px 20px 10px;
-    border-left: 4px solid $fifteendark;
-    height: 10px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 700;
-    }  
-}
+
+
 
 }
 
@@ -1071,26 +1093,31 @@ button.searchSubmit {
 }
 
 .peopleFilters {
-    padding-top: 80px;
-}
+    position: absolute;
+    display: flex;
+    top: 80px;
+    right: 0px;
+    flex-direction: row-reverse;
+  }
 
 .personFilter {
     margin: 0px 80px;
-    //input::-webkit-input-placeholder {
-    //color: $light !important;
-    //}
-//
-    //input:-moz-placeholder { /* Firefox 18- */
-    //color: $light !important;  
-    //}
-//
-    //input::-moz-placeholder {  /* Firefox 19+ */
-    //color: $light !important;  
-    //}
-//
-    //input:-ms-input-placeholder {  
-    //color: $light !important;  
-    //}    
+    z-index: 3;
+    input::-webkit-input-placeholder {
+    color: $lightest !important;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+    color: $lightest !important;  
+    }
+
+    input::-moz-placeholder {  /* Firefox 19+ */
+    color: $lightest !important;  
+    }
+
+    input:-ms-input-placeholder {  
+    color: $lightest !important;  
+    }    
 }
 
 .personFilter > label {
@@ -1100,19 +1127,19 @@ button.searchSubmit {
 .personFilter input {
     width: 100%;
     font-size: 1.1em;
-    background: #002929;
-    color: #f2e6ce;
+    background: #424242;
+    z-index: 5;
     margin-top: 5px;
     border-radius: 50px;
     padding: 5px;
     padding-left: 20px;
-    border: 1px solid #474747;
+    border: 0px;
 }
 
 .personIndex .person {
     @include flexbox;
     cursor: pointer;
-    width: calc(33% - 2px);
+    width: calc(25% - 4px);
     flex-direction: column;
     height: 200px;
     border: 2px solid #f2e6ce;
@@ -1127,7 +1154,7 @@ button.searchSubmit {
   font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
-    color: $greyDark !important;  
+    color: $greyDark;  
 }
 
 .personRole {
@@ -1934,8 +1961,9 @@ canvas#pdf {
 .roleFilter {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-    margin: 20px 80px;
+    flex-direction: row;
+    margin: 5px 0px;
+    z-index: 5;
 }
 
 .labelFilter {
@@ -1944,20 +1972,20 @@ canvas#pdf {
 
 .roles{
   @include flexbox;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .roles > div {
-  padding: 0px 15px 0px 15px;
-  font-size: 14px;
-  color: $light;
-  flex-grow: 1;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  text-transform: uppercase;
-  padding-left: 0px;
+    padding: 0px 15px 0px 15px;
+    font-size: 14px;
+    color: #424242;
+    flex-grow: 1;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-left: 0px;
 }
 
 .roleFilter .active {

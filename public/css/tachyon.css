@@ -851,10 +851,81 @@ button.searchSubmit {
 .personography .personName {
   padding: 10px;
 }
-.personography .filterSide {
+.personography .workSide {
   background: #002F2F;
   width: 30%;
   box-sizing: border-box;
+}
+.personography .workSide .fillerWork {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #474747;
+  box-sizing: border-box;
+}
+.personography .workSide .fillerWork .fillerMessage {
+  padding: 20px 20px 20px 10px;
+  border-left: 4px solid;
+  height: 10px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f2e6ce;
+}
+.personography .workSide .personListBiblLabel {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: .9em;
+  color: #f2e6ce;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.personography .workSide .personListBibl {
+  padding-top: 80px;
+  margin: 0px 80px;
+}
+.personography .workSide .personListBibl .personListBiblInner {
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.personography .workSide .personListBibl .personListBiblInner .personMeta {
+  height: 200px;
+  background: none;
+  border-bottom: 1px solid #f2e6ce;
+}
+.personography .workSide .personListBibl .personListBiblInner .personMeta .personName {
+  color: #f2e6ce;
+  border-bottom: 1px solid #f2e6ce;
+}
+.personography .workSide .personListBibl .personListBiblInner .personMeta .personRole {
+  color: #f2e6ce;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBlurb {
+  padding: 20px 0px;
+  font-weight: 500;
+  line-height: 20px;
+  border-bottom: 1px solid #f2e6ce;
+  color: #f2e6ce;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBibl {
+  background: none;
+  border-bottom: 1px solid #A7A37E;
+  border-radius: 0px;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBibl .pieceTitle {
+  color: #474747;
 }
 .personography .person.Contributing.active {
   background-image: url(http://i.imgur.com/BJtKhwV.png);
@@ -926,16 +997,16 @@ button.searchSubmit {
   box-sizing: border-box;
 }
 .personSide .personIndex {
-  width: 70%;
   position: relative;
+  margin: 0px 80px;
+  width: 100%;
 }
 .personSide .personIndex .personIndexLabel {
   position: absolute;
   top: -70px;
-  width: calc(100% - 25px);
+  width: 100%;
   border-bottom: 2px solid;
   color: #474747;
-  right: 20px;
 }
 .personSide .personListBiblLabel {
   position: absolute;
@@ -948,59 +1019,8 @@ button.searchSubmit {
 .personSide .personIndexInner {
   display: flex;
   flex-wrap: wrap;
-  max-height: calc(100vh - 403px);
-  overflow-y: scroll;
   align-items: flex-start;
-  justify-content: flex-end;
-  margin-right: 20px;
   position: relative;
-}
-.personSide .personListBibl {
-  width: 30%;
-}
-.personSide .personListBibl .personListBiblInner {
-  height: calc(100vh - 403px);
-  overflow-y: auto;
-  box-sizing: border-box;
-  padding: 0px 20px;
-}
-.personSide .personListBibl .personListBiblInner .personMeta {
-  height: 200px;
-  background: none;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
-}
-.personSide .personListBibl .personListBiblInner .personBlurb {
-  padding: 20px 0px;
-  font-weight: 700;
-  line-height: 20px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
-}
-.personSide .personListBibl .personListBiblInner .personBibl {
-  background: none;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0px;
-}
-.personSide .personListBibl .personListBiblInner .personBibl .pieceTitle {
-  color: #474747;
-}
-.personSide .fillerWork {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #cec4af;
-  box-sizing: border-box;
-}
-.personSide .fillerWork .fillerMessage {
-  padding: 20px 20px 20px 10px;
-  border-left: 4px solid rgba(0, 0, 0, 0.15);
-  height: 10px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .person.active .personMeta {
@@ -1008,23 +1028,42 @@ button.searchSubmit {
 }
 
 .peopleFilters {
-  padding-top: 80px;
+  position: absolute;
+  display: flex;
+  top: 80px;
+  right: 0px;
+  flex-direction: row-reverse;
 }
 
 .personFilter {
   margin: 0px 80px;
+  z-index: 3;
+}
+.personFilter input::-webkit-input-placeholder {
+  color: #f2e6ce !important;
+}
+.personFilter input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #f2e6ce !important;
+}
+.personFilter input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #f2e6ce !important;
+}
+.personFilter input:-ms-input-placeholder {
+  color: #f2e6ce !important;
 }
 
 .personFilter input {
   width: 100%;
   font-size: 1.1em;
-  background: #002929;
-  color: #f2e6ce;
+  background: #424242;
+  z-index: 5;
   margin-top: 5px;
   border-radius: 50px;
   padding: 5px;
   padding-left: 20px;
-  border: 1px solid #474747;
+  border: 0px;
 }
 
 .personIndex .person {
@@ -1034,7 +1073,7 @@ button.searchSubmit {
   display: -webkit-flex;
   display: flex;
   cursor: pointer;
-  width: calc(33% - 2px);
+  width: calc(25% - 4px);
   flex-direction: column;
   height: 200px;
   border: 2px solid #f2e6ce;
@@ -1048,7 +1087,7 @@ button.searchSubmit {
   font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
-  color: #474747 !important;
+  color: #474747;
 }
 
 .personRole {
@@ -1836,8 +1875,9 @@ canvas#pdf {
 .roleFilter {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
-  margin: 20px 80px;
+  flex-direction: row;
+  margin: 5px 0px;
+  z-index: 5;
 }
 
 .roles {
@@ -1846,13 +1886,13 @@ canvas#pdf {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .roles > div {
   padding: 0px 15px 0px 15px;
   font-size: 14px;
-  color: #A7A37E;
+  color: #424242;
   flex-grow: 1;
   height: 30px;
   display: flex;
