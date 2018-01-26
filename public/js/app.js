@@ -19521,10 +19521,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['personMeta'],
     methods: {
+        contribCount: function contribCount() {
+            if (this.$root.empty(this.personMeta.personTotalContrib)) {
+                return '';
+            } else {
+                return "(" + this.personMeta.personTotalContrib + ")";
+            }
+        },
         isMentioned: function isMentioned() {
             return !this.$root.empty(this.personMeta.personTotalMentionStatement);
         },
@@ -25648,15 +25657,21 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "personRole"
   }, [(this.getRole('Editor')) ? _c('div', {
     staticClass: "role-editor"
-  }, [_vm._v("Editor")]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor')) ? _c('div', {
+  }, [_c('div', {
+    staticClass: "role-name"
+  }, [_vm._v("Editor")])]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor')) ? _c('div', {
     staticClass: "role-contributor"
-  }, [_vm._v("Contributor")]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
+  }, [_c('div', {
+    staticClass: "role-name"
+  }, [_vm._v("Contributor")]), _vm._v(" "), _c('div', {
+    staticClass: "contrib-count"
+  }, [_vm._v(_vm._s(this.contribCount()))])]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
     staticClass: "role-mentioned"
-  }, [_vm._v("Mentioned")]) : _vm._e()]), _vm._v(" "), (this.isMentioned()) ? _c('div', {
+  }, [_c('div', {
+    staticClass: "role-name"
+  }, [_vm._v("Mentioned")]), _vm._v(" "), (this.isMentioned()) ? _c('div', {
     staticClass: "mention-statement"
-  }, [_vm._v(_vm._s(this.personMeta.personTotalMentionStatement))]) : _vm._e(), _vm._v(" "), _c('div', {
-    staticClass: "personViaf"
-  })])
+  }, [_vm._v(_vm._s(this.personMeta.personTotalMentionStatement))]) : _vm._e()]) : _vm._e()])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {

@@ -2,22 +2,32 @@
     <div class="personMeta">
       <div class="personName">{{this.getName()}}</div>
       <div class="personRole">
-          <div class="role-editor" v-if="this.getRole('Editor')">Editor</div>
-          <div class="role-contributor" v-if="this.getRole('Contributor')">Contributor</div>
-          <div class="role-mentioned" v-if="this.getRole('Mentioned')">Mentioned</div>
+          <div class="role-editor" v-if="this.getRole('Editor')">
+              <div class="role-name">Editor</div>
+          </div>
+          <div class="role-contributor" v-if="this.getRole('Contributor')">
+              <div class="role-name">Contributor</div>
+              <div class="contrib-count">{{ this.contribCount() }}</div>
+          </div>
+          <div class="role-mentioned" v-if="this.getRole('Mentioned')">
+              <div class="role-name">Mentioned</div>
+              <div class="mention-statement" v-if="this.isMentioned()">{{ this.personMeta.personTotalMentionStatement }}</div>
+          </div>
       </div>
-      <div class="mention-statement" v-if="this.isMentioned()">{{ this.personMeta.personTotalMentionStatement }}</div>
-      <div class="personViaf">
-    <!--
-    <a v-if="!this.$root.empty(personMeta.personViaf)" v-bind:href="personMeta.personViaf" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>VIAF</a>
-    -->
-      </div>
-        </div>
+    </div>
 </template>
 <script>
     export default {
         props: ['personMeta'],
         methods: {
+            contribCount: function () {
+                if (this.$root.empty(this.personMeta.personTotalContrib)) {
+                    return ''
+                }
+                else {
+                    return "(" + this.personMeta.personTotalContrib + ")"
+                }
+            },
             isMentioned: function () {
                 return !this.$root.empty(this.personMeta.personTotalMentionStatement)
             },
