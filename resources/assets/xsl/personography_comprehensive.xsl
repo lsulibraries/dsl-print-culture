@@ -18,7 +18,7 @@
 
     <xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/> 
     <!-- substitute variable with different path for local testing with small subset of issues -->
-    <!--<xsl:variable name="teiIssues" select="collection('issues')"/> -->
+    <!--<xsl:variable name="teiIssues" select="collection('issues-mention')"/>--> 
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
@@ -34,14 +34,22 @@
                 </xsl:for-each-group>
             </xsl:variable>
             
+            <!-- construct xpaths for handling mentions -->
+            <xsl:variable name="mentions" select="$teiIssues/TEI/text/body//persName[not(parent::byline)][substring-after(@ref, '#') eq $personId]"/>
+            <xsl:variable name="mentioningPieces" select="$mentions/ancestor::div[@decls][1]/@decls"/>
+            
             <!-- calculate number of total mentions by author ref ID in text, excluding bylines -->
-            <xsl:variable name="totalmentions">
-                <xsl:for-each-group select="$teiIssues//body//persName[@ref][not(parent::byline)]"
-                    group-by="@ref">
-                    <xsl:if test="substring-after(@ref, '#') eq $personId">
-                        <xsl:value-of select="count(current-group())"/>
-                    </xsl:if>
-                </xsl:for-each-group>
+            <xsl:variable name="totalMentionsOverall">
+                <xsl:if test="$mentions">
+                    <xsl:value-of select="count($mentions)"/>
+                </xsl:if>
+            </xsl:variable>
+            
+            <!-- calculate number of pieces in which an author is mentioned -->
+            <xsl:variable name="totalMentioningPieces">
+                <xsl:if test="$mentions">
+                    <xsl:value-of select="count($mentioningPieces)"/>                   
+                </xsl:if>
             </xsl:variable>
 
             <xsl:element name="{$personId}">
@@ -155,40 +163,59 @@
                             </xsl:if>
                         </personBio>
                     </xsl:if>
-                        
-                    
-                        
+
                     <!-- list total contributions and/or total mentions if not zero -->
                     <xsl:if test="string-length($totalcontribs) != 0">
                         <personTotalContrib>
                             <xsl:value-of select="$totalcontribs"/>
                         </personTotalContrib>
                     </xsl:if>
-                    <xsl:if test="string-length($totalmentions) != 0">
-                        <personTotalMention>
-                            <xsl:value-of select="$totalmentions"/>
-                        </personTotalMention>
+                    <xsl:if test="string-length($totalMentionsOverall) != 0">
+                        <personTotalMentionsOverall>
+                            <xsl:value-of select="$totalMentionsOverall"/>
+                        </personTotalMentionsOverall>
+                        <personTotalMentioningPieces>
+                            <xsl:value-of select="$totalMentioningPieces"/>
+                        </personTotalMentioningPieces>
+                        <personTotalMentionStatement>
+                            <xsl:text>This author is mentioned </xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="$totalMentionsOverall > 1">
+                                <xsl:value-of select="$totalMentionsOverall"/>
+                                <xsl:text> times </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when test="$totalMentioningPieces > 1">
+                                        <xsl:text>across </xsl:text>
+                                        <xsl:value-of select="$totalMentioningPieces"/>
+                                        <xsl:text> contributions.</xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:text>in a single contribution.</xsl:text>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                            <xsl:otherwise>once.</xsl:otherwise>
+                        </xsl:choose>
+                        </personTotalMentionStatement>
                     </xsl:if>
                 </personMeta>
 
                 <!-- if an author has contributions or mentions, create personListBibl section -->
-                <xsl:if test="string-length($totalmentions) or string-length($totalcontribs) != 0">
+                <xsl:if test="string-length($totalMentionsOverall) or string-length($totalcontribs) != 0">
                     <personListBibl>
                         
                         <!-- get bibls for Contributors -->
                         <xsl:for-each select="$teiIssues//listBibl//author">
+                            <xsl:sort select="ancestor::TEI//fileDesc/publicationStmt/idno"></xsl:sort>
                             <xsl:if test="substring-after(@ref, '#') eq $personId">
                                 <xsl:call-template name="biblMeta"/>
                             </xsl:if>
                         </xsl:for-each>
 
                         <!-- get bibls for Mentions -->
-                        <xsl:for-each-group
-                            select="$teiIssues//body//persName[@ref][not(parent::byline)]"
-                            group-by="@ref">
-                            <xsl:if test="substring-after(@ref, '#') eq $personId">
-                                <xsl:call-template name="biblMeta"/>
-                            </xsl:if>
+                        <xsl:for-each-group select="$mentions" group-by="concat(ancestor::TEI//fileDesc/publicationStmt/idno, ancestor::div[@decls][1]/@decls)">
+                            <xsl:sort select="ancestor::TEI//fileDesc/publicationStmt/idno"></xsl:sort>
+                            <xsl:call-template name="biblMeta"/>
                         </xsl:for-each-group>
                     </personListBibl>
                 </xsl:if>
@@ -218,6 +245,7 @@
         <xsl:variable name="biblMeta" select="ancestor::TEI//listBibl//bibl[@xml:id eq $biblId]"/>
 
         <!-- create element for each bibl -->
+        
         <xsl:element name="{$listBiblId}">
             
             <!-- get issue-level metadata -->
@@ -300,7 +328,7 @@
             <!-- construct statements about person's relationship to bibl -->
             <personPieceMeta>
                 
-                <!-- for author -->
+                <!-- for contributor -->
                 <xsl:if test="self::author">
                     <personPieceRole>Contributor</personPieceRole>
                     
@@ -315,15 +343,23 @@
 
                                     <xsl:text>Writing as </xsl:text>
                                     <xsl:for-each select="tokenize($pseudo, ' ')">
-                                        <xsl:value-of
-                                            select="
-                                                string-join((
-                                                upper-case(substring(., 1, 1)),
-                                                lower-case((substring(., 2)))),
-                                                '')"/>
-                                        <xsl:if test="position() != last()">
-                                            <xsl:text> </xsl:text>
-                                        </xsl:if>
+                                        <xsl:choose>
+                                            <xsl:when
+                                                test="contains(substring(., 1, string-length(.) - 1), '.')">
+                                                <xsl:value-of select="."/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of
+                                                  select="
+                                                        string-join((
+                                                        upper-case(substring(., 1, 1)),
+                                                        lower-case((substring(., 2)))),
+                                                        '')"/>
+                                                <xsl:if test="position() != last()">
+                                                  <xsl:text> </xsl:text>
+                                                </xsl:if>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </xsl:for-each>
                                     <xsl:if test="not(ends-with($pseudo, '.'))">
                                         <xsl:text>.</xsl:text>
@@ -365,12 +401,25 @@
                 <xsl:if test="self::persName">
                     <personPieceRole>Mentioned</personPieceRole>
                     
-                    <!-- if name appears more than once in a bibl, count occurrences for that bibl -->
-                    <xsl:if test="count(current-group()) > 1">
-                        <personPieceTotalMention>
-                            <xsl:value-of select="count(current-group())"/>
-                        </personPieceTotalMention>
-                    </xsl:if>
+                    <!-- if name appears more than once in a bibl, count occurrences for that bibl;
+                    construct statement about number of mentions in the piece -->
+                    <xsl:choose>
+                        <xsl:when test="count(current-group()) > 1">
+                            <personPieceTotalMention>
+                                <xsl:value-of select="count(current-group())"/>
+                            </personPieceTotalMention>
+                            <personPieceMentionStatement>
+                                <xsl:text>This name appears </xsl:text>
+                                <xsl:value-of select="count(current-group())"/>
+                                <xsl:text> times.</xsl:text>
+                            </personPieceMentionStatement>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <personPieceMentionStatement>
+                                <xsl:text>This name appears once.</xsl:text>
+                            </personPieceMentionStatement>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:if>
                 
             </personPieceMeta>
