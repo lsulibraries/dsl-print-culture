@@ -7,3 +7,4 @@ java -jar /opt/saxon9he.jar -xsl:resources/assets/xsl/personography_comprehensiv
 
 java -jar /opt/saxon9he.jar -xsl:resources/assets/xsl/biblMeta_comprehensive.xsl -s:storage/app/public/broadway-tei/tei/ -o:storage/app/public/bibl/
 
+java -jar /opt/saxon9he.jar -xsl:resources/assets/xsl/masthead.xsl -s:storage/app/public/broadway-tei/tei/ -o:storage/app/public/masthead/
