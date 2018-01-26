@@ -19541,19 +19541,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     var role = _step.value;
 
                     if (role == 'Mentioned') {
-                        var count = personMeta.personTotalMention;
-                        if (!personMeta.personTotalMention) {
-                            console.log("totalMention missing for " + personMeta.personId);
+                        if (!personMeta.personTotalMentionStatement) {
+                            console.log("totalMentionStatement missing for " + personMeta.personId);
+                        } else {
+                            ret += personMeta.personTotalMentionStatement;
+                        }
+                    } else if (role == 'Contributor') {
+                        var count = personMeta.personTotalContrib;
+                        if (!personMeta.personTotalContrib) {
+                            console.log("totalContrib missing for " + personMeta.personId);
                             count = '?';
                         }
                         ret += role + ' (' + count + ')';
-                    } else if (role == 'Contributor') {
-                        var _count = personMeta.personTotalContrib;
-                        if (!personMeta.personTotalContrib) {
-                            console.log("totalContrib missing for " + personMeta.personId);
-                            _count = '?';
-                        }
-                        ret += role + ' (' + _count + ')';
                     } else {
                         ret += ' ' + role;
                     }

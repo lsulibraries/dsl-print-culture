@@ -29,12 +29,12 @@
                 let ret = ''
                 for (let role of roles) {
                     if (role == 'Mentioned') {
-                        let count = personMeta.personTotalMention
-                        if (!personMeta.personTotalMention) {
-                            console.log("totalMention missing for " + personMeta.personId)
-                            count = '?'
+                        if (!personMeta.personTotalMentionStatement) {
+                            console.log("totalMentionStatement missing for " + personMeta.personId)
                         }
-                        ret += role + ' (' + count + ')'
+                        else {
+                            ret += personMeta.personTotalMentionStatement
+                        }
                     }
                     else if (role == 'Contributor') {
                         let count = personMeta.personTotalContrib
