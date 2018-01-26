@@ -937,9 +937,8 @@ button.searchSubmit {
     padding-top: 80px;
     margin: 0px 80px;
       .personListBiblInner{
-      overflow-y: auto;
       box-sizing: border-box;
-      height: 100%;
+      height: 100%;   
       .personMeta {
       height: 200px;
       background: none;
@@ -950,7 +949,7 @@ button.searchSubmit {
           }
           .personRole{
           color: $lightest;
-          font-size: 12px;
+          font-size: 0.8em;
           font-weight: 700;
           text-transform: uppercase;          
           }
@@ -1000,6 +999,7 @@ button.searchSubmit {
     padding-left: 17px; //imported
     line-height: .9em; //imported
     border-radius: 20px 0px 0px 20px; //imported
+    min-width: 180px;
 } //imported
 
 .issueVol, .issueNum { //imported
@@ -1358,6 +1358,9 @@ button.searchSubmit {
     width: 100%;
     padding: 0px !important;
     border-radius: 0px 0px 10px 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 700;    
 }
 
 .Contributing .personRole {
@@ -2359,6 +2362,11 @@ h1{
 .personIndex .person {
     width: calc(50% - 4px);
 }
+.personography .workSide .personListBibl {
+    padding-top: 80px;
+    margin: 0px 40px;
+}
+
 }
 
 @media screen and (max-width: 1080px){
