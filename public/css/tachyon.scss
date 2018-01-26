@@ -33,6 +33,9 @@ $fifteendark: rgba(0, 0, 0, 0.15);
 $twentydark: rgba(0, 0, 0, 0.20);
 $thirtydark: rgba(0, 0, 0, 0.30);
 
+$thirtylight: rgba(242, 230, 207, 0.3);
+$fiftylight: rgba(242, 230, 207, 0.5);
+
 //end adobe colors
 
 @mixin flexbox {
@@ -138,14 +141,14 @@ body {
   height: 500px;
   overflow-y: scroll;
 
-  .pieceTitle{
+    .pieceTitle{
     letter-spacing: 1px;
     font-weight: 500;
-  }
- 
-.pieceTitleContainer {
+    }
+
+    .pieceTitleContainer {
     position: relative;
-}
+    }
 
 
   .personBlurb{
@@ -886,7 +889,6 @@ button.searchSubmit {
 .pieceTitleContainer {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 4px;
 }
 
 .personName{
@@ -937,13 +939,14 @@ button.searchSubmit {
       .personListBiblInner{
       overflow-y: auto;
       box-sizing: border-box;
+      height: 100%;
       .personMeta {
       height: 200px;
       background: none;
-      border-bottom: 1px solid $lightest;
+      border-bottom: 1px solid $fiftylight;
           .personName{
           color: $lightest;
-          border-bottom: 1px solid $lightest;
+          border-bottom: 1px solid $thirtylight;
           }
           .personRole{
           color: $lightest;
@@ -956,17 +959,207 @@ button.searchSubmit {
       padding: 20px 0px;
       font-weight: 500;
       line-height: 20px;
-      border-bottom: 1px solid $lightest;
+      border-bottom: 1px solid $fiftylight;
       color: $lightest;
+      letter-spacing: 1px;
       }    
       .personBibl{
       background: none;
-      border-bottom: 1px solid $light;
+      border-bottom: 1px dashed $fiftylight;
       border-radius: 0px;      
       .pieceTitle{
-        color:$greyDark;
+        color:$lightest;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+      .pieceTitle::before{
+        content: '';
+        height: 15px;
+        width: 15px;
+        position: absolute;
+        background-color: $fiftylight;
+        left: 10px;
+        top: calc(50% - 7px);
       }
       }    
+//begin import styles
+ 
+.issueDate { //imported
+    background: #046380; //imported
+    color: #f2e6ce; //imported
+    font-size: 1.1em; //imported
+    padding: 5px; //imported
+    height: 23px; //imported
+    width: auto; //imported
+    display: flex; //imported
+    justify-content: center; //imported
+    align-items: center; //imported
+    letter-spacing: 2px; //imported
+    font-weight: 400; //imported
+    box-sizing: border-box; //imported
+    padding-left: 17px; //imported
+    line-height: .9em; //imported
+    border-radius: 20px 0px 0px 20px; //imported
+} //imported
+
+.issueVol, .issueNum { //imported
+    float: left; //imported
+    margin-top: 0px; //imported
+    position: relative; //imported
+    top: 0px; //imported
+    padding-bottom: 6px; //imported
+    display: -webkit-box; //imported
+    display: -moz-box; //imported
+    display: -ms-flexbox; //imported
+    display: -webkit-flex; //imported
+    display: flex; //imported
+    border-radius: 0px; //imported
+    background: #046380; //imported
+    color: #f2e6ce; //imported
+    font-size: 1.1em; //imported
+    padding: 5px; //imported
+    height: 23px; //imported
+    width: 70px; //imported
+    display: flex; //imported
+    justify-content: center; //imported
+    align-items: center; //imported
+    letter-spacing: 2px; //imported
+    font-weight: 400; //imported
+    box-sizing: border-box; //imported
+    line-height: .9em; //imported
+} //imported
+
+.personPieceMeta {
+    top: -18px !important;
+}
+.issueNum{
+      border-radius: 0px 50px 50px 0px!important;
+ //imported from author
+}
+.issueData{ //imported from author
+    display: flex; //imported from author
+    flex-wrap: wrap; //imported from author
+    font-size: 11px; //imported from author
+    position: absolute; //imported from author
+    margin-left: 30px; //imported from author
+    top: 0px; //imported from author
+} //imported from author
+ //imported from author
+.issueMeta { //imported from author
+    margin-bottom: 10px;   //imported from author
+    display: flex; //imported from author
+    border-radius: 50px; //imported from author
+    position: relative; //imported from author
+    top: -5px; //imported from author
+    z-index: 3; //imported from author
+    .issueDate{ //imported from author
+      width:auto; //imported from author
+    } //imported from author
+}   //imported from author
+ //imported from author
+.issueMeta::before{ //imported from author
+    content: ''; //imported from author
+    border-style: solid; //imported from author
+    border-width: 13px 17px 13px 0; //imported from author
+    border-color: transparent $dark transparent transparent; //imported from author
+    position: absolute; //imported from author
+    left: 80px; //imported from author
+    top: 7px; //imported from author
+    transform: rotate(50deg); //imported from author
+    z-index: 2; //imported from author
+} //imported from author
+ //imported from author
+  .personBibl{ //imported from author
+    display: block; //imported from author
+    flex-wrap: wrap; //imported from author
+    flex-direction: column; //imported from author
+    padding: 0px; //imported from author
+    background: transparent; //imported from author
+    height: 91px; //imported from author
+    margin-top: 0px; //imported from author
+    .personPieceMeta { //imported from author
+    position: relative; //imported from author
+    top: -31px; //imported from author
+    left: 20px; //imported from author
+    display: flex; //imported from author
+    width: 49%; //imported from author
+        .authorShip { //imported from author
+          color: #a7a37e; //imported from author
+          padding: 5px; //imported from author
+          border-radius: 0px; //imported from author
+          font-weight: 500; //imported from author
+          font-size: 11px; //imported from author
+          text-transform: uppercase; //imported from author
+          text-decoration: none; //imported from author
+          letter-spacing: 2px; //imported from author
+          border-top: 1px solid #a7a37e78; //imported from author
+          margin: 0px; //imported from author
+          background: none; //imported from author
+        }     //imported from author
+    }        //imported from author
+  } //imported from author
+ //imported from author
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{ //imported from author
+      opacity: 0; //imported from author
+      @include transition(.5s); //imported from author
+    } //imported from author
+ //imported from author
+  .personBibl:hover{ //imported from author
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{ //imported from author
+      opacity: 1; //imported from author
+      @include transition(.5s); //imported from author
+      transition-delay: 0.5s; //imported from author
+    } //imported from author
+  } //imported from author
+ //imported from author
+  .pieceMeta { //imported from author
+    display: flex; //imported from author
+    align-items: center; //imported from author
+    margin-bottom: 10px; //imported from author
+    cursor: pointer; //imported from author
+    color: #002f2f; //imported from author
+    margin-left: 0px; //imported from author
+    padding: 20px; //imported from author
+    color: #f2e6ce; //imported from author
+    min-height: 50px; //imported from author
+    line-height:1.3em; //imported from author
+    border-radius: 1px; //imported from author
+    @include transition(0.5s); //imported from author
+  } //imported from author
+  .sectionMeta{ //imported from author
+    position: absolute; //imported from author
+    top: 90px; //imported from author
+    left: 194px; //imported from author
+    height: 85px; //imported from author
+    width: 180px; //imported from author
+    border-radius: 0px; //imported from author
+    padding: 0px; //imported from author
+    display: flex; //imported from author
+    text-align: right; //imported from author
+    justify-content: flex-end; //imported from author
+    align-items: flex-start; //imported from author
+    .sectionTitle { //imported from author
+    color: #b2b9a7; //imported from author
+    font-weight: 500; //imported from author
+    display: flex; //imported from author
+    align-items: flex-start; //imported from author
+    justify-content: flex-end; //imported from author
+    margin: 0px; //imported from author
+    text-transform: uppercase; //imported from author
+    letter-spacing: 1px; //imported from author
+    font-size: 11px; //imported from author
+    line-height: 12px; //imported from author
+    padding: 0px; //imported from author
+    border-radius: 0px; //imported from author
+    position: absolute; //imported from author
+    text-align: right; //imported from author
+    border: 0px; //imported from author
+    padding-top: 5px; //imported from author
+    }      //imported from author
+ //imported from author
+  } //imported from author
+//end import styles
+
       }
     }     
 }

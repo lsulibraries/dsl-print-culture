@@ -846,7 +846,6 @@ button.searchSubmit {
 .personography .pieceTitleContainer {
   display: flex;
   flex-direction: row-reverse;
-  padding-top: 4px;
 }
 .personography .personName {
   padding: 10px;
@@ -896,15 +895,16 @@ button.searchSubmit {
 .personography .workSide .personListBibl .personListBiblInner {
   overflow-y: auto;
   box-sizing: border-box;
+  height: 100%;
 }
 .personography .workSide .personListBibl .personListBiblInner .personMeta {
   height: 200px;
   background: none;
-  border-bottom: 1px solid #f2e6ce;
+  border-bottom: 1px solid rgba(242, 230, 207, 0.5);
 }
 .personography .workSide .personListBibl .personListBiblInner .personMeta .personName {
   color: #f2e6ce;
-  border-bottom: 1px solid #f2e6ce;
+  border-bottom: 1px solid rgba(242, 230, 207, 0.3);
 }
 .personography .workSide .personListBibl .personListBiblInner .personMeta .personRole {
   color: #f2e6ce;
@@ -916,16 +916,199 @@ button.searchSubmit {
   padding: 20px 0px;
   font-weight: 500;
   line-height: 20px;
-  border-bottom: 1px solid #f2e6ce;
+  border-bottom: 1px solid rgba(242, 230, 207, 0.5);
   color: #f2e6ce;
+  letter-spacing: 1px;
 }
 .personography .workSide .personListBibl .personListBiblInner .personBibl {
   background: none;
-  border-bottom: 1px solid #A7A37E;
+  border-bottom: 1px dashed rgba(242, 230, 207, 0.5);
   border-radius: 0px;
 }
 .personography .workSide .personListBibl .personListBiblInner .personBibl .pieceTitle {
-  color: #474747;
+  color: #f2e6ce;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBibl .pieceTitle::before {
+  content: '';
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  background-color: rgba(242, 230, 207, 0.5);
+  left: 10px;
+  top: calc(50% - 7px);
+}
+.personography .workSide .personListBibl .personListBiblInner .issueDate {
+  background: #046380;
+  color: #f2e6ce;
+  font-size: 1.1em;
+  padding: 5px;
+  height: 23px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding-left: 17px;
+  line-height: .9em;
+  border-radius: 20px 0px 0px 20px;
+}
+.personography .workSide .personListBibl .personListBiblInner .issueVol, .personography .workSide .personListBibl .personListBiblInner .issueNum {
+  float: left;
+  margin-top: 0px;
+  position: relative;
+  top: 0px;
+  padding-bottom: 6px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  border-radius: 0px;
+  background: #046380;
+  color: #f2e6ce;
+  font-size: 1.1em;
+  padding: 5px;
+  height: 23px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: .9em;
+}
+.personography .workSide .personListBibl .personListBiblInner .personPieceMeta {
+  top: -18px !important;
+}
+.personography .workSide .personListBibl .personListBiblInner .issueNum {
+  border-radius: 0px 50px 50px 0px !important;
+}
+.personography .workSide .personListBibl .personListBiblInner .issueData {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 11px;
+  position: absolute;
+  margin-left: 30px;
+  top: 0px;
+}
+.personography .workSide .personListBibl .personListBiblInner .issueMeta {
+  margin-bottom: 10px;
+  display: flex;
+  border-radius: 50px;
+  position: relative;
+  top: -5px;
+  z-index: 3;
+}
+.personography .workSide .personListBibl .personListBiblInner .issueMeta .issueDate {
+  width: auto;
+}
+.personography .workSide .personListBibl .personListBiblInner .issueMeta::before {
+  content: '';
+  border-style: solid;
+  border-width: 13px 17px 13px 0;
+  border-color: transparent #046380 transparent transparent;
+  position: absolute;
+  left: 80px;
+  top: 7px;
+  transform: rotate(50deg);
+  z-index: 2;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBibl {
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0px;
+  background: transparent;
+  height: 91px;
+  margin-top: 0px;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBibl .personPieceMeta {
+  position: relative;
+  top: -31px;
+  left: 20px;
+  display: flex;
+  width: 49%;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBibl .personPieceMeta .authorShip {
+  color: #a7a37e;
+  padding: 5px;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-top: 1px solid #a7a37e78;
+  margin: 0px;
+  background: none;
+}
+.personography .workSide .personListBibl .personListBiblInner .issueDate, .personography .workSide .personListBibl .personListBiblInner .issueVol, .personography .workSide .personListBibl .personListBiblInner .issueNum, .personography .workSide .personListBibl .personListBiblInner .issueMeta::before, .personography .workSide .personListBibl .personListBiblInner .personPieceMeta, .personography .workSide .personListBibl .personListBiblInner .sectionTitle {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.personography .workSide .personListBibl .personListBiblInner .personBibl:hover .issueDate, .personography .workSide .personListBibl .personListBiblInner .personBibl:hover .issueVol, .personography .workSide .personListBibl .personListBiblInner .personBibl:hover .issueNum, .personography .workSide .personListBibl .personListBiblInner .personBibl:hover .issueMeta::before, .personography .workSide .personListBibl .personListBiblInner .personBibl:hover .personPieceMeta, .personography .workSide .personListBibl .personListBiblInner .personBibl:hover .sectionTitle {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  transition-delay: 0.5s;
+}
+.personography .workSide .personListBibl .personListBiblInner .pieceMeta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #002f2f;
+  margin-left: 0px;
+  padding: 20px;
+  color: #f2e6ce;
+  min-height: 50px;
+  line-height: 1.3em;
+  border-radius: 1px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.personography .workSide .personListBibl .personListBiblInner .sectionMeta {
+  position: absolute;
+  top: 90px;
+  left: 194px;
+  height: 85px;
+  width: 180px;
+  border-radius: 0px;
+  padding: 0px;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.personography .workSide .personListBibl .personListBiblInner .sectionMeta .sectionTitle {
+  color: #b2b9a7;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  line-height: 12px;
+  padding: 0px;
+  border-radius: 0px;
+  position: absolute;
+  text-align: right;
+  border: 0px;
+  padding-top: 5px;
 }
 .personography .person.Contributing.active {
   background-image: url(http://i.imgur.com/BJtKhwV.png);
