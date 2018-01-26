@@ -103,6 +103,10 @@ class IssuesController extends Controller
         return $xml;
     }
 
+    function issueMasthead($id){
+        $xml = Storage::get('public/masthead/' . $this->getFilenameForID($id));
+        return $xml;
+    }
     
     function pieceText($id, $pid){
         $issue =  simplexml_load_string(Storage::get('public/issues/' . $this->getFilenameForID($id)));

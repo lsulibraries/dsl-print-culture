@@ -19665,9 +19665,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     return _this.issueText = response.data;
                 });
             } else {
-                this.issueText = '';
-                // url = '/api/broadwayjournal/'+ this.id + '/issue-text';
-                // axios.get(url).then(response => this.issueText = response.data);
+                var _url2 = '/api/broadwayjournal/issue/' + this.issueId + '/masthead';
+                axios.get(_url2).then(function (response) {
+                    return _this.issueText = response.data;
+                });
             }
         },
         getTocEntry: function getTocEntry(issueId, itemId) {

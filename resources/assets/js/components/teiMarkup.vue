@@ -49,9 +49,8 @@
               let url = '/api/broadwayjournal/'+ this.issueId + '/piece-text/' + this.biblId;
               axios.get(url).then(response => this.issueText = response.data);
             }else {
-                this.issueText = ''
-            // url = '/api/broadwayjournal/'+ this.id + '/issue-text';
-            // axios.get(url).then(response => this.issueText = response.data);
+                let url = '/api/broadwayjournal/issue/'+ this.issueId + '/masthead';
+                  axios.get(url).then(response => this.issueText = response.data);
             }
         },
         getTocEntry: function(issueId, itemId){

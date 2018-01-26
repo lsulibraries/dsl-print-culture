@@ -18,6 +18,8 @@ Route::get('/', function () {
 
 Route::get('/api/broadwayjournal/issue/{issueId}/header', 'IssuesController@issueHeader');
 
+Route::get('/api/broadwayjournal/issue/{issueId}/masthead', 'IssuesController@issueMasthead');
+
 Route::get('/broadwayjournal/issue/{year}/{month}/{day}/pdf', 'IssuesController@pdf');
 
 Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@index');
