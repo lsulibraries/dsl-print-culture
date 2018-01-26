@@ -12,8 +12,6 @@
           <container></container>
       </div>
       <script src="/js/app.js"></script>
-        <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
-        <!-- <script src="https://unpkg.com/vue/dist/vue.js"></script> -->
-        <!-- <script src="{{ mix('js/app.js') }}"></script> -->
+
     </body>
 </html>
