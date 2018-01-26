@@ -19394,8 +19394,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     methods: {
@@ -19505,6 +19503,9 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
 //
 //
 //
@@ -23371,12 +23372,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('div', {
     staticClass: "personography"
   }, [_c('div', {
-    staticClass: "filterSide"
-  }, [_c('div', {
+    staticClass: "workSide"
+  }, [_c('biblDisplay'), _vm._v(" "), _c('div', {
     staticClass: "personographyAbout"
-  }, [_vm._v("Lorem ipsum")]), _vm._v(" "), _c('personFilter')], 1), _vm._v(" "), _c('div', {
+  }, [_vm._v("Lorem ipsum")])], 1), _vm._v(" "), _c('div', {
     staticClass: "personSide"
-  }, [_c('biblDisplay'), _vm._v(" "), _c('personIndex')], 1)])
+  }, [_c('personFilter'), _vm._v(" "), _c('personIndex')], 1)])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -23949,11 +23950,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "peopleFilters"
   }, [_c('div', {
     staticClass: "personFilter"
-  }, [_c('label', {
-    attrs: {
-      "for": "personFilter"
-    }
-  }, [_vm._v("Search by name")]), _vm._v(" "), _c('input', {
+  }, [_c('input', {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -23979,8 +23976,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   })]), _vm._v(" "), _c('div', {
     staticClass: "roleFilter"
   }, [_c('div', {
-    staticClass: "labelFilter"
-  }, [_vm._v("Filter by role")]), _vm._v(" "), _c('div', {
     staticClass: "roles"
   }, [_c('div', {
     staticClass: "roleFilterContributor",
@@ -23992,7 +23987,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('cont')
       }
     }
-  }, [_vm._v("Contributor")]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _c('div', {
     staticClass: "roleFilterMentioned",
     class: {
       active: _vm.roleFilter == 'ment'
@@ -24002,7 +23997,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('ment')
       }
     }
-  }, [_vm._v("Mentioned")]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _c('div', {
     staticClass: "roleFilterEditor",
     class: {
       active: _vm.roleFilter == 'edit'
@@ -24012,7 +24007,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('edit')
       }
     }
-  }, [_vm._v("Editor")]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _c('div', {
     staticClass: "roleFilterCorrespondent",
     class: {
       active: _vm.roleFilter == 'corr'
@@ -24022,7 +24017,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('corr')
       }
     }
-  }, [_vm._v("Correspondent")])])])])
+  })])])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -25660,7 +25655,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "role-editor"
   }, [_c('div', {
     staticClass: "role-name"
-  }, [_vm._v("Editor")])]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor')) ? _c('div', {
+  }, [_vm._v("Editor")])]) : _vm._e(), _vm._v(" "), (this.getRole('Correspondent')) ? _c('div', {
+    staticClass: "role-contributor"
+  }, [_c('div', {
+    staticClass: "role-name"
+  }, [_vm._v("Correspondent")])]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor')) ? _c('div', {
     staticClass: "role-contributor"
   }, [_c('div', {
     staticClass: "role-name"

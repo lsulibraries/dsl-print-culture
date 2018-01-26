@@ -5,6 +5,9 @@
           <div class="role-editor" v-if="this.getRole('Editor')">
               <div class="role-name">Editor</div>
           </div>
+          <div class="role-contributor" v-if="this.getRole('Correspondent')">
+              <div class="role-name">Correspondent</div>
+          </div>
           <div class="role-contributor" v-if="this.getRole('Contributor')">
               <div class="role-name">Contributor</div>
               <div class="contrib-count">{{ this.contribCount() }}</div>

@@ -16,7 +16,14 @@ $primary-accent-color-HC3: #000000;
 $primary-accent-color3: rgba(254, 114, 81, 0.5);
 $dark-border-color: #5c5c5c;
 
-
+$ment_off: "https://i.imgur.com/wRacOCS.png";
+$ment_on: "https://i.imgur.com/dPGmuoB.png";
+$edit_off:"https://i.imgur.com/jCygK47.png";
+$edit_on:"https://i.imgur.com/hMSjF7l.png";
+$cont_off:"https://i.imgur.com/yPcUdkA.png";
+$cont_on:"https://i.imgur.com/A9FdFgR.png";
+$corr_off:"https://i.imgur.com/5f8PGy7.png";
+$corr_on:"https://i.imgur.com/GyReZcV.png";
 //https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
 
 $darkest: #002F2F;
@@ -32,6 +39,9 @@ $sevendark: rgba(0, 0, 0, 0.07);
 $fifteendark: rgba(0, 0, 0, 0.15);
 $twentydark: rgba(0, 0, 0, 0.20);
 $thirtydark: rgba(0, 0, 0, 0.30);
+
+$thirtylight: rgba(242, 230, 207, 0.3);
+$fiftylight: rgba(242, 230, 207, 0.5);
 
 //end adobe colors
 
@@ -138,14 +148,14 @@ body {
   height: 500px;
   overflow-y: scroll;
 
-  .pieceTitle{
+    .pieceTitle{
     letter-spacing: 1px;
     font-weight: 500;
-  }
- 
-.pieceTitleContainer {
+    }
+
+    .pieceTitleContainer {
     position: relative;
-}
+    }
 
 
   .personBlurb{
@@ -366,7 +376,7 @@ body {
     background: $lightest;
     .rightContainer {
     margin: 20px;
-    border-top: 1px solid #474747;
+    border-top: 1px solid $thirtydark;
     padding-top: 20px;
     width: 100%;
     display: flex;
@@ -886,7 +896,6 @@ button.searchSubmit {
 .pieceTitleContainer {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 4px;
 }
 
 .personName{
@@ -894,10 +903,272 @@ button.searchSubmit {
 
 }
 
-.filterSide {
+.workSide {
     background: $darkest;
     width: 30%;
     box-sizing: border-box;
+    .fillerWork{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $greyDark;
+    box-sizing: border-box;
+    .fillerMessage {
+    padding: 20px 20px 20px 10px;
+    border-left: 4px solid;
+    height: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: $lightest;    
+    }  
+    }   
+    .personListBiblLabel{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: .9em;
+    color: #f2e6ce;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;      
+    }
+    .personListBibl {
+    padding-top: 80px;
+    margin: 0px 80px;
+      .personListBiblInner{
+      box-sizing: border-box;
+      height: 100%;   
+      .personMeta {
+      height: 200px;
+      background: none;
+      border-bottom: 1px solid $fiftylight;
+          .personName{
+          color: $lightest;
+          border-bottom: 1px solid $thirtylight;
+          }
+          .personRole{
+          color: $lightest;
+          font-size: 0.8em;
+          font-weight: 700;
+          text-transform: uppercase;          
+          }
+      }    
+      .personBlurb {
+      padding: 20px 0px;
+      font-weight: 500;
+      line-height: 20px;
+      border-bottom: 1px solid $fiftylight;
+      color: $lightest;
+      letter-spacing: 1px;
+      }    
+      .personBibl{
+      background: none;
+      border-bottom: 1px dashed $fiftylight;
+      border-radius: 0px;      
+      .pieceTitle{
+        color:$lightest;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+      .pieceTitle::before{
+        content: '';
+        height: 15px;
+        width: 15px;
+        position: absolute;
+        background-color: $fiftylight;
+        left: 10px;
+        top: calc(50% - 7px);
+      }
+      }    
+//begin import styles
+ 
+.issueDate { //imported
+    background: #046380; //imported
+    color: #f2e6ce; //imported
+    font-size: 1.1em; //imported
+    padding: 5px; //imported
+    height: 23px; //imported
+    width: auto; //imported
+    display: flex; //imported
+    justify-content: center; //imported
+    align-items: center; //imported
+    letter-spacing: 2px; //imported
+    font-weight: 400; //imported
+    box-sizing: border-box; //imported
+    padding-left: 17px; //imported
+    line-height: .9em; //imported
+    border-radius: 20px 0px 0px 20px; //imported
+    min-width: 180px;
+} //imported
+
+.issueVol, .issueNum { //imported
+    float: left; //imported
+    margin-top: 0px; //imported
+    position: relative; //imported
+    top: 0px; //imported
+    padding-bottom: 6px; //imported
+    display: -webkit-box; //imported
+    display: -moz-box; //imported
+    display: -ms-flexbox; //imported
+    display: -webkit-flex; //imported
+    display: flex; //imported
+    border-radius: 0px; //imported
+    background: #046380; //imported
+    color: #f2e6ce; //imported
+    font-size: 1.1em; //imported
+    padding: 5px; //imported
+    height: 23px; //imported
+    width: 70px; //imported
+    display: flex; //imported
+    justify-content: center; //imported
+    align-items: center; //imported
+    letter-spacing: 2px; //imported
+    font-weight: 400; //imported
+    box-sizing: border-box; //imported
+    line-height: .9em; //imported
+} //imported
+
+.personPieceMeta {
+    top: -18px !important;
+}
+.issueNum{
+      border-radius: 0px 50px 50px 0px!important;
+ //imported from author
+}
+.issueData{ //imported from author
+    display: flex; //imported from author
+    flex-wrap: wrap; //imported from author
+    font-size: 11px; //imported from author
+    position: absolute; //imported from author
+    margin-left: 30px; //imported from author
+    top: 0px; //imported from author
+} //imported from author
+ //imported from author
+.issueMeta { //imported from author
+    margin-bottom: 10px;   //imported from author
+    display: flex; //imported from author
+    border-radius: 50px; //imported from author
+    position: relative; //imported from author
+    top: -5px; //imported from author
+    z-index: 3; //imported from author
+    .issueDate{ //imported from author
+      width:auto; //imported from author
+    } //imported from author
+}   //imported from author
+ //imported from author
+.issueMeta::before{ //imported from author
+    content: ''; //imported from author
+    border-style: solid; //imported from author
+    border-width: 13px 17px 13px 0; //imported from author
+    border-color: transparent $dark transparent transparent; //imported from author
+    position: absolute; //imported from author
+    left: 80px; //imported from author
+    top: 7px; //imported from author
+    transform: rotate(50deg); //imported from author
+    z-index: 2; //imported from author
+} //imported from author
+ //imported from author
+  .personBibl{ //imported from author
+    display: block; //imported from author
+    flex-wrap: wrap; //imported from author
+    flex-direction: column; //imported from author
+    padding: 0px; //imported from author
+    background: transparent; //imported from author
+    height: 91px; //imported from author
+    margin-top: 0px; //imported from author
+    .personPieceMeta { //imported from author
+    position: relative; //imported from author
+    top: -31px; //imported from author
+    left: 20px; //imported from author
+    display: flex; //imported from author
+    width: 49%; //imported from author
+        .authorShip { //imported from author
+          color: #a7a37e; //imported from author
+          padding: 5px; //imported from author
+          border-radius: 0px; //imported from author
+          font-weight: 500; //imported from author
+          font-size: 11px; //imported from author
+          text-transform: uppercase; //imported from author
+          text-decoration: none; //imported from author
+          letter-spacing: 2px; //imported from author
+          border-top: 1px solid #a7a37e78; //imported from author
+          margin: 0px; //imported from author
+          background: none; //imported from author
+        }     //imported from author
+    }        //imported from author
+  } //imported from author
+ //imported from author
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{ //imported from author
+      opacity: 0; //imported from author
+      @include transition(.5s); //imported from author
+    } //imported from author
+ //imported from author
+  .personBibl:hover{ //imported from author
+    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{ //imported from author
+      opacity: 1; //imported from author
+      @include transition(.5s); //imported from author
+      transition-delay: 0.5s; //imported from author
+    } //imported from author
+  } //imported from author
+ //imported from author
+  .pieceMeta { //imported from author
+    display: flex; //imported from author
+    align-items: center; //imported from author
+    margin-bottom: 10px; //imported from author
+    cursor: pointer; //imported from author
+    color: #002f2f; //imported from author
+    margin-left: 0px; //imported from author
+    padding: 20px; //imported from author
+    color: #f2e6ce; //imported from author
+    min-height: 50px; //imported from author
+    line-height:1.3em; //imported from author
+    border-radius: 1px; //imported from author
+    @include transition(0.5s); //imported from author
+  } //imported from author
+  .sectionMeta{ //imported from author
+    position: absolute; //imported from author
+    top: 90px; //imported from author
+    left: 194px; //imported from author
+    height: 85px; //imported from author
+    width: 180px; //imported from author
+    border-radius: 0px; //imported from author
+    padding: 0px; //imported from author
+    display: flex; //imported from author
+    text-align: right; //imported from author
+    justify-content: flex-end; //imported from author
+    align-items: flex-start; //imported from author
+    .sectionTitle { //imported from author
+    color: #b2b9a7; //imported from author
+    font-weight: 500; //imported from author
+    display: flex; //imported from author
+    align-items: flex-start; //imported from author
+    justify-content: flex-end; //imported from author
+    margin: 0px; //imported from author
+    text-transform: uppercase; //imported from author
+    letter-spacing: 1px; //imported from author
+    font-size: 11px; //imported from author
+    line-height: 12px; //imported from author
+    padding: 0px; //imported from author
+    border-radius: 0px; //imported from author
+    position: absolute; //imported from author
+    text-align: right; //imported from author
+    border: 0px; //imported from author
+    padding-top: 5px; //imported from author
+    }      //imported from author
+ //imported from author
+  } //imported from author
+//end import styles
+
+      }
+    }     
 }
 
 
@@ -984,16 +1255,16 @@ button.searchSubmit {
   position: relative;
   box-sizing: border-box;
   .personIndex {
-    width: 70%;
     position: relative;
+    margin: 0px 80px;
+    width: 100%;
     .personIndexLabel {
     @extend .labelFilter;
     position: absolute;
     top: -70px;
-    width: calc(100% - 25px);
+    width: 100%;
     border-bottom: 2px solid;
     color: #474747;
-    right: 20px;
     }       
   }
     .personListBiblLabel {
@@ -1006,63 +1277,14 @@ button.searchSubmit {
     left: 20px;
     }    
   .personIndexInner{
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
-    max-height: calc(100vh - 403px);
-    overflow-y: scroll;
     align-items: flex-start;
-    justify-content: flex-end;
-    margin-right: 20px;
     position: relative;
   }
-  .personListBibl {
-  width: 30%;
-    .personListBiblInner{
-    height: calc(100vh - 403px);
-    overflow-y: auto;
-    box-sizing: border-box;
-    padding: 0px 20px;
-    .personMeta {
-    height: 200px;
-    background: none;
-    border-bottom: 3px solid $fifteendark;
-    }    
-    .personBlurb {
-    padding: 20px 0px;
-    font-weight: 700;
-    line-height: 20px;
-    border-bottom: 3px solid $fifteendark;
-    }    
-    .personBibl{
-    background: none;
-    border-bottom: 3px solid $fifteendark;
-    border-radius: 0px;      
-    .pieceTitle{
-      color:$greyDark;
-    }
-    }    
-    }
-  }
 
-.fillerWork{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #cec4af;
-  box-sizing: border-box;  
-    .fillerMessage {
-    padding: 20px 20px 20px 10px;
-    border-left: 4px solid $fifteendark;
-    height: 10px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 700;
-    }  
-}
+
+
 
 }
 
@@ -1071,26 +1293,76 @@ button.searchSubmit {
 }
 
 .peopleFilters {
-    padding-top: 80px;
+    position: absolute;
+    display: flex;
+    top: 80px;
+    right: 0px;
+    flex-direction: row-reverse;
+
+  .roleFilterCorrespondent{
+  width: 28px;
+  height: 28px;
+  background-image: url($corr_off);
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+
+  .roleFilterCorrespondent.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($corr_on);
+  }
+
+  .roleFilterEditor{
+  @extend .roleFilterCorrespondent;
+  background-image: url($edit_off);
+  }
+
+  .roleFilterEditor.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($edit_on);
+  }  
+
+  .roleFilterMentioned{
+  @extend .roleFilterCorrespondent;
+  background-image: url($ment_off);
+  }
+
+  .roleFilterMentioned.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($ment_on);
+  }  
+
+  .roleFilterContributor{
+  @extend .roleFilterCorrespondent;
+  background-image: url($cont_off);
+  }  
+
+  .roleFilterContributor.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($cont_on);
+  }  
+
+
 }
 
 .personFilter {
-    margin: 0px 80px;
-    //input::-webkit-input-placeholder {
-    //color: $light !important;
-    //}
-//
-    //input:-moz-placeholder { /* Firefox 18- */
-    //color: $light !important;  
-    //}
-//
-    //input::-moz-placeholder {  /* Firefox 19+ */
-    //color: $light !important;  
-    //}
-//
-    //input:-ms-input-placeholder {  
-    //color: $light !important;  
-    //}    
+    margin-right: 80px;
+    z-index: 3;
+    input::-webkit-input-placeholder {
+    color: $lightest !important;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+    color: $lightest !important;  
+    }
+
+    input::-moz-placeholder {  /* Firefox 19+ */
+    color: $lightest !important;  
+    }
+
+    input:-ms-input-placeholder {  
+    color: $lightest !important;  
+    }    
 }
 
 .personFilter > label {
@@ -1100,19 +1372,19 @@ button.searchSubmit {
 .personFilter input {
     width: 100%;
     font-size: 1.1em;
-    background: #002929;
-    color: #f2e6ce;
+    background: #424242;
+    z-index: 5;
     margin-top: 5px;
     border-radius: 50px;
     padding: 5px;
     padding-left: 20px;
-    border: 1px solid #474747;
+    border: 0px;
 }
 
 .personIndex .person {
     @include flexbox;
     cursor: pointer;
-    width: calc(33% - 2px);
+    width: calc(25% - 4px);
     flex-direction: column;
     height: 200px;
     border: 2px solid #f2e6ce;
@@ -1127,7 +1399,7 @@ button.searchSubmit {
   font-size: 14px;
   font-weight: 700;
   flex-grow: 2;
-    color: $greyDark !important;  
+    color: $greyDark;  
 }
 
 .personRole {
@@ -1138,6 +1410,9 @@ button.searchSubmit {
     width: 100%;
     padding: 0px !important;
     border-radius: 0px 0px 10px 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 700;    
 }
 
 .Contributing .personRole {
@@ -1934,8 +2209,10 @@ canvas#pdf {
 .roleFilter {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-    margin: 20px 80px;
+    flex-direction: row;
+    margin: 5px 0px;
+    z-index: 5;
+    opacity: 0.7;
 }
 
 .labelFilter {
@@ -1944,20 +2221,20 @@ canvas#pdf {
 
 .roles{
   @include flexbox;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .roles > div {
-  padding: 0px 15px 0px 15px;
-  font-size: 14px;
-  color: $light;
-  flex-grow: 1;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  text-transform: uppercase;
-  padding-left: 0px;
+    padding: 0px 15px 0px 15px;
+    font-size: 14px;
+    color: #424242;
+    flex-grow: 1;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-left: 0px;
 }
 
 .roleFilter .active {
@@ -2125,4 +2402,28 @@ h1{
 
 .ease-leave-to {
   transition: all 1s;
+}
+
+
+ @media screen and (max-width: 1870px){
+ .personIndex .person {
+    width: calc(33% - 2px);
+}
+}
+
+@media screen and (max-width: 1465px){
+.personIndex .person {
+    width: calc(50% - 4px);
+}
+.personography .workSide .personListBibl {
+    padding-top: 80px;
+    margin: 0px 40px;
+}
+
+}
+
+@media screen and (max-width: 1080px){
+.personIndex .person {
+    width: 100%;
+}
 }

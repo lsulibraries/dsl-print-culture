@@ -15,13 +15,13 @@
 </script>
 <template>
     <div class="personography">
-            <div class="filterSide">
-                <div class="personographyAbout">Lorem ipsum</div>
-                <personFilter></personFilter>
-            </div>
-            <div class="personSide">
-                <biblDisplay></biblDisplay>
-                <personIndex></personIndex>
-            </div>
+        <div class="workSide">
+            <biblDisplay></biblDisplay>
+            <div class="personographyAbout">Lorem ipsum</div>
         </div>
+        <div class="personSide">
+            <personFilter></personFilter>
+            <personIndex></personIndex>
+        </div>
+    </div>
 </template>
