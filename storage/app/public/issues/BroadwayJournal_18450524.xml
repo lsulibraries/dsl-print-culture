@@ -539,9 +539,8 @@
          </div>
       </div>
       
-      <div class="piece" id="#p3">
-         <div class="biblTitle">A Peep Behind the Curtain</div>
-         <div class="biblPage">324</div>
+      <div class="piece" id="p3">
+         <div class="biblTitle"></div>
          <div class="head">A PEEP BEHIND THE CURTAIN.
             MAN IN LOVE.
          </div>

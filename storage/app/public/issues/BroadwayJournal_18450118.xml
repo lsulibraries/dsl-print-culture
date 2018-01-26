@@ -454,9 +454,8 @@
          <div class="head">The Drama.</div>
          
          
-         <div class="piece" id="#p6">
-            <div class="biblTitle">Old Heads and Young Hearts</div>
-            <div class="biblPage">35</div>
+         <div class="piece" id="p6">
+            <div class="biblTitle"></div>
             <div class="head">"Old Heads and Young Hearts."</div>
             
             <p>A new Comedy, by the author of "London Assurance,"
@@ -887,8 +886,8 @@
          </p>
       </div>
       
-      <div class="section" id="#s10">
-         <div class="biblTitle">Historical Essays</div>
+      <div class="section" id="s10">
+         <div class="biblTitle"></div>
          <div class="head">HISTORICAL ESSAYS.</div>
          <div class="piece" id="#p9">
             <div class="biblTitle">Surrender of New York to the Dutch</div>
@@ -1269,8 +1268,8 @@
       </div>
       
       
-      <div class="section" id="#s11">
-         <div class="biblTitle">Architecture</div>
+      <div class="section" id="s11">
+         <div class="biblTitle"></div>
          <div class="head">Architecture.</div>
          <div class="piece" id="#p11">
             <div class="biblTitle">The Interior of Trinity Church</div>

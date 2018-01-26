@@ -335,11 +335,8 @@
             
          </div>
          
-         <div class="piece" id="#p2">
-            <div class="biblTitle">Why A National Literature Cannot Flourish in the United States
-               of North America
-            </div>
-            <div class="biblPage">82</div>
+         <div class="piece" id="p2">
+            <div class="biblTitle"></div>
             
             <p>Why a National Literature cannot flourish in the United
                States of North America. By Joseph 
@@ -3111,9 +3108,8 @@
          
       </div>
       
-      <div class="piece" id="#p26">
-         <div class="biblTitle">The Prospectus of the Broadway Journal</div>
-         <div class="biblPage">96</div>
+      <div class="piece" id="p26">
+         <div class="biblTitle"></div>
          
          <div class="head">Prospectus of the Broadway Journal. To be Published every Saturday.</div>
          
