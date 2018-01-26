@@ -2218,3 +2218,19 @@ h1 {
 .ease-leave-to {
   transition: all 1s;
 }
+
+@media screen and (max-width: 1870px) {
+  .personIndex .person {
+    width: calc(33% - 2px);
+  }
+}
+@media screen and (max-width: 1465px) {
+  .personIndex .person {
+    width: calc(50% - 4px);
+  }
+}
+@media screen and (max-width: 1080px) {
+  .personIndex .person {
+    width: 100%;
+  }
+}
