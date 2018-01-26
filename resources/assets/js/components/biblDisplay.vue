@@ -35,8 +35,8 @@
                     this.biblActive = active;
                 }
                 else{
-                this.biblActive = active;
-                this.person = person;
+                    this.biblActive = active;
+                    this.person = person;
                 }
             })
         },
@@ -48,11 +48,11 @@
                 return bibl
             },
             getBlurb: function() {
-                bioExists = !this.$root.empty(this.person.personMeta.personBio)
+                const bioExists = !this.$root.empty(this.person.personMeta.personBio)
                 if (!bioExists) {
                     return ''
                 }
-                noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote)
+                const noteExists = !this.$root.empty(this.person.personMeta.personBio.personNote)
                 return bioExists && noteExists ? this.person.personMeta.personBio.personNote : ''
             }
          }

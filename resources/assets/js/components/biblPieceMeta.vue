@@ -1,7 +1,7 @@
 <template>
     <div class="pieceMeta">
         <div @click="$emit('close')">
-            <router-link :to="this.getIssueLink()" tag='h1'>{{pieceMeta.pieceTitle}}</router-link>
+            <router-link :to="this.getIssueLink()" tag='h1' :class="'pieceTitle'">{{ this.getTitle() }}</router-link>
         </div>
     </div>
 </template>
@@ -9,6 +9,9 @@
     export default {
         props: ['pieceMeta', 'issueId'],
         methods: {
+            getTitle: function () {
+                return this.pieceMeta.pieceTitle
+            },
             getIssueLink: function () {
                 return '/issues/' + this.issueId + '/' + this.pieceMeta.pieceId
             },
