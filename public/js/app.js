@@ -18240,12 +18240,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['personPieceMeta'],
     methods: {
+        isMentioned: function isMentioned() {
+            return !this.$root.empty(this.personPieceMeta.personPieceMentionStatement);
+        },
         showAuthorship: function showAuthorship() {
             var hasValue = !this.$root.empty(this.personPieceMeta.personPiecePseudo);
             if (hasValue) {
@@ -19515,10 +19516,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['personMeta'],
     methods: {
+        isMentioned: function isMentioned() {
+            return !this.$root.empty(this.personMeta.personTotalMentionStatement);
+        },
         getName: function getName() {
             if (typeof this.personMeta.personName !== 'string') {
                 return this.personMeta.personId + ' (Full name not given)';
@@ -19526,7 +19535,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 return this.personMeta.personName;
             }
         },
-        getRole: function getRole(personMeta) {
+        getRole: function getRole(role) {
+            if (typeof this.personMeta.personRole !== 'string') {
+                return false;
+            }
+            var roles = Object.values(this.personMeta.personRole.split(' '));
+            var idx = roles.indexOf(role);
+            return idx == -1 ? false : true;
+        },
+        getRoleOld: function getRole(personMeta) {
             if (typeof personMeta.personRole !== 'string') {
                 return '';
             }
@@ -23901,7 +23918,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "title": this.getAuthorshipTitle()
     }
-  }, [_vm._v(_vm._s(this.getAuthorship()))]) : _vm._e()])
+  }, [_vm._v(_vm._s(this.getAuthorship()))]) : _vm._e(), _vm._v(" "), (this.isMentioned()) ? _c('div', {
+    staticClass: "personPieceMentionStatement"
+  }, [_vm._v(_vm._s(this.personPieceMeta.personPieceMentionStatement))]) : _vm._e()])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -25627,7 +25646,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "personName"
   }, [_vm._v(_vm._s(this.getName()))]), _vm._v(" "), _c('div', {
     staticClass: "personRole"
-  }, [_vm._v(_vm._s(this.getRole(_vm.personMeta)))]), _vm._v(" "), _c('div', {
+  }, [(this.getRole('Editor')) ? _c('div', {
+    staticClass: "role-editor"
+  }, [_vm._v("Editor")]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor')) ? _c('div', {
+    staticClass: "role-contributor"
+  }, [_vm._v("Contributor")]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
+    staticClass: "role-mentioned"
+  }, [_vm._v("Mentioned")]) : _vm._e()]), _vm._v(" "), (this.isMentioned()) ? _c('div', {
+    staticClass: "mention-statement"
+  }, [_vm._v(_vm._s(this.personMeta.personTotalMentionStatement))]) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "personViaf"
   })])
 },staticRenderFns: []}
