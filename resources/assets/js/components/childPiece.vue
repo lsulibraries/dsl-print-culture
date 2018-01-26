@@ -41,8 +41,8 @@
     }
 </script>
 <template>
-        <router-link :to="this.getLink()" class="childPiece" tag='div' v-bind:class='{tocActive: this.isActive}'>
-          <div class="childPieceTitle">{{id.title}}</div>
-          <div v-if='id.auth_name' class="childPieceAuthor">{{id.auth_name}}</div>
-        </router-link>
+    <router-link :to="this.getLink()" class="childPiece" tag='div' active-class="tocActive">
+      <div class="childPieceTitle">{{id.title}}</div>
+      <div v-if='id.auth_name' class="childPieceAuthor">{{id.auth_name}}</div>
+    </router-link>
 </template>
