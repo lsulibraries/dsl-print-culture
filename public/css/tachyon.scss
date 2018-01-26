@@ -16,7 +16,14 @@ $primary-accent-color-HC3: #000000;
 $primary-accent-color3: rgba(254, 114, 81, 0.5);
 $dark-border-color: #5c5c5c;
 
-
+$ment_off: "https://i.imgur.com/wRacOCS.png";
+$ment_on: "https://i.imgur.com/dPGmuoB.png";
+$edit_off:"https://i.imgur.com/jCygK47.png";
+$edit_on:"https://i.imgur.com/hMSjF7l.png";
+$cont_off:"https://i.imgur.com/yPcUdkA.png";
+$cont_on:"https://i.imgur.com/A9FdFgR.png";
+$corr_off:"https://i.imgur.com/5f8PGy7.png";
+$corr_on:"https://i.imgur.com/GyReZcV.png";
 //https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
 
 $darkest: #002F2F;
@@ -369,7 +376,7 @@ body {
     background: $lightest;
     .rightContainer {
     margin: 20px;
-    border-top: 1px solid #47474738;
+    border-top: 1px solid $thirtydark;
     padding-top: 20px;
     width: 100%;
     display: flex;
@@ -1291,10 +1298,55 @@ button.searchSubmit {
     top: 80px;
     right: 0px;
     flex-direction: row-reverse;
+
+  .roleFilterCorrespondent{
+  width: 28px;
+  height: 28px;
+  background-image: url($corr_off);
+  background-size: contain;
+  background-repeat: no-repeat;
   }
 
+  .roleFilterCorrespondent.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($corr_on);
+  }
+
+  .roleFilterEditor{
+  @extend .roleFilterCorrespondent;
+  background-image: url($edit_off);
+  }
+
+  .roleFilterEditor.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($edit_on);
+  }  
+
+  .roleFilterMentioned{
+  @extend .roleFilterCorrespondent;
+  background-image: url($ment_off);
+  }
+
+  .roleFilterMentioned.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($ment_on);
+  }  
+
+  .roleFilterContributor{
+  @extend .roleFilterCorrespondent;
+  background-image: url($cont_off);
+  }  
+
+  .roleFilterContributor.active{
+  @extend .roleFilterCorrespondent;
+  background-image: url($cont_on);
+  }  
+
+
+}
+
 .personFilter {
-    margin: 0px 80px;
+    margin-right: 80px;
     z-index: 3;
     input::-webkit-input-placeholder {
     color: $lightest !important;
@@ -2160,6 +2212,7 @@ canvas#pdf {
     flex-direction: row;
     margin: 5px 0px;
     z-index: 5;
+    opacity: 0.7;
 }
 
 .labelFilter {
