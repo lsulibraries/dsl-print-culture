@@ -1,16 +1,16 @@
 <template>
        <div class="abouts">
          <div class="aboutToggle">
-       <div class="about" v-bind:class="{active: this.abouts == 'about'}" @click="selectMe('about')">Project</div>
-       <div class="technical" v-bind:class="{active: this.abouts == 'tech'}" @click="selectMe('tech')">Methodology</div>
-       <div class="credits" v-bind:class="{active: this.abouts == 'credits'}" @click="selectMe('credits')">Staff</div>
+           <router-link :to="'/project/about'" tag='div' class="about" active-class="active">Project</router-link>
+           <router-link :to="'/project/methodology'" tag='div' class="technical" active-class="active">Methodology</router-link>
+           <router-link :to="'/project/staff'" tag='div' class="credits" active-class="active">Staff</router-link>
          </div>
          <div class="aboutViewer">
-           <logo v-if="this.abouts == 'about'"></logo>
-           <div v-if="this.abouts == 'about'" v-html="this.aboutText"></div>
-           <div v-if="this.abouts == 'tech'" v-html="this.techText"></div>
-           <div v-if="this.abouts == 'credits'">
-            <creditsPersonList></creditsPersonList>
+           <logo v-if="this.context == 'about'"></logo>
+           <div class="about-about" v-if="this.context == 'about' && !this.isLoading" v-html="this.text"></div>
+           <div class="about-methodology" v-if="this.context == 'methodology'  && !this.isLoading" v-html="this.text"></div>
+           <div class="about-staff" v-if="this.context == 'staff'">
+            <creditsPersonList v-if="!this.isLoading"></creditsPersonList>
            </div>
          </div>
        </div>
@@ -21,33 +21,35 @@
   import creditsPersonList from './creditsPersonList'  
   export default { 
       components: { creditsPersonList, logo },
+
       data() {
           return {
-              abouts: this.$root.state.content.abouts,
-              aboutText: this.$root.xhrDataStore.abouts.about,
-              techText: this.$root.xhrDataStore.abouts.tech
           }
       },
+
+      computed: {
+        context: function () {
+          if (['project', 'methodology', 'staff'].indexOf(this.$route.params.id) == -1) {
+            return 'about'
+          }
+          return this.$route.params.id
+        },
+        text: function () {
+          return this.$root.xhrDataStore.abouts[this.context]
+        },
+        isLoading: function () {
+          if (this.context == 'staff') {
+            return this.$root.empty(this.$root.xhrDataStore.personography.personIndex)
+          }
+          return this.$root.xhrDataStore.abouts[this.context].length < 1
+        }
+      },
+
       methods: {
-          selectMe: function(about) {
-              this.abouts = about;
-              Event.$emit('aboutsSelected', this.abouts);
-          },
+        
       },
       created() {
-          var url;
-          if(this.$root.xhrDataStore.abouts.about.length > 1){
-              this.aboutText = this.$root.xhrDataStore.abouts.about
-          }else{
-              url = '/api/broadwayjournal/abouts/about'
-              axios.get(url).then(response => this.aboutText = response.data);
-          }
-          if(this.$root.xhrDataStore.abouts.tech.length > 1){
-              this.techText = this.$root.xhrDataStore.abouts.tech
-          }else{
-              url = '/api/broadwayjournal/abouts/tech'
-              axios.get(url).then(response => this.techText = response.data);
-          }
+
       }
   }
 </script>

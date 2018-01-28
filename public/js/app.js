@@ -403,7 +403,7 @@ function applyToTag (styleElement, obj) {
 "use strict";
 
 
-var bind = __webpack_require__(15);
+var bind = __webpack_require__(16);
 
 /*global toString:true*/
 
@@ -951,10 +951,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(11);
+    adapter = __webpack_require__(12);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(11);
+    adapter = __webpack_require__(12);
   }
   return adapter;
 }
@@ -1033,6 +1033,40 @@ module.exports = defaults;
 
 var Component = __webpack_require__(0)(
   /* script */
+  __webpack_require__(85),
+  /* template */
+  __webpack_require__(270),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/Abouts.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] Abouts.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-6153abac", Component.options)
+  } else {
+    hotAPI.reload("data-v-6153abac", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(0)(
+  /* script */
   __webpack_require__(110),
   /* template */
   __webpack_require__(280),
@@ -1062,7 +1096,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(0)(
@@ -1096,7 +1130,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 var g;
@@ -1123,13 +1157,13 @@ module.exports = g;
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(28);
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1140,7 +1174,7 @@ var settle = __webpack_require__(34);
 var buildURL = __webpack_require__(37);
 var parseHeaders = __webpack_require__(43);
 var isURLSameOrigin = __webpack_require__(41);
-var createError = __webpack_require__(14);
+var createError = __webpack_require__(15);
 var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(36);
 
 module.exports = function xhrAdapter(config) {
@@ -1314,7 +1348,7 @@ module.exports = function xhrAdapter(config) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1340,7 +1374,7 @@ module.exports = Cancel;
 
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1352,7 +1386,7 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1376,7 +1410,7 @@ module.exports = function createError(message, config, code, response) {
 
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1391,40 +1425,6 @@ module.exports = function bind(fn, thisArg) {
     return fn.apply(thisArg, args);
   };
 };
-
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Component = __webpack_require__(0)(
-  /* script */
-  __webpack_require__(85),
-  /* template */
-  __webpack_require__(270),
-  /* scopeId */
-  null,
-  /* cssModules */
-  null
-)
-Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/Abouts.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] Abouts.vue: functional components are not supported with templates, they should use render functions.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6153abac", Component.options)
-  } else {
-    hotAPI.reload("data-v-6153abac", Component.options)
-  }
-})()}
-
-module.exports = Component.exports
 
 
 /***/ }),
@@ -15248,7 +15248,7 @@ Vue$3.compile = compileToFunctions;
 
 module.exports = Vue$3;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(9), __webpack_require__(164).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(10), __webpack_require__(164).setImmediate))
 
 /***/ }),
 /* 26 */
@@ -15259,7 +15259,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__bootstrap__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_axios__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Container__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Container___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_Container__);
@@ -15346,7 +15346,7 @@ new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
 		xhrDataStore: {
 			abouts: {
 				about: '',
-				tech: '',
+				methodology: '',
 				credits: {}
 			},
 			personography: {}
@@ -15381,14 +15381,14 @@ new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
 			_this.state.content.searchString = searchString;
 		});
 		// get abouts data
-		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/credits').then(function (response) {
-			return _this.xhrDataStore.abouts.credits = response.data;
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/staff').then(function (response) {
+			return _this.xhrDataStore.abouts.staff = response.data;
 		});
 		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/about').then(function (response) {
 			return _this.xhrDataStore.abouts.about = response.data;
 		});
-		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/tech').then(function (response) {
-			return _this.xhrDataStore.abouts.tech = response.data;
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/methodology').then(function (response) {
+			return _this.xhrDataStore.abouts.methodology = response.data;
 		});
 		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/personography').then(function (response) {
 			return _this.xhrDataStore.abouts.personographyDescription = response.data;
@@ -15433,7 +15433,7 @@ new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
 
 
 var utils = __webpack_require__(3);
-var bind = __webpack_require__(15);
+var bind = __webpack_require__(16);
 var Axios = __webpack_require__(30);
 var defaults = __webpack_require__(6);
 
@@ -15468,9 +15468,9 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(12);
+axios.Cancel = __webpack_require__(13);
 axios.CancelToken = __webpack_require__(29);
-axios.isCancel = __webpack_require__(13);
+axios.isCancel = __webpack_require__(14);
 
 // Expose all/spread
 axios.all = function all(promises) {
@@ -15491,7 +15491,7 @@ module.exports.default = axios;
 "use strict";
 
 
-var Cancel = __webpack_require__(12);
+var Cancel = __webpack_require__(13);
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -15708,7 +15708,7 @@ module.exports = InterceptorManager;
 
 var utils = __webpack_require__(3);
 var transformData = __webpack_require__(35);
-var isCancel = __webpack_require__(13);
+var isCancel = __webpack_require__(14);
 var defaults = __webpack_require__(6);
 
 /**
@@ -15818,7 +15818,7 @@ module.exports = function enhanceError(error, config, code, response) {
 "use strict";
 
 
-var createError = __webpack_require__(14);
+var createError = __webpack_require__(15);
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -17997,42 +17997,33 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: { creditsPersonList: __WEBPACK_IMPORTED_MODULE_1__creditsPersonList___default.a, logo: __WEBPACK_IMPORTED_MODULE_0__logo___default.a },
-    data: function data() {
-        return {
-            abouts: this.$root.state.content.abouts,
-            aboutText: this.$root.xhrDataStore.abouts.about,
-            techText: this.$root.xhrDataStore.abouts.tech
-        };
-    },
+  components: { creditsPersonList: __WEBPACK_IMPORTED_MODULE_1__creditsPersonList___default.a, logo: __WEBPACK_IMPORTED_MODULE_0__logo___default.a },
 
-    methods: {
-        selectMe: function selectMe(about) {
-            this.abouts = about;
-            Event.$emit('aboutsSelected', this.abouts);
-        }
-    },
-    created: function created() {
-        var _this = this;
+  data: function data() {
+    return {};
+  },
 
-        var url;
-        if (this.$root.xhrDataStore.abouts.about.length > 1) {
-            this.aboutText = this.$root.xhrDataStore.abouts.about;
-        } else {
-            url = '/api/broadwayjournal/abouts/about';
-            axios.get(url).then(function (response) {
-                return _this.aboutText = response.data;
-            });
-        }
-        if (this.$root.xhrDataStore.abouts.tech.length > 1) {
-            this.techText = this.$root.xhrDataStore.abouts.tech;
-        } else {
-            url = '/api/broadwayjournal/abouts/tech';
-            axios.get(url).then(function (response) {
-                return _this.techText = response.data;
-            });
-        }
+
+  computed: {
+    context: function context() {
+      if (['project', 'methodology', 'staff'].indexOf(this.$route.params.id) == -1) {
+        return 'about';
+      }
+      return this.$route.params.id;
+    },
+    text: function text() {
+      return this.$root.xhrDataStore.abouts[this.context];
+    },
+    isLoading: function isLoading() {
+      if (this.context == 'staff') {
+        return this.$root.empty(this.$root.xhrDataStore.personography.personIndex);
+      }
+      return this.$root.xhrDataStore.abouts[this.context].length < 1;
     }
+  },
+
+  methods: {},
+  created: function created() {}
 });
 
 /***/ }),
@@ -18162,9 +18153,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__personMeta__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personBibl__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personBibl__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personBibl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__personBibl__);
 //
 //
@@ -18516,7 +18507,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personBibl__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personBibl__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personBibl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__personBibl__);
 //
 //
@@ -18766,7 +18757,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__personMeta__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__biblIssueMeta__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__biblIssueMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__biblIssueMeta__);
@@ -19304,9 +19295,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__personMeta__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personBibl__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personBibl__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personBibl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__personBibl__);
 //
 //
@@ -19918,7 +19909,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Abouts__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Abouts__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Abouts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Abouts__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Issue__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Issue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__Issue__);
@@ -20043,7 +20034,7 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]);
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
-window.axios = __webpack_require__(10);
+window.axios = __webpack_require__(11);
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
@@ -20083,8 +20074,16 @@ if (token) {
 
 var routes = [{
     path: '/',
-    component: __webpack_require__(16)
+    redirect: '/project'
+}, {
+    path: '/project',
+    redirect: '/project/about',
+    component: __webpack_require__(7),
+    children: [{
 
+        path: ':id',
+        component: __webpack_require__(7)
+    }]
 }, {
     path: '/issues',
     redirect: '/issues/18450104',
@@ -20592,7 +20591,7 @@ exports.push([module.i, "\n.spinner[data-v-ffd49aa4] {\n  display: -webkit-box;\
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10), __webpack_require__(4)))
 
 /***/ }),
 /* 164 */
@@ -20659,7 +20658,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (typeof global !== "undefined" && global.clearImmediate) ||
                          (this && this.clearImmediate);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
 
 /***/ }),
 /* 165 */
@@ -24787,47 +24786,42 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "abouts"
   }, [_c('div', {
     staticClass: "aboutToggle"
-  }, [_c('div', {
+  }, [_c('router-link', {
     staticClass: "about",
-    class: {
-      active: this.abouts == 'about'
-    },
-    on: {
-      "click": function($event) {
-        _vm.selectMe('about')
-      }
+    attrs: {
+      "to": '/project/about',
+      "tag": "div",
+      "active-class": "active"
     }
-  }, [_vm._v("Project")]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Project")]), _vm._v(" "), _c('router-link', {
     staticClass: "technical",
-    class: {
-      active: this.abouts == 'tech'
-    },
-    on: {
-      "click": function($event) {
-        _vm.selectMe('tech')
-      }
+    attrs: {
+      "to": '/project/methodology',
+      "tag": "div",
+      "active-class": "active"
     }
-  }, [_vm._v("Methodology")]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Methodology")]), _vm._v(" "), _c('router-link', {
     staticClass: "credits",
-    class: {
-      active: this.abouts == 'credits'
-    },
-    on: {
-      "click": function($event) {
-        _vm.selectMe('credits')
-      }
+    attrs: {
+      "to": '/project/staff',
+      "tag": "div",
+      "active-class": "active"
     }
-  }, [_vm._v("Staff")])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Staff")])], 1), _vm._v(" "), _c('div', {
     staticClass: "aboutViewer"
-  }, [(this.abouts == 'about') ? _c('logo') : _vm._e(), _vm._v(" "), (this.abouts == 'about') ? _c('div', {
+  }, [(this.context == 'about') ? _c('logo') : _vm._e(), _vm._v(" "), (this.context == 'about' && !this.isLoading) ? _c('div', {
+    staticClass: "about-about",
     domProps: {
-      "innerHTML": _vm._s(this.aboutText)
+      "innerHTML": _vm._s(this.text)
     }
-  }) : _vm._e(), _vm._v(" "), (this.abouts == 'tech') ? _c('div', {
+  }) : _vm._e(), _vm._v(" "), (this.context == 'methodology' && !this.isLoading) ? _c('div', {
+    staticClass: "about-methodology",
     domProps: {
-      "innerHTML": _vm._s(this.techText)
+      "innerHTML": _vm._s(this.text)
     }
-  }) : _vm._e(), _vm._v(" "), (this.abouts == 'credits') ? _c('div', [_c('creditsPersonList')], 1) : _vm._e()], 1)])
+  }) : _vm._e(), _vm._v(" "), (this.context == 'staff') ? _c('div', {
+    staticClass: "about-staff"
+  }, [(!this.isLoading) ? _c('creditsPersonList') : _vm._e()], 1) : _vm._e()], 1)])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {

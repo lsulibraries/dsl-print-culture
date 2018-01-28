@@ -32,17 +32,20 @@ class IssuesController extends Controller
     }
 
     function abouts($about){
-        if(!in_array($about, array('about', 'tech', 'credits', 'personography'))){
+        if(!in_array($about, array('about', 'methodology', 'staff', 'personography'))){
             return "No data found for $about";
         }
-        if($about == 'credits'){
-            return $this->credits();
+        if($about == 'staff'){
+            return $this->staff();
+        }
+        if($about == 'methodology'){
+            $about = 'tech';
         }
         $xml = Storage::get('public/broadway-tei/projectInfo/' .$about. '.html');
         return $xml;// response()->json($toc);        
     }
     
-    function credits(){
+    function staff(){
         $xml = simplexml_load_string(Storage::get('public/credits.xml'));
         return response()->json($xml);
     }

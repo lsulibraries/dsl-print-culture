@@ -80,7 +80,7 @@ new Vue({
 	xhrDataStore: {
 	    abouts: {
 		about: '',
-		tech: '',
+		methodology: '',
 		credits: {}
 	    },
 	    personography: {}
@@ -111,9 +111,9 @@ new Vue({
 	    this.state.content.searchString = searchString
 	})
 	// get abouts data
-	axios.get('/api/broadwayjournal/abouts/credits').then(response => this.xhrDataStore.abouts.credits = response.data);
+	axios.get('/api/broadwayjournal/abouts/staff').then(response => this.xhrDataStore.abouts.staff = response.data);
 	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
-	axios.get('/api/broadwayjournal/abouts/tech').then(response => this.xhrDataStore.abouts.tech = response.data);
+	axios.get('/api/broadwayjournal/abouts/methodology').then(response => this.xhrDataStore.abouts.methodology = response.data);
 	axios.get('/api/broadwayjournal/abouts/personography').then(response => this.xhrDataStore.abouts.personographyDescription = response.data);
 
 	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => {
