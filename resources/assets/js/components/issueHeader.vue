@@ -59,6 +59,13 @@
         '$route': 'fetchData'
     },
     methods: {
+        getAuthorsLink: function () {
+            let pid = this.getPersonId();
+            if (pid) {
+                return '/authors/' + pid
+            }
+            return '' 
+        },
         fetchData: function() {
             this.issueId = this.$route.params.id
             if(this.$route.params.id && this.$route.params.biblid) {
@@ -148,16 +155,25 @@
                     if (this.authorlessPieceInSection(this.biblId)) {
                         sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
                         if(!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
-                            personMeta = { personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName }
+                            personMeta = { 
+                                personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName,
+                                personId: pid
+                            }
                         }
                     }
                     else {
-                        personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName }
+                        personMeta = { 
+                            personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName,
+                            personId: pid
+                        }
                     }
                     // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
                 }
                 else {
-                    personMeta = { personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName }
+                    personMeta = { 
+                        personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName,
+                        personId: pid
+                    }
                 }
                 if(this.$root.empty(personMeta.personName)){
                     console.log(personMeta.personName)
@@ -286,7 +302,9 @@
                 </a>
                 <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
             </div>
-            <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
+            <router-link :to="getAuthorsLink()" tag="div">
+                <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
+            </router-link>
     <!-- <biblPersonPieceMeta :personPieceMeta="this.getPersonPieceMeta()" v-if="this.getPersonPieceMeta()"></biblPersonPieceMeta> -->
 
             <button id="show-modal" @click="showModal = true" v-if="this.drawerIsAvailable()">More from this author</button>

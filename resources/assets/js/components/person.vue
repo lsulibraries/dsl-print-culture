@@ -1,7 +1,7 @@
 <template>
-    <div  class='person' @click="transmitPerson();" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
+    <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
         <personMeta :personMeta="person.personMeta"></personMeta>
-    </div>
+    </router-link>
 </template>
 <script>
     import personMeta from './personMeta';
@@ -13,10 +13,20 @@
             return {
                 filterString: '',
                 filterRole: false,
-                    activePerson: false
             }
         },
+        computed: {
+            activePerson: function () {
+                if (this.$route.params.id) {
+                    return this.$route.params.id == this.person.personMeta.personId
+                }
+                return false
+            },
+        },
         methods: {
+            getLink: function () {
+                return '/authors/' + this.person.personMeta.personId
+            },
             transmitPerson: function () {
                 if(this.activePerson == false){
                     Event.$emit('emitPerson', this.person, true)
