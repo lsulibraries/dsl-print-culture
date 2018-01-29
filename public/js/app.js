@@ -19327,6 +19327,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     methods: {
         getLink: function getLink() {
+            if (this.$route.params.id == this.person.personMeta.personId) {
+                return '/authors';
+            }
             return '/authors/' + this.person.personMeta.personId;
         },
         transmitPerson: function transmitPerson() {
