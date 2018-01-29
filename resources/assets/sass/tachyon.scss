@@ -768,7 +768,7 @@ position: relative;
   border-radius: 30px;
   position: absolute;
   left: -6px;
-  top: -6px;
+  top: -5px;
   opacity: 1;
   background: transparent;
 }
@@ -922,6 +922,30 @@ button.searchSubmit {
     letter-spacing: 1px;
     margin-left: 10px;
     }
+    .role-editor {
+    margin-right: 10px;
+    }    
+    .role-contributor {
+        display: flex;
+        align-items: center;
+        .role-name{
+              padding-right: 16px;
+        }
+        .contrib-count{
+
+        color: #002f2f;
+        background: #f2e6ce;
+        height: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 5px;
+        position: relative;
+        left: -9px;
+        border-radius: 0px 20px 20px 0px;
+
+        }
+    }    
     .personRole {
     justify-content: flex-start;
     border-radius: 0px;
@@ -1153,7 +1177,7 @@ button.searchSubmit {
     .personPieceMeta {
       opacity: 1;
       right: -180px;
-      @include transition(.5s); //imported from author
+      @include transition(.3s); //imported from author
       transition-delay: 0.8s; //imported from author      
       .personPieceMeta > div{
               transition-delay: 1.5s; //imported from author      
@@ -1321,10 +1345,9 @@ button.searchSubmit {
   position: relative;
   }
 
-  .role-name {
-  border: 1px solid grey;
-  border-radius: 50px;
-  }
+  .role-name, .contrib-count { //temp
+  opacity: 0; //temp
+  } //temp
 
   .mention-statement {
   position: relative;
@@ -1464,6 +1487,7 @@ button.searchSubmit {
     padding: 5px;
     padding-left: 20px;
     border: 0px;
+    color: $lightest;
 }
 
 .personIndex .person {
@@ -1849,12 +1873,16 @@ button#show-modal{
     display: flex;
   }
   .personMeta {
-
+cursor: pointer;
+margin-right: 10px;
    .personRole {
       display: none;
     }
   }
 
+    .personMeta:hover {
+text-decoration: underline
+}
 .issueHeader > .issueMeta{
     //margin-left: 151px;  
 
