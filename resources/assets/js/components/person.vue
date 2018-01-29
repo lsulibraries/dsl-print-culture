@@ -25,6 +25,9 @@
         },
         methods: {
             getLink: function () {
+                if (this.$route.params.id == this.person.personMeta.personId) {
+                    return '/authors'
+                }
                 return '/authors/' + this.person.personMeta.personId
             },
             transmitPerson: function () {
