@@ -19228,23 +19228,13 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
     components: { D3Network: __WEBPACK_IMPORTED_MODULE_0_vue_d3_network___default.a },
     data: function data() {
         return {
-            nodesX: [{ id: 1, name: 'my node 1' }, { id: 2, name: 'my node 2' }, { id: 3, _color: 'orange' }, { id: 4 }, { id: 5 }, { id: 6 }, { id: 7 }, { id: 8 }, { id: 9 }],
-            links: [
-                // { sid: 1, tid: 2, _color:'red' },
-                // { sid: 2, tid: 8, _color:'f0f' },
-                // { sid: 3, tid: 4,_color:'rebeccapurple' },
-                // { sid: 4, tid: 5 },
-                // { sid: 5, tid: 6 },
-                // { sid: 7, tid: 8 },
-                // { sid: 5, tid: 8 },
-                // { sid: 3, tid: 8 },
-                // { sid: 7, tid: 9 }
-            ],
+            // nodesX: [],
+            links: [],
             options: {
-                force: 3000,
-                nodeSize: 20,
+                force: 1500,
+                nodeSize: 15,
                 nodeLabels: true,
-                linkWidth: 5
+                linkWidth: 1
             }
         };
     },
@@ -19257,21 +19247,57 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
             if (!this.isLoaded) {
                 return {};
             }
+
             var nodes = [];
-            var contributors = {};
-            var mentioned = {};
             var nodeIds = [];
             var linksMap = [];
+            var excludedAuthors = [];
+            var includedAuthors = [];
             var p = this.$root.xhrDataStore.personography.personIndex;
 
+            var filters = {
+                allowSrc: function allowSrc(linkMapEntry) {
+                    return true;
+                    var allow = includedAuthors.length > 1 && includedAuthors.indexOf(linkMapEntry.source) != -1;
+                    return allow;
+                },
+                allowTarget: function allowTarget(target, linkMapEntry) {
+                    return true;
+                    var allow = includedAuthors.length > 1 && includedAuthors.indexOf(linkMapEntry.source) != -1;
+                    return allow;
+                }
+            };
+
             for (var id in p) {
-                if (id == 'anon') {
+                // don't include anon in the graph
+                if (excludedAuthors.indexOf(id) != -1) {
                     continue;
                 }
+
+                // don't include anyone without a listbibl
                 if (this.$root.empty(p[id].personListBibl)) {
+                    // if someone is only mentioned in 'Advertisements' appears as orphaned (John Jay Hardin).
                     continue;
                 }
+                // iterate through each author's listBibl
                 var bibls = p[id].personListBibl;
+
+                // figure out a color for this author while looping over bibls
+                var color = {
+                    contributor: false,
+                    mentioned: false,
+                    getColor: function getColor() {
+                        if (this.contributor && this.mentioned) {
+                            return 'purple';
+                        } else if (this.contributor) {
+                            return 'red';
+                        } else if (this.mentioned) {
+                            return '#DDDDFF';
+                        } else {
+                            return 'black';
+                        }
+                    }
+                };
                 var _iteratorNormalCompletion = true;
                 var _didIteratorError = false;
                 var _iteratorError = undefined;
@@ -19282,33 +19308,30 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                             key = _step$value[0],
                             value = _step$value[1];
 
+                        // only include those bibls for which we can determine the person's role
                         if (value.personPieceMeta) {
                             var role = value.personPieceMeta.personPieceRole;
+
+                            // add an entry for each piece
                             if (!linksMap.hasOwnProperty(key)) {
                                 linksMap[key] = {
-                                    links: {
-                                        target: []
-                                    }
+                                    target: []
                                 };
                             }
-                            var color = void 0;
+
+                            // if the person is a contributor to this piece, add them as the 'source' node
                             if (role == 'Contributor') {
-                                linksMap[key].links.source = id;
-                                color = 'red';
-                            } else if (role == 'Mentioned') {
-                                linksMap[key].links.target.push(id);
-                                color = 'blue';
+                                linksMap[key].source = id;
+                                color.contributor = true;
                             }
-                            if (nodeIds.indexOf(id) == -1) {
-                                nodeIds.push(id);
-                                nodes.push({
-                                    id: id,
-                                    name: id,
-                                    _color: color
-                                });
-                            }
+                            // if they are only mentioned, add them to the list of 'target' nodes for this 'source' node
+                            else if (role == 'Mentioned') {
+                                    linksMap[key].target.push(id);
+                                    color.mentioned = true;
+                                }
                         }
                     }
+                    // add the node, only if it hasn't been added already
                 } catch (err) {
                     _didIteratorError = true;
                     _iteratorError = err;
@@ -19322,6 +19345,15 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                             throw _iteratorError;
                         }
                     }
+                }
+
+                if (nodeIds.indexOf(id) == -1) {
+                    nodeIds.push(id);
+                    nodes.push({
+                        id: id,
+                        name: p[id].personMeta.personName,
+                        _color: color.getColor()
+                    });
                 }
             }
             // nodeIds.forEach(
@@ -19339,20 +19371,25 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                         key = _step2$value[0],
                         value = _step2$value[1];
 
-                    if (value.links.source) {
+                    if (value.source) {
+                        if (!filters.allowSrc(value)) {
+                            continue;
+                        }
                         var _iteratorNormalCompletion3 = true;
                         var _didIteratorError3 = false;
                         var _iteratorError3 = undefined;
 
                         try {
-
-                            for (var _iterator3 = value.links.target[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
+                            for (var _iterator3 = value.target[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
                                 var target = _step3.value;
 
+                                if (!filters.allowTarget(target, value)) {
+                                    continue;
+                                }
                                 this.links.push({
-                                    sid: value.links.source,
-                                    tid: target,
-                                    _color: 'blue'
+                                    sid: value.source,
+                                    tid: target
+                                    // _color: 'blue'
                                 });
                             }
                         } catch (err) {
