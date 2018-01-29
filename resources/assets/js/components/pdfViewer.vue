@@ -1,39 +1,78 @@
 <script>
 export default {
     created(){
-    Event.$on('zoomUpdate',(level,page)=>{
-            this.scale = level;
-            this.loadPdf(this.current_issue, page,this.scale);
-    }),
-    Event.$on('nextPage', (page) => {
-        this.current_page += 1;
-        this.loadPdf(this.current_issue, this.current_page);
-    }),
-    Event.$on('issueSelected', (id) => {
-        this.current_page = 1;
-        this.current_issue = id;
-        this.loadPdf(this.current_issue, this.current_page);
-    }),
-    Event.$on('pdf-pageChange', (page) => {
-        this.loadPdf(this.current_issue, page);
-    })
-    Event.$on('issueBiblSelected', (bibl) => {
-        this.current_issue = bibl.issueId
-        this.current_page = bibl.pdf_index
-    })
+        Event.$on('zoomUpdate',(level,page)=>{
+                this.scale = level;
+                this.loadPdf(this.current_issue, page,this.scale);
+        }),
+        Event.$on('nextPage', (page) => {
+            this.current_page += 1;
+            this.loadPdf(this.current_issue, this.current_page);
+        }),
+        Event.$on('issueSelected', (id) => {
+            this.current_page = 1;
+            this.current_issue = id;
+            this.loadPdf(this.current_issue, this.current_page);
+        }),
+        Event.$on('pdf-pageChange', (page) => {
+            this.loadPdf(this.current_issue, page);
+        })
+        Event.$on('issueBiblSelected', (bibl) => {
+            this.current_issue = bibl.issueId
+            this.current_page = bibl.pdf_index
+        })
     },
     data() {
-    return {
-        scale: 1.3,
-        current_page: this.$root.state.content.issue.page,
-        current_issue: this.$root.state.content.issue.id
-    }
+        return {
+            scale: 1.3,
+            issueHeaderData: false
+        }
     },
     mounted(){
-    this.loadPdf(this.current_issue, this.current_page, this.scale);
+        this.loadPdf(this.current_issue, this.current_page, this.scale);
     },
+    computed: {
+        biblId: function () {
+            if(this.$route.params.biblid) {
+                return this.$route.params.biblid
+            }
+            return false
+        },
+        current_issue: function () {
+            return this.$route.params.id
+        },
+        current_page: function () {
+            
+            if (this.biblId) {
+                return this.issueHeaderData[this.biblId].pieceMeta.piecePdfIndex
+            }
+            else {
+                return 1
+            } 
 
+        },
+    },
+    watch: {
+        '$route': 'fetchData'
+    },
     methods: {
+        fetchData: function () {
+            if(!this.issueHeaderData) {
+                let headerUrl = '/api/broadwayjournal/issue/'+ this.$route.params.id +'/header';
+                axios.get(headerUrl).then(
+                    response => {
+                        this.issueHeaderData = response.data
+                        if (this.biblId) {
+                            const biblData = response.data.listBibl[this.biblId]
+                            if(biblData.pieceMeta) {
+                                this.current_page = biblData.pieceMeta.piecePdfIndex
+                            }
+                        }
+                    });
+            }
+            this.loadPdf(this.current_issue, this.current_page, this.scale)
+        },
+
     changePage: function (direction) {
 
         this.current_page = this.$root.state.content.issue.page;
@@ -59,12 +98,13 @@ export default {
         Event.$emit('pdf-pageChange', this.current_page);
 
     },
-    loadPdf: function(issue, page = 1, scale = 1.3) { 
-    // If absolute URL from the remote server is provided, configure the CORS
-    // header on that server.
+    loadPdf: function() { 
+        // If absolute URL from the remote server is provided, configure the CORS
+        // header on that server.
         if(this.$root.state.content.issue.viewer == 'text'){
-        return;
+            return;
         }
+        let issue = this.current_issue
     var url = '/storage/broadway-tei/pdf/BroadwayJournal_'+issue+'.pdf';
     // var pdfData = atob($pdf);
 
@@ -79,8 +119,10 @@ export default {
     // The workerSrc property shall be specified.
     PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
 
+    let page = this.current_page
     // Asynchronous download of PDF
     var loadingTask = PDFJS.getDocument(url);
+    let scale = this.scale
     loadingTask.promise.then(function(pdf) {
         if(page > pdf.pdfInfo.numPages){
         return;

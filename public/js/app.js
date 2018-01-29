@@ -19198,51 +19198,87 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             scale: 1.3,
-            current_page: this.$root.state.content.issue.page,
-            current_issue: this.$root.state.content.issue.id
+            issueHeaderData: false
         };
     },
     mounted: function mounted() {
         this.loadPdf(this.current_issue, this.current_page, this.scale);
     },
 
+    computed: {
+        biblId: function biblId() {
+            if (this.$route.params.biblid) {
+                return this.$route.params.biblid;
+            }
+            return false;
+        },
+        current_issue: function current_issue() {
+            return this.$route.params.id;
+        },
+        current_page: function current_page() {
 
+            if (this.biblId) {
+                return this.issueHeaderData[this.biblId].pieceMeta.piecePdfIndex;
+            } else {
+                return 1;
+            }
+        }
+    },
+    watch: {
+        '$route': 'fetchData'
+    },
     methods: {
+        fetchData: function fetchData() {
+            var _this2 = this;
+
+            if (!this.issueHeaderData) {
+                var headerUrl = '/api/broadwayjournal/issue/' + this.$route.params.id + '/header';
+                axios.get(headerUrl).then(function (response) {
+                    _this2.issueHeaderData = response.data;
+                    if (_this2.biblId) {
+                        var biblData = response.data.listBibl[_this2.biblId];
+                        if (biblData.pieceMeta) {
+                            _this2.current_page = biblData.pieceMeta.piecePdfIndex;
+                        }
+                    }
+                });
+            }
+            this.loadPdf(this.current_issue, this.current_page, this.scale);
+        },
+
         changePage: function changePage(direction) {
 
-            page = this.$root.state.content.issue.page;
+            this.current_page = this.$root.state.content.issue.page;
             switch (direction) {
                 case 'next':
-                    if (page == 16) {
+                    if (this.current_page == 16) {
                         break;
                     } else {
-                        page += 1;
-                        //console.log(page);
+                        this.current_page += 1;
+                        //console.log(this.current_page);
                         break;
                     }
                 case 'prev':
-                    if (page == 1) {
+                    if (this.current_page == 1) {
                         break;
                     } else {
-                        page -= 1;
-                        //console.log(page);
+                        this.current_page -= 1;
+                        //console.log(this.current_page);
                         break;
                     }
                 default:
-                    page = 1;
+                    this.current_page = 1;
             }
-            page = page <= 1 ? 1 : page;
-            Event.$emit('pdf-pageChange', page);
+            this.current_page = this.current_page <= 1 ? 1 : this.current_page;
+            Event.$emit('pdf-pageChange', this.current_page);
         },
-        loadPdf: function loadPdf(issue) {
-            var page = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
-            var scale = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1.3;
-
+        loadPdf: function loadPdf() {
             // If absolute URL from the remote server is provided, configure the CORS
             // header on that server.
             if (this.$root.state.content.issue.viewer == 'text') {
                 return;
             }
+            var issue = this.current_issue;
             var url = '/storage/broadway-tei/pdf/BroadwayJournal_' + issue + '.pdf';
             // var pdfData = atob($pdf);
 
@@ -19257,8 +19293,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             // The workerSrc property shall be specified.
             PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
 
+            var page = this.current_page;
             // Asynchronous download of PDF
             var loadingTask = PDFJS.getDocument(url);
+            var scale = this.scale;
             loadingTask.promise.then(function (pdf) {
                 if (page > pdf.pdfInfo.numPages) {
                     return;
@@ -23338,6 +23376,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": this.getLink(),
       "tag": "div"
+    },
+    on: {
+      "click": function($event) {
+        _vm.tocItemSelected()
+      }
     }
   }, [_c('div', {
     staticClass: "tocTitle"
