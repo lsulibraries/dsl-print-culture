@@ -36,27 +36,27 @@ export default {
     methods: {
     changePage: function (direction) {
 
-        page = this.$root.state.content.issue.page;
+        this.current_page = this.$root.state.content.issue.page;
         switch (direction) {
                 case 'next':
-                    if(page == 16){break;}
+                    if(this.current_page == 16){break;}
             else{
-                        page += 1;
-                        //console.log(page);
+                        this.current_page += 1;
+                        //console.log(this.current_page);
                 break;
                     }
             case 'prev':
-                    if(page == 1){break;}
+                    if(this.current_page == 1){break;}
             else{
-                        page -= 1;
-                        //console.log(page);
+                        this.current_page -= 1;
+                        //console.log(this.current_page);
                 break;
                     }
             default:
-            page = 1;
+            this.current_page = 1;
             }
-        page = page <= 1 ? 1 : page;
-        Event.$emit('pdf-pageChange', page);
+        this.current_page = this.current_page <= 1 ? 1 : this.current_page;
+        Event.$emit('pdf-pageChange', this.current_page);
 
     },
     loadPdf: function(issue, page = 1, scale = 1.3) { 
