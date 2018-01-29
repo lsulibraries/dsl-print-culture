@@ -2310,7 +2310,7 @@ canvas#pdf {
 }
 
 .roles > div {
-    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 15px;
     font-size: 14px;
     color: #424242;
     flex-grow: 1;
@@ -2319,7 +2319,44 @@ canvas#pdf {
     align-items: center;
     cursor: pointer;
     text-transform: uppercase;
-    padding-left: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.roleDescription {
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    background: #002f2f;
+    color: #f2e6ce;
+    padding: 5px 10px;
+    border-radius: 30px;
+    opacity: 0;
+    line-height: 0.8em;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+      @include transition(.5s);
+
+}
+
+.roleDescription::before{
+    content: '';
+    border-style: solid;
+    border-width: 11px 13px 11px 0;
+    border-color: transparent #002f2f transparent transparent;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    transform: rotate(50deg);  
+}
+
+.roles > div:hover{
+.roleDescription {
+    opacity: 1;
+    top: -35px;    
+      @include transition(.5s);
+
+}
 }
 
 .roleFilter .active {

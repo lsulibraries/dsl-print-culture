@@ -19394,6 +19394,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     methods: {
@@ -23987,7 +23995,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('cont')
       }
     }
-  }), _vm._v(" "), _c('div', {
+  }, [_c('div', {
+    staticClass: "roleDescription"
+  }, [_vm._v("Contributor")])]), _vm._v(" "), _c('div', {
     staticClass: "roleFilterMentioned",
     class: {
       active: _vm.roleFilter == 'ment'
@@ -23997,7 +24007,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('ment')
       }
     }
-  }), _vm._v(" "), _c('div', {
+  }, [_c('div', {
+    staticClass: "roleDescription"
+  }, [_vm._v("Mentioned")])]), _vm._v(" "), _c('div', {
     staticClass: "roleFilterEditor",
     class: {
       active: _vm.roleFilter == 'edit'
@@ -24007,7 +24019,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('edit')
       }
     }
-  }), _vm._v(" "), _c('div', {
+  }, [_c('div', {
+    staticClass: "roleDescription"
+  }, [_vm._v("Editor")])]), _vm._v(" "), _c('div', {
     staticClass: "roleFilterCorrespondent",
     class: {
       active: _vm.roleFilter == 'corr'
@@ -24017,7 +24031,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.updateRoleFilter('corr')
       }
     }
-  })])])])
+  }, [_c('div', {
+    staticClass: "roleDescription"
+  }, [_vm._v("Correspondent")])])])])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
