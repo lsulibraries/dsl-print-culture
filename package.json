@@ -16,6 +16,7 @@
     "vue-loading-spinner": "^1.0.11"
   },
   "dependencies": {
+    "vue-d3-network": "^0.1.24",
     "vue-router": "^3.0.1"
   }
 }

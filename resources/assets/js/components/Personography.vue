@@ -2,8 +2,9 @@
     import personIndex from './personIndex'
     import personFilter from './personFilter'
     import biblDisplay from './biblDisplay'
+    import network from './network'
     export default {
-        components: { biblDisplay, personIndex, personFilter },
+        components: { biblDisplay, network, personIndex, personFilter },
         data(){
             return {
                 modalActive:false,

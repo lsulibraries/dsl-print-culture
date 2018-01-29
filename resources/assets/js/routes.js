@@ -53,6 +53,12 @@ let routes = [
 
         ]
 
+    },
+    {
+
+        path: '/network',
+        component:  require('./components/network'),
+
     }
 
 ];
