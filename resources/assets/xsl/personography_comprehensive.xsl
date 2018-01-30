@@ -18,27 +18,23 @@
 
     <xsl:variable name="teiIssues" select="collection('/var/www/dsl-print-culture/storage/app/public/broadway-tei/tei/')"/> 
     <!-- substitute variable with different path for local testing with small subset of issues -->
-    <!--<xsl:variable name="teiIssues" select="collection('issues-mention')"/>--> 
+    <!--<xsl:variable name="teiIssues" select="collection('issues')"/>--> 
 
     <xsl:template match="listPerson">
         <xsl:for-each select="person">
 
             <xsl:variable name="personId" select="@xml:id"/>
-            
+
             <!-- calculate number of total contributions by author ref ID in issue headers -->
-            <xsl:variable name="totalcontribs">
-                <xsl:for-each-group select="$teiIssues//listBibl//author" group-by="@ref">
-                    <xsl:if test="substring-after(@ref, '#') eq $personId">
-                        <xsl:value-of select="count(current-group())"/>
-                    </xsl:if>
-                </xsl:for-each-group>
+            <xsl:variable name="contribs" select="$teiIssues//listBibl//author[substring-after(@ref, '#') eq $personId]"/>
+            <xsl:variable name="totalContribs">
+                <xsl:if test="$contribs">
+                    <xsl:value-of select="count($contribs)"/>
+                </xsl:if>
             </xsl:variable>
             
-            <!-- construct xpaths for handling mentions -->
-            <xsl:variable name="mentions" select="$teiIssues/TEI/text/body//persName[not(parent::byline)][substring-after(@ref, '#') eq $personId]"/>
-            <xsl:variable name="mentioningPieces" select="$mentions/ancestor::div[@decls][1]/@decls"/>
-            
             <!-- calculate number of total mentions by author ref ID in text, excluding bylines -->
+            <xsl:variable name="mentions" select="$teiIssues/TEI/text/body//persName[not(parent::byline)][substring-after(@ref, '#') eq $personId]"/>
             <xsl:variable name="totalMentionsOverall">
                 <xsl:if test="$mentions">
                     <xsl:value-of select="count($mentions)"/>
@@ -46,6 +42,7 @@
             </xsl:variable>
             
             <!-- calculate number of pieces in which an author is mentioned -->
+            <xsl:variable name="mentioningPieces" select="$mentions/ancestor::div[@decls][1]/@decls"/>
             <xsl:variable name="totalMentioningPieces">
                 <xsl:if test="$mentions">
                     <xsl:value-of select="count($mentioningPieces)"/>                   
@@ -165,9 +162,9 @@
                     </xsl:if>
 
                     <!-- list total contributions and/or total mentions if not zero -->
-                    <xsl:if test="string-length($totalcontribs) != 0">
+                    <xsl:if test="string-length($totalContribs) != 0">
                         <personTotalContrib>
-                            <xsl:value-of select="$totalcontribs"/>
+                            <xsl:value-of select="$totalContribs"/>
                         </personTotalContrib>
                     </xsl:if>
                     <xsl:if test="string-length($totalMentionsOverall) != 0">
@@ -201,7 +198,7 @@
                 </personMeta>
 
                 <!-- if an author has contributions or mentions, create personListBibl section -->
-                <xsl:if test="string-length($totalMentionsOverall) or string-length($totalcontribs) != 0">
+                <xsl:if test="string-length($totalMentionsOverall) or string-length($totalContribs) != 0">
                     <personListBibl>
                         
                         <!-- get bibls for Contributors -->

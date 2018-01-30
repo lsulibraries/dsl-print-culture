@@ -4,8 +4,21 @@ let routes = [
 
     {
         path: '/',
-        component:  require('./components/Abouts')
+        redirect: '/project',
+    },
+    {
+        path: '/project',
+        redirect: '/project/about',
+        component:  require('./components/Abouts'),
+        children: [
+            
+            {
 
+                path: ':id',
+                component:  require('./components/Abouts'),
+            },
+
+        ],
     },
     {
         path: '/issues',
@@ -24,13 +37,21 @@ let routes = [
 
             }
 
-
         ]
 
     },
     {
         path: '/authors',
-        component:  require('./components/Personography')
+        component:  require('./components/Personography'),
+        children: [
+
+            {
+                path: ':id',
+                component:  require('./components/Personography')
+
+            },
+
+        ]
 
     }
 
