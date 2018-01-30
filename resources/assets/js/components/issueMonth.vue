@@ -27,7 +27,8 @@
                 return this.$route.params.id.substring(0,6)
             },
             getLink: function () {
-                return '/issues/' + this.issueIds[0]
+                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : ''
+                return '/issues/' + this.issueIds[0] + viewerMode
             }
         },
     }

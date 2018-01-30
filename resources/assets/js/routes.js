@@ -27,15 +27,15 @@ let routes = [
         children: [
 
             {
-                path: ':id/:biblid',
+                path: ':id',
                 component:  require('./components/Issue')
 
             },
             {
-                path: ':id',
+                path: ':id/:biblid',
                 component:  require('./components/Issue')
 
-            }
+            },
 
         ]
 

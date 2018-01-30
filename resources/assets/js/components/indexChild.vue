@@ -8,7 +8,8 @@
         props: ['id'],
         methods: {
             getLink: function () {
-                return '/issues/' + this.id
+                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : ''
+                return '/issues/' + this.id + viewerMode
             },
         },
         computed: {
