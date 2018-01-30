@@ -1,8 +1,8 @@
 <template>
     <div class="viewer">
-        <div class="pdf-viewer" v-if="pdfMode">{{page}} / {{pageCount}}
-            <router-link tag='button' class="next-page" :to="getPrevPageLink()" :disabled="firstPage">Prev Page</router-link>
-            <router-link tag='button' class="next-page" :to="getNextPageLink()" :disabled="lastPage">Next Page</router-link>
+        <div class="pdf-viewer" v-if="pdfMode"><div class="pdf-page-location">{{page}} / {{pageCount}}</div>
+            <router-link tag='button' class="pdf-prev-page" :to="getPrevPageLink()" :disabled="firstPage">Prev Page</router-link>
+            <router-link tag='button' class="pdf-next-page" :to="getNextPageLink()" :disabled="lastPage">Next Page</router-link>
             <transition name="fade"><pdf :page="this.page" :src="this.pdfSrc" @num-pages="pageCount = $event" @page-loaded="page = $event"></pdf></transition>
         </div>
         <transition name="fade"><tei-markup v-if="!pdfMode" :issue="this.issueId" :bibl="this.biblId"></tei-markup></transition>

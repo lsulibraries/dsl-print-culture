@@ -58960,15 +58960,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "viewer"
   }, [(_vm.pdfMode) ? _c('div', {
     staticClass: "pdf-viewer"
-  }, [_vm._v(_vm._s(_vm.page) + " / " + _vm._s(_vm.pageCount) + "\n        "), _c('router-link', {
-    staticClass: "next-page",
+  }, [_c('div', {
+    staticClass: "pdf-page-location"
+  }, [_vm._v(_vm._s(_vm.page) + " / " + _vm._s(_vm.pageCount))]), _vm._v(" "), _c('router-link', {
+    staticClass: "pdf-prev-page",
     attrs: {
       "tag": "button",
       "to": _vm.getPrevPageLink(),
       "disabled": _vm.firstPage
     }
   }, [_vm._v("Prev Page")]), _vm._v(" "), _c('router-link', {
-    staticClass: "next-page",
+    staticClass: "pdf-next-page",
     attrs: {
       "tag": "button",
       "to": _vm.getNextPageLink(),
