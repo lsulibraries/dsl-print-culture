@@ -43250,7 +43250,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     data: function data() {
         return {
-            viewer: this.$root.state.content.issue.viewer,
             currentPage: 0,
             pageCount: 0,
             bibls: {}
@@ -43269,10 +43268,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         '$route': 'routeChanged'
     },
     computed: {
+        loaded: function loaded() {
+            return this.bibls ? true : false;
+        },
         page: {
             get: function get() {
                 if (this.$route.query.page) {
                     return parseInt(this.$route.query.page);
+                } else if (this.$route.params.biblid) {
+                    return this.pageFromBiblid();
                 } else {
                     return 1;
                 }
@@ -43281,14 +43285,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 return newVal;
             }
         },
+        lastPage: function lastPage() {
+            return this.page == this.pageCount;
+        },
+        firstPage: function firstPage() {
+            return this.page == 1;
+        },
         pdfSrc: function pdfSrc() {
             return '/storage/broadway-tei/pdf/BroadwayJournal_' + this.$route.params.id + '.pdf';
         },
         pdfMode: function pdfMode() {
-            if (this.$route.query.viewer == 'pdf') {
+            if (this.$route.query.viewer == 'pdf' && this.loaded) {
                 return true;
             }
             return false;
+        },
+        viewer: function viewer() {
+            return this.$route.query.viewer == 'pdf' ? 'pdf' : 'text';
         }
     },
     methods: {
@@ -43298,11 +43311,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
             return this.$route.fullPath + '&page=' + (parseInt(this.page) + 1);
         },
-        incrementPage: function incrementPage() {
-            this.page = this.page == 16 ? 16 : this.page = this.page + 1;
-        },
-        decrementPage: function decrementPage() {
-            this.page = this.page == 1 ? 1 : this.page = this.page - 1;
+        getPrevPageLink: function getPrevPageLink() {
+            if (this.$route.query.page) {
+                return this.$route.path + '?viewer=pdf&page=' + (parseInt(this.$route.query.page) - 1);
+            }
+            return this.$route.fullPath + '&page=' + (parseInt(this.page) - 1);
         },
         getIssueBiblData: function getIssueBiblData() {
             var _this = this;
@@ -43312,24 +43325,39 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 return _this.bibls = response.data.listBibl;
             });
         },
-        routeChanged: function routeChanged() {
-            if (!this.$route.params.biblid) {
-                this.page = 1;
+        pageFromBiblid: function pageFromBiblid() {
+            if (!this.loaded) {
+                return -1;
             }
             var biblId = this.$route.params.biblid;
             var bibl = this.bibls[biblId];
+
             if (bibl.hasOwnProperty('sectionMeta') && bibl.sectionMeta.hasOwnProperty('sectionPdfIndex')) {
-                this.page = parseInt(bibl.sectionMeta.sectionPdfIndex);
+                return parseInt(bibl.sectionMeta.sectionPdfIndex);
             } else if (bibl.hasOwnProperty('pieceMeta') && bibl.pieceMeta.hasOwnProperty('piecePdfIndex')) {
-                this.page = parseInt(bibl.pieceMeta.piecePdfIndex);
+                return parseInt(bibl.pieceMeta.piecePdfIndex);
             } else {
+                // prob an error in the data
                 console.log('could not determine page on route changed; setting 1');
                 return 1;
             }
+        },
+        routeChanged: function routeChanged() {
+            // Set the page
 
+            // If q param 'viewer' is set, let that override all
             if (this.$route.query.page) {
                 this.page = this.$route.query.page;
             }
+            // otherwise, lookup the page based on biblid
+            else if (this.$route.params.biblid) {
+                    this.page = this.pageFromBiblid();
+                }
+                // or just return 1; no bibl set
+                else {
+                        this.page = 1;
+                    }
+            this.getIssueBiblData();
         }
     }
 });
@@ -44075,6 +44103,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
 //
 //
 //
@@ -44098,6 +44128,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         Event.$on('viewerSelected', function (viewer) {
             _this.active = viewer;
         });
+        this.setTocContent();
     },
 
     methods: {
@@ -44108,6 +44139,30 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.pdfSelected = !this.pdfSelected;
             this.active = this.active == 'pdf' ? 'text' : 'pdf';
             Event.$emit('viewerSelected', this.active);
+        },
+        bibl4page: function bibl4page() {
+            var bibl = this.pageMap[this.$route.query.page];
+            if (!bibl) {
+                if (!this.$route.params.biblid) {
+                    console.log("Cannot determine text bibl for " + this.$route.fullPath);
+                    return 'p1';
+                } else {
+                    return this.$route.params.biblid;
+                }
+            }
+            return bibl;
+        },
+        setTocContent: function setTocContent() {
+            var _this2 = this;
+
+            if (this.issueId !== this.$route.params.id) {
+                this.tocContent = false;
+                this.issueId = this.$route.params.id;
+                var url = '/api/broadwayjournal/' + this.issueId + '/toc';
+                axios.get(url).then(function (response) {
+                    return _this2.tocContent = response.data.toc;
+                });
+            }
         }
     },
     computed: {
@@ -44116,12 +44171,87 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         link: function link() {
             if (this.viewer == 'pdf') {
-                return this.$route.path;
+                var issueId = this.$route.params.id;
+                var biblId = this.$route.query.page ? this.bibl4page() : this.$route.biblid;
+                if (this.$route.query.page) {
+                    return '/issues/' + issueId + '/' + this.bibl4page();
+                } else {
+                    return this.$route.path;
+                }
+            } else {
+                var _issueId = this.$route.params.id;
+                var _biblId = this.$route.query.page ? this.bibl4page() : this.$route.biblid;
+                return this.$route.path + '?viewer=pdf';
             }
-            return this.$route.path + '?viewer=pdf';
         },
         pdfSelected: function pdfSelected() {
             return this.viewer == 'pdf';
+        },
+        pageMap: function pageMap() {
+            var map = {};
+            var _iteratorNormalCompletion = true;
+            var _didIteratorError = false;
+            var _iteratorError = undefined;
+
+            try {
+                for (var _iterator = Object.entries(this.tocContent)[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+                    var _step$value = _slicedToArray(_step.value, 2),
+                        key = _step$value[0],
+                        value = _step$value[1];
+
+                    if (value.hasOwnProperty('pdf_index')) {
+                        if (!map.hasOwnProperty(value.pdf_index)) {
+                            map[value.pdf_index] = key;
+                        }
+                    } else if (value.hasOwnProperty('pieces')) {
+                        var _iteratorNormalCompletion2 = true;
+                        var _didIteratorError2 = false;
+                        var _iteratorError2 = undefined;
+
+                        try {
+                            for (var _iterator2 = Object.entries(value.pieces)[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+                                var _step2$value = _slicedToArray(_step2.value, 2),
+                                    k = _step2$value[0],
+                                    v = _step2$value[1];
+
+                                if (v.hasOwnProperty('pdf_index')) {
+                                    if (!map.hasOwnProperty(v.pdf_index)) {
+                                        map[v.pdf_index] = k;
+                                    }
+                                }
+                            }
+                        } catch (err) {
+                            _didIteratorError2 = true;
+                            _iteratorError2 = err;
+                        } finally {
+                            try {
+                                if (!_iteratorNormalCompletion2 && _iterator2.return) {
+                                    _iterator2.return();
+                                }
+                            } finally {
+                                if (_didIteratorError2) {
+                                    throw _iteratorError2;
+                                }
+                            }
+                        }
+                    }
+                }
+            } catch (err) {
+                _didIteratorError = true;
+                _iteratorError = err;
+            } finally {
+                try {
+                    if (!_iteratorNormalCompletion && _iterator.return) {
+                        _iterator.return();
+                    }
+                } finally {
+                    if (_didIteratorError) {
+                        throw _iteratorError;
+                    }
+                }
+            }
+
+            return map;
         },
         viewer: function viewer() {
             if (this.$route.query.viewer == 'pdf') {
@@ -44129,10 +44259,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
             return 'text';
         },
-        pdfIndex: function pdfIndex() {}
+        pdfIndex: function pdfIndex() {
+            if (this.$route.query.page) {
+                return parseInt(this.$route.query.page);
+            }
+            return false;
+        }
+    },
+    watch: {
+        '$route': 'setTocContent'
     },
     data: function data() {
-        return {};
+        return {
+            tocContent: {}
+        };
     }
 });
 
@@ -58820,16 +58960,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "viewer"
   }, [(_vm.pdfMode) ? _c('div', {
     staticClass: "pdf-viewer"
-  }, [_vm._v(_vm._s(_vm.page) + " / " + _vm._s(_vm.pageCount) + "\n        "), _c('button', {
+  }, [_vm._v(_vm._s(_vm.page) + " / " + _vm._s(_vm.pageCount) + "\n        "), _c('router-link', {
     staticClass: "next-page",
-    on: {
-      "click": _vm.decrementPage
+    attrs: {
+      "tag": "button",
+      "to": _vm.getPrevPageLink(),
+      "disabled": _vm.firstPage
     }
   }, [_vm._v("Prev Page")]), _vm._v(" "), _c('router-link', {
     staticClass: "next-page",
     attrs: {
       "tag": "button",
-      "to": _vm.getNextPageLink()
+      "to": _vm.getNextPageLink(),
+      "disabled": _vm.lastPage
     }
   }, [_vm._v("Next Page")]), _vm._v(" "), _c('transition', {
     attrs: {
