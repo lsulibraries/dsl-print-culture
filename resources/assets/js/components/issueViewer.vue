@@ -3,7 +3,7 @@
         <div class="pdf-viewer" v-if="pdfMode">{{page}} / {{pageCount}}
             <button class="next-page" @click="decrementPage">Prev Page</button>
             <button class="next-page" @click="incrementPage">Next Page</button>
-            <pdf :page="this.page" :src="this.pdfSrc" @num-pages="pageCount = $event" @page-loaded="page = $event"></pdf>
+            <transition name="fade"><pdf :page="this.page" :src="this.pdfSrc" @num-pages="pageCount = $event" @page-loaded="page = $event"></pdf></transition>
         </div>
         <transition name="fade"><tei-markup v-if="!pdfMode" :issue="this.issueId" :bibl="this.biblId"></tei-markup></transition>
     </div>

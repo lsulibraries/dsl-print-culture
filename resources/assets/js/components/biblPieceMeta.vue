@@ -13,7 +13,8 @@
                 return this.pieceMeta.pieceTitle
             },
             getIssueLink: function () {
-                return '/issues/' + this.issueId + '/' + this.pieceMeta.pieceId
+                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : ''
+                return '/issues/' + this.issueId + '/' + this.pieceMeta.pieceId + viewerMode
             },
             goToPiece: function () {
                 this.$root.state.content.issue.id = this.issueId

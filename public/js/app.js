@@ -42431,7 +42431,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             return this.pieceMeta.pieceTitle;
         },
         getIssueLink: function getIssueLink() {
-            return '/issues/' + this.issueId + '/' + this.pieceMeta.pieceId;
+            var viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : '';
+            return '/issues/' + this.issueId + '/' + this.pieceMeta.pieceId + viewerMode;
         },
         goToPiece: function goToPiece() {
             this.$root.state.content.issue.id = this.issueId;
@@ -58796,7 +58797,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.incrementPage
     }
-  }, [_vm._v("Next Page")]), _vm._v(" "), _c('pdf', {
+  }, [_vm._v("Next Page")]), _vm._v(" "), _c('transition', {
+    attrs: {
+      "name": "fade"
+    }
+  }, [_c('pdf', {
     attrs: {
       "page": this.page,
       "src": this.pdfSrc
@@ -58809,7 +58814,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.page = $event
       }
     }
-  })], 1) : _vm._e(), _vm._v(" "), _c('transition', {
+  })], 1)], 1) : _vm._e(), _vm._v(" "), _c('transition', {
     attrs: {
       "name": "fade"
     }
