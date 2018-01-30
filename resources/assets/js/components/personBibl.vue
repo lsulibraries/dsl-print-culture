@@ -2,8 +2,8 @@
   <div class="personBibl">
     <div class="issueData"> 
       <biblIssueMetaModal v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="this.bibl.issueMeta"></biblIssueMetaModal>
-      <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>
     </div>
+    <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>  
     <div class="pieceTitleContainer">
       <biblPieceMeta v-if="!this.$root.empty(this.bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
     </div>

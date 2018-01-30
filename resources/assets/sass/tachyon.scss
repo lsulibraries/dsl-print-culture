@@ -33,7 +33,10 @@ $lighter: #E6E2AF;
 $light:#A7A37E;
 $altdark: #046f8f;
 
+$altdarkest: #003838;
+
 $greyDark: #474747;
+$threedark: rgba(0, 0, 0, 0.03);
 $sevendark: rgba(0, 0, 0, 0.07);
 
 $fifteendark: rgba(0, 0, 0, 0.15);
@@ -896,6 +899,7 @@ button.searchSubmit {
 .pieceTitleContainer {
     display: flex;
     flex-direction: row-reverse;
+    min-height: 0px;
 }
 
 .personName{
@@ -1016,10 +1020,10 @@ button.searchSubmit {
       border-bottom: 1px solid $fiftylight;
       color: $lightest;
       letter-spacing: 1px;
+      margin-bottom: 15px;
       }    
       .personBibl{
       background: none;
-      border-bottom: 1px dashed $fiftylight;
       border-radius: 0px;      
       .pieceTitle{
         color:$lightest;
@@ -1039,10 +1043,9 @@ button.searchSubmit {
 //begin import styles
  
 .issueDate { //imported
-    background: #046380; //imported
-    color: #f2e6ce; //imported
+    color: $light; //imported
     font-size: 1.1em; //imported
-    padding: 5px; //imported
+    padding:0px; 
     height: 23px; //imported
     width: auto; //imported
     display: flex; //imported
@@ -1051,10 +1054,9 @@ button.searchSubmit {
     letter-spacing: 2px; //imported
     font-weight: 400; //imported
     box-sizing: border-box; //imported
-    padding-left: 17px; //imported
+    margin-left: 10px;
     line-height: .9em; //imported
-    border-radius: 20px 0px 0px 20px; //imported
-    min-width: 180px;
+
 } //imported
 
 .issueVol, .issueNum { //imported
@@ -1062,19 +1064,17 @@ button.searchSubmit {
     margin-top: 0px; //imported
     position: relative; //imported
     top: 0px; //imported
-    padding-bottom: 6px; //imported
     display: -webkit-box; //imported
     display: -moz-box; //imported
     display: -ms-flexbox; //imported
     display: -webkit-flex; //imported
     display: flex; //imported
     border-radius: 0px; //imported
-    background: #046380; //imported
-    color: #f2e6ce; //imported
+    color: $light; //imported
     font-size: 1.1em; //imported
-    padding: 5px; //imported
+    padding: 0px;
+    margin-left: 20px;
     height: 23px; //imported
-    width: 70px; //imported
     display: flex; //imported
     justify-content: center; //imported
     align-items: center; //imported
@@ -1082,31 +1082,36 @@ button.searchSubmit {
     font-weight: 400; //imported
     box-sizing: border-box; //imported
     line-height: .9em; //imported
+    border-radius: 0px;
+    width: auto;
 } //imported
+
+.issueDate, .issueVol, .issueNum{
+  background: none;
+}
 
 .personPieceMeta {
     top: -18px !important;
 }
-.issueNum{
-      border-radius: 0px 50px 50px 0px!important;
- //imported from author
-}
+
 .issueData{ //imported from author
     display: flex; //imported from author
     flex-wrap: wrap; //imported from author
     font-size: 11px; //imported from author
     position: absolute; //imported from author
-    margin-left: 30px; //imported from author
     top: 0px; //imported from author
+    width: 100%;
 } //imported from author
  //imported from author
 .issueMeta { //imported from author
     margin-bottom: 10px;   //imported from author
     display: flex; //imported from author
-    border-radius: 50px; //imported from author
+    border-radius: 0px; //imported from author
     position: relative; //imported from author
-    top: -5px; //imported from author
+
     z-index: 3; //imported from author
+    width: 100%;
+    border: 1px solid;
     .issueDate{ //imported from author
       width:auto; //imported from author
     } //imported from author
@@ -1116,12 +1121,13 @@ button.searchSubmit {
     content: ''; //imported from author
     border-style: solid; //imported from author
     border-width: 13px 17px 13px 0; //imported from author
-    border-color: transparent $dark transparent transparent; //imported from author
+    border-color: transparent $altdarkest transparent transparent; //imported from author
     position: absolute; //imported from author
     left: 80px; //imported from author
     top: 7px; //imported from author
     transform: rotate(50deg); //imported from author
     z-index: 2; //imported from author
+    opacity: 0; //temp
 } //imported from author
  //imported from author
   .personBibl{ //imported from author
@@ -1130,7 +1136,6 @@ button.searchSubmit {
     flex-direction: column; //imported from author
     padding: 0px; //imported from author
     background: transparent; //imported from author
-    height: 91px; //imported from author
     margin-top: 0px; //imported from author
     .personPieceMeta { //imported from author
     background: $darkest;
@@ -1163,13 +1168,13 @@ button.searchSubmit {
     }        //imported from author
   } //imported from author
  //imported from author
-    .issueDate, .issueVol, .issueNum, .issueMeta::before, .personPieceMeta, .sectionTitle{ //imported from author
+    .personPieceMeta, .sectionTitle{ //imported from author
       opacity: 0; //imported from author
       @include transition(.5s); //imported from author
     } //imported from author
  //imported from author
   .personBibl:hover{ //imported from author
-    .issueDate, .issueVol, .issueNum, .issueMeta::before, .sectionTitle{ //imported from author
+    .sectionTitle{ //imported from author
       opacity: 1; //imported from author
       @include transition(.5s); //imported from author
       transition-delay: 0.5s; //imported from author
@@ -1195,16 +1200,19 @@ button.searchSubmit {
     margin-left: 0px; //imported from author
     padding: 20px; //imported from author
     color: #f2e6ce; //imported from author
-    min-height: 50px; //imported from author
     line-height:1.3em; //imported from author
     border-radius: 1px; //imported from author
     @include transition(0.5s); //imported from author
+    height: auto;
+    margin-top: 10px;
+    .pieceTitle{
+      font-size: 13px;
+    }
   } //imported from author
   .sectionMeta{ //imported from author
     position: absolute;
-    top: 68px;
+    bottom: 23px;
     left: 10px;
-    height: 85px;
     width: 180px;
     border-radius: 0px;
     padding: 0px;
@@ -1295,7 +1303,7 @@ button.searchSubmit {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: $sevendark;
+    background: $threedark;
     .personName {
     font-size: 14px;
     display: flex;
@@ -1393,7 +1401,7 @@ button.searchSubmit {
 }
 
 .person.active .personMeta{
-  background-color: $fifteendark;
+  background-color: $sevendark;
 }
 
 .peopleFilters {
@@ -2568,6 +2576,26 @@ h1{
 .personography .workSide .personListBibl {
     padding-top: 80px;
     margin: 0px 40px;
+}
+
+.personography .workSide .personListBibl .personListBiblInner{
+  .personBibl:hover{ //imported from author
+    .sectionTitle{ //imported from author
+      opacity: 1; //imported from author
+      @include transition(.5s); //imported from author
+      transition-delay: 0.5s; //imported from author
+    } //imported from author
+    .personPieceMeta {
+      opacity: 1;
+      right: -140px;
+      @include transition(.3s); //imported from author
+      transition-delay: 0.8s; //imported from author      
+      .personPieceMeta > div{
+              transition-delay: 1.5s; //imported from author      
+
+      }
+    }   
+  } //imported from author
 }
 
 }

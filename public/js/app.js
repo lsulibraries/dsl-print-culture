@@ -25102,11 +25102,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "issueMeta": this.bibl.issueMeta
     }
-  }) : _vm._e(), _vm._v(" "), (!this.$root.empty(_vm.bibl.sectionMeta)) ? _c('biblSectionMeta', {
+  }) : _vm._e()], 1), _vm._v(" "), (!this.$root.empty(_vm.bibl.sectionMeta)) ? _c('biblSectionMeta', {
     attrs: {
       "sectionMeta": _vm.bibl.sectionMeta
     }
-  }) : _vm._e()], 1), _vm._v(" "), _c('div', {
+  }) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "pieceTitleContainer"
   }, [(!this.$root.empty(this.bibl.pieceMeta)) ? _c('biblPieceMeta', {
     attrs: {
@@ -25328,7 +25328,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "modal-container"
   }, [_c('div', {
     staticClass: "modal-header"
-  }, [_vm._t("header", [_vm._v("\n            default header\n          ")])], 2), _vm._v(" "), _c('div', {
+  }, [_vm._t("header")], 2), _vm._v(" "), _c('div', {
     staticClass: "modal-body"
   }, [_vm._t("body"), _vm._v(" "), _c('drawer', {
     attrs: {
@@ -25338,7 +25338,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })], 2), _vm._v(" "), _c('div', {
     staticClass: "modal-footer"
-  }, [_vm._t("footer", [_vm._v("\n            default footer\n            "), _c('button', {
+  }, [_vm._t("footer", [_c('button', {
     staticClass: "modal-default-button",
     on: {
       "click": function($event) {
