@@ -72,7 +72,8 @@
             getLink: function() {
                 const issueId = this.issueId
                 const  biblId  = this.id.decls_id
-                return '/issues/' + issueId + '/' + biblId;
+                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : ''
+                return '/issues/' + issueId + '/' + biblId + viewerMode;
             }
         },
     }

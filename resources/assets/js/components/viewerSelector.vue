@@ -1,5 +1,5 @@
 <template>
-    <div class='viewerSelector' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">
+    <router-link tag="div" :to="link" class='viewerSelector' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">
           <div class="viewerTitle">Toggle View</div>
           <div class="viewerSwitch">
             <div class="viewerText">
@@ -11,7 +11,7 @@
               <div class="viewerPdfLabel">PDF</div>
             </div>
           </div>
-    </div>
+    </router-link>
 </template>
 <script>
     export default {
@@ -31,10 +31,29 @@
                 Event.$emit('viewerSelected', this.active)
             }
         },
+        computed: {
+            active: function () {
+                return this.viewer
+            },
+            link: function () {
+                if (this.viewer == 'pdf') {
+                    return this.$route.path
+                }
+                return this.$route.path + '?viewer=pdf'
+            },
+            pdfSelected: function () {
+                return this.viewer == 'pdf'
+            },
+            viewer: function () {
+                if (this.$route.query.viewer == 'pdf') {
+                    return 'pdf'
+                }
+                return 'text'
+            }
+        },
         data(){
             return {
-                active: this.$root.state.content.issue.viewer,
-                pdfSelected: false
+                
             }
         }
     }
