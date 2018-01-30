@@ -32,6 +32,9 @@
                 console.log(msg)
             })
         },
+        watch: {
+            '$route': 'routeChanged'
+        },
         computed: {
             pdfSrc: function () {
                 return '/storage/broadway-tei/pdf/BroadwayJournal_' + this.$route.params.id + '.pdf'
@@ -49,6 +52,11 @@
             },
             decrementPage: function() {
                 this.page = this.page == 1 ? 1 : this.page = this.page - 1
+            },
+            routeChanged: function () {
+                if (!this.$route.params.biblid) {
+                    this.page = 1
+                }
             },
         },
     }

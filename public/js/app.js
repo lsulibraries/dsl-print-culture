@@ -43261,6 +43261,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         });
     },
 
+    watch: {
+        '$route': 'routeChanged'
+    },
     computed: {
         pdfSrc: function pdfSrc() {
             return '/storage/broadway-tei/pdf/BroadwayJournal_' + this.$route.params.id + '.pdf';
@@ -43278,6 +43281,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         decrementPage: function decrementPage() {
             this.page = this.page == 1 ? 1 : this.page = this.page - 1;
+        },
+        routeChanged: function routeChanged() {
+            if (!this.$route.params.biblid) {
+                this.page = 1;
+            }
         }
     }
 });

@@ -29,7 +29,7 @@
                 this.pdfSelected = !this.pdfSelected
                 this.active = this.active == 'pdf' ? 'text' : 'pdf'
                 Event.$emit('viewerSelected', this.active)
-            }
+            },
         },
         computed: {
             active: function () {
