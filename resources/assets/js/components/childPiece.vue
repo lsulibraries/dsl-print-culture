@@ -35,7 +35,8 @@
                 }
             },
             getLink: function() {
-                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : ''
+                const pdfIndex = this.id.pdf_index
+                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf&page=' + pdfIndex : ''
                 return '/issues/' + this.issueId + '/' + this.pieceIndex + viewerMode;
             }
         },

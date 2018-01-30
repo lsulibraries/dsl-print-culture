@@ -20,6 +20,9 @@
             this.issueId = this.$route.params.id
         },
         methods: {
+            getPdfIndex: function (id) {
+
+            },
             setTocContent: function () {
                 if(this.issueId !== this.$route.params.id) {
                     this.tocContent = false

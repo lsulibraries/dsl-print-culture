@@ -2,7 +2,7 @@
     <div class="viewer">
         <div class="pdf-viewer" v-if="pdfMode">{{page}} / {{pageCount}}
             <button class="next-page" @click="decrementPage">Prev Page</button>
-            <button class="next-page" @click="incrementPage">Next Page</button>
+            <router-link tag='button' class="next-page" :to="getNextPageLink()">Next Page</router-link>
             <transition name="fade"><pdf :page="this.page" :src="this.pdfSrc" @num-pages="pageCount = $event" @page-loaded="page = $event"></pdf></transition>
         </div>
         <transition name="fade"><tei-markup v-if="!pdfMode" :issue="this.issueId" :bibl="this.biblId"></tei-markup></transition>
@@ -21,7 +21,6 @@
         data() {
             return {
                 viewer: this.$root.state.content.issue.viewer,
-                page: 1,
                 currentPage: 0,
                 pageCount: 0,
                 bibls: {}
@@ -38,6 +37,19 @@
             '$route': 'routeChanged'
         },
         computed: {
+            page: {
+                    get: function () {
+                        if (this.$route.query.page) {
+                            return parseInt(this.$route.query.page)
+                        }
+                        else {
+                            return 1
+                        }
+                    },
+                    set: function (newVal) {
+                        return newVal
+                    }
+                },
             pdfSrc: function () {
                 return '/storage/broadway-tei/pdf/BroadwayJournal_' + this.$route.params.id + '.pdf'
             },
@@ -46,9 +58,15 @@
                     return true
                 }
                 return false
-            }
+            },
         },
         methods: {
+            getNextPageLink: function () {
+                if (this.$route.query.page) {
+                    return this.$route.path + '?viewer=pdf&page=' + (parseInt(this.$route.query.page) + 1)
+                }
+                return this.$route.fullPath + '&page=' + (parseInt(this.page) + 1)
+            },
             incrementPage: function() {
                 this.page = this.page == 16 ? 16 : this.page = this.page + 1
             },
@@ -75,6 +93,10 @@
                 else {
                     console.log('could not determine page on route changed; setting 1')
                     return 1
+                }
+
+                if (this.$route.query.page) {
+                    this.page = this.$route.query.page
                 }
             },
         },

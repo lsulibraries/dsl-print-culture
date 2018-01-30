@@ -42511,7 +42511,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
         },
         getLink: function getLink() {
-            var viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : '';
+            var pdfIndex = this.id.pdf_index;
+            var viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf&page=' + pdfIndex : '';
             return '/issues/' + this.issueId + '/' + this.pieceIndex + viewerMode;
         }
     }
@@ -42846,6 +42847,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
 
     methods: {
+        getPdfIndex: function getPdfIndex(id) {},
         setTocContent: function setTocContent() {
             var _this = this;
 
@@ -43249,7 +43251,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             viewer: this.$root.state.content.issue.viewer,
-            page: 1,
             currentPage: 0,
             pageCount: 0,
             bibls: {}
@@ -43268,6 +43269,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         '$route': 'routeChanged'
     },
     computed: {
+        page: {
+            get: function get() {
+                if (this.$route.query.page) {
+                    return parseInt(this.$route.query.page);
+                } else {
+                    return 1;
+                }
+            },
+            set: function set(newVal) {
+                return newVal;
+            }
+        },
         pdfSrc: function pdfSrc() {
             return '/storage/broadway-tei/pdf/BroadwayJournal_' + this.$route.params.id + '.pdf';
         },
@@ -43279,6 +43292,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
     },
     methods: {
+        getNextPageLink: function getNextPageLink() {
+            if (this.$route.query.page) {
+                return this.$route.path + '?viewer=pdf&page=' + (parseInt(this.$route.query.page) + 1);
+            }
+            return this.$route.fullPath + '&page=' + (parseInt(this.page) + 1);
+        },
         incrementPage: function incrementPage() {
             this.page = this.page == 16 ? 16 : this.page = this.page + 1;
         },
@@ -43306,6 +43325,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             } else {
                 console.log('could not determine page on route changed; setting 1');
                 return 1;
+            }
+
+            if (this.$route.query.page) {
+                this.page = this.$route.query.page;
             }
         }
     }
@@ -44031,7 +44054,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         getLink: function getLink() {
             var issueId = this.issueId;
             var biblId = this.id.decls_id;
-            var viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : '';
+            var pdfIndex = void 0;
+            if (!this.id.hasOwnProperty('pdf_index')) {
+                if (this.id.hasOwnProperty('pieces')) {
+                    pdfIndex = this.id.pieces[Object.keys(this.id.pieces)[0]].pdf_index;
+                }
+            } else {
+                pdfIndex = parseInt(this.id.pdf_index);
+            }
+
+            var viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf&page=' + pdfIndex : '';
             return '/issues/' + issueId + '/' + biblId + viewerMode;
         }
     }
@@ -44096,7 +44128,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 return 'pdf';
             }
             return 'text';
-        }
+        },
+        pdfIndex: function pdfIndex() {}
     },
     data: function data() {
         return {};
@@ -58792,10 +58825,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.decrementPage
     }
-  }, [_vm._v("Prev Page")]), _vm._v(" "), _c('button', {
+  }, [_vm._v("Prev Page")]), _vm._v(" "), _c('router-link', {
     staticClass: "next-page",
-    on: {
-      "click": _vm.incrementPage
+    attrs: {
+      "tag": "button",
+      "to": _vm.getNextPageLink()
     }
   }, [_vm._v("Next Page")]), _vm._v(" "), _c('transition', {
     attrs: {

@@ -72,7 +72,17 @@
             getLink: function() {
                 const issueId = this.issueId
                 const  biblId  = this.id.decls_id
-                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf' : ''
+                let pdfIndex
+                if(!this.id.hasOwnProperty('pdf_index')) {
+                    if (this.id.hasOwnProperty('pieces')) {
+                        pdfIndex = this.id.pieces[Object.keys(this.id.pieces)[0]].pdf_index
+                    }
+                }
+                else {
+                    pdfIndex = parseInt(this.id.pdf_index)
+                }
+
+                const viewerMode = this.$route.query.viewer == 'pdf' ? '?viewer=pdf&page=' + pdfIndex : ''
                 return '/issues/' + issueId + '/' + biblId + viewerMode;
             }
         },

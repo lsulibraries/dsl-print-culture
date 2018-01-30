@@ -49,6 +49,9 @@
                     return 'pdf'
                 }
                 return 'text'
+            },
+            pdfIndex: function () {
+                
             }
         },
         data(){
