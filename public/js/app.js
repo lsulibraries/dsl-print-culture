@@ -43250,7 +43250,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             viewer: this.$root.state.content.issue.viewer,
             page: 1,
             currentPage: 0,
-            pageCount: 0
+            pageCount: 0,
+            bibls: {}
         };
     },
 
@@ -43259,6 +43260,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         this.$on('num-pages', function (msg) {
             console.log(msg);
         });
+        this.getIssueBiblData();
     },
 
     watch: {
@@ -43282,9 +43284,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         decrementPage: function decrementPage() {
             this.page = this.page == 1 ? 1 : this.page = this.page - 1;
         },
+        getIssueBiblData: function getIssueBiblData() {
+            var _this = this;
+
+            var headerUrl = '/api/broadwayjournal/issue/' + this.issueId + '/header';
+            axios.get(headerUrl).then(function (response) {
+                return _this.bibls = response.data.listBibl;
+            });
+        },
         routeChanged: function routeChanged() {
             if (!this.$route.params.biblid) {
                 this.page = 1;
+            }
+            var biblId = this.$route.params.biblid;
+            var bibl = this.bibls[biblId];
+            if (bibl.hasOwnProperty('sectionMeta') && bibl.sectionMeta.hasOwnProperty('sectionPdfIndex')) {
+                this.page = parseInt(bibl.sectionMeta.sectionPdfIndex);
+            } else if (bibl.hasOwnProperty('pieceMeta') && bibl.pieceMeta.hasOwnProperty('piecePdfIndex')) {
+                this.page = parseInt(bibl.pieceMeta.piecePdfIndex);
+            } else {
+                console.log('could not determine page on route changed; setting 1');
+                return 1;
             }
         }
     }

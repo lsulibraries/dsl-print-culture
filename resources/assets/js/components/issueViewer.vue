@@ -24,6 +24,7 @@
                 page: 1,
                 currentPage: 0,
                 pageCount: 0,
+                bibls: {}
             }
         },
         props: ['issueId', 'biblId'],
@@ -31,6 +32,7 @@
             this.$on('num-pages', (msg) => {
                 console.log(msg)
             })
+            this.getIssueBiblData()
         },
         watch: {
             '$route': 'routeChanged'
@@ -44,7 +46,7 @@
                     return true
                 }
                 return false
-            },
+            }
         },
         methods: {
             incrementPage: function() {
@@ -53,9 +55,26 @@
             decrementPage: function() {
                 this.page = this.page == 1 ? 1 : this.page = this.page - 1
             },
+            getIssueBiblData: function () {
+                let headerUrl = '/api/broadwayjournal/issue/'+ this.issueId +'/header';
+                axios.get(headerUrl).then(response => this.bibls = response.data.listBibl);
+
+            },
             routeChanged: function () {
                 if (!this.$route.params.biblid) {
                     this.page = 1
+                }
+                const biblId = this.$route.params.biblid
+                const bibl = this.bibls[biblId]
+                if(bibl.hasOwnProperty('sectionMeta') && bibl.sectionMeta.hasOwnProperty('sectionPdfIndex')) {
+                    this.page = parseInt(bibl.sectionMeta.sectionPdfIndex)
+                }
+                else if(bibl.hasOwnProperty('pieceMeta') && bibl.pieceMeta.hasOwnProperty('piecePdfIndex')) {
+                    this.page = parseInt(bibl.pieceMeta.piecePdfIndex)
+                }
+                else {
+                    console.log('could not determine page on route changed; setting 1')
+                    return 1
                 }
             },
         },
