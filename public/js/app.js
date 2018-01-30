@@ -25062,11 +25062,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "issueMeta": this.bibl.issueMeta
     }
-  }) : _vm._e(), _vm._v(" "), (!this.$root.empty(_vm.bibl.sectionMeta)) ? _c('biblSectionMeta', {
+  }) : _vm._e()], 1), _vm._v(" "), (!this.$root.empty(_vm.bibl.sectionMeta)) ? _c('biblSectionMeta', {
     attrs: {
       "sectionMeta": _vm.bibl.sectionMeta
     }
-  }) : _vm._e()], 1), _vm._v(" "), _c('div', {
+  }) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "pieceTitleContainer"
   }, [(!this.$root.empty(this.bibl.pieceMeta)) ? _c('biblPieceMeta', {
     attrs: {
