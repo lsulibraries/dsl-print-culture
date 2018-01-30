@@ -1,5 +1,5 @@
 <template>
-  <div class="personBibl">
+  <div class="personBibl" :class="roleClass">
     <div class="issueData"> 
       <biblIssueMetaModal v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="this.bibl.issueMeta"></biblIssueMetaModal>
     </div>
@@ -18,6 +18,11 @@
     import biblSectionMeta from './biblSectionMeta'
     export default {
         components: { biblIssueMeta, biblIssueMetaModal, biblPersonPieceMeta, biblPieceMeta, biblSectionMeta },
-        props: ['bibl']
+        props: ['bibl'],
+        computed: {
+          roleClass: function () {
+            return 'bibl-' + this.bibl.personPieceMeta.personPieceRole.toLowerCase()
+          },
+        }
     }
 </script>

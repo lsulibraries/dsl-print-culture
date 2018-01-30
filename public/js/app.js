@@ -19429,8 +19429,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: { biblIssueMeta: __WEBPACK_IMPORTED_MODULE_0__biblIssueMeta___default.a, biblIssueMetaModal: __WEBPACK_IMPORTED_MODULE_1__biblIssueMetaModal___default.a, biblPersonPieceMeta: __WEBPACK_IMPORTED_MODULE_2__biblPersonPieceMeta___default.a, biblPieceMeta: __WEBPACK_IMPORTED_MODULE_3__biblPieceMeta___default.a, biblSectionMeta: __WEBPACK_IMPORTED_MODULE_4__biblSectionMeta___default.a },
-    props: ['bibl']
+  components: { biblIssueMeta: __WEBPACK_IMPORTED_MODULE_0__biblIssueMeta___default.a, biblIssueMetaModal: __WEBPACK_IMPORTED_MODULE_1__biblIssueMetaModal___default.a, biblPersonPieceMeta: __WEBPACK_IMPORTED_MODULE_2__biblPersonPieceMeta___default.a, biblPieceMeta: __WEBPACK_IMPORTED_MODULE_3__biblPieceMeta___default.a, biblSectionMeta: __WEBPACK_IMPORTED_MODULE_4__biblSectionMeta___default.a },
+  props: ['bibl'],
+  computed: {
+    roleClass: function roleClass() {
+      return 'bibl-' + this.bibl.personPieceMeta.personPieceRole.toLowerCase();
+    }
+  }
 });
 
 /***/ }),
@@ -25095,7 +25100,8 @@ if (false) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "personBibl"
+    staticClass: "personBibl",
+    class: _vm.roleClass
   }, [_c('div', {
     staticClass: "issueData"
   }, [(!this.$root.empty(_vm.bibl.issueMeta)) ? _c('biblIssueMetaModal', {
