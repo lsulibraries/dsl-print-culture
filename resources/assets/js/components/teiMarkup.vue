@@ -1,6 +1,12 @@
 <template>
         <div class='tei-markup'>
-            <div class='teiMarkup' v-html="this.highlightText()"></div>
+            <div class="masthead" v-if="frontPage && masthead">
+                <div class="masthead-title">{{ this.mastheadIssueTitle }}</div>
+                <div class="masthead-volume">{{ this.mastheadIssueVolNum }}</div>
+                <div class="masthead-publication">{{ this.mastheadPublication }}</div>
+                <div class="masthead-people" v-for="group in this.mastheadPeopleGrouped">{{ group }}</div>
+            </div>
+            <div class='teiMarkup' v-html="this.highlightText()" v-if="!frontPage"></div>
         </div>
 </template>
 <script>
@@ -14,10 +20,66 @@
                 if (this.$route.params.biblid) {
                     this.biblId = this.$route.params.biblid
                 }
+                else {
+                    this.biblId = false
+                }
             }
-
-            this.page = this.$root.state.content.issue.page
+            this.getMasthead()
             this.getText()
+        },
+        computed: {
+            frontPage: function () {
+                return this.$route.params.biblid ? false : true
+            },
+            mastheadIssueTitle: function() {
+                return this.masthead.issueTitle
+            },
+            mastheadIssueVolNum: function () {
+                return 'Vol. ' + this.masthead.issueVol + ', No. ' + this.masthead.issueNum
+            },
+            mastheadPublication: function () {
+                return this.masthead.issueDate
+            },
+            mastheadPeople: function () {
+                return this.masthead.issueListPerson
+            },
+            mastheadPeopleGrouped: function () {
+                if (!this.masthead.issueListPerson) {
+                    return []
+                }
+                let people = []
+                let groups = {}
+                for (const item of Object.values(this.mastheadPeople)) {
+                    if(Array.isArray(item)) {
+                        for(let i in item) {
+                            if(!groups.hasOwnProperty(item[i].personIssueRole)) {
+                                groups[item[i].personIssueRole] = []
+                            }
+                            groups[item[i].personIssueRole].push(item[i].personName)
+                        }
+                    }
+                    else {
+                        if(!groups.hasOwnProperty(item.personIssueRole)) {
+                            groups[item.personIssueRole] = []
+                        }
+                        groups[item.personIssueRole].push(item.personName)
+                    }
+                }
+                for (const [key, value] of Object.entries(groups)) {
+                    let text = key + ": "
+                    let stop = Object.values(value).length
+                    let j = 1
+                    for (const name of Object.values(value)) {
+                        text = text + ' ' + name
+                        if (j < stop) {
+                            text = text + ', '
+                        }
+                        j = j + 1
+                    }
+                    people.push(text)
+                }
+                return people
+            }
         },
         watch: {
             '$route': 'fetchData'
@@ -26,54 +88,57 @@
             fetchData: function() {
                 this.issueId = this.$route.params.id
 
-                if(this.$route.params.id && this.$route.params.biblid) {
+                if(this.$route.params.biblid) {
                     this.biblId = this.$route.params.biblid
                 }
                 else { // no biblId supplied in the route
                     this.biblId = false
                 }
-                this.page = this.$root.state.content.issue.page
                 this.getText()
+                this.getMasthead()
             },
-        highlightText: function(){
-            let needle = this.$root.state.content.searchString
-            if(needle.length < 1){
-              return this.issueText
-            }
-            //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
-            pattern = new RegExp('('+needle+')', 'gi')
-            return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>")
-        },
-        getText: function(){
-            if(this.biblId){
-              let url = '/api/broadwayjournal/'+ this.issueId + '/piece-text/' + this.biblId;
-              axios.get(url).then(response => this.issueText = response.data);
-            }else {
-                let url = '/api/broadwayjournal/issue/'+ this.issueId + '/masthead';
+            highlightText: function(){
+                let needle = this.$root.state.content.searchString
+                if(needle.length < 1){
+                  return this.issueText
+                }
+                //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
+                pattern = new RegExp('('+needle+')', 'gi')
+                return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>")
+            },
+            getMasthead: function () {
+                let headerUrl = '/api/broadwayjournal/issue/'+ this.issueId +'/header';
+                axios.get(headerUrl).then(response => this.masthead = response.data.issueMeta);
+            },
+            getText: function(){
+                if(this.biblId){
+                  let url = '/api/broadwayjournal/'+ this.issueId + '/piece-text/' + this.biblId;
                   axios.get(url).then(response => this.issueText = response.data);
-            }
-        },
-        getTocEntry: function(issueId, itemId){
+                }else {
+                    return 'full-text goes here '
+                }
+            },
+            getTocEntry: function(issueId, itemId){
 
-            url = '/api/broadwayjournal/' + issueId + '/toc';
+                url = '/api/broadwayjournal/' + issueId + '/toc';
                 axios.get(url).then((response) => {
-            bibl = response.data
-            for (item in bibl.toc){
-                if(item == itemId){
-                this.biblData = bibl.toc[item]
-                return
-                }
-                if(bibl.toc[item].pieces){
-                for (piece in bibl.toc[item].pieces){
-                    if(piece == itemId){
-                    this.biblData = bibl.toc[item].pieces.piece
-                    return
+                    bibl = response.data
+                    for (item in bibl.toc){
+                        if(item == itemId){
+                            this.biblData = bibl.toc[item]
+                            return
+                        }
+                        if(bibl.toc[item].pieces){
+                            for (piece in bibl.toc[item].pieces){
+                                if(piece == itemId){
+                                    this.biblData = bibl.toc[item].pieces.piece
+                                    return
+                                }
+                            }
+                        }
                     }
-                }
-                }
+                });
             }
-            });
-        }
         },
         mounted() {
 
@@ -82,11 +147,11 @@
         data(){
             return{
                 issueId: '',
-                page:'',
                 markdown:[],
                 issueText: '',
-                // biblId: '',
+                masthead: {},
                 biblData: {},
+                biblId: false
             }
         },
     }

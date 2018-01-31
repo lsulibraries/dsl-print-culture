@@ -43906,6 +43906,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -43921,13 +43929,135 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
             if (this.$route.params.biblid) {
                 this.biblId = this.$route.params.biblid;
+            } else {
+                this.biblId = false;
             }
         }
-
-        this.page = this.$root.state.content.issue.page;
+        this.getMasthead();
         this.getText();
     },
 
+    computed: {
+        frontPage: function frontPage() {
+            return this.$route.params.biblid ? false : true;
+        },
+        mastheadIssueTitle: function mastheadIssueTitle() {
+            return this.masthead.issueTitle;
+        },
+        mastheadIssueVolNum: function mastheadIssueVolNum() {
+            return 'Vol. ' + this.masthead.issueVol + ', No. ' + this.masthead.issueNum;
+        },
+        mastheadPublication: function mastheadPublication() {
+            return this.masthead.issueDate;
+        },
+        mastheadPeople: function mastheadPeople() {
+            return this.masthead.issueListPerson;
+        },
+        mastheadPeopleGrouped: function mastheadPeopleGrouped() {
+            if (!this.masthead.issueListPerson) {
+                return [];
+            }
+            var people = [];
+            var groups = {};
+            var _iteratorNormalCompletion = true;
+            var _didIteratorError = false;
+            var _iteratorError = undefined;
+
+            try {
+                for (var _iterator = Object.values(this.mastheadPeople)[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+                    var _item = _step.value;
+
+                    if (Array.isArray(_item)) {
+                        for (var i in _item) {
+                            if (!groups.hasOwnProperty(_item[i].personIssueRole)) {
+                                groups[_item[i].personIssueRole] = [];
+                            }
+                            groups[_item[i].personIssueRole].push(_item[i].personName);
+                        }
+                    } else {
+                        if (!groups.hasOwnProperty(_item.personIssueRole)) {
+                            groups[_item.personIssueRole] = [];
+                        }
+                        groups[_item.personIssueRole].push(_item.personName);
+                    }
+                }
+            } catch (err) {
+                _didIteratorError = true;
+                _iteratorError = err;
+            } finally {
+                try {
+                    if (!_iteratorNormalCompletion && _iterator.return) {
+                        _iterator.return();
+                    }
+                } finally {
+                    if (_didIteratorError) {
+                        throw _iteratorError;
+                    }
+                }
+            }
+
+            var _iteratorNormalCompletion2 = true;
+            var _didIteratorError2 = false;
+            var _iteratorError2 = undefined;
+
+            try {
+                for (var _iterator2 = Object.entries(groups)[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+                    var _step2$value = _slicedToArray(_step2.value, 2),
+                        key = _step2$value[0],
+                        value = _step2$value[1];
+
+                    var text = key + ": ";
+                    var stop = Object.values(value).length;
+                    var j = 1;
+                    var _iteratorNormalCompletion3 = true;
+                    var _didIteratorError3 = false;
+                    var _iteratorError3 = undefined;
+
+                    try {
+                        for (var _iterator3 = Object.values(value)[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
+                            var name = _step3.value;
+
+                            text = text + ' ' + name;
+                            if (j < stop) {
+                                text = text + ', ';
+                            }
+                            j = j + 1;
+                        }
+                    } catch (err) {
+                        _didIteratorError3 = true;
+                        _iteratorError3 = err;
+                    } finally {
+                        try {
+                            if (!_iteratorNormalCompletion3 && _iterator3.return) {
+                                _iterator3.return();
+                            }
+                        } finally {
+                            if (_didIteratorError3) {
+                                throw _iteratorError3;
+                            }
+                        }
+                    }
+
+                    people.push(text);
+                }
+            } catch (err) {
+                _didIteratorError2 = true;
+                _iteratorError2 = err;
+            } finally {
+                try {
+                    if (!_iteratorNormalCompletion2 && _iterator2.return) {
+                        _iterator2.return();
+                    }
+                } finally {
+                    if (_didIteratorError2) {
+                        throw _iteratorError2;
+                    }
+                }
+            }
+
+            return people;
+        }
+    },
     watch: {
         '$route': 'fetchData'
     },
@@ -43935,14 +44065,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         fetchData: function fetchData() {
             this.issueId = this.$route.params.id;
 
-            if (this.$route.params.id && this.$route.params.biblid) {
+            if (this.$route.params.biblid) {
                 this.biblId = this.$route.params.biblid;
             } else {
                 // no biblId supplied in the route
                 this.biblId = false;
             }
-            this.page = this.$root.state.content.issue.page;
             this.getText();
+            this.getMasthead();
         },
         highlightText: function highlightText() {
             var needle = this.$root.state.content.searchString;
@@ -43953,36 +44083,41 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             pattern = new RegExp('(' + needle + ')', 'gi');
             return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>");
         },
-        getText: function getText() {
+        getMasthead: function getMasthead() {
             var _this = this;
+
+            var headerUrl = '/api/broadwayjournal/issue/' + this.issueId + '/header';
+            axios.get(headerUrl).then(function (response) {
+                return _this.masthead = response.data.issueMeta;
+            });
+        },
+        getText: function getText() {
+            var _this2 = this;
 
             if (this.biblId) {
                 var _url = '/api/broadwayjournal/' + this.issueId + '/piece-text/' + this.biblId;
                 axios.get(_url).then(function (response) {
-                    return _this.issueText = response.data;
+                    return _this2.issueText = response.data;
                 });
             } else {
-                var _url2 = '/api/broadwayjournal/issue/' + this.issueId + '/masthead';
-                axios.get(_url2).then(function (response) {
-                    return _this.issueText = response.data;
-                });
+                return 'full-text goes here ';
             }
         },
         getTocEntry: function getTocEntry(issueId, itemId) {
-            var _this2 = this;
+            var _this3 = this;
 
             url = '/api/broadwayjournal/' + issueId + '/toc';
             axios.get(url).then(function (response) {
                 bibl = response.data;
                 for (item in bibl.toc) {
                     if (item == itemId) {
-                        _this2.biblData = bibl.toc[item];
+                        _this3.biblData = bibl.toc[item];
                         return;
                     }
                     if (bibl.toc[item].pieces) {
                         for (piece in bibl.toc[item].pieces) {
                             if (piece == itemId) {
-                                _this2.biblData = bibl.toc[item].pieces.piece;
+                                _this3.biblData = bibl.toc[item].pieces.piece;
                                 return;
                             }
                         }
@@ -43995,11 +44130,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             issueId: '',
-            page: '',
             markdown: [],
             issueText: '',
-            // biblId: '',
-            biblData: {}
+            masthead: {},
+            biblData: {},
+            biblId: false
         };
     }
 });
@@ -57004,12 +57139,24 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "tei-markup"
+  }, [(_vm.frontPage && _vm.masthead) ? _c('div', {
+    staticClass: "masthead"
   }, [_c('div', {
+    staticClass: "masthead-title"
+  }, [_vm._v(_vm._s(this.mastheadIssueTitle))]), _vm._v(" "), _c('div', {
+    staticClass: "masthead-volume"
+  }, [_vm._v(_vm._s(this.mastheadIssueVolNum))]), _vm._v(" "), _c('div', {
+    staticClass: "masthead-publication"
+  }, [_vm._v(_vm._s(this.mastheadPublication))]), _vm._v(" "), _vm._l((this.mastheadPeopleGrouped), function(group) {
+    return _c('div', {
+      staticClass: "masthead-people"
+    }, [_vm._v(_vm._s(group))])
+  })], 2) : _vm._e(), _vm._v(" "), (!_vm.frontPage) ? _c('div', {
     staticClass: "teiMarkup",
     domProps: {
       "innerHTML": _vm._s(this.highlightText())
     }
-  })])
+  }) : _vm._e()])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
