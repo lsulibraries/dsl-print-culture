@@ -18319,6 +18319,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['personPieceMeta'],
     methods: {
+        isMentioned: function isMentioned() {
+            return !this.$root.empty(this.personPieceMeta.personPieceMentionStatement);
+        },
         showAuthorship: function showAuthorship() {
             var hasValue = !this.$root.empty(this.personPieceMeta.personPiecePseudo);
             if (hasValue) {
@@ -19344,12 +19347,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__drawer__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__drawer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__drawer__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__drawer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__drawer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__drawer__);
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: { drawer: __WEBPACK_IMPORTED_MODULE_0__drawer___default.a },
+    components: { drawer: __WEBPACK_IMPORTED_MODULE_1__drawer___default.a, VueScrollbar: __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue___default.a },
     data: function data() {
         return {
             authorShipLegend: 'Author will have 2-3 a',
@@ -24223,7 +24229,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "personSide"
   }, [_c('personFilter'), _vm._v(" "), _c('vue-scrollbar', {
     ref: "Scrollbar",
-    staticClass: "my-scrollbar"
+    staticClass: "person-scrollbar"
   }, [_c('personIndex', {
     staticClass: "scroll-me"
   })], 1)], 1)])
@@ -24771,16 +24777,16 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return (this.personPieceMeta.personPieceMentionStatement) ? _c('div', {
+  return _c('div', {
     staticClass: "personPieceMeta"
   }, [(_vm.showAuthorship()) ? _c('div', {
     staticClass: "authorShip",
     attrs: {
       "title": this.getAuthorshipTitle()
     }
-  }, [_vm._v(_vm._s(this.getAuthorship()))]) : _vm._e(), _vm._v(" "), _c('div', {
+  }, [_vm._v(_vm._s(this.getAuthorship()))]) : _vm._e(), _vm._v(" "), (this.isMentioned()) ? _c('div', {
     staticClass: "personPieceMentionStatement"
-  }, [_vm._v(_vm._s(this.personPieceMeta.personPieceMentionStatement))])]) : _vm._e()
+  }, [_vm._v(_vm._s(this.personPieceMeta.personPieceMentionStatement))]) : _vm._e()])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -26204,13 +26210,18 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "modal-header"
   }, [_vm._t("header")], 2), _vm._v(" "), _c('div', {
     staticClass: "modal-body"
+  }, [_c('vue-scrollbar', {
+    ref: "Scrollbar",
+    attrs: {
+      "classes": "modal-scrollbar"
+    }
   }, [_vm._t("body"), _vm._v(" "), _c('drawer', {
     attrs: {
       "authorId": this.authorId,
       "declsId": this.biblId,
       "issueId": this.issueId
     }
-  })], 2), _vm._v(" "), _c('div', {
+  })], 2)], 1), _vm._v(" "), _c('div', {
     staticClass: "modal-footer"
   }, [_vm._t("footer", [_c('button', {
     staticClass: "modal-default-button",

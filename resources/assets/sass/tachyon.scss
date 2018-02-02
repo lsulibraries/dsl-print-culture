@@ -149,7 +149,6 @@ body {
 .modal-body {
   margin: 20px 0;
   height: 500px;
-  overflow-y: scroll;
 
     .pieceTitle{
     letter-spacing: 1px;
@@ -1134,19 +1133,15 @@ height: calc(100% - 120px);
     margin-top: 10px;
     border: 1px solid;
     .personPieceMeta { //imported from author
-    background: $darkest;
-    position: absolute;
-    right: -80px;
-    border-radius: 0px 20px 20px 0px;    
-    top: 0px !important;
-    height: 100%;
+    height: 23px;
     z-index: 22;
+    border-top: 1px solid #424242;
     margin-top: 0px !important;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: #f2e6ce;
-    width: 100px !important;
+    width: 100% !important;
     padding: 10px;
     box-sizing: border-box;    
         .authorShip { //imported from author
@@ -1163,9 +1158,13 @@ height: calc(100% - 120px);
         }     //imported from author
     }        //imported from author
   } //imported from author
+
+  .personPieceMentionStatement{
+    @extend .authorShip;
+  }
  //imported from author
     .personPieceMeta, .sectionTitle{ //imported from author
-      opacity: 0; //imported from author
+      opacity: 1; //imported from author
       @include transition(.5s); //imported from author
     } //imported from author
  //imported from author
@@ -1191,7 +1190,6 @@ height: calc(100% - 120px);
     display: flex; //imported from author
     align-items: center; //imported from author
     justify-content: center;
-    margin-bottom: 10px; //imported from author
     cursor: pointer; //imported from author
     color: #002f2f; //imported from author
     margin-left: 0px; //imported from author
@@ -1201,8 +1199,9 @@ height: calc(100% - 120px);
     border-radius: 1px; //imported from author
     @include transition(0.5s); //imported from author
     height: auto;
-    margin-top: 40px;
-    margin-bottom: 23px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0px;
     .pieceTitle{
       font-size: 13px;
       margin-top: 0px;
@@ -1221,6 +1220,7 @@ height: calc(100% - 120px);
     align-items: flex-start; //imported from author
     .sectionTitle { //imported from author
     color: #b2b9a7; //imported from author
+    background: #003838;    
     font-weight: 500; //imported from author
     display: flex; //imported from author
     align-items: flex-start; //imported from author
@@ -1339,7 +1339,7 @@ height: calc(100% - 120px);
   width: 100%;
   left: 0px;
   height: 200px;
-
+  flex-direction: column;
   }
   
   .personMeta{
@@ -1348,7 +1348,7 @@ height: calc(100% - 120px);
 
   .personRole > div{
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   padding: 0px 20px;
   flex-direction: column;
@@ -1362,12 +1362,15 @@ height: calc(100% - 120px);
   } //temp
 
   .mention-statement {
-  position: relative;
-  top: 150px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  width: 100%;
-  align-self: flex-end;
+    position: relative;
+    bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    padding: 0px 20px;
+    box-sizing: border-box;
   }  
 
   .personIndex {
@@ -2569,6 +2572,12 @@ h1{
     max-height: 613px;
 }
 
+
+
+.person-scrollbar{
+    width: 100%;
+}
+
 .nav-scrollbar{
     min-width: 0px;
     max-height: calc(100vh - 120px);
@@ -2589,6 +2598,14 @@ h1{
     right: 80px;
 }
 
+}
+
+.modal-scrollbar{
+    min-width: 300px;
+    max-height: 520px;
+    .vue-scrollbar__scrollbar-vertical {
+    right: 0px;
+    }    
 }
 
 .darkside-scrollbar{
