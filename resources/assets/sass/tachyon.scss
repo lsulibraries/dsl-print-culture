@@ -518,6 +518,7 @@ input:focus {
 
 .issue {
   @include flexbox;
+  background: $lightest;
 }
 
 .interIssueNav {
@@ -527,7 +528,6 @@ input:focus {
   padding: 80px;
   font-weight: 700;
   flex-wrap: wrap;
-    width: calc(30% + 1px);
     box-sizing: border-box;  
     min-width: 236px;
   border-right: 1px solid #e9e9e9;    
@@ -589,7 +589,7 @@ input:focus {
 .issueBody {
   background: $lightest;
   flex-grow: 2;
-  width: calc(70% - 1px);
+  position: relative;
 }
 
 .issueHeader .issueInfo{
@@ -2086,7 +2086,7 @@ background: $greyDark;
     overflow: hidden;
     z-index: 2;
     position: absolute;
-    top: 228px;
+    top: 118px;
     right: 100px;
     width: 123px;
 }
@@ -2567,6 +2567,27 @@ h1{
 .index-scrollbar{
     min-width: 300px;
     max-height: 613px;
+}
+
+.nav-scrollbar{
+    min-width: 0px;
+    max-height: calc(100vh - 120px);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding-right: 15px;
+    width: calc(30% + 7px) !important;
+    }   
+
+.issue-scrollbar{
+
+  width: 69%;
+    max-height: calc(100vh - 120px);
+
+.vue-scrollbar__scrollbar-vertical {
+    right: 80px;
+}
+
 }
 
 .darkside-scrollbar{

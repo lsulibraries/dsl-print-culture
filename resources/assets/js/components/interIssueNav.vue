@@ -1,10 +1,12 @@
 <script>
   import issueMonth from './issueMonth' 
   import intraIssueNav from './intraIssueNav'
+  import VueScrollbar from './vue-scrollbar.vue'   
   export default {
     components: {
       intraIssueNav,
-      issueMonth
+      issueMonth,
+      VueScrollbar
     },
     data(){
       return {
@@ -37,6 +39,7 @@
   }
 </script>
 <template>
+          <vue-scrollbar classes="nav-scrollbar" ref="Scrollbar">
             <div v-if="hasData" class="interIssueNav">
               <div class="issueMask"></div>
               <div class="issueIndex">
@@ -55,4 +58,5 @@
               </div>
               <intraIssueNav></intraIssueNav>
             </div>
+          </vue-scrollbar>
 </template>

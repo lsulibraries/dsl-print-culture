@@ -4,8 +4,9 @@
     import issueViewer from './issueViewer'
     import viewerSelector from './viewerSelector'
     import {Circle9} from 'vue-loading-spinner'
+    import VueScrollbar from './vue-scrollbar.vue'  
     export default {
-        components: { interIssueNav, issueHeader, issueViewer, Circle9, viewerSelector },
+        components: { interIssueNav, issueHeader, issueViewer, Circle9, viewerSelector, VueScrollbar },
         created() {
             if (this.$route) {
                 if(this.$route.params.id) {
@@ -38,11 +39,13 @@
 <template>
     <div class="issue">
         <interIssueNav></interIssueNav>
-        <div class="issueBody">
-            <viewerSelector></viewerSelector>
-            <circle9 v-if="this.loading" :size="'40px'"></circle9>
-            <issueHeader v-if="!this.loading"></issueHeader>
-            <issueViewer v-if="!this.loading" :issueId="this.issueId" :biblId="this.biblId"></issueViewer>
-        </div>
+        <vue-scrollbar classes="issue-scrollbar" ref="Scrollbar">        
+            <div class="issueBody">
+                <viewerSelector></viewerSelector>
+                <circle9 v-if="this.loading" :size="'40px'"></circle9>
+                <issueHeader v-if="!this.loading"></issueHeader>
+                <issueViewer v-if="!this.loading" :issueId="this.issueId" :biblId="this.biblId"></issueViewer>
+            </div>
+        </vue-scrollbar>
     </div>
 </template>
