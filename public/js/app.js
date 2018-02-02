@@ -23908,7 +23908,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("Author Works")]), _vm._v(" "), _c('vue-scrollbar', {
     ref: "Scrollbar",
     attrs: {
-      "classes": "index-scrollbar"
+      "classes": "person-scrollbar"
     }
   }, [_c('div', {
     staticClass: "personListBiblInner"

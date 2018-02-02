@@ -2551,6 +2551,7 @@ h1{
   height: 100%;
   top: 0;
   right: 0;
+    z-index: 88; //new  
 }
 .vue-scrollbar__scrollbar-vertical .scrollbar {
   width: 10px; //new
@@ -2575,7 +2576,9 @@ h1{
 
 
 .person-scrollbar{
-    width: 100%;
+    max-height: 613px;
+    padding-right: 100px;    
+
 }
 
 .nav-scrollbar{
@@ -2631,6 +2634,10 @@ h1{
 .personography .workSide .personListBibl {
     padding-top: 80px;
     margin: 0px 40px;
+}
+
+.person-scrollbar{
+    padding-right: 60px;    
 }
 
 .personography .workSide .personListBibl .personListBiblInner{

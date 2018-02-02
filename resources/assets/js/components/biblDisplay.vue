@@ -1,7 +1,7 @@
 <template>
     <div class="personListBibl">
         <div class="personListBiblLabel">Author Works</div>
-        <vue-scrollbar classes="index-scrollbar" ref="Scrollbar">
+        <vue-scrollbar classes="person-scrollbar" ref="Scrollbar">
             <div class="personListBiblInner">
                 <div v-if="!biblActive" class="fillerWork">
                     <div class="fillerMessage">Choose an author to view their works</div>
