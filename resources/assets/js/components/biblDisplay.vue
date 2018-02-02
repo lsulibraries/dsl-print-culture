@@ -30,6 +30,10 @@
             }
         },
 
+        watch: {
+        '$route': 'routeUpdated'
+        },
+
         computed: {
             biblActive: function () {
                 if (this.$route.params.id && this.personographyLoaded() && this.person) {
@@ -52,6 +56,10 @@
 
         },
         methods: {
+            routeUpdated: function () {
+                this.$refs.Scrollbar.scrollToY(0)
+            },
+
             personographyLoaded: function () {
                 return !this.$root.empty(this.$root.xhrDataStore.personography)
             },

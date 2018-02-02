@@ -18228,6 +18228,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
 
 
+    watch: {
+        '$route': 'routeUpdated'
+    },
+
     computed: {
         biblActive: function biblActive() {
             if (this.$route.params.id && this.personographyLoaded() && this.person) {
@@ -18249,6 +18253,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     created: function created() {},
 
     methods: {
+        routeUpdated: function routeUpdated() {
+            this.$refs.Scrollbar.scrollToY(0);
+        },
+
         personographyLoaded: function personographyLoaded() {
             return !this.$root.empty(this.$root.xhrDataStore.personography);
         },
