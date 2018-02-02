@@ -14,7 +14,7 @@
     </div>
 </template>
 <script>
-    import VueScrollbar from './vue-scrollbar.vue';     
+    import VueScrollbar from 'vue2-scrollbar';     
     import personMeta from './personMeta'
     import personBibl from './personBibl'
     export default {
