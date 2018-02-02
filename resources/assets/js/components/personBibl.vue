@@ -4,8 +4,6 @@
       <biblIssueMetaModal v-if="!this.$root.empty(bibl.issueMeta)" :issueMeta="this.bibl.issueMeta"></biblIssueMetaModal>
     </div>
     <biblSectionMeta v-if="!this.$root.empty(bibl.sectionMeta)"  :sectionMeta="bibl.sectionMeta"></biblSectionMeta>  
-    <div v-if="!this.bibl.sectionMeta" class="sectionFiller sectionMeta"><div class="sectionTitle">Standalone</div></div>  
-
     <div class="pieceTitleContainer">
       <biblPieceMeta v-if="!this.$root.empty(this.bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
     </div>
