@@ -704,6 +704,40 @@ module.exports = {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(0)(
+  /* script */
+  __webpack_require__(120),
+  /* template */
+  __webpack_require__(293),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vue-scrollbar.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] vue-scrollbar.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-acfc16ee", Component.options)
+  } else {
+    hotAPI.reload("data-v-acfc16ee", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -893,40 +927,6 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Component = __webpack_require__(0)(
-  /* script */
-  __webpack_require__(120),
-  /* template */
-  __webpack_require__(293),
-  /* scopeId */
-  null,
-  /* cssModules */
-  null
-)
-Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/vue-scrollbar.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] vue-scrollbar.vue: functional components are not supported with templates, they should use render functions.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-acfc16ee", Component.options)
-  } else {
-    hotAPI.reload("data-v-acfc16ee", Component.options)
-  }
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1059,7 +1059,7 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
 /* 8 */
@@ -1379,7 +1379,7 @@ module.exports = function xhrAdapter(config) {
   });
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
 /* 14 */
@@ -4463,7 +4463,7 @@ if (inBrowser && window.Vue) {
 
 /* harmony default export */ __webpack_exports__["a"] = (VueRouter);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(4)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)))
 
 /***/ }),
 /* 26 */
@@ -15282,7 +15282,7 @@ Vue$3.compile = compileToFunctions;
 
 module.exports = Vue$3;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(11), __webpack_require__(168).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5), __webpack_require__(11), __webpack_require__(168).setImmediate))
 
 /***/ }),
 /* 27 */
@@ -18116,7 +18116,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewerSelector__ = __webpack_require__(233);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewerSelector___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__viewerSelector__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vue_loading_spinner__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vue_scrollbar_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vue_scrollbar_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vue_scrollbar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__vue_scrollbar_vue__);
 
 
@@ -18173,6 +18173,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
     components: { biblDisplay: __WEBPACK_IMPORTED_MODULE_2__biblDisplay___default.a, personIndex: __WEBPACK_IMPORTED_MODULE_0__personIndex___default.a, personFilter: __WEBPACK_IMPORTED_MODULE_1__personFilter___default.a },
     data: function data() {
@@ -18190,7 +18191,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personMeta__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__personMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__personMeta__);
@@ -18860,7 +18861,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__issueMonth___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__issueMonth__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__intraIssueNav__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__intraIssueNav___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__intraIssueNav__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vue_scrollbar_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vue_scrollbar_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vue_scrollbar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__vue_scrollbar_vue__);
 
 
@@ -19347,7 +19348,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__drawer__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__drawer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__drawer__);
@@ -19699,7 +19700,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_scrollbar_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_loading_spinner__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__person__ = __webpack_require__(227);
@@ -21298,7 +21299,7 @@ exports.push([module.i, "\n.spinner[data-v-ffd49aa4] {\n  display: -webkit-box;\
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11), __webpack_require__(4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11), __webpack_require__(5)))
 
 /***/ }),
 /* 168 */
@@ -24227,12 +24228,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "personographyAbout"
   }, [_vm._v("Lorem ipsum")])], 1), _vm._v(" "), _c('div', {
     staticClass: "personSide"
-  }, [_c('personFilter'), _vm._v(" "), _c('vue-scrollbar', {
-    ref: "Scrollbar",
-    staticClass: "person-scrollbar"
-  }, [_c('personIndex', {
-    staticClass: "scroll-me"
-  })], 1)], 1)])
+  }, [_c('personFilter'), _vm._v(" "), _c('personIndex')], 1)])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {

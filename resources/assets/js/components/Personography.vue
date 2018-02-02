@@ -2,6 +2,7 @@
     import personIndex from './personIndex'
     import personFilter from './personFilter'
     import biblDisplay from './biblDisplay'
+
     export default {
         components: { biblDisplay, personIndex, personFilter },
         data(){
@@ -21,9 +22,7 @@
         </div>
         <div class="personSide">
             <personFilter></personFilter>
-            <vue-scrollbar class="person-scrollbar" ref="Scrollbar">
-              <personIndex class="scroll-me"></personIndex>
-            </vue-scrollbar>
+              <personIndex></personIndex>
         </div>
     </div>
 </template>

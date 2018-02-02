@@ -1190,7 +1190,6 @@ height: calc(100% - 120px);
     display: flex; //imported from author
     align-items: center; //imported from author
     justify-content: center;
-    cursor: pointer; //imported from author
     color: #002f2f; //imported from author
     margin-left: 0px; //imported from author
     padding: 20px; //imported from author
@@ -1205,6 +1204,7 @@ height: calc(100% - 120px);
     .pieceTitle{
       font-size: 13px;
       margin-top: 0px;
+      cursor: pointer;
     }
   } //imported from author
   .sectionMeta{ //imported from author
