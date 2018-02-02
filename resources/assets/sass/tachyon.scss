@@ -911,6 +911,7 @@ button.searchSubmit {
     background: $darkest;
     width: 30%;
     box-sizing: border-box;
+height: calc(100% - 120px);    
     .role-name {
     border-radius: 30px;
     border: 1px solid;
@@ -918,8 +919,9 @@ button.searchSubmit {
     }
     .role-mentioned {
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-grow: 2;
+    margin-top: 7px;    
     }    
     .mention-statement{
     font-weight: 500;
@@ -956,7 +958,9 @@ button.searchSubmit {
     padding-left: 5px !important;
     align-self: end;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
+    flex-wrap: wrap;
+    height: auto;
     }
     .fillerWork{
     height: 50%;
@@ -996,7 +1000,7 @@ button.searchSubmit {
     margin: 0px 80px;
       .personListBiblInner{
       box-sizing: border-box;
-      height: 100%;   
+      height: auto;   
       .personMeta {
       height: 200px;
       background: none;
@@ -1029,15 +1033,6 @@ button.searchSubmit {
         color:$lightest;
         font-weight: 500;
         letter-spacing: 1px;
-      }
-      .pieceTitle::before{
-        content: '';
-        height: 15px;
-        width: 15px;
-        position: absolute;
-        background-color: $fiftylight;
-        left: 10px;
-        top: calc(50% - 7px);
       }
       }    
 //begin import styles
@@ -1111,7 +1106,7 @@ button.searchSubmit {
 
     z-index: 3; //imported from author
     width: 100%;
-    border: 1px solid;
+    border-bottom: 1px solid;
     .issueDate{ //imported from author
       width:auto; //imported from author
     } //imported from author
@@ -1135,15 +1130,16 @@ button.searchSubmit {
     flex-wrap: wrap; //imported from author
     flex-direction: column; //imported from author
     padding: 0px; //imported from author
-    background: transparent; //imported from author
-    margin-top: 0px; //imported from author
+    background: #003838;
+    margin-top: 10px;
+    border: 1px solid;
     .personPieceMeta { //imported from author
     background: $darkest;
     position: absolute;
     right: -80px;
     border-radius: 0px 20px 20px 0px;    
     top: 0px !important;
-    height: 91px;
+    height: 100%;
     z-index: 22;
     margin-top: 0px !important;
     display: flex;
@@ -1194,6 +1190,7 @@ button.searchSubmit {
   .pieceMeta { //imported from author
     display: flex; //imported from author
     align-items: center; //imported from author
+    justify-content: center;
     margin-bottom: 10px; //imported from author
     cursor: pointer; //imported from author
     color: #002f2f; //imported from author
@@ -1204,21 +1201,23 @@ button.searchSubmit {
     border-radius: 1px; //imported from author
     @include transition(0.5s); //imported from author
     height: auto;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 23px;
     .pieceTitle{
       font-size: 13px;
+      margin-top: 0px;
     }
   } //imported from author
   .sectionMeta{ //imported from author
     position: absolute;
-    bottom: 23px;
-    left: 10px;
-    width: 180px;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
     border-radius: 0px;
     padding: 0px;
     display: flex; //imported from author
     text-align: right; //imported from author
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-start; //imported from author
     .sectionTitle { //imported from author
     color: #b2b9a7; //imported from author
@@ -1233,10 +1232,14 @@ button.searchSubmit {
     line-height: 12px; //imported from author
     padding: 0px; //imported from author
     border-radius: 0px; //imported from author
-    position: absolute; //imported from author
     border: 0px;
-    border-top: 1px solid; //imported from author
-    padding-top: 5px; //imported from author
+    border-top: 1px solid #424242;
+    border-left: 1px solid #424242;
+    padding-top: 5px;
+    opacity: 1 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
     }      //imported from author
  //imported from author
   } //imported from author
@@ -1329,6 +1332,7 @@ button.searchSubmit {
   background: $lightest;
   position: relative;
   box-sizing: border-box;
+  height: calc(100% - 120px);
   .personRole{
   position: absolute;
   top: 0px;
@@ -1369,7 +1373,6 @@ button.searchSubmit {
   .personIndex {
     position: relative;
     margin: 0px 80px;
-    width: 100%;
     .personIndexLabel {
     @extend .labelFilter;
     position: absolute;
@@ -2443,66 +2446,6 @@ h1{
 
 .highContrast {
 
-.childText::before {
-    content: '';
-    width: 24px;
-    height: 24px;
-    left: -6px;
-    top: -6px;
-  }
-
-
-.issueDate{
-      min-width: 170px;
-}
-
-.issueVol{
-  width: 90px;
-}
-
-.issueNum{
-
-}
-
-.roleFilter > div {
-    background: black;
-  }
-
-.personBibl{
-  min-height: 88px;
-}
-
-.personIndex .person {
-    background: #ffffff;
-  }
-
-  .personIndex{
-
-.personBibl .issueVol, .personBibl .issueNum {
-    float: none;
-    background: $greyDark;
-}
-
-    .Contributing .personName  {
-    color: $greyDark;
-}
-
-.Mentioned .personRole, .Correspondent .personRole, .Contributing .personRole {
-    background: $greyDark;
-    color: #ffffff;
-}
-  }
-
-.singleIndex.activeMonth, .headerNav > .active, .headerNav > .active, .aboutToggle .active {
-    color: black;
-}
-
-.singleIndex.activeMonth{
-  background: none;
-}
-
-
-
   .contrastOff {
     background: $lightest;
     color: $document-text-color;
@@ -2563,6 +2506,79 @@ h1{
 }
 
 
+.vue-scrollbar-transition, .vue-scrollbar__scrollbar-vertical, .vue-scrollbar__scrollbar-horizontal {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.vue-scrollbar-transition--scrollbar {
+  transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+}
+
+.vue-scrollbar__wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding-right: 20px; //new
+  width: 100%;   //new
+}
+.vue-scrollbar__wrapper:hover .vue-scrollbar__scrollbar-vertical, .vue-scrollbar__wrapper:hover .vue-scrollbar__scrollbar-horizontal {
+  opacity: 1;
+}
+.vue-scrollbar__scrollbar-vertical, .vue-scrollbar__scrollbar-horizontal {
+  opacity: 0.5;
+  position: absolute;
+  background: transparent;
+}
+.vue-scrollbar__scrollbar-vertical:hover, .vue-scrollbar__scrollbar-horizontal:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.vue-scrollbar__scrollbar-vertical .scrollbar, .vue-scrollbar__scrollbar-horizontal .scrollbar {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+.vue-scrollbar__scrollbar-vertical {
+  width: 10px; //new
+  border-radius: 30px; //new
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.vue-scrollbar__scrollbar-vertical .scrollbar {
+  width: 10px; //new
+  border-radius: 30px; //new
+}
+.vue-scrollbar__scrollbar-horizontal {
+  height: 10px;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+.vue-scrollbar__scrollbar-horizontal .scrollbar {
+  height: 10px;
+}
+
+/*The Wrapper*/
+.index-scrollbar{
+    min-width: 300px;
+    max-height: 613px;
+}
+
+.darkside-scrollbar{
+    max-height: 613px;
+}
+
+/*The Content*/
+.scroll-me{
+  min-width: 750px;
+}
+
+
  @media screen and (max-width: 1870px){
  .personIndex .person {
     width: calc(33% - 2px);
@@ -2605,3 +2621,4 @@ h1{
     width: 100%;
 }
 }
+

@@ -1,16 +1,13 @@
 <template>
-    <div class="personPieceMeta">
+    <div class="personPieceMeta" v-if="this.personPieceMeta.personPieceMentionStatement">
         <div class="authorShip" v-if="showAuthorship()" :title="this.getAuthorshipTitle()">{{this.getAuthorship()}}</div>
-        <div class="personPieceMentionStatement" v-if="this.isMentioned()">{{ this.personPieceMeta.personPieceMentionStatement }}</div>
+        <div class="personPieceMentionStatement">{{ this.personPieceMeta.personPieceMentionStatement }}</div>
     </div>
 </template>
 <script>
     export default {
         props: ['personPieceMeta'],
         methods: {
-            isMentioned: function () {
-                return !this.$root.empty(this.personPieceMeta.personPieceMentionStatement)
-            },
             showAuthorship: function () {
                 let hasValue     = !this.$root.empty(this.personPieceMeta.personPiecePseudo)
                 if(hasValue){

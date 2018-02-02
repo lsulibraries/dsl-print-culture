@@ -21,7 +21,10 @@
         </div>
         <div class="personSide">
             <personFilter></personFilter>
-            <personIndex></personIndex>
+            <vue-scrollbar class="my-scrollbar" ref="Scrollbar">
+              <personIndex class="scroll-me"></personIndex>
+            </vue-scrollbar>
         </div>
     </div>
 </template>
+
