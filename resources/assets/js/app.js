@@ -81,6 +81,7 @@ new Vue({
 	    abouts: {
 		about: '',
 		methodology: '',
+		opendata: 'lorem',
 		credits: {}
 	    },
 	    personography: {}

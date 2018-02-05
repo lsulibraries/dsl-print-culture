@@ -25,6 +25,8 @@ Route::get('/broadwayjournal/issue/{year}/{month}/{day}/pdf', 'IssuesController@
 Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@index');
 
 Route::get('/broadwayjournal/issue/{year}/{month}/{day}/{format}', 'IssuesController@download');
+Route::get('/api/broadwayjournal/download/{zip}', 'IssuesController@dataDownload');
+
 
 Route::get('/api/broadwayjournal/{id}/toc', 'IssuesController@toc');
 

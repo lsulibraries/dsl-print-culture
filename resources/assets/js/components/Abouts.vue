@@ -4,6 +4,7 @@
            <router-link :to="'/project/about'" tag='div' class="about" active-class="active">Project</router-link>
            <router-link :to="'/project/methodology'" tag='div' class="technical" active-class="active">Methodology</router-link>
            <router-link :to="'/project/staff'" tag='div' class="credits" active-class="active">Staff</router-link>
+           <router-link :to="'/project/opendata'" tag='div' class="data" active-class="active">Open Data</router-link>
          </div>
          <div class="aboutViewer">
            <logo v-if="this.context == 'about'"></logo>
@@ -11,6 +12,13 @@
            <div class="about-methodology" v-if="this.context == 'methodology'  && !this.isLoading" v-html="this.text"></div>
            <div class="about-staff" v-if="this.context == 'staff'">
             <creditsPersonList v-if="!this.isLoading"></creditsPersonList>
+           </div>
+           <div class="about-opendata" v-if="this.context == 'opendata'">
+              <div class="about-opendata-links" v-for="link in links">
+               <div class="about-opendata-label">{{ link.label }}</div>
+               <div class="about-opendata-link"><a :href="link.link">{{ link.link }}</a></div>
+               <div class="about-opendata-description">{{ link.description }}</div>
+             </div>
            </div>
          </div>
        </div>
@@ -24,15 +32,39 @@
 
       data() {
           return {
+            links: [
+              {
+                label: 'TEI text files',
+                link: '/api/broadwayjournal/download/tei',
+                description: "placeholder ..."
+              },
+              {
+                label: 'PDF files',
+                link: '/api/broadwayjournal/download/pdf',
+                description: "placeholder ..."
+              },
+              {
+                label: 'Intermediate data',
+                link: '/api/broadwayjournal/download/intermediate_xml',
+                description: "placeholder ..."
+              },
+              {
+                label: 'all',
+                link: '/api/broadwayjournal/download/all',
+                description: "placeholder ..."
+              }
+            ]
           }
       },
 
       computed: {
         context: function () {
-          if (['project', 'methodology', 'staff'].indexOf(this.$route.params.id) == -1) {
-            return 'about'
+          let context = 'about'
+          if (['project', 'methodology', 'opendata', 'staff'].indexOf(this.$route.params.id) != -1) {
+            context = this.$route.params.id
           }
-          return this.$route.params.id
+          console.log(context)
+          return context
         },
         text: function () {
           return this.$root.xhrDataStore.abouts[this.context]
