@@ -278,7 +278,11 @@
             return date
         }
     },
-
+    computed: {
+        frontPage: function () {
+            return this.$route.params.biblid ? false : true
+        }
+    },
     mounted() {
 //  Event.$emit('issueSelected', this.$root.state.content.issue.id)
     }
@@ -286,7 +290,7 @@
 </script>
 <template>
     <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
-        <div class="issueInfo">
+        <div class="issueInfo" v-if="!this.frontPage">
             <div class='issueDate'>{{this.formatDate()}}</div>
             <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
             <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta()"></biblSectionMeta>

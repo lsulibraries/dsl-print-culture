@@ -35,6 +35,9 @@
         computed: {
             loading: function() {
                 return this.$root.empty(this.$root.xhrDataStore.personography);
+            },
+            frontPage: function () {
+                return this.$route.params.biblid ? false : true
             }
         },
         methods: {
@@ -48,7 +51,7 @@
     <div class="issue">
         <interIssueNav></interIssueNav>
         <vue-scrollbar classes="issue-scrollbar" ref="Scrollbar">        
-            <div class="issueBody">
+            <div class="issueBody" :class="{ isFront: frontPage }">
                 <viewerSelector></viewerSelector>
                 <circle9 v-if="this.loading" :size="'40px'"></circle9>
                 <issueHeader v-if="!this.loading"></issueHeader>
