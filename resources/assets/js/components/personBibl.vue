@@ -7,7 +7,7 @@
     <div class="pieceTitleContainer">
       <biblPieceMeta v-if="!this.$root.empty(this.bibl.pieceMeta)"  :pieceMeta="bibl.pieceMeta" :issueId="bibl.issueMeta.issueId"></biblPieceMeta>
     </div>
-    <biblPersonPieceMeta v-if="!this.$root.empty(this.bibl.personPieceMeta)" :personPieceMeta="this.bibl.personPieceMeta"></biblPersonPieceMeta>
+    <biblPersonPieceMeta v-if="this.bibl.personPieceMeta" :personPieceMeta="this.bibl.personPieceMeta"></biblPersonPieceMeta>
   </div>
 </template>
 <script>

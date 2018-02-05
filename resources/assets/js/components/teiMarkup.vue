@@ -2,9 +2,14 @@
         <div class='tei-markup'>
             <div class="masthead" v-if="frontPage && masthead">
                 <div class="masthead-title">{{ this.mastheadIssueTitle }}</div>
-                <div class="masthead-volume">{{ this.mastheadIssueVolNum }}</div>
-                <div class="masthead-publication">{{ this.mastheadPublication }}</div>
-                <div class="masthead-people" v-for="group in this.mastheadPeopleGrouped">{{ group }}</div>
+                <div class="masthead-issue">
+                    <div class="masthead-volume">{{ this.mastheadIssueVol }}</div>
+                    <div class="masthead-publication">{{ this.mastheadPublication }}</div>
+                    <div class="masthead-number">{{ this.mastheadIssueNum }}</div>
+                </div>
+                <div class="masthead-staff">
+                    <div class="masthead-people" v-for="group in this.mastheadPeopleGrouped">{{ group }}</div>
+                </div>
             </div>
             <div class='teiMarkup' v-html="this.highlightText()" v-if="!frontPage"></div>
         </div>
@@ -34,8 +39,11 @@
             mastheadIssueTitle: function() {
                 return this.masthead.issueTitle
             },
-            mastheadIssueVolNum: function () {
-                return 'Vol. ' + this.masthead.issueVol + ', No. ' + this.masthead.issueNum
+            mastheadIssueNum: function () {
+                return 'No. ' + this.masthead.issueNum
+            },
+            mastheadIssueVol: function () {
+                return 'Vol. ' + this.masthead.issueVol
             },
             mastheadPublication: function () {
                 return this.masthead.issueDate

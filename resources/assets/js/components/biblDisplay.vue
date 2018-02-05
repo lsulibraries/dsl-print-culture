@@ -1,29 +1,37 @@
 <template>
     <div class="personListBibl">
         <div class="personListBiblLabel">Author Works</div>
-        <div class="personListBiblInner">
-            <div v-if="!biblActive" class="fillerWork">
-                <div class="fillerMessage">Choose an author to view their works</div>
+        <vue-scrollbar classes="person-scrollbar" ref="Scrollbar">
+            <div class="personListBiblInner">
+                <div v-if="!biblActive" class="fillerWork">
+                    <div class="fillerMessage">Choose an author to view their works</div>
+                </div>
+                <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
+                <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
+                <personBibl v-if="biblActive" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
             </div>
-            <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
-            <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
-            <personBibl v-if="biblActive" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
-        </div>
+        </vue-scrollbar>
     </div>
 </template>
 <script>
+    import VueScrollbar from 'vue2-scrollbar';     
     import personMeta from './personMeta'
     import personBibl from './personBibl'
     export default {
         components: {
             personBibl,
             personMeta,
+            VueScrollbar
         },
 
         data(){
             return {
 
             }
+        },
+
+        watch: {
+        '$route': 'routeUpdated'
         },
 
         computed: {
@@ -48,6 +56,10 @@
 
         },
         methods: {
+            routeUpdated: function () {
+                this.$refs.Scrollbar.scrollToY(0)
+            },
+
             personographyLoaded: function () {
                 return !this.$root.empty(this.$root.xhrDataStore.personography)
             },
