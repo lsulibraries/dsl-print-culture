@@ -122,10 +122,31 @@ body {
 .masthead{
     @include flexbox;
     flex-direction: column;
-    border: 10px solid $greyDark;
+    border: 10px solid;
     padding: 1px;
+  .masthead-editor, .masthead-publisher, .masthead-printer {
+      margin-right: 1px;
+      display: flex;
+      align-items: center;
+      background: #424242;
+      flex-grow: 1;
+      justify-content: center;
+      padding: 17px 0px;
+      padding-right: 10px;      
+  }    
+  .masthead-role-label {
+      background: #424242;
+      color: #f2e6ce;
+      padding-right: 10px;
+    margin-left: 20px;      
+  }    
   .masthead-name{
+    padding-left: 4px;
+    background: #424242;
+    color: #f2e6ce;
+    padding: 0px;
     font-weight: 400;
+    margin-right: 10px;
   }
   .masthead-title{
     font-family: Roboto Slab;
@@ -136,6 +157,7 @@ body {
     font-size: 4em;
     text-transform: uppercase;
     padding: 10px 0px;
+    border-bottom: 0px;
   }  
 .masthead-issue {
     @include flexbox;
@@ -153,7 +175,7 @@ body {
     display: inline-flex;
     color: $lightest;
     width: fit-content;
-    padding: 10px;
+    padding: 10px 20px;
     text-transform: uppercase;    
     }
     .masthead-publication{
@@ -171,17 +193,18 @@ body {
     }
 }  
 .masthead-staff {
-    border: 1px solid $greyDark;
-    padding: 20px;
+    padding: 0px 0px;
     font-weight: 700;
     text-transform: uppercase;
-    background: $greyDark;
-    color: $lightest;
-    .masthead-people {
-    border-left: 10px solid;
-    padding-left: 10px;
-    }    
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    @include flexbox;  
+
 }
+
+.masthead-staff > div:last-child {
+    margin-right: 0px !important;
+} //added to negate double stroke
 
 }
 
