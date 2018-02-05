@@ -43919,6 +43919,14 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['issue', 'bibl'],
@@ -43935,6 +43943,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
         }
         this.getMasthead();
         this.getText();
+        this.parseRoles();
     },
 
     computed: {
@@ -43944,16 +43953,88 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
         mastheadIssueTitle: function mastheadIssueTitle() {
             return this.masthead.issueTitle;
         },
-        mastheadIssueVolNum: function mastheadIssueVolNum() {
-            return 'Vol. ' + this.masthead.issueVol + ', No. ' + this.masthead.issueNum;
+        mastheadIssueNum: function mastheadIssueNum() {
+            return 'No. ' + this.masthead.issueNum;
+        },
+        mastheadIssueVol: function mastheadIssueVol() {
+            return 'Vol. ' + this.masthead.issueVol;
         },
         mastheadPublication: function mastheadPublication() {
             return this.masthead.issueDate;
         },
         mastheadPeople: function mastheadPeople() {
             return this.masthead.issueListPerson;
+        }
+    },
+    watch: {
+        '$route': 'fetchData'
+    },
+    methods: {
+        fetchData: function fetchData() {
+            this.issueId = this.$route.params.id;
+
+            if (this.$route.params.biblid) {
+                this.biblId = this.$route.params.biblid;
+            } else {
+                // no biblId supplied in the route
+                this.biblId = false;
+            }
+            this.getText();
+            this.getMasthead();
         },
-        mastheadPeopleGrouped: function mastheadPeopleGrouped() {
+        highlightText: function highlightText() {
+            var needle = this.$root.state.content.searchString;
+            if (needle.length < 1) {
+                return this.issueText;
+            }
+            //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
+            pattern = new RegExp('(' + needle + ')', 'gi');
+            return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>");
+        },
+        getMasthead: function getMasthead() {
+            var _this = this;
+
+            var headerUrl = '/api/broadwayjournal/issue/' + this.issueId + '/header';
+            axios.get(headerUrl).then(function (response) {
+                _this.masthead = response.data.issueMeta;
+                _this.parseRoles();
+            });
+        },
+        getText: function getText() {
+            var _this2 = this;
+
+            if (this.biblId) {
+                var _url = '/api/broadwayjournal/' + this.issueId + '/piece-text/' + this.biblId;
+                axios.get(_url).then(function (response) {
+                    return _this2.issueText = response.data;
+                });
+            } else {
+                return 'full-text goes here ';
+            }
+        },
+        getTocEntry: function getTocEntry(issueId, itemId) {
+            var _this3 = this;
+
+            url = '/api/broadwayjournal/' + issueId + '/toc';
+            axios.get(url).then(function (response) {
+                bibl = response.data;
+                for (item in bibl.toc) {
+                    if (item == itemId) {
+                        _this3.biblData = bibl.toc[item];
+                        return;
+                    }
+                    if (bibl.toc[item].pieces) {
+                        for (piece in bibl.toc[item].pieces) {
+                            if (piece == itemId) {
+                                _this3.biblData = bibl.toc[item].pieces.piece;
+                                return;
+                            }
+                        }
+                    }
+                }
+            });
+        },
+        parseRoles: function parseRoles() {
             if (!this.masthead.issueListPerson) {
                 return [];
             }
@@ -44006,9 +44087,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                         key = _step2$value[0],
                         value = _step2$value[1];
 
-                    var text = key + ": ";
-                    var stop = Object.values(value).length;
-                    var j = 1;
+                    this.mastheadPeopleByRole[key] = [];
                     var _iteratorNormalCompletion3 = true;
                     var _didIteratorError3 = false;
                     var _iteratorError3 = undefined;
@@ -44017,11 +44096,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                         for (var _iterator3 = Object.values(value)[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
                             var name = _step3.value;
 
-                            text = text + ' ' + name;
-                            if (j < stop) {
-                                text = text + ', ';
-                            }
-                            j = j + 1;
+                            this.mastheadPeopleByRole[key].push(name);
                         }
                     } catch (err) {
                         _didIteratorError3 = true;
@@ -44037,8 +44112,6 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                             }
                         }
                     }
-
-                    people.push(text);
                 }
             } catch (err) {
                 _didIteratorError2 = true;
@@ -44054,76 +44127,6 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                     }
                 }
             }
-
-            return people;
-        }
-    },
-    watch: {
-        '$route': 'fetchData'
-    },
-    methods: {
-        fetchData: function fetchData() {
-            this.issueId = this.$route.params.id;
-
-            if (this.$route.params.biblid) {
-                this.biblId = this.$route.params.biblid;
-            } else {
-                // no biblId supplied in the route
-                this.biblId = false;
-            }
-            this.getText();
-            this.getMasthead();
-        },
-        highlightText: function highlightText() {
-            var needle = this.$root.state.content.searchString;
-            if (needle.length < 1) {
-                return this.issueText;
-            }
-            //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
-            pattern = new RegExp('(' + needle + ')', 'gi');
-            return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>");
-        },
-        getMasthead: function getMasthead() {
-            var _this = this;
-
-            var headerUrl = '/api/broadwayjournal/issue/' + this.issueId + '/header';
-            axios.get(headerUrl).then(function (response) {
-                return _this.masthead = response.data.issueMeta;
-            });
-        },
-        getText: function getText() {
-            var _this2 = this;
-
-            if (this.biblId) {
-                var _url = '/api/broadwayjournal/' + this.issueId + '/piece-text/' + this.biblId;
-                axios.get(_url).then(function (response) {
-                    return _this2.issueText = response.data;
-                });
-            } else {
-                return 'full-text goes here ';
-            }
-        },
-        getTocEntry: function getTocEntry(issueId, itemId) {
-            var _this3 = this;
-
-            url = '/api/broadwayjournal/' + issueId + '/toc';
-            axios.get(url).then(function (response) {
-                bibl = response.data;
-                for (item in bibl.toc) {
-                    if (item == itemId) {
-                        _this3.biblData = bibl.toc[item];
-                        return;
-                    }
-                    if (bibl.toc[item].pieces) {
-                        for (piece in bibl.toc[item].pieces) {
-                            if (piece == itemId) {
-                                _this3.biblData = bibl.toc[item].pieces.piece;
-                                return;
-                            }
-                        }
-                    }
-                }
-            });
         }
     },
     mounted: function mounted() {},
@@ -44134,7 +44137,8 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
             issueText: '',
             masthead: {},
             biblData: {},
-            biblId: false
+            biblId: false,
+            mastheadPeopleByRole: {}
         };
     }
 });
@@ -57144,14 +57148,26 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "masthead-title"
   }, [_vm._v(_vm._s(this.mastheadIssueTitle))]), _vm._v(" "), _c('div', {
+    staticClass: "masthead-issue"
+  }, [_c('div', {
     staticClass: "masthead-volume"
-  }, [_vm._v(_vm._s(this.mastheadIssueVolNum))]), _vm._v(" "), _c('div', {
+  }, [_vm._v(_vm._s(this.mastheadIssueVol))]), _vm._v(" "), _c('div', {
     staticClass: "masthead-publication"
-  }, [_vm._v(_vm._s(this.mastheadPublication))]), _vm._v(" "), _vm._l((this.mastheadPeopleGrouped), function(group) {
+  }, [_vm._v(_vm._s(this.mastheadPublication))]), _vm._v(" "), _c('div', {
+    staticClass: "masthead-number"
+  }, [_vm._v(_vm._s(this.mastheadIssueNum))])]), _vm._v(" "), _c('div', {
+    staticClass: "masthead-staff"
+  }, _vm._l((this.mastheadPeopleByRole), function(names, role) {
     return _c('div', {
-      staticClass: "masthead-people"
-    }, [_vm._v(_vm._s(group))])
-  })], 2) : _vm._e(), _vm._v(" "), (!_vm.frontPage) ? _c('div', {
+      class: 'masthead-' + role.toLowerCase()
+    }, [_c('div', {
+      staticClass: "masthead-role-label"
+    }, [_vm._v(_vm._s(role))]), _vm._v(" "), _vm._l((names), function(name) {
+      return _c('div', {
+        staticClass: "masthead-name"
+      }, [_vm._v(_vm._s(name))])
+    })], 2)
+  }))]) : _vm._e(), _vm._v(" "), (!_vm.frontPage) ? _c('div', {
     staticClass: "teiMarkup",
     domProps: {
       "innerHTML": _vm._s(this.highlightText())

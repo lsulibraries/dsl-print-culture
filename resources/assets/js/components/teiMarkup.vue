@@ -8,7 +8,10 @@
                     <div class="masthead-number">{{ this.mastheadIssueNum }}</div>
                 </div>
                 <div class="masthead-staff">
-                    <div class="masthead-people" v-for="group in this.mastheadPeopleGrouped">{{ group }}</div>
+                    <div :class="'masthead-' + role.toLowerCase()" v-for="(names,role) in this.mastheadPeopleByRole">
+                        <div class="masthead-role-label">{{ role }}</div>
+                        <div class="masthead-name" v-for="name in names">{{ name }}</div>
+                    </div>
                 </div>
             </div>
             <div class='teiMarkup' v-html="this.highlightText()" v-if="!frontPage"></div>
@@ -31,6 +34,7 @@
             }
             this.getMasthead()
             this.getText()
+            this.parseRoles()
         },
         computed: {
             frontPage: function () {
@@ -51,43 +55,6 @@
             mastheadPeople: function () {
                 return this.masthead.issueListPerson
             },
-            mastheadPeopleGrouped: function () {
-                if (!this.masthead.issueListPerson) {
-                    return []
-                }
-                let people = []
-                let groups = {}
-                for (const item of Object.values(this.mastheadPeople)) {
-                    if(Array.isArray(item)) {
-                        for(let i in item) {
-                            if(!groups.hasOwnProperty(item[i].personIssueRole)) {
-                                groups[item[i].personIssueRole] = []
-                            }
-                            groups[item[i].personIssueRole].push(item[i].personName)
-                        }
-                    }
-                    else {
-                        if(!groups.hasOwnProperty(item.personIssueRole)) {
-                            groups[item.personIssueRole] = []
-                        }
-                        groups[item.personIssueRole].push(item.personName)
-                    }
-                }
-                for (const [key, value] of Object.entries(groups)) {
-                    let text = key + ": "
-                    let stop = Object.values(value).length
-                    let j = 1
-                    for (const name of Object.values(value)) {
-                        text = text + ' ' + name
-                        if (j < stop) {
-                            text = text + ', '
-                        }
-                        j = j + 1
-                    }
-                    people.push(text)
-                }
-                return people
-            }
         },
         watch: {
             '$route': 'fetchData'
@@ -116,7 +83,11 @@
             },
             getMasthead: function () {
                 let headerUrl = '/api/broadwayjournal/issue/'+ this.issueId +'/header';
-                axios.get(headerUrl).then(response => this.masthead = response.data.issueMeta);
+                axios.get(headerUrl).then(response => {
+                  this.masthead = response.data.issueMeta
+                  this.parseRoles()
+                });
+
             },
             getText: function(){
                 if(this.biblId){
@@ -146,6 +117,35 @@
                         }
                     }
                 });
+            },
+            parseRoles: function () {
+                if (!this.masthead.issueListPerson) {
+                    return []
+                }
+                let people = []
+                let groups = {}
+                for (const item of Object.values(this.mastheadPeople)) {
+                    if(Array.isArray(item)) {
+                        for(let i in item) {
+                            if(!groups.hasOwnProperty(item[i].personIssueRole)) {
+                                groups[item[i].personIssueRole] = []
+                            }
+                            groups[item[i].personIssueRole].push(item[i].personName)
+                        }
+                    }
+                    else {
+                        if(!groups.hasOwnProperty(item.personIssueRole)) {
+                            groups[item.personIssueRole] = []
+                        }
+                        groups[item.personIssueRole].push(item.personName)
+                    }
+                }
+                for (const [key, value] of Object.entries(groups)) {
+                    this.mastheadPeopleByRole[key] = []
+                    for (const name of Object.values(value)) {
+                        this.mastheadPeopleByRole[key].push(name)
+                    }
+                }
             }
         },
         mounted() {
@@ -159,7 +159,10 @@
                 issueText: '',
                 masthead: {},
                 biblData: {},
-                biblId: false
+                biblId: false,
+                mastheadPeopleByRole: {
+
+                },
             }
         },
     }
