@@ -2,6 +2,7 @@
     import personIndex from './personIndex'
     import personFilter from './personFilter'
     import biblDisplay from './biblDisplay'
+
     export default {
         components: { biblDisplay, personIndex, personFilter },
         data(){
@@ -21,7 +22,8 @@
         </div>
         <div class="personSide">
             <personFilter></personFilter>
-            <personIndex></personIndex>
+              <personIndex></personIndex>
         </div>
     </div>
 </template>
+
