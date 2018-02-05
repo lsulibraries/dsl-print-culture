@@ -112,6 +112,9 @@ body {
     flex-direction: column;
     border: 10px solid $greyDark;
     padding: 1px;
+  .masthead-name{
+    font-weight: 400;
+  }
   .masthead-title{
     font-family: Roboto Slab;
     font-weight: 700;
