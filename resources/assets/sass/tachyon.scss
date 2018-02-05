@@ -1,4 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,600,700';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+
 $document-color: #eee3cf;
 $background-document-color: #faeee2;
 $background-authors-color: #29303a;
@@ -101,6 +104,73 @@ body {
   color: $document-text-color;
 }
 
+
+//Begin masthead styles
+
+.masthead{
+    @include flexbox;
+    flex-direction: column;
+    border: 10px solid $greyDark;
+    padding: 1px;
+  .masthead-title{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding: 10px 0px;
+  }  
+.masthead-issue {
+    @include flexbox;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $lightest;
+    letter-spacing: 0.1em;
+    font-family: Roboto Slab;
+    padding-bottom: 1px;
+    .masthead-volume, .masthead-number{
+    background: $greyDark;
+    display: inline-flex;
+    color: $lightest;
+    width: fit-content;
+    padding: 10px;
+    text-transform: uppercase;    
+    }
+    .masthead-publication{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #424242;
+    color: $lightest;
+    letter-spacing: 0.1em;
+    margin: 0px 1px;
+    padding: 10px;      
+    }
+}  
+.masthead-staff {
+    border: 1px solid $greyDark;
+    padding: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: $greyDark;
+    color: $lightest;
+    .masthead-people {
+    border-left: 10px solid;
+    padding-left: 10px;
+    }    
+}
+
+}
+
+//End masthead styles
 
 //Begin modal styles
 .modal-mask {
