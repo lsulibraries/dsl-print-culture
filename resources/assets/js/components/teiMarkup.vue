@@ -1,5 +1,6 @@
 <template>
         <div class='tei-markup'>
+            <transition name="fade">
             <div class="masthead" v-if="frontPage && masthead">
                 <div class="masthead-title">{{ this.mastheadIssueTitle }}</div>
                 <div class="masthead-issue">
@@ -11,6 +12,7 @@
                     <div class="masthead-people" v-for="group in this.mastheadPeopleGrouped">{{ group }}</div>
                 </div>
             </div>
+            </transition>
             <div class='teiMarkup' v-html="this.highlightText()" v-if="!frontPage"></div>
         </div>
 </template>

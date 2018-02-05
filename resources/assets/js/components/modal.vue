@@ -1,5 +1,5 @@
 <script>
-  import VueScrollbar from './vue-scrollbar.vue';   
+  import VueScrollbar from 'vue2-scrollbar'    
   import drawer from './drawer'
   export default {
     components: { drawer, VueScrollbar },

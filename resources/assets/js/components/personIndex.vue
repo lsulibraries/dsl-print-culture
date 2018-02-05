@@ -10,7 +10,7 @@
   </div>
 </template>
 <script>
-    import VueScrollbar from './vue-scrollbar.vue';  
+    import VueScrollbar from 'vue2-scrollbar';     
     import {Circle9} from 'vue-loading-spinner'
     import person from './person'
     export default {
