@@ -107,6 +107,18 @@ body {
 
 //Begin masthead styles
 
+.isFront{
+  .issueHeader{
+  padding-top: 0px;
+  }
+  .viewerSelector {
+  top: 78px;  
+  }  
+  .tei-markup {
+  border: 0px;
+  }
+}
+
 .masthead{
     @include flexbox;
     flex-direction: column;
