@@ -78,12 +78,13 @@ new Vue({
 	    contrast: 'normal', // high
 	},
 	xhrDataStore: {
-	    abouts: {
-		about: '',
-		methodology: '',
-		credits: {}
-	    },
-	    personography: {}
+    abouts: {
+    about: '',
+    methodology: '',
+    credits: {}
+    },
+    personography: {},
+    issueText: {},
 	},
     },
     created() {
@@ -140,4 +141,3 @@ new Vue({
 	});
     },
 });
-
