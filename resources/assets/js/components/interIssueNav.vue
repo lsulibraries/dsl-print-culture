@@ -49,7 +49,7 @@
                 </div>
                 <issueMonth v-for="month in this.months" :issueIds='lookup(month,"1845")' class="singleIndex" :month="month" ></issueMonth>
               </div>
-              <div class="issueIndex">
+              <div class="issueIndex secondIndex">
                 <div class="singleIndex">
                   <div class="yearText">1846</div>
                   <div class="indicatorYear"></div>

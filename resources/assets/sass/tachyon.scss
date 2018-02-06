@@ -91,6 +91,11 @@ input:focus {
   outline: none !important;
 }
 
+.secondIndex .childContainer{
+    top: -25px;
+    left: 22px;
+}
+
 .biblTitle,
 .issueId,
 .biblPage {
@@ -104,7 +109,9 @@ body {
   color: $document-text-color;
 }
 
-
+div#container {
+    min-width: 960px;
+}
 //Begin masthead styles
 
 .isFront{
@@ -794,8 +801,10 @@ position: relative;
      position: absolute;
     display: flex;
     top: -25px;
-    left: 12px;
+    left: -28px;
 }
+
+
 
 .childContainer .childIndex:nth-child(1)::before{
     content: '';
@@ -803,8 +812,8 @@ position: relative;
     border-width: 13px 17px 13px 0;
     border-color: transparent #046380 transparent transparent;
     position: absolute;
-    left: 20px;
-    top: 17px;
+    left: 50px;
+    top: 19px;
     transform: rotate(50deg);
 }
 
@@ -2751,9 +2760,33 @@ h1{
 
 @media screen and (max-width: 1465px){
 
+.issue-scrollbar .vue-scrollbar__scrollbar-vertical {
+    right: 20px;
+}
 
+a.downloadLink{
+  right: 30px;
+  top: 0px;
+}
 
+.issueHeader{
+  padding: 30px;
+  padding-top: 0px;
+    padding-bottom: 0px;
+}
 
+.viewer{
+      padding: 0px 30px 100px 30px;
+}
+
+.viewerSelector{
+  right: 30px;
+  top: 68px;
+}
+
+.interIssueNav{
+    padding: 80px 40px;  
+}
 .masthead .masthead-title{
   font-size:2em;
     padding: 20px;
