@@ -710,18 +710,25 @@ input:focus {
 
 .issueHeader .issueInfo{
 position: relative;
+    font-size: 0.8em;
+    font-family: Roboto Slab;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: $greyDark;
+    margin-bottom: 1px;   
+    color: $lightest; 
+    @include flexCenter;    
 }
 
-.issueHeader .issueInfo::before{
-    content: '';
-    border-style: solid;
-    border-width: 15px 19px 15px 0;
-    border-color: transparent $dark transparent transparent;
-    position: absolute;
-    left: 80px;
-    top: 11px;
-    transform: rotate(50deg);
-}
+.issueHeader .issueVol, .issueHeader .issueNum {
+  float: left;
+  padding: 10px;
+  width: auto;
+  color: $lightest !important;
+  font-weight: 700;
+  //enter please2
+  }
+
 
 .issueDate {
   text-transform: uppercase;
@@ -993,9 +1000,13 @@ position: relative;
 }
 
 .tei-markup {
-    border-top: 3px solid grey;
-    padding-top: 10px;
+    border-top: 3px solid $greyDark;
+    padding-top: 0px;
     font-family: Roboto Slab;
+    border: 10px solid;
+    padding: 20px;
+    border-top: 0px;
+
 }
 
 
@@ -1225,7 +1236,6 @@ height: calc(100% - 120px);
     display: flex; //imported from author
     border-radius: 0px; //imported from author
     position: relative; //imported from author
-
     z-index: 3; //imported from author
     width: 100%;
     border-bottom: 1px solid;
@@ -1353,7 +1363,7 @@ height: calc(100% - 120px);
     letter-spacing: 1px; //imported from author
     font-size: 11px; //imported from author
     line-height: 12px; //imported from author
-    padding: 0px; //imported from author
+    padding: 5px; //imported from author
     border-radius: 0px; //imported from author
     border: 0px;
     border-top: 1px solid #424242;
@@ -1638,11 +1648,11 @@ height: calc(100% - 120px);
 }
 
 .Contributing .personName {
-  color: white;
+  color: $lightest;
 }
 
 .personName {
-  font-size: 14px;
+
   font-weight: 700;
   flex-grow: 2;
     color: $greyDark;  
@@ -1705,53 +1715,42 @@ height: calc(100% - 120px);
 }
 
 .sectionTitle {
-    border: 1px solid $greyDark;
-    font-size: 13px;
-    padding: 0px 16px;
-    height: 33px;
-    box-sizing: border-box;
-    line-height: 0.9em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px;
-    border-radius: 20px;    
+//enter please
 }
 
 a.downloadLink {
     background: $greyDark;
-    height: 23px;
     align-items: center;
     color: $lightest;
     overflow: hidden;
     text-decoration: none;
-    display: inline-block;
     float: left;
-    position: absolute;
-    top: 80px;
-    right: 100px;
-    line-height: 0.9em;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 0.8em;
-    border-radius: 20px;    
+    border-radius: 0px;
+    border-right: 1px solid;
+    display: flex;
+    padding: 10px;
+    border-right: 1px solid;
+
 }
 
 .downloadIcon {
-  height: 100%;
-  width: 30px;
   background: $greyDark;
   color: $lightest;
   justify-content: center;
   align-items: center;
   display: flex;
   float: left;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .downloadText {
   @include flexCenter;
-  height: 100%;
     padding: 0px 7px;  
+    padding-right: 0px;    
+    font-weight: 700;
 }
 
 .drawerActuator {
@@ -1882,88 +1881,100 @@ span.searchHit {
   flex-direction: column;
   position: relative;  
   min-height: 100px;  
-    padding: 100px;
-    padding-top: 80px;   
-    padding-bottom: 0px;   
-
+  padding: 100px;
+  padding-top: 80px;   
+  padding-bottom: 0px;   
 .bibl {
-    padding-bottom: 20px;
-    padding-right: 140px;    
+    position: relative;
+    border: 10px solid;
+    padding: 1px;
 }
 
 .fillerHeader{
      font-size: 2em;
      line-height: 30px;
      font-weight: 700;
+  }
  
- }
- 
-
-
-
 .issueDate {
-    background: $dark;
-    color: $lightest;
-    font-size: 1.1em;
-    padding: 5px;
-    height: 33px;
-    width: auto;
+//match masthead
+flex-grow: 2;
+@include flexCenter;
+border-right: 1px solid;
+padding:10px;
+}
+
+.authorInfo {
+@include flexbox;
+}
+
+.personMetaContainer {
+    flex-grow: 2;
+    background: #474747;
+    margin-top: 1px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 2px;
-    font-weight: 400;
-    box-sizing: border-box;
-    padding-left: 17px;
-    line-height: .9em;
-border-radius: 20px 0px 0px 20px;    
+    align-items: center;    
 }
 
 .personMeta{
-  float: left;
-  @include flexbox;
-padding-bottom: 4px;
+    float: left;
+     @include flexbox;
+    cursor: pointer;
+    margin-top: 1px;
+    padding: 10px;
+    color: #f2e6ce;
+    text-transform: uppercase;
+    font-size: 0.8em !important;
+    font-family: Roboto Slab;
+    letter-spacing: 1px;
+    font-weight: 700;
+
 }
 
 .personName {
-    font-size: 1.2em;
-    font-style: italic;
-    margin-top: 2px;
+color: $lightest;
+letter-spacing: 1px;
 }
 
 
-  .issueMeta {
-    margin-bottom: 10px;    
-  }
   .bibl > .issue {
     flex-wrap: wrap;
+    background: $greyDark;
+    color: $lightest;    
+    padding: 40px;    
   }
-  .bibl {
+  
+//begin bibl
+.bibl {
 
 .issueHeader .personMeta {
     float: left;
      @include flexbox;
-
+    cursor: pointer;
+    margin-right: 1px;
+    margin-top: 1px;
+    background: $greyDark;
+    padding: 10px;
+    color: $lightest;
+    text-transform: uppercase;
+    font-size: 0.8em !important;
+    font-family: Roboto Slab;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 button#show-modal{
-    background: transparent;
-    color: $greyDark;
-    padding: 5px;
-    border-radius: 0px;
-    font-weight: 700;
-    font-size: 0.8em;
-    line-height: 0.8em;    
+    padding: 10px;
+    background: #474747;
+    color: #f2e6ce;
+    border: 0px;
+    margin-top: 1px;
+    margin-left: 1px;
     text-transform: uppercase;
-    margin: 0px 0px 0px 2px;
-    text-decoration: none;
-    border: 1px solid rgba(71, 71, 71, 0.3);
-    cursor: pointer;
-    box-shadow: none;
-    font-family: Roboto;
-    box-sizing: border-box;
-    height: 24px;
-    border-radius: 20px;    
+    font-size: 0.8em;
+    font-family: Roboto Slab;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 .personPieceMeta, .authorShip {
@@ -1992,26 +2003,30 @@ button#show-modal{
     .issue > .pieceMeta {
       margin: 0px;
       line-height: normal;
-      margin-right: 10px;
+
       width: 100%;
-    padding-bottom: 10px;      
+    
     }
     .pieceTitle {
       font-size: 2em;
       line-height: 30px;
       font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
     }
     .sectionMeta {
       font-weight: 700;
-    margin-bottom: -4px;
+      padding: 10px;
+      @include flexCenter;
+    border-right: 1px solid;      
     }
   }
   .issueHeader > .personPieceMeta {
     display: flex;
   }
   .personMeta {
-cursor: pointer;
-margin-right: 10px;
+
    .personRole {
       display: none;
     }
@@ -2020,39 +2035,13 @@ margin-right: 10px;
     .personMeta:hover {
 text-decoration: underline
 }
-.issueHeader > .issueMeta{
-    //margin-left: 151px;  
-
-} 
 
 
 
   .issueHeader .pieceAuthor {
     font-size: 1.4em;
   }
-  .issueVol,
-  .issueNum {
-    float: left;
-    margin-top: 0px;
-    position: relative;
-    top: 0px;
-    padding-bottom: 6px;
-    @include flexbox;
-    border-radius: 0px;
-    background: $dark;
-    color: $lightest;
-    font-size: 1.1em;
-    padding: 5px;
-    height: 33px;
-    width: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 2px;
-    font-weight: 400;
-    box-sizing: border-box;
-    line-height: .9em; 
-  }
+
 .issueNum{
   border-radius: 0px 20px 20px 0px;
 }
@@ -2162,7 +2151,6 @@ background: $greyDark;
     width: 45px;
     border: 1px solid #e9e9e9;
     font-weight: 700;
-    font-size: 0.9em;
   }
 
   .issueVol {
@@ -2207,26 +2195,25 @@ background: $greyDark;
 }
 
 .viewerSelector {
-  border: 1px solid $document-text-color;
     float: right;
     overflow: hidden;
     z-index: 2;
     position: absolute;
-    top: 118px;
-    right: 100px;
-    width: 123px;
+    top: 8px;
+    right: 250px;
+    background: $dark;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: $lightest;
 }
 
 .viewerTitle {
-  text-transform: uppercase;
-  position: relative;
-  height: 20px;
-  font-size: 0.7em;
-  display: flex;
-  font-weight: 700;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 0.8em;
+    padding: 20px 0px 0px 0px;
+    @include flexCenter;
 }
 
 .viewerText {
@@ -2241,16 +2228,6 @@ background: $greyDark;
   flex-direction: column;
 }
 
-.viewerPdf {
-  @extend .viewerText;
-  background: none;
-  color: $document-text-color;
-}
-
-.viewerTextIcon,
-.viewerPdfIcon {
-  font-size: 1.5em;
-}
 
 .viewerSwitch {
   display: flex;
@@ -2772,17 +2749,17 @@ a.downloadLink{
 .issueHeader{
   padding: 30px;
   padding-top: 0px;
-    padding-bottom: 0px;
-}
+  padding-bottom: 0px;
+  }
 
-.viewer{
-      padding: 0px 30px 100px 30px;
-}
+  .viewer{
+  padding: 0px 30px 100px 30px;
+  }
 
-.viewerSelector{
+  .viewerSelector{
   right: 30px;
   top: 68px;
-}
+  }
 
 .interIssueNav{
     padding: 80px 40px;  
