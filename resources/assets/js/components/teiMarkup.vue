@@ -8,10 +8,13 @@
                     <div class="masthead-number">{{ this.mastheadIssueNum }}</div>
                 </div>
                 <div class="masthead-staff">
-                    <div class="masthead-people" v-for="group in this.mastheadPeopleGrouped">{{ group }}</div>
+                    <div :class="'masthead-' + role.toLowerCase()" v-for="(names,role) in this.mastheadPeopleByRole">
+                        <div class="masthead-role-label">{{ role }}</div>
+                        <div class="masthead-name" v-for="name in names">{{ name }}</div>
+                    </div>
                 </div>
             </div>
-            <div class='teiMarkup' v-html="this.highlightText()" v-if="!frontPage"></div>
+            <div class='teiMarkup' v-html="text" v-if="text"></div>
         </div>
 </template>
 <script>
@@ -31,6 +34,7 @@
             }
             this.getMasthead()
             this.getText()
+            this.parseRoles()
         },
         computed: {
             frontPage: function () {
@@ -51,79 +55,113 @@
             mastheadPeople: function () {
                 return this.masthead.issueListPerson
             },
-            mastheadPeopleGrouped: function () {
-                if (!this.masthead.issueListPerson) {
-                    return []
+            // text: {
+            //   get: function () {
+            //     if (!this.biblId) {
+            //       if (this.$root.xhrDataStore.issueText[this.issueId]['full']) {
+            //         return this.$root.xhrDataStore.issueText[this.issueId]['full']
+            //       }
+            //     }
+            //     else {
+            //       return this.$root.xhrDataStore.issueText[this.issueId][this.biblId]
+            //     }
+            //   },
+            //   set: function (newValue) {
+            //     return newValue
+            //   }
+            // },
+            textLoaded: {
+              get: function () {
+                let loaded = false;
+                if(this.$root.xhrDataStore.issueText.hasOwnProperty(this.issueId)) {
+                  if (this.biblId) {
+                      loaded = this.$root.xhrDataStore.issueText[this.issueId].hasOwnProperty(this.biblId)
+                  }
+                  else {
+                    loaded = this.$root.xhrDataStore.issueText[this.issueId].hasOwnProperty('full')
+                  }
                 }
-                let people = []
-                let groups = {}
-                for (const item of Object.values(this.mastheadPeople)) {
-                    if(Array.isArray(item)) {
-                        for(let i in item) {
-                            if(!groups.hasOwnProperty(item[i].personIssueRole)) {
-                                groups[item[i].personIssueRole] = []
-                            }
-                            groups[item[i].personIssueRole].push(item[i].personName)
-                        }
-                    }
-                    else {
-                        if(!groups.hasOwnProperty(item.personIssueRole)) {
-                            groups[item.personIssueRole] = []
-                        }
-                        groups[item.personIssueRole].push(item.personName)
-                    }
+                if (!loaded) {
+                  this.getText()
                 }
-                for (const [key, value] of Object.entries(groups)) {
-                    let text = key + ": "
-                    let stop = Object.values(value).length
-                    let j = 1
-                    for (const name of Object.values(value)) {
-                        text = text + ' ' + name
-                        if (j < stop) {
-                            text = text + ', '
-                        }
-                        j = j + 1
-                    }
-                    people.push(text)
-                }
-                return people
-            }
+                return loaded
+              },
+              set: function (newValue) {
+                return newValue
+              }
+            },
         },
         watch: {
             '$route': 'fetchData'
         },
         methods: {
-            fetchData: function() {
-                this.issueId = this.$route.params.id
+          textForRoute: function () {
+            const iid = this.$route.params.id
+            if (!this.$route.params.biblid) {
+              return this.$root.xhrDataStore.issueText.hasOwnProperty(iid) && this.$root.xhrDataStore.issueText[iid].hasOwnProperty('full')
+            }
+            else {
+              return this.$root.xhrDataStore.issueText.hasOwnProperty(iid) && this.$root.xhrDataStore.issueText[iid].hasOwnProperty(this.$route.params.biblid)
+            }
+          },
+          fetchData: function() {
+              this.issueId = this.$route.params.id
 
-                if(this.$route.params.biblid) {
-                    this.biblId = this.$route.params.biblid
-                }
-                else { // no biblId supplied in the route
-                    this.biblId = false
-                }
+              if(this.$route.params.biblid) {
+                  this.biblId = this.$route.params.biblid
+              }
+              else { // no biblId supplied in the route
+                  this.biblId = false
+              }
+              this.text = ''
+              if (!this.textForRoute()) {
                 this.getText()
-                this.getMasthead()
-            },
-            highlightText: function(){
-                let needle = this.$root.state.content.searchString
-                if(needle.length < 1){
-                  return this.issueText
-                }
-                //Thanks !! http://stackoverflow.com/questions/29433696/create-regex-from-variable-with-capture-groups-in-javascript
-                pattern = new RegExp('('+needle+')', 'gi')
-                return this.issueText.replace(pattern, "<span class='searchHit'>$1</span>")
+              }
+              else {
+                this.setText()
+              }
+              this.getMasthead()
             },
             getMasthead: function () {
                 let headerUrl = '/api/broadwayjournal/issue/'+ this.issueId +'/header';
-                axios.get(headerUrl).then(response => this.masthead = response.data.issueMeta);
+                axios.get(headerUrl).then(response => {
+                  this.masthead = response.data.issueMeta
+                  this.parseRoles()
+                });
+
             },
             getText: function(){
                 if(this.biblId){
-                  let url = '/api/broadwayjournal/'+ this.issueId + '/piece-text/' + this.biblId;
-                  axios.get(url).then(response => this.issueText = response.data);
-                }else {
-                    return 'full-text goes here '
+                  if(!this.$root.xhrDataStore.issueText[this.issueId] || !this.$root.xhrDataStore.issueText[this.issueId][this.biblId]) {
+                    let url = '/api/broadwayjournal/'+ this.issueId + '/piece-text/' + this.biblId;
+                    if (!this.$root.xhrDataStore.issueText[this.issueId]) {
+                      this.$root.xhrDataStore.issueText[this.issueId] = {}
+                    }
+                    axios.get(url).then(response => {
+                      this.$root.xhrDataStore.issueText[this.issueId][this.biblId] = response.data
+                      this.text = response.data
+                      this.textLoaded = true
+                    });
+                  }
+                  else {
+
+                  }
+                }
+                else {
+                  if (!this.$root.xhrDataStore.issueText[this.issueId] || !this.$root.xhrDataStore.issueText[this.issueId]['full']) {
+                    if (!this.$root.xhrDataStore.issueText[this.issueId]) {
+                      this.$root.xhrDataStore.issueText[this.issueId] = {}
+                    }
+                    let url = '/api/broadwayjournal/' + this.issueId + '/issue-text';
+                    axios.get(url).then(response => {
+                      this.$root.xhrDataStore.issueText[this.issueId]['full'] = response.data
+                      this.text = response.data
+                      this.textLoaded = true
+                    });
+                  }
+                  else {
+
+                  }
                 }
             },
             getTocEntry: function(issueId, itemId){
@@ -146,7 +184,45 @@
                         }
                     }
                 });
-            }
+            },
+            parseRoles: function () {
+                if (!this.masthead.issueListPerson) {
+                    return []
+                }
+                let people = []
+                let groups = {}
+                for (const item of Object.values(this.mastheadPeople)) {
+                    if(Array.isArray(item)) {
+                        for(let i in item) {
+                            if(!groups.hasOwnProperty(item[i].personIssueRole)) {
+                                groups[item[i].personIssueRole] = []
+                            }
+                            groups[item[i].personIssueRole].push(item[i].personName)
+                        }
+                    }
+                    else {
+                        if(!groups.hasOwnProperty(item.personIssueRole)) {
+                            groups[item.personIssueRole] = []
+                        }
+                        groups[item.personIssueRole].push(item.personName)
+                    }
+                }
+                for (const [key, value] of Object.entries(groups)) {
+                    this.mastheadPeopleByRole[key] = []
+                    for (const name of Object.values(value)) {
+                        this.mastheadPeopleByRole[key].push(name)
+                    }
+                }
+            },
+            setText: function () {
+              if (this.textForRoute()) {
+                const leaf = this.$route.params.biblid ? this.$route.params.biblid : 'full'
+                this.text = this.$root.xhrDataStore.issueText[this.issueId][leaf]
+              }
+              else {
+                this.text = ''
+              }
+            },
         },
         mounted() {
 
@@ -156,10 +232,11 @@
             return{
                 issueId: '',
                 markdown:[],
-                issueText: '',
                 masthead: {},
                 biblData: {},
-                biblId: false
+                biblId: false,
+                mastheadPeopleByRole: {},
+                text: ''
             }
         },
     }
