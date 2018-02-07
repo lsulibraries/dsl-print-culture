@@ -43262,6 +43262,44 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -60160,26 +60198,80 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     domProps: {
       "innerHTML": _vm._s(this.text)
     }
-  }), _vm._v(" "), _c('div', {
-    staticClass: "about-opendata"
-  }, [_c('h2', [_vm._v("Download")]), _vm._v(" "), _vm._l((_vm.links), function(link) {
-    return _c('div', {
-      staticClass: "about-opendata-links"
-    }, [_c('div', {
-      staticClass: "about-opendata-label"
-    }, [_vm._v(_vm._s(link.label))]), _vm._v(" "), _c('div', {
-      staticClass: "about-opendata-link"
-    }, [_c('a', {
-      attrs: {
-        "href": link.link
-      }
-    }, [_vm._v(_vm._s(link.link))])]), _vm._v(" "), _c('div', {
-      staticClass: "about-opendata-description"
-    }, [_vm._v(_vm._s(link.description))])])
-  })], 2)]) : _vm._e(), _vm._v(" "), (this.context == 'staff') ? _c('div', {
+  }), _vm._v(" "), _vm._m(0)]) : _vm._e()], 1), _vm._v(" "), (this.context == 'staff') ? _c('div', {
     staticClass: "about-staff"
-  }, [(!this.isLoading) ? _c('creditsPersonList') : _vm._e()], 1) : _vm._e()], 1)])
-},staticRenderFns: []}
+  }, [(!this.isLoading) ? _c('creditsPersonList') : _vm._e()], 1) : _vm._e()])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "about-opendata"
+  }, [_c('h2', [_vm._v("Open Data")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-description"
+  }, [_vm._v("All of the data used to build this site are available for use and\n            reuse under the CC BY 4.0 license. Feel free to download, share, mix it up, build your own projects with it.\n            We just ask that you attribute the LSU Digital Scholarship Lab. Read more about the CC BY 4.0 license\n            here:https://creativecommons.org/licenses/by/4.0")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-pdf-wrapper"
+  }, [_c('h3', {
+    staticClass: "about-opendata-pdf-header"
+  }, [_vm._v("PDF Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-pdf-description"
+  }, [_c('p', [_vm._v("The PDF scan of each issue is also available for download. ")]), _vm._v(" "), _c('p', [_vm._v("PDF scans of individual issues can be downloaded from the issue view (details here)")]), _vm._v(" "), _c('p', [_vm._v("Bulk PDF scans are also available to download. The files are named by the date of the issue.\n               For example, the PDF file for the issue from January 5, 1845 is entitled \"BroadwayJournal_18450104.pdf\".\n               To see how this issue displays on the site: "), _c('a', {
+    attrs: {
+      "href": "/#/issues/18450104?viewer=pdf"
+    }
+  }, [_vm._v("/#/issues/18450104?viewer=pdf")])]), _vm._v(" "), _c('h4', {
+    staticClass: "about-opendata-download-header"
+  }, [_vm._v("Bulk Download PDF Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-download-link"
+  }, [_c('a', {
+    attrs: {
+      "href": "/api/broadwayjournal/download/pdf"
+    }
+  }, [_vm._v("pdf.zip")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-tei-wrapper"
+  }, [_c('h3', {
+    staticClass: "about-opendata-tei-header"
+  }, [_vm._v("PDF Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-tei-description"
+  }, [_c('p', [_vm._v("Text Encoding Initiative, or TEI, is a markup standard for representing of texts in digital form. Learn more about TEI here: http://www.tei-c.org/index.xml")]), _vm._v(" "), _c('p', [_vm._v("Each issue of the Broadway Journal is available as an TEI file. Use this link to download all issues. The files are named by the date of the issue.\n               For example, the TEI file for the issue from January 5, 1845 is entitled \"BroadwayJournal_18450104.xml\". To see how this issue displays on our site: "), _c('a', {
+    attrs: {
+      "href": "/#/issues/18450104"
+    }
+  }, [_vm._v("/#/issues/18450104")])]), _vm._v(" "), _c('h4', {
+    staticClass: "about-opendata-download-header"
+  }, [_vm._v("Bulk Download TEI Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-download-link"
+  }, [_c('a', {
+    attrs: {
+      "href": "/api/broadwayjournal/download/tei"
+    }
+  }, [_vm._v("tei.zip")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-intermediate-wrapper"
+  }, [_c('h3', {
+    staticClass: "about-opendata-intermediate-header"
+  }, [_vm._v("PDF Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-intermediate-description"
+  }, [_c('p', [_vm._v("In the process of building this site a type of intermediate data was created. This data was created for the specific needs of this project, but is being offered here for anyone who would like it. ")]), _vm._v(" "), _c('h4', {
+    staticClass: "about-opendata-download-header"
+  }, [_vm._v("Bulk Download intermediate Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-download-link"
+  }, [_c('a', {
+    attrs: {
+      "href": "/api/broadwayjournal/download/intermediate_xml"
+    }
+  }, [_vm._v("intermediate_xml.zip")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-all-wrapper"
+  }, [_c('h3', {
+    staticClass: "about-opendata-all-header"
+  }, [_vm._v("PDF Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-all-description"
+  }, [_c('p', [_vm._v("For ease of use, all data (PDF, TEI, and Intermediate) is available as a single download.")]), _vm._v(" "), _c('h4', {
+    staticClass: "about-opendata-download-header"
+  }, [_vm._v("Bulk Download All Files")]), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata-download-link"
+  }, [_c('a', {
+    attrs: {
+      "href": "/api/broadwayjournal/download/all"
+    }
+  }, [_vm._v("all.zip")])])])])])
+}]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
