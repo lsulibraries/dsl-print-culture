@@ -182,7 +182,7 @@ div#container {
   }
   .viewerSelector {
     top: 243px;
-    right: 120px;
+    right: 131px;
   }  
   .viewerSelector.pdfSelected{
     top: 0px;
@@ -190,6 +190,16 @@ div#container {
   .tei-markup {
   border: 0px;
   }
+
+  .teiMarkup {
+      border-left: 10px solid;
+      border-right: 10px solid;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+
 }
 
 .masthead{
@@ -2642,6 +2652,35 @@ h1{
 
 .highContrast {
 
+.childContainer{
+      top: -38px;
+}
+
+.active.childText::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    border: 2px solid #f2e6ce;
+    border-radius: 30px;
+    position: absolute;
+    left: -5px;
+    top: -3px;
+    opacity: 1;
+    background: transparent;
+  }
+
+.childContainer .childIndex:nth-child(1)::before{
+    top: 29px;
+}
+
+.isFront .viewerSelector {
+    top: 268px;
+  }
+
+.viewerSelector {
+    top: 214px;
+  }
+
   .contrastOff {
     background: $lightest;
     color: $document-text-color;
@@ -2763,13 +2802,13 @@ h1{
 /*The Wrapper*/
 .index-scrollbar{
     min-width: 300px;
-    max-height: 613px;
+    max-height: 100%;
 }
 
 
 
 .person-scrollbar{
-    max-height: 613px;
+    max-height: calc(100% - 150px);
     padding-right: 100px;    
 
 }
@@ -2829,6 +2868,14 @@ h1{
 }
 
 @media screen and (max-width: 1465px){
+
+.isFront{
+
+  .viewerSelector {
+    top: 196px;
+    right: 61px;
+  }  
+}
 
 .issue-scrollbar .vue-scrollbar__scrollbar-vertical {
     right: 20px;
