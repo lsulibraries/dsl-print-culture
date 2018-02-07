@@ -39,6 +39,7 @@ $altdark: #046f8f;
 $altdarkest: #003838;
 
 $greyDark: #474747;
+$greyDark2: #575757;
 $threedark: rgba(0, 0, 0, 0.03);
 $sevendark: rgba(0, 0, 0, 0.07);
 
@@ -112,12 +113,71 @@ body {
 div#container {
     min-width: 960px;
 }
+
+.pdf-viewer {
+    border-left: 10px solid;
+    border-right: 10px solid;
+}
+
+.pdf-controls {
+    background: $greyDark2;
+    margin: 0px 1px;
+    border-top: 1px solid $lightest;
+    color: $lightest;
+    display: flex;
+    height: 29px;
+    margin-right: 121px;
+}
+
+.pdf-page-navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+ 
+}
+
+.pdf-page-navigation button {
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    padding: 0px 10px;    
+    color: #f2e6ce;
+    height: 100%;
+    font-size: 0.8em;
+    border: 0px;
+    cursor: pointer;
+    outline: none !important;
+}
+
+.pdf-page-navigation button:disabled {
+    opacity: 0;
+}
+
+.pdf-page-location {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto Slab;
+    font-size: 0.8em;
+    border-right: 1px solid;
+}
+
+.pdf-prev-page {
+    border-right: 1px solid #f2e6ce !important;
+}
+
+.pdf-next-page {
+    border-left: 1px solid #f2e6ce !important;
+}
+
 //Begin masthead styles
 
 .isFront{
   .issueHeader{
-  padding-top: 0px;
-  min-height: 80px;
+  display: none;
   }
   .viewerSelector {
   top: 20px;  
@@ -1882,7 +1942,7 @@ span.searchHit {
   position: relative;  
   min-height: 100px;  
   padding: 100px;
-  padding-top: 80px;   
+  padding-top: 0px;   
   padding-bottom: 0px;   
 .bibl {
     position: relative;
@@ -2199,21 +2259,27 @@ background: $greyDark;
     overflow: hidden;
     z-index: 2;
     position: absolute;
-    top: 8px;
-    right: 250px;
-    background: $dark;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    color: $lightest;
+    top: 206px;
+    right: 111px;
+    width: 119px;
+    font-family: Roboto Slab;
+    font-size: 0.8em;
+    font-weight: 700;
 }
+
+
 
 .viewerTitle {
     text-transform: uppercase;
     position: relative;
-    font-size: 0.8em;
-    padding: 20px 0px 0px 0px;
+    padding: 7px 5px 7px 5px;
+    cursor: pointer;
     @include flexCenter;
+    color: #f2e6ce;
+    background: #474747;
+    top: 0px;
+    z-index: 2;
+    letter-spacing: 1px;    
 }
 
 .viewerText {
@@ -2230,16 +2296,36 @@ background: $greyDark;
 
 
 .viewerSwitch {
-  display: flex;
-  position: relative;
-  height: 37px;
-  justify-content: center;
-  font-weight: 700;
-  align-items: center;
-  border-top: 1px solid $greyDark;
-  text-transform: uppercase;
-  font-size: 0.6em;
-  cursor: pointer;
+    @include flexbox;
+    position: relative;
+    height: 151px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 700;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    cursor: pointer;
+    background-image: url(https://i.imgur.com/Is0YrF1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 5px solid $greyDark;
+    border-top: 0px;
+    opacity: 0;
+}
+
+.pdfSelected .viewerSwitch {
+    background-image: url(https://i.imgur.com/Is0YrF1.png);
+}
+
+
+.viewerSelector:hover {
+  .viewerSwitch{
+    opacity: 1;
+  }
 }
 
 .pdfSelected {
@@ -2757,8 +2843,8 @@ a.downloadLink{
   }
 
   .viewerSelector{
-  right: 30px;
-  top: 68px;
+  right: 41px;
+
   }
 
 .interIssueNav{
