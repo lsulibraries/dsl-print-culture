@@ -79,9 +79,10 @@ new Vue({
 	},
 	xhrDataStore: {
     abouts: {
-    about: '',
-    methodology: '',
-    credits: {}
+      about: '',
+      methodology: '',
+      credits: {},
+      opendata: 'lorem',
     },
     personography: {},
     issueText: {},

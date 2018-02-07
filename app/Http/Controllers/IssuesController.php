@@ -57,7 +57,12 @@ class IssuesController extends Controller
         $xml = simplexml_load_string(file_get_contents('/tmp/results.xml'));
         return response()->json($xml);
     }
-    
+
+    function dataDownload($zip) {
+        $path = storage_path("app/public/download/$zip.zip");
+        return response()->download($path);
+    }
+
     function download($year, $month, $day, $format){
         $fileFormat = $format == 'tei' ? 'xml' : $format;
         $id = $year . $month . $day;
