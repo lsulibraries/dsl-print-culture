@@ -1,23 +1,21 @@
 <template>
-       <div class="abouts">
-         <div class="aboutToggle">
-           <router-link :to="'/project/about'" tag='div' class="about" active-class="active">Project</router-link>
-           <router-link :to="'/project/methodology'" tag='div' class="technical" active-class="active">Methodology</router-link>
-           <router-link :to="'/project/staff'" tag='div' class="credits" active-class="active">Staff</router-link>
-         </div>
-         <div class="aboutViewer">
-           <logo v-if="this.context == 'about'"></logo>
-           <div class="about-about" v-if="this.context == 'about' && !this.isLoading" v-html="this.text"></div>
-           <div class="about-methodology" v-if="this.context == 'methodology'  && !this.isLoading">
-             <div class="about-methodology-html" v-html="this.text"></div>
-             <div class="about-opendata-wrapper" v-html="this.$root.xhrDataStore.abouts['opendata']"></div>
-           </div>
-         </div>
-         <div class="about-staff" v-if="this.context == 'staff'">
-          <creditsPersonList v-if="!this.isLoading"></creditsPersonList>
-         </div>
+   <div class="abouts">
+     <div class="aboutToggle">
+       <router-link :to="'/project/about'" tag='div' class="about" active-class="active">Project</router-link>
+       <router-link :to="'/project/methodology'" tag='div' class="technical" active-class="active">Methodology</router-link>
+       <router-link :to="'/project/staff'" tag='div' class="credits" active-class="active">Staff</router-link>
+     </div>
+     <div class="aboutViewer">
+       <logo v-if="this.context == 'about'"></logo>
+       <div class="about-about" v-if="this.context == 'about' && !this.isLoading" v-html="this.text"></div>
+       <div class="about-methodology" v-if="this.context == 'methodology'  && !this.isLoading">
+         <div class="about-methodology-html" v-html="this.text"></div>
+       </div>
+       <div class="about-staff" v-if="this.context == 'staff'">
+        <creditsPersonList v-if="!this.isLoading"></creditsPersonList>
        </div>
      </div>
+   </div>
 </template>
 
 <script>

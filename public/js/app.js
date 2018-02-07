@@ -43257,8 +43257,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 
 
@@ -60157,14 +60155,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     domProps: {
       "innerHTML": _vm._s(this.text)
     }
-  }), _vm._v(" "), _c('div', {
-    staticClass: "about-opendata-wrapper",
-    domProps: {
-      "innerHTML": _vm._s(this.$root.xhrDataStore.abouts['opendata'])
-    }
-  })]) : _vm._e()], 1), _vm._v(" "), (this.context == 'staff') ? _c('div', {
+  })]) : _vm._e(), _vm._v(" "), (this.context == 'staff') ? _c('div', {
     staticClass: "about-staff"
-  }, [(!this.isLoading) ? _c('creditsPersonList') : _vm._e()], 1) : _vm._e()])
+  }, [(!this.isLoading) ? _c('creditsPersonList') : _vm._e()], 1) : _vm._e()], 1)])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
