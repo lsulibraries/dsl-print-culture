@@ -2652,6 +2652,35 @@ h1{
 
 .highContrast {
 
+.childContainer{
+      top: -38px;
+}
+
+.active.childText::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    border: 2px solid #f2e6ce;
+    border-radius: 30px;
+    position: absolute;
+    left: -5px;
+    top: -3px;
+    opacity: 1;
+    background: transparent;
+  }
+
+.childContainer .childIndex:nth-child(1)::before{
+    top: 29px;
+}
+
+.isFront .viewerSelector {
+    top: 268px;
+  }
+
+.viewerSelector {
+    top: 214px;
+  }
+
   .contrastOff {
     background: $lightest;
     color: $document-text-color;
