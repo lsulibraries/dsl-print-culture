@@ -112,6 +112,9 @@ body {
     flex-direction: column;
     border: 10px solid $greyDark;
     padding: 1px;
+  .masthead-name{
+    font-weight: 400;
+  }
   .masthead-title{
     font-family: Roboto Slab;
     font-weight: 700;
@@ -1991,7 +1994,7 @@ text-decoration: underline
     font-size: 1.1em;
     padding: 5px;
     height: 23px;
-    width: 70px;
+    width: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2698,6 +2701,10 @@ h1{
 }
 
 @media screen and (max-width: 1465px){
+
+.masthead .masthead-title{
+  font-size:2em;
+}  
 .personIndex .person {
     width: calc(50% - 4px);
 }

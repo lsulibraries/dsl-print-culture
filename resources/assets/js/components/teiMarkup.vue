@@ -1,5 +1,6 @@
 <template>
         <div class='tei-markup'>
+            <transition name="fade">
             <div class="masthead" v-if="frontPage && masthead">
                 <div class="masthead-title">{{ this.mastheadIssueTitle }}</div>
                 <div class="masthead-issue">
@@ -15,6 +16,7 @@
                 </div>
             </div>
             <div class='teiMarkup' v-html="text" v-if="text"></div>
+            </transition>
         </div>
 </template>
 <script>
@@ -55,21 +57,6 @@
             mastheadPeople: function () {
                 return this.masthead.issueListPerson
             },
-            // text: {
-            //   get: function () {
-            //     if (!this.biblId) {
-            //       if (this.$root.xhrDataStore.issueText[this.issueId]['full']) {
-            //         return this.$root.xhrDataStore.issueText[this.issueId]['full']
-            //       }
-            //     }
-            //     else {
-            //       return this.$root.xhrDataStore.issueText[this.issueId][this.biblId]
-            //     }
-            //   },
-            //   set: function (newValue) {
-            //     return newValue
-            //   }
-            // },
             textLoaded: {
               get: function () {
                 let loaded = false;
