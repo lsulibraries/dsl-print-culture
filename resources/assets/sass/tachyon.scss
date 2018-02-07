@@ -2802,13 +2802,13 @@ h1{
 /*The Wrapper*/
 .index-scrollbar{
     min-width: 300px;
-    max-height: 613px;
+    max-height: 100%;
 }
 
 
 
 .person-scrollbar{
-    max-height: 613px;
+    max-height: calc(100% - 150px);
     padding-right: 100px;    
 
 }
