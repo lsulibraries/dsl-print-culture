@@ -39940,7 +39940,8 @@ new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
 			abouts: {
 				about: '',
 				methodology: '',
-				credits: {}
+				credits: {},
+				opendata: 'lorem'
 			},
 			personography: {},
 			issueText: {}
@@ -43251,6 +43252,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -43258,16 +43269,36 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   components: { creditsPersonList: __WEBPACK_IMPORTED_MODULE_1__creditsPersonList___default.a, logo: __WEBPACK_IMPORTED_MODULE_0__logo___default.a },
 
   data: function data() {
-    return {};
+    return {
+      links: [{
+        label: 'TEI text files',
+        link: '/api/broadwayjournal/download/tei',
+        description: "placeholder ..."
+      }, {
+        label: 'PDF files',
+        link: '/api/broadwayjournal/download/pdf',
+        description: "placeholder ..."
+      }, {
+        label: 'Intermediate data',
+        link: '/api/broadwayjournal/download/intermediate_xml',
+        description: "placeholder ..."
+      }, {
+        label: 'all',
+        link: '/api/broadwayjournal/download/all',
+        description: "placeholder ..."
+      }]
+    };
   },
 
 
   computed: {
     context: function context() {
-      if (['project', 'methodology', 'staff'].indexOf(this.$route.params.id) == -1) {
-        return 'about';
+      var context = 'about';
+      if (['project', 'methodology', 'opendata', 'staff'].indexOf(this.$route.params.id) != -1) {
+        context = this.$route.params.id;
       }
-      return this.$route.params.id;
+      console.log(context);
+      return context;
     },
     text: function text() {
       return this.$root.xhrDataStore.abouts[this.context];
@@ -60123,11 +60154,29 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "innerHTML": _vm._s(this.text)
     }
   }) : _vm._e(), _vm._v(" "), (this.context == 'methodology' && !this.isLoading) ? _c('div', {
-    staticClass: "about-methodology",
+    staticClass: "about-methodology"
+  }, [_c('div', {
+    staticClass: "about-methodology-html",
     domProps: {
       "innerHTML": _vm._s(this.text)
     }
-  }) : _vm._e(), _vm._v(" "), (this.context == 'staff') ? _c('div', {
+  }), _vm._v(" "), _c('div', {
+    staticClass: "about-opendata"
+  }, [_c('h2', [_vm._v("Download")]), _vm._v(" "), _vm._l((_vm.links), function(link) {
+    return _c('div', {
+      staticClass: "about-opendata-links"
+    }, [_c('div', {
+      staticClass: "about-opendata-label"
+    }, [_vm._v(_vm._s(link.label))]), _vm._v(" "), _c('div', {
+      staticClass: "about-opendata-link"
+    }, [_c('a', {
+      attrs: {
+        "href": link.link
+      }
+    }, [_vm._v(_vm._s(link.link))])]), _vm._v(" "), _c('div', {
+      staticClass: "about-opendata-description"
+    }, [_vm._v(_vm._s(link.description))])])
+  })], 2)]) : _vm._e(), _vm._v(" "), (this.context == 'staff') ? _c('div', {
     staticClass: "about-staff"
   }, [(!this.isLoading) ? _c('creditsPersonList') : _vm._e()], 1) : _vm._e()], 1)])
 },staticRenderFns: []}
