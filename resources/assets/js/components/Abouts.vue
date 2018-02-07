@@ -10,6 +10,7 @@
        <div class="about-about" v-if="this.context == 'about' && !this.isLoading" v-html="this.text"></div>
        <div class="about-methodology" v-if="this.context == 'methodology'  && !this.isLoading">
          <div class="about-methodology-html" v-html="this.text"></div>
+         <div class="about-opendata-wrapper" v-html="this.$root.xhrDataStore.abouts['opendata']"></div>
        </div>
        <div class="about-staff" v-if="this.context == 'staff'">
         <creditsPersonList v-if="!this.isLoading"></creditsPersonList>
