@@ -117,6 +117,7 @@ div#container {
 .pdf-viewer {
     border-left: 10px solid;
     border-right: 10px solid;
+    border-bottom: 10px solid;    
 }
 
 .pdf-controls {
@@ -125,7 +126,7 @@ div#container {
     border-top: 1px solid $lightest;
     color: $lightest;
     display: flex;
-    height: 29px;
+    height: 28px;
     margin-right: 121px;
 }
 
@@ -2035,6 +2036,8 @@ button#show-modal{
     font-family: Roboto Slab;
     letter-spacing: 1px;
     font-weight: 700;
+    cursor: pointer;
+    outline: none !important;
 }
 
 .personPieceMeta, .authorShip {
