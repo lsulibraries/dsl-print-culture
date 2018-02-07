@@ -113,9 +113,11 @@ export default {
 }
 </script>
 <template>
-      <div id="pdf-viewer" class="pdf-viewer">
-    <button class="next-page" @click="changePage('prev')" v-if="this.$root.state.content.issue.page>1" >Prev Page</button>
-    <button class="next-page" @click="changePage('next')" v-if="this.$root.state.content.issue.page<16">Next Page</button>
-    <canvas id="pdf" class="pdf-canvas"></canvas>
-      </div>
+    <div id="pdf-viewer" class="pdf-viewer">
+        <div class="pdf-controls">
+            <button class="next-page" @click="changePage('prev')" v-if="this.$root.state.content.issue.page>1" >Prev Page</button>
+            <button class="next-page" @click="changePage('next')" v-if="this.$root.state.content.issue.page<16">Next Page</button>
+        </div>
+        <canvas id="pdf" class="pdf-canvas"></canvas>
+    </div>
 </template>
