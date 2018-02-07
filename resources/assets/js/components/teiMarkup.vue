@@ -1,6 +1,5 @@
 <template>
         <div class='tei-markup'>
-            <transition name="fade">
             <div class="masthead" v-if="frontPage && masthead">
                 <div class="masthead-title">{{ this.mastheadIssueTitle }}</div>
                 <div class="masthead-issue">
@@ -16,7 +15,6 @@
                 </div>
             </div>
             <div class='teiMarkup' v-html="text" v-if="text"></div>
-            </transition>
         </div>
 </template>
 <script>
