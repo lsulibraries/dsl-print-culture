@@ -82,7 +82,7 @@ new Vue({
       about: '',
       methodology: '',
       credits: {},
-      opendata: 'lorem',
+      opendata: '',
     },
     personography: {},
     issueText: {},
@@ -117,6 +117,7 @@ new Vue({
 	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
 	axios.get('/api/broadwayjournal/abouts/methodology').then(response => this.xhrDataStore.abouts.methodology = response.data);
 	axios.get('/api/broadwayjournal/abouts/personography').then(response => this.xhrDataStore.abouts.personographyDescription = response.data);
+  axios.get('/api/broadwayjournal/abouts/opendata').then(response => this.xhrDataStore.abouts.opendata = response.data);
 
 	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => {
         this.xhrDataStore.personography = response.data;
