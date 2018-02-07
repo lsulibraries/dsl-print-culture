@@ -181,8 +181,12 @@ div#container {
   display: none;
   }
   .viewerSelector {
-  top: 20px;  
+    top: 243px;
+    right: 120px;
   }  
+  .viewerSelector.pdfSelected{
+    top: 0px;
+  }
   .tei-markup {
   border: 0px;
   }
