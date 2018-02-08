@@ -8,11 +8,3 @@ java -jar /opt/saxon9he.jar -xsl:resources/assets/xsl/biblMeta_comprehensive.xsl
 
 java -jar /opt/saxon9he.jar -xsl:resources/assets/xsl/masthead.xsl -s:storage/app/public/broadway-tei/tei/ -o:storage/app/public/masthead/
 
-cd /var/www/dsl-print-culture/storage/app/public/broadway-tei && zip -r ../download/tei.zip tei/
-cd /var/www/dsl-print-culture/storage/app/public/broadway-tei && zip -r ../download/all.zip tei/
-
-cd /var/www/dsl-print-culture/storage/app/public && zip -r download/intermediate_xml.zip issues/ bibl/ personographyComprehensive.xml
-cd /var/www/dsl-print-culture/storage/app/public && zip -r download/all.zip issues/ bibl/ personographyComprehensive.xml
-
-cd /var/www/dsl-print-culture/storage/app/public/broadway-tei && zip -r ../download/pdf.zip pdf/
-cd /var/www/dsl-print-culture/storage/app/public/broadway-tei && zip -r ../download/all.zip pdf/

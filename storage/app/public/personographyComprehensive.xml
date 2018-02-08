@@ -5,9 +5,63 @@
          <personMeta>
             <personId>anon</personId>
             <personName>Anonymous</personName>
-            <personTotalContrib>306</personTotalContrib>
+            <personTotalContrib>310</personTotalContrib>
          </personMeta>
          <personListBibl>
+            <bibl-18450103-p1>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p1</pieceId>
+                  <pieceTitle>The Office of the Broadway Journal</pieceTitle>
+                  <piecePage>397</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p1>
+            <bibl-18450103-p15>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p15</pieceId>
+                  <pieceTitle>The Fine Arts</pieceTitle>
+                  <piecePage>406-407</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p15>
+            <bibl-18450103-p17>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p17</pieceId>
+                  <pieceTitle>The Advice of “Twenty”</pieceTitle>
+                  <piecePage>407</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p17>
             <bibl-18450104-p4>
                <issueMeta>
                   <issueId>18450104</issueId>
@@ -4746,7 +4800,7 @@
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
             </bibl-18450628-p4>
-            <bibl-18450628-p10>
+            <bibl-18450628-p7>
                <issueMeta>
                   <issueId>18450628</issueId>
                   <issueVol>1</issueVol>
@@ -4754,7 +4808,7 @@
                   <issueDate>June 28, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p10</pieceId>
+                  <pieceId>p7</pieceId>
                   <pieceTitle>Time Works Wonders</pieceTitle>
                   <piecePage>407</piecePage>
                   <piecePdfIndex>7</piecePdfIndex>
@@ -4763,8 +4817,8 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450628-p10>
-            <bibl-18450628-p11>
+            </bibl-18450628-p7>
+            <bibl-18450628-p8>
                <issueMeta>
                   <issueId>18450628</issueId>
                   <issueVol>1</issueVol>
@@ -4772,14 +4826,54 @@
                   <issueDate>June 28, 1845</issueDate>
                </issueMeta>
                <sectionMeta>
-                  <sectionId>s2</sectionId>
+                  <sectionId>s1</sectionId>
                   <sectionTitle>Reviews</sectionTitle>
                </sectionMeta>
                <pieceMeta>
-                  <pieceId>p11</pieceId>
+                  <pieceId>p8</pieceId>
                   <pieceTitle>The Aesthetic Letters, Essays, and the Philosophical Letters of Schiller</pieceTitle>
                   <piecePage>408-410</piecePage>
                   <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450628-p8>
+            <bibl-18450628-p9>
+               <issueMeta>
+                  <issueId>18450628</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>June 28, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p9</pieceId>
+                  <pieceTitle>Books Lately Received</pieceTitle>
+                  <piecePage>410</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18450628-p9>
+            <bibl-18450628-p11>
+               <issueMeta>
+                  <issueId>18450628</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>June 28, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p11</pieceId>
+                  <pieceTitle>The Fine Arts</pieceTitle>
+                  <piecePage>412</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
                </pieceMeta>
                <personPieceMeta>
                   <personPieceRole>Contributor</personPieceRole>
@@ -4793,15 +4887,11 @@
                   <issueNum>26</issueNum>
                   <issueDate>June 28, 1845</issueDate>
                </issueMeta>
-               <sectionMeta>
-                  <sectionId>s2</sectionId>
-                  <sectionTitle>Reviews</sectionTitle>
-               </sectionMeta>
                <pieceMeta>
                   <pieceId>p12</pieceId>
-                  <pieceTitle>Books Lately Received</pieceTitle>
-                  <piecePage>410</piecePage>
-                  <piecePdfIndex>10</piecePdfIndex>
+                  <pieceTitle>Weekly Notes</pieceTitle>
+                  <piecePage>412</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
                </pieceMeta>
                <personPieceMeta>
                   <personPieceRole>Contributor</personPieceRole>
@@ -4817,42 +4907,6 @@
                </issueMeta>
                <pieceMeta>
                   <pieceId>p14</pieceId>
-                  <pieceTitle>The Fine Arts</pieceTitle>
-                  <piecePage>412</piecePage>
-                  <piecePdfIndex>12</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </personPieceMeta>
-            </bibl-18450628-p14>
-            <bibl-18450628-p15>
-               <issueMeta>
-                  <issueId>18450628</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>26</issueNum>
-                  <issueDate>June 28, 1845</issueDate>
-               </issueMeta>
-               <pieceMeta>
-                  <pieceId>p15</pieceId>
-                  <pieceTitle>Weekly Notes</pieceTitle>
-                  <piecePage>412</piecePage>
-                  <piecePdfIndex>12</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </personPieceMeta>
-            </bibl-18450628-p15>
-            <bibl-18450628-p17>
-               <issueMeta>
-                  <issueId>18450628</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>26</issueNum>
-                  <issueDate>June 28, 1845</issueDate>
-               </issueMeta>
-               <pieceMeta>
-                  <pieceId>p17</pieceId>
                   <pieceTitle>New Works Published in London</pieceTitle>
                   <piecePage>414</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -4861,7 +4915,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450628-p17>
+            </bibl-18450628-p14>
             <bibl-18450719-p4>
                <issueMeta>
                   <issueId>18450719</issueId>
@@ -6156,6 +6210,24 @@
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
             </bibl-18451213-p1>
+            <bibl-18451220-p1>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p1</pieceId>
+                  <pieceTitle>The Office of the Broadway Journal</pieceTitle>
+                  <piecePage>365</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p1>
             <bibl-18451227-p1>
                <issueMeta>
                   <issueId>18451227</issueId>
@@ -7159,6 +7231,42 @@
             </bibl-18450412-p26>
          </personListBibl>
       </hcandersen>
+      <randerson>
+         <personMeta>
+            <personId>randerson</personId>
+            <personName>Robert Anderson</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/2522459</personViaf>
+            <personBio>
+               <personBirth>Born 1750.</personBirth>
+               <personDeath>Died 1830.</personDeath>
+               <personNote>Compiled collections such as A Complete Edition of the Poets of Great Britian.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </randerson>
       <canthon>
          <personMeta>
             <personId>canthon</personId>
@@ -8325,6 +8433,42 @@
             </personBio>
          </personMeta>
       </bbates>
+      <pbayle>
+         <personMeta>
+            <personId>pbayle</personId>
+            <personName>Pierre Bayle</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/61554695</personViaf>
+            <personBio>
+               <personBirth>Born December 18, 1647 in Carla-le-Comte, France.</personBirth>
+               <personDeath>Died December 28, 1706 in Rotterdam, Dutch Republic.</personDeath>
+               <personNote>A philosopher and writer best known for his Historical and Critical Dictionary. He influenced the Enlightenment with his advocacy of toleration of divergent beliefs.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </pbayle>
       <jbeattie>
          <personMeta>
             <personId>jbeattie</personId>
@@ -9340,6 +9484,39 @@
             </bibl-18450125-p25>
          </personListBibl>
       </awbradford>
+      <brawner>
+         <personMeta>
+            <personId>brawner</personId>
+            <personName>Miss Brawner</personName>
+            <personRole>Mentioned</personRole>
+            <personBio>
+               <personNote>The 26 April issue of the Broadway Journal mentions Miss Brawner as published in the Columbian.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </brawner>
       <fbremer>
          <personMeta>
             <personId>fbremer</personId>
@@ -12491,6 +12668,42 @@
             </personBio>
          </personMeta>
       </cpbronson>
+      <jbrougham>
+         <personMeta>
+            <personId>jbrougham</personId>
+            <personName>John Brougham</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/16135965</personViaf>
+            <personBio>
+               <personBirth>Born 1810.</personBirth>
+               <personDeath>Died 1880.</personDeath>
+               <personNote>An comedic actor and playwright who produced over 100 works. He wrote social satires on Americanc history and adaptation of Charles Dickens books. He also opened the Lyceum Theatre in New York.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </jbrougham>
       <cbbrown>
          <personMeta>
             <personId>cbbrown</personId>
@@ -12528,6 +12741,39 @@
             </bibl-18450201-p4>
          </personListBibl>
       </cbbrown>
+      <browne>
+         <personMeta>
+            <personId>browne</personId>
+            <personName>Miss Browne</personName>
+            <personRole>Mentioned</personRole>
+            <personBio>
+               <personNote>The 26 April issue of the Broadway Journal mentions Miss Browne as published in the Columbian.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </browne>
       <ebbrowning>
          <personMeta>
             <personId>ebbrowning</personId>
@@ -14185,9 +14431,9 @@
             </bibl-18450308-s7>
          </personListBibl>
       </cdcennini>
-      <mervantes>
+      <mcervantes>
          <personMeta>
-            <personId>mervantes</personId>
+            <personId>mcervantes</personId>
             <personName>Miguel de Cervantes Saavedra</personName>
             <personRole>Mentioned</personRole>
             <personViaf>http://viaf.org/viaf/17220427</personViaf>
@@ -14197,8 +14443,31 @@
                <personNote>Cervantes is best known for his authorship of El ingenioso hidalgo
               don Quixote de la Mancha.</personNote>
             </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
          </personMeta>
-      </mervantes>
+         <personListBibl>
+            <bibl-18450104-p6>
+               <issueMeta>
+                  <issueId>18450104</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>1</issueNum>
+                  <issueDate>January 4, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p6</pieceId>
+                  <pieceTitle>"Is Genius Conscious of Its Powers?"</pieceTitle>
+                  <piecePage>10-12</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450104-p6>
+         </personListBibl>
+      </mcervantes>
       <wechanning>
          <personMeta>
             <personId>wechanning</personId>
@@ -15898,7 +16167,7 @@
                <personNote>An American lawyer and minor poet. Edgar Allen Poe encouraged him to submit
             contributions.</personNote>
             </personBio>
-            <personTotalContrib>1</personTotalContrib>
+            <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450315-p9>
@@ -15922,6 +16191,23 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18450315-p9>
+            <bibl-18451220-p4>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p4</pieceId>
+                  <pieceTitle>The Mountains</pieceTitle>
+                  <piecePage>368-369</piecePage>
+                  <piecePdfIndex>4</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451220-p4>
          </personListBibl>
       </ppcooke>
       <jfcooper>
@@ -17083,6 +17369,42 @@
             </bibl-18450419-p17>
          </personListBibl>
       </hcdeming>
+      <pdesmaizeaux>
+         <personMeta>
+            <personId>pdesmaizeaux</personId>
+            <personName>Pierre Des Maizeaux</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/100174106</personViaf>
+            <personBio>
+               <personBirth>Born in Pailhat, Auvergne, France.</personBirth>
+               <personDeath>Died June 1745 in London, England.</personDeath>
+               <personNote>Best known as the translator and biographer of his brother, Pierre Bayle. Des Maizeaux also edited the workd of John Locke and translated the works of Charles de Saint-Evremond.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </pdesmaizeaux>
       <tfdibdin>
          <personMeta>
             <personId>tfdibdin</personId>
@@ -18927,12 +19249,48 @@
             Ellet's brother. English did not believe Poe's story and this ended their
             friendship.</personNote>
             </personBio>
-            <personTotalContrib>2</personTotalContrib>
+            <personTotalContrib>4</personTotalContrib>
             <personTotalMentionsOverall>3</personTotalMentionsOverall>
             <personTotalMentioningPieces>2</personTotalMentioningPieces>
             <personTotalMentionStatement>This author is mentioned 3 times across 2 contributions.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
+            <bibl-18450103-p13>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>Azthene</pieceTitle>
+                  <piecePage>406</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450103-p13>
+            <bibl-18450103-p16>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p16</pieceId>
+                  <pieceTitle>Kit North</pieceTitle>
+                  <piecePage>407</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p16>
             <bibl-18450222-p5>
                <issueMeta>
                   <issueId>18450222</issueId>
@@ -19008,6 +19366,44 @@
             </bibl-18450329-p18>
          </personListBibl>
       </tdenglish>
+      <mertheiler>
+         <personMeta>
+            <personId>mertheiler</personId>
+            <personName>Moritz Ertheiler</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/22073142</personViaf>
+            <personBio>
+               <personNote>The author of English and Germon phrasebooks, including English Colloquial Phrases.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p19>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>A Phrase Book in English and German</pieceTitle>
+                  <piecePage>268</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p19>
+         </personListBibl>
+      </mertheiler>
       <aheverett>
          <personMeta>
             <personId>aheverett</personId>
@@ -20439,9 +20835,43 @@
             being the author of Poems of Many Years and Many Places (Lee
             and Shepard Publishers-1881).</personNote>
             </personBio>
-            <personTotalContrib>3</personTotalContrib>
+            <personTotalContrib>5</personTotalContrib>
          </personMeta>
          <personListBibl>
+            <bibl-18450103-p4>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p4</pieceId>
+                  <pieceTitle>To a Canary Bird</pieceTitle>
+                  <piecePage>401</piecePage>
+                  <piecePdfIndex>5</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450103-p4>
+            <bibl-18450103-p6>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p6</pieceId>
+                  <pieceTitle>The Eternal Father</pieceTitle>
+                  <piecePage>403-404</piecePage>
+                  <piecePdfIndex>7</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450103-p6>
             <bibl-18451011-p3>
                <issueMeta>
                   <issueId>18451011</issueId>
@@ -22370,9 +22800,26 @@
               Letters and the text of the madrigal Il biano e dolce
               cigno. </personNote>
             </personBio>
-            <personTotalContrib>1</personTotalContrib>
+            <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
+            <bibl-18451220-p23>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p23</pieceId>
+                  <pieceTitle>Sonnetto</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451220-p23>
             <bibl-18451227-p25>
                <issueMeta>
                   <issueId>18451227</issueId>
@@ -22392,6 +22839,47 @@
             </bibl-18451227-p25>
          </personListBibl>
       </gguidiccioni>
+      <wguy>
+         <personMeta>
+            <personId>wguy</personId>
+            <personName>William Guy</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/32828233</personViaf>
+            <personBio>
+               <personBirth>Born June 13, 1810 in Chichester, England.</personBirth>
+               <personDeath>Died September 10, 1885.</personDeath>
+               <personNote>A British physician and medical statistician who was a professor of forensic medicine at King's College. Guy edited the Journal of the Statistical Society of London and was vice-president of the Royal Society.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times in a single contribution.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p17>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p17</pieceId>
+                  <pieceTitle>Principles of Forensic Medicine</pieceTitle>
+                  <piecePage>267</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>2</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p17>
+         </personListBibl>
+      </wguy>
       <jgwilt>
          <personMeta>
             <personId>jgwilt</personId>
@@ -22582,6 +23070,44 @@
             </bibl-18450614-p2>
          </personListBibl>
       </phaedi>
+      <jdhaas>
+         <personMeta>
+            <personId>jdhaas</personId>
+            <personName>James D. Haas</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/49660288</personViaf>
+            <personBio>
+               <personNote>Translated Frederic Kohlrausch's History of Germany.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p12>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p12</pieceId>
+                  <pieceTitle>History of Germany</pieceTitle>
+                  <piecePage>267</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p12>
+         </personListBibl>
+      </jdhaas>
       <sjhale>
          <personMeta>
             <personId>sjhale</personId>
@@ -22708,7 +23234,7 @@
             <personTotalContrib>1</personTotalContrib>
          </personMeta>
          <personListBibl>
-            <bibl-18450628-p16>
+            <bibl-18450628-p13>
                <issueMeta>
                   <issueId>18450628</issueId>
                   <issueVol>1</issueVol>
@@ -22716,7 +23242,7 @@
                   <issueDate>June 28, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p16</pieceId>
+                  <pieceId>p13</pieceId>
                   <pieceTitle>A Memory of Thomas Hood</pieceTitle>
                   <piecePage>412-413</piecePage>
                   <piecePdfIndex>12</piecePdfIndex>
@@ -22724,7 +23250,7 @@
                <personPieceMeta>
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
-            </bibl-18450628-p16>
+            </bibl-18450628-p13>
          </personListBibl>
       </amhall>
       <tchaliburton>
@@ -24121,9 +24647,28 @@
               World, Lives of Illustrious Women of All Ages, and
               Heroines of History.</personNote>
             </personBio>
-            <personTotalContrib>8</personTotalContrib>
+            <personTotalContrib>9</personTotalContrib>
          </personMeta>
          <personListBibl>
+            <bibl-18450103-p2>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p2</pieceId>
+                  <pieceTitle>New Year's Day</pieceTitle>
+                  <piecePage>397</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing as Mary.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p2>
             <bibl-18450222-p10>
                <issueMeta>
                   <issueId>18450222</issueId>
@@ -24309,6 +24854,44 @@
             </bibl-18450201-p4>
          </personListBibl>
       </jheywood>
+      <thill>
+         <personMeta>
+            <personId>thill</personId>
+            <personName>Thomas Hill</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/59350003</personViaf>
+            <personBio>
+               <personBirth>Born January 7, 1818 in New Brunswick, New Jersey.</personBirth>
+               <personDeath>Died 1891 in Waltham, Massachusetts.</personDeath>
+               <personNote>President of Harvard University from October 6, 1862 to September 30, 1868, Hill was also a Unitarian minister, mathematician, scientist, educator, and Harvard University lecturer.
+            He published a small book of poems titled Christmas and Poems on Slavery. He also published First Lessons in Geometry, along with other mathematical textbooks.
+          </personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </thill>
       <hbhirst>
          <personMeta>
             <personId>hbhirst</personId>
@@ -24507,7 +25090,7 @@
             <personBio>
                <personBirth>Born 1770 in Ettrick, Scotland.</personBirth>
                <personDeath>Died November 21, 1835 in Ettrick, Scotland.</personDeath>
-               <personNote>A poet, novelist, and essayist widely known as the "Ettrick Shepherd." He is best known for his novel The Private Memoirs and Confessions of a Justified Sinner. 
+               <personNote>A poet, novelist, and essayist widely known as the "Ettrick Shepherd." He is best known for his novel The Private Memoirs and Confessions of a Justified Sinner.
             He also published the long poem The Queen's Wake, a collection of song, and his two novels The Three Perils of Man, and The Three Perils of Woman.</personNote>
             </personBio>
             <personTotalMentionsOverall>1</personTotalMentionsOverall>
@@ -25009,6 +25592,42 @@
             </bibl-18450315-p23>
          </personListBibl>
       </ghorne>
+      <rhhorne>
+         <personMeta>
+            <personId>rhhorne</personId>
+            <personName>Richard Henry Horne</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/59892846</personViaf>
+            <personBio>
+               <personBirth>Born December 31, 1802 in London, England.</personBirth>
+               <personDeath>Died March 13, 1884 in Margate, England.</personDeath>
+               <personNote>A poet and critic most famous for his poem Orion. Early in his career Horne edited the Monthly Repository and published several plays.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </rhhorne>
       <thhorne>
          <personMeta>
             <personId>thhorne</personId>
@@ -25127,6 +25746,48 @@
             </personBio>
          </personMeta>
       </fhoward>
+      <sghowe>
+         <personMeta>
+            <personId>sghowe</personId>
+            <personName>Samuel Gridley Howe</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/2540246</personViaf>
+            <personBio>
+               <personBirth>Born November 10, 1801 in Boston, Massachusetts.</personBirth>
+               <personDeath>Died January 9, 1876 in Massachusetts.</personDeath>
+               <personNote>Howe was a physician, abolitionist, and advocate of education for the blind. </personNote>
+            </personBio>
+            <personTotalMentionsOverall>6</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 6 times in a single contribution.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p10>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p10</pieceId>
+                  <pieceTitle>Thirteenth Annual Report of the Trustees of the Perkins Institution and
+                Massachusetts Asylum of the Blind</pieceTitle>
+                  <piecePage>266-267</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>6</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 6 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p10>
+         </personListBibl>
+      </sghowe>
       <mhowitt>
          <personMeta>
             <personId>mhowitt</personId>
@@ -25595,6 +26256,42 @@
             </bibl-18450419-s3>
          </personListBibl>
       </jhlhunt>
+      <chutton>
+         <personMeta>
+            <personId>chutton</personId>
+            <personName>Charles Hutton</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/76145857807823020140</personViaf>
+            <personBio>
+               <personBirth>Born August 14, 1737 in Newcastle upon Tyne, England.</personBirth>
+               <personDeath>Died January 27, 1823 in London, England.</personDeath>
+               <personNote>A mathematician and surveyor who calculated the density of the earth. He wrote math treatises and textbooks, such as A Course of Mathematics For the Use of Academies and  A Treatise on Mensuration both in Theory and in Practice.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </chutton>
       <amide>
          <personMeta>
             <personId>amide</personId>
@@ -26785,6 +27482,121 @@
             </bibl-18450322-p4>
          </personListBibl>
       </wajones>
+      <ezcjudson>
+         <personMeta>
+            <personId>ezcjudson</personId>
+            <personName>Edward Zane Carroll Judson Sr.</personName>
+            <personPseudo>Ned Buntline</personPseudo>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/26008329</personViaf>
+            <personBio>
+               <personBirth>Born March 20, 1821 in Harpersfield, New  York.</personBirth>
+               <personDeath>Died July 18, 1886 in Stamford, New York.</personDeath>
+               <personNote>A publisher, journalist, writer, and publicist who achieved success with the serial story The Mysteries and Miseries of New York. He was a nativist who was fined and imprisoned as an instigator of the Astor Place Riot. Judson, better known as Ned Buntline, claimed to have created the name Buffalo Bill for William Cody. He wrote the serial novel Buffalo Bill, the King of the Border men.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </ezcjudson>
+      <ecjudson>
+         <personMeta>
+            <personId>ecjudson</personId>
+            <personName>Emily Chubbuck Judson</personName>
+            <personPseudo>Fanny Forester</personPseudo>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/35665668</personViaf>
+            <personBio>
+               <personBirth>Born August 23, 1817 in Eaton, New York.</personBirth>
+               <personDeath>Died June 1, 1854 in Hamilton, New York.</personDeath>
+               <personNote>A poet who developed a friendship with N. P. Willis and was published in his New York Mirror as well as Graham's Magazine and other journals.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 3 contributions.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450405-p30>
+               <issueMeta>
+                  <issueId>18450405</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>14</issueNum>
+                  <issueDate>April 5, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p30</pieceId>
+                  <pieceTitle>Graham's Magazine</pieceTitle>
+                  <piecePage>220</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450405-p30>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>2</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </ecjudson>
       <k>
          <personMeta>
             <personId>k</personId>
@@ -27732,7 +28544,7 @@
             <personTotalContrib>2</personTotalContrib>
          </personMeta>
          <personListBibl>
-            <bibl-18450628-p8>
+            <bibl-18450628-p5>
                <issueMeta>
                   <issueId>18450628</issueId>
                   <issueVol>1</issueVol>
@@ -27740,7 +28552,7 @@
                   <issueDate>June 28, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p8</pieceId>
+                  <pieceId>p5</pieceId>
                   <pieceTitle>Desultory Thoughts By a Scribbler, No. I</pieceTitle>
                   <piecePage>405-407</piecePage>
                   <piecePdfIndex>5</piecePdfIndex>
@@ -27749,7 +28561,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450628-p8>
+            </bibl-18450628-p5>
             <bibl-18451206-p8>
                <issueMeta>
                   <issueId>18451206</issueId>
@@ -27878,6 +28690,43 @@
             </bibl-18450412-p2>
          </personListBibl>
       </jdlafontaine>
+      <chblaing>
+         <personMeta>
+            <personId>chblaing</personId>
+            <personName>Caroline H. Butler Laing</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/70361879</personViaf>
+            <personBio>
+               <personBirth>Born 1804.</personBirth>
+               <personDeath>Died 1892.</personDeath>
+               <personNote>Author of books of history, fiction, and children's books, such as Ice King and the Sweet South Wind and The Little Messenger Birds.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times in a single contribution.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>2</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </chblaing>
       <adlamartine>
          <personMeta>
             <personId>adlamartine</personId>
@@ -28319,6 +29168,47 @@
             </bibl-18450412-p15>
          </personListBibl>
       </mllawson>
+      <calee>
+         <personMeta>
+            <personId>calee</personId>
+            <personName>Charles Alfred Lee</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/13874996</personViaf>
+            <personBio>
+               <personBirth>Born March 3, 1801 in Salisbury, Connecticut.</personBirth>
+               <personDeath>Died 1872.</personDeath>
+               <personNote>A professor of medicine a various colleges, an active promoter of the Northern Dispensary of New York City, and a founder of the Buffalo Medical School. Lee wrote extensively on a variety of medical subjects.
+          His Physiology for the Use of Elemenetary Schools was publisehd by the American Common School Society and passed through many ediitons. He was also instrumental in establishing the New York Journal of Medicine and the Collateral Sciences.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p17>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p17</pieceId>
+                  <pieceTitle>Principles of Forensic Medicine</pieceTitle>
+                  <piecePage>267</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p17>
+         </personListBibl>
+      </calee>
       <krlepsius>
          <personMeta>
             <personId>krlepsius</personId>
@@ -32770,7 +33660,7 @@
             include A Wreath of Flowers from New England, The Casket of Fate, and Laurel Leaves. Osgood
             sometimes used the pen name "Fanny."</personNote>
             </personBio>
-            <personTotalContrib>10</personTotalContrib>
+            <personTotalContrib>11</personTotalContrib>
             <personTotalMentionsOverall>7</personTotalMentionsOverall>
             <personTotalMentioningPieces>5</personTotalMentioningPieces>
             <personTotalMentionStatement>This author is mentioned 7 times across 5 contributions.</personTotalMentionStatement>
@@ -32964,6 +33854,23 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18451213-p4>
+            <bibl-18451220-p2>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p2</pieceId>
+                  <pieceTitle>To “The Lady Geraldine”</pieceTitle>
+                  <piecePage>365</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18451220-p2>
             <bibl-18450301-p10>
                <issueMeta>
                   <issueId>18450301</issueId>
@@ -33408,6 +34315,42 @@
             </personBio>
          </personMeta>
       </ehpatterson>
+      <tparsons>
+         <personMeta>
+            <personId>tparsons</personId>
+            <personName>Theophilus Parsons</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/44686297</personViaf>
+            <personBio>
+               <personBirth>Born February 24, 1750 in Newbury, Massachusetts.</personBirth>
+               <personDeath>Died October 30, 1813 in Boston, Massachusetts.</personDeath>
+               <personNote>A jurist who served as Chief Justice of the Supreme Judicial Court of Massachusetts. Parsons was a Fellow of the American Academy of Arts and Sciences and a member of the American Antiquarian Society. He is the assumed author of Conciliatory Resolutions which helped persuade Adams and Hancock to approve the ratification of the Constitution</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </tparsons>
       <jpaul>
          <personMeta>
             <personId>jpaul</personId>
@@ -33566,6 +34509,46 @@
             </bibl-18450405-p32>
          </personListBibl>
       </shpease>
+      <wpenn>
+         <personMeta>
+            <personId>wpenn</personId>
+            <personName>William Penn</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/24621346</personViaf>
+            <personBio>
+               <personBirth>Born October 14, 1644 in London, England.</personBirth>
+               <personDeath>Died July 30, 1718 in Berkshire, England.</personDeath>
+               <personNote>An early Quaker and founder of the state of Pennsylvania. Penn was frequently imprisoned due to his faith, and wrote No Cross, No Crown while in prison. This work has becaome a Christian classic.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p15>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p15</pieceId>
+                  <pieceTitle>No Cross, No Crown</pieceTitle>
+                  <piecePage>267</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p15>
+         </personListBibl>
+      </wpenn>
       <cperabeau>
          <personMeta>
             <personId>cperabeau</personId>
@@ -33720,6 +34703,42 @@
             </bibl-18450426-s3>
          </personListBibl>
       </apike>
+      <spindar>
+         <personMeta>
+            <personId>spindar</personId>
+            <personName>Susan Pindar</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/60648495</personViaf>
+            <personBio>
+               <personBirth>Born 1820.</personBirth>
+               <personDeath>Died 1892.</personDeath>
+               <personNote>Author of The floral offering, or, Legends of the flowers and Midsummer Fays, or, the holidays at Woodleigh.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </spindar>
       <ecpinkney>
          <personMeta>
             <personId>ecpinkney</personId>
@@ -33872,12 +34891,324 @@
               Messenger, Graham’s Magazine, and Burton’s Gentleman’s Magazine. Poe sometimes signed his works "E.S.T.G." or
             "Edward S. T. Grey."</personNote>
             </personBio>
-            <personTotalContrib>597</personTotalContrib>
+            <personTotalContrib>630</personTotalContrib>
             <personTotalMentionsOverall>35</personTotalMentionsOverall>
             <personTotalMentioningPieces>14</personTotalMentioningPieces>
             <personTotalMentionStatement>This author is mentioned 35 times across 14 contributions.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
+            <bibl-18450103-p3>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p3</pieceId>
+                  <pieceTitle>Loss of Breath</pieceTitle>
+                  <piecePage>397-401</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing as Littleton Barry.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p3>
+            <bibl-18450103-p7>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p7</pieceId>
+                  <pieceTitle>Letters and Speeches of Oliver Cromwell</pieceTitle>
+                  <piecePage>404</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p7>
+            <bibl-18450103-p8>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p8</pieceId>
+                  <pieceTitle>The Pilgrim in the Shadow of the Jungfrau</pieceTitle>
+                  <piecePage>404</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p8>
+            <bibl-18450103-p9>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p9</pieceId>
+                  <pieceTitle>The Lady of Milan, or Fidelity unto Death</pieceTitle>
+                  <piecePage>404</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p9>
+            <bibl-18450103-p10>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p10</pieceId>
+                  <pieceTitle>Blackwood's Edinburgh Magazine</pieceTitle>
+                  <piecePage>404</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p10>
+            <bibl-18450103-p11>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p11</pieceId>
+                  <pieceTitle>Harper's Illuminated Bible</pieceTitle>
+                  <piecePage>404</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p11>
+            <bibl-18450103-p12>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p12</pieceId>
+                  <pieceTitle>The Aristidean</pieceTitle>
+                  <piecePage>404-406</piecePage>
+                  <piecePdfIndex>8</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p12>
+            <bibl-18450103-p14>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>The Drama</pieceTitle>
+                  <piecePage>406</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p14>
+            <bibl-18450103-p18>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editorial Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p18</pieceId>
+                  <pieceTitle>The Broadway Journal</pieceTitle>
+                  <piecePage>407</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p18>
+            <bibl-18450103-p19>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editorial Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Valedictory</pieceTitle>
+                  <piecePage>407</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450103-p19>
+            <bibl-18450103-p20>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editorial Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p20</pieceId>
+                  <pieceTitle>One of the Mosts Wonderful Pieces of Mechanism</pieceTitle>
+                  <piecePage>407-408</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p20>
+            <bibl-18450103-p21>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editorial Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>N. C. Brooks</pieceTitle>
+                  <piecePage>408</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p21>
+            <bibl-18450103-p22>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editorial Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p22</pieceId>
+                  <pieceTitle>We Regret to Observe</pieceTitle>
+                  <piecePage>407-408</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p22>
+            <bibl-18450103-p23>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Editorial Miscellany</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p23</pieceId>
+                  <pieceTitle>The Last Picture of Leutze</pieceTitle>
+                  <piecePage>407-408</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450103-p23>
             <bibl-18450104-p3>
                <issueMeta>
                   <issueId>18450104</issueId>
@@ -37555,7 +38886,7 @@
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450621-p22>
-            <bibl-18450628-p9>
+            <bibl-18450628-p6>
                <issueMeta>
                   <issueId>18450628</issueId>
                   <issueVol>1</issueVol>
@@ -37563,7 +38894,7 @@
                   <issueDate>June 28, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p9</pieceId>
+                  <pieceId>p6</pieceId>
                   <pieceTitle>Dream-Land</pieceTitle>
                   <piecePage>407</piecePage>
                   <piecePdfIndex>7</piecePdfIndex>
@@ -37573,7 +38904,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450628-p9>
+            </bibl-18450628-p6>
             <bibl-18450712-p2>
                <issueMeta>
                   <issueId>18450712</issueId>
@@ -46430,6 +47761,435 @@
                   <authorShip>Authorship is supplied, with high certainty.</authorShip>
                </personPieceMeta>
             </bibl-18451213-p35>
+            <bibl-18451220-p3>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p3</pieceId>
+                  <pieceTitle>The Facts in the Case of M. Valdemar</pieceTitle>
+                  <piecePage>365-368</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p3>
+            <bibl-18451220-p6>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p6</pieceId>
+                  <pieceTitle>Biographical and Critical Notices</pieceTitle>
+                  <piecePage>373</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p6>
+            <bibl-18451220-p7>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p7</pieceId>
+                  <pieceTitle>Trifles in Verse</pieceTitle>
+                  <piecePage>373</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p7>
+            <bibl-18451220-p8>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p8</pieceId>
+                  <pieceTitle>The Diadem for 1846</pieceTitle>
+                  <piecePage>374</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p8>
+            <bibl-18451220-p9>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p9</pieceId>
+                  <pieceTitle>The Missionary Memorial</pieceTitle>
+                  <piecePage>374</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p9>
+            <bibl-18451220-p10>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p10</pieceId>
+                  <pieceTitle>The Rose, or Affection's Gift for 1846</pieceTitle>
+                  <piecePage>374</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p10>
+            <bibl-18451220-p11>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p11</pieceId>
+                  <pieceTitle>The May-flower for 1846</pieceTitle>
+                  <piecePage>374</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p11>
+            <bibl-18451220-p12>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p12</pieceId>
+                  <pieceTitle>Elinor Willys</pieceTitle>
+                  <piecePage>374</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p12>
+            <bibl-18451220-p13>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>Wiley and Putnam's Library of Choice Reading</pieceTitle>
+                  <piecePage>374-375</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p13>
+            <bibl-18451220-p14>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>First Lessons</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p14>
+            <bibl-18451220-p15>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p15</pieceId>
+                  <pieceTitle>The Illustrated History of Palestine</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p15>
+            <bibl-18451220-p16>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p16</pieceId>
+                  <pieceTitle>Love and Mesmerism</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p16>
+            <bibl-18451220-p17>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p17</pieceId>
+                  <pieceTitle>The Wandering Jew</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p17>
+            <bibl-18451220-p18>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p18</pieceId>
+                  <pieceTitle>Harper's Illuminated and Illustrated Sheakspeare</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p18>
+            <bibl-18451220-p19>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Republication of the London Lancet</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p19>
+            <bibl-18451220-p20>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p20</pieceId>
+                  <pieceTitle>Pictorial History of the World</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p20>
+            <bibl-18451220-p21>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Vigil of Faith, and other Poems</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p21>
+            <bibl-18451220-p22>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Critical Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p22</pieceId>
+                  <pieceTitle>From J. S. Redfield and Co.</pieceTitle>
+                  <piecePage>375</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p22>
+            <bibl-18451220-p25>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p25</pieceId>
+                  <pieceTitle>Editorial Miscellany</pieceTitle>
+                  <piecePage>376</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p25>
             <bibl-18451227-p5>
                <issueMeta>
                   <issueId>18451227</issueId>
@@ -47529,6 +49289,39 @@
             </bibl-18450125-p14>
          </personListBibl>
       </jbpoquelin>
+      <ejporter>
+         <personMeta>
+            <personId>ejporter</personId>
+            <personName>E. J. Porter</personName>
+            <personRole>Mentioned</personRole>
+            <personBio>
+               <personNote>The 26 April issue of the Broadway Journal mentions E. J. Porter as published in the Columbian.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </ejporter>
       <jporter>
          <personMeta>
             <personId>jporter</personId>
@@ -48080,6 +49873,19 @@
             </bibl-18450111-p12>
          </personListBibl>
       </fhramsbotham>
+      <gxravignan>
+         <personMeta>
+            <personId>gxravignan</personId>
+            <personName>Gustave François Xavier de Lacroix de Ravignan</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/14815028</personViaf>
+            <personBio>
+               <personBirth>Born December 2, 1795 in Bayonne, France.</personBirth>
+               <personDeath>Died February 26, 1858 in Paris, France.</personDeath>
+               <personNote>A Jesuit preacher, author, and auditor of the French royal court. He wrote about the Jesuits.</personNote>
+            </personBio>
+         </personMeta>
+      </gxravignan>
       <hjraymond>
          <personMeta>
             <personId>hjraymond</personId>
@@ -48256,6 +50062,39 @@
             </bibl-18450201-p1>
          </personListBibl>
       </jreynolds>
+      <jhrheyn>
+         <personMeta>
+            <personId>jhrheyn</personId>
+            <personName>John H. Rheyn</personName>
+            <personRole>Mentioned</personRole>
+            <personBio>
+               <personNote>Noted in the April 26 issue of the Broadway Journal as the author of the poem A Thirst for Love, published in the Knickerbocker.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </jhrheyn>
       <dlrichardson>
          <personMeta>
             <personId>dlrichardson</personId>
@@ -48879,9 +50718,26 @@
             <personBio>
                <personNote>A poet, author of Fancies, Epicedium, and A College Reminiscence. Full name unknown.</personNote>
             </personBio>
-            <personTotalContrib>2</personTotalContrib>
+            <personTotalContrib>3</personTotalContrib>
          </personMeta>
          <personListBibl>
+            <bibl-18450103-p5>
+               <issueMeta>
+                  <issueId>18450103</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>26</issueNum>
+                  <issueDate>January 3, 1846</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>A College Reminiscence</pieceTitle>
+                  <piecePage>401-403</piecePage>
+                  <piecePdfIndex>5</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450103-p5>
             <bibl-18451115-p4>
                <issueMeta>
                   <issueId>18451115</issueId>
@@ -50172,6 +52028,84 @@
             </bibl-18450419-p19>
          </personListBibl>
       </wshakespeare>
+      <tshaw>
+         <personMeta>
+            <personId>tshaw</personId>
+            <personName>Thomas Shaw</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/59217869</personViaf>
+            <personBio>
+               <personBirth>Born 1694 in Kendal, Westmoreland, England.</personBirth>
+               <personDeath>Died 1751.</personDeath>
+               <personNote>A cleric and traveller who was elected a Fellow of the Royal Society. He wrote Travels in Barbary and the Levant.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </tshaw>
+      <mwshelley>
+         <personMeta>
+            <personId>mwshelley</personId>
+            <personName>Mary Wollstonecraft Shelley</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/6293</personViaf>
+            <personBio>
+               <personBirth>Born August 30, 1797 in London, England.</personBirth>
+               <personDeath>Died February 1, 1851 in London, England.</personDeath>
+               <personNote>An English writer best known for her novel Frankenstein. Shelley also edited the works of her husband, the poet Percy Bysshe Shelley. Mary Shelley's father was the philosopher William Godwin, and her mother was early feminist Mary Wollstonecraft.
+            Mary Shelley wrote the lesser known novels Valperga, Perkin Warbeck, and The Last Man, among others.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p16>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p16</pieceId>
+                  <pieceTitle>Frankenstein, by Mrs. Shelley; and Midshipman Easy, by Captain
+                Marryatt</pieceTitle>
+                  <piecePage>267</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p16>
+         </personListBibl>
+      </mwshelley>
       <pbshelley>
          <personMeta>
             <personId>pbshelley</personId>
@@ -50938,6 +52872,42 @@
             </bibl-18450301-p10>
          </personListBibl>
       </wgsimms>
+      <eosmith>
+         <personMeta>
+            <personId>eosmith</personId>
+            <personName>Elizabeth Oakes Smith</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/1099634</personViaf>
+            <personBio>
+               <personBirth>Born August 12, 1806 in North Yarmouth, Maine.</personBirth>
+               <personDeath>Died November 16, 1893 in Blue Point, New York.</personDeath>
+               <personNote>A poet, fiction writer, editor, lecturer, and women's rights activist. Smith was best known during her lifetime for her poem The Sinless Child which was published in the Southern Literary Messenger. She is now best remembered for her series of feminist essays, Woman and Her Needs, published in the New York Tribune.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </eosmith>
       <ghsmith>
          <personMeta>
             <personId>ghsmith</personId>
@@ -51544,6 +53514,80 @@
             </bibl-18450322-p5>
          </personListBibl>
       </evsparhawk>
+      <jsparks>
+         <personMeta>
+            <personId>jsparks</personId>
+            <personName>Jared Sparks</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/32111805</personViaf>
+            <personBio>
+               <personBirth>Born May 10, 1789 in Willington, Connecticut.</personBirth>
+               <personDeath>Died March 14, 1866 in Cambridge, Massachusetts.</personDeath>
+               <personNote>A historian, educator, and Unitarian minister who served as President of Harvard from 1849 to 1853. Sparks edited the Library of American Biography and compiled 
+            Correspondence of the American Revolution and The Works of Benjamin Franklin among other works.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p13>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>The Library of American Biography</pieceTitle>
+                  <piecePage>267</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p13>
+         </personListBibl>
+      </jsparks>
+      <hvspiegel>
+         <personMeta>
+            <personId>hvspiegel</personId>
+            <personName>Hans Von Spiegel</personName>
+            <personRole>Mentioned</personRole>
+            <personBio>
+               <personNote>Noted in the April 26 issue of the Broadway Journal as the author of My Grandfather's House, published in the Knickerbocker.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </hvspiegel>
       <bspinoza>
          <personMeta>
             <personId>bspinoza</personId>
@@ -51815,6 +53859,44 @@
             </bibl-18450301-s6>
          </personListBibl>
       </ahstephens>
+      <asstephens>
+         <personMeta>
+            <personId>asstephens</personId>
+            <personName>Ann S. Stephens</personName>
+            <personPseudo>Jonathan Slick</personPseudo>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/32794966</personViaf>
+            <personBio>
+               <personBirth>Born March 30, 1810 in Derby, Connecticut.</personBirth>
+               <personDeath>Died August 20, 1886 in Newport, Rhode Island.</personDeath>
+               <personNote>A novelist and magazine editor, Stephens was the author of dime novels and is considered a founder of that genre. She edited The Ladies Companion and was
+            published in Godey's Lady's Book and Graham's Magazine.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-p21>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p21</pieceId>
+                  <pieceTitle>The Magazines</pieceTitle>
+                  <piecePage>268-269</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-p21>
+         </personListBibl>
+      </asstephens>
       <lsterne>
          <personMeta>
             <personId>lsterne</personId>
@@ -52441,7 +54523,29 @@
             Chamber of Deputies, and the first German Reichstag. His works include Political Economy and Essays on Law Reform and Commercial
               Policy.</personNote>
             </personBio>
+            <personTotalContrib>1</personTotalContrib>
          </personMeta>
+         <personListBibl>
+            <bibl-18451220-p5>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>The Modern Poetical Literature of Germany</pieceTitle>
+                  <piecePage>369-373</piecePage>
+                  <piecePdfIndex>5</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing as T. L. Tellkampf.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p5>
+         </personListBibl>
       </jltellkampf>
       <atennyson>
          <personMeta>
@@ -53687,6 +55791,42 @@
             </personBio>
          </personMeta>
       </voltaire>
+      <rwhvyse>
+         <personMeta>
+            <personId>rwhvyse</personId>
+            <personName>Richard William Howard Vyse</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/69660778</personViaf>
+            <personBio>
+               <personBirth>Born July 25, 1784 in Stoke Poges, Buckinghamshire, England.</personBirth>
+               <personDeath>Died June 8, 1853 in Stoke Poges, Buckinghamshire, England.</personDeath>
+               <personNote>A soldier, anthropologist, and Egyptologist who also served as a Member of Parliament. Vyse wrote Operations Carried on at the Pyramids of Gizeth in 1837.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </rwhvyse>
       <saw>
          <personMeta>
             <personId>saw</personId>
@@ -54312,6 +56452,42 @@
             </bibl-18450412-s3>
          </personListBibl>
       </jfwarner>
+      <twarton>
+         <personMeta>
+            <personId>twarton</personId>
+            <personName>Thomas Warton</personName>
+            <personRole>Mentioned</personRole>
+            <personViaf>http://viaf.org/viaf/44371601</personViaf>
+            <personBio>
+               <personBirth>Born January 9, 1728 in Basingstoke, Hampshire, England.</personBirth>
+               <personDeath>Died May 21, 1790 in Oxford, England.</personDeath>
+               <personNote>A literary historian, critic, and poet who was the Poet Laureate of England from 1785 to 1790. His most famous poem is The Pleasures of Melancholy. He also wrote Observations on the Faerie Queene of Spenser and The History of English Poetry. He is remembered for his interest in primitivism, which influenced romanticism.</personNote>
+            </personBio>
+            <personTotalMentionsOverall>1</personTotalMentionsOverall>
+            <personTotalMentioningPieces>1</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+         </personMeta>
+         <personListBibl>
+            <bibl-18450426-s3>
+               <issueMeta>
+                  <issueId>18450426</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>17</issueNum>
+                  <issueDate>April 26, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>271-272</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450426-s3>
+         </personListBibl>
+      </twarton>
       <hcwatson>
          <personMeta>
             <personId>hcwatson</personId>
@@ -54327,7 +56503,7 @@
               Broadway Journal. Watson also worked as a conductor, singer, and libretto
             writer.</personNote>
             </personBio>
-            <personTotalContrib>89</personTotalContrib>
+            <personTotalContrib>90</personTotalContrib>
             <personTotalMentionsOverall>3</personTotalMentionsOverall>
             <personTotalMentioningPieces>2</personTotalMentioningPieces>
             <personTotalMentionStatement>This author is mentioned 3 times across 2 contributions.</personTotalMentionStatement>
@@ -55268,7 +57444,7 @@
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450621-p30>
-            <bibl-18450628-p13>
+            <bibl-18450628-p10>
                <issueMeta>
                   <issueId>18450628</issueId>
                   <issueVol>1</issueVol>
@@ -55276,7 +57452,7 @@
                   <issueDate>June 28, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p13</pieceId>
+                  <pieceId>p10</pieceId>
                   <pieceTitle>French Opera at the Park Theatre</pieceTitle>
                   <piecePage>410-411</piecePage>
                   <piecePdfIndex>10</piecePdfIndex>
@@ -55286,7 +57462,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450628-p13>
+            </bibl-18450628-p10>
             <bibl-18450712-p13>
                <issueMeta>
                   <issueId>18450712</issueId>
@@ -56214,6 +58390,25 @@
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
             </bibl-18451213-p21>
+            <bibl-18451220-p24>
+               <issueMeta>
+                  <issueId>18451220</issueId>
+                  <issueVol>2</issueVol>
+                  <issueNum>24</issueNum>
+                  <issueDate>December 20, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p24</pieceId>
+                  <pieceTitle>The Fine Arts</pieceTitle>
+                  <piecePage>375-376</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18451220-p24>
             <bibl-18450125-p25>
                <issueMeta>
                   <issueId>18450125</issueId>
