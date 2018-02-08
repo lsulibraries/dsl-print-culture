@@ -5,6 +5,7 @@
     import biblSectionMeta from './biblSectionMeta'
     import drawer from './drawer'
     import modal from './modal'
+
     export default {
         components: { personMeta, biblIssueMeta, biblPieceMeta, biblSectionMeta, drawer, modal },
         data() {

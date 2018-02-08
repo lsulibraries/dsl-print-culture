@@ -2,16 +2,14 @@
     <div id="container" v-bind:class="contrastString()">
       <vueHeader></vueHeader>
       <vueContent></vueContent>
-      <vueFooter></vueFooter>
   </div>
 </template>
 
 <script>
     import vueHeader from './vueHeader'
     import vueContent from './vueContent'
-    import vueFooter from './vueFooter'
     export default {
-        components: { vueHeader, vueContent, vueFooter },
+        components: { vueHeader, vueContent },
         created() {
             Event.$on('toggleContrast', () => {
                 this.contrast = this.$root.state.contrast;

@@ -14,11 +14,16 @@
                     </div>
                 </div>
             </div>
+            <vue-scrollbar class="issue-scrollbar">
             <div class='teiMarkup' v-html="text" v-if="text"></div>
+          </vue-scrollbar>
         </div>
 </template>
 <script>
+    import VueScrollbar from './vue-scrollbar.vue'   
+
     export default {
+        components: { VueScrollbar },
         props: ['issue', 'bibl'],
         created(){
             if (this.$route) {
@@ -90,6 +95,7 @@
             }
           },
           fetchData: function() {
+
               this.issueId = this.$route.params.id
 
               if(this.$route.params.biblid) {
@@ -106,6 +112,8 @@
                 this.setText()
               }
               this.getMasthead()
+              this.$refs.Scrollbar.scrollToY(0)
+
             },
             getMasthead: function () {
                 let headerUrl = '/api/broadwayjournal/issue/'+ this.issueId +'/header';

@@ -1,5 +1,6 @@
 <template>
     <div class="viewer">
+        <viewerSelector></viewerSelector>
         <div class="pdf-viewer" v-if="pdfMode">
             <div class="pdf-controls">
                 <div class="pdf-page-location">{{page}} / {{pageCount}}</div>
@@ -17,11 +18,14 @@
     import teiMarkup from './teiMarkup'
     import pdfViewer from './pdfViewer'
     import pdf from 'vue-pdf'
+    import viewerSelector from './viewerSelector'
+
     export default {
         components: {
             pdfViewer,
             teiMarkup,
             pdf,
+            viewerSelector            
         },
         data() {
             return {
@@ -118,6 +122,7 @@
             },
             routeChanged: function () {
                 // Set the page
+                this.$refs.Scrollbar.scrollToY(0);
 
                 // If q param 'viewer' is set, let that override all
                 if (this.$route.query.page) {
@@ -132,6 +137,7 @@
                     this.page = 1
                 }
                 this.getIssueBiblData()
+                
             },
         },
     }

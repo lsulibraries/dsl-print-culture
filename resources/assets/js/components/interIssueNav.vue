@@ -2,11 +2,11 @@
   import issueMonth from './issueMonth' 
   import intraIssueNav from './intraIssueNav'
   import VueScrollbar from './vue-scrollbar.vue'   
+  import vueFooter from './vueFooter'
+
   export default {
     components: {
-      intraIssueNav,
-      issueMonth,
-      VueScrollbar
+      intraIssueNav, issueMonth, VueScrollbar, vueFooter
     },
     data(){
       return {
@@ -57,6 +57,7 @@
                 <issueMonth :month='this.months[0]' :issueIds='lookup("JAN","1846")' class="singleIndex"></issueMonth>
               </div>
               <intraIssueNav></intraIssueNav>
+              <vueFooter></vueFooter>
             </div>
           </vue-scrollbar>
 </template>

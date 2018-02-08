@@ -1,5 +1,9 @@
 <script>
+import viewerSelector from './viewerSelector'
+
+
 export default {
+    components: { viewerSelector },
     created(){
     Event.$on('zoomUpdate',(level,page)=>{
             this.scale = level;
@@ -117,6 +121,7 @@ export default {
         <div class="pdf-controls">
             <button class="next-page" @click="changePage('prev')" v-if="this.$root.state.content.issue.page>1" >Prev Page</button>
             <button class="next-page" @click="changePage('next')" v-if="this.$root.state.content.issue.page<16">Next Page</button>
+            <viewerSelector></viewerSelector>            
         </div>
         <canvas id="pdf" class="pdf-canvas"></canvas>
     </div>
