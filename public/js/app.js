@@ -45285,8 +45285,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+var _props$created$comput;
+
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 //
 //
 //
@@ -45307,7 +45311,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //
 //
 
-/* harmony default export */ __webpack_exports__["default"] = ({
+/* harmony default export */ __webpack_exports__["default"] = (_props$created$comput = {
     props: ['issue', 'bibl'],
     created: function created() {
         if (this.$route) {
@@ -45556,19 +45560,20 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
             }
         }
     },
-    mounted: function mounted() {},
-    data: function data() {
-        return {
-            issueId: '',
-            markdown: [],
-            masthead: {},
-            biblData: {},
-            biblId: false,
-            mastheadPeopleByRole: {},
-            text: ''
-        };
-    }
-});
+    mounted: function mounted() {}
+}, _defineProperty(_props$created$comput, 'created', function created() {
+    this.fetchData();
+}), _defineProperty(_props$created$comput, 'data', function data() {
+    return {
+        issueId: '',
+        markdown: [],
+        masthead: {},
+        biblData: {},
+        biblId: false,
+        mastheadPeopleByRole: {},
+        text: ''
+    };
+}), _props$created$comput);
 
 /***/ }),
 /* 140 */
