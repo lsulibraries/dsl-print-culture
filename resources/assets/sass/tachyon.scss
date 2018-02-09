@@ -2810,14 +2810,16 @@ h1{
 .index-scrollbar{
     min-width: 300px;
     max-height: 100%;
+    width: 100%;
+    padding-right: 10px;    
 }
 
 
 
 .person-scrollbar{
     max-height: calc(100% - 150px);
-    padding-right: 100px;    
-
+    padding-right: 91px;    
+    width: 100%;
 }
 
 .nav-scrollbar{
