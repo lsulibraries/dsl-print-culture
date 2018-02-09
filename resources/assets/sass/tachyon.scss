@@ -553,11 +553,10 @@ div#container {
   flex-direction: column;
   border: 1px solid;
   margin-top: 80px;
-  padding: 20px;    
 }
 
 .leftFooter {
-
+    padding: 20px;
     background: $darkest;
 
     div#creativeCommons {
@@ -575,10 +574,14 @@ div#container {
 
 .rightFooter {
     display: flex;
+        padding: 20px;
+    background: #f2e6ce;
+    padding-top: 0px;
     .rightContainer {
     padding-top: 20px;
     width: 100%;
     display: flex;
+
     }    
 
 }
