@@ -181,19 +181,24 @@ div#container {
   display: none;
   }
   .viewerSelector {
-    top: 243px;
-    right: 131px;
+    top: 224px;
+    right: 111px;
   }  
   .viewerSelector.pdfSelected{
     top: 0px;
   }
   .tei-markup {
   border: 0px;
+    border-bottom: 10px solid;  
+  }
+  .issue-scrollbar {
+    width: calc(100% + 15px);
   }
 
   .teiMarkup {
       border-left: 10px solid;
       border-right: 10px solid;
+      border-bottom: 10px solid;      
       padding-top: 20px;
       padding-left: 30px;
       padding-right: 30px;
@@ -241,6 +246,9 @@ div#container {
     text-transform: uppercase;
     padding: 30px 0px;
     border-bottom: 0px;
+    color: $lightest;
+    background: $greyDark;
+    margin-bottom: 1px;        
   }  
 .masthead-issue {
     @include flexbox;
@@ -542,10 +550,14 @@ div#container {
 //beginfooter
 .footer{
   display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin-top: 80px;
+  padding: 20px;    
 }
 
 .leftFooter {
-    width: 30%;
+
     background: $darkest;
 
     div#creativeCommons {
@@ -558,19 +570,12 @@ div#container {
     }    
 
     #infoFooter {
-    margin: 20px;
-    border-top: 1px solid;
-    padding-top: 20px;
     }    
 }
 
 .rightFooter {
     display: flex;
-    width: 70%;
-    background: $lightest;
     .rightContainer {
-    margin: 20px;
-    border-top: 1px solid $thirtydark;
     padding-top: 20px;
     width: 100%;
     display: flex;
@@ -781,6 +786,7 @@ input:focus {
   background: $lightest;
   flex-grow: 2;
   position: relative;
+    width: 70%;  
 }
 
 .issueHeader .issueInfo{
@@ -1062,16 +1068,19 @@ position: relative;
 }
 
 .viewer {
-    padding: 0px 100px 100px 100px;
-
+    padding: 0px 100px 20px 100px;
+  position: relative;
 }
 
 .teiMarkup {
   font-size: 1.2em;
+  padding: 20px;
     padding-top: 0px;  
     .piece .head{
       display: none;
     }
+
+    padding-bottom: 40px;    
 }
 
 .tei-markup {
@@ -1079,9 +1088,9 @@ position: relative;
     padding-top: 0px;
     font-family: Roboto Slab;
     border: 10px solid;
-    padding: 20px;
     border-top: 0px;
-
+    border-bottom: 10px solid;
+    position: relative;
 }
 
 
@@ -2276,7 +2285,7 @@ background: $greyDark;
     overflow: hidden;
     z-index: 2;
     position: absolute;
-    top: 206px;
+    top: 1px;
     right: 111px;
     width: 119px;
     font-family: Roboto Slab;
@@ -2758,8 +2767,6 @@ h1{
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  padding-right: 20px; //new
-  width: 100%;   //new
 }
 .vue-scrollbar__wrapper:hover .vue-scrollbar__scrollbar-vertical, .vue-scrollbar__wrapper:hover .vue-scrollbar__scrollbar-horizontal {
   opacity: 1;
@@ -2803,14 +2810,16 @@ h1{
 .index-scrollbar{
     min-width: 300px;
     max-height: 100%;
+    width: 100%;
+    padding-right: 10px;    
 }
 
 
 
 .person-scrollbar{
     max-height: calc(100% - 150px);
-    padding-right: 100px;    
-
+    padding-right: 91px;    
+    width: 100%;
 }
 
 .nav-scrollbar{
@@ -2825,13 +2834,22 @@ h1{
     }   
 
 .issue-scrollbar{
-    width: 70%;
-    max-height: calc(100vh - 120px);
+    max-height: calc(100vh - 390px);
     box-sizing: border-box;
+    padding-right: 15px;
+    width: calc(100% + 25px);
+    .vue-scrollbar__scrollbar-vertical {
+    right: 4px;
+    border-radius: 0px;    
+    }
+    .scrollbar {
+    border-radius: 0px;
+    }
 
-.vue-scrollbar__scrollbar-vertical {
-    right: 80px;
 }
+
+.pdf-scrollbar{
+  padding-right: 25px;
 
 }
 
@@ -2908,6 +2926,7 @@ a.downloadLink{
   font-size:2em;
     padding: 20px;
     line-height: 1em;  
+
 }  
 .personIndex .person {
     width: calc(50% - 4px);

@@ -1,5 +1,6 @@
 <template>
     <div class="viewer">
+        <viewerSelector></viewerSelector>
         <div class="pdf-viewer" v-if="pdfMode">
             <div class="pdf-controls">
                 <div class="pdf-page-location">{{page}} / {{pageCount}}</div>
@@ -8,20 +9,29 @@
                     <router-link tag='button' class="pdf-next-page" :to="getNextPageLink()" :disabled="lastPage">Next Page</router-link>
                 </div>
             </div>
+                    <vue-scrollbar class="issue-scrollbar pdf-scrollbar">
+
             <pdf :page="this.page" :src="this.pdfSrc" @num-pages="pageCount = $event" @page-loaded="page = $event"></pdf>
+                    </vue-scrollbar>
+
         </div>
-        <tei-markup v-if="!pdfMode" :issue="this.issueId" :bibl="this.biblId"></tei-markup>
+            <tei-markup v-if="!pdfMode" :issue="this.issueId" :bibl="this.biblId"></tei-markup>
     </div>
 </template>
 <script>
     import teiMarkup from './teiMarkup'
     import pdfViewer from './pdfViewer'
     import pdf from 'vue-pdf'
+    import viewerSelector from './viewerSelector'
+    import VueScrollbar from 'vue2-scrollbar';     
+
     export default {
         components: {
             pdfViewer,
             teiMarkup,
             pdf,
+            viewerSelector,
+            VueScrollbar          
         },
         data() {
             return {
@@ -118,6 +128,7 @@
             },
             routeChanged: function () {
                 // Set the page
+                this.$refs.Scrollbar.scrollToY(0);
 
                 // If q param 'viewer' is set, let that override all
                 if (this.$route.query.page) {
@@ -132,6 +143,7 @@
                     this.page = 1
                 }
                 this.getIssueBiblData()
+                
             },
         },
     }
