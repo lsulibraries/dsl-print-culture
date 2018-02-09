@@ -45757,6 +45757,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_pdf___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_vue_pdf__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewerSelector__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewerSelector___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__viewerSelector__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vue2_scrollbar__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vue2_scrollbar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_vue2_scrollbar__);
 //
 //
 //
@@ -45773,6 +45775,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+
 
 
 
@@ -45784,7 +45791,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         pdfViewer: __WEBPACK_IMPORTED_MODULE_1__pdfViewer___default.a,
         teiMarkup: __WEBPACK_IMPORTED_MODULE_0__teiMarkup___default.a,
         pdf: __WEBPACK_IMPORTED_MODULE_2_vue_pdf___default.a,
-        viewerSelector: __WEBPACK_IMPORTED_MODULE_3__viewerSelector___default.a
+        viewerSelector: __WEBPACK_IMPORTED_MODULE_3__viewerSelector___default.a,
+        VueScrollbar: __WEBPACK_IMPORTED_MODULE_4_vue2_scrollbar___default.a
     },
     data: function data() {
         return {
@@ -70616,7 +70624,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "to": _vm.getNextPageLink(),
       "disabled": _vm.lastPage
     }
-  }, [_vm._v("Next Page")])], 1)]), _vm._v(" "), _c('pdf', {
+  }, [_vm._v("Next Page")])], 1)]), _vm._v(" "), _c('vue-scrollbar', {
+    staticClass: "issue-scrollbar pdf-scrollbar"
+  }, [_c('pdf', {
     attrs: {
       "page": this.page,
       "src": this.pdfSrc
@@ -70629,7 +70639,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.page = $event
       }
     }
-  })], 1) : _vm._e(), _vm._v(" "), (!_vm.pdfMode) ? _c('tei-markup', {
+  })], 1)], 1) : _vm._e(), _vm._v(" "), (!_vm.pdfMode) ? _c('tei-markup', {
     attrs: {
       "issue": this.issueId,
       "bibl": this.biblId
