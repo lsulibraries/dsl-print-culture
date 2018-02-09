@@ -14,13 +14,13 @@
                     </div>
                 </div>
             </div>
-            <vue-scrollbar class="issue-scrollbar">
-            <div class='teiMarkup' v-html="text" v-if="text"></div>
-          </vue-scrollbar>
+            <vue-scrollbar class="issue-scrollbar" v-if="text">
+              <div class='teiMarkup' v-html="text"></div>
+            </vue-scrollbar>
         </div>
 </template>
 <script>
-    import VueScrollbar from './vue-scrollbar.vue'   
+    import VueScrollbar from './vue-scrollbar.vue'
 
     export default {
         components: { VueScrollbar },
