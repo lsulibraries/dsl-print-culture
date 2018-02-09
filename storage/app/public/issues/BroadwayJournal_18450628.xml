@@ -755,7 +755,7 @@
          </div>
       </div>
       
-      <div class="piece" id="#p8">
+      <div class="piece" id="#p5">
          <div class="biblTitle">Desultory Thoughts By a Scribbler, No. I</div>
          <div class="biblPage">405</div>
          <div class="head">DESULTORY THOUQHTS.
@@ -1075,7 +1075,7 @@
       
       
       
-      <div class="piece" id="#p9">
+      <div class="piece" id="#p6">
          <div class="biblTitle">Dream-Land</div>
          <div class="biblPage">407</div>
          <div class="head">DREAM-LAND.</div>
@@ -1195,7 +1195,7 @@
          </div>
       </div>
       
-      <div class="piece" id="#p10">
+      <div class="piece" id="#p7">
          <div class="biblTitle">Time Works Wonders</div>
          <div class="biblPage">407</div>
          <p>“Time WORKS Wonders,” and we know of nothing that he
@@ -1211,11 +1211,11 @@
       </div>
       
       
-      <div class="section" id="#s2">
+      <div class="section" id="#s1">
          <div class="biblTitle">Reviews</div>
          <div class="head">REVIEWS.</div>
          
-         <div class="piece" id="#p11">
+         <div class="piece" id="#p8">
             <div class="biblTitle">The Aesthetic Letters, Essays, and the Philosophical Letters of Schiller</div>
             <div class="biblPage">408</div>
             <p>The Aesthetic Letters, Essays, and the Philosophical Let-
@@ -1557,7 +1557,7 @@
             </p>
          </div>
          
-         <div class="piece" id="#p12">
+         <div class="piece" id="#p9">
             <div class="biblTitle">Books Lately Received</div>
             <div class="biblPage">410</div>
             <div class="head">BOOKS LATELY RECEIVED.</div>
@@ -1646,7 +1646,7 @@
          </div>
       </div>
       
-      <div class="piece" id="#p13">
+      <div class="piece" id="#p10">
          <div class="biblTitle">French Opera at the Park Theatre</div>
          <div class="biblPage">410</div>
          <div class="head">FRENCH OPERA AT THE PARK THEATRE.</div>
@@ -1845,13 +1845,14 @@
       
       
       
-      <div class="piece" id="#p14">
+      <div class="piece" id="#p11">
          <div class="biblTitle">The Fine Arts</div>
          <div class="biblPage">412</div>
          <div class="head">THE FINE ARTS.</div>
          
          <p>We were invited to examine the portrait of the new packet
-            ship Henry Clay, painted by Mr. Marsh, of Boston, who has
+            ship Henry Clay, painted
+            by Mr. Marsh, of Boston, who has
             certainly succeeded in giving a very striking likeness of this
             noble ship; his water, however, is the best part of the picture.
             In other marine paintings that we have seen, the water has
@@ -1876,7 +1877,7 @@
          </p>
       </div>
       
-      <div class="piece" id="#p15">
+      <div class="piece" id="#p12">
          <div class="biblTitle">Weekly Notes</div>
          <div class="biblPage">412</div>
          <div class="head">WEEKLY NOTES.</div>
@@ -1947,7 +1948,7 @@
          </p>
       </div>
       
-      <div class="piece" id="#p16">
+      <div class="piece" id="#p13">
          <div class="biblTitle">A Memory of Thomas Hood</div>
          <div class="biblPage">412</div>
          <div class="head">A MEMORY OF THOMAS HOOD.</div>
@@ -2157,7 +2158,7 @@
       
       
       
-      <div class="piece" id="#p17">
+      <div class="piece" id="#p14">
          <div class="biblTitle">New Works Published in London</div>
          <div class="biblPage">414</div>
          <div class="head">NEW WORKS PUBLISHED IN LONDON, MAY, 1845</div>
@@ -2343,7 +2344,7 @@
       </div>
       
       
-      <div class="section" id="#s3">
+      <div class="section" id="#s2">
          <div class="biblTitle">Advertisements</div>
          <div class="biblPage">414</div>
          <div>
@@ -3058,7 +3059,7 @@
          </div>
       </div>
       
-      <div class="piece" id="#p18">
+      <div class="piece" id="#p15">
          <div class="biblTitle">Agents for the Broadway Journal</div>
          <div class="biblPage">416</div>
          <div class="head">AGENTS FOR THE BROADWAY JOURNAL.</div>

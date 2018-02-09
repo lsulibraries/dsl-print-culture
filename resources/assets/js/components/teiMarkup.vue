@@ -221,6 +221,9 @@
 
 
         },
+        created() {
+          this.fetchData()
+        },
         data(){
             return{
                 issueId: '',
