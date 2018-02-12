@@ -44993,7 +44993,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             filterString: '',
-            filterRole: false
+            filterRole: []
         };
     },
 
@@ -45038,10 +45038,44 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             if (this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())) {
                 passesString = true;
             }
-            if (!this.filterRole) {
+            if (this.filterRole.length == 0) {
                 passesRole = true;
-            } else if (!this.$root.empty(this.person.personMeta.personRole) && this.person.personMeta.personRole.toLowerCase().includes(this.filterRole.toLowerCase())) {
+            } else if (this.filterRole.length == 1 && !this.$root.empty(this.person.personMeta.personRole) && this.filterRole.indexOf(this.person.personMeta.personRole.toLowerCase()) != -1) {
                 passesRole = true;
+            } else {
+                if (!this.$root.empty(this.person.personMeta.personRole)) {
+                    var personRoles = this.person.personMeta.personRole.toLowerCase().split(' ');
+                    var result = true;
+                    var _iteratorNormalCompletion = true;
+                    var _didIteratorError = false;
+                    var _iteratorError = undefined;
+
+                    try {
+                        for (var _iterator = this.filterRole[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+                            var filter = _step.value;
+
+                            if (personRoles.indexOf(filter) == -1) {
+                                result = false;
+                                break;
+                            }
+                        }
+                    } catch (err) {
+                        _didIteratorError = true;
+                        _iteratorError = err;
+                    } finally {
+                        try {
+                            if (!_iteratorNormalCompletion && _iterator.return) {
+                                _iterator.return();
+                            }
+                        } finally {
+                            if (_didIteratorError) {
+                                throw _iteratorError;
+                            }
+                        }
+                    }
+
+                    passesRole = result;
+                }
             }
             return passesString && passesRole;
         },
@@ -45148,23 +45182,48 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    methods: {
-        updateFilterString: function updateFilterString() {
-            Event.$emit('filterStringUpdated', this.filterString);
-        },
-        updateRoleFilter: function updateRoleFilter(role) {
-            this.roleFilter = role;
-            Event.$emit('filterRoleUpdated', this.roleFilter);
-        }
+  methods: {
+    getRoleClass: function getRoleClass(role) {
+      var active = this.roleFilter.indexOf(role) != -1 ? ' active' : '';
+      return 'roleFilter' + this.upperCaseWord(role) + active;
     },
-    data: function data() {
-        return {
-            filterString: '',
-            roleFilter: ''
-        };
+    updateFilterString: function updateFilterString() {
+      Event.$emit('filterStringUpdated', this.filterString);
+    },
+    updateRoleFilter: function updateRoleFilter(role) {
+      var idx = this.roleFilter.indexOf(role);
+      console.log("index of " + role + " is " + idx);
+      if (idx == -1) {
+        this.roleFilter.push(role);
+      } else {
+        this.roleFilter.splice(idx, 1);
+      }
+      console.log(this.roleFilter);
+      Event.$emit('filterRoleUpdated', this.roleFilter);
+    },
+    upperCaseWord: function upperCaseWord(word) {
+      return word.charAt(0).toUpperCase() + word.slice(1);
     }
+  },
+  data: function data() {
+    return {
+      filterString: '',
+      roleFilter: [],
+      roles: ['contributor', 'correspondent', 'editor', 'mentioned']
+    };
+  },
+
+  computed: {
+    roleIndicator: function roleIndicator() {
+      return this.roleFilter.join(' & ');
+    }
+  }
 });
 
 /***/ }),
@@ -45252,6 +45311,12 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
         }
         Event.$on('personographyLoaded', function (index) {
             _this.setupIndex(index.personIndex);
+        });
+        Event.$on('filterStringUpdated', function (filterString) {
+            _this.$refs.Scrollbar.scrollToY(0);
+        });
+        Event.$on('filterRoleUpdated', function (filterRole) {
+            _this.$refs.Scrollbar.scrollToY(0);
         });
     }
 });
@@ -59392,54 +59457,27 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "roles"
   }, [_c('div', {
-    staticClass: "roleFilterContributor",
-    class: {
-      active: _vm.roleFilter == 'cont'
-    },
-    on: {
-      "click": function($event) {
-        _vm.updateRoleFilter('cont')
+    staticClass: "role-filter-indicator"
+  }, [_vm._v(_vm._s(_vm.roleIndicator))]), _vm._v(" "), _vm._l((_vm.roles), function(role) {
+    return _c('div', {
+      class: _vm.getRoleClass(role),
+      attrs: {
+        "id": role
+      },
+      on: {
+        "click": function($event) {
+          _vm.updateRoleFilter(role)
+        }
       }
-    }
-  }, [_c('div', {
-    staticClass: "roleDescription"
-  }, [_vm._v("Contributor")])]), _vm._v(" "), _c('div', {
-    staticClass: "roleFilterMentioned",
-    class: {
-      active: _vm.roleFilter == 'ment'
-    },
-    on: {
-      "click": function($event) {
-        _vm.updateRoleFilter('ment')
+    }, [_c('div', {
+      staticClass: "roleDescription",
+      on: {
+        "click": function($event) {
+          _vm.updateRoleFilter(role.slice(0, 4))
+        }
       }
-    }
-  }, [_c('div', {
-    staticClass: "roleDescription"
-  }, [_vm._v("Mentioned")])]), _vm._v(" "), _c('div', {
-    staticClass: "roleFilterEditor",
-    class: {
-      active: _vm.roleFilter == 'edit'
-    },
-    on: {
-      "click": function($event) {
-        _vm.updateRoleFilter('edit')
-      }
-    }
-  }, [_c('div', {
-    staticClass: "roleDescription"
-  }, [_vm._v("Editor")])]), _vm._v(" "), _c('div', {
-    staticClass: "roleFilterCorrespondent",
-    class: {
-      active: _vm.roleFilter == 'corr'
-    },
-    on: {
-      "click": function($event) {
-        _vm.updateRoleFilter('corr')
-      }
-    }
-  }, [_c('div', {
-    staticClass: "roleDescription"
-  }, [_vm._v("Correspondent")])])])])])
+    }, [_vm._v(_vm._s(_vm.upperCaseWord(role)))])])
+  })], 2)])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
