@@ -130,37 +130,51 @@
     </xsl:template>
     
     <xsl:template match="anchor">
-        <xsl:variable name="target" select="substring-after(@corresp,'#')"/>
-        <div class="footnote" id="{$target}">
+        <xsl:variable name="corresp" select="substring-after(@corresp,'#')"/>
+        <div class="footnote" id="{$corresp}">
             <div class="footnoteLink">
                 <xsl:choose>
-                    <xsl:when test="matches($target, '00')">
-                        <xsl:value-of select="substring($target, 4)"/>
+                    <xsl:when test="matches($corresp, '00')">
+                        <xsl:value-of select="substring($corresp, 4)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="substring($target, 3)"/>
+                        <xsl:value-of select="substring($corresp, 3)"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </div>
             <div class="footnoteText">
-                <xsl:value-of select="/TEI/text/back/note[@xml:id eq $target]/text()"/>
+                <xsl:value-of select="/TEI/text/back/note[@xml:id eq $corresp]/text()"/>
             </div>
         </div>
     </xsl:template>
     
     <xsl:template match="note">
-        <xsl:if test="@target">
-            <a href="{@target}"> Link </a>
-        </xsl:if>
+        <xsl:variable name="anchorId" select="substring-after(./@target, '#')"/>
+        <xsl:variable name="issueId" select="/TEI/teiHeader/fileDesc/publicationStmt/idno"/>
+        <xsl:variable name="pieceId"
+            select="/TEI/text/body//anchor[@xml:id eq $anchorId]/ancestor::div[@decls][1]/substring-after(@decls, '#')"/>
         <xsl:element name="div">
             <xsl:attribute name="class">note</xsl:attribute>
             <xsl:if test="@xml:id">
-                <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
             </xsl:if>
             <xsl:if test="@type">
-                <xsl:attribute name="type"><xsl:value-of select="@type"/></xsl:attribute>
+                <xsl:attribute name="type">
+                    <xsl:value-of select="@type"/>
+                </xsl:attribute>
             </xsl:if>
-            <xsl:apply-templates/>
+            <xsl:choose>
+                <xsl:when test="@target">
+                    <a href="/issues/{$issueId}/{$pieceId}">
+                        <xsl:apply-templates/>
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:element>
     </xsl:template>
 
