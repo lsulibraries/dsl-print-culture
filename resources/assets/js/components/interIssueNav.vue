@@ -1,7 +1,7 @@
 <script>
-  import issueMonth from './issueMonth' 
+  import issueMonth from './issueMonth'
   import intraIssueNav from './intraIssueNav'
-  import VueScrollbar from './vue-scrollbar.vue'   
+  import VueScrollbar from './vue-scrollbar.vue'
   import vueFooter from './vueFooter'
 
   export default {
@@ -39,8 +39,8 @@
   }
 </script>
 <template>
-          <vue-scrollbar classes="nav-scrollbar" ref="Scrollbar">
-            <div v-if="hasData" class="interIssueNav">
+          <vue-scrollbar classes="nav-scrollbar" ref="Scrollbar" v-if="hasData">
+            <div class="interIssueNav">
               <div class="issueMask"></div>
               <div class="issueIndex">
                 <div class="singleIndex">

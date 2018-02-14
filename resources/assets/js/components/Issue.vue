@@ -3,7 +3,7 @@
     import issueHeader from './issueHeader'
     import issueViewer from './issueViewer'
     import {Circle9} from 'vue-loading-spinner'
-    import VueScrollbar from 'vue2-scrollbar';     
+    import VueScrollbar from 'vue2-scrollbar';
     export default {
         components: { interIssueNav, issueHeader, issueViewer, Circle9, VueScrollbar },
         created() {
@@ -30,7 +30,7 @@
         },
         watch: {
         '$route': 'routeUpdated'
-        },        
+        },
         computed: {
             loading: function() {
                 return this.$root.empty(this.$root.xhrDataStore.personography);
@@ -41,7 +41,9 @@
         },
         methods: {
             routeUpdated: function () {
+              if (this.$refs.Scrollbar) {
                 this.$refs.Scrollbar.scrollToY(0);
+              }
             }
         }
     }

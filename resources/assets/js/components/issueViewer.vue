@@ -23,7 +23,7 @@
     import pdfViewer from './pdfViewer'
     import pdf from 'vue-pdf'
     import viewerSelector from './viewerSelector'
-    import VueScrollbar from 'vue2-scrollbar';     
+    import VueScrollbar from 'vue2-scrollbar';
 
     export default {
         components: {
@@ -31,7 +31,7 @@
             teiMarkup,
             pdf,
             viewerSelector,
-            VueScrollbar          
+            VueScrollbar
         },
         data() {
             return {
@@ -74,7 +74,7 @@
                 return this.page == this.pageCount
             },
             firstPage: function () {
-                return this.page == 1  
+                return this.page == 1
             },
             pdfSrc: function () {
                 return '/storage/broadway-tei/pdf/BroadwayJournal_' + this.$route.params.id + '.pdf'
@@ -128,7 +128,9 @@
             },
             routeChanged: function () {
                 // Set the page
-                this.$refs.Scrollbar.scrollToY(0);
+                if (this.$refs.Scrollbar) {
+                  this.$refs.Scrollbar.scrollToY(0);
+                }
 
                 // If q param 'viewer' is set, let that override all
                 if (this.$route.query.page) {
@@ -143,7 +145,7 @@
                     this.page = 1
                 }
                 this.getIssueBiblData()
-                
+
             },
         },
     }
