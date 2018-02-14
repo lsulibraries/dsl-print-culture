@@ -1,6 +1,6 @@
 <template>
   <div class='personIndex' v-if="!this.$root.empty(this.index)">
-    <div class="person-index-about">{{ this.$root.xhrDataStore.abouts.personographyDescription }}</div>
+    <div class="person-index-about" v-html="this.$root.xhrDataStore.abouts.personographyDescription"></div>
       <div class="personIndexLabel">Author Index</div>
       <vue-scrollbar classes="index-scrollbar" ref="Scrollbar">
         <div class="personIndexInner scroll-me">
