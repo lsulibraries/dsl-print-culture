@@ -9,11 +9,7 @@
                     <router-link tag='button' class="pdf-next-page" :to="getNextPageLink()" :disabled="lastPage">Next Page</router-link>
                 </div>
             </div>
-                    <vue-scrollbar class="issue-scrollbar pdf-scrollbar">
-
             <pdf :page="this.page" :src="this.pdfSrc" @num-pages="pageCount = $event" @page-loaded="page = $event"></pdf>
-                    </vue-scrollbar>
-
         </div>
             <tei-markup v-if="!pdfMode" :issue="this.issueId" :bibl="this.biblId"></tei-markup>
     </div>
@@ -23,7 +19,6 @@
     import pdfViewer from './pdfViewer'
     import pdf from 'vue-pdf'
     import viewerSelector from './viewerSelector'
-    import VueScrollbar from 'vue2-scrollbar';     
 
     export default {
         components: {
@@ -31,7 +26,6 @@
             teiMarkup,
             pdf,
             viewerSelector,
-            VueScrollbar          
         },
         data() {
             return {
