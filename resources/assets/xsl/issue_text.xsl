@@ -131,8 +131,8 @@
     
     <xsl:template match="anchor">
         <xsl:variable name="corresp" select="substring-after(@corresp,'#')"/>
-        <div class="footnote" id="{$corresp}">
-            <div class="footnoteLink">
+        <span class="footnote" id="{$corresp}">
+            <span class="footnoteLink">
                 <xsl:choose>
                     <xsl:when test="matches($corresp, '00')">
                         <xsl:value-of select="substring($corresp, 4)"/>
@@ -141,11 +141,11 @@
                         <xsl:value-of select="substring($corresp, 3)"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </div>
-            <div class="footnoteText">
+            </span>
+            <span class="footnoteText">
                 <xsl:value-of select="/TEI/text/back/note[@xml:id eq $corresp]/text()"/>
-            </div>
-        </div>
+            </span>
+        </span>
     </xsl:template>
     
     <xsl:template match="note">
