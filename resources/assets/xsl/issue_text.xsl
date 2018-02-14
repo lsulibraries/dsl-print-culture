@@ -167,7 +167,7 @@
             </xsl:if>
             <xsl:choose>
                 <xsl:when test="@target">
-                    <a href="/issues/{$issueId}/{$pieceId}">
+                    <a href="/#/issues/{$issueId}/{$pieceId}">
                         <xsl:apply-templates/>
                     </a>
                 </xsl:when>
