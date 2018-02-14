@@ -3,6 +3,7 @@
         <div class="personListBiblLabel">Author Works</div>
         <vue-scrollbar classes="person-scrollbar" ref="Scrollbar">
             <div class="personListBiblInner">
+                <div v-if="!biblActive && descriptionLoaded" class="person-index-about" v-html="this.$root.xhrDataStore.abouts.personographyDescription"></div>
                 <div v-if="!biblActive" class="fillerWork">
                     <div class="fillerMessage">Choose an author to view their works</div>
                 </div>
@@ -26,7 +27,7 @@
 
         data(){
             return {
-
+                personographyDescription: ""
             }
         },
 
@@ -35,6 +36,12 @@
         },
 
         computed: {
+            descriptionLoaded: function() {
+                if (this.personographyDescription){
+                    return this.personographyDescription.length > 0
+                }
+                return false
+            },
             biblActive: function () {
                 if (this.$route.params.id && this.personographyLoaded() && this.person) {
                     return this.$route.params.id == this.person.personMeta.personId
@@ -53,7 +60,7 @@
         },
 
         created() {
-
+            axios.get('/api/broadwayjournal/abouts/personography').then(response => this.personographyDescription = response.data);
         },
         methods: {
             routeUpdated: function () {
