@@ -1080,7 +1080,7 @@ position: relative;
 .teiMarkup {
   font-size: 1.2em;
   padding: 20px;
-    padding-top: 0px;  
+    padding-top: 30px;  
     .piece .head{
       display: none;
     }
@@ -1965,7 +1965,7 @@ span.searchHit {
 }
 
 .issueHeader {
-
+  margin-left: 30%;
   @include flexbox;
   flex-direction: column;
   position: relative;  
