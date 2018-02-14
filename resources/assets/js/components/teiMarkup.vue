@@ -14,16 +14,12 @@
                     </div>
                 </div>
             </div>
-            <vue-scrollbar class="issue-scrollbar" v-if="text">
               <div class='teiMarkup' v-html="text"></div>
-            </vue-scrollbar>
         </div>
 </template>
 <script>
-    import VueScrollbar from './vue-scrollbar.vue'
 
     export default {
-        components: { VueScrollbar },
         props: ['issue', 'bibl'],
         created(){
             if (this.$route) {
