@@ -51,8 +51,9 @@
             <div class="biblPage">161</div>
             
             <div class="head">SATIRICAL POEMS.
-               <span class="anchor" id="a001">
-                  <a href="n001"> Link </a>
+               <span class="footnote" id="">
+                  <span class="footnoteLink"></span>
+                  <span class="footnoteText"></span>
                </span>
             </div>
             
@@ -3300,10 +3301,11 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">Infatuation; a poem spoken before the Mercantile Library Association
-         of Boston, October 9, 1844. By Park 
-         <span class="person" id="pbenjamin">Benjamin</span>. Boston W. D. Ticknor &amp; Co.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450315/p1">Infatuation; a poem spoken before the Mercantile Library Association
+            of Boston, October 9, 1844. By Park 
+            <span class="person" id="pbenjamin">Benjamin</span>. Boston W. D. Ticknor &amp; Co.
+         </a>
       </div>
       
    </div>

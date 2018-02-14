@@ -1880,8 +1880,9 @@
          
          <div class="lg">
             <br></br>Is Error dead, since, as the Teuton
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">*Copernicus</span>
             </span> found,
             
             <br></br>’Twas not the Sun, but Earth, that whirled around?
@@ -3007,8 +3008,9 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">*Copernicus</div>
+      <div class="note" id="n001">
+         <a href="/#/issues/18450927/p21">*Copernicus</a>
+      </div>
       
    </div>
 </div>

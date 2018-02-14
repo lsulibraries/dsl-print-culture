@@ -997,12 +997,14 @@
             and sensibility, while, for vigor of thought, elegance of diction,
             and aptness of illustration, we can find nothing finer in our literature, than the 
             "Philosophy of Travel," 
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">Published in the Democratic Review.</span>
             </span> and "New
             England Philosophy." 
-            <span class="anchor" id="a002">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">Published in the Democratic Review.</span>
             </span> The
             latter, especially, is remarkable for its close analysis of, and its unanswerable
             arguments against those modes of thinking and acting, which would subject the
@@ -2613,7 +2615,8 @@
    </div>
    <div class="back">
       
-      <a href="#a001 #a002"> Link </a>
-      <div class="note" id="n001">Published in the Democratic Review.</div>
+      <div class="note" id="n001">
+         <a href="/#/issues/18450222/">Published in the Democratic Review.</a>
+      </div>
    </div>
 </div>

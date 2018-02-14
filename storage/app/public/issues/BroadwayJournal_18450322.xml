@@ -644,8 +644,9 @@
             
             <p>Seventeenth--regards the metre. Outis' is hexameter alternating with
                pentameter, both acatalectic.*
-               <span class="anchor" id="a001">
-                  <a href="#n001"> Link </a>
+               <span class="footnote" id="n001">
+                  <span class="footnoteLink">1</span>
+                  <span class="footnoteText"></span>
                </span>Mine is octameter acatalectic, alternating with heptameter catalectic repeated in the refrain of the fifth verse, and
                terminating with tetrameter catalectic.
             </p>
@@ -2711,8 +2712,9 @@
    </div>
    <div class="back">
       
-      <a href="a001"> Link </a>
-      <div class="note" id="n001"></div>
+      <div class="note" id="n001">
+         <a href="/#/issues/18450322/"></a>
+      </div>
       
       <p>This it as accurate a description at can be given of the alternating (of
          the second and fourth) lines in few words. The fact is, they are indescribable without

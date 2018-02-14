@@ -702,8 +702,16 @@
                a noble looking cavalier, robed in the plain guise of a pilgrim, sat
                down to repose him on the banks of a gentle stream, not far from the
                village of Manreza.
-               <span class="anchor" id="a001">
-                  <a href="#n001"> Link </a>
+               <span class="footnote" id="n001">
+                  <span class="footnoteLink">1</span>
+                  <span class="footnoteText">*The singular vision here alluded to is thus described by , in
+                     his History of the Society of Jesus: "A very comely image appeared to him
+                     in the air, the figure of which he could not clearly discern. It was lengthy,
+                     like the form of a serpent, bright, and of various hues, and glittering with
+                     many eyes, like stars: which, while it appeared rendered him happy, and
+                     when it vanished left him sorrowful." Lib. i. 22, p. 7. The conversion of
+                     Ignatius happened in 1521. He was in his thirty-first year.
+                  </span>
                </span> The deep shadows were now falling from the
                neighboring hills: over the brow of Mount Serat, the dusk of the evening seemed already wreathing its sombre twilight, the waters of the
                lonely river rippled beneath the breath of the solitude's breeze.
@@ -3143,15 +3151,16 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">*The singular vision here alluded to is thus described by 
-         <span class="person" id="norlandini">Orlandinus</span>, in
-         his History of the Society of Jesus: "A very comely image appeared to him
-         in the air, the figure of which he could not clearly discern. It was lengthy,
-         like the form of a serpent, bright, and of various hues, and glittering with
-         many eyes, like stars: which, while it appeared rendered him happy, and
-         when it vanished left him sorrowful." Lib. i. 22, p. 7. The conversion of
-         Ignatius happened in 1521. He was in his thirty-first year.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450125/p3">*The singular vision here alluded to is thus described by 
+            <span class="person" id="norlandini">Orlandinus</span>, in
+            his History of the Society of Jesus: "A very comely image appeared to him
+            in the air, the figure of which he could not clearly discern. It was lengthy,
+            like the form of a serpent, bright, and of various hues, and glittering with
+            many eyes, like stars: which, while it appeared rendered him happy, and
+            when it vanished left him sorrowful." Lib. i. 22, p. 7. The conversion of
+            Ignatius happened in 1521. He was in his thirty-first year.
+         </a>
       </div>
       <div></div>
    </div>

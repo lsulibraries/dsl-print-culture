@@ -1966,8 +1966,9 @@
          
          <p>Of Leigh Hunt, it may verily be said “nihil quod, teligit non
             inquinavit."
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">• Mem. This is not our Latin .—Ed. B. J.</span>
             </span>He attempts to praise nothing that he does not tend
             to lower in our estimation. His panegyric on Shelley, in “Byron
             and his Cotemporaries,” for a while almost gave us a dislike to that
@@ -3089,8 +3090,9 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">• Mem. This is not our Latin .—Ed. B. J.</div>
+      <div class="note" id="n001">
+         <a href="/#/issues/18451220/p25">• Mem. This is not our Latin .—Ed. B. J.</a>
+      </div>
       
    </div>
 </div>

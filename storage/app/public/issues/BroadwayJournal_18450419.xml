@@ -439,8 +439,9 @@
             hold that the soul lies in the abdomen. The Greeks at all events
             were right, he thought, who employed the same word for
             the mind and the diaphragm.
-            <span class="anchor" id="a001">
-               <a href="n001"> Link </a>
+            <span class="footnote" id="">
+               <span class="footnoteLink"></span>
+               <span class="footnoteText"></span>
             </span> By this I do not mean to
             insinuate a charge of gluttony, or indeed any other serious
             charge to the prejudice of the metaphysician. If Pierre BonBon had his failings--and what great man has not a thousand?--if Pierre Bon-Bon, I say, had his failings, they were
@@ -836,8 +837,11 @@
             these were not legally vested with any degree of executive
             power--at that time, Monsieur Bon-Bon--at that time only
             I was in Rome, and I have no earthly acquaintance, consequently, with any of its philosophy."
-            <span class="anchor" id="a002">
-               <a href="#n002"> Link </a>
+            <span class="footnote" id="n002">
+               <span class="footnoteLink">2</span>
+               <span class="footnoteText">* Ils ecrivaient sur la Philosophie, (Cicero, , ) mais c'etait la Philosophie Grecque.
+                  -- Condorcet.
+               </span>
             </span>
          </p>
          
@@ -1035,8 +1039,9 @@
             do hereby make over to the bearer of this agreement all my
             right, title, and appurtenance in the shadow called my soul.
             (Signed) A.....
-            <span class="anchor" id="a003">
-               <a href="#n003"> Link </a>
+            <span class="footnote" id="n003">
+               <span class="footnoteLink">3</span>
+               <span class="footnoteText">* Quere--?</span>
             </span> (Here his Majesty repeated a name
             which I do not feel myself justified in indicating more unequivocally.)
          </p>
@@ -3075,18 +3080,21 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">* θζενες</div>
-      
-      <a href="#a002"> Link </a>
-      <div class="note" id="n002">* Ils ecrivaient sur la Philosophie, (Cicero, 
-         <span class="person" id="lucretius">Lucretius</span>, 
-         <span class="person" id="seneca">Seneca</span>) mais c'etait la Philosophie Grecque. -- Condorcet.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450419/p4">* θζενες</a>
       </div>
       
-      <a href="#a003"> Link </a>
-      <div class="note" id="n003">* Quere--
-         <span class="person" id="voltaire">Arouet</span>?
+      <div class="note" id="n002">
+         <a href="/#/issues/18450419/p4">* Ils ecrivaient sur la Philosophie, (Cicero, 
+            <span class="person" id="lucretius">Lucretius</span>, 
+            <span class="person" id="seneca">Seneca</span>) mais c'etait la Philosophie Grecque. -- Condorcet.
+         </a>
+      </div>
+      
+      <div class="note" id="n003">
+         <a href="/#/issues/18450419/p4">* Quere--
+            <span class="person" id="voltaire">Arouet</span>?
+         </a>
       </div>
    </div>
 </div>

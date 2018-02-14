@@ -435,8 +435,9 @@
          <div class="biblTitle">Art-Singing and Heart-Singing</div>
          <div class="biblPage">318</div>
          <div class="head">Art-Singing and Heart-Singing.</div>
-         <span class="anchor" id="a001">
-            <a href="#n001"> Link </a>
+         <span class="footnote" id="n001">
+            <span class="footnoteLink">1</span>
+            <span class="footnoteText"></span>
          </span>
          
          <p>Great is the power of Music over a people! As for us of America, we have long enough
@@ -3078,15 +3079,16 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
       <div class="note" id="n001">
-         <p>The author desires us to say, for him, that he pretends to no
-            scientific knowledge of music. He merely claims to appreciate
-            so much of it (a sadly disdained department, just now) as affects,
-            in the language ol the deacons, “the natural heart of man.” It is
-            scarcely necessary to add that we agree with our correspondent
-            throughout.	Ed. B. J.
-         </p>
+         <a href="/#/issues/18451129/p5">
+            <p>The author desires us to say, for him, that he pretends to no
+               scientific knowledge of music. He merely claims to appreciate
+               so much of it (a sadly disdained department, just now) as affects,
+               in the language ol the deacons, “the natural heart of man.” It is
+               scarcely necessary to add that we agree with our correspondent
+               throughout.	Ed. B. J.
+            </p>
+         </a>
       </div>
       
    </div>

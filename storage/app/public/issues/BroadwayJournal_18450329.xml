@@ -949,8 +949,12 @@
                which 
                <span class="person" id="olbwolff">O. L. B. Wolff</span> is also the author--but of which I am
                ! unable to obtain a copy. 
-               <span class="anchor" id="a001">
-                  <a href="#n001"> Link </a>
+               <span class="footnote" id="n001">
+                  <span class="footnoteLink">1</span>
+                  <span class="footnoteText">* Sammlung vorzuglicher Volkalieder der bekanntesten Nationen,
+                     grostentheils run ersten male, metrisch in das Deutche ubertragen.
+                     Frankfurt, 1837.
+                  </span>
                </span> It is by no means improbable that
                here the poem in question is to be found--but in this case it
                must have been plainly acknowledged as a translation, with
@@ -3504,10 +3508,11 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">* Sammlung vorzuglicher Volkalieder der bekanntesten Nationen,
-         grostentheils run ersten male, metrisch in das Deutche ubertragen.
-         Frankfurt, 1837.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450329/p6">* Sammlung vorzuglicher Volkalieder der bekanntesten Nationen,
+            grostentheils run ersten male, metrisch in das Deutche ubertragen.
+            Frankfurt, 1837.
+         </a>
       </div>
    </div>
 </div>

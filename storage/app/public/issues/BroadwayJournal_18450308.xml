@@ -938,8 +938,11 @@
                <span class="person" id="eapoe">Poe</span>'s, for illustrating my remarks, because it is recent, and must be familiar to all
                the lovers of true poetry hereabouts. It is remarkable for its power,
                beauty, and originality, (out upon the automaton owl that has presumed to croak out a miserable parody--I commend him to the tender mercies of Haynes Bayley,) 
-               <span class="anchor" id="a001">
-                  <a href="#n001"> Link </a>
+               <span class="footnote" id="n001">
+                  <span class="footnoteLink">1</span>
+                  <span class="footnoteText">"I would be a Parody, written by a ninny,
+                     Not worth a penny, and sold for a guinea," &amp;c.
+                  </span>
                </span> and shows more forcibly than any
                which I can think of, the absurdity and shallowness of this kind of
                criticism.
@@ -3482,9 +3485,10 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">"I would be a Parody, written by a ninny,
-         Not worth a penny, and sold for a guinea," &amp;c.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450308/p3">"I would be a Parody, written by a ninny,
+            Not worth a penny, and sold for a guinea," &amp;c.
+         </a>
       </div>
       
    </div>

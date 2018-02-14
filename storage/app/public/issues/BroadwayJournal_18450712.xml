@@ -2274,8 +2274,11 @@
          
          <p>Though the fashionable American world would fain persuade us, that ‘all the world is out of town,’ at this season,
             in palpable imitation of the English world of fashion,
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">Horace Smith has written a capital paper on this tonic, in his Odi-
+                  ties and Varieties.
+               </span>
             </span> yet,
             as the streets appear tolerably full, and as the public places
             are not altogether empty: as we happen to know a few
@@ -2428,8 +2431,11 @@
             accords with the season. You can easily change the scene,
             of a hot evening from the green at Hoboken, or Palmo’s, to a
             southern plantation. You see many from Georgia, the Carolinas, and Alabama among the audience. Out of doors 
-            <span class="anchor" id="a002">
-               <a href="#n002"> Link </a>
+            <span class="footnote" id="n002">
+               <span class="footnoteLink">2</span>
+               <span class="footnoteText">Southern Minstrels, Kentucky Minstrels, Carolina Minstrels. Far
+                  River Roarers, &amp;c., &amp;c., &amp;c.
+               </span>
             </span>
             through the open windows you hear negro voices calling
             ‘hot corn’ or ‘I—scream.’ In winter, these adjuncts are
@@ -3133,14 +3139,16 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">Horace Smith has written a capital paper on this tonic, in his Odi-
-         ties and Varieties.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450712/p16">Horace Smith has written a capital paper on this tonic, in his Odi-
+            ties and Varieties.
+         </a>
       </div>
       
-      <a href="#a002"> Link </a>
-      <div class="note" id="n002">Southern Minstrels, Kentucky Minstrels, Carolina Minstrels. Far
-         River Roarers, &amp;c., &amp;c., &amp;c.
+      <div class="note" id="n002">
+         <a href="/#/issues/18450712/p16">Southern Minstrels, Kentucky Minstrels, Carolina Minstrels. Far
+            River Roarers, &amp;c., &amp;c., &amp;c.
+         </a>
       </div>
       
    </div>
