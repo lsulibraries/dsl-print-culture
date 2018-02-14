@@ -45250,6 +45250,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //
 //
 //
+//
 
 
 
@@ -61242,6 +61243,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return (!this.$root.empty(this.index)) ? _c('div', {
     staticClass: "personIndex"
   }, [_c('div', {
+    staticClass: "person-index-about"
+  }, [_vm._v(_vm._s(this.$root.xhrDataStore.abouts.personographyDescription))]), _vm._v(" "), _c('div', {
     staticClass: "personIndexLabel"
   }, [_vm._v("Author Index")]), _vm._v(" "), _c('vue-scrollbar', {
     ref: "Scrollbar",
