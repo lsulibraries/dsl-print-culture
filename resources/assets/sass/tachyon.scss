@@ -175,6 +175,15 @@ div#container {
     border-left: 1px solid #f2e6ce !important;
 }
 
+
+.person-index-about {
+    font-weight: 500;
+    line-height: 20px;
+    color: $lightest;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
 //Begin masthead styles
 
 .isFront{
@@ -1201,7 +1210,7 @@ height: calc(100% - 120px);
     height: auto;
     }
     .fillerWork{
-    height: 50%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
