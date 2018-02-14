@@ -108,6 +108,7 @@ body {
   font-family: Roboto;
   font-size: 12px;
   color: $document-text-color;
+  background: $lightest;
 }
 
 div#container {
@@ -172,6 +173,15 @@ div#container {
 
 .pdf-next-page {
     border-left: 1px solid #f2e6ce !important;
+}
+
+
+.person-index-about {
+    font-weight: 500;
+    line-height: 20px;
+    color: $lightest;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
 }
 
 //Begin masthead styles
@@ -389,8 +399,17 @@ div#container {
     position: relative;
     top: -5px;
     z-index: 3;
+      @include transition(.5s);
     .issueDate{
       width:auto;
+      border-radius: 20px 0px 0px 20px;
+      color: $lightest;
+      background: $dark;    
+      border-right: 0px;
+    }
+
+    .issueVol, .issueNum{
+      background: $dark; 
     }
 }  
 
@@ -449,6 +468,13 @@ div#container {
       @include transition(.5s);
       transition-delay: 0.5s;
     }
+
+.issueMeta{
+  background: $dark;
+      @include transition(.5s);
+      transition-delay: 0.5s;  
+}
+
   }
 
   .pieceMeta {
@@ -729,8 +755,8 @@ input:focus {
   flex-wrap: wrap;
     box-sizing: border-box;  
     min-width: 236px;
-  border-right: 1px solid #e9e9e9;    
   color: $light;
+    padding-top: 180px;  
 }
 
 .interIssueNav::before {
@@ -1073,12 +1099,13 @@ position: relative;
 .viewer {
     padding: 0px 100px 20px 100px;
   position: relative;
+    margin-left: 30%;  
 }
 
 .teiMarkup {
   font-size: 1.2em;
   padding: 20px;
-    padding-top: 0px;  
+    padding-top: 30px;  
     .piece .head{
       display: none;
     }
@@ -1183,7 +1210,7 @@ height: calc(100% - 120px);
     height: auto;
     }
     .fillerWork{
-    height: 50%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1963,7 +1990,7 @@ span.searchHit {
 }
 
 .issueHeader {
-
+  margin-left: 30%;
   @include flexbox;
   flex-direction: column;
   position: relative;  
@@ -2827,13 +2854,16 @@ h1{
 
 .nav-scrollbar{
     min-width: 0px;
-    max-height: calc(100vh - 120px);
+    max-height: 100vh;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
     padding-right: 15px;
-    width: calc(30% + 8px);
+    width: calc(30% + 0px);
     box-sizing: content-box;
+    z-index: 2;
+    position: fixed;
+    top: 0px;    
     }   
 
 .issue-scrollbar{

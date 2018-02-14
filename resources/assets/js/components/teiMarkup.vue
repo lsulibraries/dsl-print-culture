@@ -1,17 +1,14 @@
 <template>
         <div class='tei-markup'>
           <masthead></masthead>
-            <vue-scrollbar class="issue-scrollbar" v-if="text">
-              <div class='teiMarkup' v-html="text"></div>
-            </vue-scrollbar>
+          <div class='teiMarkup' v-html="text"></div>
         </div>
 </template>
 <script>
-    import VueScrollbar from './vue-scrollbar.vue'
     import masthead from './masthead.vue'
 
     export default {
-        components: { VueScrollbar, masthead },
+        components: { masthead },
         props: ['issue', 'bibl'],
         created(){
             if (this.$route) {
