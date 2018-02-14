@@ -390,8 +390,17 @@ div#container {
     position: relative;
     top: -5px;
     z-index: 3;
+      @include transition(.5s);
     .issueDate{
       width:auto;
+      border-radius: 20px 0px 0px 20px;
+      color: $lightest;
+      background: $dark;    
+      border-right: 0px;
+    }
+
+    .issueVol, .issueNum{
+      background: $dark; 
     }
 }  
 
@@ -450,6 +459,13 @@ div#container {
       @include transition(.5s);
       transition-delay: 0.5s;
     }
+
+.issueMeta{
+  background: $dark;
+      @include transition(.5s);
+      transition-delay: 0.5s;  
+}
+
   }
 
   .pieceMeta {
