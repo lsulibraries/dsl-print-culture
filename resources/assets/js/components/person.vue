@@ -12,7 +12,7 @@
         data() {
             return {
                 filterString: '',
-                filterRole: false,
+                filterRole: [],
             }
         },
         computed: {
@@ -57,10 +57,23 @@
                 if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
                     passesString = true
                 }
-                if(!this.filterRole){
+                if(this.filterRole.length == 0){
                     passesRole = true
-                }else if(!this.$root.empty(this.person.personMeta.personRole) && this.person.personMeta.personRole.toLowerCase().includes(this.filterRole.toLowerCase())){
+                }else if(this.filterRole.length == 1 && !this.$root.empty(this.person.personMeta.personRole) && this.filterRole.indexOf(this.person.personMeta.personRole.toLowerCase()) != -1){
                     passesRole = true
+                }
+                else {
+                  if(!this.$root.empty(this.person.personMeta.personRole)) {
+                    const personRoles = this.person.personMeta.personRole.toLowerCase().split(' ')
+                    let result = true
+                    for(const filter of this.filterRole) {
+                      if(personRoles.indexOf(filter) == -1) {
+                        result = false
+                        break
+                      }
+                    }
+                    passesRole = result
+                  }
                 }
                 return passesString && passesRole
             },

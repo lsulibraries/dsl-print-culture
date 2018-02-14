@@ -184,10 +184,10 @@
                                     <xsl:when test="$totalMentioningPieces > 1">
                                         <xsl:text>across </xsl:text>
                                         <xsl:value-of select="$totalMentioningPieces"/>
-                                        <xsl:text> contributions.</xsl:text>
+                                        <xsl:text> pieces.</xsl:text>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:text>in a single contribution.</xsl:text>
+                                        <xsl:text>in a single piece.</xsl:text>
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:when>
