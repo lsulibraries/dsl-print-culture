@@ -184,6 +184,56 @@ div#container {
     padding-bottom: 20px;
 }
 
+span.footnoteLink {
+    padding: 0px 10px;
+    background: #f2e6ce;
+    color: #474747;
+    border: 1px solid;
+}
+
+span.footnoteText {
+    position: absolute;
+    top: 0px;
+    padding: 30px;
+    background: #2e2e2e;
+    color: #f2e6ce;
+    width: 240px;
+    display: none;
+}
+
+.footnote{
+  position: relative;
+}
+
+.footnote:hover {
+
+span.footnoteLink {
+    padding: 0px 10px;
+    background: #2e2e2e;
+    color: #f2e6ce;
+    border: 1px solid #2e2e2e;
+}
+
+.footnoteText{
+    display: block;
+    left: 28px;
+    top: -1px;
+}
+}
+
+.note {
+    background: rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    margin-bottom: 1px;
+
+    a {
+    text-decoration: none;
+    font-style: italic;
+    color: #474747;
+    }
+}
+
+
 //Begin masthead styles
 
 .isFront{
@@ -212,6 +262,7 @@ div#container {
       padding-top: 50px;
       padding-left: 30px;
       padding-right: 30px;
+
 
       .front {
         display: none;
