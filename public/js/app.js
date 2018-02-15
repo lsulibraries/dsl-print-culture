@@ -44238,6 +44238,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -44267,6 +44268,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     return _this.tocContent = response.data;
                 });
             }
+        }
+    },
+    computed: {
+        getFullTextLink: function getFullTextLink() {
+            return '/issues/' + this.issueId;
         }
     },
     watch: {
@@ -61042,7 +61048,13 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "intraIssueNav"
-  }, [_c('div', {
+  }, [_c('router-link', {
+    class: 'toc-full-text',
+    attrs: {
+      "to": _vm.getFullTextLink,
+      "tag": "div"
+    }
+  }, [_vm._v("Back to Full Text")]), _vm._v(" "), _c('div', {
     staticClass: "tocDropdown"
   }, [_vm._v("Table of Contents")]), _vm._v(" "), _vm._l((_vm.tocContent.toc), function(id) {
     return _c('toc-item', {
