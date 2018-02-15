@@ -209,9 +209,22 @@ div#container {
       border-left: 10px solid;
       border-right: 10px solid;
       border-bottom: 10px solid;      
-      padding-top: 20px;
+      padding-top: 50px;
       padding-left: 30px;
       padding-right: 30px;
+
+      .front {
+        display: none;
+      }
+
+      .cit{
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.07);
+      font-style: italic;
+        .person {
+        font-weight: 700;
+        }      
+      }
   }
 
 
