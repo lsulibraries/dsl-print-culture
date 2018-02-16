@@ -68973,7 +68973,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "downloadText"
-  }, [_vm._v("View " + _vm._s(this.dlLabel()))])]), _vm._v(" "), (this.showBiblSectionMeta()) ? _c('biblSectionMeta', {
+  }, [_vm._v("View " + _vm._s(this.dlLabel()))])]), _vm._v(" "), (this.showBiblSectionMeta() && _vm.biblPieceMeta) ? _c('biblSectionMeta', {
     attrs: {
       "sectionMeta": this.issueHeaderData.listBibl[this.biblId].sectionMeta
     }
@@ -68988,6 +68988,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !_vm.pdfMode()) ? _c('biblPieceMeta', {
     attrs: {
       "pieceMeta": this.issueHeaderData.listBibl[this.biblId].pieceMeta
+    }
+  }) : _vm._e(), _vm._v(" "), (this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) ? _c('biblSectionMeta', {
+    attrs: {
+      "sectionMeta": this.issueHeaderData.listBibl[this.biblId].sectionMeta
     }
   }) : _vm._e()], 1), _vm._v(" "), _c('div', {
     staticClass: "authorInfo"

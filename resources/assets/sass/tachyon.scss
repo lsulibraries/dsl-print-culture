@@ -2269,6 +2269,18 @@ button#show-modal{
       @include flexCenter;
     border-right: 1px solid;      
     }
+  
+    .issue .sectionMeta{
+            border: 0px;
+            padding: 0px; 
+            width: 100%;
+            font-family: Roboto Slab;
+
+    }
+
+    .issue .sectionMeta .sectionTitle{
+      @extend .pieceTitle;
+    }
   }
   .issueHeader > .personPieceMeta {
     display: flex;
