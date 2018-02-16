@@ -97,7 +97,6 @@ input:focus {
     left: 22px;
 }
 
-.biblTitle,
 .issueId,
 .biblPage {
   display: none;
@@ -186,7 +185,7 @@ div#container {
 
 span.footnoteLink {
     padding: 0px 10px;
-    background: #f2e6ce;
+    background: transparent;
     color: #474747;
     border: 1px solid;
 }
@@ -272,7 +271,7 @@ span.footnoteLink {
       }
 
       .cit{
-      padding: 10px;
+      padding: 20px;
       background: rgba(0, 0, 0, 0.07);
       font-style: italic;
         .person {
@@ -289,6 +288,7 @@ span.footnoteLink {
     flex-direction: column;
     border: 10px solid;
     padding: 1px;
+
   .masthead-editor, .masthead-publisher, .masthead-printer {
       margin-right: 1px;
       display: flex;
@@ -1169,15 +1169,84 @@ position: relative;
     margin-left: 30%;  
 }
 
+//start full text styles
+.teiMarkup{
+padding-bottom: 0px;
+
+.piece{
+    border: 1px solid $fifteendark;
+    background: hsla(40, 58%, 92%, 1);
+    margin: 20px 0px;
+    padding: 20px;
+}
+}
+
+.isFront .teiMarkup{
+
+    .section > .biblTitle{
+    font-weight: 700;
+    border-bottom: 1px solid $fifteendark;
+    margin: 20px 0px 20px 0px;
+    display: block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 2em;    
+    }
+
+
+    .piece {
+    border: 1px solid $fifteendark;
+    background: hsla(40, 58%, 92%, 1);
+    margin: 20px 0px;
+    padding: 20px;
+    .biblTitle{
+    font-weight: 500;
+    background: #424242;
+    color: #f2e6ce;
+    margin: 0px 0px 20px 0px;   
+    padding: 10px;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    }
+    }
+}
+//end full text styles
+
 .teiMarkup {
   font-size: 1.2em;
   padding: 20px;
     padding-top: 30px;  
-    .piece .head{
-      display: none;
-    }
 
-    padding-bottom: 40px;    
+.head {
+display: none;
+}
+
+.biblTitle{
+  display: none;
+}
+
+.section > .piece > .biblTitle{
+    font-weight: 500;
+    background: #424242;
+    color: #f2e6ce;
+    margin: 0px 0px 20px 0px;   
+    padding: 10px;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+    //.piece .head{
+      //display: none;
+    //}
+
+    padding-bottom: 0px;    
 }
 
 .tei-markup {
@@ -1191,11 +1260,7 @@ position: relative;
 }
 
 
-.head {
-  font-weight: 700;
-  border-bottom: 1px solid $fifteendark;
-  margin: 20px 0px 20px 0px;
-}
+
 
 button.searchSubmit {
   background: none;
