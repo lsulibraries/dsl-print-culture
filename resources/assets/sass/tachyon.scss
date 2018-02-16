@@ -97,7 +97,6 @@ input:focus {
     left: 22px;
 }
 
-.biblTitle,
 .issueId,
 .biblPage {
   display: none;
@@ -186,7 +185,7 @@ div#container {
 
 span.footnoteLink {
     padding: 0px 10px;
-    background: #f2e6ce;
+    background: transparent;
     color: #474747;
     border: 1px solid;
 }
@@ -1174,9 +1173,27 @@ position: relative;
   font-size: 1.2em;
   padding: 20px;
     padding-top: 30px;  
-    .piece .head{
-      display: none;
+
+.head {
+display: none;
+}
+
+.biblTitle{
+    font-weight: 700;
+  border-bottom: 1px solid $fifteendark;
+  margin: 20px 0px 20px 0px;
+}
+
+    .piece {
+    border: 1px solid $fifteendark;
+    background: hsla(40, 58%, 92%, 1);
+    margin: 20px 0px;
+    padding: 20px;
     }
+
+    //.piece .head{
+      //display: none;
+    //}
 
     padding-bottom: 40px;    
 }
@@ -1192,11 +1209,7 @@ position: relative;
 }
 
 
-.head {
-  font-weight: 700;
-  border-bottom: 1px solid $fifteendark;
-  margin: 20px 0px 20px 0px;
-}
+
 
 button.searchSubmit {
   background: none;
