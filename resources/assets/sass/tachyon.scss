@@ -1170,6 +1170,16 @@ position: relative;
 }
 
 //start full text styles
+.teiMarkup{
+padding-bottom: 0px;
+
+.piece{
+    border: 1px solid $fifteendark;
+    background: hsla(40, 58%, 92%, 1);
+    margin: 20px 0px;
+    padding: 20px;
+}
+}
 
 .isFront .teiMarkup{
 
@@ -1216,6 +1226,17 @@ display: none;
   display: none;
 }
 
+.section > .piece > .biblTitle{
+    font-weight: 500;
+    background: #424242;
+    color: #f2e6ce;
+    margin: 0px 0px 20px 0px;   
+    padding: 10px;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+}
+
 
 
 
@@ -1225,7 +1246,7 @@ display: none;
       //display: none;
     //}
 
-    padding-bottom: 40px;    
+    padding-bottom: 0px;    
 }
 
 .tei-markup {
