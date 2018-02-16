@@ -299,7 +299,7 @@
                     </div>
                     <div class="downloadText">View {{this.dlLabel()}}</div>
                 </a>                
-                <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta() && biblPieceMeta"></biblSectionMeta>
+                <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
                 <div class='issueDate'>{{this.formatDate()}}</div>
                 <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
             </div>             
