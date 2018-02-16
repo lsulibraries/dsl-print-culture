@@ -44296,8 +44296,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__biblSectionMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__biblSectionMeta__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__drawer__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__drawer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__drawer__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modal__ = __webpack_require__(285);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__modal__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__masthead_vue__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__masthead_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__masthead_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__modal__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__modal__);
+
 
 
 
@@ -44307,7 +44310,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: { personMeta: __WEBPACK_IMPORTED_MODULE_0__personMeta___default.a, biblIssueMeta: __WEBPACK_IMPORTED_MODULE_1__biblIssueMeta___default.a, biblPieceMeta: __WEBPACK_IMPORTED_MODULE_2__biblPieceMeta___default.a, biblSectionMeta: __WEBPACK_IMPORTED_MODULE_3__biblSectionMeta___default.a, drawer: __WEBPACK_IMPORTED_MODULE_4__drawer___default.a, modal: __WEBPACK_IMPORTED_MODULE_5__modal___default.a },
+    components: { personMeta: __WEBPACK_IMPORTED_MODULE_0__personMeta___default.a, biblIssueMeta: __WEBPACK_IMPORTED_MODULE_1__biblIssueMeta___default.a, biblPieceMeta: __WEBPACK_IMPORTED_MODULE_2__biblPieceMeta___default.a, biblSectionMeta: __WEBPACK_IMPORTED_MODULE_3__biblSectionMeta___default.a, drawer: __WEBPACK_IMPORTED_MODULE_4__drawer___default.a, masthead: __WEBPACK_IMPORTED_MODULE_5__masthead_vue___default.a, modal: __WEBPACK_IMPORTED_MODULE_6__modal___default.a },
     data: function data() {
         return {
             authorShipLegend: 'Author will have 2-3 attributes: status, cert, and ref.\n\n        Status: identify as \u201Csupplied\u201D (journal doesn\u2019t say but you found it elsewhere), \u201Cattested\u201D (the journal says), \u201Cunknown\u201D (anonymous), or \u201Cinferred\u201D (journal provides a byline that doesn\u2019t provide full name, but makes it obvious, e.g. \u201CEAP\u201D).\n\n        If  you have only a pen name, but you know the author\'s real name, the author status should be "inferred," and the certainty will be "high," "medium," or "low," depending on what you\'ve found in your research. The name in the ref should be the author\'s real name.\n\n        If an article only has initials for a byline and you can\'t find a reasonable full-name match for the initials, the author status will be "unknown," but you will use the initials of the author instead of "anon" in the ref.\n\n        Certainty: identify cert as \u201Chigh,\u201D \u201Cmedium,\u201D or \u201Clow.\u201D\n        If the author is anonymous DO NOT provide certainty.',
@@ -44333,7 +44336,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             _this.biblId = bibl.decls_id;
             _this.getIssueHeaderData();
             _this.showModal = false;
-            // this.showModal = false // needed for when 
+            // this.showModal = false // needed for when
         });
         Event.$on('close', function () {
             _this.showModal = false;
@@ -44432,6 +44435,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             return false;
         },
         getPersonMeta: function getPersonMeta() {
+
             var pid = this.getPersonId();
             var bibl = this.biblId;
 
@@ -44441,6 +44445,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             if (this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])) {
                 console.log('person ' + pid + ' not found!');
                 return {
+
                     personRole: 'unknown',
                     personName: 'unknown',
                     personViaf: false
@@ -45589,9 +45594,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__masthead_vue__ = __webpack_require__(284);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__masthead_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__masthead_vue__);
-var _components$props$cre;
+var _props$created$comput;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -45600,12 +45603,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
 
 
-
-/* harmony default export */ __webpack_exports__["default"] = (_components$props$cre = {
-  components: { masthead: __WEBPACK_IMPORTED_MODULE_0__masthead_vue___default.a },
+/* harmony default export */ __webpack_exports__["default"] = (_props$created$comput = {
   props: ['issue', 'bibl'],
   created: function created() {
     if (this.$route) {
@@ -45736,9 +45736,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     }
   },
   mounted: function mounted() {}
-}, _defineProperty(_components$props$cre, 'created', function created() {
+}, _defineProperty(_props$created$comput, 'created', function created() {
   this.fetchData();
-}), _defineProperty(_components$props$cre, 'data', function data() {
+}), _defineProperty(_props$created$comput, 'data', function data() {
   return {
     issueId: '',
     markdown: [],
@@ -45746,7 +45746,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     biblId: false,
     text: ''
   };
-}), _components$props$cre);
+}), _props$created$comput);
 
 /***/ }),
 /* 142 */
@@ -59370,12 +59370,12 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "tei-markup"
-  }, [_c('masthead'), _vm._v(" "), _c('div', {
+  }, [_c('div', {
     staticClass: "teiMarkup",
     domProps: {
       "innerHTML": _vm._s(_vm.text)
     }
-  })], 1)
+  })])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -59668,7 +59668,7 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return (!this.$root.empty(this.issueHeaderData)) ? _c('div', {
     staticClass: "issueHeader"
-  }, [(_vm.haveData()) ? _c('div', {
+  }, [_c('masthead'), _vm._v(" "), (_vm.haveData()) ? _c('div', {
     staticClass: "bibl"
   }, [(!this.frontPage) ? _c('div', {
     staticClass: "issueInfo"

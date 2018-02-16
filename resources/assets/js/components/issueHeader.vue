@@ -4,10 +4,11 @@
     import biblPieceMeta from './biblPieceMeta'
     import biblSectionMeta from './biblSectionMeta'
     import drawer from './drawer'
+    import masthead from './masthead.vue'
     import modal from './modal'
 
     export default {
-        components: { personMeta, biblIssueMeta, biblPieceMeta, biblSectionMeta, drawer, modal },
+        components: { personMeta, biblIssueMeta, biblPieceMeta, biblSectionMeta, drawer, masthead, modal },
         data() {
             return {
                 authorShipLegend: `Author will have 2-3 attributes: status, cert, and ref.
@@ -23,7 +24,7 @@
                 bibl_data: {},
                 ppm: {},
                 biblId: '',
-                showModal: false,        
+                showModal: false,
                 issueHeaderData: {},
                 issueId: ''
             }
@@ -38,7 +39,7 @@
             this.biblId = bibl.decls_id
             this.getIssueHeaderData()
             this.showModal = false
-            // this.showModal = false // needed for when 
+            // this.showModal = false // needed for when
         })
         Event.$on('close', () => {
             this.showModal = false
@@ -65,7 +66,7 @@
             if (pid) {
                 return '/authors/' + pid
             }
-            return '' 
+            return ''
         },
         fetchData: function() {
             this.issueId = this.$route.params.id
@@ -95,7 +96,7 @@
                 console.log('headerData is empty')
             }
             if(empty(this.issueHeaderData.listBibl)){
-                console.log('issueHeaderData.listBibl is empty') 
+                console.log('issueHeaderData.listBibl is empty')
             }
             if(this.biblId == '') {
                 return false
@@ -136,6 +137,7 @@
             return false
         },
         getPersonMeta: function (){
+
             const pid = this.getPersonId()
             const bibl = this.biblId
 
@@ -145,6 +147,7 @@
             if(this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])){
                 console.log('person ' + pid + ' not found!')
                 return {
+
                     personRole: 'unknown',
                     personName: 'unknown',
                     personViaf: false
@@ -156,14 +159,14 @@
                     if (this.authorlessPieceInSection(this.biblId)) {
                         sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
                         if(!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
-                            personMeta = { 
+                            personMeta = {
                                 personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName,
                                 personId: pid
                             }
                         }
                     }
                     else {
-                        personMeta = { 
+                        personMeta = {
                             personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName,
                             personId: pid
                         }
@@ -171,7 +174,7 @@
                     // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
                 }
                 else {
-                    personMeta = { 
+                    personMeta = {
                         personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName,
                         personId: pid
                     }
@@ -291,6 +294,7 @@
 </script>
 <template>
     <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+      <masthead></masthead>
         <div class="bibl" v-if="haveData()">
             <div class="issueInfo" v-if="!this.frontPage">
                 <a class="downloadLink" v-bind:href='stateHref()'>
@@ -298,18 +302,18 @@
                         <i class="fa fa-floppy-o" aria-hidden="true"></i>
                     </div>
                     <div class="downloadText">View {{this.dlLabel()}}</div>
-                </a>                
+                </a>
                 <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
                 <div class='issueDate'>{{this.formatDate()}}</div>
                 <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
-            </div>             
+            </div>
             <div class="issue">
                 <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
                 <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
 
             </div>
-  
-            <div class="authorInfo">         
+
+            <div class="authorInfo">
             <router-link :to="getAuthorsLink()" tag="div" class="personMetaContainer">
                 <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
             </router-link>

@@ -1,14 +1,11 @@
 <template>
         <div class='tei-markup'>
-          <masthead></masthead>
           <div class='teiMarkup' v-html="text"></div>
         </div>
 </template>
 <script>
-    import masthead from './masthead.vue'
 
     export default {
-        components: { masthead },
         props: ['issue', 'bibl'],
         created(){
             if (this.$route) {
