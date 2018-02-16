@@ -107,7 +107,10 @@
                 }
                 const biblId = this.$route.params.biblid
                 const bibl = this.bibls[biblId]
-
+                // cuz sometimes bibl is undefined even if this.loaded
+                if (!bibl) {
+                  return -1
+                }
                 if(bibl.hasOwnProperty('sectionMeta') && bibl.sectionMeta.hasOwnProperty('sectionPdfIndex')) {
                     return parseInt(bibl.sectionMeta.sectionPdfIndex)
                 }

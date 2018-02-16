@@ -1,6 +1,6 @@
 <template>
     <router-link tag="div" :to="link" class='viewerSelector' v-bind:class="{pdfSelected: pdfSelected}" @click="toggleViewer">
-          <div class="viewerTitle">Toggle View</div>
+          <div class="viewerTitle">{{ toggleLabel }}</div>
           <div class="viewerSwitch">          </div>
     </router-link>
 </template>
@@ -60,7 +60,7 @@
                 }
                 else {
                     const issueId = this.$route.params.id
-                    const biblId = this.$route.query.page ? this.bibl4page() : this.$route.biblid 
+                    const biblId = this.$route.query.page ? this.bibl4page() : this.$route.biblid
                     return this.$route.path + '?viewer=pdf'
                 }
             },
@@ -87,6 +87,9 @@
                 }
 
                 return map
+            },
+            toggleLabel: function () {
+              return this.viewer == 'pdf' ? "View Text" : "View PDF"
             },
             viewer: function () {
                 if (this.$route.query.viewer == 'pdf') {

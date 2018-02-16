@@ -1,5 +1,6 @@
 <template>
     <div class='intraIssueNav'>
+        <router-link :to="getFullTextLink" tag="div" :class="'toc-full-text'">Back to Full Text</router-link>
         <div class='tocDropdown'>Table of Contents</div>
         <toc-item  v-for='id in tocContent.toc' :id='id'></toc-item>
     </div>
@@ -31,6 +32,11 @@
                     axios.get(url).then(response => this.tocContent = response.data);
                 }
             },
+        },
+        computed: {
+          getFullTextLink: function () {
+            return '/issues/' + this.issueId
+          },
         },
         watch: {
             '$route': 'setTocContent'
