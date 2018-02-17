@@ -289,9 +289,9 @@
 <template>
     <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
       <masthead></masthead>
+      <issueDownload></issueDownload>
         <div class="bibl" v-if="haveData()">
             <div class="issueInfo" v-if="!this.frontPage">
-                <issueDownload></issueDownload>
                 <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
                 <div class='issueDate'>{{this.formatDate()}}</div>
                 <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>

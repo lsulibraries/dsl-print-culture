@@ -59748,11 +59748,11 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return (!this.$root.empty(this.issueHeaderData)) ? _c('div', {
     staticClass: "issueHeader"
-  }, [_c('masthead'), _vm._v(" "), (_vm.haveData()) ? _c('div', {
+  }, [_c('masthead'), _vm._v(" "), _c('issueDownload'), _vm._v(" "), (_vm.haveData()) ? _c('div', {
     staticClass: "bibl"
   }, [(!this.frontPage) ? _c('div', {
     staticClass: "issueInfo"
-  }, [_c('issueDownload'), _vm._v(" "), (this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) ? _c('biblSectionMeta', {
+  }, [(this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) ? _c('biblSectionMeta', {
     attrs: {
       "sectionMeta": this.issueHeaderData.listBibl[this.biblId].sectionMeta
     }
