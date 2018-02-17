@@ -1,7 +1,7 @@
 
 <template>
     <div class="header">
-      <a href="." class="headerTitle">The<br>Broadway<br>Journal</a>
+      <router-link tag='a' to="/" class="headerTitle">The<br>Broadway<br>Journal</router-link>
       <headerNav></headerNav>
       <div class="contrast" @click='toggleContrast'>
         <div class="contrastTitle">High Contrast</div>

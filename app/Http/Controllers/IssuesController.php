@@ -32,16 +32,13 @@ class IssuesController extends Controller
     }
 
     function abouts($about){
-        if(!in_array($about, array('about', 'methodology', 'staff', 'personography', 'opendata'))){
+        if(!in_array($about, array('home.html', 'about.project.html', 'about.method.data.html', 'staff', 'authors.html'))){
             return "No data found for $about";
         }
         if($about == 'staff'){
             return $this->staff();
         }
-        if($about == 'methodology'){
-            $about = 'tech';
-        }
-        $xml = Storage::get('public/broadway-tei/projectInfo/' .$about. '.html');
+        $xml = Storage::get('public/broadway-tei/projectInfo/' .$about);
         return $xml;// response()->json($toc);
     }
 
