@@ -43818,48 +43818,42 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: { creditsPerson: __WEBPACK_IMPORTED_MODULE_0__creditsPerson___default.a },
-    methods: {
-        includePersonInList: function includePersonInList(state, role) {
-            return person.personMeta.personRole == state && person.personMeta.personRoleName == role;
-        },
-        dataLoaded: function dataLoaded() {
-            return this.$root.empty(this.creditsData);
-        }
+  components: { creditsPerson: __WEBPACK_IMPORTED_MODULE_0__creditsPerson___default.a },
+  methods: {
+    getRole: function getRole(person) {
+      var state = person.personMeta.personRole;
+      var role = person.personMeta.personRoleName;
+      if (role == 'Research Assistant' && state == 'past') {
+        return 'Past Research Assistant';
+      }
+      return role;
     },
-    created: function created() {
-        this.creditsData = this.$root.xhrDataStore.personography.projectStaff;
-        this.rolesPast = [];
-        this.rolesActive = [];
-        for (var _person in this.creditsData) {
-            var role = this.creditsData[_person].personMeta.personRoleName;
-            var state = this.creditsData[_person].personMeta.personRole;
-            if (state == 'active') {
-                if (this.rolesActive.indexOf(role) === -1) {
-                    this.rolesActive.push(role);
-                }
-            } else {
-                if (this.rolesPast.indexOf(role) === -1) {
-                    this.rolesPast.push(role);
-                }
-            }
-        }
-    },
-    data: function data() {
-        return {
-            creditsData: {}
-        };
+    getRoleLabel: function getRoleLabel(role) {
+      if (role.includes('Research Assistant')) {
+        return role + 's';
+      }
+      return role;
     }
+  },
+  created: function created() {
+    this.creditsData = this.$root.xhrDataStore.personography.projectStaff;
+    // for (let person in this.creditsData) {
+    //     let role = this.creditsData[person].personMeta.personRoleName
+    //     if (this.roles.indexOf(role) === -1) {
+    //         this.roles.unshift(role)
+    //     }
+    //
+    // }
+  },
+  data: function data() {
+    return {
+      creditsData: {},
+      roles: ['Project Lead', 'Project Consultant', 'Consultant', 'Project Development', 'Research Assistant', 'Past Research Assistant']
+    };
+  }
 });
 
 /***/ }),
@@ -59016,29 +59010,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "creditsPersonsList"
   }, [_c('div', {
     staticClass: "creditsPersonListActive"
-  }, _vm._l((this.rolesActive), function(role) {
+  }, _vm._l((this.roles), function(role) {
     return _c('div', {
       staticClass: "personRoleName"
-    }, [_c('h3', [_vm._v(_vm._s(role))]), _vm._v(" "), _vm._l((_vm.creditsData), function(person) {
-      return (person.personMeta.personRole == 'active' && person.personMeta.personRoleName == role) ? _c('creditsPerson', {
+    }, [_c('h3', [_vm._v(_vm._s(_vm.getRoleLabel(role)))]), _vm._v(" "), _vm._l((_vm.creditsData), function(person) {
+      return (_vm.getRole(person) == role) ? _c('creditsPerson', {
         attrs: {
           "person": person
         }
       }) : _vm._e()
     })], 2)
-  })), _vm._v(" "), _c('div', {
-    staticClass: "creditsPersonListPast"
-  }, [_c('h2', [_vm._v("Past")]), _vm._v(" "), _vm._l((this.rolesPast), function(role) {
-    return _c('div', {
-      staticClass: "personRoleName"
-    }, [_c('h3', [_vm._v(_vm._s(role))]), _vm._v(" "), _vm._l((_vm.creditsData), function(person) {
-      return (person.personMeta.personRole == 'past' && person.personMeta.personRoleName == role) ? _c('creditsPerson', {
-        attrs: {
-          "person": person
-        }
-      }) : _vm._e()
-    })], 2)
-  })], 2)])
+  }))])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
