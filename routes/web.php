@@ -20,11 +20,11 @@ Route::get('/api/broadwayjournal/issue/{issueId}/header', 'IssuesController@issu
 
 Route::get('/api/broadwayjournal/issue/{issueId}/masthead', 'IssuesController@issueMasthead');
 
+Route::get('/broadwayjournal/issue/{year}/{month}/{day}/{format}', 'IssuesController@download');
 Route::get('/broadwayjournal/issue/{year}/{month}/{day}/pdf', 'IssuesController@pdf');
 
 Route::get('/broadwayjournal/issues/{year?}/{month?}/{day?}', 'IssuesController@index');
 
-Route::get('/broadwayjournal/issue/{year}/{month}/{day}/{format}', 'IssuesController@download');
 Route::get('/api/broadwayjournal/download/{zip}', 'IssuesController@dataDownload');
 
 

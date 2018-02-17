@@ -4,11 +4,21 @@
     import biblPieceMeta from './biblPieceMeta'
     import biblSectionMeta from './biblSectionMeta'
     import drawer from './drawer'
+    import issueDownload from './issueDownload'
     import masthead from './masthead.vue'
     import modal from './modal'
 
     export default {
-        components: { personMeta, biblIssueMeta, biblPieceMeta, biblSectionMeta, drawer, masthead, modal },
+        components: {
+          personMeta,
+          biblIssueMeta,
+          biblPieceMeta,
+          biblSectionMeta,
+          drawer,
+          issueDownload,
+          masthead,
+          modal
+        },
         data() {
             return {
                 authorShipLegend: `Author will have 2-3 attributes: status, cert, and ref.
@@ -213,14 +223,6 @@
                 let personInSection = this.getPersonMeta()
                 return !isAnon && (personInSection || biblExists_notSection)
         },
-        dlLabel: function(){
-                if(this.$root.state.content.issue.viewer == 'pdf'){
-                return 'PDF'
-                }
-                else{
-                return 'TEI'
-                }
-            },
         firstSection: function (){
             return 's1'
         },
@@ -237,14 +239,6 @@
             return ''
             }
             return this.bibl_data[this.biblId].pieceMeta[attribute]
-        },
-        stateHref:function(){
-            let iid   = Util.datePartsForIssueId(this.$root.state.content.issue.id);
-            let format = this.$root.state.content.issue.viewer
-            if(format == 'text'){
-            format = 'tei'
-            }
-            return `/broadwayjournal/issue/${iid.year}/${iid.month}/${iid.day}/${format}`
         },
         sectionTitle: function(biblId) {
             bibl = this.bibl_data[biblId]
@@ -297,12 +291,7 @@
       <masthead></masthead>
         <div class="bibl" v-if="haveData()">
             <div class="issueInfo" v-if="!this.frontPage">
-                <a class="downloadLink" v-bind:href='stateHref()'>
-                    <div class="downloadIcon">
-                        <i class="fa fa-floppy-o" aria-hidden="true"></i>
-                    </div>
-                    <div class="downloadText">View {{this.dlLabel()}}</div>
-                </a>
+                <issueDownload></issueDownload>
                 <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
                 <div class='issueDate'>{{this.formatDate()}}</div>
                 <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
@@ -310,9 +299,7 @@
             <div class="issue">
                 <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
                 <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
-
             </div>
-
             <div class="authorInfo">
             <router-link :to="getAuthorsLink()" tag="div" class="personMetaContainer">
                 <personMeta :personMeta="this.getPersonMeta()" v-if="this.getPersonMeta()"></personMeta>
