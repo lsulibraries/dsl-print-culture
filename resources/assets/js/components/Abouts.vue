@@ -1,19 +1,15 @@
 <template>
    <div class="abouts">
      <div class="aboutToggle">
-       <router-link :to="'/project/about'" tag='div' class="about" active-class="active">Project</router-link>
-       <router-link :to="'/project/methodology'" tag='div' class="technical" active-class="active">Methodology</router-link>
-       <router-link :to="'/project/staff'" tag='div' class="credits" active-class="active">Staff</router-link>
+       <router-link :to="'/project'" tag='div' class="about about-link-project" active-class="active">Project</router-link>
+       <router-link :to="'/methodology'" tag='div' class="technical about-link-methodology" active-class="active">Methodology</router-link>
+       <router-link :to="'/staff'" tag='div' class="credits about-link-staff" active-class="active">Staff</router-link>
      </div>
-     <div class="aboutViewer">
-       <logo v-if="this.context == 'about'"></logo>
-       <div class="about-about" v-if="this.context == 'about' && !this.isLoading" v-html="this.text"></div>
-       <div class="about-methodology" v-if="this.context == 'methodology'  && !this.isLoading">
-         <div class="about-methodology-html" v-html="this.text"></div>
-         <div class="about-opendata-wrapper" v-html="this.$root.xhrDataStore.abouts['opendata']"></div>
-       </div>
+     <div class="aboutViewer" v-if="!this.isLoading">
+       <logo v-if="showLogo"></logo>
+       <div :class="'about-'+ context" v-if="this.context != 'staff'" v-html="this.contextMap[context].text"></div>
        <div class="about-staff" v-if="this.context == 'staff'">
-        <creditsPersonList v-if="!this.isLoading"></creditsPersonList>
+        <creditsPersonList></creditsPersonList>
        </div>
      </div>
    </div>
@@ -23,60 +19,82 @@
   import logo from './logo'
   import creditsPersonList from './creditsPersonList'
   export default {
-      components: { creditsPersonList, logo },
+      components: {
+        creditsPersonList,
+        logo
+      },
 
       data() {
           return {
-            links: [
-              {
-                label: 'TEI text files',
-                link: '/api/broadwayjournal/download/tei',
-                description: "placeholder ..."
+            contextMap: {
+              home: {
+                file: 'home.html',
+                urlParam: '',
+                text: ''
               },
-              {
-                label: 'PDF files',
-                link: '/api/broadwayjournal/download/pdf',
-                description: "placeholder ..."
+              project: {
+                file: 'about.project.html',
+                urlParam: 'project',
+                text: ''
               },
-              {
-                label: 'Intermediate data',
-                link: '/api/broadwayjournal/download/intermediate_xml',
-                description: "placeholder ..."
+              methodology: {
+                file: 'about.method.data.html',
+                urlParam: 'methodology',
+                text: ''
               },
-              {
-                label: 'all',
-                link: '/api/broadwayjournal/download/all',
-                description: "placeholder ..."
-              }
-            ]
+              staff: {
+                file: false,
+                urlParam: 'staff',
+                text: false
+              },
+            },
           }
       },
 
       computed: {
         context: function () {
-          let context = 'about'
-          if (['project', 'methodology', 'opendata', 'staff'].indexOf(this.$route.params.id) != -1) {
+          let context = 'home'
+          if (['project', 'methodology', 'staff'].indexOf(this.$route.params.id) != -1) {
             context = this.$route.params.id
           }
-          console.log(context)
           return context
         },
+        showLogo: function () {
+          return this.context == 'home'
+        },
         text: function () {
+          if (this.isLoading) {
+            return ''
+          }
           return this.$root.xhrDataStore.abouts[this.context]
         },
         isLoading: function () {
           if (this.context == 'staff') {
             return this.$root.empty(this.$root.xhrDataStore.personography.personIndex)
           }
-          return this.$root.xhrDataStore.abouts[this.context].length < 1
+          return this.$root.xhrDataStore.abouts[this.context] && this.$root.xhrDataStore.abouts[this.context].length < 1
         }
       },
-
+      watch: {
+          '$route': 'routeUpdated'
+      },
       methods: {
+        routeUpdated: function () {
 
+        },
       },
       created() {
-
+        // get abouts data
+        for(const context of ['home', 'project', 'methodology']) {
+          const contextElement = this.contextMap[context]
+          if (!this.contextMap[context].text) {
+              axios.get('/api/broadwayjournal/abouts/' + contextElement.file).then(response => {
+                this.$root.xhrDataStore.abouts[context] = response.data
+                this.contextMap[context].text = response.data
+              });
+          }
+        }
+        axios.get('/api/broadwayjournal/abouts/staff').then(response => this.$root.xhrDataStore.abouts.staff = response.data);
       }
   }
 </script>

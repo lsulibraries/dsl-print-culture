@@ -2,24 +2,11 @@ import VueRouter from 'vue-router';
 
 let routes = [
 
-    {
-        path: '/',
-        redirect: '/project',
-    },
-    {
-        path: '/project',
-        redirect: '/project/about',
-        component:  require('./components/Abouts'),
-        children: [
-            
-            {
+    // {
+    //     path: '/',
+    //     redirect: '/about',
+    // },
 
-                path: ':id',
-                component:  require('./components/Abouts'),
-            },
-
-        ],
-    },
     {
         path: '/issues',
         redirect: '/issues/18450104',
@@ -53,7 +40,22 @@ let routes = [
 
         ]
 
-    }
+    },
+
+    {
+        path: '/',
+        // redirect: '/project/about',
+        component:  require('./components/Abouts'),
+        children: [
+
+            {
+
+                path: ':id',
+                component:  require('./components/Abouts'),
+            },
+
+        ],
+    },
 
 ];
 

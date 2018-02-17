@@ -39971,12 +39971,7 @@ new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
 			contrast: 'normal' // high
 		},
 		xhrDataStore: {
-			abouts: {
-				about: '',
-				methodology: '',
-				credits: {},
-				opendata: ''
-			},
+			abouts: {},
 			personography: {},
 			issueText: {}
 		}
@@ -40009,23 +40004,10 @@ new __WEBPACK_IMPORTED_MODULE_1_vue___default.a({
 		Event.$on('searchSubmitted', function (searchString) {
 			_this.state.content.searchString = searchString;
 		});
-		// get abouts data
-		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/staff').then(function (response) {
-			return _this.xhrDataStore.abouts.staff = response.data;
-		});
-		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/about').then(function (response) {
-			return _this.xhrDataStore.abouts.about = response.data;
-		});
-		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/methodology').then(function (response) {
-			return _this.xhrDataStore.abouts.methodology = response.data;
-		});
-		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/personography').then(function (response) {
+
+		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/authors.html').then(function (response) {
 			return _this.xhrDataStore.abouts.personographyDescription = response.data;
 		});
-		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/broadwayjournal/abouts/opendata').then(function (response) {
-			return _this.xhrDataStore.abouts.opendata = response.data;
-		});
-
 		__WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/api/BroadwayJournal/personography/comprehensive/json').then(function (response) {
 			_this.xhrDataStore.personography = response.data;
 			Event.$emit('personographyLoaded', _this.xhrDataStore.personography);
@@ -43288,61 +43270,97 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: { creditsPersonList: __WEBPACK_IMPORTED_MODULE_1__creditsPersonList___default.a, logo: __WEBPACK_IMPORTED_MODULE_0__logo___default.a },
+  components: {
+    creditsPersonList: __WEBPACK_IMPORTED_MODULE_1__creditsPersonList___default.a,
+    logo: __WEBPACK_IMPORTED_MODULE_0__logo___default.a
+  },
 
   data: function data() {
     return {
-      links: [{
-        label: 'TEI text files',
-        link: '/api/broadwayjournal/download/tei',
-        description: "placeholder ..."
-      }, {
-        label: 'PDF files',
-        link: '/api/broadwayjournal/download/pdf',
-        description: "placeholder ..."
-      }, {
-        label: 'Intermediate data',
-        link: '/api/broadwayjournal/download/intermediate_xml',
-        description: "placeholder ..."
-      }, {
-        label: 'all',
-        link: '/api/broadwayjournal/download/all',
-        description: "placeholder ..."
-      }]
+      contextMap: {
+        home: {
+          file: 'home.html',
+          urlParam: '',
+          text: ''
+        },
+        project: {
+          file: 'about.project.html',
+          urlParam: 'project',
+          text: ''
+        },
+        methodology: {
+          file: 'about.method.data.html',
+          urlParam: 'methodology',
+          text: ''
+        },
+        staff: {
+          file: false,
+          urlParam: 'staff',
+          text: false
+        }
+      }
     };
   },
 
 
   computed: {
     context: function context() {
-      var context = 'about';
-      if (['project', 'methodology', 'opendata', 'staff'].indexOf(this.$route.params.id) != -1) {
+      var context = 'home';
+      if (['project', 'methodology', 'staff'].indexOf(this.$route.params.id) != -1) {
         context = this.$route.params.id;
       }
-      console.log(context);
       return context;
     },
+    showLogo: function showLogo() {
+      return this.context == 'home';
+    },
     text: function text() {
+      if (this.isLoading) {
+        return '';
+      }
       return this.$root.xhrDataStore.abouts[this.context];
     },
     isLoading: function isLoading() {
       if (this.context == 'staff') {
         return this.$root.empty(this.$root.xhrDataStore.personography.personIndex);
       }
-      return this.$root.xhrDataStore.abouts[this.context].length < 1;
+      return this.$root.xhrDataStore.abouts[this.context] && this.$root.xhrDataStore.abouts[this.context].length < 1;
     }
   },
+  watch: {
+    '$route': 'routeUpdated'
+  },
+  methods: {
+    routeUpdated: function routeUpdated() {}
+  },
+  created: function created() {
+    var _this = this;
 
-  methods: {},
-  created: function created() {}
+    // get abouts data
+    var _arr = ['home', 'project', 'methodology'];
+
+    var _loop = function _loop() {
+      var context = _arr[_i];
+      var contextElement = _this.contextMap[context];
+      if (!_this.contextMap[context].text) {
+        axios.get('/api/broadwayjournal/abouts/' + contextElement.file).then(function (response) {
+          _this.$root.xhrDataStore.abouts[context] = response.data;
+          _this.contextMap[context].text = response.data;
+        });
+      }
+    };
+
+    for (var _i = 0; _i < _arr.length; _i++) {
+      _loop();
+    }
+    axios.get('/api/broadwayjournal/abouts/staff').then(function (response) {
+      return _this.$root.xhrDataStore.abouts.staff = response.data;
+    });
+  }
 });
 
 /***/ }),
@@ -46692,19 +46710,14 @@ if (token) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(47);
 
 
-var routes = [{
-    path: '/',
-    redirect: '/project'
-}, {
-    path: '/project',
-    redirect: '/project/about',
-    component: __webpack_require__(19),
-    children: [{
+var routes = [
 
-        path: ':id',
-        component: __webpack_require__(19)
-    }]
-}, {
+// {
+//     path: '/',
+//     redirect: '/about',
+// },
+
+{
     path: '/issues',
     redirect: '/issues/18450104',
     component: __webpack_require__(13),
@@ -46727,6 +46740,15 @@ var routes = [{
 
     }]
 
+}, {
+    path: '/',
+    // redirect: '/project/about',
+    component: __webpack_require__(19),
+    children: [{
+
+        path: ':id',
+        component: __webpack_require__(19)
+    }]
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
@@ -59709,22 +59731,21 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "header"
-  }, [_vm._m(0), _vm._v(" "), _c('headerNav'), _vm._v(" "), _c('div', {
+  }, [_c('router-link', {
+    staticClass: "headerTitle",
+    attrs: {
+      "tag": "a",
+      "to": "/"
+    }
+  }, [_vm._v("The"), _c('br'), _vm._v("Broadway"), _c('br'), _vm._v("Journal")]), _vm._v(" "), _c('headerNav'), _vm._v(" "), _c('div', {
     staticClass: "contrast",
     on: {
       "click": _vm.toggleContrast
     }
   }, [_c('div', {
     staticClass: "contrastTitle"
-  }, [_vm._v("High Contrast")]), _vm._v(" "), _vm._m(1)])], 1)
+  }, [_vm._v("High Contrast")]), _vm._v(" "), _vm._m(0)])], 1)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('a', {
-    staticClass: "headerTitle",
-    attrs: {
-      "href": "."
-    }
-  }, [_vm._v("The"), _c('br'), _vm._v("Broadway"), _c('br'), _vm._v("Journal")])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "contrastSwitch"
   }, [_c('div', {
@@ -60365,48 +60386,36 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "aboutToggle"
   }, [_c('router-link', {
-    staticClass: "about",
+    staticClass: "about about-link-project",
     attrs: {
-      "to": '/project/about',
+      "to": '/project',
       "tag": "div",
       "active-class": "active"
     }
   }, [_vm._v("Project")]), _vm._v(" "), _c('router-link', {
-    staticClass: "technical",
+    staticClass: "technical about-link-methodology",
     attrs: {
-      "to": '/project/methodology',
+      "to": '/methodology',
       "tag": "div",
       "active-class": "active"
     }
   }, [_vm._v("Methodology")]), _vm._v(" "), _c('router-link', {
-    staticClass: "credits",
+    staticClass: "credits about-link-staff",
     attrs: {
-      "to": '/project/staff',
+      "to": '/staff',
       "tag": "div",
       "active-class": "active"
     }
-  }, [_vm._v("Staff")])], 1), _vm._v(" "), _c('div', {
+  }, [_vm._v("Staff")])], 1), _vm._v(" "), (!this.isLoading) ? _c('div', {
     staticClass: "aboutViewer"
-  }, [(this.context == 'about') ? _c('logo') : _vm._e(), _vm._v(" "), (this.context == 'about' && !this.isLoading) ? _c('div', {
-    staticClass: "about-about",
+  }, [(_vm.showLogo) ? _c('logo') : _vm._e(), _vm._v(" "), (this.context != 'staff') ? _c('div', {
+    class: 'about-' + _vm.context,
     domProps: {
-      "innerHTML": _vm._s(this.text)
+      "innerHTML": _vm._s(this.contextMap[_vm.context].text)
     }
-  }) : _vm._e(), _vm._v(" "), (this.context == 'methodology' && !this.isLoading) ? _c('div', {
-    staticClass: "about-methodology"
-  }, [_c('div', {
-    staticClass: "about-methodology-html",
-    domProps: {
-      "innerHTML": _vm._s(this.text)
-    }
-  }), _vm._v(" "), _c('div', {
-    staticClass: "about-opendata-wrapper",
-    domProps: {
-      "innerHTML": _vm._s(this.$root.xhrDataStore.abouts['opendata'])
-    }
-  })]) : _vm._e(), _vm._v(" "), (this.context == 'staff') ? _c('div', {
+  }) : _vm._e(), _vm._v(" "), (this.context == 'staff') ? _c('div', {
     staticClass: "about-staff"
-  }, [(!this.isLoading) ? _c('creditsPersonList') : _vm._e()], 1) : _vm._e()], 1)])
+  }, [_c('creditsPersonList')], 1) : _vm._e()], 1) : _vm._e()])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -60702,23 +60711,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('div', {
     staticClass: "headerNav"
   }, [_c('router-link', {
-    attrs: {
-      "to": "/",
-      "exact": "",
-      "tag": "div",
-      "active-class": "active"
-    },
-    on: {
-      "click": function($event) {
-        _vm.activeContentClicked('abouts')
-      }
-    }
-  }, [_c('i', {
-    staticClass: "fa fa-flask",
-    attrs: {
-      "aria-hidden": "true"
-    }
-  }), _vm._v("About\n")]), _vm._v(" "), _c('router-link', {
     attrs: {
       "to": "/issues",
       "tag": "div",
