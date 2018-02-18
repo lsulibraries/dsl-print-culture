@@ -46589,6 +46589,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -59442,20 +59447,39 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "id": "infoFooter"
     }
   }, [_c('div', {
+    staticClass: "license-cc-wraper",
     attrs: {
       "id": "creativeCommons"
     }
-  }, [_vm._v("\n                This work is licensed under a "), _c('a', {
+  }, [_c('a', {
+    staticClass: "license-cc-link",
+    attrs: {
+      "rel": "license",
+      "href": "http://creativecommons.org/licenses/by/4.0/",
+      "target": "_blank"
+    }
+  }, [_c('img', {
+    staticClass: "license-cc-link-img",
+    staticStyle: {
+      "border-width": "0"
+    },
+    attrs: {
+      "alt": "Creative Commons License",
+      "src": "https://i.creativecommons.org/l/by/4.0/80x15.png"
+    }
+  }), _vm._v("\n                This work is licensed under a "), _c('a', {
     attrs: {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/"
     }
-  }, [_vm._v("Creative Commons Attribution 4.0 International License")]), _vm._v("."), _c('br'), _vm._v("\n                Contact the "), _c('a', {
+  }, [_vm._v("Creative Commons Attribution 4.0 International License")]), _vm._v(".\n              ")]), _vm._v(" "), _c('div', {
+    staticClass: "license-contact"
+  }, [_vm._v("\n                Contact the "), _c('a', {
     attrs: {
       "href": "mailto:dsl@lsu.edu",
       "target": "_blank"
     }
-  }, [_vm._v("Digital Scholarship Lab")]), _vm._v(" at LSU Libraries with any questions or comments. \n            ")])])])
+  }, [_vm._v("Digital Scholarship Lab")]), _vm._v(" at LSU Libraries with any questions or comments.\n              ")])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
