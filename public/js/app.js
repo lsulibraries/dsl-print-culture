@@ -60423,7 +60423,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "tag": "div",
       "active-class": "active"
     }
-  }, [_vm._v("Methodology")]), _vm._v(" "), _c('router-link', {
+  }, [_vm._v("Methodology and Data")]), _vm._v(" "), _c('router-link', {
     staticClass: "credits about-link-staff",
     attrs: {
       "to": '/staff',

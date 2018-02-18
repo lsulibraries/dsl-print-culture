@@ -2,7 +2,7 @@
    <div class="abouts">
      <div class="aboutToggle">
        <router-link :to="'/project'" tag='div' class="about about-link-project" active-class="active">Project</router-link>
-       <router-link :to="'/methodology'" tag='div' class="technical about-link-methodology" active-class="active">Methodology</router-link>
+       <router-link :to="'/methodology'" tag='div' class="technical about-link-methodology" active-class="active">Methodology and Data</router-link>
        <router-link :to="'/staff'" tag='div' class="credits about-link-staff" active-class="active">Staff</router-link>
      </div>
      <div class="aboutViewer" v-if="!this.isLoading">
