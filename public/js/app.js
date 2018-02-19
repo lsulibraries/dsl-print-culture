@@ -44440,9 +44440,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
             return metaExists;
         },
-        pdfMode: function pdfMode() {
-            return this.$root.state.content.issue.viewer == 'pdf';
-        },
         haveData: function haveData() {
             var empty = this.$root.empty;
             if (empty(this.issueHeaderData)) {
@@ -44462,7 +44459,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
             return true;
         },
-        getSectionMeta: function getSectionMeta() {},
+        getPieceMeta: function getPieceMeta() {
+            return this.issueHeaderData.listBibl[this.biblId].pieceMeta;
+        },
+        getSectionMeta: function getSectionMeta() {
+            return this.issueHeaderData.listBibl[this.biblId].sectionMeta;
+        },
         getIssueHeaderData: function getIssueHeaderData() {
             var _this2 = this;
 
@@ -44625,6 +44627,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var d = Util.datePartsForIssueId(this.issueId);
             var date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
             return date;
+        },
+        showIssueHeader: function showIssueHeader() {
+            return !this.$root.empty(this.issueHeaderData);
+        },
+        showPieceAsTitle: function showPieceAsTitle() {
+            return !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
+        },
+        showSectionAsTitle: function showSectionAsTitle() {
+            return this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
+        },
+        showSectionForPiece: function showSectionForPiece() {
+            return this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
         }
     },
     computed: {
@@ -59791,15 +59805,15 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return (!this.$root.empty(this.issueHeaderData)) ? _c('div', {
+  return (this.showIssueHeader()) ? _c('div', {
     staticClass: "issueHeader"
   }, [_c('masthead'), _vm._v(" "), (_vm.haveData()) ? _c('div', {
     staticClass: "bibl"
   }, [(!this.frontPage) ? _c('div', {
-    staticClass: "issueInfo"
-  }, [_c('issueDownload'), _vm._v(" "), (this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) ? _c('biblSectionMeta', {
+    staticClass: "issueInfo big-title"
+  }, [_c('issueDownload'), _vm._v(" "), (this.showSectionForPiece()) ? _c('biblSectionMeta', {
     attrs: {
-      "sectionMeta": this.issueHeaderData.listBibl[this.biblId].sectionMeta
+      "sectionMeta": this.getSectionMeta()
     }
   }) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "issueDate"
@@ -59809,13 +59823,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })], 1) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "issue"
-  }, [(!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !_vm.pdfMode()) ? _c('biblPieceMeta', {
+  }, [(this.showPieceAsTitle()) ? _c('biblPieceMeta', {
     attrs: {
-      "pieceMeta": this.issueHeaderData.listBibl[this.biblId].pieceMeta
+      "pieceMeta": this.getPieceMeta()
     }
-  }) : _vm._e(), _vm._v(" "), (this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) ? _c('biblSectionMeta', {
+  }) : _vm._e(), _vm._v(" "), (this.showSectionAsTitle()) ? _c('biblSectionMeta', {
     attrs: {
-      "sectionMeta": this.issueHeaderData.listBibl[this.biblId].sectionMeta
+      "sectionMeta": this.getSectionMeta()
     }
   }) : _vm._e()], 1), _vm._v(" "), _c('div', {
     staticClass: "authorInfo"
@@ -59846,7 +59860,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "authorId": this.getPersonId(),
       "declsId": this.biblId,
-      "issueId": this.issueHeaderData.issueMeta.issueId
+      "issueId": this.issueId
     },
     on: {
       "close": function($event) {

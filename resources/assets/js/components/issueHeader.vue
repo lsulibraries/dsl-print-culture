@@ -97,9 +97,6 @@
             let metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)
             return metaExists
         },
-        pdfMode: function () {
-            return this.$root.state.content.issue.viewer == 'pdf'
-        },
         haveData: function() {
             let empty = this.$root.empty
             if(empty(this.issueHeaderData)){
@@ -119,7 +116,11 @@
             }
             return true
         },
+        getPieceMeta: function () {
+          return this.issueHeaderData.listBibl[this.biblId].pieceMeta
+        },
         getSectionMeta: function () {
+          return this.issueHeaderData.listBibl[this.biblId].sectionMeta
         },
         getIssueHeaderData: function () {
             let headerUrl = '/api/broadwayjournal/issue/'+ this.issueId +'/header';
@@ -274,7 +275,19 @@
             let d = Util.datePartsForIssueId(this.issueId)
             let date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
             return date
-        }
+        },
+        showIssueHeader: function () {
+          return !this.$root.empty(this.issueHeaderData)
+        },
+        showPieceAsTitle: function () {
+          return !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)
+        },
+        showSectionAsTitle: function () {
+          return this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)
+        },
+        showSectionForPiece: function () {
+          return this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)
+        },
     },
     computed: {
         frontPage: function () {
@@ -287,18 +300,18 @@
 }
 </script>
 <template>
-    <div class="issueHeader" v-if="!this.$root.empty(this.issueHeaderData)">
+    <div class="issueHeader" v-if="this.showIssueHeader()">
       <masthead></masthead>
         <div class="bibl" v-if="haveData()">
-            <div class="issueInfo" v-if="!this.frontPage">
+            <div class="issueInfo big-title" v-if="!this.frontPage">
                 <issueDownload></issueDownload>
-                <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
+                <biblSectionMeta :sectionMeta="this.getSectionMeta()" v-if="this.showSectionForPiece()"></biblSectionMeta>
                 <div class='issueDate'>{{this.formatDate()}}</div>
                 <biblIssueMeta :issueMeta="this.issueHeaderData.issueMeta"></biblIssueMeta>
             </div>
             <div class="issue">
-                <biblPieceMeta :pieceMeta="this.issueHeaderData.listBibl[this.biblId].pieceMeta" v-if="!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta) && !pdfMode()"></biblPieceMeta>
-                <biblSectionMeta :sectionMeta="this.issueHeaderData.listBibl[this.biblId].sectionMeta" v-if="this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)"></biblSectionMeta>
+                <biblPieceMeta :pieceMeta="this.getPieceMeta()" v-if="this.showPieceAsTitle()"></biblPieceMeta>
+                <biblSectionMeta :sectionMeta="this.getSectionMeta()" v-if="this.showSectionAsTitle()"></biblSectionMeta>
             </div>
             <div class="authorInfo">
             <router-link :to="getAuthorsLink()" tag="div" class="personMetaContainer">
@@ -311,7 +324,7 @@
             <div class="authorShipLegend">{{this.authorShipLegend}}</div>
         </div>
         <!-- use the modal component, pass in the prop -->
-        <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueHeaderData.issueMeta.issueId"  @close="showModal = false">
+        <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueId"  @close="showModal = false">
             <h3 slot="header">More from this author</h3>
         </modal>
     </div>
