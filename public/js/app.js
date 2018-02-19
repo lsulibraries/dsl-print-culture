@@ -44330,25 +44330,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__personMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__personMeta__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__biblIssueMeta__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__biblIssueMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__biblIssueMeta__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__biblPieceMeta__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__biblPieceMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__biblPieceMeta__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__biblSectionMeta__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__biblSectionMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__biblSectionMeta__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__drawer__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__drawer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__drawer__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__issueDownload__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__issueDownload___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__issueDownload__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__masthead_vue__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__masthead_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__masthead_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modal__ = __webpack_require__(287);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__modal__);
-
-
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__drawer__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__drawer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__drawer__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__issueBibl__ = __webpack_require__(435);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__issueBibl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__issueBibl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__issueDownload__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__issueDownload___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__issueDownload__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__masthead_vue__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__masthead_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__masthead_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modal__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__modal__);
 
 
 
@@ -44358,14 +44349,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     components: {
-        personMeta: __WEBPACK_IMPORTED_MODULE_0__personMeta___default.a,
-        biblIssueMeta: __WEBPACK_IMPORTED_MODULE_1__biblIssueMeta___default.a,
-        biblPieceMeta: __WEBPACK_IMPORTED_MODULE_2__biblPieceMeta___default.a,
-        biblSectionMeta: __WEBPACK_IMPORTED_MODULE_3__biblSectionMeta___default.a,
-        drawer: __WEBPACK_IMPORTED_MODULE_4__drawer___default.a,
-        issueDownload: __WEBPACK_IMPORTED_MODULE_5__issueDownload___default.a,
-        masthead: __WEBPACK_IMPORTED_MODULE_6__masthead_vue___default.a,
-        modal: __WEBPACK_IMPORTED_MODULE_7__modal___default.a
+        drawer: __WEBPACK_IMPORTED_MODULE_0__drawer___default.a,
+        issueBibl: __WEBPACK_IMPORTED_MODULE_1__issueBibl___default.a,
+        issueDownload: __WEBPACK_IMPORTED_MODULE_2__issueDownload___default.a,
+        masthead: __WEBPACK_IMPORTED_MODULE_3__masthead_vue___default.a,
+        modal: __WEBPACK_IMPORTED_MODULE_4__modal___default.a
     },
     data: function data() {
         return {
@@ -44397,6 +44385,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         Event.$on('close', function () {
             _this.showModal = false;
         });
+        Event.$on('showModal', function () {
+            _this.showModal = true;
+        });
 
         // this.biblId = this.$root.state.content.issue.decls_id
         if (!this.$root.empty(this.$route.params.id)) {
@@ -44415,13 +44406,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         '$route': 'fetchData'
     },
     methods: {
-        getAuthorsLink: function getAuthorsLink() {
-            var pid = this.getPersonId();
-            if (pid) {
-                return '/authors/' + pid;
-            }
-            return '';
-        },
         fetchData: function fetchData() {
             this.issueId = this.$route.params.id;
             if (this.$route.params.id && this.$route.params.biblid) {
@@ -44432,39 +44416,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.showModal = false;
             this.getIssueHeaderData();
         },
-        showBiblSectionMeta: function showBiblSectionMeta() {
-            var biblIdSet = this.biblId !== '';
-            if (!biblIdSet) {
-                return false;
-            }
-            var metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
-            return metaExists;
-        },
-        haveData: function haveData() {
-            var empty = this.$root.empty;
-            if (empty(this.issueHeaderData)) {
-                console.log('headerData is empty');
-            }
-            if (empty(this.issueHeaderData.listBibl)) {
-                console.log('issueHeaderData.listBibl is empty');
-            }
-            if (this.biblId == '') {
-                return false;
-            }
-            if (empty(this.issueHeaderData.listBibl[this.biblId])) {
-                console.log('listBibl does not exist for ' + this.biblId);
-            }
-            if (empty(this.issueHeaderData.issueMeta)) {
-                console.log('missing issueMeta');
-            }
-            return true;
-        },
-        getPieceMeta: function getPieceMeta() {
-            return this.issueHeaderData.listBibl[this.biblId].pieceMeta;
-        },
-        getSectionMeta: function getSectionMeta() {
-            return this.issueHeaderData.listBibl[this.biblId].sectionMeta;
-        },
         getIssueHeaderData: function getIssueHeaderData() {
             var _this2 = this;
 
@@ -44472,6 +44423,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             axios.get(headerUrl).then(function (response) {
                 return _this2.issueHeaderData = response.data;
             });
+        },
+        showIssueHeader: function showIssueHeader() {
+            return !this.$root.empty(this.issueHeaderData);
         },
         getPersonId: function getPersonId() {
             // if section, get section list person, if set.
@@ -44484,171 +44438,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
                     return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0];
                 } else if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
-                    var _sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId;
-                    if (!this.$root.empty(this.issueHeaderData.listBibl[_sid].sectionMeta.sectionListPerson)) {
-                        return Object.keys(this.issueHeaderData.listBibl[_sid].sectionMeta.sectionListPerson)[0];
+                    var sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId;
+                    if (!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                        return Object.keys(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)[0];
                     }
                 }
             }
             return false;
-        },
-        getPersonMeta: function getPersonMeta() {
-
-            var pid = this.getPersonId();
-            var bibl = this.biblId;
-
-            if (!pid) {
-                return false;
-            }
-            if (this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])) {
-                console.log('person ' + pid + ' not found!');
-                return {
-
-                    personRole: 'unknown',
-                    personName: 'unknown',
-                    personViaf: false
-                };
-            }
-            if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId])) {
-                // have bibl
-                var _personMeta = void 0;
-                if (!this.biblIsSection(this.biblId)) {
-                    if (this.authorlessPieceInSection(this.biblId)) {
-                        sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId;
-                        if (!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
-                            _personMeta = {
-                                personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName,
-                                personId: pid
-                            };
-                        }
-                    } else {
-                        _personMeta = {
-                            personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName,
-                            personId: pid
-                        };
-                    }
-                    // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
-                } else {
-                    _personMeta = {
-                        personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName,
-                        personId: pid
-                    };
-                }
-                if (this.$root.empty(_personMeta.personName)) {
-                    console.log(_personMeta.personName);
-                    console.log(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName);
-                    return false;
-                }
-                return _personMeta;
-            }
-            console.log('missing list bibl for' + this.biblId);
-            return false;
-        },
-        authorlessPieceInSection: function authorlessPieceInSection(biblId) {
-            if (this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
-                if (!this.$root.empty(this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))) {
-                    return true;
-                }
-            }
-            return false;
-        },
-        getPersonPieceMeta: function getPersonPieceMeta() {
-            pid = this.getPersonId();
-            if (!pid) {
-                return false;
-            }
-            bid = 'bibl-' + this.issueHeaderData.issueMeta.issueId + '-' + this.biblId;
-            meta = this.$root.xhrDataStore.personography.personIndex[pid].personListBibl[bid].personPieceMeta;
-            return meta;
-        },
-        drawerIsAvailable: function drawerIsAvailable() {
-            var isAnon = this.getPersonId() == 'anon';
-            var biblExists_notSection = !this.biblIsSection(this.biblId) && this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson;
-            var sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
-            var personInSection = this.getPersonMeta();
-            return !isAnon && (personInSection || biblExists_notSection);
-        },
-        firstSection: function firstSection() {
-            return 's1';
-        },
-        setBiblData: function setBiblData() {
-            var _this3 = this;
-
-            bibl_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/bibl_data';
-            axios.get(bibl_url).then(function (response) {
-                return _this3.bibl_data = response.data;
-            });
-        },
-        setPpm: function setPpm() {
-            var _this4 = this;
-
-            ppm_url = '/api/broadwayjournal/' + this.$root.state.content.issue.id + '/ppm';
-            axios.get(ppm_url).then(function (response) {
-                return _this4.ppm = response.data;
-            });
-        },
-        pieceMeta: function pieceMeta(attribute) {
-            if (this.bibl_data[this.biblId].sectionMeta) {
-                return '';
-            }
-            return this.bibl_data[this.biblId].pieceMeta[attribute];
-        },
-        sectionTitle: function sectionTitle(biblId) {
-            bibl = this.bibl_data[biblId];
-            if (!bibl.sectionMeta) {
-                return "sectionMeta is missing!";
-            }
-            if (this.biblIsSection(biblId)) {
-                return bibl.sectionMeta.sectionTitle;
-            } else if (this.biblBelongsToSection(biblId)) {
-                return this.bibl_data[bibl.sectionId].sectionMeta.sectionTitle;
-            } else {
-                return '';
-            }
-        },
-        biblIsSection: function biblIsSection(biblId) {
-            if (this.issueHeaderData.listBibl[biblId].sectionMeta && this.$root.empty(this.issueHeaderData.listBibl[biblId].pieceMeta)) {
-                return true;
-            }
-            return false;
-        },
-        biblBelongsToSection: function biblBelongsToSection(biblId) {
-            if (this.bibl_data[biblId].sectionId) {
-                return true;
-            }
-            return false;
-        },
-        lookupMonth: function lookupMonth(monthInt) {
-            var monthMap = { '01': 'Jan', '02': 'Feb', '03': 'Mar', '04': 'Apr', '05': 'May', '06': 'Jun', '07': 'Jul', '08': 'Aug', '09': 'Sep', '10': 'Oct', '11': 'Nov', '12': 'Dec' };
-            return monthMap[monthInt];
-        },
-        formatDate: function formatDate() {
-
-            var d = Util.datePartsForIssueId(this.issueId);
-            var date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
-            return date;
-        },
-        showIssueHeader: function showIssueHeader() {
-            return !this.$root.empty(this.issueHeaderData);
-        },
-        showPieceAsTitle: function showPieceAsTitle() {
-            return !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
-        },
-        showSectionAsTitle: function showSectionAsTitle() {
-            return this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
-        },
-        showSectionForPiece: function showSectionForPiece() {
-            return this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
         }
     },
-    computed: {
-        frontPage: function frontPage() {
-            return this.$route.params.biblid ? false : true;
-        }
-    },
-    mounted: function mounted() {
-        //  Event.$emit('issueSelected', this.$root.state.content.issue.id)
-    }
+
+    mounted: function mounted() {}
 });
 
 /***/ }),
@@ -59807,56 +59607,13 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return (this.showIssueHeader()) ? _c('div', {
     staticClass: "issueHeader"
-  }, [_c('masthead'), _vm._v(" "), (_vm.haveData()) ? _c('div', {
-    staticClass: "bibl"
-  }, [(!this.frontPage) ? _c('div', {
-    staticClass: "issueInfo big-title"
-  }, [_c('issueDownload'), _vm._v(" "), (this.showSectionForPiece()) ? _c('biblSectionMeta', {
+  }, [_c('masthead'), _vm._v(" "), _c('issueBibl', {
     attrs: {
-      "sectionMeta": this.getSectionMeta()
+      "issueId": this.issueId,
+      "biblId": _vm.biblId,
+      "issueHeaderData": this.issueHeaderData
     }
-  }) : _vm._e(), _vm._v(" "), _c('div', {
-    staticClass: "issueDate"
-  }, [_vm._v(_vm._s(this.formatDate()))]), _vm._v(" "), _c('biblIssueMeta', {
-    attrs: {
-      "issueMeta": this.issueHeaderData.issueMeta
-    }
-  })], 1) : _vm._e(), _vm._v(" "), _c('div', {
-    staticClass: "issue"
-  }, [(this.showPieceAsTitle()) ? _c('biblPieceMeta', {
-    attrs: {
-      "pieceMeta": this.getPieceMeta()
-    }
-  }) : _vm._e(), _vm._v(" "), (this.showSectionAsTitle()) ? _c('biblSectionMeta', {
-    attrs: {
-      "sectionMeta": this.getSectionMeta()
-    }
-  }) : _vm._e()], 1), _vm._v(" "), _c('div', {
-    staticClass: "authorInfo"
-  }, [_c('router-link', {
-    staticClass: "personMetaContainer",
-    attrs: {
-      "to": _vm.getAuthorsLink(),
-      "tag": "div"
-    }
-  }, [(this.getPersonMeta()) ? _c('personMeta', {
-    attrs: {
-      "personMeta": this.getPersonMeta()
-    }
-  }) : _vm._e()], 1), _vm._v(" "), (this.drawerIsAvailable()) ? _c('button', {
-    attrs: {
-      "id": "show-modal"
-    },
-    on: {
-      "click": function($event) {
-        _vm.showModal = true
-      }
-    }
-  }, [_vm._v("More from this author")]) : _vm._e()], 1), _vm._v(" "), _c('div', {
-    staticClass: "issueData"
-  }), _vm._v(" "), _c('div', {
-    staticClass: "authorShipLegend"
-  }, [_vm._v(_vm._s(this.authorShipLegend))])]) : _vm._e(), _vm._v(" "), (this.showModal) ? _c('modal', {
+  }), _vm._v(" "), _c('issueDownload'), _vm._v(" "), (this.showModal) ? _c('modal', {
     attrs: {
       "authorId": this.getPersonId(),
       "declsId": this.biblId,
@@ -62848,6 +62605,325 @@ module.exports = function() {
 __webpack_require__(49);
 module.exports = __webpack_require__(50);
 
+
+/***/ }),
+/* 431 */,
+/* 432 */,
+/* 433 */,
+/* 434 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__biblIssueMeta__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__biblIssueMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__biblIssueMeta__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__biblPieceMeta__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__biblPieceMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__biblPieceMeta__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__biblSectionMeta__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__biblSectionMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__biblSectionMeta__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__personMeta__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__personMeta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__personMeta__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    components: {
+        biblIssueMeta: __WEBPACK_IMPORTED_MODULE_0__biblIssueMeta___default.a,
+        biblPieceMeta: __WEBPACK_IMPORTED_MODULE_1__biblPieceMeta___default.a,
+        biblSectionMeta: __WEBPACK_IMPORTED_MODULE_2__biblSectionMeta___default.a,
+        personMeta: __WEBPACK_IMPORTED_MODULE_3__personMeta___default.a
+    },
+    computed: {
+        frontPage: function frontPage() {
+            return this.$route.params.biblid ? false : true;
+        }
+    },
+    props: {
+        biblId: {
+            type: String,
+            required: true
+        },
+        issueHeaderData: {
+            type: Object,
+            required: true
+        },
+        issueId: {
+            type: String,
+            required: true
+        }
+    },
+    methods: {
+        authorlessPieceInSection: function authorlessPieceInSection(biblId) {
+            if (this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+                if (!this.$root.empty(this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta))) {
+                    return true;
+                }
+            }
+            return false;
+        },
+        biblIsSection: function biblIsSection(biblId) {
+            if (this.issueHeaderData.listBibl[biblId].sectionMeta && this.$root.empty(this.issueHeaderData.listBibl[biblId].pieceMeta)) {
+                return true;
+            }
+            return false;
+        },
+        drawerIsAvailable: function drawerIsAvailable() {
+            var isAnon = this.getPersonId() == 'anon';
+            var biblExists_notSection = !this.biblIsSection(this.biblId) && this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson;
+            var sectionMetaNotEmpty = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
+            var personInSection = this.getPersonMeta();
+            return !isAnon && (personInSection || biblExists_notSection);
+        },
+        formatDate: function formatDate() {
+            var d = Util.datePartsForIssueId(this.issueId);
+            var date = this.lookupMonth(d.month) + ' ' + d.day + ', ' + d.year;
+            return date;
+        },
+        getAuthorsLink: function getAuthorsLink() {
+            var pid = this.getPersonId();
+            if (pid) {
+                return '/authors/' + pid;
+            }
+            return '';
+        },
+        getPieceMeta: function getPieceMeta() {
+            return this.issueHeaderData.listBibl[this.biblId].pieceMeta;
+        },
+        getSectionMeta: function getSectionMeta() {
+            return this.issueHeaderData.listBibl[this.biblId].sectionMeta;
+        },
+        getPersonId: function getPersonId() {
+            // if section, get section list person, if set.
+            if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
+                if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)) {
+                    return Object.keys(this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson)[0];
+                }
+            }
+            if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta)) {
+                if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)) {
+                    return Object.keys(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson)[0];
+                } else if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta)) {
+                    var _sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId;
+                    if (!this.$root.empty(this.issueHeaderData.listBibl[_sid].sectionMeta.sectionListPerson)) {
+                        return Object.keys(this.issueHeaderData.listBibl[_sid].sectionMeta.sectionListPerson)[0];
+                    }
+                }
+            }
+            return false;
+        },
+        getPersonMeta: function getPersonMeta() {
+
+            var pid = this.getPersonId();
+            var bibl = this.biblId;
+
+            if (!pid) {
+                return false;
+            }
+            if (this.$root.empty(this.$root.xhrDataStore.personography.personIndex[pid])) {
+                console.log('person ' + pid + ' not found!');
+                return {
+
+                    personRole: 'unknown',
+                    personName: 'unknown',
+                    personViaf: false
+                };
+            }
+            if (!this.$root.empty(this.issueHeaderData.listBibl[this.biblId])) {
+                // have bibl
+                var _personMeta = void 0;
+                if (!this.biblIsSection(this.biblId)) {
+                    if (this.authorlessPieceInSection(this.biblId)) {
+                        sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId;
+                        if (!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
+                            _personMeta = {
+                                personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName,
+                                personId: pid
+                            };
+                        }
+                    } else {
+                        _personMeta = {
+                            personName: this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName,
+                            personId: pid
+                        };
+                    }
+                    // personMeta = this.$root.xhrDataStore.personography.personIndex[pid].personMeta
+                } else {
+                    _personMeta = {
+                        personName: this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionListPerson[pid].personName,
+                        personId: pid
+                    };
+                }
+                if (this.$root.empty(_personMeta.personName)) {
+                    console.log(_personMeta.personName);
+                    console.log(this.issueHeaderData.listBibl[this.biblId].pieceMeta.pieceListPerson[pid].personName);
+                    return false;
+                }
+                return _personMeta;
+            }
+            console.log('missing list bibl for' + this.biblId);
+            return false;
+        },
+        haveData: function haveData() {
+            var empty = this.$root.empty;
+            if (!this.issueHeaderData) {
+                console.log('headerData is empty');
+                return false;
+            }
+            if (empty(this.issueHeaderData.listBibl)) {
+                console.log('issueHeaderData.listBibl is empty');
+            }
+            if (this.biblId == '') {
+                return false;
+            }
+            if (empty(this.issueHeaderData.listBibl[this.biblId])) {
+                console.log('listBibl does not exist for ' + this.biblId);
+            }
+            if (empty(this.issueHeaderData.issueMeta)) {
+                console.log('missing issueMeta');
+            }
+            return true;
+        },
+        lookupMonth: function lookupMonth(monthInt) {
+            var monthMap = { '01': 'Jan', '02': 'Feb', '03': 'Mar', '04': 'Apr', '05': 'May', '06': 'Jun', '07': 'Jul', '08': 'Aug', '09': 'Sep', '10': 'Oct', '11': 'Nov', '12': 'Dec' };
+            return monthMap[monthInt];
+        },
+        openModal: function openModal() {
+            Event.$emit('showModal', true);
+        },
+        showBiblSectionMeta: function showBiblSectionMeta() {
+            var biblIdSet = this.biblId !== '';
+            if (!biblIdSet) {
+                return false;
+            }
+            var metaExists = !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].sectionMeta);
+            return metaExists;
+        },
+        showPieceAsTitle: function showPieceAsTitle() {
+            return !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
+        },
+        showSectionAsTitle: function showSectionAsTitle() {
+            return this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
+        },
+        showSectionForPiece: function showSectionForPiece() {
+            return this.showBiblSectionMeta() && !this.$root.empty(this.issueHeaderData.listBibl[this.biblId].pieceMeta);
+        }
+    }
+});
+
+/***/ }),
+/* 435 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(0)(
+  /* script */
+  __webpack_require__(434),
+  /* template */
+  __webpack_require__(436),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/var/www/dsl-print-culture/resources/assets/js/components/issueBibl.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] issueBibl.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-c229ee98", Component.options)
+  } else {
+    hotAPI.reload("data-v-c229ee98", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 436 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return (_vm.haveData()) ? _c('div', {
+    staticClass: "bibl"
+  }, [(!this.frontPage) ? _c('div', {
+    staticClass: "issueInfo big-title"
+  }, [(this.showSectionForPiece()) ? _c('biblSectionMeta', {
+    attrs: {
+      "sectionMeta": this.getSectionMeta()
+    }
+  }) : _vm._e(), _vm._v(" "), _c('div', {
+    staticClass: "issueDate"
+  }, [_vm._v(_vm._s(this.formatDate()))]), _vm._v(" "), _c('biblIssueMeta', {
+    attrs: {
+      "issueMeta": this.issueHeaderData.issueMeta
+    }
+  })], 1) : _vm._e(), _vm._v(" "), _c('div', {
+    staticClass: "issue"
+  }, [(this.showPieceAsTitle()) ? _c('biblPieceMeta', {
+    attrs: {
+      "pieceMeta": this.getPieceMeta()
+    }
+  }) : _vm._e(), _vm._v(" "), (this.showSectionAsTitle()) ? _c('biblSectionMeta', {
+    attrs: {
+      "sectionMeta": this.getSectionMeta()
+    }
+  }) : _vm._e()], 1), _vm._v(" "), _c('div', {
+    staticClass: "authorInfo"
+  }, [_c('router-link', {
+    staticClass: "personMetaContainer",
+    attrs: {
+      "to": _vm.getAuthorsLink(),
+      "tag": "div"
+    }
+  }, [(this.getPersonMeta()) ? _c('personMeta', {
+    attrs: {
+      "personMeta": this.getPersonMeta()
+    }
+  }) : _vm._e()], 1), _vm._v(" "), (this.drawerIsAvailable()) ? _c('button', {
+    attrs: {
+      "id": "show-modal"
+    },
+    on: {
+      "click": function($event) {
+        _vm.openModal()
+      }
+    }
+  }, [_vm._v("More from this author")]) : _vm._e()], 1)]) : _vm._e()
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-c229ee98", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);
