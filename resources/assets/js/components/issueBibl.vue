@@ -129,7 +129,7 @@
               let personMeta;
               if (!this.biblIsSection(this.biblId)) {
                   if (this.authorlessPieceInSection(this.biblId)) {
-                      sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
+                      const sid = this.issueHeaderData.listBibl[this.biblId].sectionMeta.sectionId
                       if(!this.$root.empty(this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson)) {
                           personMeta = {
                               personName: this.issueHeaderData.listBibl[sid].sectionMeta.sectionListPerson[pid].personName,
