@@ -45261,7 +45261,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 return;
             }
             for (var bibl in this.person.personListBibl) {
-                if (this.person.personListBibl[bibl].personPieceMeta && bibl.personPieceMeta.personPieceRole == 'Contributor') {
+                if (this.person.personListBibl[bibl].personPieceMeta && this.person.personListBibl[bibl].personPieceMeta.personPieceRole == 'Contributor') {
                     this.totalContrib++;
                 }
             }
@@ -60877,7 +60877,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('personMeta', {
     attrs: {
-      "contrib": this.totalContrib,
+      "totalContrib": this.totalContrib,
       "personMeta": _vm.person.personMeta
     }
   })], 1) : _vm._e()

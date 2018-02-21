@@ -1,6 +1,6 @@
 <template>
     <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
-        <personMeta :contrib="this.totalContrib" :personMeta="person.personMeta"></personMeta>
+        <personMeta :totalContrib="this.totalContrib" :personMeta="person.personMeta"></personMeta>
     </router-link>
 </template>
 <script>
@@ -36,7 +36,7 @@
                 return
               }
               for (const bibl in this.person.personListBibl) {
-                if (this.person.personListBibl[bibl].personPieceMeta && bibl.personPieceMeta.personPieceRole == 'Contributor') {
+                if (this.person.personListBibl[bibl].personPieceMeta && this.person.personListBibl[bibl].personPieceMeta.personPieceRole == 'Contributor') {
                   this.totalContrib++
                 }
               }
