@@ -246,7 +246,7 @@ span.footnoteLink {
     right: 111px;
   }  
   .viewerSelector.pdfSelected{
-    top: 0px;
+    top: 1px;
   }
   .tei-markup {
   border: 0px;
@@ -1961,8 +1961,13 @@ height: calc(100% - 120px);
 //enter please
 }
 
+.issue-download-wrapper {
+    display: block;
+    padding-left: 11px;
+}
+
 a.downloadLink {
-    background: $greyDark;
+    background: $greyDark2;
     align-items: center;
     color: $lightest;
     overflow: hidden;
@@ -1973,9 +1978,12 @@ a.downloadLink {
     border-radius: 0px;
     border-right: 1px solid;
     display: flex;
-    padding: 10px;
+    padding: 7px 10px;
     border-right: 1px solid;
-
+    margin-top:1px;
+    font-size: 0.8em;
+    font-family: Roboto Slab;
+    letter-spacing: 1px;
 }
 
 .downloadIcon {
@@ -2473,7 +2481,7 @@ background: $greyDark;
     cursor: pointer;
     @include flexCenter;
     color: #f2e6ce;
-    background: #474747;
+    background: $greyDark2;
     top: 0px;
     z-index: 2;
     letter-spacing: 1px;    
@@ -2509,9 +2517,18 @@ background: $greyDark;
     background-image: url(https://i.imgur.com/Is0YrF1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    border: 5px solid $greyDark;
+    border: 5px solid $greyDark2;
     border-top: 0px;
     opacity: 0;
+}
+
+.text-control-filler {
+    background: #575757;
+    width: calc(100% - 339px);
+    height: 29px;
+    position: absolute;
+    left: 178px;
+    top: 1px;
 }
 
 .pdfSelected .viewerSwitch {
