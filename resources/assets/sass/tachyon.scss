@@ -1710,43 +1710,60 @@ height: calc(100% - 120px);
   box-sizing: border-box;
   height: calc(100% - 120px);
   .personRole{
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  left: 0px;
-  height: 200px;
-  flex-direction: column;
+    position: relative;
+    bottom: -70px;
+    width: 100%;
+    left: 0px;
+    height: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #b5ac9a;
   }
   
   .personMeta{
   position: relative;
   }
 
-  .personRole > div{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0px 20px;
-  flex-direction: column;
-  height: 200px;  
-  width: 100%;  
-  position: relative;
-  }
 
-  .role-name, .contrib-count { //temp
-  opacity: 0; //temp
+.contrib-count{
+      font-weight: 800 !important;
+    }
+
+.role-contributor {
+    left: 10px;
+    position: absolute;
+    height: 30px;
+    border-right: 1px solid #eadfc8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.role-mentioned {
+      right: 10px;
+    position: absolute;
+    height: 30px;
+    border-left: 1px solid #eadfc8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+  .role-name { //temp
+display: none;
   } //temp
 
   .mention-statement {
-    position: relative;
-    bottom: 10px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    width: 100%;
-    -ms-flex-item-align: end;
-    align-self: flex-end;
-    padding: 0px 20px;
-    box-sizing: border-box;
   }  
 
   .personIndex {
@@ -1908,7 +1925,6 @@ height: calc(100% - 120px);
     align-items: center;
     width: 100%;
     padding: 0px !important;
-    border-radius: 0px 0px 10px 10px;
     font-size: 0.8em;
     text-transform: uppercase;
     font-weight: 700;    
