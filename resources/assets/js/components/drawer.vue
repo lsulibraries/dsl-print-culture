@@ -15,9 +15,15 @@
                 let bibls = []
                 let allBibls = this.$root.xhrDataStore.personography.personIndex[this.authorId].personListBibl
                 for(let k in allBibls){
-                if(k != currentDecls){
-                    bibls.push(allBibls[k])
-                }
+                  if(k != currentDecls){
+                    if(allBibls[k].personPieceMeta && allBibls[k].personPieceMeta.personPieceRole) {
+                      const role = allBibls[k].personPieceMeta.personPieceRole
+                      console.log(role)
+                      if(role == 'Contributor') {
+                        bibls.push(allBibls[k])
+                      }
+                    }
+                  }
                 }
                 return bibls
             },

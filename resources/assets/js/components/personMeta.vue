@@ -8,20 +8,20 @@
           <div class="role-contributor" v-if="this.getRole('Correspondent')">
               <div class="role-name">Correspondent</div>
           </div>
-          <div class="role-contributor" v-if="this.getRole('Contributor')">
+          <div class="role-contributor" v-if="this.getRole('Contributor') && this.totalContrib">
               <div class="role-name">Contributor</div>
-              <div class="contrib-count">{{ this.contribCount() }}</div>
+              <div class="contrib-count">Contributor: {{ this.totalContrib }}</div>
           </div>
           <div class="role-mentioned" v-if="this.getRole('Mentioned')">
               <div class="role-name">Mentioned</div>
-              <div class="mention-statement" v-if="this.isMentioned()">{{ this.personMeta.personTotalMentionStatement }}</div>
+              <div class="mention-statement" v-if="this.isMentioned()">Mentioned: {{ this.personMeta.personTotalMentionsOverall + '/' + this.personMeta.personTotalMentioningPieces }}</div>
           </div>
       </div>
     </div>
 </template>
 <script>
     export default {
-        props: ['personMeta'],
+        props: ['personMeta', 'totalContrib'],
         methods: {
             contribCount: function () {
                 if (this.$root.empty(this.personMeta.personTotalContrib)) {
@@ -77,9 +77,9 @@
                         ret += ' ' + role
                     }
                 }
-                
+
                 return ret
             }
-        }   
+        }
     }
 </script>
