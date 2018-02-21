@@ -1,5 +1,7 @@
 <template>
     <div class="viewer">
+        <issueDownload></issueDownload>
+        <div class="text-control-filler" v-if="!pdfMode"></div>
         <viewerSelector></viewerSelector>
         <div class="pdf-viewer" v-if="pdfMode">
             <div class="pdf-controls">
@@ -19,6 +21,7 @@
     import pdfViewer from './pdfViewer'
     import pdf from 'vue-pdf'
     import viewerSelector from './viewerSelector'
+    import issueDownload from './issueDownload'
 
     export default {
         components: {
@@ -26,6 +29,7 @@
             teiMarkup,
             pdf,
             viewerSelector,
+            issueDownload
         },
         data() {
             return {

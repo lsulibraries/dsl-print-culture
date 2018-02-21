@@ -30894,7 +30894,7 @@
             critic James Russell Lowell, and is suggested as having influenced the poetry of Emily
             Dickinson.</personNote>
             </personBio>
-            <personTotalContrib>4</personTotalContrib>
+            <personTotalContrib>5</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450118-p12>
@@ -30960,6 +30960,27 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18450301-p7>
+            <bibl-18450322-p13>
+               <issueMeta>
+                  <issueId>18450322</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>12</issueNum>
+                  <issueDate>March 22, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Original Poetry</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>The Dying One</pieceTitle>
+                  <piecePage>186</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450322-p13>
             <bibl-18450607-p4>
                <issueMeta>
                   <issueId>18450607</issueId>

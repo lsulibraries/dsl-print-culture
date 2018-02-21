@@ -1,7 +1,6 @@
 <script>
     import drawer from './drawer'
     import issueBibl from './issueBibl'
-    import issueDownload from './issueDownload'
     import masthead from './masthead.vue'
     import modal from './modal'
 
@@ -9,7 +8,6 @@
         components: {
           drawer,
           issueBibl,
-          issueDownload,
           masthead,
           modal
         },
@@ -117,7 +115,6 @@
   <div class="issueHeader" v-if="this.showIssueHeader()">
     <masthead></masthead>
     <issueBibl :issueId="this.issueId" :biblId="biblId" :issueHeaderData="this.issueHeaderData"></issueBibl>
-    <issueDownload></issueDownload>
     <!-- use the modal component, pass in the prop -->
     <modal v-if="this.showModal" :authorId="this.getPersonId()" :declsId="this.biblId" :issueId="this.issueId"  @close="showModal = false">
       <h3 slot="header">More from this author</h3>

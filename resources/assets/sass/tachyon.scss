@@ -246,7 +246,7 @@ span.footnoteLink {
     right: 111px;
   }  
   .viewerSelector.pdfSelected{
-    top: 0px;
+    top: 1px;
   }
   .tei-markup {
   border: 0px;
@@ -263,7 +263,9 @@ span.footnoteLink {
       padding-top: 50px;
       padding-left: 30px;
       padding-right: 30px;
-
+span.person {
+    font-weight: 800;
+}
 
       .front {
         display: none;
@@ -1710,43 +1712,60 @@ height: calc(100% - 120px);
   box-sizing: border-box;
   height: calc(100% - 120px);
   .personRole{
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  left: 0px;
-  height: 200px;
-  flex-direction: column;
+    position: relative;
+    bottom: -70px;
+    width: 100%;
+    left: 0px;
+    height: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #b5ac9a;
   }
   
   .personMeta{
   position: relative;
   }
 
-  .personRole > div{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0px 20px;
-  flex-direction: column;
-  height: 200px;  
-  width: 100%;  
-  position: relative;
-  }
 
-  .role-name, .contrib-count { //temp
-  opacity: 0; //temp
+.contrib-count{
+      font-weight: 800 !important;
+    }
+
+.role-contributor {
+    left: 10px;
+    position: absolute;
+    height: 30px;
+    border-right: 1px solid #eadfc8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.role-mentioned {
+      right: 10px;
+    position: absolute;
+    height: 30px;
+    border-left: 1px solid #eadfc8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+  .role-name { //temp
+display: none;
   } //temp
 
   .mention-statement {
-    position: relative;
-    bottom: 10px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    width: 100%;
-    -ms-flex-item-align: end;
-    align-self: flex-end;
-    padding: 0px 20px;
-    box-sizing: border-box;
   }  
 
   .personIndex {
@@ -1908,7 +1927,6 @@ height: calc(100% - 120px);
     align-items: center;
     width: 100%;
     padding: 0px !important;
-    border-radius: 0px 0px 10px 10px;
     font-size: 0.8em;
     text-transform: uppercase;
     font-weight: 700;    
@@ -1961,8 +1979,15 @@ height: calc(100% - 120px);
 //enter please
 }
 
+.issue-download-wrapper {
+    display: block;
+    padding-left: 11px;
+    POSITION: ABSOLUTE;
+    Z-INDEX: 2;
+}
+
 a.downloadLink {
-    background: $greyDark;
+    background: $greyDark2;
     align-items: center;
     color: $lightest;
     overflow: hidden;
@@ -1973,9 +1998,12 @@ a.downloadLink {
     border-radius: 0px;
     border-right: 1px solid;
     display: flex;
-    padding: 10px;
+    padding: 7px 10px;
     border-right: 1px solid;
-
+    margin-top:1px;
+    font-size: 0.8em;
+    font-family: Roboto Slab;
+    letter-spacing: 1px;
 }
 
 .downloadIcon {
@@ -2473,7 +2501,7 @@ background: $greyDark;
     cursor: pointer;
     @include flexCenter;
     color: #f2e6ce;
-    background: #474747;
+    background: $greyDark2;
     top: 0px;
     z-index: 2;
     letter-spacing: 1px;    
@@ -2509,9 +2537,18 @@ background: $greyDark;
     background-image: url(https://i.imgur.com/Is0YrF1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    border: 5px solid $greyDark;
+    border: 5px solid $greyDark2;
     border-top: 0px;
     opacity: 0;
+}
+
+.text-control-filler {
+    background: #575757;
+        width: calc(100% - 479px);
+    height: 29px;
+    position: absolute;
+        left: 248px;
+    top: 1px;
 }
 
 .pdfSelected .viewerSwitch {
@@ -3052,14 +3089,31 @@ h1{
 .masthead .masthead-editor, .masthead .masthead-publisher, .masthead .masthead-printer{
   flex-wrap: wrap;
   justify-content: flex-start;  
+align-items: flex-start;  
       padding: 17px 20px;
   .masthead-role-label {
   margin-left: 0px;
   }  
 }
+
+.masthead-editor, .masthead-printer, .masthead-publisher {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 }
 
 @media screen and (max-width: 1465px){
+
+.text-control-filler{
+      background: #575757;
+    width: calc(100% - 339px);
+    height: 29px;
+    position: absolute;
+    left: 178px;
+    top: 1px;
+}
 
 .isFront{
 
