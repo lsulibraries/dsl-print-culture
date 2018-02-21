@@ -46703,6 +46703,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['personMeta', 'totalContrib'],
@@ -68102,7 +68112,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "personListBibl"
   }, [_c('div', {
     staticClass: "personListBiblLabel"
-  }, [_vm._v("Author Works")]), _vm._v(" "), _c('vue-scrollbar', {
+  }, [_vm._v("Author Detail")]), _vm._v(" "), _c('vue-scrollbar', {
     ref: "Scrollbar",
     attrs: {
       "classes": "person-scrollbar"
@@ -68118,7 +68128,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "fillerWork"
   }, [_c('div', {
     staticClass: "fillerMessage"
-  }, [_vm._v("Choose an author to view their works")])]) : _vm._e(), _vm._v(" "), (_vm.biblActive) ? _c('personMeta', {
+  }, [_vm._v("Choose an author to view more")])]) : _vm._e(), _vm._v(" "), (_vm.biblActive) ? _c('personMeta', {
     attrs: {
       "personMeta": _vm.person.personMeta
     }
@@ -70787,7 +70797,7 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "personMeta"
-  }, [_c('div', {
+  }, [_vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "personName"
   }, [_vm._v(_vm._s(this.getName()))]), _vm._v(" "), _c('div', {
     staticClass: "personRole"
@@ -70812,7 +70822,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("Mentioned")]), _vm._v(" "), (this.isMentioned()) ? _c('div', {
     staticClass: "mention-statement"
   }, [_vm._v("Mentioned: " + _vm._s(this.personMeta.personTotalMentionsOverall + '/' + this.personMeta.personTotalMentioningPieces))]) : _vm._e()]) : _vm._e()])])
-},staticRenderFns: []}
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "personIcons"
+  }, [_c('div', {
+    staticClass: "contIcon"
+  }), _vm._v(" "), _c('div', {
+    staticClass: "corrIcon"
+  }), _vm._v(" "), _c('div', {
+    staticClass: "editIcon"
+  }), _vm._v(" "), _c('div', {
+    staticClass: "mentIcon"
+  })])
+}]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()

@@ -1,11 +1,11 @@
 <template>
     <div class="personListBibl">
-        <div class="personListBiblLabel">Author Works</div>
+        <div class="personListBiblLabel">Author Detail</div>
         <vue-scrollbar classes="person-scrollbar" ref="Scrollbar">
             <div class="personListBiblInner">
                 <div v-if="!biblActive && descriptionLoaded" class="person-index-about" v-html="this.$root.xhrDataStore.abouts.personographyDescription"></div>
                 <div v-if="!biblActive" class="fillerWork">
-                    <div class="fillerMessage">Choose an author to view their works</div>
+                    <div class="fillerMessage">Choose an author to view more</div>
                 </div>
                 <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
                 <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
