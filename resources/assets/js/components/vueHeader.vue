@@ -3,13 +3,6 @@
     <div class="header">
       <router-link tag='a' to="/" class="headerTitle">The<br>Broadway<br>Journal</router-link>
       <headerNav></headerNav>
-      <div class="contrast" @click='toggleContrast'>
-        <div class="contrastTitle">High Contrast</div>
-        <div class="contrastSwitch">
-          <div class="contrastOff">Off</div>
-          <div class="contrastOn">On</div>
-        </div>
-      </div>
     </div>
 </template>
 

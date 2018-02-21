@@ -47772,13 +47772,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -69158,23 +69151,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "tag": "a",
       "to": "/"
     }
-  }, [_vm._v("The"), _c('br'), _vm._v("Broadway"), _c('br'), _vm._v("Journal")]), _vm._v(" "), _c('headerNav'), _vm._v(" "), _c('div', {
-    staticClass: "contrast",
-    on: {
-      "click": _vm.toggleContrast
-    }
-  }, [_c('div', {
-    staticClass: "contrastTitle"
-  }, [_vm._v("High Contrast")]), _vm._v(" "), _vm._m(0)])], 1)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "contrastSwitch"
-  }, [_c('div', {
-    staticClass: "contrastOff"
-  }, [_vm._v("Off")]), _vm._v(" "), _c('div', {
-    staticClass: "contrastOn"
-  }, [_vm._v("On")])])
-}]}
+  }, [_vm._v("The"), _c('br'), _vm._v("Broadway"), _c('br'), _vm._v("Journal")]), _vm._v(" "), _c('headerNav')], 1)
+},staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
