@@ -1302,7 +1302,7 @@ height: calc(100% - 120px);
     display: flex;
     align-items: center;
     flex-grow: 2;
-    margin-top: 7px;    
+        margin-bottom: 7px;      
     }    
     .mention-statement{
     font-weight: 500;
@@ -1315,6 +1315,9 @@ height: calc(100% - 120px);
     .role-contributor {
         display: flex;
         align-items: center;
+    margin-right: 7px;     
+        margin-bottom: 7px;        
+   
         .role-name{
               padding-right: 16px;
         }
