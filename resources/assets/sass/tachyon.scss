@@ -128,6 +128,7 @@ div#container {
     display: flex;
     height: 29px;
     margin-right: 121px;
+    margin-left: 141px;    
 }
 
 .pdf-page-navigation {
@@ -1711,6 +1712,47 @@ height: calc(100% - 120px);
   position: relative;
   box-sizing: border-box;
   height: calc(100% - 120px);
+
+.personIcons {
+    position: absolute;
+    display: flex;
+    background: #eadfc8;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 30px;
+    border: 1px solid hsla(40, 15%, 76%, 1);
+    opacity: 0.8;    
+}
+
+.Mentioned .mentIcon {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://i.imgur.com/Zc44Ske.png);
+    background-size: contain;
+}
+
+.Contributor .contIcon{
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-image: url(https://i.imgur.com/52WvMMs.png);
+}
+
+.Correspondent .corrIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://i.imgur.com/zLgvkyu.png);
+    background-size: contain;
+}
+
+.Editor .editIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://i.imgur.com/yJk1H9f.png);
+    background-size: contain;
+}
+
   .personRole{
     position: relative;
     bottom: -70px;

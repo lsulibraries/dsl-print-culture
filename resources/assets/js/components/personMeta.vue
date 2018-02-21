@@ -1,5 +1,15 @@
 <template>
     <div class="personMeta">
+      <div class="personIcons">
+          <div class="contIcon">
+          </div>
+          <div class="corrIcon">
+          </div>
+          <div class="editIcon">
+          </div>
+          <div class="mentIcon">
+          </div>
+        </div>
       <div class="personName">{{this.getName()}}</div>
       <div class="personRole">
           <div class="role-editor" v-if="this.getRole('Editor')">
