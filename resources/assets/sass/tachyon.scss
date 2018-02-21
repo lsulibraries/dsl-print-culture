@@ -3085,11 +3085,19 @@ h1{
 .masthead .masthead-editor, .masthead .masthead-publisher, .masthead .masthead-printer{
   flex-wrap: wrap;
   justify-content: flex-start;  
+align-items: flex-start;  
       padding: 17px 20px;
   .masthead-role-label {
   margin-left: 0px;
   }  
 }
+
+.masthead-editor, .masthead-printer, .masthead-publisher {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 }
 
 @media screen and (max-width: 1465px){
