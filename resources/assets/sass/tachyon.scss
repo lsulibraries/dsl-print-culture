@@ -1982,6 +1982,8 @@ display: none;
 .issue-download-wrapper {
     display: block;
     padding-left: 11px;
+    POSITION: ABSOLUTE;
+    Z-INDEX: 2;
 }
 
 a.downloadLink {
