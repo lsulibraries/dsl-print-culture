@@ -2524,10 +2524,10 @@ background: $greyDark;
 
 .text-control-filler {
     background: #575757;
-    width: calc(100% - 339px);
+        width: calc(100% - 479px);
     height: 29px;
     position: absolute;
-    left: 178px;
+        left: 248px;
     top: 1px;
 }
 
@@ -3077,6 +3077,15 @@ h1{
 }
 
 @media screen and (max-width: 1465px){
+
+.text-control-filler{
+      background: #575757;
+    width: calc(100% - 339px);
+    height: 29px;
+    position: absolute;
+    left: 178px;
+    top: 1px;
+}
 
 .isFront{
 
