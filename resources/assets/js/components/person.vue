@@ -1,6 +1,6 @@
 <template>
     <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
-        <personMeta :personMeta="person.personMeta"></personMeta>
+        <personMeta :contrib="this.totalContrib" :personMeta="person.personMeta"></personMeta>
     </router-link>
 </template>
 <script>
@@ -13,6 +13,7 @@
             return {
                 filterString: '',
                 filterRole: [],
+                totalContrib: 0
             }
         },
         computed: {
@@ -29,6 +30,16 @@
                     return '/authors'
                 }
                 return '/authors/' + this.person.personMeta.personId
+            },
+            getContribCount: function () {
+              if(!this.person.personListBibl) {
+                return
+              }
+              for (const bibl in this.person.personListBibl) {
+                if (this.person.personListBibl[bibl].personPieceMeta && bibl.personPieceMeta.personPieceRole == 'Contributor') {
+                  this.totalContrib++
+                }
+              }
             },
             transmitPerson: function () {
                 if(this.activePerson == false){
@@ -87,6 +98,8 @@
             }
         },
         created() {
+          this.getContribCount();
+
             Event.$on('emitPerson', (personId) => {
                 if(this.person.personMeta.personId != personId){
                     this.activePerson = false;
