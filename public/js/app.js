@@ -45689,7 +45689,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    props: ['personMeta', 'totalContrib'],
+    props: ['context', 'personMeta'],
     methods: {
         contribCount: function contribCount() {
             if (this.$root.empty(this.personMeta.personTotalContrib)) {
@@ -45700,6 +45700,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         isMentioned: function isMentioned() {
             return !this.$root.empty(this.personMeta.personTotalMentionStatement);
+        },
+        getContribStmt: function getContribStmt() {
+            if (this.context == 'detail') {
+                var contribs = this.personMeta.personTotalContrib;
+                var piecesForm = contribs > 1 ? 'pieces' : 'piece';
+                return "Contributed " + contribs + " " + piecesForm;
+            }
+            return "Contributions: " + this.personMeta.personTotalContrib;
+        },
+        getMention: function getMention() {
+            if (this.context == 'detail') {
+                var totalMP = this.personMeta.personTotalMentioningPieces;
+                var totalM = this.personMeta.personTotalMentionsOverall;
+                var totalTimesWords = totalM > 1 ? totalM + " times" : "once";
+                var piecesForm = totalMP > 1 ? 'pieces' : 'piece';
+                return "Mentioned " + totalTimesWords + " across " + totalMP + " " + piecesForm;
+            }
+            return "Mentioned: " + this.personMeta.personTotalMentioningPieces;
         },
         getName: function getName() {
             if (typeof this.personMeta.personName !== 'string') {
@@ -58879,6 +58897,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "fillerMessage"
   }, [_vm._v("Choose an author to view more")])]) : _vm._e(), _vm._v(" "), (_vm.biblActive) ? _c('personMeta', {
     attrs: {
+      "context": 'detail',
       "personMeta": _vm.person.personMeta
     }
   }) : _vm._e(), _vm._v(" "), (_vm.biblActive && this.getBlurb().length > 0) ? _c('div', {
@@ -60922,6 +60941,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('personMeta', {
     attrs: {
+      "context": 'card',
       "totalContrib": this.totalContrib,
       "personMeta": _vm.person.personMeta
     }
@@ -61558,19 +61578,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "role-contributor"
   }, [_c('div', {
     staticClass: "role-name"
-  }, [_vm._v("Correspondent")])]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor') && this.totalContrib) ? _c('div', {
+  }, [_vm._v("Correspondent")])]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor')) ? _c('div', {
     staticClass: "role-contributor"
   }, [_c('div', {
     staticClass: "role-name"
   }, [_vm._v("Contributor")]), _vm._v(" "), _c('div', {
     staticClass: "contrib-count"
-  }, [_vm._v("Contributions: " + _vm._s(this.totalContrib))])]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
+  }, [_vm._v(_vm._s(_vm.getContribStmt()))])]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
     staticClass: "role-mentioned"
   }, [_c('div', {
     staticClass: "role-name"
   }, [_vm._v("Mentioned")]), _vm._v(" "), (this.isMentioned()) ? _c('div', {
     staticClass: "mention-statement"
-  }, [_vm._v("Mentioned: " + _vm._s(this.personMeta.personTotalMentioningPieces))]) : _vm._e()]) : _vm._e()])])
+  }, [_vm._v(_vm._s(this.getMention()))]) : _vm._e()]) : _vm._e()])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "personIcons"

@@ -18,20 +18,20 @@
           <div class="role-contributor" v-if="this.getRole('Correspondent')">
               <div class="role-name">Correspondent</div>
           </div>
-          <div class="role-contributor" v-if="this.getRole('Contributor') && this.totalContrib">
+          <div class="role-contributor" v-if="this.getRole('Contributor')">
               <div class="role-name">Contributor</div>
-              <div class="contrib-count">Contributions: {{ this.totalContrib }}</div>
+              <div class="contrib-count">{{ getContribStmt() }}</div>
           </div>
           <div class="role-mentioned" v-if="this.getRole('Mentioned')">
               <div class="role-name">Mentioned</div>
-              <div class="mention-statement" v-if="this.isMentioned()">Mentioned: {{ this.personMeta.personTotalMentioningPieces }}</div>
+              <div class="mention-statement" v-if="this.isMentioned()">{{ this.getMention() }}</div>
           </div>
       </div>
     </div>
 </template>
 <script>
     export default {
-        props: ['personMeta', 'totalContrib'],
+        props: ['context', 'personMeta'],
         methods: {
             contribCount: function () {
                 if (this.$root.empty(this.personMeta.personTotalContrib)) {
@@ -43,6 +43,24 @@
             },
             isMentioned: function () {
                 return !this.$root.empty(this.personMeta.personTotalMentionStatement)
+            },
+            getContribStmt: function () {
+              if (this.context == 'detail') {
+                const contribs = this.personMeta.personTotalContrib
+                const piecesForm = contribs > 1 ? 'pieces' : 'piece'
+                return "Contributed " + contribs + " " + piecesForm
+              }
+              return "Contributions: " + this.personMeta.personTotalContrib
+            },
+            getMention: function () {
+              if (this.context == 'detail') {
+                const totalMP = this.personMeta.personTotalMentioningPieces
+                const totalM  = this.personMeta.personTotalMentionsOverall
+                const totalTimesWords = totalM > 1 ? totalM + " times" : "once"
+                const piecesForm = totalMP > 1 ? 'pieces' : 'piece'
+                return "Mentioned " +  totalTimesWords + " across " + totalMP + " " + piecesForm
+              }
+              return "Mentioned: " + this.personMeta.personTotalMentioningPieces
             },
             getName: function () {
                 if((typeof this.personMeta.personName) !== 'string') {

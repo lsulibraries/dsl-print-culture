@@ -1,6 +1,6 @@
 <template>
     <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
-        <personMeta :totalContrib="this.totalContrib" :personMeta="person.personMeta"></personMeta>
+        <personMeta :context="'card'" :totalContrib="this.totalContrib" :personMeta="person.personMeta"></personMeta>
     </router-link>
 </template>
 <script>
