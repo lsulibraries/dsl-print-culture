@@ -4,6 +4,7 @@
        <router-link :to="'/project'" tag='div' class="about about-link-project" active-class="active">Project</router-link>
        <router-link :to="'/methodology'" tag='div' class="technical about-link-methodology" active-class="active">Methodology and Data</router-link>
        <router-link :to="'/staff'" tag='div' class="credits about-link-staff" active-class="active">Staff</router-link>
+       <vueFooter></vueFooter>
      </div>
      <div class="aboutViewer" v-if="!this.isLoading">
        <logo v-if="showLogo"></logo>
@@ -15,13 +16,29 @@
    </div>
 </template>
 
+<style scoped>
+
+.footer{
+    padding: 0px;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0px 80px;
+    margin-top: 200px;
+
+}
+</style>
+
 <script>
   import logo from './logo'
   import creditsPersonList from './creditsPersonList'
+  import VueFooter from './vueFooter'
+
   export default {
       components: {
         creditsPersonList,
-        logo
+        logo,
+        VueFooter
       },
 
       data() {

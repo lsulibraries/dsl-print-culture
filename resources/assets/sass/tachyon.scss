@@ -199,6 +199,7 @@ span.footnoteText {
     color: #f2e6ce;
     width: 240px;
     display: none;
+    z-index:22;
 }
 
 .footnote{
@@ -648,6 +649,9 @@ span.person {
   flex-direction: column;
   border: 1px solid;
   margin-top: 80px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;  
 }
 
 .leftFooter {
