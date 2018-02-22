@@ -43940,7 +43940,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   data: function data() {
     return {
       creditsData: {},
-      roles: ['Project Lead', 'Project Consultant', 'Consultant', 'Project Development', 'Research Assistant', 'Past Research Assistant']
+      roles: ['Project Lead', 'Research Assistant', 'Project Development', 'Project Consultant', 'Consultant', 'Past Research Assistant']
     };
   }
 });
