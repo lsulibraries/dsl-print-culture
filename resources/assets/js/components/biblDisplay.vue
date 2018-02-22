@@ -10,19 +10,31 @@
                 <personMeta v-if="biblActive" :personMeta="person.personMeta"></personMeta>
                 <div class="personBlurb" v-if="biblActive &&  this.getBlurb().length > 0 ">{{ this.person.personMeta.personBio.personNote }}</div>
                 <personBibl v-if="biblActive" v-for="personBibl in person.personListBibl" :bibl="deDupeBibls(personBibl)"></personBibl>
+                <vueFooter></vueFooter>
             </div>
         </vue-scrollbar>
     </div>
 </template>
+
+<style scoped>
+
+.footer{
+
+}
+</style>
+
 <script>
     import VueScrollbar from 'vue2-scrollbar'     
     import personMeta from './personMeta'
     import personBibl from './personBibl'
+    import VueFooter from './vueFooter'
+
     export default {
         components: {
             personBibl,
             personMeta,
-            VueScrollbar
+            VueScrollbar,
+            VueFooter
         },
 
         data(){
