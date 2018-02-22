@@ -20,11 +20,11 @@
           </div>
           <div class="role-contributor" v-if="this.getRole('Contributor') && this.totalContrib">
               <div class="role-name">Contributor</div>
-              <div class="contrib-count">Contributor: {{ this.totalContrib }}</div>
+              <div class="contrib-count">Contributions: {{ this.totalContrib }}</div>
           </div>
           <div class="role-mentioned" v-if="this.getRole('Mentioned')">
               <div class="role-name">Mentioned</div>
-              <div class="mention-statement" v-if="this.isMentioned()">Mentioned: {{ this.personMeta.personTotalMentionsOverall + '/' + this.personMeta.personTotalMentioningPieces }}</div>
+              <div class="mention-statement" v-if="this.isMentioned()">Mentioned: {{ this.personMeta.personTotalMentioningPieces }}</div>
           </div>
       </div>
     </div>

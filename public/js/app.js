@@ -61564,13 +61564,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "role-name"
   }, [_vm._v("Contributor")]), _vm._v(" "), _c('div', {
     staticClass: "contrib-count"
-  }, [_vm._v("Contributor: " + _vm._s(this.totalContrib))])]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
+  }, [_vm._v("Contributions: " + _vm._s(this.totalContrib))])]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
     staticClass: "role-mentioned"
   }, [_c('div', {
     staticClass: "role-name"
   }, [_vm._v("Mentioned")]), _vm._v(" "), (this.isMentioned()) ? _c('div', {
     staticClass: "mention-statement"
-  }, [_vm._v("Mentioned: " + _vm._s(this.personMeta.personTotalMentionsOverall + '/' + this.personMeta.personTotalMentioningPieces))]) : _vm._e()]) : _vm._e()])])
+  }, [_vm._v("Mentioned: " + _vm._s(this.personMeta.personTotalMentioningPieces))]) : _vm._e()]) : _vm._e()])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "personIcons"
