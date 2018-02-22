@@ -23,10 +23,9 @@
     letter-spacing: 1px;
     font-size: 0.8em;
     font-weight: 500;
-    margin-left: 80px;
-    position: absolute;
-    bottom: 0px;
-    width: calc(30% - 162px);
+    margin: 0px 80px;
+    margin-top: 200px;
+
 }
 </style>
 

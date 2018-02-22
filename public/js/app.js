@@ -44421,7 +44421,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 
@@ -50698,7 +50697,7 @@ exports.push([module.i, "\n.spinner[data-v-5d17b9be] {\n  position: relative;\n 
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)();
-exports.push([module.i, "\n.footer[data-v-6153abac]{\n    padding: 0px;\n    letter-spacing: 1px;\n    font-size: 0.8em;\n    font-weight: 500;\n    margin-left: 80px;\n    position: absolute;\n    bottom: 0px;\n    width: calc(30% - 162px);\n}\n", ""]);
+exports.push([module.i, "\n.footer[data-v-6153abac]{\n    padding: 0px;\n    letter-spacing: 1px;\n    font-size: 0.8em;\n    font-weight: 500;\n    margin: 0px 80px;\n    margin-top: 200px;\n}\n", ""]);
 
 /***/ }),
 /* 283 */
