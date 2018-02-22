@@ -45018,6 +45018,12 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
                 _this.parseRoles();
             });
         },
+        getRoleLabel: function getRoleLabel(role, names) {
+            if (names.length > 1) {
+                return role + 's';
+            }
+            return role;
+        },
         parseRoles: function parseRoles() {
             if (!this.masthead.issueListPerson) {
                 return [];
@@ -59736,7 +59742,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       class: 'masthead-' + role.toLowerCase()
     }, [_c('div', {
       staticClass: "masthead-role-label"
-    }, [_vm._v(_vm._s(role))]), _vm._v(" "), _vm._l((names), function(name) {
+    }, [_vm._v(_vm._s(_vm.getRoleLabel(role, names)))]), _vm._v(" "), _vm._l((names), function(name) {
       return _c('div', {
         staticClass: "masthead-name"
       }, [_vm._v(_vm._s(name))])
