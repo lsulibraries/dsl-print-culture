@@ -238,6 +238,12 @@ span.footnoteLink {
   cursor:pointer;
 }
 
+      .cit{
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.07);
+      font-style: italic;
+    }
+
 //Begin masthead styles
 
 .isFront{
@@ -265,9 +271,7 @@ span.footnoteLink {
       padding-top: 50px;
       padding-left: 30px;
       padding-right: 30px;
-span.person {
-    font-weight: 800;
-}
+
 
       .front {
         display: none;
@@ -277,9 +281,7 @@ span.person {
       padding: 20px;
       background: rgba(0, 0, 0, 0.07);
       font-style: italic;
-        .person {
-        font-weight: 700;
-        }      
+ 
       }
   }
 
@@ -1296,11 +1298,12 @@ button.searchSubmit {
     background: $darkest;
     width: 30%;
     box-sizing: border-box;
-height: calc(100% - 120px);    
+  
     .role-name {
     border-radius: 30px;
-    border: 1px solid;
-    padding: 5px 10px;
+    border: 2px solid;
+    height: 30px;
+    width: 30px;
     }
     .role-mentioned {
     display: flex;
@@ -1309,12 +1312,13 @@ height: calc(100% - 120px);
         margin-bottom: 7px;      
     }    
     .mention-statement{
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
     margin-left: 10px;
     }
     .role-editor {
-    margin-right: 10px;
+    margin-right: 7px;
+    margin-bottom: 7px;
     }    
     .role-contributor {
         display: flex;
@@ -1322,22 +1326,9 @@ height: calc(100% - 120px);
     margin-right: 7px;     
         margin-bottom: 7px;        
    
-        .role-name{
-              padding-right: 16px;
-        }
         .contrib-count{
 
-        color: #002f2f;
-        background: #f2e6ce;
-        height: 27px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 5px;
-        position: relative;
-        left: -9px;
-        border-radius: 0px 20px 20px 0px;
-
+          margin-left: 10px;
         }
     }    
     .personRole {
@@ -1345,10 +1336,12 @@ height: calc(100% - 120px);
     border-radius: 0px;
     padding-left: 5px !important;
     align-self: end;
-    position: absolute;
-    bottom: 10px;
     flex-wrap: wrap;
     height: auto;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
     }
     .fillerWork{
     height: 20%;
@@ -1390,19 +1383,27 @@ height: calc(100% - 120px);
       box-sizing: border-box;
       height: auto;   
       .personMeta {
-      height: 200px;
+      height: auto;
       background: none;
       border-bottom: 1px solid $fiftylight;
       position: relative;
           .personName{
           color: $lightest;
           border-bottom: 1px solid $thirtylight;
+          font-size: 1.2em;
+          width: calc(100% - 20px);
+          font-family: Roboto Slab;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;          
           }
           .personRole{
           color: $lightest;
           font-size: 0.8em;
           font-weight: 700;
-          text-transform: uppercase;          
+          text-transform: uppercase; 
+                       margin-top: 7px;
           }
       }    
       .personBlurb {
@@ -1694,7 +1695,8 @@ height: calc(100% - 120px);
     align-items: center;
     background: $threedark;
     .personName {
-    font-size: 14px;
+    font-size: 15px;
+    font-family: Roboto Slab;
     display: flex;
     font-weight: 700;
     letter-spacing: 1px;
@@ -1759,6 +1761,7 @@ height: calc(100% - 120px);
     background-image: url(https://i.imgur.com/yJk1H9f.png);
     background-size: contain;
 }
+
 
   .personRole{
     position: relative;
@@ -2847,6 +2850,10 @@ canvas#pdf {
     font-size: 0.8em;
     letter-spacing: 1px;
       @include transition(.5s);
+-webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */      
 
 }
 
@@ -3066,7 +3073,7 @@ h1{
 /*The Wrapper*/
 .index-scrollbar{
     min-width: 300px;
-    max-height: 100%;
+    max-height: 100vh;
     width: 100%;
     padding-right: 10px;    
 }
@@ -3074,7 +3081,7 @@ h1{
 
 
 .person-scrollbar{
-    max-height: calc(100% - 150px);
+    max-height: calc(100vh - 150px);
     padding-right: 91px;    
     width: 100%;
 }
