@@ -805,7 +805,7 @@ input:focus {
 }
 
 .content {
-  background: $light-border-color;
+  background: $lightest;
   font-size: 14px;
 }
 
@@ -3073,7 +3073,7 @@ h1{
 /*The Wrapper*/
 .index-scrollbar{
     min-width: 300px;
-    max-height: 100vh;
+    max-height: calc(100vh - 310px);
     width: 100%;
     padding-right: 10px;    
 }
@@ -3081,7 +3081,7 @@ h1{
 
 
 .person-scrollbar{
-    max-height: calc(100vh - 150px);
+    max-height: calc(100vh - 310px);
     padding-right: 91px;    
     width: 100%;
 }
@@ -3252,3 +3252,20 @@ a.downloadLink{
 }
 }
 
+@-moz-document url-prefix() {
+
+.index-scrollbar{
+    min-width: 300px;
+    max-height: calc(100vh - 270px);
+    width: 100%;
+    padding-right: 10px;    
+}
+
+
+
+.person-scrollbar{
+    max-height: calc(100vh - 270px);
+    padding-right: 91px;    
+    width: 100%;
+}
+}
