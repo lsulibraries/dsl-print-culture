@@ -13,22 +13,54 @@
       <div class="personName">{{this.getName()}}</div>
       <div class="personRole">
           <div class="role-editor" v-if="this.getRole('Editor')">
-              <div class="role-name">Editor</div>
+              <div class="role-name"><div class="roleIcon"></div></div>
           </div>
           <div class="role-contributor" v-if="this.getRole('Correspondent')">
-              <div class="role-name">Correspondent</div>
+              <div class="role-name"><div class="roleIcon"></div></div>
           </div>
           <div class="role-contributor" v-if="this.getRole('Contributor')">
-              <div class="role-name">Contributor</div>
+              <div class="role-name"><div class="roleIcon"></div></div>
               <div class="contrib-count">{{ getContribStmt() }}</div>
           </div>
           <div class="role-mentioned" v-if="this.getRole('Mentioned')">
-              <div class="role-name">Mentioned</div>
+              <div class="role-name"><div class="roleIcon"></div></div>
               <div class="mention-statement" v-if="this.isMentioned()">{{ this.getMention() }}</div>
           </div>
       </div>
     </div>
 </template>
+
+<style scoped>
+
+.role-editor .roleIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://i.imgur.com/re5qSAd.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.role-contributor .roleIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://i.imgur.com/C0aKQ8I.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.role-mentioned .roleIcon{
+      width: 30px;
+    height: 30px;
+    background-image: url(https://i.imgur.com/Gs7Ao0H.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+</style>
+
 <script>
     export default {
         props: ['context', 'personMeta'],
