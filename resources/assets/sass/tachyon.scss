@@ -1298,7 +1298,7 @@ button.searchSubmit {
     background: $darkest;
     width: 30%;
     box-sizing: border-box;
-height: calc(100% - 120px);    
+  
     .role-name {
     border-radius: 30px;
     border: 2px solid;
@@ -1312,7 +1312,7 @@ height: calc(100% - 120px);
         margin-bottom: 7px;      
     }    
     .mention-statement{
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
     margin-left: 10px;
     }
@@ -1390,7 +1390,7 @@ height: calc(100% - 120px);
           .personName{
           color: $lightest;
           border-bottom: 1px solid $thirtylight;
-          font-size: 1.1em;
+          font-size: 1.2em;
           width: calc(100% - 20px);
           font-family: Roboto Slab;
           display: flex;
@@ -1695,7 +1695,8 @@ height: calc(100% - 120px);
     align-items: center;
     background: $threedark;
     .personName {
-    font-size: 14px;
+    font-size: 15px;
+    font-family: Roboto Slab;
     display: flex;
     font-weight: 700;
     letter-spacing: 1px;
@@ -3076,7 +3077,7 @@ h1{
 
 
 .person-scrollbar{
-    max-height: calc(100% - 150px);
+    max-height: calc(100vh - 150px);
     padding-right: 91px;    
     width: 100%;
 }
