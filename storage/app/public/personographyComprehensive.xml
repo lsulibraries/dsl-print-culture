@@ -6193,7 +6193,7 @@
             <personName>Ackerman</personName>
             <personRole>Mentioned</personRole>
             <personBio>
-               <personNote>No VIAF information available. Ackerman is mentioned as the author of Manual of Colors.</personNote>
+               <personNote>Ackerman is mentioned as the author of Manual of Colors.</personNote>
             </personBio>
             <personTotalMentionsOverall>1</personTotalMentionsOverall>
             <personTotalMentioningPieces>1</personTotalMentioningPieces>
@@ -13258,49 +13258,6 @@
             </bibl-18450118-p7>
          </personListBibl>
       </jbunyan>
-      <gbush>
-         <personMeta>
-            <personId>gbush</personId>
-            <personName>George Bush</personName>
-            <personRole>Mentioned</personRole>
-            <personViaf>http://viaf.org/viaf/35315106</personViaf>
-            <personBio>
-               <personBirth>Born June 12, 1796 in Norwich, Vermont.</personBirth>
-               <personDeath>Died September 19, 1859 in Rochester, New York.</personDeath>
-               <personNote>A theologian. Author of biblical commentaries, A Theological
-              Dictionary, and A Grammar of the Hebrew Language,
-            among other publications.</personNote>
-            </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
-         </personMeta>
-         <personListBibl>
-            <bibl-18450315-p22>
-               <issueMeta>
-                  <issueId>18450315</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>11</issueNum>
-                  <issueDate>March 15, 1845</issueDate>
-               </issueMeta>
-               <sectionMeta>
-                  <sectionId>s3</sectionId>
-                  <sectionTitle>Literary Notices</sectionTitle>
-               </sectionMeta>
-               <pieceMeta>
-                  <pieceId>p22</pieceId>
-                  <pieceTitle>Anastasis; or the Doctrine of the Resurrection of the Body
-                Rationally and Scripturally Considered</pieceTitle>
-                  <piecePage>174</piecePage>
-                  <piecePdfIndex>14</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Mentioned</personPieceRole>
-                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
-               </personPieceMeta>
-            </bibl-18450315-p22>
-         </personListBibl>
-      </gbush>
       <eburke>
          <personMeta>
             <personId>eburke</personId>
@@ -17104,10 +17061,10 @@
       <darnley>
          <personMeta>
             <personId>darnley</personId>
-            <personName/>
+            <personName>Darnley</personName>
             <personRole>Mentioned</personRole>
             <personBio>
-               <personNote>It is unclear which "Darnley" the journal mentions. Possibly Henry Stuart, Lord
+               <personNote>Identity unknown; it is unclear which "Darnley" the journal mentions. Possibly Henry Stuart, Lord
             Darnley.</personNote>
             </personBio>
             <personTotalMentionsOverall>1</personTotalMentionsOverall>
@@ -27952,84 +27909,6 @@
             </bibl-18450426-s3>
          </personListBibl>
       </ezcjudson>
-      <ecjudson>
-         <personMeta>
-            <personId>ecjudson</personId>
-            <personName>Emily Chubbuck Judson</personName>
-            <personPseudo>Fanny Forester</personPseudo>
-            <personRole>Mentioned</personRole>
-            <personViaf>http://viaf.org/viaf/35665668</personViaf>
-            <personBio>
-               <personBirth>Born August 23, 1817 in Eaton, New York.</personBirth>
-               <personDeath>Died June 1, 1854 in Hamilton, New York.</personDeath>
-               <personNote>A poet who developed a friendship with N. P. Willis and was published in his New York Mirror as well as Graham's Magazine and other journals.</personNote>
-            </personBio>
-            <personTotalMentionsOverall>4</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 4 times across 3 pieces.</personTotalMentionStatement>
-         </personMeta>
-         <personListBibl>
-            <bibl-18450405-p30>
-               <issueMeta>
-                  <issueId>18450405</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>14</issueNum>
-                  <issueDate>April 5, 1845</issueDate>
-               </issueMeta>
-               <sectionMeta>
-                  <sectionId>s3</sectionId>
-                  <sectionTitle>The Magazines</sectionTitle>
-               </sectionMeta>
-               <pieceMeta>
-                  <pieceId>p30</pieceId>
-                  <pieceTitle>Graham's Magazine</pieceTitle>
-                  <piecePage>220</piecePage>
-                  <piecePdfIndex>12</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Mentioned</personPieceRole>
-                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
-               </personPieceMeta>
-            </bibl-18450405-p30>
-            <bibl-18450426-p21>
-               <issueMeta>
-                  <issueId>18450426</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>17</issueNum>
-                  <issueDate>April 26, 1845</issueDate>
-               </issueMeta>
-               <pieceMeta>
-                  <pieceId>p21</pieceId>
-                  <pieceTitle>The Magazines</pieceTitle>
-                  <piecePage>268-269</piecePage>
-                  <piecePdfIndex>12</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Mentioned</personPieceRole>
-                  <personPieceTotalMention>2</personPieceTotalMention>
-                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
-               </personPieceMeta>
-            </bibl-18450426-p21>
-            <bibl-18450426-s3>
-               <issueMeta>
-                  <issueId>18450426</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>17</issueNum>
-                  <issueDate>April 26, 1845</issueDate>
-               </issueMeta>
-               <sectionMeta>
-                  <sectionId>s3</sectionId>
-                  <sectionTitle>Advertisements</sectionTitle>
-                  <sectionPage>271-272</sectionPage>
-                  <sectionPdfIndex>15</sectionPdfIndex>
-               </sectionMeta>
-               <personPieceMeta>
-                  <personPieceRole>Mentioned</personPieceRole>
-                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
-               </personPieceMeta>
-            </bibl-18450426-s3>
-         </personListBibl>
-      </ecjudson>
       <k>
          <personMeta>
             <personId>k</personId>
@@ -31015,7 +30894,7 @@
             critic James Russell Lowell, and is suggested as having influenced the poetry of Emily
             Dickinson.</personNote>
             </personBio>
-            <personTotalContrib>4</personTotalContrib>
+            <personTotalContrib>5</personTotalContrib>
          </personMeta>
          <personListBibl>
             <bibl-18450118-p12>
@@ -31081,6 +30960,27 @@
                   <personPieceRole>Contributor</personPieceRole>
                </personPieceMeta>
             </bibl-18450301-p7>
+            <bibl-18450322-p13>
+               <issueMeta>
+                  <issueId>18450322</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>12</issueNum>
+                  <issueDate>March 22, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Original Poetry</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>The Dying One</pieceTitle>
+                  <piecePage>186</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+               </personPieceMeta>
+            </bibl-18450322-p13>
             <bibl-18450607-p4>
                <issueMeta>
                   <issueId>18450607</issueId>
@@ -50475,10 +50375,10 @@
       <reyburn>
          <personMeta>
             <personId>reyburn</personId>
-            <personName/>
+            <personName>Reyburn</personName>
             <personRole>Mentioned</personRole>
             <personBio>
-               <personNote>The journal claims "Reyburn" first used the phrase "Blarneystone of America" to
+               <personNote>Full name unknown. The journal claims "Reyburn" first used the phrase "Blarneystone of America" to
             describe Plymouth Rock, but other sources attribute this phrase to John Hughes,
             Archbishop of New York.</personNote>
             </personBio>
@@ -53436,7 +53336,7 @@
       <ghsmith>
          <personMeta>
             <personId>ghsmith</personId>
-            <personName/>
+            <personName>G. H. Smith</personName>
             <personRole>Mentioned</personRole>
             <personBio>
                <personNote>Full name unknown. Mentioned in the Broadway Journal as the

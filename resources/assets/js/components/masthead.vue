@@ -8,7 +8,7 @@
       </div>
       <div class="masthead-staff">
           <div :class="'masthead-' + role.toLowerCase()" v-for="(names,role) in this.mastheadPeopleByRole">
-              <div class="masthead-role-label">{{ role }}</div>
+              <div class="masthead-role-label">{{ getRoleLabel(role, names) }}</div>
               <div class="masthead-name" v-for="name in names">{{ name }}</div>
           </div>
       </div>
@@ -47,6 +47,12 @@
             this.parseRoles()
           });
 
+      },
+      getRoleLabel: function (role, names) {
+        if (names.length > 1) {
+          return role + 's'
+        }
+        return role
       },
       parseRoles: function () {
           if (!this.masthead.issueListPerson) {
