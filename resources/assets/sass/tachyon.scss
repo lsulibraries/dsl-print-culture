@@ -238,6 +238,12 @@ span.footnoteLink {
   cursor:pointer;
 }
 
+      .cit{
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.07);
+      font-style: italic;
+    }
+
 //Begin masthead styles
 
 .isFront{
@@ -265,9 +271,7 @@ span.footnoteLink {
       padding-top: 50px;
       padding-left: 30px;
       padding-right: 30px;
-span.person {
-    font-weight: 800;
-}
+
 
       .front {
         display: none;
@@ -277,9 +281,7 @@ span.person {
       padding: 20px;
       background: rgba(0, 0, 0, 0.07);
       font-style: italic;
-        .person {
-        font-weight: 700;
-        }      
+ 
       }
   }
 
