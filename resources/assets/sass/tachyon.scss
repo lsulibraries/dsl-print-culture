@@ -497,6 +497,8 @@ span.footnoteLink {
     z-index: 2;
 }
 
+
+
   .personBibl{
     margin-right: 20px;
     display: block;
@@ -1299,6 +1301,18 @@ button.searchSubmit {
     width: 30%;
     box-sizing: border-box;
   
+.bibl-mentioned::after{
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-image: url(https://i.imgur.com/Gs7Ao0H.png);
+    position: absolute;
+    right: 2px;
+    top: -2px;
+    display: block;
+    background-size: contain;
+}
+
     .role-name {
     border-radius: 30px;
     border: 2px solid;
