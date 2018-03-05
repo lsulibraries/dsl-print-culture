@@ -45757,9 +45757,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 var totalM = this.personMeta.personTotalMentionsOverall;
                 var totalTimesWords = totalM > 1 ? totalM + " times" : "once";
                 var piecesForm = totalMP > 1 ? 'pieces' : 'piece';
-                return "Mentioned " + totalTimesWords + " across " + totalMP + " " + piecesForm;
+                return "Mentioned " + totalTimesWords;
             }
-            return "Mentioned: " + this.personMeta.personTotalMentioningPieces;
+            return "Mentions: " + this.personMeta.personTotalMentionsOverall;
         },
         getName: function getName() {
             if (typeof this.personMeta.personName !== 'string') {
@@ -59972,14 +59972,12 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "header"
-  }, [_c('router-link', {
-    staticClass: "headerTitle",
-    attrs: {
-      "tag": "a",
-      "to": "/"
-    }
-  }, [_vm._v("The"), _c('br'), _vm._v("Broadway"), _c('br'), _vm._v("Journal")]), _vm._v(" "), _c('headerNav')], 1)
-},staticRenderFns: []}
+  }, [_vm._m(0), _vm._v(" "), _c('headerNav')], 1)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "headerTitle"
+  }, [_vm._v("The"), _c('br'), _vm._v("Broadway"), _c('br'), _vm._v("Journal")])
+}]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
@@ -60895,7 +60893,24 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "headerNav"
   }, [_c('router-link', {
     attrs: {
-      "to": "/issues",
+      "to": "/",
+      "exact": "",
+      "tag": "div",
+      "active-class": "active"
+    },
+    on: {
+      "click": function($event) {
+        _vm.activeContentClicked('abouts')
+      }
+    }
+  }, [_c('i', {
+    staticClass: "fa fa-flask",
+    attrs: {
+      "aria-hidden": "true"
+    }
+  }), _vm._v("About\n")]), _vm._v(" "), _c('router-link', {
+    attrs: {
+      "to": "/issues?viewer=pdf",
       "tag": "div",
       "active-class": "active"
     },
@@ -61502,11 +61517,8 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('a', {
-    staticClass: "headerLogo",
-    attrs: {
-      "href": "http://lib.lsu.edu"
-    }
+  return _c('div', {
+    staticClass: "headerLogo"
   }, [_c('div', [_c('img', {
     attrs: {
       "src": "images/libraries_logo.png",

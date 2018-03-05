@@ -38,7 +38,7 @@
     background-image: url(https://i.imgur.com/re5qSAd.png);
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
 .role-contributor .roleIcon{
@@ -47,7 +47,7 @@
     background-image: url(https://i.imgur.com/C0aKQ8I.png);
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
 .role-mentioned .roleIcon{
@@ -56,7 +56,7 @@
     background-image: url(https://i.imgur.com/Gs7Ao0H.png);
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
 </style>
@@ -90,9 +90,9 @@
                 const totalM  = this.personMeta.personTotalMentionsOverall
                 const totalTimesWords = totalM > 1 ? totalM + " times" : "once"
                 const piecesForm = totalMP > 1 ? 'pieces' : 'piece'
-                return "Mentioned " +  totalTimesWords + " across " + totalMP + " " + piecesForm
+                return "Mentioned " +  totalTimesWords
               }
-              return "Mentioned: " + this.personMeta.personTotalMentioningPieces
+              return "Mentions: " + this.personMeta.personTotalMentionsOverall
             },
             getName: function () {
                 if((typeof this.personMeta.personName) !== 'string') {
