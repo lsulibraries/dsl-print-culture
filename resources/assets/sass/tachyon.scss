@@ -192,12 +192,12 @@ span.footnoteLink {
 }
 
 span.footnoteText {
-    position: absolute;
+    position: relative;
     top: 0px;
     padding: 30px;
     background: #2e2e2e;
     color: #f2e6ce;
-    width: 240px;
+    width: calc(100% - 20px);
     display: none;
     z-index:22;
 }
@@ -217,7 +217,7 @@ span.footnoteLink {
 
 .footnoteText{
     display: block;
-    left: 28px;
+    left: -20px;
     top: -1px;
 }
 }
@@ -247,6 +247,10 @@ span.footnoteLink {
 //Begin masthead styles
 
 .isFront{
+  .note{
+    display: none;
+  }
+
   .issueHeader{
   }
   .viewerSelector {
@@ -725,9 +729,6 @@ span.footnoteLink {
   color: $lightest;
 }
 
-.headerTitle:hover{
-  color: $light;
-}
 
 .headerNav {
   @include flexCenter;
@@ -747,7 +748,6 @@ span.footnoteLink {
 .header > div:not(.headerNav),
 .header > a {
     padding: 30px 0px;
-    cursor: pointer;
     min-width: 236px;
     width: 30%;
     box-sizing: border-box;
@@ -1313,6 +1313,18 @@ button.searchSubmit {
     background-size: contain;
 }
 
+.bibl-contributor::after{
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-image: url(https://i.imgur.com/C0aKQ8I.png);
+    position: absolute;
+    right: 2px;
+    top: -2px;
+    display: block;
+    background-size: contain;  
+}
+
     .role-name {
     border-radius: 30px;
     border: 2px solid;
@@ -1509,6 +1521,7 @@ button.searchSubmit {
     z-index: 3; //imported from author
     width: 100%;
     border-bottom: 1px solid;
+padding-right: 30px;    
     .issueDate{ //imported from author
       width:auto; //imported from author
     } //imported from author
