@@ -29,7 +29,12 @@ The superset of roles `[ editor, correspondent, contributor, mentioned ]` is com
 Contributing a piece or being mentioned in one constitutes a relationship to the journal, making the set of such relationships `[ editor, correspondent, contributor, mentioned ]`. However, that set does not work well to describe the relationship of author to piece.
 
 The author's relationship with any given piece can only be one of three possibilities:
-`[ unrelated (no relationship), mentioned in, author of ]`, but we are only concerned with pieces related to the an author. The subset of journal relationships `[ contributor, mentioned ]` works well to describe author-piece relationships, but is ambiguous unless the role name is qualified by context `[ journal, piece ]`.
+`[ unrelated (no relationship), mentioned in, author of ]`, but we are only concerned with pieces related to the an author. The subset of journal relationships `[ contributor, mentioned ]` works well to describe author-piece relationships, but:
+
+- does not imply that the other set members apply to author-piece relationships,
+- is ambiguous unless the role name is qualified by context `[ journal, piece ]`
+
+Correspondent implies contributor but in itself does not describe the author-piece relationship.
 
 ### Tests
 
