@@ -729,9 +729,6 @@ span.footnoteLink {
   color: $lightest;
 }
 
-.headerTitle:hover{
-  color: $light;
-}
 
 .headerNav {
   @include flexCenter;
@@ -751,7 +748,6 @@ span.footnoteLink {
 .header > div:not(.headerNav),
 .header > a {
     padding: 30px 0px;
-    cursor: pointer;
     min-width: 236px;
     width: 30%;
     box-sizing: border-box;
