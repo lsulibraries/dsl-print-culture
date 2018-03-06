@@ -43889,6 +43889,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         getRoleName: function getRoleName() {
             return this.person.personMeta.personRoleName;
+        },
+        showBio: function showBio() {
+            return this.person.personMeta.personRole != 'past' || this.person.personMeta.personRoleName != 'Research Assistant';
         }
     }
 });
@@ -60977,7 +60980,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "creditsPerson"
   }, [_c('div', {
     staticClass: "creditsPersonName"
-  }, [_vm._v(_vm._s(_vm.person.personMeta.personName))]), _vm._v(" "), (this.hasBio() && this.person.personMeta.personRole != 'past') ? _c('div', {
+  }, [_vm._v(_vm._s(_vm.person.personMeta.personName))]), _vm._v(" "), (this.hasBio() && this.showBio()) ? _c('div', {
     staticClass: "creditsPersonNote"
   }, [_vm._v(_vm._s(this.getNote()))]) : _vm._e()])
 },staticRenderFns: []}
