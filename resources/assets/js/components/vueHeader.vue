@@ -1,7 +1,7 @@
 
 <template>
     <div class="header">
-      <router-link tag='a' to="/" class="headerTitle">The<br>Broadway<br>Journal</router-link>
+      <div class="headerTitle">The<br>Broadway<br>Journal</div>
       <headerNav></headerNav>
     </div>
 </template>
