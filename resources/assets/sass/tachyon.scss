@@ -192,12 +192,12 @@ span.footnoteLink {
 }
 
 span.footnoteText {
-    position: absolute;
+    position: relative;
     top: 0px;
     padding: 30px;
     background: #2e2e2e;
     color: #f2e6ce;
-    width: 240px;
+    width: calc(100% - 20px);
     display: none;
     z-index:22;
 }
@@ -217,7 +217,7 @@ span.footnoteLink {
 
 .footnoteText{
     display: block;
-    left: 28px;
+    left: -20px;
     top: -1px;
 }
 }
