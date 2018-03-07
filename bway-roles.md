@@ -28,24 +28,6 @@ This work item highlights the importance of getting requirements right at any st
 
 The immediate effect of this argument *should be* to do almost zero work on this line item, compared to either work-around.
 
-# Discussion
-
-## Terms and illustration
-On the author index page, `/authors`, the main components are *sidebar* and *body*.
-In the body  we display *cards* for each *author* marked in the corpus.
-Currently, these can be filtered by *role*: [ *contributor*,
-*mentioned*, *editor*, *correspondent* ].
-
-Clicking any card in the body causes the sidebar to display detail for the selected author.
-This detail is partitioned into two sections: summary information (bio, role icons)
-at the top, and a list of pieces related to the author.
-
-Authors included in the index had to either *contribute* a piece to the Broadway Journal (BWJ), or they had to have been *mentioned* in a piece contributed to the BWJ by someone else.
-
-The 4 author roles come from the [personography data](https://github.com/lsulibraries/broadway-tei/blob/master/personography.xml),
-where project staff have assigned one or more of them to each author.
-
-
 ## Sets
 
 The current set *AJ* of roles `[ editor, correspondent, contributor, mentioned ]` describes well the different ways in which an author relates to the journal, but it is a composition of heterogeneous subsets.
