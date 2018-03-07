@@ -60,51 +60,51 @@
          <type>section</type>
          <title>Reviews</title>
          <pieces>
-            <s1p1>
-               <decls_id>s1p1</decls_id>
+            <p7>
+               <decls_id>p7</decls_id>
                <type>piece</type>
-               <title>The First Three Books of Homer’s Iliad</title>
+               <title>The First Three Books of Homer's Iliad</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>295</page>
                <pdf_index>7</pdf_index>
-            </s1p1>
-            <s1p2>
-               <decls_id>s1p2</decls_id>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
                <type>piece</type>
                <title>Letters from New York.</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>295-296</page>
                <pdf_index>7</pdf_index>
-            </s1p2>
-            <s1p3>
-               <decls_id>s1p3</decls_id>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
                <type>piece</type>
                <title>The Pencil of Nature</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>296</page>
                <pdf_index>8</pdf_index>
-            </s1p3>
-            <s1p4>
-               <decls_id>s1p4</decls_id>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
                <type>piece</type>
                <title>Saul, A Mystery</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>296-297</page>
                <pdf_index>8</pdf_index>
-            </s1p4>
-            <s1p5>
-               <decls_id>s1p5</decls_id>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
                <type>piece</type>
                <title>Never too Late</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>297</page>
                <pdf_index>9</pdf_index>
-            </s1p5>
+            </p11>
          </pieces>
       </s1>
       <s2>
@@ -112,150 +112,150 @@
          <type>section</type>
          <title>The Magazines</title>
          <pieces>
-            <s2p1>
-               <decls_id>s2p1</decls_id>
+            <p12>
+               <decls_id>p12</decls_id>
                <type>piece</type>
                <title>The Knickerbocker</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>297-298</page>
                <pdf_index>9</pdf_index>
-            </s2p1>
-            <s2p2>
-               <decls_id>s2p2</decls_id>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
                <type>piece</type>
                <title>Blackwood</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>298</page>
                <pdf_index>10</pdf_index>
-            </s2p2>
+            </p13>
          </pieces>
       </s2>
-      <p7>
-         <decls_id>p7</decls_id>
+      <p14>
+         <decls_id>p14</decls_id>
          <type>piece</type>
          <title>New Works in Press</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>298</page>
          <pdf_index>10</pdf_index>
-      </p7>
-      <p8>
-         <decls_id>p8</decls_id>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
          <type>piece</type>
          <title>Eothen</title>
          <auth_id>cfbriggs</auth_id>
          <auth_name>Charles Frederick Briggs</auth_name>
          <page>298</page>
          <pdf_index>10</pdf_index>
-      </p8>
-      <p9>
-         <decls_id>p9</decls_id>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
          <type>piece</type>
          <title>Bobus Smith</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>298-299</page>
          <pdf_index>10</pdf_index>
-      </p9>
-      <p10>
-         <decls_id>p10</decls_id>
+      </p16>
+      <p17>
+         <decls_id>p17</decls_id>
          <type>piece</type>
          <title>Professor Gouraud</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>299-300</page>
          <pdf_index>11</pdf_index>
-      </p10>
-      <p11>
-         <decls_id>p11</decls_id>
+      </p17>
+      <p18>
+         <decls_id>p18</decls_id>
          <type>piece</type>
          <title>Anniversary Week</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>300</page>
          <pdf_index>12</pdf_index>
-      </p11>
-      <p12>
-         <decls_id>p12</decls_id>
+      </p18>
+      <p19>
+         <decls_id>p19</decls_id>
          <type>piece</type>
-         <title>The Crossing’s Sweeper</title>
+         <title>The Crossing's Sweeper</title>
          <auth_id>saw</auth_id>
          <auth_name>S. A. W.</auth_name>
          <page>300</page>
          <pdf_index>12</pdf_index>
-      </p12>
+      </p19>
       <s3>
          <decls_id>s3</decls_id>
          <type>section</type>
          <title>Musical Items</title>
          <pieces>
-            <s3p1>
-               <decls_id>s3p1</decls_id>
+            <p20>
+               <decls_id>p20</decls_id>
                <type>piece</type>
                <title>The Boehm Flute</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>300-301</page>
                <pdf_index>12</pdf_index>
-            </s3p1>
-            <s3p2>
-               <decls_id>s3p2</decls_id>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
                <type>piece</type>
-               <title>Grand Sacred Concert at St. Peter’s Church.</title>
+               <title>Grand Sacred Concert at St. Peter's Church.</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>301</page>
                <pdf_index>13</pdf_index>
-            </s3p2>
+            </p21>
          </pieces>
       </s3>
-      <p13>
-         <decls_id>p13</decls_id>
+      <p22>
+         <decls_id>p22</decls_id>
          <type>piece</type>
          <title>The Broadway Theatre</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>301</page>
          <pdf_index>13</pdf_index>
-      </p13>
-      <p14>
-         <decls_id>p14</decls_id>
+      </p22>
+      <p23>
+         <decls_id>p23</decls_id>
          <type>piece</type>
          <title>Fact and Fiction</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </p14>
-      <p15>
-         <decls_id>p15</decls_id>
+      </p23>
+      <p24>
+         <decls_id>p24</decls_id>
          <type>piece</type>
          <title>Miscellany</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </p15>
-      <p16>
-         <decls_id>p16</decls_id>
+      </p24>
+      <p25>
+         <decls_id>p25</decls_id>
          <type>piece</type>
          <title>New Publications</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </p16>
-      <p17>
-         <decls_id>p17</decls_id>
+      </p25>
+      <p26>
+         <decls_id>p26</decls_id>
          <type>piece</type>
          <title>Notice to Publishers</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>302</page>
          <pdf_index>14</pdf_index>
-      </p17>
+      </p26>
       <s4>
          <decls_id>s4</decls_id>
          <type>section</type>
@@ -263,13 +263,13 @@
          <page>303-304</page>
          <pdf_index>15</pdf_index>
       </s4>
-      <p18>
-         <decls_id>p18</decls_id>
+      <p27>
+         <decls_id>p27</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>304</page>
          <pdf_index>16</pdf_index>
-      </p18>
+      </p27>
    </toc>
    <issueMeta>
       <issueId>18450510</issueId>
@@ -400,14 +400,14 @@
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
       </s1>
-      <s1p1>
+      <p7>
          <sectionMeta>
             <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s1p1</pieceId>
-            <pieceTitle>The First Three Books of Homer’s Iliad</pieceTitle>
+            <pieceId>p7</pieceId>
+            <pieceTitle>The First Three Books of Homer's Iliad</pieceTitle>
             <piecePage>295</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>
@@ -418,14 +418,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s1p1>
-      <s1p2>
+      </p7>
+      <p8>
          <sectionMeta>
             <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s1p2</pieceId>
+            <pieceId>p8</pieceId>
             <pieceTitle>Letters from New York.</pieceTitle>
             <piecePage>295-296</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
@@ -437,14 +437,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s1p2>
-      <s1p3>
+      </p8>
+      <p9>
          <sectionMeta>
             <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s1p3</pieceId>
+            <pieceId>p9</pieceId>
             <pieceTitle>The Pencil of Nature</pieceTitle>
             <piecePage>296</piecePage>
             <piecePdfIndex>8</piecePdfIndex>
@@ -456,14 +456,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s1p3>
-      <s1p4>
+      </p9>
+      <p10>
          <sectionMeta>
             <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s1p4</pieceId>
+            <pieceId>p10</pieceId>
             <pieceTitle>Saul, A Mystery</pieceTitle>
             <piecePage>296-297</piecePage>
             <piecePdfIndex>8</piecePdfIndex>
@@ -475,14 +475,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s1p4>
-      <s1p5>
+      </p10>
+      <p11>
          <sectionMeta>
             <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s1p5</pieceId>
+            <pieceId>p11</pieceId>
             <pieceTitle>Never too Late</pieceTitle>
             <piecePage>297</piecePage>
             <piecePdfIndex>9</piecePdfIndex>
@@ -494,20 +494,20 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s1p5>
+      </p11>
       <s2>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>The Magazines</sectionTitle>
          </sectionMeta>
       </s2>
-      <s2p1>
+      <p12>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>The Magazines</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p1</pieceId>
+            <pieceId>p12</pieceId>
             <pieceTitle>The Knickerbocker</pieceTitle>
             <piecePage>297-298</piecePage>
             <piecePdfIndex>9</piecePdfIndex>
@@ -519,166 +519,17 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </s2p1>
-      <s2p2>
+      </p12>
+      <p13>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>The Magazines</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p2</pieceId>
+            <pieceId>p13</pieceId>
             <pieceTitle>Blackwood</pieceTitle>
             <piecePage>298</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </s2p2>
-      <p7>
-         <pieceMeta>
-            <pieceId>p7</pieceId>
-            <pieceTitle>New Works in Press</pieceTitle>
-            <piecePage>298</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p7>
-      <p8>
-         <pieceMeta>
-            <pieceId>p8</pieceId>
-            <pieceTitle>Eothen</pieceTitle>
-            <piecePage>298</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <cfbriggs>
-                  <personName>Charles Frederick Briggs writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </cfbriggs>
-            </pieceListPerson>
-         </pieceMeta>
-      </p8>
-      <p9>
-         <pieceMeta>
-            <pieceId>p9</pieceId>
-            <pieceTitle>Bobus Smith</pieceTitle>
-            <piecePage>298-299</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p9>
-      <p10>
-         <pieceMeta>
-            <pieceId>p10</pieceId>
-            <pieceTitle>Professor Gouraud</pieceTitle>
-            <piecePage>299-300</piecePage>
-            <piecePdfIndex>11</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p10>
-      <p11>
-         <pieceMeta>
-            <pieceId>p11</pieceId>
-            <pieceTitle>Anniversary Week</pieceTitle>
-            <piecePage>300</piecePage>
-            <piecePdfIndex>12</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p11>
-      <p12>
-         <pieceMeta>
-            <pieceId>p12</pieceId>
-            <pieceTitle>The Crossing’s Sweeper</pieceTitle>
-            <piecePage>300</piecePage>
-            <piecePdfIndex>12</piecePdfIndex>
-            <pieceListPerson>
-               <saw>
-                  <personName>S. A. W.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </saw>
-            </pieceListPerson>
-         </pieceMeta>
-      </p12>
-      <s3>
-         <sectionMeta>
-            <sectionId>s3</sectionId>
-            <sectionTitle>Musical Items</sectionTitle>
-         </sectionMeta>
-      </s3>
-      <s3p1>
-         <sectionMeta>
-            <sectionId>s3</sectionId>
-            <sectionTitle>Musical Items</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>s3p1</pieceId>
-            <pieceTitle>The Boehm Flute</pieceTitle>
-            <piecePage>300-301</piecePage>
-            <piecePdfIndex>12</piecePdfIndex>
-            <pieceListPerson>
-               <hcwatson>
-                  <personName>Henry Cood Watson writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
-               </hcwatson>
-            </pieceListPerson>
-         </pieceMeta>
-      </s3p1>
-      <s3p2>
-         <sectionMeta>
-            <sectionId>s3</sectionId>
-            <sectionTitle>Musical Items</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>s3p2</pieceId>
-            <pieceTitle>Grand Sacred Concert at St. Peter’s Church.</pieceTitle>
-            <piecePage>301</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
-            <pieceListPerson>
-               <hcwatson>
-                  <personName>Henry Cood Watson writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
-               </hcwatson>
-            </pieceListPerson>
-         </pieceMeta>
-      </s3p2>
-      <p13>
-         <pieceMeta>
-            <pieceId>p13</pieceId>
-            <pieceTitle>The Broadway Theatre</pieceTitle>
-            <piecePage>301</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
@@ -691,9 +542,9 @@
       <p14>
          <pieceMeta>
             <pieceId>p14</pieceId>
-            <pieceTitle>Fact and Fiction</pieceTitle>
-            <piecePage>302</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceTitle>New Works in Press</pieceTitle>
+            <piecePage>298</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -706,24 +557,24 @@
       <p15>
          <pieceMeta>
             <pieceId>p15</pieceId>
-            <pieceTitle>Miscellany</pieceTitle>
-            <piecePage>302</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceTitle>Eothen</pieceTitle>
+            <piecePage>298</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p15>
       <p16>
          <pieceMeta>
             <pieceId>p16</pieceId>
-            <pieceTitle>New Publications</pieceTitle>
-            <piecePage>302</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceTitle>Bobus Smith</pieceTitle>
+            <piecePage>298-299</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -736,6 +587,155 @@
       <p17>
          <pieceMeta>
             <pieceId>p17</pieceId>
+            <pieceTitle>Professor Gouraud</pieceTitle>
+            <piecePage>299-300</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Anniversary Week</pieceTitle>
+            <piecePage>300</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>The Crossing's Sweeper</pieceTitle>
+            <piecePage>300</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <saw>
+                  <personName>S. A. W.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </saw>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Items</sectionTitle>
+         </sectionMeta>
+      </s3>
+      <p20>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>The Boehm Flute</pieceTitle>
+            <piecePage>300-301</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Musical Items</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>Grand Sacred Concert at St. Peter's Church.</pieceTitle>
+            <piecePage>301</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>The Broadway Theatre</pieceTitle>
+            <piecePage>301</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Fact and Fiction</pieceTitle>
+            <piecePage>302</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Miscellany</pieceTitle>
+            <piecePage>302</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <p25>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>New Publications</pieceTitle>
+            <piecePage>302</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <p26>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
             <pieceTitle>Notice to Publishers</pieceTitle>
             <piecePage>302</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -747,7 +747,7 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p17>
+      </p26>
       <s4>
          <sectionMeta>
             <sectionId>s4</sectionId>
@@ -756,13 +756,13 @@
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
       </s4>
-      <p18>
+      <p27>
          <pieceMeta>
-            <pieceId>p18</pieceId>
+            <pieceId>p27</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>304</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p18>
+      </p27>
    </listBibl>
 </issue>

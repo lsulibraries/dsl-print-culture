@@ -41,7 +41,7 @@
         data() {
             return {
                 creditsData: {},
-                roles: ['Project Lead', 'Research Assistant', 'Project Development', 'Project Consultant', 'Consultant', 'Past Research Assistant'],
+                roles: ['Project Lead', 'Research Assistant', 'Project Development', 'Project Consultant', 'Additional Support', 'Past Research Assistant'],
             }
         }
     }

@@ -39,20 +39,21 @@
          
          
          <p>Every year upon the opening of the exhibition, we hearthe senseless cry repeated
-            from shallow-thoughted writers,"too many portraits—who wants to see men’s faces—why
-            don't they give us more historical works?” as if historicalpictures were
-            anything but groups of men’s faces. A portraitis to a historical composition what a
+            from shallow-thoughted writers,"too many portraits--who wants to see men's faces--why
+            don't they give us more historical works?" as if historicalpictures were
+            anything but groups of men's faces. A portraitis to a historical composition what a
             biography is to history,or a legend to a novel. For ourselves, we prefer portraiture
             to historical compositions; and we regard a good portrait asthe very highest
             reach of art: and so does the world at largeregard it. The most valuable paintings in the world are portraits; they sell at higher prices than any other
             pictures, andgive the highest degree of pleasure. Even the gross beauties 
             of Rubens are valued more highly than any other of hispaintings, and the portraits of
             Van Dyke and Titian are themost esteemed of their productions. Take the portraits
-            fromthe list of Reynolds’ works, and there would be nothing left worth having.
-            Among our own painters, Copley, Stewart,Trumbull, and Alston’s portraitures comprise
-            the best andmost numerous of their productions. Perhaps the finest collection of pictures in the country, is the Portrait Gallery of Harvard College, which contains some of the finest of Copley’s and Stuart’s heads. A bad
+            fromthe list of Reynolds' works, and there would be nothing left worth having.
+            Among our own painters, Copley, Stewart,Trumbull, and Alston's portraitures comprise
+            the best andmost numerous of their productions. Perhaps the finest collection of pictures in the country, is the Portrait Gallery of Harvard College, which contains some of the finest of Copley's and Stuart's heads. A bad
             portrait of a bad subjectis certainly not a pleasant thing to contemplate; but a
-            fineportrait of a fine head, is one of the most charming and profitable objects in Art. A portrait of Shakspeare by such an artist as Van Dyke, would be worth more than all the historical pictures painted in his
+            fineportrait of a fine head, is one of the most charming and profitable objects in Art. A portrait of 
+            <span class="person" id="wshakespeare">Shakspeare</span> by such an artist as Van Dyke, would be worth more than all the historical pictures painted in his
             century. It is the true object of 
              Art to counterfeit Nature, and preserve the forms whichwould be forever
             obliterated without its aid. We would byno means discourage historical composition,
@@ -105,14 +106,14 @@
             picture. No. 220,a portrait of Horace Kneeland, is a stronger head and more
             substantial, and quite as good as a likeness, but it lacks thedignified repose
             indispensable in a portrait. No. 190, thehead of an old man with a flowing black beard, is an admirable study, painted with surprising freedom and truth.
-            No.128, a Portrait of Mr. Spencer the artist, is a good sober picture. No. 200 is a sweet face—the position exceeding graceful and
+            No.128, a Portrait of Mr. Spencer the artist, is a good sober picture. No. 200 is a sweet face--the position exceeding graceful and
             unaffected. It is the least like a portrait, and themost like nature, of any one in
             the room. It is a dewy rose,compared with some of the artificial flowers near
             it.
          </p>
          
          
-         <p>No. 199. Portrait of T. Hicks—painted by himself. Law- yers say that the advocate
+         <p>No. 199. Portrait of T. Hicks--painted by himself. Law- yers say that the advocate
             who
             pleads his own cause has a fool for his client, and the artist who paints his
             own portraitis sure of satisfying his sitter. Perhaps this is the reasonwhy
@@ -122,14 +123,14 @@
             pictures. At the top of the great stairway,as the visiter mounts into the
             sky-parlor, where, for someinscrutable reason, the Academy holds its exhibitions,
             maybe seen the best collection of caricatures in the city. Oneof the greatest
-            curiosities among them is a head labelled“Bryant,” which nobody would suspect was
+            curiosities among them is a head labelled"Bryant," which nobody would suspect was
             meant for thepoet of that name. Mr. Hicks's portrait, though painted by
             himself, is very like him, but it is not equal to some of hisother
             portaits.
          </p>
          
          
-         <p>No. 23. Portrait of Col. Thayer—R. W. Weir, N. A. Afull length portrait in regimentals. The position is exceedingly bad. A suspended action in a
+         <p>No. 23. Portrait of Col. Thayer--R. W. Weir, N. A. Afull length portrait in regimentals. The position is exceedingly bad. A suspended action in a
             single figure produces avery unpleasant sensation. The head is better painted than
             any that we have seen by this artist before. The legs areadmirably
             foreshortened, but if they had been shortened stillmore by being left off altogether, it would have been a better picture. There cannot possibly
@@ -139,53 +140,53 @@
             exhibition.
          </p>
          
-         <p>No. 27. Portrait of Dr. Macready—J. J. Mapes, H. Weknew that Professor Mapes was
+         <p>No. 27. Portrait of Dr. Macready--J. J. Mapes, H. Weknew that Professor Mapes was
             master of an infinite varietyof accomplishments, but we were not prepared to see so
             gooda portrait as this from his easel. It is a speaking likeness.
          </p>
          
-         <p>No. 36. Portrait of a Child—J. H. Lazarus. A very sweetpicture, but it is so badly
+         <p>No. 36. Portrait of a Child--J. H. Lazarus. A very sweetpicture, but it is so badly
             hung that it can hardly be seen toadvantage.
          </p>
          
-         <p>No 48. Portrait of D- Bryson—E. Mooney, N. A. A sobertruthful portrait. No. 55, W.
+         <p>No 48. Portrait of D- Bryson--E. Mooney, N. A. A sobertruthful portrait. No. 55, W.
             Rowell, by the same artist, isequally good. These pictures only lack a little warmth
             ofcolor to render them among the best in the exhibition. Theircoldness must be
             owing to the light in which the artistworks, for some of his portraits are almost
             hot in color.
          </p>
          
-         <p>No. 54. Portrait of Mrs. H. Shelton—F. Boyle. An admirable portrait;
+         <p>No. 54. Portrait of Mrs. H. Shelton--F. Boyle. An admirable portrait;
             well drawn and well colored, excepting asooty hue which Mr. Boyle contrives to
             invest all his pictureswith. The position is graceful, the arms well disposed, and
             the drapery elaborated with great care. Mr. Boyle is apainter.
          </p>
          
-         <p>No. 67. Portrait of Captain Cropper—C. C. Ingham.If Mr. Ingham will do himself the
+         <p>No. 67. Portrait of Captain Cropper--C. C. Ingham.If Mr. Ingham will do himself the
             harm to paint portraits ofmen, we hope for his own sake that he will eschew sailors.
             He cannot put the rough externals of a weather-beaten faceupon canvass. 169 and
             184, two portraits of young ladies,are in his happiest manner. The shotted silk in
-            169 is amiracle, and the gauze scarf might deceive one of Stuart’sclerks. The
-            ladies themselves appear to be made of finestclay—porcelain.
+            169 is amiracle, and the gauze scarf might deceive one of Stuart'sclerks. The
+            ladies themselves appear to be made of finestclay--porcelain.
          </p>
          
-         <p>No. 69. Portrait—E. H. May. This young artist has twoother portraits in the
+         <p>No. 69. Portrait--E. H. May. This young artist has twoother portraits in the
             exhibition; the best of the three, andindeed among the best portraits in the room,
             is No. 130; it isaltogether a most admirable portrait, modest, substantial,and
             fleshly.
          </p>
          
-         <p>No. 83. Brig. Gen. Roumfort, of the Second Brigade,Philadelphia.—W. E. Winn. We are very happy to perceive that this is a production of the right-angled
+         <p>No. 83. Brig. Gen. Roumfort, of the Second Brigade,Philadelphia.--W. E. Winn. We are very happy to perceive that this is a production of the right-angled
             city. Whyit was sent here for exhibition we are at a loss to conceive.Gen.
             Roumfort may be a brave man and good citizen, foraught we know to the contrary, but
             the artist appears tohave tried hard to make him look like the reverse. Not
             content with giving him all the swagger possible, he hasmade the gallant
-            General’s sword several inches longerthan its scabbard. It is a woful picture, and
+            General's sword several inches longerthan its scabbard. It is a woful picture, and
             it brings tomind most woful events, which the Philadelphians should be
             ambitious to forget.
          </p>
          
-         <p>No. 158. Portrait of a Gentleman.—T. H. Smith. Thereis nothing in this modest
+         <p>No. 158. Portrait of a Gentleman.--T. H. Smith. Thereis nothing in this modest
             picture, excepting the markedcharacter of the subject, to attract attention, and the position in which it is hung not being a favorable one. we should
             hardly have noticed it had we not known the painter to beone of the most
             industrious, most enthusiastic, and most 
@@ -194,13 +195,13 @@
          </p>
          
          
-         <p>No. 165. A Greek.—By F. Fink. This portrait attracts agood deal of attention, and
+         <p>No. 165. A Greek.--By F. Fink. This portrait attracts agood deal of attention, and
             is universally admired. Thehands are exquisitely painted, and the whole picture
             reflectsgreat credit on the artist. But it is not the portrait of aGreek; it
             is a gentleman in a greek costume, and so it shouldhave been called.
          </p>
          
-         <p>No. 172. Portrait of Jacob Barker.—By H. Inman, N. A.This is the only portrait by this gentleman in the exhibition; but this is one of the best that he
+         <p>No. 172. Portrait of Jacob Barker.--By H. Inman, N. A.This is the only portrait by this gentleman in the exhibition; but this is one of the best that he
             has ever painted. Itis a good likeness and a very pleasing picture. Considering
             that it was painted from three sittings, and those short ones,it must be
             regarded among this distinguished artist happiestefforts. It is somewhat slight and
@@ -210,7 +211,7 @@
          
          <p>Bust of J. J. Mapes. By H. Kneeland. It is to the disadvantage of this excellent bust that it is the only one in the exhibition, for it is so true to nature, so finely and purely modeled that it requires to be seen
             by the side of ordinary worksto make its superiority apparent. It is admirably
-            chiseled,and makes the nearest approach to the perfection of Power’sbusts of
+            chiseled,and makes the nearest approach to the perfection of Power'sbusts of
             any that we have seen in any previous exhibition.There are many portraits still left
             of real merit which weshall notice hereafter.
          </p>
@@ -229,7 +230,7 @@
             
             <br></br>Nameless, formless, undefined;
             
-            <br></br>Image of all things that be,—
+            <br></br>Image of all things that be,--
             
             <br></br>Mirror of Eternity;
             
@@ -243,7 +244,7 @@
             
             <br></br>Fluctuous vehicle of shape,
             
-            <br></br>Nature’s idol, Reason’s ape;
+            <br></br>Nature's idol, Reason's ape;
             
             <br></br>Master of the hand and eye,
             
@@ -253,15 +254,15 @@
             
             <br></br>Sprang the masters of the earth;
             
-            <br></br>Eros, lord of golden life,—
+            <br></br>Eros, lord of golden life,--
             
-            <br></br>Passion, mingling all in strife,—
+            <br></br>Passion, mingling all in strife,--
             
-            <br></br>Prudence, wisdom’s early friend,—
+            <br></br>Prudence, wisdom's early friend,--
             
             <br></br>Fancy, earning but to spend;
             
-            <br></br>Last, not least, thou sawest light;—
+            <br></br>Last, not least, thou sawest light;--
             
             <br></br>Name thyself, O subtile sprite!
             
@@ -282,10 +283,10 @@
          
          <p>Before the days of magazines, wit and mirth, and quibsand jests, and glorious
             outbursts of temperament, must havelost half their relish without the after
-            enjoyment of beingproduced in the magazines—if indeed they could ever existin
+            enjoyment of beingproduced in the magazines--if indeed they could ever existin
             any conversational perfection without the suggestions andstimulus of the press. It
             is notorious now-a-days, or if not,it may be very readily observed that men talk to
-            write, andwrite to talk—that the mutual collision of the babble of theclub room and the soiree with the silence of the writing table, broken only
+            write, andwrite to talk--that the mutual collision of the babble of theclub room and the soiree with the silence of the writing table, broken only
             by the music of the pen on paper, makesthem perfect in both. One never talks with
             any knowledgetill he writes, travelling into the secret labyrinths of thought,
             or writes with feeling till he has been warmed by the countenance and sympathy of the living eye and voice. Our antemagazinists had none
@@ -298,10 +299,11 @@
          <p>Negligence and ease, with enthusiasm and refinement, arethe charms of a magazine.
             No one should care what awriter is deficient in, for this purpose, if he only excite
             oursympathy and awaken our enjoyment. Who is the prince ofthe magazinists but
-            Christopher North, the careless slipshodenthusiast, a glowing Sun breaking upon us
+            
+            <span class="person" id="jwilson">Christopher North</span>, the careless slipshodenthusiast, a glowing Sun breaking upon us
             all the brighterout of the polar austerities of Scotland? It was a merciful
             dispensation which sent this tropical genius to a climewhich might naturally
-            produce only Chamber’s Journals and  Information for the people. Soul, soul,
+            produce only Chamber's Journals and  Information for the people. Soul, soul,
             soul are the threerequisites for the great magazine. We like the dishabilleair
             and demi-toilette of authorship, for we feel, where theseare worn, the surrounding
             atmosphere is warm and genial.Here we prefer sensibility to sense. Political economy
@@ -311,13 +313,17 @@
             Encyclopedias and books of business, and another distinct where the eye may
             catch the golden lettering of the poets,and those prose legers of the heart where
             the best affectionsare entered up monthly, and an open account kept against
-            Time to the end. What a good round balance there will bein favor of John
-            Wilson, Leigh Hunt, and Thomas Hood forinstance, when three score and ten brings its
+            Time to the end. What a good round balance there will bein favor of 
+            <span class="person" id="jwilson">John
+               Wilson
+            </span>, 
+            <span class="person" id="jhlhunt">Leigh Hunt</span>, and 
+            <span class="person" id="thood">Thomas Hood</span> forinstance, when three score and ten brings its
             settlement!
          </p>
          
          <p>It will be seen that we restrict the magazine article proper to but one species of writing, or rather one way of thinking or feeling, for the illustrations of the faculty may be various, ranging through all the
-            wide world of fancy, humor,pathos, not forbidding satire—for satire, when it is not purely malevolent, may be enjoyable, bringing us into closer companionship with our fellows. The rough points of a satirist’s
+            wide world of fancy, humor,pathos, not forbidding satire--for satire, when it is not purely malevolent, may be enjoyable, bringing us into closer companionship with our fellows. The rough points of a satirist's
             temperament may be the cog-wheels which link us in moreclosely with the general
             movement from which we mightelse be separated and unhappy.
          </p>
@@ -327,7 +333,7 @@
             of the moment,it must be immediate and local. It must discourse readilyupon
             the fashionable notoriety of the time, or read its homilyfor the benefit of the
             newest politician, or satirize the latestfolly, and turn round to put us in conceit again with its conveniences and virtues. Its great aim is to make us
-            pleasedwith the world as it is, its praise must be the very otto ofegotism and complacency, its “feigned abuse such as perplexed lovers use.” It should
+            pleasedwith the world as it is, its praise must be the very otto ofegotism and complacency, its "feigned abuse such as perplexed lovers use." It should
             purify the soiled temple of theworld, by causing us to forget all the evil and
             reminding usof all the good, removing the mildew of weariness and disgust from its shrines and altars, that the spirit may returnand worship again pure and undismayed. Life would sometimes pall upon us,
             were it not relieved by the playful gracesof the essayist. In this day no one can be
@@ -336,40 +342,50 @@
             books. The guardian being wanting, thevirtue becomes extinct. If the magazines had
             more power itwould be better for the state. We know not what cultivation our statesmen, for instance, might receive if their measures were
             ably reviewed by faithful writers, and theirspeeches commented upon by a body of
-            critics who wouldbe the protectors of manly eloquence. No one will longwaste intellect where it is unheeded. “Do not use fulminating gold when common
-            gunpowder will do the same,” wroteMoore to Leigh Hunt, when Moore thought his friend
+            critics who wouldbe the protectors of manly eloquence. No one will longwaste intellect where it is unheeded. "Do not use fulminating gold when common
+            gunpowder will do the same," wrote
+            <span class="person" id="tmoore">Moore</span> to 
+            <span class="person" id="jhlhunt">Leigh Hunt</span>, when 
+            <span class="person" id="tmoore">Moore</span> thought his friend
             wuswriting too well in the pages of the Reflector. Our politicians are in little danger of resorting to such a costly alchymy. It is
             different abroad. Pulic men approach the publicwith the fear of the press before their eyes. An English debater rounds his periods by the music of the
             eloquent Timesor Examiner, as by the flute of Gracchus. Our orators, withno
             such clarifying medium, speak direct to Bunkum. It isby the support and influence of
             the best men that the bestthings are done, the best words spoken, and the best books
-            written. Pope has explained this in his courtly graceful way:
+            written. 
+            <span class="person" id="apope">Pope</span> has explained this in his courtly graceful way:
          </p>
          
          
          <div class="lg">
             
-            <br></br>“But why then publish? Granville the polite,
+            <br></br>"But why then publish? 
+            <span class="person" id="ggranville">Granville</span> the polite,
             
-            <br></br>And knowing Walsh, would tell me I could write; 
+            <br></br>And knowing 
+            <span class="person" id="wwalsh">Walsh</span>, would tell me I could write; 
             
-            <br></br>Well-natured Garth inflamed with early praise,
+            <br></br>Well-natured 
+            <span class="person" id="sgarth">Garth</span> inflamed with early praise,
             
-            <br></br>And Congreve lov’d, and Swift endur’d my lays!
+            <br></br>And 
+            <span class="person" id="wcongreve">Congreve</span> lov'd, and Swift endur'd my lays!
             
-            <br></br>The courtly Talbot, Somers, Sheffield read,
+            <br></br>The courtly Talbot, Somers, 
+            <span class="person" id="jsheffield">Sheffield</span> read,
             
             <br></br>E'en mitred Rochester would nod the head,
             
-            <br></br>And St. John’s self, great Dryden’s friend before,
+            <br></br>And St. John's self, great 
+            <span class="person" id="jdryden">Dryden</span>'s friend before,
             
-            <br></br>With open arms receive one poet more.”
+            <br></br>With open arms receive one poet more."
             
          </div>
          
          
          <p>There is nothing more delightful in authorship, than anunchecked genial strain of
-            friendly altercation, a rivalry inthe appreciation of one another’s qualities, where
+            friendly altercation, a rivalry inthe appreciation of one another's qualities, where
             it takesplace between men who possess something in themselvesworth eulogizing,
             and are of sufficient importance for theworld to take an interest in the matter. We
             know what amuch dreaded word egotism is in society and among critics,and how instinctively alarm is taken by a class of very sensitive persons at the
@@ -377,8 +393,8 @@
             many very careful guardians there are in the world with thezeal of duennas, whose prudish, nicely-educated souls are offended at an
             improper exhibition of self, and we appreciatevery kindly the good taste which would reduce men and women to a vapid state of insipidity, by closing the
             mouths ofeverybody to anything which might prove hazardous to thepersonal
-            comfort of—fools. Yet in spite of all this, we areadvocates of plain speaking,
-            downright thinking, egotism,personality, and any other terror “within the limits of becoming mirth,” and guarded by a never to be relinquishedspirit
+            comfort of--fools. Yet in spite of all this, we areadvocates of plain speaking,
+            downright thinking, egotism,personality, and any other terror "within the limits of becoming mirth," and guarded by a never to be relinquishedspirit
             of honest dealing. So long as fair play is shown, letus have the game out, come the
             good or ill fortune of itwhere it may.
          </p>
@@ -388,7 +404,7 @@
             us look into the matter. Waiving, for a moment, allquestions of the kind of
             notoriety, in the case of the author,it may be, as it very often is, that the name
             of a fault-finder,if he be a merchant, for instance, is a hundred times in the
-            paper to the author’s once. The most greedy, carnivorouscandidate for fame, who
+            paper to the author's once. The most greedy, carnivorouscandidate for fame, who
             bites with the avidity of a pike at anewspaper puff, and urges his literary wares upon the public, amid the general laughter, and particular contempt of
             his own class, is not half so industrious as the tradesmanwith his signs, bill-heads, check-books, agencies, correspondences, runners, gazetteers,
             advertisements, with his nameon every packing box, placarded on every dead wall,
@@ -408,7 +424,7 @@
             cents. Go into theinterior of the country, and see the fluttering which the presence of a man whose name has stood a quarter of a century,with honor,
             in Pearl Street, creates. He may be courted forhis wealth, but he is respected for
             all that stands behind it,the probity, the self-denial, the industry, the talent, the energy, which have made him celebrated. Is name, is notoriety nothing? Why, without any impeachment to his modesty,
-            he goes up to the desk of the hotel, and writes hisautograph, in the traveller’s
+            he goes up to the desk of the hotel, and writes hisautograph, in the traveller's
             book, with the air of a mandrawing a check on the spectators for an unlimited amount
             of respect, attention and deference, with the certainty of itsbeing honored.
             The merchant seeks notoriety for the sameends, and as nearly as he can, with the
@@ -421,17 +437,17 @@
          
          <p>We see that the merchant, in his own argument, does notstand quite clear of the suspicions he urges against the author. He is very righteously and commendably strengthening his own convictions and deference to duty by
             the voiceof public opinion. And he is by no means necessarily making sale of his virtues, because he is prosperous by the credithe gets for them.
-            The author assuredly goes further in thevoluntary exhibition of himself,—in his
-            egotism,—to admitthe point at once. It is his vocation. To find fault withhim
+            The author assuredly goes further in thevoluntary exhibition of himself,--in his
+            egotism,--to admitthe point at once. It is his vocation. To find fault withhim
             for this is to beg the whole question. It is his businessto write out what he knows,
             thinks and feels, that other menmay learn to know, think and feel. If he were to do otherwise, and cease to exhibit, directly or indirectly, his own
             personal character on the page, biography would soon be an enumeration of
             mere platitudes, and would fall into the verypretence and puffery sought to be
             avoided; ignorance wouldbe unquestioned, folly respected, and vice unscathed; there
-            would be one biographical formula, something like that inthe ladies’ magazines,
+            would be one biographical formula, something like that inthe ladies' magazines,
             where character and reputation aredispensed as freely as tin money on the stage,
             where genius,that century-blooming aloe, blooms as rankly as the "dandelion in the field, and Shakspeares and Miltons go staggeringabout in
-            bibs and petticoats. What a blessed uniformity ofpraise there would be!—what charity, what kind-heartedness!—how perfect a Utopia, how benevolent a
+            bibs and petticoats. What a blessed uniformity ofpraise there would be!--what charity, what kind-heartedness!--how perfect a Utopia, how benevolent a
             Millennium,if heroes of various kinds could have it all their own way,
             unchallenged by the occasional impertinence of interferingsensibility and
             justice. What is genius but this secretspring of egotism, everywhere giving life to
@@ -439,45 +455,52 @@
             rejoicing in a thousand streams andrivulets in the full blaze of day? Egotism will be valued always in proportion to the character of the author, as a soil
             that betrays a vein of gold is worth more than one of coal orslate. That it may
             become a nuisance, is undoubted; butin its annoying forms, it carries its own
-            antidote in its verybarefacedness. But even in its coarser and common forms,it has its value, as in the autobiography of Benvenuto Cellini, while no
+            antidote in its verybarefacedness. But even in its coarser and common forms,it
+            has its value, as in the autobiography of 
+            <span class="person" id="bcellini">Benvenuto Celli-ni</span>, while no
             passages of the great authors are treasuredmore than those in which they pause,
             parenthetically, toconvey some allusion to themselves. Who would lose the
             supposed personal reference to the blind bard in Homer, orthe passage on Light
-            in Milton? and, in spite of what isgenerally said to the contrary, who does not fancy Shakspeare, probably with justice, a thousand times interposing
+            in 
+            <span class="person" id="jmilton">Milton</span>? and, in spite of what isgenerally said to the contrary, who does not fancy Shakspeare, probably with justice, a thousand times interposing
             his own sentiments?
          </p>
          
-         <p>We have certainly "fetched a compass” to get to our portof magazine writing, and
+         <p>We have certainly "fetched a compass" to get to our portof magazine writing, and
             vindicate its personalities. Arenot our American writers, lecturers, preachers,
             politicians,editors, actors and other publicans, enough talked about? Itmay be
-            that they are too much talked about, and too little—that their names are better
-            known than their actions—thatthey are often heard of, but poorly understood. We want
+            that they are too much talked about, and too little--that their names are better
+            known than their actions--thatthey are often heard of, but poorly understood. We want
             the niceties of knowledge: all is nothing, mere barrenness,till we find out or
             are taught the peculiar secret principlewhich constitutes their vitality. We do not
             know anythingof the men till we know that. We must have a niche forour
             writers, in the gallery of the mind, otherwise they areso much lumber thrown
-            together at the threshold. No man’sknowledge is to be valued till he offers you
+            together at the threshold. No man'sknowledge is to be valued till he offers you
             something of hisown, which is not to be picked up on the highway, or towhich
             has been added some value from use or keeping. Weget this rarely. Every one knows everything about our public men, few know anything. How little of all
             that hasbeen written can we refer a stranger visiting the country tofor a
             keen, just, appreciative character of our worthies!The magazines should be looked to
             for its criticism. Hereis a field where the genuine writers of the country should
-            come to one another’s help, and not leave the best characters of
+            come to one another's help, and not leave the best characters of
             our authors and statesmen, as is the fact at present,to be written abroad. If we
             wish to learn anything of ourgreat men, beyond, of course, the fact that they are
-            great,we must go to Miss Martineau and the foreign reviews.
+            great,we must go to Miss 
+            <span class="person" id="hmartineau">Martineau</span> and the foreign reviews.
          </p>
          
          <p>Authors have always been a generous body of men to oneanother in dedications,
             compliments, reviews, &amp;c., and thereis nothing more graceful or valuable than
             these things, whenthey are conscientiously bestowed by good and true men.The
             old scholarship of the Continent, the verses prefixed tothe Elizabethan editions,
-            the tributes in the writings ofHazlitt and his friends, are so many well remembered instances among others. It was a peculiarity of the old English authors—insomuch that Leigh Hunt in his new work onImagination
+            the tributes in the writings of
+            <span class="person" id="whazlitt">Hazlitt</span> and his friends, are so many well remembered instances among others. It was a peculiarity of the old English authors--insomuch that 
+            <span class="person" id="jhlhunt">Leigh Hunt</span> in his new work onImagination
             and Fancy, has gone somewhat at length andapologetically into the matter, in
-            reference to Shakspeare,who mentions none of his contemporaries. “Has any body,’’
-            says he, “discovered the reason why he never noticed a living
+            reference to 
+            <span class="person" id="wshakespeare">Shakspeare</span>,who mentions none of his contemporaries. "Has any body,''
+            says he, "discovered the reason why he never noticed a living
             contemporary, and but one who was dead? and this too,in an age of great men, and
-            when they were in the habit ofacknowledging the pretensions of one another.”
+            when they were in the habit ofacknowledging the pretensions of one another."
          </p>
          
          <p>How necessary this spirit of appreciation is among others,where literature is an
@@ -486,9 +509,9 @@
             themselves, that literary men should be true to one another.Short as our
             history has been, and comparatively few as 
             have been our men of letters, there has been time to forgetand neglect
-            some of the best spirits among them. Americancriticism has yet many a genial hour’s
+            some of the best spirits among them. Americancriticism has yet many a genial hour's
             delightful toil tocome, in making the acquaintance of the inner life of many
-            who are but little understood.—Dem. Review.
+            who are but little understood.--Dem. Review.
          </p>
          
       </div>
@@ -502,7 +525,7 @@
          
          
          <p>A circular has been issued by several gentlemen of this County,for the
-            establishment of an Institute at Aurora, in which young menmay become thoroughly acquainted with “the principles of Agricultural Science, and their
+            establishment of an Institute at Aurora, in which young menmay become thoroughly acquainted with "the principles of Agricultural Science, and their
             application to Practical Husbandry."The plan is one which received the fullest
             approval of the late JudgeBuel; and the arrangements made, are such as cannot fail
             to offerevery desirable inducement to those interested. The farm chosen
@@ -510,26 +533,26 @@
             fitted by soil, location, improvement, &amp;c., for such purpose. Nopupils under 14
             years of age received. Charles C. Young, A. M. isProprietor and principal; A.
             Thompson, A. M., M. D. Lecturer onBotany, Geology, Agricultural Chemistry, &amp;c.,
-            and David Thomas,Visitor and Adviser.—Auburn Journal.
+            and David Thomas,Visitor and Adviser.--Auburn Journal.
          </p>
          
          
          <p>Some of our readers may smile at seeing the announcement of an
-            “Agricultural Institute” made the subject of anarticle in the “Broadway Journal,”
+            "Agricultural Institute" made the subject of anarticle in the "Broadway Journal,"
             but we trust that thosewho have had their eyes filled with the dust of Broadway
             since the breath of Spring has swept our streets, (the onlysweeping by the way
             that they get,) will pardon us if wecarry their mind's eyes to the contemplation of
             green fieldsand budding flowers. We are not without precedent, too,for
-            introducing rustic themes even into “Broadway,” forwhich we cite the display of huge
-            squashes and mammothturnips at Niblo’s Saloon every autumn, to say nothing of
-            that learned body of citizens called “The Farmer’s Club,”who meet weekly in the Park to discuss soils and fertilizing powders.
+            introducing rustic themes even into "Broadway," forwhich we cite the display of huge
+            squashes and mammothturnips at Niblo's Saloon every autumn, to say nothing of
+            that learned body of citizens called "The Farmer's Club,"who meet weekly in the Park to discuss soils and fertilizing powders.
          </p>
          
          <p>Our readers must not suppose that we intend to cut Broadway; we have no
             such cruel design. We confess too muchattachment to city life, to its libraries, and lectures, its societies of learned men and its social advantages; we are
             notyet tired of even coal fires and gas lights; we still love tocontemplate
             the various phases of human nature only to befound in a large city. Yet with all
-            this admiration for the“town,” we are troubled at times with the “spring fever.”
+            this admiration for the"town," we are troubled at times with the "spring fever."
          </p>
          
          <p>No sooner does the Battery become green, or the trees inthe Park unfold their leaves, than we feel an instinctive longing to look at the country. We yearn to pluck the first hyacinth of the garden, the earliest blue
@@ -551,9 +574,9 @@
             whole youthful life must be spent on a form, torturing thebrain and destroying
             the body. It has been discovered thatphysical as well as mental training is
             necessary to the fulldevelopment of our nature. The philosophy of Socrates and
-            Plato—the philosophy of words has long since given way tothe philosophy of
-            Bacon—the philosophy of works. To those boys who have for years been poring
-            over dullpages of Greek and Latin, whose eyes have become weakand weary with much study—whose brains have been puzzled with irregular verbs and
+            Plato--the philosophy of words has long since given way tothe philosophy of
+            Bacon--the philosophy of works. To those boys who have for years been poring
+            over dullpages of Greek and Latin, whose eyes have become weakand weary with much study--whose brains have been puzzled with irregular verbs and
             heathen Mythology, and theirbodies enervated by the confinement of the
             school-room,--how delightful must be the change, to the pure fresh air of the fields
             and the invigorating labor of practical husbandry.
@@ -587,12 +610,12 @@
          <div class="head">THREE SUNDAYS IN A WEEK.</div>
          
          
-         <p>“You hard-hearted, dunder-headed, obstinate, rusty,crusty, musty, fusty, old savage!” said I in fancy, one afternoon, to my grand uncle Rumgudgeon—shaking
+         <p>"You hard-hearted, dunder-headed, obstinate, rusty,crusty, musty, fusty, old savage!" said I in fancy, one afternoon, to my grand uncle Rumgudgeon--shaking
             my fist athim in imagination.
          </p>
          
          <p>Only in imagination. The fact is, some trivial discrepancy did exist,
-            just then, between what I said and what I hadnot the courage to say—between what I
+            just then, between what I said and what I hadnot the courage to say--between what I
             did and what I hadhalf a mind to do.
          </p>
          
@@ -606,61 +629,61 @@
             
          </div>
          
-         <p>“My dear uncle,” said I, closing the door gently, and approaching him
-            with the blandest of smiles, “you are alwaysso very kind and considerate, and have evinced your benevolence in so many—so very many ways—that—that I feel I
+         <p>"My dear uncle," said I, closing the door gently, and approaching him
+            with the blandest of smiles, "you are alwaysso very kind and considerate, and have evinced your benevolence in so many--so very many ways--that--that I feel I
             have only to suggest this little point to you once more tomake sure of your
-            full acquiescence.”
+            full acquiescence."
          </p>
          
-         <p>“Hem!” said he, “good boy! go on!” </p>
+         <p>"Hem!" said he, "good boy! go on!" </p>
          
-         <p>“I am sure, my dearest uncle [you confounded old rascal!]that you have no design
+         <p>"I am sure, my dearest uncle [you confounded old rascal!]that you have no design
             really, seriously, to oppose my unionwith Kate. This is merely a joke of yours, I
-            know—ha! ha!ha!—how very pleasant vou are at times.”
+            know--ha! ha!ha!--how very pleasant vou are at times."
          </p>
          
-         <p>“Ha! ha! ha!” said he, “curse you! yes!” </p>
+         <p>"Ha! ha! ha!" said he, "curse you! yes!" </p>
          
-         <p>“To be sure—of course! I knew you were jesting. Now,uncle, all that Kate and myself
-            wish at present, is that youwould oblige us with your advice as—as regards the time—
-            you know, uncle—in short, when will it be most convenientfor yourself, that the
-            wedding shall—shall—come off, youknow?”
+         <p>"To be sure--of course! I knew you were jesting. Now,uncle, all that Kate and myself
+            wish at present, is that youwould oblige us with your advice as--as regards the time--
+            you know, uncle--in short, when will it be most convenientfor yourself, that the
+            wedding shall--shall--come off, youknow?"
          </p>
          
-         <p>“Come off, you scoundrel!—what do you mean by that?Better wait till it goes on.” </p>
+         <p>"Come off, you scoundrel!--what do you mean by that?Better wait till it goes on." </p>
          
-         <p>Ha! ba! ha!—he! he! he!— hi! hi! hi!—ho! ho! ho!—hu!hu!hu!—oh, that’s good!—oh,
-            that’s capital—such awit! But all we want, just now, you know, uncle, is that
-            you would indicate the time precisely.”
+         <p>Ha! ba! ha!--he! he! he!-- hi! hi! hi!--ho! ho! ho!--hu!hu!hu!--oh, that's good!--oh,
+            that's capital--such awit! But all we want, just now, you know, uncle, is that
+            you would indicate the time precisely."
          </p>
          
-         <p>“Ah!—precisely?”</p>
+         <p>"Ah!--precisely?"</p>
          
-         <p>“Yes, uncle—that is, if it would be quite agreeable toyourself.” </p>
+         <p>"Yes, uncle--that is, if it would be quite agreeable toyourself." </p>
          
-         <p>“Would’nt it answer, Bobby, if I were to leave it at random—some time
-            within a year or so, for example?—must Isay precisely?”
+         <p>"Would'nt it answer, Bobby, if I were to leave it at random--some time
+            within a year or so, for example?--must Isay precisely?"
          </p>
          
-         <p>“If you please, uncle—precisely.</p>
+         <p>"If you please, uncle--precisely.</p>
          
-         <p>“Well, then, Bobby, my boy—you’re a fine fellow, are’nt 
-            you?—since you will have the exact time, I’ll—why, I’lloblige you for
-            once.”
+         <p>"Well, then, Bobby, my boy--you're a fine fellow, are'nt 
+            you?--since you will have the exact time, I'll--why, I'lloblige you for
+            once."
          </p>
          
-         <p>“Dear uncle!” </p>
+         <p>"Dear uncle!" </p>
          
-         <p>“Hush, sir!” [drowning my voice]—“I’ll oblige you foronce. You shall have my
-            consent—and the plum, we mus’ntforget the plum—let me see! when shall it be?
-            To-day’sSunday—is’nt it? Well, then, you shall be married precisely—precisely, now mind!—when three Sundays come together in a week! Do
+         <p>"Hush, sir!" [drowning my voice]--"I'll oblige you foronce. You shall have my
+            consent--and the plum, we mus'ntforget the plum--let me see! when shall it be?
+            To-day'sSunday--is'nt it? Well, then, you shall be married precisely--precisely, now mind!--when three Sundays come together in a week! Do
             you hear me, sir! What are you gapingat? I say, you shall have Kate and her plum
-            when threeSundays come together in a week—but not till then—youyoung
-            scapegrace—not till then, if I die for it. You knowme—I’m a man of my word—now be off!” Here he swallowed his bumper of port, while I rushed from the room
+            when threeSundays come together in a week--but not till then--youyoung
+            scapegrace--not till then, if I die for it. You knowme--I'm a man of my word--now be off!" Here he swallowed his bumper of port, while I rushed from the room
             indespair.
          </p>
          
-         <p>A very “fine old English gentleman," was my granduncle Rumgudgeon, but
+         <p>A very "fine old English gentleman," was my granduncle Rumgudgeon, but
             unlike him of the song, he had hisweak points. He was a little, pursy, pompous,
             passionate,semicircular somebody, with a red nose, a thick scull, a longpur e,
             and a strong sense of his own consequence. With thebest heart in the world, he
@@ -668,8 +691,8 @@
             those whoonly knew him superficially, the character of a curmudgeon.Like many
             excellent people, he seemed possessed with aspirit of tantalization, which might
             easily, at a casual glance,have been mistaken for malevolence. To every request, a
-            positive " No!” was his immediate answer; but in the end—in the long, long
-            end—there were exceedingly few requestswhich he refused. Against all attacks upon
+            positive " No!" was his immediate answer; but in the end--in the long, long
+            end--there were exceedingly few requestswhich he refused. Against all attacks upon
             his purse hemade the most sturdy defence; but the amount extorted fromhim, at
             last was, generally, in direct ratio with the length ofthe siege and the
             stubbornness of the resistance. In charityno one gave more liberally or with a worse
@@ -677,166 +700,167 @@
          </p>
          
          <p>For the fine arts, and especially for the belles lettres heentertained a profound contempt. With this he had been inspired by Casimir Perier, whose pert
-            little query “A quoi unpoete est il bon?" he was in the habit of quoting, with a
+            little query "A quoi unpoete est il bon?" he was in the habit of quoting, with a
             verydroll pronunciation, as the ne plus ultra of logical wit. Thusmy own inkling for the Muses had excited his entire displeasure. He assured me
-            one day, when I asked him for anew copy of Horace, that the translation of “Poeta
-            nasciturnon fit" was a nasty poet for nothing fit”—a remark whichI took in high dudgeon. His repugnance to “the humanities had, also, much
+            one day, when I asked him for anew copy of 
+            <span class="person" id="horace">Horace</span>, that the translation of "Poeta
+            nasciturnon fit" was a nasty poet for nothing fit"--a remark whichI took in high dudgeon. His repugnance to "the humanities had, also, much
             increased of late, by an accidental biasin favor of what he supposed to be natural science. Somebody had accosted him in the street, mistaking him for no
             less a personage than Doctor Dubble L. Dee, the lecturerupon quack physics.
-            This set him off at a tangent; and justat the epoch of this story—for story it is
-            getting to be afterall—my grand uncle Rumgudgeon was accessible and pacific only upon points which happened to chime in with thecaprioles of the hobby he was riding. For the rest, he laughed with his arms and
+            This set him off at a tangent; and justat the epoch of this story--for story it is
+            getting to be afterall--my grand uncle Rumgudgeon was accessible and pacific only upon points which happened to chime in with thecaprioles of the hobby he was riding. For the rest, he laughed with his arms and
             legs, and his politics were stubborn andeasily understood. He thought, with Horsley,
-            that “thepeople have nothing to do with the laws but to obey them."
+            that "thepeople have nothing to do with the laws but to obey them."
          </p>
          
          <p>I had lived with the old gentleman all my life. My parents, in dying,
             had bequeathed me to him as a rich legacy.I believe the old villain loved me as his
-            own child—nearlyif not quite as well as he loved Kate—but it was a dog’s existence that he led me, after all. From my first year untilmy fifth,
+            own child--nearlyif not quite as well as he loved Kate--but it was a dog's existence that he led me, after all. From my first year untilmy fifth,
             he obliged me with very regular Hoggings. Fromfive to fifteen, he threatened me,
             hourly, with the House ofCorrection. From fifteen to twenty, not a day passed in
-            which he did not promise to cut me off with a shilling. Iwas a sad dog, it is true—but then it was a part of my nature—a point of my faith. In Kate,
+            which he did not promise to cut me off with a shilling. Iwas a sad dog, it is true--but then it was a part of my nature--a point of my faith. In Kate,
             however, I had a firmfriend, and I knew it. She was a good girl, and told me
-            very sweetly that I might have her (plum and all) wheneverI could badger my grand uncle Rumgudgeon, into the necessary consent. Poor girl!—she was barely fifteen, and without this consent, her little amount in the funds was not comeat-able until five immeasurable summers had “dragged their
-            slow length along.” What, then, to do? At fifteen, or evenat twenty-one [for 1
+            very sweetly that I might have her (plum and all) wheneverI could badger my grand uncle Rumgudgeon, into the necessary consent. Poor girl!--she was barely fifteen, and without this consent, her little amount in the funds was not comeat-able until five immeasurable summers had "dragged their
+            slow length along." What, then, to do? At fifteen, or evenat twenty-one [for 1
             had now passed my fifth olympiad] fiveyears in prospect are very much the same as
             five hundred.In vain we besieged the old gentleman with importunities.Here was a piece de resistance (as Messieurs Ude and Careme would say) which
             suited his perverse fancy to a T. Itwould have stirred the indignation of Job
             himself, to see howmuch like an old mouser he behaved to us two poor wretched little mice. In his heart he wished for nothing more ardently than our union. He had made up his mind to this  all along. In fact,
-            he would have given ten thousand poundsfrom his own pocket (Kate’s plum was her own)
+            he would have given ten thousand poundsfrom his own pocket (Kate's plum was her own)
             if he couldhave invented anything like an excuse for complying withour very natural wishes. But then we had been so imprudent as to broach the
             subject ourselves. Not to oppose itunder such circumstances, I sincerely believe was
             not in hispower.
          </p>
          
          <p>I have said already that he had his weak points; but, inspeaking of these, I must
-            not be understood as referring tohis obstinacy: that was one of his strong points—“assurement ce n’etait pas sa foible.” When I mention his
+            not be understood as referring tohis obstinacy: that was one of his strong points--"assurement ce n'etait pas sa foible." When I mention his
             weaknessI have allusion to a bizarre old-womanish superstition whichbeset him.
             He was great in dreams, portents, et id genusomne of rigmarole. He was excessively
             punctilious, too, uponsmall points of honor, and, after his own fashion, was a man
             of his word, beyond doubt. This was, in fact, one of hishobbies. The spirit of his vows he made no scruple of setting at naught, but the letter was a
             bond inviolable. Nowit was this latter peculiarity in his disposition, of which
-            Kate’s ingenuity enabled us, one fine day, not long after ourinterview in the dining room, to lake a very unexpected advantage; and, having thus, in
+            Kate's ingenuity enabled us, one fine day, not long after ourinterview in the dining room, to lake a very unexpected advantage; and, having thus, in
             the fashion of all modern bardsand orators, exhausted, in prolegomena, all the time
             at mycommand, and nearly all the room at my disposal, I will sumup in a few
             words what constitutes the whole pith of thestory.
          </p>
          
-         <p>It happened then—so the Fates ordered it—that amongthe naval acquaintances of my betrothed, were two gentlemen who had just set foot upon the shores of
-            England, aftera year’s absence, each, in foreign travel. In company withthese
+         <p>It happened then--so the Fates ordered it--that amongthe naval acquaintances of my betrothed, were two gentlemen who had just set foot upon the shores of
+            England, aftera year's absence, each, in foreign travel. In company withthese
             gentlemen, my cousin and I preconcertedly, paid uncleRumgudgeon a visit on the
-            afternoon of Sunday, October thetenth—just three weeks after the memorable decision
+            afternoon of Sunday, October thetenth--just three weeks after the memorable decision
             whichhad so cruelly defeated our hopes. For about half an hourthe conversation
             ran upon ordinary topics; but at last, wecontrived, quite naturally, to give it the
             following turn:
          </p>
          
-         <p>Capt. Pratt. “Well, I have been absent just one year.—Just one year to-day,as I live—let me see! yes!—this is October the tenth. You remember, Mr.
+         <p>Capt. Pratt. "Well, I have been absent just one year.-Just one year to-day,as I live--let me see! yes!--this is October the tenth. You remember, Mr.
             Rumgudgeon, I called,this day year, to bid you good-bye. And by the way, it does
-            seem something like a coincidence, does it not—that ourfriend Captain
-            Smitherton, here, has been absent exactly ayear also—a year to-day?”
+            seem something like a coincidence, does it not--that ourfriend Captain
+            Smitherton, here, has been absent exactly ayear also--a year to-day?"
          </p>
          
-         <p>Smitherton. “Yes! just one year to a fraction. You willremember, Mr. Rumgudgeon,
+         <p>Smitherton. "Yes! just one year to a fraction. You willremember, Mr. Rumgudgeon,
             that I called with Capt. Pratolon this very day, last year, to pay my parting
-            respects.”
+            respects."
          </p>
          
-         <p>Uncle. “Yes, yes, yes—I remember it very well—veryqueer, indeed! Both of you gone
+         <p>Uncle. "Yes, yes, yes--I remember it very well--veryqueer, indeed! Both of you gone
             just one year. A very strangecoincidence, indeed! Just what Doctor Dubble L. Dee
-            woulddenominate an extraordinary concurrence of events. DoctorDub—”
+            woulddenominate an extraordinary concurrence of events. DoctorDub--"
          </p>
          
-         <p>Kate. (Interrupting.) “To be sure, papa, it is somethingstrange; but then Captain
-            Pratt and Captain Smithertondidn’t go alttogether the same route, and that makes a
-            difference, you know.”
+         <p>Kate. (Interrupting.) "To be sure, papa, it is somethingstrange; but then Captain
+            Pratt and Captain Smithertondidn't go alttogether the same route, and that makes a
+            difference, you know."
          </p>
          
-         <p>Uncle. “I don’t know any such thing, you huzzey! Howshould I? I think it only makes
-            the matter more remarkable.Doctor Dubble L. Dee”—
+         <p>Uncle. "I don't know any such thing, you huzzey! Howshould I? I think it only makes
+            the matter more remarkable.Doctor Dubble L. Dee"--
          </p>
          
-         <p>Kate. “Why, papa, Captain Pratt went round Cape Horn,and Captain Smitherton doubled
-            the Cape of Good Hope.”
+         <p>Kate. "Why, papa, Captain Pratt went round Cape Horn,and Captain Smitherton doubled
+            the Cape of Good Hope."
          </p>
          
-         <p>Uncle. “Precisely!—the one went east and the other wentwest, you jade, and they
-            both have gone quite round theworld. By the bye, Doctor Dubble L. Dee"—
+         <p>Uncle. "Precisely!--the one went east and the other wentwest, you jade, and they
+            both have gone quite round theworld. By the bye, Doctor Dubble L. Dee"--
          </p>
          
-         <p>Myself, (hurriedly.) “Captain Pratt, you must come andspend the evening with us
-            to-morrow—you and Smitherton—you can tell us all about your voyage, and we’ll have a
-            gameof whist, and”—
+         <p>Myself, (hurriedly.) "Captain Pratt, you must come andspend the evening with us
+            to-morrow--you and Smitherton--you can tell us all about your voyage, and we'll have a
+            gameof whist, and"--
          </p>
          
-         <p>Pratt. “Whist, my dear fellow—you forget. To-morrow will be Sunday. Some other
-            evening’’—
+         <p>Pratt. "Whist, my dear fellow--you forget. To-morrow will be Sunday. Some other
+            evening''--
          </p>
          
-         <p>Kate. “Oh no, fie!—Robert’s not quite so bad as that.To-day's Sunday.”</p>
+         <p>Kate. "Oh no, fie!--Robert's not quite so bad as that.To-day's Sunday."</p>
          
-         <p>Uncle. “To be sure—to be sure!’’</p>
+         <p>Uncle. "To be sure--to be sure!''</p>
          
-         <p>Pratt. “I beg both your pardon’s—but I can’t be so muchmistaken. I know to-morrow's
-            Sunday because”— 
+         <p>Pratt. "I beg both your pardon's--but I can't be so muchmistaken. I know to-morrow's
+            Sunday because"-- 
          </p>
          
-         <p>Smitherton, (much surprised.) “What are you all thinking about? Was’nt
-            yesterday Sunday, I should like toknow?”
+         <p>Smitherton, (much surprised.) "What are you all thinking about? Was'nt
+            yesterday Sunday, I should like toknow?"
          </p>
          
-         <p>All. “Yesterday, indeed! you are out.”</p>
+         <p>All. "Yesterday, indeed! you are out."</p>
          
-         <p>Uncle. “To-day’a Sunday, I say—don't I know?”</p>
+         <p>Uncle. "To-day'a Sunday, I say--don't I know?"</p>
          
-         <p>Pratt. Oh no!—to-morrow's Sunday.”</p>
+         <p>Pratt. Oh no!--to-morrow's Sunday."</p>
          
-         <p>Smitherton. “You are all mad—every one of you. I am 
+         <p>Smitherton. "You are all mad--every one of you. I am 
             as positive that yesterday was Sunday as I am that I sit uponthis
-            chair.”
+            chair."
          </p>
          
-         <p>Kate, (jumping up eagerly.) “I see it—I see it all. Papa,this is a judgment upon
-            you, about—about you know what.Let me alone, and I’ll explain it all in a minute.
-            It’s a verysimple thing, indeed. Captain Smitherton says that yesterday was Sunday: so it was; he is right. Cousin Bobby, anduncle and I, say that
+         <p>Kate, (jumping up eagerly.) "I see it--I see it all. Papa,this is a judgment upon
+            you, about--about you know what.Let me alone, and I'll explain it all in a minute.
+            It's a verysimple thing, indeed. Captain Smitherton says that yesterday was Sunday: so it was; he is right. Cousin Bobby, anduncle and I, say that
             to-day is Sunday: so it is; we are right.Captain Pratt maintains that to-morrow will
             be Sunday; soit will; he is right too. The fact is, we are all right, andthus
             three Sundays have come together in a week."
          </p>
          
-         <p>Smitherton, (after a pause.) “By the bye, Pratt, Kate hasus completely. What fools
+         <p>Smitherton, (after a pause.) "By the bye, Pratt, Kate hasus completely. What fools
             we two are! Mr. Rumgudgeon,the matter stands thus: the earth, you know, is
             twenty-fourthousand miles in circumference. Now this globed the earthturns
-            upon its own axis—revolves—spins round—thesetwenty-four thousand miles of extent,
+            upon its own axis--revolves--spins round--thesetwenty-four thousand miles of extent,
             going from west toeast, in precisely twenty-four hours. Do you understand,Mr.
-            Rumgudgeon?”
+            Rumgudgeon?"
          </p>
          
-         <p>Uncle. “To be sure—to be sure—Doctor Dub”— </p>
+         <p>Uncle. "To be sure--to be sure--Doctor Dub"-- </p>
          
-         <p>Smitherton, (drowning his voice.) “Well, sir: that is atthe rate of one thousand
+         <p>Smitherton, (drowning his voice.) "Well, sir: that is atthe rate of one thousand
             miles per hour. Now suppose thatI sail from this position a thousand miles east. Of
             course, Ianticipate the rising of the sun here at London, by just onehour. I see the sun rise one hour before you do. Proceeding, in the same direction, yet another thousand miles, I anticipate the rising by two
-            hours—another thousand, and Ianticipate it by three hours—and so on, until I go
+            hours--another thousand, and Ianticipate it by three hours--and so on, until I go
             entirelyround the globe, and back to this spot, when, having gonetwenty-four
             thousand miles east, I anticipate the rising ofthe London sun by no less than
             twenty-four hours; that is tosay, I am a day in advance of your time. Understand, eh?"
          </p>
          
-         <p>Uncle. “But Dubble L. Dee”— .</p>
+         <p>Uncle. "But Dubble L. Dee"-- .</p>
          
-         <p>Smitherton, (speaking very loud.) “Captain Pratt, onthe contrary, when he had
+         <p>Smitherton, (speaking very loud.) "Captain Pratt, onthe contrary, when he had
             sailed a thousand miles west ofthis position, was an hour, and when he had sailed twentyfour thousand miles west, was twenty-four hours, or one day,
-            behind the time at London. Thus, with me, yesterday wasSunday—thus, with you,
-            to-day is Sunday—and thus, withPratt, to-morrow will be Sunday. And what is more,
+            behind the time at London. Thus, with me, yesterday wasSunday--thus, with you,
+            to-day is Sunday--and thus, withPratt, to-morrow will be Sunday. And what is more,
             Mr.Rumgudgeon, it is positively clear that we are all right; forthere can be
             no philosophical reason assigned why the ideaof one of us should have preference
             over that of the other.
          </p>
          
-         <p>Uncle. “My eyes!—well, Kate—well, Bobby!—this isa judgment upon me, as you say. But
-            I am a man of myword— mark that! you shall have her, boy (plum and all,)when
-            you please. Done up, by Jove! Three Sundays all ina row! I’ll go,and take Dubble L.
-            Dee’s opinion upon that.
+         <p>Uncle. "My eyes!--well, Kate--well, Bobby!--this isa judgment upon me, as you say. But
+            I am a man of myword-- mark that! you shall have her, boy (plum and all,)when
+            you please. Done up, by Jove! Three Sundays all ina row! I'll go,and take Dubble L.
+            Dee's opinion upon that.
          </p>
          
          
@@ -858,7 +882,7 @@
             
             <br></br>Thou wast all that to me, love,
             
-            <br></br>For which my soul did pine—
+            <br></br>For which my soul did pine--
             
             <br></br>A green isle in the sea, love,
             
@@ -874,11 +898,11 @@
             
             <br></br>A voice from out the Future cries,
             
-            <br></br>"On! on!”—but o’er the Past
+            <br></br>"On! on!"--but o'er the Past
             
             <br></br>(Dim gulf!) my spirit hovering lies Mute, motionless, aghast!
             
-            <br></br>For, alas! alas! with me The light of Life is o’er!
+            <br></br>For, alas! alas! with me The light of Life is o'er!
             
             <br></br>(Such language holds the solemn sea To the sands upon the shore)
             
@@ -892,7 +916,7 @@
             
             <br></br>Are where thy dark eye glances,
             
-            <br></br>And where thy footstep gleams—
+            <br></br>And where thy footstep gleams--
             
             <br></br>In what ethereal dances,
             
@@ -913,18 +937,20 @@
          
          <div class="head">REVIEWS.</div>
          
-         <div class="section" id="#s1p1">
-            <div class="biblTitle">The First Three Books of Homer’s Iliad</div>
+         <div class="piece" id="#p7">
+            <div class="biblTitle">The First Three Books of Homer's Iliad</div>
             <div class="biblPage">295</div>
             
-            <p>The first Three Books of Homer’s Iliad, according to the Ordidinary
+            <p>The first Three Books of Homer's Iliad, according to the Ordidinary
                Text, and also with the restoration of the Digamma, towhich are appended English
-               Notes, critical and explanatory, aMetrical Index, and Homer’s Glossary. By Charles
-               Anthon,L.L. D., Jay Professor of the Greek and Latin Languages in Columbia College, New York, and Rector of the Grammar School. NewYork:
+               Notes, critical and explanatory, aMetrical Index, and Homer's Glossary. By 
+               <span class="person" id="canthon">Charles
+                  Anthon
+               </span>,L.L. D., Jay Professor of the Greek and Latin Languages in Columbia College, New York, and Rector of the Grammar School. NewYork:
                Harper &amp; Brothers.
             </p>
             
-            <p>This is one of the series of “School and College Classics”which have attracted so
+            <p>This is one of the series of "School and College Classics"which have attracted so
                general an attention, first, from theircomprehensiveness, and admirable adaptation to their objects, and, secondly from their punctilious accuracy and beauty of typographical execution. We have seen richer, gaudier,
                but never more truly beautiful books. The Greek text, inthis Homer, with the
                frequent digammas, is certainly themost graceful and picturesque specimen of
@@ -932,28 +958,39 @@
             </p>
             
             <p>The volume contains all of the Iliad which is usually readat school, as
-               preparatory to a collegiate course—sufficientto furnish the student with the principles of Homeric translation and analysis. The text is, in the main, that of Spitzner, which is now generally regarded as the
-               best;—althoughon some occasions, alterations have been adopted, and the
-               reasons given in a note. Besides the regular text of Spitzner,there is that
-               of Richard Payne Knight, with the digammarestored according to his views. In fact,
-               it is by no meansimprobable that this secondary text is at least a close approximation to the ancient orthography of Homer—althoughmany
+               preparatory to a collegiate course--sufficientto furnish the student with the principles of Homeric translation and analysis. The text is, in the
+               main, that of 
+               <span class="person" id="spitzner">Spitz-ner</span>, which is now generally regarded as the
+               best;--althoughon some occasions, alterations have been adopted, and the
+               reasons given in a note. Besides the regular text of 
+               <span class="person" id="spitzner">Spitzner</span>,there is that
+               of 
+               <span class="person" id="rpknight">Richard Payne Knight</span>, with the digammarestored according to his views. In fact,
+               it is by no meansimprobable that this secondary text is at least a close approximation to the ancient orthography of Homer--althoughmany
                discrepancies might be pointed out, going to show thatin many cases the learned
                commentator could not have beenotherwise than wrong in his conjectures. The work
                ofKnight is extremely rare in this country, and even as a merematter of
-               curious speculation, Dr. Anthon has rendered apublic service by introducing the
+               curious speculation, Dr. 
+               <span class="person" id="canthon">Anthon</span> has rendered apublic service by introducing the
                restorations in question.
             </p>
             
             <p>The commentary, as in all this series of classics, is peculiarly full
-               and explicit—proceeding on the sole ground whichis admissible in matters of
-               scholastic instruction—the groundthat the scholar is absolutely ignorant, and has need of information at all points, however seemingly trivial. No error
+               and explicit--proceeding on the sole ground whichis admissible in matters of
+               scholastic instruction--the groundthat the scholar is absolutely ignorant, and has need of information at all points, however seemingly trivial. No error
                ismore fatal in tuition, than that of taking it for granted thatthe student
-               knows any thing at all. The materials of theNotes are derived, chiefly, from Wolf, Heyne, Buttman, Nagelsbach, and Stadelmann, and the Commentary
+               knows any thing at all. The materials of theNotes are derived, chiefly, from 
+               <span class="person" id="fawolf">Wolf</span>,
+               
+               <span class="person" id="cbheyne">Heyne</span>, 
+               <span class="person" id="buttman">Buttman</span>, 
+               <span class="person" id="nagelsbach ">Na-gelsbach</span>, and 
+               <span class="person" id="stadelmann">Stadelmann</span>, and the Commentary
                includesevery thing that is really valuable in the works of theseeminent
-               scholars. The Glossary is separated from the Notes,—a very judicious
-               arrangement—and contains a great dealof novel information in regard to the parsing
+               scholars. The Glossary is separated from the Notes,--a very judicious
+               arrangement--and contains a great dealof novel information in regard to the parsing
                of the HomericGreek. It is distinguished, also, from every Homeric Lexicon
-               which has preceded it (in English) by its introduction andapplication to the Homeric text, of the Sanscrit and Linguistic Etymologies:—an Index to
+               which has preceded it (in English) by its introduction andapplication to the Homeric text, of the Sanscrit and Linguistic Etymologies:--an Index to
                the Glossary is subjoined.The Metrical Index has been constructed with especial reference to the doctrine of the digamma and its bearing uponthe
                Homeric versification.
             </p>
@@ -965,35 +1002,42 @@
          </div>
          
          
-         <div class="section" id="#s1p2">
+         <div class="piece" id="#p8">
             <div class="biblTitle">Letters from New York.</div>
             <div class="biblPage">295</div>
             
-            <div class="ab">Letters from New York. Second Series. By L. M. Child. New 
+            <div class="ab">Letters from New York. Second Series. By 
+               <span class="person" id="lmchild">L. M. Child</span>. New 
                
                <br></br>York. C. S. Francis, &amp; Co. 1845.
             </div>
             
             
-            <p>The great popularity of the first series of Mrs. Child’s letters from
+            <p>The great popularity of the first series of Mrs. 
+               <span class="person" id="lmchild">Child</span>'s letters from
                New York, will insure a hearty welcome and alarge sale for this new volume.
-               Without possessing any ofthe charms which private epistles derive from their confidential revelations and bits of private scandal that all people love, the letters of Mrs. Child make a direct appeal to 
+               Without possessing any ofthe charms which private epistles derive from their confidential revelations and bits of private scandal that all people love, the letters of Mrs. 
+               <span class="person" id="lmchild">Child</span> make a direct appeal to 
                every human heart and cause the reader to feel as thoughthey had been
                addressed to himself personally. It is becausethe author opens her own heart that
                she gains admission tothe hearts of others so rapidly. Nothing will so disarm reserve as confidence; ice can alone be melted by heat; hatredand
                anger must be overcome by love and kindness. Bitter,sarcastic writers can never
-               hope for popularity, or at leastlove. We rarely see one of Swift’s essays carried
-               about as apocket companion, but the good natured genial writings ofGoldsmith
+               hope for popularity, or at leastlove. We rarely see one of 
+               <span class="person" id="jswift">Swift</span>'s essays carried
+               about as apocket companion, but the good natured genial writings of
+               <span class="person" id="ogoldsmith">Goldsmith</span>
                are oftener bound up as pocket volumes than theworks of any other author. The
-               popularity of Mrs. Child’sletters must be attributed to a similar cause; and to
+               popularity of Mrs. 
+               <span class="person" id="lmchild">Child</span>'sletters must be attributed to a similar cause; and to
                the factthat they treat of human beings and things that interest humanity. The sympathies of men are more wide than weare apt to believe. The stories of washerwomen, of streetsweepers and little
                beggar children, interest us beyond themost elaborate histories of merely official
-               personages. Mrs.Child instinctively seizes upon subjects which are interesting
+               personages. Mrs.
+               <span class="person" id="lmchild">Child</span> instinctively seizes upon subjects which are interesting
                to all classes, to men and women rather than to statesmen,or ladies and
                gentlemen. The present volume of her lettershas a most taking table of contents.
-               'Christmas,’ 'Ole Bul,’'New Year’s Festivities,’ 'Valentine’s Day,’ 'Fourth of
-               July,’'Children in Union Park,’ 'Genius and Skill,’ ‘GreenwoodCemetery,’
-               'The Violin,’ 'Autumn Woods,’ The Spirite ofTrade,’ 'Sir Harry Falkland;’ these
+               'Christmas,' 'Ole Bul,''New Year's Festivities,' 'Valentine's Day,' 'Fourth of
+               July,''Children in Union Park,' 'Genius and Skill,' 'GreenwoodCemetery,'
+               'The Violin,' 'Autumn Woods,' The Spirite ofTrade,' 'Sir Harry Falkland;' these
                are some of the titlesto the letters; suggestive of charming reading and delightful heart-touching subjects.
             </p>
             
@@ -1006,10 +1050,10 @@
                is considered that it is already not very uncommon to order furniturefor a
                single room, at the cost of ten thousand dollars. There wouldbe no reason to
                regret this lavishness, if the convenience and beautyof social environment were really increased in proportion to the expenditure, and if there were a
-               progressive tendency to equality in thedistribution. But, alas, a few moments’
+               progressive tendency to equality in thedistribution. But, alas, a few moments'
                walk from saloons superblyfurnished in the style of Louis 14th, brings us to
-               Loafer’s Hall, adreary desolate apartment, where shivering little urchins pay a
-               centapiece, for the privilege of keeping out of watchmen’s hands, bysleeping
+               Loafer's Hall, adreary desolate apartment, where shivering little urchins pay a
+               centapiece, for the privilege of keeping out of watchmen's hands, bysleeping
                on boards ranged in tiers.
             </p>
             
@@ -1029,7 +1073,7 @@
                pride. Some human souls, finding themselves fenced within suchnarrow limits by
                false relations, seek fashionable distinction, or theexcitement of gossip,
                flirtation, and perpetual change, because theycan find no other unforbidden
-               outlets for the irrepressible activity ofmind and heart. A very few, of nature’s
+               outlets for the irrepressible activity ofmind and heart. A very few, of nature's
                noblest and strongest,quietly throw off the weight that presses on them, and lend a comparatively true life in the midst of shams, which they reprove
                onlyby example. Those who can do this, without complaint or noise,and
                attempt no defence of their peculiar course, except the dailybeauty of their
@@ -1037,9 +1081,9 @@
                was ever constructed; but the power todo this requires a rare combination of
                natural qualifier. For the fewwho do accomplish this difficult task, I even feel
                more respect thanI do for those who struggle upward under the heavy burden of
-               earlypoverty. “For wealth bears heavier on talent, than poverty. Undergold
+               earlypoverty. "For wealth bears heavier on talent, than poverty. Undergold
                mountains and thrones, who knows how many a spiritual giantmay lie crushed down
-               and buried?” I once saw a burdock shoot upso vigorously, that it threw off a piece
+               and buried?" I once saw a burdock shoot upso vigorously, that it threw off a piece
                of board in the platform,which covered it front light and air. I had great respect
                for the braveplant, and even carried my sympathy so far, as to reproach myself
                for not haring lifted the board it was trying to bard to raise, insteadof
@@ -1061,7 +1105,7 @@
          </div>
          
          
-         <div class="section" id="#s1p3">
+         <div class="piece" id="#p9">
             <div class="biblTitle">The Pencil of Nature</div>
             <div class="biblPage">296</div>
             
@@ -1074,13 +1118,13 @@
             
             <p>This is the first attempt to publish a series of pictures, madeentirely by Nature herself. They are produced by the photographic process, and are of course as true, excepting in color, as truth herself. These
                reflections of Nature are fixedupon sensitive paper instead of metal plates, as in the Daguerrian process; and each picture is an original work. The
-               “Pencil of Nature” is a somewhat fanciful term, and not avery correct one, for these impressions partake of the character of a medallion more
+               "Pencil of Nature" is a somewhat fanciful term, and not avery correct one, for these impressions partake of the character of a medallion more
                than of painting. But we are notdisposed to pick differences about terms, the work
                itself isentitled to the highest consideration, and every one who inspects it will draw his own auguries of its influence on the
                imitative Arts. The author gives a very full and lucid statement
                of the first discovery of his art, and of the process bywhich it has been carried
                to its present high condition. Bypure chance, Monsieur Daguerre has reaped nearly
-               all thehonors of the discovery which Mr. Fox Talbot made simultaneously with him. There are twelve plates in the twonumbers of Mr. Talbot’s publication, which very satisfactorily prove the importance of the art
+               all thehonors of the discovery which Mr. Fox Talbot made simultaneously with him. There are twelve plates in the twonumbers of Mr. Talbot's publication, which very satisfactorily prove the importance of the art
                in giving actual views ofalmost any kind of still life. In making copies of architectural ornaments and pictures, it must be found of very great
                advantage; and even in copying curious manuscripts and rareold books, it is
                found of great service, as may be seen froma fac-simile of a page of an old Norman-French book, containing the statutes of Richard the Second.
@@ -1093,7 +1137,7 @@
                by a couple of wheel-barrowswhich stand in the fore ground. By the road side a row
                ofCittadines and Cabriolets are waiting, and a carriage is standing in the distance. It is the Broadway, as much as this isBroadway which we
                look into when we raise our head.But, goodness, what a range of fantastic chimney-pipes borders the horizon, forest of flues of all conceivable
-               shapes.The corner house on the right hand is a bathing house, with"Bains”
+               shapes.The corner house on the right hand is a bathing house, with"Bains"
                painted on the wall. Saving the mansion with arailing in front it looks for all
                the world like a New Yorkhouse; we can look into the garret window and almost discern a Grisette at her employment. It is a cheap view of
                Paris.
@@ -1112,40 +1156,41 @@
             
          </div>
          
-         
-         <div class="section" id="#s1p4">
+         <div class="piece" id="#p10">
             <div class="biblTitle">Saul, A Mystery</div>
             <div class="biblPage">296</div>
             
-            <div class="ab">Saul, A Mystery. By the Author of “Christian Ballads,” "Athan- 
+            <div class="ab">Saul, A Mystery. By the Author of "Christian Ballads," "Athan- 
                
-               <br></br>asion,” etc. etc. etc. New York: D. Appleton, &amp; Co.
+               <br></br>asion," etc. etc. etc. New York: D. Appleton, &amp; Co.
             </div>
             
-            <p>This poem was announced as about to be published in thefall of 1842, but withheld for private reasons. It is the longest dramatic work ever written, we believe, by an American,—occupying more than 280 pages, large
+            <p>This poem was announced as about to be published in thefall of 1842, but withheld for private reasons. It is the longest dramatic work ever written, we believe, by an American,--occupying more than 280 pages, large
                duodecimo. Thehistory on which it is founded, is contained in the Books of
                Samuel, commencing with the twentieth chapter of the firstbook, and ending
-               with the first chapter of the second. “Itmay be proper to say," says the author in
+               with the first chapter of the second. "Itmay be proper to say," says the author in
                a note, "that I amnot acquainted with any other poem in the language plotted 
-               on the same incidents. Mr. Sotheby’s Epic, which veryprobably occupies
-               the same ground, I believe I have neverseen, and am sure that I never read.”
+               on the same incidents. Mr. 
+               <span class="person" id="wsotheby">Sotheby</span>'s Epic, which veryprobably occupies
+               the same ground, I believe I have neverseen, and am sure that I never read."
             </p>
             
             <p>This we look upon as a very remarkable thing. How apoet, writing a Jong dramatic
-               poem on the same theme, andwith the same title and hero which have been already employed by another, could have forborne (at least after the completion of his own work) to peruse the work of his fellow-laborer in the field, is to our apprehension, we say, a eery remarkable thing, and plainly shows Mr. Coxe to be a very remarkable man.
+               poem on the same theme, andwith the same title and hero which have been already employed by another, could have forborne (at least after the completion of his own work) to peruse the work of his fellow-laborer in the field, is to our apprehension, we say, a eery remarkable thing, and plainly shows Mr. 
+               <span class="person" id="accoxe">Coxe</span> to be a very remarkable man.
             </p>
             
-            <p>We have no faith in dramatic poems—they are paradoxical.What is poetical is not
-               dramatic—what is dramatic is neverpoetical. “Saul,” however, is not entitled a
-               “DramaticPoem,” but a “Mystery”—and if there is any thing in theWorld we
+            <p>We have no faith in dramatic poems--they are paradoxical.What is poetical is not
+               dramatic--what is dramatic is neverpoetical. "Saul," however, is not entitled a
+               "DramaticPoem," but a "Mystery"--and if there is any thing in theWorld we
                detest, it is a mystery of any kind. We confess,therefore, that we proceed to the
                perusal of this book witha host of prejudice. We do not think we shall like it,
                andif we do not, we shall endeavor to say so, in the plainest ofall possible
                terms.
             </p>
             
-            <p>In our next "Journal,” we shall review the poem in full.At present, we have time
-               only to extract a peculiar passage,—the whole of the first scene of the fourth
+            <p>In our next "Journal," we shall review the poem in full.At present, we have time
+               only to extract a peculiar passage,--the whole of the first scene of the fourth
                act.
             </p>
             
@@ -1209,11 +1254,11 @@
                
                <br></br>If such the might of song;
                
-               <br></br>Ye too shall have enchanters Mimicking once more The spell of Moses’ rod:
+               <br></br>Ye too shall have enchanters Mimicking once more The spell of Moses' rod:
                
                <br></br>And Pytho shall be praised upon the lyre,
                
-               <br></br>Loud as the Hebrew’s Lord.
+               <br></br>Loud as the Hebrew's Lord.
                
                <br></br>A blind old man shall be To roam the sunny islands,
                
@@ -1254,20 +1299,22 @@
          </div>
          
          
-         <div class="section" id="#s1p5">
+         <div class="piece" id="#p11">
             <div class="biblTitle">Never too Late</div>
             <div class="biblPage">297</div>
             
-            <div class="ab">Never too Late. By Charles Burdett. New York. D. Appleton, &amp; Co. Be-
+            <div class="ab">Never too Late. By 
+               <span class="person" id="cburdett">Charles Burdett</span>. New York. D. Appleton, &amp; Co. Be-
                
                <br></br>ing of a second series of tales for the people.
             </div>
             
             <p>One of those simple little tales of every day life, written to enforce apious
                lesson, which always proves popular, and is doubtless foundconducive to the object
-               aimed at. Mr. Burdett is already favorablyknown as the author of two or three
+               aimed at. Mr. 
+               <span class="person" id="cburdett">Burdett</span> is already favorablyknown as the author of two or three
                other books of the same class.It is published in a neat style, uniform with the
-               well known “series offor the people," issued by the same publishers.
+               well known "series offor the people," issued by the same publishers.
             </p>
             
          </div>
@@ -1280,60 +1327,81 @@
          
          <div class="head">THE MAGAZINES.</div>
          
-         <div class="section" id="#s2p1">
+         <div class="piece" id="#p12">
             <div class="biblTitle">The Knickerbocker</div>
             <div class="biblPage">297</div>
             <div class="ab">The Knickerbocker.
                <br></br>Democratic Review.
-               <br></br>Hunt’s Merchant’s Magazine.
+               <br></br>Hunt's Merchant's Magazine.
                
-               <br></br>American Review and Whig Magazine.—(Colton.)
+               <br></br>American Review and Whig Magazine.--(
+               <span class="person" id="ghcolton">Colton</span>.)
             </div>
             
-            
-            <p>The Knickerbocker presents its customary variety in itstable of contents besides a grand piece de resistance, composed of A. Pike, and its Editor’s
-               table the usual variety ofpleasant gossip. We are sorry to see that Mr. Clark has involved himself in a quarrel with Mr. Hudson, and more sothat
+            <p>The Knickerbocker presents its customary variety in itstable of contents besides a grand piece de resistance, composed of 
+               <span class="person" id="apike">A. Pike</span>, and its Editor's
+               table the usual variety ofpleasant gossip. We are sorry to see that Mr. 
+               <span class="person" id="lgclark">Clark</span> has involved himself in a quarrel with Mr. 
+               <span class="person" id="hnhudson">Hudson</span>, and more sothat
                he should have found anything in our own columns thatby transplanting will wear an
                appearance of hostility to thatgentleman. Our remarks, which the Editor of the Knickerbocker has quoted, were meant to apply solely to Mr.
-               Hudson’s manner, and not to his matter, for we had notheard enough of his
+               
+               <span class="person" id="hnhudson">Hudson</span>'s manner, and not to his matter, for we had notheard enough of his
                lectures to enable us to form an opinionof his views of his subject; but we were
-               strongly impressedwith a feeling of respect for Mr. Hudson’s opinions, from the
+               strongly impressedwith a feeling of respect for Mr. 
+               <span class="person" id="hnhudson">Hudson</span>'s opinions, from the
                little that we did hear.
             </p>
             
-            <p>The feature of the Democratic Review is an essay oneducation by Mr. Hudson, from
+            <p>The feature of the Democratic Review is an essay oneducation by Mr. 
+               <span class="person" id="hnhudson">Hudson</span>, from
                which the public may forma correct idea of his style and thoughts. Many who have
                long been in the habit of calling all New-Englanders reformers and transcendentalists, will be struck with his strong Conservatism.
-               Mr. Hudson has constantly an eye to thefuture, like the majority of his
+               Mr. 
+               <span class="person" id="hnhudson">Hudson</span> has constantly an eye to thefuture, like the majority of his
                countrymen, but he also keepsan eye fixed steadily upon the past. He believes in
                the goodold times. The Democratic has several admirable articlesbesides Mr.
-               Hudson’s. The Essayist on English letter writersfrom the time of Howell to Lamb,
-               makes a very singularomission in leaving Horace Walpole out of his Catalogue.
-               This is like leaving Shakspeare out of the list of EnglishDramatists, or
+               
+               <span class="person" id="hnhudson">Hudson</span>'s. The Essayist on English letter writersfrom the time of 
+               <span class="person" id="jhowell">Howell</span> to 
+               <span class="person" id="clamb">Lamb</span>,
+               makes a very singularomission in leaving 
+               <span class="person" id="hwalpole">Horace Walpole</span> out of his Catalogue.
+               This is like leaving 
+               <span class="person" id="wshakespeare">Shakspeare</span> out of the list of EnglishDramatists, or
                Fielding from the Catalogue of Novelists.Walpole is the only Englishman whose
                letters form thecirculating portion of his works. We read the letters of other
-               authors on account of their other productions: but we readWalpole’s works,
+               authors on account of their other productions: but we read
+               <span class="person" id="hwalpole">Walpole</span>'s works,
                because we have read his letters. Wehave extracted a good part of the Essay on
                writing for theMagazines, for its genial humor and magazinity, into another part of our columns. The portrait of the Democratic forthis month is a striking likeness of McDuffie, of South Carolina, copied
                from a daguerreotype.
             </p>
             
-            <p>Hunt's Magazine has a translation from M. Coquelin,by Henry C. Carey, of
+            <p>Hunt's Magazine has a translation from 
+               <span class="person" id="coquelin">M. Coquelin</span>,by 
+               <span class="person" id="hccarey">Henry C. Carey</span>, of
                Philadelphia, on the CommercialAssociations of France and England, a paper on the
-               ErieCanal Enlargement, by J. B. Jervis, of New-York, on theCorn Trade of the
-               United Stales, by Charles Hudson, ofMassachusetts, a review of the Exploring
+               ErieCanal Enlargement, by 
+               <span class="person" id="jbjervis">J. B. Jervis</span>, of New-York, on theCorn Trade of the
+               United Stales, by 
+               <span class="person" id="chudson">Charles Hudson</span>, ofMassachusetts, a review of the Exploring
                Expedition, anda great amount of of statistical matter.
             </p>
             
-            <p>The American Review, Mr. Colton's Whig Magazine,is almost a duplicate of the
+            <p>The American Review, Mr. 
+               <span class="person" id="ghcolton">Colton</span>'s Whig Magazine,is almost a duplicate of the
                Democratic Review exceptingthe complexion of its politics. The first article, by
-               Dr.Bacon “The Mystery of Iniquity,” is forcibly written, andinfinitely more
-               exciting than any of the ‘mysteries’, notexcepting Saul, that have recently been
+               Dr.
+               <span class="person" id="dfbacon">Bacon</span> "The Mystery of Iniquity," is forcibly written, andinfinitely more
+               exciting than any of the 'mysteries', notexcepting Saul, that have recently been
                published. It readsvery much like a chapter from the mysteries of Paris. The
-               paper by Mr. Hudson “on reading” will do very well as a Seqaul to
+               paper by Mr. 
+               <span class="person" id="hnhudson">Hudson</span> "on reading" will do very well as a Seqaul to
                one on Education in the Democratic. It is worthan infinite number of such Essays
-               as that by Pycroft, a cheapedition of which has recently been published. The
-               reviewof the ‘ Vestiges of Creation,’ is the most vigorous attackthat has yet been made on that much abused and much bepraised work. The
+               as that by 
+               <span class="person" id="jpycroft">Pycroft</span>, a cheapedition of which has recently been published. The
+               reviewof the ' Vestiges of Creation,' is the most vigorous attackthat has yet been made on that much abused and much bepraised work. The
                embellishment of the Whig Review, isa portrait of John Quincy Adams, neither very commendable as a portrait or as a work of art. The biographical sketch of the old-man-eloquent, as the country newspapers will persist in calling the venerable ex-President,contains an extract
                from his diary when he was twenty-fiveyears old, which will let him down in the
                eyes of goodpeople several rounds on the ladder of fame.
@@ -1352,22 +1420,26 @@
             </p>
          </div>
          
-         <div class="section" id="#s2p2">
+         <div class="piece" id="#p13">
             <div class="biblTitle">Blackwood</div>
             <div class="biblPage">298</div>
-            <p>BLACKWOOD.—Mess. Leonard, Scott &amp; Co. have issued the Aprilnumber of
-               Blackwood. It contains eight papers of varied excellence,but all good. “Ping-Kee’s
-               view of the stage” is piquant exceeding,ly, and North’s Account of Dryden (although disfigured with the usual carelessness and rant of Wilson) is an admirable essay. The continuation of the papers called “
-               Confessions of an Opium Eater” isbetter, we think, than the original—which was a
+            <p>BLACKWOOD.--Mess. Leonard, Scott &amp; Co. have issued the Aprilnumber of
+               Blackwood. It contains eight papers of varied excellence,but all good. "Ping-Kee's
+               view of the stage" is piquant exceeding,ly, and 
+               <span class="person" id="jwilson">North</span>'s Account of 
+               <span class="person" id="jdryden">Dryden</span>(although disfigured with the usual carelessness and rant of 
+               <span class="person" id="jwilson">Wilson</span>) is an admirable essay. The continuation of the papers called "
+               Confessions of an Opium Eater" isbetter, we think, than the original--which was a
                lie throughout.There is yet room for a book on opium eating, which shall be the
                most profoundly interesting volume ever penned. It would be written,however,
-               by no De Quincy.
+               by no 
+               <span class="person" id="tdequincey">De Quincy</span>.
             </p>
          </div>
       </div>
       
       
-      <div class="piece" id="#p7">
+      <div class="piece" id="#p14">
          <div class="biblTitle">New Works in Press</div>
          <div class="biblPage">298</div>
          
@@ -1375,57 +1447,73 @@
          
          <div class="ab">London, April 1, 1845.</div>
          
-         <div class="ab">Sybil, a novel. By D’Israeli, author of “Coningsby.”</div>
+         <div class="ab">Sybil, a novel. By 
+            <span class="person" id="bdisraeli">D'Israeli</span>, author of "Coningsby."
+         </div>
          
-         <div class="ab">Life of the late Lord Hill. By the Rev Edwin Sydney. 8vo.</div>
+         <div class="ab">Life of the late Lord Hill. By the 
+            <span class="person" id="esidney">Rev Edwin Sydney</span>. 8vo.
+         </div>
          
          <div class="ab">Travels in North America, with Geological Observations. By
-            <br></br>Charles Lyell, F. R.
+            <br></br>
+            <span class="person" id="clyell">Charles Lyell</span>, F. R.
             S., with plates.
          </div>
          
-         <div class="ab">Naval Worthies of the Reign of Queen Elizabeth. By John Barron,
+         <div class="ab">Naval Worthies of the Reign of Queen Elizabeth. By 
+            <span class="person" id="jbarron">John Barron</span>,
             <br></br>Esq.
          </div>
          
          <div class="ab">The Tree Rose, Practical Instructions for its formation and Culture.</div>
          
-         <div class="ab">The Literature of Political Economy. By J. R. Mc. Culloch, Esq.</div>
+         <div class="ab">The Literature of Political Economy. By 
+            <span class="person" id="jrmcculloch">J. R. Mc. Culloch</span>, Esq.
+         </div>
          
-         <div class="ab">Physical Condition of New South Wales and Van Dieman’s Land.
+         <div class="ab">Physical Condition of New South Wales and Van Dieman's Land.
             <br></br>8vo.
          </div>
          
-         <div class="ab">The Lady’s Country Companion. By Mrs. Lowdon.</div>
+         <div class="ab">The Lady's Country Companion. By Mrs. 
+            <span class="person" id="jcloudon">Lowdon</span>.
+         </div>
          
-         <div class="ab">Richard the Third; a poem. By Sharon Turner, Esq.</div>
+         <div class="ab">Richard the Third; a poem. By 
+            <span class="person" id="sturner">Sharon Turner</span>, Esq.
+         </div>
          
          <div class="ab">A Dictionary of Greek and Roman Biography and Mythology. Edi
             <br></br>ted by
-            Dr. William Smith,Editor of the Dictionary of Greek and
-            <br></br>Roman Antiquities—to be
+            Dr. 
+            <span class="person" id="wsmith">William Smith</span>,Editor of the Dictionary of Greek and
+            <br></br>Roman Antiquities--to be
             completed in 3 vols. 8vo.
          </div>
          
          <div class="ab">Overland Sketches of the Pyramids, Cataracts, Deserts, Mosques,
-            <br></br>etc. By Lieut. C.
-            B. Young.
+            <br></br>etc. By Lieut. 
+            <span class="person" id="cbyoung">C.
+               B. Young
+            </span>.
          </div>
          
-         <div class="ab">Finden’s Beauties of the Poets—a series of their principal female
+         <div class="ab">Finden's Beauties of the Poets--a series of their principal female
             <br></br>characters. To
             be issued monthly.
          </div>
          
-         <div class="ab">Parrot’s Ascent of Mount Ararat: being the first vol. of Cooley’s
-            <br></br>“World
-            Surveyed.”
+         <div class="ab">Parrot's Ascent of Mount Ararat: being the first vol. of 
+            <span class="person" id="wdcooley">Cooley</span>'s
+            <br></br>"World
+            Surveyed."
          </div>
          
       </div>
       
       
-      <div class="piece" id="#p8">
+      <div class="piece" id="#p15">
          <div class="biblTitle">Eothen</div>
          <div class="biblPage">298</div>
          
@@ -1434,14 +1522,14 @@
          <p>The editor of the Buffalo Journal has started an ingeniousthought in respect to
             this brilliant book of travel, which willnot in the smallest degree diminish its
             value, even thoughhis thought should prove a fact. He thinks that Eothen was
-            composed upon the plan of the Amber Witch and Lady Wil-,loughby’s Diary, and
+            composed upon the plan of the Amber Witch and Lady Wil-,loughby's Diary, and
             that the success of the former work ledto the composition of Eothen. We copy a part
             of his re-;marks, which are certainly very plausible.
          </p>
          
          <p>We are more than half inclined to suspect that the success of theAmber Witch has
             provoked the really clever writer of Eothen to test,by a like experiment, the boasted infallibility of the English Reviewers. Sparkling as most of the
-            sketches in Eothen are, there is notfrom beginning to end a single passage that could not have been written by a man of vivid imagination—such as the writer evidently possesses__without removing from his library. Hundreds
+            sketches in Eothen are, there is notfrom beginning to end a single passage that could not have been written by a man of vivid imagination--such as the writer evidently possesses__without removing from his library. Hundreds
             of writers ofworks, avowedly fictitious, display quite as much of graphic fidelity
             to nature in describing scenery, costumes and manners, with whichthey have no
             other acquaintance than through books.
@@ -1454,7 +1542,7 @@
             specimens ofvery beautiful writing, are yet so vague, shadowy, and indistinct, that
             of the thousands who have visited the same places none can say thatthis is
             true, this false, except in the general way that every well readman can make the
-            same averment—We see the writer and read hisreflections, but we see nothing of the
+            same averment--We see the writer and read hisreflections, but we see nothing of the
             East.
          </p>
          
@@ -1471,10 +1559,10 @@
             a fervid imagination.
          </p>
          
-         <p>But we are willing to stake the whole argument on the chapter of“Cairo and the
-            Plague.” If any one can read that and verily believethe writer ever witnessed and
+         <p>But we are willing to stake the whole argument on the chapter of"Cairo and the
+            Plague." If any one can read that and verily believethe writer ever witnessed and
             passed through what he professes, heneed not stagger at any thing. The same is true
-            of what he saysrespecting the Pyramids, and that incredible, solitary ride on a dromedary, in the night, across the desert, to Suez.—Look, too, at
+            of what he saysrespecting the Pyramids, and that incredible, solitary ride on a dromedary, in the night, across the desert, to Suez.--Look, too, at
             Baalbec,despatched, literally, in a dozen lines of dreamy mystification, containing not one definite idea. We might go on with particulars, but
             these are enough to direct inquiry to the point we wish. The mocking tone in which much of the book is written, gives piquancy to it,while at the same time it suggests that the wicked writer was chuckling over the
             success of his scheme to mystify the Aristarchuses of thereviews. The view we have
@@ -1484,7 +1572,8 @@
             to have the opinions of our critical friends of the Mirror and the Broadway Journal upon this matter.
          </p>
          
-         <p>If the travels of Bruce, published with his own name, andaccompanied by numerous
+         <p>If the travels of 
+            <span class="person" id="jbruce">Bruce</span>, published with his own name, andaccompanied by numerous
             original drawings of the objectsthat he saw in his journeyings, were looked upon as apocryphal, it would not be a strange matter if a book like Eothen,
             which has been published anonymously, should be regardedas a fiction. But its
             authenticity has never been doubted inEngland, where the author must be well known. Its authorship has been attributed to a barrister named Trevilian, and
@@ -1494,7 +1583,7 @@
             an air ofromance. But these are just the points which a good artist,like the
             author of Eothen, would have regarded, and to makehis book appear true, he would
             have introduced some of thecharacteristics of other true books; as the author of the Amber Witch has done. But its originality is one of the strongest evidences of its genuineness. Nothing could be moreeasy than to
-            get up, without leaving one’s library, a book ofEastern travel that would thoroughly
+            get up, without leaving one's library, a book ofEastern travel that would thoroughly
             deceive the public; butonly a very great artist could have hit upon the novel idea
             of practising a deception by framing a work unlike any otherthat had ever
             appeared on the same subject, and instead ofusing the same materials which others
@@ -1509,21 +1598,24 @@
       </div>
       
       
-      <div class="piece" id="#p9">
+      <div class="piece" id="#p16">
          <div class="biblTitle">Bobus Smith</div>
          <div class="biblPage">298</div>
          
          <div class="head">BOBUS SMITH.</div>
          
-         <p>It is not generally known to American readers, that the Rev. Sydney
-            Smith had a brother who was nearly as bright a genius as thegreat wit himself.
+         <p>It is not generally known to American readers, that the Rev. 
+            <span class="person" id="ssmith">Syd-ney
+               Smith
+            </span> had a brother who was nearly as bright a genius as thegreat wit himself.
             Robert Smith, commonly called Bobus by hisfriends, died just a fortnight after the decease of his elder and more famous brother. We find the following
             biographical notice in the lastnumber of the London Critic, the new weekly review
             which defends thecause of Young England:
          </p>
          
-         <p>“It has very recently fallen to our lot to attempt some commemoration
-            of the life, character, and genius of the late Rev.Sydney Smith. We little
+         <p>"It has very recently fallen to our lot to attempt some commemoration
+            of the life, character, and genius of the late Rev.
+            <span class="person" id="ssmith">Sydney Smith</span>. We little
             apprehended at the time that weshould so soon afterwards be called upon to record
             the deathof his brother, elder by one year, Robert Smith, Esq., whichtook
             place on the day fortnight after the other. These twomost remarkable men had always
@@ -1536,29 +1628,34 @@
             and wit,though by no means his most valuable characteristic, he,among the men
             of his own, and perhaps of any time, maywith truth be pronounced inimitable; at the
             same time, webelieve that the most discerning of the contemporaries whowere
-            happy enough to enjoy the friendship of both—we aresure that the lamented Sydney
-            himself—would in extent ofacquirement, in original force of thought, in mastery of
+            happy enough to enjoy the friendship of both--we aresure that the lamented Sydney
+            himself--would in extent ofacquirement, in original force of thought, in mastery of
             mind,have given the palm to Robert, or to call him by the namehe inherited
             from the happy familiarity of early days, BobusSmith.
          </p>
          
-         <p>“We cannot pretend to give a full or accurate account of hislife. He was born iu
-            1770. At Eton he was the intimateassociate of Canning, Frere, and Lord Holland, and a contributor to the Microcosm. At Cambridge he materially addedto
+         <p>"We cannot pretend to give a full or accurate account of hislife. He was born iu
+            1770. At Eton he was the intimateassociate of Canning, 
+            <span class="person" id="jhfrere">Frere</span>, and Lord Holland, and a contributor to the Microcosm. At Cambridge he materially addedto
             the reputation for scholarship and classical compositionwhich he had established at school; and if the most fastidious critic of our day would diligently
             peruse the threeTriposes which he composed in Lucretian rhythm, on thethree
             systems of Plato, Descartes, and Newton, we believethat we should not run the least
             risk of incurring the chargeof exaggeration, in declaring our belief that these compositions in Latin verse have not been excelled since Latin was
-            a living language. Be this said with the peace of Milton andCowley—with the
-            peace of his fellow Etonians, Grey andLord Wellesley.
+            a living language. Be this said with the peace of 
+            <span class="person" id="jmilton">Milton</span> and
+            <span class="person" id="acowley">Cowley</span>--with the
+            peace of his fellow Etonians, 
+            <span class="person" id="tgray">Grey</span> andLord Wellesley.
          </p>
          
-         <p>“We are not aware that we can refer to any subsequentcompositien by Mr. Smith which
+         <p>"We are not aware that we can refer to any subsequentcompositien by Mr. Smith which
             could be put on a level withthese youthful effusions. We should, indeed, imagine
             thatno person with his powers of intellect had ever published solittle. Nor
             were his achievements in active public life, fromthe same fastidious aversion to
             display, though by no meanswanting in usefulness, at all commensurate with the ideas
-            conceived of him by every one that approached him. He wasnine years in Bengal as Advocate General, and one short extract from Sir James Macintosh’s
-            Diary may show the valueentertained for him there:—“I hear frequently of Bobus; always merry and always kind. Long live Bobus!” 
+            conceived of him by every one that approached him. He wasnine years in Bengal as Advocate General, and one short extract from Sir 
+            <span class="person" id="jmackintosh">James Macintosh</span>'s
+            Diary may show the valueentertained for him there:--"I hear frequently of Bobus; always merry and always kind. Long live Bobus!" 
          </p>
          
          <p>We believe his acquaintances were disposed to form brilliant auguries
@@ -1569,13 +1666,13 @@
             eminent services asa most diligent and pains-taking member of committees,which
             might have put many an idle mediocrity to the blush.He finally retired from Parliament in 1826. He spent the remainder of his life in comparative
             retirement, in the sereneenjoyment of the various literature he loved, and the cheerful intercourse of the restricted society that delighted him.
-            Nothing can be imagined more rich and racy in its varietyof material, and in its force of reflection, than his conversation. “Pourquoi ne parlez-vous comme-ca dans la Chambre des Communes?" said Madame de Stael to him one
+            Nothing can be imagined more rich and racy in its varietyof material, and in its force of reflection, than his conversation. "Pourquoi ne parlez-vous comme-ca dans la Chambre des Communes?" said Madame de Stael to him one
             day,after listening for some time to its eloquent flow; thoughthere was in it
             nothing of the harangue, in its manly easeand simplicity it partook of his
             character; there was muchin him of the sturdy Saxon combined with the refined and
             thoroughly finished scholar. No one was ever so clear of allfrippery, and the
             only thing for which he probably felt notoleration was a prig. Of his conversation
-            Mr. Canning said“Bobus's language is the essence of English.”
+            Mr. Canning said"Bobus's language is the essence of English."
          </p>
          
          <p>In his inner domestic life he was full of gentle and attaching
@@ -1587,13 +1684,15 @@
       </div>
       
       
-      <div class="piece" id="#p10">
+      <div class="piece" id="#p17">
          <div class="biblTitle">Professor Gouraud</div>
          <div class="biblPage">299</div>
          
-         <p>Professor Gouraud.—The following extract from theProfessor's lecture on Memory, is
+         <p>Professor 
+            <span class="person" id="ffgouraud">Gouraud</span>.--The following extract from theProfessor's lecture on Memory, is
             a remarkable instance offluent writing in a foreigner, who, three or four years
-            since,was almost ignorant of our languge. M. Gouraud’s styleis somewhat too
+            since,was almost ignorant of our languge. 
+            <span class="person" id="ffgouraud">M. Gouraud</span>'s styleis somewhat too
             luxuriant for these days of classic severity,but it has wonderful ease as the
             production of a foreigner.
          </p>
@@ -1605,7 +1704,7 @@
          </p>
          
          <p>tious shadow of the woods. At their return, the implacable eagle andthe voracious
-            hawk begin to prepare anew their sharp talons for themorning’s hunt; while,
+            hawk begin to prepare anew their sharp talons for themorning's hunt; while,
             disengaging their heads from underneath thewarm wings which covered them during the
             night, the birds of dayamong whom they must soon choose again their prey, little
             foreseeingthe cruel fate which may and which must before long overtake them,
@@ -1618,12 +1717,12 @@
             vibrate afar, with a sweet and tremulous thrill; theecho, hitherto silent, repeats
             it in successive adulations to the distantstreamlet of the valley. Immediately cadencing a harmonious roulade, which seems to run over a thousand
             varied notes at once thefairy voice which produced these ravishing sounds awakens
-            all thesurrounding echoes, and they repeat it in chorus—while the voice itself
+            all thesurrounding echoes, and they repeat it in chorus--while the voice itself
             seems to pause, as if, submerged in the torrent of harmonies withwhich she has
             filled the atmosphere, she were listening to herself inrapturous astonishment. At
             these enchanting accents, the joyoustroop are suddenly arrested, as if under the
             infatuation of a spell tolisten also; for they have recognised the harmonious
-            ringing notes ofthe lyric enchantress of the groves, the morning leader of the songsters of the forest—the melodious nightingale! who, already preluding at her morning concerts, offers thus abruptly her first salutations
+            ringing notes ofthe lyric enchantress of the groves, the morning leader of the songsters of the forest--the melodious nightingale! who, already preluding at her morning concerts, offers thus abruptly her first salutations
             to Aurora, always attentive to her songs. It would seem indeed thather
             melodious notes had been carried by the surrounding echoes evento the carminated
             gates of the horizon, and were understood by theelements; for Aurora at the moment
@@ -1634,45 +1733,45 @@
             her harmonious cadences, as the Goddessof the dawn approaches. Most of the stars
             have vanished from thefirmament; the heavens now appear like an ocean of shining
             gold andliquid gems of a thousand hues. And now Aurora reigns in undisputed
-            sovereignty. But, alas! “a natural image of pleasure: as nothing ismore
-            beautiful than her reign, so nothing is shorter than its duration.”
+            sovereignty. But, alas! "a natural image of pleasure: as nothing ismore
+            beautiful than her reign, so nothing is shorter than its duration."
          </p>
          
          <p>The god of day follows her with hasty steps; she must soon resignher empire, like
             the night, which just now fled so rapidly before her. In vain the hours, with
             redoubled energy, scatter in precipitated floodstheir bouquets of roses beneath her
-            steps; she must finally yield—thegod of day has almost overtaken her! Already he is
+            steps; she must finally yield--thegod of day has almost overtaken her! Already he is
             announced bythe more vivid tints which he pours around him. The glowing rays
             but just precede the dazzling glare; the east seems on fire: it appearssuddenly
             all in flames. At their effulgency, the burning disc is eachmoment expected; at
-            every instant he seems about to appear—at lasthe rises majestically from the liquid
+            every instant he seems about to appear--at lasthe rises majestically from the liquid
             abyss! A brilliant pencil offlame, starting forth like a flash of lightning, and
             suddenly filling allspace, seems, like the bow of a celestial orchestra, to have
             given thelast signal for the awakening of all nature. It is the Sun, who has
-            just touched upon the horizon with the edge of his inflamed disc.—Red as a
+            just touched upon the horizon with the edge of his inflamed disc.-Red as a
             purpuereal sphere of gleaming Vermillion, and at first of animmense size, he
             gradually ascends from behind a wide-spreadingcurtain of clouds, which he soon
             pierces with a thousand pencils oflight, forming a gigantic glory, whose superior
-            rays curve themselvesinto an immense arch, which reaches to the zenith. “Then the
+            rays curve themselvesinto an immense arch, which reaches to the zenith. "Then the
             veilof darkness being entirely effaced, man is again permitted to recognise his abode, which he finds everywhere beautified and embellished.
             The verdure has taken during the night fresh vigor and renewed freshness; the new-born day which shines upon it, the first rays which gildit display
             it covered with a brilliant net-work of dew, which reflectsto the eye the light and
-            the colors of the rainbow!”
+            the colors of the rainbow!"
          </p>
          
          <p>The merry troop is again arrested to contemplate with ecstatic feelings
-            the glorious spectacle, which has been thus gradually developedbefore them. Meanwhile all nature has been awakened, at that sublime moment,—when the
-            disc of the sun touched lightly upon thehorizon—the birds were re-united in chorus,
+            the glorious spectacle, which has been thus gradually developedbefore them. Meanwhile all nature has been awakened, at that sublime moment,--when the
+            disc of the sun touched lightly upon thehorizon--the birds were re-united in chorus,
             and now they cause allthe echoes of their melodious warblings to resound in concert.
-            Notone remains silent; their musical songs, feeble at first, are more tender and sweet than during the remainder of the day—they seem as if
-            tinged with the softness and mellow ness of a languid awakening.—Imitating
+            Notone remains silent; their musical songs, feeble at first, are more tender and sweet than during the remainder of the day--they seem as if
+            tinged with the softness and mellow ness of a languid awakening.-Imitating
             their merry concerts, the insects hum beneath the grass;the fishes in the streams
             dart along the surface of the water, and leapwith jov, sparkling in the light with
             their silver scales; the reptilescrawl from their dark and humid holes, and come to
             bask in the warmsun-light; and even the serpent himself, raising up his hideous head
             above his spiral coils, and darting out his scarlet longue, unable to sing
             praises hisses forth bis ceaseless curse! Every thing, finally, is excited and moved throughout all nature; every thing breathes joy and
-            happiness at the first rays of the rising Sun—and the planets themselves do they not bound forward in their empyreal course morerapidly and more
+            happiness at the first rays of the rising Sun--and the planets themselves do they not bound forward in their empyreal course morerapidly and more
             animatedly as they approach him nearer and nearerin their perihelion? . . . . . 
          </p>
          
@@ -1682,8 +1781,8 @@
             burning disc; and theelephant salutes him with his flexible proboscis: or rather, do
             notall the animals salute in his image, by an irresistible impulse, in this
             universal concert and by these testimonials of respect and gladness,HIM of whom
-            the Sun is but the shadow?-the universal Father andBenefactor, above all empyreal suns! And yet, “although the concourse of all these objects carries to the sense an impression of freshness which seems to penetrate even to
-            the soul,” man alone, of allcreated beings, almost always forgets himself in presence of a spectacle so majestic and sublime! . . . . . . .
+            the Sun is but the shadow?-the universal Father andBenefactor, above all empyreal suns! And yet, "although the concourse of all these objects carries to the sense an impression of freshness which seems to penetrate even to
+            the soul," man alone, of allcreated beings, almost always forgets himself in presence of a spectacle so majestic and sublime! . . . . . . .
          </p>
          
          <p>Soon the laborers resume their wonted toils; the flocks and herdsare reconducted to
@@ -1699,7 +1798,7 @@
       </div>
       
       
-      <div class="piece" id="#p11">
+      <div class="piece" id="#p18">
          <div class="biblTitle">Anniversary Week</div>
          <div class="biblPage">300</div>
          
@@ -1710,13 +1809,13 @@
             whose meetingsare held in a small brick building in Broadway called the
             Coliseum. The city was startled at the sight of placards onthe corners of all the principal streets, headed Infidel Convention, notifying the people
             that a meeting of infidels wouldbe held at certain hours during Sunday. We like the honesty of these people, in proclaiming their Infidelity, although
-            it appears that the great man among them, Mr. Owen, objected to the term, and preferred being called, a “friend of universal freedom and unlimited charity,” which is a very comprehensive designation, but not a
+            it appears that the great man among them, Mr. Owen, objected to the term, and preferred being called, a "friend of universal freedom and unlimited charity," which is a very comprehensive designation, but not a
             very forcible one. TheTribune makes some strange comments upon this convention,
-            which we do not fully comprehend, but they appear to ushighly commendatory. “
-            Saying nothing of the influence ofbelief,” says the paper, “who can doubt that the isolated condition of all infidels, their independence of the restraining influence of sympathy and fellowship are clearly unfavorable
+            which we do not fully comprehend, but they appear to ushighly commendatory. "
+            Saying nothing of the influence ofbelief," says the paper, "who can doubt that the isolated condition of all infidels, their independence of the restraining influence of sympathy and fellowship are clearly unfavorable
             tohigh moral attainments? We rejoice, then, that they haveresolved to know
             each other, and fix upon some definite andendearing plan of organization and
-            action.”
+            action."
          </p>
          
          <p>This is surely very distinct and unequivocal. A paperpossessing the immense
@@ -1724,7 +1823,7 @@
             it excludestheatrical advertisements, and other wicked matter from itscolumns,
             is rejoiced that the infidels in this country have hadthe shrewdness to adopt the machinery by which other classes of men contrive to strengthen
             themselves in their errors,and trusts that they may fix upon some plan for rendering
-            their infidelity enduring. The want of “high moral attainments”
+            their infidelity enduring. The want of "high moral attainments"
             among infidels, the Tribune attributes to theisolated manner in which they have
             heretofore lived, andthinks that by meeting together frequently, and adopting the
             machinery of a party, whereby they may become more thoroughly imbued with infidelity, that their morals will be improved. The morality
@@ -1736,11 +1835,11 @@
             Polish lady, who resides in this city, was amongthe speakers at the Coliseum, and
             that Judge Herttell wasappointed chairman. The Tribune says that Robert Owen
             addressed the meeting briefly and sensibly, and of the convention
-            it expresses the belief that “an elevation of the aimsand an improvement of the morals of many will be the consequence.” The Tribune, according to its manner of reasoning in the premises, would be rejoiced to see a
+            it expresses the belief that "an elevation of the aimsand an improvement of the morals of many will be the consequence." The Tribune, according to its manner of reasoning in the premises, would be rejoiced to see a
             convention ofcounterfeiters or pickpockets, or horse thieves, for the isolated
-            manner in which these people live is very destructive to thesocial sympathies, and “devotion to their party or sex, solicitude for us welfare, and
+            manner in which these people live is very destructive to thesocial sympathies, and "devotion to their party or sex, solicitude for us welfare, and
             pride in its respectability wouldmake them behave better than they otherwise
-            would.”
+            would."
          </p>
          
          <p>The wisdom of conventions, even for professedly benevolent purposes, is very questionable, but there can be no question of the evil which must
@@ -1749,7 +1848,7 @@
          
          <p>No less than twenty-three different associations, mostlyreligious, have held their
             anniversaries during the week.Among the societies, we perceive one of a winning
-            title, the“National Reform Association.” We should suppose thateverybody would
+            title, the"National Reform Association." We should suppose thateverybody would
             be anxious to enrol themselves among itsmembers; yet it appears that only
             twenty-five personsgathered together at its anniversary, which, after all, is
             about the number of men in the country who are favorableto National Reform. The
@@ -1771,21 +1870,21 @@
       </div>
       
       
-      <div class="piece" id="#p12">
-         <div class="biblTitle">The Crossing’s Sweeper</div>
+      <div class="piece" id="#p19">
+         <div class="biblTitle">The Crossing's Sweeper</div>
          <div class="biblPage">300</div>
          
-         <div class="head">THE CROSSING’S SWEEPER.</div>
+         <div class="head">THE CROSSING'S SWEEPER.</div>
          
          <div class="lg">
             
             <br></br>With unkempt hair, and shoeless feet,
             
-            <br></br>The untitled sov’reign of the street,
+            <br></br>The untitled sov'reign of the street,
             
             <br></br>With broom in hand,
             
-            <br></br>Of charity may crave a mite,—
+            <br></br>Of charity may crave a mite,--
             
             <br></br>Pass him not by, it is a sight He may command.
             
@@ -1803,11 +1902,11 @@
             
             <br></br>But God with his omniscient ken Has placed him there,
             
-            <br></br>To make his country’s annals bright,
+            <br></br>To make his country's annals bright,
             
             <br></br>When the plebeian claims his right And spurns despair.
             
-            <br></br>Ay! ’neath that tattered, brimless hat,
+            <br></br>Ay! 'neath that tattered, brimless hat,
             
             <br></br>May rest a spirit great as that Which shook the world,
             
@@ -1817,7 +1916,7 @@
             
             <br></br>From thrones were hurled.
             
-            <br></br>A time may come when ’neath a sky,
+            <br></br>A time may come when 'neath a sky,
             
             <br></br>Brighter than that dark canopy,
             
@@ -1855,13 +1954,12 @@
          
          <div class="head">MUSICAL ITEMS.</div>
          
-         
-         <div class="section" id="#s3p1">
+         <div class="piece" id="#p20">
             <div class="biblTitle">The Boehm Flute</div>
             <div class="biblPage">300</div>
             
-            <p>The Bcehm Flute.—We rarely have the good fortune tobe able to chronicle one really useful improvement in musical instruments; numberless modern
-               inventions come underour notice daily, but they are, for the most part, if not entirely, valueless—of but little practical advantage.
+            <p>The Bcehm Flute.--We rarely have the good fortune tobe able to chronicle one really useful improvement in musical instruments; numberless modern
+               inventions come underour notice daily, but they are, for the most part, if not entirely, valueless--of but little practical advantage.
             </p>
             
             <p>The Boehm Flute is, however, a noble exception; welook upon it as the most
@@ -1886,7 +1984,7 @@
             </p>
             
             <p>We hope that all who are interested in this subject, andhave not yet examined the
-               Boehm flute, may be induced byour notice to visit Mr. Larrabee’s factory, 110
+               Boehm flute, may be induced byour notice to visit Mr. Larrabee's factory, 110
                Fulton street.We have examined the instrument thoroughly, and can vouchfor
                its excellence in every way.
             </p>
@@ -1894,17 +1992,17 @@
          </div>
          
          
-         <div class="section" id="#s3p2">
-            <div class="biblTitle">Grand Sacred Concert at St. Peter’s Church.</div>
+         <div class="piece" id="#p21">
+            <div class="biblTitle">Grand Sacred Concert at St. Peter's Church.</div>
             <div class="biblPage">301</div>
             
-            <p>Grand Sacred Concert at St. Peter’s Church.
-               —We call theattention of our readers to the advertisement of this Concert in our
+            <p>Grand Sacred Concert at St. Peter's Church.
+               --We call theattention of our readers to the advertisement of this Concert in our
                present number. It will be seen that a truly classical and yet popular programme is offered on this occasion. The selections are fromthe finest
                composers, ancient and modern. Mozart, Handel, Hayden,Mendelssohn, Rossini and
                other names of note, give warranty of theexcellence of the selection. The solos
                and chorusses from St. Paulwill be new to most of our readers. As an entire work,
-               Paulus is un’doubtedly the greatest work that Mendelssohn has yet produced; for,
+               Paulus is un'doubtedly the greatest work that Mendelssohn has yet produced; for,
                lofty sentiment, profound thought, and exquisite melody, no recentcomposition
                has approached it. The Loblgesang has also, only oncebeen produced in this
                country, and the selections from it cannot fail toadd the charm of novelty to the
@@ -1917,7 +2015,7 @@
                Watson.
             </p>
             
-            <p>Mr. William A. King, organist of St. Peter’s, whose reputation inthat department
+            <p>Mr. William A. King, organist of St. Peter's, whose reputation inthat department
                is widely spread throughout the States, is engagedto get the concert up. Mr. H. C.
                Timm performs with Mr. W. AKing a four-handed piece for the organ.
             </p>
@@ -1930,7 +2028,7 @@
       </div>
       
       
-      <div class="piece" id="#p13">
+      <div class="piece" id="#p22">
          <div class="biblTitle">The Broadway Theatre</div>
          <div class="biblPage">301</div>
          
@@ -1939,7 +2037,7 @@
          <p>Mr. Hamblin has made a very touching appeal to the citizens of New
             York, and proposes borrowing one hundredthousand dollars, in the ridiculously
             small sums (as Mr. Tiggwould say) of one dollar, from the same number of individuals, for which he will issue scrip entitling subscribers to a
-            dollar’s worth of admissions to his theatre when it shall befinished. This is certainly a very ingenious scheme for raising a hundred thousand
+            dollar's worth of admissions to his theatre when it shall befinished. This is certainly a very ingenious scheme for raising a hundred thousand
             dollars; but without a particle of illwill towards Mr. Hamblin, whom we have not
             the pleasureof knowing, we cannot say that we wish he may get it. Forwe
             should regret exceedingly to see a theatre erected inBroadway, more especially
@@ -1965,13 +2063,13 @@
             glasses and silver forkshave become common in hotels; drunkenness has grown
             unfashionable; the national name has been changed; newstreets have been
             built; Texas has been annexed; cheapbooks have been invented; hanging is almost
-            abolished; theCroton river runs through the streets;—but Mr. Simpson andthe
+            abolished; theCroton river runs through the streets;--but Mr. Simpson andthe
             Park remain the same, as unchangeable as the eternalsphinx of the desert. He looks
             as gloomy and saturnine ashe used to look when he played Charles Surface in a
             claretcolored coat and straw colored shorts; and his theatre is asdingy, as English, and as expensive as ever. The filthy saloons, with their red
             moreen curtains and yellow refreshmentsellers remain unchanged, and probably will
             remain so forthe next century; and the same plays are presented on thestage
-            that were witnessed by our grandmothers and ourgrandmothers’ grandmothers. There is no church in Christendom half so conservative as the theatre: there
+            that were witnessed by our grandmothers and ourgrandmothers' grandmothers. There is no church in Christendom half so conservative as the theatre: there
             are ismsin every thing but the drama, which has never known aschism. Mr.
             Dinneford, to be sure, got up a Greek tragedythe other day, which was stepping
             backward a thousandyears or two, instead of moving forward, as any one must
@@ -1996,62 +2094,75 @@
             control of amanager to the manor born.
          </p>
          
-         <p>We are sorry for Mr. Hamblin’s misfortunes, and wouldnot put the slightest obstacle in his way to retrieve his losses; and our remarks are only intended to apply to the erection of a theatre in Broadway.</p>
+         <p>We are sorry for Mr. Hamblin's misfortunes, and wouldnot put the slightest obstacle in his way to retrieve his losses; and our remarks are only intended to apply to the erection of a theatre in Broadway.</p>
          
       </div>
       
       
       
       
-      <div class="piece" id="#p14">
+      <div class="piece" id="#p23">
          <div class="biblTitle">Fact and Fiction</div>
          <div class="biblPage">302</div>
          
          <div class="ab">Fact and Fiction.
-            —From Thoughts on Reading, in Colton’s Mag-
+            --From Thoughts on Reading, in 
+            <span class="person" id="ghcolton">Colton</span>'s Mag-
             <br></br>azine,
-            by H. N. Hudson, the Lecturer on Shakspeare:
+            by 
+            <span class="person" id="hnhudson">H. N. Hudson</span>, the Lecturer on Shakspeare:
          </div>
          
-         <p>“Good people often seem laboring under a great mistakein regard to works of
+         <p>"Good people often seem laboring under a great mistakein regard to works of
             fiction. They appear to think of truthas synonymous with matters of fact, and of fiction as synonymous with falsehood. Now, there is probably nothing that
             lies so frequently or so abominably as narratives of facts.Why, if a man
-            wants to make any falsehood go down, healways sweetens it with some “fact whch
-            came under hisown observation.” Facts, indeed, we know to be the readiest vehicle of lies in the world: and whenever one undertakes to
+            wants to make any falsehood go down, healways sweetens it with some "fact whch
+            came under hisown observation." Facts, indeed, we know to be the readiest vehicle of lies in the world: and whenever one undertakes to
             inflict them on us, we take for granted that there isno truth in him; or that, if
             there be, it is not coming outthis time. On the other hand, as some one has said,
-            thepurest fictions often contain more of truth than many histories and scientific theories. In Spenser or Cervantes, forexample, perhaps you
+            thepurest fictions often contain more of truth than many histories and scientific theories. In 
+            <span class="person" id="espenser">Spenser</span> or 
+            <span class="person" id="mcervantes">Cervantes</span>, forexample, perhaps you
             shall not find a single falsehood, or asingle fact; in a Gibbon or a Paley, you
             shall scarcely find asingle fiction or a single truth. In the former, all shall be
             true but the names; in the latter all but the names shall befalse. Take, for
-            example, Addison’s Cato and Sancho Panza.Now, Cato is unquestionably a real name;
+            example, 
+            <span class="person" id="jaddison">Addison</span>'s Cato and Sancho Panza.Now, Cato is unquestionably a real name;
             nobody doubtsthe existence of such a man; or that he was a genuine old,
             eating, breathing, thinking and speaking Roman, of thestaunchest and noblest
-            make. But Addison's Cato is one ofthe sheerest falsehoods that ever was
+            make. But 
+            <span class="person" id="jaddison">Addison</span>'s Cato is one ofthe sheerest falsehoods that ever was
             perpetrated; such abeing never did exist, and never could exist; all the princi-
             ples of human nature must be changed before his existencewere possible.
             Sancho Panza, on the contrary, is doubtlessa fictitious name; nobody pretends that
             a real man ever borethat name; but the character is a perfect form of truth; is
-            as real as the old Roman Cato was, whom Addison meant togive us, but could
-            not; wants, in short, all that Addison’sCato has, and has all that Addison’s Cato
+            as real as the old Roman Cato was, whom 
+            <span class="person" id="jaddison">Addison</span> meant togive us, but could
+            not; wants, in short, all that 
+            <span class="person" id="jaddison">Addison</span>'sCato has, and has all that 
+            <span class="person" id="jaddison">Addison</span>'s Cato
             wants. And thusit is, that, in the hands of an artist, a fiction becomes the
             truest of realities, while, in the hands of a bungler, a factbecomes the
             emptiest of falsehoods.
          </p>
          
-         <p>Again; take Spenser’s Una and Johnson’s Milton. Now,Una is a mere personification of truth—one of the purest abstractions which the mind can frame, and
+         <p>Again; take 
+            <span class="person" id="espenser">Spenser</span>'s Una and 
+            <span class="person" id="sjohnson">Johnson</span>'s 
+            <span class="person" id="jmilton">Milton</span>. Now,Una is a mere personification of truth--one of the purest abstractions which the mind can frame, and
             with which, assuch, we could no more sympathize, than with a triangle oran
-            octagon. And yet, in Spenser’s hands, it has turned outa fair humanity, breathing
+            octagon. And yet, in Spenser's hands, it has turned outa fair humanity, breathing
             and blushing before us, like lifeitself. Uniting all the purity of an abstraction,
             with theflesh-and-blood reality of an actual person, we at once revereher as truth, and feel for her as the real subject of sympathies and
             affections answering to our own. Here, then, is agenuine character; a pure
             abstraction has come out a livingperson; a perfect fiction has become a perfect
-            truth. Thisis the miracle that genius performs. Milton, on the contrary, is an actual person; nay, he has stamped his individuality, as a full length portrait, on every page of his works, sothat
-            he who runs may read, provided he have eyes. InJohnson’s hands, however, he
+            truth. Thisis the miracle that genius performs. 
+            <span class="person" id="jmilton">Milton</span>, on the contrary, is an actual person; nay, he has stamped his individuality, as a full length portrait, on every page of his works, sothat
+            he who runs may read, provided he have eyes. In
+            <span class="person" id="sjohnson">Johnson</span>'s hands, however, he
             becomes a mere abstraction;no longer he, but it; or rather, a bundle of the mo t inconsistent and irreconcilable abstractions. You could no more
-            mould such elements into the same living character, thanyou could mix fire
-            and water, without destroying either.—Here is a genuine fact turned into a perfect
-            falsehood. Thisis the miracle that genius does not perform. We couldmultiply instances beyond either our time or the reader’s patience. It is
+            mould such elements into the same living character, thanyou could mix fire and water, without destroying either.-Here is a genuine fact turned into a perfect
+            falsehood. Thisis the miracle that genius does not perform. We couldmultiply instances beyond either our time or the reader's patience. It is
             truth, in this sense, that forms the substanceand the soul of all true books; and
             we care not what formyou give it, it is as genuine and as indestructible as the
             eyeof God.
@@ -2060,64 +2171,67 @@
       </div>
       
       
-      <div class="piece" id="#p15">
+      <div class="piece" id="#p24">
          <div class="biblTitle">Miscellany</div>
          <div class="biblPage">302</div>
          
          <div class="head">MISCELLANY.</div>
          
-         <p>IT IS AN ILL WIND THAT BLOWS NOBODY GOOD.—The frosthas been so intense on the
+         <p>IT IS AN ILL WIND THAT BLOWS NOBODY GOOD.--The frosthas been so intense on the
             Danube, that rocks which for centuries hadobstructed the navigation near Lintz,
             suddenly burst, and thus openedthe bed of the river.
          </p>
          
          
-         <p>BURSTING OF BEER.—The famous brewers of Burton Ale,Messrs. Alsopps, whose names should be written Allslops, have recently failed for the moderate sum of one million and a half of dollars.</p>
+         <p>BURSTING OF BEER.--The famous brewers of Burton Ale,Messrs. Alsopps, whose names should be written Allslops, have recently failed for the moderate sum of one million and a half of dollars.</p>
          
          <p>Mr. Murdoch, who has been successfully lecturing inthis city upon the Drama and
-            Shakspeare, will make his re-appearanceupon the stage in September. He has an
+            
+            <span class="person" id="wshakespeare">Shakspeare</span>, will make his re-appearanceupon the stage in September. He has an
             engagement at the Park for12 nights.
          </p>
          
          
-         <p>THREE FACES UNDER A HOOD, viz. PALMO-HOOD.—The newopera house in Chambers street
+         <p>THREE FACES UNDER A HOOD, viz. PALMO-HOOD.--The newopera house in Chambers street
             was first occupied by the Italians, thenthe Greeks, but now, it appears from the following notice, it is occupied by the Ethiopians.
          </p>
          
-         <p>“Mr. Dumbleton has at length succeeded in obtaining possessionfrom Palmo, of the
+         <p>"Mr. Dumbleton has at length succeeded in obtaining possessionfrom Palmo, of the
             Opera House, and will this evening open it withthe Ethioipan Serenaders.
          </p>
          
-         <p>Mr. Henry Phillips gave his farewell concert at Niblo’sSaloon last Tuesday evening; it was well attended, and the performances gave great
+         <p>Mr. Henry Phillips gave his farewell concert at Niblo'sSaloon last Tuesday evening; it was well attended, and the performances gave great
             satisfaction. Mr. Phillips sang twelve differentballads, scenas, &amp;c., many of
             which were encored, and all were wellreceived. If he should repeat his visit to
             this country he would meetwith better encouragement in the large cities on the
             Atlantic than hehas done. His indifferent success has resulted mainly from an injudicious beginning in the manner of giving his concerts.
          </p>
          
-         <p>HISTORICAL SOCIETY.—At a very crowded meeting of thissociety on Wednesday
-            evening, the Rev. Rufus W. Griswold read along and interesting paper in reference
-            to the intellectual history ofthe country—with criticisms on the works of several
+         <p>HISTORICAL SOCIETY.--At a very crowded meeting of thissociety on Wednesday
+            evening, the Rev. 
+            <span class="person" id="rwgriswold">Rufus W. Griswold</span> read along and interesting paper in reference
+            to the intellectual history ofthe country--with criticisms on the works of several
             of our most notedauthors. He did not conclude the essay.
          </p>
          
-         <p>MR. ALPERS, THE MUSICIAN.—We had an interesting article on theburial of this
-            excellent musician, which is crowded out of this week’sJournal. He died last
+         <p>MR. ALPERS, THE MUSICIAN.--We had an interesting article on theburial of this
+            excellent musician, which is crowded out of this week'sJournal. He died last
             Saturday at the house of his friend Mr. Timm,and was buried from the Tabernacle
             Tuesday morning. The housewas nearly filled by the members of the Philharmonic
             Society ofwhich he was a member, and by his personal friends and pupils. The
             funeral ceremonies, of which we shall give the particulars, were highly impressive, and admirably adapted to the occasion.
          </p>
          
-         <p>The Mirror of last week contains a poem of much merit,entitled “The Gazelle.’’ It is the composition of a mere boy of fifteen, C. C. Cooke, and,
-            although professedly an imitation of “TheRaven,” has a very great deal of original
+         <p>The Mirror of last week contains a poem of much merit,entitled "The Gazelle.'' It is the composition of a mere boy of fifteen, 
+            <span class="person" id="cccooke">C. C. Cooke</span>, and,
+            although professedly an imitation of "TheRaven," has a very great deal of original
             power.
          </p>
       </div>
       
       
       
-      <div class="piece" id="#p16">
+      <div class="piece" id="#p25">
          <div class="biblTitle">New Publications</div>
          <div class="biblPage">302</div>
          
@@ -2125,23 +2239,32 @@
          
          <div class="ab">THOSE MARKED + ARE RE-PRINTS.</div>
          
-         <div class="ab">+ Mrs. Candle's Curtain Lectures. By Punch; with illustrations.]
+         <div class="ab">+ Mrs. 
+            <span class="person" id="dwjerrold">Candle</span>'s Curtain Lectures. By Punch; with illustrations.]
             <br></br>+Martin's
             Illustrated Bible, No. 4 (steel plates).
-            <br></br>+Maunder's Treasury of History, No. 5.
+            <br></br>+
+            <span class="person" id="smaunder">Maunder</span>'s Treasury of History, No. 5.
             
-            <br></br>+Copland’s Dictionary of Practical Medicine. Edited by Dr. C. A. Lee. No. 6.
+            <br></br>+Copland's Dictionary of Practical Medicine. Edited by Dr. 
+            <span class="person" id="calee">C. A. Lee</span>. No. 6.
             
-            <br></br>+Encyclopedia of Domestic Economy. By T. Webster and Mrs. Parkes. No. 2.
+            <br></br>+Encyclopedia of Domestic Economy. By 
+            <span class="person" id="twebster">T. Webster</span> and Mrs. 
+            <span class="person" id="fbparkes">Parkes</span>. No. 2.
             <br></br>Plato
-            Against the Atheists. With Critical Notes. By Taylor Lewis, LL. D.
-            <br></br>Dr. Anthon’s
+            Against the Atheists. With Critical Notes. By 
+            <span class="person" id="tlewis">Taylor Lewis</span>, LL. D.
+            <br></br>Dr. 
+            <span class="person" id="canthon">Anthon</span>'s
             System of Latin Versification: with specimens of translations
             <br></br>from English and
             German Poetry into Latin Verse. 12mo.
-            <br></br>Notes on the Ephesians, by Dr. Barnes. 12mo.
+            <br></br>Notes on the Ephesians, by Dr. 
+            <span class="person" id="abarnes">Barnes</span>. 12mo.
             
-            <br></br>The Dutchman’s Fireside; a novel. By J. K. Paulding: new edition.
+            <br></br>The Dutchman's Fireside; a novel. By 
+            <span class="person" id="jkpaulding">J. K. Paulding</span>: new edition.
             <br></br>Harper &amp;
             Brothers' Pictorial Bible, No. 26.
          </div>
@@ -2152,32 +2275,44 @@
          </p>
          
          <div class="ab">Lives of Men of Letters and Science, in the Reign of Geo. III. By Lord
-            <br></br>Brougham.
+            <br></br>
+            <span class="person" id="hpbrougham">Brougham</span>.
             8vo.; with steel portraits. 21s.
             <br></br>Peninsular Sketches. By Actors of the Scenes.
-            Edited by W. H. Maxwell.
-            <br></br>Elements of Physics. By C. F. Peschel, Principal of the
+            Edited by 
+            <span class="person" id="whmaxwell">W. H. Maxwell</span>.
+            <br></br>Elements of Physics. By 
+            <span class="person" id="cfpeschel">C. F. Peschel</span>, Principal of the
             Royal Military Col
             <br></br>lege, Dresden. Translated from the German, with
-            Notes, by E. West. One
+            Notes, by 
+            <span class="person" id="ewest">E. West</span>. One
             <br></br>vol. 8vo., with diagrams and wood cuts.
             <br></br>Texas and the
-            Gulf of Mexico. By Mrs. Houston (?) 2 vols. 8vo.
+            Gulf of Mexico. By Mrs. 
+            <span class="person" id="mchoustoun">Houston</span> (?) 2 vols. 8vo.
             <br></br>Education the Birthright of every
-            human being. By Rev. B. Parsons.
-            <br></br>Female Characters of Holy Writ. By Rev. H. Hughes.
+            human being. By Rev. 
+            <span class="person" id="bparsons">B. Parsons</span>.
+            <br></br>Female Characters of Holy Writ. By Rev. 
+            <span class="person" id="hhughes">H. Hughes</span>.
             
-            <br></br>Autobiography of J. Blanco White—with his Correspondence.
+            <br></br>Autobiography of 
+            <span class="person" id="jbwhite">J. Blanco White</span>--with his Correspondence.
             <br></br>The Wandering Jew.
-            By Eugene Sue. Vol. 11. 7s.
+            By 
+            <span class="person" id="esue">Eugene Sue</span>. Vol. 11. 7s.
          </div>
          
          <div class="ab">IN PRESS.</div>
          
-         <div class="ab">Dalekarlien, a new novel by Miss Bremer.
-            <br></br>Raumer’s Letters on North America.
+         <div class="ab">Dalekarlien, a new novel by Miss 
+            <span class="person" id="fbremer">Bremer</span>.
+            <br></br>
+            <span class="person" id="fvraumer">Raumer</span>'s Letters on North America.
             
-            <br></br>Essays Biographical and Literary. By William II. Prescott, Esq., author of
+            <br></br>Essays Biographical and Literary. By 
+            <span class="person" id="whprescott">William H. Prescott</span>, Esq., author of
             <br></br>the
             Conquest of Mexico.
          </div>
@@ -2185,7 +2320,7 @@
       </div>
       
       
-      <div class="piece" id="#p17">
+      <div class="piece" id="#p26">
          <div class="biblTitle">Notice to Publishers</div>
          <div class="biblPage">302</div>
          
@@ -2199,7 +2334,7 @@
          <p>To booksellers at a distance, and to professional men generally, as
             well as readers at large, this occasional list will beinteresting and valuable. We
             propose to make it complete,so that it shall be a full index to alt the operations
-            of the“Press” in the English language.
+            of the"Press" in the English language.
          </p>
          
       </div>
@@ -2215,7 +2350,7 @@
             
             <div class="head">BOARD IN BROOKLYN.</div>
             
-            <p>—A Single Gentleman,who is partial to Chess and Music, can be provided with a
+            <p>--A Single Gentleman,who is partial to Chess and Music, can be provided with a
                furnishedroom, and breakfast and tea, in a private family, residing near Fulton
                street,Brooklyn, in one of its most pleasant streets.
             </p>
@@ -2229,13 +2364,13 @@
             
             <div class="head">GRAND SACRED CONCERT.</div>
             
-            <div class="ab">At St. Peter’s Church, Barclay St.
+            <div class="ab">At St. Peter's Church, Barclay St.
                <br></br>FOR THE BENEFT OF THE CHURCH.
             </div>
             
             <p>ON SUNDAY EVENING, MAY 18th, 1845. Onwhich occasion the performances will consist of selections from Mendelssohn's Oratorio of St. Paul,
                Haydn's Creation, Handel's Messiah, Rossini'sStabat Mater, and Mendelssohn's
-               latest composition—the Lobegesang, or Hymnof Praise.”
+               latest composition--the Lobegesang, or Hymnof Praise."
             </p>
             
             
@@ -2255,7 +2390,7 @@
             
             <div class="ab">Tickets 50 cents.</div>
             
-            <div class="ab">To commence at eight o’clock.</div>
+            <div class="ab">To commence at eight o'clock.</div>
             
          </div>
          
@@ -2278,7 +2413,7 @@
          
          <div>
             
-            <div class="head">MR. AND MRS. KIRKLAND’SSCHOOL FOR YOUNG LADIES,</div>
+            <div class="head">MR. AND MRS. KIRKLAND'SSCHOOL FOR YOUNG LADIES,</div>
             
             <div class="ab">No. 255 Greene Street,
                <br></br>One door above Waverly Place, New York.
@@ -2316,7 +2451,8 @@
             
             
             <p>Pupils in this course pay particular attention to Poetry, to the art of Composition, and to the Philosophy of History. Moral Philosophy is taught
-               fromDymond, as abridged and prepared for schools by Mrs. Kirkland. Lectures
+               from
+               <span class="person" id="jdymond">Dymond</span>, as abridged and prepared for schools by Mrs. Kirkland. Lectures
                on various subjects are delivered by Mr. and Mrs. Kirkland, and others; and
                the general course of study is advanced and rendered interesting by copious
                illustrations from French and English Literature.
@@ -2327,7 +2463,7 @@
             
             <div class="ab">Primary Course, - - - - $12.50 Per Quarter.</div>
             
-            <div class="ab">Second “(including French, &amp;c.) 18 00 " </div>
+            <div class="ab">Second "(including French, &amp;c.) 18 00 " </div>
             
             <div class="ab">Third, or highest course, - - - 25 00 "</div>
             
@@ -2346,12 +2482,12 @@
             
             <div class="ab">The young ladies are required to bring towels, spoons, fork and napkin
                
-               <br></br>ring—every article fully marked,
+               <br></br>ring--every article fully marked,
             </div>
             
             <div class="ab">Washing $7 50 per Quarter.</div>
             
-            <div class="ab">No Extras—whether for fuel, use of instruments, or any thing not here
+            <div class="ab">No Extras--whether for fuel, use of instruments, or any thing not here
                
                <br></br>specified.
             </div>
@@ -2373,7 +2509,7 @@
                <br></br>Paris, and the Principal Musical Institutions in Europe.
             </div>
             
-            <p>MR. LARRABEE, Manufacturer of the “BoehmFlute,” 110 Fulton St. N. Y., anxious
+            <p>MR. LARRABEE, Manufacturer of the "BoehmFlute," 110 Fulton St. N. Y., anxious
                to introduce to the Amateurs ofthe cities the above lmportant Intention, which
                has been so enthusiasticallyreceived end generally used by the most
                distinguished European Artists, feelshappy in being able to place before them
@@ -2421,8 +2557,8 @@
             
             <div class="head">PIANO-FORTES.</div>
             
-            <div class="ab">—A. H. GALE &amp; CO.’S WARE-
-               <br></br>Rooms, No. 289 Broadway—Manufactory Third Avenue,
+            <div class="ab">--A. H. GALE &amp; CO.'S WARE-
+               <br></br>Rooms, No. 289 Broadway--Manufactory Third Avenue,
                corner of 13th
                <br></br>street.
             </div>
@@ -2472,7 +2608,7 @@
                <br></br>361 Broadway.
                <br></br>Manufactory 13th St., between 3d and
                4th Avenues.
-               <br></br>N.B.—A good second-hand Piano Forte for sale.
+               <br></br>N.B.--A good second-hand Piano Forte for sale.
             </div>
             
          </div>
@@ -2482,7 +2618,7 @@
             
             <div class="head">PIANO FORTES.</div>
             
-            <div class="ab">—V. F. HARRISON, 23 Canal
+            <div class="ab">--V. F. HARRISON, 23 Canal
                <br></br>Street, N. Y.
             </div>
             
@@ -2512,7 +2648,7 @@
             
             <div class="head">PIANO - FORTES.</div>
             
-            <p>—JOHN PETHICK,(formerlyMundy &amp; Pethick,) invites the attention of the musical public to the elegant and varied aesortment he now has at
+            <p>--JOHN PETHICK,(formerlyMundy &amp; Pethick,) invites the attention of the musical public to the elegant and varied aesortment he now has at
                his Old Establisment, Corner ofCottage-place and Bleecker Street, which he will
                sell at prices unusually low.
             </p>
@@ -2544,7 +2680,9 @@
          
          <div>
             
-            <div class="head">BERTINI’S METHOD FOR THE PIANO.</div>
+            <div class="head">
+               <span class="person" id="hjbertini">BERTINI</span>'S METHOD FOR THE PIANO.
+            </div>
             
             
             <p>THIS is the only thorough, complete and progressivework yet published in this
@@ -2554,14 +2692,15 @@
                imperceptibly through those mechanical difficulties which,otherwise, are too
                often made irksome in other instruction books. The timehas arrived when a
                superficial knowledge of the Piano is of but little account,and it is only by
-               the study of such methods as Bertini’s that pupils will be enabled to READ music with facility, and at the same time become good musicians.
+               the study of such methods as Bertini's that pupils will be enabled to READ music with facility, and at the same time become good musicians.
             </p>
             
             <p>This method commences in the most plain and simple manner; the rudments of music being given and illustrated at the same time, and each lessonis
                fully explained by marginal notes on the same page.
             </p>
             
-            <p>The publishers are in possession of the highest reccommendations from professional gentleman, who speak of the superior merits of Bertini’s
+            <p>The publishers are in possession of the highest reccommendations from professional gentleman, who speak of the superior merits of 
+               <span class="person" id="hjbertini">Bertini</span>'s
                Methodover all others yet published in this country, most of them having used
                theforeign copies previously. It will only be necessary to give a few of the
                names in the principal cities.
@@ -2586,7 +2725,7 @@
                <br></br>B. C.
                Cross.
                <br></br>Joseph Duggan.
-               <br></br>ALBANY—O. J. Shaw.
+               <br></br>ALBANY--O. J. Shaw.
             </div>
             
             <p>Professors and Teachers are respectfully invited to examine the work.American edition published by E. H. WADE and W. H. OAKES, 197, Washington
@@ -2603,49 +2742,73 @@
             <div class="head">WORKS IN PRESS.BY HARPER AND BROTHERS, NEW YORK.</div>
             
             
-            <p>ENCYCLOPAEDIA OF DOMESTIC ECONOMY:Comprising such Subjects as are connected with Housekeeping. By Thomas Webster, F. G. S., &amp;c., and the late Mrs.
-               Parks. With Additions andImprovements, by an AmericanPhysician. With nearly
+            <p>ENCYCLOPAEDIA OF DOMESTIC ECONOMY:Comprising such Subjects as are connected with
+               Housekeeping. By 
+               <span class="person" id="twebster">Tho-mas Webster</span>, F. G. S., &amp;c., and the late Mrs.
+               
+               <span class="person" id="fbparkes">Parks</span>. With Additions andImprovements, by an AmericanPhysician. With nearly
                1000 Engravings.To be published in parts, at 25 cents each.
             </p>
             
             
-            <p>MEMOIRS OF THE STATESMEN OF THE COMMONWEALTH OFENGLAND. By John Foster. Edited by the Rev. I. O. Charles of Boston. Five Steel Engravings.</p>
-            
-            
-            <p>A DICTIONARY OF PRACTICAL MEDICINE. By James Copland, M.D., F. R. S. Edited by
-               Charles A. Lee, M. D., in numbers, at 50 centseach.
+            <p>MEMOIRS OF THE STATESMEN OF THE COMMONWEALTH OFENGLAND. By 
+               <span class="person" id="jforster">John Foster</span>. Edited
+               by the Rev. 
+               <span class="person" id="iocharles">I. O. Charles</span> of Boston. Five Steel Engravings.
             </p>
             
             
-            <p>A NEW GREEK AND ENGLISH LEXICON, including Liddle and Scott’senlarged Translation of Pascow’s Greek and German Lexicon, with Additions and
-               Improvements, by Henry Drisler, A. M., under the supervisionof Professor Anthon.
+            <p>A DICTIONARY OF PRACTICAL MEDICINE. By 
+               <span class="person" id="jcopland">James Copland</span>, M.D., F. R. S. Edited by
+               
+               <span class="person" id="calee">Charles A. Lee</span>, M. D., in numbers, at 50 centseach.
+            </p>
+            
+            
+            <p>A NEW GREEK AND ENGLISH LEXICON, including 
+               <span class="person" id="hgliddell">Liddle</span> and 
+               <span class="person" id="rscott">Scott</span>'senlarged Translation of Pascow's Greek and German Lexicon, with Additions and
+               Improvements, by 
+               <span class="person" id="hdrisler">Henry Drisler</span>, A. M., under the supervisionof Professor 
+               <span class="person" id="canthon">Anthon</span>.
                8vo.
             </p>
             
             
             <p>THE FARMER'S DICTIONARY; being a Compendious Account of everything
                relating to the Produce and management of Farms in this Country,and an
-               Explanation of Technical Terms. By D. P. Gardner, M. D.
+               Explanation of Technical Terms. By 
+               <span class="person" id="dpgardner">D. P. Gardner</span>, M. D.
             </p>
             
             
-            <p>PLATO AGAINST THE ATHEISTS; or, the Tenth Book of the Dialogueon Laws, accompanied with Critical Notes, and followed by extended Dissertations on some of the main points of the Platonic Philosophy and Theology, especialy as compared with the Holy Scriptures. By Taylor Lewis, LL. D.</p>
+            <p>PLATO AGAINST THE ATHEISTS; or, the Tenth Book of the Dialogueon Laws, accompanied with Critical Notes, and followed by extended Dissertations on some of the main points of the Platonic Philosophy and Theology, especialy as compared with the Holy Scriptures. By 
+               <span class="person" id="tlewis">Taylor Lewis</span>, LL. D.
+            </p>
             
             
             <p>THE TRAVELS OF MARCO POLO, greatly amended and enlarged fromvaluable Early
                Manuscripts recently published by the French Society ofGeography, and in Italy
-               by Count Baldelli Boni. With copious Notes. ByHugh Murray, F. R. S. E.
+               by Count 
+               <span class="person" id="gbbaldelliboni">Baldelli Boni</span>. With copious Notes. By
+               <span class="person" id="hmurray">Hugh Murray</span>, F. R. S. E.
             </p>
             
             
-            <p>LIFE OF PAUL JONES. By Alex. Slidell Mackenzie, U. S. Navy. 2 vols.12mo.</p>
-            
-            
-            <p>THE ECLOGUES AND GEORGICS OF VIRGIL. With English Notes,&amp;c., by Charles
-               Anthon. LL. D.
+            <p>LIFE OF PAUL JONES. By 
+               <span class="person" id="asmackenzie">Alex. Slidell Mackenzie</span>, U. S. Navy. 2 vols.12mo.
             </p>
             
-            <p>THE ANABASIS OF XENOPHON. With English Notes, &amp;c., by CharlesAnthon, LL.
+            
+            <p>THE ECLOGUES AND GEORGICS OF VIRGIL. With English Notes,&amp;c., by 
+               <span class="person" id="canthon">Charles
+                  Anthon
+               </span>. LL. D.
+            </p>
+            
+            <p>THE ANABASIS OF 
+               <span class="person" id="xenophon">XENOPHON</span>. With English Notes, &amp;c., by 
+               <span class="person" id="canthon">CharlesAnthon</span>, LL.
                D.
             </p>
             
@@ -2667,24 +2830,26 @@
             </p>
             
             
-            <p>Niebuhr’s Rome, just published at $5, he will sell far below that price. </p>
+            <p>
+               <span class="person" id="bgniebuhr">Niebuhr</span>'s Rome, just published at $5, he will sell far below that price. 
+            </p>
             
             
             <p>Encyclopedia Americana, in 13 vols., he will sell low enough.</p>
             
             
-            <p>He has also added a beautiful assortment of Gold Pencils—some of whichhe will
+            <p>He has also added a beautiful assortment of Gold Pencils--some of whichhe will
                sell as low as $1,87 1-2 cents, warranted.
             </p>
             
             
-            <p>Another lot of that beautiful Letter Paper at $1,50 per ream—well
+            <p>Another lot of that beautiful Letter Paper at $1,50 per ream--well
                worth$2,25.
             </p>
             
             
             <div class="ab">Please call and see if you cannot buy to suit you at
-               <br></br>SHEPARD’S, 191
+               <br></br>SHEPARD'S, 191
                Broadway,
                <br></br>opposite John str[eet]
             </div>
@@ -2699,7 +2864,8 @@
             <div class="ab">CHEAP EDITION.</div>
             
             <p>NARRATIVE OF THE U. S. EXPLORING EXPEDITION, during the years 1838,
-               39, 40, 41, 41. By Charles Wilkes,U. S. Navy, Commander of the Expedition. With
+               39, 40, 41, 41. By 
+               <span class="person" id="cwilkes">Charles Wilkes</span>,U. S. Navy, Commander of the Expedition. With
                Illustration. and Maps. InFive Volume. Vol. 1, §2 00.
             </p>
             
@@ -2719,24 +2885,24 @@
          
          <div>
             
-            <div class="head">NOW READY, (Gratis,) WILEY &amp; PUTNAM’SLITERARY NEWS LETTER FOR MAY,
-               containing—
+            <div class="head">NOW READY, (Gratis,) WILEY &amp; PUTNAM'SLITERARY NEWS LETTER FOR MAY,
+               containing--
             </div>
             
-            <div class="ab">1. —Foreign Literary Intelligence.
-               <br></br>2. —American Literary Intelligence.
+            <div class="ab">1. --Foreign Literary Intelligence.
+               <br></br>2. --American Literary Intelligence.
                
-               <br></br>3.—Important English Works in press.
-               <br></br>4.—List of new English Work, just
+               <br></br>3.--Important English Works in press.
+               <br></br>4.--List of new English Work, just
                published.
-               <br></br>5.—New American Work, published in April.
-               <br></br>6.—Works recently
+               <br></br>5.--New American Work, published in April.
+               <br></br>6.--Works recently
                imported, with the prices.
-               <br></br>7.—W. &amp; P.’s recent Publications, with Critical
+               <br></br>7.--W. &amp; P.'s recent Publications, with Critical
                Notices.
-               <br></br>8. —Books which are Books: Library of Choice Reading.
-               <br></br>9. —The United
-               States’ Exploring Expedition,
+               <br></br>8. --Books which are Books: Library of Choice Reading.
+               <br></br>9. --The United
+               States' Exploring Expedition,
                <br></br>WILEY &amp; PUTNAM, 161 Broadway,
             </div>
             
@@ -2759,7 +2925,7 @@
             
             <div class="ab">NO. 289 BROADWAY, NEW YORK.</div>
             
-            <p>GOLDSMITH’S PREMIUM SYSTEM of Mercantile and Epistolary Writing,
+            <p>GOLDSMITH'S PREMIUM SYSTEM of Mercantile and Epistolary Writing,
                guaranteed to all (old and young)in 10 lessons of one hour each. TERMS Reduced to
                TWO DOLLARSAND A HALF.
             </p>
@@ -2771,12 +2937,13 @@
             </p>
             
             
-            <p>CLASS Hours— 9 A. M., 3, 5 3-4, and 8 P. M. daily for gentlemenand from 11 to 1
-               o’clock for ladies. Private instruction given.
+            <p>CLASS Hours-- 9 A. M., 3, 5 3-4, and 8 P. M. daily for gentlemenand from 11 to 1
+               o'clock for ladies. Private instruction given.
             </p>
             
             
-            <p>For sale “Goldsmith's Gems OF PENMANSHIP,” elegantly bound.Price Five
+            <p>For sale "
+               <span class="person" id="obgoldsmith">Goldsmith</span>'s Gems OF PENMANSHIP," elegantly bound.Price Five
                Dollars.
             </p>
             
@@ -2801,7 +2968,7 @@
             </p>
             
             
-            <p>Subscriptions received by John Bisco, at the office of the "Broadway Journal,” 153 Broadway.</p>
+            <p>Subscriptions received by John Bisco, at the office of the "Broadway Journal," 153 Broadway.</p>
             
          </div>
          
@@ -2816,8 +2983,10 @@
             
             
             <p>THE TRANSACTIONS OF THE ROYAL SOCIETY OF LONDON, or Philosophical
-               Transactions, from thecommencement, in 1665 to 1800. By Drs. Hutton and
-               Shaw;in 18 vols. 4 to., and from 1600 to 1835, in 36 vols., together54 vols.
+               Transactions, from thecommencement, in 1665 to 1800. By Drs. 
+               <span class="person" id="chutton">Hutton</span> and
+               
+               <span class="person" id="tshaw">Shaw</span>;in 18 vols. 4 to., and from 1600 to 1835, in 36 vols., together54 vols.
                royal, 4 to. uniformly bound in half calf. $250 00
             </p>
             
@@ -2833,22 +3002,27 @@
             </p>
             
             
-            <p>PINKERTONS’ COLLECTIONS OF VOYAGES AND TRAVELS in various parts of
+            <p>PINKERTONS' COLLECTIONS OF VOYAGES AND TRAVELS in various parts of
                the world, 17 large vols., 4 to. halfbound in calf. 70 00
             </p>
             
             
-            <p>BAYLE’S GREAT HISTORICAL AND CRITICAL DICTIONARY; by Des Maizeaux,
+            <p>
+               <span class="person" id="pbayle">BAYLE</span>'S GREAT HISTORICAL AND CRITICAL DICTIONARY; by 
+               <span class="person" id="pdesmaizeaux">Des Maizeaux</span>,
                best edition, 5 vols. folio, bound incalf. 30 00
             </p>
             
             
-            <p>ANDERSONS’ BRITISH POETS; from Chaucer to Warton; 14vols. royal 8 vo. bound in
+            <p>ANDERSONS' BRITISH POETS; from 
+               <span class="person" id="gchaucer">Chaucer</span> to 
+               <span class="person" id="twarton">Warton</span>; 14vols. royal 8 vo. bound in
                calf extra. 40 00
             </p>
             
             
-            <p>COLONEL VYSE’S ACCOUNT OF OPERATIONS CARRIEDON IN EXPLORING THE PYRAMIDS OF
+            <p>COLONEL 
+               <span class="person" id="rwhvyse">VYSE</span>'S ACCOUNT OF OPERATIONS CARRIEDON IN EXPLORING THE PYRAMIDS OF
                EGYPT; withnumerous plates; 3 vols. 4 to. 14 00
             </p>
             
@@ -2859,11 +3033,11 @@
             
             <div class="head">REPUBLICATION OF THE FOREIGN MAGAZINES.</div>
             
-            <p>LONDON, EDINBURGH, FOREIGN, and WESTMINSTER QUARTERLY REVIEWS, and BLACKWOOD’S MAGAZINE.</p>
+            <p>LONDON, EDINBURGH, FOREIGN, and WESTMINSTER QUARTERLY REVIEWS, and BLACKWOOD'S MAGAZINE.</p>
             
             
             <p>The above Periodicals are reprinted in New-York, immediately on theirarrival by
-               the British steamers, in a beautiful clear type, on fine white paperand are faithful copies of the originals—Blackwood’s Magazine being an exact
+               the British steamers, in a beautiful clear type, on fine white paperand are faithful copies of the originals--Blackwood's Magazine being an exact
                fac-simile of the Edinburgh Edition.
             </p>
             
@@ -2877,7 +3051,7 @@
             
             
             <p>They embrace the views of the three great parties in England, Whig, Tory,and
-               Radical. “Blackwood” and the “London Quarterly” are Tory; the“Edinburgh Review” Whig; and the “Westminster” Radical. The “Foreign Quarterly” is
+               Radical. "Blackwood" and the "London Quarterly" are Tory; the"Edinburgh Review" Whig; and the "Westminster" Radical. The "Foreign Quarterly" is
                purely literary, being devoted principally to criticisms onforeign Continental
                Works.
             </p>
@@ -2888,7 +3062,7 @@
             </p>
             
             
-            <div class="ab">TERMS.—Payment to be made in Advance.
+            <div class="ab">TERMS.--Payment to be made in Advance.
                <br></br>For the four Quarterly Reviews, $8.00 per
                annum.
                <br></br>For any three " " 7.00 "
@@ -2905,9 +3079,9 @@
             
             
             <p>Four copies of any or all the above works will be sent to one address, onpayment
-               of the regular subscription for three—the fourth copy being gratis.Remittances
+               of the regular subscription for three--the fourth copy being gratis.Remittances
                and communications (post-paid or franked) should be made toLEONARD SCOTT &amp;
-               CO., Pub’s, 112 Fulton st., N.Y.
+               CO., Pub's, 112 Fulton st., N.Y.
             </p>
             
          </div>
@@ -2941,14 +3115,14 @@
                <br></br>James Irvin, Pa.
                <br></br>J. Thompson, Miss.
                <br></br>Dr. A.
-               G. Bigelow’s Office and Residence, 103 Liberty st., New York.
+               G. Bigelow's Office and Residence, 103 Liberty st., New York.
             </div>
             
          </div>
       </div>
       
       
-      <div class="piece" id="#p18">
+      <div class="piece" id="#p27">
          <div class="biblTitle">Agents for the Broadway Journal</div>
          <div class="biblPage">304</div>
          
@@ -2970,9 +3144,7 @@
       <div>
          
          <p>John Douglas, Printer, 106 Fulton street.</p>
-         
-      </div>     
-      
+      </div>
    </div>
    <div class="back"></div>
 </div>

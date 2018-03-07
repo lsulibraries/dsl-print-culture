@@ -43947,7 +43947,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   data: function data() {
     return {
       creditsData: {},
-      roles: ['Project Lead', 'Research Assistant', 'Project Development', 'Project Consultant', 'Consultant', 'Past Research Assistant']
+      roles: ['Project Lead', 'Research Assistant', 'Project Development', 'Project Consultant', 'Additional Support', 'Past Research Assistant']
     };
   }
 });
@@ -45495,6 +45495,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   computed: {
     roleClass: function roleClass() {
       return 'bibl-' + this.bibl.personPieceMeta.personPieceRole.toLowerCase();
+    }
+  },
+  methods: {
+    getPieceMeta: function getPieceMeta() {
+      if (this.isAdvertisements()) {
+        return {
+          pieceTitle: 'Advertisements'
+        };
+      }
+      return this.bibl.pieceMeta;
+    },
+    isAdvertisements: function isAdvertisements() {
+      return this.bibl.sectionMeta && this.bibl.sectionMeta.sectionTitle == 'Advertisements';
+    },
+    showPieceMeta: function showPieceMeta() {
+      if (!this.$root.empty(this.bibl.pieceMeta)) {
+        return true;
+      } else if (this.isAdvertisements()) {
+        return true;
+      }
+      return false;
     }
   }
 });
@@ -60849,15 +60870,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "issueMeta": this.bibl.issueMeta
     }
-  }) : _vm._e()], 1), _vm._v(" "), (!this.$root.empty(_vm.bibl.sectionMeta)) ? _c('biblSectionMeta', {
+  }) : _vm._e()], 1), _vm._v(" "), (!this.isAdvertisements() && !this.$root.empty(_vm.bibl.sectionMeta)) ? _c('biblSectionMeta', {
     attrs: {
       "sectionMeta": _vm.bibl.sectionMeta
     }
   }) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "pieceTitleContainer"
-  }, [(!this.$root.empty(this.bibl.pieceMeta)) ? _c('biblPieceMeta', {
+  }, [(_vm.showPieceMeta()) ? _c('biblPieceMeta', {
     attrs: {
-      "pieceMeta": _vm.bibl.pieceMeta,
+      "pieceMeta": this.getPieceMeta(),
       "issueId": _vm.bibl.issueMeta.issueId
     }
   }) : _vm._e()], 1), _vm._v(" "), (this.bibl.personPieceMeta) ? _c('biblPersonPieceMeta', {
