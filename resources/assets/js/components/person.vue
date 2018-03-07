@@ -1,5 +1,5 @@
 <template>
-    <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
+    <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[this.getRole(), {active: activePerson}]">
         <personMeta :context="'card'" :totalContrib="this.totalContrib" :personMeta="person.personMeta"></personMeta>
     </router-link>
 </template>
@@ -39,6 +39,11 @@
                 if (this.person.personListBibl[bibl].personPieceMeta && this.person.personListBibl[bibl].personPieceMeta.personPieceRole == 'Contributor') {
                   this.totalContrib++
                 }
+              }
+            },
+            getRole: function () {
+              if(this.person.personMeta.personRole) {
+                return this.person.personMeta.personRole.replace('Correspondent', 'Contributor')
               }
             },
             transmitPerson: function () {

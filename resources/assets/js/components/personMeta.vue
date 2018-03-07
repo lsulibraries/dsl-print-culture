@@ -3,8 +3,6 @@
       <div class="personIcons">
           <div class="contIcon">
           </div>
-          <div class="corrIcon">
-          </div>
           <div class="editIcon">
           </div>
           <div class="mentIcon">
@@ -15,10 +13,7 @@
           <div class="role-editor" v-if="this.getRole('Editor')">
               <div class="role-name"><div class="roleIcon"></div></div>
           </div>
-          <div class="role-contributor" v-if="this.getRole('Correspondent')">
-              <div class="role-name"><div class="roleIcon"></div></div>
-          </div>
-          <div class="role-contributor" v-if="this.getRole('Contributor')">
+          <div class="role-contributor" v-if="this.getRole('Contributor') || this.getRole('Correspondent')">
               <div class="role-name"><div class="roleIcon"></div></div>
               <div class="contrib-count">{{ getContribStmt() }}</div>
           </div>

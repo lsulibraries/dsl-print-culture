@@ -5,23 +5,10 @@
       </div>
       <div class="roleFilter">
           <div class="roles">
-              <!-- <div class="roleFilterContributor"     v-bind:class="{active: roleFilter == 'cont'}" @click="updateRoleFilter('cont')">
-                <div class="roleDescription">Contributor</div>
-              </div>
-              <div class="roleFilterMentioned"     v-bind:class="{active: roleFilter == 'ment'}" @click="updateRoleFilter('ment')">
-                <div class="roleDescription">Mentioned</div>
-              </div>
-              <div class="roleFilterEditor"        v-bind:class="{active: roleFilter == 'edit'}" @click="updateRoleFilter('edit')">
-                <div class="roleDescription">Editor</div>
-              </div>
-              <div class="roleFilterCorrespondent" @click="updateRoleFilter('corr')">
-                <div class="roleDescription">Correspondent</div>
-              </div> -->
               <div class="role-filter-indicator">{{ roleIndicator }}</div>
               <div :id="role" :class="getRoleClass(role)" @click="updateRoleFilter(role)" v-for="role in roles">
                 <div class="roleDescription" @click="updateRoleFilter(role.slice(0,4))">{{ upperCaseWord(role) }}</div>
               </div>
-              <!-- <div class="numberFilterContributions" v-bind:class="{active: numFilter == 'num'}" @click="updateRoleFilter('num')">Contribution Number</div> -->
           </div>
       </div>
   </div>
@@ -56,7 +43,7 @@
             return {
                 filterString: '',
                 roleFilter: [],
-                roles: ['contributor', 'correspondent', 'editor', 'mentioned'],
+                roles: ['contributor', 'editor', 'mentioned'],
             }
         },
         computed: {

@@ -45352,6 +45352,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 }
             }
         },
+        getRole: function getRole() {
+            if (this.person.personMeta.personRole) {
+                return this.person.personMeta.personRole.replace('Correspondent', 'Contributor');
+            }
+        },
         transmitPerson: function transmitPerson() {
             if (this.activePerson == false) {
                 Event.$emit('emitPerson', this.person, true);
@@ -45515,19 +45520,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
@@ -45557,7 +45549,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     return {
       filterString: '',
       roleFilter: [],
-      roles: ['contributor', 'correspondent', 'editor', 'mentioned']
+      roles: ['contributor', 'editor', 'mentioned']
     };
   },
 
@@ -45669,11 +45661,6 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
 //
 //
 //
@@ -60999,7 +60986,7 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return (this.passesFilter()) ? _c('router-link', {
     staticClass: "person",
-    class: [_vm.person.personMeta.personRole, {
+    class: [this.getRole(), {
       active: _vm.activePerson
     }],
     attrs: {
@@ -61636,15 +61623,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "personRole"
   }, [(this.getRole('Editor')) ? _c('div', {
     staticClass: "role-editor"
-  }, [_vm._m(1)]) : _vm._e(), _vm._v(" "), (this.getRole('Correspondent')) ? _c('div', {
+  }, [_vm._m(1)]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor') || this.getRole('Correspondent')) ? _c('div', {
     staticClass: "role-contributor"
-  }, [_vm._m(2)]) : _vm._e(), _vm._v(" "), (this.getRole('Contributor')) ? _c('div', {
-    staticClass: "role-contributor"
-  }, [_vm._m(3), _vm._v(" "), _c('div', {
+  }, [_vm._m(2), _vm._v(" "), _c('div', {
     staticClass: "contrib-count"
   }, [_vm._v(_vm._s(_vm.getContribStmt()))])]) : _vm._e(), _vm._v(" "), (this.getRole('Mentioned')) ? _c('div', {
     staticClass: "role-mentioned"
-  }, [_vm._m(4), _vm._v(" "), (this.isMentioned()) ? _c('div', {
+  }, [_vm._m(3), _vm._v(" "), (this.isMentioned()) ? _c('div', {
     staticClass: "mention-statement"
   }, [_vm._v(_vm._s(this.getMention()))]) : _vm._e()]) : _vm._e()])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -61653,17 +61638,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "contIcon"
   }), _vm._v(" "), _c('div', {
-    staticClass: "corrIcon"
-  }), _vm._v(" "), _c('div', {
     staticClass: "editIcon"
   }), _vm._v(" "), _c('div', {
     staticClass: "mentIcon"
-  })])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "role-name"
-  }, [_c('div', {
-    staticClass: "roleIcon"
   })])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
