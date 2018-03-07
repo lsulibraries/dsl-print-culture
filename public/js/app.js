@@ -45389,7 +45389,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 passesRole = true;
             } else {
                 if (!this.$root.empty(this.person.personMeta.personRole)) {
-                    var personRoles = this.person.personMeta.personRole.toLowerCase().split(' ');
+                    var personRoles = this.person.personMeta.personRole.replace('Correspondent', 'Contributor').toLowerCase().split(' ');
                     var result = true;
                     var _iteratorNormalCompletion = true;
                     var _didIteratorError = false;

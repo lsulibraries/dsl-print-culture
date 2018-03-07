@@ -80,7 +80,7 @@
                 }
                 else {
                   if(!this.$root.empty(this.person.personMeta.personRole)) {
-                    const personRoles = this.person.personMeta.personRole.toLowerCase().split(' ')
+                    const personRoles = this.person.personMeta.personRole.replace('Correspondent', 'Contributor').toLowerCase().split(' ')
                     let result = true
                     for(const filter of this.filterRole) {
                       if(personRoles.indexOf(filter) == -1) {
