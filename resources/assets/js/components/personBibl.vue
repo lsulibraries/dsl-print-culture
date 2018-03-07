@@ -28,7 +28,9 @@
           getPieceMeta: function () {
             if (this.isAdvertisements()) {
               return {
-                pieceTitle: 'Advertisements'
+                pieceTitle: 'Advertisements',
+                pieceId: this.bibl.sectionMeta.sectionId,
+                piecePdfIndex: this.bibl.sectionMeta.sectionPdfIndex
               }
             }
             return this.bibl.pieceMeta

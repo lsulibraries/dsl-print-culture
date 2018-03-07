@@ -45501,7 +45501,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     getPieceMeta: function getPieceMeta() {
       if (this.isAdvertisements()) {
         return {
-          pieceTitle: 'Advertisements'
+          pieceTitle: 'Advertisements',
+          pieceId: this.bibl.sectionMeta.sectionId,
+          piecePdfIndex: this.bibl.sectionMeta.sectionPdfIndex
         };
       }
       return this.bibl.pieceMeta;
