@@ -21587,9 +21587,9 @@
                <personNote>Unable to identify on VIAF.</personNote>
             </personBio>
             <personTotalContrib>2</personTotalContrib>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
             <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450308-p6>
@@ -21659,8 +21659,7 @@
                </pieceMeta>
                <personPieceMeta>
                   <personPieceRole>Mentioned</personPieceRole>
-                  <personPieceTotalMention>2</personPieceTotalMention>
-                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450315-p7>
          </personListBibl>
@@ -34742,7 +34741,7 @@
             <personBio>
                <personBirth>Born August 10, 1810 in Goffstown, New Hampshire.</personBirth>
                <personDeath>Died 1884.</personDeath>
-               <personNote>An American writer and advocate for women’s rights and health reform. She often contributed to The Democratic Review, The American Review, and Godey’s Lady’s Book. She wrote A Woman’s Work in Water Cure and Sanitary Education. Also known as "Mary Gove Nichols" and "Mary Sergeant Neal." An American writer and advocate for women’s rights and health reform. She often
+               <personNote>An American writer and advocate for women’s rights and health reform. She often
             contributed to The Democratic Review, The
               American Review, and Godey’s Lady’s Book. She wrote
               A Woman’s Work in Water Cure and Sanitary Education.
@@ -52714,7 +52713,7 @@
               United States. Schoolcraft also served as a United States Indian agent and
             wrote prolifically on his adventures and expeditions.</personNote>
             </personBio>
-            <personTotalContrib>3</personTotalContrib>
+            <personTotalContrib>2</personTotalContrib>
             <personTotalMentionsOverall>12</personTotalMentionsOverall>
             <personTotalMentioningPieces>7</personTotalMentioningPieces>
             <personTotalMentionStatement>This author is mentioned 12 times across 7 pieces.</personTotalMentionStatement>
@@ -52743,23 +52742,6 @@
                   <authorShip>Authorship is inferred, with medium certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450125-p7>
-            <bibl-18450208-p11>
-               <issueMeta>
-                  <issueId>18450208</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>6</issueNum>
-                  <issueDate>February 8, 1845</issueDate>
-               </issueMeta>
-               <pieceMeta>
-                  <pieceId>p11</pieceId>
-                  <pieceTitle>Chronology</pieceTitle>
-                  <piecePage>91</piecePage>
-                  <piecePdfIndex>11</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Contributor</personPieceRole>
-               </personPieceMeta>
-            </bibl-18450208-p11>
             <bibl-18450301-p9>
                <issueMeta>
                   <issueId>18450301</issueId>
