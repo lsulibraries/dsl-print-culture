@@ -3650,7 +3650,7 @@
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
             </bibl-18450517-p10>
-            <bibl-18450517-p21>
+            <bibl-18450517-p20>
                <issueMeta>
                   <issueId>18450517</issueId>
                   <issueVol>1</issueVol>
@@ -3658,7 +3658,7 @@
                   <issueDate>May 17, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p21</pieceId>
+                  <pieceId>p20</pieceId>
                   <pieceTitle>Agents for the Broadway Journal</pieceTitle>
                   <piecePage>320</piecePage>
                   <piecePdfIndex>16</piecePdfIndex>
@@ -3667,7 +3667,7 @@
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
                </personPieceMeta>
-            </bibl-18450517-p21>
+            </bibl-18450517-p20>
             <bibl-18450524-p1>
                <issueMeta>
                   <issueId>18450524</issueId>
@@ -7185,9 +7185,9 @@
                <personDeath>Died 1830.</personDeath>
                <personNote>Compiled collections such as A Complete Edition of the Poets of Great Britian.</personNote>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-s3>
@@ -7208,6 +7208,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-s3>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </randerson>
       <canthon>
@@ -8447,9 +8465,9 @@
                <personDeath>Died December 28, 1706 in Rotterdam, Dutch Republic.</personDeath>
                <personNote>A philosopher and writer best known for his Historical and Critical Dictionary. He influenced the Enlightenment with his advocacy of toleration of divergent beliefs.</personNote>
             </personBio>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-s3>
@@ -8506,6 +8524,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </pbayle>
       <jbeattie>
@@ -9011,9 +9047,9 @@
                <personDeath>Died September 30, 1876 in Meylan, France.</personDeath>
                <personNote>A French classical composer and pianist.</personNote>
             </personBio>
-            <personTotalMentionsOverall>17</personTotalMentionsOverall>
-            <personTotalMentioningPieces>8</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 17 times across 8 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>20</personTotalMentionsOverall>
+            <personTotalMentioningPieces>9</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 20 times across 9 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450315-p13>
@@ -9172,6 +9208,25 @@
                   <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>3</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 3 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </hjbertini>
       <jbisco>
@@ -9187,9 +9242,9 @@
             agent.</personNote>
             </personBio>
             <personTotalContrib>9</personTotalContrib>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450208-p26>
@@ -9405,6 +9460,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450322-p5>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </jbisco>
       <lblanchard>
@@ -9674,9 +9747,9 @@
             to Swedish women and the establishment of the Royal Seminary, the first post-secondary
             school to accept women as students.</personNote>
             </personBio>
-            <personTotalMentionsOverall>2</personTotalMentionsOverall>
-            <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>3</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-p2>
@@ -9719,6 +9792,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-p25>
+            <bibl-18450517-p19>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Literary Intelligence</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p19>
          </personListBibl>
       </fbremer>
       <dbrewster>
@@ -9770,7 +9861,7 @@
                <personDeath>Died June 20, 1877 in Brooklyn, New York.</personDeath>
                <personNote>The founding editor of The Broadway Journal, Briggs began the journal in partnership with publisher John Bisco. Poe and Watson soon joined as editors, but the trio did not share duties long:  Briggs resigned from his editorial post in June 1845.  He was a noted journalist, author, and editor,p erhaps best known for his The Adventures of Harry Franco (1839). He worked in editorial roles for Putnam's Magazine and other publications, and was a strong proponent of international copyright laws, which did not exist at that time.</personNote>
             </personBio>
-            <personTotalContrib>132</personTotalContrib>
+            <personTotalContrib>135</personTotalContrib>
             <personTotalMentionsOverall>1</personTotalMentionsOverall>
             <personTotalMentioningPieces>1</personTotalMentioningPieces>
             <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
@@ -12373,7 +12464,7 @@
                </sectionMeta>
                <pieceMeta>
                   <pieceId>p7</pieceId>
-                  <pieceTitle>Martin’s Illustrated Family Bible. No. 4</pieceTitle>
+                  <pieceTitle>Martin's Illustrated Family Bible. No. 4</pieceTitle>
                   <piecePage>314</piecePage>
                   <piecePdfIndex>10</piecePdfIndex>
                </pieceMeta>
@@ -12720,6 +12811,75 @@
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450614-p9>
+            <bibl-18450621-p12>
+               <issueMeta>
+                  <issueId>18450621</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>June 21, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p12</pieceId>
+                  <pieceTitle>Harper's Illuminated and Illustrated Edition of Shakespeare</pieceTitle>
+                  <piecePage>394</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450621-p12>
+            <bibl-18450621-p14>
+               <issueMeta>
+                  <issueId>18450621</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>June 21, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>New Works Lately Received</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Satanstoe, or the Littlepage Manuscripts</pieceTitle>
+                  <piecePage>395</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450621-p14>
+            <bibl-18450621-p15>
+               <issueMeta>
+                  <issueId>18450621</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>25</issueNum>
+                  <issueDate>June 21, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>New Works Lately Received</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p15</pieceId>
+                  <pieceTitle>Notes, Explanatory and Practical, on the Epistles of Paul</pieceTitle>
+                  <piecePage>395</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450621-p15>
             <bibl-18450308-p3>
                <issueMeta>
                   <issueId>18450308</issueId>
@@ -14713,9 +14873,9 @@
                <personNote>Known as the Father of English Literature, Chaucer is best known as the author of
               The Canterbury Tales.</personNote>
             </personBio>
-            <personTotalMentionsOverall>8</personTotalMentionsOverall>
-            <personTotalMentioningPieces>4</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 8 times across 4 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>9</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 9 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450118-p1>
@@ -14795,6 +14955,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </gchaucer>
       <dlchild>
@@ -15229,9 +15407,9 @@
                <personNote>A poet who developed a friendship with N. P. Willis and was published in his New York Mirror as well as Graham's
               Magazine and other journals.</personNote>
             </personBio>
-            <personTotalMentionsOverall>4</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 4 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>5</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 5 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450405-p30>
@@ -15293,6 +15471,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-s3>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </ecjudson>
       <cchurchill>
@@ -15766,9 +15966,9 @@
               Rime of the Ancient Mariner and Kubla Khan, as well
             as his autobiography, Biographia Literaria.</personNote>
             </personBio>
-            <personTotalMentionsOverall>20</personTotalMentionsOverall>
-            <personTotalMentioningPieces>10</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 20 times across 10 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>21</personTotalMentionsOverall>
+            <personTotalMentioningPieces>11</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 21 times across 11 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450111-p1>
@@ -15990,6 +16190,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450503-p7>
+            <bibl-18450517-p5>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>Old English Poetry--The Book of Gems</pieceTitle>
+                  <piecePage>313-314</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p5>
          </personListBibl>
       </stcoleridge>
       <jcollamer>
@@ -16495,9 +16717,9 @@
                <personNote>A prolific and popular American author best known for the Leatherstocking Tales, a series of five historical novels of the frontier
             period.</personNote>
             </personBio>
-            <personTotalMentionsOverall>5</personTotalMentionsOverall>
-            <personTotalMentioningPieces>4</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 5 times across 4 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>6</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 6 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450118-p6>
@@ -16581,6 +16803,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-p21>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </jfcooper>
       <acowley>
@@ -16595,9 +16839,9 @@
                <personNote>An essayist and author of fanciful, decorous poems. Cowley served as the Queen's
             cipher secretary and performed various Royalist missions.</personNote>
             </personBio>
-            <personTotalMentionsOverall>2</personTotalMentionsOverall>
-            <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 3 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450201-p1>
@@ -16640,6 +16884,29 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-p16>
+            <bibl-18450517-p5>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>Old English Poetry--The Book of Gems</pieceTitle>
+                  <piecePage>313-314</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>2</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p5>
          </personListBibl>
       </acowley>
       <wcowper>
@@ -16953,9 +17220,9 @@
             strained when Cruikshank wrote a letter to The Times that
             insisted Dickens stole Cruikshank's ideas for a story and published them as Oliver Twist.</personNote>
             </personBio>
-            <personTotalMentionsOverall>2</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 2 times in a single piece.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-p13>
@@ -16981,6 +17248,29 @@
                   <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450104-p13>
+            <bibl-18450315-p16>
+               <issueMeta>
+                  <issueId>18450315</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>11</issueNum>
+                  <issueDate>March 15, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Literary Notices</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p16</pieceId>
+                  <pieceTitle>Cruikshank's Omnibus</pieceTitle>
+                  <piecePage>174</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>2</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450315-p16>
          </personListBibl>
       </gcruikshank>
       <acunningham>
@@ -18334,9 +18624,9 @@
                <personBirth>Born January 22, 1573 in London, England.</personBirth>
                <personDeath>Died March 31, 1631 in London, England.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450111-p8>
@@ -18357,6 +18647,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450111-p8>
+            <bibl-18450517-p5>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>Old English Poetry--The Book of Gems</pieceTitle>
+                  <piecePage>313-314</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p5>
          </personListBibl>
       </jdonne>
       <jdouglas>
@@ -19059,9 +19371,9 @@
                <personDeath>Died 1828.</personDeath>
                <personNote>An English Quaker and ethical philosopher known for his book An Enquiry into the Accordancy of War with the Principles of Christianity.</personNote>
             </personBio>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>5</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 5 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450412-p29>
@@ -19122,6 +19434,46 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-p8>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p8</pieceId>
+                  <pieceTitle>Essays on the Principles of Morality</pieceTitle>
+                  <piecePage>314</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p8>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </jdymond>
       <e>
@@ -19489,9 +19841,9 @@
             "Ianthe."</personNote>
             </personBio>
             <personTotalContrib>5</personTotalContrib>
-            <personTotalMentionsOverall>2</personTotalMentionsOverall>
-            <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>3</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450308-p5>
@@ -19589,6 +19941,24 @@
                   <authorShip>Authorship is inferred, with high certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450412-p9>
+            <bibl-18450315-p25>
+               <issueMeta>
+                  <issueId>18450315</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>11</issueNum>
+                  <issueDate>March 15, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p25</pieceId>
+                  <pieceTitle>To Readers and Correspondents</pieceTitle>
+                  <piecePage>175</piecePage>
+                  <piecePdfIndex>15</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450315-p25>
             <bibl-18450405-p30>
                <issueMeta>
                   <issueId>18450405</issueId>
@@ -20694,9 +21064,9 @@
             feminist work in the U.S. She became involved in the infamous letter scandal between
             Poe, Frances Osgood, and Elizabeth Ellet.</personNote>
             </personBio>
-            <personTotalMentionsOverall>37</personTotalMentionsOverall>
-            <personTotalMentioningPieces>6</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 37 times across 6 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>38</personTotalMentionsOverall>
+            <personTotalMentioningPieces>7</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 38 times across 7 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450215-p1>
@@ -20830,6 +21200,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450419-p3>
+            <bibl-18450517-p10>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p10</pieceId>
+                  <pieceTitle>The National Barber</pieceTitle>
+                  <piecePage>315-316</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p10>
          </personListBibl>
       </smfuller>
       <tfuller>
@@ -22119,9 +22507,9 @@
                <personNote>Goldsmith was the author of several penmanship manuals in the nineteenth
             century.</personNote>
             </personBio>
-            <personTotalMentionsOverall>34</personTotalMentionsOverall>
-            <personTotalMentioningPieces>17</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 34 times across 17 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>39</personTotalMentionsOverall>
+            <personTotalMentioningPieces>19</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 39 times across 19 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-s4>
@@ -22276,6 +22664,25 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450301-s6>
+            <bibl-18450315-s4>
+               <issueMeta>
+                  <issueId>18450315</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>11</issueNum>
+                  <issueDate>March 15, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>175-176</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>4</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 4 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450315-s4>
             <bibl-18450322-s4>
                <issueMeta>
                   <issueId>18450322</issueId>
@@ -22444,6 +22851,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </obgoldsmith>
       <jfpdgondi>
@@ -22875,9 +23300,9 @@
                <personNote>Grahame was a historian of the American Revolution. He wrote The
               History of the United States of North America.</personNote>
             </personBio>
-            <personTotalMentionsOverall>7</personTotalMentionsOverall>
-            <personTotalMentioningPieces>4</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 7 times across 4 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>8</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 8 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-s4>
@@ -22955,6 +23380,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450125-s8>
+            <bibl-18450517-p19>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Literary Intelligence</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p19>
          </personListBibl>
       </jgrahame>
       <ecjgray>
@@ -23257,9 +23700,9 @@
                <personBirth>Born February 13, 1815 in Vermont.</personBirth>
                <personDeath>Died August 27, 1857 in New York, New York.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>8</personTotalMentionsOverall>
-            <personTotalMentioningPieces>7</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 8 times across 7 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>9</personTotalMentionsOverall>
+            <personTotalMentioningPieces>8</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 9 times across 8 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-p1>
@@ -23401,6 +23844,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-p24>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </rwgriswold>
       <fjgrund>
@@ -23417,9 +23882,9 @@
               Deutsche, Mercury and Evening Journal, and Sun. He published several books, including The
               Americans in Their Moral, Social, and Political Relations and Aristocracy in America: From the Sketch-Book of a German Nobleman.</personNote>
             </personBio>
-            <personTotalMentionsOverall>7</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 7 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>8</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 8 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450301-p10>
@@ -23482,6 +23947,28 @@
                   <personPieceMentionStatement>This name appears 4 times.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-p21>
+            <bibl-18450517-p13>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>Godey's Lady's Book</pieceTitle>
+                  <piecePage>316</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p13>
          </personListBibl>
       </fjgrund>
       <gguidiccioni>
@@ -24090,9 +24577,9 @@
                <personBirth>Born May 9, 1800 in Waterford, Ireland.</personBirth>
                <personDeath>Died March 11, 1889 in London, England.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 3 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450118-p4>
@@ -24140,6 +24627,28 @@
                   <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450201-p27>
+            <bibl-18450517-p5>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>Old English Poetry--The Book of Gems</pieceTitle>
+                  <piecePage>313-314</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p5>
          </personListBibl>
       </schall>
       <fghalleck>
@@ -25327,9 +25836,9 @@
                <personDeath>Died May 17, 1858 in New York, New York.</personDeath>
                <personNote>A novelist, poet, historian, illustrator, journalist and writer on sport. Herbert founded and edited American Monthly Magazine. He wrote many novels, including The Warwick Woodlands, and many works on sport such as hunting and archery under the pseudonym Frank Forester.</personNote>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450419-p18>
@@ -25354,6 +25863,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450419-p18>
+            <bibl-18450517-p13>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>Godey's Lady's Book</pieceTitle>
+                  <piecePage>316</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p13>
          </personListBibl>
       </hwherbert>
       <herodotus>
@@ -25780,9 +26311,9 @@
                <personBirth>Born February 7, 1806 in New York, New York.</personBirth>
                <personDeath>Died June 7, 1884 in Harrisburg, Pennsylvania.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>3</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 3 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450405-p40>
@@ -25803,6 +26334,29 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450405-p40>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>2</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </cfhoffman>
       <bhofland>
@@ -27299,9 +27853,9 @@
                <personDeath>Died January 27, 1823 in London, England.</personDeath>
                <personNote>A mathematician and surveyor who calculated the density of the earth. He wrote math treatises and textbooks, such as A Course of Mathematics For the Use of Academies and  A Treatise on Mensuration both in Theory and in Practice.</personNote>
             </personBio>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-s3>
@@ -27358,6 +27912,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </chutton>
       <amide>
@@ -27879,9 +28451,9 @@
                <personBirth>Born August 9, 1799 in London, England.</personBirth>
                <personDeath>Died June 9, 1860 in Venice, Italy.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>23</personTotalMentionsOverall>
-            <personTotalMentioningPieces>4</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 23 times across 4 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>24</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 24 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450111-p2>
@@ -27974,6 +28546,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450405-p6>
+            <bibl-18450517-p19>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Literary Intelligence</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p19>
          </personListBibl>
       </gprjames>
       <abjameson>
@@ -29537,9 +30127,9 @@
                <personDeath>Died January 30, 1867 in Hanover, Germany.</personDeath>
                <personNote>An educator and historian, Kohlrausch published several textbooks, including German History for School and Home. He was appointed Director General of Schools by the Royal Hanoverian government.</personNote>
             </personBio>
-            <personTotalMentionsOverall>4</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 4 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>5</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 5 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450412-p22>
@@ -29605,6 +30195,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450503-p14>
+            <bibl-18450517-p19>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Literary Intelligence</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p19>
          </personListBibl>
       </hftkohlrausch>
       <rkühner>
@@ -29813,9 +30421,9 @@
                <personDeath>Died 1892.</personDeath>
                <personNote>Author of books of history, fiction, and children's books, such as Ice King and the Sweet South Wind and The Little Messenger Birds.</personNote>
             </personBio>
-            <personTotalMentionsOverall>2</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 2 times in a single piece.</personTotalMentionStatement>
+            <personTotalMentionsOverall>3</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 3 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-p21>
@@ -29837,6 +30445,28 @@
                   <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-p21>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </chblaing>
       <adlamartine>
@@ -30564,9 +31194,9 @@
                <personBirth>Born November 15, 1787 in Philadelphia, Pennsylvania.</personBirth>
                <personDeath>Died January 1, 1858 in Gloucester City, New Jersey.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450201-p4>
@@ -30627,6 +31257,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-p21>
+            <bibl-18450517-p13>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p13</pieceId>
+                  <pieceTitle>Godey's Lady's Book</pieceTitle>
+                  <piecePage>316</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p13>
          </personListBibl>
       </eleslie>
       <jcwlever>
@@ -31125,9 +31777,9 @@
                <personBirth>Born February 27, 1807 in Portland, Maine.</personBirth>
                <personDeath>Died March 24, 1882 in Cambridge, Massachusetts.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>60</personTotalMentionsOverall>
-            <personTotalMentioningPieces>13</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 60 times across 13 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>62</personTotalMentionsOverall>
+            <personTotalMentioningPieces>14</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 62 times across 14 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450125-p23>
@@ -31408,6 +32060,29 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450503-p16>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>2</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 2 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </hwlongfellow>
       <ablongstreet>
@@ -33884,9 +34559,9 @@
               Messenger while the Broadway Journal was being
             published.</personNote>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450322-p5>
@@ -33911,6 +34586,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450322-p5>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </bbminor>
       <moddle>
@@ -34901,9 +35594,9 @@
                <personDeath>Died January 2, 1831 in Bonn, Germany.</personDeath>
                <personNote>A stateman, banker, historian of Ancient Rome, and a founder of modern historiography. He wrote Roman History and History of Greek Heroes, among other works.</personNote>
             </personBio>
-            <personTotalMentionsOverall>2</personTotalMentionsOverall>
-            <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>3</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450503-s5>
@@ -34942,6 +35635,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </bgniebuhr>
       <llnoble>
@@ -35990,9 +36701,9 @@
             William Cullen Bryant. Paulding also served as the 11th United States Secretary of the
             Navy from 1838 to 1841.</personNote>
             </personBio>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-p2>
@@ -36057,6 +36768,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-p25>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </jkpaulding>
       <shpease>
@@ -38802,7 +39535,7 @@
                </sectionMeta>
                <pieceMeta>
                   <pieceId>p5</pieceId>
-                  <pieceTitle>Old English Poetry—The Book of Gems</pieceTitle>
+                  <pieceTitle>Old English Poetry--The Book of Gems</pieceTitle>
                   <piecePage>313-314</piecePage>
                   <piecePdfIndex>9</piecePdfIndex>
                </pieceMeta>
@@ -38946,7 +39679,7 @@
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450517-p14>
-            <bibl-18450517-p20>
+            <bibl-18450517-p19>
                <issueMeta>
                   <issueId>18450517</issueId>
                   <issueVol>1</issueVol>
@@ -38954,7 +39687,7 @@
                   <issueDate>May 17, 1845</issueDate>
                </issueMeta>
                <pieceMeta>
-                  <pieceId>p20</pieceId>
+                  <pieceId>p19</pieceId>
                   <pieceTitle>Literary Intelligence</pieceTitle>
                   <piecePage>318</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -38964,7 +39697,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450517-p20>
+            </bibl-18450517-p19>
             <bibl-18450524-p2>
                <issueMeta>
                   <issueId>18450524</issueId>
@@ -50973,9 +51706,9 @@
                <personBirth>Born May 4, 1796 in Salem, Massachusetts.</personBirth>
                <personDeath>Died January 28, 1859 in Boston, Massachusetts.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>9</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 9 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>11</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 11 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450201-p19>
@@ -51041,6 +51774,42 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-p25>
+            <bibl-18450517-p1>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p1</pieceId>
+                  <pieceTitle>The National Academy</pieceTitle>
+                  <piecePage>305-307</piecePage>
+                  <piecePdfIndex>1</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p1>
+            <bibl-18450517-p19>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Literary Intelligence</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p19>
          </personListBibl>
       </whprescott>
       <bwprocter>
@@ -51848,9 +52617,9 @@
             Ritchie's works were published under her maiden name, Anna Cora Ogden; frequently,
             Ritchie would use the name "Isabel" as a pseudonym.</personNote>
             </personBio>
-            <personTotalMentionsOverall>7</personTotalMentionsOverall>
-            <personTotalMentioningPieces>4</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 7 times across 4 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>12</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 12 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450315-p14a>
@@ -51931,6 +52700,29 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450405-p31>
+            <bibl-18450517-p18>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Musical Items</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p18</pieceId>
+                  <pieceTitle>Dramatic Ovation</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceTotalMention>5</personPieceTotalMention>
+                  <personPieceMentionStatement>This name appears 5 times.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p18>
          </personListBibl>
       </acmritchie>
       <critter>
@@ -54623,9 +55415,9 @@
                <personDeath>Died November 16, 1893 in Blue Point, New York.</personDeath>
                <personNote>A poet, fiction writer, editor, lecturer, and women's rights activist. Smith was best known during her lifetime for her poem The Sinless Child which was published in the Southern Literary Messenger. She is now best remembered for her series of feminist essays, Woman and Her Needs, published in the New York Tribune.</personNote>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-p21>
@@ -54646,6 +55438,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-p21>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </eosmith>
       <ghsmith>
@@ -55316,9 +56130,9 @@
                <personNote>A historian, educator, and Unitarian minister who served as President of Harvard from 1849 to 1853. Sparks edited the Library of American Biography and compiled 
             Correspondence of the American Revolution and The Works of Benjamin Franklin among other works.</personNote>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-p13>
@@ -55343,6 +56157,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-p13>
+            <bibl-18450517-p19>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p19</pieceId>
+                  <pieceTitle>Literary Intelligence</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p19>
          </personListBibl>
       </jsparks>
       <hvspiegel>
@@ -55662,9 +56494,9 @@
                <personNote>A novelist and magazine editor, Stephens was the author of dime novels and is considered a founder of that genre. She edited The Ladies Companion and was
             published in Godey's Lady's Book and Graham's Magazine.</personNote>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-p21>
@@ -55685,6 +56517,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450426-p21>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </asstephens>
       <lsterne>
@@ -56051,9 +56905,9 @@
             the English language, and the term "Swiftian" is often applied to satirical
             writing.</personNote>
             </personBio>
-            <personTotalMentionsOverall>6</personTotalMentionsOverall>
-            <personTotalMentioningPieces>4</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 6 times across 4 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>7</personTotalMentionsOverall>
+            <personTotalMentioningPieces>5</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 7 times across 5 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-p1>
@@ -56137,6 +56991,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-p8>
+            <bibl-18450517-p4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p4</pieceId>
+                  <pieceTitle>Headlong Hall and Nightmare Abbey</pieceTitle>
+                  <piecePage>311-313</piecePage>
+                  <piecePdfIndex>7</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p4>
          </personListBibl>
       </jswift>
       <t>
@@ -56387,9 +57263,9 @@
                <personBirth>Born August 6, 1809 in Somersby, Lincolnshire, England.</personBirth>
                <personDeath>Died October 6, 1892 in Aldworth, Berkshire, England.</personDeath>
             </personBio>
-            <personTotalMentionsOverall>4</personTotalMentionsOverall>
-            <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 4 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>5</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 5 times across 3 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450111-p1>
@@ -56437,6 +57313,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450329-p6>
+            <bibl-18450517-p12>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p12</pieceId>
+                  <pieceTitle>The Southern Literary Messenger</pieceTitle>
+                  <piecePage>316</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p12>
          </personListBibl>
       </atennyson>
       <terence>
@@ -57289,9 +58187,9 @@
               Sketch-book, Isabel, or Sicily: A Pilgrimage", and
               "Leaves from the Diary of a Dreamer".</personNote>
             </personBio>
-            <personTotalMentionsOverall>17</personTotalMentionsOverall>
-            <personTotalMentioningPieces>6</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 17 times across 6 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>18</personTotalMentionsOverall>
+            <personTotalMentioningPieces>7</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 18 times across 7 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450118-p16>
@@ -57413,6 +58311,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450503-s5>
+            <bibl-18450517-p14>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p14</pieceId>
+                  <pieceTitle>Graham's Magazine for June</pieceTitle>
+                  <piecePage>316-317</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p14>
          </personListBibl>
       </httuckerman>
       <wwturner>
@@ -57724,9 +58644,9 @@
                <personDeath>Died June 8, 1853 in Stoke Poges, Buckinghamshire, England.</personDeath>
                <personNote>A soldier, anthropologist, and Egyptologist who also served as a Member of Parliament. Vyse wrote Operations Carried on at the Pyramids of Gizeth in 1837.</personNote>
             </personBio>
-            <personTotalMentionsOverall>3</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>4</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 4 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-s3>
@@ -57783,6 +58703,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </rwhvyse>
       <saw>
@@ -58369,11 +59307,29 @@
                <personDeath>Died 1864.</personDeath>
                <personNote>Published music lesson books and books of music theory.</personNote>
             </personBio>
-            <personTotalMentionsOverall>6</personTotalMentionsOverall>
-            <personTotalMentioningPieces>3</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 6 times across 3 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>7</personTotalMentionsOverall>
+            <personTotalMentioningPieces>4</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 7 times across 4 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
+            <bibl-18450308-s7>
+               <issueMeta>
+                  <issueId>18450308</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>10</issueNum>
+                  <issueDate>March 8, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s7</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>159-160</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450308-s7>
             <bibl-18450329-s2>
                <issueMeta>
                   <issueId>18450329</issueId>
@@ -58444,9 +59400,9 @@
                <personDeath>Died May 21, 1790 in Oxford, England.</personDeath>
                <personNote>A literary historian, critic, and poet who was the Poet Laureate of England from 1785 to 1790. His most famous poem is The Pleasures of Melancholy. He also wrote Observations on the Faerie Queene of Spenser and The History of English Poetry. He is remembered for his interest in primitivism, which influenced romanticism.</personNote>
             </personBio>
-            <personTotalMentionsOverall>2</personTotalMentionsOverall>
-            <personTotalMentioningPieces>2</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>3</personTotalMentionsOverall>
+            <personTotalMentioningPieces>3</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 3 times across 3 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450426-s3>
@@ -58485,6 +59441,24 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </twarton>
       <hcwatson>
@@ -59145,6 +60119,29 @@
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
             </bibl-18450510-p21>
+            <bibl-18450517-p15>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s3</sectionId>
+                  <sectionTitle>Musical Items</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p15</pieceId>
+                  <pieceTitle>Onslaught Upon the Critics, By One of the Mirror School</pieceTitle>
+                  <piecePage>317</piecePage>
+                  <piecePdfIndex>13</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </personPieceMeta>
+            </bibl-18450517-p15>
             <bibl-18450517-p16>
                <issueMeta>
                   <issueId>18450517</issueId>
@@ -59158,8 +60155,8 @@
                </sectionMeta>
                <pieceMeta>
                   <pieceId>p16</pieceId>
-                  <pieceTitle>Onslaught Upon the Critics, By One of the Mirror School</pieceTitle>
-                  <piecePage>317</piecePage>
+                  <pieceTitle>New York Sacred Music Society</pieceTitle>
+                  <piecePage>317-318</piecePage>
                   <piecePdfIndex>13</piecePdfIndex>
                </pieceMeta>
                <personPieceMeta>
@@ -59181,9 +60178,9 @@
                </sectionMeta>
                <pieceMeta>
                   <pieceId>p17</pieceId>
-                  <pieceTitle>New York Sacred Music Society</pieceTitle>
-                  <piecePage>317-318</piecePage>
-                  <piecePdfIndex>13</piecePdfIndex>
+                  <pieceTitle>Castle Garden</pieceTitle>
+                  <piecePage>318</piecePage>
+                  <piecePdfIndex>14</piecePdfIndex>
                </pieceMeta>
                <personPieceMeta>
                   <personPieceRole>Contributor</personPieceRole>
@@ -59204,29 +60201,6 @@
                </sectionMeta>
                <pieceMeta>
                   <pieceId>p18</pieceId>
-                  <pieceTitle>Castle Garden</pieceTitle>
-                  <piecePage>318</piecePage>
-                  <piecePdfIndex>14</piecePdfIndex>
-               </pieceMeta>
-               <personPieceMeta>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <personPiecePseudo>Writing anonymously.</personPiecePseudo>
-                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
-               </personPieceMeta>
-            </bibl-18450517-p18>
-            <bibl-18450517-p19>
-               <issueMeta>
-                  <issueId>18450517</issueId>
-                  <issueVol>1</issueVol>
-                  <issueNum>20</issueNum>
-                  <issueDate>May 17, 1845</issueDate>
-               </issueMeta>
-               <sectionMeta>
-                  <sectionId>s3</sectionId>
-                  <sectionTitle>Musical Items</sectionTitle>
-               </sectionMeta>
-               <pieceMeta>
-                  <pieceId>p19</pieceId>
                   <pieceTitle>Dramatic Ovation</pieceTitle>
                   <piecePage>318</piecePage>
                   <piecePdfIndex>14</piecePdfIndex>
@@ -59236,7 +60210,7 @@
                   <personPiecePseudo>Writing anonymously.</personPiecePseudo>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
                </personPieceMeta>
-            </bibl-18450517-p19>
+            </bibl-18450517-p18>
             <bibl-18450524-p14>
                <issueMeta>
                   <issueId>18450524</issueId>
@@ -61221,9 +62195,9 @@
                <personDeath>Died February 8, 1877 in Washington, D.C..</personDeath>
                <personNote>A naval officer and explorer.</personNote>
             </personBio>
-            <personTotalMentionsOverall>4</personTotalMentionsOverall>
-            <personTotalMentioningPieces>4</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 4 times across 4 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>7</personTotalMentionsOverall>
+            <personTotalMentioningPieces>7</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 7 times across 7 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-s4>
@@ -61298,6 +62272,64 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450510-s4>
+            <bibl-18450517-p10>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <pieceMeta>
+                  <pieceId>p10</pieceId>
+                  <pieceTitle>The National Barber</pieceTitle>
+                  <piecePage>315-316</piecePage>
+                  <piecePdfIndex>11</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p10>
+            <bibl-18450517-p12>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s2</sectionId>
+                  <sectionTitle>The Magazines</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p12</pieceId>
+                  <pieceTitle>The Southern Literary Messenger</pieceTitle>
+                  <piecePage>316</piecePage>
+                  <piecePdfIndex>12</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p12>
+            <bibl-18450517-s4>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Advertisements</sectionTitle>
+                  <sectionPage>319-320</sectionPage>
+                  <sectionPdfIndex>15</sectionPdfIndex>
+               </sectionMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-s4>
          </personListBibl>
       </cwilkes>
       <npwillis>
@@ -61315,9 +62347,9 @@
               Journal, which was eventually renamed Town &amp;
               Country.</personNote>
             </personBio>
-            <personTotalMentionsOverall>21</personTotalMentionsOverall>
-            <personTotalMentioningPieces>9</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 21 times across 9 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>22</personTotalMentionsOverall>
+            <personTotalMentioningPieces>10</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 22 times across 10 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450104-p4>
@@ -61416,6 +62448,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450201-p4>
+            <bibl-18450208-p10>
+               <issueMeta>
+                  <issueId>18450208</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>6</issueNum>
+                  <issueDate>February 8, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s4</sectionId>
+                  <sectionTitle>Original Poetry</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p10</pieceId>
+                  <pieceTitle>The Raven</pieceTitle>
+                  <piecePage>90</piecePage>
+                  <piecePdfIndex>10</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450208-p10>
             <bibl-18450308-p3>
                <issueMeta>
                   <issueId>18450308</issueId>
@@ -61914,9 +62968,9 @@
             1850. His most famous works include Lyrical Ballads, The Prelude, and his poem Tintern
             Abbey.</personNote>
             </personBio>
-            <personTotalMentionsOverall>6</personTotalMentionsOverall>
-            <personTotalMentioningPieces>6</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned 6 times across 6 pieces.</personTotalMentionStatement>
+            <personTotalMentionsOverall>7</personTotalMentionsOverall>
+            <personTotalMentioningPieces>7</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 7 times across 7 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450111-p1>
@@ -62047,6 +63101,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450503-p7>
+            <bibl-18450517-p5>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>Old English Poetry--The Book of Gems</pieceTitle>
+                  <piecePage>313-314</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p5>
          </personListBibl>
       </wwordsworth>
       <jtworthington>
@@ -62098,9 +63174,9 @@
                <personDeath>Died December 1639 in Eton, England.</personDeath>
                <personNote>An author, diplomat, and politician who sat in the House of Commons. He wrote poems such as The Character of a Happy Life and during his lifetime he published The Elements of Architecture and an address to the king.</personNote>
             </personBio>
-            <personTotalMentionsOverall>1</personTotalMentionsOverall>
-            <personTotalMentioningPieces>1</personTotalMentioningPieces>
-            <personTotalMentionStatement>This author is mentioned once.</personTotalMentionStatement>
+            <personTotalMentionsOverall>2</personTotalMentionsOverall>
+            <personTotalMentioningPieces>2</personTotalMentioningPieces>
+            <personTotalMentionStatement>This author is mentioned 2 times across 2 pieces.</personTotalMentionStatement>
          </personMeta>
          <personListBibl>
             <bibl-18450405-p23>
@@ -62121,6 +63197,28 @@
                   <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
                </personPieceMeta>
             </bibl-18450405-p23>
+            <bibl-18450517-p5>
+               <issueMeta>
+                  <issueId>18450517</issueId>
+                  <issueVol>1</issueVol>
+                  <issueNum>20</issueNum>
+                  <issueDate>May 17, 1845</issueDate>
+               </issueMeta>
+               <sectionMeta>
+                  <sectionId>s1</sectionId>
+                  <sectionTitle>Reviews</sectionTitle>
+               </sectionMeta>
+               <pieceMeta>
+                  <pieceId>p5</pieceId>
+                  <pieceTitle>Old English Poetry--The Book of Gems</pieceTitle>
+                  <piecePage>313-314</piecePage>
+                  <piecePdfIndex>9</piecePdfIndex>
+               </pieceMeta>
+               <personPieceMeta>
+                  <personPieceRole>Mentioned</personPieceRole>
+                  <personPieceMentionStatement>This name appears once.</personPieceMentionStatement>
+               </personPieceMeta>
+            </bibl-18450517-p5>
          </personListBibl>
       </hwotton>
       <jrwreford>

@@ -144,8 +144,9 @@
                of prose) did not intend to be bitterly satirical when he penned all this about the author of the "Siamese Twins," we
                have only to regret that a gentleman who edits a respectable
                looking book should labor under so painful an hallucination.
-               We mean to say that Mr. Ward, (who although he did write
-               De Vereis by no means a fool,) could never have put to
+               We mean to say that Mr. 
+               <span class="person" id="rpward">Ward</span>, (who although he did write
+               De Vere is by no means a fool,) could never have put to
                paper, in his sober senses, anything half so absurd as the
                paragraph above quoted, without stopping at every third
                word to hold his sides or thrust his pocket-handkerchief in
@@ -1471,7 +1472,8 @@
                   as welcome as it is new.
                </p>
                
-               <p>Mr. Willis copies it into the Mirror with the following remarks.
+               <p>Mr. 
+                  <span class="person" id="npwillis">Willis</span> copies it into the Mirror with the following remarks.
                   "In our opinion it is the most effective single example of fugitive poetry ever published in this country; and unsurpassed in English
                   poetry
                   for subtle conception, masterly ingenuity of versification and consistent

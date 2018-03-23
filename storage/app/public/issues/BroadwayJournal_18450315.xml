@@ -2337,10 +2337,13 @@
             <div class="biblTitle">Cruikshank's Omnibus</div>
             <div class="biblPage">174</div>
             
-            <p>Cruikshank's Omnibus, with numerous illustrations. Philadelphia: E. Ferrett &amp; Co. For sale by W. H. Graham, 163 Nassau st.</p>
+            <p>
+               <span class="person" id="gcruikshank">Cruikshank</span>'s Omnibus, with numerous illustrations. Philadelphia: E. Ferrett &amp; Co. For sale by W. H. Graham, 163 Nassau st.
+            </p>
             
             <p>The purchaser of this little volume will be sure to get the worth of
-               his money. Although Cruikshank's name is very nearly a synonym
+               his money. Although 
+               <span class="person" id="gcruikshank">Cruikshank</span>'s name is very nearly a synonym
                for fun, yet his designs are not pure fun, for like the works of genius,
                they are tinged with a dash of melancholy. One could weep almost as
                readily as laugh at some of his most humorous sketches.
@@ -2650,7 +2653,8 @@
          </p>
          
          <p>"It will not be necessary to call the attention of our readers to the elegant
-            essay of Rudolph Hertz man. Those who read his initial number will
+            essay of 
+            <span class="person" id="ecembury">Rudolph Hertzman</span>. Those who read his initial number will
             need no call to anything bearing his signature.
          </p>
          
@@ -3093,21 +3097,25 @@
                and from 11 to 1 o'clock for ladies. Private instruction given.
             </p>
             
-            <p>For sale "Goldsmith's Gems of Penmanship," elegantly bound.
+            <p>For sale "
+               <span class="person" id="obgoldsmith">Goldsmith</span>'s Gems of Penmanship," elegantly bound.
                Price Five Dollars.
             </p>
             
             <p>From the Courier and Enquirer, July 27, 1844.</p>
             
-            <p>Goldsmith's Gems of Pennmanship.--The Chirographic art is
+            <p>
+               <span class="person" id="obgoldsmith">Goldsmith</span>'s Gems of Pennmanship.--The Chirographic art is
                much more important to mankind than it is generally considered, and
-               Mr. Goldsmith may well claim to be considered at its head. The
+               Mr. 
+               <span class="person" id="obgoldsmith">Goldsmith</span> may well claim to be considered at its head. The
                volume before us exhibits more taste and ingenuity, and higher proofs
                of manual dexterity than we have ever seen before.
             </p>
             
             <p>From the New York Express.
-               Goldsmith's Gems of Penmanship.--We have seen the original, as
+               
+               <span class="person" id="obgoldsmith">Goldsmith</span>'s Gems of Penmanship.--We have seen the original, as
                executed by his own hand, and a more beautiful, and indeed a more
                wonderful display of the power of that little instrument which is said
                to be "more potent than the sword," we never witnessed before.

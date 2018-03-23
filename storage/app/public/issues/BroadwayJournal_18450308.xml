@@ -274,7 +274,7 @@
             <div class="biblTitle">Glossary of Ecclesiastical Ornament and Costume</div>
             <div class="biblPage">146</div>
             
-            <p>Glossary or Ecclesiastical Ornament and Costume. Compiled and illustra-
+            <p>Glossary of Ecclesiastical Ornament and Costume. Compiled and illustra-
                ted from ancient authorities and examples, by 
                <span class="person" id="awpugin">A. Welby Puyin</span>, architect.
                London, 1844. Imported by Wiley and Putnam, New York.
@@ -285,9 +285,19 @@
                us. Gold and color can do no more, with the aid of manipulative skill alone, in making a beautiful book. Invention,
                of course, is not looked for in a work like this, which, brilliant as it appears, derives its main value from its sober
                truthfulness. It reflects, as in a mirror, the best specimens
-               of medi?val ecclesiastical ornament to be found in Europe,
-               explained and illustrated by the pen of the accomplished author, and by extracts from the works of Deorandus, Georgius,
-               Bona, Catalani, Gerbert, Martene, Molaenus, Thiers, Mabillon, Ducange, etc.
+               of medieval ecclesiastical ornament to be found in Europe,
+               explained and illustrated by the pen of the accomplished author, and by extracts from the works of 
+               <span class="person" id="durandus">Deorandus</span>, 
+               <span class="person" id="georgius">Georgius</span>,
+               
+               <span class="person" id="bona">Bona</span>, 
+               <span class="person" id="catalani">Catalani</span>, 
+               <span class="person" id="mgerbert">Gerbert</span>, 
+               <span class="person" id="emartene">Martene</span>, 
+               <span class="person" id="molanus">Molaenus</span>, 
+               <span class="person" id="jbthiers">Thiers</span>, 
+               <span class="person" id="jmabillon">Mabillon</span>, 
+               <span class="person" id="ducange">Ducange</span>, etc.
             </p>
             
             <p>The plates are 73 in number, and are altogether the most
@@ -2962,7 +2972,8 @@
             <div class="head">SINGING AT SIGHT.</div>
             
             <p>
-               MR. WARNER, translator of Webers theoretical
+               MR. 
+               <span class="person" id="jfwarner">WARNER</span>, translator of Webers theoretical
                work, &amp;c., continues his course of Vocal Instruction at his rooms, 411
                Broad-Way. Mr. Warner's new Illustrating Apparatus will also furnish
                very great facilities for a ready and full understanding of the subject preparatory to the study of Instrumental Music.
@@ -3082,7 +3093,8 @@
                
                <br></br>TRAITE COMPLET DE LA PEINTURE. Par M. de
                
-               <br></br>Montalbert. Nine large volumes 8vo., with a 4to. volume of En-
+               <br></br>
+               <span class="person" id="jnpmontalbert">Montalbert</span>. Nine large volumes 8vo., with a 4to. volume of En-
                
                <br></br>gravings - - - - - - - - - - - - 28 0
             </div>
