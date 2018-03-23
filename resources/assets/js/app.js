@@ -78,12 +78,9 @@ new Vue({
 	    contrast: 'normal', // high
 	},
 	xhrDataStore: {
-	    abouts: {
-		about: '',
-		methodology: '',
-		credits: {}
-	    },
-	    personography: {}
+    abouts: {},
+    personography: {},
+    issueText: {},
 	},
     },
     created() {
@@ -110,12 +107,8 @@ new Vue({
 	Event.$on('searchSubmitted', (searchString) => {
 	    this.state.content.searchString = searchString
 	})
-	// get abouts data
-	axios.get('/api/broadwayjournal/abouts/staff').then(response => this.xhrDataStore.abouts.staff = response.data);
-	axios.get('/api/broadwayjournal/abouts/about').then(response => this.xhrDataStore.abouts.about = response.data);
-	axios.get('/api/broadwayjournal/abouts/methodology').then(response => this.xhrDataStore.abouts.methodology = response.data);
-	axios.get('/api/broadwayjournal/abouts/personography').then(response => this.xhrDataStore.abouts.personographyDescription = response.data);
 
+	axios.get('/api/broadwayjournal/abouts/authors.html').then(response => this.xhrDataStore.abouts.personographyDescription = response.data);
 	axios.get('/api/BroadwayJournal/personography/comprehensive/json').then(response => {
         this.xhrDataStore.personography = response.data;
         Event.$emit('personographyLoaded', this.xhrDataStore.personography);

@@ -548,8 +548,11 @@
          </p>
          
          <div class="ab">Chorus.</div>
-         <span class="anchor" id="a001">
-            <a href="#n001"> Link </a>
+         <span class="footnote" id="n001">
+            <span class="footnoteLink">1</span>
+            <span class="footnoteText">* From a prose version of the Chorus in the tragedy of "Alcestis," fur-
+               nished the writer.
+            </span>
          </span>
          
          <div class="lg">
@@ -1191,8 +1194,13 @@
             <br></br>All that conspires to raise the system broad,
             
             <br></br>Is one commingled mass of cant and fraud.
-            <span class="anchor" id="a002">
-               <a href="#n002"> Link </a>
+            <span class="footnote" id="n002">
+               <span class="footnoteLink">2</span>
+               <span class="footnoteText">* This was the basis of the introduction of a new dispensation. It was
+                  necessary to condemn all the old sects, in order to show the importance of a 
+                  new one. See Pratt's Account of Several Remarkable Disco eres, &amp;c.—
+                  New-York: J. W. Harrison, 465 Pearl street, 1841--36 p.
+               </span>
             </span>
             
             
@@ -1219,8 +1227,11 @@
             <br></br>Nor could a fitter place than this invite.
             
             <br></br>Where KLUNEOLUX once received the rite.
-            <span class="anchor" id="a003">
-               <a href="#n003"> Link </a>
+            <span class="footnote" id="n003">
+               <span class="footnoteLink">3</span>
+               <span class="footnoteText">† The prophet's reference to this great personage in Iroquois mythology, is
+                  rather equivocal, if he intends to appeal to the moral character of Igne dux.
+               </span>
             </span>
             
             
@@ -1262,8 +1273,9 @@
             <br></br>Nought is so rife in masses, as belief.
             
             <br></br>This gave to Munster John
-            <span class="anchor" id="a004">
-               <a href="#n004"> Link </a>
+            <span class="footnote" id="n004">
+               <span class="footnoteLink">4</span>
+               <span class="footnoteText">* The Anabaptist fanatic of Germany, 16th century.</span>
             </span> his power and rod,
             
             <br></br>And sealed the Koran as the word of God.
@@ -1333,8 +1345,9 @@
             <br></br>Dig and reveal! nor ploughs nor forests mind!
             
             <br></br>Thou shall reveal the knowledge to mankind.”
-            <span class="anchor" id="a005">
-               <a href="#n005"> Link </a>
+            <span class="footnote" id="n005">
+               <span class="footnoteLink">5</span>
+               <span class="footnoteText">† Vide Pratt for this vision.</span>
             </span>
             
             
@@ -3423,30 +3436,35 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">* From a prose version of the Chorus in the tragedy of "Alcestis," furnished the writer.</div>
-      
-      
-      <a href="#a002"> Link </a>
-      <div class="note" id="n002">* This was the basis of the introduction of a new dispensation. It was
-         necessary to condemn all the old sects, in order to show the importance of a 
-         new one. See Pratt's Account of Several Remarkable Disco eres, &amp;c.—
-         New-York: J. W. Harrison, 465 Pearl street, 1841--36 p.
-      </div> 
-      
-      
-      <a href="#a003"> Link </a>
-      <div class="note" id="n003">† The prophet's reference to this great personage in Iroquois mythology, is
-         rather equivocal, if he intends to appeal to the moral character of Igne dux.
+      <div class="note" id="n001">
+         <a href="/#/issues/18451108/p2">* From a prose version of the Chorus in the tragedy of "Alcestis," furnished the writer.</a>
       </div>
       
       
-      <a href="#a004"> Link </a>
-      <div class="note" id="n004">* The Anabaptist fanatic of Germany, 16th century.</div>
+      <div class="note" id="n002">
+         <a href="/#/issues/18451108/p5">* This was the basis of the introduction of a new dispensation. It was
+            necessary to condemn all the old sects, in order to show the importance of a 
+            new one. See Pratt's Account of Several Remarkable Disco eres, &amp;c.—
+            New-York: J. W. Harrison, 465 Pearl street, 1841--36 p.
+         </a>
+      </div> 
       
       
-      <a href="#a005"> Link </a>
-      <div class="note" id="n005">† Vide Pratt for this vision.</div>
+      <div class="note" id="n003">
+         <a href="/#/issues/18451108/p5">† The prophet's reference to this great personage in Iroquois mythology, is
+            rather equivocal, if he intends to appeal to the moral character of Igne dux.
+         </a>
+      </div>
+      
+      
+      <div class="note" id="n004">
+         <a href="/#/issues/18451108/p5">* The Anabaptist fanatic of Germany, 16th century.</a>
+      </div>
+      
+      
+      <div class="note" id="n005">
+         <a href="/#/issues/18451108/p5">† Vide Pratt for this vision.</a>
+      </div>
       
    </div>
 </div>

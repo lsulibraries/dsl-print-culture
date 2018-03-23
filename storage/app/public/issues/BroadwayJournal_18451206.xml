@@ -559,8 +559,9 @@
             <br></br>Tantum vini habet nemo
             
             <br></br>Quantum sanguinis effudit!
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText"></span>
             </span>
          </div>
          
@@ -1716,8 +1717,9 @@
                of these three, is in Lowell. But he must address himself to his
                work as if it were work, and abandon the making of fugitive verse.
                His genius will do better things in taking longer flights.
-               <span class="anchor" id="a002">
-                  <a href="#n002"> Link </a>
+               <span class="footnote" id="n002">
+                  <span class="footnoteLink">2</span>
+                  <span class="footnoteText"></span>
                </span>Hawthorne, a delicate, essayical prose writer, has a fine fancy of his
                own, which sometimes imps the soarings of the ambitious muse —
                He is a naive and generous in his genius, quite unaffected, (as we
@@ -1861,8 +1863,9 @@
                publishers, who beguile him of his writings and abuse him, from
                their chair of criticism, if he ventures to complain. There is not a
                professional literary man of the country, who has not a long storyto relate, of the arts by which he has been swindled of his contributions
-               <span class="anchor" id="a003">
-                  <a href="#n003"> Link </a>
+               <span class="footnote" id="n003">
+                  <span class="footnoteLink">3</span>
+                  <span class="footnoteText">*We ourselves have no complaint to make on this score — Ed B. J.</span>
                </span> by that class of insects of literature, whom Moore compares
                with the maggot who is said to feed and fatten upon the brains of
                the elk,—the noble animal perishing finally, the prey of the miserable insect which has fed upon his life.
@@ -2845,25 +2848,28 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
       <div class="note" id="n001">
-         <p>*Flavius Vopsicus says that the hymn here introduced, was
-            sung by the rabble upon the occasion of Aurelian, in the Sarmatic
-            war, having slain with his own hand nine hundred and fifty of the
-            enemy.
-         </p>
+         <a href="/#/issues/18451206/p5">
+            <p>*Flavius Vopsicus says that the hymn here introduced, was
+               sung by the rabble upon the occasion of Aurelian, in the Sarmatic
+               war, having slain with his own hand nine hundred and fifty of the
+               enemy.
+            </p>
+         </a>
       </div>
       
-      <a href="#a002"> Link </a>
       <div class="note" id="n002">
-         <p>*Here we disagree. A long poem is a paradox. Whatever
-            hereafter shall be done greatly must be done in fugitive verse.—
-            Ed. B. J.
-         </p>
+         <a href="/#/issues/18451206/p25">
+            <p>*Here we disagree. A long poem is a paradox. Whatever
+               hereafter shall be done greatly must be done in fugitive verse.—
+               Ed. B. J.
+            </p>
+         </a>
       </div>
       
-      <a href="#a003"> Link </a>
-      <div class="note" id="n003">*We ourselves have no complaint to make on this score — Ed B. J.</div>
+      <div class="note" id="n003">
+         <a href="/#/issues/18451206/p25">*We ourselves have no complaint to make on this score — Ed B. J.</a>
+      </div>
       
    </div>
 </div>

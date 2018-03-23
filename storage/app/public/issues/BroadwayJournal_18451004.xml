@@ -324,8 +324,11 @@
          <div class="ab">Nullus enim locus sine genio est.——Servius.</div>
          
          <p>"La musique," says Marmontel, in those “Contes Moraux”
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">Moraux is here derived from mæurs and its meaning is "fash-
+                  ionable," or, more strictly, "of manners."
+               </span>
             </span> which, in all our translations, we have insisted 
             upon calling “Moral Tales” as if in mockery of their 
             spirit—"la musique est le seul des talens qui jouissent de 
@@ -387,8 +390,11 @@
             in either his temporal or future destinies, to be of more
             moment in the universe than that vast “clod of the valley” which he tills and contemns, and to which he denies a soul for no more profound reason than that he
             does not behold it in operation.
-            <span class="anchor" id="a002">
-               <a href="#n002"> Link </a>
+            <span class="footnote" id="n002">
+               <span class="footnoteLink">2</span>
+               <span class="footnoteText">Speaking of the tides, Pomponius Mela, in his treatise De Situ 
+                  Orbis," says “either the world is a great animal, or" &amp;c.
+               </span>
             </span>
          </p>
          
@@ -455,8 +461,11 @@
             out the Heavens, yet every thing had motion through the
             gentle sweepings to and fro of innumerable butterflies,
             that might have been mistaken for tulips with wings.
-            <span class="anchor" id="a003">
-               <a href="#n003"> Link </a>
+            <span class="footnote" id="n003">
+               <span class="footnoteLink">3</span>
+               <span class="footnoteText">Florem putares nare per liquidum æthera.
+                  P. Commire.
+               </span>
             </span>
          </p>
          
@@ -3098,19 +3107,22 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">Moraux is here derived from mæurs and its meaning is "fash-
-         ionable," or, more strictly, "of manners."
+      <div class="note" id="n001">
+         <a href="/#/issues/18451004/p4">Moraux is here derived from mæurs and its meaning is "fash-
+            ionable," or, more strictly, "of manners."
+         </a>
       </div>
       
-      <a href="#a002"> Link </a>
-      <div class="note" id="n002">Speaking of the tides, Pomponius Mela, in his treatise De Situ 
-         Orbis," says “either the world is a great animal, or" &amp;c.
+      <div class="note" id="n002">
+         <a href="/#/issues/18451004/p4">Speaking of the tides, Pomponius Mela, in his treatise De Situ 
+            Orbis," says “either the world is a great animal, or" &amp;c.
+         </a>
       </div>
       
-      <a href="#a003"> Link </a>
-      <div class="note" id="n003">Florem putares nare per liquidum æthera.
-         P. Commire.
+      <div class="note" id="n003">
+         <a href="/#/issues/18451004/p4">Florem putares nare per liquidum æthera.
+            P. Commire.
+         </a>
       </div>
       
    </div>

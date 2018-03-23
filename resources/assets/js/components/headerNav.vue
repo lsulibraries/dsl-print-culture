@@ -21,7 +21,7 @@
     <router-link to='/' exact @click="activeContentClicked('abouts')" tag="div" active-class="active">
             <i class="fa fa-flask" aria-hidden="true"></i>About
     </router-link>
-    <router-link to='/issues' @click="activeContentClicked('issues')" tag="div" active-class="active">
+    <router-link to='/issues?viewer=pdf' @click="activeContentClicked('issues')" tag="div" active-class="active">
             <i class="fa fa-bookmark" aria-hidden="true"></i>
             Read Issues
     </router-link>

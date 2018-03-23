@@ -1,7 +1,7 @@
 <template>
     <div class="creditsPerson">
         <div class="creditsPersonName">{{person.personMeta.personName}}</div>
-        <div class="creditsPersonNote" v-if="this.hasBio() && this.person.personMeta.personRole != 'past'">{{ this.getNote() }}</div>
+        <div class="creditsPersonNote" v-if="this.hasBio() && this.showBio()">{{ this.getNote() }}</div>
     </div>
 </template>
 <script>
@@ -22,7 +22,10 @@
             },
             getRoleName: function () {
                 return this.person.personMeta.personRoleName
-            }
+            },
+            showBio: function () {
+              return this.person.personMeta.personRole != 'past' || this.person.personMeta.personRoleName != 'Research Assistant'
+            },
         }
     }
 </script>

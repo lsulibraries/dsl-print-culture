@@ -3,6 +3,7 @@
     import personFilter from './personFilter'
     import biblDisplay from './biblDisplay'
     import network from './network'
+
     export default {
         components: { biblDisplay, network, personIndex, personFilter },
         data(){
@@ -22,7 +23,8 @@
         </div>
         <div class="personSide">
             <personFilter></personFilter>
-            <personIndex></personIndex>
+              <personIndex></personIndex>
         </div>
     </div>
 </template>
+

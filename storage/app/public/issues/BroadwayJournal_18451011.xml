@@ -581,8 +581,13 @@
          
          <p>Keats fell by a criticism. Who was it died of “The
             Andromache?"
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">Montfleury. The author of the Parnasse Réformé makes him
+                  thus speak in Hades:—“L'homme done qui voudrait savoir ce dont
+                  Je suis mort, qui'l ne demande pas si’l fut de fievre ou de podagre
+                  on d'autre chose, mais qu'il entende que ce fut de 'L'Andromache.’"
+               </span>
             </span>Ignoble souls!—De L’Omelette perished of an ortolan. L'histoire en est brère. Assist me, Spirit of Apicius!
          </p>
          
@@ -1212,8 +1217,23 @@
                could have multiplied 90 figures by 90 instead of nine, it would
                
                have been equally useless toil and trouble.
-               <span class="anchor" id="a002">
-                  <a href="#n002"> Link </a>
+               <span class="footnote" id="n002">
+                  <span class="footnoteLink">2</span>
+                  <span class="footnoteText">The only good thing I ever heard come of this singular man’s
+                     faculty of memory was the following. A gentleman was mention-
+                     ing his having been sent up to London from where he lived to see
+                     Garrick act. When he went back into the country, he was asked
+                     what he thought of the player and the play. “Oh!” he said, “he
+                     did not know; he had only seen a little man strut about the stage,
+                     and repeat 7956 words.” We all laughed at this, but a person in
+                     one corner of the room, holding one hand to his forehead, and
+                     seemingly mightily delighted, called out, “Ay, indeed! And
+                     Pray, was he found to be correct?” This was the supererogation
+                     of literal matter-of-fact curiosity. Jedediah Buxton’s counting the
+                     number of words was idle enough; but here was a fellow who
+                     wanted some one to count them over again to see that he was cor-
+                     rect.“The force of dulness could no farther go!"
+                  </span>
                </span>He is a man of capacity who possesses considerable intellectual riches: he is a man
                of genius who finds out a vein of new ore. Originality is the
                seeing nature different from all others, and yet as it is in itself.
@@ -1258,8 +1278,11 @@
                systematic and scientific form, to avail myself of all the knowledge
                that was to be obtained on the subject, and arrange it with clearness and method. I made answer that as to the first, I had taken
                time to do all that I ever pretended to do, as I had thought incessantly on difierent matters for twenty years of my life;
-               <span class="anchor" id="a003">
-                  <a href="#n003"> Link </a>
+               <span class="footnote" id="n003">
+                  <span class="footnoteLink">3</span>
+                  <span class="footnoteText">Sir Joshua Reynolds being asked how long it had taken him to
+                     do a certain picture, made answer, “All his life.”
+                  </span>
                </span>that I had
                no particular knowledge of the subject in question, and no head
                for arrangement; and that the utmost I could do in such a case
@@ -3155,31 +3178,34 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">Montfleury. The author of the Parnasse Réformé makes him
-         thus speak in Hades:—“L'homme done qui voudrait savoir ce dont
-         Je suis mort, qui'l ne demande pas si’l fut de fievre ou de podagre
-         on d'autre chose, mais qu'il entende que ce fut de 'L'Andromache.’"
+      <div class="note" id="n001">
+         <a href="/#/issues/18451011/p4">Montfleury. The author of the Parnasse Réformé makes him
+            thus speak in Hades:—“L'homme done qui voudrait savoir ce dont
+            Je suis mort, qui'l ne demande pas si’l fut de fievre ou de podagre
+            on d'autre chose, mais qu'il entende que ce fut de 'L'Andromache.’"
+         </a>
       </div>
       
-      <a href="#a002"> Link </a>
-      <div class="note" id="n002">The only good thing I ever heard come of this singular man’s
-         faculty of memory was the following. A gentleman was mentioning his having been sent up to London from where he lived to see
-         Garrick act. When he went back into the country, he was asked
-         what he thought of the player and the play. “Oh!” he said, “he
-         did not know; he had only seen a little man strut about the stage,
-         and repeat 7956 words.” We all laughed at this, but a person in
-         one corner of the room, holding one hand to his forehead, and
-         seemingly mightily delighted, called out, “Ay, indeed! And
-         Pray, was he found to be correct?” This was the supererogation
-         of literal matter-of-fact curiosity. Jedediah Buxton’s counting the
-         number of words was idle enough; but here was a fellow who
-         wanted some one to count them over again to see that he was correct.“The force of dulness could no farther go!"
+      <div class="note" id="n002">
+         <a href="/#/issues/18451011/p9">The only good thing I ever heard come of this singular man’s
+            faculty of memory was the following. A gentleman was mentioning his having been sent up to London from where he lived to see
+            Garrick act. When he went back into the country, he was asked
+            what he thought of the player and the play. “Oh!” he said, “he
+            did not know; he had only seen a little man strut about the stage,
+            and repeat 7956 words.” We all laughed at this, but a person in
+            one corner of the room, holding one hand to his forehead, and
+            seemingly mightily delighted, called out, “Ay, indeed! And
+            Pray, was he found to be correct?” This was the supererogation
+            of literal matter-of-fact curiosity. Jedediah Buxton’s counting the
+            number of words was idle enough; but here was a fellow who
+            wanted some one to count them over again to see that he was correct.“The force of dulness could no farther go!"
+         </a>
       </div>
       
-      <a href="#a003"> Link </a>
-      <div class="note" id="n003">Sir Joshua Reynolds being asked how long it had taken him to
-         do a certain picture, made answer, “All his life.”
+      <div class="note" id="n003">
+         <a href="/#/issues/18451011/p9">Sir Joshua Reynolds being asked how long it had taken him to
+            do a certain picture, made answer, “All his life.”
+         </a>
       </div>
       
    </div>

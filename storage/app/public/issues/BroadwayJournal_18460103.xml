@@ -1,37 +1,36 @@
 <div>
-   <div class="issueId">18450103</div>
+   <div class="issueId">18460103</div>
    <div class="front">
       
-      <div>
-         <div class="head">THE BROADWAY JOURNAL.</div>
-         <div class="ab">VOL. 2.NEW-YORK, 
-            SATURDAY, JANUARY 3, 1846.
-            NO. 26.
-         </div>
+      <div class="ab">THE BROADWAY JOURNAL. 
          
-         <div class="ab">EDGAR A. POE, EDITOR AND PROPRIETOR.</div>
-      </div>   
+         <br></br>VOL. 2. EDGAR A. POE, EDITOR AND PROPRIETOR. NO. 26.
+         
+         <br></br>NEW-YORK, SATURDAY, JANUARY 3, 1846.
+      </div>
       
    </div>
    <div class="body">
       
       
-      <div>
-         
-         <div class="head">The Office of the Broadway Journal is removed</div>
+      
+      <div class="piece" id="#p1">
+         <div class="biblTitle">The Office of the Broadway Journal</div>
+         <div class="biblPage">397</div>
          
          <p>The Office of the Broadway Journal is removed to
             304 Broadway, corner of Duane.
          </p>
       </div>
       
-      
-      <div>
+      <div class="piece" id="#p2">
+         <div class="biblTitle">New Year's Day</div>
+         <div class="biblPage">397</div>
          
          <div class="head">New Year's Day.</div>
          
          <div class="lg">
-            <br></br>I wish I could be gay, mother,
+            <br></br>I WISH I could be gay, mother,
             
             <br></br>And happy, for your sake,
             
@@ -109,17 +108,17 @@
          </div>
       </div>
       
-      
-      
-      <div>
+      <div class="piece" id="#p3">
+         <div class="biblTitle">Loss of Breath</div>
+         <div class="biblPage">397</div>
          
          <div class="head">Loss of Breath.
             A TALE NEITHER IN NOR OUT OF “BLACKWOOD.”
          </div>
          
-         <p>0 breathe not, &amp;c.—Moore’s Melodies.</p>
+         <div class="ab">O breathe not, &amp;c.—MOORE’S MELODIES.</div>
          
-         <p>The most notorious ill-fortune must, in the end, yield to the
+         <p>THE most notorious ill-fortune must, in the end, yield to the
             untiring courage of philosophy—as the most stubborn city to the
             ceaseless vigilance of an enemy. Salmanezer, as we have it in
             the holy writings, lay three years before Samaria; yet it fell.
@@ -128,8 +127,6 @@
             gentleman, opened at last her gates to Psammitticus, after having
             barred them for the fifth part of a century.
          </p>
-         
-         <p>*******</p>
          
          <p>“Thou wretch!—thou vixen!—thou shrew!” said I to my
             wife on the morning after our wedding, “thou witch!—thou
@@ -146,12 +143,12 @@
          <p>The phrases “I am out of breath,” “I have lost my breath,”
             &amp;c., are often enough repeated in common conversation; but it
             had never occurred to me that the terrible accident of which I
-            speak could bona fide and actually happen! Imagine— that is if
+            speak could bona fide and actually happen! Imagine—that is if
             you have a fanciful turn—imagine, I say, my wonder—my consternation—my despair!
          </p>
          
          <p>There is a good genius, however, which has never entirely deserted me. In my most ungovernable moods I still retain a sense
-            of propriety, et le chemin des passions me'conduit—as Lord Edouard
+            of propriety, et le chemin des passions me conduit—as Lord Edouard
             in the “Julie” says it did him—a la philosophic veritable.
          </p>
          
@@ -182,6 +179,7 @@
              certain spasmodic action of the muscles of the throat.
          </p>
          
+         
          <p>Throwing myself upon a chair, I remained for some time absorbed in meditation. My reflections, be sure, were of no consolatory kind. A thousand vague and lachrymatory fancies took
             possession of my soul—and even the idea of suicide flitted across
             my brain; but it is a trait in the perversity of human nature to
@@ -204,7 +202,7 @@
             points of philosophy, are still very unphilosophical. William
             Godwin, however, says in his “Mandeville,” that “invisible
             things are the only realities,” and this all will allow, is a case in
-            point. I would have the judicious reader pause before accusing j
+            point. I would have the judicious reader pause before accusing 
             such asseverations of an undue quantum of absurdity. Anaxagoras, it will be remembered, maintained that snow is black, and this
             I have since found to be the case.
          </p>
@@ -244,8 +242,7 @@
          </p>
          
          <p>I practised for some time by the borders of a well frequented
-            marsh;—herein, however, having no reference to a similar pro
-            ceeding of Demosthenes, but from a design peculiarly and conscientiously my own. Thus armed at all points, I determined to
+            marsh;—herein, however, having no reference to a similar proceeding of Demosthenes, but from a design peculiarly and conscientiously my own. Thus armed at all points, I determined to
             make my wife believe that I was suddenly smitten with a passion for the stage. In this, I succeeded to a miracle; and to every
             | question or suggestion found myself at liberty to reply in my most
             frog-like and sepulchral tones with some passage from the tragedy—any portion of which, as I soon took great pleasure in observing, would apply equally well to any particular subject. It
@@ -310,6 +307,7 @@
          
          <p>The purchaser took me to his apartments and commenced operations immediately. Having cut off my ears, however, he discovered signs of animation. He now rang the bell, and sent for
             a neighboring apothecary with whom to consult in the emergency. In case of his suspicions with regard to my existence
+            
             proving ultimately correct, he, in the meantime, made an incision
             in my stomach, and removed several of my viscera for private
             dissection.
@@ -375,7 +373,7 @@
             man, the precise counterpart of the felon, standing upright in thә
             cart before their eyes, they were of opinion that the rascal
             (meaning W——) was after making his escape, (so they
-            expressed themselves,) and, having communicated this opinion 
+            expressed themselves,) and, having communicated this opinion
             to one another, they took each a dram, and then knocked me
             down with the butt-ends of their muskets.
          </p>
@@ -426,13 +424,13 @@
          
          <p>Here, after due interval, I was deposited. The-sexton departed,
             and I was left alone. A line of Marston’s “Malcontent”—
-            
-            <div class="lg">
-               <br></br>Death’s a good fellow and keeps open house —
-               
-               <br></br>struck me at that moment as a palpable lie.
-            </div>
          </p>
+         
+         <div class="lg">
+            <br></br>Death’s a good fellow and keeps open house —
+            
+            <br></br>struck me at that moment as a palpable lie.
+         </div>
          
          <p>I knocked off, however, the lid of my coffin, and stepped out.
             The place was dreadfully dreary and damp, and I became troubled
@@ -458,6 +456,7 @@
             been the days of a dog. Therein, he has dreamed of flames and
             suffocation—of mountains upon mountains—of Pelion upon Ossa,
             He was short of breath—to say all in a word, he was short of
+            
             breath. He thought it extravagant to play upon wind instruments. He was the inventor of self-moving fans, wind-sails,
             and ventilators. He patronized Du Pont the bellows-maker, and
             died miserably in attempting to smoke a cigar. His was a case
@@ -485,8 +484,9 @@
             against him. Windham and Allbreath were his favorite writers.
             —his favorite artist, Phiz. He died gloriously while inhaling
             gas—levique flatu corrupitur, like the fama pudiciticc iu Hieronymus.
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText"></span>
             </span> He was indubitably a ”———
          </p>
          
@@ -587,13 +587,12 @@
             an escape from the dungeons of the sepulchre. The united
             strength of our resuscitated voices was soon sufficiently apparent. Scissors, the Whig Editor, republished a treatise upon
             “the nature and origin of subterranean noises.” A reply—
-            rejoinder—confutation—and justification—followed in the col
-            umns of a Democratic Gazette. It was not until the opening of
+            rejoinder—confutation—and justification—followed in the columns of a Democratic Gazette. It was not until the opening of
             the vault to decide the controversy, that the appearance of Mr.
             Windenough and myself proved both parties to have been decidedly in the wrong.
          </p>
          
-         <p> I cannot conclude these details of some very singular passages
+         <p>I cannot conclude these details of some very singular passages
             in a life at all times sufficiently eventful, without again recalling
             to the attention of the reader the merits of that indiscriminate
             philosophy which is a sure and ready shield against those shafts
@@ -608,19 +607,18 @@
             "to the proper God.”
          </p>	
          <div class="byline">
-            <span class="person">Littleton Barry</span>.
+            <span class="person">LITTLETON BARRY</span>.
          </div>
       </div>
       
-      
-      
-      
-      <div>
+      <div class="piece" id="#p4">
+         <div class="biblTitle">To a Canary Bird</div>
+         <div class="biblPage">401</div>
          
          <div class="head">To a Canary Bird.</div>
          
          <div class="lg">
-            <br></br>Sweet little fairy bird,
+            <br></br>SWEET little fairy bird,
             
             <br></br>Gentle Canary bird,
             
@@ -730,22 +728,22 @@
          </div>
          
          <div class="byline">
-            <span class="person">William Gibson</span>, U. S. Navy.
+            <span class="person">WILLIAM GIBSON</span>, U. S. NAVY.
          </div>
       </div>
       
-      
-      
-      <div>
+      <div class="piece" id="#p5">
+         <div class="biblTitle">A College Reminiscence</div>
+         <div class="biblPage">401</div>
          
-         <div class="head">A College Reminiscence. </div>
+         <div class="head">A College Reminiscence.</div>
          
-         <p>During the month of July, in the year 183-, there were
+         <p>DURING the month of July, in the year 183-, there were
             some remarkably pleasant afternoons. I am not sure that this is
             the most approved mode of opening a story, (?) but I speak of
             the quality of the weather, because I think it well to start fairly
             in this respect before giving affairs a local habitation and a name.
-            And I now prefix to the said “ afternoons,” “ in the renowned
+            And I now prefix to the said “afternoons,” “in the renowned
             city of Dorp, N. Y.” Good. There are three Colleges in Dorp;
             but they compose but one institution. Tria juncta in uno. One
             of these buildings is in the heart of the city, and the other two
@@ -784,6 +782,7 @@
             Each bore an unsheathed sword, and seemed as if only anxiously
             awaiting some signal at which to hew me into a thousand pieces.
             My wonder began to turn to mortal fear. I was entirely unarmed; though, had I had a hundred stout soldiers at my back,
+            
             knew that resistance would be utterly fruitless. I made attempt
             after attempt to speak, and each time my voice stuck in my
             throat. I shook, I tottered, and was falling—when burst another
@@ -898,10 +897,10 @@
          
          <p>The concussion was severe. I awoke without delay, and ascertained distinctly that I had made a descent upon the floor. Of
             course I next arose; and on further examination learned that I
-            had undergone all these shocking vicissitudes in less than a halfjhour. Next I naturally went to the window to take a view of
-            things external—and the first objects that attracted my attention, were, a few feet directly below me, on the stone pavement running the whole length of the College, (unusual
+            had undergone all these shocking vicissitudes in less than a halfhour. Next I naturally went to the window to take a view of
+            things external—and the first objects that attracted my attention, were, a few feet directly below me, on the stonepavement running the whole length of the College, (unusual
             sight!) the mangled remains of two particularly aged cane bottomed chairs, beautifully locked together in death; a huge mass
-             of tightly bound papers, an old table, (of yore covered with green
+            of tightly bound papers, an old table, (of yore covered with green
             baize), two legs and part of the top of an antique bureau, and
             some few other such like specimens of architecture; all which
             had been gratuitously dismissed from further service by some
@@ -910,6 +909,7 @@
             stunned. The shouts, and the dread demoniacal laughter, had
             been the hurrahs and cachinations of my friends above, as this
             work progressed. I aroused my sleeping chum, and having
+            
             pointed out the condition of matters, began discussing the philosophy of dreams. Telling him in few words, the most prominent incidents of my own, and its seeming length, I was about to
             hazard the opinion that I had not slept over five minutes—when
             down came a supplemental chair to swell the aforesaid pile.
@@ -973,7 +973,7 @@
          <p>The reply was as ready as it was unequivocal; consisting of
             divers streams of water, boots, shoes, tobacco-pipes, and a profuse aspersion of opprobrious epithets “too numerous to mention.” However, as none of these materially harmed him, and
             as he saw that all hope of assistance was futile, he completed
-             his engineering arrangements, and with his cohort began lustily
+            his engineering arrangements, and with his cohort began lustily
             playing away, much about the time when all that was consumable had been consumed. Still he played away among the
             embers, and finally succeeded in kicking up a cloud of steam and
             ashes, and giving the last faint spark its everlasting quietus.
@@ -999,9 +999,7 @@
             to be but temporary. And as the “young gentlemen” made for
             a season somewhat closer application than common, soon all things
             went on as ever before, and the affair was forgotten.
-         </p>
-         
-         <p>*****</p>        
+         </p>     
          
          <p>And those days are gone—are passed away, forever and forever. And other footsteps cross those thresholds—other voices
             sound within those walls—other tenants be there of those wellremembered rooms. And between those who were wont to meet
@@ -1018,24 +1016,23 @@
          </p>
          
          <div class="byline">
-            <span class="person">R. S. Rowley</span>.
+            <span class="person">R. S. ROWLEY</span>.
          </div>
       </div>
       
-      
-      
-      <div> 
+      <div class="piece" id="#p6">
+         <div class="biblTitle">The Eternal Father</div>
+         <div class="biblPage">403</div> 
          
-         <div class="head">The Enternal Father</div>
+         <div class="head">The Eternal Father</div>
          
          <p>Suggested by a picture, entitled thus, by Guercino, which hangs
             in the Brignole palace at Genoa.
          </p>
          
-         
          <div class="lg">I.
             
-            <br></br>A hoary old man—old exceedingly,
+            <br></br>A HOARY old man—old exceedingly,
             
             <br></br>But not distinguished otherwise from all
             
@@ -1052,7 +1049,6 @@
             <br></br>Some seer or wizard gray without his wand?
             
             <br></br>The “Eternal Father!”—whom are we to understand?
-            
             II.
             
             <br></br>Why, God the Father! Holiest and Most High!
@@ -1068,14 +1064,11 @@
             <br></br>Have seen, and felt my lip grow tremulous,:
             
             
-            
-            
             <br></br>And scarce could see for tears:—it were a sin
             
             <br></br>To gaze unmoved. But this is impious—
             
             <br></br>Worse than absurd to paint Pervading Power thus!
-            
             III.
             
             <br></br>Conceptions so dishonoring the Ideal
@@ -1095,7 +1088,6 @@
             <br></br>Yet there, even there, ’twould seem, the touch of Time
             
             <br></br>Palsies His power—Himself Eternity sublime!
-            
             IV.
             
             <br></br>A shadowing forth of what is shadowless—
@@ -1115,7 +1107,6 @@
             <br></br>Is it not glowing in this picture? No!
             
             <br></br>Let live thy lightning, Heaven! or bend thy beauteous bow!
-            
             V.
             
             <br></br>Hence with the thing! for Him the sunbeam’s finger
@@ -1135,7 +1126,6 @@
             <br></br>In spirit, face to face and eye to eye,
             
             <br></br>The living God and live?—The Soul can never die!
-            
             VI.
             
             <br></br>God was in the beginning and before:
@@ -1158,22 +1148,20 @@
          </div>
          
          <div class="byline">
-            <span class="person">Wm. Gibson</span>, U. S. Navy.
+            <span class="person">WM. GIBSON</span>, U. S. NAVY.
          </div>
       </div>
       
-      
-      
-      <div>
+      <div class="section" id="#s1">
+         <div class="biblTitle">Critical Notices</div>
          
          <div class="head">Critical Notices.</div>
          
-         
-         <div>
+         <div class="piece" id="#p7">
+            <div class="biblTitle">Letters and Speeches of Oliver Cromwell</div>
+            <div class="biblPage">404</div>
             
-            <div class="head">Letters and Speeches of Oliver Cromwell.</div>
-            
-            <p>Letters and Speeches of Oliver Cromwell. By Thomas Carlyle.
+            <p>Letters and Speeches of Oliver Cromwell. By THOMAS CARYLYLE.
                In 2 vols. New York: Wiley &amp; Putnam.
             </p>
             
@@ -1214,15 +1202,11 @@
             </p>
          </div>
          
-         
-         
-         <div>
+         <div class="piece" id="#p8">
+            <div class="biblTitle">The Pilgrim in the Shadow of the Jungfrau</div>
+            <div class="biblPage">404</div>
             
-            <div class="head">The Pilgrim in the Shadow of the Jungfrau.</div>
-            
-            <p>The Pilgrim in the Shadow of the Jungfrau. By Geo. B. Chee-
-               ver, D. D. New York and London: Wiley &amp; Putnam.
-            </p>
+            <p>The Pilgrim in the Shadow of the Jungfrau. By GEO. B. CHEEVER, D. D. New York and London: Wiley &amp; Putnam.</p>
             
             <p>Dr. Cheever dedicates his book to Richard H. Dana, whom he
                calls, in the dedication, “the poet of ‘Daybreak’”—why, we
@@ -1233,15 +1217,13 @@
             </p>
          </div>
          
-         
-         
-         <div>
+         <div class="piece" id="#p9">
+            <div class="biblTitle">The Lady of Milan, or Fidelity unto Death</div>
+            <div class="biblPage">404</div>
             
-            <div class="head">The Lady of Milan, or Fidelity unto Death.</div>
-            
-            <p>The Lady of Milan, or Fidelity unto Death. Edited by Mrs.
-               Thomson, Author cf “ Widows and Widowers,” “ Ragland
-               Castle,” “ The Chevalier,” Ifc., life. New York: Harper &amp; Brothers, 82 Cliff street.
+            <p>The Lady of Milan, or Fidelity unto Death. Edited by MRS.
+               THOMSON, Author cf “Widows and Widowers,” “Ragland
+               Castle,” “The Chevalier,” Ifc., life. New York: Harper &amp; Brothers, 82 Cliff street.
             </p>
             
             <p>A work abounding with stirring incidents and some force.
@@ -1252,11 +1234,9 @@
             </p>
          </div>
          
-         
-         
-         <div>
-            
-            <div class="head">Blackwood's Edinburgh Magazine, for December.</div>
+         <div class="piece" id="#p10">
+            <div class="biblTitle">Blackwood's Edinburgh Magazine</div>
+            <div class="biblPage">404</div>
             
             <p>Blackwood’s Edinburgh Magazine, for December.—New York:
                Leonard Scott &amp; Co.
@@ -1273,11 +1253,9 @@
             </p>
          </div>
          
-         
-         
-         <div>
-            
-            <div class="head">Harper's Illuminated Bible, No. 46.</div>
+         <div class="piece" id="#p11">
+            <div class="biblTitle">Harper's Illuminated Bible</div>
+            <div class="biblPage">404</div>
             
             <p>Harper's Illuminated Bible, No. 46.</p>
             
@@ -1288,15 +1266,13 @@
             </p>
          </div>
          
-         
-         
-         <div>
-            
-            <div class="head">"The Aristidean for November," "The Aristidean for December"</div>
+         <div class="piece" id="#p12">
+            <div class="biblTitle">The Aristidean</div>
+            <div class="biblPage">404</div>
             
             <p>“The Aristidean for November.”</p>
             
-            <p>“The Aristidean for December,” by Thomas Dunn English and
+            <p>“The Aristidean for December,” by THOMAS DUNN ENGLISH and
                numerous collaborators.
             </p>
             
@@ -1308,7 +1284,7 @@
                as the “Aristidean” has hitherto held an unquestionable pre-
                eminence in that way. There is a queer paper, “The Dearborn
                Poems,” which contains some piquant satire. The article on
-               “ American Poetry,” is very biting, but, unfortunately, very true.
+               “American Poetry,” is very biting, but, unfortunately, very true.
                There is a very able and dignified article “On the Penalty of
                Death.” The book notices are spirited and independent, and the
                remaining articles are above the mass of magazine papers, in
@@ -1317,10 +1293,10 @@
                original, in conception and execution.
             </p>
             
-            <p>THE SELF-PERFORMERS.</p>
+            <div class="ab">THE SELF-PERFORMERS.</div>
             
             <p>“Bravo! bravissimo!” cried the audience, as they left the
-               concert-room of the Conservatoire at Milan. A symphony, by
+               concert-room of the Conservatoire at MILAN. A symphony, by
                a new master, had just been performed. The public had expected nothing; and so much were they surprised at the beauty
                of the new composition, that after an hour of intense silence,
                they could vent nothing but ejaculations of delight. The young
@@ -1430,20 +1406,20 @@
                thump from the fagotto reminded her of her whereabouts, and set
                all right again. The theme began by the corni, was carried
                through by the different instruments, and ended with a crescendo
-               de crescendo on the drums. No ! no! there are the stringed-instruments, with three chords pizzicato. Another pleasant nod
+               de crescendo on the drums. No! no! there are the stringed-instruments, with three chords pizzicato. Another pleasant nod
                from the leader was the reward of the composer, from whom the
                perspiration now ran in a stream.
             </p>
             
-            <p>“Hurrah for the scherzo” cried the trumpets; “plenty of
+            <p>“Hurrah for the scherzo!” cried the trumpets; “plenty of
                work there for us.”
             </p>
             
-            <p>“Hurrah for the scherzo P’ responded the violins, “our fingers
+            <p>“Hurrah for the scherzo!" responded the violins, “our fingers
                will have no time to freeze, there.”
             </p>
             
-            <p>“ Hurrah for the scherzo blasted the trombone.</p>
+            <p>“Hurrah for the scherzo blasted the trombone.</p>
             
             <p>“Hurrah!” groaned the double-bass from the leader’s stand.</p>
             
@@ -1542,7 +1518,7 @@
                rests that occurred.
             </p>
             
-            <p>The scherzo being over, the oboe peeped out of one hole,
+            <p>The scherzo being over, the oboe peeped out of one f hole,
                and the piccolo out of the other; and encouraged by the benignant smiles of the stringed-instruments, ventured to return to
                their old places. The first bassoon taking them under his special
                protection, they were easily reconciled to the trombone and the
@@ -1563,7 +1539,7 @@
                could not resist the supernatural power which hurried them on to
                the yawning abyss—the end of the symphony. One more shriek,
                and they were silent as the grave. The stringed-instruments
-               al one were now masters of the field. Encouraged by an occasional bravo from the leader, they fiddled and fiddled until a
+               alone were now masters of the field. Encouraged by an occasional bravo from the leader, they fiddled and fiddled until a
                tremolo fortissimo set them raving mad, and an arpeggio chord
                put an end to their dominion. The leader laid down his baton,
                and fell in the arms of the young composer; and the latter, with
@@ -1578,9 +1554,9 @@
          </div>
       </div>
       
-      
-      
-      <div>
+      <div class="piece" id="#p13">
+         <div class="biblTitle">Azthene</div>
+         <div class="biblPage">406</div>
          
          <div class="head">Azthene.</div>
          
@@ -1627,342 +1603,169 @@
          </div>
       </div>
       
-      
-      
-      <div>
+      <div class="piece" id="#p14">
+         <div class="biblTitle">The Drama</div>
+         <div class="biblPage">406</div>
          
          <div class="head">The Drama.</div>
          
+         <p>PARK THEATRE.—Amilie, with the Seguins, Frazer and Delavanti, has been performed at the Park during the past week. So
+            soon as the drama succeeds the opera, we have some critical remarks to make upon the theatrical company attached to the
+            establishment. Luckily, the contemplated performance of
+            Richard the Third will afford us full scope.
+         </p>
          
-         <div>
-            
-            <div class="head">Park Theatre.</div>
-            
-            <p>Park Theatre.—Amilie, with the Seguins, Frazer and Delavanti, has been performed at the Park during the past week. So
-               soon as the drama succeeds the opera, we have some critical remarks to make upon the theatrical company attached to the
-               establishment. Luckily, the contemplated performance of
-               Richard the Third will afford us full scope.
-            </p>
-         </div>
+         <p>BOWERY.—Putnam, and dramas of that nature, occupy the
+            attention of the patrons of this establishment, and crowded
+            houses attest the tact of the management.
+         </p>
          
+         <p>OLYMPIC.—Mitchell continues to draw by his light pieces,
+            and has of late produced some laughable novelties.
+         </p>
          
+         <p>CHATHAM.—The chief attractions here are of the same nature
+            as at the Bowery, and with the same results. There are one or
+            two members of the stock company here who deserve especial
+            notice—Mrs. Jones, for instance. She is an actress of positive
+            merit in any character she assumes.
+         </p>
          
-         <div>
-            
-            <div class="head">Bowery.</div>
-            
-            <p>Bowery.—Putnam, and dramas of that nature, occupy the
-               attention of the patrons of this establishment, and crowded
-               houses attest the tact of the management.
-            </p>
-         </div>
+         <p>Our notices of the city theatres are necessarily brief in this
+            number, in consequence of the change of publishers. Our remarks will be more extended in future.
+         </p>
          
+         <p>Mr. Crisp and Mrs. Mowatt are still playing at Charleston
+            with great success.
+         </p>
          
+         <p>Our old favorite, Chippendale, with Conner and Mr. and Mrs.
+            Skerrett, are at the St. Charles, New Orleans.
+         </p>
          
-         <div>
-            
-            <div class="head">Olympic.</div>
-            
-            <p>Olympic.—Mitchell continues to draw by his light pieces,
-               and has of late produced some laughable novelties.
-            </p>
-         </div>
+         <p>Mrs. H. Hunt is still at Albany, performing at the Museum.</p>
          
+         <p>The Museum at Boston is a very popular resort. Miss Kirby
+            is the rage at present. Mary Ann Lee is at the Athenæum.
+         </p>
          
+         <p>At the Vaudeville Theatre, St. Louis, a Miss Kate Meadows
+            is performing with success.
+         </p>
          
-         <div>
-            
-            <div class="head">Chatham.</div>
-            
-            <p>Chatham.—The chief attractions here are of the same nature
-               as at the Bowery, and with the same results. There are one or
-               two members of the stock company here who deserve especial
-               notice—Mrs. Jones, for instance. She is an actress of positive
-               merit in any character she assumes.
-            </p>
-         </div>
+         <p>The Keans are at the Chesnut-street Theatre, Philadelphia.</p>
          
-         
-         
-         <div>
-            
-            <div class="head">Our notices of the city theatres are necessarily brief in this number</div>
-            
-            <p>Our notices of the city theatres are necessarily brief in this
-               number, in consequence of the change of publishers. Our remarks will be more extended in future.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Mr. Crisp and Mrs. Mowatt are still play at Charleston with great success.</div>
-            
-            <p>Mr. Crisp and Mrs. Mowatt are still playing at Charleston
-               with great success.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Our old favorite, Chippendale</div>
-            
-            <p>Our old favorite, Chippendale, with Conner and Mr. and Mrs.
-               Skerrett, are at the St. Charles, New Orleans.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Mrs. H Hunt is still at Albany</div>
-            
-            <p>Mrs. H. Hunt is still at Albany, performing at the Museum.</p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">The Museum at Boston is a very popular resort.</div>
-            
-            <p>The Museum at Boston is a very popular resort. Miss Kirby
-               is the rage at present. Mary Ann Lee is at the Athenæum.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">At the Vaudeville Theatre, St. Louis</div>
-            
-            <p>At the Vaudeville Theatre, St. Louis, a Miss Kate Meadows
-               is performing with success.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">The Keans are at the Chesnut-street Theatre</div>
-            
-            <p>The Keans are at the Chesnut-street Theatre, Philadelphia.</p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Miss Clifton is performing at Cincinnati.</div>
-            
-            <p>Miss Clifton is performing at Cincinnati.</p>
-         </div>
+         <p>Miss Clifton is performing at Cincinnati.</p>
       </div>                
       
-      
-      
-      
-      <div>
+      <div class="piece" id="#p15">
+         <div class="biblTitle">The Fine Arts</div>
+         <div class="biblPage">406</div>
          
          <div class="head">The Fine Arts.</div>
          
+         <p>MR. FONTANA has postponed his Concert to Saturday, January
+            3. He will be assisted by Demoiselle Korsinski and Mr. Philipp
+            Mayer. We have not heard Mr. F., but the opinion of those
+            who are well able to judge is, that he is one of the most chaste
+            players that ever have been in this country. His portrait does
+            nor adorn the windows of the music stores in Broadway, it is true,
+            nor have his friends presented him with a Biography of himself on
+            his departure from Europe:—the ever-ready volunteer in white kid
+            gloves has not even offered him his services yet, but, for all that,
+            we do believe him a good pianist. Chapin, the celebrated composer and pianist, has dedicated to him several of his waltzes,
+            and it is well known that these favors are not lavished in Europe
+            upon every one who chooses to accept them. Mr. Fontana himself
+            is the author of several beautiful compositions, and as he intends to settle here as a teacher of music, we wish him the best
+            success in his profession.
+         </p>
          
+         <p>THE HERALD of Monday last has a long article about Balfe’s
+            “Bohemian Girl,"  the whole amount of which is, that the new
+            is not good and the good is not new. We agree entirely with
+            the Herald, only we are astonished that the writer should have
+            come to this conclusion after the Bohemian Girl had been performed in this city more than forty times.
+         </p>
          
-         <div>
-            
-            <div class="head">Mr. Fontana has postponed his Concert to Saturday</div>
-            
-            <p>Mr. Fontana has postponed his Concert to Saturday, January
-               3. He will be assisted by Demoiselle Korsinski and Mr. Philipp
-               Mayer. We have not heard Mr. F., but the opinion of those
-               who are well able to judge is, that he is one of the most chaste
-               players that ever have been in this country. His portrait does
-               nor adorn the windows of the music stores in Broadway, it is true,
-               nor have his friends presented him with a Biography of himself on
-               his departure from Europe:—the ever-ready volunteer in white kid
-               gloves has not even offered him his services yet, but, for all that,
-               we do believe him a good pianist. Chapin, the celebrated composer and pianist, has dedicated to him several of his waltzes,
-               and it is well known that these favors are not lavished in Europe
-               upon every one who chooses to accept them. Mr. Fontana himself
-               is the author of several beautiful compositions, and as he intends to settle here as a teacher of music, we wish him the best
-               success in his profession.
-            </p>
-         </div>
+         <p>We have seen a new improved edition of the celebrated German song, “Herz mein Herz, warum so traurig.” It is published with English words by Jonas B. Phillips, Esq., and a
+            mistake most unfortunately occurred on the title page, for it says,
+            “composed by Benjamin S. Hart."  We suppose it should have
+            been "arranged," and we advise Mr. Hart to alter that as soon
+            as possible, for it would only convey a poor opinion of Mr. H.’s
+            capacities as a composer, whose pieces, until now, if not always
+            good, were at least original.
+         </p>
          
+         <p>A MONUMENT at the corner of 10th street and Broadway
+            attracted our attention by something like the shape of a SquarePiano which surmounted a brief inscription. We think this is
+            the first time that the Pianoforte came to the honor to be represented on a tomb-stone. The monument is intended for Mr.
+            Coleman, the inventor of the celebrated “Pollan Attachment."
+            If that monument could only revive the interest for the attachment
+            as it does the memory of its inventor, all would be well; but it
+            seems that even sooner than we expected, the public found out
+            that some one, either the proprietor of the patent right, or the
+            public in general was to be humbugged.
+         </p>
          
+         <p>MR. BURKE, the violinist, played at the Concert of the Boston
+            Philharmonic Society on Saturday last.
+         </p>
          
-         <div>
-            
-            <div class="head">The Herald of Monday last has a long article about Balfe's "Bohemian Girl"</div>
-            
-            <p>The Herald of Monday last has a long article about Balfe’s
-               “Bohemian Girl,"  the whole amount of which is, that the new
-               is not good and the good is not new. We agree entirely with
-               the Herald, only we are astonished that the writer should have
-               come to this conclusion after the Bohemian Girl had been performed in this city more than forty times.
-            </p>
-         </div>
+         <p>MRS. VALENTINE MOTT is going to Italy some time in the ensuing year. We have not the least doubt, that one quarter’s
+            instruction from the best Italian masters will do her voice more
+            good than all the criticisms of New York papers for years to come.
+         </p>
          
+         <p>ROOKE’S OPERA, “Amilie,” is now being performed at the Park
+            theatre. The powers of the troupe seem to us rather inefficient
+            for this opera, but we may be mistaken.
+         </p>
          
+         <p>THE ITALIAN OPERA will be revived again by English artists.
+            How funny.
+         </p>
          
-         <div>
-            
-            <div class="head">We have seen a new improved edition of the celebrated German Song, "Herz men Herz,
-               warum so traurig."
-            </div>
-            
-            <p>We have seen a new improved edition of the celebrated German song, “Herz mein Herz, warum so traurig.” It is published with English words by Jonas B. Phillips, Esq., and a
-               mistake most unfortunately occurred on the title page, for it says,
-               “composed by Benjamin S. Hart."  We suppose it should have
-               been "arranged," and we advise Mr. Hart to alter that as soon
-               as possible, for it would only convey a poor opinion of Mr. H.’s
-               capacities as a composer, whose pieces, until now, if not always
-               good, were at least original.
-            </p>
-         </div>
+         <p>THE ORATORIO JEPTHA, already mentioned in a former number
+            of the Broadway Journal, will be brought out at last. Mr. John
+            Hewitt is the composer of it.
+         </p>
          
+         <p>MONS. COLLINET, a distinguished flageolet player, will give a
+            concert shortly.
+         </p>
          
+         <p>THE GERMAN OPERA is dead. There was some talk of its resuscitation, but it appears to have been unfounded. In the meanwhile the newspapers are making merry over the fact that they
+            were not paid for their advertisements. No cause of mirth—one
+            would suppose—but it evidences a great deal of philosophy.
+            Palmo, who also suffers, it would appear, does not bear his misfortunes with so much philosophy.
+         </p>
          
-         <div>
-            
-            <div class="head">A momument at the corner of 10th street and Broadway attracted our attention by something
-               like the shape of a Square-Piano
-            </div>
-            
-            <p>A monument at the corner of 10th street and Broadway
-               attracted our attention by something like the shape of a SquarePiano which surmounted a brief inscription. We think this is
-               the first time that the Pianoforte came to the honor to be represented on a tomb-stone. The monument is intended for Mr.
-               Coleman, the inventor of the celebrated “Pollan Attachment."
-               If that monument could only revive the interest for the attachment
-               as it does the memory of its inventor, all would be well; but it
-               seems that even sooner than we expected, the public found out
-               that some one, either the proprietor of the patent right, or the
-               public in general was to be humbugged.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Mr. Burke, the violinist</div>
-            
-            <p>Mr. Burke, the violinist, played at the Concert of the Boston
-               Philharmonic Society on Saturday last.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Mrs. Valentine Mott is going to Italy some time in the ensuing year.</div>
-            
-            <p>Mrs. Valentine Mott is going to Italy some time in the ensuing year. We have not the least doubt, that one quarter’s
-               instruction from the best Italian masters will do her voice more
-               good than all the criticisms of New York papers for years to come.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Rooke's opera, "Amilie"</div>
-            
-            <p>Rooke’s opera, “Amilie,” is now being performed at the Park
-               theatre. The powers of the troupe seem to us rather inefficient
-               for this opera, but we may be mistaken.
-            </p>
-         </div>
-         
-         
-         <div>
-            
-            <div class="head">The Italian Opera will be revived again by English artists.</div>
-            
-            <p>The Italian Opera will be revived again by English artists.
-               How funny.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">The Oratorio Jephtha</div>
-            
-            <p>The Oratorio Jephtha, already mentioned in a former number
-               of the Broadway Journal, will be brought out at last. Mr. John
-               Hewitt is the composer of it.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">Mons. Collinet</div>
-            
-            <p>Mons. Collinet, a distinguished flageolet player, will give a
-               concert shortly.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">The German Opera is dead.</div>
-            
-            <p>The German Opera is dead. There was some talk of its resuscitation, but it appears to have been unfounded. In the meanwhile the newspapers are making merry over the fact that they
-               were not paid for their advertisements. No cause of mirth—one
-               would suppose—but it evidences a great deal of philosophy.
-               Palmo, who also suffers, it would appear, does not bear his misfortunes with so much philosophy.
-            </p>
-         </div>
-         
-         
-         
-         <div>
-            
-            <div class="head">The French Operatic Troupe</div>
-            
-            <p>The French Operatic Troupe, with Md’lle Calvé, Madame
-               Coeuriot—Stephen, Messieurs Bressiani, Desonville and Montassier, are still at the Orleans Theatre. They are performing,
-               among others, Halevy's “Heine de Chypre," and Auber’s “Domino
-               Noir." They appear very wisely to confine themselves to
-               operas, which are favorites with the public, and give a variety,
-               which is, after all, exactly what the public want.
-            </p>
-         </div>
-      </div>
+         <p>THE FRENCH OPERATIC TROUPE, with Md’lle Calvé, Madame
+            Coeuriot—Stephen, Messieurs Bressiani, Desonville and Montassier, are still at the Orleans Theatre. They are performing,
+            among others, Halevy's “Heine de Chypre," and Auber’s “Domino
+            Noir." They appear very wisely to confine themselves to
+            operas, which are favorites with the public, and give a variety,
+            which is, after all, exactly what the public want.
+         </p>
+      </div>           
       
-      
-      
-      <div>
-         
-         <div class="head">I thought Kit North a bore</div>
+      <div class="piece" id="#p16">
+         <div class="biblTitle">Kit North</div>
+         <div class="biblPage">407</div>
          
          <div class="lg">
             <br></br>I thought Kit North a bore—in 1824—
             
             <br></br>I find the thought alive—in 1845.
          </div>
-      </div>
-      
+      </div>        
                       
       
-      
-      <div>
+      <div class="piece" id="#p17">
+         <div class="biblTitle">The Advice of “Twenty”</div>
+         <div class="biblPage">407</div>
          
-         <div class="head">The Advice of “Twenty”</div>
+         <div class="head">The Advice of “Twenty.”</div>
          
          <div class="lg">
             <br></br>I traced a name on sand,
@@ -2027,18 +1830,15 @@
          </div>
       </div>
       
-      
-      
-      <div>
+      <div class="section" id="#s2">
+         <div class="biblTitle">Editorial Miscellany</div>
          
          <div class="head">Editorial Miscellany.</div>
          
-         
-         <div>
-            
-            <div class="head">The Broadway Journal may be obtained in the City of New York of the following agents</div>
-            
-            <p>The Broadway Journal may be obtained in the City of New
+         <div class="piece" id="#p18">
+            <div class="biblTitle">The Broadway Journal</div>
+            <div class="biblPage">407</div>
+            <p>THE BROADWAY JOURNAL may be obtained in the City of New
                York of the following agents: Taylor, Astor House; Crosby,
                Exchange, William street; Graham, Tribune Buildings; Lockwood, Broadway and Grand; and Burgess &amp; Stringer, Ann and
                Broadway.
@@ -2049,14 +1849,13 @@
             </p>
          </div>
          
-         
-         
-         <div>
-            
+         <div class="piece" id="#p19">
+            <div class="biblTitle">Valedictory</div>
+            <div class="biblPage">407</div>
             <div class="head">VALEDICTORY.</div>
             
-            <p>Unexpected engagements demanding my whole attention,
-               and the objects being fulfilled,"so far as regards myself personally, for which “ The Broadway Journal” was established, I now,
+            <p>UNEXPECTED engagements demanding my whole attention,
+               and the objects being fulfilled,"so far as regards myself personally, for which “The Broadway Journal” was established, I now,
                as its editor, bid farewell—as cordially to foes as to friends.
             </p>
             
@@ -2064,20 +1863,13 @@
                the Journal.
             </p>
             
-            <div class="byline">
-               <span class="person">Edgar A. Poe</span>.
-            </div>
+            <div class="ab">EDGAR A. POE.</div>
          </div>
          
-         
-         
-         <div>
-            
-            <div class="head">One of the most wonderful pieces of mechanism ever produced through mental conception
-               is now exhibiting at Philadelphia
-            </div>
-            
-            <p>One of the most wonderful pieces of mechanism ever produced
+         <div class="piece" id="#p20">
+            <div class="biblTitle">One of the Mosts Wonderful Pieces of Mechanism</div>
+            <div class="biblPage">407</div>
+            <p>ONE of the most wonderful pieces of mechanism ever produced
                through mental conception is now exhibiting at Philadelphia, and
                will be shortly to be shown in this city. We allude to the speaking automaton of Herr Faber—an invention, after seventeen years
                of labor, almost perfected by the ingenious inventor. It is not
@@ -2085,6 +1877,7 @@
                the performer, any words or combinations of words; and can
                even sing, in perfect imitation of a man. It has excited the attention of scientific men at Philadelphia; and their investigation
                has led them to implicit belief in its merits as a work of art.
+               
                Professor Patterson and Dr. Goddard, savans of note in our sister
                city, introduced it, a few evenings since, to the public—the latter
                accompanying the introduction with a brief lecture on acoustics
@@ -2128,13 +1921,10 @@
             </p>
          </div>
          
-         
-         
-         <div>
-            
-            <div class="head">N. C. Brooks, A. M., of Baltimore</div>
-            
-            <p>N. C. Brooks, A. M., of Baltimore, well known as a terse and
+         <div class="piece" id="#p21">
+            <div class="biblTitle">N. C. Brooks</div>
+            <div class="biblPage">408</div>
+            <p>N. C. BROOKS, A. M., of Baltimore, well known as a terse and
                vigorous writer, as well as a poet of much absolute power and
                refined taste, has lately been rendering substantial service to education, by preparing a series of works for the use of schools and
                colleges. Encouraged by the popularity of those already prepared, his publishers have issued a prospectus, which will be
@@ -2144,13 +1934,10 @@
             </p>
          </div>
          
-         
-         
-         <div>
-            
-            <div class="head">We regret to observe the N. P. Willis and Geo. P. Morris</div>
-            
-            <p>We regret to observe that N. P. Willis and Geo. P. Morris—
+         <div class="piece" id="#p22">
+            <div class="biblTitle">We Regret to Observe</div>
+            <div class="biblPage">407</div>
+            <p>WE regret to observe that N. P. Willis and Geo. P. Morris—
                well known as “mi-boy and the Brigadier,” as well as by their
                literary works, have retired from the “Evening Mirror.” Mr.
                Fuller, however, remains, and will, no doubt, make a useful, as—
@@ -2159,13 +1946,10 @@
             </p>
          </div>
          
-         
-         
-         <div>
-            
-            <div class="head">The last picture of Leutze brought to this country</div>
-            
-            <p>The last picture of Leutze brought to this country—“The
+         <div class="piece" id="#p23">
+            <div class="biblTitle">The Last Picture of Leutze</div>
+            <div class="biblPage">407</div>
+            <p>THE last picture of LEUTZE brought to this country—“The
                landing of the Northmen,” was bought by the celebrated connoisseur, Mr. Towne, of Philadelphia, for eighteen hundred dollars.
                It was painted for the late E. L. Carey, but on his decease Mr.
                Towne, who is one of our most liberal and discerning patrons of
@@ -2173,1580 +1957,1164 @@
             </p>
          </div>
       </div>
-      
                     
       
-      
-      <div>
-         <div class="ab">JOHN H. GENIN,
+      <div class="section" id="#s2">
+         <div class="biblTitle">Editorial Miscellany</div>
+         
+         <div>
+            <div class="head">JOHN H. GENIN,</div>
             
-            <br></br>FASHIONABLE HAT AND CAP ESTABLISHMENT,
+            <div class="ab">FASHIONABLE HAT AND CAP ESTABLISHMENT,
+               
+               <br></br>21-1 Broadway.
+            </div>
+         </div>
+         
+         <div>
+            <div class="head">JOHN BURFORD,</div>
             
-            <br></br>21-1 Broadway.
+            <div class="ab">PORTRAIT AND LANDSCAPE PAINTER.
+               
+               <br></br>27 Dey Street.
+            </div>
+         </div>              
+         
+         <div>
+            <div class="head">DENTISTRY.</div>
+            
+            <p>DOCT. H. E. SCHOONMAKER, Dental Surgeon, Office, 44G
+               Houston st., two doors from Broadway—opposite St. Thomas’
+               Church.
+            </p>
+            
+            <p>Doct. S.’s experience and skill in his profession give him confidence in asserting that his operations are unsurpassed by any Dentist in this city. Dr. S.’s manner of inserting artificial teeth varies
+               in many essential points from the usual mode; and his success in
+               pleasing all, he is happy to say, has brought him many difficult
+               cases, which had been unsuccessfully treated by Dentists of established professional reputation, and whose prices for the same operation were double his own. The object in inserting artificial teeth
+               is to supply the deficiency occasioned by the loss of natural teeth,
+               both in regard to utility, comfort in wearing, and natural appearance. In all these points, Dr. S.’s manner is pre-eminent. His
+               mechanical tact and ingenuity have enabled him to surmount many
+               obstacles, which have long, with the profession generally, impeded
+               the path to success in every operation. He makes use of the best
+               materials in all his operations—and in cases where the gum has
+               fallen away by absorption, (which is always the case, more or less,
+               when teeth have been extracted,) which causes a contraction of the
+               lips and cheeks, the disfigurement of which cannot be fully obviated
+               without adopting the artificial gums, which will supply the deficiency, and give to the mouth its usual redundancy—besides, their
+               beauty and natural appearance render detection impossible.
+            </p>
+            
+            <p>Dr. S. would be happy to refer those who require it, to many of
+               the best families in this City, in which he has practised.
+            </p>
+            
+            <p>Ladies who desire it, can have their teeth examined at their residences, by sending their address as above.	nov8—9t</p>
+         </div>
+                       
+         
+         <div>
+            <div class="head">JAMES PIRSSON,</div>
+            
+            <p>PIANO FORTE MANUFACTURER, 88, 90, and 92 Walker
+               Street, near Elm. A large stock of the finest instruments
+               always on hand. Terms moderate. For Sale—a splendid Harp,
+               nearly new—to be sold at a great bargain for cash.
+            </p>
+         </div>         
+         
+         <div>
+            <div class="head">PENMANSHIP,</div>
+            
+            <p>RE-OPENING OF GOLDSMITH’S WRITING ACADEMY,
+               289 Broadway—La Farge Buildings, Corner of Reade street.
+               Terms reduced to 'Three Dollars, and no extra charge.
+            </p>
+            
+            <p>Mr. Oliver B. Goldsmith respectfully informs the citizens of New
+               York and Brooklyn, that his rooms are now open, during the day
+               and evening, for Pupils and Visitors. Mr. G’s. specimens of
+            </p>
+            
+            <div class="ab">PENMANSHIP</div>
+            
+            <p>have received the First Premium Five Years, from the American
+               Institute, and he guarantees to all, in TEN EASY AND INTERESTING EXERCISES, a free and elegant style of writing, that
+               the pupils cannot possibly ever lose in their future practice.
+            </p>
+            
+            <p>For sale, at the Academy, GOLDSMITH’S GEMS OF PENMANSHIP.</p>
+            
+            <p>Ladies’ Class meets daily at 11 o’clock. Gentlemen’s day and
+               evening. See circular.	s18
+            </p>
+         </div>          
+         
+         <div>
+            <div class="head">WEDDING, VISITING, AND PROFESSIONAL CARDS</div>
+            
+            <p>Engraved and Printed at VALENTINE’S, 1 Beekman-st.
+               Lovejoy’s Hotel.
+            </p>
+         </div>        
+         
+         <div>
+            <div class="head">G. B. CLARKE,</div>
+            
+            <p>MERCHANT TAILOR, (from rundage, Broadway,) No. 132
+               William Street, 3 doors from Fulton, N. Y.
+            </p>
+            
+            <div class="ab">Dress Coat, from $12 00 to $20 00  | Making and Trimming.
+               
+               <br></br>Pants,	“	2	50	to	8	00	          | Dress Coat,	from $6 00	to $9	00
+               
+               <br></br>Vests,	"	1	50	to	4	50	          | Pants,	“1 50	to 2	00
+               
+               <br></br>                                   | Vests,	“1 50	to 2	00
+            </div>
+            
+            <p>N. B. Seasonable SACK COATS, VESTS, See., always on hand,
+               from $1 50 upwards.	nov8—3m
+            </p>
+         </div>          
+         
+         
+         <div>
+            <div class="note" type="headnote">NEW BOOKS,	
+               TO BE PUBLISHED BY
+            </div>
+            
+            <div class="head">MESSRS. WILEY &amp; PUTNAM,</div>
+            
+            <div class="ab">IN DECEMBER.</div>
+            
+            <div class="ab">I.</div>
+            
+            <p>Carlyle’s new Work. The Letters and Speeches of Oliver Cromwell, with Elucidations, by Thomas Carlyle, in 2 vols. 8 vo., with
+               Portrait, engraved by F. Hall from an original by Cooper, in the
+               possession of Archdeacon Berners. Also, 2 vols. 16 mo., in the
+               "Library of Choice Headings."
+            </p>
+            
+            <div class="ab">II.</div>
+            
+            <p>Stories from the Italian Poets, being a summary in Prose of the
+               Poems of Dante, Pulci, Bolardo, Ariosto, and Tasso, with comments
+               throughout, occasional passages versified, and Critical Notices of
+               the Lives and Genius of the Authors. By Leigh Hunt, 16mo.
+            </p>
+            
+            <div class="ab">III.</div>
+            
+            <p>The Book of Christmas. By T. K. Hervey.</p>
+            
+            <div class="ab">IV.</div>
+            
+            <p>Views and Reviews in American History, Literature, and Art.
+               By W. Gilmore Simms.
+            </p>
+            
+            <div class="ab">V.</div>
+            
+            <p>The Alps and the Rhine. By J. T. Headley.</p>
+            
+            <div class="ab">VI.</div>
+            
+            <p>Mrs. Southey's Poems. The Birth-day, and other Poems—Solitary Hours. By Caroline Southey, 2 vols. l6mo.—(Shortly.)</p>
+            
+            <div class="ab">VII.</div>
+            
+            <p>The Author of “Undine.” Theiodolf the Icelander. By La
+               Motte Fouque, l6mo.
+            </p>
+            
+            <div class="ab">VIII.</div>
+            
+            <p>Tales from the German of Zschokke, second series. Illumination; or, the Sleep Walker—The Broken Cup—Jonathan Frock
+               — The Involuntary Journey—Leaves from the Journal of a Poor
+               Curate in Wiltshire. By Parke Godwin.
+            </p>
+            
+            <div class="ab">IX.</div>
+            
+            <p>The Vicar of Wakefield.—An edition on superior paper, with
+               choice Illustrations by Mulready.
+            </p>
+            
+            <div class="ab">JUST PUBLISHED.</div>
+            
+            <p>The Life of the Great Condi. By Lord Mahon, forming Nos.
+               XXXIV. and XXXV. of “The Library of Choice Reading."
+            </p>
+            
+            <div class="ab">dec 4	WILEY &amp; PUTNAM, 161 Broadway.</div>
+         </div>          
+         
+         <div>
+            <div class="head">PAINE &amp; BURGESS, 62 J0HN STREET.</div>
+            
+            <p>HAVE lately published—</p>
+            
+            <p>1.	The Artist, Merchant and Statesman, 2 vols. 12mo.</p>
+            
+            <p>2.	Trippings in Authorland, by Fanny Forrester, 12mo.</p>
+            
+            <p>3.	Songs and Ballads, by Geo. P. Morris, 32mo. gilt.</p>
+            
+            <p>4. Prariedom; Rambles and Scrambles in Texas, or New Estremadura, with a Map, by a Southron, 1 vol. 12mo.</p>
+            
+            <p>5.	Autobiography of Alfieri, 1 vol. 12mo.</p>
+            
+            <p>6.	Citizen of a Republic, by Ceba, 1 vol. 12mo.</p>
+            
+            <p>7.	Florentine Histories, by Machiavelli, 2 vols. 12mo.</p>
+            
+            <p>8.	Challenge of Barletta, by D’Azeglio, 1 vol. 12mo.</p>
+            
+            <p>9.	Musical Spelling Book, by E. Ives, 1 vol. 8mo.</p>
+            
+            <p>10.	Beethoven Collection of Sacred Music.</p>
+            
+            <p>11.	Rambles by Land and Water, or Notes of Travel in Cuba and
+               Mexico, elegantly illustrated, by B. M. Norman, 1 vol. 12mo.
+            </p>
+            
+            <div class="ab">NEARLY READY,</div>
+            
+            <p>1. Montezuma, The Last of the Aztecs; an Historical Romance on the Conquest of Mexico, by Edward Maturin, 2 vols.
+               12mo.
+            </p>
+            
+            <p>2. Morris &amp; Willis’ Library of the Rose and Poetry of Europe
+               and America, 1 vol. 8mo. An elegant and valuable Gift Book.
+            </p>
+            
+            <p>3. Old Continental, or the Price of Liberty; by the author
+               of "Dutchman’s Fireside,” 2 vols. 12mo.
+            </p>
+            
+            <p>4.	Man in the Republic, by C. Mathews, 32mo. gilt.</p>
+            
+            <p>5.	Musical ABC, for children, 16mo.</p>
+            
+            <p>6.	Greece of the Greeks, by G. A. Perdicaris, late U. S. Consul
+               at Athens, 2 vols. 12mo. illustrated.
+            </p>
+            
+            <p>7.	Musical Reader, 4to.</p>
+            
+            <p>8.	The Prince, by Machiavelli, 1 vol. 12mo.</p>
+            
+            <p>9.	The Musical Wreath, 4to.</p>
+            
+            <p>10.	Over the Ocean! or Glimpses of Many Lands, by a Lady.</p>
+         </div>         
+         
+         <div>
+            <div class="head">KNOX’S HATS.</div>
+            
+            <p>THE FALL STYLE OF GENTLEMEN’S HATS are now
+               ready for the season, 1845, which for lightness and superiority
+               of color cannot be surpassed—which is a very important part of the
+               hat, retaining the color till it is worn out Any article sold in this
+               establishment is never misrepresented but sold for what it is. Also
+               the Fall style of Boy’s and Children’s Caps, of various patterns.
+               Gentlemen can have their hats made to order in any shape or style
+               they wish. A full assortment of Ladies’ Muffs, of all kinds.
+            </p>
+            
+            <div class="ab">C. KNOX, No. 110 Fulton st.
+               
+               <br></br>nov 8—3m	   between William and Nassau sts.
+            </div>
+         </div>
+         
+         
+         <div>
+            <div class="head">HUNT’S MERCHANTS’ MAGAZINE</div>
+            
+            <div class="ab">AND
+               
+               <br></br>COMMERCIAL REVIEW.
+               
+               <br></br>Established July, 1839,
+               
+               <br></br>BY FREEMAN HUNT, EDITOR AND PROPRIETOR.
+               
+               <br></br>PUBLISHED MONTHLY,
+               
+               <br></br>At 142 Fulton St., N. York—at $5 00 per anmum, in advance.
+            </div>
+            
+            <p>THE MERCHANTS’ MAGAZINE and COMMERCIAL REVIEW embraces every subject connected with Commerce,
+               Manufactures and Political Economy, as follows:—Commercial
+               Legislation; Commercial History and Geograph; Mercantile Biography; Descriptive, Statistical, and Historical Accounts of the
+               various commodities which form the subject of Mercantile Transactions; Port Charges; Tariffs; Customs and Excise Regulations;
+               Commercial Statistics of the United States and the different countries
+               of the world, with which we have intercourse, including their
+               Physical Character, Population, Productions, Exports, Imports,
+               Seaports, Monies, Weights, Measures, Finance and Banking Associations, and Enterprises connected with Commerce, embracing
+               Fisheries, Incorporated Companies, Railroads, Canals, Steamboats,
+               Docks, Post Offices, &amp;c.; Principles of Commerce, Finance and
+               Banking with Practical and Historical Details and Illustrations;
+               Commercial Law, and Mercantile Reports and Descisions of Courts
+               in the United States and Europe, including, Insurance, Partnership,
+               Principal and Agent, Bills of Exchange, Sale, Guaranty, Bankruptcy, Shipping and Navigation, &amp;c., and whatever else should
+               tend to develop the resources of the country and the world, and
+               illustrate the various topics bearing upon Commerce and Commercial Literature.
+            </p>
+            
+            <p>It has been, and will continue to be, the aim of the Editor and
+               Proprietor of the Merchants’ Magazine, to avoid everything of
+               a party, political, or sectional bias or bearing, in the conduct of the
+               work—opening its pages to the free and fair discussion of antagonistic doctrines connected with the great interests of Commerce,
+               Agriculture, Manufactures and the Currency.
+            </p>
+            
+            <p>☞ Complete sets of the Merchants’ Magazine, embracing
+               13 semi-annual volumes, of about 600 large octavo pages each,
+               bringing it down to December 1S45, inclusive, may be obtained at
+               the Publisher’s Office, 142 Fulton street, New York, at the subscription price.
+            </p>
+            
+            <p>☞ Publishers of newspapers, in the United States, by giving
+               this advertisement two or three insertions and remitting Two Dollars to the Proprietor, will be entitled to the Magazine for one
+               year.
+            </p>
+            
+            <div class="ab">Office of Merchants’ Magazine, Jan. 1846.
+               
+               <br></br>Dec. 20.—5t.
+            </div>
+         </div>
+         
+         <div>
+            <div class="head">JOHN ANDERSON &amp; Co.,</div>
+            
+            <div class="ab">IMPORTERS AND DEALERS IN</div>
+            
+            <p>CHOICE SEGARS, and Manufacturers of Premium Tobacco
+               and Snuffs—2 Wall, and 13 and 15 Duane streets, New York.
+            </p>
+            
+            <div class="ab">nov8—3m</div>
+         </div>
+         
+         <div>
+            <div class="head">TO MEDICAL MEN.</div>
+            
+            <p>This day published, the London lancet for November, a Journal of British, Foreign, Medical and Chemical Science, Criticism and News—edited by Thomas Wakely, M. P.
+               Surgeon, and Henry Bennett, M. D.
+            </p>
+            
+            <p>This is the fifth number of the second volume, containing, besides
+               its usual quantity of valuable matter, the 2d Lecture of a series of
+               Lectures on Organic Chemistry, by Justus Liebig.
+            </p>
+            
+            <p>Also, four additional Lectures on the Mechanism and Management of Natural and Difficult Labors, by Edward W. Murphy, A. M.
+               M. D.
+            </p>
+            
+            <p>Terms—$5 per annum, in advance; single numbers 50 cents—
+               mailed to any part of the United States, by
+            </p>
+            
+            <div class="ab">BURGESS, STRINGER &amp; CO.
+               
+               <br></br>222 Broadway, corner of Ann st.
+            </div>
+            
+            <p>P. S.—The postage to any distance on the Lancet is 6 1/4 cts.</p>
+         </div>          
+         
+         <div>
+            <div class="head">J. BALLARD,
+               PROFESSOR OF THE GUITAR, SINGING AND FLUTE.
+            </div>
+            
+            <div class="ab">No. 15 Spring street.</div>
+         </div>
+         
+         <div>
+            <div class="head">UNITED STATES HOTEL.</div>
+            
+            <p>THE PROPRIETOR OF THIS HOTEL, desires to return his
+               thanks to his friends, and the traveling portion of the community generally, for the favors which they have bestowed upon him
+               since he opened his establishment, and to assure them that he will
+               spare no exertions to render his House worthy of the patronage of
+               which he has already received so liberal a share.
+            </p>
+            
+            <div class="ab">H. JOHNSON.
+               
+               <br></br>Nov. 8th, 1845.	6m
+            </div>
+         </div>
+         
+         
+         <div>
+            <div class="note" type="headnote">VALUABLE WORKS ON AGRICULTURE, ETC.,
+               RECENTLY PUBLISHED BY
+            </div>
+            
+            <div class="head">HARPER &amp; BROTHERS, NEW YORK.</div>
+            
+            <div class="ab">I.
+               
+               <br></br>THE AMERICAN SHEPHERD.
+            </div>
+            
+            <div class="ab">1 vol. 12mo. With Illustrations. Price 75 cents, paper; bound
+               
+               <br></br>in cloth gilt, $1,00.
+            </div>
+            
+            <p>We regard this as the most valuable and important work for
+               farmers that has appeared for a long time. We have examined it
+               closely, and we do not hesitate to say it is just what is wanted by
+               the sheep farmers of this country. Previous to its publication, the
+               manuscript was submitted to the inspection of the Executive Committee of the N. Y. State Agricultural Society, and received the
+               following commendation from that body; “The committee have great
+               pleasure in recommending the work to the attention of wool-growers, and others interested in the breeding and management of sheep,
+               as one containing a large amount of practical and scientific information on this most important branch of American agriculture.” The
+               work contains a complete history and description of all the known
+               varieties and breeds of sheep, illustrated with portraits of the principal kinds, with remarks on their comparative value for different
+               purposes, their management in different countries and climates,
+               their diseases, &amp;c. An appendix is added, embracing upward of
+               twenty letters from eminent wool-growers and sheep-fatteners in
+               different states, detailing their respective modes of management.—
+               Ohio Cultivator.
+            </p>
+            
+            <p>This book is one of startling value. It was written by a practical
+               man, who, for many years, has devoted himself to the rearing of
+               sheep, with great ardor. He writes, in the practical portions of the
+               work, what his own eyes have seen, and what his own hands have
+               handled. It is written in a straight-forward, plain style; it is arranged with sufficient clearness, and gives valuable information on
+               the subjects of which it treats. Whether a farmer keeps ten or ten
+               thousand sheep, he ought to possess it.—Baptist Recorder.
+            </p>
+            
+            <p>This is the best work for the American farmer which has yet appeared on the subject of sheep-husbandry, and we believe it is the
+               only elaborate treatise which has been written with peculiar reference to the methods required in the management of sheep in this
+               country.—N.Y. Commercial Advertiser.
+            </p>
+            
+            <div class="ab">II.
+               
+               <br></br>ENCYCLOPAEDIA OF DOMESTIC ECONOMY.
+            </div>
+            
+            <div class="ab">1 large vol. 8vo. 1000 Illustrations. Sheep Extra.—Price
+               
+               <br></br>$3,75.
+            </div>
+            
+            <p>The practical utility of this work commends it very strongly to
+               public favor. It treats of various matters connected with domestic economy, in such a plain and comprehensive manner, that
+               few can look over its pages, without finding something to interest
+               them—something which will promote their comfort, and oftentimes
+               prove of pecuniary advantage. In point of general utility this is,
+               perhaps, the best work issued for some time.—Courier and Enquirer.
+            </p>
+            
+            <p>This is decidedly a book for the million; it contains all that precise kind of information adapted to the use of families, and which
+               one may seek a long time for, in vain, elsewhere.—Evening Gazette.
+            </p>
+            
+            <p>This is one of those works which cannot fail to be of real utility
+               to all classes who will take the trouble to turn to its pages for information.—Evening Post.
+            </p>
+            
+            <p>No one possessing the means to purchase, and capable of appreciating this Encyclopaedia, will fail to procure it It will render
+               most important services in every family in which it is introduced.—
+               Evangelist.
+            </p>
+            
+            <p>Those who are desirous of acquainting themselves with the
+               way and manner of doing everything to promote the comfort of their
+               families and friends, with the least possible trouble and expense,
+               will find this work a valuable acquisition.—Seneca Courier.
+            </p>
+            
+            <div class="ab">III
+               
+               <br></br>TREATISE ON DOMESTIC ECONOMY.
+            </div>
+            
+            <div class="ab">Improved Edition. X vol. 12mo. Plates. Price 75 cents.</div>
+            
+            <p>This is emphatically a useful book. It contains a vast amount of
+               intelligence concerning mental and physical health, together with a
+               great deal of information concerning the regulation of the household and the judicious disposition of time and means.—Sunday
+               Times.
+            </p>
+            
+            <p>This volume is so well known, and so thoroughly appreciated,
+               that we need only call attention to the issue of an improved edition.
+               It is very generally adopted as a text-book in female schools. It has
+               been examined by the Massachusetts Board of Education, and by
+               them deemed worthy of admission as a part of the Massachusetts
+               School Library—an honor which speaks for itself.—Evening Post.
+            </p>
+            
+            <p>If this work could be read, and studied ,and applied by all the young
+               ladies of the land, it would certainly be the means of bringing about
+               a new era, both in civilization and enjoyment. It touches every
+               point in domestic economy in which a young female can be supposed
+               to be interested, and it brings out many points which are seen at
+               once to be of great moment, but which would have escaped any
+               other than the scrutinizing eye of a female philanthropist. We
+               would recommend to every mother to provide her daughters with a
+               copy of this work, and to enjoin it upon them as a sacred duty to
+               read and ponder, and follow its excellent directions.—Evangelist.
+            </p>
+            
+            <div class="ab">IV.
+               
+               <br></br>AGRICULTURAL CHEMISTRY.
+            </div>
+            
+            <div class="ab">1 vol. 18mo. Half Sheep. Price 50 cents.</div>
+            
+            <div class="ab">V.
+               
+               <br></br>ARMSTRONG’S AGRICULTURE.
+            </div>
+            
+            <div class="ab">1	vol. 18mo. Half Sheep. Prica 50 cents.</div>
+            
+            <div class="ab">VI.
+               
+               <br></br>AMERICAN HUSBANDRY.
+            </div>
+            
+            <div class="ab">2	vols. 18mo. Half Sheep. Price $1,00.</div>
+            
+            <div class="ab">VII.
+               
+               <br></br>THE FARMER’S INSTRUCTOR.
+            </div>
+            
+            <div class="ab">2 vols. 18mo. Half Sheep. Price $1,00.</div>
+            
+            <div class="ab">VIII.
+               
+               <br></br>THE AMERICAN POULTRY BOOK.
+            </div>
+            
+            <div class="ab">1 vol. 18mo. Engravings. Price 35 cents.</div>
+            
+            <div class="ab">IX.
+               
+               <br></br>THE COOK’S ORACLE.
+            </div>
+            
+            <div class="ab">1 vol. 18mo. Price 88 cents,</div>
+            
+            <div class="ab">X.
+               
+               <br></br>MODERN AMERICAN COOKERY.
+            </div>
+            
+            <div class="ab">1 vol. 16mo. Price 40 cents,</div>
+            
+            <div class="ab">XI.
+               
+               <br></br>DOMESTIC DUTIES.
+            </div>
+            
+            <div class="ab">1 vol. l2mo. Half Roan. Price 75 cents.</div>
+            
+            <div class="ab">Jan. 3. tf.</div>
+         </div>
+         
+         <div>
+            <div class="note" type="headnote">THE SECOND VOLUME OF</div>
+            
+            <div class="head">THE ARISTIDEAN:</div>
+            
+            <p>A JOURNAL OF REVIEWS, POLITICS, AND LIGHT LITERATURE—By Thomas Dunn English, and numerous collaborators—commences on the 20th of January, 1846.</p>
+            
+            <p>The ARISTIDEAN is published monthly, each number containing
+               80 pages, octavo, printed on handsome white paper, with bold, clear
+               type, at Five Dollars per annum, payable in advance.
+            </p>
+            
+            <p>The aim of the editor has been to establish a Journal of Art and
+               Letters, whose papers should be distinguished for force, vigor, sarcasm and pith, rather than an unutterable and bathetic profundity;
+               one, which should not fear to expose literary quackery, and give to
+               writers a proper precedence; one that had the moral courage to
+               praise an enemy’s good works, and censure a friend’s bad ones; one
+               that would maintain a rigorous independence on literary, political
+               and religious matters; one that would attack all abuses without
+               scruple; one that was insensible to fear, and deaf to favor; and one
+               that depended for success on the merit of its papers, and not on the
+               names announced as contributors. If the editor may judge from the
+               high panegyric of the press, and the more substantial evidence of an
+               increasing subscription list, he has succeeded in his intention.
+            </p>
+            
+            <p>Those desiring to sustain an independent and fearless magazine
+               will be kind enough to remit their subscriptions by mail, rather
+               than through an agent.
+            </p>
+            
+            <div class="ab">THOMAS DUNN ENGLISH,
+               
+               <br></br>decl3—tf	301 Broadway, city of New York.
+            </div>
+         </div>
+         
+         <div>
+            <div class="head">CHEAP MUSIC.</div>
+            
+            <p>HOMANS &amp; ELLIS have published the first No. of</p>
+            
+            <div class="ab">THE MUSICAL WORLD.</div>
+            
+            <p>A Semi-monthly Magazine, containing sixteen pages of beautifully printed Music, and a Journal of Musical Biography, Criticism, and News.</p>
+            
+            <div class="ab">Edited by Henry C. Watson.—Contents of No. 1.</div>
+            
+            <p>I'll he There,—words by Fitzball—music by Herbert Rodwell.</p>
+            
+            <p>Let no thought of care oppress thee,—words by Charles Jeffreys,
+               music by Bellini.
+            </p>
+            
+            <p>Far away in my own bright land,—	“	“Bellini.</p>
+            
+            <p>O cast that shadow from thy brow,—a beautiful ballad.</p>
+            
+            <p>The sunny hours of childhood,—words by J. L. Carpenter—
+               music by J. Hanowav, R. A.
+            </p>
+            
+            <p>The melodies of many lands,—words by Charles Jeffreys—music
+               by C. W. Glover.
+            </p>
+            
+            <div class="ab">PRICE 25 CENTS.</div>
+            
+            <p>The second number of the Musical World will be published on
+               the 15th inst.
+            </p>
+            
+            <p>In Press—Grand Galop, by Leopold de Meyer, with a portrait
+               and critical biography, will be ready early next week.
+            </p>
+         </div>
+         
+         
+         <div>
+            <div class="note" type="headnote">IMPORTANT WORKS,
+               RECENTLY PUBLISHED BY
+            </div>
+            
+            <div class="head">J. &amp; H. G. LANGLEY, 8 ASTOR HOUSE.</div>
+            
+            <div class="ab">I.
+               
+               <br></br>VON RAUMER’S NEW WORK.
+            </div>
+            
+            <p>America and the American People: being the result of the author’s recent travels through the United States. Translated from
+               the German of Frederick Von Raumer, by Professor Wm. W. Turner. 1 vol. 8vo. 330 pp. Price $2.
+            </p>
+            
+            <div class="ab">II.
+               
+               <br></br>ELIZA COOK’S POETICAL WORKS.
+            </div>
+            
+            <p>New Edition, containing all her recent productions. Edited by
+               Rufus Griswold. 1 vol. 12 mo., illustrated with a portrait and
+               twelve exquisite English engravings. Copies in Morocco, super.
+               $3 50—Cloth Gilt, $2 50.
+            </p>
+            
+            <p>“This is a beautiful volume, splendidly bound, and still more
+               elegantly illustrated, and combining some of the choicest poems in
+               the language. The “Old Arm Chair” is one of the most popular
+               poems, and has touched the hearts of thousands who never knew
+               even the name of the author. She writes for the heart, and her
+               beautiful songs always reach it. The book forms one of the most
+               elegant holiday presents yet offered.”—Cour. fy Enq.
+            </p>
+            
+            <div class="ab">III.
+               
+               <br></br>MISS BARRETT’S POEMS.
+            </div>
+            
+            <p>The Drama of Exile, and other Poems, by Elizabeth B. Barrett,
+               2 vols. 12mo., elegantly printed.—$2 00.
+            </p>
+            
+            <p>“Miss Barrett is worth a dozen of Tennyson, and six of Motherwell—equal, perhaps, in original genius, to Keats and Shelley—
+               There are beauties enough in one of her poems to have made a fame
+               in Waller’s time.”—Willis’ Evening Mirror.
+            </p>
+            
+            <div class="ab">IV.
+               
+               <br></br>GREGG’S SANTA FE AND THE PRAIRIES.
+            </div>
+            
+            <p>Commerce of the Prairies, or the Journal of a Santa Fe Trader.
+               The personal observation of a trader, made on eight several expeditions across the Great Western Prairies, and during an almost
+               uninterrupted residence of nine years in Northern Mexico.—Illustrated with numerous engravings. New Edition, revised by the
+               Author. By Josiah Gregg. 2 vols. 12mo. $2 00.
+            </p>
+            
+            <div class="ab">V.
+               
+               <br></br>M. DE TOCQUEVILLF.’S GREAT WORK.
+            </div>
+            
+            <p>Democracy in America, by Alexis De Tocqueville. Third edition, in 2 vols. 8vo. Corrected and Enlarged, with an original Index. Translated by Henry Reeve, Esq., with introductory Prefaces,
+               by the honorable John C. Spencer. Price $4 00 in muslin or sheep.
+            </p>
+            
+            <p>“This work is one of the most profound and philosophical ever
+               writen upon the character and institutions of our country.—Boston
+               Traveler.
+            </p>
+            
+            <p>“As a study of political science, this book stands unrivaled in
+               our times; equally remarkable for lucidity of style, acuteness and
+               delicacy of reasoning, and for the moral and intellectual vigor with
+               which it has been conceived and completed.”—London Times.
+            </p>
+            
+            <div class="ab">VI.
+               
+               <br></br>DE TOCQUEVILLE ABRIDGED.
+            </div>
+            
+            <p>Designed for District School Libraries, Colleges, &amp;c. In accordance with the recommendation of several superintendents of District Schools, the Publishers beg to announce that they have just
+               issued a condensed edition of the above standard work, adapted expressly for the use of District Schools, Colleges, &amp;c., to form 1 vol.
+               12mo. Price $1 00.
+            </p>
+            
+            <div class="ab">VII.
+               
+               <br></br>THE LIFE OF GENERAL FRANCIS MARION.
+            </div>
+            
+            <p>By W. Gilmore Simms, author of “Guy Rivers.” &amp;c. &amp;c.
+               Seventh edition, revised by the author, with numerous engravings,
+               1 vol. 12mo.—$1.
+            </p>
+            
+            <p>“Few characters have stood out more boldly on our Revolutionary
+               Annals, or have supplied more interesting and exciting materials
+               for the historian than that of Gen. Marion; and it is not saying too
+               much to claim for the work before us no less the merit of accredited
+               historical truth, than the most stirring and absorbing attributes of
+               high-wrought fiction.”—Democratic Review.
+            </p>
+            
+            <div class="ab">VIII.
+               
+               <br></br>THE POETICAL WORKS OF PRAED.
+            </div>
+            
+            <p>Lillian, and other Poems, Fanciful and Facetious. By William
+               Mackworth Praed. First collected edition. Edited by R. W.
+               Griswold, 1 vol. 12mo., muslin,. $1 25.
+            </p>
+            
+            <p>“Praed was the Poet of Society, ‘a fellow of infinite humor,’ and
+               in scholarship and art, surpassed by none of the English poets of
+               the age. Though many of his pieces have been almost universally
+               read in this country, they have never yet been printed collectively
+               either here or in England.”—Democratic Review.
+            </p>
+         </div>          
+         
+         <div>
+            <div class="head">PAINE &amp; BURGESS, 62 JOHN STREET,</div>
+            
+            <div class="ab">WILL PUBLISH, IN A FEW DAYS,</div>
+            
+            <p>THE ARTIST, MERCHANT, AND STATESMAN, Part I —
+               This work is made up of the choicest and most original material
+               on Fine Arts, Commerce, and Political Economy, by C. Edwards
+               Lester.
+            </p>
+            
+            <p>PRARIEDOM; Rambles and Scrambles in Texas, or New Estremadura, by a Southron, 1 vol. 12mo. with a map. “It is light and
+               vivacious—filled with incident—easy and flowing in style, and brilliant in imagery.”—Evening Mirror.
+            </p>
+            
+            <div class="ab">THEY ARE PREPARING FOR PUBLICATION,</div>
+            
+            <p>Songs and Ballads by Gen. G. P. Morris, 32mo. gilt.</p>
+            
+            <p>Rambles by Land and Water, or Notes of Travel in Cuba and Mexico; including a canoe voyage up the river Panuco, and Researches
+               among the Antiquities of Taumelipas, byB. M. Norman,1 vol. 12mo.
+               illustrated.
+            </p>
+            
+            <p>The Greece of the Greeks, by G. A. Perdicaris, U. S. Consul at
+               Athens, 2 vols. 12mo. illustrated.
+            </p>
+            
+            <p>Trippings in Authorland, by Fanny Forrester.</p>
+            
+            <p>Montezuma, the Last of the Aztecs; an Historical Romance of
+               the Conquest of Mexico, by Edward Maturin, 2 vols. 12mo
+            </p>
+            
+            <p>“This is an original American work.”</p>
+            
+            <p>The Prince, by Machiavelli, 1 vol. 12mo.</p>
+            
+            <p>Man in the Republic, by C. Mathews, 1 vol. 32mo. gilt.</p>
+            
+            <p>The Old Continental, or the Price of Liberty; an historical romance, by the author of the “Dutchman’s Fireside,” 2 vols. 12mo.</p>
+            
+            <div class="ab">NOW READY,</div>
+            
+            <p>The Medici Series of Italian Prose.</p>
+            
+            <p>The Autobiography of Alfieri, 1 vol. 12mo. Price 50 cents.</p>
+            
+            <p>The Secret Thoughts and Actions of Genius, blended with the
+               wildest adventures and strongest caprices.
+            </p>
+            
+            <p>The Citizen of a Republic; what are his rights and duties, by
+               Ansaldo Ceba, 1 vol. 12mo. Price 50 cents. “A book of condensed and rare thoughts, like diamonds finely polished and richly set.”
+            </p>
+            
+            <p>The Challenge of Barletta, a Romance of the times of the Medici,
+               1 vol. 12mo.
+            </p>
+            
+            <p>“A gem gathered from the jeweled.mine of Italian romance.”</p>
+            
+            <p>The Florentine Histories, by Machiavelli, 2 vols. 12mo.</p>
+            
+            <p>“The charmed records of the classic city of the Arno, by the master spirit of his age.”	nov 8</p>
+         </div>
+         
+         <div>
+            <div class="head">PIANO FORTES.</div>
+            
+            <p>THOMAS H. CHAMBERS, (formerly Conductor to Dubois
+               and Stodart,) No. 385 Broadway, will keep a complete assortment of the latest approved Grand Action Piano Fortes of the most
+               superior quality; such as he is prepared to guarantee for their excellence of Tone, Touch, and External Finish, and to endure in any
+               climate. A liberal discount from the standard prices. Fiano Fortes
+               Tuned and Repaired. Piano Fortes always on hire.
+            </p>
+         </div>          
+         
+         <div>
+            <div class="head">PIANO FORTES,</div>
+            
+            <p>CHEAP FOR CASH.—The Subscribers have on hand a
+               handsome assortment of 6, 6 1/2, and 7 octave mahogany and rosewood Pianos, which they will warrant, and sell low for cash or approved paper.
+            </p>	
+            <div class="ab">GLENN, ROGERS, &amp; Co.,
+               
+               <br></br>Manufacturers, 152 Fulton street, east of Broadway
+            </div>
+         </div>
+         
+         <div>
+            <div class="head">ÆOLIAN ATTACHMENT.</div>
+            
+            <p>HERRMAN S. SARONI, professor of music, 116
+               Leonard street, New York, teaches the Piano Forte, with or
+               without Coleman’s celebrated Attachment.
+            </p>
+         </div>
+         
+         <div>
+            <div class="note" type="headnote">General Furnishing Hardware, Cutlery, Tools, &amp;c.</div>
+            
+            <div class="head">OSBORN &amp; LITTLE,</div>
+            
+            <div class="ab">Importers and General Dealers in English, German, and
+               
+               <br></br>American
+               
+               <br></br>HARDWARE, CUTLERY, &amp;.C.,
+               
+               <br></br>No. 33 FULTON STREET,
+               
+               <br></br>BETWEEN PEARL AND WATER STREETS,
+               
+               <br></br>[Where the business has been carried on for eighty years past.]
+            </div>
+            
+            <div class="ab">CHARLES OSBORN. 	NEW YORK.
+               
+               <br></br>CHARLES S. LITTLE. 
+            </div>
+            
+            <p>Hardware, Cutlery, Nails, Locks, Latches, Butts, Screws, Anvils,
+               Vices, Saws, Files, Shovels and Spades, Hollow Ware, Corn and
+               Coffee Mills, Rivets, Pumps, Curriers’ Hones, Crucibles, Black
+               Lead, Pots, &amp;c. See. Also, Genuine Haarlarm Oil. American
+               Coopers and Carpenters’ Edge Tools, of Albertson’s, Conger’s,
+               Barton’s Horton’s, Gifford’s, and other makers. Also, Cooper’s
+               Truss Hoops.	nov8—3m
+            </p>
+         </div>        
+         
+         
+         <div>
+            <div class="head">CATALOGUE OF TEAS,</div>
+            
+            <div class="ab">ON SALE AT THE TEA WAREHOUSE OF THE
+               
+               <br></br>PEKIN TEA COMPANY,
+               
+               <br></br>Importers of fine Green and Black Teas, No. 75 Fulton street,
+               
+               <br></br>New York.
+            </div>
+            
+            <p>[The teas mentioned in this Catalogue arc done up in quarter,
+               half-pound, and pound packages—the first, or inside wrapper is
+               lead, the second wrapper is water-proof paper, and the third, or
+               outside wrapper, is of Chinese rice paper. The company sell none
+               but good teas, done up in this superior manner, all of them grown
+               in the most luxurious districts in China. Country dealers can
+               select as small a quantity of each kind as they like, and have them
+               packed in one chest. These teas also come in five pound Chinese
+               packages, called quattoons, a very convenient, fanciful and portable
+               shape.]
+            </p>
+            
+            <div class="ab">Green Teas.	Black Teas.</div>
+            
+            <div class="ab">YOUNG HYSON, sweet cargo, 50            | POUCHONG, good, full flavor, 38
+               
+               <br></br>do	do	do do finer, 62 1/2	do           | fine,	50
+               
+               <br></br>do	do	finer cargo, 75	                 | do	very	superior,	75
+               
+               <br></br>do	do	extra fine,	87 1/2
+               
+               <br></br>do	do	Silver Leaf, 1,00                | SOUCHONG, good,	38
+               
+               <br></br>SIVER LEAF — Seldom sold,	             | do	extra fine,	50
+               
+               <br></br>even by large dealers, be-
+               
+               <br></br>cause of the very small pro- | OOLONG, strong, flavor fine, 50
+               
+               <br></br>fits made on its sale. This	           | OOLONG—This tea is a great
+               
+               <br></br>is a very superior tea.	               | favorite, and gives universal
+               
+               <br></br>do do Golden Chop, Planta-              | satisfaction.
+               
+               <br></br>tion or Garden growth, 1,50	           | do	very fine,	62 1/2
+               
+               <br></br>GOLDEN CHOP — This is the	             | do	in one pound	and
+               
+               <br></br>finest Green Tea cultivated	           | half pound cattys,
+               
+               <br></br>in China. It is of the first	           | extra fine,	75
+               
+               <br></br>pickings, and excels all other
+               
+               <br></br>Green Teas for its delicacy             | NE PLUS ULTRA,	1,50
+               
+               <br></br>of flavor, strength, and aro-           | NE PLUS ULTRA—This tea is
+               
+               <br></br>ma. Heretofore this tea has             | as fragrant and sweet as a
+               
+               <br></br>never reached this country,	           | nosegay. It yields a perfume
+               
+               <br></br>except in small lots, as pre-	         | that is truly delightful. It is
+               
+               <br></br>sents to importers.	                   | of garden growth, and supe-
+               
+               <br></br>HYSON,* very fine,	75       | rior to anything of the kind
+               
+               <br></br>do Plantation growth, 1,00	             | ever sold in this country.
+               
+               <br></br>GUNPOWDER, good,
+               
+               <br></br>do	superior, [Read	                     | ENGLISH BREAKFAST TEA, very
+               
+               <br></br>“monstrous fraud”	                       | fine, 50
+               
+               <br></br>below,]	1,00                           | do	do do in
+               
+               <br></br>do	small leaf, planta-	                 | one pound and half pound
+               
+               <br></br>tion growth,	1,25	                     | cattys.	62 1/2
+               
+               <br></br>IMPERIAL, good,	—
+               
+               <br></br>do brisk and fragrant,	                 | HOWQUA'S MIXTURE, a strong
+               
+               <br></br>[Read “MONSTROUS                        | and rich black tea, Pekoe
+               
+               <br></br>FRAUD” below,] 1,00	                     | flavor,	75
+               
+               <br></br>do curious leaf, very                   | CONGO, good,	37 1/2
+               
+               <br></br>superior,	1,25	                       | do very fine,	50
+               
+               <br></br>HYSON SKIN, good, fine flavor, 38       | PEKOW FLOWERS, good,	87 1/2
+               
+               <br></br>do	do extra fine,	62 1/2	             | do do garden	growth, 1,50
+            </div>
+            
+            <p>*CAUTION.—Large quantities of Hyson Skin are retailed in this
+               market as being a Hyson Tea. It is well worth while to compare
+               the Hyson Tea usually sold at 75 cents with the genuine article
+               that the company offer at the same price. The difference is so perceptible, on trial, as to render any further comment unnecessary.
+            </p>
+            
+            <p>MONSTROUS FRAUD.—Gunpowder and Imperial Teas cannot be
+               retailed by small dealers, in this country, at 75 cents per pound,
+               because they frequently cost that money in China, and no Importer
+               in this city can sell good Gunpowder or Imperial Tea at a less prica
+               than 75 cents per pound by the hundred packages. T. F. Davies,
+               Esq., in his interesting work on China, details the manner in
+               which he saw the lowest grades of Black Teas manufactured and
+               colored with Prussian Blue, so as to closely imitate Gunpowder and
+               Imperial Teas, and adds, the Prussian Blue being a combination of
+               Prussic Acid with Iron, is of course a dangerous poison. Let purchasers therefore beware of adulterated teas, and deal with those
+               venders whose characters and resources raise them above suspicion.
+               Beware of the Gunpowder and Imperial Teas retailed at 75 cents
+               per pound, and compare them with the genuine article sold by the
+               Pekin Tea Company. No one, it is presumed, wishes to drink
+               poison. The company have published a book, giving full details on
+               this subject, which may be had at their warehouse, 75 Fulton street,
+               free of charge.
+            </p>
+            
+            <div class="ab">Recommendations.</div>
+            
+            <p>We drink Green Tea, and for many years have been paying one
+               dollar per pound for it. But thanks to the Pekin Tea Company, we
+               now get a better tea from them at 75 cents per pound. We drink one
+               pound per week, by which we are now saving thirteen dollars per year,
+               and enjoying better tea in the bargain. Commend us to the Pekin Tea
+               Company, say we.—[Mirror.
+            </p>
+            
+            <p>The Pekin Tea Company, 75 Fulton street, are performing a great
+               and good work, and will, in a few years, beyond all doubt, drive all the
+               poor teas which have deluged this country, and defrauded consumers
+               of the article, out of the market. They import none but pure and fragrant teas, and retail them by the single pound at wholesale prices.
+               Families are always sure of obtaining good teas at this great tea warehouse, in quantities to suit their convenience, and at the same price
+               that the merchant pays who buys to sell again.—[Daily True Sun.
+            </p>
+            
+            <p>You may be sure of obtaining at all times, pure and highly flavored
+               teas, by the single pound, at wholesale prices, of the Pekin Tea Company, 75 Fulton street. They have probably the largest stock, and
+               greatest variety of green and black teas, of any one establishment in
+               the United States. They are doing a large business, and a great benefit
+               to consumers of tea.—[Atlas.
+            </p>
+            
+            <p>Heretofore it has been very difficult, indeed impossible, to always
+               obtain good green and black teas; but now you have only to visit the
+               ware-rooms of the Pekin Tea Company, 75 Fulton street, to obtain as
+               delicious and fragrant teas as you could wish for.—Daily Sun.
+            </p>
+            
+            <p>If any of our readers desire to have good tea, they can obtain it of
+               the Pekin Tea Company, 75 Fulton street.—[Mercury.
+            </p>
+            
+            <p>A Word to Tea Drinkers.—The Pekin Tea Company, 75 Fulton
+               street, have imported into this market some five hundred thousand dollars worth of the finest grade of green and black teas, grown in the
+               Celestial Empire, done up in all the various fancy packages that Chinese ingenuity can invent. It is a privilege to buy teas at this great
+               establishment, and a luxury and comfort to drink them. They sell
+               good teas only, and retail them at wholesale prices. Country merchants
+               who wish to always sell good teas can always obtain them at this place,
+               on reasonable terms.—[Emporium.
+            </p>
+            
+            <p>The Pekin Tea Company.—We very cheerfully call the attention
+               of all lovers of pure and fragrant TEAS, both in town and country, to the
+               great tea warehouse of this company. Our long acquaintance with the
+               proprietors enables us to bespeak for them the entire confidence of the
+               public. We KNOW that their teas, both in quality and price, are all that
+               is stated of them. Many a lover of the fragrant herb has been compelled to eschew the drinking of tea in consequence of its injurious
+               effects, until at length he has become hopeless of finding, among any of
+               the imported varieties of tea in our market, a kind which had not such
+               an effect. In this, however, such persons will be agreeably disappointed.
+               The Pekin Tea Company have commenced the importation of choice
+               varieties of Garden Teas, of most delicious flavor—cultivated and
+               picked with great care, which have heretofore never been introduced
+               into this country, except as presents to importers. Among these they
+               have an OOLONG, mild as zephyr, and fragrant as a rose, which we especially recommend to all nervous persons. Its effect upon many of
+               those who have tried it, is to make them confirmed tea-drinkers. Ladies
+               who have tried it say they never before drank such tea. But all tastes
+               can here be suited, with the great advantage over other stores of getting
+               a pure article at wholesale price, however small the quantity. The
+               company's warehouse is at 75 Fulton street.—[New World.
+            </p>
+            
+            <p>Tea.—The Pekin Tea Company, No. 75Fulton street, unquestionably
+               sell the best teas imported into this market. That they sell them
+               cheaper than any other establishment, is a fact proven in a thousand
+               instances since they have opened their store.
+            </p>
+            
+            <p>We would advise our friends to call at this place, and if they don’t
+               wish to buy, at least to obtain a little pamphlet, kept on their counter,
+               entitled “Hints to Tea-Drinkers,” and therefrom learn a little useful
+               information on the subject. The pamphlet is given gratis.—[AngloAmerican.
+            </p>
+            
+            <p>The finest specimens of green and black teas ever sold in this
+               country, are imported by the Pekin Tea Company, 75 Fulton street.
+               Those who want good teas at reasonable prices, can always get them
+               there.—[Tribune.
+            </p>
+            
+            <p>We have tried the teas imported by the Pekin Tea Company, 75
+               Fulton street, and, if we live, will try them often. They are selling
+               the most delicious teas we ever drank, and retail them at wholesale
+               prices.—[Evening Post.	oct. 8.
+            </p>
          </div>
       </div>
       
-      
-      
-      
-      <div>
-         <div class="ab">JOHN BURFORD,
-            
-            <br></br>PORTRAIT AND LANDSCAPE PAINTER.
-            
-            <br></br>27 Dey Street.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">DENTISTRY.
-            
-            <br></br>DOCT. H. E. SCHOONMAKER, Dental Surgeon, Office, 44G
-            
-            <br></br>Houston st., two doors from Broadway—opposite St. Thomas’
-            
-            <br></br>Church.
-            
-            <br></br>Doct. S.’s experience and skill in his profession give him confi-
-            
-            <br></br>dence in asserting that his operations are unsurpassed by any Den-
-            
-            <br></br>tist in this city. Dr. S.’s manner of inserting artificial teeth varies
-            
-            <br></br>in many essential points from the usual mode; and his success in
-            
-            <br></br>pleasing all, he is happy to say, has brought him many difficult
-            
-            <br></br>cases, which had been unsuccessfully treated by Dentists of estab-
-            
-            <br></br>lished professional reputation, and whose prices for the same opera-
-            
-            <br></br>tion were double his own. The object in inserting artificial teeth
-            
-            <br></br>is to supply the deficiency occasioned by the loss of natural teeth,
-            
-            <br></br>both in regard to utility, comfort in wearing, and natural appear-
-            
-            <br></br>ance. In all these points, Dr. S.’s manner is pre-eminent. His
-            
-            <br></br>mechanical tact and ingenuity have enabled him to surmount many
-            
-            <br></br>obstacles, which have long, with the profession generally, impeded
-            
-            <br></br>the path to success in every operation. He makes use of the best
-            
-            <br></br>materials in all his operations—and in cases where the gum has
-            
-            <br></br>fallen away by absorption, (which is always the case, more or less,
-            
-            <br></br>when teeth have been extracted,) which causes a contraction of the
-            
-            <br></br>lips and cheeks, the disfigurement of which cannot be fully obviated
-            
-            <br></br>without adopting the artificial gums, which will supply the de-
-            
-            <br></br>ficiency, and give to the mouth its usual redundancy—besides, their
-            
-            <br></br>beauty and natural appearance render detection impossible.
-            
-            <br></br>Dr. S. would be happy to refer those who require it, to many of
-            
-            <br></br>the best families in this City, in which he has practised.
-            
-            <br></br>Ladies who desire it, can have their teeth examined at their resi-
-            
-            <br></br>dences, by sending their address as above.	nov8—9t
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">JAMES PIRSSON,
-            
-            <br></br>PIANO FORTE MANUFACTURER, 88, 90, and 92 Walker
-            
-            <br></br>Street, near Elm. A large stock of the finest instruments
-            
-            <br></br>always on hand. Terms moderate. For Sale—a splendid Harp,
-            
-            <br></br>nearly new—to be sold at a great bargain for cash.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">PENMANSHIP,
-            
-            <br></br>RE-OPENING OF GOLDSMITH’S WRITING ACADEMY,
-            
-            <br></br>289 Broadway—La Farge Buildings, Corner of Reade street.
-            
-            <br></br>Terms reduced to 'Three Dollars, and no extra charge.
-            
-            <br></br>Mr. Oliver B. Goldsmith respectfully informs the citizens of New
-            
-            <br></br>York and Brooklyn, that his rooms are now open, during the day
-            
-            <br></br>and evening, for Pupils and Visitors. Mr. G’s. specimens of
-            
-            <br></br>PENMANSHIP
-            
-            <br></br>have received the First Premium Five Years, from the American
-            
-            <br></br>Institute, and he guarantees to all, in TEN EASY AND INTER-
-            
-            <br></br>ESTING EXERCISES, a free and elegant style of writing, that
-            
-            <br></br>the pupils cannot possibly ever lose in their future practice.
-            
-            <br></br>For sale, at the Academy, GOLDSMITH’S GEMS OF PEN-
-            
-            <br></br>MANSHIP.
-            
-            <br></br>Ladies’ Class meets daily at 11 o’clock. Gentlemen’s day and
-            
-            <br></br>evening. See circular.	s18
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">WEDDING, VISITING, AND PROFESSIONAL CARDS
-            
-            <br></br>Engraved and Printed at VALENTINE’S, 1 Beekman-st.
-            
-            <br></br>Lovejoy’s Hotel.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">G. B. CLARKE,
-            
-            <br></br>MERCHANT TAILOR, (from rundage, Broadway,) No. 132
-            
-            <br></br>William Street, 3 doors from Fulton, N. Y.
-            
-            <br></br>Dress Coat, from $12 00 to $20 00  | Making and Trimming.
-            
-            <br></br>Pants,	“	2	50	to	8	00	          | Dress Coat,	from $6 00	to $9	00
-            
-            <br></br>Vests,	"	1	50	to	4	50	          | Pants,	“ 1 50	to 2	00
-            
-            <br></br>                                   | Vests,	“ 1 50	to 2	00
-            
-            <br></br>N. B. Seasonable SACK COATS, VESTS, See., always on hand,
-            
-            <br></br>from $1 50 upwards.	nov8—3m
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">NEW BOOKS,	
-            
-            <br></br>TO BE PUBLISHED BY
-            
-            <br></br>MESSRS. WILEY &amp; PUTNAM,
-            
-            <br></br>IN DECEMBER.
-            
-            <br></br>I.
-            
-            <br></br>Carlyle’s new Work. The Letters and Speeches of Oliver Crom-
-            
-            <br></br>well, with Elucidations, by Thomas Carlyle, in 2 vols. 8 vo., with
-            
-            <br></br>Portrait, engraved by F. Hall from an original by Cooper, in the
-            
-            <br></br>possession of Archdeacon Berners. Also, 2 vols. 16 mo., in the
-            
-            <br></br> "Library of Choice Headings.”
-            
-            <br></br>II.
-            
-            <br></br>Stories from the Italian Poets, being a summary in Prose of the
-            
-            <br></br>Poems of Dante, Pulci, Bolardo, Ariosto, and Tasso, with comments
-            
-            <br></br>throughout, occasional passages versified, and Critical Notices of
-            
-            <br></br>the Lives and Genius of the Authors. By Leigh Hunt, 16mo.
-            
-            <br></br>III.
-            
-            <br></br>The Book of Christmas. By T. K. Hervey.
-            
-            <br></br>IV.
-            
-            <br></br>Views and Reviews in American History, Literature, and Art.
-            
-            <br></br>By W. Gilmore Simms.
-            
-            <br></br>V.
-            
-            <br></br>The Alps and the Rhine. By J. T. Headley.
-            
-            <br></br>VI.
-            
-            <br></br>Mrs. Southey's Poems. The Birth-day, and other Poems—Sol-
-            
-            <br></br>itary Hours. By Caroline Southey, 2 vols. l6mo.—(Shortly.)
-            
-            <br></br>VII.
-            
-            <br></br>The Author of “ Undine.” Theiodolf the Icelander. By La
-            
-            <br></br>Motte Fouque, l6mo.
-            
-            <br></br>VIII.
-            
-            <br></br>Tales from the German of Zschokke, second series. Illumina-
-            
-            <br></br>tion ; or, the Sleep Walker—The Broken Cup—Jonathan Frock
-            
-            <br></br>— The Involuntary Journey—Leaves from the Journal of a Poor
-            
-            <br></br>Curate in Wiltshire. By Parke Godwin.
-            
-            <br></br>IX.
-            
-            <br></br>The Vicar of Wakefield.—An edition on superior paper, with
-            
-            <br></br>choice Illustrations by Mulready.
-            
-            <br></br>JUST PUBLISHED.
-            
-            <br></br>The Life of the Great Condi. By Lord Mahon, forming Nos.
-            
-            <br></br>XXXIV. and XXXV. of “The Library of Choice Reading."
-            
-            <br></br>dec 4	WILEY &amp; PUTNAM, 161 Broadway.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">PAINE &amp; BURGESS, 62 J0HN STREET.
-            
-            <br></br>HAVE lately published—
-            
-            <br></br>1.	The Artist, Merchant and Statesman, 2 vols. 12mo.
-            
-            <br></br>2.	Trippings in Authorland, by Fanny Forrester, 12mo.
-            
-            <br></br>3.	Songs and Ballads, by Geo. P. Morris, 32mo. gilt.
-            
-            <br></br>4.	Prariedom; Rambles and Scrambles in Texas, or New Estre-
-            
-            <br></br>madura, with a Map, by a Southron, 1 vol. 12mo.
-            
-            <br></br>5.	Autobiography of Alfieri, 1 vol. 12mo.
-            
-            <br></br>6.	Citizen of a Republic, by Ceba, 1 vol. 12mo.
-            
-            <br></br>7.	Florentine Histories, by Machiavelli, 2 vols. 12mo.
-            
-            <br></br>8.	Challenge of Barletta, by D’Azeglio, 1 vol. 12mo.
-            
-            <br></br>9.	Musical Spelling Book, by E. Ives, 1 vol. 8mo.
-            
-            <br></br>10.	Beethoven Collection of Sacred Music.
-            
-            <br></br>11.	Rambles by Land and Water, or Notes of Travel in Cuba and
-            
-            <br></br>Mexico, elegantly illustrated, by B. M. Norman, 1 vol. 12mo.
-            
-            <br></br>NEARLY READY,
-            
-            <br></br>1. Montezuma, The Last of the Aztecs ; an Historical Ro-
-            
-            <br></br>mance on the Conquest of Mexico, by Edward Maturin, 2 vols.
-            
-            <br></br>12mo.
-            
-            <br></br>2. Morris &amp; Willis’ Library of the Rose and Poetry of Europe
-            
-            <br></br>and America, 1 vol. 8mo. An elegant and valuable Gift Book.
-            
-            <br></br>3. Old Continental, or the Price of Liberty; by the author
-            
-            <br></br>of "Dutchman’s Fireside,” 2 vols. 12mo.
-            
-            <br></br>4.	Man in the Republic, by C. Mathews, 32mo. gilt.
-            
-            <br></br>5.	Musical ABC, for children, 16mo.
-            
-            <br></br>6.	Greece of the Greeks, by G. A. Perdicaris, late U. S. Consul
-            
-            <br></br>at Athens, 2 vols. 12mo. illustrated.
-            
-            <br></br>7.	Musical Reader, 4to.
-            
-            <br></br>8.	The Prince, by Machiavelli, 1 vol. 12mo.
-            
-            <br></br>9.	The Musical Wreath, 4to.
-            
-            <br></br>10.	Over the Ocean! or Glimpses of Many Lands, by a Lady.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">KNOX’S HATS.
-            
-            <br></br>THE FALL STYLE OF GENTLEMEN’S HATS are now
-            
-            <br></br>ready for the season, 1845, which for lightness and superiority
-            
-            <br></br>of color cannot be surpassed—which is a very important part of the
-            
-            <br></br>hat, retaining the color till it is worn out Any article sold in this
-            
-            <br></br>establishment is never misrepresented but sold for what it is. Also
-            
-            <br></br>the Fall style of Boy’s and Children’s Caps, of various patterns.
-            
-            <br></br>Gentlemen can have their hats made to order in any shape or style
-            
-            <br></br>they wish. A full assortment of Ladies’ Muffs, of all kinds.
-            
-            <br></br>C. KNOX, No. 110 Fulton st.
-            
-            <br></br>nov 8—3m	                    between William and Nassau sts.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">HUNT’S MERCHANTS’ MAGAZINE
-            
-            <br></br>AND
-            
-            <br></br>COMMERCIAL REVIEW.
-            
-            <br></br>Established July, 1839,
-            
-            <br></br>BY FREEMAN HUNT, EDITOR AND PROPRIETOR.
-            
-            <br></br>PUBLISHED MONTHLY,
-            
-            <br></br>At 142 Fulton St., N. York—at $5 00 per anmum, in advance.
-            
-            <br></br>THE MERCHANTS’ MAGAZINE and COMMERCIAL RE-
-            
-            <br></br>VIEW embraces every subject connected with Commerce,
-            
-            <br></br>Manufactures and Political Economy, as follows:—Commercial
-            
-            <br></br>Legislation; Commercial History and Geograph ; Mercantile Bi-
-            
-            <br></br>ography; Descriptive, Statistical, and Historical Accounts of the
-            
-            <br></br>various commodities which form the subject of Mercantile Trans-
-            
-            <br></br>actions; Port Charges; Tariffs; Customs and Excise Regulations;
-            
-            <br></br>Commercial Statistics of the United States and the different countries
-            
-            <br></br>of the world, with which we have intercourse, including their
-            
-            <br></br>Physical Character, Population, Productions, Exports, Imports,
-            
-            <br></br>Seaports, Monies, Weights, Measures, Finance and Banking As-
-            
-            <br></br>sociations, and Enterprises connected with Commerce, embracing
-            
-            <br></br>Fisheries, Incorporated Companies, Railroads, Canals, Steamboats,
-            
-            <br></br>Docks, Post Offices, &amp;c.; Principles of Commerce, Finance and
-            
-            <br></br>Banking with Practical and Historical Details and Illustrations;
-            
-            <br></br>Commercial Law, and Mercantile Reports and Descisions of Courts
-            
-            <br></br>in the United States and Europe, including, Insurance, Partnership,
-            
-            <br></br>Principal and Agent, Bills of Exchange, Sale, Guaranty, Bank-
-            
-            <br></br>ruptcy, Shipping and Navigation, &amp;c., and whatever else should
-            
-            <br></br>tend to develop the resources of the country and the world, and
-            
-            <br></br>illustrate the various topics bearing upon Commerce and Com-
-            
-            <br></br>mercial Literature.
-            
-            <br></br>It has been, and will continue to be, the aim of the Editor and
-            
-            <br></br>Proprietor of the Merchants’ Magazine, to avoid everything of
-            
-            <br></br>a party, political, or sectional bias or bearing, in the conduct of the
-            
-            <br></br>work—opening its pages to the free and fair discussion of antago-
-            
-            <br></br>nistic doctrines connected with the great interests of Commerce,
-            
-            <br></br>Agriculture, Manufactures and the Currency.
-            
-            <br></br>☞ Complete sets of the Merchants’ Magazine, embracing
-            
-            <br></br>13 semi-annual volumes, of about 600 large octavo pages each,
-            
-            <br></br>bringing it down to December 1S45, inclusive, may be obtained at
-            
-            <br></br>the Publisher’s Office, 142 Fulton street, New York, at the sub-
-            
-            <br></br>scription price.
-            
-            <br></br>☞ Publishers of newspapers, in the United States, by giving
-            
-            <br></br>this advertisement two or three insertions and remitting Two Dol-
-            
-            <br></br>lars to the Proprietor, will be entitled to the Magazine for one
-            
-            <br></br>year.
-            
-            <br></br>Office of Merchants’ Magazine, Jan. 1846.
-            
-            <br></br>Dec. 20.—5t.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">JOHN ANDERSON &amp; Co.,
-            
-            <br></br>IMPOSTERS AND DEALERS IN
-            
-            <br></br>CHOICE SEGARS, and Manufacturers of Premium Tobacco
-            
-            <br></br>and Snuffs—2 Wall, and 13 and 15 Duane streets, New York.
-            
-            <br></br>nov8—3m
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">TO MEDICAL MEN.
-            
-            <br></br>This day published, the London lancet for No-
-            
-            <br></br>vember, a Journal of British, Foreign, Medical and Chemi-
-            
-            <br></br>cal Science, Criticism and News—edited by Thomas Wakely, M. P.
-            
-            <br></br>Surgeon, and Henry Bennett, M. D.
-            
-            <br></br>This is the fifth number of the second volume, containing, besides
-            
-            <br></br>its usual quantity of valuable matter, the 2d Lecture of a series of
-            
-            <br></br>Lectures on Organic Chemistry, by Justus Liebig.
-            
-            <br></br>Also, four additional Lectures on the Mechanism and Manage-
-            
-            <br></br>ment of Natural and Difficult Labors, by Edward W. Murphy, A. M.
-            
-            <br></br>M. D.
-            
-            <br></br>Terms—$5 per annum, in advance; single numbers 50 cents—
-            
-            <br></br>mailed to any part of the United States, by
-            
-            <br></br>BURGESS, STRINGER &amp; CO.
-            
-            <br></br>222 Broadway, corner of Ann st.
-            
-            <br></br>P. S.—The postage to any distance on the Lancet is 6 1/4 cts.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">J. BALLARD,
-            
-            <br></br>PROFESSOR OF THE GUITAR, SINGING AND FLUTE.
-            
-            <br></br>No. 15 Spring street.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">UNITED STATES HOTEL.
-            
-            <br></br>THE PROPRIETOR OF THIS HOTEL, desires to return his
-            
-            <br></br>thanks to his friends, and the traveling portion of the commu-
-            
-            <br></br>nity generally, for the favors which they have bestowed upon him
-            
-            <br></br>since he opened his establishment, and to assure them that he will
-            
-            <br></br>spare no exertions to render his House worthy of the patronage of
-            
-            <br></br>which he has already received so liberal a share.
-            
-            <br></br>H. JOHNSON.
-            
-            <br></br>Nov. 8th, 1845.	6m
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">VALUABLE WORKS ON AGRICUL-
-            
-            <br></br>TURE, ETC.,
-            
-            <br></br>RECENTLY PUBLISHED BY
-            
-            <br></br>HARPER &amp; BROTHERS, NEW YORK.
-            
-            <br></br>I.
-            
-            <br></br>THE AMERICAN SHEPHERD.
-            
-            <br></br>1 vol. 12mo. With Illustrations. Price 75 cents, paper; bound
-            
-            <br></br>in cloth gilt, $1,00.
-            
-            <br></br>We regard this as the most valuable and important work for
-            
-            <br></br>farmers that has appeared for a long time. We have examined it
-            
-            <br></br>closely, and we do not hesitate to say it is just what is wanted by
-            
-            <br></br>the sheep farmers of this country. Previous to its publication, the
-            
-            <br></br>manuscript was submitted to the inspection of the Executive Com-
-            
-            <br></br>mittee of the N. Y. State Agricultural Society, and received the
-            
-            <br></br>following commendation from that body; “The committee have great
-            
-            <br></br>pleasure in recommending the work to the attention of wool-grow-
-            
-            <br></br>ers, and others interested in the breeding and management of sheep,
-            
-            <br></br>as one containing a large amount of practical and scientific informa-
-            
-            <br></br>tion on this most important branch of American agriculture.” The
-            
-            <br></br>work contains a complete history and description of all the known
-            
-            <br></br>varieties and breeds of sheep, illustrated with portraits of the prin-
-            
-            <br></br>cipal kinds, with remarks on their comparative value for different
-            
-            <br></br>purposes, their management in different countries and climates,
-            
-            <br></br>their diseases, &amp;c. An appendix is added, embracing upward of
-            
-            <br></br>twenty letters from eminent wool-growers and sheep-fatteners in
-            
-            <br></br>different states, detailing their respective modes of management.—
-            
-            <br></br>Ohio Cultivator.
-            
-            <br></br>This book is one of startling value. It was written by a practical
-            
-            <br></br>man, who, for many years, has devoted himself to the rearing of
-            
-            <br></br>sheep, with great ardor. He writes, in the practical portions of the
-            
-            <br></br>work, what his own eyes have seen, and what his own hands have
-            
-            <br></br>handled. It is written in a straight-forward, plain style; it is ar-
-            
-            <br></br>ranged with sufficient clearness, and gives valuable information on
-            
-            <br></br>the subjects of which it treats. Whether a farmer keeps ten or ten
-            
-            <br></br>thousand sheep, he ought to possess it.—Baptist Recorder.
-            
-            <br></br>This is the best work for the American farmer which has yet ap-
-            
-            <br></br>peared on the subject of sheep-husbandry, and we believe it is the
-            
-            <br></br>only elaborate treatise which has been written with peculiar refe-
-            
-            <br></br>rence to the methods required in the management of sheep in this
-            
-            <br></br>country.—N.Y. Commercial Advertiser.
-            
-            <br></br>II.
-            
-            <br></br>ENCYCLOPAEDIA OF DOMESTIC ECONOMY.
-            
-            <br></br>1 large vol. 8vo. 1000 Illustrations. Sheep Extra.—Price
-            
-            <br></br>$3,75.
-            
-            <br></br>The practical utility of this work commends it very strongly to
-            
-            <br></br>public favor. It treats of various matters connected with do-
-            
-            <br></br>mestic economy, in such a plain and comprehensive manner, that
-            
-            <br></br>few can look over its pages, without finding something to interest
-            
-            <br></br>them—something which will promote their comfort, and oftentimes
-            
-            <br></br>prove of pecuniary advantage. In point of general utility this is,
-            
-            <br></br>perhaps, the best work issued for some time.—Courier and En-
-            
-            <br></br>quirer.
-            
-            <br></br>This is decidedly a book for the million ; it contains all that pre-
-            
-            <br></br>cise kind of information adapted to the use of families, and which
-            
-            <br></br>one may seek a long time for, in vain, elsewhere.—Evening Ga-
-            
-            <br></br>zette.
-            
-            <br></br>This is one of those works which cannot fail to be of real utility
-            
-            <br></br>to all classes who will take the trouble to turn to its pages for in-
-            
-            <br></br>formation.—Evening Post.
-            
-            <br></br>No one possessing the means to purchase, and capable of appre-
-            
-            <br></br>ciating this Encyclopaedia, will fail to procure it It will render
-            
-            <br></br>most important services in every family in which it is introduced.—
-            
-            <br></br>Evangelist.
-            
-            <br></br>Those who are desirous of acquainting themselves with the
-            
-            <br></br>way and manner of doing everything to promote the comfort of their
-            
-            <br></br>families and friends, with the least possible trouble and expense,
-            
-            <br></br>will find this work a valuable acquisition.—Seneca Courier.
-            
-            <br></br>III
-            
-            <br></br>TREATISE ON DOMESTIC ECONOMY.
-            
-            <br></br>Improved Edition. X vol. 12mo. Plates. Price 75 cents.
-            
-            <br></br>This is emphatically a useful book. It contains a vast amount of
-            
-            <br></br>intelligence concerning mental and physical health, together with a
-            
-            <br></br>great deal of information concerning the regulation of the house-
-            
-            <br></br>hold and the judicious disposition of time and means.—Sunday
-            
-            <br></br>Times.
-            
-            <br></br>This volume is so well known, and so thoroughly appreciated,
-            
-            <br></br>that we need only call attention to the issue of an improved edition.
-            
-            <br></br>It is very generally adopted as a text-book in female schools. It has
-            
-            <br></br>been examined by the Massachusetts Board of Education, and by
-            
-            <br></br>them deemed worthy of admission as a part of the Massachusetts
-            
-            <br></br>School Library—an honor which speaks for itself.—Evening Post.
-            
-            <br></br>If this work could be read, and studied ,and applied by all the young
-            
-            <br></br>ladies of the land, it would certainly be the means of bringing about
-            
-            <br></br>a new era, both in civilization and enjoyment. It touches every
-            
-            <br></br>point in domestic economy in which a young female can be supposed
-            
-            <br></br>to be interested, and it brings out many points which are seen at
-            
-            <br></br>once to be of great moment, but which would have escaped any
-            
-            <br></br>other than the scrutinizing eye of a female philanthropist. We
-            
-            <br></br>would recommend to every mother to provide her daughters with a
-            
-            <br></br>copy of this work, and to enjoin it upon them as a sacred duty to
-            
-            <br></br>read and ponder, and follow its excellent directions.—Evangelist.
-            
-            <br></br>IV.
-            
-            <br></br>AGRICULTURAL CHEMISTRY.
-            
-            <br></br>1 vol. 18mo. Half Sheep. Price 50 cents.
-            
-            <br></br>V.
-            
-            <br></br>ARMSTRONG’S AGRICULTURE.
-            
-            <br></br>1	vol. 18mo. Half Sheep. Prica 50 cents.
-            
-            <br></br>VI.
-            
-            <br></br>AMERICAN HUSBANDRY.
-            
-            <br></br>2	vols. 18mo. Half Sheep. Price $1,00.
-            
-            <br></br>VII.
-            
-            <br></br>THE FARMER’S INSTRUCTOR.
-            
-            <br></br>2 vols. 18mo. Half Sheep. Price $1,00.
-            
-            <br></br>VIII.
-            
-            <br></br>THE AMERICAN POULTRY BOOK.
-            
-            <br></br>1 vol. 18mo. Engravings. Price 35 cents.
-            
-            <br></br>IX.
-            
-            <br></br>THE COOK’S ORACLE.
-            
-            <br></br>1 vol. 18mo. Price 88 cents,
-            
-            <br></br>x.
-            
-            <br></br>MODERN AMERICAN COOKERY.
-            
-            <br></br>1 vol. 16mo. Price 40 cents,
-            
-            <br></br>XI.
-            
-            <br></br>DOMESTIC DUTIES.
-            
-            <br></br>1 vol. l2mo. Half Roan. Price 75 cents.
-            
-            <br></br>Jan. 3. tf.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">THE SECOND VOLUME OF
-            THE ARISTIDEAN:
-            
-            <br></br>A JOURNAL OF REVIEWS, POLITICS, AND LIGHT LIT-
-            
-            <br></br>ERATURE—By Thomas Dunn English, and numerous col-
-            
-            <br></br>laborators—commences on the 20th of January, 1846.
-            
-            <br></br>The Aristidean is published monthly, each number containing
-            
-            <br></br>80 pages, octavo, printed on handsome white paper, with bold, clear
-            
-            <br></br>type, at Five Dollars per annum, payable in advance.
-            
-            <br></br>The aim of the editor has been to establish a Journal of Art and
-            
-            <br></br>Letters, whose papers should be distinguished for force, vigor, sar-
-            
-            <br></br>casm and pith, rather than an unutterable and bathetic profundity;
-            
-            <br></br>one, which should not fear to expose literary quackery, and give to
-            
-            <br></br>writers a proper precedence; one that had the moral courage to
-            
-            <br></br>praise an enemy’s good works, and censure a friend’s bad ones; one
-            
-            <br></br>that would maintain a rigorous independence on literary, political
-            
-            <br></br>and religious matters; one that would attack all abuses without
-            
-            <br></br>scruple; one that was insensible to fear, and deaf to favor; and one
-            
-            <br></br>that depended for success on the merit of its papers, and not on the
-            
-            <br></br>names announced as contributors. If the editor may judge from the
-            
-            <br></br>high panegyric of the press, and the more substantial evidence of an
-            
-            <br></br>increasing subscription list, he has succeeded in his intention.
-            
-            <br></br>Those desiring to sustain an independent and fearless magazine
-            
-            <br></br>will be kind enough to remit their subscriptions by mail, rather
-            
-            <br></br>than through an agent.
-            
-            <br></br>THOMAS DUNN ENGLISH,
-            
-            <br></br>decl3—tf	301 Broadway, city of New York.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">CHEAP MUSIC.
-            
-            <br></br>HOMANS &amp; ELLIS have published the first No. of
-            
-            <br></br>THE MUSIC At. WORLD.
-            
-            <br></br>A Semi-monthly Magazine, containing sixteen pages of beauti-
-            
-            <br></br>fully printed Music, and a Journal of Musical Biography, Criti-
-            
-            <br></br>cism, and News.
-            
-            <br></br>Edited by Henry C. Watson.—Contents of No. 1.
-            
-            <br></br>I'll he There,—words by Fitzball—music by Herbert Rodwell.
-            
-            <br></br>Let no thought of care oppress thee,—words by Charles Jeffreys,
-            
-            <br></br>music by Bellini.
-            
-            <br></br>Far away in my own bright land,—	“	“ Bellini.
-            
-            <br></br>O cast that shadow from thy brow,—a beautiful ballad.
-            
-            <br></br>The sunny hours of childhood,—words by J. L. Carpenter—
-            
-            <br></br>music by J. Hanowav, R. A.
-            
-            <br></br>The melodies of many lands,—words by Charles Jeffreys—music
-            
-            <br></br>by C. W. Glover.
-            
-            <br></br>Price 25 Cents.
-            
-            <br></br>The second number of the Musical World will be published on
-            
-            <br></br>the 15th inst.
-            
-            <br></br>In Press—Grand Galop, by Leopold de Meyer, with a portrait
-            
-            <br></br>and critical biography, will be ready early next week.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">IMPORTANT WORKS,
-            
-            <br></br>RECENTLY PUBLISHED BY
-            
-            <br></br>J. &amp; H. G. LANGLEY, 8 ASTOR HOUSE.
-            
-            <br></br>I.
-            
-            <br></br>VON RAUMER’S NEW WORK.
-            
-            <br></br>America and the American People: being the result of the au-
-            
-            <br></br>thor’s recent travels through the United States. Translated from
-            
-            <br></br>the German of Frederick Von Raumer, by Professor Wm. W. Tur-
-            
-            <br></br>ner. 1 vol. 8vo. 330 pp. Price $2.
-            
-            <br></br>II.
-            
-            <br></br>ELIZA COOK’S POETICAL WORKS.
-            
-            <br></br>New Edition, containing all her recent productions. Edited by
-            
-            <br></br>Rufus Griswold. 1 vol. 12 mo., illustrated with a portrait and
-            
-            <br></br>twelve exquisite English engravings. Copies in Morocco, super.
-            
-            <br></br>$3 50—Cloth Gilt, $2 50.
-            
-            <br></br>“ This is a beautiful volume, splendidly bound, and still more
-            
-            <br></br>elegantly illustrated, and combining some of the choicest poems in
-            
-            <br></br>the language. The “Old Arm Chair” is one of the most popular
-            
-            <br></br>poems, and has touched the hearts of thousands who never knew
-            
-            <br></br>even the name of the author. She writes for the heart, and her
-            
-            <br></br>beautiful songs always reach it. The book forms one of the most
-            
-            <br></br>elegant holiday presents yet offered.”—Cour. fy Eng.
-            
-            <br></br>III.
-            
-            <br></br>MISS BARRETT’S POEMS.
-            
-            <br></br>The Drama of Exile, and other Poems, by Elizabeth B. Barrett,
-            
-            <br></br>2 vols. 12mo., elegantly printed.—$2 00.
-            
-            <br></br>“Miss Barrett is worth a dozen of Tennyson, and six of Mother-
-            
-            <br></br>well—equal, perhaps, in original genius, to Keats and Shelley—
-            
-            <br></br>There are beauties enough in one of her poems to have made a fame
-            
-            <br></br>in Waller’s time.”—Willis’ Evening Mirror.
-            
-            <br></br>IV.
-            
-            <br></br>GREGG’S SANTA FE AND THE PRAIRIES.
-            
-            <br></br>Commerce of the Prairies, or the Journal of a Santa Fe Trader.
-            
-            <br></br>The personal observation of a trader, made on eight several expe-
-            
-            <br></br>ditions across the Great Western Prairies, and during an almost
-            
-            <br></br>uninterrupted residence of nine years in Northern Mexico.—Illus-
-            
-            <br></br>trated with numerous engravings. New Edition, revised by the
-            
-            <br></br>Author. By Josiah Gregg. 2 vols. 12mo. $2 00.
-            
-            <br></br>V.
-            
-            <br></br>M. DE TOCQUEVILLF.’S GREAT WORK.
-            
-            <br></br>Democracy in America, by Alexis De Tocqueville. Third edi-
-            
-            <br></br>tion, in 2 vols. 8vo. Corrected and Enlarged, with an original In-
-            
-            <br></br>dex. Translated by Henry Reeve, Esq., with introductory Prefaces,
-            
-            <br></br>by the honorable John C. Spencer. Price $4 00 in muslin or sheep.
-            
-            <br></br>“This work is one of the most profound and philosophical ever
-            
-            <br></br>writen upon the character and institutions of our country.—Boston
-            
-            <br></br>Traveler.
-            
-            <br></br>“As a study of political science, this book stands unrivaled in
-            
-            <br></br>our times; equally remarkable for lucidity of style, acuteness and
-            
-            <br></br>delicacy of reasoning, and for the moral and intellectual vigor with
-            
-            <br></br>which it has been conceived and completed.”—London Times.
-            
-            <br></br>VI.
-            
-            <br></br>DE TOCQUEVILLE ABRIDGED.
-            
-            <br></br>Designed for District School Libraries, Colleges, &amp;c. In accord-
-            
-            <br></br>ance with the recommendation of several superintendents of Dis-
-            
-            <br></br>trict Schools, the Publishers beg to announce that they have just
-            
-            <br></br>issued a condensed edition of the above standard work, adapted ex-
-            
-            <br></br>pressly for the use of District Schools, Colleges, &amp;c., to form 1 vol.
-            
-            <br></br>12mo. Price $1 00.
-            
-            <br></br>VII.
-            
-            <br></br>THE LIFE OF GENERAL FRANCIS MARION.
-            
-            <br></br>By W. Gilmore Simms, author of “ Guy Rivers.” &amp;c. &amp;c.
-            
-            <br></br>Seventh edition, revised by the author, with numerous engravings,
-            
-            <br></br>1 vol. 12mo.—$1.
-            
-            <br></br>“Few characters have stood out more boldly on our Revolutionary
-            
-            <br></br>Annals, or have supplied more interesting and exciting materials
-            
-            <br></br>for the historian than that of Gen. Marion; and it is not saying too
-            
-            <br></br>much to claim for the work before us no less the merit of accredited
-            
-            <br></br>historical truth, than the most stirring and absorbing attributes of
-            
-            <br></br>high-wrought fiction.”—Democratic Review.
-            
-            <br></br>VIII.
-            
-            <br></br>THE POETICAL WORKS OF PRAED.
-            
-            <br></br>Lillian, and other Poems, Fanciful and Facetious. By William
-            
-            <br></br>Mackworth Praed. First collected edition. Edited by R. W.
-            
-            <br></br>Griswold, 1 vol. 12mo., muslin,. $1 25.
-            
-            <br></br>“Praed was the Poet of Society, ‘ a fellow of infinite humor,’ and
-            
-            <br></br>in scholarship and art, surpassed by none of the English poets of
-            
-            <br></br>the age. Though many of his pieces have been almost universally
-            
-            <br></br>read in this country, they have never yet been printed collectively
-            
-            <br></br>either here or in England.”—Democratic Review.
-         </div>
-      </div>
-      
-                
-      
-      
-      <div>
-         <div class="ab">PAINE &amp; BURGESS, 62 JOHN STREET,
-            
-            <br></br>WILL PUBLISH, IN A FEW DAYS,
-            
-            <br></br>THE ARTIST, MERCHANT, AND STATESMAN, Part I —
-            
-            <br></br>This work is made up of the choicest and most original material
-            
-            <br></br>on Fine Arts, Commerce, and Political Economy, by C. Edwards
-            
-            <br></br>Lester.
-            
-            <br></br>PRARIEDOM ; Rambles and Scrambles in Texas, or New Estre-
-            
-            <br></br>madura, by a Southron, 1 vol. 12mo. with a map. “ It is light and
-            
-            <br></br>vivacious—filled with incident—easy and flowing in style, and bril-
-            
-            <br></br>liant in imagery.”—Evening Mirror.
-            
-            <br></br>THEY ARE PREPARING FOR PUBLICATION,
-            
-            <br></br>Songs and Ballads by Gen. G. P. Morris, 32mo. gilt.
-            
-            <br></br>Rambles by Land and Water, or Notes of Travel in Cuba and Mex-
-            
-            <br></br>ico; including a canoe voyage up the river Panuco, and Researches
-            
-            <br></br>among the Antiquities of Taumelipas, byB. M. Norman,1 vol. 12mo.
-            
-            <br></br>illustrated.
-            
-            <br></br>The Greece of the Greeks, by G. A. Perdicaris, U. S. Consul at
-            
-            <br></br>Athens, 2 vols. 12mo. illustrated.
-            
-            <br></br>Trippings in Authorland, by Fanny Forrester.
-            
-            <br></br>Montezuma, the Last of the Aztecs ; an Historical Romance of
-            
-            <br></br>the Conquest of Mexico, by Edward Maturin, 2 vols. 12mo
-            
-            <br></br>“This is an original American work.”
-            
-            <br></br>The Prince, by Machiavelli, 1 vol. 12mo.
-            
-            <br></br>Man in the Republic, by C. Mathews, 1 vol. 32mo. gilt.
-            
-            <br></br>The Old Continental, or the Price of Liberty; an historical ro-
-            
-            <br></br>mance, by the author of the “ Dutchman’s Fireside,” 2 vols. 12mo.
-            
-            <br></br>NOW READY,
-            
-            <br></br>The Medici Series of Italian Prose.
-            
-            <br></br>The Autobiography of Alfieri, 1 vol. 12mo. Price 50 cents.
-            
-            <br></br>The Secret Thoughts and Actions of Genius, blended with the
-            
-            <br></br>wildest adventures and strongest caprices.
-            
-            <br></br>The Citizen of a Republic; what are his rights and duties, by
-            
-            <br></br>Ansaldo Ceba, 1 vol. 12mo. Price 50 cents. “ A book of condens-
-            
-            <br></br>ed and rare thoughts, like diamonds finely polished and richly set.”
-            
-            <br></br>The Challenge of Barletta, a Romance of the times of the Medici,
-            
-            <br></br>1 vol. 12mo.
-            
-            <br></br>“A gem gathered from the jeweled.mine of Italian romance.”
-            
-            <br></br>The Florentine Histories, by Machiavelli, 2 vols. 12mo.
-            
-            <br></br>“The charmed records of the classic city of the Arno, by the mas-
-            
-            <br></br>ter spirit of his age.”	nov 8
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">PIANO FORTES.
-            
-            <br></br>THOMAS H. CHAMBERS, (formerly Conductor to Dubois
-            
-            <br></br>and Stodart,) No. 385 Broadway, will keep a complete assort-
-            
-            <br></br>ment of the latest approved Grand Action Piano Fortes of the most
-            
-            <br></br>superior quality; such as he is prepared to guarantee for their ex-
-            
-            <br></br>cellence of Tone, Touch, and External Finish, and to endure in any
-            
-            <br></br>climate. A liberal discount from the standard prices. Fiano Fortes
-            
-            <br></br>Tuned and Repaired. Piano Fortes always on hire.
-         </div>
-      </div>
-      
-      
-      
-      <div>
-         <div class="ab">PIANO FORTES,
-            
-            <br></br>CHEAP FOR CASH.—The Subscribers have on hand a
-            
-            <br></br>handsome assortment of 6, 6 1/2, and 7 octave mahogany and rose-
-            
-            <br></br>wood Pianos, which they will warrant, and sell low for cash or ap-
-            
-            <br></br>proved paper.	GLENN, ROGERS, &amp; Co.,
-            
-            <br></br>Manufacturers, 152 Fulton street, east of Broadway
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">ÆOLIAN ATTACHMENT.
-            
-            <br></br>Herrmann s. saroni, professor of music, 116
-            
-            <br></br>Leonard street, New York, teaches the Piano Forte, with or
-            
-            <br></br>without Coleman’s celebrated Attachment.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">General Furnishing Hardware, Cutlery, Tools, die.
-            
-            <br></br>OSBORN &amp; LITTLE,
-            
-            <br></br>Importers and General Dealers in English, German, and
-            
-            <br></br>American
-            
-            <br></br>HARDWARE, CUTLERY, &amp;.C.,
-            
-            <br></br>No. 33 FULTON STREET,
-            
-            <br></br>BETWEEN PEARL AND WATER STREETS,
-            
-            <br></br>[Where the business has been carried on for eighty years past.]
-            
-            <br></br>CHARLES OSBORN. 	NEW YORK.
-            
-            <br></br>CHARLES S. LITTLE, 
-            
-            <br></br>Hardware, Cutlery, Nails, Locks, Latches, Butts, Screws, Anvils,
-            
-            <br></br>Vices, Saws, Files, Shovels and Spades, Hollow Ware, Corn and
-            
-            <br></br>Coffee Mills, Rivets, Pumps, Curriers’ Hones, Crucibles, Black
-            
-            <br></br>Lead, Pots, &amp;c. See. Also, Genuine Haarlarm Oil. American
-            
-            <br></br>Coopers and Carpenters’ Edge Tools, of Albertson’s, Conger’s,
-            
-            <br></br>Barton’s Horton’s, Gifford’s, and other makers. Also, Cooper’s
-            
-            <br></br>Truss Hoops.	nov8—3m
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">CATALOGUE OF TEAS,
-            
-            <br></br>ON SALE AT THE TEA WAREHOUSE OF THE
-            
-            <br></br>PEKIN TEA COMPANY,
-            
-            <br></br>Importers of fine Green and Black Teas, No. 75 Fulton street,
-            
-            <br></br>New York.
-            
-            <br></br>[The teas mentioned in this Catalogue arc done up in quarter,
-            
-            <br></br>half-pound, and pound packages—the first, or inside wrapper is
-            
-            <br></br>lead, the second wrapper is water-proof paper, and the third, or
-            
-            <br></br>outside wrapper, is of Chinese rice paper. The company sell none
-            
-            <br></br>but good teas, done up in this superior manner, all of them grown
-            
-            <br></br>in the most luxurious districts in China. Country dealers can
-            
-            <br></br>select as small a quantity of each kind as they like, and have them
-            
-            <br></br>packed in one chest. These teas also come in five pound Chinese
-            
-            <br></br>packages, called quattoons, a very convenient, fanciful and portable
-            
-            <br></br>shape.]
-            
-            <br></br>Green Teas.	Black Teas.
-            
-            <br></br>Young Hyson, sweet cargo, 50            | Pouchong, good, full flavor, 38
-            
-            <br></br>do	do	do do finer, 62 1/2	do           | fine,	50
-            
-            <br></br>do	do	finer cargo, 75	                 | do	very	superior,	75
-            
-            <br></br>do	do	extra fine,	87 1/2
-            
-            <br></br>do	do	Silver Leaf, 1,00                | Souchong, good,	38
-            
-            <br></br>Silver Leaf — Seldom sold,	             | do	extra fine,	50
-            
-            <br></br>even by large dealers, be-
-            
-            <br></br>cause of the very small pro- | Oolong, strong, flavor fine, 50
-            
-            <br></br>fits made on its sale. This	           | Oolong—This tea is a great
-            
-            <br></br>is a very superior tea.	               | favorite, and gives universal
-            
-            <br></br>do do Golden Chop, Planta-              | satisfaction.
-            
-            <br></br>tion or Garden growth, 1,50	           | do	very fine,	62 1/2
-            
-            <br></br>Golden Chop — This is the	             | do	in one pound	and
-            
-            <br></br>finest Green Tea cultivated	           | half pound cattys,
-            
-            <br></br>in China. It is of the first	           | extra fine,	75
-            
-            <br></br>pickings, and excels all other
-            
-            <br></br>Green Teas for its delicacy             | Ne Plus Ultra,	1,50
-            
-            <br></br>of flavor, strength, and aro-           | Ne Plus Ultra—This tea is
-            
-            <br></br>ma. Heretofore this tea has             | as fragrant and sweet as a
-            
-            <br></br>never reached this country,	           | nosegay. It yields a perfume
-            
-            <br></br>except in small lots, as pre-	         | that is truly delightful. It is
-            
-            <br></br>sents to importers.	                   | of garden growth, and supe-
-            
-            <br></br>Hyson,* very fine,	75       | rior to anything of the kind
-            
-            <br></br>do Plantation growth, 1,00	             | ever sold in this country.
-            
-            <br></br>Gunpowder, good,
-            
-            <br></br>do	superior, [Read	                     | English Breakfast Tea, very
-            
-            <br></br>“monstrous fraud”	                       | fine, 50
-            
-            <br></br>below,]	1,00                           | do	do do in
-            
-            <br></br>do	small leaf, planta-	                 | one pound and half pound
-            
-            <br></br>tion growth,	1,25	                     | cattys.	62 1/2
-            
-            <br></br>Imperial, good,	—
-            
-            <br></br>do brisk and fragrant,	                 | Howqua’s Mixture, a strong
-            
-            <br></br>[Read “ monstrous	                       | and rich black tea, Pekoe
-            
-            <br></br>fraud” below,] 1,00	                     | flavor,	75
-            
-            <br></br>do curious leaf, very                   | Congo, good,	37 1/2
-            
-            <br></br>superior,	1,25	                       | do very fine,	50
-            
-            <br></br>Hyson Skin, good, fine flavor, 38       | Pekoe Flowers, good,	87 1/2
-            
-            <br></br>do	do extra fine,	62 1/2	             | do do garden	growth, 1,50
-            
-            <br></br>* Caution.—Large quantities of Hyson Skin are retailed in this
-            
-            <br></br>market as being a Hyson Tea. It is well worth while to compare
-            
-            <br></br>the Hyson Tea usually sold at 75 cents with the genuine article
-            
-            <br></br>that the company offer at the same price. The difference is so per-
-            
-            <br></br>ceptible, on trial, as to render any further comment unnecessary.
-            
-            <br></br>Monstrous Fraud.—Gunpowder and Imperial Teas cannot be
-            
-            <br></br>retailed by small dealers, in this country, at 75 cents per pound,
-            
-            <br></br>because they frequently cost that money in China, and no Importer
-            
-            <br></br>in this city can sell good Gunpowder or Imperial Tea at a less prica
-            
-            <br></br>than 75 cents per pound by the hundred packages. T. F. Davies,
-            
-            <br></br>Esq., in his interesting work on China, details the manner in
-            
-            <br></br>which he saw the lowest grades of Black Teas manufactured and
-            
-            <br></br>colored with Prussian Blue, so as to closely imitate Gunpowder and
-            
-            <br></br>Imperial Teas, and adds, the Prussian Blue being a combination of
-            
-            <br></br>Prussic Acid with Iron, is of course a dangerous poison. Let pur-
-            
-            <br></br>chasers therefore beware of adulterated teas, and deal with those
-            
-            <br></br>venders whose characters and resources raise them above suspicion.
-            
-            <br></br>Beware of the Gunpowder and Imperial Teas retailed at 75 cents
-            
-            <br></br>per pound, and compare them with the genuine article sold by the
-            
-            <br></br>Pekin Tea Company. No one, it is presumed, wishes to drink
-            
-            <br></br>poison. The company have published a book, giving full details on
-            
-            <br></br>this subject, which may be had at their warehouse, 75 Fulton street,
-            
-            <br></br>free of charge.
-            
-            <br></br>Recommendations.
-            
-            <br></br>We drink Green Tea, and for many years have been paying one
-            
-            <br></br>dollar per pound for it. But thanks to the Pekin Tea Company, we
-            
-            <br></br>now get a better tea from them at 75 cents per pound. We drink one
-            
-            <br></br>pound per week, by which we are now saving thirteen dollars per year,
-            
-            <br></br>and enjoying better tea in the bargain. Commend us to the Pekin Tea
-            
-            <br></br>Company, say we.—[Mirror.
-            
-            <br></br>The Pekin Tea Company, 75 Fulton street, are performing a great
-            
-            <br></br>and good work, and will, in a few years, beyond all doubt, drive all the
-            
-            <br></br>poor teas which have deluged this country, and defrauded consumers
-            
-            <br></br>of the article, out of the market. They import none but pure and fra-
-            
-            <br></br>grant teas, and retail them by the single pound at wholesale prices.
-            
-            <br></br>Families are always sure of obtaining good teas at this great tea ware-
-            
-            <br></br>house, in quantities to suit their convenience, and at the same price
-            
-            <br></br>that the merchant pays who buys to sell again.—[Daily True Sun.
-            
-            <br></br>You may be sure of obtaining at all times, pure and highly flavored
-            
-            <br></br>teas, by the single pound, at wholesale prices, of the Pekin Tea Com-
-            
-            <br></br>pany, 75 Fulton street. They have probably the largest stock, and
-            
-            <br></br>greatest variety of green and black teas, of any one establishment in
-            
-            <br></br>the United States. They are doing a large business, and a great benefit
-            
-            <br></br>to consumers of tea.—[Atlas.
-            
-            <br></br>Heretofore it has been very difficult, indeed impossible, to always
-            
-            <br></br>obtain good green and black teas; but now you have only to visit the
-            
-            <br></br>ware-rooms of the Pekin Tea Company, 75 Fulton street, to obtain as
-            
-            <br></br>delicious and fragrant teas as you could wish for.—Daily Sun.
-            
-            <br></br>If any of our readers desire to have good tea, they can obtain it of
-            
-            <br></br>the Pekin Tea Company, 75 Fulton street.—[Mercury.
-            
-            <br></br>A Word to Tea Drinkers.—The Pekin Tea Company, 75 Fulton
-            
-            <br></br>street, have imported into this market some five hundred thousand dol-
-            
-            <br></br>lars worth of the finest grade of green and black teas, grown in the
-            
-            <br></br>Celestial Empire, done up in all the various fancy packages that Chi-
-            
-            <br></br>nese ingenuity can invent. It is a privilege to buy teas at this great
-            
-            <br></br>establishment, and a luxury and comfort to drink them. They sell
-            
-            <br></br>good teas only, and retail them at wholesale prices. Country merchants
-            
-            <br></br>who wish to always sell good teas can always obtain them at this place,
-            
-            <br></br>on reasonable terms.—[Emporium.
-            
-            <br></br>The Pekin Tea Company.—We very cheerfully call the attention
-            
-            <br></br>of all lovers of pure and fragrant Teas, both in town and country, to the
-            
-            <br></br>great tea warehouse of this company. Our long acquaintance with the
-            
-            <br></br>proprietors enables us to bespeak for them the entire confidence of the
-            
-            <br></br>public. We know that their teas, both in quality and price, are all that
-            
-            <br></br>is stated of them. Many a lover of the fragrant herb has been com-
-            
-            <br></br>pelled to eschew the drinking of tea in consequence of its injurious
-            
-            <br></br>effects, until at length he has become hopeless of finding, among any of
-            
-            <br></br>the imported varieties of tea in our market, a kind which had not such
-            
-            <br></br>an effect. In this, however, such persons will be agreeably disappointed.
-            
-            <br></br>The Pekin Tea Company have commenced the importation of choice
-            
-            <br></br>varieties of Garden Teas, of most delicious flavor—cultivated and
-            
-            <br></br>picked with great care, which have heretofore never been introduced
-            
-            <br></br>into this country, except as presents to importers. Among these they
-            
-            <br></br>have an Oolong, mild as zephyr, and fragrant as a rose, which we es-
-            
-            <br></br>pecially recommend to all nervous persons. Its effect upon many of
-            
-            <br></br>those who have tried it, is to make them confirmed tea-drinkers. Ladies
-            
-            <br></br>who have tried it say they never before drank such tea. But all tastes
-            
-            <br></br>can here be suited, with the great advantage over other stores of getting
-            
-            <br></br>a pure article at wholesale price, however small the quantity. The
-            
-            <br></br>company's warehouse is at 75 Fulton street.—[New World.
-            
-            <br></br>Tea.—The Pekin Tea Company, No. 75Fulton street, unquestionably
-            
-            <br></br>sell the best teas imported into this market. That they sell them
-            
-            <br></br>cheaper than any other establishment, is a fact proven in a thousand
-            
-            <br></br>instances since they have opened their store.
-            
-            <br></br>We would advise our friends to call at this place, and if they don’t
-            
-            <br></br>wish to buy, at least to obtain a little pamphlet, kept on their counter,
-            
-            <br></br>entitled “Hints to Tea-Drinkers,” and therefrom learn a little useful
-            
-            <br></br>information on the subject. The pamphlet is given gratis.—[Anglo-
-            
-            <br></br>American.
-            
-            <br></br>The finest specimens of green and black teas ever sold in this
-            
-            <br></br>country, are imported by the Pekin Tea Company, 75 Fulton street.
-            
-            <br></br>Those who want good teas at reasonable prices, can always get them
-            
-            <br></br>there.—[Tribune.
-            
-            <br></br>We have tried the teas imported by the Pekin Tea Company, 75
-            
-            <br></br>Fulton street, and, if we live, will try them often. They are selling
-            
-            <br></br>the most delicious teas we ever drank, and retail them at wholesale
-            
-            <br></br>prices.—[Evening Post.	oct. 8.
-         </div>
-      </div>
-      
-      
-      
-      
-      <div>
-         <div class="ab">THE BROADWAY JOURNAL:
-            
-            <br></br>Edgar A. Poe, ::::::	Editor and Proprietor.
+      <div class="piece" id="#p24">
+         <div class="biblTitle">The Broadway Journal</div>
+         <div class="biblPage">412</div>
+         <div class="head">THE BROADWAY JOURNAL:</div>
+         
+         <div class="ab">Edgar A. Poe,::::::	Editor and Proprietor.
             
             <br></br>IS PUBLISHED EVERY SATURDAY:
             
             <br></br>OFFICE 304 BROADWAY, CORNER OF DUANE.
-            
-            <br></br>Terms $3,00 per annum—single numbers six and a quarter cents.
-            
-            <br></br>The Broadway Journal is, in its general character, a literary
-            
-            <br></br>paper, occupying itself with original, and more especially with
-            
-            <br></br>critical articles, in every department of Literature, properly so
-            
-            <br></br>called—with a preference, nevertheless, for the Belles Lettres
-            
-            <br></br>and the Fine Arts. There is no better medium in the country for
-            
-            <br></br>literary or artistical advertisements.
-            
-            <br></br>AGENTS:
-            
-            <br></br>Redding &amp; Co., Boston, Mass     |    Thos H Pease, New Haven, Ct
+         </div>
+         
+         <div class="ab">Terms $3,00 per annum—single numbers six and 
+            <br></br>a quarter cents.
+         </div>
+         
+         <p>THE BROADWAY JOURNAL is, in its general character, a literary
+            paper, occupying itself with original, and more especially with
+            critical articles, in every department of Literature, properly so
+            called—with a preference, nevertheless, for the BELLES LETTRES
+            and the FINE ARTS. There is no better medium in the country for
+            literary or artistical advertisements.
+         </p>
+         
+         <div class="ab">AGENTS:</div>
+         
+         <div class="ab">Redding &amp; Co., Boston, Mass     |    Thos H Pease, New Haven, Ct
             
             <br></br>R G H Huntington, Hartford, Ct      |    J C Morgan, New Orleans
             
@@ -3775,11 +3143,12 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
       <div class="note" id="n001">
-         <p>Tenera res in feminis fama pudicitiee, et quasi flos pulcherrimus, cito ad levem marcessit auram, levique flatu corrupitur—
-            maxime, &amp;c —Hieronymus ad Salvinam.
-         </p>
+         <a href="/#/issues/18460103/p3">
+            <p>Tenera res in feminis fama pudicitiee, et quasi flos pulcherrimus, cito ad levem marcessit auram, levique flatu corrupitur—
+               maxime, &amp;c —Hieronymus ad Salvinam.
+            </p>
+         </a>
       </div>
       
    </div>

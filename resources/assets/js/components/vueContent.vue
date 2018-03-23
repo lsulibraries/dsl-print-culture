@@ -7,6 +7,7 @@
 <script>
     import abouts from './Abouts'
     import issue from './Issue'
+
     export default {
         components: { abouts, issue },
     }

@@ -1,6 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>The Office of the Broadway Journal</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>365</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>To “The Lady Geraldine”</title>
+         <auth_id>fsosgood</auth_id>
+         <auth_name>Frances Sargent Osgood</auth_name>
+         <page>365</page>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>The Facts in the Case of M. Valdemar</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>365-368</page>
+         <pdf_index>1</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>The Mountains</title>
+         <auth_id>ppcooke</auth_id>
+         <auth_name>Philip Pendleton Cooke</auth_name>
+         <page>368-369</page>
+         <pdf_index>4</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>The Modern Poetical Literature of Germany</title>
+         <auth_id>jltellkampf</auth_id>
+         <auth_name>Johann Ludwig Tellkampf</auth_name>
+         <page>369-373</page>
+         <pdf_index>5</pdf_index>
+      </p5>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <pieces>
+            <p6>
+               <decls_id>p6</decls_id>
+               <type>piece</type>
+               <title>Biographical and Critical Notices</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>373</page>
+               <pdf_index>9</pdf_index>
+            </p6>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>Trifles in Verse</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>373</page>
+               <pdf_index>9</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>The Diadem for 1846</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>374</page>
+               <pdf_index>10</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>The Missionary Memorial</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>374</page>
+               <pdf_index>10</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>The Rose, or Affection's Gift for 1846</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>374</page>
+               <pdf_index>10</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>The May-flower for 1846</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>374</page>
+               <pdf_index>10</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>Elinor Willys</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>374</page>
+               <pdf_index>10</pdf_index>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
+               <type>piece</type>
+               <title>Wiley and Putnam's Library of Choice Reading</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>374-375</page>
+               <pdf_index>10</pdf_index>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
+               <type>piece</type>
+               <title>First Lessons</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
+               <type>piece</type>
+               <title>The Illustrated History of Palestine</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p15>
+            <p16>
+               <decls_id>p16</decls_id>
+               <type>piece</type>
+               <title>Love and Mesmerism</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
+               <type>piece</type>
+               <title>The Wandering Jew</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>Harper's Illuminated and Illustrated Sheakspeare</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>Republication of the London Lancet</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>Pictorial History of the World</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>The Vigil of Faith, and other Poems</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>From J. S. Redfield and Co.</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>375</page>
+               <pdf_index>11</pdf_index>
+            </p22>
+         </pieces>
+      </s1>
+      <p23>
+         <decls_id>p23</decls_id>
+         <type>piece</type>
+         <title>Sonnetto</title>
+         <auth_id>gguidiccioni</auth_id>
+         <auth_name>Giovanni Guidiccioni</auth_name>
+         <page>375</page>
+         <pdf_index>11</pdf_index>
+      </p23>
+      <p24>
+         <decls_id>p24</decls_id>
+         <type>piece</type>
+         <title>The Fine Arts</title>
+         <auth_id>hcwatson</auth_id>
+         <auth_name>Henry Cood Watson</auth_name>
+         <page>375-376</page>
+         <pdf_index>11</pdf_index>
+      </p24>
+      <p25>
+         <decls_id>p25</decls_id>
+         <type>piece</type>
+         <title>Editorial Miscellany</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>376</page>
+         <pdf_index>12</pdf_index>
+      </p25>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>376-380</page>
+         <pdf_index>12</pdf_index>
+      </s2>
+      <p26>
+         <decls_id>p26</decls_id>
+         <type>piece</type>
+         <title>The Broadway Journal</title>
+         <page>376-380</page>
+         <pdf_index>12</pdf_index>
+      </p26>
+   </toc>
    <issueMeta>
       <issueId>18451220</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
@@ -20,5 +267,468 @@
          </eapoe>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>The Office of the Broadway Journal</pieceTitle>
+            <piecePage>365</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>To “The Lady Geraldine”</pieceTitle>
+            <piecePage>365</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <fsosgood>
+                  <personName>Frances Sargent Osgood</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </fsosgood>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>The Facts in the Case of M. Valdemar</pieceTitle>
+            <piecePage>365-368</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>The Mountains</pieceTitle>
+            <piecePage>368-369</piecePage>
+            <piecePdfIndex>4</piecePdfIndex>
+            <pieceListPerson>
+               <ppcooke>
+                  <personName>Philip Pendleton Cooke</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </ppcooke>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>The Modern Poetical Literature of Germany</pieceTitle>
+            <piecePage>369-373</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <jltellkampf>
+                  <personName>Johann Ludwig Tellkampf writing as T. L. Tellkampf.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </jltellkampf>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p6>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>Biographical and Critical Notices</pieceTitle>
+            <piecePage>373</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <p7>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Trifles in Verse</pieceTitle>
+            <piecePage>373</piecePage>
+            <piecePdfIndex>9</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Diadem for 1846</pieceTitle>
+            <piecePage>374</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Missionary Memorial</pieceTitle>
+            <piecePage>374</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>The Rose, or Affection's Gift for 1846</pieceTitle>
+            <piecePage>374</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>The May-flower for 1846</pieceTitle>
+            <piecePage>374</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>Elinor Willys</pieceTitle>
+            <piecePage>374</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Wiley and Putnam's Library of Choice Reading</pieceTitle>
+            <piecePage>374-375</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>First Lessons</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Illustrated History of Palestine</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Love and Mesmerism</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>The Wandering Jew</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>Harper's Illuminated and Illustrated Sheakspeare</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Republication of the London Lancet</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>Pictorial History of the World</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>The Vigil of Faith, and other Poems</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>From J. S. Redfield and Co.</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>Sonnetto</pieceTitle>
+            <piecePage>375</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <gguidiccioni>
+                  <personName>Giovanni Guidiccioni</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </gguidiccioni>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <p24>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>The Fine Arts</pieceTitle>
+            <piecePage>375-376</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
+      <p25>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Editorial Miscellany</pieceTitle>
+            <piecePage>376</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <s2>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>376-380</sectionPage>
+            <sectionPdfIndex>12</sectionPdfIndex>
+         </sectionMeta>
+      </s2>
+      <p26>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>The Broadway Journal</pieceTitle>
+            <piecePage>376-380</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+         </pieceMeta>
+      </p26>
+   </listBibl>
 </issue>

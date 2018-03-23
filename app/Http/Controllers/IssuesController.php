@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Storage;
-    
+
 class IssuesController extends Controller
 {
     private $storage_root = "public/broadway-tei/tei/";
@@ -15,7 +15,7 @@ class IssuesController extends Controller
     function mainWindow($month, $day, $year){
             return view('welcome',['route' => "issue-$month-$day-$year"]);
     }
-    
+
     function index($year = NULL, $month = NULL, $day = NULL){
         $issues = $this->getIssues($year, $month, $day);
         return response()->json($issues);
@@ -23,28 +23,25 @@ class IssuesController extends Controller
 
     function issueHeader($issueId) {
         $xml = simplexml_load_string(Storage::get("public/bibl/BroadwayJournal_$issueId.xml"));
-        return response()->json($xml);        
+        return response()->json($xml);
     }
-    
+
     function all_json($year = NULL, $month = NULL, $day = NULL){
         $issues = $this->getIssues($year, $month, $day);
         return response()->json($issues);
     }
 
     function abouts($about){
-        if(!in_array($about, array('about', 'methodology', 'staff', 'personography'))){
+        if(!in_array($about, array('home.html', 'about.project.html', 'about.method.data.html', 'staff', 'authors.html'))){
             return "No data found for $about";
         }
         if($about == 'staff'){
             return $this->staff();
         }
-        if($about == 'methodology'){
-            $about = 'tech';
-        }
-        $xml = Storage::get('public/broadway-tei/projectInfo/' .$about. '.html');
-        return $xml;// response()->json($toc);        
+        $xml = Storage::get('public/broadway-tei/projectInfo/' .$about);
+        return $xml;// response()->json($toc);
     }
-    
+
     function staff(){
         $xml = simplexml_load_string(Storage::get('public/credits.xml'));
         return response()->json($xml);
@@ -57,13 +54,17 @@ class IssuesController extends Controller
         $xml = simplexml_load_string(file_get_contents('/tmp/results.xml'));
         return response()->json($xml);
     }
-    
+
+    function dataDownload($zip) {
+        $path = storage_path("app/public/download/$zip.zip");
+        return response()->download($path);
+    }
+
     function download($year, $month, $day, $format){
         $fileFormat = $format == 'tei' ? 'xml' : $format;
         $id = $year . $month . $day;
-            $url = "app/public/broadway-tei/$format/" . $this->getFilenameForID($id,$fileFormat);
-            $xml = Storage::get($this->getFilePathForID($id));
-            return response()->file(storage_path($url));
+        $url = "app/public/broadway-tei/$format/" . $this->getFilenameForID($id,$fileFormat);
+        return response()->file(storage_path($url));
     }
 
     function all_grouped_json($year = NULL, $month = NULL, $day = NULL){
@@ -85,7 +86,7 @@ class IssuesController extends Controller
         }
         return response()->json($ret);
     }
-    
+
     function toc($id){
         $xml = simplexml_load_string(Storage::get('public/bibl/' . $this->getFilenameForID($id)));
         return response()->json($xml);// response()->json($toc);
@@ -100,7 +101,7 @@ class IssuesController extends Controller
         $xml = simplexml_load_string(Storage::get('public/bibl/' . $this->getFilenameForID($id)));
         return response()->json($xml);// response()->json($toc);
     }
-        
+
     function issueText($id){
         $xml = Storage::get('public/issues/' . $this->getFilenameForID($id));
         return $xml;
@@ -110,7 +111,7 @@ class IssuesController extends Controller
         $xml = Storage::get('public/masthead/' . $this->getFilenameForID($id));
         return $xml;
     }
-    
+
     function pieceText($id, $pid){
         $issue =  simplexml_load_string(Storage::get('public/issues/' . $this->getFilenameForID($id)));
         $piece = $issue->xpath("//div[@id='#$pid']");
@@ -120,7 +121,7 @@ class IssuesController extends Controller
         }
         return response($txt);
     }
-    
+
     private function getFilenameForID($id, $format = 'xml'){
       return $this->file_prefix . $id . '.' . $format;
     }
@@ -150,12 +151,12 @@ class IssuesController extends Controller
       }
       return $this->uri . implode('/', $this->parseIssueIDForDateParts($id));
     }
-    
+
     private function timestampForID($id){
       list($year, $month, $day) = $this->parseIssueIDForDateParts($id);
       return mktime(0, 0, 0, $month, $day, $year);
     }
-    
+
     private function parseIssueIDForDateParts($id){
         $year  = substr($id, 0, 4);
         $month = substr($id, 4, 2);
@@ -168,7 +169,7 @@ class IssuesController extends Controller
     }
 
     public function pdf($year, $month, $day) {
-        
+
         $pdf = Storage::url("BroadwayJournal_$year$month$day.pdf");
         return view('welcome', ['pdf' => $pdf, 'route' => 'hello ROUTE']);
     }

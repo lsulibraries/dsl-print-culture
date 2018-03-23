@@ -787,8 +787,7 @@
                <span class="person" id="wscott">Walter Scott</span>. As the confirmed tippler is indifferent to the quality of his drink, if it only produces inebriation. We have seen respectable looking ladies, and even
                men, courageous enough to read a 
                <span class="person" id="gprjames">James</span>'s novel in a steamboat cabin or a rail-road car. We knew a gentleman who
-               read 
-               <span class="person" id="darnley">Darnley</span> twice. He is quite as remarkable a person, in
+               read Darnley twice. He is quite as remarkable a person, in
                his way, as the man who read the Monnikins once. We
                also know a country gentleman, who lives in a gothic castle
                somewhere in New Jersey, who always enquires, whenever
@@ -1241,8 +1240,9 @@
          
          <p>Notwithstanding the lateness of the hour, Mr. President, (said the
             gentleman who offered this toast,
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">Mr. .</span>
             </span>) I claim your indulgence for a few
             words, in explanation of the sentiment I have just offered. [Hear.]
             Commenting sportively to the friend by my side, upon the ingenious
@@ -1341,8 +1341,9 @@
             French soon commenced supplying the Hurons, and other Canadian
             Indians, with fire-arms,—while the Dutch were equally on the alert
             to furnish the Iroquois
-            <span class="anchor" id="a002">
-               <a href="#n002"> Link </a>
+            <span class="footnote" id="n002">
+               <span class="footnoteLink">2</span>
+               <span class="footnoteText">Called also "Mingoes" and "Five Nations."</span>
             </span> with Europern weapons to repel them. For
             nearly thirty years the French were more or less successful, in making
             inroads upon this Province; but in 1650 the Iroquois beat them back
@@ -1647,8 +1648,9 @@
          <div class="biblTitle">Sketches of American Prose Writers, No. 1</div>
          <div class="biblPage">26</div>
          <div class="head">SKETCHES OF AMERICAN PROSE WRITERS.
-            <span class="anchor" id="a003">
-               <a href="#n003"> Link </a>
+            <span class="footnote" id="n003">
+               <span class="footnoteLink">3</span>
+               <span class="footnoteText"></span>
             </span>
             NO. 1.
             
@@ -2825,19 +2827,22 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">Mr. 
-         <span class="person" id="cfhoffman">C. F. Hoffman</span>.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450111/p6">Mr. 
+            <span class="person" id="cfhoffman">C. F. Hoffman</span>.
+         </a>
       </div>
       
-      <a href="#a002"> Link </a>
-      <div class="note" id="n002">Called also "Mingoes" and "Five Nations."</div>
+      <div class="note" id="n002">
+         <a href="/#/issues/18450111/p6">Called also "Mingoes" and "Five Nations."</a>
+      </div>
       
-      <a href="#a003"> Link </a>
       <div class="note" id="n003">
-         <p>To be followed by a series of articles from different pens on American
-            prose writers, since the Revolution.
-         </p>
+         <a href="/#/issues/18450111/p8">
+            <p>To be followed by a series of articles from different pens on American
+               prose writers, since the Revolution.
+            </p>
+         </a>
       </div>
    </div>
 </div>

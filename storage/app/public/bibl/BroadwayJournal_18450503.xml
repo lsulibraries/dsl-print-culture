@@ -60,15 +60,15 @@
          <type>section</type>
          <title>Reviews</title>
          <pieces>
-            <s1p1>
-               <decls_id>s1p1</decls_id>
+            <p7>
+               <decls_id>p7</decls_id>
                <type>piece</type>
                <title>Alnwick Castle</title>
                <auth_id>jrlowell</auth_id>
                <auth_name>James Russell Lowell</auth_name>
                <page>281-283</page>
                <pdf_index>9</pdf_index>
-            </s1p1>
+            </p7>
          </pieces>
       </s1>
       <s2>
@@ -76,121 +76,121 @@
          <type>section</type>
          <title>Critical Notices</title>
          <pieces>
-            <s2p1>
-               <decls_id>s2p1</decls_id>
+            <p8>
+               <decls_id>p8</decls_id>
                <type>piece</type>
                <title>The Prisoners of Perote</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>284</page>
                <pdf_index>12</pdf_index>
-            </s2p1>
-            <s2p2>
-               <decls_id>s2p2</decls_id>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
                <type>piece</type>
                <title>Remarks on an Address delivered before the New England Society</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>284</page>
                <pdf_index>12</pdf_index>
-            </s2p2>
-            <s2p3>
-               <decls_id>s2p3</decls_id>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
                <type>piece</type>
                <title>Table-Talk</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>284</page>
                <pdf_index>12</pdf_index>
-            </s2p3>
-            <s2p4>
-               <decls_id>s2p4</decls_id>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
                <type>piece</type>
                <title>American Facts</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>284</page>
                <pdf_index>12</pdf_index>
-            </s2p4>
-            <s2p5>
-               <decls_id>s2p5</decls_id>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
                <type>piece</type>
                <title>Count Ludwig</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>284-285</page>
                <pdf_index>12</pdf_index>
-            </s2p5>
-            <s2p6>
-               <decls_id>s2p6</decls_id>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
                <type>piece</type>
                <title>The Apochryphal New Testament</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>285</page>
                <pdf_index>13</pdf_index>
-            </s2p6>
-            <s2p7>
-               <decls_id>s2p7</decls_id>
+            </p13>
+            <p14>
+               <decls_id>p14</decls_id>
                <type>piece</type>
                <title>History of Germany</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>285</page>
                <pdf_index>13</pdf_index>
-            </s2p7>
-            <s2p8>
-               <decls_id>s2p8</decls_id>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
                <type>piece</type>
                <title>Specimens of Ancient Oracular and Fighting Eolipiles</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>285</page>
                <pdf_index>13</pdf_index>
-            </s2p8>
+            </p15>
          </pieces>
       </s2>
-      <p7>
-         <decls_id>p7</decls_id>
+      <p16>
+         <decls_id>p16</decls_id>
          <type>piece</type>
          <title>The Magazines</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>285</page>
          <pdf_index>13</pdf_index>
-      </p7>
+      </p16>
       <s3>
          <decls_id>s3</decls_id>
          <type>section</type>
          <title>Musical Review</title>
          <pieces>
-            <s3p1>
-               <decls_id>s3p1</decls_id>
+            <p17>
+               <decls_id>p17</decls_id>
                <type>piece</type>
                <title>Melodies</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
                <page>285</page>
                <pdf_index>13</pdf_index>
-            </s3p1>
-            <s3p2>
-               <decls_id>s3p2</decls_id>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
                <type>piece</type>
                <title>Bertini's Piano Forte Method</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
                <page>285-286</page>
                <pdf_index>13</pdf_index>
-            </s3p2>
-            <s3p3>
-               <decls_id>s3p3</decls_id>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
                <type>piece</type>
                <title>Piano-Fortes</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <auth_id>hcwatson</auth_id>
+               <auth_name>Henry Cood Watson</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s3p3>
+            </p19>
          </pieces>
       </s3>
       <s4>
@@ -198,96 +198,96 @@
          <type>section</type>
          <title>Items</title>
          <pieces>
-            <s4p1>
-               <decls_id>s4p1</decls_id>
+            <p20>
+               <decls_id>p20</decls_id>
                <type>piece</type>
                <title>Park Theatre</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p1>
-            <s4p2>
-               <decls_id>s4p2</decls_id>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
                <type>piece</type>
                <title>Olympic Theatre</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p2>
-            <s4p3>
-               <decls_id>s4p3</decls_id>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
                <type>piece</type>
-               <title>Olympic Theatre</title>
+               <title>Concert for the Benefit of Mr. W. Alpers</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p3>
-            <s4p4>
-               <decls_id>s4p4</decls_id>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
                <type>piece</type>
                <title>Mary Taylor</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p4>
-            <s4p5>
-               <decls_id>s4p5</decls_id>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
                <type>piece</type>
                <title>Mr. George Loder</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p5>
-            <s4p6>
-               <decls_id>s4p6</decls_id>
+            </p24>
+            <p25>
+               <decls_id>p25</decls_id>
                <type>piece</type>
                <title>National Nomenclature</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p6>
-            <s4p7>
-               <decls_id>s4p7</decls_id>
+            </p25>
+            <p26>
+               <decls_id>p26</decls_id>
                <type>piece</type>
                <title>Popular Lectures</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p7>
-            <s4p8>
-               <decls_id>s4p8</decls_id>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
                <type>piece</type>
                <title>The Way They Do Things in England</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p8>
-            <s4p9>
-               <decls_id>s4p9</decls_id>
+            </p27>
+            <p28>
+               <decls_id>p28</decls_id>
                <type>piece</type>
                <title>Mr. Howitt</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p9>
-            <s4p10>
-               <decls_id>s4p10</decls_id>
+            </p28>
+            <p29>
+               <decls_id>p29</decls_id>
                <type>piece</type>
                <title>Notice</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>286</page>
                <pdf_index>14</pdf_index>
-            </s4p10>
+            </p29>
          </pieces>
       </s4>
       <s5>
@@ -297,6 +297,13 @@
          <page>287-288</page>
          <pdf_index>15</pdf_index>
       </s5>
+      <p30>
+         <decls_id>p30</decls_id>
+         <type>piece</type>
+         <title>Agents for the Broadway Journal</title>
+         <page>288</page>
+         <pdf_index>16</pdf_index>
+      </p30>
    </toc>
    <issueMeta>
       <issueId>18450503</issueId>
@@ -427,13 +434,13 @@
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
       </s1>
-      <s1p1>
+      <p7>
          <sectionMeta>
             <sectionId>s1</sectionId>
             <sectionTitle>Reviews</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s1p1</pieceId>
+            <pieceId>p7</pieceId>
             <pieceTitle>Alnwick Castle</pieceTitle>
             <piecePage>281-283</piecePage>
             <piecePdfIndex>9</piecePdfIndex>
@@ -445,20 +452,20 @@
                </jrlowell>
             </pieceListPerson>
          </pieceMeta>
-      </s1p1>
+      </p7>
       <s2>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
       </s2>
-      <s2p1>
+      <p8>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p1</pieceId>
+            <pieceId>p8</pieceId>
             <pieceTitle>The Prisoners of Perote</pieceTitle>
             <piecePage>284</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -470,14 +477,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p1>
-      <s2p2>
+      </p8>
+      <p9>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p2</pieceId>
+            <pieceId>p9</pieceId>
             <pieceTitle>Remarks on an Address delivered before the New England Society</pieceTitle>
             <piecePage>284</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -489,14 +496,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p2>
-      <s2p3>
+      </p9>
+      <p10>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p3</pieceId>
+            <pieceId>p10</pieceId>
             <pieceTitle>Table-Talk</pieceTitle>
             <piecePage>284</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -508,14 +515,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p3>
-      <s2p4>
+      </p10>
+      <p11>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p4</pieceId>
+            <pieceId>p11</pieceId>
             <pieceTitle>American Facts</pieceTitle>
             <piecePage>284</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -527,14 +534,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p4>
-      <s2p5>
+      </p11>
+      <p12>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p5</pieceId>
+            <pieceId>p12</pieceId>
             <pieceTitle>Count Ludwig</pieceTitle>
             <piecePage>284-285</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -546,14 +553,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p5>
-      <s2p6>
+      </p12>
+      <p13>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p6</pieceId>
+            <pieceId>p13</pieceId>
             <pieceTitle>The Apochryphal New Testament</pieceTitle>
             <piecePage>285</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -565,14 +572,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p6>
-      <s2p7>
+      </p13>
+      <p14>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p7</pieceId>
+            <pieceId>p14</pieceId>
             <pieceTitle>History of Germany</pieceTitle>
             <piecePage>285</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -584,14 +591,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p7>
-      <s2p8>
+      </p14>
+      <p15>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Critical Notices</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s2p8</pieceId>
+            <pieceId>p15</pieceId>
             <pieceTitle>Specimens of Ancient Oracular and Fighting Eolipiles</pieceTitle>
             <piecePage>285</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -603,10 +610,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s2p8>
-      <p7>
+      </p15>
+      <p16>
          <pieceMeta>
-            <pieceId>p7</pieceId>
+            <pieceId>p16</pieceId>
             <pieceTitle>The Magazines</pieceTitle>
             <piecePage>285</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -618,83 +625,83 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p7>
+      </p16>
       <s3>
          <sectionMeta>
             <sectionId>s3</sectionId>
             <sectionTitle>Musical Review</sectionTitle>
          </sectionMeta>
       </s3>
-      <s3p1>
+      <p17>
          <sectionMeta>
             <sectionId>s3</sectionId>
             <sectionTitle>Musical Review</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s3p1</pieceId>
+            <pieceId>p17</pieceId>
             <pieceTitle>Melodies</pieceTitle>
             <piecePage>285</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </s3p1>
-      <s3p2>
+      </p17>
+      <p18>
          <sectionMeta>
             <sectionId>s3</sectionId>
             <sectionTitle>Musical Review</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s3p2</pieceId>
+            <pieceId>p18</pieceId>
             <pieceTitle>Bertini's Piano Forte Method</pieceTitle>
             <piecePage>285-286</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </s3p2>
-      <s3p3>
+      </p18>
+      <p19>
          <sectionMeta>
             <sectionId>s3</sectionId>
             <sectionTitle>Musical Review</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s3p3</pieceId>
+            <pieceId>p19</pieceId>
             <pieceTitle>Piano-Fortes</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <hcwatson>
+                  <personName>Henry Cood Watson writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </s3p3>
+      </p19>
       <s4>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
       </s4>
-      <s4p1>
+      <p20>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p1</pieceId>
+            <pieceId>p20</pieceId>
             <pieceTitle>Park Theatre</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -706,14 +713,14 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s4p1>
-      <s4p2>
+      </p20>
+      <p21>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p2</pieceId>
+            <pieceId>p21</pieceId>
             <pieceTitle>Olympic Theatre</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -725,15 +732,15 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s4p2>
-      <s4p3>
+      </p21>
+      <p22>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p3</pieceId>
-            <pieceTitle>Olympic Theatre</pieceTitle>
+            <pieceId>p22</pieceId>
+            <pieceTitle>Concert for the Benefit of Mr. W. Alpers</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
@@ -744,14 +751,14 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s4p3>
-      <s4p4>
+      </p22>
+      <p23>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p4</pieceId>
+            <pieceId>p23</pieceId>
             <pieceTitle>Mary Taylor</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -763,14 +770,14 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s4p4>
-      <s4p5>
+      </p23>
+      <p24>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p5</pieceId>
+            <pieceId>p24</pieceId>
             <pieceTitle>Mr. George Loder</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -782,14 +789,14 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s4p5>
-      <s4p6>
+      </p24>
+      <p25>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p6</pieceId>
+            <pieceId>p25</pieceId>
             <pieceTitle>National Nomenclature</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -801,14 +808,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s4p6>
-      <s4p7>
+      </p25>
+      <p26>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p7</pieceId>
+            <pieceId>p26</pieceId>
             <pieceTitle>Popular Lectures</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -820,14 +827,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s4p7>
-      <s4p8>
+      </p26>
+      <p27>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p8</pieceId>
+            <pieceId>p27</pieceId>
             <pieceTitle>The Way They Do Things in England</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -839,14 +846,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s4p8>
-      <s4p9>
+      </p27>
+      <p28>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p9</pieceId>
+            <pieceId>p28</pieceId>
             <pieceTitle>Mr. Howitt</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -858,14 +865,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </s4p9>
-      <s4p10>
+      </p28>
+      <p29>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Items</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>s4p10</pieceId>
+            <pieceId>p29</pieceId>
             <pieceTitle>Notice</pieceTitle>
             <piecePage>286</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -877,7 +884,7 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </s4p10>
+      </p29>
       <s5>
          <sectionMeta>
             <sectionId>s5</sectionId>
@@ -886,5 +893,13 @@
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
       </s5>
+      <p30>
+         <pieceMeta>
+            <pieceId>p30</pieceId>
+            <pieceTitle>Agents for the Broadway Journal</pieceTitle>
+            <piecePage>288</piecePage>
+            <piecePdfIndex>16</piecePdfIndex>
+         </pieceMeta>
+      </p30>
    </listBibl>
 </issue>

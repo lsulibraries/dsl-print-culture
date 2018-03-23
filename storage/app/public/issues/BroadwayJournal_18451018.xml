@@ -805,8 +805,9 @@
          <p>The surgeon pronounced that pug died of the iliac pas-
             sion, and announced this as a reason for believing that
             man was but a better breed of monkey.
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">From a clever jeu d’esprit published in the year 1825.</span>
             </span>
          </p>
       </div>
@@ -3015,8 +3016,9 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">From a clever jeu d’esprit published in the year 1825.</div>
+      <div class="note" id="n001">
+         <a href="/#/issues/18451018/p4">From a clever jeu d’esprit published in the year 1825.</a>
+      </div>
       
    </div>
 </div>

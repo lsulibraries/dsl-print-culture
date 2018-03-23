@@ -1,8 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issue>
-   <toc/>
+   <toc>
+      <p1>
+         <decls_id>p1</decls_id>
+         <type>piece</type>
+         <title>The Office of the Broadway Journal</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>397</page>
+         <pdf_index>1</pdf_index>
+      </p1>
+      <p2>
+         <decls_id>p2</decls_id>
+         <type>piece</type>
+         <title>New Year's Day</title>
+         <auth_id>mehewitt</auth_id>
+         <auth_name>Mary Elizabeth Hewitt</auth_name>
+         <page>397</page>
+         <pdf_index>1</pdf_index>
+      </p2>
+      <p3>
+         <decls_id>p3</decls_id>
+         <type>piece</type>
+         <title>Loss of Breath</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>397-401</page>
+         <pdf_index>1</pdf_index>
+      </p3>
+      <p4>
+         <decls_id>p4</decls_id>
+         <type>piece</type>
+         <title>To a Canary Bird</title>
+         <auth_id>wgibson</auth_id>
+         <auth_name>William Gibson</auth_name>
+         <page>401</page>
+         <pdf_index>5</pdf_index>
+      </p4>
+      <p5>
+         <decls_id>p5</decls_id>
+         <type>piece</type>
+         <title>A College Reminiscence</title>
+         <auth_id>rsrowley</auth_id>
+         <auth_name>R. S. Rowley</auth_name>
+         <page>401-403</page>
+         <pdf_index>5</pdf_index>
+      </p5>
+      <p6>
+         <decls_id>p6</decls_id>
+         <type>piece</type>
+         <title>The Eternal Father</title>
+         <auth_id>wgibson</auth_id>
+         <auth_name>William Gibson</auth_name>
+         <page>403-404</page>
+         <pdf_index>7</pdf_index>
+      </p6>
+      <s1>
+         <decls_id>s1</decls_id>
+         <type>section</type>
+         <title>Critical Notices</title>
+         <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>Letters and Speeches of Oliver Cromwell</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>404</page>
+               <pdf_index>8</pdf_index>
+            </p7>
+            <p8>
+               <decls_id>p8</decls_id>
+               <type>piece</type>
+               <title>The Pilgrim in the Shadow of the Jungfrau</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>404</page>
+               <pdf_index>8</pdf_index>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
+               <type>piece</type>
+               <title>The Lady of Milan, or Fidelity unto Death</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>404</page>
+               <pdf_index>8</pdf_index>
+            </p9>
+            <p10>
+               <decls_id>p10</decls_id>
+               <type>piece</type>
+               <title>Blackwood's Edinburgh Magazine</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>404</page>
+               <pdf_index>8</pdf_index>
+            </p10>
+            <p11>
+               <decls_id>p11</decls_id>
+               <type>piece</type>
+               <title>Harper's Illuminated Bible</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>404</page>
+               <pdf_index>8</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Aristidean</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>404-406</page>
+               <pdf_index>8</pdf_index>
+            </p12>
+         </pieces>
+      </s1>
+      <p13>
+         <decls_id>p13</decls_id>
+         <type>piece</type>
+         <title>Azthene</title>
+         <auth_id>tdenglish</auth_id>
+         <auth_name>Thomas Dunn English</auth_name>
+         <page>406</page>
+         <pdf_index>10</pdf_index>
+      </p13>
+      <p14>
+         <decls_id>p14</decls_id>
+         <type>piece</type>
+         <title>The Drama</title>
+         <auth_id>eapoe</auth_id>
+         <auth_name>Edgar Allan Poe</auth_name>
+         <page>406</page>
+         <pdf_index>10</pdf_index>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
+         <type>piece</type>
+         <title>The Fine Arts</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>406-407</page>
+         <pdf_index>10</pdf_index>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
+         <type>piece</type>
+         <title>Kit North</title>
+         <auth_id>tdenglish</auth_id>
+         <auth_name>Thomas Dunn English</auth_name>
+         <page>407</page>
+         <pdf_index>11</pdf_index>
+      </p16>
+      <p17>
+         <decls_id>p17</decls_id>
+         <type>piece</type>
+         <title>The Advice of “Twenty”</title>
+         <auth_id>anon</auth_id>
+         <auth_name>Anonymous</auth_name>
+         <page>407</page>
+         <pdf_index>11</pdf_index>
+      </p17>
+      <s2>
+         <decls_id>s2</decls_id>
+         <type>piece</type>
+         <title>Editorial Miscellany</title>
+         <pieces>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>The Broadway Journal</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>407</page>
+               <pdf_index>11</pdf_index>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
+               <type>piece</type>
+               <title>Valedictory</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>407</page>
+               <pdf_index>11</pdf_index>
+            </p19>
+            <p20>
+               <decls_id>p20</decls_id>
+               <type>piece</type>
+               <title>One of the Mosts Wonderful Pieces of Mechanism</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>407-408</page>
+               <pdf_index>11</pdf_index>
+            </p20>
+            <p21>
+               <decls_id>p21</decls_id>
+               <type>piece</type>
+               <title>N. C. Brooks</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>408</page>
+               <pdf_index>12</pdf_index>
+            </p21>
+            <p22>
+               <decls_id>p22</decls_id>
+               <type>piece</type>
+               <title>We Regret to Observe</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>407-408</page>
+               <pdf_index>11</pdf_index>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>The Last Picture of Leutze</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>407-408</page>
+               <pdf_index>11</pdf_index>
+            </p23>
+         </pieces>
+      </s2>
+      <s3>
+         <decls_id>s3</decls_id>
+         <type>section</type>
+         <title>Advertisements</title>
+         <page>408-412</page>
+         <pdf_index>12</pdf_index>
+      </s3>
+      <p24>
+         <decls_id>p24</decls_id>
+         <type>section</type>
+         <title>The Broadway Journal</title>
+         <page>412</page>
+         <pdf_index>16</pdf_index>
+      </p24>
+   </toc>
    <issueMeta>
-      <issueId>18450103</issueId>
+      <issueId>18460103</issueId>
       <issueTitle>The Broadway Journal</issueTitle>
       <issueVol>2</issueVol>
       <issueNum>26</issueNum>
@@ -20,5 +256,422 @@
          </eapoe>
       </issueListPerson>
    </issueMeta>
-   <listBibl/>
+   <listBibl>
+      <p1>
+         <pieceMeta>
+            <pieceId>p1</pieceId>
+            <pieceTitle>The Office of the Broadway Journal</pieceTitle>
+            <piecePage>397</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p1>
+      <p2>
+         <pieceMeta>
+            <pieceId>p2</pieceId>
+            <pieceTitle>New Year's Day</pieceTitle>
+            <piecePage>397</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <mehewitt>
+                  <personName>Mary Elizabeth Hewitt writing as Mary.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with low certainty.</authorShip>
+               </mehewitt>
+            </pieceListPerson>
+         </pieceMeta>
+      </p2>
+      <p3>
+         <pieceMeta>
+            <pieceId>p3</pieceId>
+            <pieceTitle>Loss of Breath</pieceTitle>
+            <piecePage>397-401</piecePage>
+            <piecePdfIndex>1</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as Littleton Barry.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p3>
+      <p4>
+         <pieceMeta>
+            <pieceId>p4</pieceId>
+            <pieceTitle>To a Canary Bird</pieceTitle>
+            <piecePage>401</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <wgibson>
+                  <personName>William Gibson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wgibson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p4>
+      <p5>
+         <pieceMeta>
+            <pieceId>p5</pieceId>
+            <pieceTitle>A College Reminiscence</pieceTitle>
+            <piecePage>401-403</piecePage>
+            <piecePdfIndex>5</piecePdfIndex>
+            <pieceListPerson>
+               <rsrowley>
+                  <personName>R. S. Rowley</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </rsrowley>
+            </pieceListPerson>
+         </pieceMeta>
+      </p5>
+      <p6>
+         <pieceMeta>
+            <pieceId>p6</pieceId>
+            <pieceTitle>The Eternal Father</pieceTitle>
+            <piecePage>403-404</piecePage>
+            <piecePdfIndex>7</piecePdfIndex>
+            <pieceListPerson>
+               <wgibson>
+                  <personName>William Gibson</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </wgibson>
+            </pieceListPerson>
+         </pieceMeta>
+      </p6>
+      <s1>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+      </s1>
+      <p7>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>Letters and Speeches of Oliver Cromwell</pieceTitle>
+            <piecePage>404</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
+      <p8>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p8</pieceId>
+            <pieceTitle>The Pilgrim in the Shadow of the Jungfrau</pieceTitle>
+            <piecePage>404</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p8>
+      <p9>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p9</pieceId>
+            <pieceTitle>The Lady of Milan, or Fidelity unto Death</pieceTitle>
+            <piecePage>404</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p9>
+      <p10>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p10</pieceId>
+            <pieceTitle>Blackwood's Edinburgh Magazine</pieceTitle>
+            <piecePage>404</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p10>
+      <p11>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p11</pieceId>
+            <pieceTitle>Harper's Illuminated Bible</pieceTitle>
+            <piecePage>404</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p11>
+      <p12>
+         <sectionMeta>
+            <sectionId>s1</sectionId>
+            <sectionTitle>Critical Notices</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p12</pieceId>
+            <pieceTitle>The Aristidean</pieceTitle>
+            <piecePage>404-406</piecePage>
+            <piecePdfIndex>8</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p12>
+      <p13>
+         <pieceMeta>
+            <pieceId>p13</pieceId>
+            <pieceTitle>Azthene</pieceTitle>
+            <piecePage>406</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <tdenglish>
+                  <personName>Thomas Dunn English</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </tdenglish>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>The Drama</pieceTitle>
+            <piecePage>406</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
+            <pieceTitle>The Fine Arts</pieceTitle>
+            <piecePage>406-407</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p15>
+      <p16>
+         <pieceMeta>
+            <pieceId>p16</pieceId>
+            <pieceTitle>Kit North</pieceTitle>
+            <piecePage>407</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <tdenglish>
+                  <personName>Thomas Dunn English writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </tdenglish>
+            </pieceListPerson>
+         </pieceMeta>
+      </p16>
+      <p17>
+         <pieceMeta>
+            <pieceId>p17</pieceId>
+            <pieceTitle>The Advice of “Twenty”</pieceTitle>
+            <piecePage>407</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p17>
+      <s2>
+         <pieceMeta>
+            <pieceId>s2</pieceId>
+            <pieceTitle>Editorial Miscellany</pieceTitle>
+         </pieceMeta>
+      </s2>
+      <p18>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>The Broadway Journal</pieceTitle>
+            <piecePage>407</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
+      <p19>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p19</pieceId>
+            <pieceTitle>Valedictory</pieceTitle>
+            <piecePage>407</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p19>
+      <p20>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p20</pieceId>
+            <pieceTitle>One of the Mosts Wonderful Pieces of Mechanism</pieceTitle>
+            <piecePage>407-408</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p20>
+      <p21>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p21</pieceId>
+            <pieceTitle>N. C. Brooks</pieceTitle>
+            <piecePage>408</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p21>
+      <p22>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p22</pieceId>
+            <pieceTitle>We Regret to Observe</pieceTitle>
+            <piecePage>407-408</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p22>
+      <p23>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p23</pieceId>
+            <pieceTitle>The Last Picture of Leutze</pieceTitle>
+            <piecePage>407-408</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p23>
+      <s3>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>Advertisements</sectionTitle>
+            <sectionPage>408-412</sectionPage>
+            <sectionPdfIndex>12</sectionPdfIndex>
+         </sectionMeta>
+      </s3>
+      <p24>
+         <sectionMeta>
+            <sectionId>p24</sectionId>
+            <sectionTitle>The Broadway Journal</sectionTitle>
+            <sectionPage>412</sectionPage>
+            <sectionPdfIndex>16</sectionPdfIndex>
+         </sectionMeta>
+      </p24>
+   </listBibl>
 </issue>

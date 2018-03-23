@@ -100,20 +100,16 @@
          </div>
       </div>
       
-      <div class="piece" id="#p3">
-         <div class="biblTitle">A Walk to Flatbush</div>
-         <div class="biblPage">381</div>
+      
+      <div>
          
          <div class="head">A Walk to Flatbush.</div>
          
-         <div class="cit">
-            <span class="quote">The earth seems quiet like some docile thing
-               Obeying the blue beauty of the skies.
-            </span>
-            <div class="bibl">Proctor.</div>
-         </div>
+         <p>The earth seems quiet like some docile thing
+            Obeying the blue beauty of the skies.	Proctor.
+         </p>
          
-         <p>ON Saturday last, a couple of friends and myself determined to
+         <p>On Saturday last, a couple of friends and myself determined to
             leave the City with its noise and distraction for a quiet walk
             through some of Nature’s gentle scenes. Sincerity, a love for the
             country, and a spirit of enjoyment, the power of extracting good
@@ -181,10 +177,7 @@
             of its newer and glossier neighbors. We went in, and there
          </p>
          
-         <div class="cit">
-            <span class="quote">Arrangement neat, and chastest order reign.</span>
-            <div class="bibl">—Young.</div>
-         </div>
+         <p>Arrangement neat, and chastest order reign.—Young.</p>
          
          <p>Not a speck of dust was to be seen. Woman’s care, and taste,
             were everywhere visible. We were waited upon by a young

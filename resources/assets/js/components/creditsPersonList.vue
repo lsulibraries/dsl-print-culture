@@ -1,16 +1,9 @@
 <template>
     <div class="creditsPersonsList">
         <div class="creditsPersonListActive">
-            <div class="personRoleName" v-for="role in this.rolesActive">
-            <h3>{{ role }}</h3>
-                <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'active' && person.personMeta.personRoleName == role"></creditsPerson>
-            </div>
-        </div>
-        <div class="creditsPersonListPast">
-            <h2>Past</h2>
-            <div class="personRoleName" v-for="role in this.rolesPast">
-                <h3>{{ role }}</h3>
-                <creditsPerson v-for="person in creditsData" :person="person" v-if="person.personMeta.personRole == 'past' && person.personMeta.personRoleName == role"></creditsPerson>
+            <div class="personRoleName" v-for="role in this.roles">
+            <h3>{{ getRoleLabel(role) }}</h3>
+                <creditsPerson v-for="person in creditsData" :person="person" v-if="getRole(person) == role"></creditsPerson>
             </div>
         </div>
     </div>
@@ -20,35 +13,35 @@
     export default {
         components: { creditsPerson },
         methods: {
-            includePersonInList: function (state, role) {
-                return person.personMeta.personRole == state && person.personMeta.personRoleName == role
-            },
-            dataLoaded: function() {
-                return this.$root.empty(this.creditsData)
+          getRole: function (person) {
+            const state = person.personMeta.personRole
+            const role = person.personMeta.personRoleName
+            if (role == 'Research Assistant' && state == 'past') {
+              return 'Past Research Assistant'
             }
+            return role
+          },
+          getRoleLabel: function (role) {
+            if (role.includes('Research Assistant')) {
+              return role + 's'
+            }
+            return role
+          }
         },
         created() {
             this.creditsData = this.$root.xhrDataStore.personography.projectStaff
-            this.rolesPast = []
-            this.rolesActive = []
-            for (let person in this.creditsData) {
-                let role = this.creditsData[person].personMeta.personRoleName
-                let state = this.creditsData[person].personMeta.personRole
-                if (state == 'active') {
-                    if (this.rolesActive.indexOf(role) === -1) {
-                        this.rolesActive.push(role)
-                    }
-                }
-                else {
-                    if (this.rolesPast.indexOf(role) === -1) {
-                        this.rolesPast.push(role)
-                    }
-                }
-            }
+            // for (let person in this.creditsData) {
+            //     let role = this.creditsData[person].personMeta.personRoleName
+            //     if (this.roles.indexOf(role) === -1) {
+            //         this.roles.unshift(role)
+            //     }
+            //
+            // }
         },
         data() {
             return {
-                creditsData: {}
+                creditsData: {},
+                roles: ['Project Lead', 'Research Assistant', 'Project Development', 'Project Consultant', 'Additional Support', 'Past Research Assistant'],
             }
         }
     }

@@ -116,8 +116,8 @@
                <decls_id>p12</decls_id>
                <type>piece</type>
                <title>Harper's Illuminated and Illustrated Edition of Shakespeare</title>
-               <auth_id>cfriggs</auth_id>
-               <auth_name/>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
                <page>394</page>
                <pdf_index>10</pdf_index>
             </p12>
@@ -141,8 +141,8 @@
                <decls_id>p14</decls_id>
                <type>piece</type>
                <title>Satanstoe, or the Littlepage Manuscripts</title>
-               <auth_id>cfriggs</auth_id>
-               <auth_name/>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
                <page>395</page>
                <pdf_index>11</pdf_index>
             </p14>
@@ -150,8 +150,8 @@
                <decls_id>p15</decls_id>
                <type>piece</type>
                <title>Notes, Explanatory and Practical, on the Epistles of Paul</title>
-               <auth_id>cfriggs</auth_id>
-               <auth_name/>
+               <auth_id>cfbriggs</auth_id>
+               <auth_name>Charles Frederick Briggs</auth_name>
                <page>395</page>
                <pdf_index>11</pdf_index>
             </p15>
@@ -549,11 +549,11 @@
             <piecePage>394</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
-               <cfriggs>
-                  <personName> writing anonymously.</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </cfriggs>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p12>
@@ -593,11 +593,11 @@
             <piecePage>395</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
-               <cfriggs>
-                  <personName> writing anonymously.</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
-               </cfriggs>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p14>
@@ -612,11 +612,11 @@
             <piecePage>395</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
-               <cfriggs>
-                  <personName> writing anonymously.</personName>
+               <cfbriggs>
+                  <personName>Charles Frederick Briggs writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is supplied, with low certainty.</authorShip>
-               </cfriggs>
+               </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
       </p15>

@@ -426,8 +426,9 @@
             <br></br>Two bright reflected miniatures of me,
             
             <br></br>That like the new Camera’s
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText">Daguerreotype.</span>
             </span> graphic art,
             
             <br></br>Straightly convey their types into the heart,
@@ -709,8 +710,13 @@
          <div class="biblTitle">The Whole Duty of Woman</div>
          <div class="biblPage">101</div>
          <div class="head">The Whole Duty of Woman.
-            <span class="anchor" id="a002">
-               <a href="#n002"> Link </a>
+            <span class="footnote" id="n002">
+               <span class="footnoteLink">2</span>
+               <span class="footnoteText">We give place to this jeu d'esprit, merely through our sincere respect,
+                  as well for the honesty of intentiou. as for the ability, of its author. We feel
+                  it our duty, nevertheless, to protest aguinst the doctrine advanced. The opi-
+                  nions of our fair correspondent are by no means our own.—ED. B. J.
+               </span>
             </span>
          </div>
          
@@ -2903,13 +2909,15 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001">Daguerreotype.</div>
+      <div class="note" id="n001">
+         <a href="/#/issues/18450823/p3">Daguerreotype.</a>
+      </div>
       
-      <a href="#a002"> Link </a>
-      <div class="note" id="n002">We give place to this jeu d'esprit, merely through our sincere respect,
-         as well for the honesty of intentiou. as for the ability, of its author. We feel
-         it our duty, nevertheless, to protest aguinst the doctrine advanced. The opinions of our fair correspondent are by no means our own.—ED. B. J.
+      <div class="note" id="n002">
+         <a href="/#/issues/18450823/p5">We give place to this jeu d'esprit, merely through our sincere respect,
+            as well for the honesty of intentiou. as for the ability, of its author. We feel
+            it our duty, nevertheless, to protest aguinst the doctrine advanced. The opinions of our fair correspondent are by no means our own.—ED. B. J.
+         </a>
       </div>
       
    </div>

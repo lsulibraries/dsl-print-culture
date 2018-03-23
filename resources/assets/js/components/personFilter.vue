@@ -5,11 +5,10 @@
       </div>
       <div class="roleFilter">
           <div class="roles">
-              <div class="roleFilterContributor"     v-bind:class="{active: roleFilter == 'cont'}" @click="updateRoleFilter('cont')"></div>
-              <div class="roleFilterMentioned"     v-bind:class="{active: roleFilter == 'ment'}" @click="updateRoleFilter('ment')"></div>
-              <div class="roleFilterEditor"        v-bind:class="{active: roleFilter == 'edit'}" @click="updateRoleFilter('edit')"></div>
-              <div class="roleFilterCorrespondent" v-bind:class="{active: roleFilter == 'corr'}" @click="updateRoleFilter('corr')"></div>
-              <!-- <div class="numberFilterContributions" v-bind:class="{active: numFilter == 'num'}" @click="updateRoleFilter('num')">Contribution Number</div> -->
+              <div class="role-filter-indicator">{{ roleIndicator }}</div>
+              <div :id="role" :class="getRoleClass(role)" @click="updateRoleFilter(role)" v-for="role in roles">
+                <div class="roleDescription" @click="updateRoleFilter(role.slice(0,4))">{{ upperCaseWord(role) }}</div>
+              </div>
           </div>
       </div>
   </div>
@@ -17,19 +16,40 @@
 <script>
     export default {
         methods: {
+          getRoleClass: function (role) {
+            const active = this.roleFilter.indexOf(role) != -1 ? ' active' : ''
+            return 'roleFilter' + this.upperCaseWord(role) + active
+          },
             updateFilterString: function () {
                 Event.$emit('filterStringUpdated', this.filterString)
             },
             updateRoleFilter: function (role) {
-                this.roleFilter = role
+              let idx = this.roleFilter.indexOf(role)
+              console.log("index of " + role + " is " + idx)
+                if(idx == -1) {
+                  this.roleFilter.push(role)
+                }
+                else {
+                  this.roleFilter.splice(idx, 1)
+                }
+                console.log(this.roleFilter)
                 Event.$emit('filterRoleUpdated', this.roleFilter)
-            }
+            },
+            upperCaseWord: function (word) {
+              return word.charAt(0).toUpperCase() + word.slice(1)
+            },
         },
         data() {
             return {
                 filterString: '',
-                roleFilter: ''
+                roleFilter: [],
+                roles: ['contributor', 'editor', 'mentioned'],
             }
-        }
+        },
+        computed: {
+          roleIndicator: function () {
+            return this.roleFilter.join(' & ')
+          },
+        },
     }
 </script>

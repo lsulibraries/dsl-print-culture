@@ -125,8 +125,8 @@
                <decls_id>p13</decls_id>
                <type>piece</type>
                <title>The Dying One</title>
-               <auth_id>mlowell</auth_id>
-               <auth_name/>
+               <auth_id>mwlowell</auth_id>
+               <auth_name>Maria White Lowell</auth_name>
                <page>186</page>
                <pdf_index>10</pdf_index>
             </p13>
@@ -569,10 +569,10 @@
             <piecePage>186</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
-               <mlowell>
-                  <personName/>
+               <mwlowell>
+                  <personName>Maria White Lowell</personName>
                   <personPieceRole>Contributor</personPieceRole>
-               </mlowell>
+               </mwlowell>
             </pieceListPerson>
          </pieceMeta>
       </p13>

@@ -1,6 +1,6 @@
 <template>
-    <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[person.personMeta.personRole, {active: activePerson}]">
-        <personMeta :personMeta="person.personMeta"></personMeta>
+    <router-link tag='div' class='person' :to="this.getLink()" v-if="this.passesFilter()" v-bind:class="[this.getRole(), {active: activePerson}]">
+        <personMeta :context="'card'" :totalContrib="this.totalContrib" :personMeta="person.personMeta"></personMeta>
     </router-link>
 </template>
 <script>
@@ -12,7 +12,8 @@
         data() {
             return {
                 filterString: '',
-                filterRole: false,
+                filterRole: [],
+                totalContrib: 0
             }
         },
         computed: {
@@ -25,7 +26,25 @@
         },
         methods: {
             getLink: function () {
+                if (this.$route.params.id == this.person.personMeta.personId) {
+                    return '/authors'
+                }
                 return '/authors/' + this.person.personMeta.personId
+            },
+            getContribCount: function () {
+              if(!this.person.personListBibl) {
+                return
+              }
+              for (const bibl in this.person.personListBibl) {
+                if (this.person.personListBibl[bibl].personPieceMeta && this.person.personListBibl[bibl].personPieceMeta.personPieceRole == 'Contributor') {
+                  this.totalContrib++
+                }
+              }
+            },
+            getRole: function () {
+              if(this.person.personMeta.personRole) {
+                return this.person.personMeta.personRole.replace('Correspondent', 'Contributor')
+              }
             },
             transmitPerson: function () {
                 if(this.activePerson == false){
@@ -54,10 +73,23 @@
                 if(this.person.personMeta.personName.toLowerCase().includes(this.filterString.toLowerCase())){
                     passesString = true
                 }
-                if(!this.filterRole){
+                if(this.filterRole.length == 0){
                     passesRole = true
-                }else if(!this.$root.empty(this.person.personMeta.personRole) && this.person.personMeta.personRole.toLowerCase().includes(this.filterRole.toLowerCase())){
+                }else if(this.filterRole.length == 1 && !this.$root.empty(this.person.personMeta.personRole) && this.filterRole.indexOf(this.person.personMeta.personRole.toLowerCase()) != -1){
                     passesRole = true
+                }
+                else {
+                  if(!this.$root.empty(this.person.personMeta.personRole)) {
+                    const personRoles = this.person.personMeta.personRole.replace('Correspondent', 'Contributor').toLowerCase().split(' ')
+                    let result = true
+                    for(const filter of this.filterRole) {
+                      if(personRoles.indexOf(filter) == -1) {
+                        result = false
+                        break
+                      }
+                    }
+                    passesRole = result
+                  }
                 }
                 return passesString && passesRole
             },
@@ -71,6 +103,8 @@
             }
         },
         created() {
+          this.getContribCount();
+
             Event.$on('emitPerson', (personId) => {
                 if(this.person.personMeta.personId != personId){
                     this.activePerson = false;

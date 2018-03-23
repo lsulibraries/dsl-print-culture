@@ -1,10 +1,12 @@
 <script>
-  import issueMonth from './issueMonth' 
+  import issueMonth from './issueMonth'
   import intraIssueNav from './intraIssueNav'
+  import VueScrollbar from './vue-scrollbar.vue'
+  import vueFooter from './vueFooter'
+
   export default {
     components: {
-      intraIssueNav,
-      issueMonth
+      intraIssueNav, issueMonth, VueScrollbar, vueFooter
     },
     data(){
       return {
@@ -37,7 +39,8 @@
   }
 </script>
 <template>
-            <div v-if="hasData" class="interIssueNav">
+          <vue-scrollbar classes="nav-scrollbar" ref="Scrollbar" v-if="hasData">
+            <div class="interIssueNav">
               <div class="issueMask"></div>
               <div class="issueIndex">
                 <div class="singleIndex">
@@ -46,7 +49,7 @@
                 </div>
                 <issueMonth v-for="month in this.months" :issueIds='lookup(month,"1845")' class="singleIndex" :month="month" ></issueMonth>
               </div>
-              <div class="issueIndex">
+              <div class="issueIndex secondIndex">
                 <div class="singleIndex">
                   <div class="yearText">1846</div>
                   <div class="indicatorYear"></div>
@@ -54,5 +57,7 @@
                 <issueMonth :month='this.months[0]' :issueIds='lookup("JAN","1846")' class="singleIndex"></issueMonth>
               </div>
               <intraIssueNav></intraIssueNav>
+              <vueFooter></vueFooter>
             </div>
+          </vue-scrollbar>
 </template>

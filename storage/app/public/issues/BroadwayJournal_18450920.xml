@@ -175,8 +175,9 @@
             aside this singular bequest; their ex post facto character rendered them abortive; but the attention of a jealous government was aroused, and a decree finally obtained, forbiding all similar accumulations. This act did not
             prevent young Ellison, upon his twenty-first birth-day, from entering into possession, as the heir of his ancestor Seabright, of a fortune of four
             hundred and fifty millions of dollars.
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText"></span>
             </span>
          </p>
          
@@ -2606,18 +2607,19 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
       <div class="note" id="n001">
-         <p>An incident similar in outline to the one here imagined, occurred,
-            not very long ago, in England. The name of the fortunate heir (who
-            still lives,) is Thelluson. I first saw an account of this matter in the
-            “Tour” of Prince Puckler Muskau. He makes the sum received
-            ninety millions of pounds, and observes, with much force, that, “in
-            the contemplation of so vast a sum, and of the services to which it
-            might be applied, there is something even of the sublime.” To suit I
-            the views of this article, I have followed the Prince’s statement—a
-            grossly exaggerated one, no doubt.
-         </p>
+         <a href="/#/issues/18450920/p2">
+            <p>An incident similar in outline to the one here imagined, occurred,
+               not very long ago, in England. The name of the fortunate heir (who
+               still lives,) is Thelluson. I first saw an account of this matter in the
+               “Tour” of Prince Puckler Muskau. He makes the sum received
+               ninety millions of pounds, and observes, with much force, that, “in
+               the contemplation of so vast a sum, and of the services to which it
+               might be applied, there is something even of the sublime.” To suit I
+               the views of this article, I have followed the Prince’s statement—a
+               grossly exaggerated one, no doubt.
+            </p>
+         </a>
       </div>
       
    </div>

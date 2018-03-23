@@ -1,7 +1,8 @@
 <script>
+  import VueScrollbar from 'vue2-scrollbar'    
   import drawer from './drawer'
   export default {
-    components: { drawer },
+    components: { drawer, VueScrollbar },
     data() {
         return {
             authorShipLegend: `Author will have 2-3 a`,
@@ -23,19 +24,19 @@
 
           <div class="modal-header">
             <slot name="header">
-              default header
             </slot>
           </div>
 
           <div class="modal-body">
-            <slot name="body">
-            </slot>
-            <drawer  :authorId="this.authorId" :declsId="this.biblId" :issueId="this.issueId"></drawer>
+            <vue-scrollbar classes="modal-scrollbar" ref="Scrollbar">
+              <slot name="body">
+              </slot>
+              <drawer  :authorId="this.authorId" :declsId="this.biblId" :issueId="this.issueId"></drawer>
+            </vue-scrollbar>
           </div>
 
           <div class="modal-footer">
             <slot name="footer">
-              default footer
               <button class="modal-default-button" @click="$emit('close')">
                 Close
               </button>

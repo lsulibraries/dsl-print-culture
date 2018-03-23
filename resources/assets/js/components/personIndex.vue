@@ -1,17 +1,20 @@
 <template>
   <div class='personIndex' v-if="!this.$root.empty(this.index)">
       <div class="personIndexLabel">Author Index</div>
-      <div class="personIndexInner">
-          <person v-for="personObj in this.index" :person="personObj" v-if="!this.loading"></person>
-          <circle9 v-if="this.loading" :size="'150px'"></circle9>
-      </div>
+      <vue-scrollbar classes="index-scrollbar" ref="Scrollbar">
+        <div class="personIndexInner scroll-me">
+            <person v-for="personObj in this.index" :person="personObj" v-if="!this.loading"></person>
+            <circle9 v-if="this.loading" :size="'150px'"></circle9>
+        </div>
+      </vue-scrollbar>
   </div>
 </template>
 <script>
+    import VueScrollbar from 'vue2-scrollbar';
     import {Circle9} from 'vue-loading-spinner'
     import person from './person'
     export default {
-        components: { Circle9, person },
+        components: { Circle9, person, VueScrollbar },
         data() {
             return {
                 index: {},
@@ -41,6 +44,12 @@
             }
             Event.$on('personographyLoaded', (index) => {
                 this.setupIndex(index.personIndex);
+            })
+            Event.$on('filterStringUpdated', (filterString) => {
+                this.$refs.Scrollbar.scrollToY(0)
+            })
+            Event.$on('filterRoleUpdated', (filterRole) => {
+                this.$refs.Scrollbar.scrollToY(0)
             })
         }
 }

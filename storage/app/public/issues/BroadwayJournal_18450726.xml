@@ -1392,8 +1392,11 @@
          <div class="biblTitle">Israfel</div>
          <div class="biblPage">41</div>
          <div class="head">ISRAFEL.
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText"> And the angel Israfel, whose heart-strings are a lute, and who has the
+                  weetest voice of all God’s creatures.—SALE's KORAN.
+               </span>
             </span>
          </div>
          
@@ -2978,9 +2981,10 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
-      <div class="note" id="n001"> And the angel Israfel, whose heart-strings are a lute, and who has the
-         weetest voice of all God’s creatures.—SALE's KORAN.
+      <div class="note" id="n001">
+         <a href="/#/issues/18450726/p6"> And the angel Israfel, whose heart-strings are a lute, and who has the
+            weetest voice of all God’s creatures.—SALE's KORAN.
+         </a>
       </div>
       
    </div>

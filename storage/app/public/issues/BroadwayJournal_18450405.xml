@@ -807,8 +807,9 @@
          <div class="biblTitle">Rural Architecture</div>
          <div class="biblPage">213</div>
          <div class="head">RURAL ARCHITECTURE.
-            <span class="anchor" id="a001">
-               <a href="#n001"> Link </a>
+            <span class="footnote" id="n001">
+               <span class="footnoteLink">1</span>
+               <span class="footnoteText"></span>
             </span>
          </div>
          
@@ -1458,8 +1459,9 @@
          <p>And at length the period of our nuptials was approaching, when, upon an afternoon in
             the winter of the year,--one of those unseasonably warm, calm, and misty days which
             are the nurse of the beautiful Halcyon,
-            <span class="anchor" id="a002">
-               <a href="#n002"> Link </a>
+            <span class="footnote" id="n002">
+               <span class="footnoteLink">2</span>
+               <span class="footnoteText"></span>
             </span>--I sat, (and sat, as I thought, alone,) in the inner apartment of
             the library. But uplifting my eyes I saw that Berenice stood before me.
          </p>
@@ -2651,23 +2653,25 @@
    </div>
    <div class="back">
       
-      <a href="#a001"> Link </a>
       <div class="note" id="n001">
-         <p>A treatise on the theory and practice of landscape gardening,
-            adapted to North America, 2d edition by 
-            <span class="person" id="ajdowning">A. J. Downing</span>. New York
-            and London,  Wiley and Putnam.--Cottage Residences. A series of
-            designs for rural cottages and cottage villas, by 
-            <span class="person" id="ajdowning">A. J. Downing</span>, 2d edition New York and London, Wiley and Putnam.
-         </p>
+         <a href="/#/issues/18450405/p23">
+            <p>A treatise on the theory and practice of landscape gardening,
+               adapted to North America, 2d edition by 
+               <span class="person" id="ajdowning">A. J. Downing</span>. New York
+               and London,  Wiley and Putnam.--Cottage Residences. A series of
+               designs for rural cottages and cottage villas, by 
+               <span class="person" id="ajdowning">A. J. Downing</span>, 2d edition New York and London, Wiley and Putnam.
+            </p>
+         </a>
       </div>
       
-      <a href="#a002"> Link </a>
       <div class="note" id="n002">
-         <p>For as Jove, during the winter season, gives twice seven days of
-            warmth, men have called this clement and temperate time the nurse
-            of the beautiful Halcyon.--Simonides.
-         </p>
+         <a href="/#/issues/18450405/p28">
+            <p>For as Jove, during the winter season, gives twice seven days of
+               warmth, men have called this clement and temperate time the nurse
+               of the beautiful Halcyon.--Simonides.
+            </p>
+         </a>
       </div>
    </div>
 </div>
