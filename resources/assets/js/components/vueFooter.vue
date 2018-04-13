@@ -8,7 +8,7 @@
                     This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
                   </a>
                   <div class="license-contact">
-                    Contact the <a href='mailto:dsl@lsu.edu' target='_blank'>Digital Scholarship Lab</a> at LSU Libraries with any questions or comments.
+                    Contact the <a href='mailto:dsl@lsu.edu' target='_blank'>Digital Scholarship Lab</a> at LSU Libraries with any questions or comments. “Provide Website Feedback” – <a href='www.lsu.edu/feedback' target='_blank'> www.lsu.edu/feedback </a> “Accessibility Statement” – <a href='www.lsu.edu/accessibility' target='_blank'>www.lsu.edu/accessibility</a>
                   </div>
                 </div>
             </section>
