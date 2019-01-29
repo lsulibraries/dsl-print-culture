@@ -42,7 +42,7 @@
          <type>piece</type>
          <title>Art-Singing and Heart-Singing</title>
          <auth_id>wwhitman</auth_id>
-         <auth_name>Walter Whitman</auth_name>
+         <auth_name>Walt Whitman</auth_name>
          <page>318-319</page>
          <pdf_index>4</pdf_index>
       </p5>
@@ -421,7 +421,7 @@
             <piecePdfIndex>4</piecePdfIndex>
             <pieceListPerson>
                <wwhitman>
-                  <personName>Walter Whitman</personName>
+                  <personName>Walt Whitman</personName>
                   <personPieceRole>Contributor</personPieceRole>
                </wwhitman>
             </pieceListPerson>
