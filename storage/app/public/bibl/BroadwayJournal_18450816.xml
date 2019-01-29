@@ -162,7 +162,7 @@
             <p18>
                <decls_id>p18</decls_id>
                <type>piece</type>
-               <title>Wiley and Putnam’s Library of Choice Reading. No. XVIII</title>
+               <title>Wiley and Putnam's Library of Choice Reading. No. XVIII</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>90</page>
@@ -171,7 +171,7 @@
             <p19>
                <decls_id>p19</decls_id>
                <type>piece</type>
-               <title>Travels in North America in the years 1841—2, with Geological Observations on the United States, Canada, and Nova Scotia.</title>
+               <title>Travels in North America in the years 1841--2, with Geological Observations on the United States, Canada, and Nova Scotia.</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>90</page>
@@ -789,7 +789,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p18</pieceId>
-            <pieceTitle>Wiley and Putnam’s Library of Choice Reading. No. XVIII</pieceTitle>
+            <pieceTitle>Wiley and Putnam's Library of Choice Reading. No. XVIII</pieceTitle>
             <piecePage>90</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
@@ -808,7 +808,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p19</pieceId>
-            <pieceTitle>Travels in North America in the years 1841—2, with Geological Observations on the United States, Canada, and Nova Scotia.</pieceTitle>
+            <pieceTitle>Travels in North America in the years 1841--2, with Geological Observations on the United States, Canada, and Nova Scotia.</pieceTitle>
             <piecePage>90</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>

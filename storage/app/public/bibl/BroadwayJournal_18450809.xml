@@ -121,15 +121,15 @@
                <page>76-78</page>
                <pdf_index>12</pdf_index>
             </p12>
-            <p19>
-               <decls_id>p19</decls_id>
+            <p13>
+               <decls_id>p13</decls_id>
                <type>piece</type>
                <title>Musical and Theatrical Items</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>78</page>
                <pdf_index>14</pdf_index>
-            </p19>
+            </p13>
          </pieces>
       </s4>
       <s2>
@@ -137,37 +137,28 @@
          <type>section</type>
          <title>Editorial Miscellany</title>
          <pieces>
-            <p13>
-               <decls_id>p13</decls_id>
+            <p14>
+               <decls_id>p14</decls_id>
                <type>piece</type>
                <title>Mess. Wm. D. Ticknor and Co.</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>78</page>
                <pdf_index>14</pdf_index>
-            </p13>
-            <p14>
-               <decls_id>p14</decls_id>
+            </p14>
+            <p15>
+               <decls_id>p15</decls_id>
                <type>piece</type>
                <title>Great Preparations</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>78-79</page>
                <pdf_index>14</pdf_index>
-            </p14>
-            <p15>
-               <decls_id>p15</decls_id>
-               <type>piece</type>
-               <title>The Corporation of Harvard University</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>79</page>
-               <pdf_index>15</pdf_index>
             </p15>
             <p16>
                <decls_id>p16</decls_id>
                <type>piece</type>
-               <title>In the "Times"</title>
+               <title>The Corporation of Harvard University</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>79</page>
@@ -176,12 +167,21 @@
             <p17>
                <decls_id>p17</decls_id>
                <type>piece</type>
-               <title>We Find the Following in the Express</title>
+               <title>In the "Times"</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>79</page>
                <pdf_index>15</pdf_index>
             </p17>
+            <p18>
+               <decls_id>p18</decls_id>
+               <type>piece</type>
+               <title>We Find the Following in the Express</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>79</page>
+               <pdf_index>15</pdf_index>
+            </p18>
          </pieces>
       </s2>
       <s3>
@@ -191,13 +191,13 @@
          <page>79-80</page>
          <pdf_index>15</pdf_index>
       </s3>
-      <p18>
-         <decls_id>p18</decls_id>
+      <p19>
+         <decls_id>p19</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>80</page>
          <pdf_index>16</pdf_index>
-      </p18>
+      </p19>
    </toc>
    <issueMeta>
       <issueId>18450809</issueId>
@@ -444,13 +444,13 @@
             </pieceListPerson>
          </pieceMeta>
       </p12>
-      <p19>
+      <p13>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Musical Department</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p19</pieceId>
+            <pieceId>p13</pieceId>
             <pieceTitle>Musical and Theatrical Items</pieceTitle>
             <piecePage>78</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -462,32 +462,13 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p19>
+      </p13>
       <s2>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Editorial Miscellany</sectionTitle>
          </sectionMeta>
       </s2>
-      <p13>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>Editorial Miscellany</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p13</pieceId>
-            <pieceTitle>Mess. Wm. D. Ticknor and Co.</pieceTitle>
-            <piecePage>78</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p13>
       <p14>
          <sectionMeta>
             <sectionId>s2</sectionId>
@@ -495,8 +476,8 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p14</pieceId>
-            <pieceTitle>Great Preparations</pieceTitle>
-            <piecePage>78-79</piecePage>
+            <pieceTitle>Mess. Wm. D. Ticknor and Co.</pieceTitle>
+            <piecePage>78</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -514,9 +495,9 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p15</pieceId>
-            <pieceTitle>The Corporation of Harvard University</pieceTitle>
-            <piecePage>79</piecePage>
-            <piecePdfIndex>15</piecePdfIndex>
+            <pieceTitle>Great Preparations</pieceTitle>
+            <piecePage>78-79</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
@@ -533,7 +514,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p16</pieceId>
-            <pieceTitle>In the "Times"</pieceTitle>
+            <pieceTitle>The Corporation of Harvard University</pieceTitle>
             <piecePage>79</piecePage>
             <piecePdfIndex>15</piecePdfIndex>
             <pieceListPerson>
@@ -552,7 +533,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p17</pieceId>
-            <pieceTitle>We Find the Following in the Express</pieceTitle>
+            <pieceTitle>In the "Times"</pieceTitle>
             <piecePage>79</piecePage>
             <piecePdfIndex>15</piecePdfIndex>
             <pieceListPerson>
@@ -564,6 +545,25 @@
             </pieceListPerson>
          </pieceMeta>
       </p17>
+      <p18>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Editorial Miscellany</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p18</pieceId>
+            <pieceTitle>We Find the Following in the Express</pieceTitle>
+            <piecePage>79</piecePage>
+            <piecePdfIndex>15</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p18>
       <s3>
          <sectionMeta>
             <sectionId>s3</sectionId>
@@ -572,13 +572,13 @@
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
       </s3>
-      <p18>
+      <p19>
          <pieceMeta>
-            <pieceId>p18</pieceId>
+            <pieceId>p19</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>80</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p18>
+      </p19>
    </listBibl>
 </issue>

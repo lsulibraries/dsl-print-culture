@@ -76,114 +76,115 @@
                <page>41-42</page>
                <pdf_index>9</pdf_index>
             </p7>
-            <p17>
-               <decls_id>p17</decls_id>
+            <p8>
+               <decls_id>p8</decls_id>
                <type>piece</type>
                <title>Opening of the Organ</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>42</page>
                <pdf_index>10</pdf_index>
-            </p17>
-            <p18>
-               <decls_id>p18</decls_id>
+            </p8>
+            <p9>
+               <decls_id>p9</decls_id>
                <type>piece</type>
                <title>Musical Review</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>42-43</page>
                <pdf_index>10</pdf_index>
-            </p18>
+            </p9>
          </pieces>
       </s4>
-      <p8>
-         <decls_id>p8</decls_id>
+      <p10>
+         <decls_id>p10</decls_id>
          <type>piece</type>
          <title>The Drama</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>43</page>
          <pdf_index>11</pdf_index>
-      </p8>
+      </p10>
       <s2>
          <decls_id>s2</decls_id>
          <type>section</type>
          <title>The Fine Arts</title>
          <pieces>
-            <p9>
-               <decls_id>p9</decls_id>
+            <p11>
+               <decls_id>p11</decls_id>
                <type>piece</type>
                <title>Joseph Bonaparte's Collection of Paintings</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>43-44</page>
                <pdf_index>11</pdf_index>
-            </p9>
-            <p10>
-               <decls_id>p10</decls_id>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
                <type>piece</type>
                <title>The New York Herald vs. The National Academy of Fine Arts</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>44-45</page>
                <pdf_index>12</pdf_index>
-            </p10>
+            </p12>
          </pieces>
       </s2>
-      <p11>
-         <decls_id>p11</decls_id>
+      <p13>
+         <decls_id>p13</decls_id>
          <type>piece</type>
          <title>Sonnet</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>45</page>
          <pdf_index>13</pdf_index>
-      </p11>
-      <p12>
-         <decls_id>p12</decls_id>
+      </p13>
+      <p14>
+         <decls_id>p14</decls_id>
          <type>piece</type>
          <title>Prison Association</title>
-         <auth_id>anon</auth_id>
-         <auth_name>Anonymous</auth_name>
+         <auth_id>cmkirkland</auth_id>
+         <auth_name>Caroline Mathilda Stansbury
+            Kirkland</auth_name>
          <page>45</page>
          <pdf_index>13</pdf_index>
-      </p12>
-      <p13>
-         <decls_id>p13</decls_id>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
          <type>piece</type>
          <title>Mr. Willis</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>45-46</page>
          <pdf_index>13</pdf_index>
-      </p13>
-      <p14>
-         <decls_id>p14</decls_id>
+      </p15>
+      <p16>
+         <decls_id>p16</decls_id>
          <type>piece</type>
          <title>We are Requested</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>46</page>
          <pdf_index>14</pdf_index>
-      </p14>
-      <p15>
-         <decls_id>p15</decls_id>
+      </p16>
+      <p17>
+         <decls_id>p17</decls_id>
          <type>piece</type>
-         <title>Items—Literary or Scientific</title>
+         <title>Items--Literary or Scientific</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>46</page>
          <pdf_index>14</pdf_index>
-      </p15>
-      <p16>
-         <decls_id>p16</decls_id>
+      </p17>
+      <p18>
+         <decls_id>p18</decls_id>
          <type>piece</type>
          <title>To the Author</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>47</page>
          <pdf_index>15</pdf_index>
-      </p16>
+      </p18>
       <s3>
          <decls_id>s3</decls_id>
          <type>section</type>
@@ -359,13 +360,13 @@
             </pieceListPerson>
          </pieceMeta>
       </p7>
-      <p17>
+      <p8>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Musical Department</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p17</pieceId>
+            <pieceId>p8</pieceId>
             <pieceTitle>Opening of the Organ</pieceTitle>
             <piecePage>42</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
@@ -377,14 +378,14 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p17>
-      <p18>
+      </p8>
+      <p9>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>Musical Department</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p18</pieceId>
+            <pieceId>p9</pieceId>
             <pieceTitle>Musical Review</pieceTitle>
             <piecePage>42-43</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
@@ -396,10 +397,10 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p18>
-      <p8>
+      </p9>
+      <p10>
          <pieceMeta>
-            <pieceId>p8</pieceId>
+            <pieceId>p10</pieceId>
             <pieceTitle>The Drama</pieceTitle>
             <piecePage>43</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -411,20 +412,20 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p8>
+      </p10>
       <s2>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>The Fine Arts</sectionTitle>
          </sectionMeta>
       </s2>
-      <p9>
+      <p11>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>The Fine Arts</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p9</pieceId>
+            <pieceId>p11</pieceId>
             <pieceTitle>Joseph Bonaparte's Collection of Paintings</pieceTitle>
             <piecePage>43-44</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -436,47 +437,17 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p9>
-      <p10>
+      </p11>
+      <p12>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>The Fine Arts</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p10</pieceId>
+            <pieceId>p12</pieceId>
             <pieceTitle>The New York Herald vs. The National Academy of Fine Arts</pieceTitle>
             <piecePage>44-45</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p10>
-      <p11>
-         <pieceMeta>
-            <pieceId>p11</pieceId>
-            <pieceTitle>Sonnet</pieceTitle>
-            <piecePage>45</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing as P.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p11>
-      <p12>
-         <pieceMeta>
-            <pieceId>p12</pieceId>
-            <pieceTitle>Prison Association</pieceTitle>
-            <piecePage>45</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -489,6 +460,36 @@
       <p13>
          <pieceMeta>
             <pieceId>p13</pieceId>
+            <pieceTitle>Sonnet</pieceTitle>
+            <piecePage>45</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing as P.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is inferred, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p13>
+      <p14>
+         <pieceMeta>
+            <pieceId>p14</pieceId>
+            <pieceTitle>Prison Association</pieceTitle>
+            <piecePage>45</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <cmkirkland>
+                  <personName>Caroline Mathilda Stansbury
+            Kirkland</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+               </cmkirkland>
+            </pieceListPerson>
+         </pieceMeta>
+      </p14>
+      <p15>
+         <pieceMeta>
+            <pieceId>p15</pieceId>
             <pieceTitle>Mr. Willis</pieceTitle>
             <piecePage>45-46</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -500,10 +501,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p13>
-      <p14>
+      </p15>
+      <p16>
          <pieceMeta>
-            <pieceId>p14</pieceId>
+            <pieceId>p16</pieceId>
             <pieceTitle>We are Requested</pieceTitle>
             <piecePage>46</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -515,11 +516,11 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p14>
-      <p15>
+      </p16>
+      <p17>
          <pieceMeta>
-            <pieceId>p15</pieceId>
-            <pieceTitle>Items—Literary or Scientific</pieceTitle>
+            <pieceId>p17</pieceId>
+            <pieceTitle>Items--Literary or Scientific</pieceTitle>
             <piecePage>46</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
@@ -530,10 +531,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p15>
-      <p16>
+      </p17>
+      <p18>
          <pieceMeta>
-            <pieceId>p16</pieceId>
+            <pieceId>p18</pieceId>
             <pieceTitle>To the Author</pieceTitle>
             <piecePage>47</piecePage>
             <piecePdfIndex>15</piecePdfIndex>
@@ -545,7 +546,7 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p16>
+      </p18>
       <s3>
          <sectionMeta>
             <sectionId>s3</sectionId>

@@ -231,24 +231,24 @@
          <page>60</page>
          <pdf_index>12</pdf_index>
       </p24>
-      <p27>
-         <decls_id>p27</decls_id>
+      <p25>
+         <decls_id>p25</decls_id>
          <type>piece</type>
          <title>Editorial Miscellany</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>60-63</page>
          <pdf_index>12</pdf_index>
-      </p27>
-      <p25>
-         <decls_id>p25</decls_id>
+      </p25>
+      <p26>
+         <decls_id>p26</decls_id>
          <type>piece</type>
          <title>To Correspondents</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>63</page>
          <pdf_index>15</pdf_index>
-      </p25>
+      </p26>
       <s4>
          <decls_id>s4</decls_id>
          <type>section</type>
@@ -256,13 +256,13 @@
          <page>63-64</page>
          <pdf_index>15</pdf_index>
       </s4>
-      <p26>
-         <decls_id>p26</decls_id>
+      <p27>
+         <decls_id>p27</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>64</page>
          <pdf_index>16</pdf_index>
-      </p26>
+      </p27>
    </toc>
    <issueMeta>
       <issueId>18450802</issueId>
@@ -724,9 +724,9 @@
             </pieceListPerson>
          </pieceMeta>
       </p24>
-      <p27>
+      <p25>
          <pieceMeta>
-            <pieceId>p27</pieceId>
+            <pieceId>p25</pieceId>
             <pieceTitle>Editorial Miscellany</pieceTitle>
             <piecePage>60-63</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -738,10 +738,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p27>
-      <p25>
+      </p25>
+      <p26>
          <pieceMeta>
-            <pieceId>p25</pieceId>
+            <pieceId>p26</pieceId>
             <pieceTitle>To Correspondents</pieceTitle>
             <piecePage>63</piecePage>
             <piecePdfIndex>15</piecePdfIndex>
@@ -753,7 +753,7 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p25>
+      </p26>
       <s4>
          <sectionMeta>
             <sectionId>s4</sectionId>
@@ -762,13 +762,13 @@
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
       </s4>
-      <p26>
+      <p27>
          <pieceMeta>
-            <pieceId>p26</pieceId>
+            <pieceId>p27</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>64</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p26>
+      </p27>
    </listBibl>
 </issue>

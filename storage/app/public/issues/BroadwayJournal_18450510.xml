@@ -960,10 +960,10 @@
             <p>The volume contains all of the Iliad which is usually readat school, as
                preparatory to a collegiate course--sufficientto furnish the student with the principles of Homeric translation and analysis. The text is, in the
                main, that of 
-               <span class="person" id="spitzner">Spitz-ner</span>, which is now generally regarded as the
+               <span class="person" id="fspitzner">Spitz-ner</span>, which is now generally regarded as the
                best;--althoughon some occasions, alterations have been adopted, and the
                reasons given in a note. Besides the regular text of 
-               <span class="person" id="spitzner">Spitzner</span>,there is that
+               <span class="person" id="fspitzner">Spitzner</span>,there is that
                of 
                <span class="person" id="rpknight">Richard Payne Knight</span>, with the digammarestored according to his views. In fact,
                it is by no meansimprobable that this secondary text is at least a close approximation to the ancient orthography of Homer--althoughmany
@@ -983,9 +983,9 @@
                <span class="person" id="fawolf">Wolf</span>,
                
                <span class="person" id="cbheyne">Heyne</span>, 
-               <span class="person" id="buttman">Buttman</span>, 
-               <span class="person" id="nagelsbach ">Na-gelsbach</span>, and 
-               <span class="person" id="stadelmann">Stadelmann</span>, and the Commentary
+               <span class="person" id="pkbuttman">Buttman</span>, 
+               <span class="person" id="cfnagelsbach ">Na-gelsbach</span>, and 
+               <span class="person" id="cfstadelmann">Stadelmann</span>, and the Commentary
                includesevery thing that is really valuable in the works of theseeminent
                scholars. The Glossary is separated from the Notes,--a very judicious
                arrangement--and contains a great dealof novel information in regard to the parsing
@@ -1462,7 +1462,7 @@
          </div>
          
          <div class="ab">Naval Worthies of the Reign of Queen Elizabeth. By 
-            <span class="person" id="jbarron">John Barron</span>,
+            <span class="person" id="jbarrow">John Barron</span>,
             <br></br>Esq.
          </div>
          
@@ -1487,7 +1487,7 @@
          <div class="ab">A Dictionary of Greek and Roman Biography and Mythology. Edi
             <br></br>ted by
             Dr. 
-            <span class="person" id="wsmith">William Smith</span>,Editor of the Dictionary of Greek and
+            <span class="person" id="swsmith">William Smith</span>,Editor of the Dictionary of Greek and
             <br></br>Roman Antiquities--to be
             completed in 3 vols. 8vo.
          </div>
@@ -2754,7 +2754,7 @@
             <p>MEMOIRS OF THE STATESMEN OF THE COMMONWEALTH OFENGLAND. By 
                <span class="person" id="jforster">John Foster</span>. Edited
                by the Rev. 
-               <span class="person" id="iocharles">I. O. Charles</span> of Boston. Five Steel Engravings.
+               <span class="person" id="jochoules">I. O. Charles</span> of Boston. Five Steel Engravings.
             </p>
             
             

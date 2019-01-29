@@ -6,7 +6,7 @@
          <type>piece</type>
          <title>The Tablet of Love</title>
          <auth_id>asphelps</auth_id>
-         <auth_name>A. S. Phelps</auth_name>
+         <auth_name>Annabelle S. Phelps</auth_name>
          <page>97</page>
          <pdf_index>1</pdf_index>
       </p1>
@@ -182,7 +182,7 @@
             <piecePdfIndex>1</piecePdfIndex>
             <pieceListPerson>
                <asphelps>
-                  <personName>A. S. Phelps</personName>
+                  <personName>Annabelle S. Phelps</personName>
                   <personPieceRole>Contributor</personPieceRole>
                </asphelps>
             </pieceListPerson>

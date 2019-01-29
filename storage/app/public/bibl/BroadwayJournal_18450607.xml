@@ -74,10 +74,19 @@
          <type>section</type>
          <title>New Works Lately Received</title>
          <pieces>
+            <p7>
+               <decls_id>p7</decls_id>
+               <type>piece</type>
+               <title>An Explanatory and Phonographic Pronouncing Dictionary of the English Language</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>362</page>
+               <pdf_index>10</pdf_index>
+            </p7>
             <p8>
                <decls_id>p8</decls_id>
                <type>piece</type>
-               <title>An Explanatory and Phonographic Pronouncing Dictionary of the English Language</title>
+               <title>Smith's Weekly Volume</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>362</page>
@@ -86,7 +95,7 @@
             <p9>
                <decls_id>p9</decls_id>
                <type>piece</type>
-               <title>Smith's Weekly Volume</title>
+               <title>Manual of Orthopedic Surgery</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>362</page>
@@ -95,7 +104,7 @@
             <p10>
                <decls_id>p10</decls_id>
                <type>piece</type>
-               <title>Manual of Orthopedic Surgery</title>
+               <title>Richardsiana</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>362</page>
@@ -104,25 +113,25 @@
             <p11>
                <decls_id>p11</decls_id>
                <type>piece</type>
-               <title>Richardsiana</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>362</page>
-               <pdf_index>10</pdf_index>
-            </p11>
-            <p12>
-               <decls_id>p12</decls_id>
-               <type>piece</type>
                <title>The Bustle: A Philosophical and Moral Poem</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>362-363</page>
                <pdf_index>10</pdf_index>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
+               <type>piece</type>
+               <title>The Complete Evangelist and The Quaker City</title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
+               <page>363</page>
+               <pdf_index>11</pdf_index>
             </p12>
             <p13>
                <decls_id>p13</decls_id>
                <type>piece</type>
-               <title>The Complete Evangelist and The Quaker City</title>
+               <title>The Mysteries of Berlin</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -131,7 +140,7 @@
             <p14>
                <decls_id>p14</decls_id>
                <type>piece</type>
-               <title>The Mysteries of Berlin</title>
+               <title>Eveline Neville</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -140,7 +149,7 @@
             <p15>
                <decls_id>p15</decls_id>
                <type>piece</type>
-               <title>Eveline Neville</title>
+               <title>The Progress of Passion</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -149,7 +158,7 @@
             <p16>
                <decls_id>p16</decls_id>
                <type>piece</type>
-               <title>The Progress of Passion</title>
+               <title>The Crescent and the Cross</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -158,7 +167,7 @@
             <p17>
                <decls_id>p17</decls_id>
                <type>piece</type>
-               <title>The Crescent and the Cross</title>
+               <title>Lives of Men of Letters and Science Who Flourished in the Time of George III</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -167,7 +176,7 @@
             <p18>
                <decls_id>p18</decls_id>
                <type>piece</type>
-               <title>Lives of Men of Letters and Science Who Flourished in the Time of George III</title>
+               <title>Vital Christianity</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -176,7 +185,7 @@
             <p19>
                <decls_id>p19</decls_id>
                <type>piece</type>
-               <title>Vital Christianity</title>
+               <title>Kohlrausch's History of Germany, No. 5</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -185,7 +194,7 @@
             <p20>
                <decls_id>p20</decls_id>
                <type>piece</type>
-               <title>Kohlrausch's History of Germany, No. 5</title>
+               <title>The Sibyl's Book of Fate, The Young Bride's Book, and The Comic English Grammar</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -194,7 +203,7 @@
             <p21>
                <decls_id>p21</decls_id>
                <type>piece</type>
-               <title>The Sibyl's Book of Fate, The Young Bride's Book, and The Comic English Grammar</title>
+               <title>The Knickerbocker Sketch Book</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>363</page>
@@ -203,86 +212,77 @@
             <p22>
                <decls_id>p22</decls_id>
                <type>piece</type>
-               <title>The Knickerbocker Sketch Book</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>363</page>
-               <pdf_index>11</pdf_index>
-            </p22>
-            <p23>
-               <decls_id>p23</decls_id>
-               <type>piece</type>
                <title>De Rohan, the Court Conspirator</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>363</page>
                <pdf_index>11</pdf_index>
-            </p23>
+            </p22>
          </pieces>
       </s3>
-      <p24>
-         <decls_id>p24</decls_id>
+      <p23>
+         <decls_id>p23</decls_id>
          <type>piece</type>
          <title>Magazines and Reviews</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>363-364</page>
          <pdf_index>11</pdf_index>
-      </p24>
-      <p25>
-         <decls_id>p25</decls_id>
+      </p23>
+      <p24>
+         <decls_id>p24</decls_id>
          <type>piece</type>
          <title>The Fine Arts</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>364</page>
          <pdf_index>12</pdf_index>
-      </p25>
-      <p26>
-         <decls_id>p26</decls_id>
+      </p24>
+      <p25>
+         <decls_id>p25</decls_id>
          <type>piece</type>
          <title>Musical Items</title>
          <auth_id>hcwatson</auth_id>
          <auth_name>Henry Cood Watson</auth_name>
          <page>364</page>
          <pdf_index>12</pdf_index>
-      </p26>
-      <p27>
-         <decls_id>p27</decls_id>
+      </p25>
+      <p26>
+         <decls_id>p26</decls_id>
          <type>piece</type>
          <title>The Grave of L.E.L.</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>365</page>
          <pdf_index>13</pdf_index>
-      </p27>
-      <p28>
-         <decls_id>p28</decls_id>
+      </p26>
+      <p27>
+         <decls_id>p27</decls_id>
          <type>piece</type>
          <title>A Perfect Lady</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>365-366</page>
          <pdf_index>13</pdf_index>
-      </p28>
-      <p29>
-         <decls_id>p29</decls_id>
+      </p27>
+      <p28>
+         <decls_id>p28</decls_id>
          <type>piece</type>
          <title>Miscellany</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>366</page>
          <pdf_index>14</pdf_index>
-      </p29>
-      <p30>
-         <decls_id>p30</decls_id>
+      </p28>
+      <p29>
+         <decls_id>p29</decls_id>
          <type>piece</type>
          <title>List of New Books Published in England</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>366</page>
          <pdf_index>14</pdf_index>
-      </p30>
+      </p29>
       <s4>
          <decls_id>s4</decls_id>
          <type>section</type>
@@ -290,13 +290,13 @@
          <page>367-368</page>
          <pdf_index>15</pdf_index>
       </s4>
-      <p31>
-         <decls_id>p31</decls_id>
+      <p30>
+         <decls_id>p30</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>368</page>
          <pdf_index>16</pdf_index>
-      </p31>
+      </p30>
    </toc>
    <issueMeta>
       <issueId>18450607</issueId>
@@ -445,6 +445,25 @@
             <sectionTitle>New Works Lately Received</sectionTitle>
          </sectionMeta>
       </s3>
+      <p7>
+         <sectionMeta>
+            <sectionId>s3</sectionId>
+            <sectionTitle>New Works Lately Received</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p7</pieceId>
+            <pieceTitle>An Explanatory and Phonographic Pronouncing Dictionary of the English Language</pieceTitle>
+            <piecePage>362</piecePage>
+            <piecePdfIndex>10</piecePdfIndex>
+            <pieceListPerson>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
+               </eapoe>
+            </pieceListPerson>
+         </pieceMeta>
+      </p7>
       <p8>
          <sectionMeta>
             <sectionId>s3</sectionId>
@@ -452,7 +471,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p8</pieceId>
-            <pieceTitle>An Explanatory and Phonographic Pronouncing Dictionary of the English Language</pieceTitle>
+            <pieceTitle>Smith's Weekly Volume</pieceTitle>
             <piecePage>362</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
@@ -471,7 +490,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p9</pieceId>
-            <pieceTitle>Smith's Weekly Volume</pieceTitle>
+            <pieceTitle>Manual of Orthopedic Surgery</pieceTitle>
             <piecePage>362</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
@@ -490,7 +509,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p10</pieceId>
-            <pieceTitle>Manual of Orthopedic Surgery</pieceTitle>
+            <pieceTitle>Richardsiana</pieceTitle>
             <piecePage>362</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
@@ -509,8 +528,8 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p11</pieceId>
-            <pieceTitle>Richardsiana</pieceTitle>
-            <piecePage>362</piecePage>
+            <pieceTitle>The Bustle: A Philosophical and Moral Poem</pieceTitle>
+            <piecePage>362-363</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
@@ -528,9 +547,9 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p12</pieceId>
-            <pieceTitle>The Bustle: A Philosophical and Moral Poem</pieceTitle>
-            <piecePage>362-363</piecePage>
-            <piecePdfIndex>10</piecePdfIndex>
+            <pieceTitle>The Complete Evangelist and The Quaker City</pieceTitle>
+            <piecePage>363</piecePage>
+            <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
                <eapoe>
                   <personName>Edgar Allan Poe writing anonymously.</personName>
@@ -547,7 +566,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p13</pieceId>
-            <pieceTitle>The Complete Evangelist and The Quaker City</pieceTitle>
+            <pieceTitle>The Mysteries of Berlin</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
@@ -566,7 +585,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p14</pieceId>
-            <pieceTitle>The Mysteries of Berlin</pieceTitle>
+            <pieceTitle>Eveline Neville</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
@@ -585,7 +604,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p15</pieceId>
-            <pieceTitle>Eveline Neville</pieceTitle>
+            <pieceTitle>The Progress of Passion</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
@@ -604,7 +623,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p16</pieceId>
-            <pieceTitle>The Progress of Passion</pieceTitle>
+            <pieceTitle>The Crescent and the Cross</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
@@ -623,7 +642,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p17</pieceId>
-            <pieceTitle>The Crescent and the Cross</pieceTitle>
+            <pieceTitle>Lives of Men of Letters and Science Who Flourished in the Time of George III</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
@@ -642,7 +661,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p18</pieceId>
-            <pieceTitle>Lives of Men of Letters and Science Who Flourished in the Time of George III</pieceTitle>
+            <pieceTitle>Vital Christianity</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
             <pieceListPerson>
@@ -661,25 +680,6 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p19</pieceId>
-            <pieceTitle>Vital Christianity</pieceTitle>
-            <piecePage>363</piecePage>
-            <piecePdfIndex>11</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with high certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p19>
-      <p20>
-         <sectionMeta>
-            <sectionId>s3</sectionId>
-            <sectionTitle>New Works Lately Received</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p20</pieceId>
             <pieceTitle>Kohlrausch's History of Germany, No. 5</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -691,14 +691,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p20>
-      <p21>
+      </p19>
+      <p20>
          <sectionMeta>
             <sectionId>s3</sectionId>
             <sectionTitle>New Works Lately Received</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p21</pieceId>
+            <pieceId>p20</pieceId>
             <pieceTitle>The Sibyl's Book of Fate, The Young Bride's Book, and The Comic English Grammar</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -710,14 +710,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p21>
-      <p22>
+      </p20>
+      <p21>
          <sectionMeta>
             <sectionId>s3</sectionId>
             <sectionTitle>New Works Lately Received</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p22</pieceId>
+            <pieceId>p21</pieceId>
             <pieceTitle>The Knickerbocker Sketch Book</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -729,14 +729,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p22>
-      <p23>
+      </p21>
+      <p22>
          <sectionMeta>
             <sectionId>s3</sectionId>
             <sectionTitle>New Works Lately Received</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p23</pieceId>
+            <pieceId>p22</pieceId>
             <pieceTitle>De Rohan, the Court Conspirator</pieceTitle>
             <piecePage>363</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -748,10 +748,10 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p23>
-      <p24>
+      </p22>
+      <p23>
          <pieceMeta>
-            <pieceId>p24</pieceId>
+            <pieceId>p23</pieceId>
             <pieceTitle>Magazines and Reviews</pieceTitle>
             <piecePage>363-364</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -763,10 +763,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p24>
-      <p25>
+      </p23>
+      <p24>
          <pieceMeta>
-            <pieceId>p25</pieceId>
+            <pieceId>p24</pieceId>
             <pieceTitle>The Fine Arts</pieceTitle>
             <piecePage>364</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -778,10 +778,10 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p25>
-      <p26>
+      </p24>
+      <p25>
          <pieceMeta>
-            <pieceId>p26</pieceId>
+            <pieceId>p25</pieceId>
             <pieceTitle>Musical Items</pieceTitle>
             <piecePage>364</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -793,10 +793,10 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p26>
-      <p27>
+      </p25>
+      <p26>
          <pieceMeta>
-            <pieceId>p27</pieceId>
+            <pieceId>p26</pieceId>
             <pieceTitle>The Grave of L.E.L.</pieceTitle>
             <piecePage>365</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -808,13 +808,28 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
+      </p26>
+      <p27>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>A Perfect Lady</pieceTitle>
+            <piecePage>365-366</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
       </p27>
       <p28>
          <pieceMeta>
             <pieceId>p28</pieceId>
-            <pieceTitle>A Perfect Lady</pieceTitle>
-            <piecePage>365-366</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
+            <pieceTitle>Miscellany</pieceTitle>
+            <piecePage>366</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -827,21 +842,6 @@
       <p29>
          <pieceMeta>
             <pieceId>p29</pieceId>
-            <pieceTitle>Miscellany</pieceTitle>
-            <piecePage>366</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p29>
-      <p30>
-         <pieceMeta>
-            <pieceId>p30</pieceId>
             <pieceTitle>List of New Books Published in England</pieceTitle>
             <piecePage>366</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -853,7 +853,7 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p30>
+      </p29>
       <s4>
          <sectionMeta>
             <sectionId>s4</sectionId>
@@ -862,13 +862,13 @@
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
       </s4>
-      <p31>
+      <p30>
          <pieceMeta>
-            <pieceId>p31</pieceId>
+            <pieceId>p30</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>368</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p31>
+      </p30>
    </listBibl>
 </issue>

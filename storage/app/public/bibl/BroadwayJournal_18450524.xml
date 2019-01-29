@@ -204,33 +204,33 @@
          <page>333</page>
          <pdf_index>13</pdf_index>
       </p21>
-      <p26>
-         <decls_id>p26</decls_id>
+      <p22>
+         <decls_id>p22</decls_id>
          <type>piece</type>
          <title>Miscellany</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>333-334</page>
          <pdf_index>13</pdf_index>
-      </p26>
-      <p22>
-         <decls_id>p22</decls_id>
+      </p22>
+      <p23>
+         <decls_id>p23</decls_id>
          <type>piece</type>
          <title>Works Issued in London and Edinburgh</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>334</page>
          <pdf_index>14</pdf_index>
-      </p22>
-      <p23>
-         <decls_id>p23</decls_id>
+      </p23>
+      <p24>
+         <decls_id>p24</decls_id>
          <type>piece</type>
          <title>Notice to Correspondents</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>334</page>
          <pdf_index>14</pdf_index>
-      </p23>
+      </p24>
       <s3>
          <decls_id>s3</decls_id>
          <type>section</type>
@@ -238,24 +238,24 @@
          <page>335-336</page>
          <pdf_index>15</pdf_index>
       </s3>
-      <p24>
-         <decls_id>p24</decls_id>
+      <p25>
+         <decls_id>p25</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>336</page>
          <pdf_index>16</pdf_index>
-      </p24>
-      <p25>
-         <decls_id>p25</decls_id>
+      </p25>
+      <p26>
+         <decls_id>p26</decls_id>
          <type>piece</type>
          <title>John Douglas</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>336</page>
          <pdf_index>16</pdf_index>
-      </p25>
+      </p26>
    </toc>
    <issueMeta>
       <issueId>18450524</issueId>
@@ -657,27 +657,12 @@
             </pieceListPerson>
          </pieceMeta>
       </p21>
-      <p26>
-         <pieceMeta>
-            <pieceId>p26</pieceId>
-            <pieceTitle>Miscellany</pieceTitle>
-            <piecePage>333-334</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p26>
       <p22>
          <pieceMeta>
             <pieceId>p22</pieceId>
-            <pieceTitle>Works Issued in London and Edinburgh</pieceTitle>
-            <piecePage>334</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceTitle>Miscellany</pieceTitle>
+            <piecePage>333-334</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -690,7 +675,7 @@
       <p23>
          <pieceMeta>
             <pieceId>p23</pieceId>
-            <pieceTitle>Notice to Correspondents</pieceTitle>
+            <pieceTitle>Works Issued in London and Edinburgh</pieceTitle>
             <piecePage>334</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
@@ -702,6 +687,21 @@
             </pieceListPerson>
          </pieceMeta>
       </p23>
+      <p24>
+         <pieceMeta>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Notice to Correspondents</pieceTitle>
+            <piecePage>334</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p24>
       <s3>
          <sectionMeta>
             <sectionId>s3</sectionId>
@@ -710,9 +710,9 @@
             <sectionPdfIndex>15</sectionPdfIndex>
          </sectionMeta>
       </s3>
-      <p24>
+      <p25>
          <pieceMeta>
-            <pieceId>p24</pieceId>
+            <pieceId>p25</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>336</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
@@ -724,10 +724,10 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p24>
-      <p25>
+      </p25>
+      <p26>
          <pieceMeta>
-            <pieceId>p25</pieceId>
+            <pieceId>p26</pieceId>
             <pieceTitle>John Douglas</pieceTitle>
             <piecePage>336</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
@@ -739,6 +739,6 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p25>
+      </p26>
    </listBibl>
 </issue>

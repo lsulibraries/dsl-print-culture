@@ -13,7 +13,7 @@
       <p2>
          <decls_id>p2</decls_id>
          <type>piece</type>
-         <title>Letter to the Broadway Journal</title>
+         <title>Letter to the  Broadway Journal</title>
          <auth_id>phaedi</auth_id>
          <auth_name>Pater Haedi</auth_name>
          <page>373-374</page>
@@ -103,125 +103,98 @@
                <page>379</page>
                <pdf_index>11</pdf_index>
             </p10>
-            <p26>
-               <decls_id>p26</decls_id>
+            <p11>
+               <decls_id>p11</decls_id>
                <type>piece</type>
                <title>Self</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>379</page>
                <pdf_index>11</pdf_index>
-            </p26>
-            <p27>
-               <decls_id>p27</decls_id>
+            </p11>
+            <p12>
+               <decls_id>p12</decls_id>
                <type>piece</type>
                <title>The Waverly Novels</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>379</page>
                <pdf_index>11</pdf_index>
-            </p27>
-            <p28>
-               <decls_id>p28</decls_id>
+            </p12>
+            <p13>
+               <decls_id>p13</decls_id>
                <type>piece</type>
                <title>Veronica</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>379</page>
                <pdf_index>11</pdf_index>
-            </p28>
+            </p13>
          </pieces>
       </s4>
-      <p11>
-         <decls_id>p11</decls_id>
+      <p14>
+         <decls_id>p14</decls_id>
          <type>piece</type>
          <title>Translation of an Ode of Sappho</title>
          <auth_id>mehewitt</auth_id>
          <auth_name>Mary Elizabeth Hewitt</auth_name>
          <page>379</page>
          <pdf_index>11</pdf_index>
-      </p11>
-      <p12>
-         <decls_id>p12</decls_id>
+      </p14>
+      <p15>
+         <decls_id>p15</decls_id>
          <type>piece</type>
          <title>The New Opera at Philadelphia</title>
          <auth_id>hcwatson</auth_id>
          <auth_name>Henry Cood Watson</auth_name>
          <page>380-381</page>
          <pdf_index>12</pdf_index>
-      </p12>
+      </p15>
       <s2>
          <decls_id>s2</decls_id>
          <type>section</type>
          <title>Miscellanies</title>
          <pieces>
-            <p13>
-               <decls_id>p13</decls_id>
+            <p16>
+               <decls_id>p16</decls_id>
                <type>piece</type>
-               <title>The Old Masters in England</title>
+               <title>The Old Masters in  England </title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>381</page>
                <pdf_index>13</pdf_index>
-            </p13>
-            <p14>
-               <decls_id>p14</decls_id>
+            </p16>
+            <p17>
+               <decls_id>p17</decls_id>
                <type>piece</type>
                <title>A Passionate Lover of Flowers</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>381</page>
                <pdf_index>13</pdf_index>
-            </p14>
-            <p15>
-               <decls_id>p15</decls_id>
+            </p17>
+            <p18>
+               <decls_id>p18</decls_id>
                <type>piece</type>
                <title>We Stated Last Week</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>381</page>
                <pdf_index>13</pdf_index>
-            </p15>
-            <p16>
-               <decls_id>p16</decls_id>
+            </p18>
+            <p19>
+               <decls_id>p19</decls_id>
                <type>piece</type>
                <title>The Profits of Novels</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>381-382</page>
                <pdf_index>13</pdf_index>
-            </p16>
-            <p17>
-               <decls_id>p17</decls_id>
-               <type>piece</type>
-               <title>Improvement in Broadway</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
-               <page>382</page>
-               <pdf_index>14</pdf_index>
-            </p17>
-            <p18>
-               <decls_id>p18</decls_id>
-               <type>piece</type>
-               <title>The Poetry of Europe</title>
-               <auth_id>eapoe</auth_id>
-               <auth_name>Edgar Allan Poe</auth_name>
-               <page>382</page>
-               <pdf_index>14</pdf_index>
-            </p18>
-            <p19>
-               <decls_id>p19</decls_id>
-               <type>piece</type>
-               <title>The Spread of Alleghanianism</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
-               <page>382</page>
-               <pdf_index>14</pdf_index>
             </p19>
             <p20>
                <decls_id>p20</decls_id>
                <type>piece</type>
-               <title>The French Company</title>
+               <title>Improvement in Broadway </title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>382</page>
@@ -230,41 +203,68 @@
             <p21>
                <decls_id>p21</decls_id>
                <type>piece</type>
-               <title>M. Huber</title>
-               <auth_id>anon</auth_id>
-               <auth_name>Anonymous</auth_name>
+               <title>The Poetry of Europe </title>
+               <auth_id>eapoe</auth_id>
+               <auth_name>Edgar Allan Poe</auth_name>
                <page>382</page>
                <pdf_index>14</pdf_index>
             </p21>
             <p22>
                <decls_id>p22</decls_id>
                <type>piece</type>
-               <title>Mr. Tryon</title>
+               <title>The Spread of Alleghanianism</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>382</page>
                <pdf_index>14</pdf_index>
             </p22>
+            <p23>
+               <decls_id>p23</decls_id>
+               <type>piece</type>
+               <title>The French Company</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>382</page>
+               <pdf_index>14</pdf_index>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
+               <type>piece</type>
+               <title>M. Huber</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>382</page>
+               <pdf_index>14</pdf_index>
+            </p24>
+            <p25>
+               <decls_id>p25</decls_id>
+               <type>piece</type>
+               <title>Mr. Tryon</title>
+               <auth_id>anon</auth_id>
+               <auth_name>Anonymous</auth_name>
+               <page>382</page>
+               <pdf_index>14</pdf_index>
+            </p25>
          </pieces>
       </s2>
-      <p23>
-         <decls_id>p23</decls_id>
+      <p26>
+         <decls_id>p26</decls_id>
          <type>piece</type>
          <title>Obituary</title>
          <auth_id>r</auth_id>
          <auth_name>R.</auth_name>
          <page>382</page>
          <pdf_index>14</pdf_index>
-      </p23>
-      <p24>
-         <decls_id>p24</decls_id>
+      </p26>
+      <p27>
+         <decls_id>p27</decls_id>
          <type>piece</type>
          <title>Books in Press</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>382</page>
          <pdf_index>14</pdf_index>
-      </p24>
+      </p27>
       <s3>
          <decls_id>s3</decls_id>
          <type>section</type>
@@ -272,17 +272,17 @@
          <page>382-384</page>
          <pdf_index>14</pdf_index>
       </s3>
-      <p25>
-         <decls_id>p25</decls_id>
+      <p28>
+         <decls_id>p28</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>384</page>
          <pdf_index>16</pdf_index>
-      </p25>
+      </p28>
    </toc>
    <issueMeta>
       <issueId>18450614</issueId>
-      <issueTitle>The Broadway Journal</issueTitle>
+      <issueTitle>The  Broadway Journal</issueTitle>
       <issueVol>1</issueVol>
       <issueNum>24</issueNum>
       <issueDate>June 14, 1845</issueDate>
@@ -327,7 +327,7 @@
       <p2>
          <pieceMeta>
             <pieceId>p2</pieceId>
-            <pieceTitle>Letter to the Broadway Journal</pieceTitle>
+            <pieceTitle>Letter to the  Broadway Journal</pieceTitle>
             <piecePage>373-374</piecePage>
             <piecePdfIndex>5</piecePdfIndex>
             <pieceListPerson>
@@ -491,13 +491,13 @@
             </pieceListPerson>
          </pieceMeta>
       </p10>
-      <p26>
+      <p11>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>New Works Lately Received</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p26</pieceId>
+            <pieceId>p11</pieceId>
             <pieceTitle>Self</pieceTitle>
             <piecePage>379</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -509,14 +509,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p26>
-      <p27>
+      </p11>
+      <p12>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>New Works Lately Received</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p27</pieceId>
+            <pieceId>p12</pieceId>
             <pieceTitle>The Waverly Novels</pieceTitle>
             <piecePage>379</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -528,14 +528,14 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p27>
-      <p28>
+      </p12>
+      <p13>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>New Works Lately Received</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p28</pieceId>
+            <pieceId>p13</pieceId>
             <pieceTitle>Veronica</pieceTitle>
             <piecePage>379</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -547,10 +547,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p28>
-      <p11>
+      </p13>
+      <p14>
          <pieceMeta>
-            <pieceId>p11</pieceId>
+            <pieceId>p14</pieceId>
             <pieceTitle>Translation of an Ode of Sappho</pieceTitle>
             <piecePage>379</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -561,10 +561,10 @@
                </mehewitt>
             </pieceListPerson>
          </pieceMeta>
-      </p11>
-      <p12>
+      </p14>
+      <p15>
          <pieceMeta>
-            <pieceId>p12</pieceId>
+            <pieceId>p15</pieceId>
             <pieceTitle>The New Opera at Philadelphia</pieceTitle>
             <piecePage>380-381</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -576,70 +576,13 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p12>
+      </p15>
       <s2>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Miscellanies</sectionTitle>
          </sectionMeta>
       </s2>
-      <p13>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>Miscellanies</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p13</pieceId>
-            <pieceTitle>The Old Masters in England</pieceTitle>
-            <piecePage>381</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p13>
-      <p14>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>Miscellanies</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p14</pieceId>
-            <pieceTitle>A Passionate Lover of Flowers</pieceTitle>
-            <piecePage>381</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
-            <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
-            </pieceListPerson>
-         </pieceMeta>
-      </p14>
-      <p15>
-         <sectionMeta>
-            <sectionId>s2</sectionId>
-            <sectionTitle>Miscellanies</sectionTitle>
-         </sectionMeta>
-         <pieceMeta>
-            <pieceId>p15</pieceId>
-            <pieceTitle>We Stated Last Week</pieceTitle>
-            <piecePage>381</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p15>
       <p16>
          <sectionMeta>
             <sectionId>s2</sectionId>
@@ -647,8 +590,8 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p16</pieceId>
-            <pieceTitle>The Profits of Novels</pieceTitle>
-            <piecePage>381-382</piecePage>
+            <pieceTitle>The Old Masters in  England </pieceTitle>
+            <piecePage>381</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <anon>
@@ -666,15 +609,15 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p17</pieceId>
-            <pieceTitle>Improvement in Broadway</pieceTitle>
-            <piecePage>382</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceTitle>A Passionate Lover of Flowers</pieceTitle>
+            <piecePage>381</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
             </pieceListPerson>
          </pieceMeta>
       </p17>
@@ -685,15 +628,15 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p18</pieceId>
-            <pieceTitle>The Poetry of Europe</pieceTitle>
-            <piecePage>382</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceTitle>We Stated Last Week</pieceTitle>
+            <piecePage>381</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
-               <eapoe>
-                  <personName>Edgar Allan Poe writing anonymously.</personName>
+               <anon>
+                  <personName>Anonymous</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
-               </eapoe>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
             </pieceListPerson>
          </pieceMeta>
       </p18>
@@ -704,9 +647,9 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p19</pieceId>
-            <pieceTitle>The Spread of Alleghanianism</pieceTitle>
-            <piecePage>382</piecePage>
-            <piecePdfIndex>14</piecePdfIndex>
+            <pieceTitle>The Profits of Novels</pieceTitle>
+            <piecePage>381-382</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -723,7 +666,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p20</pieceId>
-            <pieceTitle>The French Company</pieceTitle>
+            <pieceTitle>Improvement in Broadway </pieceTitle>
             <piecePage>382</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
@@ -742,15 +685,15 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p21</pieceId>
-            <pieceTitle>M. Huber</pieceTitle>
+            <pieceTitle>The Poetry of Europe </pieceTitle>
             <piecePage>382</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
+               <eapoe>
+                  <personName>Edgar Allan Poe writing anonymously.</personName>
                   <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
+                  <authorShip>Authorship is supplied, with medium certainty.</authorShip>
+               </eapoe>
             </pieceListPerson>
          </pieceMeta>
       </p21>
@@ -761,7 +704,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p22</pieceId>
-            <pieceTitle>Mr. Tryon</pieceTitle>
+            <pieceTitle>The Spread of Alleghanianism</pieceTitle>
             <piecePage>382</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
@@ -774,24 +717,32 @@
          </pieceMeta>
       </p22>
       <p23>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellanies</sectionTitle>
+         </sectionMeta>
          <pieceMeta>
             <pieceId>p23</pieceId>
-            <pieceTitle>Obituary</pieceTitle>
+            <pieceTitle>The French Company</pieceTitle>
             <piecePage>382</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
-               <r>
-                  <personName>R.</personName>
+               <anon>
+                  <personName>Anonymous</personName>
                   <personPieceRole>Contributor</personPieceRole>
                   <authorShip>Authorship is unknown.</authorShip>
-               </r>
+               </anon>
             </pieceListPerson>
          </pieceMeta>
       </p23>
       <p24>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellanies</sectionTitle>
+         </sectionMeta>
          <pieceMeta>
             <pieceId>p24</pieceId>
-            <pieceTitle>Books in Press</pieceTitle>
+            <pieceTitle>M. Huber</pieceTitle>
             <piecePage>382</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
@@ -803,6 +754,55 @@
             </pieceListPerson>
          </pieceMeta>
       </p24>
+      <p25>
+         <sectionMeta>
+            <sectionId>s2</sectionId>
+            <sectionTitle>Miscellanies</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>Mr. Tryon</pieceTitle>
+            <piecePage>382</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
+      <p26>
+         <pieceMeta>
+            <pieceId>p26</pieceId>
+            <pieceTitle>Obituary</pieceTitle>
+            <piecePage>382</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <r>
+                  <personName>R.</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </r>
+            </pieceListPerson>
+         </pieceMeta>
+      </p26>
+      <p27>
+         <pieceMeta>
+            <pieceId>p27</pieceId>
+            <pieceTitle>Books in Press</pieceTitle>
+            <piecePage>382</piecePage>
+            <piecePdfIndex>14</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p27>
       <s3>
          <sectionMeta>
             <sectionId>s3</sectionId>
@@ -811,13 +811,13 @@
             <sectionPdfIndex>14</sectionPdfIndex>
          </sectionMeta>
       </s3>
-      <p25>
+      <p28>
          <pieceMeta>
-            <pieceId>p25</pieceId>
+            <pieceId>p28</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>384</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p25>
+      </p28>
    </listBibl>
 </issue>

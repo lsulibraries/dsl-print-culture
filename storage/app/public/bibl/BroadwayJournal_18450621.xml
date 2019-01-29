@@ -83,7 +83,7 @@
       <p9>
          <decls_id>p9</decls_id>
          <type>piece</type>
-         <title>Thorwaldsen’s Statue of Byron</title>
+         <title>Thorwaldsen's Statue of Byron</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>391-392</page>
@@ -229,76 +229,76 @@
             </p23>
          </pieces>
       </s3>
-      <p25>
-         <decls_id>p25</decls_id>
+      <p24>
+         <decls_id>p24</decls_id>
          <type>piece</type>
-         <title>Number One’s</title>
+         <title>Number One's</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>396</page>
          <pdf_index>12</pdf_index>
-      </p25>
+      </p24>
       <s4>
          <decls_id>s4</decls_id>
          <type>section</type>
          <title>The Fine Arts</title>
          <pieces>
-            <p26>
-               <decls_id>p26</decls_id>
+            <p25>
+               <decls_id>p25</decls_id>
                <type>piece</type>
                <title>We Have Seen a Proof Impression</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>396-397</page>
                <pdf_index>12</pdf_index>
-            </p26>
-            <p27>
-               <decls_id>p27</decls_id>
+            </p25>
+            <p26>
+               <decls_id>p26</decls_id>
                <type>piece</type>
                <title>A New Painting</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>397</page>
                <pdf_index>13</pdf_index>
-            </p27>
-            <p28>
-               <decls_id>p28</decls_id>
+            </p26>
+            <p27>
+               <decls_id>p27</decls_id>
                <type>piece</type>
                <title>Mr. E. L. Carey</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>396</page>
                <pdf_index>12</pdf_index>
-            </p28>
-            <p29>
-               <decls_id>p29</decls_id>
+            </p27>
+            <p28>
+               <decls_id>p28</decls_id>
                <type>piece</type>
                <title>Horace Kneeland</title>
                <auth_id>anon</auth_id>
                <auth_name>Anonymous</auth_name>
                <page>396</page>
                <pdf_index>12</pdf_index>
-            </p29>
+            </p28>
          </pieces>
       </s4>
-      <p30>
-         <decls_id>p30</decls_id>
+      <p29>
+         <decls_id>p29</decls_id>
          <type>piece</type>
          <title>The Concert Room</title>
          <auth_id>hcwatson</auth_id>
          <auth_name>Henry Cood Watson</auth_name>
          <page>397-398</page>
          <pdf_index>13</pdf_index>
-      </p30>
-      <p31>
-         <decls_id>p31</decls_id>
+      </p29>
+      <p30>
+         <decls_id>p30</decls_id>
          <type>piece</type>
          <title>To Correspondents</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>398</page>
          <pdf_index>14</pdf_index>
-      </p31>
+      </p30>
       <s5>
          <decls_id>s5</decls_id>
          <type>section</type>
@@ -306,13 +306,13 @@
          <page>398-400</page>
          <pdf_index>14</pdf_index>
       </s5>
-      <p32>
-         <decls_id>p32</decls_id>
+      <p31>
+         <decls_id>p31</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>400</page>
          <pdf_index>16</pdf_index>
-      </p32>
+      </p31>
    </toc>
    <issueMeta>
       <issueId>18450621</issueId>
@@ -482,7 +482,7 @@
       <p9>
          <pieceMeta>
             <pieceId>p9</pieceId>
-            <pieceTitle>Thorwaldsen’s Statue of Byron</pieceTitle>
+            <pieceTitle>Thorwaldsen's Statue of Byron</pieceTitle>
             <piecePage>391-392</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>
@@ -772,10 +772,10 @@
             </pieceListPerson>
          </pieceMeta>
       </p23>
-      <p25>
+      <p24>
          <pieceMeta>
-            <pieceId>p25</pieceId>
-            <pieceTitle>Number One’s</pieceTitle>
+            <pieceId>p24</pieceId>
+            <pieceTitle>Number One's</pieceTitle>
             <piecePage>396</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
@@ -786,13 +786,32 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p25>
+      </p24>
       <s4>
          <sectionMeta>
             <sectionId>s4</sectionId>
             <sectionTitle>The Fine Arts</sectionTitle>
          </sectionMeta>
       </s4>
+      <p25>
+         <sectionMeta>
+            <sectionId>s4</sectionId>
+            <sectionTitle>The Fine Arts</sectionTitle>
+         </sectionMeta>
+         <pieceMeta>
+            <pieceId>p25</pieceId>
+            <pieceTitle>We Have Seen a Proof Impression</pieceTitle>
+            <piecePage>396-397</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
+            <pieceListPerson>
+               <anon>
+                  <personName>Anonymous</personName>
+                  <personPieceRole>Contributor</personPieceRole>
+                  <authorShip>Authorship is unknown.</authorShip>
+               </anon>
+            </pieceListPerson>
+         </pieceMeta>
+      </p25>
       <p26>
          <sectionMeta>
             <sectionId>s4</sectionId>
@@ -800,9 +819,9 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p26</pieceId>
-            <pieceTitle>We Have Seen a Proof Impression</pieceTitle>
-            <piecePage>396-397</piecePage>
-            <piecePdfIndex>12</piecePdfIndex>
+            <pieceTitle>A New Painting</pieceTitle>
+            <piecePage>397</piecePage>
+            <piecePdfIndex>13</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -819,9 +838,9 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p27</pieceId>
-            <pieceTitle>A New Painting</pieceTitle>
-            <piecePage>397</piecePage>
-            <piecePdfIndex>13</piecePdfIndex>
+            <pieceTitle>Mr. E. L. Carey</pieceTitle>
+            <piecePage>396</piecePage>
+            <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
                <anon>
                   <personName>Anonymous</personName>
@@ -838,7 +857,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p28</pieceId>
-            <pieceTitle>Mr. E. L. Carey</pieceTitle>
+            <pieceTitle>Horace Kneeland</pieceTitle>
             <piecePage>396</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
@@ -851,27 +870,8 @@
          </pieceMeta>
       </p28>
       <p29>
-         <sectionMeta>
-            <sectionId>s4</sectionId>
-            <sectionTitle>The Fine Arts</sectionTitle>
-         </sectionMeta>
          <pieceMeta>
             <pieceId>p29</pieceId>
-            <pieceTitle>Horace Kneeland</pieceTitle>
-            <piecePage>396</piecePage>
-            <piecePdfIndex>12</piecePdfIndex>
-            <pieceListPerson>
-               <anon>
-                  <personName>Anonymous</personName>
-                  <personPieceRole>Contributor</personPieceRole>
-                  <authorShip>Authorship is unknown.</authorShip>
-               </anon>
-            </pieceListPerson>
-         </pieceMeta>
-      </p29>
-      <p30>
-         <pieceMeta>
-            <pieceId>p30</pieceId>
             <pieceTitle>The Concert Room</pieceTitle>
             <piecePage>397-398</piecePage>
             <piecePdfIndex>13</piecePdfIndex>
@@ -883,10 +883,10 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p30>
-      <p31>
+      </p29>
+      <p30>
          <pieceMeta>
-            <pieceId>p31</pieceId>
+            <pieceId>p30</pieceId>
             <pieceTitle>To Correspondents</pieceTitle>
             <piecePage>398</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -898,7 +898,7 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p31>
+      </p30>
       <s5>
          <sectionMeta>
             <sectionId>s5</sectionId>
@@ -907,13 +907,13 @@
             <sectionPdfIndex>14</sectionPdfIndex>
          </sectionMeta>
       </s5>
-      <p32>
+      <p31>
          <pieceMeta>
-            <pieceId>p32</pieceId>
+            <pieceId>p31</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>400</piecePage>
             <piecePdfIndex>16</piecePdfIndex>
          </pieceMeta>
-      </p32>
+      </p31>
    </listBibl>
 </issue>

@@ -143,96 +143,96 @@
             </p15>
          </pieces>
       </s1>
-      <p20>
-         <decls_id>p20</decls_id>
+      <p16>
+         <decls_id>p16</decls_id>
          <type>piece</type>
          <title>The Magazines</title>
          <auth_id>cfbriggs</auth_id>
          <auth_name>Charles Frederick Briggs</auth_name>
          <page>346</page>
          <pdf_index>10</pdf_index>
-      </p20>
-      <p21>
-         <decls_id>p21</decls_id>
+      </p16>
+      <p17>
+         <decls_id>p17</decls_id>
          <type>piece</type>
          <title>Musical Review</title>
          <auth_id>hcwatson</auth_id>
          <auth_name>Henry Cood Watson</auth_name>
          <page>346</page>
          <pdf_index>10</pdf_index>
-      </p21>
-      <p22>
-         <decls_id>p22</decls_id>
+      </p17>
+      <p18>
+         <decls_id>p18</decls_id>
          <type>piece</type>
          <title>Musical Items</title>
          <auth_id>hcwatson</auth_id>
          <auth_name>Henry Cood Watson</auth_name>
          <page>346-347</page>
          <pdf_index>10</pdf_index>
-      </p22>
-      <p23>
-         <decls_id>p23</decls_id>
+      </p18>
+      <p19>
+         <decls_id>p19</decls_id>
          <type>piece</type>
          <title>To Lenore</title>
          <auth_id>fsosgood</auth_id>
          <auth_name>Frances Sargent Osgood</auth_name>
          <page>347</page>
          <pdf_index>11</pdf_index>
-      </p23>
-      <p24>
-         <decls_id>p24</decls_id>
+      </p19>
+      <p20>
+         <decls_id>p20</decls_id>
          <type>piece</type>
          <title>Delightful Sights</title>
          <auth_id>wwhitman</auth_id>
          <auth_name>Walter Whitman</auth_name>
          <page>347</page>
          <pdf_index>11</pdf_index>
-      </p24>
-      <p25>
-         <decls_id>p25</decls_id>
+      </p20>
+      <p21>
+         <decls_id>p21</decls_id>
          <type>piece</type>
          <title>Native Talent vs. Foreign Talent</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>347</page>
          <pdf_index>11</pdf_index>
-      </p25>
+      </p21>
       <s2>
          <decls_id>s2</decls_id>
          <type>section</type>
          <title>Literary Gossip</title>
          <pieces>
-            <p26>
-               <decls_id>p26</decls_id>
+            <p22>
+               <decls_id>p22</decls_id>
                <type>piece</type>
                <title>Thomas Hood</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>347-348</page>
                <pdf_index>11</pdf_index>
-            </p26>
-            <p27>
-               <decls_id>p27</decls_id>
+            </p22>
+            <p23>
+               <decls_id>p23</decls_id>
                <type>piece</type>
                <title>The Author of Eothen</title>
                <auth_id>cfbriggs</auth_id>
                <auth_name>Charles Frederick Briggs</auth_name>
                <page>348</page>
                <pdf_index>12</pdf_index>
-            </p27>
-            <p28>
-               <decls_id>p28</decls_id>
+            </p23>
+            <p24>
+               <decls_id>p24</decls_id>
                <type>piece</type>
                <title>An American gentleman who has lately returned from Europe</title>
                <auth_id>eapoe</auth_id>
                <auth_name>Edgar Allan Poe</auth_name>
                <page>348</page>
                <pdf_index>12</pdf_index>
-            </p28>
+            </p24>
          </pieces>
       </s2>
-      <p29>
-         <decls_id>p29</decls_id>
+      <p25>
+         <decls_id>p25</decls_id>
          <type>piece</type>
          <title>Miscellanea</title>
          <auth_id>eapoe</auth_id>
@@ -243,34 +243,34 @@
          <auth_name>Henry Cood Watson</auth_name>
          <page>348-350</page>
          <pdf_index>12</pdf_index>
-      </p29>
-      <p30>
-         <decls_id>p30</decls_id>
+      </p25>
+      <p26>
+         <decls_id>p26</decls_id>
          <type>piece</type>
          <title>The Whippoorwill</title>
          <auth_id>wgsimms</auth_id>
          <auth_name>William Gilmore Simms</auth_name>
          <page>350</page>
          <pdf_index>14</pdf_index>
-      </p30>
-      <p31>
-         <decls_id>p31</decls_id>
+      </p26>
+      <p27>
+         <decls_id>p27</decls_id>
          <type>piece</type>
          <title>New American Publications</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>350</page>
          <pdf_index>14</pdf_index>
-      </p31>
-      <p32>
-         <decls_id>p32</decls_id>
+      </p27>
+      <p28>
+         <decls_id>p28</decls_id>
          <type>piece</type>
          <title>Notice to Correspondents</title>
          <auth_id>anon</auth_id>
          <auth_name>Anonymous</auth_name>
          <page>350</page>
          <pdf_index>14</pdf_index>
-      </p32>
+      </p28>
       <s3>
          <decls_id>s3</decls_id>
          <type>section</type>
@@ -278,13 +278,13 @@
          <page>350-352</page>
          <pdf_index>14</pdf_index>
       </s3>
-      <p33>
-         <decls_id>p33</decls_id>
+      <p29>
+         <decls_id>p29</decls_id>
          <type>piece</type>
          <title>Agents for the Broadway Journal</title>
          <page>351</page>
          <pdf_index>15</pdf_index>
-      </p33>
+      </p29>
    </toc>
    <issueMeta>
       <issueId>18450531</issueId>
@@ -594,9 +594,9 @@
             </pieceListPerson>
          </pieceMeta>
       </p15>
-      <p20>
+      <p16>
          <pieceMeta>
-            <pieceId>p20</pieceId>
+            <pieceId>p16</pieceId>
             <pieceTitle>The Magazines</pieceTitle>
             <piecePage>346</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
@@ -608,10 +608,10 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </p20>
-      <p21>
+      </p16>
+      <p17>
          <pieceMeta>
-            <pieceId>p21</pieceId>
+            <pieceId>p17</pieceId>
             <pieceTitle>Musical Review</pieceTitle>
             <piecePage>346</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
@@ -623,10 +623,10 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p21>
-      <p22>
+      </p17>
+      <p18>
          <pieceMeta>
-            <pieceId>p22</pieceId>
+            <pieceId>p18</pieceId>
             <pieceTitle>Musical Items</pieceTitle>
             <piecePage>346-347</piecePage>
             <piecePdfIndex>10</piecePdfIndex>
@@ -638,10 +638,10 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p22>
-      <p23>
+      </p18>
+      <p19>
          <pieceMeta>
-            <pieceId>p23</pieceId>
+            <pieceId>p19</pieceId>
             <pieceTitle>To Lenore</pieceTitle>
             <piecePage>347</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -653,10 +653,10 @@
                </fsosgood>
             </pieceListPerson>
          </pieceMeta>
-      </p23>
-      <p24>
+      </p19>
+      <p20>
          <pieceMeta>
-            <pieceId>p24</pieceId>
+            <pieceId>p20</pieceId>
             <pieceTitle>Delightful Sights</pieceTitle>
             <piecePage>347</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -668,10 +668,10 @@
                </wwhitman>
             </pieceListPerson>
          </pieceMeta>
-      </p24>
-      <p25>
+      </p20>
+      <p21>
          <pieceMeta>
-            <pieceId>p25</pieceId>
+            <pieceId>p21</pieceId>
             <pieceTitle>Native Talent vs. Foreign Talent</pieceTitle>
             <piecePage>347</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -683,20 +683,20 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p25>
+      </p21>
       <s2>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Literary Gossip</sectionTitle>
          </sectionMeta>
       </s2>
-      <p26>
+      <p22>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Literary Gossip</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p26</pieceId>
+            <pieceId>p22</pieceId>
             <pieceTitle>Thomas Hood</pieceTitle>
             <piecePage>347-348</piecePage>
             <piecePdfIndex>11</piecePdfIndex>
@@ -708,14 +708,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </p26>
-      <p27>
+      </p22>
+      <p23>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Literary Gossip</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p27</pieceId>
+            <pieceId>p23</pieceId>
             <pieceTitle>The Author of Eothen</pieceTitle>
             <piecePage>348</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -727,14 +727,14 @@
                </cfbriggs>
             </pieceListPerson>
          </pieceMeta>
-      </p27>
-      <p28>
+      </p23>
+      <p24>
          <sectionMeta>
             <sectionId>s2</sectionId>
             <sectionTitle>Literary Gossip</sectionTitle>
          </sectionMeta>
          <pieceMeta>
-            <pieceId>p28</pieceId>
+            <pieceId>p24</pieceId>
             <pieceTitle>An American gentleman who has lately returned from Europe</pieceTitle>
             <piecePage>348</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -746,10 +746,10 @@
                </eapoe>
             </pieceListPerson>
          </pieceMeta>
-      </p28>
-      <p29>
+      </p24>
+      <p25>
          <pieceMeta>
-            <pieceId>p29</pieceId>
+            <pieceId>p25</pieceId>
             <pieceTitle>Miscellanea</pieceTitle>
             <piecePage>348-350</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
@@ -771,10 +771,10 @@
                </hcwatson>
             </pieceListPerson>
          </pieceMeta>
-      </p29>
-      <p30>
+      </p25>
+      <p26>
          <pieceMeta>
-            <pieceId>p30</pieceId>
+            <pieceId>p26</pieceId>
             <pieceTitle>The Whippoorwill</pieceTitle>
             <piecePage>350</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -785,10 +785,10 @@
                </wgsimms>
             </pieceListPerson>
          </pieceMeta>
-      </p30>
-      <p31>
+      </p26>
+      <p27>
          <pieceMeta>
-            <pieceId>p31</pieceId>
+            <pieceId>p27</pieceId>
             <pieceTitle>New American Publications</pieceTitle>
             <piecePage>350</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -800,10 +800,10 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p31>
-      <p32>
+      </p27>
+      <p28>
          <pieceMeta>
-            <pieceId>p32</pieceId>
+            <pieceId>p28</pieceId>
             <pieceTitle>Notice to Correspondents</pieceTitle>
             <piecePage>350</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
@@ -815,7 +815,7 @@
                </anon>
             </pieceListPerson>
          </pieceMeta>
-      </p32>
+      </p28>
       <s3>
          <sectionMeta>
             <sectionId>s3</sectionId>
@@ -824,13 +824,13 @@
             <sectionPdfIndex>14</sectionPdfIndex>
          </sectionMeta>
       </s3>
-      <p33>
+      <p29>
          <pieceMeta>
-            <pieceId>p33</pieceId>
+            <pieceId>p29</pieceId>
             <pieceTitle>Agents for the Broadway Journal</pieceTitle>
             <piecePage>351</piecePage>
             <piecePdfIndex>15</piecePdfIndex>
          </pieceMeta>
-      </p33>
+      </p29>
    </listBibl>
 </issue>

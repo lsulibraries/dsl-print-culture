@@ -49,7 +49,7 @@
       <p6>
          <decls_id>p6</decls_id>
          <type>piece</type>
-         <title>Silence—A Fable</title>
+         <title>Silence--A Fable</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>135-136</page>
@@ -386,7 +386,7 @@
       <p6>
          <pieceMeta>
             <pieceId>p6</pieceId>
-            <pieceTitle>Silence—A Fable</pieceTitle>
+            <pieceTitle>Silence--A Fable</pieceTitle>
             <piecePage>135-136</piecePage>
             <piecePdfIndex>7</piecePdfIndex>
             <pieceListPerson>

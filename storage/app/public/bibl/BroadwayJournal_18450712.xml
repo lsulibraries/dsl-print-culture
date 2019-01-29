@@ -134,7 +134,7 @@
             <p14>
                <decls_id>p14</decls_id>
                <type>piece</type>
-               <title>Mr. Fry’s Opera</title>
+               <title>Mr. Fry's Opera</title>
                <auth_id>hcwatson</auth_id>
                <auth_name>Henry Cood Watson</auth_name>
                <page>12-13</page>
@@ -172,7 +172,7 @@
       <p18>
          <decls_id>p18</decls_id>
          <type>piece</type>
-         <title>Alexander von Humboldt’s “Cosmos”</title>
+         <title>Alexander von Humboldt's "Cosmos"</title>
          <auth_id>eapoe</auth_id>
          <auth_name>Edgar Allan Poe</auth_name>
          <page>14-15</page>
@@ -472,7 +472,7 @@
          </sectionMeta>
          <pieceMeta>
             <pieceId>p14</pieceId>
-            <pieceTitle>Mr. Fry’s Opera</pieceTitle>
+            <pieceTitle>Mr. Fry's Opera</pieceTitle>
             <piecePage>12-13</piecePage>
             <piecePdfIndex>12</piecePdfIndex>
             <pieceListPerson>
@@ -536,7 +536,7 @@
       <p18>
          <pieceMeta>
             <pieceId>p18</pieceId>
-            <pieceTitle>Alexander von Humboldt’s “Cosmos”</pieceTitle>
+            <pieceTitle>Alexander von Humboldt's "Cosmos"</pieceTitle>
             <piecePage>14-15</piecePage>
             <piecePdfIndex>14</piecePdfIndex>
             <pieceListPerson>
