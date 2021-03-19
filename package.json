@@ -22,7 +22,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "ssri": "^5.2.2",
+    "ssri": "^8.0.1",
     "vue-pdf": "^3.1.9",
     "vue-router": "^3.0.1"
   }
